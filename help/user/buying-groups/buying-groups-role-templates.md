@@ -3,9 +3,9 @@ title: Acquisto di modelli di ruolo del gruppo
 description: Scopri come definire un modello di ruolo da utilizzare come componente del gruppo di acquisto.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 8afc432e7caeb2bf7e632276a7432d0a010f9ab2
+source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,23 @@ In un mercato B2B, le decisioni di acquisto sono solitamente prese da più indiv
 
 1. Aggiungere una regola per ogni ruolo che si desidera definire per il modello.
 
-   Per la versione corrente sono disponibili sei ruoli: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` e `Other`.
+* Scegliere il **[!UICONTROL Ruolo gruppo acquisti]** dall&#39;elenco.
 
-   ![Elenco ruoli gruppo acquisti](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+  Per la versione corrente sono disponibili sei ruoli: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` e `Other`.
 
-   * Scegliere un ruolo dall&#39;elenco.
+![Elenco ruoli gruppo acquisti](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-   * Fare clic su **[!UICONTROL Aggiungi condizione]**.
+* Imposta **[!UICONTROL Ponderazione]** per il ruolo, utilizzato per calcolare il punteggio di coinvolgimento.
+
+  Il valore di ciascuna opzione viene convertito in percentuale per il calcolo del punteggio: [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Importante] = 80, e [!UICONTROL Vital] = 100.
+
+  Ad esempio, un modello di ruolo con ruoli che utilizzano Vital, Importante e Normale viene quindi convertito come 100/240, 80/240, 60/240.
+
+* **[!UICONTROL Aggiungi condizioni per l&#39;assegnazione automatica]** - Selezionare questa casella di controllo per aggiungere condizioni per l&#39;assegnazione automatica dei membri al gruppo di acquisto che soddisfano la condizione. Se la casella di controllo non è selezionata, l’aggiunta di condizioni NON è richiesta.
+
+* **[!UICONTROL Necessario per il punteggio di completezza]** - Selezionare questa casella di controllo per il ruolo se si desidera che sia un requisito per il calcolo di un punteggio di completezza. —>
+
+* Fare clic su **[!UICONTROL Aggiungi condizione]**.
 
    * Nella finestra di dialogo della condizione, espandi l&#39;elenco di **[!UICONTROL attributi persona]** e individua un attributo che desideri utilizzare per corrispondere al ruolo. Trascinalo a destra e rilascialo nello spazio del filtro.
 
@@ -77,19 +87,15 @@ In un mercato B2B, le decisioni di acquisto sono solitamente prese da più indiv
 
    * Fai clic su **[!UICONTROL Fine]**.
 
-   Per ogni ruolo aggiuntivo che si desidera includere nel modello, fare clic su **[!UICONTROL Aggiungi un altro ruolo]** e definire una o più condizioni corrispondenti per il ruolo.
+Per ogni ruolo aggiuntivo che si desidera includere nel modello, fare clic su **[!UICONTROL Aggiungi un altro ruolo]** e definire una o più condizioni corrispondenti per il ruolo.
 
-   ![Modello ruoli con più ruoli definiti](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+![Modello ruoli con più ruoli definiti](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. Se il modello è pronto per l&#39;uso, fare clic su **[!UICONTROL Publish]** in alto a destra.
 
    La pubblicazione del modello lo imposta sullo stato _Live_ e lo rende disponibile per l&#39;associazione a un interesse per la soluzione. Per pubblicare il modello dei ruoli deve essere presente almeno un ruolo definito.
 
    Le modifiche vengono salvate automaticamente nello stato _Bozza_. Se non si è pronti per pubblicare il modello di ruoli, fare clic sulla freccia sinistra (indietro) nella parte superiore della pagina e tornare all&#39;elenco Modelli di ruoli.
-<!-- 
-< PM -- the Required for completion checkbox is not available to clear. Is this functional for Beta? >
-
-Required for completion checkbox - select this for a role if it is required to calculate the completeness score. -->
 
 ## Modificare un modello di ruoli bozza
 

@@ -3,9 +3,9 @@ title: Percorsi di account
 description: Scopri come creare e gestire i percorsi di account.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 59407f21319ff1b84e4fd001c4e92cfff61c57c9
+source-git-commit: 07198448d168e66023fada332f38099890ba4a1b
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Definisci un coinvolgimento basato sulle vendite che includa e-mail, SMS e altri
 
 Questa tabella include la possibilità di eseguire ricerche per nome e Creato da. Ordinamento non disponibile.
 
-Puoi personalizzare la tabella visualizzata facendo clic sull’icona delle colonne nell’angolo in alto a destra e selezionando o deselezionando le caselle di controllo.
+Puoi personalizzare la tabella visualizzata facendo clic sull&#39;icona _Colonne_ nell&#39;angolo in alto a destra e selezionando o deselezionando le caselle di controllo.
 
 ![Scegliere le colonne da visualizzare nell&#39;elenco dei percorsi di account](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
@@ -46,7 +46,7 @@ Fare clic sul nome (visualizzato come collegamento) nell&#39;elenco _[!UICONTROL
 
 ![Area di lavoro percorso account](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
-L’intestazione dell’editor di ciascun percorso include:
+L’intestazione dell’editor di ciascun percorso di account include:
 
 * Nome percorso
 * Possibilità di modificare il nome (_Modifica_ icona)

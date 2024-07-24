@@ -2,9 +2,9 @@
 title: Documentazione sull’edizione B2B di Adobe Journey Optimizer
 description: Scopri come utilizzare le funzioni della versione B2B di Adobe Journey Optimizer.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: dc8301ba755aaf457b955ffbb9c6f0eff6d5a295
+source-git-commit: f8b8f2a4ee813094389d1f262f729a9e95502c6a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '362'
 ht-degree: 2%
 
 ---
@@ -88,24 +88,25 @@ Crea percorsi personalizzati per gruppi di acquisto all’interno di account tar
       <strong>Gruppi di acquisto</strong><br/><a href="./buying-groups/buying-groups-overview.md">Panoramica sui gruppi di acquisto</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Modelli di ruolo</a><br/><a href="./buying-groups/solution-interests.md">Interessi sulla soluzione</a><br/><a href="./buying-groups/buying-groups-create.md">Crea gruppi di acquisto</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>Contenuto Percorso</strong><br/><a href="./content/email-authoring.md">Authoring e-mail</a><br/><a href="./content/ai-assistant-emails.md">Assistente AI per e-mail</a><br/><a href="./content/sms-authoring.md">Authoring SMS</a>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
+      <strong>percorsi di account</strong><br/><a href="./journeys/journey-overview.md">Panoramica sui Percorsi</a><br/><a href="./journeys/journey-nodes.md">Nodi di Percorsi</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Creazione di un percorso di account</a>
     </td>
   </tr>
   <tr style="border: 0;">
+    <td>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
+      <strong>Contenuto Percorso</strong><br/><a href="./content/email-authoring.md">Authoring e-mail</a><br/><a href="./content/ai-assistant-emails.md">Assistente AI per e-mail</a><br/><a href="./content/sms-authoring.md">Authoring SMS</a>
+    </td>
         <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
-      <strong>percorsi di account</strong><br/><a href="./journeys/journey-overview.md">Panoramica sui Percorsi</a><br/><a href="./journeys/journey-nodes.md">Nodi di Percorsi</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Creazione di un percorso di account</a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
+      <strong>Assets</strong><br/><a href="./content/assets-overview.md">Panoramica</a><br/><a href="./content/marketo-engage-design-studio.md">Marketo Engage Design Studio</a><br/><a href="./content/aem-assets.md">Adobe Experience Manager Assets</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>
       <strong>Approfondimenti</strong><br/><a href="./dashboards/buying-groups-dashboard.md">Dashboard dei gruppi di acquisto</a><br/><a href="./dashboards/journeys-dashboard.md">Dashboard dei Percorsi</a><br/><a href="./dashboards/engagement-dashboard.md">Dashboard di coinvolgimento</a>
     </td>
-    <td>
-      <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>Integrazioni</strong><br/><a href="./integrations/experience-manager-assets-integration.md">Adobe Experience Manager Assets</a>
-    </td>
-  </tr>
+
+</tr>
 </table>
 
 <!-- 

@@ -3,16 +3,16 @@ title: Dashboard panoramica percorso
 description: Scopri le informazioni fornite dal dashboard Panoramica Percorso e come possono essere utili per monitorare e gestire la strategia di Percorso dell’account.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 3223a1379fad0da8b46af8c2f3929e79fafbd256
+source-git-commit: d1505512a45b2e47f8d867a8c1abe28ddc2565f0
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # Dashboard panoramica percorso
 
-Questa dashboard offre una visualizzazione completa del coinvolgimento e mostra metriche in tempo reale di account e interazioni individuali tramite istantanee di grafici ad anello e grafici a linee che rivelano le tendenze nel tempo. Consente di monitorare e pianificare in modo efficace le attività di coinvolgimento.
+Questa dashboard offre una panoramica completa di un percorso di account selezionato, con informazioni dettagliate sull’avanzamento dell’account utilizzando grafici ad anello e a linee che categorizzano e quantificano completamenti, attività in corso e interruzioni nel tempo. Aiuta gli esperti di marketing a valutare l’efficacia dei canali E-mail e SMS attraverso metriche chiave di consegna e coinvolgimento.
 
 ## Stato percorso
 
@@ -85,7 +85,3 @@ Fai clic sul pulsante nell’angolo in alto a destra per nascondere o visualizza
 * [!UICONTROL Data di ingresso]
 * [!UICONTROL Data di uscita]
 * [!UICONTROL Numero di Percorsi]
-
-Filtro globale:
-
-Filtro data
