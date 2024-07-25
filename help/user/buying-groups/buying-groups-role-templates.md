@@ -3,7 +3,7 @@ title: Acquisto di modelli di ruolo del gruppo
 description: Scopri come definire un modello di ruolo da utilizzare come componente del gruppo di acquisto.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
+source-git-commit: 19633e2676c3e9d747a1e65bfc48a3ba421674b9
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 0%
@@ -55,41 +55,41 @@ In un mercato B2B, le decisioni di acquisto sono solitamente prese da più indiv
 
 1. Aggiungere una regola per ogni ruolo che si desidera definire per il modello.
 
-* Scegliere il **[!UICONTROL Ruolo gruppo acquisti]** dall&#39;elenco.
+   * Scegliere il **[!UICONTROL Ruolo gruppo acquisti]** dall&#39;elenco.
 
-  Per la versione corrente sono disponibili sei ruoli: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` e `Other`.
+     Per la versione corrente sono disponibili sei ruoli: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` e `Other`.
 
-![Elenco ruoli gruppo acquisti](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+     ![Elenco ruoli gruppo acquisti](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-* Imposta **[!UICONTROL Ponderazione]** per il ruolo, utilizzato per calcolare il punteggio di coinvolgimento.
+   * Imposta **[!UICONTROL Ponderazione]** per il ruolo, utilizzato per calcolare il punteggio di coinvolgimento.
 
-  Il valore di ciascuna opzione viene convertito in percentuale per il calcolo del punteggio: [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Importante] = 80, e [!UICONTROL Vital] = 100.
+     Il valore di ciascuna opzione viene convertito in percentuale per il calcolo del punteggio: [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Importante] = 80, e [!UICONTROL Vital] = 100.
 
-  Ad esempio, un modello di ruolo con ruoli che utilizzano Vital, Importante e Normale viene quindi convertito come 100/240, 80/240, 60/240.
+     Ad esempio, un modello di ruolo con ruoli che utilizzano Vital, Importante e Normale viene quindi convertito come 100/240, 80/240, 60/240.
 
-* **[!UICONTROL Aggiungi condizioni per l&#39;assegnazione automatica]** - Selezionare questa casella di controllo per aggiungere condizioni per l&#39;assegnazione automatica dei membri al gruppo di acquisto che soddisfano la condizione. Se la casella di controllo non è selezionata, l’aggiunta di condizioni NON è richiesta.
+   * **[!UICONTROL Aggiungi condizioni per l&#39;assegnazione automatica]** - Selezionare questa casella di controllo per aggiungere condizioni per l&#39;assegnazione automatica dei membri al gruppo di acquisto che soddisfano la condizione. Se la casella di controllo non è selezionata, l’aggiunta di condizioni NON è richiesta.
 
-* **[!UICONTROL Necessario per il punteggio di completezza]** - Selezionare questa casella di controllo per il ruolo se si desidera che sia un requisito per il calcolo di un punteggio di completezza. —>
+   * **[!UICONTROL Necessario per il punteggio di completezza]** - Selezionare questa casella di controllo per il ruolo se si desidera che sia un requisito per il calcolo di un punteggio di completezza. —>
 
-* Fare clic su **[!UICONTROL Aggiungi condizione]**.
+   * Fare clic su **[!UICONTROL Aggiungi condizione]**.
 
-   * Nella finestra di dialogo della condizione, espandi l&#39;elenco di **[!UICONTROL attributi persona]** e individua un attributo che desideri utilizzare per corrispondere al ruolo. Trascinalo a destra e rilascialo nello spazio del filtro.
+      * Nella finestra di dialogo della condizione, espandi l&#39;elenco di **[!UICONTROL attributi persona]** e individua un attributo che desideri utilizzare per corrispondere al ruolo. Trascinalo a destra e rilascialo nello spazio del filtro.
 
-     ![Attributo trascinamento condizione aggiunta modello ruoli](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+        ![Attributo trascinamento condizione aggiunta modello ruoli](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
-   * Utilizza l’attributo per creare un filtro corrispondente utilizzando uno o più valori.
+      * Utilizza l’attributo per creare un filtro corrispondente utilizzando uno o più valori.
 
-     Nell’esempio seguente, l’attributo Job title viene utilizzato per identificare una corrispondenza per Decision Maker. Qualsiasi valore per il titolo che inizia con `Director` o `Sr Director` restituisce true per la condizione.
+        Nell’esempio seguente, l’attributo Job title viene utilizzato per identificare una corrispondenza per Decision Maker. Qualsiasi valore per il titolo che inizia con `Director` o `Sr Director` restituisce true per la condizione.
 
-     ![Esempio di condizione del modello dei ruoli che utilizza il titolo del processo](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
+        ![Esempio di condizione del modello dei ruoli che utilizza il titolo del processo](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * Se necessario, aggiungi un altro attributo e una condizione che perfeziona ulteriormente i criteri per una corrispondenza al ruolo.
+      * Se necessario, aggiungi un altro attributo e una condizione che perfeziona ulteriormente i criteri per una corrispondenza al ruolo.
 
-   * Fai clic su **[!UICONTROL Fine]**.
+      * Fai clic su **[!UICONTROL Fine]**.
 
-Per ogni ruolo aggiuntivo che si desidera includere nel modello, fare clic su **[!UICONTROL Aggiungi un altro ruolo]** e definire una o più condizioni corrispondenti per il ruolo.
+   Per ogni ruolo aggiuntivo che si desidera includere nel modello, fare clic su **[!UICONTROL Aggiungi un altro ruolo]** e definire una o più condizioni corrispondenti per il ruolo.
 
-![Modello ruoli con più ruoli definiti](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+   ![Modello ruoli con più ruoli definiti](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. Se il modello è pronto per l&#39;uso, fare clic su **[!UICONTROL Publish]** in alto a destra.
 

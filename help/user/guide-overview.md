@@ -1,11 +1,11 @@
 ---
 title: Documentazione sull’edizione B2B di Adobe Journey Optimizer
-description: Scopri come utilizzare le funzioni della versione B2B di Adobe Journey Optimizer.
+description: Scopri come utilizzare le funzioni di Adobe Journey Optimizer B2B Edition per orchestrare account e acquistare percorsi di gruppi utilizzando l’intelligenza artificiale generativa integrata e l’automazione leader di settore.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: f8b8f2a4ee813094389d1f262f729a9e95502c6a
+source-git-commit: 595eb7fcf982370cc733f566ea2f51fb02362926
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 2%
+source-wordcount: '404'
+ht-degree: 5%
 
 ---
 
@@ -19,21 +19,25 @@ Di seguito è riportato un esempio degli ultimi miglioramenti introdotti nel pro
 
 >[!BEGINTABS]
 
->[!TAB È disponibile la versione di Beta]
+>[!TAB Assistente IA]
 
-Partecipa al programma Beta per scoprire le numerose funzioni incluse nella versione Beta di Adobe Journey Optimizer B2B Edition.
+Scopri rapidamente i concetti di marketing basati sull’account e le funzionalità della versione B2B di Journey Optimizer progettate per massimizzare le strategie del tuo team.
 
-[!BADGE Ulteriori informazioni]{type=Informative url="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4epuYNI0IWZLgH1mr3nTaPdURThPQjFWR0VaWk9XNjJQTjFER1pYT0lWWi4u" tooltip="Journey Optimizer B2B Edition - Versione Beta"}
+[!BADGE Ulteriori informazioni]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="Scopri di più sull’Assistente AI"}
 
->[!TAB Assistente AI per contenuti e-mail]
-
-Eleva i contenuti a un livello superiore con AI Assistant in Adobe Journey Optimizer B2B Edition, basato sull’intelligenza artificiale generativa. L’Assistente AI può aiutarti a ottimizzare l’impatto delle consegne generando e-mail intere, contenuto di testo mirato e persino immagini appositamente studiate per essere utili al tuo pubblico.
+Eleva il tuo contenuto al livello successivo con AI Assistant per i contenuti e-mail in Adobe Journey Optimizer B2B Edition, basato sull’intelligenza artificiale generativa. L’Assistente AI può aiutarti a ottimizzare l’impatto delle consegne generando e-mail intere, contenuto di testo mirato e persino immagini appositamente studiate per essere utili al tuo pubblico.
 
 [!BADGE Ulteriori informazioni]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="Scopri di più sull’Assistente IA per l’e-mail"}
 
+>[!TAB Frammenti visivi]
+
+Crea componenti riutilizzabili come blocchi di contenuto personalizzati da utilizzare per i membri del team di marketing nell’assemblaggio dei contenuti delle e-mail per un processo di progettazione migliorato.
+
+[!BADGE Ulteriori informazioni]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="Informazioni sui frammenti visivi"}
+
 >[!TAB Gruppi di acquisto]
 
-Crea gruppi di acquisto da dati B2B unificati provenienti dall’intera azienda, allinearli alle offerte della tua azienda e automatizzare la definizione, l’identificazione e il targeting dei membri giusti per ogni ruolo, in modo da scalare il targeting più preciso per i percorsi di clienti.
+Crea gruppi di acquisto da dati B2B unificati provenienti dall’intera azienda. Allineandoli alle offerte della tua azienda, puoi automatizzare la definizione, l’identificazione e il targeting dei membri giusti per ogni ruolo, in modo da ottenere il targeting più preciso per i percorsi di clienti.
 
 [!BADGE Ulteriori informazioni]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="Informazioni sui gruppi di acquisto"}
 
@@ -76,7 +80,7 @@ Crea percorsi personalizzati per gruppi di acquisto all’interno di account tar
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>Accesso e home page</strong><br/><a href="home-page.md#marketer---new-user">Addetto marketing - nuovo utente</a><br/><a href="home-page.md#marketer---advanced-user">Addetto marketing - avanzato</a> <br/><a href="home-page.md#administrator---new-user">Amministratore - nuovo utente</a> <br/><a href="home-page.md#administrator---advanced-user">Amministratore - avanzato</a>
+      <strong>Introduzione</strong><br/><a href="home-page.md">Accesso e home page</a><br/><a href="./start/get-started.md">Guida introduttiva</a> <br/><a href="./start/ai-assistant.md">Assistente AI</a>
     </td>
     <!--
     <td>
@@ -99,7 +103,7 @@ Crea percorsi personalizzati per gruppi di acquisto all’interno di account tar
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
-      <strong>Assets</strong><br/><a href="./content/assets-overview.md">Panoramica</a><br/><a href="./content/marketo-engage-design-studio.md">Marketo Engage Design Studio</a><br/><a href="./content/aem-assets.md">Adobe Experience Manager Assets</a>
+      <strong>Gestione dei contenuti</strong><br/><a href="./content/assets-overview.md">Panoramica di Assets</a><br/><a href="./content/email-templates.md">Modelli e-mail</a><br/><a href="./content/fragments.md">Frammenti visivi</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>
