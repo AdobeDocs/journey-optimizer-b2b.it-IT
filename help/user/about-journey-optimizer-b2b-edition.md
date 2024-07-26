@@ -1,7 +1,8 @@
 ---
 title: Panoramica dell’edizione B2B di Adobe Journey Optimizer
 description: Scopri le funzioni chiave, i casi d’uso e le architetture di Adobe Journey Optimizer B2B Edition.
-source-git-commit: b9fc31ed31cf05370f1370510d966b8151e14695
+exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
+source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Confrontando Adobe Journey Optimizer B2B Edition con Marketo Engage e Adobe Jour
 
 La versione B2B di Adobe Journey Optimizer utilizza _tipi di pubblico per account_ e _tipi di pubblico per persone_ dell&#39;account da Adobe Experience Platform per alimentare un percorso di account, eseguito all&#39;interno del Marketo Engage. L’Experience Platform è sempre la fonte di verità per questi dati, ma tutta l’esecuzione e l’elaborazione del percorso dell’account avviene all’interno dell’infrastruttura di marketing B2B di Marketo Engage. L’orchestrazione porta i dati all’Experience Platform quasi in tempo reale dal connettore di origine del Marketo Engage esistente, Adobe Real-Time CDP B2B Edition, che trasmette le modifiche dei dati da un Marketi Engage Experience Platform all’altro.
 
-![Architettura dei dati di alto livello](./assets/high-level-data-architecture.png){width="600" zoomable="yes"}
+![Architettura dei dati di alto livello](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
 
 ### Modello di abbonamento
 
@@ -41,4 +42,3 @@ Dopo la creazione, il percorso di account deve essere pubblicato. Al momento del
 La versione B2B di Journey Optimizer utilizza la segmentazione dell’account di Real-Time CDP sia per la definizione che per l’esecuzione dei segmenti dell’account e dei segmenti della persona dell’account correlati richiesti dai percorsi. Quando viene eseguito un percorso pubblicato, i dati sulle persone e sugli account possono cambiare e i dati vengono raccolti sulle persone che interagiscono con il percorso. Journey Optimizer B2B Edition si basa sul connettore di origine del Marketo Engage per Real-Time CDP B2B Edition per riportare le modifiche dei dati alla sandbox Experience Platform, che è la sorgente di verità.  Questi dati vengono consegnati ad AEP quasi in tempo reale.
 
 Solo i tipi di dati esistenti supportati dal connettore di origine del Marketo Engage (account, persone e opportunità) tornano in Real-Time CDP. Ciò significa che i dati del gruppo di acquisto non fluiscono in AEP e risiedono invece nell’istanza di Marketo Engage utilizzata dall’abbonamento Journey Optimizer B2B Edition.
-

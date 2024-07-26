@@ -3,9 +3,9 @@ title: Dashboard panoramica dei gruppi di acquisto
 description: Scopri la dashboard Panoramica dei gruppi di acquisto e come consente il Sales Handoff dal team Marketing.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 1c2f6d6836c95be619ed3b35dd7248ab279a410c
+source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '418'
 ht-degree: 1%
 
 ---
@@ -19,26 +19,52 @@ Il Sales Handoff comprende:
 * **Handoff dati**: il marketing identifica i dati di destinazione _ready_ e li rende accessibili alle vendite in formato CSV. 
 * **Accettazione vendite**: le vendite esaminano manualmente e incorporano _target pronti_ nella pipeline.
 
-![Panoramica sui gruppi di acquisto](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
-
 ## Stato del gruppo di acquisto
 
 Ottieni informazioni sulla progressione dei gruppi di acquisto con la visualizzazione Stato gruppo di acquisto. Questa visualizzazione mostra la distribuzione dei gruppi di acquisto classificati in base al loro aggiornamento di stato più recente entro un intervallo di tempo specificato.
 
+![Panoramica sui gruppi di acquisto](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
+
 **[!UICONTROL Stato]** (asse y): tieni traccia del percorso di gruppi di acquisto in varie fasi.
 **[!UICONTROL Numero di gruppi di acquisto]** (asse x): quantifica il numero di gruppi di acquisto per ogni stato, fornendo una metrica chiara dello stato e dell&#39;attività del funnel.
+<!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. -->
 
-Per generare un PDF condivisibile della visualizzazione corrente, fai clic su **[!UICONTROL Esporta]** nell&#39;angolo superiore destro della pagina. Per interagire con i dati, utilizza il menu Azioni nell’angolo in alto a destra.
+### Filtro dati
+
+* **Filtro dati** - Utilizza il _[!UICONTROL Filtro data]_, che riflette la data dell&#39;ultima modifica dello stato del gruppo di acquisto. La data di inizio è regolabile. Per impostazione predefinita, la data di fine corrisponde al giorno corrente.
+
+  ![Filtraggio dei dati sullo stato del gruppo di acquisto per intervallo di date](./assets//buying-group-status-filter-date.png){width="400"}
+
+* **Filtro attributi** - Fare clic sull&#39;icona _Filtro_ in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno degli attributi seguenti:
+
+   * Interesse soluzione
+   * Stato
+   * Stati gruppo acquisti
+   * Area dell’account
+   * Settore account
+  <!-- * Account's Industry -->
+
+  ![Filtraggio dei dati sullo stato del gruppo di acquisto per attributo](./assets/buying-group-status-drill-through-filters.png){width="500"}
+
+## Coinvolgi i dati
+
+Per interagire con i dati, utilizza il menu Azioni nell’angolo in alto a destra.
+
+![Fare clic sull&#39;icona per accedere al menu delle azioni](./assets/buying-group-more-menu.png){width="400"}
 
 ### [!UICONTROL Drill-through]
 
 Scegliere **[!UICONTROL Esegui drill-through]** per un&#39;analisi approfondita dei singoli stati dei gruppi.
 
-I filtri globali applicati al dashboard vengono riportati e non possono essere modificati da questa pagina.
-Vengono visualizzati i filtri applicati. 
-L&#39;unico filtro disponibile abilitato è _Nome account_.
+![Drill-through per i dati del grafico](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
 
-Per visualizzare o nascondere le colonne disponibili, fare clic su **[!UICONTROL Visualizza altro]** nell&#39;angolo superiore destro:
+I filtri globali applicati al dashboard vengono riportati e non possono essere modificati da questa pagina.
+
+Fai clic sull&#39;icona del menu Azioni in alto a destra e scegli **[!UICONTROL Visualizza altro]** per [visualizzare dati e approfondimenti estesi](#view-more).
+
+### [!UICONTROL Visualizza altro]
+
+Scegli **[!UICONTROL Visualizza altri]** per dati e approfondimenti estesi. Il pop-up visualizzato include un grafico e una tabella che mostrano la suddivisione degli stati dei gruppi di acquisto:
 
 * [!UICONTROL ID account ]
 * [!UICONTROL Nome account]
@@ -58,21 +84,6 @@ Per visualizzare o nascondere le colonne disponibili, fare clic su **[!UICONTROL
 * [!UICONTROL Numero di attività di coinvolgimento in entrata]
 * [!UICONTROL Data ultimo coinvolgimento]
 
-### Filtro
+![Visualizza dati estesi](./assets/buying-group-status-view-more.png){width="600" zoomable="yes"}
 
-Filtro globale: **[!UICONTROL Filtro data]**, che riflette la data dell&#39;ultima modifica dello stato del gruppo di acquisto. La data di inizio è regolabile. Per impostazione predefinita, la data di fine corrisponde al giorno corrente.
-
-Puoi anche filtrare la visualizzazione utilizzando uno dei seguenti attributi:
-
-* Interesse soluzione
-* Elenco interessi soluzione
-* Stato
-* Stati gruppo acquisti
-* Area dell’account
-* Area geografica dell’account
-* Settore account
-* Settore dell&#39;account
-
-### [!UICONTROL Visualizza altro]
-
-Scegli **[!UICONTROL Visualizza altri]** per dati e approfondimenti estesi. Il pop-up visualizzato include un grafico e una tabella che mostrano la suddivisione degli stati del gruppo di acquisto e include un pulsante _[!UICONTROL Scarica CSV]_ nell&#39;angolo superiore destro della tabella.
+Per scaricare i dati, fai clic su **[!UICONTROL Scarica CSV]** in alto a destra.
