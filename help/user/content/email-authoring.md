@@ -3,9 +3,9 @@ title: Authoring di e-mail
 description: Scopri come creare contenuti e-mail personalizzati da utilizzare nei Percorsi di account.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: cae7aa7faa67bd1888b85051ff247848b6c3c072
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1314'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Puoi impostare le consegne e-mail in un Percorso di account quando aggiungi un n
 1. Per _[!UICONTROL Azione sulle persone]_, scegli **[!UICONTROL Invia e-mail]**.
 1. Per l&#39;_[!UICONTROL origine e-mail]_, scegli **[!UICONTROL Crea nuova e-mail]**.
 
-   In alternativa, è possibile selezionare l&#39;opzione `Select email from Adobe Marketo Engage` per utilizzare una delle e-mail precreate nel Marketo Engage e inviarla come parte del Percorso di account.
+   In alternativa, è possibile selezionare l&#39;opzione _[!UICONTROL Seleziona e-mail da Adobe Marketo Engage]_ per utilizzare una delle e-mail precreate nel Marketo Engage e inviarla come parte del Percorso account.
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ Dopo aver creato e personalizzato il contenuto dell’e-mail, puoi esportarlo pe
 
 1. Seleziona la scheda **[!UICONTROL Collegamenti]** dal riquadro a sinistra per visualizzare tutti gli URL del contenuto tracciati.
 
-   Puoi modificare il Tipo di tracciamento o l’Etichetta e aggiungere i tag, se necessario.
+   Puoi modificare il _Tipo di tracciamento_ o _Etichetta_ e aggiungere tag se necessario.
 
 Se necessario, puoi personalizzare ulteriormente la tua e-mail facendo clic su **[!UICONTROL Passa all&#39;editor di codice]** dal menu avanzato. L’editor di codice consente di modificare il codice sorgente dell’e-mail, ad esempio aggiungendo tag di tracciamento o HTML personalizzati.
 
@@ -151,7 +151,7 @@ _Per iniziare a creare il contenuto con uno dei modelli di esempio o salvati:_
 
 1. Modificare il contenuto in base alle esigenze in _E-mail Designer_.
 
-## Verifica avvisi
+## Controllare gli avvisi
 
 Durante la progettazione del contenuto dei messaggi e-mail, gli avvisi vengono visualizzati nell’interfaccia (in alto a destra della pagina) quando mancano le impostazioni chiave.
 

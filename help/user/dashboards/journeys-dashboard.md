@@ -1,12 +1,12 @@
 ---
 title: Dashboard panoramica percorso
-description: Scopri le informazioni fornite dal dashboard Panoramica Percorso e come possono essere utili per monitorare e gestire la strategia di Percorso dell’account.
+description: Scopri le informazioni fornite dal dashboard Panoramica Percorso e come possono essere utili per monitorare e gestire la strategia di percorso dell’account.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: d1505512a45b2e47f8d867a8c1abe28ddc2565f0
+source-git-commit: 18e22383c9f9294d209f4c8a6f9f04f074881186
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 0%
+source-wordcount: '414'
+ht-degree: 1%
 
 ---
 
@@ -14,11 +14,15 @@ ht-degree: 0%
 
 Questa dashboard offre una panoramica completa di un percorso di account selezionato, con informazioni dettagliate sull’avanzamento dell’account utilizzando grafici ad anello e a linee che categorizzano e quantificano completamenti, attività in corso e interruzioni nel tempo. Aiuta gli esperti di marketing a valutare l’efficacia dei canali E-mail e SMS attraverso metriche chiave di consegna e coinvolgimento.
 
-## Stato percorso
+Questa panoramica è disponibile per i percorsi di account pubblicati e il popolamento dei grafici e delle tabelle richiede circa quattro ore per i dati.
+
+![Panoramica Percorso](./assets/journey-overview.png){width="700" zoomable="yes"}
+
+## Stato del percorso
 
 Questo grafico ad anello offre una suddivisione degli stati del percorso, suddividendo gli account in `Completed`, `In Progress` e `Aborted`. Ogni segmento è chiaramente etichettato con le percentuali e i numeri di conto corrispondenti sul bordo esterno del grafico.
 
-## Completamento percorso nel tempo
+## Completamento del percorso nel tempo
 
 Questo grafico a linee tiene traccia del numero di account che hanno completato il percorso nel tempo. L’asse orizzontale mappa la timeline, mentre l’asse verticale quantifica i conti, fornendo una visualizzazione diretta delle tendenze di completamento.
 
@@ -26,62 +30,46 @@ Questo grafico a linee tiene traccia del numero di account che hanno completato 
 
 Questa sezione presenta due metriche vitali:
 
-* **[!UICONTROL Percentuale di completamento Percorsi]** - Percentuale di account che hanno completato correttamente il percorso.
+* **[!UICONTROL Tasso di completamento Percorsi]** - Percentuale di account che hanno completato correttamente il percorso.
 * **[!UICONTROL Durata Percorso]** - Tempo medio impiegato dagli account per completare il percorso.
 
 ## Tabelle delle prestazioni di e-mail e SMS
 
-Le tabelle forniscono un’occhiata dettagliata all’efficacia dei canali E-mail e SMS. Ogni tabella presenta metriche, come tassi di consegna e tassi di click-through, per valutare l’impatto di ogni punto di contatto di comunicazione.
+Le tabelle delle prestazioni forniscono un’analisi dettagliata dell’efficacia dei canali E-mail e SMS. Ogni tabella presenta metriche, come tassi di consegna e tassi di click-through, per valutare l’impatto di ogni punto di contatto di comunicazione.
 
-**[!UICONTROL Colonne della tabella Prestazioni e-mail]**:
+**[!UICONTROL Prestazioni e-mail]** colonne tabella:
 
-* `Asset Name`
-* `Name of the Asset`
-* `Sent`
-* `# of emails sent`
-* `Delivery Rate`
-* `# delivered / # sent`
-* `Open Rate`
-* `# opened / # delivered`
-* `Click-Through Rate`
-* `# clicked / # delivered`
+* _[!UICONTROL Nome risorsa]_ - nome risorsa
+* _[!UICONTROL Inviato]_ - numero di e-mail inviate
+* _[!UICONTROL Percentuale di recapito]_ - numero di e-mail consegnate diviso per il numero inviato
+* _[!UICONTROL Percentuale aperture]_ - numero di messaggi e-mail aperti diviso per il numero di messaggi consegnati
+* _[!UICONTROL Percentuale di click-through]_ - numero di e-mail su cui è stato fatto clic diviso per il numero di messaggi consegnati
 
 **[!UICONTROL Prestazioni SMS]** colonne di tabella:
 
-* `Asset Name`
-* `Name of the Asset`
-* `Sent`
-* `# of messages sent`
-* `Delivery Rate`
-* `# delivered / # sent`
-* `Click-Through Rate`
-* `# clicked / # delivered`
+* _[!UICONTROL Nome risorsa]_ - nome risorsa
+* _[!UICONTROL Inviato]_ - numero di messaggi SMS inviati
+* _[!UICONTROL Percentuale di recapito]_ - numero di messaggi SMS recapitati diviso per il numero inviato
+* _[!UICONTROL Percentuale di click-through]_ - numero di messaggi SMS selezionati diviso per il numero recapitato
+<!-- 
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
 
-Per generare un PDF condivisibile della visualizzazione corrente, fai clic su **[!UICONTROL Esporta]** nell&#39;angolo superiore destro della pagina. Per interagire con i dati, utilizza il menu Azioni nell’angolo in alto a destra.
+## Interazione migliorata
 
-Interazione migliorata:
+Interagisci ulteriormente con i dati utilizzando l&#39;icona dell&#39;azione (**...**) in alto a destra di ogni grafico o tabella.
 
-Coinvolgi ulteriormente i dati utilizzando il pulsante di azione nell’angolo in alto a destra. Seleziona &quot;drill-through&quot; per un’analisi approfondita dei singoli stati dei gruppi o &quot;Visualizza altro&quot; per dati e approfondimenti estesi.
+### Drill-through
 
-Visualizza altro:
-Viene visualizzato un pop-up con il grafico e una tabella di dati di ciascun widget.
-Pulsante Scarica CSV nell’angolo in alto a destra della tabella. 
+Per il grafico relativo allo stato del _[!UICONTROL Percorso]_, scegliere **[!UICONTROL Esegui drill-through]** per un&#39;analisi approfondita dei singoli stati degli account.
 
-Drill-through:
+![Drill-through per i dati del grafico](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
+<!--
+The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
 
-I filtri globali applicati vengono trasferiti al dashboard e non possono essere modificati in questa pagina.
-Vengono visualizzati i filtri applicati.
-L&#39;unico filtro disponibile abilitato è _Nome account_.
+### Visualizza altro
 
-Fai clic su **[!UICONTROL Visualizza altro]** per aprire la finestra di dialogo di download.
+Scegli **[!UICONTROL Visualizza altro]** per accedere a dati e approfondimenti estesi. Il pop-up visualizzato fornisce un raggruppamento dei dati.
 
-Fai clic sul pulsante nell’angolo in alto a destra per nascondere o visualizzare una delle colonne disponibili:
+Per scaricare i dati, fai clic su **[!UICONTROL Scarica CSV]** in alto a destra.
 
-* [!UICONTROL Nome account]
-* [!UICONTROL ID account]
-* [!UICONTROL Stato]
-* [!UICONTROL Area]
-* [!UICONTROL Settore]
-* [!UICONTROL Data di ingresso]
-* [!UICONTROL Data di uscita]
-* [!UICONTROL Numero di Percorsi]
+![Visualizza dati estesi](./assets/journey-email-performance-view-more.png){width="600" zoomable="yes"}

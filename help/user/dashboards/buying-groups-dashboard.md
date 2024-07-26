@@ -3,9 +3,9 @@ title: Dashboard panoramica dei gruppi di acquisto
 description: Scopri la dashboard Panoramica dei gruppi di acquisto e come consente il Sales Handoff dal team Marketing.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Ottieni informazioni sulla progressione dei gruppi di acquisto con la visualizza
 
 Per interagire con i dati, utilizza il menu Azioni nell’angolo in alto a destra.
 
-![Fare clic sull&#39;icona per accedere al menu delle azioni](./assets/buying-group-more-menu.png){width="400"}
+![Fare clic sull&#39;icona per accedere al menu delle azioni](./assets/buying-group-more-menu.png){width="300"}
 
 ### [!UICONTROL Drill-through]
 
@@ -58,7 +58,7 @@ Scegliere **[!UICONTROL Esegui drill-through]** per un&#39;analisi approfondita 
 
 ![Drill-through per i dati del grafico](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
 
-I filtri globali applicati al dashboard vengono riportati e non possono essere modificati da questa pagina.
+Vengono riportati i filtri globali applicati al dashboard.
 
 Fai clic sull&#39;icona del menu Azioni in alto a destra e scegli **[!UICONTROL Visualizza altro]** per [visualizzare dati e approfondimenti estesi](#view-more).
 

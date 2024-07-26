@@ -3,10 +3,11 @@ title: Gestione degli utenti
 description: Scopri come assegnare i membri del gruppo ai profili di prodotto della versione B2B di Journey Optimizer.
 feature: Setup
 roles: Admin
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
+source-git-commit: f8ae6e51e76ded14316273c8e746ed814e7eb68b
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 1%
+source-wordcount: '1055'
+ht-degree: 3%
 
 ---
 
@@ -35,13 +36,15 @@ Prima di poter utilizzare l’Admin Console per amministrare gli utenti del team
 
 1. Accedi con il tuo Adobe ID.
 
-   Dopo aver effettuato l’accesso, viene visualizzata la pagina Panoramica di Adobe Admin Console.
+   Dopo aver effettuato l&#39;accesso, viene visualizzata la pagina _Panoramica_ di Adobe Admin Console.
 
 1. Se hai accesso a più organizzazioni, assicurati di aver effettuato l’accesso all’organizzazione corretta.
 
    Per modificare l’organizzazione, fai clic sul nome dell’organizzazione nell’angolo in alto a destra e scegli l’organizzazione a cui desideri accedere.
 
-1. Dalla scheda Utenti, seleziona Amministratori per verificare di essere uno degli amministratori di sistema.
+1. Seleziona **[!UICONTROL Amministratori]** dalla scheda _[!UICONTROL Utenti]_ per verificare di essere un amministratore di sistema.
+
+   ![Panoramica Admin Console - fare clic su Amministratori](./assets/admin-console-overview-administrators.png){width="700" zoomable="yes"}
 
 1. Effettua la ricerca immettendo e-mail, nome utente, nome o cognome Adobe ID.
 
@@ -53,41 +56,56 @@ Prima di poter utilizzare l’Admin Console per amministrare gli utenti del team
 
 Quando consenti l’accesso a una soluzione di Adobe agli utenti, non devi necessariamente concedere loro l’accesso completo. I profili di prodotto consentono a ciascuna soluzione di disporre di un proprio set di autorizzazioni utente. Utilizza l’Admin Console per assegnare profili di prodotto.
 
+Per ulteriori informazioni sull&#39;utilizzo dei profili di prodotto per i diritti utente, consulta [Gestire i profili di prodotto per gli utenti aziendali](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) nella documentazione di Admin Console.
+
 >[!NOTE]
 >
->Questi passaggi possono essere eseguiti solo da un amministratore di Admin Console o da un amministratore di prodotto di Marketo Engage.
+>Un amministratore di Admin Console o un amministratore di prodotto di Marketo Engage può eseguire questi passaggi.
 
 1. Accedi a [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
-1. Scegliete Prodotti > Marketo Engage.
+1. Selezionare la scheda **[!UICONTROL Prodotti]**.
 
-1. Fai clic su Nuovo profilo e immetti un nome di profilo di prodotto, ad esempio _Utente standard_.
+1. Apri l’istanza Market Engage in cui desideri aggiungere il profilo e fai clic su Nuovo profilo.
 
-1. Fai clic su Avanti > Salva
+   ![Admin Console - Istanza Marketo Engage - Nuovo profilo](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
+
+1. Immettere un nome di profilo prodotto, ad esempio _Utente standard_.
+
+1. Fai clic su **Avanti** e quindi su **Salva**.
 
 ## Creare un gruppo di utenti {#create-user-group}
 
 Un gruppo di utenti è una raccolta di utenti a cui viene concesso un set condiviso di autorizzazioni. Puoi aggiungere o rimuovere utenti nel gruppo di utenti. Le autorizzazioni del gruppo rimangono invariate mentre gli utenti all’interno del gruppo cambiano.
 
+Per ulteriori informazioni sulle modalità di utilizzo dei gruppi di utenti per gestire le autorizzazioni, vedi [Gestione dei gruppi di utenti](https://helpx.adobe.com/it/enterprise/using/user-groups.html) nella documentazione di Admin Console.
+
 >[!NOTE]
 >
->Questi passaggi possono essere eseguiti solo da un amministratore di Admin Console.
+>Un amministratore di Admin Console può eseguire questi passaggi.
 
 1. Accedi a [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
-1. Scegliere **[!UICONTROL Utenti]** > **[!UICONTROL Gruppi utenti]** > **[!UICONTROL Nuovo gruppo utenti]**.
+1. Selezionare la scheda **[!UICONTROL Utenti]**.
+
+1. Scegliere **[!UICONTROL Gruppi utenti]** nel menu di navigazione a sinistra.
+
+1. Fai clic su **[!UICONTROL Nuovo gruppo utenti]** in alto a destra.
 
 1. Immetti un nome per il gruppo di utenti, ad esempio _Utenti standard_ e fai clic su **[!UICONTROL Salva]**.
 
 1. Fai clic sul gruppo di utenti appena creato.
 
-1. Fai clic su **[!UICONTROL Profili di prodotto assegnati]** > **[!UICONTROL Assegna profilo]**.
+1. Seleziona la scheda **[!UICONTROL Profili di prodotto assegnati]** e fai clic su **[!UICONTROL Assegna profilo]**.
 
-1. Seleziona i seguenti prodotti:
-   * [!UICONTROL Marketo Engage - Utente standard]
+1. Fai clic su **+** e aggiungi ogni istanza dei seguenti prodotti:
+
+   * [!UICONTROL Marketo Engage]
    * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
-   * [!UICONTROL Raccolta dati Adobe Experience Platform - Predefinito]
+   * [!UICONTROL Raccolta dati di Adobe Experience Platform]
    * [!UICONTROL Accesso a tutti gli elementi della raccolta dati]
+
+   ![Admin Console - user-group - aggiungi prodotti](./assets/admin-console-user-group-add-products.png){width="700" zoomable="yes"}
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -95,7 +113,9 @@ Un gruppo di utenti è una raccolta di utenti a cui viene concesso un set condiv
 
 Le autorizzazioni sono diritti unitari che ti consentono di definire le autorizzazioni assegnate a un profilo di prodotto. Ogni autorizzazione viene riunita in una funzionalità, ad esempio percorsi o gruppi di acquisto, che rappresenta le diverse funzionalità o oggetti di Journey Optimizer B2B Edition.
 
-_Autorizzazioni_ è l&#39;area di Adobe Experience Platform in cui gli amministratori possono definire i ruoli utente e i criteri di accesso per gestire le autorizzazioni di accesso per funzionalità e oggetti all&#39;interno di un&#39;applicazione di prodotto. In questa app, puoi creare e gestire i ruoli, nonché assegnare le autorizzazioni per le risorse desiderate per tali ruoli. Le autorizzazioni ti consentono inoltre di gestire le etichette, le sandbox e gli utenti associati a un ruolo specifico.
+Nell&#39;area _Autorizzazioni_ di Adobe Experience Platform gli amministratori possono definire ruoli utente e criteri di accesso per gestire le autorizzazioni di accesso per funzionalità e oggetti all&#39;interno di un&#39;applicazione di prodotto. In questa app, puoi creare e gestire i ruoli, nonché assegnare le autorizzazioni per le risorse desiderate per tali ruoli. Le autorizzazioni ti consentono inoltre di gestire le etichette, le sandbox e gli utenti associati a un ruolo specifico.
+
+Per ulteriori informazioni, consulta [Gestione delle autorizzazioni per un ruolo](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) nella documentazione di Experience Platform.
 
 >[!NOTE]
 >
@@ -103,19 +123,23 @@ _Autorizzazioni_ è l&#39;area di Adobe Experience Platform in cui gli amministr
 
 1. Vai a [experience.adobe.com](https://experience.adobe.com/).
 
-1. Seleziona **[!UICONTROL Autorizzazioni]**.
+1. Nel pannello _[!UICONTROL Accesso rapido]_, seleziona **[!UICONTROL Autorizzazioni]**.
 
    >[!NOTE]
    >
-   >Se Autorizzazioni non è visualizzato, potrebbe essere necessario fare clic su Visualizza tutto e selezionarlo dalle applicazioni disponibili.
+   >Se non trovi _[!UICONTROL Autorizzazioni]_, potresti dover fare clic su **[!UICONTROL Visualizza tutto]** e selezionarlo dalle applicazioni disponibili.
+
+   ![Experience Platform - autorizzazioni di accesso](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
 1. Seleziona **[!UICONTROL Ruoli]** nell&#39;area di navigazione a sinistra e seleziona **[!UICONTROL Crea ruolo]**.
 
-1. Nella finestra di dialogo _[!UICONTROL Crea nuovo ruolo]_, immettere un nome per il ruolo, ad esempio _Utente standard_, e una descrizione (facoltativa).
+1. Nella finestra di dialogo _[!UICONTROL Crea nuovo ruolo]_, immetti un nome per il ruolo, ad esempio _AJO B2B_, e una descrizione (facoltativa).
 
 1. Fai clic su **[!UICONTROL Conferma]**.
 
 1. Seleziona le sandbox.
+
+   ![Experience Platform - aggiungi sandbox per il nuovo ruolo](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
 
 1. Aggiungi le autorizzazioni profilo:
 
@@ -129,30 +153,42 @@ _Autorizzazioni_ è l&#39;area di Adobe Experience Platform in cui gli amministr
       * [!UICONTROL Visualizza profilo B2B]
       * [!UICONTROL Gestisci profilo B2B]
 
+   ![Experience Platform - aggiungi profili per il nuovo ruolo](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
+
 1. Fai clic su **[!UICONTROL Salva]** in alto a destra.
 
-1. Scegliere **[!UICONTROL Gruppi utenti]** > **[!UICONTROL Aggiungi gruppi]**.
+1. Vai ai dettagli del ruolo e seleziona la scheda **[!UICONTROL Gruppi di utenti]**.
+
+1. Fare clic su **[!UICONTROL Aggiungi gruppi]**.
+
+   ![Experience Platform - aggiungi profili per il nuovo ruolo](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
 
 1. Seleziona la casella di controllo accanto al gruppo di utenti creato in precedenza nell’Admin Console.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Aggiungere utenti nell’Admin Console
+## Aggiungere utenti al gruppo nell&#39;Admin Console
 
 >[!NOTE]
 >
->Questi passaggi possono essere eseguiti solo da un amministratore di Admin Console o da un amministratore di prodotto.
+>Un amministratore di Admin Console o un amministratore di prodotto può eseguire questi passaggi.
+
+Per informazioni sulla gestione degli utenti, vedi [utenti Admin Console](https://helpx.adobe.com/it/enterprise/using/user-groups.html) nella documentazione di Admin Console.
 
 1. Vai a [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
-1. Fare clic su **[!UICONTROL Aggiungi utenti]**.
+1. In _[!UICONTROL Collegamenti rapidi]_, fare clic su **[!UICONTROL Aggiungi utenti]**.
 
 1. Aggiungi ogni utente:
 
    * Immetti l’indirizzo e-mail, il nome e il cognome dell’utente.
-   * Fare clic su [!UICONTROL Gruppi utenti].
+
+     ![Experience Platform - aggiungi profili per il nuovo ruolo](./assets/admin-console-add-users.png){width="600" zoomable="yes"}
+
+   * Per **[!UICONTROL Gruppi utenti]**, fare clic su **+**.
+
    * Seleziona il gruppo di utenti creato in precedenza.
 
-1. Fare clic su **[!UICONTROL Applica]**.
+   * Fare clic su **[!UICONTROL Applica]**.
 
 1. Fai clic su **[!UICONTROL Salva]**.

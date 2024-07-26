@@ -2,7 +2,8 @@
 title: Utilizzare le risorse del Marketo Engage
 description: Scopri come utilizzare l’integrazione di Marketo Engage Design Studio per la gestione delle risorse in Journey Optimizer B2B Edition.
 feature: Assets, Content
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 0%
@@ -65,7 +66,7 @@ Dalla pagina dell&#39;elenco di Assets, puoi aggiungere risorse immagine a Adobe
 
 1. Per sovrascrivere (sostituire) i file quando si caricano uno o più file con un nome esistente, selezionare la casella di controllo **[!UICONTROL Sovrascrivi file esistenti]**.
 
-1. Fare clic su **[!UICONTROL Aggiungi]**.
+1. Fai clic su **[!UICONTROL Aggiungi]**.
 
 ## Eliminare risorse
 
@@ -95,7 +96,7 @@ Puoi sostituire una risorsa utilizzando uno dei seguenti metodi:
 
 Nella finestra di dialogo _[!UICONTROL Sostituisci risorsa]_, trascina e rilascia il file di sostituzione dal sistema nella casella del file. Puoi anche fare clic sul collegamento _[!UICONTROL Seleziona un file dal computer]_ per utilizzare il file system locale per selezionare un file. Se si selezionano più file nel sistema locale, il primo file selezionato viene utilizzato per la sostituzione.
 
-![Finestra di dialogo Sostituisci risorsa](./assets/assets-replace-dialog.png){width="500" zoomable="yes"}
+![Finestra di dialogo Sostituisci risorsa](./assets/assets-replace-dialog.png){width="520" zoomable="yes"}
 
 Per continuare, fare clic su **[!UICONTROL Sostituisci]**. È possibile interrompere il processo facendo clic su **[!UICONTROL Annulla]**.
 
@@ -157,7 +158,7 @@ Puoi eseguire le seguenti azioni in blocco:
 
    ![Finestra di dialogo Crea cartella](./assets/assets-create-folder-dialog.png){width="500"}
 
-1. Fare clic su **[!UICONTROL Aggiungi]**.
+1. Fai clic su **[!UICONTROL Aggiungi]**.
 
 ## Applicare azioni a livello di cartella
 
@@ -177,7 +178,7 @@ A livello di cartella è possibile effettuare le seguenti operazioni:
 
    I nomi dei file delle immagini selezionate vengono visualizzati nella finestra di dialogo. I nomi dei file di risorse devono essere univoci (in più cartelle) e se esiste già un file con questo nome viene visualizzato un messaggio di errore. I nomi possono contenere un massimo di 100 caratteri e non possono contenere caratteri speciali (ad esempio `;`, `:`, `\` e `|`).
 
-1. Fare clic su **[!UICONTROL Aggiungi]**.
+1. Fai clic su **[!UICONTROL Aggiungi]**.
 
 +++
 
@@ -189,7 +190,7 @@ A livello di cartella è possibile effettuare le seguenti operazioni:
 
    I nomi delle cartelle devono essere univoci, con un massimo di 100 caratteri, e non possono contenere caratteri speciali, ad esempio `;`, `:`, `\`, `|`.
 
-1. Fare clic su **[!UICONTROL Aggiungi]**.
+1. Fai clic su **[!UICONTROL Aggiungi]**.
 
 +++
 
