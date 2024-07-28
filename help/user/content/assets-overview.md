@@ -3,9 +3,9 @@ title: Risorse
 description: Scopri la gestione delle risorse in Journey Optimizer B2B Edition.
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+source-git-commit: 16b798f18f72eeb63e68a8d32e69164930aa1e22
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ Utilizza le risorse durante la creazione di e-mail, modelli e frammenti visivi. 
 
 ### Scegli un’origine risorsa
 
-Se disponi di una sottoscrizione di Experience Manager Assets as a Cloud Service insieme a Adobe Marketo Engage Design Studio predefinita, puoi scegliere le risorse immagine da entrambe le origini. A questo scopo, devi selezionare l’origine dell’immagine al momento della creazione per una nuova e-mail, un modello e-mail o un frammento visivo. In alternativa, è possibile selezionare l&#39;origine dell&#39;immagine quando si modifica il contenuto. La selezione è applicabile solo all’esperienza di modifica e puoi modificare l’origine dell’immagine per accedere alle risorse da un’altra libreria, se necessario.
+Se disponi di una sottoscrizione per Experience Manager Assets insieme all’as a Cloud Service Adobe Marketo Engage Design Studio, puoi scegliere le risorse immagine da entrambe le origini. A questo scopo, devi selezionare l’origine dell’immagine al momento della creazione per una nuova e-mail, un modello e-mail o un frammento visivo. In alternativa, è possibile selezionare l&#39;origine dell&#39;immagine quando si modifica il contenuto. La selezione è applicabile solo all’esperienza di modifica e puoi modificare l’origine dell’immagine per accedere alle risorse da un’altra libreria, se necessario.
 
-Creazione di un messaggio e-mail
+_**Creazione di una risorsa di contenuto**_ - Per scegliere un&#39;origine immagine quando si crea un messaggio e-mail, un modello e-mail o un frammento, impostare l&#39;**[!UICONTROL origine immagine]** nella finestra di dialogo al momento della creazione.
 
-Modifica di un messaggio e-mail - Per scegliere un&#39;origine di risorsa immagine nell&#39;editor visivo, utilizza il selettore **[!UICONTROL Seleziona origine immagine]** nella parte superiore dell&#39;area di lavoro.
+_**Modifica di una risorsa di contenuto**_ - Per scegliere un&#39;origine di risorsa immagine nell&#39;editor visivo, utilizza il selettore **[!UICONTROL Seleziona origine immagine]** nella parte superiore dell&#39;area di lavoro.
 
 ### Aggiungere risorse al contenuto
 
