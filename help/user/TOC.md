@@ -4,7 +4,7 @@ user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utiliz
 source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 
@@ -12,7 +12,7 @@ ht-degree: 9%
 # Guida utente all’edizione B2B di Journey Optimizer {#user}
 
 + [Documentazione sull’edizione B2B di Adobe Journey Optimizer](guide-overview.md)
-+ Inizia {#get-started}
++ Introduzione {#get-started}
    + [Panoramica dell’edizione B2B di Journey Optimizer](about-journey-optimizer-b2b-edition.md)
    + [Accesso e home page](home-page.md)
    + [Guida rapida](./start/get-started.md)
@@ -34,7 +34,7 @@ ht-degree: 9%
    + [Assistente AI per l’authoring delle e-mail](./content/ai-assistant-emails.md)
    + [Authoring di SMS](./content/sms-authoring.md)
 + Gestione dei contenuti {#content-management}
-   + Assets {#assets}
+   + Risorse {#assets}
       + [Panoramica](./content/assets-overview.md)
       + [Utilizzare le risorse del Marketo Engage](./content/marketo-engage-design-studio.md)
       + [Utilizzare le immagini di AEM Assets](./content/aem-assets.md)
