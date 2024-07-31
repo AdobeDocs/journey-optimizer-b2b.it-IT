@@ -3,9 +3,9 @@ title: Authoring di e-mail
 description: Scopri come creare contenuti e-mail personalizzati da utilizzare nei Percorsi di account.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: ce38e378ad316fb379cb649a4592ed831250296d
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1294'
 ht-degree: 1%
 
 ---
@@ -88,8 +88,8 @@ Dopo aver creato e personalizzato il contenuto dell’e-mail, puoi esportarlo pe
 
 1. Inserisci campi di personalizzazione per personalizzare il contenuto da attributi di profili, iscrizioni di pubblico, attributi contestuali e altro ancora.
 
-1. Fai clic su **[!UICONTROL Abilita contenuto condizione]** per aggiungere contenuto dinamico e adattare il contenuto ai profili target in base alle regole condizionali.
-
+<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
+-->
 1. Seleziona la scheda **[!UICONTROL Collegamenti]** dal riquadro a sinistra per visualizzare tutti gli URL del contenuto tracciati.
 
    Puoi modificare il _Tipo di tracciamento_ o _Etichetta_ e aggiungere tag se necessario.
