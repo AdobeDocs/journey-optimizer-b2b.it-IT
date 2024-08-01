@@ -1,9 +1,9 @@
 ---
-title: Assistente AI per l’authoring delle e-mail
+title: Assistente AI per l’authoring di e-mail
 description: Scopri come utilizzare AI Assistant per ottimizzare il contenuto delle e-mail utilizzate nei Percorsi di account.
 feature: AI Assistant, Email Authoring, Content
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: f4f52919b9455277325a511a67c99daef42699f0
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%

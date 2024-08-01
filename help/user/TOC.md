@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentazione sull’edizione B2B di Journey Optimizer
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e acquistare percorsi di gruppi utilizzando l’intelligenza artificiale generativa integrata e l’automazione leader di settore.
-source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 13%
+source-wordcount: '128'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 13%
    + [Panoramica dell’edizione B2B di Journey Optimizer](about-journey-optimizer-b2b-edition.md)
    + [Accesso e home page](home-page.md)
    + [Guida rapida](./start/get-started.md)
-   + [Utilizzare l’Assistente AI](./start/ai-assistant.md)
+   + [Utilizza l’Assistente AI](./start/ai-assistant.md)
 + Pubblico account {#account-audiences}
    + [Panoramica](./audiences/account-audience-overview.md)
    + [Mappatura campo XDM](./data/field-mapping.md)
@@ -26,12 +26,12 @@ ht-degree: 13%
    + [Modelli di ruolo](./buying-groups/buying-groups-role-templates.md)
    + [Creare gruppi di acquisto](./buying-groups/buying-groups-create.md)
 + Percorsi di account {#account-journeys}
-   + [Panoramica sui percorsi](./journeys/journey-overview.md)
+   + [Panoramica](./journeys/journey-overview.md)
    + [Nodi del percorso di account](./journeys/journey-nodes.md)
 + Contenuto percorso {#journey-content}
    + [Authoring di e-mail](./content/email-authoring.md)
-   + [E-mail di avviso vendite](./content/sales-alert-email.md)
    + [Assistente AI per l’authoring delle e-mail](./content/ai-assistant-emails.md)
+   + [E-mail di avviso vendite](./content/sales-alert-email.md)
    + [Authoring di SMS](./content/sms-authoring.md)
 + Gestione dei contenuti {#content-management}
    + Risorse {#assets}

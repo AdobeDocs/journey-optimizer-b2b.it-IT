@@ -1,9 +1,9 @@
 ---
-title: Acquisto di modelli di ruolo del gruppo
+title: Acquisto di modelli di mansione per gruppi
 description: Scopri come definire un modello di ruolo da utilizzare come componente del gruppo di acquisto.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 0%

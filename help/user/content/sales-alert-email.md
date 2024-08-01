@@ -1,11 +1,12 @@
 ---
-title: E-mail di avviso vendite
+title: E-mail avviso vendite
 description: Scopri come includere un’e-mail di avviso automatico sulle vendite nei percorsi del tuo account.
 feature: Email Authoring, Content
-source-git-commit: 5361bad204136e4b7e4267c43b2c1a605c14cdd9
+exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '529'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 

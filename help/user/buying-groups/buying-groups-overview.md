@@ -3,10 +3,10 @@ title: Gruppi di acquisto
 description: Scopri come acquistare i gruppi e i relativi componenti.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: e107c4c7c4e86c57b70d90e0f42d71454bc832a9
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1004'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -58,7 +58,7 @@ Nella barra di navigazione a sinistra, espandi **[!UICONTROL Account]** e fai cl
 
 La pagina _[!UICONTROL Gruppi di acquisto]_ è organizzata in schede:
 
-| Linguetta | Descrizione |
+| Scheda | Descrizione |
 | --- | ----------- |
 | [!UICONTROL Panoramica] | Questa scheda è quella predefinita e visualizza il dashboard [Gruppi di acquisto](../dashboards/buying-groups-dashboard.md). |
 | [!UICONTROL Sfoglia] | Questa scheda supporta le seguenti attività: <ul><li>Visualizza l&#39;elenco dei gruppi di acquisto esistenti. </li><li>Cerca per nome gruppo di acquisto. </li><li>Filtra per interesse della soluzione. </li><li>Espandere i dettagli del gruppo di acquisto. </li><li>Crea un gruppo di acquisto. Eliminare un gruppo di acquisto.</li></ul> |
