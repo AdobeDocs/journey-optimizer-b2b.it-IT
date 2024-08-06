@@ -3,10 +3,10 @@ title: Gruppi di acquisto
 description: Scopri come acquistare i gruppi e i relativi componenti.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 43fc83e70c4916c6367374a76a63e29110712a36
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 6%
+source-wordcount: '1186'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ Per le attività di vendita e marketing B2B, gli account sono fondamentali per q
 
 ![Diagramma ruoli account](assets/account-roles-diagram.png){width="800"}
 
-Nell&#39;account potrebbe essere presente un sottoinsieme di persone che costituiscono il _gruppo di acquisto_. Queste persone sono quelle che alla fine prendono la decisione di acquisto, quindi hanno bisogno di particolare attenzione da parte dell’addetto al marketing e potrebbero aver bisogno di informazioni diverse da quelle delle altre persone associate all’account. I gruppi di acquisto possono comprendere un gruppo diverso di persone per diverse linee di prodotti o offerte. Ad esempio, un prodotto di cibersicurezza potrebbe in genere richiedere un Chief Information Officer o un Chief Security Officer e un rappresentante dell&#39;Ufficio legale per approvare un acquisto, ma un prodotto di tracciamento dei bug potrebbe in genere avere un VP of Engineering e un IT Director come membri del gruppo di acquisto.
+Nell&#39;account potrebbe essere presente un sottoinsieme di persone che costituiscono il _gruppo di acquisto_. Queste sono le persone che alla fine prendono la decisione di acquisto, quindi hanno bisogno di particolare attenzione da parte dell’addetto al marketing e potrebbero aver bisogno di informazioni diverse da quelle delle altre persone associate all’account. I gruppi di acquisto possono comprendere un gruppo diverso di persone per diverse linee di prodotti o offerte. Ad esempio, un prodotto di cibersicurezza potrebbe in genere richiedere un Chief Information Officer o un Chief Security Officer e un rappresentante dell&#39;Ufficio legale per approvare un acquisto, ma un prodotto di tracciamento dei bug potrebbe in genere avere un VP of Engineering e un IT Director come membri del gruppo di acquisto.
 
 ## Componenti chiave
 
@@ -52,7 +52,7 @@ Puoi aumentare l’efficacia del marketing creando, in Journey Optimizer B2B Edi
 
 1. Utilizza in un percorso di account tramite l’interesse della soluzione associato.
 
-## Accedere ai gruppi di acquisto e ai componenti
+## Visualizza gruppi di acquisto e componenti
 
 Nella barra di navigazione a sinistra, espandi **[!UICONTROL Account]** e fai clic su **[!UICONTROL Gruppi di acquisto]**.
 
@@ -87,28 +87,68 @@ Il punteggio di completezza del gruppo di acquisto viene ricalcolato ogni volta 
 
 ### Punteggio di coinvolgimento del gruppo acquisti
 
-Il punteggio di coinvolgimento viene utilizzato per valutare l’efficacia dei programmi di marketing in base alle attività comportamentali dei gruppi di acquisto tracciate tra i percorsi. Questo punteggio è derivato dall’attività negli ultimi 30 giorni. Qualsiasi modifica del ruolo apportata a un modello richiede il ricalcolo del punteggio di coinvolgimento per tutti i gruppi di acquisto creati utilizzando tale modello. Solo le attività in entrata vengono valutate nel calcolo di un punteggio di coinvolgimento.
+Punteggio di coinvolgimento del gruppo di acquisto è un numero per determinare il coinvolgimento dei membri di un gruppo di acquisto, in base alle attività che eseguono. Per calcolare il punteggio viene utilizzata qualsiasi attività in entrata eseguita dai membri del gruppo di acquisto negli ultimi 30 giorni.
 
-Il punteggio visualizzato viene arrotondato (ad esempio, un punteggio di 75,89999 viene visualizzato come 76), non esiste alcun limite superiore per il punteggio GA e il limite di frequenza giornaliero è di 20.
+C’è un limite di frequenza giornaliero di 20 per ogni attività. Se un membro di un gruppo di acquisto esegue la stessa attività più di 20 volte al giorno, il numero massimo di attività è 20 e non un numero più alto.
 
-Gli esempi seguenti illustrano il calcolo del punteggio di coinvolgimento:
+Il punteggio visualizzato viene arrotondato. Ad esempio, un punteggio di 75,89999 viene visualizzato come 76.
 
-**Gruppo di acquisto 1** - punteggio di coinvolgimento = 22,15
+#### Ponderazione
 
-| Utente | Ruolo | Spessore ruolo | Azione | Oggi | Ieri | Peso azione | Punteggio |
-| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Adam | Responsabile delle decisioni | 80% | Sito web visitato | 1000 | 2 | 1 | 22 |
-| | | | E-mail selezionata | 1 | 0 | 1 | 1 |
-| | | | Pub scaricato | 1 | 3 | 1 | 4 |
-| Bob | Influencer | 15% | Sito web visitato | 1 | 2 | 1 | 3 |
-| Calvin | Professionista | 5% | Sito web visitato | 1 | 1 | 1 | 2 |
+Gli utenti possono assegnare _ponderazione_ a ciascun ruolo nel modello dei ruoli per allocare ponderazioni diverse a un ruolo per calcolare il punteggio di coinvolgimento.
 
-**Gruppo di acquisto 2** - punteggio coinvolgimento = 8,55
+![Imposta la ponderazione per ogni ruolo nel modello di ruoli](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
-| Utente | Ruolo | Spessore ruolo | Azione | Oggi | Ieri | Peso azione | Punteggio |
-| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Alvin | Responsabile delle decisioni | 80% | Sito web visitato | 3 | 2 | 1 | 5 |
-| | | | E-mail selezionata | 1 | 0 | 1 | 1 |
-| | | | Pub scaricato | 1 | 3 | 1 | 4 |
-| Bret | Influencer | 15% | Sito web visitato | 1 | 2 | 1 | 3 |
-| Camma | Professionista | 5% | Sito web visitato | 1 | 1 | 1 | 2 |
+Ogni livello di ponderazione si traduce in un valore, utilizzato per calcolare il punteggio di coinvolgimento:
+
+* [!UICONTROL Bassa] = 20
+* [!UICONTROL Non grave] = 40
+* [!UICONTROL Normale] = 60
+* [!UICONTROL Importante] = 80
+* [!UICONTROL Vital] = 100
+
+Un modello di ruoli con tre ruoli ponderati come _[!UICONTROL Vital]_, _[!UICONTROL Importante]_ e _[!UICONTROL Normale]_ viene convertito nelle seguenti percentuali ponderate:
+
+| Ruolo | Ponderazione | Valore back-end | Calcolo del valore | Percentuale |
+|-------------- |--------- |------------- |------------------ |---------- |
+|               |          |              |                   |           |
+| Responsabile delle decisioni | Vitale | 100 | 100/240 | 41,67% |
+| Influencer | Importante | 80 | 80/240 | 33,33% |
+| Professionista | Normale | 60 | 60/240 | 25% |
+|               | Totale | 240 |                   |           |
+
+#### Esempio di calcolo
+
+L’esempio seguente illustra il calcolo del punteggio di coinvolgimento utilizzando la percentuale di peso del ruolo delineata, il conteggio delle attività in entrata per ogni membro del gruppo di acquisto e un tetto giornaliero di 20 conteggi per ogni evento (se si è verificato più volte).
+
+| Ruolo | Membro | Tipo di attività | Conteggio di ieri | Conteggio odierno | Calcolo | Punteggio totale |
+|-------------- |--------- |-------------|-----------------|-------------|------|-----------|
+|               |          |             |                 |             |      |           |
+| Responsabile delle decisioni | Adam | Sito web visitato | 37 | 15 | 20 + 15 | 35 |
+|               |          | E-mail selezionata | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Contrassegna | Sito web visitato | 5 | 3 | 5 + 3 | 8 |
+|               |          | E-mail selezionata | 1 | 1 | 1 + 1 | 2 |
+|               |          | Pub scaricato | 3 | 2 | 3 + 2 | 5 |
+| **Punteggio totale decision maker** |         |             |                 |             |      | **52** |
+|               |          |             |                 |             |      |           |
+| Influencer | John | Sito web visitato | 19 | 9 | 19 + 9 | 28 |
+| **Punteggio totale influencer** |         |             |                 |             |      | **28** |
+|               |          |             |                 |             |      |           |
+| Professionista | Bob | E-mail selezionata | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Paul | E-mail selezionata | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Calvin | E-mail selezionata | 1 | 1 | 1 + 1 | 2 |
+|               |          | Sito web visitato | 1 | 7 | 1 + 7 | 8 |
+|               |          | Pub scaricato | 1 | 2 | 1 + 2 | 3 |
+| **Punteggio totale professionisti** |         |             |                 |             |      | **17** |
+
+Il punteggio di coinvolgimento finale viene calcolato applicando la ponderazione per ciascuno dei punteggi dei ruoli:
+
+| Ruolo | Punteggio totale mansione | % peso ruolo | Punteggio X peso % |
+|-------------- |---------------- |------------- |---------------- |
+| Responsabili decisionali | 52 | 41,67% | 21,67 |
+| Influencer | 28 | 33,33% | 9,33 |
+| Professionisti | 17 | 25% | 4,25 |
+| **Punteggio di coinvolgimento finale** |                |             | **35,25** |
