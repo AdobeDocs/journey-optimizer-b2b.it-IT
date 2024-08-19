@@ -3,10 +3,10 @@ title: Authoring di SMS
 description: Scopri come inviare messaggi di testo (SMS) ai clienti sui loro dispositivi mobili e come personalizzare e visualizzare in anteprima i messaggi in formato testo dall’editor SMS.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
 workflow-type: tm+mt
-source-wordcount: '1879'
-ht-degree: 0%
+source-wordcount: '1908'
+ht-degree: 1%
 
 ---
 
@@ -200,7 +200,12 @@ Puoi impostare le consegne di messaggi di testo in un Percorso di account quando
 
    Il numero del destinatario è sempre mappato al campo `Lead.mobilePhone` nel Marketo Engage.
 
-## Simulare il contenuto del messaggio di testo
+## Simulare il contenuto del messaggio di testo {#preview-test}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_sms_preview_simulate"
+>title="Controlla come viene eseguito il rendering del contenuto"
+>abstract="Una volta definito il contenuto, puoi visualizzarne l’anteprima e verificare se il rendering è corretto per il canale in uso."
 
 Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per simulare (visualizzare in anteprima) il contenuto. Se hai inserito dei contenuti personalizzati, puoi verificare come questi contenuti vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
 

@@ -3,10 +3,10 @@ title: Modelli e-mail
 description: Scopri come creare e modificare modelli e-mail da utilizzare per creare e-mail di percorso dell’account in modo semplice ed efficiente.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
 workflow-type: tm+mt
-source-wordcount: '2622'
-ht-degree: 0%
+source-wordcount: '2670'
+ht-degree: 1%
 
 ---
 
@@ -48,7 +48,17 @@ Viene visualizzata la pagina _[!UICONTROL Progetta modello]_ contenente più opz
 
 ![Scegli come iniziare con la progettazione del modello e-mail](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### Progettare da zero
+### Progettare da zero {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="Aggiungere i componenti Struttura"
+>abstract="I componenti della struttura definiscono il layout del modello. Per iniziare a progettare il contenuto del modello, trascina un componente **Struttura** nell’area di lavoro."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="Informazioni sui componenti per contenuti"
+>abstract="I componenti di contenuto sono segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di un modello."
 
 Utilizza e-mail designer per definire la struttura del contenuto delle e-mail. Aggiungendo e spostando componenti strutturali con semplici azioni di trascinamento della selezione, puoi progettare la forma del contenuto dell’e-mail riutilizzabile in pochi secondi.
 
