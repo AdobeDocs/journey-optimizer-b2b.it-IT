@@ -6,7 +6,7 @@ exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
 source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
 workflow-type: tm+mt
 source-wordcount: '1908'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -204,8 +204,8 @@ Puoi impostare le consegne di messaggi di testo in un Percorso di account quando
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
->title="Controlla come viene eseguito il rendering del contenuto"
->abstract="Una volta definito il contenuto, puoi visualizzarne l’anteprima e verificare se il rendering è corretto per il canale in uso."
+>title="Controllare come viene eseguito il rendering del contenuto"
+>abstract="Una volta definito il contenuto, puoi visualizzarne l’anteprima e verificare se il rendering è corretto in base al canale in uso."
 
 Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per simulare (visualizzare in anteprima) il contenuto. Se hai inserito dei contenuti personalizzati, puoi verificare come questi contenuti vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
 

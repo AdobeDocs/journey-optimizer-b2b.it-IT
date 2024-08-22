@@ -6,7 +6,7 @@ exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
 workflow-type: tm+mt
 source-wordcount: '1468'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -62,7 +62,7 @@ Dopo aver creato e personalizzato il contenuto dell’e-mail, puoi esportarlo pe
 >
 >Utilizza AI Assistant in Adobe Journey Optimizer B2B Edition, basato su IA generativa per elevare i contenuti al livello successivo. L’Assistente AI può aiutarti a ottimizzare l’impatto delle consegne generando e-mail intere, contenuto di testo mirato e ricevendo consigli dall’Assistente AI per le immagini che risuonano con il tuo pubblico. [Ulteriori informazioni](./ai-assistant-emails.md)
 
-### Creare un messaggio e-mail da zero {#design-from-scratch}
+### Creare e-mail da zero {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
@@ -209,12 +209,12 @@ Se non trovi questo pulsante, non sono stati rilevati problemi.
 
    * `The email version of the message is empty`: questo errore viene visualizzato quando il contenuto dell&#39;e-mail non è stato configurato.
 
-## Verifica e verifica l’e-mail {#preview-test}
+## Controllare e testare l’e-mail {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
->title="Controlla come viene eseguito il rendering del contenuto"
->abstract="Una volta definito il contenuto, puoi visualizzarne l’anteprima e verificare se il rendering è corretto per il canale in uso."
+>title="Controllare come viene eseguito il rendering del contenuto"
+>abstract="Una volta definito il contenuto, puoi visualizzarne l’anteprima e verificare se il rendering è corretto in base al canale in uso."
 
 Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarne l’anteprima, inviare bozze e controllarne il rendering nei client desktop, mobili e basati su Web più diffusi. Se hai inserito dei contenuti personalizzati, puoi visualizzare in anteprima come questi contenuti vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
 
