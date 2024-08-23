@@ -3,15 +3,15 @@ title: Gruppi di acquisto
 description: Scopri come acquistare i gruppi e i relativi componenti.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 43fc83e70c4916c6367374a76a63e29110712a36
+source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
 workflow-type: tm+mt
 source-wordcount: '1186'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
-# Gruppi di acquisto
+# Gruppi acquisti
 
 Per le attività di vendita e marketing B2B, gli account sono fondamentali per qualsiasi strategia. A ogni account è associato un gruppo di persone, che possono essere dipendenti dell&#39;account o collaboratori esterni che lavorano con l&#39;account. Gli account sono gerarchici e prodotti diversi possono essere venduti a diversi livelli nella gerarchia. Ad esempio, Adobe Experience Platform potrebbe essere venduto a livello aziendale a un account di livello superiore, mentre Adobe Photoshop potrebbe essere venduto a un account che rappresenta una divisione o un reparto all’interno di un’organizzazione, ad esempio un reparto progettazione all’interno di un’azienda più grande.
 
@@ -109,7 +109,7 @@ Ogni livello di ponderazione si traduce in un valore, utilizzato per calcolare i
 
 Un modello di ruoli con tre ruoli ponderati come _[!UICONTROL Vital]_, _[!UICONTROL Importante]_ e _[!UICONTROL Normale]_ viene convertito nelle seguenti percentuali ponderate:
 
-| Ruolo | Ponderazione | Valore back-end | Calcolo del valore | Percentuale |
+| Ruolo | Ponderazione | Valore di sistema | Calcolo del valore | Percentuale |
 |-------------- |--------- |------------- |------------------ |---------- |
 |               |          |              |                   |           |
 | Responsabile delle decisioni | Vitale | 100 | 100/240 | 41,67% |

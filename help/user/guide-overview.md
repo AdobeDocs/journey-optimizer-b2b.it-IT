@@ -2,9 +2,9 @@
 title: Documentazione sull’edizione B2B di Adobe Journey Optimizer
 description: Scopri come utilizzare le funzioni di Adobe Journey Optimizer B2B Edition per orchestrare account e acquistare percorsi di gruppi utilizzando l’intelligenza artificiale generativa integrata e l’automazione leader di settore.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 8a27ab8d1c0849b9ed0e921874cb1e5260647e40
+source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '490'
 ht-degree: 4%
 
 ---
@@ -18,6 +18,12 @@ Di seguito è riportato un esempio degli ultimi miglioramenti introdotti nel pro
 <!-- For a comprehensive list of features, improvements, and fixes, check out the detailed < Release Notes >. Stay up-to-date with the latest changes in our documentation by visiting the , < documentation updates page >. -->
 
 >[!BEGINTABS]
+
+>[!TAB Tipi di pubblico corrispondenti all&#39;account LinkedIn]
+
+Genera tipi di pubblico di LinkedIn Ad tramite tipi di pubblico corrispondenti all’account per aiutarti a riempire i ruoli vuoti nei gruppi di acquisto. Definendo un set di filtri per gruppi di acquisto, puoi mantenere un pubblico abbinato a LinkedIn per eseguire il targeting dei potenziali clienti che corrispondono ai parametri del gruppo di acquisto. Questa funzione sfrutta Destinazioni Experience Platform per gestire alcuni aspetti dell’integrazione.
+
+[!BADGE Ulteriori informazioni]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Scopri i tipi di pubblico corrispondenti all’account LinkedIn"}
 
 >[!TAB Assistente IA]
 
