@@ -1,7 +1,9 @@
 ---
 title: Pubblico con account linkedIn corrispondente
 description: Scopri come collegare un account LinkedIn e attivare un flusso di dati per i gruppi di acquisto.
-source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
+hidefromtoc: true
+hide: true
+source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 8%
@@ -27,7 +29,7 @@ Prima di avviare un flusso di dati da Journey Optimizer B2B Edition, è necessar
 
    >[!TIP]
    >
-   >È possibile trovare rapidamente il connettore entrando `LinkedIn` nella casella ricerca.
+   >È possibile trovare rapidamente il connettore immettendo `LinkedIn` nella casella di ricerca.
 
 1. Nella scheda del connettore, fai clic sull&#39;icona _Altro_ (**...**) e scegli **[!UICONTROL Configura nuova destinazione]**.
 
@@ -67,11 +69,11 @@ Il nome e la descrizione dell’account LinkedIn sono visibili per i gruppi di a
 
 >[!NOTE]
 >
->Se disponi già di dieci flussi di dati, non puoi crearne un altro. Se si è al massimo, eliminarne uno in Experience Platform prima di crearne uno nuovo in Journey Optimizer B2B Edition.
+>Se disponi già di dieci flussi di dati, non puoi crearne un altro. Se si raggiunge il massimo, eliminarne uno in Experience Platform prima di crearne uno nuovo in Journey Optimizer B2B Edition.
 
-1. In Journey Optimizer B2B Edition, vai a **[!UICONTROL Account]** > **[!UICONTROL gruppi]** di acquisto in navigazione a sinistra.
+1. In Journey Optimizer B2B Edition, vai a **[!UICONTROL Account]** > **[!UICONTROL Gruppi di acquisto]** nel menu di navigazione a sinistra.
 
-1. Selezionare l&#39;scheda **[!UICONTROL Sfoglia]** .
+1. Selezionare la scheda **[!UICONTROL Sfoglia]**.
 
 1. Fai clic su **[!UICONTROL Attiva nella destinazione LinkedIn]** in alto a destra.
 
