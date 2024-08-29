@@ -2,9 +2,9 @@
 title: Documentazione sull’edizione B2B di Adobe Journey Optimizer
 description: Scopri come utilizzare le funzioni di Adobe Journey Optimizer B2B Edition per orchestrare account e acquistare percorsi di gruppi utilizzando l’intelligenza artificiale generativa integrata e l’automazione leader di settore.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
+source-git-commit: b0622b8224f581c76c43966537d1f576316d4068
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '490'
 ht-degree: 4%
 
 ---
@@ -18,12 +18,13 @@ Di seguito è riportato un esempio degli ultimi miglioramenti introdotti nel pro
 <!-- For a comprehensive list of features, improvements, and fixes, check out the detailed < Release Notes >. Stay up-to-date with the latest changes in our documentation by visiting the , < documentation updates page >. -->
 
 >[!BEGINTABS]
-<!-- 
->[!TAB LinkedIn Account Matched Audiences]
 
-Generate LinkedIn Ad audiences through Account Matched Audiences to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. This feature leverages Experience Platform Destinations to manage some aspects of the integration.
+>[!TAB Tipi di pubblico corrispondenti all&#39;account LinkedIn]
 
-[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Learn about LinkedIn Account Matched Audiences"} -->
+Genera tipi di pubblico di LinkedIn Ad tramite tipi di pubblico corrispondenti all’account per aiutarti a riempire i ruoli vuoti nei gruppi di acquisto. Definendo un set di filtri per gruppi di acquisto, puoi mantenere un pubblico abbinato a LinkedIn per eseguire il targeting dei potenziali clienti che corrispondono ai parametri del gruppo di acquisto. Questa funzione sfrutta Destinazioni Experience Platform per gestire alcuni aspetti dell’integrazione.
+
+[!BADGE Ulteriori informazioni]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Scopri i tipi di pubblico corrispondenti all’account LinkedIn"}
+
 >[!TAB Assistente IA]
 
 Scopri rapidamente i concetti di marketing basati sull’account e le funzionalità della versione B2B di Journey Optimizer progettate per massimizzare le strategie del tuo team.
