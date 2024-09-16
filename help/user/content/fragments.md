@@ -2,21 +2,22 @@
 title: Frammenti
 description: Scopri come creare e utilizzare frammenti di contenuto visivo come componenti riutilizzabili per e-mail e modelli e-mail in Adobe Journey Optimizer B2B Edition.
 feature: Content, Email Authoring
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
+source-git-commit: 8e55e4444a363a5699574c2fa1ed256fdb690dd0
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 0%
+source-wordcount: '1849'
+ht-degree: 2%
 
 ---
 
 # Frammenti
 
-Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail e modelli e-mail in Adobe Journey Optimizer B2B Edition. In genere si tratta di un blocco di contenuto (testo, immagine o entrambi) che può essere precreato e inserito rapidamente in un modello e-mail o e-mail. Con questa funzionalità, puoi precreare più blocchi di contenuto personalizzati che possono essere utilizzati dai membri del team di marketing per assemblare contenuti e-mail e migliorare così il processo di progettazione. I casi d’uso comuni includono blocchi di contenuto di intestazione/piè di pagina per e-mail, banner di invito per eventi e saluti stagionali.
+Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail e modelli e-mail in Adobe Journey Optimizer B2B Edition. In genere si tratta di un blocco di contenuto (testo, immagine o entrambi) che può essere precreato e inserito rapidamente in un modello e-mail o e-mail. Con questa funzionalità, puoi precreare più blocchi di contenuto personalizzati da utilizzare da parte dei membri del team di marketing per assemblare contenuti e-mail e migliorare così il processo di progettazione. I casi d’uso comuni includono blocchi di contenuto di intestazione/piè di pagina per e-mail, banner di invito per eventi e saluti stagionali.
 
 Per utilizzare al meglio i frammenti nei flussi di lavoro:
 
-* _Crea frammenti personalizzati_ - Crea frammenti visivi da zero o salvando il contenuto come frammento in qualsiasi momento dall&#39;editor di contenuti visivi.
-* _Riutilizza i frammenti: utilizzali il numero di volte necessario nel contenuto.
+* _Crea frammenti personalizzati_ - Crea frammenti visivi da zero o salvando il contenuto come frammento dall&#39;editor di contenuti visivi.
+* _Riutilizza frammenti_ - Puoi utilizzarli nel contenuto per il numero di volte necessario.
 
 ## Frammenti visivi
 
@@ -24,13 +25,13 @@ I frammenti visivi sono blocchi visivi predefiniti creati utilizzando l’editor
 
 ## Accedere e gestire i frammenti
 
-Per accedere ai frammenti visivi nell&#39;edizione B2B di Adobe Journey Optimizer, vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Frammenti]**. Questa azione apre una pagina di elenco con tutti i frammenti creati nell’istanza elencata in una tabella.
+Per accedere ai frammenti visivi in Adobe Journey Optimizer B2B Edition, vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Frammenti]**. Questa azione apre una pagina di elenco con tutti i frammenti creati nell’istanza elencata in una tabella.
 
 ![Accedere alla libreria frammenti](./assets/fragments-list.png){width="700" zoomable="yes"}
 
-La tabella è ordinata in base alla colonna _[!UICONTROL Modificato]_, con i frammenti aggiornati più di recente nella parte superiore dell&#39;elenco per impostazione predefinita. Fai clic sul titolo della colonna per passare da crescente a decrescente.
+La tabella è ordinata in base alla colonna _[!UICONTROL Modificato]_, con i frammenti aggiornati più di recente nella parte superiore per impostazione predefinita. Fai clic sul titolo della colonna per passare da crescente a decrescente.
 
-Cerca un frammento inserendo una stringa di testo nella barra di ricerca per trovare una corrispondenza in base al nome del frammento. Fai clic sull&#39;icona _Filtro_ per filtrare gli elementi visualizzati in base ai criteri specificati.
+Per cercare un frammento in base al nome, immetti una stringa di testo nella barra di ricerca per trovare una corrispondenza. Fai clic sull&#39;icona _Filtro_ per filtrare gli elementi visualizzati in base ai criteri specificati.
 
 ![Filtra i frammenti visualizzati](./assets/fragments-list-filtered.png){width="700" zoomable="yes"}
 
@@ -48,32 +49,66 @@ Personalizzare le colonne da visualizzare nella tabella facendo clic sull&#39;ic
 
    * Descrizione: massimo 300 caratteri
 
-   * Alpha, sono consentiti caratteri numerici e speciali
+   * Sono consentiti caratteri Alpha, numerici e speciali
 
-   * Caratteri riservati non consentiti: `\ / : * ? " < > |`
+   * I caratteri riservati sono **_non consentiti_**: `\ / : * ? " < > |`
 
-   ![Finestra di dialogo Crea frammento](./assets/assets-fragments-create-dialog.png){width="500"}
+   ![Finestra di dialogo Crea frammento](./assets/assets-fragments-create-dialog.png){width="400"}
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
-   L’editor di contenuto visivo si apre con un’area di lavoro vuota. Per creare un frammento utilizzando l’editor di contenuto visivo, consulta gli argomenti relativi all’authoring dei contenuti:
+   L’editor di contenuto visivo si apre con un’area di lavoro vuota.
 
 <!-- To be linked to the corresponding sections on this page: Adobe Journey Optimizer B2B Edition - Email Templates
 
-Adding structure & content
+Adding structure and content
 Adding assets
 Navigating the layers
 Previewing & editing URLs
 View options
 More options -->
 
+### Aggiungi struttura e contenuto {#design-fragment}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_fragment"
+>title="Aggiungere i componenti Struttura"
+>abstract="I componenti della struttura definiscono il layout del frammento. Per iniziare a progettare il contenuto del frammento, trascina un componente **Struttura** nell’area di lavoro."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_fragment"
+>title="Informazioni sui componenti per contenuti"
+>abstract="I componenti di contenuto sono segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di un frammento."
+
+{{$include /help/_includes/content-design-components.md}}
+
+### Aggiungere risorse
+
+{{$include /help/_includes/content-design-assets.md}}
+
+### Spostarsi tra livelli, impostazioni e stili
+
+{{$include /help/_includes/content-design-navigation.md}}
+
+### Personalizzare il contenuto
+
+{{$include /help/_includes/content-design-personalization.md}}
+
+### Modifica tracciamento URL collegato
+
+{{$include /help/_includes/content-design-links.md}}
+
 ## Visualizza dettagli frammento
 
-Fai clic sul nome di un frammento nella pagina dell’elenco per aprire la pagina dei dettagli del frammento.
+Fai clic sul nome di un frammento nella pagina dell’elenco per aprire la pagina dei dettagli del frammento. Puoi scegliere di modificare il frammento, rinominarlo o aggiornare la descrizione del frammento. Per salvare automaticamente le modifiche, apporta gli aggiornamenti e fai clic all’esterno del campo nome o descrizione.
 
-Da qui puoi scegliere di modificare il frammento, rinominarlo o aggiornare la descrizione del frammento (effettua gli aggiornamenti e fai clic all’esterno della casella nome/descrizione per salvare automaticamente le modifiche).
+>[!NOTE]
+>
+>Se un frammento pubblicato è utilizzato da un’e-mail o da un modello e-mail, non puoi modificare il nome o il contenuto. Puoi creare una versione bozza se desideri apportare modifiche al frammento.
 
-Fai clic su **[!UICONTROL Modifica]** per aprire il frammento nell&#39;editor di contenuti visivi.
+![Visualizza dettagli per un frammento pubblicato](./assets/fragment-details-published.png){width="600" zoomable="yes"}
+
+Fai clic su **[!UICONTROL Modifica frammento]** per aprire il frammento nell&#39;editor di contenuti visivi.
 
 Uscire dalla visualizzazione in qualsiasi momento facendo clic sulla freccia _Indietro_ in alto a sinistra, per tornare alla pagina dell&#39;elenco _Frammenti_.
 
@@ -86,6 +121,8 @@ Nella pagina dei dettagli del frammento, fai clic sulla scheda **[!UICONTROL Usa
 >Non è possibile eliminare i frammenti attualmente utilizzati da e-mail o modelli e-mail.
 
 I riferimenti vengono visualizzati in base alla categoria: _E-mail_ o _Modello e-mail_. Le e-mail in Journey Optimizer B2B Edition sono incorporate e create all’interno di percorsi di account, pertanto il percorso principale dell’e-mail che utilizza il frammento viene visualizzato in riferimenti.
+
+![Utilizzato dai riferimenti per il frammento](./assets/fragment-used-by-published.png){width="600" zoomable="yes"}
 
 Fai clic sul collegamento per aprire l’e-mail o il modello e-mail corrispondente in cui viene utilizzato il frammento.
 
@@ -100,7 +137,11 @@ Puoi eliminare un frammento utilizzando uno dei seguenti metodi:
 
 Questa azione apre una finestra di dialogo di conferma. È possibile interrompere il processo facendo clic su **[!UICONTROL Annulla]** oppure su **[!UICONTROL Elimina]** per confermare l&#39;eliminazione.
 
-Se il frammento è attualmente in uso, l’azione apre una finestra di dialogo informativa che avvisa che non è possibile eliminarlo. Fare clic su **[!UICONTROL OK]** per interrompere l&#39;eliminazione.
+![Finestra di dialogo Elimina frammento](./assets/fragment-delete-dialog.png){width="400"}
+
+Se il frammento è attualmente in uso, l’azione apre una finestra di dialogo informativa che avvisa che non è possibile eliminarlo. Fare clic su **[!UICONTROL OK]** per interrompere l&#39;azione di eliminazione.
+
+![Finestra di dialogo Elimina frammento - impossibile eliminare il frammento in uso](./assets/fragment-delete-dialog-in-use.png){width="400"}
 
 ## Modificare i frammenti
 
@@ -115,22 +156,26 @@ Questa azione consente di aprire il frammento in un editor di contenuti visivi, 
 
 Puoi duplicare un frammento utilizzando uno dei seguenti metodi:
 
-* Dai dettagli del frammento a destra, fai clic su **[!UICONTROL Duplica]**.
-* Dalla pagina dell&#39;elenco _[!UICONTROL Frammenti]_, fai clic sui puntini di sospensione accanto al frammento e scegli **[!UICONTROL Duplica]**.
+* Dalla pagina dell&#39;elenco _[!UICONTROL Frammenti]_, fai clic sull&#39;icona _Altro_ (**...**) accanto al nome del frammento e scegli **[!UICONTROL Duplica]**.
+* Nella parte superiore destra della pagina dei dettagli del frammento, fare clic su **[!UICONTROL ... Altro]** e scegli **[!UICONTROL Duplicato]**.
+
+![Duplica il frammento](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
 
 Nella finestra di dialogo, inserisci un nome utile (univoco) e una descrizione. Fai clic su **[!UICONTROL Duplica]** per completare l&#39;azione.
 
+![Immettere un nome e una descrizione per il frammento duplicato](./assets/fragment-duplicate-dialog.png){width="400"}
+
 Il frammento duplicato (nuovo) viene quindi visualizzato nell&#39;elenco _Frammenti_.
 
-## Salvare un frammento dall’editor e-mail o modello
+## Salvare un frammento da e-mail o contenuto del modello
 
-Ogni volta che ti trovi nell’editor di contenuto visivo per creare/modificare un’e-mail o un modello e-mail, puoi scegliere di salvare tutto o parte del contenuto come frammento in modo che sia disponibile per il riutilizzo.
+Quando crei/modifichi un modello e-mail o e-mail nell’editor di contenuto visivo, puoi scegliere di salvare tutto o parte del contenuto come frammento in modo che sia disponibile per il riutilizzo.
 
 1. Quando hai del contenuto da salvare come frammento, fai clic su **[!UICONTROL Altro]** e scegli **[!UICONTROL Salva come frammento]**.
 
 1. Seleziona i diversi elementi da includere nel frammento.
 
-   Selezionare più strutture tenendo premuto il pulsante CTRL
+   Selezionare più strutture tenendo premuto il pulsante Maiusc o Ctrl.
 
    È possibile selezionare solo strutture adiacenti e l&#39;interfaccia non consente di selezionare elementi non adiacenti.
 
@@ -140,29 +185,31 @@ Ogni volta che ti trovi nell’editor di contenuto visivo per creare/modificare 
 
    Il nuovo frammento viene quindi visualizzato nella pagina di elenco _Frammenti_ ed è disponibile anche all&#39;interno di e-mail e modelli di e-mail.
 
-## Aggiungere frammenti visivi a un’e-mail o a un modello
+## Aggiungere frammenti visivi all’e-mail o al contenuto del modello
 
-I frammenti sono progettati per il riutilizzo e possono essere inseriti per la creazione di modelli e-mail e e-mail. Puoi aggiungere fino a 30 frammenti in un determinato messaggio e-mail o modello. I frammenti possono essere nidificati fino a un solo livello.
+I frammenti sono progettati per il riutilizzo e possono essere inseriti per la creazione di modelli e-mail e e-mail. Puoi aggiungere fino a 30 frammenti in un messaggio e-mail o in un modello. I frammenti possono essere nidificati fino a un solo livello.
 
 >[!BEGINTABS]
 
 >[!TAB Aggiungere frammenti a un&#39;e-mail]
 
-1. Passare a Percorsi di conti e aprire un percorsi percorso esistente o crearne uno nuovo.
+1. Passa a **[!UICONTROL Percorsi di account]** e apri un percorsi percorso esistente o creane uno nuovo.
 
-1. Crea un nodo &quot;Azione > Azione persone > Invia e-mail&quot;.
+1. Crea un nodo [_[!UICONTROL Invia e-mail ]_](./email-authoring.md#add-an-email-action-in-an-account-journey).
 
-1. Crea o modifica il contenuto delle e-mail per il nodo.
+1. Crea o modifica [contenuto e-mail per il nodo](./email-authoring.md#create-the-email-content).
 
-1. Trascina e rilascia un elemento dal menu Componenti per fornire una _struttura_ per il frammento.
+1. Trascina e rilascia un elemento dal menu **[!UICONTROL Componenti]** per fornire una _struttura_ per il frammento.
 
-1. Per aprire l&#39;elenco dei frammenti, fare clic sull&#39;icona _Frammenti_.
+1. Per aprire l&#39;elenco dei frammenti pubblicati, fare clic sull&#39;icona _Frammenti_.
 
-   È possibile:
+   Puoi eseguire le seguenti operazioni:
    * Ordina l’inserzione.
-   * Sfoglia, Cerca, Filtra l’inserzione.
-   * Consente di passare dalla visualizzazione Anteprima alla visualizzazione Elenco.
+   * Sfoglia, cerca e filtra l’inserzione.
+   * Passa dalla visualizzazione scheda (miniatura) a quella elenco e viceversa.
    * Aggiorna l’elenco per riflettere eventuali frammenti creati di recente.
+
+   ![Cerca un frammento nella finestra di progettazione visiva](./assets/fragments-list-designer-search.png){width="600"}
 
 1. Trascina e rilascia uno dei frammenti nel segnaposto del componente struttura.
 
@@ -170,9 +217,11 @@ I frammenti sono progettati per il riutilizzo e possono essere inseriti per la c
 
 Il contenuto del frammento viene aggiornato dinamicamente all’interno della struttura per eseguire il rendering di un’immagine del modo in cui il contenuto viene visualizzato nell’e-mail.
 
-Se desideri aggiungere il frammento in modo che occupi l’intero layout orizzontale all’interno dell’e-mail, aggiungi una struttura di colonne 1:1 e quindi trascina e rilascia il frammento all’interno di esso.
+>[!TIP]
+>
+>Se desideri che il frammento occupi l&#39;intero layout orizzontale all&#39;interno del messaggio e-mail, aggiungi una struttura di [!UICONTROL 1:1 colonna], quindi trascina e rilascia il frammento al suo interno.
 
-Dopo il salvataggio, l’e-mail viene visualizzata nella pagina dei dettagli del frammento > Utilizzato da. I frammenti aggiunti a un’e-mail non sono modificabili all’interno dell’e-mail: il contenuto è definito dal frammento di origine.
+Dopo il salvataggio, l&#39;e-mail viene visualizzata nella pagina dei dettagli del frammento quando viene selezionata la scheda _[!UICONTROL Usato da]_. I frammenti aggiunti a un’e-mail non sono modificabili all’interno dell’e-mail o del modello; il frammento di origine pubblicato definisce il contenuto.
 
 >[!TAB Aggiungere frammenti a un modello di e-mail]
 
@@ -180,38 +229,44 @@ Dopo il salvataggio, l’e-mail viene visualizzata nella pagina dei dettagli del
 
 1. Crea un nuovo modello o apri un modello e-mail esistente e fai clic su **[!UICONTROL Modifica modello e-mail]**.
 
-1. Trascina e rilascia un elemento dal menu Componenti per fornire una _struttura_ per il frammento.
+1. Trascina e rilascia un elemento dal menu **[!UICONTROL Componenti]** per fornire una _struttura_ per il frammento.
 
 1. Per aprire l&#39;elenco dei frammenti, fare clic sull&#39;icona _Frammenti_.
 
-   È possibile:
+   Puoi eseguire le seguenti operazioni:
    * Ordina l’inserzione.
-   * Sfoglia, Cerca, Filtra l’inserzione.
-   * Consente di passare dalla visualizzazione Anteprima alla visualizzazione Elenco.
+   * Sfoglia, cerca e filtra l’inserzione.
+   * Passa dalla visualizzazione scheda (miniatura) a quella elenco e viceversa.
    * Aggiorna l’elenco per riflettere eventuali frammenti creati di recente.
 
-1. Trascina e rilascia uno dei frammenti nel segnaposto del componente struttura.
-
-   L’editor esegue il rendering del frammento all’interno della sezione/elemento della struttura del modello e-mail.
+   ![Cerca un frammento nella finestra di progettazione visiva](./assets/fragments-list-designer-search.png){width="600"}
 
 1. Trascina e rilascia uno dei frammenti nel segnaposto del componente struttura.
 
    L’editor esegue il rendering del frammento all’interno della sezione/elemento della struttura del modello e-mail.
 
-Se desideri aggiungere il frammento in modo che occupi l’intero layout orizzontale all’interno del modello e-mail, aggiungi una struttura di colonne 1:1 e quindi trascina e rilascia il frammento al suo interno.
+1. Trascina e rilascia uno dei frammenti nel segnaposto del componente struttura.
 
-Dopo il salvataggio, il modello e-mail viene visualizzato nella pagina dei dettagli del frammento > _[!UICONTROL Usato da]_ sezione. I frammenti aggiunti a un modello e-mail non sono modificabili all’interno del modello: il contenuto è definito dal frammento di origine.
+   L’editor esegue il rendering del frammento all’interno della sezione/elemento della struttura del modello e-mail.
+
+>[!TIP]
+>
+>Se desideri che il frammento occupi l&#39;intero layout orizzontale all&#39;interno del modello e-mail, aggiungi una struttura di _[!UICONTROL 1:1 colonna]_, quindi trascina e rilascia il frammento al suo interno.
+
+Dopo il salvataggio, il modello e-mail viene visualizzato nella pagina dei dettagli del frammento quando viene selezionata la scheda _[!UICONTROL Usato da]_. I frammenti aggiunti a un modello e-mail non sono modificabili all’interno del modello: il frammento di origine pubblicato definisce il contenuto.
 
 >[!ENDTABS]
 
-## Azioni frammento durante l’authoring
+## Azioni sui frammenti durante l’authoring di e-mail e modelli
 
-Dopo l’aggiunta di un frammento a un’e-mail o a un modello e-mail, il contenuto del frammento non può essere modificato all’interno dell’e-mail o del modello. Tuttavia, puoi applicare le seguenti azioni:
+Quando un frammento viene aggiunto a un’e-mail o a un modello e-mail, non è possibile modificarne il contenuto all’interno dell’e-mail o del modello. Tuttavia, puoi applicare le seguenti azioni:
 
 * **[!UICONTROL Elimina]** - Questa azione rimuove il frammento dal contenuto del modello e-mail o e-mail corrente (l&#39;origine del frammento non è interessata).
-* **[!UICONTROL Aggiorna]** - Questa azione aggiorna il contenuto del frammento nel modello e-mail o e-mail corrente. Questa funzione ti consente di riflettere eventuali modifiche recenti apportate al frammento dopo che è stato aggiunto al modello e-mail o e-mail.
+* **[!UICONTROL Aggiorna]** - Questa azione aggiorna il contenuto del frammento nel modello e-mail o e-mail corrente. L’aggiornamento è utile quando desideri riflettere eventuali modifiche recenti apportate al frammento dopo l’aggiunta all’e-mail o al modello e-mail.
 * **[!UICONTROL Duplicato]** - Questa azione duplica il frammento all&#39;interno dello stesso e-mail o modello e-mail all&#39;interno dell&#39;editor, con le stesse dimensioni e aggiunto appena sotto di esso.
 * **[!UICONTROL Apri frammento]** - Questa azione apre una nuova scheda del browser con la pagina e i dettagli dell&#39;editor frammenti.
 * **[!UICONTROL Interrompi ereditarietà]** - Questa azione interrompe l&#39;ereditarietà del frammento (e delle relative modifiche) dall&#39;origine. Utilizza questa azione per rendere il contenuto del frammento disponibile come contenuto indipendente e modificabile all’interno del modello e-mail o e-mail. Questa azione rimuove anche il modello e-mail o e-mail dal riferimento _Usato da_ per il frammento originale.
 
 Quando selezioni il frammento nella pagina dell’editor, queste azioni sono disponibili nella barra degli strumenti contestuale e nel pannello delle proprietà a destra.
+
+![Applica azioni al frammento selezionato](./assets/fragment-actions-email-authoring.png){width="600" zoomable="yes"}

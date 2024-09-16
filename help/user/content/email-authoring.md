@@ -1,11 +1,11 @@
 ---
 title: Authoring di e-mail
-description: Scopri come creare contenuti e-mail personalizzati da utilizzare nei Percorsi di account.
+description: Scopri come creare contenuti e-mail personalizzati da utilizzare in un Percorso di account.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
+source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1221'
 ht-degree: 11%
 
 ---
@@ -65,121 +65,116 @@ Dopo aver creato e personalizzato il contenuto dell’e-mail, puoi esportarlo pe
 ### Creare e-mail da zero {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="Aggiungere i componenti Struttura"
->abstract="I componenti della struttura definiscono il layout del messaggio e-mail. Per iniziare a progettare il contenuto delle e-mail, trascina un componente **Struttura** nell’area di lavoro."
-
->[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
 >title="Aggiungere i componenti Struttura"
 >abstract="I componenti della struttura definiscono il layout della pagina di destinazione. Per iniziare a progettare il contenuto della pagina di destinazione, trascina un componente **Struttura** nell’area di lavoro."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="Aggiungere i componenti Struttura"
->abstract="I componenti della struttura definiscono il layout del frammento. Per iniziare a progettare il contenuto del frammento, trascina un componente **Struttura** nell’area di lavoro."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="Informazioni sui componenti per contenuti"
->abstract="I componenti di contenuto sono segnaposto di contenuto vuoti che puoi utilizzare per creare il layout di un’e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
 >title="Informazioni sui componenti per contenuti"
 >abstract="I componenti per contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione."
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="Informazioni sui componenti per contenuti"
->abstract="I componenti di contenuto sono segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di un frammento."
+Utilizza l’editor di contenuto visivo per definire la struttura del contenuto dell’e-mail. Aggiungendo e spostando componenti strutturali con semplici azioni di trascinamento della selezione, puoi progettare la forma del contenuto dell’e-mail riutilizzabile in pochi secondi.
 
-1. Dalla home page di Designer, selezionare l&#39;opzione **[!UICONTROL Progetta da zero]**.
+1. Dalla home page di _[!UICONTROL Progetta modello]_, seleziona l&#39;opzione **[!UICONTROL Progetta da zero]**.
 
-1. Per iniziare la progettazione del contenuto, trascina un elemento dalle **[!UICONTROL Strutture]** e rilascialo nell&#39;area di lavoro.
+1. [Aggiungi struttura e contenuto](#add-structure-and-content) al messaggio di posta elettronica.
+1. [Aggiungi risorse immagine](#add-assets) al messaggio e-mail.
+1. [Personalizzare il contenuto dell&#39;e-mail](#personalize-content).
+1. [Rivedi e aggiorna i collegamenti](#preview-and-edit-linked-urls).
 
-   Ripeti questo passaggio per ogni componente struttura per creare il layout del messaggio e-mail.
-
-1. Aggiungi tutti gli elementi da _Strutture_ necessari e modifica le impostazioni per ciascuno nel riquadro a destra.
-
-   Seleziona il componente colonna n:n per definire il numero di colonne desiderato (tra tre e 10). Puoi anche definire la larghezza di ciascuna colonna spostando le frecce sotto di essa.
-
-   Le dimensioni di ogni colonna non possono essere inferiori al 10% della larghezza totale del componente struttura. È possibile rimuovere solo colonne vuote.
-
-1. Espandi la sezione **[!UICONTROL Contents]** e aggiungi tutti gli elementi necessari in uno o più componenti della struttura.
-
-1. Se necessario, puoi effettuare ulteriori personalizzazioni per ciascun componente nelle schede _[!UICONTROL Impostazioni]_ o _[!UICONTROL Stile]_.
-
-   Ad esempio, puoi modificare lo stile del testo, la spaziatura interna o il margine di ciascun componente.
-
-1. Dal selettore delle risorse, puoi selezionare direttamente le risorse memorizzate nella libreria Assets.
-
-   Fai doppio clic sulla cartella che contiene le risorse. Trascina e rilascia gli elementi in un componente struttura.
-
-1. Inserisci campi di personalizzazione per personalizzare il contenuto da attributi di profili, iscrizioni di pubblico, attributi contestuali e altro ancora.
-
-<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
--->
-1. Seleziona la scheda **[!UICONTROL Collegamenti]** dal riquadro a sinistra per visualizzare tutti gli URL del contenuto tracciati.
-
-   Puoi modificare il _Tipo di tracciamento_ o _Etichetta_ e aggiungere tag se necessario.
-
-Se necessario, puoi personalizzare ulteriormente la tua e-mail facendo clic su **[!UICONTROL Passa all&#39;editor di codice]** dal menu avanzato. L’editor di codice consente di modificare il codice sorgente dell’e-mail, ad esempio aggiungendo tag di tracciamento o HTML personalizzati.
+<!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->Dopo il passaggio all’editor di codice, non puoi tornare al designer visivo per questo messaggio e-mail.
+>You cannot revert back to the visual designer for this email after switching to the code editor. -->
 
 Al termine, fai clic su **[!UICONTROL Simula contenuto]** in alto per verificare il rendering. È possibile scegliere la visualizzazione desktop o mobile.
 
-Al termine, fai clic su Salva.
+Quando si è soddisfatti del contenuto, fare clic su **[!UICONTROL Salva]**.
 
 ### Importa contenuto HTML esistente
 
-Il contenuto importato può essere:
+{{$include /help/_includes/content-design-import.md}}
 
-* Un file HTML con un foglio di stile incorporato
-* Una cartella .zip che include un file HTML, il foglio di stile (.css) e i file immagine
+![importa contenuto html in un file zip](./assets/email-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
->La struttura del file .zip non è soggetta a vincoli. Tuttavia, i riferimenti devono essere relativi e adattarsi alla struttura ad albero della cartella .zip.
+>L&#39;utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
 
-_Per importare un file contenente contenuto HTML:_
-
-1. Dalla home page di E-mail Designer, seleziona **[!UICONTROL Importa HTML]**.
-
-1. Trascina e rilascia il file HTML o .zip contenente il contenuto HTML e fai clic su [!UICONTROL Importa].
-
-   Al termine del caricamento del contenuto di HTML, il contenuto si trova in _modalità di compatibilità_. In questa modalità, puoi solo personalizzare il testo, aggiungere collegamenti o includere risorse nel contenuto.
+Puoi personalizzare il contenuto importato in base alle esigenze con gli strumenti dell’editor e-mail visivo.
 
 ### Seleziona un modello
 
-Puoi scegliere tra:
+{{$include /help/_includes/content-design-select-template.md}}
 
-* Modelli di esempio. L’interfaccia di Journey Optimizer offre 20 modelli e-mail preconfigurati tra cui puoi scegliere.
+## Aggiungi struttura e contenuto {#structure-content}
 
-* Modelli salvati.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="Aggiungere i componenti Struttura"
+>abstract="I componenti della struttura definiscono il layout del messaggio e-mail. Per iniziare a progettare il contenuto delle e-mail, trascina un componente **Struttura** nell’area di lavoro."
 
-* Un modello personalizzato creato da zero utilizzando il menu _Modelli_ oppure salvato da un&#39;e-mail in un percorso utilizzando l&#39;opzione _[!UICONTROL Salva come modello di contenuto]_.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="Informazioni sui componenti per contenuti"
+>abstract="I componenti di contenuto sono segnaposto di contenuto vuoti che puoi utilizzare per creare il layout di un’e-mail."
 
-_Per iniziare a creare il contenuto con uno dei modelli di esempio o salvati:_
+{{$include /help/_includes/content-design-components.md}}
 
-1. Accedi a _Invia e-mail a Designer_ dall&#39;area di lavoro di modifica del contenuto e-mail.
+### Aggiungi frammenti
 
-   Nella pagina _[!UICONTROL Crea messaggio e-mail]_, la scheda **[!UICONTROL Modelli di esempio]** è selezionata per impostazione predefinita.
+Nell&#39;editor del contenuto visivo, l&#39;icona _Frammenti_ è visualizzata a sinistra. L’esempio seguente illustra i passaggi per aggiungere frammenti al contenuto del modello.
 
-1. Per utilizzare un modello personalizzato, selezionare la scheda **[!UICONTROL Modelli salvati]**.
+1. Per aprire l&#39;elenco dei frammenti, fare clic sull&#39;icona _Frammenti_.
 
-   Viene visualizzato l’elenco di tutti i modelli di contenuto creati nella sandbox corrente. Puoi ordinarli per nome, Ultima modifica o Ultima creazione.
+   Puoi eseguire le seguenti operazioni:
 
-1. Seleziona dall’elenco il modello desiderato.
+   * Ordina l’inserzione.
+   * Sfoglia, Cerca o filtra l’inserzione.
+   * Consente di passare dalla visualizzazione Anteprima alla visualizzazione Elenco.
+   * Aggiorna l’elenco per riflettere eventuali frammenti creati di recente.
 
-1. Dopo aver selezionato una categoria, puoi spostarti tra tutti i modelli della categoria (campione o salvato a seconda della selezione) utilizzando le frecce destra e sinistra.
+   ![Selezionare un frammento dall&#39;elenco](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. Fai clic su **[!UICONTROL Usa questo modello]** in alto a destra della pagina.
+1. Trascina uno dei frammenti nel segnaposto del componente strutturale.
 
-1. Modificare il contenuto in base alle esigenze in _E-mail Designer_.
+   L’editor esegue il rendering del frammento all’interno della sezione/elemento della struttura e-mail.
+
+Il contenuto del frammento viene aggiornato dinamicamente all’interno della struttura per mostrare come appare il contenuto nell’e-mail.
+
+>[!TIP]
+>
+>Se desideri aggiungere il frammento in modo che occupi l’intero layout orizzontale all’interno dell’e-mail, aggiungi una struttura di colonne 1:1 e quindi trascina e rilascia il frammento all’interno di esso.
+
+Dopo il salvataggio, l&#39;e-mail viene visualizzata nella pagina dei dettagli del frammento quando si seleziona la scheda _[!UICONTROL Usato da]_ nel riepilogo. I frammenti aggiunti a un modello e-mail non sono modificabili all’interno del modello, in quanto il contenuto è definito dal frammento di origine.
+
+### Aggiungere risorse
+
+{{$include /help/_includes/content-design-assets.md}}
+
+### Spostarsi tra livelli, impostazioni e stili
+
+{{$include /help/_includes/content-design-navigation.md}}
+
+### Personalizzare il contenuto
+
+{{$include /help/_includes/content-design-personalization.md}}
+
+### Modifica tracciamento URL collegato
+
+{{$include /help/_includes/content-design-links.md}}
+
+### Opzioni di visualizzazione
+
+Sfrutta le opzioni di convalida di visualizzazione e contenuto disponibili nell’editor e-mail visivo.
+
+* Zoom in/out del contenuto tra le opzioni di zoom predefinite.
+
+* Cambia la visualizzazione del contenuto tra desktop, dispositivi mobili o solo testo/solo testo.
+   * Fai clic sull&#39;icona _Occhio_ per visualizzare l&#39;anteprima del contenuto tra i dispositivi.
+   * Seleziona uno dei dispositivi predefiniti o immetti dimensioni personalizzate per visualizzare in anteprima il contenuto.
 
 ## Controllare gli avvisi
 
