@@ -3,9 +3,9 @@ title: Gruppi di acquisto
 description: Scopri come acquistare i gruppi e i relativi componenti.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1193'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ Per le attività di vendita e marketing B2B, gli account sono fondamentali per q
 ![Diagramma ruoli account](assets/account-roles-diagram.png){width="800"}
 
 Nell&#39;account potrebbe essere presente un sottoinsieme di persone che costituiscono il _gruppo di acquisto_. Queste sono le persone che alla fine prendono la decisione di acquisto, quindi hanno bisogno di particolare attenzione da parte dell’addetto al marketing e potrebbero aver bisogno di informazioni diverse da quelle delle altre persone associate all’account. I gruppi di acquisto possono comprendere un gruppo diverso di persone per diverse linee di prodotti o offerte. Ad esempio, un prodotto di cibersicurezza potrebbe in genere richiedere un Chief Information Officer o un Chief Security Officer e un rappresentante dell&#39;Ufficio legale per approvare un acquisto, ma un prodotto di tracciamento dei bug potrebbe in genere avere un VP of Engineering e un IT Director come membri del gruppo di acquisto.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda la panoramica del video](#overview-video)
 
 ## Componenti chiave
 
@@ -152,3 +154,7 @@ Il punteggio di coinvolgimento finale viene calcolato applicando la ponderazione
 | Influencer | 28 | 33,33% | 9,33 |
 | Professionisti | 17 | 25% | 4,25 |
 | **Punteggio di coinvolgimento finale** |                |             | **35,25** |
+
+## Video introduttivo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

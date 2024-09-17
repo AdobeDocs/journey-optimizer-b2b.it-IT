@@ -3,9 +3,9 @@ title: Acquisto di modelli di mansione per gruppi
 description: Scopri come definire un modello di ruolo da utilizzare come componente del gruppo di acquisto.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Acquisto di modelli di ruolo del gruppo
 
 In un mercato B2B, le decisioni di acquisto sono solitamente prese da più individui. Tali persone partecipano al processo decisionale in base al loro ruolo all’interno dell’organizzazione. Crea modelli di ruolo Gruppo acquisti che contengono queste definizioni di ruolo in base a ciascun tipo di offerta di prodotto o caso di utilizzo dell’account.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
 ## Accedere e sfogliare i modelli di ruolo
 
@@ -130,3 +132,7 @@ Puoi eliminare un modello di ruoli se si trova nello stato _Bozza_.
    ![Modifica priorità ruolo](./assets/roles-template-delete.png){width="700"}
 
 1. Nella finestra di dialogo, fai clic su **[!UICONTROL Elimina]** per confermare.
+
+## Video introduttivo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

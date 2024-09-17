@@ -3,9 +3,9 @@ title: Interessi soluzione
 description: Scopri gli interessi della soluzione e come definirli per l’utilizzo all’interno dei gruppi di acquisto.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Interessi soluzione
 
 Prima di creare i gruppi di acquisto, è necessario sapere cosa si sta vendendo e chi si desidera eseguire il targeting. La strategia di marketing e vendita deve essere allineata in modo da poter aggiungere l&#39;interesse della soluzione per i gruppi di acquisto.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
 ## Accedere e sfogliare gli interessi della soluzione
 
@@ -84,3 +86,7 @@ Qualsiasi interesse di soluzione attualmente in uso da un processo o percorso di
    Se l’interesse della soluzione è attualmente utilizzato da un percorso di account o da un processo del gruppo di acquisto, l’azione apre una finestra di dialogo informativa che avvisa che non è possibile eliminarlo. Fare clic su [!UICONTROL OK] per interrompere l&#39;eliminazione.
 
 1. Fare clic su **[!UICONTROL Elimina]** per confermare l&#39;eliminazione oppure interrompere il processo facendo clic su _[!UICONTROL Annulla]_.
+
+## Video introduttivo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
