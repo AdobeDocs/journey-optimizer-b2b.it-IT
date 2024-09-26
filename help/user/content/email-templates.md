@@ -6,7 +6,7 @@ exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
 source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -78,12 +78,12 @@ Puoi personalizzare il contenuto importato in base alle esigenze con gli strumen
 
 {{$include /help/_includes/content-design-select-template.md}}
 
-## Aggiungi struttura e contenuto {#structure-content}
+## Aggiungere struttura e contenuto {#structure-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
 >title="Aggiungere i componenti Struttura"
->abstract="I componenti della struttura definiscono il layout del modello. Trascina e rilascia un componente **Struttura** nell&#39;area di lavoro per iniziare a progettare il contenuto per il modello."
+>abstract="I componenti della struttura definiscono il layout del modello. Per iniziare a progettare il contenuto del modello, trascina un componente **Struttura** nell’area di lavoro."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"

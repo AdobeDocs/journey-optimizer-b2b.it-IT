@@ -6,7 +6,7 @@ exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
 source-wordcount: '1221'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -109,7 +109,7 @@ Puoi personalizzare il contenuto importato in base alle esigenze con gli strumen
 
 {{$include /help/_includes/content-design-select-template.md}}
 
-## Aggiungi struttura e contenuto {#structure-content}
+## Aggiungere struttura e contenuto {#structure-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
