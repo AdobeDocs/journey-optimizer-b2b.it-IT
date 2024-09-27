@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione più recente per l’edizione B2B di Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 1618ecba01718aeadc4c97c906e259c1a588eca0
+source-git-commit: 192080e0cea6eb3deaea24ac89ec17113bc75af5
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 13%
+source-wordcount: '264'
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,22 @@ Questa versione include le nuove funzionalità e i miglioramenti seguenti:
 <tbody>
 <tr>
 <td>
-<p>Genera tipi di pubblico di LinkedIn Ad tramite tipi di pubblico corrispondenti all’account per aiutarti a riempire i ruoli vuoti nei gruppi di acquisto. Definendo un set di filtri per gruppi di acquisto, puoi mantenere un pubblico abbinato a LinkedIn per eseguire il targeting dei potenziali clienti che corrispondono ai parametri del gruppo di acquisto. Questa funzione sfrutta Destinazioni Experience Platform per gestire alcuni aspetti dell’integrazione. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences)</p>
+<p>Genera tipi di pubblico di LinkedIn Ad tramite tipi di pubblico corrispondenti all’account per aiutarti a riempire i ruoli vuoti nei gruppi di acquisto. Definendo un set di filtri per gruppi di acquisto, puoi mantenere un pubblico abbinato a LinkedIn per eseguire il targeting dei potenziali clienti che corrispondono ai parametri del gruppo di acquisto. Questa funzione sfrutta Destinazioni Experience Platform per gestire alcuni aspetti dell’integrazione. [Ulteriori informazioni](../data/linkedin-account-matched-audiences.md)</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Ciclo di vita dello stato per i frammenti visivi</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>I frammenti visivi vengono gestiti utilizzando un ciclo di vita dello stato, in cui lo stato del frammento determina la disponibilità per l’utilizzo in un modello e-mail o e-mail e le modifiche che puoi apportarvi. In questo modo è possibile gestire facilmente i contenuti riutilizzati in base al calendario delle comunicazioni e delle promozioni. [Ulteriori informazioni](../content/fragments.md#fragment-status-and-lifecycle)</p>
 </td>
 </tr>
 </tbody>
