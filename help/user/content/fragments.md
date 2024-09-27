@@ -3,9 +3,9 @@ title: Frammenti
 description: Scopri come creare e utilizzare frammenti di contenuto visivo come componenti riutilizzabili per e-mail e modelli e-mail in Adobe Journey Optimizer B2B Edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 8e55e4444a363a5699574c2fa1ed256fdb690dd0
+source-git-commit: d0bf71dd1503d824391df7d7a7c59e3c2c925f03
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '2687'
 ht-degree: 2%
 
 ---
@@ -31,11 +31,35 @@ Per accedere ai frammenti visivi in Adobe Journey Optimizer B2B Edition, vai all
 
 La tabella è ordinata in base alla colonna _[!UICONTROL Modificato]_, con i frammenti aggiornati più di recente nella parte superiore per impostazione predefinita. Fai clic sul titolo della colonna per passare da crescente a decrescente.
 
-Per cercare un frammento in base al nome, immetti una stringa di testo nella barra di ricerca per trovare una corrispondenza. Fai clic sull&#39;icona _Filtro_ per filtrare gli elementi visualizzati in base ai criteri specificati.
+### Stato e ciclo di vita del frammento
+
+Lo stato del frammento determina la sua disponibilità per l’utilizzo in un messaggio e-mail o in un modello e-mail e le modifiche che puoi apportarvi.
+
+| Stato | Descrizione |
+| -------------------- | ----------- |
+| Bozza | Quando crei un frammento, questo si trova nello stato Bozza. Rimane in questo stato mentre definisci o modifichi il contenuto visivo fino a quando non lo pubblichi per l’utilizzo in un e-mail o in un modello e-mail. Azioni disponibili:<br/><ul><li>Modifica tutti i dettagli<li>Modifica in designer visivo<li>Pubblica<li>Duplica<li>Elimina |
+| Pubblicato | Quando pubblichi un frammento, questo diventa disponibile per l’utilizzo in un’e-mail o in un modello e-mail. Il contenuto di un frammento pubblicato non può essere modificato nella finestra di progettazione visiva. Azioni disponibili:<br/><ul><li>Modifica descrizione<li>Aggiungi a un messaggio e-mail o a un modello<li>Crea bozza di versione<li>Duplica<li>Elimina (se non in uso) |
+| Pubblicato con bozza | Quando crei una bozza da un frammento pubblicato, la versione pubblicata rimane disponibile per l’utilizzo in un modello e-mail o e-mail e il contenuto della bozza può essere modificato nella finestra di progettazione visiva. Se pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nelle e-mail e nei modelli e-mail in cui è in uso. Azioni disponibili:<br/><ul><li>Modifica descrizione<li>Aggiungi a un messaggio e-mail o a un modello<li>Modifica versione bozza in Progettazione visiva<li>Versione bozza Publish<li>Duplica<li>Elimina (se non in uso) |
+
+![Ciclo di vita stato frammento](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+>[!IMPORTANT]
+>
+>Lo stato del frammento è stato introdotto nella versione di agosto di Journey Optimizer B2B Edition. Tutti i frammenti creati prima di questa versione hanno lo stato _Bozza_, anche se vengono utilizzati in un messaggio e-mail o in un modello. Se apporti modifiche a questi frammenti, devi pubblicare il frammento per propagare le modifiche.
+
+### Filtrare l’elenco dei frammenti
+
+Per cercare un frammento in base al nome, immetti una stringa di testo nella barra di ricerca per trovare una corrispondenza. Fai clic sull&#39;icona _Filtro_ ( ![Mostra o nascondi icona filtri](../assets/do-not-localize/icon-filter.svg) ) per visualizzare le opzioni di filtro disponibili e modificare le impostazioni per filtrare gli elementi visualizzati in base ai criteri specificati.
 
 ![Filtra i frammenti visualizzati](./assets/fragments-list-filtered.png){width="700" zoomable="yes"}
 
-Personalizzare le colonne da visualizzare nella tabella facendo clic sull&#39;icona _Personalizza tabella_ in alto a destra. Selezionare le colonne da visualizzare e fare clic su **[!UICONTROL Applica]**.
+### Personalizzare la visualizzazione delle colonne
+
+Personalizza le colonne da visualizzare nella tabella facendo clic sull&#39;icona _Personalizza tabella_ ( ![Personalizza icona tabella](../assets/do-not-localize/icon-column-settings.svg) ) in alto a destra.
+
+Nella finestra di dialogo, seleziona le colonne da visualizzare e fai clic su **[!UICONTROL Applica]**.
+
+![Selezionare le colonne da visualizzare](./assets/fragments-customize-table-dialog.png){width="300"}
 
 ## Creare i frammenti
 
@@ -57,16 +81,19 @@ Personalizzare le colonne da visualizzare nella tabella facendo clic sull&#39;ic
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
-   L’editor di contenuto visivo si apre con un’area di lavoro vuota.
+   La finestra di progettazione visiva viene aperta con un&#39;area di lavoro vuota.
 
-<!-- To be linked to the corresponding sections on this page: Adobe Journey Optimizer B2B Edition - Email Templates
+1. Utilizza gli strumenti di progettazione del contenuto per creare il contenuto del frammento visivo:
 
-Adding structure and content
-Adding assets
-Navigating the layers
-Previewing & editing URLs
-View options
-More options -->
+   * [Aggiungere struttura e contenuto](#add-structure-and-content)
+   * [Aggiungi Assets](#add-assets)
+   * [Spostarsi tra livelli, impostazioni e stili](#navigate-the-layers-settings-and-styles)
+   * [Personalizzare il contenuto](#personalize-content)
+   * [Modifica tracciamento URL collegato](#edit-linked-url-tracking)
+
+1. Fai clic su **[!UICONTROL Salva]** in qualsiasi momento per salvare la bozza del frammento.
+
+1. Quando sei pronto a rendere il frammento disponibile per l&#39;utilizzo in un messaggio e-mail o in un modello e-mail, fai clic su **[!UICONTROL Publish]**.
 
 ### Aggiungere struttura e contenuto {#design-fragment}
 
@@ -145,12 +172,97 @@ Se il frammento è attualmente in uso, l’azione apre una finestra di dialogo i
 
 ## Modificare i frammenti
 
-Puoi modificare un frammento utilizzando uno dei seguenti metodi:
+Le modifiche apportate a un frammento dipendono dal suo stato corrente:
 
-* Dai dettagli del frammento a destra, fai clic su **[!UICONTROL Modifica]**.
-* Dalla pagina dell&#39;elenco _[!UICONTROL Frammenti]_, fai clic sui puntini di sospensione accanto al frammento e scegli **[!UICONTROL Modifica]**.
+* Quando un frammento è nello stato _Bozza_, puoi modificarne i dettagli e il contenuto visivo.
+* Quando un frammento è nello stato _Pubblicato_, puoi modificare la descrizione del frammento, ma non il nome. Non è possibile modificare il contenuto visivo.
+* Quando un frammento è in stato _Pubblicato con bozza_, la modifica dei dettagli è limitata alla descrizione. Puoi anche modificare il contenuto visivo della versione bozza.
 
-Questa azione consente di aprire il frammento in un editor di contenuti visivi, in cui è possibile modificare il frammento utilizzando una qualsiasi delle funzionalità per la [creazione di un frammento](#create-fragments).
+>[!BEGINTABS]
+
+>[!TAB Bozza]
+
+1. Nella pagina dell&#39;elenco _[!UICONTROL Frammenti]_ fare clic sul nome del frammento per aprirlo.
+
+   Viene visualizzata un’anteprima del contenuto visivo, con i dettagli del frammento a destra.
+
+1. Modifica uno dei dettagli, ad esempio nome e descrizione.
+
+   ![Dettagli per frammento con stato Bozza](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+
+1. Per apportare modifiche al contenuto nella finestra di progettazione visiva, fare clic su **[!UICONTROL Modifica frammento]**.
+
+   Utilizza gli strumenti di progettazione visiva secondo necessità:
+
+   * [Aggiungere struttura e contenuto](#add-structure-and-content)
+   * [Aggiungi Assets](#add-assets)
+   * [Spostarsi tra livelli, impostazioni e stili](#navigate-the-layers-settings-and-styles)
+   * [Personalizzare il contenuto](#personalize-content)
+   * [Modifica tracciamento URL collegato](#edit-linked-url-tracking)
+
+   Fai clic su **[!UICONTROL Salva]** o **[!UICONTROL Salva e chiudi]** per tornare ai dettagli del frammento.
+
+1. Quando il frammento soddisfa i criteri e desideri renderlo disponibile per l&#39;utilizzo in un messaggio e-mail o in un modello e-mail, fai clic su **[!UICONTROL Publish]**.
+
+>[!TAB Pubblicato]
+
+1. Nella pagina dell&#39;elenco _[!UICONTROL Frammenti]_ fare clic sul nome del frammento per aprirlo.
+
+   Viene visualizzata un’anteprima del contenuto visivo, con i dettagli del frammento a destra.
+
+1. Se necessario, modifica la descrizione.
+
+   Per un frammento pubblicato, non è possibile modificare tutti gli altri dettagli.
+
+1. Se desideri aggiornare il contenuto, fai clic su **[!UICONTROL Crea versione bozza]** in alto a destra.
+
+   Fare clic su **[!UICONTROL OK]** nella finestra di dialogo per aprire la versione bozza nella finestra di progettazione visiva. Se necessario, puoi cambiare l&#39;[origine immagine](./assets-overview.md#choose-an-asset-source).
+
+   ![Finestra di dialogo Crea bozza versione](./assets/fragments-create-draft-version.png){width="300"}
+
+   Utilizza gli strumenti di progettazione visiva secondo necessità:
+
+   * [Aggiungere struttura e contenuto](#add-structure-and-content)
+   * [Aggiungi Assets](#add-assets)
+   * [Spostarsi tra livelli, impostazioni e stili](#navigate-the-layers-settings-and-styles)
+   * [Personalizzare il contenuto](#personalize-content)
+   * [Modifica tracciamento URL collegato](#edit-linked-url-tracking)
+
+   Fai clic su **[!UICONTROL Salva]** o **[!UICONTROL Salva e chiudi]** per tornare ai dettagli del frammento.
+
+1. Quando il frammento bozza soddisfa i criteri e desideri rendere le modifiche disponibili per l&#39;utilizzo in un messaggio e-mail o in un modello e-mail, fai clic su **[!UICONTROL Publish]**.
+
+   Quando pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nelle e-mail e nei modelli e-mail in cui è già in uso.
+
+>[!TAB Pubblicato con bozza]
+
+Esistono due modi per aprire la versione bozza per la modifica dalla pagina di elenco _[!UICONTROL Frammenti]_:
+
+* Fai clic sull&#39;icona _Altro_ (**...**) accanto al nome del frammento e scegli **[!UICONTROL Apri versione bozza]**.
+
+  ![Apri versione bozza](./assets/fragments-create-draft-version.png){width="300"}
+
+* Fai clic sul nome del frammento per aprirlo. Quindi, fai clic su **[!UICONTROL Apri versione bozza]** in alto a destra.
+
+  Viene visualizzata un’anteprima del contenuto visivo per la versione bozza, con i dettagli del frammento a destra.
+
+Per aggiornare il contenuto:
+
+1. Fai clic su **[!UICONTROL Modifica frammento]** in alto a destra. Utilizza gli strumenti di progettazione visiva secondo necessità:
+
+   * [Aggiungere struttura e contenuto](#add-structure-and-content)
+   * [Aggiungi Assets](#add-assets)
+   * [Spostarsi tra livelli, impostazioni e stili](#navigate-the-layers-settings-and-styles)
+   * [Personalizzare il contenuto](#personalize-content)
+   * [Modifica tracciamento URL collegato](#edit-linked-url-tracking)
+
+   Fai clic su **[!UICONTROL Salva]** o **[!UICONTROL Salva e chiudi]** per tornare ai dettagli del frammento.
+
+1. Quando il frammento bozza soddisfa i criteri e desideri rendere le modifiche disponibili per l&#39;utilizzo in un messaggio e-mail o in un modello e-mail, fai clic su **[!UICONTROL Publish]**.
+
+   Quando pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nelle e-mail e nei modelli e-mail in cui è già in uso.
+
+>[!ENDTABS]
 
 ## Frammenti duplicati
 
@@ -167,7 +279,7 @@ Nella finestra di dialogo, inserisci un nome utile (univoco) e una descrizione. 
 
 Il frammento duplicato (nuovo) viene quindi visualizzato nell&#39;elenco _Frammenti_.
 
-## Salvare un frammento da e-mail o contenuto del modello
+## Salvare un nuovo frammento da e-mail o contenuto del modello
 
 Quando crei/modifichi un modello e-mail o e-mail nell’editor di contenuto visivo, puoi scegliere di salvare tutto o parte del contenuto come frammento in modo che sia disponibile per il riutilizzo.
 
