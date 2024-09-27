@@ -2,7 +2,7 @@
 title: Note sulla versione
 description: Note sulla versione più recente per l’edizione B2B di Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 1161afedadaf4ed16d895599ba2b6330b6bf7fa5
+source-git-commit: 9a7550b3e25adeab2918368c4fb5b4c640012baf
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 15%
@@ -47,7 +47,7 @@ Questa versione include le nuove funzionalità e i miglioramenti seguenti:
 <tbody>
 <tr>
 <td>
-<p>I frammenti visivi vengono gestiti utilizzando un ciclo di vita dello stato, in cui lo stato del frammento determina la disponibilità per l’utilizzo in un modello e-mail o e-mail e le modifiche che puoi apportarvi. In questo modo è possibile gestire facilmente i contenuti riutilizzati in base al calendario delle comunicazioni e delle promozioni. <a href="../content/fragments#fragment-status-and-lifecycle">Ulteriori informazioni</a>
+<p>I frammenti visivi vengono gestiti utilizzando un ciclo di vita dello stato, in cui lo stato del frammento determina la disponibilità per l’utilizzo in un modello e-mail o e-mail e le modifiche che puoi apportarvi. In questo modo è possibile gestire facilmente i contenuti riutilizzati in base al calendario delle comunicazioni e delle promozioni. <a href="../content/fragments.md#fragment-status-and-lifecycle">Ulteriori informazioni</a>
 </td>
 </tr>
 </tbody>
