@@ -3,10 +3,10 @@ title: Authoring di SMS
 description: Scopri come inviare messaggi di testo (SMS) ai clienti sui loro dispositivi mobili e come personalizzare e visualizzare in anteprima i messaggi in formato testo dall’editor SMS.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
+source-git-commit: e38ec0f128e811fd4ac21c624d9018854b91c78b
 workflow-type: tm+mt
-source-wordcount: '1908'
-ht-degree: 2%
+source-wordcount: '2041'
+ht-degree: 1%
 
 ---
 
@@ -16,17 +16,17 @@ Utilizza Adobe Journey Optimizer B2B Edition per inviare messaggi di testo (SMS)
 
 ## Configurazioni SMS
 
-Adobe Journey Optimizer B2B Edition invia messaggi di testo tramite provider di servizi SMS (o provider di gateway SMS). Prima di creare il messaggio SMS, configura il provider di servizi dalle impostazioni _Amministratore_.
+Adobe Journey Optimizer B2B edition invia messaggi di testo tramite provider di servizi SMS (o provider di gateway SMS). Prima di creare il messaggio SMS, configura il provider di servizi dalle impostazioni _Amministratore_.
 
 ### Provider del servizio gateway SMS
 
-Adobe Journey Optimizer B2B Edition si integra attualmente con provider di terze parti che offrono servizi di messaggistica di testo in modo indipendente. I provider supportati per i messaggi di testo sono Sinch, Twilio e Infobip.
+Adobe Journey Optimizer B2B edition attualmente si integra con provider di terze parti che offrono servizi di messaggistica di testo in modo indipendente. I provider supportati per i messaggi di testo sono Sinch, Twilio e Infobip.
 
-Prima di configurare un canale SMS in Adobe Journey Optimizer B2B Edition, è necessario creare un account con uno di questi provider per ottenere il token API e l’ID servizio. Queste credenziali sono necessarie per configurare la connessione tra Adobe Journey Optimizer B2B Edition e il provider applicabile.
+Prima di configurare un canale SMS in Adobe Journey Optimizer B2B edition, è necessario creare un account con uno di questi provider per ottenere il token API e l’ID servizio. Queste credenziali sono necessarie per configurare la connessione tra Adobe Journey Optimizer B2B edition e il provider applicabile.
 
 >[!IMPORTANT]
 >
->L’utilizzo dei servizi di messaggistica di testo è soggetto a termini e condizioni aggiuntivi da parte del provider applicabile. In qualità di soluzioni di terze parti, Sinch, Twilio e Infobip sono disponibili per gli utenti di Adobe Journey Optimizer B2B Edition tramite un’integrazione. Adobe non controlla e non è responsabile per i prodotti di terze parti. Per eventuali problemi o richieste di assistenza relativi ai servizi di messaggistica di testo (SMS), contatta il provider.
+>L’utilizzo dei servizi di messaggistica di testo è soggetto a termini e condizioni aggiuntivi da parte del provider applicabile. In qualità di soluzioni di terze parti, Sinch, Twilio e Infobip sono disponibili per gli utenti di Adobe Journey Optimizer B2B edition tramite un’integrazione. Adobe non controlla e non è responsabile per i prodotti di terze parti. Per eventuali problemi o richieste di assistenza relativi ai servizi di messaggistica di testo (SMS), contatta il provider.
 
 ### Verifica una configurazione API SMS esistente
 
@@ -34,13 +34,17 @@ Prima di configurare un canale SMS in Adobe Journey Optimizer B2B Edition, è ne
 >
 >Le impostazioni descritte sono accessibili solo agli utenti con privilegi di amministratore SMS.
 
-Nella barra di navigazione a sinistra, espandere la sezione **[!UICONTROL Amministratore]** e fare clic su **[!UICONTROL Configurazione]**.
+1. Nel menu di navigazione sinistro, espandere la sezione **[!UICONTROL Amministratore]** e fare clic su **[!UICONTROL Canali]**.
 
-![Accedere alla configurazione delle credenziali API di AMA](./assets/config-sms-api.png){width="800" zoomable="yes"}
+   ![Accedere alla configurazione delle credenziali API SMS](./assets/config-sms-api.png){width="800" zoomable="yes"}
 
-Nella pagina sono elencate le configurazioni API disponibili per l’istanza. Puoi filtrare le credenziali API visualizzate in base al provider di servizi SMS o al creatore.
+1. Nel pannello di navigazione, seleziona **[!UICONTROL Credenziali API]**.
 
-![Fare clic sull&#39;icona del filtro per filtrare l&#39;elenco delle credenziali API](./assets/config-sms-api-filter.png){width="500"}
+   Nella pagina sono elencate le configurazioni API disponibili per l’istanza.
+
+1. Se necessario, fai clic sull&#39;icona _Filtro_ ( ![Mostra o nascondi icona filtri](../assets/do-not-localize/icon-filter.svg) ) e seleziona le opzioni per visualizzare l&#39;elenco delle credenziali API configurate dal provider di servizi SMS o dal creatore.
+
+   ![Fai clic sull&#39;icona Filtro per perfezionare l&#39;elenco delle credenziali API](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
 
 ### Creare nuove credenziali API per un provider di servizi SMS
 
@@ -48,7 +52,7 @@ Nella pagina sono elencate le configurazioni API disponibili per l’istanza. Pu
 
 >[!TAB Sinch]
 
-_Per configurare Sinch come provider SMS con Adobe Journey Optimizer B2B Edition:_
+_Per configurare Sinch come provider SMS con Adobe Journey Optimizer B2B edition:_
 
 1. Nella barra di navigazione a sinistra, espandere la sezione **[!UICONTROL Amministratore]** e fare clic su **[!UICONTROL Configurazione]**.
 
@@ -70,7 +74,7 @@ _Per configurare Sinch come provider SMS con Adobe Journey Optimizer B2B Edition
 
 >[!TAB Twilio]
 
-_Per configurare Twilio come provider SMS con Adobe Journey Optimizer B2B Edition:_
+_Per configurare Twilio come provider SMS con Adobe Journey Optimizer B2B edition:_
 
 1. Nella barra di navigazione a sinistra, espandere la sezione **[!UICONTROL Amministratore]** e fare clic su **[!UICONTROL Configurazione]**.
 
@@ -92,7 +96,7 @@ _Per configurare Twilio come provider SMS con Adobe Journey Optimizer B2B Editio
 
 >[!TAB Informazioni]
 
-_Per configurare Infobip come provider SMS con Adobe Journey Optimizer B2B Edition:_
+_Per configurare Infobip come provider SMS con Adobe Journey Optimizer B2B edition:_
 
 1. Nella barra di navigazione a sinistra, espandere la sezione **[!UICONTROL Amministratore]** e fare clic su **[!UICONTROL Configurazione]**.
 
@@ -128,58 +132,76 @@ Puoi impostare le consegne di messaggi di testo in un Percorso di account quando
 
 1. Nella parte inferiore del pannello _[!UICONTROL Esegui un&#39;azione]_, fai clic su **[!UICONTROL Crea SMS]**.
 
-1. Nella finestra di dialogo, immetti un **[!UICONTROL Nome]** univoco per l&#39;e-mail e una **[!UICONTROL riga Oggetto]**.
+1. Nella finestra di dialogo, immetti un **[!UICONTROL Nome]** univoco per il messaggio SMS.
 
-   ![Crea nuova finestra di dialogo SMS](assets/create-new-sms.png){width="500"}
+   ![Crea nuova finestra di dialogo SMS](assets/create-new-sms.png){width="400"}
 
-## Creare il messaggio SMS
+1. Fai clic su **[!UICONTROL Crea]**.
+
+   Verrà aperto _Progettazione contenuti del Percorso_ ed è possibile creare il messaggio e impostare le proprietà SMS per l&#39;invio del messaggio.
+
+### Creare il messaggio SMS
 
 >[!IMPORTANT]
 >
 >**Gestione del consenso SMS**<br/>
-><br/>
+>
 >In conformità agli standard e alle normative del settore, tutti i messaggi SMS di marketing devono consentire ai destinatari di annullare facilmente l’iscrizione alla ricezione di messaggi. A questo scopo, i destinatari di SMS possono rispondere con parole chiave di consenso e rinuncia. Tutte le parole chiave di consenso e rinuncia standard sono supportate e rispettate. Sono inoltre supportate e rispettate tutte le parole chiave personalizzate configurate per l’account del provider di servizi SMS.
 
-1. Immetti il testo da inviare nel campo **[!UICONTROL Messaggio]**.
+Immetti il testo da inviare nel campo **[!UICONTROL Messaggio]**.
 
-   Puoi creare un messaggio composto da un massimo di 1600 caratteri, ogni 160 caratteri vengono considerati come un singolo messaggio SMS.
+Puoi creare un messaggio composto da un massimo di 1600 caratteri, ogni 160 caratteri vengono considerati come un singolo messaggio SMS.
 
-1. **Personalizzare il messaggio di testo**.
+![Fai clic sull&#39;icona Personalizza per aggiungere token al messaggio](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
-   In qualsiasi momento durante la creazione del messaggio di testo, fai clic sull&#39;icona _Personalizza_ a destra della casella del messaggio di testo.
+#### Personalizzare il messaggio di testo
 
-   ![Fai clic sull&#39;icona Personalizza per aggiungere token al messaggio](./assets/sms-message-personalize-icon.png){width="800" zoomable="yes"}
+1. In qualsiasi momento durante la creazione del messaggio di testo, fai clic sull&#39;icona _Personalizza_ ( ![Personalizza icona](../assets/do-not-localize/icon-personalize.svg) ) a destra della casella del messaggio di testo.
 
-   La pagina visualizzata consente di accedere ai token di Adobe Marketo Engage Lead e System. Sono inclusi sia i token standard che quelli personalizzati. È possibile utilizzare la barra di ricerca per individuare il token desiderato oppure spostarsi nella struttura delle cartelle per trovare e selezionare uno dei token di sistema/lead.
+   La pagina visualizzata consente di accedere ai token di Adobe Marketo Engage Lead e System. Sono inclusi sia i token standard che quelli personalizzati. È possibile utilizzare la barra di _Ricerca_ per individuare il token necessario oppure spostarsi nella struttura delle cartelle per trovare e selezionare i token di lead/sistema.
 
-   Posiziona il cursore nel punto del messaggio in cui desideri aggiungere il token. Aggiungere un token facendo clic sul simbolo più ( **+** ) accanto a esso. Se desideri aggiungere il token con un fallback (impostazione predefinita che viene visualizzata se il campo non è disponibile per un lead), fai clic sui puntini di sospensione ( **...** ) e scegli **[!UICONTROL Inserisci con testo di fallback]**.
+1. Posiziona il cursore nel punto del messaggio in cui desideri aggiungere il token.
+
+1. Aggiungere un token facendo clic sul simbolo più ( **+** ) accanto a esso.
+
+   Se desideri aggiungere il token con un fallback (impostazione predefinita che viene visualizzata se il campo non è disponibile per un lead), fai clic sull&#39;icona _Altro_ ( **...** ) e scegli **[!UICONTROL Inserisci con testo di fallback]**.
 
    ![Fare clic sui puntini di sospensione per utilizzare un fallback per il token](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
-   Nella finestra di dialogo _[!UICONTROL Immetti valore di fallback]_, immetti il testo che viene visualizzato come fallback, quindi fai clic su **[!UICONTROL Aggiungi]**.
+1. Nella finestra di dialogo _[!UICONTROL Immetti valore di fallback]_, immetti il testo che viene visualizzato come fallback, quindi fai clic su **[!UICONTROL Aggiungi]**.
 
    ![Immettere il testo di fallback per il token](./assets/sms-message-personalize-fallback-text.png){width="400"}
 
-   Una volta inseriti i token di personalizzazione, fai clic su **[!UICONTROL Salva]** per salvare le modifiche e tornare all&#39;area di lavoro di authoring SMS principale. Puoi continuare a modificare il messaggio con i token, in base alle esigenze.
+1. Una volta inseriti i token di personalizzazione, fai clic su **[!UICONTROL Salva]** per salvare le modifiche e tornare all&#39;area di lavoro di authoring SMS principale.
 
-1. **Aggiungi URL al messaggio di testo**.
+   Puoi continuare a modificare il messaggio con i token, in base alle esigenze.
 
-   Dopo aver definito il contenuto, puoi aggiungere URL al messaggio facendo clic sull&#39;icona del _collegamento_.
+#### Aggiungere collegamenti (URL) al messaggio di testo
 
-   Questa azione apre una finestra di dialogo in cui puoi scegliere uno dei due tipi di URL da collegare:
+1. Dopo aver immesso il testo del messaggio, fai clic sull&#39;icona _Collegamento_ ( ![Icona collegamento](../assets/do-not-localize/icon-link.svg) ) a destra della casella di testo.
+
+1. Nella finestra di dialogo, scegli il tipo di URL da collegare:
+
+   * **[!UICONTROL Pagina di destinazione]** - Scegliere questa opzione per selezionare dall&#39;istanza di Marketo Engage una delle pagine di destinazione approvate di Adobe Marketo Engage Design Studio. Seleziona l’area di lavoro, quindi fai clic sulla pagina di destinazione.
 
    * **[!UICONTROL URL esterno]** - Questo tipo è qualsiasi URL esterno immesso nella casella di testo.
-   * **[!UICONTROL Pagina di destinazione]** - Scegliere questa opzione per selezionare dall&#39;istanza di Marketo Engage una delle pagine di destinazione approvate di Adobe Marketo Engage Design Studio.
 
-   La finestra di dialogo include anche le opzioni per i collegamenti URL:
+1. Se scegli di utilizzare una pagina di destinazione, imposta le opzioni di tracciamento.
 
-   * **[!UICONTROL Abbrevia URL]** - Selezionare questa casella di controllo per _abbreviare_ l&#39;URL, necessario per il tracciamento. Per una pagina di destinazione, utilizza il sottodominio Marketo Engage per l’URL abbreviato. Viene visualizzato un esempio del formato URL abbreviato. L’URL effettivo viene creato quando l’SMS viene inviato al destinatario.
+   * **[!UICONTROL Abilita tracciamento]** - Selezionare questa casella di controllo per abilitare il tracciamento, che richiede _accorciamento_ dell&#39;URL. Per una pagina di destinazione, utilizza il sottodominio Marketo Engage per l’URL abbreviato. Viene visualizzato un esempio del formato URL abbreviato. L’URL effettivo viene creato quando l’SMS viene inviato al destinatario.
 
    * **[!UICONTROL Includi mkt_tok]** - Seleziona questa casella di controllo per tenere traccia dell&#39;attività rispetto a un utente.
 
-   Una volta completate le opzioni di collegamento, fai clic su **[!UICONTROL Aggiungi]** per salvare le modifiche e aggiungere il collegamento URL al messaggio SMS.
+     >[!NOTE]
+     >
+     >Se consenti il tracciamento ma disabiliti _[!UICONTROL Includi mkt_tok]_, l&#39;URL di destinazione non include il parametro della stringa di query `mkt_tok` dopo il reindirizzamento. Questo parametro viene utilizzato dalle pagine di destinazione del Marketo Engage e da Munchkin per garantire il tracciamento delle attività della persona (ad esempio, quando una persona annulla l’abbonamento a un’e-mail). Non disabilitare questa opzione a meno che il parametro non stia causando problemi sul sito Web.<br/>
+     >Per ulteriori informazioni sull&#39;utilizzo dei codici di tracciamento di Munchkin nel sito Web, consulta la [documentazione del Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
-## Impostare le proprietà di SMS
+   ![Finestra di dialogo Aggiungi collegamento per messaggio SMS](./assets/sms-add-link-dialog.png){width="470"}
+
+1. Una volta completate le opzioni di collegamento, fai clic su **[!UICONTROL Aggiungi]** per salvare le modifiche e aggiungere il collegamento URL al messaggio SMS.
+
+### Impostare le proprietà di SMS
 
 1. Nella sezione _[!UICONTROL Proprietà SMS]_, immetti un **[!UICONTROL Nome]** (obbligatorio, massimo 100 caratteri) e una **[!UICONTROL Descrizione]** (facoltativo, massimo 300 caratteri) per il messaggio.
 
@@ -200,12 +222,12 @@ Puoi impostare le consegne di messaggi di testo in un Percorso di account quando
 
    Il numero del destinatario è sempre mappato al campo `Lead.mobilePhone` nel Marketo Engage.
 
-## Simulare il contenuto del messaggio di testo {#preview-test}
+### Simulare il contenuto del messaggio di testo {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="Controllare come viene eseguito il rendering del contenuto"
->abstract="Una volta definito il contenuto, puoi visualizzarne l’anteprima e verificare se il rendering è corretto in base al canale in uso."
+>abstract="Una volta definito il contenuto, puoi visualizzarne l’anteprima e controllare il rendering per il canale in uso."
 
 Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per simulare (visualizzare in anteprima) il contenuto. Se hai inserito dei contenuti personalizzati, puoi verificare come questi contenuti vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
 
@@ -231,7 +253,7 @@ Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test
 
 1. Simula contenuto per un lead selezionato.
 
-   Seleziona uno dei lead elencati a sinistra e l’anteprima SMS nella pagina aggiorna il lead corrispondente.
+   Seleziona uno dei lead elencati a sinistra. L’anteprima SMS sulla pagina viene aggiornata per il lead selezionato.
 
    Puoi anche selezionare un lead dal selettore sopra lo spazio di anteprima per aggiornare l’anteprima SMS sulla pagina per il lead corrispondente.
 
@@ -247,4 +269,4 @@ Journey Optimizer B2B Edition consente di gestire la rinuncia nei messaggi SMS u
 
 * Per impostazione predefinita, se un lead ha rinunciato a ricevere comunicazioni dall’utente, il profilo corrispondente viene escluso dalle consegne SMS successive
 
-* Questo consenso lead proveniente da origini diverse (ad esempio AEP o il provider di servizi SMS) viene sincronizzato con Journey Optimizer B2B Edition. Attualmente, supporta solo un singolo stato di consenso per lead a livello di istanza (un lead &quot;John Doe&quot; è abbonato o annullato da tutti gli SMS promozionali nell’istanza). Al momento non supporta il doppio consenso a livello di marchio/elenco di iscrizioni individuale.
+* Questo consenso lead proveniente da origini diverse (ad esempio AEP o il provider di servizi SMS) viene sincronizzato con Journey Optimizer B2B edition. Attualmente, supporta solo un singolo stato di consenso per lead a livello di istanza (un lead &quot;John Doe&quot; è abbonato o annullato da tutti gli SMS promozionali nell’istanza). Al momento non supporta il doppio consenso a livello di marchio/elenco di iscrizioni individuale.

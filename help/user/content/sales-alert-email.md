@@ -3,7 +3,7 @@ title: E-mail avviso vendite
 description: Scopri come includere un’e-mail di avviso automatico sulle vendite nei percorsi del tuo account.
 feature: Email Authoring, Content
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 33bd8f68ae581d974fc52f94df6f2249d9493325
+source-git-commit: 28685802d677ed844e95499d7db6e1f754eb46c9
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 3%
@@ -29,7 +29,7 @@ In qualità di addetto al marketing, puoi configurare un nodo e-mail di avviso s
 |   | Nome account | Nome dell’account. |
 |   | Punteggio di coinvolgimento | Punteggio di coinvolgimento del gruppo di acquisto, in base alle attività di coinvolgimento attive negli ultimi 30 giorni. |
 |   | Punteggio di completezza | Punteggio di completezza del gruppo di acquisto. |
-|   | Interesse della soluzione | Interesse della soluzione collegato al gruppo di acquisto |
+|   | Interesse nella soluzione | Interesse della soluzione collegato al gruppo di acquisto |
 |   | Stato | Stato del gruppo di acquisto. |
 | Caratteristiche principali del gruppo di acquisto | Membri principali coinvolti | Membri principali coinvolti del gruppo di acquisto per punteggio e ruolo del coinvolgimento dei membri del gruppo di acquisto. |
 |   | Argomento di interesse | Parole chiave più frequenti che si verificano nel coinvolgimento dei contenuti, in base a e-mail, download, chat, revisione PDF, riepilogo delle attività e domande del webinar. |
@@ -60,4 +60,4 @@ Puoi impostare le consegne e-mail per gli avvisi di vendita in un percorso di ac
 
    ![Crea nuova finestra di dialogo e-mail](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   Dopo la pubblicazione del percorso di account, l&#39;avviso di vendita viene consegnato in base a questi parametri.
+   Dopo la pubblicazione del percorso dell’account, l’avviso di vendita viene inviato in base a questi parametri.
