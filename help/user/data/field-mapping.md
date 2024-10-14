@@ -1,19 +1,23 @@
 ---
 title: Campi XDM
-description: Esaminare i campi attributo predefiniti sincronizzati tra Adobe Experience Platform e Journey Optimizer B2B Edition.
+description: Esamina i campi attributo predefiniti sincronizzati tra Adobe Experience Platform e Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: b38878ca063967e6c1ae56617674af52c10913df
+source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 14%
+source-wordcount: '965'
+ht-degree: 13%
 
 ---
 
 # Campi XDM
 
-I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle classi XDM Business Account che XDM Business Person. I dati vengono periodicamente sincronizzati tra Adobe Experience Platform e Journey Optimizer B2B Edition. Nelle sezioni seguenti sono elencati i set di attributi predefiniti.
+I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle classi XDM Business Account che XDM Business Person. I dati vengono periodicamente sincronizzati tra Adobe Experience Platform e Journey Optimizer B2B edition. Nelle sezioni seguenti sono elencati i set di attributi predefiniti.
 
 ## Attributi persona aziendale XDM
+
+>[!IMPORTANT]
+>
+>L&#39;attributo `workEmail.Address` è obbligatorio. Se è vuoto per un membro del pubblico dell’account, la persona non viene acquisita e viene omessa dai percorsi di account e dai gruppi di acquisto che fanno riferimento al pubblico.
 
 | [Proprietà](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | Nome visualizzato | Nome visualizzato B2B Journey Optimizer | Tipo di dati | Descrizione |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -37,11 +41,15 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 | `workAddress.postalCode` | Codice postale | Codice di avviamento postale | Stringa | Il codice postale della località. I codici postali non sono disponibili per tutti i paesi. In alcuni paesi, contiene solo una parte del codice postale. |
 | `workAddress.state` | Stato | Stato | Stringa | Nome dello stato dell&#39;indirizzo. È un campo in formato libero. |
 | `workAddress.street1` | Strada 1 | Indirizzo | Stringa | Informazioni stradali primarie, numero di appartamento, numero civico e nome della strada. |
-| `workEmail.address` | Indirizzo | Indirizzo e-mail | Stringa | L&#39;indirizzo tecnico, ad esempio `<name@domain.com>`, come comunemente definito in RFC2822 e standard successivi. |
+| `workEmail.address` | Indirizzo | Indirizzo e-mail | Stringa | **Campo obbligatorio** <br/>Indirizzo tecnico, ad esempio `<name@domain.com>`, come comunemente definito in RFC2822 e standard successivi. |
 | `workEmail.status` | Stato | E-mail sospesa | Stringa | Un’indicazione relativa alla possibilità di utilizzare l’indirizzo e-mail. |
 | `workPhone.number` | Numero | Numero di telefono | Stringa | Numero di telefono di lavoro. |
 
 ## Attributi dell’account aziendale XDM
+
+>[!IMPORTANT]
+>
+>L&#39;attributo `accountName` è obbligatorio. Se è vuoto per un account in un pubblico di account, l’account non viene acquisito e viene omesso dai percorsi di account e dai gruppi di acquisto che fanno riferimento al pubblico.
 
 | [Proprietà](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md) | Nome visualizzato | Nome visualizzato B2B Journey Optimizer | Tipo di dati | Descrizione |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -51,10 +59,10 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 | `accountBillingAddress.region` | Area geografica | Area dell’indirizzo | Stringa | La regione, la contea o la parte di distretto dell’indirizzo di fatturazione. |
 | `accountBillingAddress.state` | Stato | Stato | Stringa | Nome dello stato dell&#39;indirizzo di fatturazione. È un campo in formato libero. |
 | `accountBillingAddress.street1` | Strada 1 | Strada 1 | Stringa | Informazioni stradali primarie per l’indirizzo di fatturazione, che in genere includono il numero dell’appartamento, il numero civico e il nome della strada. |
-| `accountName` | Nome | Nome | Stringa | Nome della società. In questo campo sono consentiti fino a 255 caratteri. |
+| `accountName` | Nome | Nome | **Campo obbligatorio** <br/>Stringa | Nome della società. In questo campo sono consentiti fino a 255 caratteri. |
 | `accountOrganization.annualRevenue.amount` | Entrata annuale | Entrata annuale | Numero | Importo stimato delle entrate annuali dell’organizzazione. |
 | `accountOrganization.industry` | Settore | Settore | Stringa | Il settore è stato attribuito all’organizzazione. È un campo in formato libero ed è consigliabile utilizzare un valore strutturato per le query o utilizzare la proprietà `xdm:classifier`. |
-| `accountOrganization.logoUrl` | URL logo | URL logo | Stringa | Percorso da combinare con l&#39;URL di un&#39;istanza Salesforce (ad esempio, `https://yourInstance.salesforce.com/`) per generare un URL per richiedere l&#39;immagine del profilo del social network associata all&#39;account. L&#39;URL generato restituisce un reindirizzamento HTTP (codice 302) all&#39;immagine del profilo del social network dell&#39;account. |
+| `accountOrganization.logoUrl` | URL logo | URL logo | Stringa | Percorso da combinare con l&#39;URL di un&#39;istanza di Salesforce (ad esempio, `https://yourInstance.salesforce.com/`) per generare un URL per richiedere l&#39;immagine del profilo del social network associata all&#39;account. L&#39;URL generato restituisce un reindirizzamento HTTP (codice 302) all&#39;immagine del profilo del social network dell&#39;account. |
 | `accountOrganization.numberOfEmployees` | Numero di dipendenti | Numero dipendenti | Intero | Il numero di dipendenti dell&#39;organizzazione. |
 | `accountOrganization.SICCode` | Codice SIC (Standard Industrial Classification) | Codice SIC (Standard Industrial Classification) | Stringa | Il codice Standard Industrial Classification (SIC), che è un codice a quattro cifre che categorizza i settori a cui appartengono le aziende in base alle loro attività commerciali. |
 | `accountOrganization.website` | URL sito Web | Nome dominio | Stringa | L’URL del sito web dell’organizzazione. |
