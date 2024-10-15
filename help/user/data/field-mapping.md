@@ -2,7 +2,7 @@
 title: Campi XDM
 description: Esamina i campi attributo predefiniti sincronizzati tra Adobe Experience Platform e Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
+source-git-commit: 69312f48bdbe9f366a8e6adfb4736c20d04739f8
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 13%
@@ -59,7 +59,7 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 | `accountBillingAddress.region` | Area geografica | Area dell’indirizzo | Stringa | La regione, la contea o la parte di distretto dell’indirizzo di fatturazione. |
 | `accountBillingAddress.state` | Stato | Stato | Stringa | Nome dello stato dell&#39;indirizzo di fatturazione. È un campo in formato libero. |
 | `accountBillingAddress.street1` | Strada 1 | Strada 1 | Stringa | Informazioni stradali primarie per l’indirizzo di fatturazione, che in genere includono il numero dell’appartamento, il numero civico e il nome della strada. |
-| `accountName` | Nome | Nome | **Campo obbligatorio** <br/>Stringa | Nome della società. In questo campo sono consentiti fino a 255 caratteri. |
+| `accountName` | Nome | Nome | Stringa | **Campo obbligatorio** <br/>Nome dell&#39;azienda. In questo campo sono consentiti fino a 255 caratteri. |
 | `accountOrganization.annualRevenue.amount` | Entrata annuale | Entrata annuale | Numero | Importo stimato delle entrate annuali dell’organizzazione. |
 | `accountOrganization.industry` | Settore | Settore | Stringa | Il settore è stato attribuito all’organizzazione. È un campo in formato libero ed è consigliabile utilizzare un valore strutturato per le query o utilizzare la proprietà `xdm:classifier`. |
 | `accountOrganization.logoUrl` | URL logo | URL logo | Stringa | Percorso da combinare con l&#39;URL di un&#39;istanza di Salesforce (ad esempio, `https://yourInstance.salesforce.com/`) per generare un URL per richiedere l&#39;immagine del profilo del social network associata all&#39;account. L&#39;URL generato restituisce un reindirizzamento HTTP (codice 302) all&#39;immagine del profilo del social network dell&#39;account. |
