@@ -1,32 +1,46 @@
 ---
 title: Utilizzare Marketo Engage Assets
-description: Scopri come utilizzare l’integrazione di Marketo Engage Design Studio per la gestione delle risorse in Journey Optimizer B2B Edition.
+description: Scopri come utilizzare l’integrazione di Marketo Engage Design Studio per la gestione delle risorse in Journey Optimizer B2B edition.
 feature: Assets, Content
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 80df6ffd84a51b9df0fbeab321cb2197f610a048
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
 
 # Utilizzare le risorse del Marketo Engage
 
-Marketo Engage Design Studio è l’origine predefinita delle risorse per Journey Optimizer B2B Edition e puoi gestire e utilizzare facilmente le risorse disponibili nel contenuto per i percorsi di account.
+Marketo Engage Design Studio è l&#39;origine predefinita delle risorse per Journey Optimizer B2B edition e puoi gestire e utilizzare facilmente le risorse disponibili nel contenuto per i tuoi percorsi di account.
+
+In Marketo Engage, le organizzazioni di marketing utilizzano le aree di lavoro per organizzare le risorse di contenuto e aiutare i team ad accedere alla risorsa corretta. Spazi di lavoro ben definiti sono particolarmente utili per le grandi aziende che hanno un ampio portafoglio di offerte di prodotti o operano a livello globale con requisiti diversi per il marketing in aree geografiche diverse.
+
+## Gestione centralizzata delle risorse
+
+Per impostazione predefinita, è disponibile un&#39;area di lavoro **_[!UICONTROL Journey Optimizer B2B edition]_** che è possibile utilizzare in modo specifico per il contenuto del percorso di account. Le risorse aggiunte a questa area di lavoro non sono visibili o disponibili per l’utilizzo in Marketo Engage. Per le risorse che risiedono in questa area di lavoro, disponi di tutte le funzioni di gestione risorse di Journey Optimizer B2B edition. Queste funzioni includono:
+
+* Sostituisci
+* Elimina
+* Sposta
+
+Le aree di lavoro del Marketo Engage in cui risiede Assets sono limitate all’accesso in sola lettura per l’utilizzo in e-mail, modelli e frammenti. Puoi aggiungere nuove risorse a queste aree di lavoro e scaricare una copia di una risorsa.
 
 ## Sfogliare e accedere alle risorse
 
-Per accedere alle risorse di Adobe Marketo Engage Design Studio da Journey Optimizer B2B Edition, vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Assets]**. Questa azione apre una pagina di elenco con tutte le risorse elencate.
+Per accedere alle risorse di Adobe Marketo Engage da Journey Optimizer B2B edition, passa alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Assets]**. Questa azione apre una pagina di elenco con tutte le risorse elencate.
 
-![Sfoglia risorse di Marketo Engage](assets/assets-list-page.png){width="600" zoomable="yes"}
+![Sfoglia risorse di Marketo Engage](assets/assets-list-page.png){width="800" zoomable="yes"}
 
-* Per visualizzare le risorse per cartella, apri la struttura di cartelle facendo clic sull&#39;icona _Mostra cartelle_ in alto a sinistra.
+L&#39;area di lavoro di Journey Optimizer B2B edition è selezionata per impostazione predefinita. Le altre aree di lavoro sono elencate di seguito.
 
-* Per ordinare la tabella in base a una delle colonne, fare clic sul titolo della colonna.
+* Per visualizzare le risorse per area di lavoro e cartella, apri la struttura facendo clic sull&#39;icona _Mostra cartelle_ in alto a sinistra.
 
-* Per cercare una risorsa immagine all’interno della cartella selezionata, immetti una stringa di testo nella barra di ricerca.
+* Per ordinare la tabella in base a una delle colonne, fare clic sul titolo della colonna. La freccia nella riga del titolo indica la colonna e l&#39;ordine di ordinamento correnti.
 
-* Per personalizzare le colonne visualizzate nella tabella, fare clic sull&#39;icona _Personalizza tabella_ in alto a destra.
+* Per cercare una risorsa immagine nell’area di lavoro o nella cartella selezionata, immetti una stringa di testo nella barra di ricerca.
+
+* Per personalizzare le colonne visualizzate nella tabella, fai clic sull&#39;icona _Personalizza tabella_ ( ![Personalizza tabella](../assets/do-not-localize/icon-column-settings.svg) ) in alto a destra.
 
   Selezionare le colonne da visualizzare nell&#39;elenco e fare clic su **[!UICONTROL Applica]**.
 
@@ -34,27 +48,31 @@ Per accedere alle risorse di Adobe Marketo Engage Design Studio da Journey Optim
 
 Fai clic sul nome di una risorsa per aprirne la pagina dei dettagli.
 
+![Accedi ai dettagli risorsa](assets/assets-details.png){width="700" zoomable="yes"}
+
 ## Visualizza riferimenti risorsa utilizzata da
 
-Nella pagina dei dettagli della risorsa, fai clic sulla scheda **[!UICONTROL Utilizzato da]** per visualizzare i dettagli sulla posizione in cui la risorsa è attualmente utilizzata in Journey Optimizer B2B Edition, tra e-mail, modelli e frammenti di posta elettronica.
+Nella pagina dei dettagli della risorsa, fai clic sulla scheda **[!UICONTROL Usato da]** per visualizzare i dettagli sulla posizione in cui la risorsa è attualmente utilizzata all&#39;interno di Journey Optimizer B2B edition, tra e-mail, modelli e frammenti di e-mail.
 
 >[!IMPORTANT]
 >
 >Qualsiasi risorsa attualmente _IN USO_ in uno dei messaggi e-mail, modelli e-mail o frammenti **non può** essere eliminata.
 
-I riferimenti vengono visualizzati per categoria: _E-mail_, _Modello e-mail_ o _Frammento_. Le e-mail in Journey Optimizer B2B Edition sono incorporate e create all’interno di percorsi, pertanto il percorso principale dell’e-mail che utilizza la risorsa viene visualizzato in riferimenti.
+Il pannello visualizza i riferimenti per categoria: _E-mail_, _Modello e-mail_ o _Frammento_. Le e-mail in Journey Optimizer B2B edition vengono incorporate e create entro pochi percorsi, pertanto il percorso principale dell’e-mail che utilizza la risorsa viene visualizzato in riferimenti.
 
 Fai clic sul collegamento per passare all’e-mail, al modello e-mail o al frammento corrispondenti in cui viene utilizzata la risorsa.
 
+![Visualizza gli elementi di contenuto che utilizzano la risorsa](assets/assets-used-by.png){width="700" zoomable="yes"}
+
 ## Aggiungere risorse
 
-Dalla pagina dell&#39;elenco di Assets, puoi aggiungere risorse immagine a Adobe Marketo Engage Design Studio.
+Dalla pagina dell’elenco di Assets, puoi aggiungere risorse immagine all’area di lavoro di Journey Optimizer B2B edition o a un’area di lavoro di Marketo Engage.
 
 1. Fai clic su **[!UICONTROL Aggiungi Assets]** in alto a destra.
 
 1. Nella finestra di dialogo _[!UICONTROL Aggiungi risorse]_, trascina uno o più file dal sistema alla casella del file.
 
-   ![Aggiungi risorse a Marketo Engage Design Studio](./assets/assets-add-dialog.png){width="500" zoomable="yes"}
+   ![Aggiungere risorse a un&#39;area di lavoro](./assets/assets-add-dialog.png){width="500"}
 
    Puoi anche fare clic sul collegamento _[!UICONTROL Seleziona un file dal computer]_ per utilizzare il file system locale per trovare e selezionare i file.
 
@@ -62,7 +80,11 @@ Dalla pagina dell&#39;elenco di Assets, puoi aggiungere risorse immagine a Adobe
 
    I nomi dei file delle immagini selezionate vengono visualizzati nella finestra di dialogo. I nomi dei file di risorse devono essere univoci (per tutte le cartelle) e, se esiste già un file con questo nome, viene visualizzato un messaggio. I nomi possono contenere un massimo di 100 caratteri e non possono contenere caratteri speciali (ad esempio `;`, `:`, `\` e `|`).
 
-1. Seleziona la cartella di destinazione in cui archiviare le risorse utilizzando il selettore cartelle.
+1. Seleziona l’area di lavoro o la cartella di destinazione in cui archiviare le risorse.
+
+   >[!NOTE]
+   >
+   >Se si seleziona un percorso nell&#39;area di lavoro _[!UICONTROL Journey Optimizer B2B edition]_, è possibile gestire la risorsa nell&#39;app. Se aggiungete la risorsa a un&#39;area di lavoro di Marketo Engage, le funzioni di gestione delle risorse sono disponibili solo in Marketo Engage Design Studio.
 
 1. Per sovrascrivere (sostituire) i file quando si caricano uno o più file con un nome esistente, selezionare la casella di controllo **[!UICONTROL Sovrascrivi file esistenti]**.
 
@@ -72,31 +94,35 @@ Dalla pagina dell&#39;elenco di Assets, puoi aggiungere risorse immagine a Adobe
 
 Non è possibile eliminare le risorse attualmente in uso in e-mail, modelli e frammenti di e-mail. Prima di avviare la rimozione di una risorsa, controlla i riferimenti utilizzati da. Inoltre, un’azione di eliminazione non può essere annullata, pertanto controlla prima di avviare un’azione di rimozione.
 
-Puoi eliminare una risorsa utilizzando uno dei seguenti metodi:
+Utilizzare uno dei metodi seguenti per eliminare una risorsa che risiede nell&#39;area di lavoro _[!UICONTROL Journey Optimizer B2B edition]_:
 
 * Vai ai dettagli della risorsa, fai clic su **[!UICONTROL ... Altro]** in alto a destra e scegli **[!UICONTROL Elimina]** tra le opzioni.
 
-  ![Azioni di accesso per la risorsa](./assets/assets-details-more-menu.png){width="500" zoomable="yes"}
+  ![Azioni di accesso per la risorsa](./assets/assets-details-more-menu.png){width="600" zoomable="yes"}
 
-* Nella pagina dell&#39;inserzione _[!UICONTROL Assets]_, fai clic sui _puntini di sospensione_ (**[!UICONTROL ...]**) accanto all&#39;elemento della risorsa e scegli **[!UICONTROL Elimina]** dalle opzioni.
+* Nella pagina dell&#39;inserzione _[!UICONTROL Assets]_, fai clic sull&#39;icona _Altro_ (**[!UICONTROL ...]**) accanto all&#39;elemento della risorsa e scegli **[!UICONTROL Elimina]** dalle opzioni.
 
-  ![Azioni di accesso per la risorsa](./assets/assets-list-file-more-menu.png){width="500" zoomable="yes"}
+  ![Azioni di accesso per la risorsa](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
+
+  >[!NOTE]
+  >
+  >Solo le risorse che risiedono nell&#39;area di lavoro _[!UICONTROL Journey Optimizer B2B edition]_ dispongono di funzioni di gestione delle risorse disponibili nel menu _Altro_.
 
 Questa azione apre una finestra di dialogo di conferma. È possibile interrompere il processo facendo clic su **[!UICONTROL Annulla]** oppure su **[!UICONTROL Elimina]** per confermare l&#39;eliminazione.
 
-Se la risorsa è attualmente in uso, l’azione apre una finestra di dialogo informativa che avvisa che non può essere eliminata. Fare clic su **[!UICONTROL OK]** per interrompere l&#39;eliminazione.
+Se la risorsa è attualmente in uso, l’azione apre una finestra di dialogo informativa che avvisa che non può essere eliminata. Fare clic su **[!UICONTROL OK]** per interrompere la rimozione.
 
 ## Sostituire le risorse
 
-Puoi sostituire una risorsa utilizzando uno dei seguenti metodi:
+Utilizzare uno dei metodi seguenti per sostituire una risorsa che risiede nell&#39;area di lavoro _[!UICONTROL Journey Optimizer B2B edition]_:
 
 * Vai ai dettagli della risorsa, fai clic su **[!UICONTROL ... Altro]** in alto a destra e scegli **[!UICONTROL Sostituisci]** tra le opzioni.
 
-* Nella pagina dell&#39;inserzione _[!UICONTROL Assets]_, fai clic sui _puntini di sospensione_ (**[!UICONTROL ...]**) accanto all&#39;elemento della risorsa e scegli **[!UICONTROL Sostituisci]** tra le opzioni.
+* Nella pagina dell&#39;inserzione _[!UICONTROL Assets]_, fai clic sull&#39;icona _Altro_ (**[!UICONTROL ...]**) accanto all&#39;elemento della risorsa e scegli **[!UICONTROL Sostituisci]** tra le opzioni.
 
 Nella finestra di dialogo _[!UICONTROL Sostituisci risorsa]_, trascina e rilascia il file di sostituzione dal sistema nella casella del file. Puoi anche fare clic sul collegamento _[!UICONTROL Seleziona un file dal computer]_ per utilizzare il file system locale per selezionare un file. Se si selezionano più file nel sistema locale, il primo file selezionato viene utilizzato per la sostituzione.
 
-![Finestra di dialogo Sostituisci risorsa](./assets/assets-replace-dialog.png){width="520" zoomable="yes"}
+![Finestra di dialogo Sostituisci risorsa](./assets/assets-replace-dialog.png){width="500"}
 
 Per continuare, fare clic su **[!UICONTROL Sostituisci]**. È possibile interrompere il processo facendo clic su **[!UICONTROL Annulla]**.
 
@@ -118,11 +144,11 @@ Dalla pagina dell&#39;elenco (_[!UICONTROL Gestione contenuto]_ > _[!UICONTROL A
 
 ![Risorse selezionate](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
-Puoi eseguire le seguenti azioni in blocco:
+Per le risorse selezionate che risiedono nell&#39;area di lavoro _[!UICONTROL Journey Optimizer B2B edition]_ è possibile eseguire le azioni in blocco seguenti:
 
 +++Sposta risorse
 
-1. Nel banner di selezione, fare clic su **Sposta**.
+1. Nel banner di selezione, fare clic su **[!UICONTROL Sposta]**.
 
    Questa azione apre la finestra di dialogo _[!UICONTROL Sposta Assets]_, in cui sono elencati i nomi delle risorse selezionate e ti consente di selezionare la cartella _target_ in cui spostare queste risorse.
 
@@ -162,9 +188,9 @@ Puoi eseguire le seguenti azioni in blocco:
 
 ## Applicare azioni a livello di cartella
 
-Puoi applicare azioni a una cartella o a risorse all’interno della cartella. Fare clic sull&#39;icona dei puntini di sospensione (**...**) della cartella per visualizzare le opzioni relative alle azioni da eseguire.
+Nell&#39;area di lavoro _[!UICONTROL Journey Optimizer B2B edition]_ è possibile applicare azioni a una cartella o a risorse all&#39;interno della cartella. Fai clic sull&#39;icona _Altro_ (**...**) accanto alla cartella per visualizzare le azioni applicabili.
 
-![Applica azioni a una cartella o a risorse all&#39;interno della cartella](./assets/assets-folder-menu-options.png){width="500"}
+![Applica azioni a una cartella o a risorse all&#39;interno della cartella](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
 
 A livello di cartella è possibile effettuare le seguenti operazioni:
 
@@ -238,15 +264,17 @@ L&#39;archiviazione di una cartella rende impossibile eseguire ricerche nei rela
 
 +++
 
-## Utilizzare le risorse nel contenuto delle e-mail
+## Utilizzare le risorse nel contenuto
 
 Assets può essere utilizzato nell’e-mail del team, nel modello e-mail o nell’authoring di frammenti visivi dall’editor di contenuti visivi.
 
-Dall&#39;interfaccia utente dell&#39;editor visivo, seleziona l&#39;icona _Selettore risorse_ nella barra laterale a sinistra.
+Dall&#39;interfaccia utente di progettazione visiva, seleziona l&#39;icona _Selettore risorse_ ( ![Selezione Assets](../assets/do-not-localize/icon-assets-design.svg) ) nella barra laterale a sinistra.
 
-![Risorse selezionate](./assets/content-assets-selector-icon.png){width="700" zoomable="yes"}
+Questa azione modifica il pannello strumenti che visualizza un elenco strutturato delle risorse disponibili nell’area di lavoro selezionata. Seleziona l’area di lavoro da visualizzare per scegliere una risorsa.
 
-Questa azione modifica il pannello strumenti che visualizza un elenco delle risorse disponibili. Esistono diversi metodi per aggiungere una risorsa immagine all’area di lavoro visiva:
+![Risorse selezionate](./assets/asset-design-workspace-select.png){width="700" zoomable="yes"}
+
+Esistono diversi metodi per aggiungere una risorsa immagine all’area di lavoro visiva:
 
 * Trascina e rilascia la miniatura di un’immagine dal menu di navigazione a sinistra.
 
@@ -262,4 +290,4 @@ Questa azione modifica il pannello strumenti che visualizza un elenco delle riso
 
    * Immetti il testo nel campo _Ricerca_ per filtrare gli elementi visualizzati in modo che corrispondano al nome della risorsa.
 
-  ![Utilizza i filtri e il campo di ricerca per trovare la risorsa necessaria](./assets/assets-select-dialog-marketo-filtered.png){width="600" zoomable="yes"}
+  ![Utilizza i filtri e il campo di ricerca per trovare la risorsa necessaria](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
