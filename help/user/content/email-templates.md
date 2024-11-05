@@ -1,22 +1,22 @@
 ---
 title: Modelli e-mail
-description: Scopri come creare e modificare modelli e-mail da utilizzare per creare e-mail di percorso dell’account in modo semplice ed efficiente.
+description: Scopri come gestire e creare modelli e-mail che possono essere utilizzati per creare e-mail di percorso dell’account in modo semplice ed efficiente.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
+source-git-commit: 10f8f254f49bb5dfb498758a4f39b23112c123a0
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 2%
+source-wordcount: '1396'
+ht-degree: 0%
 
 ---
 
 # Modelli e-mail
 
-Per una progettazione più rapida e migliorata, puoi creare modelli e-mail autonomi per riutilizzare contenuti personalizzati in percorsi di account Adobe Journey Optimizer B2B Edition. Tramite i modelli, i membri del gruppo orientati al contenuto possono lavorare sul contenuto delle e-mail al di fuori dei percorsi. Gli esperti di marketing possono quindi riutilizzare e adattare questi modelli autonomi all’interno dei loro percorsi di account. Ad esempio, un membro del team è responsabile solo del contenuto, senza accesso ai percorsi di account. Tuttavia, possono creare un modello e-mail che gli esperti di marketing possono selezionare come punto di partenza per le comunicazioni e-mail e personalizzarlo in base ai requisiti del percorso.
+Per una progettazione più rapida e migliorata, puoi creare modelli e-mail autonomi per riutilizzare contenuti personalizzati nei percorsi di account di Adobe Journey Optimizer B2B edition. Tramite i modelli, i membri del gruppo orientati al contenuto possono lavorare sul contenuto delle e-mail al di fuori dei percorsi. Gli esperti di marketing possono quindi riutilizzare e adattare questi modelli autonomi all’interno dei loro percorsi di account. Ad esempio, un membro del team è responsabile solo del contenuto, senza accesso ai percorsi di account. Tuttavia, possono creare un modello e-mail che gli esperti di marketing possono selezionare come punto di partenza per le comunicazioni e-mail e personalizzarlo in base ai requisiti del percorso.
 
 ## Accedere e gestire i modelli e-mail
 
-Per accedere ai modelli e-mail nell&#39;edizione B2B di Adobe Journey Optimizer, vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Modelli]**. Questa azione apre una pagina di elenco con tutti i modelli e-mail creati nell’istanza elencata in una tabella.
+Per accedere ai modelli e-mail in Adobe Journey Optimizer B2B edition, vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Modelli]**. Questa azione apre una pagina di elenco con tutti i modelli e-mail creati nell’istanza elencata in una tabella.
 
 La tabella è ordinata in base alla colonna _[!UICONTROL Modificato]_. Per impostazione predefinita, i modelli aggiornati più di recente sono elencati per primi. Fai clic sul titolo della colonna per passare da crescente a decrescente.
 
@@ -28,9 +28,9 @@ Personalizzare le colonne da visualizzare nella tabella facendo clic sull&#39;ic
 
 Dalla pagina dell&#39;elenco è possibile eseguire le azioni descritte nelle sezioni seguenti.
 
-## Creare modelli e-mail
+## Creare un modello e-mail
 
-Puoi creare un nuovo modello di e-mail dalla pagina di elenco dei modelli di e-mail facendo clic su **[!UICONTROL Crea modello]** in alto a destra.
+Puoi creare un modello di e-mail dalla pagina dell&#39;elenco dei modelli facendo clic su **[!UICONTROL Crea modello]** in alto a destra.
 
 1. Nella finestra di dialogo, immetti un **[!UICONTROL Nome]** e una **[!UICONTROL Descrizione]** utili (facoltativi).
 
@@ -48,21 +48,23 @@ Viene visualizzata la pagina _[!UICONTROL Progetta modello]_ contenente più opz
 
 ![Scegli come iniziare con la progettazione del modello e-mail](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
+Dopo aver selezionato il metodo da utilizzare per avviare la progettazione del modello e-mail, utilizza la finestra di progettazione visiva per [creare il contenuto del modello e-mail](./email-template-authoring.md).
+
 ### Creare da zero
 
 Utilizza l’editor di contenuto visivo per definire la struttura del contenuto dell’e-mail. Aggiungendo e spostando componenti strutturali con semplici azioni di trascinamento della selezione, puoi progettare la forma del contenuto dell’e-mail riutilizzabile in pochi secondi.
 
 >[!NOTE]
 >
->Gli strumenti di progettazione disponibili equivalgono agli strumenti utilizzati per la creazione di [e-mail](./email-authoring.md). La differenza è che questo contenuto viene quindi salvato come modello che può essere riutilizzato su più nodi e-mail di invio all’interno di percorsi di account.
+>Gli strumenti di progettazione disponibili equivalgono agli strumenti utilizzati per la creazione di [e-mail](./email-authoring.md). La differenza sta nel fatto che questo contenuto viene salvato come modello che può essere riutilizzato in più nodi _invia e-mail_ all&#39;interno di percorsi di account.
 
 1. Dalla home page di _[!UICONTROL Progetta modello]_, seleziona l&#39;opzione **[!UICONTROL Progetta da zero]**.
 
-1. [Aggiungi struttura e contenuto](#add-structure-and-content) al modello.
+1. [Aggiungi struttura e contenuto](./email-authoring.md#add-structure-and-content) al modello.
 
 ### Importa HTML
 
-Adobe Journey Optimizer B2B Edition consente di importare contenuti HTML esistenti per progettare modelli e-mail.
+Adobe Journey Optimizer B2B edition consente di importare contenuti HTML esistenti per progettare modelli e-mail.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -72,89 +74,11 @@ Adobe Journey Optimizer B2B Edition consente di importare contenuti HTML esisten
 >
 >L&#39;utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
 
-Puoi personalizzare il contenuto importato in base alle esigenze con gli strumenti dell’editor e-mail visivo.
+Puoi personalizzare il contenuto importato in base alle esigenze con il designer visivo.
 
 ### Seleziona un modello struttura
 
 {{$include /help/_includes/content-design-select-template.md}}
-
-## Aggiungere struttura e contenuto {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="Aggiungere i componenti Struttura"
->abstract="I componenti della struttura definiscono il layout del modello. Per iniziare a progettare il contenuto del modello, trascina un componente **Struttura** nell’area di lavoro."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="Informazioni sui componenti per contenuti"
->abstract="I componenti di contenuto sono segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di un modello."
-
-{{$include /help/_includes/content-design-components.md}}
-
-### Aggiungi frammenti
-
-Nell&#39;editor del contenuto visivo, l&#39;icona _Frammenti_ è visualizzata a sinistra. L’esempio seguente illustra i passaggi per aggiungere frammenti al contenuto del modello.
-
-1. Per aprire l&#39;elenco dei frammenti, fare clic sull&#39;icona _Frammenti_.
-
-   Puoi eseguire le seguenti operazioni:
-
-   * Ordina l’inserzione.
-   * Sfoglia, Cerca o filtra l’inserzione.
-   * Consente di passare dalla visualizzazione Anteprima alla visualizzazione Elenco.
-   * Aggiorna l’elenco per riflettere eventuali frammenti creati di recente.
-
-   ![Selezionare un frammento dall&#39;elenco](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. Trascina uno dei frammenti nel segnaposto del componente strutturale.
-
-   L’editor esegue il rendering del frammento all’interno della sezione/elemento della struttura e-mail.
-
-Il contenuto del frammento viene aggiornato dinamicamente all’interno della struttura per mostrare come appare il contenuto nell’e-mail.
-
->[!TIP]
->
->Se desideri aggiungere il frammento in modo che occupi l’intero layout orizzontale all’interno dell’e-mail, aggiungi una struttura di colonne 1:1 e quindi trascina e rilascia il frammento all’interno di esso.
-
-Dopo il salvataggio, l&#39;e-mail viene visualizzata nella pagina dei dettagli del frammento quando si seleziona la scheda _[!UICONTROL Usato da]_ nel riepilogo. I frammenti aggiunti a un modello e-mail non sono modificabili all’interno del modello, in quanto il contenuto è definito dal frammento di origine.
-
-### Aggiungere risorse
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### Spostarsi tra livelli, impostazioni e stili
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### Personalizzare il contenuto
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### Modifica tracciamento URL collegato
-
-{{$include /help/_includes/content-design-links.md}}
-
-### Opzioni di visualizzazione
-
-Sfrutta le opzioni di convalida di visualizzazione e contenuto disponibili nell’editor e-mail visivo.
-
-* Zoom in/out del contenuto tra le opzioni di zoom predefinite.
-
-* Cambia la visualizzazione del contenuto tra desktop, dispositivi mobili o solo testo/solo testo.
-   * Fai clic sull&#39;icona _Occhio_ per visualizzare l&#39;anteprima del contenuto tra i dispositivi.
-   * Seleziona uno dei dispositivi predefiniti o immetti dimensioni personalizzate per visualizzare in anteprima il contenuto.
-
-### Altre opzioni
-
-Dal selettore _Altre opzioni_ nell&#39;editor di contenuto visivo, è possibile eseguire le azioni seguenti:
-
-![Fai clic su Altro per accedere alle azioni del modello](./assets/visual-designer-more-menu.png){width="500"}
-
-* **Ripristina modello** - Fare clic su questa opzione per cancellare l&#39;area di lavoro di progettazione e-mail visiva in un&#39;area di lavoro vuota e riavviare la creazione del contenuto.
-* **Salva come frammento** - Salva tutto o parte del frammento come frammento da riutilizzare in più e-mail o modelli di e-mail. Fornisci un nome e una descrizione per i frammenti e li inserisci nell’elenco dei frammenti disponibili.
-* **Modifica la progettazione** - Torna alla pagina _Progetta modello_. Da qui puoi intraprendere qualsiasi azione come descritto nella sezione &quot;Creare modelli e-mail&quot;.
-* **Esporta HTML** - Scarica il contenuto nell&#39;area di lavoro visiva nel sistema locale in formato HTML compresso come file zip.
 
 ## Visualizza dettagli modello e-mail
 
@@ -178,7 +102,7 @@ Nella pagina dei dettagli dei modelli e-mail, fai clic sulla scheda **[!UICONTRO
 
 ![Fare clic sulla scheda Utilizzato da per verificare l&#39;utilizzo del modello](./assets/template-details-used-by.png){width="400"}
 
-Le e-mail in Journey Optimizer B2B Edition sono incorporate e create all’interno di percorsi, pertanto il percorso principale dell’e-mail che utilizza il modello viene visualizzato in riferimenti.
+Le e-mail in Journey Optimizer B2B edition vengono incorporate e create all’interno di percorsi, pertanto il percorso principale dell’e-mail che utilizza il modello viene visualizzato in riferimenti.
 
 * Fai clic sul collegamento per passare all’e-mail del percorso corrispondente in cui viene utilizzato il modello e-mail.
 

@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentazione su Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando l’intelligenza artificiale generativa incorporata e l’automazione leader del settore.
-source-git-commit: 93b21240182843543dc439ba2844ab8c3c3b6013
+source-git-commit: 2fad420eb5d0511acff5509a424b9ed100cdb151
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 44%
+source-wordcount: '154'
+ht-degree: 41%
 
 ---
 
@@ -31,17 +31,23 @@ ht-degree: 44%
    + [Panoramica](./journeys/journey-overview.md)
    + [Nodi del percorso di account](./journeys/journey-nodes.md)
 + Contenuto percorso {#journey-content}
-   + [Authoring di e-mail](./content/email-authoring.md)
-   + [Assistente AI per l’authoring delle e-mail](./content/ai-assistant-emails.md)
-   + [E-mail di avviso vendite](./content/sales-alert-email.md)
+   + Canale e-mail {#email-channel}
+      + [Authoring di e-mail](./content/email-authoring.md)
+      + [Assistente AI per l’authoring delle e-mail](./content/ai-assistant-emails.md)
+      + [Modelli gestiti](./content/email-authoring-governance.md)
+      + [E-mail di avviso vendite](./content/sales-alert-email.md)
    + [Authoring di SMS](./content/sms-authoring.md)
 + Gestione dei contenuti {#content-management}
    + Risorse {#assets}
       + [Panoramica](./content/assets-overview.md)
       + [Utilizzare le risorse del Marketo Engage](./content/marketo-engage-design-studio.md)
       + [Utilizzare le immagini di AEM Assets](./content/aem-assets.md)
-   + [Modelli](./content/email-templates.md)
+   + Modelli{#templates}
+      + [Gestire i modelli e-mail](./content/email-templates.md)
+      + [Authoring dei modelli e-mail](./content/email-template-authoring.md)
+      + [Governance dei contenuti](./content/template-content-governance.md)
    + [Frammenti](./content/fragments.md)
+   + [Contenuto condizionale](./content/conditional-content.md)
 + Dashboard approfondimenti {#dashboards}
    + [Dashboard intelligente](./dashboards/intelligent-dashboard.md)
    + [Gruppi di acquisto](./dashboards/buying-groups-dashboard.md)
@@ -49,5 +55,8 @@ ht-degree: 44%
    + [Panoramica del percorso](./dashboards/journeys-dashboard.md)
 + Amministrazione {#admin}
    + [Gestione degli utenti](./admin/user-management.md)
+   + Canali {#channels}
+      + [Configurazioni e-mail](./admin/configure-channels-emails.md)
+      + [Configurazioni SMS](./admin/configure-channels-sms.md)
    + [Configurare gli archivi AEM Assets](./admin/configure-aem-repositories.md)
    + [Governance](./admin/governance.md)
