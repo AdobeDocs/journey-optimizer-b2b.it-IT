@@ -2,7 +2,7 @@
 title: Introduzione a Journey Optimizer B2B edition
 description: In qualità di nuovo utente in Journey Optimizer B2B Edition, scopri le aree chiave per iniziare.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: ed736c7366ad3fa5c4023947b1c3c4cef7097e2e
+source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 10%
@@ -37,9 +37,9 @@ Per ulteriori informazioni sulla gestione degli accessi, consulta le pagine segu
 
 1. **Configura la consegna e-mail** in Marketo Engage, che consente al team di inviare contenuti e-mail dai percorsi di account. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
 
-1. **Configurare i servizi SMS**. Imposta uno dei provider SMS di terze parti supportati che offre servizi di messaggistica di testo in modo indipendente e configura le credenziali dell’account in Adobe Journey Optimizer B2B edition. [Ulteriori informazioni](../content/sms-authoring.md#create-a-new-api-credentials-for-an-sms-service-provider)
+1. **Configurare i servizi SMS**. Imposta uno dei provider SMS di terze parti supportati che offre servizi di messaggistica di testo in modo indipendente e configura le credenziali dell’account in Adobe Journey Optimizer B2B edition. [Ulteriori informazioni](../admin/configure-channels-sms.md)
 
-1. **Configura e abilita l&#39;utilizzo di Adobe Experience Manager Assets** per i team che utilizzano Assets come Cloud Service C per la gestione centralizzata delle risorse digitali. [Ulteriori informazioni](../admin/configure-aem-repositories.md)
+1. **Configura e abilita l&#39;utilizzo di Adobe Experience Manager Assets** per i team che utilizzano Assets as a Cloud Service per la gestione centralizzata delle risorse digitali. [Ulteriori informazioni](../admin/configure-aem-repositories.md)
 
 >[!TAB Guida introduttiva per gli addetti al marketing]
 

@@ -3,9 +3,9 @@ title: E-mail avviso vendite
 description: Scopri come includere un’e-mail di avviso automatico sulle vendite nei percorsi del tuo account.
 feature: Email Authoring, Content
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 28685802d677ed844e95499d7db6e1f754eb46c9
+source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '521'
 ht-degree: 3%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 3%
 Un messaggio e-mail di _avviso vendite_ segnala la consegna dei gruppi di acquisto alle vendite. L’e-mail contiene un riepilogo del gruppo di acquisto e informazioni sui membri del gruppo di acquisto e sulle loro attività.
 
 In qualità di addetto al marketing, puoi configurare un nodo e-mail di avviso sulle vendite nei tuoi percorsi di account per avvisare il team di vendita del completamento del percorso per particolari gruppi di acquisto. All’interno del nodo, puoi specificare gli indirizzi e-mail del team vendite o un alias di distribuzione che raggiunge un set di account.
+
+>[!IMPORTANT]
+>
+>Assicurati che il inserisco nell&#39;elenco Consentiti di della tua organizzazione sia aggiornato in modo da poter inviare un messaggio e-mail di avviso relativo alle vendite. Per ulteriori informazioni, consulta [Protocolli per il tracciamento e la consegna e-mail](../start/email-protocols.md).
 
 ## Contenuto e-mail
 
@@ -29,7 +33,7 @@ In qualità di addetto al marketing, puoi configurare un nodo e-mail di avviso s
 |   | Nome account | Nome dell’account. |
 |   | Punteggio di coinvolgimento | Punteggio di coinvolgimento del gruppo di acquisto, in base alle attività di coinvolgimento attive negli ultimi 30 giorni. |
 |   | Punteggio di completezza | Punteggio di completezza del gruppo di acquisto. |
-|   | Interesse nella soluzione | Interesse della soluzione collegato al gruppo di acquisto |
+|   | Interesse della soluzione | Interesse della soluzione collegato al gruppo di acquisto |
 |   | Stato | Stato del gruppo di acquisto. |
 | Caratteristiche principali del gruppo di acquisto | Membri principali coinvolti | Membri principali coinvolti del gruppo di acquisto per punteggio e ruolo del coinvolgimento dei membri del gruppo di acquisto. |
 |   | Argomento di interesse | Parole chiave più frequenti che si verificano nel coinvolgimento dei contenuti, in base a e-mail, download, chat, revisione PDF, riepilogo delle attività e domande del webinar. |
