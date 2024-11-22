@@ -3,9 +3,9 @@ title: Gruppi di acquisto
 description: Scopri come i gruppi di acquisto in Journey Optimizer B2B edition possono aumentare l’efficacia del marketing identificando e indirizzando i membri agli elenchi degli account.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: a514dcdce95b6ef2a134c9882cd6b6936d473609
+source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1257'
 ht-degree: 5%
 
 ---
@@ -23,13 +23,14 @@ Nell&#39;account potrebbe essere presente un sottoinsieme di persone che costitu
 
 ## Componenti chiave
 
-Puoi aumentare l’efficacia del marketing creando, in Journey Optimizer B2B Edition, gruppi di acquisto che identifichino i membri mancanti negli elenchi degli account di destinazione in base alle soluzioni che i team di vendita sono responsabili della vendita. Prima che tu e il team Marketing iniziiate a creare i gruppi di acquisto, accertati di disporre dei componenti chiave definiti. Questi componenti sono fondamentali per raggiungere gli obiettivi e le finalità aziendali.
+Puoi aumentare l’efficacia del marketing creando in Journey Optimizer B2B edition gruppi di acquisto che identifichino i membri mancanti negli elenchi dei tuoi account di destinazione in base alle soluzioni che i team di vendita sono responsabili della vendita. Prima che tu e il team Marketing iniziiate a creare i gruppi di acquisto, accertati di disporre dei componenti chiave definiti. Questi componenti sono fondamentali per raggiungere gli obiettivi e le finalità aziendali.
 
 | Componente | Finalità |
 | --------- | ------- |
 | Interesse della soluzione | Questo componente fornisce la risposta a: <ul><li>In qualità di organizzazione di marketing, cosa stai vendendo?</li><li>Quale prodotto o raccolta di prodotti intendi vendere?</li></ul>  **_Esempio:_** vendita incrociata del nuovo prodotto X a clienti esistenti |
 | Pubblico dell’account | Questo componente fornisce la risposta a: <ul><li>A chi stai vendendo?</li><li>Qual è l’elenco degli account di destinazione?</li></ul> **_Esempio:_** segmento di conto definito da conti con prodotto Y che hanno ricavi superiori a 1M |
 | Acquisto di modelli di ruolo del gruppo | Questo componente fornisce la risposta a: <ul><li>Quali ruoli esegui il targeting?</li><li>Quale insieme di regole viene utilizzato per determinare chi è assegnato ai ruoli del gruppo di acquisto?</li></ul>  **_Esempio:_** assegna una persona con titolo CMO al ruolo Responsabile delle decisioni |
+| Fasi del gruppo di acquisto | (Facoltativo) Questo componente fornisce la risposta a: In che modo il gruppo di acquisto tiene traccia del successo o del fallimento? |
 
 ## Flusso di lavoro gruppo acquisti
 
@@ -66,6 +67,7 @@ La pagina _[!UICONTROL Gruppi di acquisto]_ è organizzata in schede:
 | [!UICONTROL Sfoglia] | Questa scheda supporta le seguenti attività: <ul><li>Visualizza l&#39;elenco dei gruppi di acquisto esistenti. </li><li>Cerca per nome gruppo di acquisto. </li><li>Filtra per interesse della soluzione. </li><li>Espandere i dettagli del gruppo di acquisto. </li><li>Crea un gruppo di acquisto. Eliminare un gruppo di acquisto.</li></ul> |
 | [!UICONTROL Interessi sulla soluzione] | Questa scheda supporta le seguenti attività: <ul><li>Visualizza l&#39;elenco dei gruppi di acquisto esistenti. </li><li>Cerca per nome gruppo di acquisto. </li><li>Accedere e modificare le proprietà di interesse della soluzione. </li><li>Crea un interesse per la soluzione. </li><li>Eliminare un interesse per la soluzione. </li><li>Visualizza ed elimina i processi del gruppo di acquisto. </li></ul> |
 | [!UICONTROL Modelli di Ruoli] | Questa scheda supporta le seguenti attività: <ul><li>Visualizza l&#39;elenco dei modelli di ruoli esistenti. </li><li>Cerca per nome modello ruoli. </li><li>Consente di accedere e modificare le proprietà e le condizioni del modello di ruoli. </li><li>Crea un modello di ruoli. </li><li>Eliminare un modello di ruoli. </li></ul> |
+| [!UICONTROL Fasi] | Questa scheda supporta le seguenti attività: <ul><li>Visualizza il modello di stadi dei gruppi di acquisto esistenti. </li><li>Consente di accedere e modificare la bozza del modello di fasi del gruppo di acquisto. </li><li>Creare il modello di fasi del gruppo di acquisto. </li></ul> |
 
 ## Ricerca e filtro gruppo di acquisto
 

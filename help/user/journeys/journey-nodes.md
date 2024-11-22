@@ -3,10 +3,10 @@ title: Nodi Percorso account
 description: Scopri i tipi di nodo che puoi utilizzare per creare i tuoi percorsi di account in Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
+source-git-commit: af72f5183cb1de56804340cbc9148de82faeca35
 workflow-type: tm+mt
-source-wordcount: '2142'
-ht-degree: 3%
+source-wordcount: '2443'
+ht-degree: 2%
 
 ---
 
@@ -54,6 +54,7 @@ Esegui un’azione come l’invio di un’e-mail, la modifica di un punteggio, l
 | | Aggiungi account a (altro) Percorso | Seleziona Percorso di account live |
 | | Rimuovi account dal Percorso | Seleziona Percorso di account live |
 | | Invia avviso vendite | Seleziona interesse soluzione<br/>Invia e-mail a |
+| | Aggiorna fase gruppo acquisti | Seleziona interesse soluzione<br/>Seleziona fase gruppo acquisti |
 | | Aggiorna stato gruppo acquisti | Seleziona interesse soluzione<br/>Stato (obbligatorio, massimo 50 caratteri) |
 
 ### Aggiungi un&#39;azione account
@@ -62,7 +63,7 @@ Esegui un’azione come l’invio di un’e-mail, la modifica di un punteggio, l
 
 1. Fai clic sull&#39;icona più ( **+** ) in un percorso e scegli **[!UICONTROL Esegui un&#39;azione]**.
 
-   ![Aggiungi nodo percorso - percorsi suddivisi](./assets/add-node-action.png){width="400"}
+   ![Aggiungi nodo percorso - Esegui un&#39;azione](./assets/add-node-action.png){width="400"}
 
 1. Nelle proprietà del nodo a destra, scegliere **[!UICONTROL Account]** per l&#39;azione.
 
@@ -97,19 +98,20 @@ Porta il pubblico al passaggio successivo nel percorso quando si verifica un eve
 
 | Contesto del nodo | Evento | Vincoli |
 | ------------ | ----- | ----------- |
-| [Persone](#add-a-people-event) | Assegnato al gruppo di acquisto | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo): <ul><li>Ruolo</li><li>Data di attività</li></ul><br/>Timeout (facoltativo) |
-| | Clic sul collegamento nell’e-mail | E-mail<br/>Vincoli aggiuntivi (facoltativo): <ul><li>Collegamento</li><li>ID collegamento</li><li>È un dispositivo mobile</li><li>Dispositivo</li><li>Piattaforma</li><li>Browser</li><li>Contenuto predittivo</li><li>È un’attività bot</li><li>Pattern di attività bot</li><li>Browser</li><li>Data di attività</li><li>Min numero di volte</li></ul><br/>Timeout (facoltativo) |
-| | Clic sul collegamento in SMS | E-mail<br/>Vincoli aggiuntivi (facoltativo):<ul><li>Collegamento</li><li>Dispositivo</li><li>Piattaforma</li><li>Data di attività</li><li>Min numero di volte</li></ul><br/>Timeout (facoltativo) |
-| | Modifiche al valore dei dati | Attributo persona<br/>Vincoli aggiuntivi (facoltativo):<ul><li>Nuovo valore</li><li>Valore precedente</li><li>Motivo</li><li>Origine</li><li>Data di attività</li><li>Min numero di volte</li></ul><br/>Timeout (facoltativo) |
-| | Apre l&#39;e-mail | E-mail<br/>Vincoli aggiuntivi (facoltativo): <ul><li>Collegamento</li><li>ID collegamento</li><li>È un dispositivo mobile</li><li>Dispositivo</li><li>Piattaforma</li><li>Browser</li><li>Contenuto predittivo</li><li>È un’attività bot</li><li>Pattern di attività bot</li><li>Browser</li><li>Data di attività</li><li>Min numero di volte</li></ul><br/>Timeout (facoltativo) |
+| [Persone](#add-a-people-event) | Assegnato al gruppo di acquisto | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo): <li>Ruolo</li><li>Data di attività</li><br/>Timeout (facoltativo) |
+| | Clic sul collegamento nell’e-mail | E-mail<br/>Vincoli aggiuntivi (facoltativo): <li>Collegamento</li><li>ID collegamento</li><li>È un dispositivo mobile</li><li>Dispositivo</li><li>Piattaforma</li><li>Browser</li><li>Contenuto predittivo</li><li>È un’attività bot</li><li>Pattern di attività bot</li><li>Browser</li><li>Data di attività</li><li>Min numero di volte</li><br/>Timeout (facoltativo) |
+| | Clic sul collegamento in SMS | E-mail<br/>Vincoli aggiuntivi (facoltativo): <li>Collegamento</li><li>Dispositivo</li><li>Piattaforma</li><li>Data di attività</li><li>Min numero di volte</li><br/>Timeout (facoltativo) |
+| | Modifiche al valore dei dati | Attributo persona<br/>Vincoli aggiuntivi (facoltativo): <li>Nuovo valore</li><li>Valore precedente</li><li>Motivo</li><li>Origine</li><li>Data di attività</li><li>Min numero di volte</li><br/>Timeout (facoltativo) |
+| | Apre l&#39;e-mail | E-mail<br/>Vincoli aggiuntivi (facoltativo): <li>Collegamento</li><li>ID collegamento</li><li>È un dispositivo mobile</li><li>Dispositivo</li><li>Piattaforma</li><li>Browser</li><li>Contenuto predittivo</li><li>È un’attività bot</li><li>Pattern di attività bot</li><li>Browser</li><li>Data di attività</li><li>Min numero di volte</li><br/>Timeout (facoltativo) |
 | | Rimosso dal gruppo di acquisto | Interesse soluzione<br/>Data di attività (facoltativo)<br/>Timeout (facoltativo) |
-| | Punteggio modificato | Nome punteggio<br/>Vincoli aggiuntivi (facoltativo):<ul><li>Cambia</li><li>Nuovo punteggio</li><li>Urgenza</li><li>Priorità</li><li>Punteggio relativo</li><li>Urgenza relativa</li><li>Data di attività</li><li>Min numero di volte</li></ul><br/>Timeout (facoltativo) |
-| | Mancati recapiti SMS | Messaggio SMS<br/>Vincoli aggiuntivi (facoltativo):<ul><li>Data di attività</li><li>Numero minimo di volte</li></ul><br/>Timeout (facoltativo) |
-| [Account](#add-an-account-event) | L&#39;account ha avuto un momento interessante | Tipo (E-mail, Milestone o Web)<br/>Vincoli aggiuntivi (facoltativo):<ul><li>Descrizione</li><li>Origine</li><li>Data di attività</li></ul> <br/>Timeout (facoltativo) |
-| | Modifica del valore dei dati dell’account | Attributo<br/>Vincoli aggiuntivi (facoltativo):<ul><li>Nuovo valore</li><li>Valore precedente</li><li>Data di attività</li></ul> <br/>Timeout (facoltativo) |
-| | Modifica dello stato del gruppo acquisti | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo):<ul><li>Nuovo stato</li><li>Stato precedente</li><li>Data di attività</li></ul><br/> Timeout (facoltativo) |
-| | Modifica nel punteggio di completezza | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo):<ul><li>Nuovo punteggio</li><li>Punteggio precedente</li><li>Data di attività</li></ul><br/> Timeout (facoltativo) |
-| | Modifica nel punteggio di coinvolgimento | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo):<ul><li>Nuovo punteggio</li><li>Punteggio precedente</li><li>Data di attività</li></ul><br/> Timeout (facoltativo) |
+| | Punteggio modificato | Nome punteggio<br/>Vincoli aggiuntivi (facoltativo):<li>Cambia</li><li>Nuovo punteggio</li><li>Urgenza</li><li>Priorità</li><li>Punteggio relativo</li><li>Urgenza relativa</li><li>Data di attività</li><li>Min numero di volte</li><br/>Timeout (facoltativo) |
+| | Mancati recapiti SMS | Messaggio SMS<br/>Vincoli aggiuntivi (facoltativo): <li>Data di attività</li><li>Numero minimo di volte</li><br/>Timeout (facoltativo) |
+| [Account](#add-an-account-event) | L&#39;account ha avuto un momento interessante | Tipo (E-mail, Milestone o Web)<br/>Vincoli aggiuntivi (facoltativo): <li>Descrizione</li><li>Origine</li><li>Data di attività</li> <br/>Timeout (facoltativo) |
+| | Modifica del valore dei dati dell’account | Attributo<br/>Vincoli aggiuntivi (facoltativo): <li>Nuovo valore</li><li>Valore precedente</li><li>Data di attività</li> <br/>Timeout (facoltativo) |
+| | Modifica nella fase del gruppo di acquisto | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo): <li>Nuova fase</li><li>Fase precedente</li><li>Data di attività</li><br/> Timeout (facoltativo) |
+| | Modifica dello stato del gruppo acquisti | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo): <li>Nuovo stato</li><li>Stato precedente</li><li>Data di attività</li><br/> Timeout (facoltativo) |
+| | Modifica nel punteggio di completezza | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo): <li>Nuovo punteggio</li><li>Punteggio precedente</li><li>Data di attività</li><br/> Timeout (facoltativo) |
+| | Modifica nel punteggio di coinvolgimento | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo): <li>Nuovo punteggio</li><li>Punteggio precedente</li><li>Data di attività</li><br/> Timeout (facoltativo) |
 
 ### Aggiungere un evento account
 
@@ -176,9 +178,10 @@ _Come funziona un percorso di suddivisione per nodo account?_
 
 _Come funziona un percorso diviso per nodo persone?_
 
-* I nodi di suddivisione del percorso per persone sono nodi raggruppati. Si uniscono automaticamente in modo che tutte le persone nel pubblico possano passare al passaggio successivo senza perdere il contesto degli account a cui appartengono.
+* I nodi di suddivisione del percorso per persone sono nodi raggruppati. I percorsi si uniscono automaticamente in modo che tutte le persone nel pubblico possano passare al passaggio successivo senza perdere il contesto dell’account.
 * Il percorso di divisione per le persone non può essere nidificato. Non è possibile aggiungere il percorso di divisione per le persone in un percorso che si trova in questo nodo raggruppato.
-* Il percorso suddiviso include un&#39;opzione che consente di non aggiungere un percorso predefinito. Gli account/persone che non sono idonei non avanzano nel Percorso.
+* Il percorso di [PROD143]e include un&#39;opzione che consente di omettere un percorso predefinito. Gli account o le persone senza una corrispondenza per un percorso definito non si spostano in avanti nel Percorso.
+* Dividi percorso per persone supporta l&#39;utilizzo di _relazioni account-persona_, che consente di filtrare le persone in base al loro ruolo (ad esempio, collaboratore esterno o dipendente a tempo pieno) come definito nei modelli di ruolo.
 
 ![nodo Percorso - percorsi suddivisi per persone](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -186,13 +189,14 @@ _Come funziona un percorso diviso per nodo persone?_
 
 | Contesto del nodo | Condizioni del percorso | Descrizione |
 | ------------ | --------------- | ----------- |
-| [Persone](#add-a-split-path-by-people-node) | [!UICONTROL Attributi della persona] | Attributi dal profilo della persona, tra cui: <ul><li>Città</li><li>Paese</li><li>Data di nascita</li><li>Indirizzo e-mail</li><li>E-mail non valida</li><li>E-mail sospesa</li><li>Nome</li><li>Area dello stato dedotta</li><li>Qualifica</li><li>Cognome</li><li>Numero di telefono cellulare</li><li>Numero di telefono</li><li>Codice postale</li><li>Stato</li><li>Annulla l&#39;iscrizione</li><li>Motivo per annullamento abbonamento</li></ul> |
-| | [!UICONTROL Cronologia attività] > [!UICONTROL E-mail] | Attività e-mail associate al percorso: <ul><li>[!UICONTROL Collegamento selezionato nell&#39;e-mail]</li><li>E-mail aperta</li><li>E-mail consegnata</li><li>È stato inviato un messaggio e-mail</li></ul> Queste condizioni vengono valutate utilizzando un messaggio e-mail selezionato in precedenza nel percorso. |
-| | [!UICONTROL Cronologia attività] > [!UICONTROL Valore dati modificato] | Per un attributo persona selezionato, si è verificata una modifica del valore. Questi tipi di modifica includono: <ul><li>Nuovo valore</li><li>Valore precedente</li><li>Motivo</li><li>Origine</li><li>Data di attività</li><li>Min numero di volte</li></ul> |
-| | [!UICONTROL Cronologia attività] > [!UICONTROL Momento di interesse] | L’attività del momento di interesse definita nell’istanza di Marketo Engage associata. I vincoli includono: ul><li>Milestone</li><li>E-mail</li><li>Web</li></ul> |
-| | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <ul><li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>Ruolo</li></ul> |
-| [Account](#add-a-split-path-by-account-node) | Attributi dell’account | Attributi dal profilo dell’account, tra cui: <ul><li>Entrate annuali</li><li>Città</li><li>Paese</li><li>Dimensione dipendente</li><li>Settore</li><li>Nome</li><li>Codice SIC</li><li>Stato</li></ul> |
-| | [!UICONTROL Filtri speciali] > [!UICONTROL Ha un gruppo di acquisto] | I membri dei gruppi di acquisto dell’account non vengono valutati in base a uno o più dei seguenti criteri: <ul><li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li></ul> |
+| [Account](#add-a-split-path-by-account-node) | Attributi dell’account | Attributi dal profilo dell’account, tra cui: <li>Entrate annuali</li><li>Città</li><li>Paese</li><li>Dimensione dipendente</li><li>Settore</li><li>Nome</li><li>Codice SIC</li><li>Stato</li> |
+| | [!UICONTROL Filtri speciali] > [!UICONTROL Ha un gruppo di acquisto] | I membri dei gruppi di acquisto dell’account non vengono valutati in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li> |
+| [Persone](#add-a-split-path-by-people-node) > [!UICONTROL Solo attributi persone] | [!UICONTROL Attributi della persona] | Attributi dal profilo della persona, tra cui: <li>Città</li><li>Paese</li><li>Data di nascita</li><li>Indirizzo e-mail</li><li>E-mail non valida</li><li>E-mail sospesa</li><li>Nome</li><li>Area dello stato dedotta</li><li>Qualifica</li><li>Cognome</li><li>Numero di telefono cellulare</li><li>Numero di telefono</li><li>Codice postale</li><li>Stato</li><li>Annulla l&#39;iscrizione</li><li>Motivo per annullamento abbonamento</li> |
+| | [!UICONTROL Cronologia attività] > [!UICONTROL E-mail] | Attività e-mail associate al percorso: <li>[!UICONTROL Collegamento selezionato nell&#39;e-mail]</li><li>E-mail aperta</li><li>E-mail consegnata</li><li>È stato inviato un messaggio e-mail</li> Queste condizioni vengono valutate utilizzando un messaggio e-mail selezionato in precedenza nel percorso. |
+| | [!UICONTROL Cronologia attività] > [!UICONTROL Valore dati modificato] | Per un attributo persona selezionato, si è verificata una modifica del valore. Questi tipi di modifica includono: <li>Nuovo valore</li><li>Valore precedente</li><li>Motivo</li><li>Origine</li><li>Data di attività</li><li>Min numero di volte</li> |
+| | [!UICONTROL Cronologia attività] > [!UICONTROL Momento di interesse] | L’attività del momento di interesse definita nell’istanza di Marketo Engage associata. I vincoli includono: <li>Milestone</li><li>E-mail</li><li>Web</li> |
+| | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>Ruolo</li> |
+| [Persone](#add-a-split-path-by-people-node) > [!UICONTROL Solo attributi account-persona] | Ruolo negli attributi dell’account | Alla persona è o non è assegnata una mansione nell’account. Vincoli facoltativi: <li>Immetti un nome di ruolo</li> |
 
 ### Aggiungere un percorso di suddivisione per nodo account
 
@@ -214,7 +218,7 @@ _Come funziona un percorso diviso per nodo persone?_
 
    * Ottimizza le condizioni applicando la **[!UICONTROL logica filtro]** nella parte superiore. Scegli di soddisfare tutte le condizioni dell’attributo o qualsiasi condizione.
 
-     ![Dividi nodo percorso - logica filtro condizioni](./assets/node-split-conditions.png){width="700" zoomable="yes"}
+     ![Dividi nodo percorso - condizioni account filtro logica](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
    * Fai clic su **[!UICONTROL Fine]**.
 
@@ -222,9 +226,15 @@ _Come funziona un percorso diviso per nodo persone?_
 
    È inoltre possibile etichettare ogni percorso in base a queste condizioni o utilizzare le etichette predefinite.
 
-1. (Facoltativo) Aggiungi un percorso predefinito per gli account non qualificati per gli altri percorsi. In caso contrario, il percorso termina per questi account.
+1. Se necessario, riordinare i percorsi in base alla priorità desiderata per la suddivisione.
 
-   ![Proprietà nodo percorso suddiviso - altri account](./assets/node-split-properties-other-accounts.png){width="700" zoomable="yes"}
+   Il filtro dei percorsi viene valutato in ordine decrescente. Ogni account procede lungo il primo percorso corrispondente.
+
+   Fai clic sulle frecce su e giù in alto a destra di ciascuna scheda di percorsi per spostarla in alto o in basso nell’elenco dei percorsi.
+
+   ![Dividi nodo percorso - riordina percorsi](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"}
+
+1. Abilita l&#39;opzione **[!UICONTROL Altri account]** per aggiungere un percorso predefinito per gli account che non corrispondono ai percorsi definiti. In caso contrario, il percorso finisce per queste persone.
 
 ### Aggiungere un percorso suddiviso per nodo persone
 
@@ -236,13 +246,24 @@ _Come funziona un percorso diviso per nodo persone?_
 
 1. Nelle proprietà del nodo a destra, scegli **[!UICONTROL Persone]** per la suddivisione.
 
+1. Imposta gli **[!UICONTROL attributi utilizzati per le condizioni]**.
+
+   * Scegli **[!UICONTROL Solo attributi persone]** per utilizzare le condizioni relative al profilo ed agli eventi della persona.
+   * Scegliere **[!UICONTROL Solo attributi persona-account]** per utilizzare le condizioni relative all&#39;appartenenza al ruolo della persona all&#39;interno di un account.
+
 1. Per definire una condizione applicabile a _[!UICONTROL Percorso 1]_, fare clic su **[!UICONTROL Applica condizione]**.
 
 1. Nell’editor delle condizioni, aggiungi uno o più filtri per definire il percorso di divisione.
 
-   * Trascina e rilascia gli attributi del filtro dal menu di navigazione a sinistra e completa la definizione della corrispondenza.
+   * Trascina e rilascia uno degli attributi delle persone dalla navigazione a sinistra e completa la definizione della corrispondenza.
+
+     >[!NOTE]
+     >
+     >Se nello schema di pubblico dell’account di Experience Platform sono definiti campi persona personalizzati, questi campi sono disponibili anche per l’utilizzo come attributi persona in determinate condizioni.
 
    * Ottimizza le condizioni applicando la **[!UICONTROL logica filtro]** nella parte superiore. Scegli di soddisfare tutte le condizioni dell’attributo o qualsiasi condizione.
+
+     ![Dividi nodo percorso - condizioni logica filtro persona](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 
    * Fai clic su **[!UICONTROL Fine]**.
 
@@ -250,13 +271,21 @@ _Come funziona un percorso diviso per nodo persone?_
 
    È inoltre possibile etichettare ogni percorso in base a queste condizioni o utilizzare le etichette predefinite.
 
-1. Infine, puoi aggiungere un percorso predefinito per le persone non qualificate per i percorsi di cui sopra. In caso contrario, il percorso finirà per queste persone
+1. Se necessario, riordinare i percorsi in base alla priorità desiderata per la suddivisione.
+
+   Il filtro dei percorsi viene valutato in ordine decrescente. Ogni persona procede lungo il primo percorso che corrisponde a.
+
+   Fai clic sulle frecce su e giù in alto a destra di ciascuna scheda di percorsi per spostarla in alto o in basso nell’elenco dei percorsi.
+
+   ![Dividi nodo percorso - riordina percorsi](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"}
+
+1. Abilita l&#39;opzione **[!UICONTROL Altre persone]** per aggiungere un percorso predefinito per le persone che non corrispondono ai percorsi definiti. In caso contrario, il percorso finisce per queste persone.
 
 Quando hai definito le condizioni per ogni percorso per suddividere il pubblico a livello di persone, puoi aggiungere azioni che desideri eseguire sulle persone.
 
 >[!NOTE]
 >
->Quando dividi il pubblico per persone, puoi aggiungere solo azioni persone.
+>Quando dividi il pubblico per persone, puoi aggiungere solo azioni persone fino a quando i percorsi non vengono chiusi o uniti.
 
 ## Attendere
 
@@ -288,10 +317,10 @@ Utilizzando questo nodo è possibile unire e separare percorsi diversi nel perco
 
    ![nodo Percorso - unisci percorsi](./assets/node-plus-icon-merge-paths.png){width="400"}
 
-1. Nelle proprietà del nodo di unione, seleziona i percorsi che desideri unire.
+1. Nelle proprietà del nodo percorsi unione, seleziona i percorsi che desideri unire.
 
    ![nodo Percorso - unisci percorsi](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
    A questo punto, i percorsi vengono uniti in modo che gli account dei percorsi selezionati si combinino in un unico percorso che può continuare a progredire attraverso il percorso.
 
-1. Se necessario, puoi annullare l’unione dei percorsi tornando alle proprietà del nodo di unione e deselezionando la casella di controllo di tutti i percorsi che desideri rimuovere.
+1. Se necessario, puoi annullare l’unione dei percorsi tornando alle proprietà del nodo percorsi unione e deselezionando la casella di controllo per tutti i percorsi che desideri rimuovere.

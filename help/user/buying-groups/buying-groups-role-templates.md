@@ -3,9 +3,9 @@ title: Acquisto di modelli di mansione per gruppi
 description: Scopri come definire un modello di ruolo da utilizzare come componente del gruppo di acquisto.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: 492c4f5c326624e1713fb12289826c530384686a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ In un mercato B2B, le decisioni di acquisto sono solitamente prese da più indiv
 
 ## Accedere e sfogliare i modelli di ruolo
 
-1. Nella home page di Adobe Experience Platform, fare clic su Adobe Journey Optimizer B2B Edition.
+1. Nella home page di Adobe Experience Platform, fare clic su Adobe Journey Optimizer B2B edition.
 
 1. Nel menu di navigazione a sinistra, fai clic su **[!UICONTROL Gruppi di acquisto]**.
 
@@ -55,7 +55,13 @@ In un mercato B2B, le decisioni di acquisto sono solitamente prese da più indiv
 
    ![Finestra di dialogo Crea modello ruoli](assets/roles-template-create-dialog.png){width="400"}
 
-1. Aggiungere una regola per ogni ruolo che si desidera definire per il modello.
+1. Fai clic su **[!UICONTROL Crea]**.
+
+### Aggiungere i ruoli modello
+
+Dopo aver creato il modello, questo viene aperto nel workspace e viene richiesto di definire i ruoli. Per impostazione predefinita, viene visualizzata la prima scheda ruolo.
+
+1. Per la prima scheda ruolo, definisci le proprietà del ruolo.
 
    * Scegliere il **[!UICONTROL Ruolo gruppo acquisti]** dall&#39;elenco.
 
@@ -73,31 +79,37 @@ In un mercato B2B, le decisioni di acquisto sono solitamente prese da più indiv
 
    * **[!UICONTROL Necessario per il punteggio di completezza]** - Selezionare questa casella di controllo per il ruolo se si desidera che sia un requisito per il calcolo di un punteggio di completezza.
 
-   * Fare clic su **[!UICONTROL Aggiungi condizione]**.
+1. Fare clic su **[!UICONTROL Aggiungi condizione]** e definire la regola condizionale per il ruolo.
 
-      * Nella finestra di dialogo della condizione, espandi l&#39;elenco di **[!UICONTROL attributi persona]** e individua un attributo che desideri utilizzare per corrispondere al ruolo. Trascinalo a destra e rilascialo nello spazio del filtro.
+   * Nella finestra di dialogo _[!UICONTROL Condizione]_, espandi l&#39;elenco di **[!UICONTROL Attributi persona]** e individua un attributo che desideri utilizzare per corrispondere al ruolo. Trascinalo a destra e rilascialo nello spazio del filtro.
 
-        ![Attributo trascinamento condizione aggiunta modello ruoli](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+     ![Attributo trascinamento condizione aggiunta modello ruoli](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
-      * Utilizza l’attributo per creare un filtro corrispondente utilizzando uno o più valori.
+     >[!NOTE]
+     >
+     >Se nello schema di pubblico dell’account di Experience Platform sono definiti campi persona personalizzati, questi campi sono disponibili anche per l’utilizzo come attributi persona in determinate condizioni.
 
-        Nell’esempio seguente, l’attributo Job title viene utilizzato per identificare una corrispondenza per Decision Maker. Qualsiasi valore per il titolo che inizia con `Director` o `Sr Director` restituisce true per la condizione.
+   * Utilizza l’attributo per creare un filtro corrispondente utilizzando uno o più valori.
 
-        ![Esempio di condizione del modello dei ruoli che utilizza il titolo del processo](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
+     Nell’esempio seguente, l’attributo Job title viene utilizzato per identificare una corrispondenza per Decision Maker. Qualsiasi valore per il titolo che inizia con `Director` o `Sr Director` restituisce true per la condizione.
 
-      * Se necessario, aggiungi un altro attributo e una condizione che perfeziona ulteriormente i criteri per una corrispondenza al ruolo.
+     ![Esempio di condizione del modello dei ruoli che utilizza il titolo del processo](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-      * Fai clic su **[!UICONTROL Fine]**.
+   * Se necessario, aggiungi un altro attributo e una condizione che perfeziona ulteriormente i criteri per una corrispondenza al ruolo.
 
-   Per ogni ruolo aggiuntivo che si desidera includere nel modello, fare clic su **[!UICONTROL Aggiungi un altro ruolo]** e definire una o più condizioni corrispondenti per il ruolo.
+   * Fai clic su **[!UICONTROL Fine]**.
+
+1. Per ogni ruolo aggiuntivo che si desidera includere per il modello, fare clic su **[!UICONTROL Aggiungi un altro ruolo]** e ripetere i passaggi 1 e 2 per definire il ruolo.
 
    ![Modello ruoli con più ruoli definiti](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
-1. Se il modello è pronto per l&#39;uso, fare clic su **[!UICONTROL Publish]** in alto a destra.
+Le modifiche vengono salvate automaticamente nello stato _Bozza_. Se non sei pronto per pubblicare il modello di ruoli, fai clic sulla freccia sinistra (indietro) nella parte superiore della pagina e torna all&#39;elenco _[!UICONTROL Modelli di ruoli]_.
 
-   La pubblicazione del modello lo imposta sullo stato _Live_ e lo rende disponibile per l&#39;associazione a un interesse per la soluzione. Per pubblicare il modello dei ruoli deve essere presente almeno un ruolo definito.
+### Publish il modello di ruoli
 
-   Le modifiche vengono salvate automaticamente nello stato _Bozza_. Se non si è pronti per pubblicare il modello di ruoli, fare clic sulla freccia sinistra (indietro) nella parte superiore della pagina e tornare all&#39;elenco Modelli di ruoli.
+Se il modello è pronto per l&#39;uso, fare clic su **[!UICONTROL Publish]** in alto a destra.
+
+La pubblicazione del modello imposta lo stato su _Live_ e lo rende disponibile per l&#39;associazione a un interesse per la soluzione. Per pubblicare il modello dei ruoli deve essere presente almeno un ruolo definito.
 
 ## Modificare un modello di ruoli bozza
 
@@ -107,13 +119,13 @@ Modifica le impostazioni nell&#39;intestazione della scheda ruolo, inclusi il ru
 
 ![Modifica proprietà ruolo gruppo acquisti](./assets/roles-template-role-properties.png){width="600"}
 
-### Modificare i filtri per un ruolo
+### Modificare le condizioni per un ruolo
 
-Per modificare la logica di filtro per uno dei ruoli, fare clic sull&#39;icona _Modifica_ (matita) in alto a destra della scheda del ruolo. Questa azione apre l&#39;area di lavoro _[!UICONTROL Condizioni]_ in cui è possibile modificare un filtro esistente, aggiungerne un altro, rimuovere un filtro o modificare la logica del filtro.
+Per modificare la condizione/logica di filtro per uno qualsiasi dei ruoli, fai clic sull&#39;icona _Modifica_ ( ![Icona Modifica](../assets/do-not-localize/icon-edit.svg) ) in alto a destra nella scheda ruolo. Questa azione apre l&#39;area di lavoro _[!UICONTROL Condizioni]_ in cui è possibile modificare un filtro esistente, aggiungerne o rimuoverne uno o modificare la logica del filtro.
 
 ### Eliminare una scheda ruolo
 
-Per rimuovere un ruolo dal modello, fare clic sull&#39;icona _Elimina_ (cestino) nella scheda ruolo.
+Se desideri rimuovere un ruolo dal modello, fai clic sull&#39;icona _Elimina_ ( ![Elimina icona](../assets/do-not-localize/icon-delete.svg) ) nella scheda ruolo.
 
 ### Impostare la priorità per i ruoli
 

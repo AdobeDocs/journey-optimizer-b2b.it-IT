@@ -3,9 +3,9 @@ title: Interessi soluzione
 description: Scopri gli interessi della soluzione e come definirli per l’utilizzo all’interno dei gruppi di acquisto.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Prima di creare i gruppi di acquisto, è necessario sapere cosa si sta vendendo 
 
 ## Accedere e sfogliare gli interessi della soluzione
 
-1. Nella home page di Adobe Experience Platform, fare clic su Adobe Journey Optimizer B2B Edition.
+1. Nella home page di Adobe Experience Platform, fare clic su Adobe Journey Optimizer B2B edition.
 
 1. Nel menu di navigazione a sinistra, fai clic su **[!UICONTROL Gruppi di acquisto]**.
 
@@ -48,13 +48,21 @@ Prima di creare un interesse per la soluzione, è necessario disporre di un mode
 
 1. Scegli un **[!UICONTROL Modello ruoli]** (obbligatorio).
 
-   Fai clic sul selettore e scegli un modello di ruoli live dall’elenco visualizzato. È possibile associare un solo modello di ruoli live a un interesse della soluzione.
+   Fai clic su **[!UICONTROL Seleziona modello ruoli]** e scegli un modello di ruoli live dall&#39;elenco nella finestra di dialogo. È possibile associare un solo modello di ruoli live a un interesse della soluzione. Fai clic su **[!UICONTROL Salva]** per tornare alla pagina _[!UICONTROL Crea interesse per la soluzione]_, in cui viene visualizzato il modello di ruoli selezionato.
 
-   ![Scheda Interesse soluzione](assets/solution-interest-create.png){width="700" zoomable="yes"}
+   ![Aggiungi un modello di ruoli all&#39;interesse della soluzione](assets/solution-interest-create.png){width="700" zoomable="yes"}
+
+1. Selezionare il **[!UICONTROL modello fase gruppo acquisti]** per utilizzare la progressione fase gruppo acquisti (facoltativo).
+
+   Per ulteriori informazioni sull&#39;utilizzo delle fasi del gruppo di acquisto per tenere traccia della progressione dell&#39;account, vedere [Fasi del gruppo di acquisto](./buying-group-stages.md).
+
+1. Abilita l&#39;impostazione **[!UICONTROL Aggiorna gruppi di acquisto esistenti]** (facoltativo).
+
+   Quando questa opzione è abilitata, tutti i gruppi di acquisto esistenti associati all’interesse della soluzione vengono aggiornati tramite il ciclo di sincronizzazione di 24 ore.
 
 1. Fai clic su **[!UICONTROL Crea]** nell&#39;angolo superiore destro.
 
-   Il nuovo interesse della soluzione viene visualizzato in Interessi della soluzione
+   Il nuovo interesse della soluzione viene visualizzato nell&#39;elenco _[!UICONTROL Interessi soluzione]_.
 
 ## Modificare un interesse per la soluzione
 
@@ -68,6 +76,10 @@ In qualsiasi momento, puoi modificare il nome e la descrizione di un interesse p
    ![Menu Altro interesse soluzione](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
 1. Se necessario, aggiorna il nome (obbligatorio e univoco) e la descrizione (facoltativa).
+
+1. Se necessario, selezionare il **[!UICONTROL modello fase gruppo di acquisto]** per tenere traccia della progressione fase gruppo di acquisto.
+
+   Per ulteriori informazioni sull&#39;utilizzo delle fasi del percorso di acquisto per tenere traccia della progressione rispetto alle vendite, vedere [Fasi del gruppo di acquisto](./buying-group-stages.md).
 
 1. Se necessario, modificare l&#39;impostazione **[!UICONTROL Aggiorna gruppi di acquisto esistenti]**.
 
