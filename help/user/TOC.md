@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentazione su Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando l’intelligenza artificiale generativa incorporata e l’automazione leader del settore.
-source-git-commit: dbc6fb9e41817def4e141518c1a5b2702441ae60
+source-git-commit: 22fdb1ba9f7b0af03d9f35c99caa2860b05865e2
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 39%
+source-wordcount: '166'
+ht-degree: 40%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 39%
    + [Panoramica](./buying-groups/buying-groups-overview.md)
    + [Interessi soluzione](./buying-groups/solution-interests.md)
    + [Modelli di ruolo](./buying-groups/buying-groups-role-templates.md)
-   + [Fasi del gruppo di acquisto](./buying-groups/buying-group-stages.md)
+   + [Fasi del gruppo acquisti](./buying-groups/buying-group-stages.md)
    + [Creare gruppi di acquisto](./buying-groups/buying-groups-create.md)
 + Percorsi di account {#account-journeys}
    + [Panoramica](./journeys/journey-overview.md)
@@ -44,6 +44,7 @@ ht-degree: 39%
       + [Panoramica](./content/assets-overview.md)
       + [Utilizzare le risorse del Marketo Engage](./content/marketo-engage-design-studio.md)
       + [Utilizzare le immagini di AEM Assets](./content/aem-assets.md)
+      + [Modifica immagini con Adobe Express](./content/image-edit-adobe-express.md)
    + Modelli{#templates}
       + [Gestire i modelli e-mail](./content/email-templates.md)
       + [Authoring dei modelli e-mail](./content/email-template-authoring.md)
