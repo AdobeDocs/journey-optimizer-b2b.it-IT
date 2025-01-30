@@ -4,10 +4,11 @@ description: Scopri come accedere e configurare le impostazioni della pagina di 
 feature: Setup, Content
 hide: true
 hidefromtoc: true
-source-git-commit: f599ae239b6979f766f97330b825503e70a13e50
+exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
+source-git-commit: a04e069d12f1599eb3d53840704d01ced05ba4fb
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 1%
+ht-degree: 49%
 
 ---
 
@@ -23,7 +24,7 @@ Testo segnaposto.
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_account_string"
->title="Stringa account pagine di destinazione"
+>title="Stringa account delle pagine di destinazione"
 >abstract="La stringa dell’account identifica l’istanza di Adobe Journey Optimizer B2B edition che ospita le pagine di destinazione."
 
 La stringa dell’account identifica l’istanza di Adobe Journey Optimizer B2B edition che ospita le pagine di destinazione. Assicurati che il team dei sistemi aggiunga e configuri la voce DNS.
@@ -41,18 +42,18 @@ Abilita l&#39;opzione **[!UICONTROL Precompila modulo]** per consentire ai modul
 
 Testo segnaposto.
 
-### Aggiungi sottodominio {#add-subdomain}
+### Aggiungere un sottodominio {#add-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_add_subdomain"
->title="Aggiungi sottodominio della pagina di destinazione"
->abstract="Puoi aggiungere un massimo di 50 sottodomini. Imposta un nuovo sottodominio per ogni URL del brand univoco che desideri ospitare su Adobe Journey Optimizer B2B edition."
+>title="Aggiungere un sottodominio della pagina di destinazione"
+>abstract="Puoi aggiungere fino a un massimo di 50 sottodomini. Imposta un nuovo sottodominio per ciascun URL del brand univoco che desideri ospitare su Adobe Journey Optimizer B2B edition."
 
 ### Dettagli del sottodominio {#configure-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_configure_subdomain"
->title="Configurare il sottodominio della pagina di destinazione"
+>title="Configurare un sottodominio della pagina di destinazione"
 >abstract="Per pubblicare le pagine di destinazione è necessario un sottodominio configurato. Puoi utilizzare un sottodominio già delegato ad Adobe o crearne uno nuovo."
 
 Testo segnaposto.

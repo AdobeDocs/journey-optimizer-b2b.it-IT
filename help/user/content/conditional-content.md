@@ -2,10 +2,11 @@
 title: Contenuto condizionale
 description: Scopri come creare varianti di contenuto e applicare regole condizionali durante la creazione di contenuti e-mail per percorsi di account.
 feature: Email Authoring, Content
-source-git-commit: 15a5144554f25634efa29efc42d41350b19c2bfb
+exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
+source-git-commit: 82c4d9f1a46076d4dfad2ac46fca23c11ef8b4a6
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -20,7 +21,7 @@ Per aggiungere contenuto condizionale ai messaggi di posta elettronica, Adobe Jo
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
 >title="Contenuto condizionale"
->abstract="Utilizza le regole condizionali per creare più varianti di un componente di contenuto. Se nessuna delle condizioni è soddisfatta durante l’invio del messaggio, viene visualizzato il contenuto della variante predefinita."
+>abstract="Utilizza le regole condizionali per creare più varianti di un componente di contenuto. Se non viene soddisfatta alcuna condizione durante l’invio del messaggio, verrà visualizzato il contenuto della variante predefinita."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_rule_select"
