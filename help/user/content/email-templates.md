@@ -1,11 +1,11 @@
 ---
 title: Modelli e-mail
-description: Scopri come gestire e creare modelli e-mail che possono essere utilizzati per creare e-mail di percorso dell’account in modo semplice ed efficiente.
+description: Scopri come gestire e creare modelli e-mail utilizzati per creare e-mail di percorso dell’account in modo semplice ed efficiente.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 10f8f254f49bb5dfb498758a4f39b23112c123a0
+source-git-commit: 81c2f7be29e3fdb0b279a2ec8b786e4cf68596da
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1316'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Per una progettazione più rapida e migliorata, puoi creare modelli e-mail auton
 
 Per accedere ai modelli e-mail in Adobe Journey Optimizer B2B edition, vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Modelli]**. Questa azione apre una pagina di elenco con tutti i modelli e-mail creati nell’istanza elencata in una tabella.
 
-La tabella è ordinata in base alla colonna _[!UICONTROL Modificato]_. Per impostazione predefinita, i modelli aggiornati più di recente sono elencati per primi. Fai clic sul titolo della colonna per passare da crescente a decrescente.
+Per impostazione predefinita, la tabella è ordinata in base alla colonna _[!UICONTROL Modificato]_, con i modelli aggiornati più di recente nella parte superiore. Fai clic sul titolo della colonna per passare da crescente a decrescente.
 
 Per cercare un modello per nome, immettere una stringa di testo nella barra di ricerca. Fai clic sull&#39;icona _Filtro_ in alto a sinistra per filtrare l&#39;elenco in base alle date di creazione o modifica e ai modelli creati o modificati.
 
@@ -26,7 +26,7 @@ Per cercare un modello per nome, immettere una stringa di testo nella barra di r
 
 Personalizzare le colonne da visualizzare nella tabella facendo clic sull&#39;icona _Personalizza tabella_ in alto a destra. Selezionare le colonne da visualizzare e fare clic su **[!UICONTROL Applica]**.
 
-Dalla pagina dell&#39;elenco è possibile eseguire le azioni descritte nelle sezioni seguenti.
+Dall’elenco dei modelli visualizzato, puoi eseguire le azioni descritte nelle sezioni seguenti.
 
 ## Creare un modello e-mail
 
@@ -35,12 +35,6 @@ Puoi creare un modello di e-mail dalla pagina dell&#39;elenco dei modelli facend
 1. Nella finestra di dialogo, immetti un **[!UICONTROL Nome]** e una **[!UICONTROL Descrizione]** utili (facoltativi).
 
    ![Immetti le proprietà iniziali per il nuovo modello di e-mail](./assets/templates-create-dialog.png){width="400"}
-
-1. Imposta l&#39;**[!UICONTROL origine immagine]** iniziale.
-
-   Se disponi di una sottoscrizione per Experience Manager Assets insieme all’as a Cloud Service Adobe Marketo Engage Design Studio, puoi scegliere le risorse immagine da entrambe le origini. A questo scopo, seleziona l’origine dell’immagine al momento della creazione per un modello e-mail o un frammento visivo. Tuttavia, puoi anche selezionare l’origine dell’immagine quando modifichi il contenuto.
-
-   Per ulteriori informazioni sulle origini immagini, vedere [Assets](./assets-overview.md).
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
@@ -94,7 +88,7 @@ Nella pagina di elenco Modelli, fai clic sul nome di un modello e-mail per aprir
 
 * Se sono presenti avvisi attivi (errori e avvisi per il modello e-mail), fai clic su **[!UICONTROL Avvisi]** in alto a destra per visualizzare le informazioni.
 
-  Anche se questi avvisi non vietano l’utilizzo del modello e-mail per la creazione di e-mail, forniscono visibilità agli esperti di marketing del team su ciò che potrebbe non funzionare e sugli aggiornamenti richiesti prima che possano essere utilizzati per la consegna.
+  Questi avvisi non vietano l’utilizzo del modello e-mail per la creazione di e-mail. Queste informazioni forniscono agli addetti al marketing del tuo team visibilità su ciò che potrebbe non funzionare e sugli aggiornamenti necessari prima che possano essere utilizzati per la consegna.
 
 ## Visualizza modello e-mail utilizzato da riferimenti
 
@@ -115,7 +109,7 @@ Questa azione può essere intrapresa da:
 * La pagina dei dettagli - Fai clic su **[!UICONTROL Modifica modello e-mail]**.
 * Pagina dell&#39;elenco - Fai clic sui puntini di sospensione (**...**) accanto a un modello di e-mail e scegli **[!UICONTROL Modifica]**.
 
-Questa azione ti porta alla pagina _Progetta il modello_ o alla pagina dell&#39;editor di contenuti visivi in base all&#39;ultimo stato salvato del modello e-mail. Da qui puoi modificare il contenuto del modello e-mail in base alle esigenze. Per informazioni sulle opzioni di modifica, consulta [Creare modelli e-mail](#create-email-templates).
+Questa azione ti porta alla pagina _Progetta il modello_ o alla pagina dell&#39;editor di contenuti visivi (in base all&#39;ultimo stato salvato del modello e-mail). Da qui puoi modificare il contenuto del modello e-mail in base alle esigenze. Per informazioni sulle opzioni di modifica, consulta [Creare modelli e-mail](#create-email-templates).
 
 ## Modelli e-mail duplicati
 
@@ -150,7 +144,7 @@ Dalla pagina di elenco dei modelli e-mail, seleziona più modelli alla volta sel
 
 **[!UICONTROL Elimina]** - È possibile eliminare fino a un massimo di 20 modelli alla volta. Una finestra di dialogo di conferma consente di interrompere l’azione o confermare la rimozione dei modelli.
 
-## Authoring di un’e-mail da un modello salvato
+## Creare un messaggio e-mail da un modello salvato
 
 Dalla schermata _Crea e-mail_, utilizza la sezione _Seleziona modello struttura_ per iniziare a creare il contenuto da un modello.
 

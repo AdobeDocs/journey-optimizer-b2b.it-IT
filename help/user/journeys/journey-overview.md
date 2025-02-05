@@ -1,11 +1,11 @@
 ---
-title: Percorsi di account
+title: Percorsi account
 description: Scopri come creare e gestire i percorsi di account.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1141'
 ht-degree: 1%
 
 ---
@@ -13,11 +13,13 @@ ht-degree: 1%
 
 # Percorsi di account
 
+Crea ed esegui percorsi personalizzati per ogni gruppo di acquisto e membro del gruppo di acquisto utilizzando il coinvolgimento automatico per e-mail, SMS, eventi e altro ancora. Con i percorsi di account è possibile semplificare la generazione della domanda e la qualificazione dei gruppi di acquisto e aumentare la domanda qualificata per i programmi di acquisizione, upselling/cross-selling e fidelizzazione.
+
 Definisci un coinvolgimento basato sulle vendite che includa e-mail, SMS e altri percorsi di account interni per coordinare le attività di marketing in entrata con le attività di vendita in uscita per ciascun membro del gruppo di acquisto.
 
 ## Accedere e sfogliare i percorsi di account
 
-1. Nella home page di Adobe Experience Platform, fare clic su Adobe Journey Optimizer B2B Edition.
+1. Nella home page di Adobe Experience Platform, fare clic su Adobe Journey Optimizer B2B edition.
 
 1. Nel menu di navigazione a sinistra, fai clic su **[!UICONTROL percorsi di account]**.
 
@@ -54,7 +56,7 @@ L’intestazione dell’editor di ciascun percorso di account include:
 
 Nell’intestazione sono disponibili le seguenti azioni:
 
-* **Publish** - È possibile pubblicare un percorso se non sono presenti errori di blocco. Quando viene pubblicato, lo stato di un Percorso cambia in _Live_. Se il percorso presenta errori, il pulsante viene oscurato con le informazioni sul contenuto: `Resolve errors before publishing`.
+* **Publish** - È possibile pubblicare un percorso se non sono presenti errori di blocco. Quando viene pubblicato, lo stato del percorso cambia in _Live_. Se il percorso presenta errori, il pulsante viene oscurato con le informazioni sul contenuto: `Resolve errors before publishing`.
 * **Duplicato** - Questa azione è simile a una funzione clone, ma il percorso duplicato non include risorse.
 * **Chiudi alle nuove voci** - Se chiudi un percorso, gli account attualmente nel percorso continuano il loro percorso nel percorso e non può verificarsi alcun ulteriore ingresso nel percorso. Impossibile riavviare un percorso chiuso. È possibile duplicare un percorso chiuso.
 * **Interrompi** - Se interrompi un percorso, gli account nel percorso interrompono immediatamente l&#39;avanzamento e non può verificarsi un ulteriore ingresso nel percorso. Impossibile riavviare un percorso arrestato. Se blocchi i nuovi ingressi senza fermare l&#39;avanzamento delle persone, puoi decidere di chiudere il percorso.
@@ -86,35 +88,19 @@ Per iniziare a utilizzare un percorso di account, crea il percorso e quindi cost
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
-### Aggiungere il pubblico dell’account per il percorso
-
-Un percorso di account inizia sempre con Pubblico account, in cui puoi aggiungere input al percorso.
-
-1. Fai clic sul nodo **[!UICONTROL Pubblico account]** per visualizzare le proprietà del nodo a destra.
-
-   ![Nodo pubblico account](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
-
-1. Fai clic su **[!UICONTROL Aggiungi pubblico account]**.
-
-   Per selezionare un segmento di pubblico selezionato in precedenza, fai clic su _[!UICONTROL Aggiungi pubblico]_.
-
-1. Per creare un nuovo segmento di pubblico, seleziona **[!UICONTROL Tipi di pubblico per l&#39;account]** nell&#39;area di navigazione a sinistra.
-
-1. Fai clic su **[!UICONTROL Crea pubblico]** e segui i passaggi descritti nella [guida del servizio di segmentazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.
-
 ### Elementi di base di un percorso
 
-L&#39;area di lavoro _percorso_ è la zona centrale nella finestra di progettazione del percorso. È in questa zona che puoi aggiungere nodi di percorso e configurarli. Fai clic su un nodo per aprire il relativo riquadro delle proprietà a destra dell’area di lavoro e impostarlo in base alla progettazione.
+La mappa del percorso __ è la zona centrale nella finestra di progettazione del percorso. È in questa zona che puoi aggiungere nodi di percorso e configurarli. Fai clic su un nodo per aprire il relativo riquadro delle proprietà a destra dell’area di lavoro e impostarlo in base alla progettazione. Un percorso di account inizia sempre con un [nodo Pubblico account](./account-audience-nodes.md) in cui puoi aggiungere input al percorso.
 
-Puoi creare il percorso utilizzando uno dei seguenti tipi di nodo:
+Dopo aver creato un percorso di account e aver aggiunto il pubblico, crea il percorso utilizzando i nodi. La mappa del percorso fornisce un’area di lavoro in cui puoi creare casi di utilizzo del marketing B2B a più passaggi utilizzando i seguenti tipi di nodo per creare un percorso di account:
 
-* [Ascolta un evento](journey-nodes.md#listen-for-an-event)
-* [Esegui un&#39;azione](journey-nodes.md#take-an-action)
-* [Dividere i percorsi](journey-nodes.md#split-paths)
-* [Attendere](journey-nodes.md#wait)
-* [Unisci percorsi](journey-nodes.md#merge-paths)
+* [Esegui un&#39;azione](./action-nodes.md)
+* [Ascolta un evento](./listen-for-event-nodes.md)
+* [Dividere i percorsi](./split-merge-paths-nodes.md)
+* [Attendere](./wait-nodes.md)
+* [Unisci percorsi](./split-merge-paths-nodes.md)
 
-### Parapetti
+### Guardrail
 
 Per facilitare la creazione di un percorso senza che si verifichino errori, sono presenti le seguenti barre di protezione:
 
@@ -134,7 +120,7 @@ Per facilitare la creazione di un percorso senza che si verifichino errori, sono
 
 1. Passa all’editor di percorso.
 
-1. Nelle proprietà del nodo a destra, fai clic sull&#39;icona _Elimina_ (cestino).
+1. Nelle proprietà del nodo a destra, fai clic sull&#39;icona _Elimina_ ( ![Elimina icona](../assets/do-not-localize/icon-delete.svg) ).
 
 1. Nella finestra di dialogo di conformazione, fare clic su **[!UICONTROL Elimina]**.
 
@@ -142,7 +128,7 @@ Per facilitare la creazione di un percorso senza che si verifichino errori, sono
 
 1. Passa all’editor di percorso.
 
-1. Fai clic sull&#39;icona più ( **+** ) sul percorso e aggiungi il nodo del percorso diviso.
+1. Fai clic sull&#39;icona più ( **+** ) sul percorso e aggiungi il [nodo percorso diviso](./split-merge-paths-nodes.md#split-paths).
 
 1. Nelle proprietà del nodo a destra, seleziona **[!UICONTROL Account]**.
 
@@ -150,11 +136,11 @@ Per facilitare la creazione di un percorso senza che si verifichino errori, sono
 
    Per ogni percorso creato nel percorso, nelle proprietà viene visualizzata una nuova scheda percorso.
 
-1. Passa a uno dei percorsi nel percorso e aggiungi nodi azione o evento a questo percorso utilizzando l’icona più.
+1. Passa a uno dei percorsi nel percorso e aggiungi i nodi [action](./action-nodes.md) o [event](./listen-for-event-nodes.md) a questo percorso utilizzando l&#39;icona più.
 
-1. Selezionate il nodo del percorso di [PROD143]e per aprire le proprietà a destra.
+1. Seleziona il nodo [split path](./split-merge-paths-nodes.md) per aprire le proprietà a destra.
 
-   Non è possibile eliminare i percorsi che contengono nodi.
+   Impossibile eliminare i percorsi con nodi.
 
 1. Per eliminare questi percorsi, è necessario eliminare prima tutti i nodi del percorso.
 
@@ -181,3 +167,7 @@ Quando pubblichi un percorso, può iniziare immediatamente o in una data futura 
 1. Fai clic su **[!UICONTROL Salva]**.
 
    Quando sei pronto a pubblicare il tuo percorso, puoi rivedere queste impostazioni facendo clic su _[!UICONTROL Publish]_.
+
+### Publish un percorso di account
+
+

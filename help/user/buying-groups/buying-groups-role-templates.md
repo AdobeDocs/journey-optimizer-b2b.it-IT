@@ -3,10 +3,10 @@ title: Acquisto di modelli di mansione per gruppi
 description: Scopri come definire un modello di ruolo da utilizzare come componente del gruppo di acquisto.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 492c4f5c326624e1713fb12289826c530384686a
+source-git-commit: 3ce0b2722e56ef46b84a55f097cd1e8a9d39ceb5
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 0%
+source-wordcount: '1125'
+ht-degree: 1%
 
 ---
 
@@ -61,6 +61,14 @@ In un mercato B2B, le decisioni di acquisto sono solitamente prese da più indiv
 
 Dopo aver creato il modello, questo viene aperto nel workspace e viene richiesto di definire i ruoli. Per impostazione predefinita, viene visualizzata la prima scheda ruolo.
 
+Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, per determinare i membri assegnati al ruolo. Utilizzare i tipi di filtro seguenti per definire le condizioni per un ruolo:
+
+| Tipo | Condizione |
+| ---- | --------- |
+| Attributi della persona | <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Numero di fax <li>Nome <li>Area dello stato dedotta <li>Qualifica <li>Cognome <li>Secondo nome <li>Numero di telefono cellulare <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo per annullamento abbonamento |
+| Filtri speciali | <li>Membro dell&#39;elenco |
+| Dati intento | Intento categoria <li>Intento prodotto <li>Intento parola chiave<br/>[Informazioni sui dati intento](../admin/intent-data.md). |
+
 1. Per la prima scheda ruolo, definisci le proprietà del ruolo.
 
    * Scegliere il **[!UICONTROL Ruolo gruppo acquisti]** dall&#39;elenco.
@@ -102,6 +110,16 @@ Dopo aver creato il modello, questo viene aperto nel workspace e viene richiesto
 1. Per ogni ruolo aggiuntivo che si desidera includere per il modello, fare clic su **[!UICONTROL Aggiungi un altro ruolo]** e ripetere i passaggi 1 e 2 per definire il ruolo.
 
    ![Modello ruoli con più ruoli definiti](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+
+>[!BEGINSHADEBOX &quot;Appartenenza a elenco Marketi Engage&quot;]
+
+In Marketo Engage, _Campagne avanzate_ verifica l&#39;appartenenza ai programmi per assicurarsi che i lead non ricevano e-mail duplicate e non siano membri di più flussi di e-mail contemporaneamente. In Journey Optimizer B2B, è possibile verificare l’appartenenza a un elenco di Marketi Engage come condizione per il modello dei ruoli, in modo da evitare duplicazioni nell’acquisto di appartenenze a gruppi e nelle attività di percorso.
+
+Per utilizzare l&#39;appartenenza a un elenco come condizione del ruolo, espandere **[!UICONTROL Filtri speciali]** e trascinare la condizione **[!UICONTROL Membro dell&#39;elenco]** nello spazio del filtro. Quindi completa la definizione del filtro per valutare l’appartenenza a uno o più elenchi di Marketi Engage.
+
+![Condizione del modello dei ruoli per l&#39;appartenenza all&#39;elenco dei Marketi Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+
+>[!ENDSHADEBOX]
 
 Le modifiche vengono salvate automaticamente nello stato _Bozza_. Se non sei pronto per pubblicare il modello di ruoli, fai clic sulla freccia sinistra (indietro) nella parte superiore della pagina e torna all&#39;elenco _[!UICONTROL Modelli di ruoli]_.
 

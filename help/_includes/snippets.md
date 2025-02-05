@@ -1,9 +1,9 @@
 ---
 title: Snippet
 description: Riutilizzo di note ed elementi visivi per annotare una funzione o una pagina applicata a una specifica edizione
-source-git-commit: 4facd14886cb21371ebbc3e0032cbf14cc322586
+source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -11,6 +11,19 @@ ht-degree: 0%
 # Snippet
 
 <!-- Content authoring steps for reuse -->
+
+## Configurazione dati intento {#intent-data-note}
+
+>[!NOTE]
+>I dati intento possono essere inclusi anche nella pagina quando questa è configurata per l’istanza Journey Optimizer B2B edition. Per ulteriori informazioni sul modello di rilevamento intento e su come inviare parole chiave, vedere [Dati intento](../user/admin/intent-data.md).
+>
+
+## Nota sulla licenza di AEM assets {#aem-assets-licensing-note}
+
+>[!NOTE]
+>
+>Le licenze per AEM Assets as a Cloud Service e Dynamic Media sono prerequisiti per l’integrazione. Verificare che [Dynamic Media con API aperta](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} sia abilitato.<br/>
+>A seconda del contratto e della configurazione, è possibile accedere a Adobe Experience Manager Assets as a Cloud Service direttamente da Adobe Journey Optimizer B2B edition durante la progettazione di contenuti visivi.
 
 ## Passaggio Authoring dei contenuti - componenti - strutture {#structures-step}
 
@@ -46,11 +59,7 @@ ht-degree: 0%
 
    Fai doppio clic sulla cartella che contiene le risorse. Trascina e rilascia gli elementi in un componente struttura.
 
-   >[!NOTE]
-   >
-   >Se disponi di una sottoscrizione per Experience Manager Assets as a Cloud Service insieme a Adobe Marketo Engage Design Studio predefinito, devi scegliere l&#39;[origine immagine](../user/content/assets-overview.md#choose-an-asset-source) al momento della creazione per un messaggio e-mail, un modello e-mail o un frammento visivo. Tuttavia, puoi anche selezionare l’origine dell’immagine prima di aprire la finestra di progettazione del contenuto per la modifica.
-
-   Per ulteriori informazioni sull&#39;utilizzo delle risorse del tipo di origine, vedere [Aggiungere risorse al contenuto](../user/content/assets-overview.md#add-assets-to-your-content).
+   Per ulteriori informazioni sull&#39;utilizzo delle risorse del tipo di origine, vedere [Aggiungere risorse al contenuto](../user/content/assets-overview.md#use-assets-for-content-authoring).
 
    ![Trascina una risorsa di Marketo Engage nell&#39;area di lavoro e regola le impostazioni](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
 
@@ -64,6 +73,6 @@ ht-degree: 0%
 
 ## Authoring dei contenuti - passaggio di tracciamento dei collegamenti {#links-tracking-step}
 
-1. Seleziona la scheda **[!UICONTROL Collegamenti]** dal riquadro a sinistra per visualizzare tutti gli URL del contenuto tracciati.
+1. Seleziona la scheda **[!UICONTROL Collegamenti]** dal riquadro a sinistra per visualizzare tutti gli URL del contenuto tracciato.
 
    Puoi modificare il _Tipo di tracciamento_ o _Etichetta_ e aggiungere tag se necessario.

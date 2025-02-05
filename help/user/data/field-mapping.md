@@ -2,9 +2,9 @@
 title: Campi XDM
 description: Esamina i campi attributo predefiniti sincronizzati tra Adobe Experience Platform e Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 69312f48bdbe9f366a8e6adfb4736c20d04739f8
+source-git-commit: 332c25305377398c2338d4b1d4a61b7fcf814232
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1033'
 ht-degree: 13%
 
 ---
@@ -12,6 +12,16 @@ ht-degree: 13%
 # Campi XDM
 
 I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle classi XDM Business Account che XDM Business Person. I dati vengono periodicamente sincronizzati tra Adobe Experience Platform e Journey Optimizer B2B edition. Nelle sezioni seguenti sono elencati i set di attributi predefiniti.
+
+>[!TIP]
+>
+>È possibile modellare le classi XDM Business Person e XDM Business Account in una relazione molti-a-molti utilizzando la classe XDM Business Account Person Relation come descritto nell&#39;[Experience Platform di documentazione XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b).
+
+## Attributi di relazione della persona dell’account aziendale XDM
+
+| [Proprietà](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | Nome visualizzato | Nome visualizzato B2B Journey Optimizer | Tipo di dati | Descrizione |
+|------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
+| `personRoles` | Ruoli della persona | Ruolo | Array di stringhe | Array di ruoli associati alla persona nell&#39;account, ad esempio `owner, accountant, designer`. |
 
 ## Attributi persona aziendale XDM
 
@@ -60,11 +70,35 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 | `accountBillingAddress.state` | Stato | Stato | Stringa | Nome dello stato dell&#39;indirizzo di fatturazione. È un campo in formato libero. |
 | `accountBillingAddress.street1` | Strada 1 | Strada 1 | Stringa | Informazioni stradali primarie per l’indirizzo di fatturazione, che in genere includono il numero dell’appartamento, il numero civico e il nome della strada. |
 | `accountName` | Nome | Nome | Stringa | **Campo obbligatorio** <br/>Nome dell&#39;azienda. In questo campo sono consentiti fino a 255 caratteri. |
-| `accountOrganization.annualRevenue.amount` | Entrata annuale | Entrata annuale | Numero | Importo stimato delle entrate annuali dell’organizzazione. |
+| `accountOrganization.annualRevenue.amount` | Ricavi annuali | Ricavi annuali | Numero | Importo stimato delle entrate annuali dell’organizzazione. |
 | `accountOrganization.industry` | Settore | Settore | Stringa | Il settore è stato attribuito all’organizzazione. È un campo in formato libero ed è consigliabile utilizzare un valore strutturato per le query o utilizzare la proprietà `xdm:classifier`. |
 | `accountOrganization.logoUrl` | URL logo | URL logo | Stringa | Percorso da combinare con l&#39;URL di un&#39;istanza di Salesforce (ad esempio, `https://yourInstance.salesforce.com/`) per generare un URL per richiedere l&#39;immagine del profilo del social network associata all&#39;account. L&#39;URL generato restituisce un reindirizzamento HTTP (codice 302) all&#39;immagine del profilo del social network dell&#39;account. |
 | `accountOrganization.numberOfEmployees` | Numero di dipendenti | Numero dipendenti | Intero | Il numero di dipendenti dell&#39;organizzazione. |
-| `accountOrganization.SICCode` | Codice SIC (Standard Industrial Classification) | Codice SIC (Standard Industrial Classification) | Stringa | Il codice Standard Industrial Classification (SIC), che è un codice a quattro cifre che categorizza i settori a cui appartengono le aziende in base alle loro attività commerciali. |
+| `accountOrganization.SICCode` | Codice SIC (Standard Industrial Classification) | Codice SIC (Standard Industrial Classification) | Stringa | Il codice SIC (Standard Industrial Classification) è un codice a quattro cifre che categorizza i settori a cui appartengono le aziende in base alle loro attività commerciali. |
 | `accountOrganization.website` | URL sito Web | Nome dominio | Stringa | L’URL del sito web dell’organizzazione. |
 | `accountPhone.number` | N/D | Numero di telefono dell’account | Stringa | Numero di telefono associato all’account. |
 | `accountSourceType` | N/D | Tipo di origine | Stringa | Tipo di Source per l’account. |
+
+<!-- ## XDM Opportunity attributes
+
+|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) |Display name |Journey Optimizer B2B display name |Data type |Description |
+|------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
+|`opportunityName` | Opportunity Name   | ? |String  | Subject or descriptive name, such as the expected order or company name, for the opportunity. |
+|`opportunityDescription` | Opportunity Description   | ?    |String  | Additional information to describe the opportunity, such as possible products to sell or past purchases from the customer. |
+|`opportunityType` | Opportunity Type   | ?   | String | ?   |
+|`opportunityStage` | Opportunity Stage   | ?   | String | Sales stage of the opportunity to aid the sales team in their efforts to win it.  |
+|`fiscalQuarter` | Fiscal Quarter   | ?   | String | The fiscal quarter that the opportunity is targeted.   |
+|`fiscalYear` | Fiscal Year   | ?   | String | The fiscal year that the opportunity is targeted.   |
+|`fiscalCategory` | Fiscal Category   | ?   | String | ?   |
+|`fiscalCategoryName` | Fiscal Category Name  | ?   | String | Forecast category name that is displayed in reports for a particular forecast category.   |
+|`isClosed` | Closed Flag  | ?   | String | Flag that indicates if the opportunity is closed.   |
+|`isWon` | Won Flag  | ?   | String | Flag that indicates if the opportunity is won.  |
+|`probabilityPercentage` | Probability Percentage  | ?   | String | Likelihood of closing the opportunity, stated as a percentage.  |
+|`opportunityAmount.amount` | Opportunity Amount  | ?   | String | Estimated total sale amount for the opportunity.   |
+|`expectedRevenue.amount` | Expected Revenue  | ?   | String | Calculated revenue based on the Amount and Probability.   |
+|`opportunityQuantity` | Opportunity Quantity  | ?   | String | Total of all quantity field values for all products in the related Products list for the opportunity.   |
+|`expectedCloseDate` | Expected Close Date  | ?   | String | Expected date of closure for the opportunity.   |
+|`lastActivityDate` | Last Activity Date  | ?   | String | Last activity date for the opportunity.  |
+|`leadSource` | Lead Source  | ?   | String | Source of the opportunity, such as Advertisement, Partner, or Web.   |
+|`nextStep` | Next Step  | ?   | String | Description of the next task for closing the opportunity.   |
+-->

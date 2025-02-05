@@ -1,9 +1,9 @@
 ---
 title: Configurare gli archivi di risorse Experience Manager
-description: Scopri come configurare una connessione agli archivi Experience Manager Assets per l’utilizzo nell’authoring dei contenuti Journey Optimizer B2B Edition.
+description: Scopri come configurare una connessione agli archivi Experience Manager Assets per l’utilizzo nell’authoring dei contenuti Journey Optimizer B2B edition.
 feature: Assets, Integrations
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
@@ -12,15 +12,17 @@ ht-degree: 0%
 
 # Configurare archivi di risorse Experience Manager
 
-L’edizione B2B di Adobe Journey Optimizer si integra con Adobe Experience Manager Assets as a Cloud Service, consentendo più che utilizzare solo risorse come le e-mail all’interno di un percorso di account. Garantisce la trasparenza scambiando informazioni con Experience Manager Assets. Configura la connessione ad Adobe Experience Assets per abilitare questa funzionalità.
+Adobe Journey Optimizer B2B edition si integra con Adobe Experience Manager Assets as a Cloud Service, consentendo più che solo l’utilizzo di risorse come le e-mail all’interno di un percorso di account. Garantisce la trasparenza scambiando informazioni con Experience Manager Assets. Configura la connessione ad Adobe Experience Assets per abilitare questa funzionalità.
 
-Adobe Experience Manager Cloud Manager è organizzato in programmi e ogni programma dispone di più ambienti e archivi ([Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). Quando si configura Adobe Experience Manager Assets in Adobe Journey Optimizer B2B Edition, è possibile impostare connessioni a ogni archivio che si desidera utilizzare per accedere alle risorse digitali.
+Adobe Experience Manager Cloud Manager è organizzato in programmi e ogni programma dispone di più ambienti e archivi ([Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). Quando configuri Adobe Experience Manager Assets in Adobe Journey Optimizer B2B edition, puoi impostare connessioni a ogni archivio che desideri utilizzare per accedere alle risorse digitali.
+
+{{aem-assets-licensing-note}}
 
 ## Prerequisiti
 
 * Genera le credenziali del servizio per l&#39;ambiente desiderato nel Developer Console headless AEM ([Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials)).
 * Ottenere i certificati necessari per la connessione. Come best practice, assicurati che i certificati rimangano almeno sei mesi prima della scadenza. I certificati scadono ogni 365 giorni.
-* Adobe Journey Optimizer B2B Edition supporta l’accesso a un’origine per la gestione delle risorse digitali alla volta. Prima di cambiare, assicurati che le risorse richieste siano disponibili in Adobe Experience Manager.
+* Adobe Journey Optimizer B2B edition supporta l’accesso a un’origine per la gestione delle risorse digitali alla volta. Prima di cambiare, assicurati che le risorse richieste siano disponibili in Adobe Experience Manager.
 
 >[!IMPORTANT]
 >
@@ -66,7 +68,7 @@ Al termine della configurazione degli archivi, i membri del gruppo possono selez
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B Edition supporta l’accesso a un’origine per la gestione delle risorse digitali alla volta durante l’authoring dei contenuti. 
+>Adobe Journey Optimizer B2B edition supporta l’accesso a un’origine per la gestione delle risorse digitali alla volta durante l’authoring dei contenuti. 
 
 ## Sostituire un certificato
 
@@ -74,7 +76,7 @@ I certificati scadono ogni 365 giorni dalla data di creazione. Sostituiscilo pri
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B Edition comunica con le risorse Experience Manager per informazioni sull’utilizzo. La connessione deve rimanere attiva per un utilizzo affidabile della sincronizzazione dei dati e per evitare discrepanze di dati. Gli utenti amministratori ricevono notifiche sulla scadenza dei certificati tramite notifiche in-app. Possono anche prendere nota delle date di scadenza nella sottosezione Assets - Gestione delle risorse digitali nell’area Amministratore.
+>Adobe Journey Optimizer B2B edition comunica con le risorse Experience Manager per informazioni sull’utilizzo. La connessione deve rimanere attiva per un utilizzo affidabile della sincronizzazione dei dati e per evitare discrepanze di dati. Gli utenti amministratori ricevono notifiche sulla scadenza dei certificati tramite notifiche in-app. Possono anche prendere nota delle date di scadenza nella sottosezione Assets - Gestione delle risorse digitali nell’area Amministratore.
 
 1. Nella pagina di gestione delle risorse digitali, individua l’elenco degli archivi configurati.
 
@@ -110,7 +112,7 @@ Puoi visualizzare il file JSON del certificato associato alla connessione all’
 
 ## Eliminare una connessione all’archivio
 
-L’eliminazione di un archivio rimuove l’accesso degli utenti all’ambiente Experience Manager Assets in Journey Optimizer B2B Edition.
+L’eliminazione di un archivio rimuove l’accesso degli utenti all’ambiente Experience Manager Assets all’interno di Journey Optimizer B2B edition.
 
 1. Nella pagina _[!UICONTROL Gestione risorse digitali]_, individua l&#39;elenco degli archivi di risorse configurati.
 

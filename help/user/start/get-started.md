@@ -2,9 +2,9 @@
 title: Introduzione a Journey Optimizer B2B edition
 description: In qualità di nuovo utente in Journey Optimizer B2B Edition, scopri le aree chiave per iniziare.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
+source-git-commit: b403ff764c002796953956379e33fec6eb8c0611
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '664'
 ht-degree: 10%
 
 ---
@@ -41,6 +41,8 @@ Per ulteriori informazioni sulla gestione degli accessi, consulta le pagine segu
 
 1. **Configura e abilita l&#39;utilizzo di Adobe Experience Manager Assets** per i team che utilizzano Assets as a Cloud Service per la gestione centralizzata delle risorse digitali. [Ulteriori informazioni](../admin/configure-aem-repositories.md)
 
+1. **Configura le definizioni degli eventi di esperienza di Adobe Experience Platform (AEP)** per i team responsabili della creazione di percorsi di account che ascoltano gli eventi di esperienza di AEP. [Ulteriori informazioni](../admin/configure-aep-events.md)
+
 >[!TAB Guida introduttiva per gli addetti al marketing]
 
 In qualità di addetto al marketing o di _professionista del Percorso dell&#39;account_, sei responsabile della progettazione di percorsi e della creazione di contenuti. È possibile iniziare a lavorare con Adobe Journey Optimizer B2B edition dopo che l’amministratore di sistema e il data engineer hanno preparato l’ambiente e concesso l’accesso.
@@ -49,7 +51,7 @@ Per configurare il primo percorso, aggiungere risorse e inviare contenuti, consu
 
 1. **Aggiungi tipi di pubblico dell&#39;account**. Journey Optimizer B2B edition consente di creare tipi di pubblico per l’account tramite definizioni di segmenti direttamente dall’applicazione e di sfruttarli nei percorsi dell’account. [Ulteriori informazioni](../audiences/account-audience-overview.md)
 
-1. **Crea gruppi di acquisto**. Definisci i componenti chiave per il raggiungimento degli obiettivi e degli obiettivi aziendali e crea gruppi di acquisto che identifichino i membri per gli elenchi di account target. [Ulteriori informazioni](../buying-groups/buying-groups-overview.md)
+1. **Crea gruppi di acquisto**. Definisci i componenti chiave per raggiungere gli obiettivi e le finalità aziendali e crea gruppi di acquisto che identifichino i membri per gli elenchi di account di destinazione. [Ulteriori informazioni](../buying-groups/buying-groups-overview.md)
 
 1. **Creare e gestire le risorse**. Adobe Experience Manager Assets fornisce un archivio di risorse unico e centralizzato da utilizzare per compilare i messaggi. [Ulteriori informazioni](../content/assets-overview.md)
 

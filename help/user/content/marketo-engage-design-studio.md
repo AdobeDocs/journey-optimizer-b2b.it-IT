@@ -3,16 +3,16 @@ title: Utilizzare Marketo Engage Assets
 description: Scopri come utilizzare l’integrazione di Marketo Engage Design Studio per la gestione delle risorse in Journey Optimizer B2B edition.
 feature: Assets, Content
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 80df6ffd84a51b9df0fbeab321cb2197f610a048
+source-git-commit: bfa6cc84c3c8757146b70933b91b53337203eb5d
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
 
 # Utilizzare le risorse del Marketo Engage
 
-Marketo Engage Design Studio è l&#39;origine predefinita delle risorse per Journey Optimizer B2B edition e puoi gestire e utilizzare facilmente le risorse disponibili nel contenuto per i tuoi percorsi di account.
+Marketo Engage Design Studio è l’origine predefinita delle risorse per Journey Optimizer B2B edition e puoi gestire e utilizzare facilmente le risorse disponibili per progettare contenuti che supportano i percorsi del tuo account.
 
 In Marketo Engage, le organizzazioni di marketing utilizzano le aree di lavoro per organizzare le risorse di contenuto e aiutare i team ad accedere alla risorsa corretta. Spazi di lavoro ben definiti sono particolarmente utili per le grandi aziende che hanno un ampio portafoglio di offerte di prodotti o operano a livello globale con requisiti diversi per il marketing in aree geografiche diverse.
 
@@ -20,15 +20,16 @@ In Marketo Engage, le organizzazioni di marketing utilizzano le aree di lavoro p
 
 Per impostazione predefinita, è disponibile un&#39;area di lavoro **_[!UICONTROL Journey Optimizer B2B edition]_** che è possibile utilizzare in modo specifico per il contenuto del percorso di account. Le risorse aggiunte a questa area di lavoro non sono visibili o disponibili per l’utilizzo in Marketo Engage. Per le risorse che risiedono in questa area di lavoro, disponi di tutte le funzioni di gestione risorse di Journey Optimizer B2B edition. Queste funzioni includono:
 
-* Sostituisci
-* Elimina
-* Sposta
+* [Sostituisci](#replace-assets)
+* [Elimina](#delete-assets)
+* [Sposta](#create-a-folder)
+* [Modifica con Adobe Express](./image-edit-adobe-express.md)
 
 Le aree di lavoro del Marketo Engage in cui risiede Assets sono limitate all’accesso in sola lettura per l’utilizzo in e-mail, modelli e frammenti. Puoi aggiungere nuove risorse a queste aree di lavoro e scaricare una copia di una risorsa.
 
 ## Sfogliare e accedere alle risorse
 
-Per accedere alle risorse di Adobe Marketo Engage da Journey Optimizer B2B edition, passa alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Assets]**. Questa azione apre una pagina di elenco con tutte le risorse elencate.
+Per accedere alle risorse Adobe Marketo Engage da Journey Optimizer B2B edition, passa alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Assets]**. Questa azione apre una pagina di elenco con tutte le risorse elencate.
 
 ![Sfoglia risorse di Marketo Engage](assets/assets-list-page.png){width="800" zoomable="yes"}
 
@@ -66,7 +67,7 @@ Fai clic sul collegamento per passare all’e-mail, al modello e-mail o al framm
 
 ## Aggiungere risorse
 
-Dalla pagina dell’elenco di Assets, puoi aggiungere risorse immagine all’area di lavoro di Journey Optimizer B2B edition o a un’area di lavoro di Marketo Engage.
+Dalla pagina dell&#39;elenco _Assets_ è possibile aggiungere risorse immagine all&#39;area di lavoro di Journey Optimizer B2B edition o a un&#39;area di lavoro di Marketo Engage.
 
 1. Fai clic su **[!UICONTROL Aggiungi Assets]** in alto a destra.
 
@@ -126,7 +127,7 @@ Nella finestra di dialogo _[!UICONTROL Sostituisci risorsa]_, trascina e rilasci
 
 Per continuare, fare clic su **[!UICONTROL Sostituisci]**. È possibile interrompere il processo facendo clic su **[!UICONTROL Annulla]**.
 
-Se il file da sostituire è attualmente in uso, una finestra di dialogo informativa ti avvisa che il nuovo file di immagine sostituisce l’immagine in tutte le posizioni in cui viene utilizzata (e-mail, modelli e frammenti e-mail).
+Se il file da sostituire è in uso, una finestra di dialogo informativa ti avvisa che il nuovo file di immagine sostituisce l’immagine in tutte le posizioni in cui viene utilizzata (e-mail, modelli e frammenti e-mail).
 
 ## Scaricare le risorse
 
@@ -154,7 +155,7 @@ Per le risorse selezionate che risiedono nell&#39;area di lavoro _[!UICONTROL Jo
 
 1. Seleziona una cartella.
 
-   Gli aggiornamenti del percorso accanto a _[!UICONTROL Risorse selezionate verranno spostati in:]_.
+   Il percorso accanto a _[!UICONTROL Risorse selezionate verrà spostato in:]_ riflette la modifica.
 
 1. Fare clic su **[!UICONTROL Sposta]**.
 
@@ -268,7 +269,7 @@ L&#39;archiviazione di una cartella rende impossibile eseguire ricerche nei rela
 
 Assets può essere utilizzato nell’e-mail del team, nel modello e-mail o nell’authoring di frammenti visivi dall’editor di contenuti visivi.
 
-Dall&#39;interfaccia utente di progettazione visiva, seleziona l&#39;icona _Selettore risorse_ ( ![Selezione Assets](../assets/do-not-localize/icon-assets-design.svg) ) nella barra laterale a sinistra.
+Dall&#39;interfaccia utente di progettazione visiva, selezionare l&#39;icona di _Marketo Engage Assets_ (![Marketo Engage Assets icona](../../assets/do-not-localize/icon-assets-me.svg) ) nella barra laterale a sinistra.
 
 Questa azione modifica il pannello strumenti che visualizza un elenco strutturato delle risorse disponibili nell’area di lavoro selezionata. Seleziona l’area di lavoro da visualizzare per scegliere una risorsa.
 

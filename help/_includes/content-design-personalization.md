@@ -1,16 +1,16 @@
 ---
 title: Authoring dei contenuti - personalizzazione
 description: Sezione riutilizzata sull’utilizzo della personalizzazione per l’authoring dei contenuti
-source-git-commit: 0a9c05ac2ddd95e1fa5321f44f5cbe8cfa595007
+source-git-commit: 3791beb98068a56882bb0a96fbc6b192e85130bb
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
 
 # Authoring dei contenuti - personalizzazione
 
-La versione B2B di Journey Optimizer utilizza una sintassi inline semplice che consente di creare espressioni con contenuto personalizzato racchiuso tra parentesi graffe `{}`. È possibile aggiungere più espressioni nello stesso contenuto o campo senza restrizioni.
+Journey Optimizer B2B edition utilizza una sintassi inline semplice che consente di creare espressioni con contenuto personalizzato racchiuso tra parentesi graffe `{}`. È possibile aggiungere più espressioni nello stesso contenuto o campo senza restrizioni.
 
 Esempi:
 
@@ -18,7 +18,7 @@ Esempi:
 
 * `Hello {{profile.person.name.fullName}}`
 
-Durante l’elaborazione del messaggio (e-mail e SMS), Journey Optimizer B2B Edition sostituisce l’espressione con i dati contenuti nel database di Experience Platform. Il primo esempio diventa _Hello John Doe_.
+Durante l’elaborazione del contenuto, Journey Optimizer B2B edition sostituisce l’espressione con i dati contenuti nel database Experience Platform. Il primo esempio diventa _Hello John Doe_.
 
 L’esempio seguente illustra i passaggi per personalizzare il contenuto utilizzando gli attributi lead/account e i token di sistema.
 

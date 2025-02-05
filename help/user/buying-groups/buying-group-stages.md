@@ -2,9 +2,10 @@
 title: Stadi del gruppo di acquisto
 description: Scopri come acquistare fasi di percorso e come definirle per monitorare la progressione del gruppo rispetto agli obiettivi di vendita.
 feature: Buying Groups, Account Journeys
-source-git-commit: 42d73cd2c1ead771205e5fdf188088fce7ca6f21
+exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
+source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2250'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Le fasi di acquisto dei gruppi sono progettate per tenere traccia della progressione dei gruppi di acquisto nella conversione delle opportunità in clienti. Utilizza questa funzione per tenere traccia della progressione del gruppo di acquisto e identificare le migliori azioni successive per i membri del gruppo di acquisto.
 
-Definisci le fasi all’interno di un singolo modello di staging, definendo più fasi e il flusso di transizione tra di esse. Una o più fasi sono designate per l&#39;immissione nel ciclo di vita. Il modello consente anche una progressione non lineare, in cui è possibile specificare transizioni da uno stadio all&#39;altro, ad esempio dallo stadio A agli stadi B, C o D. È necessario che una fase sia designata come fase di successo, ad esempio un contratto di acquisto o firmato. È possibile che un&#39;altra fase venga designata come fase di errore, ad esempio un contratto rifiutato o l&#39;acquisto di una soluzione concorrente da un altro fornitore.<!-- This is achieved through intelligent dashboards that show how buying groups are progressing in terms of completing a sale opportunity or converting an opportunity into a customer. -->
+Definisci le fasi all’interno di un singolo modello di staging, definendo più fasi e il flusso di transizione tra di esse. Una o più fasi sono designate per l&#39;immissione nel ciclo di vita. Il modello consente anche una progressione non lineare, in cui è possibile specificare transizioni da uno stadio all&#39;altro, ad esempio dallo stadio A agli stadi B, C o D. È necessario che una fase sia designata come fase di successo, ad esempio un contratto di acquisto o firmato. È facoltativo che un&#39;altra fase sia designata come fase di fallimento, ad esempio un contratto rifiutato o l&#39;acquisto di una soluzione concorrente da un altro fornitore. Ciò si ottiene tramite [dashboard intelligenti](../dashboards/intelligent-dashboard.md) che mostrano lo stato di avanzamento dei gruppi di acquisto in termini di completamento di un&#39;opportunità di vendita o di conversione di un&#39;opportunità in un cliente.
 
 ![Esempio di fasi del gruppo di acquisto](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 

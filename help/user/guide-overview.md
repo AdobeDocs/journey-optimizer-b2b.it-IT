@@ -2,7 +2,7 @@
 title: Documentazione di Adobe Journey Optimizer B2B Edition
 description: Scopri come utilizzare le funzioni di Adobe Journey Optimizer B2B edition per orchestrare account e acquistare percorsi di gruppi utilizzando l’intelligenza artificiale generativa integrata e l’automazione leader di settore.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 7%
@@ -27,7 +27,7 @@ Utilizza il contenuto condizionale per adattare il contenuto delle e-mail in bas
 
 In un percorso di account, utilizzare il nodo dell&#39;azione _Aggiungi all&#39;elenco_ per aggiungere persone a un elenco statico di Marketo Engage. Questi elenchi ti offrono la massima flessibilità per riutilizzare e indirizzare tipi di pubblico specifici. Puoi creare un elenco e quindi una campagna intorno a esso, oppure aggiungere una persona direttamente a una campagna esistente. Inoltre, utilizza l&#39;azione _Rimuovi dall&#39;elenco_ persone per perfezionare e modificare il targeting nel Marketo Engage in base alla progressione del percorso di account.
 
-[!BADGE Ulteriori informazioni]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="Scopri come aggiungere e rimuovere dall’elenco"}
+[!BADGE Ulteriori informazioni]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes" tooltip="Scopri come aggiungere e rimuovere dall’elenco"}
 
 >[!TAB Libreria risorse centrale]
 

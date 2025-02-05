@@ -1,11 +1,11 @@
 ---
 title: Gruppi di acquisto
-description: Scopri come i gruppi di acquisto in Journey Optimizer B2B edition possono aumentare l’efficacia del marketing identificando e indirizzando i membri agli elenchi degli account.
+description: Scopri come acquistare gruppi in Journey Optimizer B2B edition può aumentare l’efficacia del marketing identificando e indirizzando i membri agli elenchi dei tuoi account.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
+source-git-commit: e2059726fbb7541dbe0e7ab9be4cd82f37f26cf8
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1259'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ Nell&#39;account potrebbe essere presente un sottoinsieme di persone che costitu
 
 ## Componenti chiave
 
-Puoi aumentare l’efficacia del marketing creando in Journey Optimizer B2B edition gruppi di acquisto che identifichino i membri mancanti negli elenchi dei tuoi account di destinazione in base alle soluzioni che i team di vendita sono responsabili della vendita. Prima che tu e il team Marketing iniziiate a creare i gruppi di acquisto, accertati di disporre dei componenti chiave definiti. Questi componenti sono fondamentali per raggiungere gli obiettivi e le finalità aziendali.
+Puoi aumentare l’efficacia del marketing creando gruppi di acquisto in Journey Optimizer B2B edition che identificano i membri mancanti per gli elenchi dei tuoi account di destinazione in base alle soluzioni che i team di vendita sono responsabili della vendita. Prima che tu e il team Marketing iniziiate a creare i gruppi di acquisto, accertati di disporre dei componenti chiave definiti. Questi componenti sono fondamentali per raggiungere gli obiettivi e le finalità aziendali.
 
 | Componente | Finalità |
 | --------- | ------- |
@@ -77,7 +77,7 @@ Utilizza la scheda _[!UICONTROL Sfoglia]_ per visualizzare l&#39;elenco dei grup
 
 ## Dettagli gruppo di acquisto
 
-Per accedere ai dettagli di un gruppo di acquisto, fare clic sul nome del gruppo di acquisto nella scheda _[!UICONTROL Sfoglia]_.
+Per accedere ai dettagli di un gruppo di acquisto, fare clic sul nome del gruppo di acquisto nella scheda _[!UICONTROL Sfoglia]_. [Ulteriori informazioni](./buying-group-details.md)
 
 ![Dettagli gruppo di acquisto](assets/buying-group-details.png){width="600" zoomable="yes"}
 

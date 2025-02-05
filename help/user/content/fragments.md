@@ -1,18 +1,18 @@
 ---
 title: Frammenti
-description: Scopri come creare e utilizzare frammenti di contenuto visivo come componenti riutilizzabili per e-mail e modelli e-mail in Adobe Journey Optimizer B2B Edition.
+description: Scopri come creare e utilizzare frammenti di contenuto visivo come componenti riutilizzabili per e-mail e modelli e-mail in Adobe Journey Optimizer B2B edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: d0bf71dd1503d824391df7d7a7c59e3c2c925f03
+source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2679'
 ht-degree: 2%
 
 ---
 
 # Frammenti
 
-Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail e modelli e-mail in Adobe Journey Optimizer B2B Edition. In genere si tratta di un blocco di contenuto (testo, immagine o entrambi) che può essere precreato e inserito rapidamente in un modello e-mail o e-mail. Con questa funzionalità, puoi precreare più blocchi di contenuto personalizzati da utilizzare da parte dei membri del team di marketing per assemblare contenuti e-mail e migliorare così il processo di progettazione. I casi d’uso comuni includono blocchi di contenuto di intestazione/piè di pagina per e-mail, banner di invito per eventi e saluti stagionali.
+Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in uno o più e-mail e modelli e-mail in Adobe Journey Optimizer B2B edition. In genere si tratta di un blocco di contenuto (testo, immagine o entrambi) che può essere precreato e inserito rapidamente in un modello e-mail o e-mail. Con questa funzionalità, puoi precreare più blocchi di contenuto personalizzati da utilizzare da parte dei membri del team di marketing per assemblare contenuti e-mail e migliorare così il processo di progettazione. I casi d’uso comuni includono blocchi di contenuto di intestazione/piè di pagina per e-mail, banner di invito per eventi e saluti stagionali.
 
 Per utilizzare al meglio i frammenti nei flussi di lavoro:
 
@@ -21,11 +21,11 @@ Per utilizzare al meglio i frammenti nei flussi di lavoro:
 
 ## Frammenti visivi
 
-I frammenti visivi sono blocchi visivi predefiniti creati utilizzando l’editor di contenuto visivo che puoi riutilizzare in più e-mail o modelli e-mail. L’ambito corrente di Journey Optimizer B2B Edition e questa documentazione sono quelli dei soli frammenti visivi. I frammenti basati su espressioni non sono ancora supportati in Journey Optimizer B2B Edition.
+I frammenti visivi sono blocchi visivi predefiniti creati utilizzando l’editor di contenuto visivo che puoi riutilizzare in più e-mail o modelli e-mail. L’ambito corrente di Journey Optimizer B2B edition e di questa documentazione è quello dei soli frammenti visivi. I frammenti basati su espressioni non sono ancora supportati in Journey Optimizer B2B edition.
 
 ## Accedere e gestire i frammenti
 
-Per accedere ai frammenti visivi in Adobe Journey Optimizer B2B Edition, vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Frammenti]**. Questa azione apre una pagina di elenco con tutti i frammenti creati nell’istanza elencata in una tabella.
+Per accedere ai frammenti visivi in Adobe Journey Optimizer B2B edition, vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Frammenti]**. Questa azione apre una pagina di elenco con tutti i frammenti creati nell’istanza elencata in una tabella.
 
 ![Accedere alla libreria frammenti](./assets/fragments-list.png){width="700" zoomable="yes"}
 
@@ -45,7 +45,7 @@ Lo stato del frammento determina la sua disponibilità per l’utilizzo in un me
 
 >[!IMPORTANT]
 >
->Lo stato del frammento è stato introdotto nella versione di agosto di Journey Optimizer B2B Edition. Tutti i frammenti creati prima di questa versione hanno lo stato _Bozza_, anche se vengono utilizzati in un messaggio e-mail o in un modello. Se apporti modifiche a questi frammenti, devi pubblicare il frammento per propagare le modifiche.
+>Lo stato del frammento è stato introdotto nella versione di agosto di Journey Optimizer B2B edition. Tutti i frammenti creati prima di questa versione hanno lo stato _Bozza_, anche se vengono utilizzati in un messaggio e-mail o in un modello. Se apporti modifiche a questi frammenti, devi pubblicare il frammento per propagare le modifiche.
 
 ### Filtrare l’elenco dei frammenti
 
@@ -63,7 +63,7 @@ Nella finestra di dialogo, seleziona le colonne da visualizzare e fai clic su **
 
 ## Creare i frammenti
 
-È possibile creare nuovi frammenti visivi in Journey Optimizer B2B Edition facendo clic su **[!UICONTROL Crea frammento]** in alto a destra.
+Per creare nuovi frammenti visivi in Journey Optimizer B2B edition, fai clic su **[!UICONTROL Crea frammento]** in alto a destra.
 
 1. Nella finestra di dialogo _[!UICONTROL Crea frammento]_, immetti un **[!UICONTROL Nome]** e una **[!UICONTROL Descrizione]** utili (facoltativi).
 
@@ -141,13 +141,13 @@ Uscire dalla visualizzazione in qualsiasi momento facendo clic sulla freccia _In
 
 ## Visualizza frammento utilizzato da riferimenti
 
-Nella pagina dei dettagli del frammento, fai clic sulla scheda **[!UICONTROL Usato da]** per visualizzare i dettagli sulla posizione in cui il frammento è attualmente utilizzato in Journey Optimizer B2B Edition, tra e-mail, modelli e frammenti di posta elettronica.
+Nella pagina dei dettagli del frammento, fai clic sulla scheda **[!UICONTROL Usato da]** per visualizzare i dettagli sulla posizione in cui il frammento è attualmente utilizzato in Journey Optimizer B2B edition, nelle e-mail, nei modelli e-mail e nei frammenti.
 
 >[!IMPORTANT]
 >
 >Non è possibile eliminare i frammenti attualmente utilizzati da e-mail o modelli e-mail.
 
-I riferimenti vengono visualizzati in base alla categoria: _E-mail_ o _Modello e-mail_. Le e-mail in Journey Optimizer B2B Edition sono incorporate e create all’interno di percorsi di account, pertanto il percorso principale dell’e-mail che utilizza il frammento viene visualizzato in riferimenti.
+I riferimenti vengono visualizzati in base alla categoria: _E-mail_ o _Modello e-mail_. Le e-mail in Journey Optimizer B2B edition sono incorporate e create all’interno di percorsi di account, pertanto il percorso principale dell’e-mail che utilizza il frammento viene visualizzato in riferimenti.
 
 ![Utilizzato dai riferimenti per il frammento](./assets/fragment-used-by-published.png){width="600" zoomable="yes"}
 
@@ -216,7 +216,7 @@ Le modifiche apportate a un frammento dipendono dal suo stato corrente:
 
 1. Se desideri aggiornare il contenuto, fai clic su **[!UICONTROL Crea versione bozza]** in alto a destra.
 
-   Fare clic su **[!UICONTROL OK]** nella finestra di dialogo per aprire la versione bozza nella finestra di progettazione visiva. Se necessario, puoi cambiare l&#39;[origine immagine](./assets-overview.md#choose-an-asset-source).
+   Fare clic su **[!UICONTROL OK]** nella finestra di dialogo per aprire la versione bozza nella finestra di progettazione visiva.
 
    ![Finestra di dialogo Crea bozza versione](./assets/fragments-create-draft-version.png){width="300"}
 
