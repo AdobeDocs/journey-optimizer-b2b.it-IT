@@ -1,7 +1,10 @@
 ---
 title: Elenchi account
 description: Scopri gli elenchi di account e come utilizzarli per eseguire il targeting degli account tramite percorsi di account.
-source-git-commit: c44721af93275297a90c6f7c0c3683ade6847658
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+hidefromtoc: true
+hide: true
+source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 0%
@@ -232,4 +235,3 @@ Ad esempio, potresti avere un percorso di percorso in cui invii un’e-mail e al
 1. Per **[!UICONTROL Selezionare l&#39;elenco di account statici attivi]**, scegliere l&#39;elenco di account in cui si desidera rimuovere gli account.
 
    ![Seleziona Aggiungi all&#39;elenco account](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
-
