@@ -2,9 +2,10 @@
 title: Ascolta un evento
 description: Scopri il tipo di nodo Ascolta per un evento che puoi utilizzare per orchestrare i percorsi di account in Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: a1247b0cdab586f2bca1c0e495d5db2069d2645b
+exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1368'
 ht-degree: 3%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 3%
 # Ascolta un evento
 
 Aggiungi il nodo _Ascolta un evento_ per spostare il pubblico al passaggio successivo nel percorso dell&#39;account quando si verifica un evento.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
 >[!NOTE]
 >
@@ -62,8 +65,8 @@ Ascolta un evento basato sulle persone quando desideri spostare l’account in a
 | | Rimosso dal gruppo di acquisto | Interesse soluzione<br/>Data di attività (facoltativo)<br/>Timeout (facoltativo) |
 | | Punteggio modificato | Nome punteggio<br/><br/>Vincoli aggiuntivi (facoltativo):<li>Cambia</li><li>Nuovo punteggio</li><li>Urgenza</li><li>Priorità</li><li>Punteggio relativo</li><li>Urgenza relativa</li><li>Data di attività</li><li>Min numero di volte</li><br/>Timeout (facoltativo) |
 | | Mancati recapiti SMS | Messaggio SMS<br/><br/>Vincoli aggiuntivi (facoltativo): <li>Data di attività</li><li>Numero minimo di volte</li><br/>Timeout (facoltativo) |
-| Marketo Engage | Pagina Web Visite | Pagina Web <br/> Selezionare una o più pagine del Marketo Engage da associare. <br/><br/>Ulteriori vincoli (facoltativi): <li>Querystring</li><li>Indirizzo IP client</li><li>Referrer</li><li>Agente utente</li><li>Motore di ricerca</li><li>Query di ricerca</li><li>Token</li><li>Browser</li><li>Piattaforma</li><li>Dispositivo</li><li>Data di attività</li> |
-| | Compila modulo | Modulo <br/> Selezionare uno o più moduli di Marketo Engage da associare.  <br/><br/>Ulteriori vincoli (facoltativi): <li>Data di attività</li><li>Querystring</li><li>Indirizzo IP client</li><li>Referrer</li><li>Agente utente</li><li>Piattaforma</li><li>Dispositivo</li><br/>Timeout (facoltativo) |
+| Marketo Engage | Pagina Web Visite | Pagina Web <br/> Selezionare una o più pagine Marketo Engage da associare. <br/><br/>Ulteriori vincoli (facoltativi): <li>Querystring</li><li>Indirizzo IP client</li><li>Referrer</li><li>Agente utente</li><li>Motore di ricerca</li><li>Query di ricerca</li><li>Token</li><li>Browser</li><li>Piattaforma</li><li>Dispositivo</li><li>Data di attività</li> |
+| | Compila modulo | Modulo <br/> Selezionare uno o più moduli Marketo Engage da associare.  <br/><br/>Ulteriori vincoli (facoltativi): <li>Data di attività</li><li>Querystring</li><li>Indirizzo IP client</li><li>Referrer</li><li>Agente utente</li><li>Piattaforma</li><li>Dispositivo</li><br/>Timeout (facoltativo) |
 | Adobe Experience Platform | Definizione dell’evento | Tipo evento <br/><br/>Vincoli aggiuntivi (facoltativo): <li>Campi</li> <br/>Vincoli aggiuntivi (non supportati): <li>Data di attività</li><li>Min numero di volte</li><br/> Timeout (facoltativo) |
 
 ### Aggiungere un evento persone
@@ -80,9 +83,9 @@ Ascolta un evento basato sulle persone quando desideri spostare l’account in a
 
 1. Fai clic su **[!UICONTROL Modifica evento]** e definisci i dettagli dell&#39;evento.
 
-### Ascolta evento di Marketo Engage
+### Ascolta evento Marketo Engage
 
-Se nell’istanza del Marketo Engage connesso sono state create pagine web, puoi attivare un evento in base a una visita o a nessuna visita alle pagine web del Marketo Engage, nonché ai moduli di Marketo Engage che non sono stati compilati.
+Se nell’istanza di Marketo Engage connessa sono state create pagine web, puoi attivare un evento in base a una visita o a nessuna visita alle pagine web di Marketo Engage, nonché ai moduli Marketo Engage che non sono stati compilati.
 
 1. Selezionare un nodo **[!UICONTROL Ascolta un evento]** nell&#39;editor di percorso.
 
@@ -99,7 +102,7 @@ Se nell’istanza del Marketo Engage connesso sono state create pagine web, puoi
 
 1. Fai clic su **[!UICONTROL Modifica evento]** e definisci una o più pagine Web da associare ed eventuali vincoli aggiuntivi per l&#39;evento.
 
-   * (Obbligatorio) Nella finestra di dialogo _[!UICONTROL Modifica evento]_, definisci il vincolo del modulo **[!UICONTROL Pagina Web]** o Compila. Utilizza **[!UICONTROL is]** (impostazione predefinita) per trovare corrispondenze in una o più pagine o moduli selezionati. Utilizza **[!UICONTROL is not]** per trovare una corrispondenza in tutte le visite/moduli di pagina, con l&#39;esclusione di una o più pagine/moduli selezionati. In alternativa, utilizza **[!UICONTROL è qualsiasi]** da trovare in qualsiasi visita della pagina Web del Marketo Engage o modulo compilato.
+   * (Obbligatorio) Nella finestra di dialogo _[!UICONTROL Modifica evento]_, definisci il vincolo del modulo **[!UICONTROL Pagina Web]** o Compila. Utilizza **[!UICONTROL is]** (impostazione predefinita) per trovare corrispondenze in una o più pagine o moduli selezionati. Utilizza **[!UICONTROL is not]** per trovare una corrispondenza in tutte le visite/moduli di pagina, con l&#39;esclusione di una o più pagine/moduli selezionati. In alternativa, utilizza **[!UICONTROL è qualsiasi]** da trovare in qualsiasi visita della pagina Web di Marketo Engage o modulo compilato.
 
    * (Facoltativo) Fare clic su **[!UICONTROL Aggiungi vincolo]** e scegliere il campo da utilizzare per il vincolo. Imposta l’operatore e il valore per il campo.
 
@@ -119,7 +122,7 @@ Gli amministratori possono configurare definizioni di eventi basate su Adobe Exp
 
 1. [Crea e pubblica una definizione di evento AEP](../admin/configure-aep-events.md).
 
-2. In un percorso di account, aggiungere un nodo _Ascolta un evento_ e selezionare una definizione di evento di Experience Platform per un evento basato su persone.
+2. In un percorso di account, aggiungi un nodo _Ascolta un evento_ e seleziona una definizione di evento Experience Platform per un evento basato su persone.
 
 _Per includere un evento esperienza nel percorso:_
 
@@ -175,5 +178,6 @@ Se necessario, definisci il tempo di attesa dell’evento da parte del percorso.
 
    ![Nodo evento Percorso - imposta percorso timeout](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
+## Video introduttivo
 
-
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

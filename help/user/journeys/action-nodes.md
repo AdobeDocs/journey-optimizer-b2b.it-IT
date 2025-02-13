@@ -2,9 +2,10 @@
 title: Esegui un'azione
 description: Scopri il tipo di nodo "Take an action" (Esegui un’azione) che puoi utilizzare per orchestrare i percorsi di account in Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: ac7d498de05a492751bc40682467c3a76d74d912
+exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1191'
 ht-degree: 0%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 0%
 # Esegui un&#39;azione
 
 Nel tuo percorso di account puoi aggiungere un nodo _[!UICONTROL Esegui un&#39;azione]_ per eseguire un&#39;azione, ad esempio inviare un&#39;e-mail, modificare un punteggio, assegnare un gruppo di acquisto e così via. Le azioni sono in genere ciò che desideri che accada come risultato di un qualche tipo di trigger, ad esempio un evento o un’azione precedente.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
 ## Azioni account
 
@@ -63,7 +66,7 @@ Utilizza un’azione sulle persone quando desideri applicare una modifica a tutt
 | | [!UICONTROL Invia SMS] | Creare un SMS |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Aggiungi all&#39;elenco] | Seleziona area di lavoro Marketo Engage<br/>Nome elenco |
 | | [!UICONTROL Aggiungi alla campagna di richiesta Marketo Engage] | Seleziona area di lavoro Marketo Engage<br/>Seleziona campagna di richiesta |
-| | [!UICONTROL Cambia partizione persone nel Marketo Engage] | Nuova partizione |
+| | [!UICONTROL Cambia partizione persone in Marketo Engage] | Nuova partizione |
 | | [!UICONTROL Rimuovi dall&#39;elenco] | Seleziona area di lavoro Marketo Engage<br/>Nome elenco |
 
 ### Aggiungere un&#39;azione basata sulle persone
@@ -138,7 +141,7 @@ Utilizzare questa azione per modificare il valore di un attributo del profilo [p
 
 +++[!UICONTROL Modifica punteggio]
 
-Utilizza questa azione per modificare il punteggio della persona nel Marketo Engage. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Utilizza questa azione per modificare il punteggio della persona in Marketo Engage. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Esegui un&#39;azione - Cambia punteggio](./assets/node-action-change-score.png){width="300"}
 
@@ -162,7 +165,7 @@ Utilizza questa azione per rimuovere i profili di persone da un [gruppo di acqui
 
 +++[!UICONTROL Invia e-mail]
 
-Utilizza questa azione per inviare un messaggio e-mail. Puoi creare, personalizzare e visualizzare in anteprima i messaggi e-mail nella finestra di progettazione visiva (vedi [Authoring di e-mail](../content/email-authoring.md)). Puoi anche inviare una [e-mail dal Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Seleziona l’area di lavoro del Marketo Engage, quindi fai clic sull’e-mail da inviare.
+Utilizza questa azione per inviare un messaggio e-mail. Puoi creare, personalizzare e visualizzare in anteprima i messaggi e-mail nella finestra di progettazione visiva (vedi [Authoring di e-mail](../content/email-authoring.md)). Puoi anche inviare un messaggio e-mail [da Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Seleziona l’area di lavoro di Marketo Engage, quindi fai clic sull’e-mail da inviare.
 
 ![Azione - Invia e-mail](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -178,13 +181,13 @@ Utilizza questa azione per inviare un messaggio SMS. Puoi creare, personalizzare
 
 ### Azioni Marketo Engage
 
-Le attività di marketing basate sul personale del Marketo Engage sono progettate per coordinare l’orchestrazione marketing basata sull’account in Journey Optimizer B2B edition con le attività di marketing basate sui lead in Marketo Engage. Utilizza queste azioni per orchestrare l’appartenenza a un elenco, le partizioni delle persone e le campagne di richiesta.
+Le soluzioni Marketo Engage basate sulle persone sono progettate per coordinare l’orchestrazione marketing basata sull’account in Journey Optimizer B2B edition con le attività di marketing basate sui lead in Marketo Engage. Utilizza queste azioni per orchestrare l’appartenenza a un elenco, le partizioni delle persone e le campagne di richiesta.
 
 +++[!UICONTROL Aggiungi all&#39;elenco]
 
-Utilizzare questa azione per rimuovere persone da un [elenco avanzato](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} nel Marketo Engage.
+Utilizzare questa azione per rimuovere persone da un [elenco avanzato](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} in Marketo Engage.
 
-Selezionare innanzitutto l&#39;area di lavoro nell&#39;istanza del Marketo Engage connesso. Quindi, selezionare il nome dell&#39;elenco.
+Selezionare innanzitutto l&#39;area di lavoro nell&#39;istanza di Marketo Engage connessa. Quindi, selezionare il nome dell&#39;elenco.
 
 ![Esegui un&#39;azione - Aggiungi all&#39;elenco](./assets/node-action-add-to-list-options.png){width="300"}
 
@@ -192,28 +195,32 @@ Selezionare innanzitutto l&#39;area di lavoro nell&#39;istanza del Marketo Engag
 
 +++[!UICONTROL Aggiungi alla campagna di richiesta Marketo]
 
-Utilizza questa azione per aggiungere profili di persone a una [campagna di richieste](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} nel Marketo Engage.
+Utilizzare questa azione per aggiungere profili persone a una [campagna di richiesta](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in Marketo Engage.
 
-Selezionare innanzitutto l&#39;area di lavoro nell&#39;istanza del Marketo Engage connesso. Quindi, seleziona il nome della campagna di richiesta.
+Selezionare innanzitutto l&#39;area di lavoro nell&#39;istanza di Marketo Engage connessa. Quindi, seleziona il nome della campagna di richiesta.
 
 ![Azione - Aggiungi alla campagna di richiesta Marketo](./assets/node-action-add-to-request-campaign-options.png){width="300"}
 
 +++
 
-+++[!UICONTROL Cambia partizione persone nel Marketo Engage]
++++[!UICONTROL Cambia partizione persone in Marketo Engage]
 
-Utilizzare questa azione per modificare la partizione [persona](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} nel Marketo Engage.
+Utilizzare questa azione per modificare la partizione [persona](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} in Marketo Engage.
 
-![Azione - Cambia la partizione delle persone nel Marketo Engage](./assets/node-action-change-people-partition-options.png){width="300"}
+![Azione - Cambia partizione persone in Marketo Engage](./assets/node-action-change-people-partition-options.png){width="300"}
 
 +++
 
 +++[!UICONTROL Rimuovi dall&#39;elenco]
 
-Utilizzare questa azione per rimuovere persone da un [elenco avanzato](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} nel Marketo Engage. Selezionare innanzitutto l&#39;area di lavoro nell&#39;istanza del Marketo Engage connesso. Quindi, selezionare il nome dell&#39;elenco.
+Utilizzare questa azione per rimuovere persone da un [elenco avanzato](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} in Marketo Engage. Selezionare innanzitutto l&#39;area di lavoro nell&#39;istanza di Marketo Engage connessa. Quindi, selezionare il nome dell&#39;elenco.
 
 ![Esegui un&#39;azione - Rimuovi dall&#39;elenco](./assets/node-action-remove-from-list-options.png){width="300"}
 
 Se il profilo della persona non era un membro dell’elenco smart, l’azione viene ignorata.
 
 +++
+
+## Video introduttivo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)

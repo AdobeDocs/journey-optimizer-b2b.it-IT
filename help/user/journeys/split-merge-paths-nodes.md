@@ -2,9 +2,10 @@
 title: Dividi e unisci percorsi
 description: Scopri i tipi di nodo percorsi suddivisi e di unione che puoi utilizzare per orchestrare i percorsi di account in Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: af6e89b25ca20e14ec9a4c2ed4c8d632ad7c12dc
+exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1519'
 ht-degree: 2%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 2%
 # Dividere e unire i percorsi
 
 Utilizza i nodi del percorso di unione e divisione nel percorso di account per orchestrare i percorsi di account. Per procedere, puoi segmentare il pubblico in base alle condizioni che hai definito e combinare i segmenti.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
 ## Dividere i percorsi
 
@@ -54,7 +57,7 @@ _Come funziona un percorso diviso per nodo persone?_
 | | [!UICONTROL Cronologia attività] > [!UICONTROL Valore dati modificato] | Per un attributo persona selezionato, si è verificata una modifica del valore. Questi tipi di modifica includono: <li>Nuovo valore</li><li>Valore precedente</li><li>Motivo</li><li>Origine</li><li>Data di attività</li><li>Min numero di volte</li> |
 | | [!UICONTROL Cronologia attività] > [!UICONTROL Momento di interesse] | L’attività del momento di interesse definita nell’istanza di Marketo Engage associata. I vincoli includono: <li>Milestone</li><li>E-mail</li><li>Web</li> |
 | | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>Ruolo</li> |
-| | [!UICONTROL Filtri speciali] > [!UICONTROL Membro dell&#39;elenco] | La persona è o non è membro di uno o più elenchi di Marketi Engage. |
+| | [!UICONTROL Filtri speciali] > [!UICONTROL Membro dell&#39;elenco] | La persona è o non è membro di uno o più elenchi Marketo Engage. |
 | [Persone](#add-a-split-path-by-people-node) > [!UICONTROL Solo attributi account-persona] | Ruolo negli attributi dell’account | Alla persona è o non è assegnata una mansione nell’account. Vincoli facoltativi: <li>Immetti un nome di ruolo</li> |
 
 ### Aggiungere un percorso di suddivisione per nodo account
@@ -122,7 +125,7 @@ _Come funziona un percorso diviso per nodo persone?_
 
      >[!NOTE]
      >
-     >Se nello schema di pubblico dell’account di Experience Platform sono definiti campi persona personalizzati, questi campi sono disponibili anche per l’utilizzo come attributi persona in determinate condizioni.
+     >Se hai dei campi persona personalizzati definiti nello schema del pubblico dell’account in Experience Platform, questi campi sono disponibili per l’utilizzo come attributi persona in determinate condizioni.
 
    * Ottimizza le condizioni applicando la **[!UICONTROL logica filtro]** nella parte superiore. Scegli di soddisfare tutte le condizioni dell’attributo o qualsiasi condizione.
 
@@ -144,13 +147,13 @@ _Come funziona un percorso diviso per nodo persone?_
 
 1. Abilita l&#39;opzione **[!UICONTROL Altre persone]** per aggiungere un percorso predefinito per le persone che non corrispondono ai percorsi definiti. In caso contrario, il percorso finisce per queste persone.
 
->[!BEGINSHADEBOX &quot;Appartenenza a elenco Marketi Engage&quot;]
+>[!BEGINSHADEBOX &quot;Appartenenza all&#39;elenco Marketo Engage&quot;]
 
-In Marketo Engage, _Campagne avanzate_ verifica l&#39;appartenenza ai programmi per assicurarsi che i lead non ricevano e-mail duplicate e non siano membri di più flussi di e-mail contemporaneamente. In Journey Optimizer B2B, puoi verificare l’appartenenza a un elenco di Marketi Engage come condizione per il percorso di suddivisione da parte delle persone, in modo da evitare duplicazioni nelle attività di percorso.
+In Marketo Engage, _Campagne avanzate_ verifica l&#39;appartenenza ai programmi per assicurarsi che i lead non ricevano e-mail duplicate e non siano membri di più flussi di e-mail contemporaneamente. In Journey Optimizer B2B, puoi verificare che l’iscrizione all’elenco Marketo Engage sia una condizione per il percorso di suddivisione da parte delle persone, in modo da eliminare la duplicazione nelle attività di percorso.
 
-Per eseguire questa operazione, espandere **[!UICONTROL Filtri speciali]** e trascinare la condizione **[!UICONTROL Membro dell&#39;elenco]** nello spazio dei filtri e completare la definizione del filtro per valutare l&#39;appartenenza a uno o più elenchi di Marketi Engage.
+Per eseguire questa operazione, espandere **[!UICONTROL Filtri speciali]** e trascinare la condizione **[!UICONTROL Membro dell&#39;elenco]** nello spazio dei filtri e completare la definizione del filtro per valutare l&#39;appartenenza a uno o più elenchi Marketo Engage.
 
-![Condizione Dividi percorso per persone per appartenenza all&#39;elenco Marketi Engage](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
+![Condizione Dividi percorso in base alle persone per l&#39;iscrizione all&#39;elenco Marketo Engage](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -185,3 +188,7 @@ Aggiungi un nodo _Unisci percorsi_ per combinare diversi percorsi suddivisi per 
    A questo punto, i percorsi vengono uniti in modo che gli account dei percorsi selezionati si combinino in un unico percorso che può continuare a progredire attraverso il percorso.
 
 1. Se necessario, puoi annullare l’unione dei percorsi tornando alle proprietà del nodo percorsi unione e deselezionando la casella di controllo per tutti i percorsi che desideri rimuovere.
+
+## Video introduttivo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

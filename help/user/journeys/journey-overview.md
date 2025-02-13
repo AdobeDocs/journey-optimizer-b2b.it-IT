@@ -3,10 +3,10 @@ title: Percorsi account
 description: Scopri come creare e gestire i percorsi di account.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 1%
+source-wordcount: '575'
+ht-degree: 2%
 
 ---
 
@@ -16,6 +16,8 @@ ht-degree: 1%
 Crea ed esegui percorsi personalizzati per ogni gruppo di acquisto e membro del gruppo di acquisto utilizzando il coinvolgimento automatico per e-mail, SMS, eventi e altro ancora. Con i percorsi di account è possibile semplificare la generazione della domanda e la qualificazione dei gruppi di acquisto e aumentare la domanda qualificata per i programmi di acquisizione, upselling/cross-selling e fidelizzazione.
 
 Definisci un coinvolgimento basato sulle vendite che includa e-mail, SMS e altri percorsi di account interni per coordinare le attività di marketing in entrata con le attività di vendita in uscita per ciascun membro del gruppo di acquisto.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
 ## Accedere e sfogliare i percorsi di account
 
@@ -56,7 +58,7 @@ L’intestazione dell’editor di ciascun percorso di account include:
 
 Nell’intestazione sono disponibili le seguenti azioni:
 
-* **Publish** - È possibile pubblicare un percorso se non sono presenti errori di blocco. Quando viene pubblicato, lo stato del percorso cambia in _Live_. Se il percorso presenta errori, il pulsante viene oscurato con le informazioni sul contenuto: `Resolve errors before publishing`.
+* **Pubblicazione** - È possibile pubblicare un percorso se non sono presenti errori di blocco. Quando viene pubblicato, lo stato del percorso cambia in _Live_. Se il percorso presenta errori, il pulsante viene oscurato con le informazioni sul contenuto: `Resolve errors before publishing`.
 * **Duplicato** - Questa azione è simile a una funzione clone, ma il percorso duplicato non include risorse.
 * **Chiudi alle nuove voci** - Se chiudi un percorso, gli account attualmente nel percorso continuano il loro percorso nel percorso e non può verificarsi alcun ulteriore ingresso nel percorso. Impossibile riavviare un percorso chiuso. È possibile duplicare un percorso chiuso.
 * **Interrompi** - Se interrompi un percorso, gli account nel percorso interrompono immediatamente l&#39;avanzamento e non può verificarsi un ulteriore ingresso nel percorso. Impossibile riavviare un percorso arrestato. Se blocchi i nuovi ingressi senza fermare l&#39;avanzamento delle persone, puoi decidere di chiudere il percorso.
@@ -74,100 +76,12 @@ Lo stato di un Percorso cambia in base alle azioni applicate. In base allo stato
 
 ## Introduzione a un percorso
 
-Per iniziare a utilizzare un percorso di account, crea il percorso e quindi costruisci i nodi e il flusso del percorso nell’editor di percorso.
+Per iniziare a usare i percorsi di account:
 
-### Creazione di un percorso di account
+1. [Crea un percorso](./create-publish-journey.md#create-an-account-journey).
+1. [Aggiungi i nodi](./create-publish-journey.md#add-a-node) e [definisci il flusso di percorso](./create-publish-journey.md#add-and-delete-a-path) nella mappa del percorso.
+1. [Pubblica il percorso](./create-publish-journey.md#publish-an-account-journey).
 
-1. Nel menu di navigazione a sinistra, fai clic su **[!UICONTROL percorsi di account]**.
+## Video introduttivo
 
-1. Fai clic su **[!UICONTROL Crea Percorso di account]** in alto a destra nella pagina.
-
-1. Nella finestra di dialogo, immetti un **[!UICONTROL Nome]** (obbligatorio) e una **[!UICONTROL Descrizione]** (facoltativo) univoci.
-
-   ![Finestra di dialogo Crea Percorso di account](./assets/account-journey-create-dialog.png){width="400"}
-
-1. Fai clic su **[!UICONTROL Crea]**.
-
-### Elementi di base di un percorso
-
-La mappa del percorso __ è la zona centrale nella finestra di progettazione del percorso. È in questa zona che puoi aggiungere nodi di percorso e configurarli. Fai clic su un nodo per aprire il relativo riquadro delle proprietà a destra dell’area di lavoro e impostarlo in base alla progettazione. Un percorso di account inizia sempre con un [nodo Pubblico account](./account-audience-nodes.md) in cui puoi aggiungere input al percorso.
-
-Dopo aver creato un percorso di account e aver aggiunto il pubblico, crea il percorso utilizzando i nodi. La mappa del percorso fornisce un’area di lavoro in cui puoi creare casi di utilizzo del marketing B2B a più passaggi utilizzando i seguenti tipi di nodo per creare un percorso di account:
-
-* [Esegui un&#39;azione](./action-nodes.md)
-* [Ascolta un evento](./listen-for-event-nodes.md)
-* [Dividere i percorsi](./split-merge-paths-nodes.md)
-* [Attendere](./wait-nodes.md)
-* [Unisci percorsi](./split-merge-paths-nodes.md)
-
-### Guardrail
-
-Per facilitare la creazione di un percorso senza che si verifichino errori, sono presenti le seguenti barre di protezione:
-
-* _Eliminazione di un nodo di percorso suddiviso_: non è possibile eliminare un nodo senza eliminare tutti i nodi successivi in ciascun percorso.
-* _Eliminazione di un nodo di unione_: un nodo di unione può essere eliminato solo quando vi è un percorso connesso. Per eliminare un nodo di unione, lasciare selezionato un solo percorso.
-* _Passaggio tra account e persone_: non è possibile modificare la selezione da account a persone senza eliminare tutti i nodi successivi in ogni percorso.
-
-### Aggiungi un nodo
-
-1. Passa all’editor di percorso.
-
-1. Fai clic sull&#39;icona più ( **+** ) sul percorso e seleziona il tipo di nodo.
-
-1. Imposta le proprietà del nodo a destra.
-
-### Eliminare un nodo
-
-1. Passa all’editor di percorso.
-
-1. Nelle proprietà del nodo a destra, fai clic sull&#39;icona _Elimina_ ( ![Elimina icona](../assets/do-not-localize/icon-delete.svg) ).
-
-1. Nella finestra di dialogo di conformazione, fare clic su **[!UICONTROL Elimina]**.
-
-### Aggiungere ed eliminare un percorso
-
-1. Passa all’editor di percorso.
-
-1. Fai clic sull&#39;icona più ( **+** ) sul percorso e aggiungi il [nodo percorso diviso](./split-merge-paths-nodes.md#split-paths).
-
-1. Nelle proprietà del nodo a destra, seleziona **[!UICONTROL Account]**.
-
-1. Per aggiungere altri percorsi, fare clic su **[!UICONTROL Aggiungi percorso]**.
-
-   Per ogni percorso creato nel percorso, nelle proprietà viene visualizzata una nuova scheda percorso.
-
-1. Passa a uno dei percorsi nel percorso e aggiungi i nodi [action](./action-nodes.md) o [event](./listen-for-event-nodes.md) a questo percorso utilizzando l&#39;icona più.
-
-1. Seleziona il nodo [split path](./split-merge-paths-nodes.md) per aprire le proprietà a destra.
-
-   Impossibile eliminare i percorsi con nodi.
-
-1. Per eliminare questi percorsi, è necessario eliminare prima tutti i nodi del percorso.
-
-### Pianificare un percorso
-
-Quando pubblichi un percorso, può iniziare immediatamente o in una data futura pianificata. La data di fine può essere un massimo di tre anni dalla data di inizio. Dopo la pubblicazione di un percorso (_Stato Live_), puoi aggiornare la data di fine del percorso ma non la data di inizio.
-
-1. Passa all’editor di percorso.
-
-1. Pianifica il percorso facendo clic su [!UICONTROL Impostazioni Percorso] nell&#39;intestazione.
-
-1. Nella finestra di dialogo, imposta le opzioni di pianificazione:
-
-   * Scegli un tipo di pianificazione.
-
-     Per attivare il percorso in fase di pubblicazione, scegliere **[!UICONTROL Immediatamente]**.
-
-     Per attivare il percorso in una data futura, scegli **[!UICONTROL In una data specifica]** e fai clic sull&#39;icona _Calendario_ per selezionare la data.
-
-     ![Finestra di dialogo impostazioni Percorso](./assets/account-journey-settings-dialog.png){width="400" zoomable="no"}
-
-   * Specifica la **[!UICONTROL data di fine]** per il percorso. Può essere fino a tre anni dalla data di inizio (questo campo è obbligatorio).
-
-1. Fai clic su **[!UICONTROL Salva]**.
-
-   Quando sei pronto a pubblicare il tuo percorso, puoi rivedere queste impostazioni facendo clic su _[!UICONTROL Publish]_.
-
-### Publish un percorso di account
-
-
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

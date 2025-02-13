@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentazione su Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando l’intelligenza artificiale generativa incorporata e l’automazione leader del settore.
-source-git-commit: 04656fde343ac613e98608ff6b68ddac38ec9a6d
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 35%
+source-wordcount: '226'
+ht-degree: 34%
 
 ---
 
@@ -21,14 +21,15 @@ ht-degree: 35%
    + [Utilizza l’Assistente AI](./start/ai-assistant.md)
 + Percorsi di account {#account-journeys}
    + [Panoramica](./journeys/journey-overview.md)
-   + [Dettagli percorso](./journeys/journey-details.md)
-   + [nodo percorso](./journeys/journey-nodes.md)
+   + [Creazione e pubblicazione di un percorso](./journeys/create-publish-journey.md)
+   + [Nodi percorso](./journeys/journey-nodes.md)
    + Nodi percorso {#journey-nodes}
       + [Pubblico dell’account](./journeys/account-audience-nodes.md)
       + [Esegui un&#39;azione](./journeys/action-nodes.md)
       + [Ascolta un evento](./journeys/listen-for-event-nodes.md)
       + [Dividere e unire i percorsi](./journeys/split-merge-paths-nodes.md)
       + [Attendere](./journeys/wait-nodes.md)
+   + [Dettagli percorso](./journeys/journey-details.md)
 + Contenuto percorso {#journey-content}
    + Canale e-mail {#email-channel}
       + [Authoring di e-mail](./content/email-authoring.md)
