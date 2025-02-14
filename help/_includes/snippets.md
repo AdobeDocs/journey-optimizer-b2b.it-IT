@@ -1,9 +1,9 @@
 ---
 title: Snippet
 description: Riutilizzo di note ed elementi visivi per annotare una funzione o una pagina applicata a una specifica edizione
-source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,10 @@ ht-degree: 0%
 ## Configurazione dati intento {#intent-data-note}
 
 >[!NOTE]
->I dati intento possono essere inclusi anche nella pagina quando questa è configurata per l’istanza Journey Optimizer B2B edition. Per ulteriori informazioni sul modello di rilevamento intento e su come inviare parole chiave, vedere [Dati intento](../user/admin/intent-data.md).
 >
+>I dati intento vengono inclusi nella pagina quando questa è configurata per l’istanza di Journey Optimizer B2B edition. Per ulteriori informazioni sul modello di rilevamento intento e su come inviare parole chiave, prodotti e categorie, vedere [Dati intento](../user/admin/intent-data.md).
 
-## Nota sulla licenza di AEM assets {#aem-assets-licensing-note}
+## Note sulla licenza di AEM assets {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    Per ulteriori informazioni sull&#39;utilizzo delle risorse del tipo di origine, vedere [Aggiungere risorse al contenuto](../user/content/assets-overview.md#use-assets-for-content-authoring).
 
-   ![Trascina una risorsa di Marketo Engage nell&#39;area di lavoro e regola le impostazioni](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
+   ![Trascina una risorsa Marketo Engage nell&#39;area di lavoro e regola le impostazioni](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
 
 ## Authoring dei contenuti - passaggio di personalizzazione {#personalization-step}
 

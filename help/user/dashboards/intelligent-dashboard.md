@@ -3,10 +3,10 @@ title: Dashboard intelligente
 description: Scopri Intelligent Dashboard, che fornisce una panoramica completa delle metriche relative ai gruppi di acquisto e agli account
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 74561c07ea8cc3a717f1e0f25a3c4326cb14ee36
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 15%
+source-wordcount: '1568'
+ht-degree: 11%
 
 ---
 
@@ -30,13 +30,17 @@ La dashboard intelligente fornisce inoltre accesso alle pagine dei dettagli dell
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Fasi del gruppo di acquisto"
->abstract="Questo grafico fornisce una panoramica della progressione del gruppo di acquisto in diverse fasi in base alle regole di transizione configurate. La prima barra indica il numero di gruppi di acquisto in una fase specifica nella prima data dell’intervallo di tempo scelto, confrontato col numero di gruppi di acquisto nell’ultima data dell’intervallo di tempo scelto."
+>abstract="Questo grafico fornisce una panoramica della progressione del gruppo di acquisto in diverse fasi in base alle regole di transizione configurate. La prima barra indica il numero di gruppi di acquisto in una fase specifica alla prima data dell’intervallo di tempo selezionato rispetto all’ultima data dell’intervallo selezionato."
 
 Il grafico _[!UICONTROL Fasi gruppo acquisti]_ fornisce una panoramica della progressione del gruppo acquisti in diverse fasi ([in base alle regole di transizione impostate da un amministratore](../buying-groups/buying-group-stages.md)).
 
+>[!NOTE]
+>
+>La disponibilità delle fasi del gruppo di acquisto richiede la configurazione delle fasi del gruppo di acquisto. Per informazioni dettagliate sulle fasi e su come definire e abilitare le fasi per i gruppi di acquisto, vedere [Fasi del gruppo di acquisto](../buying-groups/buying-group-stages.md).
+
 ![Visualizzazione dei dati delle fasi del gruppo di acquisto](./assets/intelligent-dashboards-buying-group-stages.png){width="800" zoomable="yes"}
 
-Il grafico utilizza le fasi del gruppo di acquisto della versione più recente pubblicata del modello delle fasi del gruppo di acquisto. Ogni stadio è rappresentato da due barre. La prima barra indica il numero di gruppi di acquisto nella prima data dell’intervallo di tempo selezionato. E il secondo (in confronto) è il numero di gruppi di acquisto nell&#39;ultima data dell&#39;intervallo di tempo. Puoi passare il cursore sopra ogni barra per visualizzare il numero di gruppi di acquisto in ogni fase.
+Il grafico utilizza le fasi del gruppo di acquisto della versione più recente pubblicata del modello delle fasi del gruppo di acquisto. Ci sono due barre per ogni stadio. La prima barra indica il numero di gruppi di acquisto nella prima data dell’intervallo di tempo selezionato. E il secondo (in confronto) è il numero di gruppi di acquisto nell&#39;ultima data dell&#39;intervallo di tempo. Puoi passare il cursore sopra ogni barra per visualizzare il numero di gruppi di acquisto in ogni fase.
 
 ![Passa il cursore del mouse sulla barra per visualizzare i numeri dettagliati](./assets/intelligent-dashboard-buying-group-stages-hover-bar.png){width="400"}
 
@@ -50,7 +54,7 @@ Il riepilogo generato fornisce una panoramica della progressione del gruppo di a
 
 ### Periodo temporale {#time-period-stages}
 
-Utilizza il filtro delle date in alto a destra per modificare l’intervallo di date per le visualizzazioni dati. Fai clic sulla freccia giù per impostare un intervallo di date relativo o per impostare date di inizio e fine personalizzate.
+Utilizza il filtro delle date in alto a destra per modificare l’intervallo di date per le visualizzazioni dati. Fai clic sulla freccia rivolta verso il basso per impostare un intervallo di date relativo o per impostare date di inizio e fine personalizzate.
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -104,6 +108,8 @@ Ogni scheda include i dati seguenti:
    * I dati di ogni riga sono organizzati in colonne: il nome del prodotto, la forza di intento del prodotto e le parole chiave principali in base alla forza di intento.
    * L&#39;ordinamento è da alto a basso per categoria, prodotto e parole chiave. Se uno o più tipi hanno lo stesso livello di intensità di intento, l&#39;ordinamento utilizza l&#39;ordine alfabetico.
 
+  {{intent-data-note}}
+
 Nella parte superiore destra del pannello _Elementi di rilievo del gruppo acquisti_, fai clic su **[!UICONTROL Visualizza tutto]** per passare alla pagina dell&#39;elenco dei gruppi acquisti.
 
 ### Filtro attributi {#attribute-filter-bg-highlights}
@@ -118,7 +124,7 @@ Fai clic sull&#39;icona _Filtro_ ( ![Icona Modifica](../assets/do-not-localize/i
 
 ### Periodo temporale {#time-period-bg-highlights}
 
-Utilizza il filtro delle date in alto a destra per modificare l’intervallo di date per le visualizzazioni dati. Fai clic sulla freccia giù per impostare un intervallo di date relativo o per impostare date di inizio e fine personalizzate.
+Utilizza il filtro delle date in alto a destra per modificare l’intervallo di date per le visualizzazioni dati. Fai clic sulla freccia rivolta verso il basso per impostare un intervallo di date relativo o per impostare date di inizio e fine personalizzate.
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -130,6 +136,10 @@ Utilizza il filtro delle date in alto a destra per modificare l’intervallo di 
 >abstract="Account con un cambiamento significativo nella dinamica del coinvolgimento all’interno dell’intervallo di tempo selezionato."
 
 La sezione _[!UICONTROL Account chirurgici]_ visualizza una visualizzazione degli account con un cambiamento significativo nello slancio del coinvolgimento entro l&#39;intervallo di tempo selezionato.
+
+>[!NOTE]
+>
+>I dati sull’aumento degli account sono limitati agli account che sono stati acquisiti da Journey Optimizer B2B edition in un pubblico di account tramite percorsi di account o gruppi di acquisto.
 
 ![Visualizzazione dati sovraccarico account](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -153,7 +163,7 @@ Fai clic sull&#39;icona _Filtro_ ( ![Icona Modifica](../assets/do-not-localize/i
 
 ### Periodo temporale {#time-period-acct-surge}
 
-Utilizza il filtro delle date in alto a destra per modificare l’intervallo di date per le visualizzazioni dati. Fai clic sulla freccia giù per impostare un intervallo di date relativo o per impostare date di inizio e fine personalizzate.
+Utilizza il filtro delle date in alto a destra per modificare l’intervallo di date per le visualizzazioni dati. Fai clic sulla freccia rivolta verso il basso per impostare un intervallo di date relativo o per impostare date di inizio e fine personalizzate.
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -171,6 +181,10 @@ Utilizza il filtro delle date in alto a destra per modificare l’intervallo di 
 
 La sezione _[!UICONTROL Caratteristiche principali del gruppo di acquisto]_ è organizzata in due righe per ottenere informazioni sugli account di interesse per l&#39;organizzazione.
 
+>[!NOTE]
+>
+>I dati di evidenziazione account sono limitati agli account acquisiti da Journey Optimizer B2B edition in un pubblico di account tramite percorsi di account o gruppi di acquisto.
+
 ![Elementi di rilievo dell&#39;account](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
 * **Interventi chirurgici** - In questa riga vengono visualizzati gli account con un aumento significativo dello slancio del coinvolgimento nell&#39;intervallo di tempo selezionato.
@@ -187,6 +201,8 @@ Ogni scheda include i dati seguenti:
    * Nel menu a comparsa dei dettagli viene visualizzato il nome della categoria con il livello di intento nella parte superiore.
    * I dati di ogni riga sono organizzati in colonne: il nome del prodotto, la forza di intento del prodotto e le parole chiave principali in base alla forza di intento.
    * L&#39;ordinamento è da alto a basso per categoria, prodotto e parole chiave. Se uno o più tipi hanno lo stesso livello di intensità di intento, l&#39;ordinamento utilizza l&#39;ordine alfabetico.
+
+  {{intent-data-note}}
 <!-- 
 At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page. -->
 
@@ -201,7 +217,7 @@ Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/ico
 
 ### Periodo temporale {#time-period-acct-highlights}
 
-Utilizza il filtro delle date in alto a destra per modificare l’intervallo di date per le visualizzazioni dati. Fai clic sulla freccia giù per impostare un intervallo di date relativo o per impostare date di inizio e fine personalizzate.
+Utilizza il filtro delle date in alto a destra per modificare l’intervallo di date per le visualizzazioni dati. Fai clic sulla freccia rivolta verso il basso per impostare un intervallo di date relativo o per impostare date di inizio e fine personalizzate.
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -213,6 +229,10 @@ Utilizza il filtro delle date in alto a destra per modificare l’intervallo di 
 >abstract="Visualizza il numero di contatti con un ruolo specifico associato a un interesse di soluzione. L’assegnazione del ruolo e dell’interesse di soluzione è basata sul modello del gruppo acquisti."
 
 La sezione _[!UICONTROL Copertura dei contatti]_ visualizza una visualizzazione del numero di contatti con un ruolo specifico associato a un interesse della soluzione. L’assegnazione del ruolo e dell’interesse di soluzione è basata sul modello del gruppo acquisti.
+
+>[!NOTE]
+>
+>I dati di copertura dei contatti si basano sui gruppi di acquisto creati nell’istanza di Journey Optimizer B2B edition.
 
 ![Visualizzazione dati sovraccarico account](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
 
@@ -241,6 +261,10 @@ Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/ico
 >abstract="Elenco di contatti che fanno parte di più gruppi di acquisto in quanto associati a più interessi per la soluzione."
 
 Nella sezione _[!UICONTROL Sovrapposizione contatti]_ viene visualizzato un elenco di contatti che fanno parte di più gruppi di acquisto in quanto associati a più interessi della soluzione.
+
+>[!NOTE]
+>
+>I dati di sovrapposizione dei contatti si basano sui gruppi di acquisto creati nell’istanza di Journey Optimizer B2B edition.
 
 ![Tabella di sovrapposizione contatti](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
 
