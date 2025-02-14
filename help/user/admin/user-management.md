@@ -4,9 +4,9 @@ description: Scopri come assegnare i membri del gruppo ai profili di prodotto di
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
+source-git-commit: d5197e740a17de507bf72b4d7b64deb5af672346
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1351'
 ht-degree: 1%
 
 ---
@@ -15,24 +15,24 @@ ht-degree: 1%
 
 Dopo aver completato il provisioning e aver associato le sandbox, completa i passaggi seguenti per fornire al team e agli utenti l’accesso a Adobe Journey Optimizer B2B edition.
 
-1. [Creare un profilo di prodotto di Marketo Engage](#marketo-engage-profile) nell&#39;Admin Console (solo nuova istanza di Marketo Engage).
-1. [Creare un gruppo di utenti](#create-user-group) nell&#39;Admin Console.
+1. [Crea un profilo di prodotto Marketo Engage](#marketo-engage-profile) in Admin Console (solo nuova istanza Marketo Engage).
+1. [Crea un gruppo utenti](#create-user-group) in Admin Console.
 1. [Modifica ruoli predefiniti](#edit-roles) o [crea un ruolo personalizzato](#create-a-custom-role) con autorizzazioni Journey Optimizer B2B edition.
 1. [Aggiungi utenti](#add-users) o [gruppi](#add-user-groups-to-a-role) ai ruoli.
 
-In qualità di amministratore, puoi completare queste attività in Adobe Admin Console, che è una posizione centrale per amministrare e gestire le licenze e gli utenti dei prodotti Adobe. Nell’Admin Console, puoi creare e gestire gli utenti in un’unica posizione invece che all’interno delle varie soluzioni individuali. Per ulteriori informazioni sulle funzioni e le funzionalità della pagina [Panoramica dell&#39;Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html), fare riferimento a.
+In qualità di amministratore, puoi completare queste attività in Adobe Admin Console, che è una posizione centrale per amministrare e gestire le licenze e gli utenti dei prodotti Adobe. In Admin Console, puoi creare e gestire gli utenti in un’unica posizione invece che all’interno delle varie soluzioni individuali. Per ulteriori informazioni sulle funzioni e le funzionalità della pagina [Panoramica di Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html), fai riferimento a.
 
-## Accedere all’Admin Console
+## Accedere ad Admin Console
 
-Prima di poter utilizzare l’Admin Console per amministrare gli utenti del team, è necessario assicurarsi di poter accedere all’Admin Console e di disporre delle autorizzazioni appropriate.
+Prima di poter utilizzare Admin Console per amministrare gli utenti del team, è necessario assicurarsi di poter accedere ad Admin Console e di disporre delle autorizzazioni appropriate.
 
 1. In qualità di amministratore di sistema, come parte del processo di onboarding dovresti ricevere più e-mail da Adobe.
 
    Cerca l’e-mail di benvenuto con le informazioni sul nome dell’organizzazione a cui hai accesso.
 
-1. Fai clic sul collegamento **[!UICONTROL Inizia]** nell&#39;e-mail di benvenuto per passare all&#39;Admin Console.
+1. Per accedere a Admin Console, fai clic sul collegamento **[!UICONTROL Inizia]** nell&#39;e-mail di benvenuto.
 
-   Se non riesci a trovare l&#39;e-mail, apri un browser per accedere direttamente all&#39;Admin Console all&#39;indirizzo [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
+   Se non riesci a trovare l&#39;e-mail, apri un browser per accedere direttamente a Admin Console all&#39;indirizzo [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Accedi con il tuo Adobe ID.
 
@@ -44,7 +44,7 @@ Prima di poter utilizzare l’Admin Console per amministrare gli utenti del team
 
 1. Seleziona **[!UICONTROL Amministratori]** dalla scheda _[!UICONTROL Utenti]_ per verificare di essere un amministratore di sistema.
 
-   ![Panoramica Admin Console - fare clic su Amministratori](./assets/admin-console-overview-administrators.png){width="700" zoomable="yes"}
+   ![Panoramica di Admin Console - fai clic su Amministratori](./assets/admin-console-overview-administrators.png){width="700" zoomable="yes"}
 
 1. Effettua la ricerca immettendo e-mail, nome utente, nome o cognome Adobe ID.
 
@@ -54,7 +54,7 @@ Prima di poter utilizzare l’Admin Console per amministrare gli utenti del team
 
 ## Creare il profilo di prodotto Marketo Engage {#marketo-engage-profile}
 
-Quando consenti l’accesso a una soluzione Adobe agli utenti, non devi necessariamente concedere loro l’accesso completo. I profili di prodotto consentono a ciascuna soluzione di disporre di un proprio set di autorizzazioni utente. Utilizza l’Admin Console per assegnare profili di prodotto.
+Quando consenti l’accesso a una soluzione Adobe agli utenti, non devi necessariamente concedere loro l’accesso completo. I profili di prodotto consentono a ciascuna soluzione di disporre di un proprio set di autorizzazioni utente. Utilizza Admin Console per assegnare i profili di prodotto.
 
 Per ulteriori informazioni sull&#39;utilizzo dei profili di prodotto per i diritti utente, consulta [Gestire i profili di prodotto per gli utenti aziendali](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html){target="_blank"} nella documentazione di Admin Console.
 <!--
@@ -66,15 +66,13 @@ For more information about managing these permissions within Marketo Engage, see
 
 >[!ENDSHADEBOX]-->
 
->[!NOTE]
->
->Un amministratore di Admin Console o un amministratore di prodotto di Marketo Engage può eseguire questi passaggi.
+![Requisiti del ruolo di amministratore](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema o un amministratore di prodotto Marketo Engage può eseguire i seguenti passaggi.
 
 1. Accedi a [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Selezionare la scheda **[!UICONTROL Prodotti]**.
 
-1. Aprire l&#39;istanza di Marketo Engage in cui si desidera aggiungere il profilo e fare clic su **[!UICONTROL Nuovo profilo]**.
+1. Apri l&#39;istanza di Marketo Engage in cui desideri aggiungere il profilo e fai clic su **[!UICONTROL Nuovo profilo]**.
 
    ![Admin Console - Istanza Marketo Engage - Nuovo profilo](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
 
@@ -88,9 +86,7 @@ Un gruppo di utenti è una raccolta di utenti a cui viene concesso un set condiv
 
 Per ulteriori informazioni sulle modalità di utilizzo dei gruppi di utenti per gestire le autorizzazioni, vedi [Gestione dei gruppi di utenti](https://helpx.adobe.com/it/enterprise/using/user-groups.html){target="_blank"} nella documentazione di Admin Console.
 
->[!NOTE]
->
->Un amministratore di Admin Console può eseguire questi passaggi.
+![Requisiti del ruolo di amministratore](../../assets/do-not-localize/icon-admin-user.svg){width="30"} L&#39;amministratore di sistema può eseguire i seguenti passaggi.
 
 1. Accedi a [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
@@ -119,11 +115,9 @@ Per ulteriori informazioni sulle modalità di utilizzo dei gruppi di utenti per 
 
 ## Aggiungere utenti a un gruppo
 
->[!NOTE]
->
->Un amministratore di Admin Console può eseguire questi passaggi.
+Per informazioni sulla gestione degli utenti, consulta [Utenti Admin Console](https://helpx.adobe.com/it/enterprise/using/user-groups.html) nella documentazione di Admin Console.
 
-Per informazioni sulla gestione degli utenti, vedi [utenti Admin Console](https://helpx.adobe.com/it/enterprise/using/user-groups.html) nella documentazione di Admin Console.
+![Requisiti del ruolo di amministratore](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema o un amministratore di prodotto può eseguire i seguenti passaggi. Un amministratore di prodotto può aggiungere solo gli utenti che esistono già nella sua organizzazione.
 
 1. Vai a [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
@@ -224,9 +218,7 @@ _To change the permissions for a role:_
 
 ### Aggiungere utenti a un ruolo
 
->[!NOTE]
->
->Un amministratore di Admin Console può eseguire questi passaggi.
+![Requisiti del ruolo di amministratore](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema o un amministratore di prodotto AEP può eseguire i seguenti passaggi.
 
 1. Apri i dettagli del ruolo e seleziona la scheda **[!UICONTROL Utenti]**.
 
@@ -248,11 +240,9 @@ _To change the permissions for a role:_
 
 ### Aggiungere gruppi di utenti a un ruolo
 
->[!NOTE]
->
->Un amministratore di Admin Console può eseguire questi passaggi.
+Per informazioni sulla gestione degli utenti, consulta [Utenti Admin Console](https://helpx.adobe.com/it/enterprise/using/user-groups.html) nella documentazione di Admin Console.
 
-Per informazioni sulla gestione degli utenti, vedi [utenti Admin Console](https://helpx.adobe.com/it/enterprise/using/user-groups.html) nella documentazione di Admin Console.
+![Requisiti del ruolo di amministratore](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema o un amministratore di prodotto AEP può eseguire i seguenti passaggi.
 
 1. Apri i dettagli del ruolo e seleziona la scheda **[!UICONTROL Gruppi di utenti]**.
 
@@ -274,9 +264,7 @@ Per informazioni sulla gestione degli utenti, vedi [utenti Admin Console](https:
 
 ## Creare un ruolo personalizzato
 
->[!NOTE]
->
->Un amministratore di Admin Console può eseguire questi passaggi.
+![Requisiti del ruolo di amministratore](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema o un amministratore di prodotto AEP può eseguire i seguenti passaggi.
 
 1. Seleziona **[!UICONTROL Ruoli]** nell&#39;area di navigazione a sinistra e seleziona **[!UICONTROL Crea ruolo]**.
 
