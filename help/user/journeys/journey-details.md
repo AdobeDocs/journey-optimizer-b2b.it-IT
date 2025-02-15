@@ -2,9 +2,10 @@
 title: Dettagli percorsi
 description: Scopri le informazioni fornite dalla pagina dei dettagli del percorso e come possono aiutarti a monitorare e gestire il percorso di account pubblicato.
 feature: Dashboards, Account Journeys
-source-git-commit: cbacc678d01850e3eb3901c44994ddf849a63d7c
+exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
+source-git-commit: 7667478672de935abc4fda587ce4ba977a5a3168
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -25,6 +26,13 @@ Questa sezione presenta due metriche di completamento:
 
 * **[!UICONTROL Stato Percorso]** - Questo grafico a cerchi offre una suddivisione degli stati del percorso suddividendo gli account in _Completati_, _In corso_ e _Interrotti_. A ogni segmento vengono applicate etichette con le percentuali e i numeri di conto corrispondenti sul bordo esterno del grafico.
 * **[!UICONTROL Completamento Percorso nel tempo]** - Questo grafico a linee traccia il numero di account che hanno completato il percorso nel tempo. L’asse orizzontale mappa la timeline, mentre l’asse verticale quantifica i conti, fornendo una visualizzazione diretta delle tendenze di completamento.
+
+## Coinvolgimento percorso
+
+Questa sezione presenta due metriche di completamento:
+
+* **[!UICONTROL Coinvolgimento per account]** - Questo grafico a cerchi segmenta gli account di un percorso in _Categorie Coinvolte_ e _Non Coinvolte_. Nella figura centrale viene visualizzato il conteggio totale. Questa visualizzazione fornisce una panoramica del coinvolgimento complessivo dell’account.
+* **Coinvolgimento da parte di persone** - Questa visualizzazione mostra il numero totale di persone qualificate come _coinvolte_ in un percorso.
 
 ## Prestazioni del percorso
 
