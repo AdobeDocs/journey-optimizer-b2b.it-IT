@@ -6,7 +6,7 @@ exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
 source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
 source-wordcount: '1568'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -30,7 +30,7 @@ La dashboard intelligente fornisce inoltre accesso alle pagine dei dettagli dell
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Fasi del gruppo di acquisto"
->abstract="Questo grafico fornisce una panoramica della progressione del gruppo di acquisto in diverse fasi in base alle regole di transizione configurate. La prima barra indica il numero di gruppi di acquisto in una fase specifica alla prima data dell’intervallo di tempo selezionato rispetto all’ultima data dell’intervallo selezionato."
+>abstract="Questo grafico fornisce una panoramica della progressione del gruppo di acquisto in diverse fasi, in base alle regole di transizione configurate. La prima barra indica il numero di gruppi di acquisto in una fase specifica alla prima data dell’intervallo di tempo selezionato rispetto all’ultima data dell’intervallo selezionato."
 
 Il grafico _[!UICONTROL Fasi gruppo acquisti]_ fornisce una panoramica della progressione del gruppo acquisti in diverse fasi ([in base alle regole di transizione impostate da un amministratore](../buying-groups/buying-group-stages.md)).
 
@@ -68,7 +68,7 @@ Fai clic sull&#39;icona _Filtro_ ( ![Icona Modifica](../assets/do-not-localize/i
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
-## Caratteristiche principali del gruppo di acquisto {#buying-group-highlights}
+## Punti salienti del gruppo acquisti {#buying-group-highlights}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_engagement"
@@ -116,7 +116,7 @@ Nella parte superiore destra del pannello _Elementi di rilievo del gruppo acquis
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Modifica](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
-* Interesse della soluzione
+* Interesse per soluzione
 * Gruppo acquisti
 * Account
 
@@ -155,7 +155,7 @@ Fai clic su una barra per ottenere un riepilogo di IA generativo dei conti nella
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Modifica](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
-* Interesse della soluzione
+* Interesse per soluzione
 * Settore
 * Area geografica
 
@@ -167,7 +167,7 @@ Utilizza il filtro delle date in alto a destra per modificare l’intervallo di 
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
-## Elementi di rilievo dell’account {#account-highlights}
+## Punti salienti Account {#account-highlights}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_highlights_surging"
@@ -210,7 +210,7 @@ At the top right of the _Buying group highlights_ panel, click **[!UICONTROL Vie
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
-* Interesse della soluzione
+* Interesse per soluzione
 * Gruppo acquisti
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
@@ -248,7 +248,7 @@ Fare clic su una cella per visualizzare informazioni dettagliate per i contatti 
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
-* Interesse della soluzione
+* Interesse per soluzione
 * Account
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
@@ -258,7 +258,7 @@ Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/ico
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_overlap"
 >title="Sovrapposizione contatti"
->abstract="Elenco di contatti che fanno parte di più gruppi di acquisto in quanto associati a più interessi per la soluzione."
+>abstract="Elenco di contatti che fanno parte di più di un gruppo di acquisti in quanto associati a più interessi di soluzione."
 
 Nella sezione _[!UICONTROL Sovrapposizione contatti]_ viene visualizzato un elenco di contatti che fanno parte di più gruppi di acquisto in quanto associati a più interessi della soluzione.
 
@@ -272,7 +272,7 @@ Fai clic su _Informazioni_ ( ![Icona informazioni](../assets/do-not-localize/ico
 
 * Nome del gruppo di acquisto (fare clic sul nome per aprire la pagina dei dettagli del gruppo di acquisto)
 * Ruolo
-* Interesse della soluzione
+* Interesse per soluzione
 * Intento prodotto
 * Prodotto
 
@@ -282,7 +282,7 @@ Fai clic su _Informazioni_ ( ![Icona informazioni](../assets/do-not-localize/ico
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
-* Interesse della soluzione
+* Interesse per soluzione
 * Ruoli
 * Account
 

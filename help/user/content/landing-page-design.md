@@ -5,10 +5,11 @@ feature: Content
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
+source-git-commit: 41041ad94cea758cf11f1255e0de5e49153d992e
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 9%
+ht-degree: 18%
 
 ---
 
@@ -20,13 +21,13 @@ Dopo aver [creato una pagina di destinazione](./landing-pages.md#create-a-landin
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_structure"
->title="Aggiungere componenti Struttura alla pagina di destinazione"
->abstract="I componenti della struttura definiscono il layout della pagina di destinazione. Trascina e rilascia un componente **Struttura** nell&#39;area di lavoro per iniziare a progettare il contenuto per la pagina."
+>title="Aggiungere componenti della struttura alla pagina di destinazione"
+>abstract="I componenti della struttura definiscono il layout della pagina di destinazione. Per iniziare a progettare il contenuto della pagina, trascina un componente **Struttura** nell’area di lavoro."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_content_components"
->title="Informazioni sui componenti di contenuto per le pagine di destinazione"
->abstract="I componenti per contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione."
+>title="Informazioni sui componenti dei contenuti per le pagine di destinazione"
+>abstract="I componenti dei contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione."
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -71,4 +72,4 @@ Dal menu _[!UICONTROL Altro ...]_ nella parte superiore della finestra di proget
 * **[!UICONTROL Ripristina pagina di destinazione]** - Fare clic su questa opzione per cancellare l&#39;area di lavoro della finestra di progettazione visiva e riavviare la creazione del contenuto della pagina.
 * **[!UICONTROL Modifica la progettazione]** - Torna alla _[!UICONTROL home page di creazione della pagina di destinazione principale]_. A questo punto è possibile scegliere un altro modello per riavviare il processo di progettazione oppure scegliere di progettare la pagina da zero in un&#39;area di lavoro vuota.
 <!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
-* **[!UICONTROL Esporta HTML]** - Scarica il contenuto nell&#39;area di lavoro visiva nel sistema locale in formato HTML compresso come file zip.
+* **[!UICONTROL Esporta HTML]** - Scarica il contenuto nell&#39;area di lavoro visiva nel tuo sistema locale in formato HTML racchiuso in un file zip.
