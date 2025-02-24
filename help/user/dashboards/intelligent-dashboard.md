@@ -6,7 +6,7 @@ exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
 source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
 source-wordcount: '1568'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ La dashboard intelligente fornisce inoltre accesso alle pagine dei dettagli dell
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Fasi del gruppo di acquisto"
->abstract="Questo grafico fornisce una panoramica della progressione del gruppo di acquisto in diverse fasi, in base alle regole di transizione configurate. La prima barra indica il numero di gruppi di acquisto in una fase specifica alla prima data dell’intervallo di tempo selezionato rispetto all’ultima data dell’intervallo selezionato."
+>abstract="Questo grafico fornisce una panoramica della progressione del gruppo di acquisto in diverse fasi, in base alle regole di transizione configurate. La prima barra indica il numero di gruppi di acquisto in una fase specifica nella prima data dell’intervallo di tempo selezionato, confrontato con l’ultima data dell’intervallo di tempo selezionato."
 
 Il grafico _[!UICONTROL Fasi gruppo acquisti]_ fornisce una panoramica della progressione del gruppo acquisti in diverse fasi ([in base alle regole di transizione impostate da un amministratore](../buying-groups/buying-group-stages.md)).
 
