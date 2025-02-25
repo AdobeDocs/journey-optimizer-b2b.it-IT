@@ -1,18 +1,18 @@
 ---
 title: Interessi soluzione
-description: Scopri gli interessi della soluzione e come definirli per l’utilizzo all’interno dei gruppi di acquisto.
+description: Scopri gli interessi delle soluzioni e come definirli per l’utilizzo all’interno dei gruppi di acquisto.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: c84b3e0b05581a630993077688b1dd3a3a95fcc5
+source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
 
 # Interessi soluzione
 
-Prima di creare i gruppi di acquisto, è necessario sapere cosa si sta vendendo e chi si desidera eseguire il targeting. La strategia di marketing e vendita deve essere allineata in modo da poter aggiungere l&#39;interesse della soluzione per i gruppi di acquisto.
+Prima di creare gruppi di acquisto, è necessario sapere cosa si vende e chi si desidera eseguire il targeting. La tua strategia di marketing e vendita deve essere allineata in modo da poter aggiungere interesse alla soluzione per i gruppi di acquisto.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
@@ -22,17 +22,17 @@ Prima di creare i gruppi di acquisto, è necessario sapere cosa si sta vendendo 
 
 1. Nel menu di navigazione a sinistra, fai clic su **[!UICONTROL Gruppi di acquisto]**.
 
-1. Nella pagina Gruppi di acquisto selezionare la scheda **[!UICONTROL Interesse per la soluzione]**.
+1. Nella pagina _[!UICONTROL Gruppi di acquisto]_, seleziona la scheda **[!UICONTROL Interesse per la soluzione]**.
 
    ![Scheda Interesse soluzione](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   La scheda fornisce un elenco di tutti gli interessi della soluzione esistenti. Fornisce informazioni come _[!UICONTROL Nome]_, _[!UICONTROL Modello ruoli]_, _[!UICONTROL Processi di creazione gruppo acquisti]_, _[!UICONTROL Ultimo aggiornamento il]_, _[!UICONTROL Aggiornato da]_, _[!UICONTROL Creato il]_ e _[!UICONTROL Creato da]_ in formato colonna.
+   La scheda fornisce un elenco di tutti gli interessi della soluzione esistenti. Fornisce le seguenti informazioni in formato colonna: _[!UICONTROL Nome]_, _[!UICONTROL Modello ruoli]_, _[!UICONTROL Processi di creazione gruppo acquisti]_, _[!UICONTROL Ultimo aggiornamento il]_, _[!UICONTROL Aggiornato da]_, _[!UICONTROL Creato il]_ e _[!UICONTROL Creato da]_
 
    Per impostazione predefinita, l&#39;elenco è ordinato in base alla colonna _[!UICONTROL Ultimo aggiornamento il]_. Fai clic sul titolo della colonna nell’intestazione per impostare l’ordinamento tra decrescente e crescente.
 
 ## Visualizza ed elimina processi del gruppo acquisti
 
-Dalla scheda _[!UICONTROL Interesse soluzione]_, nella colonna **[!UICONTROL Processi di creazione gruppo acquisti]** viene visualizzato il numero di processi creati per ogni interesse soluzione. Il numero è un collegamento e facendo clic su di esso viene aperta una finestra di dialogo in cui viene visualizzato l’elenco dei processi creati per la soluzione desiderata.
+Nella scheda _[!UICONTROL Interesse soluzione]_, nella colonna **[!UICONTROL Processi di creazione gruppo acquisti]** viene visualizzato il numero di processi creati per ogni interesse soluzione. Fare clic sul numero per aprire una finestra di dialogo in cui viene visualizzato l&#39;elenco dei processi creati per la soluzione desiderata.
 
 ![Acquisto di processi di gruppo per l&#39;interesse della soluzione](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
 
@@ -75,15 +75,17 @@ In qualsiasi momento, puoi modificare il nome e la descrizione di un interesse p
 
    ![Menu Altro interesse soluzione](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
-1. Se necessario, aggiorna il nome (obbligatorio e univoco) e la descrizione (facoltativa).
+1. Effettua gli aggiornamenti necessari alle impostazioni di interesse della soluzione:
 
-1. Se necessario, selezionare il **[!UICONTROL modello fase gruppo di acquisto]** per tenere traccia della progressione fase gruppo di acquisto.
+   * Aggiorna **[!UICONTROL Nome]** e **[!UICONTROL Descrizione]**.
 
-   Per ulteriori informazioni sull&#39;utilizzo delle fasi del percorso di acquisto per tenere traccia della progressione rispetto alle vendite, vedere [Fasi del gruppo di acquisto](./buying-group-stages.md).
+   * Selezionare il **[!UICONTROL modello fase gruppo di acquisto]** utilizzato per tenere traccia della progressione della fase gruppo di acquisto.
 
-1. Se necessario, modificare l&#39;impostazione **[!UICONTROL Aggiorna gruppi di acquisto esistenti]**.
+     Per ulteriori informazioni sull&#39;utilizzo delle fasi del percorso di acquisto per tenere traccia della progressione rispetto alle vendite, vedere [Fasi del gruppo di acquisto](./buying-group-stages.md).
 
-   Quando questa opzione è abilitata, tutti i gruppi di acquisto esistenti associati all’interesse della soluzione vengono aggiornati tramite il ciclo di sincronizzazione di 7 giorni.
+   * Modifica l&#39;impostazione **[!UICONTROL Aggiorna gruppi di acquisto esistenti]**.
+
+     Quando questa opzione è abilitata, tutti i gruppi di acquisto esistenti associati all’interesse della soluzione vengono aggiornati tramite il ciclo di sincronizzazione di 7 giorni.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -95,7 +97,7 @@ Qualsiasi interesse di soluzione attualmente in uso da un processo o percorso di
 
    Questa azione apre una finestra di dialogo di conferma.
 
-   Se l’interesse della soluzione è attualmente utilizzato da un percorso di account o da un processo del gruppo di acquisto, l’azione apre una finestra di dialogo informativa che avvisa che non è possibile eliminarlo. Fare clic su [!UICONTROL OK] per interrompere l&#39;eliminazione.
+   Se l’interesse della soluzione è attualmente utilizzato da un percorso di account o da un processo del gruppo di acquisto, l’azione genera un avviso che informa che non è possibile eliminarlo. Fare clic su **[!UICONTROL OK]** per interrompere l&#39;eliminazione.
 
 1. Fare clic su **[!UICONTROL Elimina]** per confermare l&#39;eliminazione oppure interrompere il processo facendo clic su _[!UICONTROL Annulla]_.
 
