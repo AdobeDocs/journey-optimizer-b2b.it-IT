@@ -3,7 +3,7 @@ title: Interessi soluzione
 description: Scopri gli interessi delle soluzioni e come definirli per l’utilizzo all’interno dei gruppi di acquisto.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
+source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Prima di creare gruppi di acquisto, è necessario sapere cosa si vende e chi si 
 
    ![Scheda Interesse soluzione](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   La scheda fornisce un elenco di tutti gli interessi della soluzione esistenti. Fornisce le seguenti informazioni in formato colonna: _[!UICONTROL Nome]_, _[!UICONTROL Modello ruoli]_, _[!UICONTROL Processi di creazione gruppo acquisti]_, _[!UICONTROL Ultimo aggiornamento il]_, _[!UICONTROL Aggiornato da]_, _[!UICONTROL Creato il]_ e _[!UICONTROL Creato da]_
+   La scheda fornisce un elenco di tutti gli interessi della soluzione esistenti. Vengono visualizzate le seguenti informazioni in formato colonna: _[!UICONTROL Nome]_, _[!UICONTROL Modello ruoli]_, _[!UICONTROL Processi di creazione gruppo acquisti]_, _[!UICONTROL Ultimo aggiornamento il]_, _[!UICONTROL Aggiornato da]_, _[!UICONTROL Creato il]_ e _[!UICONTROL Creato da]_
 
    Per impostazione predefinita, l&#39;elenco è ordinato in base alla colonna _[!UICONTROL Ultimo aggiornamento il]_. Fai clic sul titolo della colonna nell’intestazione per impostare l’ordinamento tra decrescente e crescente.
 
@@ -58,7 +58,7 @@ Prima di creare un interesse per la soluzione, è necessario disporre di un mode
 
 1. Abilita l&#39;impostazione **[!UICONTROL Aggiorna gruppi di acquisto esistenti]** (facoltativo).
 
-   Quando questa opzione è abilitata, tutti i gruppi di acquisto esistenti associati all’interesse della soluzione vengono aggiornati tramite il ciclo di sincronizzazione di 24 ore.
+   Quando questa opzione è abilitata, tutti i gruppi di acquisto esistenti associati all’interesse della soluzione vengono aggiornati tramite il ciclo di sincronizzazione di 7 giorni.
 
 1. Fai clic su **[!UICONTROL Crea]** nell&#39;angolo superiore destro.
 
