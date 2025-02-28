@@ -3,10 +3,10 @@ title: Dashboard intelligente
 description: Scopri Intelligent Dashboard, che fornisce una panoramica completa delle metriche relative ai gruppi di acquisto e agli account
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 16%
+source-wordcount: '1688'
+ht-degree: 15%
 
 ---
 
@@ -24,6 +24,19 @@ La dashboard intelligente fornisce inoltre accesso alle pagine dei dettagli dell
 * Rilevamento intento per persona, gruppo di acquisto e account
 
 {{intent-data-note}}
+
+Per utilizzare le informazioni e le informazioni fornite da Intelligent Dashboard, l’istanza di Journey Optimizer B2B edition deve disporre degli elementi richiesti:
+
+| Tipo | Requisito |
+| ---- | ----------- |
+| [Fasi del gruppo di acquisto](#buying-group-stages) | Imposta le fasi del gruppo acquisti **e** da aggiungere ai gruppi acquisti creati. |
+| [Caratteristiche principali del gruppo di acquisto](#buying-group-highlights) | Imposta le fasi del gruppo acquisti **e** da aggiungere ai gruppi acquisti creati. |
+| [Incremento account](#surging-accounts) | Uno o più percorsi pubblicati **o** hanno creato gruppi di acquisto. |
+| [Elementi di rilievo dell&#39;account](#account-highlights) | Uno o più percorsi pubblicati **o** hanno creato gruppi di acquisto. |
+| [Copertura contatti](#contact-coverage) | Uno o più gruppi di acquisto creati (fasi non necessarie). |
+| [Sovrapposizione contatti](#contact-overlap) | Uno o più gruppi di acquisto creati (fasi non necessarie). |
+| [Pagina dettagli account](../accounts/account-details.md) | Uno o più percorsi pubblicati. |
+| [Pagina dettagli gruppo di acquisto](../buying-groups/buying-group-details.md) | Uno o più gruppi di acquisto creati (fasi non necessarie). |
 
 ## Fasi del gruppo di acquisto {#buying-group-stages}
 
@@ -139,7 +152,7 @@ La sezione _[!UICONTROL Account chirurgici]_ visualizza una visualizzazione degl
 
 >[!NOTE]
 >
->I dati sull’aumento degli account sono limitati agli account che sono stati acquisiti da Journey Optimizer B2B edition in un pubblico di account tramite percorsi di account o gruppi di acquisto.
+>I dati di aumento dell’account sono limitati agli account acquisiti da Journey Optimizer B2B edition in un pubblico di account tramite percorsi di account o gruppi di acquisto.
 
 ![Visualizzazione dati sovraccarico account](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -179,11 +192,11 @@ Utilizza il filtro delle date in alto a destra per modificare l’intervallo di 
 >title="Account a rischio"
 >abstract="Account con una diminuzione significativa della dinamica del coinvolgimento nell’intervallo di tempo selezionato."
 
-La sezione _[!UICONTROL Caratteristiche principali del gruppo di acquisto]_ è organizzata in due righe per ottenere informazioni sugli account di interesse per l&#39;organizzazione.
+La sezione _[!UICONTROL Evidenziazioni account]_ è organizzata in due righe per ottenere informazioni sugli account di interesse per l&#39;organizzazione.
 
 >[!NOTE]
 >
->I dati di evidenziazione account sono limitati agli account acquisiti da Journey Optimizer B2B edition in un pubblico di account tramite percorsi di account o gruppi di acquisto.
+>I dati di evidenziazione dell’account sono limitati agli account acquisiti da Journey Optimizer B2B edition in un pubblico di account tramite percorsi di account o gruppi di acquisto.
 
 ![Elementi di rilievo dell&#39;account](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
