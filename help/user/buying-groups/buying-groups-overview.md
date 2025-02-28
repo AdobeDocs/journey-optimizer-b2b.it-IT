@@ -3,10 +3,10 @@ title: Gruppi di acquisto
 description: Scopri come acquistare gruppi in Journey Optimizer B2B edition può aumentare l’efficacia del marketing identificando e indirizzando i membri agli elenchi dei tuoi account.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: e2059726fbb7541dbe0e7ab9be4cd82f37f26cf8
+source-git-commit: 8b2cfac4785e95e4fb994ac87068f59add40171d
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 5%
+source-wordcount: '1788'
+ht-degree: 8%
 
 ---
 
@@ -17,7 +17,7 @@ Per le attività di vendita e marketing B2B, gli account sono fondamentali per q
 
 ![Diagramma ruoli account](assets/account-roles-diagram.png){width="800"}
 
-Nell&#39;account potrebbe essere presente un sottoinsieme di persone che costituiscono il _gruppo di acquisto_. Queste sono le persone che alla fine prendono la decisione di acquisto, quindi hanno bisogno di particolare attenzione da parte dell’addetto al marketing e potrebbero aver bisogno di informazioni diverse da quelle delle altre persone associate all’account. I gruppi di acquisto possono comprendere un gruppo diverso di persone per diverse linee di prodotti o offerte. Ad esempio, un prodotto di cibersicurezza potrebbe in genere richiedere un Chief Information Officer o un Chief Security Officer e un rappresentante dell&#39;Ufficio legale per approvare un acquisto, ma un prodotto di tracciamento dei bug potrebbe in genere avere un VP of Engineering e un IT Director come membri del gruppo di acquisto.
+Nell&#39;account potrebbe essere presente un sottoinsieme di persone che costituiscono il _gruppo di acquisto_. Queste sono le persone che alla fine prendono la decisione di acquisto, quindi hanno bisogno di particolare attenzione da parte dell’addetto al marketing e potrebbero aver bisogno di informazioni diverse da quelle delle altre persone associate all’account. I gruppi di acquisto possono comprendere un gruppo diverso di persone per diverse linee di prodotti o offerte. Ad esempio, un prodotto di cibersicurezza potrebbe in genere richiedere un Chief Information Officer o un Chief Security Officer e un rappresentante dell&#39;Ufficio legale per approvare un acquisto, ma un prodotto di tracciamento dei bug potrebbe in genere avere un VP of Engineering e un direttore IT come membri del gruppo di acquisto.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda la panoramica del video](#overview-video)
 
@@ -27,7 +27,7 @@ Puoi aumentare l’efficacia del marketing creando gruppi di acquisto in Journey
 
 | Componente | Finalità |
 | --------- | ------- |
-| Interesse della soluzione | Questo componente fornisce la risposta a: <ul><li>In qualità di organizzazione di marketing, cosa stai vendendo?</li><li>Quale prodotto o raccolta di prodotti intendi vendere?</li></ul>  **_Esempio:_** vendita incrociata del nuovo prodotto X a clienti esistenti |
+| Interesse per soluzione | Questo componente fornisce la risposta a: <ul><li>In qualità di organizzazione di marketing, cosa stai vendendo?</li><li>Quale prodotto o raccolta di prodotti intendi vendere?</li></ul>  **_Esempio:_** vendita incrociata del nuovo prodotto X a clienti esistenti |
 | Pubblico dell’account | Questo componente fornisce la risposta a: <ul><li>A chi stai vendendo?</li><li>Qual è l’elenco degli account di destinazione?</li></ul> **_Esempio:_** segmento di conto definito da conti con prodotto Y che hanno ricavi superiori a 1M |
 | Acquisto di modelli di ruolo del gruppo | Questo componente fornisce la risposta a: <ul><li>Quali ruoli esegui il targeting?</li><li>Quale insieme di regole viene utilizzato per determinare chi è assegnato ai ruoli del gruppo di acquisto?</li></ul>  **_Esempio:_** assegna una persona con titolo CMO al ruolo Responsabile delle decisioni |
 | Fasi del gruppo di acquisto | (Facoltativo) Questo componente fornisce la risposta a: In che modo il gruppo di acquisto tiene traccia del successo o del fallimento? |
@@ -91,11 +91,58 @@ Il punteggio di completezza del gruppo di acquisto viene ricalcolato ogni volta 
 
 ### Punteggio di coinvolgimento del gruppo acquisti
 
-Punteggio di coinvolgimento del gruppo di acquisto è un numero per determinare il coinvolgimento dei membri di un gruppo di acquisto, in base alle attività che eseguono. Per calcolare il punteggio viene utilizzata qualsiasi attività in entrata eseguita dai membri del gruppo di acquisto negli ultimi 30 giorni.
+Punteggio di coinvolgimento del gruppo di acquisto è un numero per determinare il coinvolgimento dei membri di un gruppo di acquisto, in base alle attività che eseguono.
 
-C’è un limite di frequenza giornaliero di 20 per ogni attività. Se un membro di un gruppo di acquisto esegue la stessa attività più di 20 volte al giorno, il numero massimo di attività è 20 e non un numero più alto.
+* Il calcolo del punteggio di coinvolgimento inizia non appena viene generato il gruppo di acquisto.
+* Per calcolare il punteggio viene utilizzata qualsiasi attività in entrata eseguita dai membri del gruppo di acquisto negli ultimi 30 giorni.
+* Con la finestra di 30 giorni e con la scadenza delle attività, il punteggio potrebbe diminuire.
+* C’è un limite di frequenza giornaliero di 20 per ogni attività. Se un membro di un gruppo di acquisto esegue la stessa attività più di 20 volte al giorno, il numero massimo di attività è 20 e non un numero più alto.
+* Il punteggio visualizzato viene arrotondato. Ad esempio, un punteggio di 75,89999 viene visualizzato come 76.
 
-Il punteggio visualizzato viene arrotondato. Ad esempio, un punteggio di 75,89999 viene visualizzato come 76.
++++Attività utilizzate per il punteggio
+
+| Nome attività | Descrizione | Tipo di coinvolgimento | Numero massimo di frequenze giornaliere | Peso attività |
+| --- | --- | --- | --- | --- |
+| Registrati per l&#39;evento | Registra un evento associato a una campagna | Evento | 20 | 60 |
+| Partecipa all&#39;evento | Partecipa a un evento della campagna | Evento | 20 | 90 |
+| Apri e-mail | Apre un messaggio e-mail | E-mail | 20 | 30 |
+| Fai clic su E-mail | Fai clic su un collegamento in un messaggio e-mail | E-mail | 20 | 30 |
+| Apri e-mail vendite | Apre un messaggio di vendita | E-mail | 20 | 30 |
+| Fai clic su E-mail vendita | Fai clic su un collegamento in un messaggio e-mail di vendita | E-mail | 20 | 30 |
+| Momento di interesse | Ha un momento interessante | Curato | 20 | 60 |
+| Tocca Notifica push | Riceve una notifica push | Dispositivi mobili | 20 | 30 |
+| Attività app mobile | Esegue un’attività su un’app mobile | Dispositivi mobili | 20 | 30 |
+| Sessione app mobile | È attivo nella sessione dell’app mobile | Dispositivi mobili | 20 | 30 |
+| Compila il modulo per gli annunci lead di Facebook | Compila e invia un modulo Annunci lead su una pagina Facebook | Social | 20 | 30 |
+| Fai clic su Invito all’azione RTP | Clic su un invito all’azione personalizzato | Web | 20 | 60 |
+| Visualizza messaggio in-app | Visualizza un messaggio in-app | Dispositivi mobili | 20 | 30 |
+| Tocca Messaggio in-app | Tocca un messaggio in-app | Dispositivi mobili | 20 | 30 |
+| Abbonati SMS | Abbonati a comunicazioni SMS | SMS | 20 | 90 |
+| Rispondi a e-mail vendite | Risposte a un&#39;e-mail di vendita | E-mail | 20 | 30 |
+| Coinvolto con una finestra di dialogo | Interagisce con una finestra di dialogo di Dynamic Chat | Chat | 20 | 90 |
+| Interazione con il documento nella finestra di dialogo | Interagisce con un documento in una finestra di dialogo di Dynamic Chat | Chat | 20 | 90 |
+| Riunione pianificata nella finestra di dialogo | Pianifica un appuntamento in una finestra di dialogo di Dynamic Chat | Chat | 20 | 90 |
+| Obiettivo finestra di dialogo raggiunto | Raggiunge un obiettivo in una finestra di dialogo Dynamic Chat |  | 20 | 90 |
+| Ha risposto a un sondaggio nel webinar | Risponde a un sondaggio in un evento webinar | Chat | 20 | 90 |
+| Invito all’azione cliccato nel webinar | Fai clic su un collegamento di invito all’azione in un evento webinar | Chiamata | 20 | 30 |
+| Download di risorse nel webinar | Scarica un file o una risorsa in un evento webinar | Evento | 20 | 60 |
+| Pone domande nel webinar | Pone domande in un evento webinar | Evento | 20 | 60 |
+| Ha partecipato all&#39;evento | Ha partecipato a un evento | Evento | 20 | 60 |
+| Coinvolto con un agente nella finestra di dialogo | Interagisce con un agente in una finestra di dialogo di Dynamic Chat | Chat | 20 | 90 |
+| Collegamento selezionato nella chat nella finestra di dialogo | Fai clic su un collegamento in una finestra di dialogo di Dynamic Chat | Chat | 20 | 90 |
+| Coinvolto con un flusso conversazionale | Coinvolge un flusso di conversazioni Dynamic Chat | Chat | 20 | 90 |
+| Riunione programmata in flusso conversazionale | Pianifica un appuntamento in un flusso di conversazione Dynamic Chat | Chat | 20 | 90 |
+| Obiettivo di flusso conversazionale raggiunto | Raggiunge un obiettivo in un flusso di conversazione Dynamic Chat | Chat | 20 | 90 |
+| Interazione con il documento nel flusso conversazionale | Interagisce con un documento in un flusso conversazionale di Dynamic Chat | Chat | 20 | 90 |
+| Coinvolto con un agente nel flusso conversazionale | Interagisce con un agente in un flusso di conversazione Dynamic Chat | Chat | 20 | 90 |
+| Collegamento selezionato in Chat in Flusso conversazionale | Fai clic su un collegamento in un flusso di conversazione Dynamic Chat | Chat | 20 | 90 |
+| Fai clic su Collegamento in SMS V2 | Fai clic su un collegamento in un messaggio SMS | SMS | 20 | 90 |
+
+>[!NOTE]
+>
+>Le attività con punteggio di coinvolgimento sono registrate nel registro attività [di Marketo Engage per una persona](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+
++++
 
 #### Ponderazione
 
