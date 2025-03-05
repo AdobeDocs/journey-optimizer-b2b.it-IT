@@ -1,15 +1,16 @@
 ---
-title: Configurare eventi di Experience Platform
+title: Configurare eventi Experience Platform
 description: Scopri il tipo di nodo Attendi che puoi utilizzare per orchestrare i percorsi di account in Journey Optimizer B2B edition.
 feature: Setup
-source-git-commit: e6f9be8ad43dfe4f314cb0462bc548a0957f5f0f
+exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1761'
 ht-degree: 0%
 
 ---
 
-# Configurare le definizioni degli eventi Experience Platform
+# Configurare le definizioni degli eventi di Experience Platform
 
 Gli amministratori possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP), che consentono agli addetti al marketing di creare percorsi di account che reagiscono a [eventi esperienza AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). L’utilizzo degli eventi di esperienza AEP nei percorsi di account è un processo in due fasi:
 
@@ -39,11 +40,13 @@ Quando crei e gestisci le definizioni degli eventi per soddisfare gli obiettivi 
 
 * Journey Optimizer B2B edition supporta un massimo di 50 definizioni di eventi.
 
-* Solo una definizione di evento AEP può utilizzare uno schema e un set combinati di tipi di evento. Quando crei una definizione di evento utilizzando uno schema (ad esempio, `My Schema`) e un tipo di evento (ad esempio, `Web Webpagedetails Page Views`), nessun&#39;altra definizione di evento può utilizzare la combinazione di `My Schema` e `Web Webpagedetails Page Views`.
+* I percorsi di account possono ascoltare gli eventi AEP Experience che vengono acquisiti utilizzando le funzionalità di streaming di AEP, come Web SDK o API HTTP.
+
+* Solo una definizione di evento di AEP può utilizzare uno schema e un set combinati di tipi di evento. Quando crei una definizione di evento utilizzando uno schema (ad esempio, `My Schema`) e un tipo di evento (ad esempio, `Web Webpagedetails Page Views`), nessun&#39;altra definizione di evento può utilizzare la combinazione di `My Schema` e `Web Webpagedetails Page Views`.
 
 * Una definizione di evento può essere utilizzata in più percorsi di account.
 
-* AEP Experience Events può essere utilizzato a scopo decisionale all’interno di un percorso di account, ma non viene mantenuto. Pertanto, in Journey Optimizer B2B edition non è possibile sfruttare alcun record storico di eventi esperienza AEP.
+* Gli eventi AEP Experience possono essere utilizzati a scopo decisionale all’interno di un percorso di account, ma non vengono mantenuti. Pertanto, in Journey Optimizer B2B edition non è possibile sfruttare alcun record storico di eventi AEP Experience.
 
 * I vincoli per _data attività_ e _numero minimo di volte_ non sono supportati.
 
@@ -73,7 +76,7 @@ Nell&#39;elenco _[!UICONTROL Definizioni evento]_, la colonna **[!UICONTROL Stat
 | -------------------- | ----------- |
 | Bozza | Quando crei una definizione di evento, questa si trova nello stato Bozza. Rimane in questo stato fino a quando non lo pubblichi per l’utilizzo nei percorsi di account. Azioni disponibili:<br/><ul><li>Modifica tutti i dettagli<li>Pubblica<li>Elimina |
 | Pubblicato | Quando pubblichi una definizione di evento, questa diventa disponibile per l’utilizzo nei percorsi di account. Impossibile modificare i dettagli. Azioni disponibili:<br/><ul><li>Disponibile per _Ascolta un nodo evento_ percorso<li>Crea bozza di versione<li>Elimina (se non in uso) |
-| Pubblicato (con bozza) | Quando crei una bozza da una definizione di evento pubblicata, la versione pubblicata rimane disponibile per l’utilizzo nei percorsi di account e può essere modificata. Se pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e la definizione dell’evento viene aggiornata per i percorsi di account in cui non è ancora stata eseguita. Azioni disponibili:<br/><ul><li>Modifica tutti i dettagli<li>Versione bozza Publish<li>Elimina versione bozza<li>Elimina (se non in uso) |
+| Pubblicato (con bozza) | Quando crei una bozza da una definizione di evento pubblicata, la versione pubblicata rimane disponibile per l’utilizzo nei percorsi di account e può essere modificata. Se pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e la definizione dell’evento viene aggiornata per i percorsi di account in cui non è ancora stata eseguita. Azioni disponibili:<br/><ul><li>Modifica tutti i dettagli<li>Pubblica versione bozza<li>Elimina versione bozza<li>Elimina (se non in uso) |
 
 ![Ciclo di vita stato frammento](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -135,7 +138,7 @@ Per cercare una definizione di evento per nome, immetti una stringa di testo nel
 
    ![La definizione del nuovo evento bozza è elencata nella pagina](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
 
-## Publish: definizione di un evento
+## Pubblicare una definizione di evento
 
 Una volta verificato che la definizione dell’evento bozza è completa e corretta per le tue esigenze, puoi pubblicarla per renderla disponibile per l’utilizzo nei percorsi di account. Dopo la pubblicazione della definizione dell’evento, puoi creare una versione bozza, se devi apportarvi modifiche. Tuttavia, non è possibile modificare lo schema e aggiungere solo tipi di evento e campi (non è possibile eliminarli).
 
@@ -149,11 +152,11 @@ Una volta verificato che la definizione dell’evento bozza è completa e corret
 
    Se necessario, rivedi le impostazioni prima di pubblicare. Puoi [modificare la bozza](#edit-an-event-definition) se non soddisfa i tuoi requisiti.
 
-1. Fai clic su **[!UICONTROL Publish]** in alto a destra.
+1. Fai clic su **[!UICONTROL Pubblica]** in alto a destra.
 
-1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Publish]**.
+1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Pubblica]**.
 
-   ![Finestra di dialogo evento Publish](./assets/configuration-events-publish-dialog.png){width="300"}
+   ![Finestra di dialogo evento pubblicazione](./assets/configuration-events-publish-dialog.png){width="300"}
 
    Lo stato della definizione dell&#39;evento cambia in _Pubblicato_ ed è ora [disponibile per l&#39;utilizzo in percorsi di account](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
@@ -189,9 +192,9 @@ Segui i passaggi in base allo stato:
 
    Le modifiche vengono salvate automaticamente nella bozza.
 
-1. Quando la definizione dell&#39;evento soddisfa i criteri e si desidera renderla disponibile per i percorsi di account di utilizzo, fare clic su **[!UICONTROL Publish]**.
+1. Quando la definizione dell&#39;evento soddisfa i criteri e desideri renderla disponibile per i percorsi di account di utilizzo, fai clic su **[!UICONTROL Pubblica]**.
 
-1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Publish]**.
+1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Pubblica]**.
 
    Lo stato della definizione dell&#39;evento cambia in _Pubblicato_ ed è ora disponibile per l&#39;utilizzo in percorsi di account.
 
@@ -221,11 +224,11 @@ Segui i passaggi in base allo stato:
 
    Le modifiche vengono salvate automaticamente nella bozza.
 
-1. Quando la bozza della definizione dell&#39;evento soddisfa i criteri e si desidera sostituire la versione pubblicata corrente da utilizzare nei percorsi di account, fare clic su **[!UICONTROL Publish bozza]**.
+1. Quando la bozza della definizione dell&#39;evento soddisfa i criteri e si desidera sostituire la versione pubblicata corrente da utilizzare nei percorsi di account, fare clic su **[!UICONTROL Pubblica bozza]**.
 
-1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Publish]**.
+1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Pubblica]**.
 
-   ![Finestra di dialogo bozza di Publish](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![Finestra di dialogo Pubblica bozza](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    Quando pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e la definizione dell’evento viene aggiornata per i percorsi di account in cui è già in uso ma non ancora eseguita.
 
@@ -243,11 +246,11 @@ Quando apri una definizione dell&#39;evento _Pubblicato (con bozza)_, la scheda 
 
    Le modifiche vengono salvate automaticamente nella bozza.
 
-1. Quando la bozza della definizione dell&#39;evento soddisfa i criteri e si desidera sostituire la versione pubblicata corrente da utilizzare nei percorsi di account, fare clic su **[!UICONTROL Publish bozza]**.
+1. Quando la bozza della definizione dell&#39;evento soddisfa i criteri e si desidera sostituire la versione pubblicata corrente da utilizzare nei percorsi di account, fare clic su **[!UICONTROL Pubblica bozza]**.
 
-1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Publish]**.
+1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Pubblica]**.
 
-   ![Finestra di dialogo bozza di Publish](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![Finestra di dialogo Pubblica bozza](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    Quando pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e la definizione dell’evento viene aggiornata per i percorsi di account in cui è già in uso ma non ancora eseguita.
 
