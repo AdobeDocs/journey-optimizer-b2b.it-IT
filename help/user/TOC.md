@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentazione su Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando l’intelligenza artificiale generativa incorporata e l’automazione leader del settore.
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '229'
 ht-degree: 34%
 
 ---
@@ -65,7 +65,9 @@ ht-degree: 34%
          + [Panoramica](./content/email-templates.md)
          + [Authoring dei modelli e-mail](./content/email-template-authoring.md)
       + [Modelli di pagina di destinazione](./content/landing-page-templates.md)
-   + [Frammenti](./content/fragments.md)
+   + Frammenti {#visual-fragments}
+      + [Panoramica](./content/fragments.md)
+      + [Authoring dei frammenti](./content/fragment-authoring.md)
    + [Forms](./content/forms.md)
    + Pagine di destinazione {#landing-pages}
       + [Panoramica](./content/landing-pages.md)
@@ -83,6 +85,6 @@ ht-degree: 34%
       + [Configurazioni e-mail](./admin/configure-channels-emails.md)
       + [Configurazioni SMS](./admin/configure-channels-sms.md)
    + [Configurare gli archivi AEM Assets](./admin/configure-aem-repositories.md)
-   + [Configurare le definizioni degli eventi AEP](./admin/configure-aep-events.md)
+   + [Configurare le definizioni degli eventi di AEP](./admin/configure-aep-events.md)
    + [Impostazioni pagina di destinazione](./admin/landing-page-settings.md)
    + [Governance](./admin/governance.md)

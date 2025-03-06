@@ -3,10 +3,10 @@ title: Frammenti
 description: Scopri come creare e utilizzare frammenti di contenuto visivo come componenti riutilizzabili per e-mail e modelli e-mail in Adobe Journey Optimizer B2B edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
+source-git-commit: 7deb914dfb9d6979b4dc4a497ed2d15bbabd3011
 workflow-type: tm+mt
-source-wordcount: '2679'
-ht-degree: 2%
+source-wordcount: '2624'
+ht-degree: 1%
 
 ---
 
@@ -14,14 +14,18 @@ ht-degree: 2%
 
 Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in uno o più e-mail e modelli e-mail in Adobe Journey Optimizer B2B edition. In genere si tratta di un blocco di contenuto (testo, immagine o entrambi) che può essere precreato e inserito rapidamente in un modello e-mail o e-mail. Con questa funzionalità, puoi precreare più blocchi di contenuto personalizzati da utilizzare da parte dei membri del team di marketing per assemblare contenuti e-mail e migliorare così il processo di progettazione. I casi d’uso comuni includono blocchi di contenuto di intestazione/piè di pagina per e-mail, banner di invito per eventi e saluti stagionali.
 
+>[!BEGINSHADEBOX]
+
+**Frammenti visivi**
+
+I frammenti visivi sono blocchi visivi predefiniti creati mediante la finestra di progettazione del contenuto visivo che puoi riutilizzare in più e-mail o modelli e-mail. L’ambito corrente di Journey Optimizer B2B edition e di questa documentazione è quello dei soli frammenti visivi. I frammenti basati su espressioni non sono ancora supportati in Journey Optimizer B2B edition.
+
+>[!ENDSHADEBOX]
+
 Per utilizzare al meglio i frammenti nei flussi di lavoro:
 
 * _Crea frammenti personalizzati_ - Crea frammenti visivi da zero o salvando il contenuto come frammento dall&#39;editor di contenuti visivi.
 * _Riutilizza frammenti_ - Puoi utilizzarli nel contenuto per il numero di volte necessario.
-
-## Frammenti visivi
-
-I frammenti visivi sono blocchi visivi predefiniti creati utilizzando l’editor di contenuto visivo che puoi riutilizzare in più e-mail o modelli e-mail. L’ambito corrente di Journey Optimizer B2B edition e di questa documentazione è quello dei soli frammenti visivi. I frammenti basati su espressioni non sono ancora supportati in Journey Optimizer B2B edition.
 
 ## Accedere e gestire i frammenti
 
@@ -38,10 +42,10 @@ Lo stato del frammento determina la sua disponibilità per l’utilizzo in un me
 | Stato | Descrizione |
 | -------------------- | ----------- |
 | Bozza | Quando crei un frammento, questo si trova nello stato Bozza. Rimane in questo stato mentre definisci o modifichi il contenuto visivo fino a quando non lo pubblichi per l’utilizzo in un e-mail o in un modello e-mail. Azioni disponibili:<br/><ul><li>Modifica tutti i dettagli<li>Modifica in designer visivo<li>Pubblica<li>Duplica<li>Elimina |
-| Pubblicato | Quando pubblichi un frammento, questo diventa disponibile per l’utilizzo in un’e-mail o in un modello e-mail. Il contenuto di un frammento pubblicato non può essere modificato nella finestra di progettazione visiva. Azioni disponibili:<br/><ul><li>Modifica descrizione<li>Aggiungi a un messaggio e-mail o a un modello<li>Crea bozza di versione<li>Duplica<li>Elimina (se non in uso) |
-| Pubblicato con bozza | Quando crei una bozza da un frammento pubblicato, la versione pubblicata rimane disponibile per l’utilizzo in un modello e-mail o e-mail e il contenuto della bozza può essere modificato nella finestra di progettazione visiva. Se pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nelle e-mail e nei modelli e-mail in cui è in uso. Azioni disponibili:<br/><ul><li>Modifica descrizione<li>Aggiungi a un messaggio e-mail o a un modello<li>Modifica versione bozza in Progettazione visiva<li>Versione bozza Publish<li>Duplica<li>Elimina (se non in uso) |
+| Pubblicato | Quando pubblichi un frammento, questo diventa disponibile per l’utilizzo in un’e-mail o in un modello e-mail. Il contenuto del frammento pubblicato non può essere modificato nella finestra di progettazione visiva. Azioni disponibili:<br/><ul><li>Modifica descrizione<li>Aggiungi a un messaggio e-mail o a un modello<li>Crea bozza di versione<li>Duplica<li>Elimina (se non in uso) |
+| Pubblicato con bozza | Quando crei una bozza da un frammento pubblicato, la versione pubblicata rimane disponibile per l’utilizzo in un modello e-mail o e-mail e il contenuto della bozza può essere modificato nella finestra di progettazione visiva. Se pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nelle e-mail e nei modelli e-mail in cui è in uso. Azioni disponibili:<br/><ul><li>Modifica descrizione<li>Aggiungi a un messaggio e-mail o a un modello<li>Modifica versione bozza in Progettazione visiva<li>Pubblica versione bozza<li>Duplica<li>Elimina (se non in uso) |
 
-![Ciclo di vita stato frammento](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+![Ciclo di vita stato frammento](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -73,7 +77,7 @@ Per creare nuovi frammenti visivi in Journey Optimizer B2B edition, fai clic su 
 
    * Descrizione: massimo 300 caratteri
 
-   * Sono consentiti caratteri Alpha, numerici e speciali
+   * Alpha, caratteri numerici e speciali sono consentiti
 
    * I caratteri riservati sono **_non consentiti_**: `\ / : * ? " < > |`
 
@@ -85,45 +89,16 @@ Per creare nuovi frammenti visivi in Journey Optimizer B2B edition, fai clic su 
 
 1. Utilizza gli strumenti di progettazione del contenuto per creare il contenuto del frammento visivo:
 
-   * [Aggiungere struttura e contenuto](#add-structure-and-content)
-   * [Aggiungi Assets](#add-assets)
-   * [Spostarsi tra livelli, impostazioni e stili](#navigate-the-layers-settings-and-styles)
-   * [Personalizzare il contenuto](#personalize-content)
-   * [Modifica tracciamento URL collegato](#edit-linked-url-tracking)
+   * [Aggiungere struttura e contenuto](./fragment-authoring.md#add-structure-and-content)
+   * [Aggiungi Assets](./fragment-authoring.md#add-assets)
+   * [Spostarsi tra livelli, impostazioni e stili](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Personalizzare il contenuto](./fragment-authoring.md#personalize-content)
+   * [Abilita campi personalizzati](./fragment-authoring.md#enable-custom-fields)
+   * [Modifica tracciamento URL collegato](./fragment-authoring.md#edit-linked-url-tracking)
 
 1. Fai clic su **[!UICONTROL Salva]** in qualsiasi momento per salvare la bozza del frammento.
 
-1. Quando sei pronto a rendere il frammento disponibile per l&#39;utilizzo in un messaggio e-mail o in un modello e-mail, fai clic su **[!UICONTROL Publish]**.
-
-### Aggiungere struttura e contenuto {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="Aggiungere i componenti Struttura"
->abstract="I componenti della struttura definiscono il layout del frammento. Per iniziare a progettare il contenuto del frammento, trascina un componente **Struttura** nell’area di lavoro."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="Informazioni sui componenti per contenuti"
->abstract="I componenti di contenuto sono segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di un frammento."
-
-{{$include /help/_includes/content-design-components.md}}
-
-### Aggiungere risorse
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### Spostarsi tra livelli, impostazioni e stili
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### Personalizzare il contenuto
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### Modifica tracciamento URL collegato
-
-{{$include /help/_includes/content-design-links.md}}
+1. Quando sei pronto a rendere il frammento disponibile per l&#39;utilizzo in un messaggio e-mail o in un modello e-mail, fai clic su **[!UICONTROL Pubblica]**.
 
 ## Visualizza dettagli frammento
 
@@ -194,15 +169,16 @@ Le modifiche apportate a un frammento dipendono dal suo stato corrente:
 
    Utilizza gli strumenti di progettazione visiva secondo necessità:
 
-   * [Aggiungere struttura e contenuto](#add-structure-and-content)
-   * [Aggiungi Assets](#add-assets)
-   * [Spostarsi tra livelli, impostazioni e stili](#navigate-the-layers-settings-and-styles)
-   * [Personalizzare il contenuto](#personalize-content)
-   * [Modifica tracciamento URL collegato](#edit-linked-url-tracking)
+   * [Aggiungere struttura e contenuto](./fragment-authoring.md#add-structure-and-content)
+   * [Aggiungi Assets](./fragment-authoring.md#add-assets)
+   * [Spostarsi tra livelli, impostazioni e stili](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Personalizzare il contenuto](./fragment-authoring.md#personalize-content)
+   * [Abilita campi personalizzati](./fragment-authoring.md#enable-custom-fields)
+   * [Modifica tracciamento URL collegato](./fragment-authoring.md#edit-linked-url-tracking)
 
    Fai clic su **[!UICONTROL Salva]** o **[!UICONTROL Salva e chiudi]** per tornare ai dettagli del frammento.
 
-1. Quando il frammento soddisfa i criteri e desideri renderlo disponibile per l&#39;utilizzo in un messaggio e-mail o in un modello e-mail, fai clic su **[!UICONTROL Publish]**.
+1. Quando il frammento soddisfa i criteri e desideri renderlo disponibile per l&#39;utilizzo in un&#39;e-mail o in un modello e-mail, fai clic su **[!UICONTROL Pubblica]**.
 
 >[!TAB Pubblicato]
 
@@ -222,15 +198,16 @@ Le modifiche apportate a un frammento dipendono dal suo stato corrente:
 
    Utilizza gli strumenti di progettazione visiva secondo necessità:
 
-   * [Aggiungere struttura e contenuto](#add-structure-and-content)
-   * [Aggiungi Assets](#add-assets)
-   * [Spostarsi tra livelli, impostazioni e stili](#navigate-the-layers-settings-and-styles)
-   * [Personalizzare il contenuto](#personalize-content)
-   * [Modifica tracciamento URL collegato](#edit-linked-url-tracking)
+   * [Aggiungere struttura e contenuto](./fragment-authoring.md#add-structure-and-content)
+   * [Aggiungi Assets](./fragment-authoring.md#add-assets)
+   * [Spostarsi tra livelli, impostazioni e stili](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Personalizzare il contenuto](./fragment-authoring.md#personalize-content)
+   * [Abilita campi personalizzati](./fragment-authoring.md#enable-custom-fields)
+   * [Modifica tracciamento URL collegato](./fragment-authoring.md#edit-linked-url-tracking)
 
    Fai clic su **[!UICONTROL Salva]** o **[!UICONTROL Salva e chiudi]** per tornare ai dettagli del frammento.
 
-1. Quando il frammento bozza soddisfa i criteri e desideri rendere le modifiche disponibili per l&#39;utilizzo in un messaggio e-mail o in un modello e-mail, fai clic su **[!UICONTROL Publish]**.
+1. Quando il frammento bozza soddisfa i criteri e desideri rendere le modifiche disponibili per l&#39;utilizzo in un messaggio e-mail o in un modello e-mail, fai clic su **[!UICONTROL Pubblica]**.
 
    Quando pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nelle e-mail e nei modelli e-mail in cui è già in uso.
 
@@ -250,15 +227,16 @@ Per aggiornare il contenuto:
 
 1. Fai clic su **[!UICONTROL Modifica frammento]** in alto a destra. Utilizza gli strumenti di progettazione visiva secondo necessità:
 
-   * [Aggiungere struttura e contenuto](#add-structure-and-content)
-   * [Aggiungi Assets](#add-assets)
-   * [Spostarsi tra livelli, impostazioni e stili](#navigate-the-layers-settings-and-styles)
-   * [Personalizzare il contenuto](#personalize-content)
-   * [Modifica tracciamento URL collegato](#edit-linked-url-tracking)
+   * [Aggiungere struttura e contenuto](./fragment-authoring.md#add-structure-and-content)
+   * [Aggiungi Assets](./fragment-authoring.md#add-assets)
+   * [Spostarsi tra livelli, impostazioni e stili](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Personalizzare il contenuto](./fragment-authoring.md#personalize-content)
+   * [Abilita campi personalizzati](./fragment-authoring.md#enable-custom-fields)
+   * [Modifica tracciamento URL collegato](./fragment-authoring.md#edit-linked-url-tracking)
 
    Fai clic su **[!UICONTROL Salva]** o **[!UICONTROL Salva e chiudi]** per tornare ai dettagli del frammento.
 
-1. Quando il frammento bozza soddisfa i criteri e desideri rendere le modifiche disponibili per l&#39;utilizzo in un messaggio e-mail o in un modello e-mail, fai clic su **[!UICONTROL Publish]**.
+1. Quando il frammento bozza soddisfa i criteri e desideri rendere le modifiche disponibili per l&#39;utilizzo in un messaggio e-mail o in un modello e-mail, fai clic su **[!UICONTROL Pubblica]**.
 
    Quando pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nelle e-mail e nei modelli e-mail in cui è già in uso.
 

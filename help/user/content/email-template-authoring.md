@@ -2,10 +2,11 @@
 title: Authoring dei modelli e-mail
 description: Scopri come creare modelli e-mail di contenuto che possono essere utilizzati per le e-mail del percorso di account per riutilizzare le progettazioni in modo semplice ed efficiente.
 feature: Email Authoring, Content
-source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
+exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
+source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 7%
+source-wordcount: '334'
+ht-degree: 10%
 
 ---
 
@@ -29,30 +30,9 @@ Dopo aver [creato un modello e-mail](./email-templates.md#create-an-email-templa
 
 ### Aggiungi frammenti
 
-Nell&#39;editor del contenuto visivo, l&#39;icona _Frammenti_ è visualizzata a sinistra. L’esempio seguente illustra i passaggi per aggiungere frammenti al contenuto del modello.
+{{$include /help/_includes/content-design-use-fragments.md}}
 
-1. Per aprire l&#39;elenco dei frammenti, seleziona l&#39;icona _Frammenti_ ( ![Icona Frammenti](../assets/do-not-localize/icon-fragments.svg) ).
-
-   Puoi eseguire le seguenti operazioni:
-
-   * Ordina l’inserzione.
-   * Sfoglia, Cerca o filtra l’inserzione.
-   * Consente di passare dalla visualizzazione Anteprima alla visualizzazione Elenco.
-   * Aggiorna l’elenco per riflettere eventuali frammenti creati di recente.
-
-   ![Selezionare un frammento dall&#39;elenco](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. Trascina uno dei frammenti nel segnaposto del componente strutturale.
-
-   L’editor esegue il rendering del frammento all’interno della sezione/elemento della struttura e-mail.
-
-Il contenuto del frammento viene aggiornato dinamicamente all’interno della struttura per mostrare come appare il contenuto nell’e-mail.
-
->[!TIP]
->
->Se desideri che il frammento occupi l’intero layout orizzontale all’interno dell’e-mail, aggiungi una struttura di colonne 1:1, quindi trascina e rilascia il frammento al suo interno.
-
-Dopo il salvataggio, l&#39;e-mail viene visualizzata nella pagina dei dettagli del frammento quando si seleziona la scheda _[!UICONTROL Usato da]_ nel riepilogo. I frammenti aggiunti a un modello e-mail non sono modificabili all’interno del modello: il frammento di origine definisce il contenuto.
+Dopo il salvataggio, il modello viene visualizzato nella pagina dei dettagli del frammento quando si seleziona la scheda _[!UICONTROL Usato da]_ nel riepilogo.
 
 ### Aggiungere risorse
 
@@ -89,4 +69,4 @@ Dal menu _[!UICONTROL Altro ...]_ nella parte superiore della finestra di proget
 * **[!UICONTROL Ripristina modello]** - Fare clic su questa opzione per cancellare l&#39;area di lavoro della finestra di progettazione visiva in un&#39;area vuota e riavviare la creazione del contenuto.
 * **[!UICONTROL Salva come frammento]** - Consente di salvare tutte o alcune parti del modello come frammento da riutilizzare in più e-mail o modelli di e-mail. Fornisci un nome e una descrizione per il frammento, quindi salvalo nell’elenco dei frammenti disponibili.
 * **[!UICONTROL Modifica la progettazione]** - Torna alla pagina _Progetta modello_. A questo punto è possibile scegliere di progettare il modello da zero o di utilizzare un modello esistente per riavviare il processo di progettazione.
-* **[!UICONTROL Esporta HTML]** - Scarica il contenuto nell&#39;area di lavoro visiva nel sistema locale in formato HTML compresso come file zip.
+* **[!UICONTROL Esporta HTML]** - Scarica il contenuto nell&#39;area di lavoro visiva nel tuo sistema locale in formato HTML racchiuso in un file zip.

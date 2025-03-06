@@ -3,10 +3,10 @@ title: Authoring di e-mail
 description: Scopri come creare contenuti e-mail personalizzati da utilizzare in un Percorso di account.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
+source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 9%
+source-wordcount: '1268'
+ht-degree: 10%
 
 ---
 
@@ -129,30 +129,9 @@ Puoi personalizzare il contenuto importato in base alle esigenze con gli strumen
 
 ### Aggiungi frammenti
 
-Nell&#39;editor del contenuto visivo, l&#39;icona _Frammenti_ è visualizzata a sinistra. L’esempio seguente illustra i passaggi per aggiungere frammenti al contenuto del modello.
+{{$include /help/_includes/content-design-use-fragments.md}}
 
-1. Per aprire l&#39;elenco dei frammenti, fare clic sull&#39;icona _Frammenti_.
-
-   Puoi eseguire le seguenti operazioni:
-
-   * Ordina l’inserzione.
-   * Sfoglia, Cerca o filtra l’inserzione.
-   * Consente di passare dalla visualizzazione Anteprima alla visualizzazione Elenco.
-   * Aggiorna l’elenco per riflettere eventuali frammenti creati di recente.
-
-   ![Selezionare un frammento dall&#39;elenco](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. Trascina uno dei frammenti nel segnaposto del componente strutturale.
-
-   L’editor esegue il rendering del frammento all’interno della sezione/elemento della struttura e-mail.
-
-Il contenuto del frammento viene aggiornato dinamicamente all’interno della struttura per mostrare come appare il contenuto nell’e-mail.
-
->[!TIP]
->
->Per aggiungere il frammento in modo che occupi l’intero layout orizzontale all’interno dell’e-mail, aggiungi una struttura di colonne 1:1 e quindi trascina e rilascia il frammento al suo interno.
-
-Dopo il salvataggio, l&#39;e-mail viene visualizzata nella pagina dei dettagli del frammento quando si seleziona la scheda _[!UICONTROL Usato da]_ nel riepilogo. I frammenti aggiunti a un modello e-mail non sono modificabili all’interno del modello: il frammento di origine definisce il contenuto.
+Dopo il salvataggio, l&#39;e-mail viene visualizzata nella pagina dei dettagli del frammento quando si seleziona la scheda _[!UICONTROL Usato da]_ nel riepilogo.
 
 ### Aggiungere risorse
 
