@@ -2,17 +2,22 @@
 title: Configurare eventi Experience Platform
 description: Scopri il tipo di nodo Attendi che puoi utilizzare per orchestrare i percorsi di account in Journey Optimizer B2B edition.
 feature: Setup
+soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1768'
 ht-degree: 0%
 
 ---
 
 # Configurare le definizioni degli eventi di Experience Platform
 
-Gli amministratori possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP), che consentono agli addetti al marketing di creare percorsi di account che reagiscono a [eventi esperienza AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). L’utilizzo degli eventi di esperienza AEP nei percorsi di account è un processo in due fasi:
+Gli amministratori possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP), che consentono agli addetti al marketing di creare percorsi di account che reagiscono a [eventi esperienza AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent).
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda la panoramica del video](#overview-video)
+
+L’utilizzo degli eventi di esperienza AEP nei percorsi di account è un processo in due fasi:
 
 1. Crea e pubblica una definizione di evento AEP.
 
@@ -273,3 +278,7 @@ Puoi eliminare una definizione di evento se non è utilizzata da un percorso di 
 1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Elimina]**.
 
    ![Conferma eliminazione definizione evento](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
+
+## Video introduttivo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

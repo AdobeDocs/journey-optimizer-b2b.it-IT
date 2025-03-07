@@ -3,9 +3,9 @@ title: Ascolta un evento
 description: Scopri il tipo di nodo Ascolta per un evento che puoi utilizzare per orchestrare i percorsi di account in Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1373'
 ht-degree: 3%
 
 ---
@@ -124,6 +124,8 @@ Gli amministratori possono configurare definizioni di eventi basate su Adobe Exp
 
 2. In un percorso di account, aggiungi un nodo _Ascolta un evento_ e seleziona una definizione di evento Experience Platform per un evento basato su persone.
 
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda la panoramica del video](../admin/configure-aep-events.md#overview-video)
+
 _Per includere un evento esperienza nel percorso:_
 
 1. Selezionare un nodo **[!UICONTROL Ascolta un evento]** nell&#39;editor di percorso.
@@ -162,7 +164,7 @@ _Per includere un evento esperienza nel percorso:_
 
 1. Completa i nodi rimanenti del percorso e [pubblicalo](./journey-overview.md).
 
-   Quando il percorso è attivo (pubblicato) e raggiunge il nodo _Ascolta un evento_, inizia l&#39;ascolto degli eventi esperienza AEP.
+   Quando il percorso è attivo (pubblicato) e raggiunge il nodo _Ascolta un evento_, inizia l&#39;ascolto degli eventi AEP Experience.
 
 ## Aggiungere un timeout a un nodo evento
 

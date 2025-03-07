@@ -3,9 +3,9 @@ title: Stadi del gruppo di acquisto
 description: Scopri come acquistare fasi di percorso e come definirle per monitorare la progressione del gruppo rispetto agli obiettivi di vendita.
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ Le fasi di acquisto dei gruppi sono progettate per tenere traccia della progress
 Definisci le fasi all’interno di un singolo modello di staging, definendo più fasi e il flusso di transizione tra di esse. Una o più fasi sono designate per l&#39;immissione nel ciclo di vita. Il modello consente anche una progressione non lineare, in cui è possibile specificare transizioni da uno stadio all&#39;altro, ad esempio dallo stadio A agli stadi B, C o D. È necessario che una fase sia designata come fase di successo, ad esempio un contratto di acquisto o firmato. È facoltativo che un&#39;altra fase sia designata come fase di fallimento, ad esempio un contratto rifiutato o l&#39;acquisto di una soluzione concorrente da un altro fornitore. Ciò si ottiene tramite [dashboard intelligenti](../dashboards/intelligent-dashboard.md) che mostrano lo stato di avanzamento dei gruppi di acquisto in termini di completamento di un&#39;opportunità di vendita o di conversione di un&#39;opportunità in un cliente.
 
 ![Esempio di fasi del gruppo di acquisto](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda la panoramica del video](#overview-video)
 
 ## Definire il modello di fasi del gruppo di acquisto
 
@@ -159,7 +161,7 @@ Per visualizzare il modello 2D:
 
    Puoi anche fare clic su _[!UICONTROL Annulla]_ per chiudere la finestra di dialogo e tornare alla pagina dei dettagli del modello senza apportare modifiche.
 
-## Publish il modello delle fasi del gruppo di acquisto
+## Pubblicare il modello di fasi del gruppo di acquisto
 
 In assenza di errori di convalida, il modello può essere pubblicato. Quando viene pubblicata, lo stato cambia in _Live_ e può essere utilizzato per avanzare nelle fasi dei gruppi di acquisto nei percorsi di account.
 
@@ -171,9 +173,9 @@ In assenza di errori di convalida, il modello può essere pubblicato. Quando vie
 
    Se sono necessarie revisioni, modificate le fasi del modello.
 
-1. Fare clic su **[!UICONTROL Publish]**.
+1. Fai clic su **[!UICONTROL Pubblica]**.
 
-1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Publish]**.
+1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Pubblica]**.
 
    Tornando alla pagina dei dettagli del modello, il modello viene designato come _[!UICONTROL Live]_. Fai clic sulla freccia _Indietro_ in alto a sinistra per tornare alla scheda _[!UICONTROL Stadi]_.
 
@@ -345,3 +347,7 @@ Utilizza l’occorrenza di una modifica della fase del gruppo di acquisto per sp
    ![Nodo Percorso - ascolta eventi sull&#39;account](./assets/stages-event-node-stage-change-properties.png){width="700" zoomable="yes"}
 
 1. Continuare ad apportare altre modifiche e salvare il percorso.
+
+## Video introduttivo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

@@ -3,9 +3,9 @@ title: Esegui un'azione
 description: Scopri il tipo di nodo "Take an action" (Esegui un’azione) che puoi utilizzare per orchestrare i percorsi di account in Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,8 @@ Utilizza questa azione per indirizzare le persone a un pubblico esterno che può
 ![Azione da eseguire - Aggiungi a pubblico cliente esterno](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
 Quando selezioni questa azione basata sulle persone, puoi creare un nuovo pubblico esterno o selezionarlo da un pubblico esterno esistente. Per i tipi di pubblico esistenti, puoi scegliere uno dei tipi di pubblico dei clienti esterni che sono stati creati solo in Journey Optimizer B2B edition. Quando crei un pubblico e lo utilizzi per questa azione di percorso, accertati di connettere la destinazione. Per ulteriori informazioni, vedere [Creare una nuova connessione di destinazione](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Panoramica attivazione](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} nella documentazione di Experience Platform.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda una panoramica video per l&#39;orchestrazione a pagamento](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
 _Per creare un pubblico esterno:_
 
