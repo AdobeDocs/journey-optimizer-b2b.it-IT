@@ -3,9 +3,9 @@ title: Dividi e unisci percorsi
 description: Scopri i tipi di nodo percorsi suddivisi e di unione che puoi utilizzare per orchestrare i percorsi di account in Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: e0fc061b55af4fd79248c2255db94280ee41e2c8
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1584'
 ht-degree: 2%
 
 ---
@@ -28,10 +28,11 @@ Aggiungi un nodo _Percorsi suddivisi_ per definire uno o più percorsi segmentat
 
 _Come funziona un percorso di suddivisione per nodo account?_
 
-* Quando aggiungi un nodo di percorso diviso e scegli _Account_, ogni percorso aggiunto include un nodo finale con la possibilità di aggiungere nodi a ogni nodo perimetrale.
-* È possibile suddividere il percorso per account ripetutamente, ad esempio in modo nidificato. Un percorso diviso include un&#39;opzione che consente di non aggiungere il percorso predefinito.
-* Se un account/persona non è idoneo per uno dei percorsi suddivisi, non procede nel percorso.
-* Questi percorsi possono essere combinati utilizzando un nodo di unione.
+* Ogni percorso aggiunto include un nodo finale con la possibilità di aggiungere nodi a ogni nodo edge.
+* È possibile nidificare il percorso suddiviso per nodi di account. È possibile suddividere ripetutamente il percorso in base ai conti.
+* Valuta i percorsi dall’alto verso il basso. Se un account corrisponde al primo e al secondo percorso, procede solo lungo il primo percorso.
+* È possibile combinare due o più percorsi utilizzando un nodo di unione.
+* Supporta la definizione di un percorso _[!UICONTROL Altri account]_, in cui è possibile aggiungere azioni o eventi per account che non corrispondono a uno dei segmenti o percorsi definiti.
 
 ![nodo Percorso - percorsi suddivisi per account](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
@@ -39,10 +40,11 @@ _Come funziona un percorso di suddivisione per nodo account?_
 
 _Come funziona un percorso diviso per nodo persone?_
 
-* _Il percorso suddiviso per persone_ nodi sono nodi raggruppati. I percorsi si uniscono automaticamente in modo che tutte le persone nel pubblico possano passare al passaggio successivo senza perdere il contesto dell’account.
-* _Impossibile nidificare il percorso suddiviso per persone_ nodi. Impossibile aggiungere il percorso suddiviso per persone in un percorso che si trova in questo nodo raggruppato.
-* I nodi di percorso suddivisi includono un’opzione per omettere un percorso predefinito in modo che gli account o le persone senza un percorso corrispondente non si spostino in avanti nel percorso.
-* _I nodi Dividi percorso per persone_ supportano l&#39;utilizzo di _relazioni account-persona_, che consente di filtrare le persone in base al loro ruolo (ad esempio, collaboratore esterno o dipendente a tempo pieno) come definito nei modelli di ruolo.
+* Funzioni in una combinazione di _nodo raggruppato_ split-merge. I percorsi suddivisi si uniscono automaticamente in modo che tutte le persone nel pubblico possano passare al passaggio successivo senza perdere il contesto dell’account.
+* I nodi Dividi per persone non possono essere nidificati. Non è possibile aggiungere un percorso diviso per le persone in un percorso che si trova in questo nodo raggruppato.
+* Valuta i percorsi dall’alto verso il basso. Se una persona corrisponde per il primo e il secondo percorso, procede solo lungo il primo percorso.
+* Supporta l&#39;utilizzo di _relazioni account-persona_, che consente di filtrare le persone in base al loro ruolo (ad esempio, collaboratore esterno o dipendente a tempo pieno) come definito nei modelli di ruolo.
+* Supporta la definizione di un percorso _[!UICONTROL Altre persone]_, in cui è possibile aggiungere azioni o eventi per le persone che non corrispondono a uno dei segmenti o percorsi definiti.
 
 ![nodo Percorso - percorsi suddivisi per persone](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -96,7 +98,9 @@ _Come funziona un percorso diviso per nodo persone?_
 
    ![Dividi nodo percorso - riordina percorsi](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Altri account]** per aggiungere un percorso predefinito per gli account che non corrispondono ai percorsi definiti. In caso contrario, il percorso finisce per queste persone.
+1. Abilita l&#39;opzione **[!UICONTROL Altri account]** per definire il percorso predefinito per gli account che non corrispondono ai segmenti/percorsi definiti.
+
+   Se questa opzione non è abilitata, il percorso termina per i conti che non corrispondono a un segmento/percorso definito all’interno della suddivisione.
 
 ### Aggiungere un percorso suddiviso per nodo persone
 
@@ -145,13 +149,15 @@ _Come funziona un percorso diviso per nodo persone?_
 
    ![Dividi nodo percorso - riordina percorsi](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Altre persone]** per aggiungere un percorso predefinito per le persone che non corrispondono ai percorsi definiti. In caso contrario, il percorso finisce per queste persone.
+1. Abilita l&#39;opzione **[!UICONTROL Altre persone]** per aggiungere un percorso predefinito per le persone che non corrispondono ai percorsi definiti.
+
+   Se questa opzione non è abilitata, le persone che non corrispondono a un segmento/percorso definito si spostano oltre la divisione e procedono al passaggio successivo nel percorso.
 
 >[!BEGINSHADEBOX &quot;Appartenenza all&#39;elenco Marketo Engage&quot;]
 
 In Marketo Engage, _Campagne avanzate_ verifica l&#39;appartenenza ai programmi per assicurarsi che i lead non ricevano e-mail duplicate e non siano membri di più flussi di e-mail contemporaneamente. In Journey Optimizer B2B, puoi verificare che l’iscrizione all’elenco Marketo Engage sia una condizione per il percorso di suddivisione da parte delle persone, in modo da eliminare la duplicazione nelle attività di percorso.
 
-Per eseguire questa operazione, espandere **[!UICONTROL Filtri speciali]** e trascinare la condizione **[!UICONTROL Membro dell&#39;elenco]** nello spazio dei filtri e completare la definizione del filtro per valutare l&#39;appartenenza a uno o più elenchi Marketo Engage.
+Per utilizzare l&#39;appartenenza a un elenco in una condizione divisa, espandere **[!UICONTROL Filtri speciali]** e trascinare la condizione **[!UICONTROL Membro dell&#39;elenco]** nello spazio del filtro. Completa la definizione del filtro per valutare l’appartenenza a uno o più elenchi Marketo Engage.
 
 ![Condizione Dividi percorso in base alle persone per l&#39;iscrizione all&#39;elenco Marketo Engage](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
