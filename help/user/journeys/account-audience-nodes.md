@@ -1,17 +1,23 @@
 ---
 title: Nodi del pubblico dell’account
-description: Scopri il tipo di nodo del pubblico di account che puoi utilizzare per orchestrare i percorsi di account in Journey Optimizer B2B edition.
+description: Scopri il tipo di nodo del pubblico di account che puoi utilizzare per definire l’input per i percorsi di account in Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
+source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
 
 # Nodi del percorso di pubblico dell’account
 
-Il nodo Pubblico account definisce il pubblico dell’account di input (creato e gestito in Adobe Experience Platform) per il percorso. Quando [crei un percorso di account](./journey-overview.md#create-an-account-journey), questo inizia sempre con un nodo _Pubblico account_ in cui puoi aggiungere input al percorso.
+Il nodo Pubblico account definisce il pubblico dell’account di input (creato e gestito in Adobe Experience Platform) per il percorso. Quando [crei un percorso di account](./journey-overview.md#create-an-account-journey), questo inizia sempre con un nodo _Pubblico account_ che definisce l&#39;input per il percorso.
+
+Esistono due tipi di input che è possibile utilizzare per questo nodo:
+
+* **[Pubblico dell&#39;account](../audiences/account-audience-overview.md)** - Si tratta del pubblico di base sincronizzato dal servizio di segmentazione di Experience Platform.
+* **[Elenco account](../accounts/account-lists.md)** - Si tratta di una raccolta di account denominati che è possibile utilizzare per l&#39;orchestrazione di percorso di destinazione. Un elenco di conti esegue il targeting dei conti denominati in base ai criteri definiti, ad esempio settore, ubicazione o dimensioni della società.
 
 _Per impostare il pubblico per il nodo:_
 
@@ -19,11 +25,25 @@ _Per impostare il pubblico per il nodo:_
 
    ![Nodo pubblico account](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
 
-1. Fai clic su **[!UICONTROL Aggiungi pubblico account]**.
+1. Scegliere il tipo di input per i conti da inserire nel percorso:
 
-1. Nella finestra di dialogo _[!UICONTROL Aggiungi pubblico]_, seleziona un segmento di pubblico creato in precedenza e fai clic su **[!UICONTROL Aggiungi pubblico]**.
+   * **[!UICONTROL Pubblico account]**
 
-   ![Nodo pubblico account](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
+     Scegliere questo tipo e quindi fare clic su **[!UICONTROL Aggiungi pubblico account]**.
+
+     Nella finestra di dialogo _[!UICONTROL Aggiungi pubblico]_, seleziona un segmento di pubblico creato in precedenza e fai clic su **[!UICONTROL Aggiungi pubblico]**.
+
+     ![Selezionare un segmento di pubblico per il nodo](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
+
+   * **[!UICONTROL Elenco account]**
+
+     Scegliere questo tipo e quindi fare clic su **[!UICONTROL Aggiungi elenco account]**.
+
+     Nella finestra di dialogo _[!UICONTROL Seleziona elenco account live]_, seleziona un elenco account pubblicato in precedenza e fai clic su **[!UICONTROL Salva]**.
+
+     ![Seleziona un elenco di account live per il nodo](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}
+
+     Per informazioni dettagliate sulla creazione e la pubblicazione di elenchi di account, vai a [Elenchi account](../accounts/account-lists.md).
 
 _Per creare un segmento di pubblico:_
 

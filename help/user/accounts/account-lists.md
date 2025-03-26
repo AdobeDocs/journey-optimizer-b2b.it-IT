@@ -1,12 +1,13 @@
 ---
 title: Elenchi account
 description: Scopri gli elenchi di account e come utilizzarli per eseguire il targeting degli account tramite percorsi di account.
-exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-hidefromtoc: true
 hide: true
-source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
+hidefromtoc: true
+badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
@@ -140,7 +141,7 @@ Dopo aver creato un elenco di account dinamici, puoi definire il set di filtri u
 
 >[!ENDTABS]
 
-## Publish - Elenco account
+## Pubblicare un elenco di account
 
 Puoi procedere alla pubblicazione di un elenco di account non appena il set di filtri è completo.
 
@@ -148,11 +149,11 @@ Puoi procedere alla pubblicazione di un elenco di account non appena il set di f
 
 >[!TAB Elenco account statico]
 
-1. Fai clic su **[!UICONTROL Publish]** in alto a destra.
+1. Fai clic su **[!UICONTROL Pubblica]** in alto a destra.
 
-   ![Fai clic su Publish in alto a destra](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
+   ![Fai clic su Pubblica in alto a destra](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
 
-1. Nella finestra di dialogo _[!UICONTROL Elenco account statici Publish]_, fai clic su **[!UICONTROL Publish]** per confermare.
+1. Nella finestra di dialogo _[!UICONTROL Pubblica elenco account statico]_, fai clic su **[!UICONTROL Pubblica]** per confermare.
 
    ![Conferma pubblicazione per un elenco account statico](./assets/account-lists-static-publish-confirm.png){width="400"}
 
@@ -162,11 +163,11 @@ Lo stato dell&#39;elenco account statico diventa _[!UICONTROL Live]_ ed è dispo
 
 Puoi procedere alla pubblicazione di un elenco di account dinamici non appena il set di filtri è completo. Una volta che l’elenco degli account è nello stato Live, è disponibile per la selezione in un nodo percorso di tipi di pubblico Account.
 
-1. Fai clic su **[!UICONTROL Publish]** in alto a destra.
+1. Fai clic su **[!UICONTROL Pubblica]** in alto a destra.
 
-   ![Fai clic su Publish in alto a destra](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
+   ![Fai clic su Pubblica in alto a destra](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
 
-1. Nella finestra di dialogo _[!UICONTROL Elenco account dinamici Publish]_, fai clic su **[!UICONTROL Publish]** per confermare.
+1. Nella finestra di dialogo _[!UICONTROL Pubblica elenco account dinamici]_, fai clic su **[!UICONTROL Pubblica]** per confermare.
 
    ![Conferma pubblicazione per un elenco account dinamico](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
