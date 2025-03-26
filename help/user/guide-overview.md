@@ -2,9 +2,9 @@
 title: Documentazione di Adobe Journey Optimizer B2B Edition
 description: Scopri come utilizzare le funzioni di Adobe Journey Optimizer B2B edition per orchestrare account e acquistare percorsi di gruppi utilizzando l’intelligenza artificiale generativa integrata e l’automazione leader di settore.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 9e19b8b22c237f43fef3a5ed4c093ad12ff41781
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '680'
 ht-degree: 7%
 
 ---
@@ -31,11 +31,17 @@ Con le licenze Adobe Express Enterprise, puoi sfruttare una suite completa di fu
 
 [!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Scopri come modificare le immagini con Adobe Express"}
 
+>[!TAB Campi personalizzabili del frammento]
+
+In qualità di designer di contenuto, puoi designare un parametro per un componente nel frammento come modificabile. Questo consente all’autore del messaggio e-mail o del modello di specificare un valore di campo personalizzato specifico per le proprie esigenze. Questo flag di personalizzazione è limitato ai componenti visivi immagine, testo e pulsante.
+
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/fragment-authoring.md#enable-custom-fields" tooltip="Scopri i campi personalizzati per i frammenti di contenuto"}
+
 >[!TAB Inoltro eventi AEP]
 
-Gli amministratori ora possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP). Queste configurazioni consentono agli addetti al marketing di creare percorsi di account che reagiscono agli eventi esperienza AEP.
+Gli amministratori ora possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP). Queste configurazioni consentono agli addetti al marketing di creare percorsi di account che reagiscono agli eventi esperienza di AEP.
 
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Scopri le definizioni degli eventi AEP utilizzate per l’orchestrazione del percorso"}
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Scopri le definizioni degli eventi di AEP utilizzate per l’orchestrazione del percorso"}
 
 >[!TAB Acquisto di filtri di gruppo per elenchi avanzati]
 

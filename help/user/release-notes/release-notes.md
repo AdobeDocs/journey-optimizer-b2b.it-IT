@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione più recente per l’edizione B2B di Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 943dd70a732f8dbcee5c5031c1bc3b15966d66f1
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 10%
+source-wordcount: '1601'
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,21 @@ Journey Optimizer B2B edition è stato sviluppato in modalità nativa su [!DNL A
 
 Rivedi la [descrizione del prodotto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} per informazioni su adesioni, guardrail delle prestazioni e limitazioni.
 
-## Note sulla versione di gennaio 2025 {#Jan-2025}
+## Note sulla versione 2025.2
+
+**Data di rilascio**: 11 marzo 2025
+
+Questa versione include le nuove funzionalità e i miglioramenti seguenti:
+
+| Tipo | Elemento | Descrizione |
+| ---- | ---- | ----------- |
+| Nuova funzionalità | Campi personalizzabili: frammenti di contenuto | In qualità di designer di frammenti di contenuto, puoi designare un parametro per un componente del frammento come modificabile. Questo consente all’autore del messaggio e-mail o del modello di specificare un valore di campo personalizzato specifico per le proprie esigenze. Questo flag di personalizzazione è limitato ai componenti visivi immagine, testo e pulsante. <a href="../content/fragment-authoring.md#enable-custom-fields">Ulteriori informazioni</a> |
+| Nuova funzionalità | Ruoli incorporati B2B e autorizzazioni per il prodotto | Experience Platform ora include un set di ruoli incorporati (predefiniti) che puoi utilizzare per gestire l’accesso alle funzionalità dei prodotti B2B. <a href="../admin/user-management.md#b2b-built-in-roles">Ulteriori informazioni</a> <br/>Gli amministratori possono ora definire ruoli personalizzati in Adobe Experience Platform per includere le autorizzazioni per i prodotti Journey Optimizer B2B edition.  <a href="../admin/user-management.md#b2b-product-permissions">Ulteriori informazioni</a> |
+| Miglioramento | Altri quattro modelli e-mail di esempio | La libreria dei modelli e-mail di esempio ora include quattro modelli SecurFinacial come esempi di contenuto per coinvolgere di nuovo, informare, nutrire e fornire feedback |
+
+
+
+## Note sulla versione 2025.1 {#Jan-2025}
 
 **Data di rilascio**: 6 febbraio 2025
 
@@ -25,7 +39,7 @@ Questa versione include le nuove funzionalità e i miglioramenti seguenti:
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Nuova funzionalità | Inoltro eventi esperienza | Gli amministratori possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP). Queste configurazioni consentono agli addetti al marketing di creare percorsi di account che reagiscono agli eventi esperienza AEP.  <a href="../admin/configure-aep-events.md">Ulteriori informazioni</a> |
+| Nuova funzionalità | Inoltro eventi esperienza | Gli amministratori possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP). Queste configurazioni consentono agli addetti al marketing di creare percorsi di account che reagiscono agli eventi esperienza di AEP.  <a href="../admin/configure-aep-events.md">Ulteriori informazioni</a> |
 | Nuova funzionalità | Destinazioni di media a pagamento | Qualifica le persone note per le campagne multimediali a pagamento da un percorso di account in modo da poterle coinvolgere ulteriormente su piattaforme pubblicitarie, come LinkedIn. Utilizza un nodo di percorsi suddivisi in un percorso di conti per segmentare i tipi di pubblico degli account in base a un comportamento specifico e identificare gli account che richiedono un coinvolgimento aggiuntivo. Quindi, aggiungi persone da tali account a un pubblico di clienti esterni tramite Real-time CDP a una destinazione di contenuti multimediali a pagamento supportata. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Ulteriori informazioni</a> |
 | Nuova funzionalità | Dashboard intelligente | Visualizza il progresso dei gruppi di acquisto attraverso i loro percorsi di account, comprese le informazioni generate dall’intelligenza artificiale per un’analisi più intelligente e una definizione precisa delle priorità degli account. <a href="../dashboards/intelligent-dashboard.md">Ulteriori informazioni</a> |
 | Nuova funzionalità | Dettagli del gruppo di acquisto e dell’account | Visualizza informazioni a livello di gruppo di acquisto e di account per disporre di più dati contestuali e storici quando inizi a coinvolgere un cliente.<p>I dettagli del gruppo di acquisto includono qualsiasi intento di prime parti rilevato. <a href="../buying-groups/buying-group-details.md">Ulteriori informazioni</a><p>I conti dei dettagli account evidenziano l&#39;aumento del coinvolgimento rilevato intento, in modo da poter avvisare le vendite su account pronti per un impegno mirato alle vendite personalizzato.  <a href="../accounts/account-details.md">Ulteriori informazioni</a> |
@@ -46,7 +60,7 @@ Questa versione include le nuove funzionalità e i miglioramenti seguenti:
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Nuova funzionalità | Contenuto condizionale nei modelli e-mail | Personalizza il contenuto delle e-mail in base al comportamento del destinatario e alle caratteristiche del profilo, sia a livello di account che di lead. <p>Quando crei un’e-mail per il percorso di account in e-mail designer, utilizza le regole condizionali per definire più varianti per qualsiasi componente di contenuto. <a href="../content/conditional-content.md">Ulteriori informazioni</a> |
+| Nuova funzionalità | Contenuto condizionale nei modelli e-mail | Personalizza il contenuto delle e-mail in base al comportamento del destinatario e alle caratteristiche del profilo, sia a livello di account che di lead. <p>Quando crei un’e-mail per il percorso di account nello spazio di progettazione visiva dell’e-mail, utilizza le regole condizionali per definire più varianti per qualsiasi componente di contenuto. <a href="../content/conditional-content.md">Ulteriori informazioni</a> |
 | Nuova funzionalità | _Aggiungi all&#39;elenco_ e _Rimuovi dall&#39;elenco_ persone azioni in percorsi | Personalizza il contenuto delle e-mail in base al comportamento del destinatario e alle caratteristiche del profilo, sia a livello di account che di lead. <a href="../journeys/action-nodes.md">Ulteriori informazioni</a> |
 | Nuova funzionalità | Governance dei contenuti e blocco dei componenti | Per garantire il rispetto delle progettazioni di contenuti approvate, utilizza le funzioni di governance dei contenuti per bloccare i componenti di contenuto dei modelli e-mail. Attivando la governance dei contenuti nel modello e-mail, gli esperti di marketing possono modificare solo gli elementi consentiti per mantenerli allineati alla strategia dei contenuti. <a href="../content/template-content-governance.md">Ulteriori informazioni</a> |
 | Nuova funzionalità | Fasi del gruppo di acquisto | Quando definisci e pubblichi un modello di staging per gruppi di acquisto personalizzato, puoi tenere traccia della progressione del gruppo di acquisto attraverso le fasi del ciclo di vita del gruppo di acquisto. Utilizzare queste fasi per identificare le azioni migliori successive per i membri del gruppo di acquisto. Puoi configurare le regole di transizione e i nodi del percorso che determinano la progressione dell’area di visualizzazione e attivano le azioni in base alle modifiche. <a href="../buying-groups/buying-group-stages.md">Ulteriori informazioni</a> |
