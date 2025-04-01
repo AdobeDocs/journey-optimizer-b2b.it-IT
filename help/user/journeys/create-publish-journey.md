@@ -2,10 +2,11 @@
 title: Creazione e pubblicazione di un Percorso di account
 description: Scopri come creare e pubblicare percorsi di account.
 feature: Account Journeys
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
+source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 0%
+source-wordcount: '773'
+ht-degree: 2%
 
 ---
 
@@ -33,9 +34,9 @@ La mappa del percorso __ è la zona centrale nella finestra di progettazione del
 
 Dopo aver creato un percorso di account e aver aggiunto il pubblico, crea il percorso utilizzando i nodi. La mappa del percorso fornisce un’area di lavoro in cui puoi creare casi di utilizzo del marketing B2B a più passaggi utilizzando i seguenti tipi di nodo per creare un percorso di account:
 
-* [Esegui un&#39;azione](./action-nodes.md)
+* [Intraprendi un’azione](./action-nodes.md)
 * [Ascolta un evento](./listen-for-event-nodes.md)
-* [Dividere i percorsi](./split-merge-paths-nodes.md)
+* [Suddividi percorsi](./split-merge-paths-nodes.md)
 * [Attendere](./wait-nodes.md)
 * [Unisci percorsi](./split-merge-paths-nodes.md)
 
@@ -109,7 +110,7 @@ Quando pubblichi un percorso, può iniziare immediatamente o in una data futura 
 
 ## Pubblicare un percorso di account
 
-Se il percorso di account è privo di errori, puoi pubblicarlo.
+È possibile pubblicare un percorso se non sono presenti errori di blocco. Quando viene pubblicato, lo stato del percorso cambia in _Live_. Se il percorso presenta errori, il pulsante _[!UICONTROL Pubblica]_ è inattivo con le informazioni sul contenuto: `Resolve errors before publishing`.
 
 1. Nella parte superiore destra della mappa del percorso, fai clic su **[!UICONTROL Pubblica]**.
 

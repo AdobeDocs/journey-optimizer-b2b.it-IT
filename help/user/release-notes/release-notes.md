@@ -2,9 +2,9 @@
 title: Note sulla versione
 description: Note sulla versione più recente per l’edizione B2B di Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 943dd70a732f8dbcee5c5031c1bc3b15966d66f1
+source-git-commit: 60bda27f2d7b6bb5b8dd07ec26e0b608b8858318
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1650'
 ht-degree: 9%
 
 ---
@@ -27,9 +27,8 @@ Questa versione include le nuove funzionalità e i miglioramenti seguenti:
 | ---- | ---- | ----------- |
 | Nuova funzionalità | Campi personalizzabili: frammenti di contenuto | In qualità di designer di frammenti di contenuto, puoi designare un parametro per un componente del frammento come modificabile. Questo consente all’autore del messaggio e-mail o del modello di specificare un valore di campo personalizzato specifico per le proprie esigenze. Questo flag di personalizzazione è limitato ai componenti visivi immagine, testo e pulsante. <a href="../content/fragment-authoring.md#enable-custom-fields">Ulteriori informazioni</a> |
 | Nuova funzionalità | Ruoli incorporati B2B e autorizzazioni per il prodotto | Experience Platform ora include un set di ruoli incorporati (predefiniti) che puoi utilizzare per gestire l’accesso alle funzionalità dei prodotti B2B. <a href="../admin/user-management.md#b2b-built-in-roles">Ulteriori informazioni</a> <br/>Gli amministratori possono ora definire ruoli personalizzati in Adobe Experience Platform per includere le autorizzazioni per i prodotti Journey Optimizer B2B edition.  <a href="../admin/user-management.md#b2b-product-permissions">Ulteriori informazioni</a> |
+| Nuova funzionalità | Tipi di duplicazione di percorso | Quando duplichi un percorso di account, puoi includere i dettagli del nodo, escluse le e-mail e i messaggi SMS creati in Journey Optimizer B2B edition. In alternativa, potete creare una copia di ossatura della struttura e dei flussi di tracciato, senza specificare i dettagli e le impostazioni del nodo. <a href="../journeys/journey-overview.md#duplicate-journey">Ulteriori informazioni</a> |
 | Miglioramento | Altri quattro modelli e-mail di esempio | La libreria dei modelli e-mail di esempio ora include quattro modelli SecurFinacial come esempi di contenuto per coinvolgere di nuovo, informare, nutrire e fornire feedback |
-
-
 
 ## Note sulla versione 2025.1 {#Jan-2025}
 
