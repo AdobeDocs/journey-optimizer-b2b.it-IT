@@ -3,10 +3,10 @@ title: Dividi e unisci percorsi
 description: Scopri i tipi di nodo percorsi suddivisi e di unione che puoi utilizzare per orchestrare i percorsi di account in Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: bc264c94ff870733ee433a317bbbd885a30fc259
+source-git-commit: 0902e5569847be148bb5037c99cadf0b00c67b8c
 workflow-type: tm+mt
-source-wordcount: '1587'
-ht-degree: 2%
+source-wordcount: '1665'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ Utilizza i nodi del percorso di unione e divisione nel percorso di account per o
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
-## Dividere i percorsi
+## Suddividi percorsi
 
 Aggiungi un nodo _Percorsi suddivisi_ per definire uno o più percorsi segmentati in base agli attributi account o persone.
 
@@ -54,21 +54,19 @@ _Come funziona un percorso diviso per nodo persone?_
 | ------------ | --------------- | ----------- |
 | [Account](#add-a-split-path-by-account-node) | Attributi dell’account | Attributi dal profilo dell’account, tra cui: <li>Entrate annuali</li><li>Città</li><li>Paese</li><li>Dimensione dipendente</li><li>Settore</li><li>Nome</li><li>Codice SIC</li><li>Stato</li> |
 | | [!UICONTROL Filtri speciali] > [!UICONTROL Ha un gruppo di acquisto] | L’account non ha membri di gruppi di acquisto. Può essere valutato anche in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li> |
-| [Persone](#add-a-split-path-by-people-node) > [!UICONTROL Solo attributi persone] | [!UICONTROL Attributi della persona] | Attributi dal profilo della persona, tra cui: <li>Città</li><li>Paese</li><li>Data di nascita</li><li>Indirizzo e-mail</li><li>E-mail non valida</li><li>E-mail sospesa</li><li>Nome</li><li>Area dello stato dedotta</li><li>Qualifica</li><li>Cognome</li><li>Numero di telefono cellulare</li><li>Numero di telefono</li><li>Codice postale</li><li>Stato</li><li>Annulla l&#39;iscrizione</li><li>Motivo per annullamento abbonamento</li> |
+| | [!UICONTROL Filtri speciali] > [!UICONTROL Ha opportunità] | L’account è o non è correlato a un’opportunità. Può essere valutato anche in base a uno o più dei seguenti attributi di opportunità: <li>Importo<li>Data di chiusura<li>Descrizione<li>Ricavi previsti<li>Trimestre fiscale<li>Anno fiscale<li>Categoria di previsione<li>Nome categoria previsione<li>È chiuso<li>È vinto</li><li>Data dell’ultima attività</li><li>Origine persona<li>Nome</li><li>Passaggio successivo</li><li>Probabilità<li>Quantità<li>Fase</li><li>Tipo |
+| [Persone](#add-a-split-path-by-people-node) > [!UICONTROL Solo attributi persone] | [!UICONTROL Attributi della persona] | Attributi dal profilo della persona, tra cui: <li>Città</li><li>Paese</li><li>Data di nascita</li><li>Indirizzo e-mail</li><li>E-mail non valida</li><li>E-mail sospesa</li><li>Nome</li><li>Area dello stato dedotta</li><li>Posizione lavorativa</li><li>Cognome</li><li>Numero di telefono cellulare</li><li>Numero di telefono</li><li>Codice postale</li><li>Stato</li><li>Annulla l&#39;iscrizione</li><li>Motivo per annullamento abbonamento</li> |
 | | [!UICONTROL Cronologia attività] > [!UICONTROL E-mail] | Attività e-mail associate al percorso: <li>[!UICONTROL Collegamento selezionato nell&#39;e-mail]</li><li>E-mail aperta</li><li>E-mail consegnata</li><li>È stato inviato un messaggio e-mail</li> Queste condizioni vengono valutate utilizzando un messaggio e-mail selezionato in precedenza nel percorso. |
 | | [!UICONTROL Cronologia attività] > [!UICONTROL Valore dati modificato] | Per un attributo persona selezionato, si è verificata una modifica del valore. Questi tipi di modifica includono: <li>Nuovo valore</li><li>Valore precedente</li><li>Motivo</li><li>Origine</li><li>Data di attività</li><li>Min numero di volte</li> |
 | | [!UICONTROL Cronologia attività] > [!UICONTROL Momento di interesse] | L’attività del momento di interesse definita nell’istanza di Marketo Engage associata. I vincoli includono: <li>Milestone</li><li>E-mail</li><li>Web</li> |
 | | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>Ruolo</li> |
 | | [!UICONTROL Filtri speciali] > [!UICONTROL Membro dell&#39;elenco] | La persona è o non è membro di uno o più elenchi Marketo Engage. |
+| | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del programma] | La persona è o non è membro di uno o più programmi Marketo Engage. |
 | [Persone](#add-a-split-path-by-people-node) > [!UICONTROL Solo attributi account-persona] | Ruolo negli attributi dell’account | Alla persona è o non è assegnata una mansione nell’account. Vincoli facoltativi: <li>Immetti un nome di ruolo</li> |
 
 <!-- 
 
 Add back for next release:
-
-Accounts:
-
-| | [!UICONTROL Special filters] > [!UICONTROL Has opportunity] | The account is or is not related to an opportunity. Can also be evaluated against one or more of the following opportunity attributes: <li>Amount<li>Close date<li>Description<li>Expected revenue<li>Fiscal quarter<li>Fiscal year<li>Forecast category<li>Forecast category name<li>Is closed<li>Is won</li><li>Last activity date</li><li>Person source<li>Name</li><li>Next step</li><li>Probability<li>Quantity<li>Stage</li><li>Type |
 
 People:
 
