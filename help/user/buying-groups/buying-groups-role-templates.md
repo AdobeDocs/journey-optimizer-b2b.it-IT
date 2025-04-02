@@ -3,9 +3,9 @@ title: Acquisto di modelli di mansione per gruppi
 description: Scopri come definire un modello di ruolo da utilizzare come componente del gruppo di acquisto.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 3ce0b2722e56ef46b84a55f097cd1e8a9d39ceb5
+source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1128'
 ht-degree: 1%
 
 ---
@@ -65,8 +65,8 @@ Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, pe
 
 | Tipo | Condizione |
 | ---- | --------- |
-| Attributi della persona | <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Numero di fax <li>Nome <li>Area dello stato dedotta <li>Qualifica <li>Cognome <li>Secondo nome <li>Numero di telefono cellulare <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo per annullamento abbonamento |
-| Filtri speciali | <li>Membro dell&#39;elenco |
+| Attributi della persona | <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Numero di fax <li>Nome <li>Area dello stato dedotta <li>Posizione lavorativa <li>Cognome <li>Secondo nome <li>Numero di telefono cellulare <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo per annullamento abbonamento |
+| Filtri speciali | <li>Membro dell&#39;elenco <li>Membro del programma |
 | Dati intento | Intento categoria <li>Intento prodotto <li>Intento parola chiave<br/>[Informazioni sui dati intento](../admin/intent-data.md). |
 
 1. Per la prima scheda ruolo, definisci le proprietà del ruolo.
@@ -95,7 +95,7 @@ Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, pe
 
      >[!NOTE]
      >
-     >Se nello schema di pubblico dell’account di Experience Platform sono definiti campi persona personalizzati, questi campi sono disponibili anche per l’utilizzo come attributi persona in determinate condizioni.
+     >Se hai dei campi persona personalizzati definiti nello schema del pubblico dell’account in Experience Platform, questi campi sono disponibili per l’utilizzo come attributi persona in determinate condizioni.
 
    * Utilizza l’attributo per creare un filtro corrispondente utilizzando uno o più valori.
 
@@ -111,21 +111,21 @@ Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, pe
 
    ![Modello ruoli con più ruoli definiti](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
->[!BEGINSHADEBOX &quot;Appartenenza a elenco Marketi Engage&quot;]
+>[!BEGINSHADEBOX &quot;Appartenenza all&#39;elenco Marketo Engage&quot;]
 
-In Marketo Engage, _Campagne avanzate_ verifica l&#39;appartenenza ai programmi per assicurarsi che i lead non ricevano e-mail duplicate e non siano membri di più flussi di e-mail contemporaneamente. In Journey Optimizer B2B, è possibile verificare l’appartenenza a un elenco di Marketi Engage come condizione per il modello dei ruoli, in modo da evitare duplicazioni nell’acquisto di appartenenze a gruppi e nelle attività di percorso.
+In Marketo Engage, _Campagne avanzate_ verifica l&#39;appartenenza ai programmi per assicurarsi che i lead non ricevano e-mail duplicate e non siano membri di più flussi di e-mail contemporaneamente. In Journey Optimizer B2B, puoi verificare la presenza dell’iscrizione all’elenco Marketo Engage come condizione per il modello dei ruoli, in modo da eliminare le duplicazioni nell’iscrizione al gruppo di acquisto e nelle attività di percorso.
 
-Per utilizzare l&#39;appartenenza a un elenco come condizione del ruolo, espandere **[!UICONTROL Filtri speciali]** e trascinare la condizione **[!UICONTROL Membro dell&#39;elenco]** nello spazio del filtro. Quindi completa la definizione del filtro per valutare l’appartenenza a uno o più elenchi di Marketi Engage.
+Per utilizzare l&#39;appartenenza a un elenco come condizione del ruolo, espandere **[!UICONTROL Filtri speciali]** e trascinare la condizione **[!UICONTROL Membro dell&#39;elenco]** nello spazio del filtro. Quindi completa la definizione del filtro per valutare l’appartenenza a uno o più elenchi Marketo Engage.
 
-![Condizione del modello dei ruoli per l&#39;appartenenza all&#39;elenco dei Marketi Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+![Condizione del modello dei ruoli per l&#39;appartenenza all&#39;elenco di Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
 Le modifiche vengono salvate automaticamente nello stato _Bozza_. Se non sei pronto per pubblicare il modello di ruoli, fai clic sulla freccia sinistra (indietro) nella parte superiore della pagina e torna all&#39;elenco _[!UICONTROL Modelli di ruoli]_.
 
-### Publish il modello di ruoli
+### Pubblicare il modello di ruoli
 
-Se il modello è pronto per l&#39;uso, fare clic su **[!UICONTROL Publish]** in alto a destra.
+Se il modello è pronto per l&#39;uso, fai clic su **[!UICONTROL Pubblica]** in alto a destra.
 
 La pubblicazione del modello imposta lo stato su _Live_ e lo rende disponibile per l&#39;associazione a un interesse per la soluzione. Per pubblicare il modello dei ruoli deve essere presente almeno un ruolo definito.
 
