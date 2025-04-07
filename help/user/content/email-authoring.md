@@ -3,9 +3,9 @@ title: Authoring di e-mail
 description: Scopri come creare contenuti e-mail personalizzati da utilizzare in un Percorso di account.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1297'
 ht-degree: 10%
 
 ---
@@ -144,6 +144,10 @@ Dopo il salvataggio, l&#39;e-mail viene visualizzata nella pagina dei dettagli d
 ### Personalizzare il contenuto
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+>[!NOTE]
+>
+>Se per il percorso di account sono definiti _[!UICONTROL I miei token]_, è possibile utilizzare anche questi token specifici del percorso per il contenuto delle e-mail. Per ulteriori informazioni, consulta [Token personalizzati per la personalizzazione delle e-mail](./personalization-my-tokens.md).
 
 ### Modifica tracciamento URL collegato
 

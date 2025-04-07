@@ -3,9 +3,9 @@ title: Authoring di SMS
 description: Scopri come inviare messaggi di testo (SMS) ai clienti sui loro dispositivi mobili e come personalizzare e visualizzare in anteprima i messaggi in formato testo dall’editor SMS.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1368'
 ht-degree: 3%
 
 ---
@@ -78,7 +78,7 @@ Puoi creare un messaggio composto da un massimo di 1600 caratteri, ogni 160 cara
 
 1. Nella finestra di dialogo, scegli il tipo di URL da collegare:
 
-   * **[!UICONTROL Pagina di destinazione]** - Scegliere questa opzione per selezionare dall&#39;istanza di Marketo Engage una delle pagine di destinazione approvate di Adobe Marketo Engage Design Studio. Seleziona l’area di lavoro, quindi fai clic sulla pagina di destinazione.
+   * **[!UICONTROL Pagina di destinazione]** - Scegli questa opzione per selezionare una delle pagine di destinazione approvate di Adobe Marketo Engage dalla tua istanza di Marketo Engage. Seleziona l’area di lavoro, quindi fai clic sulla pagina di destinazione.
 
    * **[!UICONTROL URL esterno]** - Questo tipo è qualsiasi URL esterno immesso nella casella di testo.
 
@@ -90,8 +90,8 @@ Puoi creare un messaggio composto da un massimo di 1600 caratteri, ogni 160 cara
 
      >[!NOTE]
      >
-     >Se consenti il tracciamento ma disabiliti _[!UICONTROL Includi mkt_tok]_, l&#39;URL di destinazione non include il parametro della stringa di query `mkt_tok` dopo il reindirizzamento. Questo parametro viene utilizzato dalle pagine di destinazione del Marketo Engage e da Munchkin per garantire il tracciamento delle attività della persona (ad esempio, quando una persona annulla l’abbonamento a un’e-mail). Non disabilitare questa opzione a meno che il parametro non stia causando problemi sul sito Web.<br/>
-     >Per ulteriori informazioni sull&#39;utilizzo dei codici di tracciamento di Munchkin nel sito Web, consulta la [documentazione del Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Se consenti il tracciamento ma disabiliti _[!UICONTROL Includi mkt_tok]_, l&#39;URL di destinazione non include il parametro della stringa di query `mkt_tok` dopo il reindirizzamento. Questo parametro viene utilizzato dalle pagine di destinazione di Marketo Engage e da Munchkin per garantire il tracciamento delle attività della persona (ad esempio, quando una persona annulla l’iscrizione a un’e-mail). Non disabilitare questa opzione a meno che il parametro non stia causando problemi sul sito Web.<br/>
+     >Per ulteriori informazioni sull&#39;utilizzo dei codici di tracciamento di Munchkin nel tuo sito Web, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Finestra di dialogo Aggiungi collegamento per messaggio SMS](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -101,7 +101,7 @@ Puoi creare un messaggio composto da un massimo di 1600 caratteri, ogni 160 cara
 
 1. Nella sezione _[!UICONTROL Proprietà SMS]_, immetti un **[!UICONTROL Nome]** (obbligatorio, massimo 100 caratteri) e una **[!UICONTROL Descrizione]** (facoltativo, massimo 300 caratteri) per il messaggio.
 
-   Ad Alpha, per questi campi sono consentiti caratteri numerici e speciali. I seguenti caratteri riservati sono **non consentiti**: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>` e `|`.
+   Per questi campi sono consentiti caratteri Alpha, numerici e speciali. I seguenti caratteri riservati sono **non consentiti**: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>` e `|`.
 
 1. Scegli il tipo di SMS ****:
 
@@ -116,7 +116,7 @@ Puoi creare un messaggio composto da un massimo di 1600 caratteri, ogni 160 cara
 
    ![Esegui un&#39;azione - Invia SMS](./assets/sms-properties.png){width="700" zoomable="yes"}
 
-   Il numero del destinatario è sempre mappato al campo `Lead.mobilePhone` nel Marketo Engage.
+   Il numero del destinatario è sempre mappato al campo `Lead.mobilePhone` in Marketo Engage.
 
 ### Simulare il contenuto del messaggio di testo {#preview-test}
 

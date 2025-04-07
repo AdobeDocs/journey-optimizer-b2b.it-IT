@@ -3,9 +3,9 @@ title: Stadi del gruppo di acquisto
 description: Scopri come acquistare fasi di percorso e come definirle per monitorare la progressione del gruppo rispetto agli obiettivi di vendita.
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2344'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ Le regole di transizione determinano il modo in cui un gruppo di acquisto può s
 
 Finché il modello di fasi del gruppo di acquisto rimane nello stato _Bozza_, puoi modificare le fasi e le regole di transizione.
 
-Per visualizzare il modello 2D:
+_Per visualizzare il modello bozza:_
 
 1. Nel menu di navigazione a sinistra, vai a **[!UICONTROL Account]** > **[!UICONTROL Gruppi di acquisto]**.
 
@@ -187,6 +187,20 @@ Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the
 Info icon beside the name - display the description on click.
 Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
 
+## Elimina il modello di fasi del gruppo di acquisto
+
+È possibile eliminare il modello delle fasi del gruppo di acquisto quando si trova nello stato Bozza o Pubblicato. Se è pubblicato (in tempo reale), puoi eliminarlo solo se non è associato a un interesse per la soluzione.
+
+1. Nel menu di navigazione a sinistra, vai a **[!UICONTROL Account]** > **[!UICONTROL Gruppi di acquisto]**.
+
+1. Nella pagina _Gruppi di acquisto_ selezionare la scheda **[!UICONTROL Fasi]**.
+
+1. Fai clic sull&#39;icona del menu _Altro_ (**...**) accanto al nome del modello di stadi e scegli **[!UICONTROL Elimina]**.
+
+   ![Acquisto di modelli di fasi del gruppo - menu Altro](./assets/stages-model-list-more-menu.png){width="700"}
+
+1. Nella finestra di dialogo, fai clic su **[!UICONTROL Elimina]** per confermare.
+
 ## Utilizzare il modello nei percorsi di account
 
 Quando il modello delle fasi di acquisto è in uno stato _Live_ (pubblicato), aggiungi il modello agli interessi della soluzione in cui desideri utilizzarlo per monitorare la progressione del gruppo di acquisto. Nei percorsi di account è possibile includere azioni per la transizione dei conti a uno stadio specifico e aggiungere transizioni di stadio come eventi che determinano il modo in cui i conti si spostano nel percorso.
@@ -214,7 +228,7 @@ Per ogni interesse di soluzione esistente in cui si desidera associare il modell
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-### Dividere i percorsi
+### Suddividi percorsi
 
 Utilizzando un [nodo percorso suddiviso](../journeys/journey-nodes.md#split-paths), puoi filtrare a livello di account o di persone in base alle fasi del gruppo di acquisto. Ad esempio, aggiungi una fase del gruppo di acquisto come condizione del percorso quando dividi i percorsi per membro del gruppo di acquisto.
 

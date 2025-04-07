@@ -3,9 +3,9 @@ title: Modelli e-mail
 description: Scopri come gestire e creare modelli e-mail utilizzati per creare e-mail di percorso dell’account in modo semplice ed efficiente.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 81c2f7be29e3fdb0b279a2ec8b786e4cf68596da
+source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Per cercare un modello per nome, immettere una stringa di testo nella barra di r
 
 ![Accedi alla libreria dei modelli e-mail e filtra per nome e date](./assets/templates-list-search-filter.png){width="700" zoomable="yes"}
 
-Personalizzare le colonne da visualizzare nella tabella facendo clic sull&#39;icona _Personalizza tabella_ in alto a destra. Selezionare le colonne da visualizzare e fare clic su **[!UICONTROL Applica]**.
+Personalizza le colonne da visualizzare nella tabella facendo clic sull&#39;icona _Personalizza tabella_ ( ![Personalizza icona tabella](../assets/do-not-localize/icon-column-settings.svg) ) in alto a destra. Selezionare le colonne da visualizzare e fare clic su **[!UICONTROL Applica]**.
 
 Dall’elenco dei modelli visualizzato, puoi eseguire le azioni descritte nelle sezioni seguenti.
 

@@ -2,31 +2,30 @@
 title: Pagine di destinazione
 description: Scopri le pagine di destinazione e come crearle e gestirle per supportare percorsi di account e campagne.
 feature: Content
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '2188'
 ht-degree: 2%
 
 ---
 
 # Pagine di destinazione
 
-Una pagina di destinazione è una pagina web indipendente in cui puoi indirizzare contatti e clienti dopo che hanno fatto clic su un elemento collegato in un’e-mail, un messaggio SMS o qualsiasi posizione digitale. Puoi incorporare queste pagine nei tuoi percorsi di account per consentire ai potenziali clienti e ai clienti di visualizzare i messaggi sul web e i progressi nei tuoi percorsi di account. Puoi creare, personalizzare e visualizzare in anteprima le pagine di destinazione nel Designer Landing Pages (Pagine di destinazione).
+Una pagina di destinazione è una pagina web indipendente in cui puoi indirizzare contatti e clienti dopo che hanno fatto clic su un elemento collegato in un’e-mail, un messaggio SMS o qualsiasi posizione digitale. Puoi incorporare queste pagine nei tuoi percorsi di account per consentire ai potenziali clienti e ai clienti di visualizzare i messaggi sul web e i progressi nei tuoi percorsi di account. Puoi creare, personalizzare e visualizzare in anteprima le pagine di destinazione nell’area di progettazione visiva della pagina di destinazione.
 
 Per indirizzare i clienti a una pagina web definita quando fanno clic su un collegamento specifico, crea una pagina di destinazione in Journey Optimizer B2B edition.
 
 * Creare la pagina
 * Progettare la pagina di destinazione e creare i contenuti
 * Verifica la pagina
-* Publish la pagina
+* Pubblicare la pagina
 * Collega alla pagina dal contenuto del percorso
 
 Ad esempio, puoi creare e progettare pagine di destinazione per indirizzare gli utenti a informazioni online. La pagina potrebbe includere un modulo in cui gli utenti possono dare il consenso o rinunciare alla ricezione delle comunicazioni. Oppure potrebbe essere l&#39;opportunità di abbonarsi a comunicazioni ricorrenti, come una newsletter.
 
-Puoi creare, personalizzare e visualizzare in anteprima le pagine di destinazione nella finestra di progettazione visiva.
+Nello spazio di progettazione visiva puoi creare, personalizzare e visualizzare in anteprima le pagine di destinazione.
 <!-- 
 For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. -->
 
@@ -58,9 +57,9 @@ Lo stato della pagina di destinazione determina la disponibilità del collegamen
 
 | Stato | Descrizione |
 | -------------------- | ----------- |
-| Bozza | Quando crei una pagina di destinazione, questa si trova nello stato Bozza. Rimane in questo stato mentre definisci o modifichi il contenuto visivo e fino a quando non lo pubblichi come pagina in hosting. Azioni disponibili:<br/><ul><li>Modifica nome o descrizione<li>Modifica URL collegamento<li>Modifica in designer visivo<li>Pubblica<li>Duplica<li>Elimina |
-| Pubblicato | Quando pubblichi una pagina di destinazione, questa viene ospitata nell’istanza B2B edition di Journey Optimizer e diventa disponibile per il collegamento in un contenuto di e-mail o SMS. Azioni disponibili:<br/><ul><li>Modifica nome o descrizione<li>Modifica URL collegamento<li>Aggiungere un collegamento nel contenuto di un messaggio e-mail o SMS<li>Crea bozza di versione<li>Duplica<li>Elimina |
-| Pubblicato con bozza | Quando crei una bozza da una pagina di destinazione pubblicata, la versione pubblicata rimane e il contenuto della bozza può essere modificato nella finestra di progettazione visiva. Se pubblichi la bozza della versione, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nella pagina ospitata. Azioni disponibili:<br/><ul><li>Modifica nome o descrizione<li>Modifica URL collegamento<li>Aggiungere un collegamento nel contenuto di un messaggio e-mail o SMS<li>Modifica versione bozza in Progettazione visiva<li>Versione bozza Publish<li>Duplica<li>Elimina (elimina entrambe le versioni)<li>Elimina bozza (torna alla pubblicazione) |
+| Bozza | Quando crei una pagina di destinazione, questa si trova nello stato Bozza. Rimane in questo stato mentre definisci o modifichi il contenuto visivo e fino a quando non lo pubblichi come pagina in hosting. Azioni disponibili:<br/><ul><li>Modifica nome o descrizione<li>Modifica URL collegamento<li>Modifica nello spazio di progettazione visiva<li>Pubblica<li>Duplica<li>Elimina |
+| Pubblicato | Quando pubblichi una pagina di destinazione, questa viene ospitata nell’istanza B2B edition di Journey Optimizer e diventa disponibile per il collegamento in un contenuto di e-mail o SMS. Azioni disponibili:<br/><ul><li>Modifica nome o descrizione<li>Modifica URL collegamento<li>Aggiungere un collegamento nel contenuto di un messaggio e-mail o SMS<li>Crea versione bozza<li>Duplica<li>Elimina |
+| Pubblicato con bozza | Quando crei una bozza da una pagina di destinazione pubblicata, la versione pubblicata rimane e il contenuto della bozza può essere modificato nello spazio di progettazione visiva. Se pubblichi la bozza della versione, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nella pagina ospitata. Azioni disponibili:<br/><ul><li>Modifica nome o descrizione<li>Modifica URL collegamento<li>Aggiungere un collegamento nel contenuto di un messaggio e-mail o SMS<li>Modifica versione bozza in Visual Design Space<li>Pubblica versione bozza<li>Duplica<li>Elimina (elimina entrambe le versioni)<li>Elimina bozza (torna allo stato pubblicato) |
 
 ![Ciclo di vita stato pagina di destinazione](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -76,7 +75,7 @@ Puoi aggiungere una nuova pagina di destinazione in Journey Optimizer B2B editio
 
    * Descrizione: massimo 300 caratteri
 
-   * Sono consentiti caratteri Alpha, numerici e speciali
+   * Alpha, caratteri numerici e speciali sono consentiti
 
    * I caratteri riservati sono **_non consentiti_**: `\ / : * ? " < > |`
 
@@ -90,7 +89,7 @@ Puoi aggiungere una nuova pagina di destinazione in Journey Optimizer B2B editio
 
    ![Scegli come iniziare con la progettazione della pagina di destinazione](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
 
-   Dopo aver selezionato il metodo da utilizzare per avviare la progettazione della pagina di destinazione, utilizzare la finestra di progettazione visiva per [progettare la pagina](./landing-page-design.md).
+   Dopo aver selezionato il metodo da utilizzare per avviare la progettazione della pagina di destinazione, utilizzare lo spazio di progettazione visiva per [progettare la pagina](./landing-page-design.md).
 
 ### Creare da zero
 
@@ -112,7 +111,7 @@ Adobe Journey Optimizer B2B edition consente di importare contenuti HTML esisten
 >
 >L&#39;utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
 
-Puoi personalizzare il contenuto importato in base alle esigenze con il designer visivo.
+Puoi personalizzare il contenuto importato in base alle esigenze con lo spazio di progettazione visiva.
 
 ### Seleziona un modello salvato
 
@@ -142,7 +141,7 @@ Dopo la selezione, viene visualizzata un&#39;anteprima del modello. In modalità
 
 Quando la visualizzazione corrisponde a quella che si desidera utilizzare, fare clic su **[!UICONTROL Usa questo modello]** in alto a destra nella finestra di anteprima.
 
-Questa azione copia il contenuto nel designer del contenuto visivo, dove puoi modificarlo in base alle esigenze.
+Questa azione copia il contenuto nello spazio di progettazione visiva, dove puoi modificarlo in base alle esigenze.
 
 >[!TAB Modelli di esempio]
 
@@ -177,7 +176,7 @@ Le modifiche apportate a una pagina di destinazione dipendono dal suo stato corr
 
    ![Dettagli per la pagina di destinazione con stato Bozza](./assets/landing-page-draft-details.png){width="700" zoomable="yes"}
 
-1. Per apportare modifiche al contenuto nella finestra di progettazione visiva, fare clic su **[!UICONTROL Modifica pagina di destinazione]**.
+1. Per apportare modifiche al contenuto nello spazio di progettazione visivo, fare clic su **[!UICONTROL Modifica pagina di destinazione]**.
 
    Utilizza gli strumenti di progettazione visiva secondo necessità:
 
@@ -189,7 +188,7 @@ Le modifiche apportate a una pagina di destinazione dipendono dal suo stato corr
 
 1. Fai clic su **[!UICONTROL Salva]** o **[!UICONTROL Salva e chiudi]** per tornare ai dettagli della pagina di destinazione.
 
-1. Quando la pagina soddisfa i criteri e desideri renderla disponibile per la visualizzazione, fai clic su **[!UICONTROL Publish]**.
+1. Quando la pagina soddisfa i criteri e desideri renderla disponibile per la visualizzazione, fai clic su **[!UICONTROL Pubblica]**.
 
 >[!TAB Pubblicato]
 
@@ -203,7 +202,7 @@ Le modifiche apportate a una pagina di destinazione dipendono dal suo stato corr
 
 1. Se desideri aggiornare il contenuto, fai clic su **[!UICONTROL Modifica pagina di destinazione]** a destra.
 
-   Fare clic su **[!UICONTROL Crea bozza versione]** nella finestra di dialogo per aprire la bozza versione nella finestra di progettazione visiva.
+   Fare clic su **[!UICONTROL Crea bozza versione]** nella finestra di dialogo per aprire la bozza versione nello spazio di progettazione visivo.
 
    ![Finestra di dialogo Crea bozza versione](./assets/landing-page-create-draft-version.png){width="300"}
 
@@ -217,7 +216,7 @@ Le modifiche apportate a una pagina di destinazione dipendono dal suo stato corr
 
 1. Fai clic su **[!UICONTROL Salva]** o **[!UICONTROL Salva e chiudi]** per tornare ai dettagli della pagina di destinazione.
 
-1. Quando la bozza della pagina di destinazione soddisfa i criteri e desideri rendere disponibili le modifiche nella pagina pubblicata, fai clic su **[!UICONTROL Publish]**.
+1. Quando la bozza della pagina di destinazione soddisfa i criteri e desideri rendere le modifiche disponibili nella pagina pubblicata, fai clic su **[!UICONTROL Pubblica]**.
 
    Quando pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato per l’URL della pagina.
 
@@ -239,7 +238,7 @@ Per aggiornare il contenuto:
 
 1. Fai clic su **[!UICONTROL Salva]** o **[!UICONTROL Salva e chiudi]** per tornare ai dettagli della pagina di destinazione.
 
-1. Quando la pagina della bozza soddisfa i criteri e si desidera rendere disponibili le modifiche, fare clic su **[!UICONTROL Publish]**.
+1. Quando la pagina della bozza soddisfa i criteri e desideri rendere disponibili le modifiche, fai clic su **[!UICONTROL Pubblica]**.
 
    Quando pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nella pagina ospitata.
 
@@ -259,7 +258,7 @@ Se non trovi questo pulsante, non sono stati rilevati problemi.
 
    * `Placeholder links are present in the landing page body`: non dimenticare di sostituire i segnaposto con collegamenti validi.
 
-   * `Text version of HTML is empty`: non dimenticare di definire una versione testuale del corpo della pagina, che viene utilizzata quando non è possibile visualizzare il contenuto di HTML.
+   * `Text version of HTML is empty`: non dimenticare di definire una versione testuale del corpo della pagina, che viene utilizzata quando non è possibile visualizzare il contenuto HTML.
 
    * `Empty link is present in page body`: verificare che tutti i collegamenti nella pagina siano corretti.
 
@@ -292,3 +291,33 @@ Puoi eliminare una pagina di destinazione utilizzando uno dei seguenti metodi:
 Questa azione apre una finestra di dialogo di conferma. È possibile interrompere il processo facendo clic su **[!UICONTROL Annulla]** oppure su **[!UICONTROL Elimina]** per confermare l&#39;eliminazione.
 
 ![Finestra di dialogo Elimina pagina di destinazione](./assets/landing-page-delete-dialog.png){width="400"}
+
+## Collegamento a una pagina di destinazione
+
+In qualità di addetto al marketing o Designer che crea contenuti per e-mail, frammenti e pagine, puoi incorporare collegamenti alle pagine di destinazione pubblicate (live) create nell’istanza di Journey Optimizer B2B edition.
+
+1. Quando lavori nello spazio di progettazione visiva per un frammento, un’e-mail, una pagina di destinazione o un modello, seleziona una parte di testo, un componente pulsante o un componente immagine per il collegamento.
+
+   Le opzioni **[!UICONTROL Collegamento]** sono visualizzate nel pannello di destra.
+
+1. Per l&#39;opzione **[!UICONTROL Tipo]**, scegliere **[!UICONTROL Pagina di destinazione]**.
+
+   ![Opzioni di collegamento per una pagina di destinazione](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
+
+1. Per l&#39;opzione **[!UICONTROL Pagina di destinazione]**, fare clic sull&#39;icona _Seleziona pagina_ ( ![Mostra icona collegamenti](/help/assets/do-not-localize/icon-landing-page-select.svg) ).
+
+1. Nella finestra di dialogo Seleziona pagina di destinazione, imposta **[!UICONTROL Origine pagina di destinazione]** come **[!UICONTROL Journey Optimizer B2B edition]**, seleziona la casella di controllo per la pagina di destinazione dall&#39;elenco delle pagine pubblicate e fai clic su **[!UICONTROL Seleziona]**.
+
+   ![Opzioni di collegamento per una pagina di destinazione](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
+
+1. Per l&#39;opzione **[!UICONTROL Target]**, scegliere il comportamento della destinazione di collegamento:
+
+   * **[!UICONTROL Nessuno]** - apre il collegamento utilizzando il comportamento predefinito del browser.
+   * **[!UICONTROL Vuoto]** - apre il collegamento in una nuova finestra o scheda.
+   * **[!UICONTROL Autonomo]** - apre il collegamento nello stesso frame.
+   * **[!UICONTROL Elemento padre]** - apre il collegamento nel frame principale.
+   * **[!UICONTROL Top]** - apre il collegamento nel corpo completo della finestra.
+
+1. (Solo collegamento di testo) Per sottolineare il testo collegato, selezionare la casella di controllo **[!UICONTROL Sottolinea collegamento]**.
+
+   Puoi impostare stili aggiuntivi per il testo del collegamento, incluso il colore del collegamento, selezionando la scheda **[!UICONTROL Stili]** nel pannello di destra.

@@ -2,9 +2,9 @@
 title: Note sulla versione
 description: Note sulla versione più recente per l’edizione B2B di Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 60bda27f2d7b6bb5b8dd07ec26e0b608b8858318
+source-git-commit: dd93531d76ecb025451f0015eedd9ccce0986cb8
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1816'
 ht-degree: 9%
 
 ---
@@ -16,6 +16,19 @@ Adobe Journey Optimizer B2B edition offre continuamente nuove funzioni, migliora
 Journey Optimizer B2B edition è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Rivedi la [descrizione del prodotto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} per informazioni su adesioni, guardrail delle prestazioni e limitazioni.
+
+## Note sulla versione 2025.3
+
+**Data di rilascio**: mercoledì 1 aprile 2025
+
+Questa versione include le nuove funzionalità e i miglioramenti seguenti:
+
+| Tipo | Elemento | Descrizione |
+| ---- | ---- | ----------- |
+| Nuova funzionalità | Elenchi account | Ora puoi creare un elenco di account statico o dinamico per eseguire il targeting di account denominati in base a criteri definiti, ad esempio settore, posizione o dimensioni dell’azienda. <a href="../accounts/account-lists.md">Ulteriori informazioni</a> |
+| Nuova funzionalità | I miei token per percorsi di account | Ora puoi definire un set di token personalizzati con valori specifici per il percorso di account. Questo set di token personalizzati si chiama _I miei token_ e uno qualsiasi di questi token personalizzati è destinato alla personalizzazione durante la creazione di e-mail di percorso. |
+| Nuova funzionalità | Elimina fasi del gruppo di acquisto | È possibile eliminare il modello delle fasi del gruppo di acquisto quando si trova nello stato Bozza o Pubblicato. Se è pubblicato (in tempo reale), puoi eliminarlo solo se non è associato a un interesse per la soluzione. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Ulteriori informazioni</a> |
+| Miglioramento | Conteggi nodi percorsi | È stata migliorata la visibilità dei conteggi di appartenenza al percorso a livello di nodo. Utilizzare queste informazioni per convalidare la progressione dell&#39;account in un percorso. |
 
 ## Note sulla versione 2025.2
 

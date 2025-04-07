@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentazione su Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando l’intelligenza artificiale generativa incorporata e l’automazione leader del settore.
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 34%
+source-wordcount: '240'
+ht-degree: 38%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 34%
    + [Creazione e pubblicazione di un percorso](./journeys/create-publish-journey.md)
    + [Nodi percorso](./journeys/journey-nodes.md)
    + Nodi percorso {#journey-nodes}
-      + [Pubblico dell’account](./journeys/account-audience-nodes.md)
-      + [Esegui un&#39;azione](./journeys/action-nodes.md)
+      + [Pubblico account](./journeys/account-audience-nodes.md)
+      + [Intraprendi un’azione](./journeys/action-nodes.md)
       + [Ascolta un evento](./journeys/listen-for-event-nodes.md)
       + [Dividere e unire i percorsi](./journeys/split-merge-paths-nodes.md)
       + [Attendere](./journeys/wait-nodes.md)
@@ -36,6 +36,7 @@ ht-degree: 34%
       + [Assistente AI per l’authoring delle e-mail](./content/ai-assistant-emails.md)
       + [Modelli gestiti](./content/email-authoring-governance.md)
       + [E-mail di avviso vendite](./content/sales-alert-email.md)
+   + [Token di personalizzazione personalizzati](./content/personalization-my-tokens.md)
    + [Authoring di SMS](./content/sms-authoring.md)
 + Account {#accounts}
    + [Tipi di pubblico](./audiences/account-audience-overview.md)
@@ -45,7 +46,7 @@ ht-degree: 34%
       + [Modelli di ruolo](./buying-groups/buying-groups-role-templates.md)
       + [Fasi del gruppo di acquisto](./buying-groups/buying-group-stages.md)
       + [Dettagli gruppo di acquisto](./buying-groups/buying-group-details.md)
-      + [Creare gruppi di acquisto](./buying-groups/buying-groups-create.md)
+      + [Crea gruppi acquisti](./buying-groups/buying-groups-create.md)
       + [Esporta elenco account](./audiences/account-list-export.md)
       + [Tipi di pubblico associati all&#39;account LinkedIn](./data/linkedin-account-matched-audiences.md)
       + [Acquistare filtri di gruppo in Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
@@ -64,11 +65,15 @@ ht-degree: 34%
       + Modelli e-mail {#email-templates}
          + [Panoramica](./content/email-templates.md)
          + [Authoring dei modelli e-mail](./content/email-template-authoring.md)
-      + [Modelli di pagina di destinazione](./content/landing-page-templates.md)
+      + Modelli di pagina di destinazione {#landing-page-templates}
+         + [Panoramica](./content/landing-page-templates.md)
+         + [Progettazione del modello della pagina di destinazione](./content/landing-page-template-design.md)
    + Frammenti {#visual-fragments}
       + [Panoramica](./content/fragments.md)
       + [Authoring dei frammenti](./content/fragment-authoring.md)
-   + [Forms](./content/forms.md)
+   + Forms {#forms}
+      + [Panoramica](./content/forms.md)
+      + [Progettazione modulo](./content/form-design.md)
    + Pagine di destinazione {#landing-pages}
       + [Panoramica](./content/landing-pages.md)
       + [Progettazione pagina di destinazione](./content/landing-page-design.md)

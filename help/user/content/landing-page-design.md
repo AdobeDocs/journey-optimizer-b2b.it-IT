@@ -2,20 +2,18 @@
 title: Progettazione pagina di destinazione
 description: Scopri come progettare e creare contenuti per le pagine di destinazione che supportano percorsi di account e campagne.
 feature: Content
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 41041ad94cea758cf11f1255e0de5e49153d992e
+source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 18%
+source-wordcount: '346'
+ht-degree: 17%
 
 ---
 
 # Progettazione pagina di destinazione
 
-Dopo aver [creato una pagina di destinazione](./landing-pages.md#create-a-landing-page), utilizza la finestra di progettazione visiva per creare i componenti struttura e contenuto della pagina.
+Dopo aver [creato una pagina di destinazione](./landing-pages.md#create-a-landing-page), utilizza lo spazio di progettazione visiva per creare i componenti strutturali e di contenuto nella pagina.
 
 ## Aggiungere struttura e contenuto {#structure-content-landing-page}
 
@@ -34,6 +32,10 @@ Dopo aver [creato una pagina di destinazione](./landing-pages.md#create-a-landin
 ### Aggiungere risorse
 
 {{$include /help/_includes/content-design-assets.md}}
+
+### Aggiungi moduli
+
+{{$include /help/_includes/content-design-add-forms.md}}
 
 ### Spostarsi tra livelli, impostazioni e stili
 
@@ -55,7 +57,7 @@ Puoi continuare ad apportare modifiche alla pagina della bozza. Quando sei pront
 
 ### Opzioni di visualizzazione
 
-Sfrutta le opzioni di convalida della visualizzazione e del contenuto disponibili nella finestra di progettazione visiva.
+Sfrutta le opzioni di convalida della visualizzazione e del contenuto disponibili nello spazio di progettazione visiva.
 
 * Zoom in/out del contenuto tra le opzioni di zoom predefinite.
 
@@ -65,11 +67,11 @@ Sfrutta le opzioni di convalida della visualizzazione e del contenuto disponibil
 
 ### Altre opzioni
 
-Dal menu _[!UICONTROL Altro ...]_ nella parte superiore della finestra di progettazione visiva, è possibile eseguire le azioni seguenti:
+Dal menu _[!UICONTROL Altro ...]_ nella parte superiore dello spazio di progettazione visiva, è possibile eseguire le azioni seguenti:
 
 ![Fai clic su Altro per accedere alle azioni del modello](./assets/landing-page-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Ripristina pagina di destinazione]** - Fare clic su questa opzione per cancellare l&#39;area di lavoro della finestra di progettazione visiva e riavviare la creazione del contenuto della pagina.
+* **[!UICONTROL Ripristina pagina di destinazione]** - Fare clic su questa opzione per cancellare l&#39;area di lavoro di progettazione visiva e ricominciare a creare il contenuto della pagina.
 * **[!UICONTROL Modifica la progettazione]** - Torna alla _[!UICONTROL home page di creazione della pagina di destinazione principale]_. A questo punto è possibile scegliere un altro modello per riavviare il processo di progettazione oppure scegliere di progettare la pagina da zero in un&#39;area di lavoro vuota.
 <!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
 * **[!UICONTROL Esporta HTML]** - Scarica il contenuto nell&#39;area di lavoro visiva nel tuo sistema locale in formato HTML racchiuso in un file zip.
