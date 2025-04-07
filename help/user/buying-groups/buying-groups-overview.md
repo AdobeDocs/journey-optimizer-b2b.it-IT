@@ -3,10 +3,10 @@ title: Gruppi di acquisto
 description: Scopri come acquistare gruppi in Journey Optimizer B2B edition può aumentare l’efficacia del marketing identificando e indirizzando i membri agli elenchi dei tuoi account.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 8b2cfac4785e95e4fb994ac87068f59add40171d
+source-git-commit: 37b17b4377854c91995e420d462ed2f344c6f219
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 8%
+source-wordcount: '1784'
+ht-degree: 9%
 
 ---
 
@@ -27,8 +27,8 @@ Puoi aumentare l’efficacia del marketing creando gruppi di acquisto in Journey
 
 | Componente | Finalità |
 | --------- | ------- |
-| Interesse per soluzione | Questo componente fornisce la risposta a: <ul><li>In qualità di organizzazione di marketing, cosa stai vendendo?</li><li>Quale prodotto o raccolta di prodotti intendi vendere?</li></ul>  **_Esempio:_** vendita incrociata del nuovo prodotto X a clienti esistenti |
-| Pubblico dell’account | Questo componente fornisce la risposta a: <ul><li>A chi stai vendendo?</li><li>Qual è l’elenco degli account di destinazione?</li></ul> **_Esempio:_** segmento di conto definito da conti con prodotto Y che hanno ricavi superiori a 1M |
+| Interesse della soluzione | Questo componente fornisce la risposta a: <ul><li>In qualità di organizzazione di marketing, cosa stai vendendo?</li><li>Quale prodotto o raccolta di prodotti intendi vendere?</li></ul>  **_Esempio:_** vendita incrociata del nuovo prodotto X a clienti esistenti |
+| Pubblico account | Questo componente fornisce la risposta a: <ul><li>A chi stai vendendo?</li><li>Qual è l’elenco degli account di destinazione?</li></ul> **_Esempio:_** segmento di conto definito da conti con prodotto Y che hanno ricavi superiori a 1M |
 | Acquisto di modelli di ruolo del gruppo | Questo componente fornisce la risposta a: <ul><li>Quali ruoli esegui il targeting?</li><li>Quale insieme di regole viene utilizzato per determinare chi è assegnato ai ruoli del gruppo di acquisto?</li></ul>  **_Esempio:_** assegna una persona con titolo CMO al ruolo Responsabile delle decisioni |
 | Fasi del gruppo di acquisto | (Facoltativo) Questo componente fornisce la risposta a: In che modo il gruppo di acquisto tiene traccia del successo o del fallimento? |
 
@@ -64,7 +64,7 @@ La pagina _[!UICONTROL Gruppi di acquisto]_ è organizzata in schede:
 | Scheda | Descrizione |
 | --- | ----------- |
 | [!UICONTROL Panoramica] | Questa scheda è quella predefinita e visualizza il dashboard [Gruppi di acquisto](../dashboards/buying-groups-dashboard.md). |
-| [!UICONTROL Sfoglia] | Questa scheda supporta le seguenti attività: <ul><li>Visualizza l&#39;elenco dei gruppi di acquisto esistenti. </li><li>Cerca per nome gruppo di acquisto. </li><li>Filtra per interesse della soluzione. </li><li>Espandere i dettagli del gruppo di acquisto. </li><li>Crea un gruppo di acquisto. Eliminare un gruppo di acquisto.</li></ul> |
+| [!UICONTROL Sfoglia] | Questa scheda supporta le seguenti attività: <ul><li>Visualizza l&#39;elenco dei gruppi di acquisto esistenti. </li><li>Cerca per nome gruppo di acquisto. </li><li>Filtra per interesse della soluzione. </li><li>Espandere i dettagli del gruppo di acquisto. </li><li>Crea un gruppo di acquisto. </li></ul> |
 | [!UICONTROL Interessi sulla soluzione] | Questa scheda supporta le seguenti attività: <ul><li>Visualizza l&#39;elenco dei gruppi di acquisto esistenti. </li><li>Cerca per nome gruppo di acquisto. </li><li>Accedere e modificare le proprietà di interesse della soluzione. </li><li>Crea un interesse per la soluzione. </li><li>Eliminare un interesse per la soluzione. </li><li>Visualizza ed elimina i processi del gruppo di acquisto. </li></ul> |
 | [!UICONTROL Modelli di Ruoli] | Questa scheda supporta le seguenti attività: <ul><li>Visualizza l&#39;elenco dei modelli di ruoli esistenti. </li><li>Cerca per nome modello ruoli. </li><li>Consente di accedere e modificare le proprietà e le condizioni del modello di ruoli. </li><li>Crea un modello di ruoli. </li><li>Eliminare un modello di ruoli. </li></ul> |
 | [!UICONTROL Fasi] | Questa scheda supporta le seguenti attività: <ul><li>Visualizza il modello di stadi dei gruppi di acquisto esistenti. </li><li>Consente di accedere e modificare la bozza del modello di fasi del gruppo di acquisto. </li><li>Creare il modello di fasi del gruppo di acquisto. </li></ul> |
@@ -109,7 +109,7 @@ Punteggio di coinvolgimento del gruppo di acquisto è un numero per determinare 
 | Fai clic su E-mail | Fai clic su un collegamento in un messaggio e-mail | E-mail | 20 | 30 |
 | Apri e-mail vendite | Apre un messaggio di vendita | E-mail | 20 | 30 |
 | Fai clic su E-mail vendita | Fai clic su un collegamento in un messaggio e-mail di vendita | E-mail | 20 | 30 |
-| Momento di interesse | Ha un momento interessante | Curato | 20 | 60 |
+| Momento interessante | Ha un momento interessante | Curato | 20 | 60 |
 | Tocca Notifica push | Riceve una notifica push | Dispositivi mobili | 20 | 30 |
 | Attività app mobile | Esegue un’attività su un’app mobile | Dispositivi mobili | 20 | 30 |
 | Sessione app mobile | È attivo nella sessione dell’app mobile | Dispositivi mobili | 20 | 30 |
@@ -163,7 +163,7 @@ Un modello di ruoli con tre ruoli ponderati come _[!UICONTROL Vital]_, _[!UICONT
 | Ruolo | Ponderazione | Valore di sistema | Calcolo del valore | Percentuale |
 |-------------- |--------- |------------- |------------------ |---------- |
 |               |          |              |                   |           |
-| Responsabile delle decisioni | Vitale | 100 | 100/240 | 41,67% |
+| Responsabile delle decisioni | Fondamentale | 100 | 100/240 | 41,67% |
 | Influencer | Importante | 80 | 80/240 | 33,33% |
 | Professionista | Normale | 60 | 60/240 | 25% |
 |               | Totale | 240 |                   |           |
@@ -176,21 +176,21 @@ L’esempio seguente illustra il calcolo del punteggio di coinvolgimento utilizz
 |-------------- |--------- |-------------|-----------------|-------------|------|-----------|
 |               |          |             |                 |             |      |           |
 | Responsabile delle decisioni | Adam | Sito web visitato | 37 | 15 | 20 + 15 | 35 |
-|               |          | E-mail selezionata | 1 | 1 | 1 + 1 | 2 |
+|               |          | E-mail con clic | 1 | 1 | 1 + 1 | 2 |
 |               |          |             |                 |             |      |           |
 |               | Contrassegna | Sito web visitato | 5 | 3 | 5 + 3 | 8 |
-|               |          | E-mail selezionata | 1 | 1 | 1 + 1 | 2 |
+|               |          | E-mail con clic | 1 | 1 | 1 + 1 | 2 |
 |               |          | Pub scaricato | 3 | 2 | 3 + 2 | 5 |
 | **Punteggio totale decision maker** |         |             |                 |             |      | **52** |
 |               |          |             |                 |             |      |           |
 | Influencer | John | Sito web visitato | 19 | 9 | 19 + 9 | 28 |
 | **Punteggio totale influencer** |         |             |                 |             |      | **28** |
 |               |          |             |                 |             |      |           |
-| Professionista | Bob | E-mail selezionata | 1 | 1 | 1 + 1 | 2 |
+| Professionista | Bob | E-mail con clic | 1 | 1 | 1 + 1 | 2 |
 |               |          |             |                 |             |      |           |
-|               | Paul | E-mail selezionata | 1 | 1 | 1 + 1 | 2 |
+|               | Paul | E-mail con clic | 1 | 1 | 1 + 1 | 2 |
 |               |          |             |                 |             |      |           |
-|               | Calvin | E-mail selezionata | 1 | 1 | 1 + 1 | 2 |
+|               | Calvin | E-mail con clic | 1 | 1 | 1 + 1 | 2 |
 |               |          | Sito web visitato | 1 | 7 | 1 + 7 | 8 |
 |               |          | Pub scaricato | 1 | 2 | 1 + 2 | 3 |
 | **Punteggio totale professionisti** |         |             |                 |             |      | **17** |
