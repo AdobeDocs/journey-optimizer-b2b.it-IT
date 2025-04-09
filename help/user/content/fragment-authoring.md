@@ -2,10 +2,11 @@
 title: Authoring di frammenti
 description: Scopri come creare frammenti di contenuto che possono essere riutilizzati per le e-mail e le progettazioni di modelli per migliorare l’efficienza e mantenere standard di progettazione e branding.
 feature: Content
-source-git-commit: 1f551b636ef347fd65aa39a809dedba8372c3ac4
+exl-id: d29754cf-6721-489c-bff8-cde034456db2
+source-git-commit: 81f521cf245ac3d5460e1a8eb768ea2b609cf6fe
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 10%
+source-wordcount: '401'
+ht-degree: 9%
 
 ---
 
@@ -39,11 +40,11 @@ Dopo aver [creato un frammento](./fragments.md#create-fragments), utilizza l&#39
 
 {{$include /help/_includes/content-design-personalization.md}}
 
-## Abilita campi personalizzati
+## Abilita personalizzazione frammento
 
-Quando un autore di e-mail o di modelli e-mail aggiunge il frammento, il relativo contenuto viene bloccato per impostazione predefinita. Eventuali modifiche apportate al frammento pubblicato vengono propagate automaticamente a tutte le risorse di contenuto in cui viene utilizzato il frammento. Quando imposti un parametro per un componente del frammento come modificabile, l’autore dell’e-mail o del modello può specificare un valore di campo personalizzato specifico per le sue esigenze. Questo flag di personalizzazione è limitato ai componenti visivi immagine, testo e pulsante.
+Quando un autore aggiunge un frammento a un [e-mail](./email-authoring.md#content-authoring---use-visual-fragments) o [modello e-mail](./email-template-authoring.md#content-authoring---use-visual-fragments), il contenuto del frammento è bloccato per impostazione predefinita. Eventuali modifiche apportate al frammento pubblicato vengono propagate automaticamente a tutte le risorse di contenuto in cui viene utilizzato il frammento. Quando imposti un parametro per un componente del frammento come modificabile, l’autore dell’e-mail o del modello può specificare un valore di campo personalizzato specifico per le sue esigenze. Questo flag di personalizzazione è limitato ai componenti visivi immagine, testo e pulsante.
 
-Ad esempio, se progetti un banner riutilizzabile che include un pulsante cliccabile, puoi designare il parametro URL per il pulsante come modificabile. Gli autori delle e-mail possono quindi utilizzare un URL più specifico per la propria campagna e-mail. Con questi campi personalizzabili, gli addetti al marketing possono gestire e personalizzare i contenuti senza dover creare blocchi di contenuto completamente nuovi o interrompere gli aggiornamenti ereditati dal frammento originale.
+Ad esempio, se progetti un banner riutilizzabile che include un pulsante cliccabile, puoi designare il parametro URL per il pulsante come modificabile. Gli autori delle e-mail possono quindi utilizzare un URL più specifico per la propria campagna e-mail. Con questi campi personalizzabili, gli addetti al marketing possono gestire e personalizzare contenuti riutilizzabili senza la necessità di creare blocchi di contenuto completamente nuovi o interrompere gli aggiornamenti ereditati dal frammento originale.
 
 1. Nell’editor di contenuto visivo, seleziona l’immagine, il testo o l’elemento pulsante in cui desideri abilitare la personalizzazione.
 
@@ -51,7 +52,7 @@ Ad esempio, se progetti un banner riutilizzabile che include un pulsante cliccab
 
 1. Fai clic sull&#39;opzione **[!UICONTROL Abilita edizione]** e imposta i campi modificabili.
 
-   ![Abilita campi modificabili per un componente immagine frammento](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
+   ![Abilita campi modificabili per un componente immagine frammento](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
 
    Puoi abilitare la personalizzazione per i campi visualizzati, che dipendono dal tipo di componente e dai parametri definiti nel frammento.
 
@@ -59,7 +60,7 @@ Ad esempio, se progetti un banner riutilizzabile che include un pulsante cliccab
 
 1. Fai clic su **[!UICONTROL Panoramica]** per esaminare tutti i campi modificabili e i relativi valori predefiniti.
 
-   ![Esaminare i campi modificabili e i relativi valori predefiniti](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}
+   ![Rivedi i campi modificabili e i relativi valori predefiniti](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
 
 1. Salva le modifiche.
 
