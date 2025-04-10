@@ -2,9 +2,11 @@
 title: Progettazione modulo
 description: Scopri come progettare moduli riutilizzabili utilizzati per raccogliere informazioni sui lead aziendali.
 feature: Content
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
+exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
+source-git-commit: 4eaaa8a33ba3ada99a75c43a56508362a2e7287b
 workflow-type: tm+mt
-source-wordcount: '2044'
+source-wordcount: '2054'
 ht-degree: 1%
 
 ---
