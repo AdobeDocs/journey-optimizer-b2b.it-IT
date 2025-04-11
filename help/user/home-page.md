@@ -2,26 +2,26 @@
 title: Accesso e home page
 description: Scopri come accedere all’app Journey Optimizer B2B edition e utilizzare le informazioni della pagina principale.
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: f7f9531cce6447b4715f0e76b0fd8ce57715f519
+source-git-commit: 2d3437d133f6eacdd5beaf1e7da5cc8ef5992b90
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '452'
 ht-degree: 6%
 
 ---
 
 # Accedi e home page
 
-Con Adobe Journey Optimizer B2B Edition, puoi orchestrare account e percorsi del gruppo acquisti utilizzando l’intelligenza artificiale generativa integrata e l’automazione leader di settore per ottimizzare la domanda di offerte specifiche utilizzando gruppi di acquisto qualificati per il marketing.
+Con Adobe Journey Optimizer B2B Edition, puoi orchestrare account e percorsi del gruppo acquisti utilizzando l’intelligenza artificiale generativa incorporata e l’automazione leader di settore per ottimizzare la domanda di offerte specifiche utilizzando gruppi di acquisto qualificati per il marketing.
 
 <!-- Requirements?
 -->
 Per accedere a [!DNL Adobe Journey Optimizer B2B Edition], connettiti a Adobe Experience Cloud con il tuo Adobe ID e seleziona [!DNL Journey Optimizer B2B Edition].
 
-![App Adobe Experience Platform](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
+![App Adobe Experience Platform](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
 
 La home page viene visualizzata quando si accede al Adobe Experience Platform e si seleziona l&#39;app Adobe Journey Optimizer B2B edition. Questa pagina fornisce una panoramica dello stato attuale delle iniziative B2B di Journey Optimizer sotto forma di accesso rapido <!-- refined insights and--> ai moduli rilevanti. <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
-![Home page di Journey Optimizer B2B edition](./assets/home-page.png){width="800" zoomable="yes"}
+![Home page di Journey Optimizer B2B edition](./assets/home-page.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
 
 Il B2B edition di Journey Optimizer ha due utenti tipo principali: un _**addetto marketing**_ e un _**amministratore**_. Ogni utente tipo ha una home page specifica per diverse fasi di maturità (nuove o avanzate). Il contenuto della pagina è basato su ciò di cui ogni utente ha bisogno in termini di informazioni e sulle azioni successive da intraprendere.
 
@@ -32,7 +32,7 @@ Il B2B edition di Journey Optimizer ha due utenti tipo principali: un _**addetto
 
 La sezione _[!UICONTROL Accesso recente]_ fornisce un elenco delle risorse utilizzate più di recente dall&#39;addetto al marketing o dall&#39;amministratore. Utilizza questo elenco per passare direttamente alla risorsa su cui hai lavorato di recente senza spostarti tra le diverse pagine delle risorse e senza effettuare ricerche.
 
-La pagina include inoltre l&#39;accesso a [Assistente AI](./start/ai-assistant.md), che consente agli utenti di ottenere informazioni rapide su domande o argomenti specifici necessari.<!-- and to obtain specific recommendations for their challenges or objectives-->
+La pagina include inoltre l&#39;accesso a [Assistente AI](./ai-assistant/ai-assistant-overview.md), che consente agli utenti di ottenere informazioni rapide su domande o argomenti specifici necessari.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!-- 
 
