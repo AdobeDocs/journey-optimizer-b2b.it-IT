@@ -1,9 +1,9 @@
 ---
 title: 'Authoring dei contenuti: utilizzare i frammenti'
 description: Sezione riutilizzata sull’utilizzo dei frammenti per l’authoring dei contenuti
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,9 @@ L’esempio seguente illustra i passaggi per aggiungere frammenti durante l’au
 
 >[!BEGINSHADEBOX]
 
-**Campi modificabili**
+**Campi modificabili nei frammenti personalizzabili**
 
-Un frammento visivo può includere campi modificabili che puoi personalizzare. I campi personalizzati ti consentono di modificare i parametri quando incorpori il frammento nel contenuto e di creare un’esperienza personalizzata senza influire sul frammento originale. Se un frammento incluso contiene componenti con campi modificabili, puoi modificare i valori predefiniti.
+Un frammento visivo può includere campi modificabili che puoi personalizzare. I campi personalizzati ti consentono di modificare i parametri quando incorpori il frammento nel contenuto e di creare un’esperienza personalizzata senza influire sul frammento originale. L&#39;autore del frammento può [progettare il frammento per la personalizzazione](../user/content/fragment-authoring.md#enable-fragment-customization) dei componenti testo, immagine e pulsante. Se un frammento incluso contiene componenti con campi modificabili, puoi modificare i valori predefiniti per personalizzarlo in base al contenuto.
 
 1. Seleziona il componente frammento.
 
