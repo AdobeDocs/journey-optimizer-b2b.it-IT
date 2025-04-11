@@ -2,7 +2,7 @@
 title: Documentazione di Adobe Journey Optimizer B2B Edition
 description: Scopri come utilizzare le funzioni di Adobe Journey Optimizer B2B edition per orchestrare account e acquistare percorsi di gruppi utilizzando l’intelligenza artificiale generativa integrata e l’automazione leader di settore.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 9e19b8b22c237f43fef3a5ed4c093ad12ff41781
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 7%
@@ -35,7 +35,7 @@ Con le licenze Adobe Express Enterprise, puoi sfruttare una suite completa di fu
 
 In qualità di designer di contenuto, puoi designare un parametro per un componente nel frammento come modificabile. Questo consente all’autore del messaggio e-mail o del modello di specificare un valore di campo personalizzato specifico per le proprie esigenze. Questo flag di personalizzazione è limitato ai componenti visivi immagine, testo e pulsante.
 
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/fragment-authoring.md#enable-custom-fields" tooltip="Scopri i campi personalizzati per i frammenti di contenuto"}
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Scopri i campi personalizzati per i frammenti di contenuto"}
 
 >[!TAB Inoltro eventi AEP]
 
@@ -96,7 +96,7 @@ Scopri i componenti di un gruppo di acquisto e le nozioni di base sulla creazion
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Introduzione"><br/>
-      <strong>Introduzione</strong><br/><a href="home-page.md">Accesso e home page</a><br/><a href="./start/get-started.md">Guida introduttiva</a> <br/><a href="./start/ai-assistant.md">Assistente AI</a>
+      <strong>Introduzione</strong><br/><a href="home-page.md">Accesso e home page</a><br/><a href="./start/get-started.md">Guida introduttiva</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">Assistente AI</a>
     </td>
     <!--
     <td>

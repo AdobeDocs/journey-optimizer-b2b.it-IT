@@ -3,7 +3,7 @@ title: Frammenti
 description: Scopri come creare e utilizzare frammenti di contenuto visivo come componenti riutilizzabili per e-mail e modelli e-mail in Adobe Journey Optimizer B2B edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 7deb914dfb9d6979b4dc4a497ed2d15bbabd3011
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
 source-wordcount: '2624'
 ht-degree: 1%
@@ -41,8 +41,8 @@ Lo stato del frammento determina la sua disponibilità per l’utilizzo in un me
 
 | Stato | Descrizione |
 | -------------------- | ----------- |
-| Bozza | Quando crei un frammento, questo si trova nello stato Bozza. Rimane in questo stato mentre definisci o modifichi il contenuto visivo fino a quando non lo pubblichi per l’utilizzo in un e-mail o in un modello e-mail. Azioni disponibili:<br/><ul><li>Modifica tutti i dettagli<li>Modifica in designer visivo<li>Pubblica<li>Duplica<li>Elimina |
-| Pubblicato | Quando pubblichi un frammento, questo diventa disponibile per l’utilizzo in un’e-mail o in un modello e-mail. Il contenuto del frammento pubblicato non può essere modificato nella finestra di progettazione visiva. Azioni disponibili:<br/><ul><li>Modifica descrizione<li>Aggiungi a un messaggio e-mail o a un modello<li>Crea bozza di versione<li>Duplica<li>Elimina (se non in uso) |
+| Bozza | Quando crei un frammento, questo si trova nello stato Bozza. Rimane in questo stato mentre definisci o modifichi il contenuto visivo fino a quando non lo pubblichi per l’utilizzo in un e-mail o in un modello e-mail. Azioni disponibili:<br/><ul><li>Modifica tutti i dettagli<li>Modifica in designer visivo<li>Pubblicazione<li>Duplica<li>Elimina |
+| Pubblicato | Quando pubblichi un frammento, questo diventa disponibile per l’utilizzo in un’e-mail o in un modello e-mail. Il contenuto del frammento pubblicato non può essere modificato nella finestra di progettazione visiva. Azioni disponibili:<br/><ul><li>Modifica descrizione<li>Aggiungi a un messaggio e-mail o a un modello<li>Crea versione bozza<li>Duplica<li>Elimina (se non in uso) |
 | Pubblicato con bozza | Quando crei una bozza da un frammento pubblicato, la versione pubblicata rimane disponibile per l’utilizzo in un modello e-mail o e-mail e il contenuto della bozza può essere modificato nella finestra di progettazione visiva. Se pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nelle e-mail e nei modelli e-mail in cui è in uso. Azioni disponibili:<br/><ul><li>Modifica descrizione<li>Aggiungi a un messaggio e-mail o a un modello<li>Modifica versione bozza in Progettazione visiva<li>Pubblica versione bozza<li>Duplica<li>Elimina (se non in uso) |
 
 ![Ciclo di vita stato frammento](./assets/status-lifecycle-diagram.png){zoomable="yes"}
@@ -93,7 +93,7 @@ Per creare nuovi frammenti visivi in Journey Optimizer B2B edition, fai clic su 
    * [Aggiungi Assets](./fragment-authoring.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalizzare il contenuto](./fragment-authoring.md#personalize-content)
-   * [Abilita campi personalizzati](./fragment-authoring.md#enable-custom-fields)
+   * [Abilita campi personalizzati](./fragment-authoring.md#enable-fragment-customization)
    * [Modifica tracciamento URL collegato](./fragment-authoring.md#edit-linked-url-tracking)
 
 1. Fai clic su **[!UICONTROL Salva]** in qualsiasi momento per salvare la bozza del frammento.
@@ -173,7 +173,7 @@ Le modifiche apportate a un frammento dipendono dal suo stato corrente:
    * [Aggiungi Assets](./fragment-authoring.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalizzare il contenuto](./fragment-authoring.md#personalize-content)
-   * [Abilita campi personalizzati](./fragment-authoring.md#enable-custom-fields)
+   * [Abilita campi personalizzati](./fragment-authoring.md#enable-fragment-customization)
    * [Modifica tracciamento URL collegato](./fragment-authoring.md#edit-linked-url-tracking)
 
    Fai clic su **[!UICONTROL Salva]** o **[!UICONTROL Salva e chiudi]** per tornare ai dettagli del frammento.
@@ -202,7 +202,7 @@ Le modifiche apportate a un frammento dipendono dal suo stato corrente:
    * [Aggiungi Assets](./fragment-authoring.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalizzare il contenuto](./fragment-authoring.md#personalize-content)
-   * [Abilita campi personalizzati](./fragment-authoring.md#enable-custom-fields)
+   * [Abilita campi personalizzati](./fragment-authoring.md#enable-fragment-customization)
    * [Modifica tracciamento URL collegato](./fragment-authoring.md#edit-linked-url-tracking)
 
    Fai clic su **[!UICONTROL Salva]** o **[!UICONTROL Salva e chiudi]** per tornare ai dettagli del frammento.
@@ -231,7 +231,7 @@ Per aggiornare il contenuto:
    * [Aggiungi Assets](./fragment-authoring.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalizzare il contenuto](./fragment-authoring.md#personalize-content)
-   * [Abilita campi personalizzati](./fragment-authoring.md#enable-custom-fields)
+   * [Abilita campi personalizzati](./fragment-authoring.md#enable-fragment-customization)
    * [Modifica tracciamento URL collegato](./fragment-authoring.md#edit-linked-url-tracking)
 
    Fai clic su **[!UICONTROL Salva]** o **[!UICONTROL Salva e chiudi]** per tornare ai dettagli del frammento.

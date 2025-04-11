@@ -3,7 +3,8 @@ title: Linee guida sulle domande per l’Assistente AI
 description: Placeholder
 feature: AI Assistant
 level: Beginner
-source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
+exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
+source-git-commit: f09f3f5b7d4419ead5308e4c5be3b518b4e16ff5
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 1%
