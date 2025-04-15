@@ -1,9 +1,9 @@
 ---
 title: Configurazioni e-mail
-description: Scopri come accedere e rivedere le impostazioni e-mail configurate nel Marketo Engage.
+description: Scopri come accedere e rivedere le impostazioni e-mail configurate in Marketo Engage.
 feature: Setup
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: 796cb86f81aa18d8e616af527c22b3160df4f1b5
+source-git-commit: 3b4e4742a1913bed2b284f36be92f77b18383e0e
 workflow-type: tm+mt
 source-wordcount: '1188'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configurazioni e-mail
 
-Adobe Journey Optimizer B2B edition sfrutta le funzioni del canale e il tracciamento degli eventi in Market Engage. Gli amministratori devono assicurarsi che le configurazioni di consegna e tracciamento siano attive per consentire la distribuzione dei canali agli addetti al marketing. Per informazioni sui protocolli necessari per la consegna e il tracciamento delle e-mail tramite il Marketo Engage, vedere [Protocolli per il tracciamento e la consegna delle e-mail](../start/email-protocols.md).
+Adobe Journey Optimizer B2B edition sfrutta le funzioni di canale e il tracciamento degli eventi in Marketo Engage. Gli amministratori devono assicurarsi che le configurazioni di consegna e tracciamento siano attive per consentire la distribuzione dei canali agli addetti al marketing. Per informazioni sui protocolli necessari per la consegna e il tracciamento delle e-mail tramite Marketo Engage, vedere [Protocolli per il tracciamento e la consegna delle e-mail](../start/email-protocols.md).
 
 ## Impostazioni di consegna
 
@@ -20,7 +20,7 @@ Le impostazioni e-mail predefinite vengono utilizzate quando gli addetti al mark
 
 ![Accedi alle impostazioni di consegna e-mail](./assets/config-email-delivery-email-header.png){width="800" zoomable="yes"}
 
-Le impostazioni sono di sola lettura in Journey Optimizer B2B edition. Fai clic su **[!UICONTROL Modifica impostazioni]** in alto a destra per accedere alle opzioni di configurazione nell&#39;istanza del Marketo Engage connesso.
+Le impostazioni sono di sola lettura in Journey Optimizer B2B edition. Fai clic su **[!UICONTROL Modifica impostazioni]** in alto a destra per accedere alle opzioni di configurazione nell&#39;istanza di Marketo Engage connessa.
 
 >[!NOTE]
 >
@@ -36,11 +36,11 @@ I parametri dell’intestazione e-mail definiscono i valori predefiniti per i se
 
 * **[!UICONTROL Da etichetta]** - Nome visualizzato per l&#39;indirizzo del mittente dell&#39;e-mail.
 
-* **[!UICONTROL HTML per annullamento abbonamento]**: il HTML (per i client e-mail supportati) visualizzato nelle e-mail non operative per spiegare al destinatario le azioni di annullamento dell&#39;abbonamento. Il testo e i collegamenti vengono aggiunti in basso.
+* **[!UICONTROL Annulla abbonamento a HTML]**: HTML (per i client e-mail supportati) visualizzato nelle e-mail non operative per spiegare al destinatario le azioni di annullamento dell&#39;abbonamento. Il testo e i collegamenti vengono aggiunti in basso.
 
 * **[!UICONTROL Testo per annullamento sottoscrizione]**: il testo normale visualizzato nelle e-mail non operative per spiegare al destinatario le azioni di annullamento dell&#39;iscrizione. Il testo e i collegamenti vengono aggiunti in basso.
 
-* **[!UICONTROL Visualizza come HTML di pagine Web]** - Il HTML (per i client di posta elettronica supportati) utilizzato per _Visualizza come pagina Web_, che fornisce un collegamento per visualizzare un&#39;e-mail in un browser.
+* **[!UICONTROL Visualizza come pagina Web HTML]**: il HTML (per i client di posta elettronica supportati) utilizzato per _Visualizza come pagina Web_, che fornisce un collegamento per visualizzare un&#39;e-mail in un browser.
 
 * **[!UICONTROL Visualizza come testo pagina Web]** - Testo normale utilizzato per _Visualizza come pagina Web_, che fornisce un collegamento per visualizzare un&#39;e-mail in un browser.
 
@@ -50,11 +50,11 @@ Per esaminare i domini di branding, fare clic sulla scheda **[!UICONTROL Domini 
 
 ![Accedere alle impostazioni dei domini di branding](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Questa impostazione definisce il dominio principale per una o più aree di lavoro di Marketo Engage. Le nuove e-mail utilizzano questo dominio come impostazione predefinita, ma gli esperti di marketing possono sostituirlo per ogni e-mail. Per ulteriori informazioni, consulta la [documentazione del Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Questa impostazione definisce il dominio principale per una o più aree di lavoro di Marketo Engage. Le nuove e-mail utilizzano questo dominio come impostazione predefinita, ma gli esperti di marketing possono sostituirlo per ogni e-mail. Per ulteriori informazioni, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->Se stai commercializzando più marchi da Journey Optimizer B2B edition e dall’istanza del Marketo Engage connesso e desideri che ciascuno di essi abbia i propri collegamenti di tracciamento del marchio, puoi aggiungere un ulteriore dominio di branding. Per ulteriori informazioni, consulta la [documentazione del Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>Se stai commercializzando più marchi da Journey Optimizer B2B edition e dall’istanza Marketo Engage connessa e desideri che ciascuno di essi abbia i propri collegamenti di tracciamento del marchio, puoi aggiungere un ulteriore dominio di branding. Per ulteriori informazioni, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Opzioni intestazione personalizzate] {#custom-header-options}
 
@@ -72,13 +72,13 @@ Per rivedere le impostazioni correnti, passare a **[!UICONTROL Amministrazione]*
 
 ![Accedere alle impostazioni dei limiti di comunicazione](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
 
-Le impostazioni sono di sola lettura in Journey Optimizer B2B edition. Fai clic su **[!UICONTROL Modifica impostazioni]** in alto a destra per accedere alle opzioni di configurazione nell&#39;istanza del Marketo Engage connesso.
+Le impostazioni sono di sola lettura in Journey Optimizer B2B edition. Fai clic su **[!UICONTROL Modifica impostazioni]** in alto a destra per accedere alle opzioni di configurazione nell&#39;istanza di Marketo Engage connessa.
 
 >[!NOTE]
 >
 >Per accedere e modificare queste impostazioni in Adobe Marketo Engage, è necessario disporre delle autorizzazioni di amministratore di prodotto.
 
-Per ulteriori informazioni sulla configurazione dei limiti di comunicazione, consulta la [documentazione del Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
+Per ulteriori informazioni sulla configurazione dei limiti di comunicazione, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
 
 ## SPF/DKIM
 
@@ -88,7 +88,7 @@ Per rivedere le impostazioni correnti, passare a **[!UICONTROL Amministrazione]*
 
 ![Accedere alla configurazione SPF/DKIM](./assets/config-email-spf-dkim.png){width="700" zoomable="yes"}
 
-Le impostazioni sono di sola lettura in Journey Optimizer B2B edition. Fai clic su **[!UICONTROL Modifica impostazioni]** in alto a destra per accedere alle opzioni di configurazione nell&#39;istanza del Marketo Engage connesso.
+Le impostazioni sono di sola lettura in Journey Optimizer B2B edition. Fai clic su **[!UICONTROL Modifica impostazioni]** in alto a destra per accedere alle opzioni di configurazione nell&#39;istanza di Marketo Engage connessa.
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ L&#39;amministratore di rete deve aggiungere la seguente riga alle voci DNS:
 
 `[domain] IN TXT v=spf1 mx ip4:[corpIP] include:mktomail.com ~all`
 
-In questa voce sostituire `[domain]` con il dominio principale del sito Web (ad esempio `company.com`) e `[corpIP]` con l&#39;indirizzo IP del server di posta elettronica aziendale (ad esempio `255.255.255.255`). Se invii e-mail da più domini tramite il Marketo Engage, aggiungi questa voce per ciascun dominio su una singola riga.
+In questa voce sostituire `[domain]` con il dominio principale del sito Web (ad esempio `company.com`) e `[corpIP]` con l&#39;indirizzo IP del server di posta elettronica aziendale (ad esempio `255.255.255.255`). Se invii e-mail da più domini tramite Marketo Engage, aggiungi questa voce per ciascun dominio su una singola riga.
 
 Se nella voce DNS è già presente un record SPF, aggiungervi quanto segue:
 
@@ -110,15 +110,15 @@ Se nella voce DNS è già presente un record SPF, aggiungervi quanto segue:
 
 DKIM è un protocollo di autenticazione utilizzato dai destinatari e-mail per convalidare il mittente del messaggio e-mail. Spesso migliora il recapito delle e-mail alla casella in entrata, perché il destinatario può essere certo che il messaggio non sia un falso.
 
-Con la chiave pubblica nel record DNS e il dominio di invio attivato nell’istanza del Marketo Engage connesso, viene utilizzata la firma DKIM personalizzata per i messaggi in uscita. La firma DKIM personalizzata include una firma digitale crittografata con ogni e-mail inviata. I riceventi sono quindi in grado di decrittografare la firma digitale cercando la _chiave pubblica_ nel DNS del dominio di invio. Se la chiave nell’e-mail corrisponde a quella nel record DNS, è più probabile che il server di posta ricevente accetti l’e-mail inviata tramite il Marketo Engage.
+Con la chiave pubblica nel record DNS e il dominio di invio attivato nell’istanza di Marketo Engage connessa, per i messaggi in uscita viene utilizzata la firma DKIM personalizzata. La firma DKIM personalizzata include una firma digitale crittografata con ogni e-mail inviata. I riceventi sono quindi in grado di decrittografare la firma digitale cercando la _chiave pubblica_ nel DNS del dominio di invio. Se la chiave nell’e-mail corrisponde a quella nel record DNS, è più probabile che il server di posta ricevente accetti l’e-mail inviata tramite Marketo Engage.
 
-Per ulteriori informazioni sulla configurazione di una firma DKIM personalizzata per la consegna di e-mail, consulta la [documentazione del Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}.
+Per ulteriori informazioni sulla configurazione di una firma DKIM personalizzata per la consegna di e-mail, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}.
 
 ## Attività bot
 
 L’attività di bot su e-mail può erroneamente gonfiare l’apertura dell’e-mail e i dati sui clic.
 
-Il Marketo Engage utilizza due metodi per confermare l’attività bot:
+Marketo Engage utilizza due metodi per confermare l’attività bot:
 
 * **Corrispondenza con l&#39;elenco Interactive Advertising Bureau (IAB)** - Le attività che corrispondono a qualcosa nell&#39;elenco IAB UA/IP (agente utente/indirizzo IP) sono contrassegnate come bot.
 
@@ -139,10 +139,10 @@ Per rivedere le impostazioni correnti, passare a **[!UICONTROL Amministrazione]*
 
 ![Accedi alla configurazione dell&#39;attività bot per la consegna e-mail](./assets/config-email-bot-activity.png){width="700" zoomable="yes"}
 
-Le impostazioni sono di sola lettura in Journey Optimizer B2B edition. Fai clic su **[!UICONTROL Modifica impostazioni]** in alto a destra per accedere alle opzioni di configurazione nell&#39;istanza del Marketo Engage connesso.
+Le impostazioni sono di sola lettura in Journey Optimizer B2B edition. Fai clic su **[!UICONTROL Modifica impostazioni]** in alto a destra per accedere alle opzioni di configurazione nell&#39;istanza di Marketo Engage connessa.
 
 >[!NOTE]
 >
 >Per accedere e modificare queste impostazioni in Adobe Marketo Engage, è necessario disporre delle autorizzazioni di amministratore di prodotto.
 
-Per ulteriori informazioni sulla configurazione delle opzioni di attività bot, consulta la [documentazione del Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Per ulteriori informazioni sulla configurazione delle opzioni di attività bot, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
