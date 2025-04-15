@@ -2,9 +2,9 @@
 title: Campi XDM
 description: Esamina i campi attributo predefiniti sincronizzati tra Adobe Experience Platform e Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: e2a802750ee221caf83989c5731e0daee64aa63e
+source-git-commit: 34ef9681b75ef1cd43d34e3f2836a60affb95b33
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1342'
 ht-degree: 12%
 
 ---
@@ -31,8 +31,6 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 
 | [Proprietà](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | Nome visualizzato | Nome visualizzato B2B Journey Optimizer | Tipo di dati | Descrizione |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-| `b2b.companyName` | Nome della società | Nome della società | Stringa | Nome della società a cui è associata una persona aziendale. |
-| `b2b.companyWebsite` | Sito Web della società | Sito web | Stringa | Sito web della società a cui è associata una persona aziendale. |
 | `b2b.isMarketingSuspended` | Indicatore di sospensione del marketing | Marketing sospeso | Booleano | Il valore indica se il marketing è sospeso per la persona. |
 | `b2b.marketingSuspendedCause` | Causa della sospensione del marketing | Causa della sospensione del marketing | Stringa | Se il marketing viene sospeso per la persona, questa proprietà fornisce il motivo. |
 | `b2b.personStatus` | Stato della persona | Stato Lead | Stringa | Campo che registra lo stato attuale di marketing/vendite della persona. |
@@ -101,5 +99,5 @@ Inoltre, i dati sulle opportunità vengono memorizzati come attributi nella clas
 | `opportunityName` | Nome opportunità | Nome opportunità | Stringa | Nome soggetto o descrittivo, ad esempio il nome dell’ordine o della società previsto per l’opportunità. |
 | `opportunityQuantity` | Quantità opportunità | Quantità opportunità | Stringa | Totale di tutti i valori dei campi quantità per tutti i prodotti nell’elenco Prodotti correlato per l’opportunità. |
 | `opportunityStage` | Fase dell’opportunità | Fase dell’opportunità | Stringa | Fase di vendita dell&#39;opportunità di aiutare il team di vendita nei loro sforzi per vincerla. |
-| `opportunityType` | Tipo di opportunità | Tipo di opportunità | Stringa | Tipo assegnato all&#39;opportunità, ad esempio _Attività esistente _ o _Nuova attività_ |
+| `opportunityType` | Tipo di opportunità | Tipo di opportunità | Stringa | Tipo assegnato all&#39;opportunità, ad esempio _Attività esistente_ o _Nuova attività_ |
 | `probabilityPercentage` | Percentuale di probabilità | Percentuale di probabilità di opportunità | Stringa | Probabilità di chiusura dell&#39;opportunità, espressa in percentuale. |
