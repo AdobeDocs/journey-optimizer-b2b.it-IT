@@ -3,22 +3,20 @@ title: Acquisto di modelli di mansione per gruppi
 description: Scopri come definire un modello di ruolo da utilizzare come componente del gruppo di acquisto.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 1%
+source-wordcount: '1115'
+ht-degree: 3%
 
 ---
 
-# Acquisto di modelli di ruolo del gruppo
+# Modelli di ruolo del gruppo acquisti
 
 In un mercato B2B, le decisioni di acquisto sono solitamente prese da più individui. Tali persone partecipano al processo decisionale in base al loro ruolo all’interno dell’organizzazione. Crea modelli di ruolo Gruppo acquisti che contengono queste definizioni di ruolo in base a ciascun tipo di offerta di prodotto o caso di utilizzo dell’account.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
 ## Accedere e sfogliare i modelli di ruolo
-
-1. Nella home page di Adobe Experience Platform, fare clic su Adobe Journey Optimizer B2B edition.
 
 1. Nel menu di navigazione a sinistra, fai clic su **[!UICONTROL Gruppi di acquisto]**.
 
@@ -33,7 +31,7 @@ In un mercato B2B, le decisioni di acquisto sono solitamente prese da più indiv
    * [!UICONTROL Data di creazione]
    * [!UICONTROL Creato da]
    * [!UICONTROL Ultimo aggiornamento]
-   * [!UICONTROL Ultimo aggiornamento eseguito da]
+   * [!UICONTROL Ultimo aggiornamento effettuato da]
    * [!UICONTROL Pubblicato il]
    * [!UICONTROL Pubblicato da]
 
@@ -67,7 +65,7 @@ Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, pe
 | ---- | --------- |
 | Attributi della persona | <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Numero di fax <li>Nome <li>Area dello stato dedotta <li>Posizione lavorativa <li>Cognome <li>Secondo nome <li>Numero di telefono cellulare <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo per annullamento abbonamento |
 | Filtri speciali | <li>Membro dell&#39;elenco <li>Membro del programma |
-| Dati intento | Intento categoria <li>Intento prodotto <li>Intento parola chiave<br/>[Informazioni sui dati intento](../admin/intent-data.md). |
+| Dati di intento | Intento categoria <li>Intento prodotto <li>Intento parola chiave<br/>[Informazioni sui dati intento](../admin/intent-data.md). |
 
 1. Per la prima scheda ruolo, definisci le proprietà del ruolo.
 
@@ -163,6 +161,6 @@ Puoi eliminare un modello di ruoli se si trova nello stato _Bozza_.
 
 1. Nella finestra di dialogo, fai clic su **[!UICONTROL Elimina]** per confermare.
 
-## Video introduttivo
+## Video di panoramica
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

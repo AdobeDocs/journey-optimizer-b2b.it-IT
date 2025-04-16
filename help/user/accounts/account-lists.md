@@ -2,10 +2,10 @@
 title: Elenchi account
 description: Scopri gli elenchi di account e come utilizzarli per eseguire il targeting degli account tramite percorsi di account.
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 25776f0ccf4e3b55891d704ebf766aa142b8e536
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 0%
+source-wordcount: '1621'
+ht-degree: 1%
 
 ---
 
@@ -20,29 +20,27 @@ Quando un elenco account è nello stato _Live_ (pubblicato), è disponibile per 
 
 ## Accedere e sfogliare gli elenchi di account
 
-1. Nella home page di Adobe Experience Platform, fare clic su Adobe Journey Optimizer B2B edition.
+Nel menu di navigazione sinistro, espandere **[!UICONTROL Account]** e fare clic su **[!UICONTROL Elenchi account]**.
 
-1. Nel menu di navigazione sinistro, espandere **[!UICONTROL Account]** e fare clic su **[!UICONTROL Elenchi account]**.
+![Accedi ai percorsi account](./assets/account-lists-browse.png){width="800" zoomable="yes"}
 
-   ![Accedi a percorsi di account](./assets/account-lists-browse.png){width="800" zoomable="yes"}
+La pagina _[!UICONTROL Elenchi account]_ visualizzata include le colonne seguenti:
 
-   La pagina _[!UICONTROL Elenchi account]_ visualizzata include le colonne seguenti:
-
-   * [!UICONTROL Nome] (fare clic sul nome dell&#39;elenco account per visualizzare i dettagli)
-   * [!UICONTROL Stato]
-   * [!UICONTROL Tipo]
-   * [!UICONTROL Ultimo aggiornamento:]
-   * [!UICONTROL Ultimo aggiornamento eseguito da]
-   * [!UICONTROL Data di creazione]
-   * [!UICONTROL Creato da]
+* [!UICONTROL Nome] (fare clic sul nome dell&#39;elenco account per visualizzare i dettagli)
+* [!UICONTROL Stato]
+* [!UICONTROL Tipo]
+* [!UICONTROL Ultimo aggiornamento:]
+* [!UICONTROL Ultimo aggiornamento effettuato da]
+* [!UICONTROL Data di creazione]
+* [!UICONTROL Creato da]
 
 Questa tabella include la possibilità di eseguire ricerche per nome. La funzione di ordinamento non è attualmente disponibile.
 
 Puoi personalizzare la tabella visualizzata facendo clic sull&#39;icona _Impostazioni colonna_ ( ![Impostazioni colonna](../assets/do-not-localize/icon-column-settings.svg) ) nell&#39;angolo in alto a destra e selezionando o deselezionando le caselle di controllo.
 
-![Scegliere le colonne da visualizzare nell&#39;elenco dei percorsi di account](./assets/account-lists-list-columns.png){width="300"}
+![Scegliere le colonne da visualizzare nell’elenco dei percorsi account](./assets/account-lists-list-columns.png){width="300"}
 
-Per visualizzare la descrizione di un elenco di account, fai clic sull&#39;icona _Informazioni_ accanto al nome.
+Per visualizzare la descrizione di un elenco di account, fai clic sull&#39;icona _Informazioni_ ( ![Icona Informazioni](../assets/do-not-localize/icon-info.svg) ) accanto al nome.
 
 ## Creare un elenco di account
 

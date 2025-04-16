@@ -3,10 +3,10 @@ title: Gruppi acquisti
 description: Scopri come i gruppi acquisti in Journey Optimizer B2B Edition possono aumentare l’efficacia del marketing tramite identificazione e targeting dei membri dei tuoi elenchi di account.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 37b17b4377854c91995e420d462ed2f344c6f219
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1784'
-ht-degree: 98%
+source-wordcount: '1782'
+ht-degree: 97%
 
 ---
 
@@ -36,10 +36,8 @@ Puoi aumentare l’efficacia del marketing in Journey Optimizer B2B Edition crea
 
 1. Crea gruppi acquisti.
 
-   Opzioni:
-   * Usa [Interesse della soluzione](./solution-interests.md) e [Modello di ruolo](./buying-groups-role-templates.md)
-   * Usa importazione di terze parti
-   * Genera da IA/ML
+   * Definisci [interesse soluzione](./solution-interests.md) e [modello ruolo](./buying-groups-role-templates.md)
+   * [Crea il gruppo di acquisto](./buying-groups-create.md#create-buying-groups) e assegna [fasi del gruppo di acquisto](./buying-group-stages.md).
 
 1. Identifica le figure mancanti.
 
@@ -53,7 +51,7 @@ Puoi aumentare l’efficacia del marketing in Journey Optimizer B2B Edition crea
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. Utilizza in un percorso dell’account tramite l’interesse della soluzione associato.
+1. Utilizza il gruppo di acquisto per i tuoi percorsi di account.
 
 ## Visualizzare gruppi acquisti e componenti
 

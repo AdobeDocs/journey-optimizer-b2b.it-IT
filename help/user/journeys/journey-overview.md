@@ -3,10 +3,10 @@ title: Percorsi account
 description: Scopri come creare e gestire i percorsi account.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: bd6f998b610c6f3a4d7c0e1fce5db4bb72b8a1e3
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 30%
+source-wordcount: '1009'
+ht-degree: 29%
 
 ---
 
@@ -29,22 +29,20 @@ Per iniziare a utilizzare i percorsi account:
 
 ## Accedere e sfogliare i percorsi di account
 
-1. Nella pagina Home di Adobe Experience Platform, fai clic su Adobe Journey Optimizer B2B Edition.
+Nel menu di navigazione a sinistra, fai clic su **[!UICONTROL percorsi di account]**.
 
-1. Nel menu di navigazione a sinistra, fai clic su **[!UICONTROL percorsi di account]**.
+![Accedi ai percorsi account](./assets/account-journey-browse.png){width="800" zoomable="yes"}
 
-   ![Accedi ai percorsi account](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+La pagina dei percorsi visualizzata include le colonne riportate di seguito:
 
-   La pagina dei percorsi visualizzata include le colonne riportate di seguito:
-
-   * [!UICONTROL Nome] (fare clic sul nome per aprire il percorso per la modifica)
-   * [!UICONTROL Stato]
-   * [!UICONTROL Descrizione]
-   * [!UICONTROL Creato da]
-   * [!UICONTROL Ultimo aggiornamento il]
-   * [!UICONTROL Ultimo aggiornamento effettuato da]
-   * [!UICONTROL Pubblicato il]
-   * [!UICONTROL Pubblicato da]
+* [!UICONTROL Nome] (fare clic sul nome per aprire il percorso per la modifica)
+* [!UICONTROL Stato]
+* [!UICONTROL Descrizione]
+* [!UICONTROL Creato da]
+* [!UICONTROL Ultimo aggiornamento il]
+* [!UICONTROL Ultimo aggiornamento effettuato da]
+* [!UICONTROL Pubblicato il]
+* [!UICONTROL Pubblicato da]
 
 Utilizza lo strumento _Ricerca_ nella parte superiore per individuare il percorso in base al nome. Puoi ordinare l&#39;elenco in base a _[!UICONTROL Stato]_ facendo clic sull&#39;intestazione della colonna.
 
@@ -64,7 +62,7 @@ L’intestazione di ciascuna mappa del percorso di conti include:
 * Accesso per modificare il nome del percorso ( ![icona Modifica](../assets/do-not-localize/icon-edit.svg) _icona Modifica_)
 * Stato del percorso
 
-Lo stato di un percorso può variare in base alle azioni che applichi. In base allo stato di un percorso, alcune azioni sono/non sono disponibili dal lato destro dell&#39;intestazione.
+Lo stato di un percorso può cambiare in base alle azioni applicate. In base allo stato di un percorso, alcune azioni sono/non sono disponibili dal lato destro dell’intestazione.
 
 | Stato | Descrizione | Azioni disponibili |
 | ------ | ----------- | ----------------- |
@@ -100,7 +98,7 @@ Se chiudi un percorso in tempo reale, gli account attualmente presenti nel perco
 
 >[!IMPORTANT]
 >
->Quando il percorso account viene utilizzato in un altro percorso da un _nodo Intraprendere un&#39;azione_ con l&#39;azione _Aggiungi account a (altro) percorso_ , chiuderlo alle nuove voci blocca tale azione da quel percorso.
+>Quando il percorso di account viene utilizzato in un altro percorso da un nodo _Esegui un&#39;azione_ con l&#39;azione _Aggiungi account a (altro) Percorso_, la chiusura del nodo alle nuove voci blocca l&#39;azione da tale percorso.
 
 1. Fare clic sul nome del percorso per aprirlo.
 
@@ -136,9 +134,9 @@ Un’azione duplicata è simile a una funzione di clonazione, ma un percorso dup
 
    * **[!UICONTROL Duplica senza dettagli]** - Utilizzare questo tipo per copiare solo la struttura e i percorsi dei nodi. Tutte le impostazioni del nodo e le condizioni del percorso non sono definite (impostazione predefinita), pertanto puoi riutilizzare il flusso di base con diverse impostazioni di pubblico, azioni e segmentazione del percorso. Tutti i nodi _Wait_ utilizzano il valore predefinito di cinque giorni.
 
-1. Fai clic su **[!UICONTROL Duplicazione]**.
+1. Fai clic su **[!UICONTROL Duplica]**.
 
-   Il percorso account duplicato viene aperto nella mappa del percorso, dove è possibile impostare i dettagli e creare contenuto di viaggio in base alle esigenze.
+   Il percorso di account duplicato viene aperto nella mappa del percorso, dove puoi impostare i dettagli e creare il contenuto del percorso in base alle esigenze.
 
 ### Elimina percorso
 

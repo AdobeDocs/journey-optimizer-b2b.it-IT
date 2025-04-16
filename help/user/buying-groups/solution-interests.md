@@ -3,22 +3,20 @@ title: Interessi soluzione
 description: Scopri gli interessi delle soluzioni e come definirli per l’utilizzo all’interno dei gruppi di acquisto.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 0%
+source-wordcount: '695'
+ht-degree: 1%
 
 ---
 
-# Interessi soluzione
+# Interessi della soluzione
 
 Prima di creare gruppi di acquisto, è necessario sapere cosa si vende e chi si desidera eseguire il targeting. La tua strategia di marketing e vendita deve essere allineata in modo da poter aggiungere interesse alla soluzione per i gruppi di acquisto.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
 ## Accedere e sfogliare gli interessi della soluzione
-
-1. Nella home page di Adobe Experience Platform, fare clic su Adobe Journey Optimizer B2B edition.
 
 1. Nel menu di navigazione a sinistra, fai clic su **[!UICONTROL Gruppi di acquisto]**.
 
@@ -101,6 +99,6 @@ Qualsiasi interesse di soluzione attualmente in uso da un processo o percorso di
 
 1. Fare clic su **[!UICONTROL Elimina]** per confermare l&#39;eliminazione oppure interrompere il processo facendo clic su _[!UICONTROL Annulla]_.
 
-## Video introduttivo
+## Video di panoramica
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
