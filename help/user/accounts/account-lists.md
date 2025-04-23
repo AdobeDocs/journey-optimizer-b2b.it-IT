@@ -1,10 +1,11 @@
 ---
 title: Elenchi account
 description: Scopri gli elenchi di account e come utilizzarli per eseguire il targeting degli account tramite percorsi di account.
+badgeBeta: label="Disponibilità limitata" type="informative" tooltip="Questa funzione è attualmente disponibile solo su richiesta"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: b1e4709042ef5a436bbf4f209ae13cf100e78664
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1631'
 ht-degree: 1%
 
 ---
