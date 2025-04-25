@@ -3,9 +3,9 @@ title: Authoring di SMS
 description: Scopri come inviare messaggi di testo (SMS) ai clienti sui loro dispositivi mobili e come personalizzare e visualizzare in anteprima i messaggi in formato testo dall’editor SMS.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
+source-git-commit: b614b972ad3f579c11b87af7ec7bcd6df24ec1a9
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1367'
 ht-degree: 3%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 3%
 
 Utilizza Adobe Journey Optimizer B2B edition per inviare SMS ai clienti sui loro dispositivi mobili. Puoi creare, personalizzare e visualizzare in anteprima i messaggi in formato testo dall’editor SMS.
 
-Prima di creare messaggi SMS per i giornali di registrazione account, assicurati che il provider di servizi SMS [sia configurato](../admin/configure-channels-sms.md) dalle impostazioni _[!UICONTROL Amministratore]_.
+Prima di creare messaggi SMS per percorsi di account, verificare che il provider di servizi SMS [sia configurato](../admin/configure-channels-sms.md) dalle impostazioni _[!UICONTROL Amministratore]_.
 
 ## Aggiungere un’azione SMS in un percorso di account
 
-Puoi impostare le consegne di messaggi di testo in un Percorso di account quando aggiungi un nodo _[!UICONTROL Esegui un&#39;azione]_ ed effettua le seguenti operazioni:
+Puoi impostare le consegne di messaggi di testo in un percorso di account quando aggiungi un nodo _[!UICONTROL Esegui un&#39;azione]_ ed effettua le seguenti operazioni:
 
 1. Per l&#39;azione _[!UICONTROL sulla destinazione]_, scegliere **[!UICONTROL Persone]**.
 
@@ -34,7 +34,7 @@ Puoi impostare le consegne di messaggi di testo in un Percorso di account quando
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
-   Verrà aperto _Progettazione contenuti del Percorso_ ed è possibile creare il messaggio e impostare le proprietà SMS per l&#39;invio del messaggio.
+   Viene aperta la mappa del _Percorso_ ed è possibile creare il messaggio e impostare le proprietà SMS per l&#39;invio del messaggio.
 
 ### Creare il messaggio SMS
 
