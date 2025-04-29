@@ -3,10 +3,11 @@ title: Progettazione modello pagina di destinazione
 description: Scopri come progettare e creare contenuti per i modelli di pagina di destinazione che gli addetti al marketing possono riutilizzare per creare pagine di destinazione.
 feature: Content
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
-source-git-commit: f0658fad82d6656bc052c1810530963404e29396
+exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
+source-git-commit: 4e203a5d1fb0c9d9dc2a6bd14705b17335c98ee3
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 8%
+ht-degree: 20%
 
 ---
 
@@ -19,12 +20,12 @@ Dopo aver [creato un modello di pagina di destinazione](./landing-page-templates
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_template_structure"
 >title="Aggiungere componenti della struttura alla pagina di destinazione"
->abstract="I componenti della struttura definiscono il layout della pagina di destinazione. Trascina e rilascia un componente **Struttura** nell&#39;area di lavoro per iniziare a progettare il contenuto per il modello di pagina."
+>abstract="I componenti della struttura definiscono il layout della pagina di destinazione. Per iniziare a progettare il contenuto del modello di pagina, trascina un componente **Struttura** nell’area di lavoro."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_template_content_components"
->title="Informazioni sui componenti dei contenuti per le pagine di destinazione"
->abstract="I componenti di contenuto sono segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di un modello di pagina di destinazione."
+>title="Informazioni sui componenti per contenuti per le pagine di destinazione"
+>abstract="I componenti per contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di un modello di pagina di destinazione."
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -40,7 +41,7 @@ Dopo aver [creato un modello di pagina di destinazione](./landing-page-templates
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-### Personalizzare il contenuto
+### Personalizzazione dei contenuti
 
 {{$include /help/_includes/content-design-personalization.md}}
 

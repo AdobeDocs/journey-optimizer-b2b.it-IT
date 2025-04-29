@@ -7,7 +7,7 @@ exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
 source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -24,7 +24,7 @@ Dopo aver [creato una pagina di destinazione](./landing-pages.md#create-a-landin
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_content_components"
->title="Informazioni sui componenti dei contenuti per le pagine di destinazione"
+>title="Informazioni sui componenti per contenuti per le pagine di destinazione"
 >abstract="I componenti dei contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione."
 
 {{$include /help/_includes/content-design-components.md}}
@@ -41,7 +41,7 @@ Dopo aver [creato una pagina di destinazione](./landing-pages.md#create-a-landin
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-### Personalizzare il contenuto
+### Personalizzazione dei contenuti
 
 {{$include /help/_includes/content-design-personalization.md}}
 
