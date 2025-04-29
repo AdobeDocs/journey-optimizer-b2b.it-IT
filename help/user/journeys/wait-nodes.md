@@ -2,7 +2,8 @@
 title: Nodi di attesa
 description: Scopri il tipo di nodo Attendi che puoi utilizzare per orchestrare i percorsi di account in Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Esistono due modi per definire il tempo di attesa:
 
 _Per definire un nodo di attesa per il percorso di account:_
 
-1. Passa all’editor di percorso.
+1. Passa alla mappa del percorso.
 
 1. Fai clic sull&#39;icona più ( **+** ) in un percorso e scegli **[!UICONTROL Attendi]**.
 

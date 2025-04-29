@@ -1,23 +1,26 @@
 ---
 title: Elenchi account
 description: Scopri gli elenchi di account e come utilizzarli per eseguire il targeting degli account tramite percorsi di account.
-badgeBeta: label="Disponibilità limitata" type="informative" tooltip="Questa funzione è attualmente disponibile solo su richiesta"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: b1e4709042ef5a436bbf4f209ae13cf100e78664
+source-git-commit: 2fbf54b3e532eadb7b9a84c64c7d67eb8bcf62b2
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1339'
 ht-degree: 1%
 
 ---
 
 # Elenchi account
 
-Un elenco di account è una raccolta di account denominati che gli addetti al marketing possono utilizzare per l’orchestrazione del percorso di destinazione. Un elenco di conti può eseguire il targeting dei conti denominati in base a criteri definiti, ad esempio settore, posizione o dimensioni dell’azienda. Esistono due tipi di elenchi di account:
+In Journey Optimizer B2B edition, un elenco di account è una raccolta di account denominati che gli addetti al marketing possono utilizzare per l’orchestrazione del percorso di destinazione. Un elenco di conti può eseguire il targeting dei conti denominati in base a criteri definiti, ad esempio settore, posizione o dimensioni dell’azienda. Esistono due tipi di elenchi di account:
 
 * **Statico** - Con un elenco di account statico, l&#39;elenco cambia solo quando si aggiungono gli account. È possibile aggiungere manualmente account applicando un set di filtri per compilare l&#39;elenco in base ai dati del conto corrente oppure aggiungere e rimuovere account tramite un percorso di account.
 * **Dinamico** - Con un elenco account dinamico, si definisce un set di filtri per la cura automatica dell&#39;elenco. Il sistema utilizza questo set di filtri per aggiungere e rimuovere account in base alle modifiche apportate alle informazioni sull&#39;account. Questa gestione degli elenchi è simile alla [segmentazione del pubblico in Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b).
 
-Quando un elenco account è nello stato _Live_ (pubblicato), è disponibile per l&#39;utilizzo in percorsi di account.
+Quando un elenco account è nello stato _Live_ (pubblicato), è disponibile per [l&#39;utilizzo in percorsi di account e programmi Marketo Engage](./account-lists-journeys.md).
+
+>[!NOTE]
+>
+>Gli elenchi di account sfruttano i dati degli account di Marketo Engage per creare segmenti ed elenchi di account. Ciò significa che se un segmento di account da Adobe Experience Platform non è sincronizzato attivamente in Marketo Engage, gli account in tale segmento di Experience Platform potrebbero non essere disponibili negli elenchi di account di Journey Optimizer B2B edition. Successivamente, qualsiasi persona proveniente da account di segmenti Experience Platform che non sono sincronizzati con Marketo Engage potrebbe non essere inclusa nei conteggi di iscrizione o conteggiata negli eventi trigger.
 
 ## Accedere e sfogliare gli elenchi di account
 
@@ -170,65 +173,3 @@ Puoi procedere alla pubblicazione di un elenco di account dinamici non appena il
 Lo stato dell&#39;elenco degli account dinamici cambia in _[!UICONTROL Live]_ ed è disponibile per [l&#39;utilizzo in un percorso di account](#account-list-usage-in-account-journeys).
 
 >[!ENDTABS]
-
-## Utilizzo dell’elenco account nei percorsi di account
-
-Esistono tre modi per incorporare gli elenchi di account live (pubblicati) nei percorsi di account:
-
-### Nodo pubblico account
-
-1. Selezionare **[!UICONTROL Elenco account]** per il nodo _Pubblico account_ iniziale.
-
-   ![Selezionare l&#39;opzione di elenco account per il nodo del pubblico account](../journeys/assets/node-audience-account-list.png){width="500"}
-
-1. Fare clic su **[!UICONTROL Aggiungi elenco account]**.
-
-1. Selezionare la casella di controllo per l&#39;elenco degli account e fare clic su **[!UICONTROL Salva]**.
-
-   ![Selezionare l&#39;opzione di elenco account per il nodo del pubblico account](../journeys/assets/node-audience-account-list-select-dialog.png){width="600" zoomable="yes"}
-
-Gli account nell’elenco vengono spostati nel percorso quando è attivo (pubblicato).
-
-### Prendi un nodo azione - Aggiungi all’account
-
-**_Solo elenchi account statici_**
-
-Aggiungi account a un elenco di account statici utilizzando [a _Esegui un&#39;azione_ nodo](../journeys/action-nodes.md).
-
-Ad esempio, potresti avere un percorso di percorso in cui invii un’e-mail e alcuni account eseguono varie azioni come azioni di risposta. Consideri questa attività come un punto di qualificazione nel percorso e vuoi aggiungerla a un elenco di account utilizzato come pubblico per un altro percorso con un flusso diverso per gli account qualificati.
-
->[!NOTE]
->
->Se durante l’esecuzione del nodo è già presente un account nell’elenco, l’azione viene ignorata.
-
-1. Selezionare l&#39;opzione _[!UICONTROL Azione su]_ **[!UICONTROL Account]**.
-
-1. Per _[!UICONTROL Azione sugli account]_, scegli **[!UICONTROL Aggiungi all&#39;elenco degli account]**.
-
-   ![Seleziona Aggiungi all&#39;elenco account](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
-
-1. Per **[!UICONTROL Selezionare l&#39;elenco di account statici attivi]**, scegliere l&#39;elenco di account in cui si desidera aggiungere gli account.
-
-   ![Seleziona Aggiungi all&#39;elenco account](../journeys/assets/node-action-account-add-to-account-list-select.png){width="500"}
-
-### Crea un nodo di azione - Rimuovi dall’account
-
-**_Solo elenchi account statici_**
-
-Rimuovere account da un elenco di account statici utilizzando [a _Esegui un&#39;azione_ nodo](../journeys/action-nodes.md).
-
-Ad esempio, potresti avere un percorso di percorso in cui invii un’e-mail e alcuni account eseguono varie azioni come azioni di risposta. Consideri questa attività come un punto di qualificazione nel percorso e vuoi rimuoverla da un elenco di account utilizzato come pubblico per un altro percorso che invia e-mail aggiuntive in modo da non duplicare le comunicazioni di qualificazione.
-
->[!NOTE]
->
->Se un account non è presente nell&#39;elenco in cui è pianificata la rimozione, l&#39;azione viene ignorata.
-
-1. Selezionare l&#39;opzione _[!UICONTROL Azione su]_ **[!UICONTROL Account]**.
-
-1. Per _[!UICONTROL Azione sugli account]_, scegli **[!UICONTROL Rimuovi dall&#39;elenco degli account]**.
-
-   ![Seleziona Aggiungi all&#39;elenco account](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
-
-1. Per **[!UICONTROL Selezionare l&#39;elenco di account statici attivi]**, scegliere l&#39;elenco di account in cui si desidera rimuovere gli account.
-
-   ![Seleziona Aggiungi all&#39;elenco account](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}

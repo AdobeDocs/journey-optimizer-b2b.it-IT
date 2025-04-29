@@ -3,14 +3,14 @@ title: Esegui un'azione
 description: Scopri il tipo di nodo "Take an action" (Esegui un’azione) che puoi utilizzare per orchestrare i percorsi di account in Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
+source-git-commit: db30486c23f6560beb72cd9d9b3a82b70a2e2ddd
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 0%
+source-wordcount: '1240'
+ht-degree: 2%
 
 ---
 
-# Esegui un&#39;azione
+# Intraprendere un’azione
 
 Nel tuo percorso di account puoi aggiungere un nodo _[!UICONTROL Esegui un&#39;azione]_ per eseguire un&#39;azione, ad esempio inviare un&#39;e-mail, modificare un punteggio, assegnare un gruppo di acquisto e così via. Le azioni sono in genere ciò che desideri che accada come risultato di un qualche tipo di trigger, ad esempio un evento o un’azione precedente.
 
@@ -36,7 +36,7 @@ Utilizza un’azione sugli account quando desideri applicare una modifica a tutt
 
 ### Aggiungere un’azione basata sull’account
 
-1. Passa all’editor di percorso.
+1. Passa alla mappa del percorso.
 
 1. Fai clic sull&#39;icona più ( **+** ) in un percorso e scegli **[!UICONTROL Esegui un&#39;azione]**.
 
@@ -56,14 +56,14 @@ Utilizza un’azione sulle persone quando desideri applicare una modifica a tutt
 
 | Contesto | Azione | Vincoli |
 | ------- | ------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Aggiungi a pubblico cliente esterno] | Seleziona il pubblico cliente esterno |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Aggiungi a pubblico cliente esterno] | Seleziona un pubblico di clientela esterno |
 | | [!UICONTROL Assegna al gruppo di acquisto] | Seleziona interesse soluzione<br/>Seleziona ruolo |
 | | [!UICONTROL Modifica valore dati] | Seleziona attributo persona<br/>Imposta nuovo valore |
 | | [!UICONTROL Modifica punteggio] | Nome punteggio<br/>Modifica del punteggio |
 | | [!UICONTROL Momento di interesse della persona] | Tipo<br/>Descrizione |
-| | [!UICONTROL Rimuovi dal gruppo di acquisto] | Seleziona interesse soluzione |
+| | [!UICONTROL Rimuovi dal gruppo di acquisto] | Seleziona l’interesse della soluzione |
 | | [!UICONTROL Invia e-mail] | Crea nuova e-mail<br/>Seleziona e-mail da Marketo Engage |
-| | [!UICONTROL Invia SMS] | Creare un SMS |
+| | [!UICONTROL Invia SMS] | Crea SMS |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Aggiungi all&#39;elenco] | Seleziona area di lavoro Marketo Engage<br/>Nome elenco |
 | | [!UICONTROL Aggiungi alla campagna di richiesta Marketo Engage] | Seleziona area di lavoro Marketo Engage<br/>Seleziona campagna di richiesta |
 | | [!UICONTROL Cambia partizione persone in Marketo Engage] | Nuova partizione |
@@ -71,7 +71,7 @@ Utilizza un’azione sulle persone quando desideri applicare una modifica a tutt
 
 ### Aggiungere un&#39;azione basata sulle persone
 
-1. Passa all’editor di percorso.
+1. Passa alla mappa del percorso.
 
 1. Fai clic sull&#39;icona più ( **+** ) in un percorso e scegli **[!UICONTROL Esegui un&#39;azione]**.
 
@@ -95,7 +95,7 @@ Utilizza questa azione per indirizzare le persone a un pubblico esterno che può
 
 ![Azione da eseguire - Aggiungi a pubblico cliente esterno](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-Quando selezioni questa azione basata sulle persone, puoi creare un nuovo pubblico esterno o selezionarlo da un pubblico esterno esistente. Per i tipi di pubblico esistenti, puoi scegliere uno dei tipi di pubblico dei clienti esterni che sono stati creati solo in Journey Optimizer B2B edition. Quando crei un pubblico e lo utilizzi per questa azione di percorso, accertati di connettere la destinazione. Per ulteriori informazioni, vedere [Creare una nuova connessione di destinazione](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Panoramica attivazione](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} nella documentazione di Experience Platform.
+Quando selezioni questa azione basata sulle persone, puoi creare un nuovo pubblico esterno o selezionarlo da un pubblico esterno esistente. Per i tipi di pubblico esistenti, puoi scegliere uno dei tipi di pubblico dei clienti esterni che sono stati creati solo in Journey Optimizer B2B edition. Quando crei un pubblico e lo utilizzi per questa azione di percorso, accertati di connettere la destinazione. Per ulteriori informazioni, consulta [Creare una nuova connessione di destinazione](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Panoramica attivazione](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} nella documentazione di Experience Platform.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda una panoramica video per l&#39;orchestrazione a pagamento](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -112,6 +112,10 @@ _Per creare un pubblico esterno:_
 1. Fai clic su **[!UICONTROL Crea]**.
 
    Il sistema crea il nuovo pubblico e visualizza un messaggio di conferma. Puoi quindi continuare a utilizzarlo come pubblico esistente per l’azione del nodo.
+
+   >[!NOTE]
+   >
+   >Quando viene creato un nuovo pubblico di clienti esterno da Journey Optimizer B2B edition, questo viene preimpostato con un record fittizio (`test@email.com`). Questo record viene sovrascritto non appena il primo profilo reale viene aggiunto al pubblico esterno dal percorso.
 
 _Per utilizzare un pubblico esistente:_
 
@@ -197,7 +201,7 @@ Selezionare innanzitutto l&#39;area di lavoro nell&#39;istanza di Marketo Engage
 
 +++[!UICONTROL Aggiungi alla campagna di richiesta Marketo]
 
-Utilizzare questa azione per aggiungere profili persone a una [campagna di richiesta](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in Marketo Engage.
+Utilizza questa azione per aggiungere profili di persone a una [campagna di richieste](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in Marketo Engage.
 
 Selezionare innanzitutto l&#39;area di lavoro nell&#39;istanza di Marketo Engage connessa. Quindi, seleziona il nome della campagna di richiesta.
 
@@ -223,6 +227,6 @@ Se il profilo della persona non era un membro dell’elenco smart, l’azione vi
 
 +++
 
-## Video introduttivo
+## Video di panoramica
 
 >[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)

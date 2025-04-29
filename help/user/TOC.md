@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentazione di Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando l’intelligenza artificiale generativa incorporata e l’automazione leader del settore.
-source-git-commit: 168bd128de8845c1ccd4e33b290aecebc28064ef
+source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 93%
+source-wordcount: '255'
+ht-degree: 91%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 93%
    + [Protocolli per tracciamento ed e-mail](./start/email-protocols.md)
 + Assistente IA {#ai-assistant}
    + [Panoramica](./ai-assistant/ai-assistant-overview.md)
-   + [Abilitare l&#39;accesso di AI Assistant](./ai-assistant/enable-ai-assistant-access.md)
-   + [Guida alle domande](./ai-assistant/question-guidance.md)
+   + [Abilita l’accesso all’Assistente AI](./ai-assistant/enable-ai-assistant-access.md)
+   + [Indicazioni sulle domande](./ai-assistant/question-guidance.md)
    + [Utilizzo dell’Assistente IA](./ai-assistant/use-ai-assistant.md)
 + Percorsi account {#account-journeys}
    + [Panoramica](./journeys/journey-overview.md)
@@ -40,7 +40,7 @@ ht-degree: 93%
       + [Assistente IA per l’authoring delle e-mail](./content/ai-assistant-emails.md)
       + [Modelli gestiti](./content/email-authoring-governance.md)
       + [E-mail di avviso vendite](./content/sales-alert-email.md)
-   + [Token personalizzazione personalizzati](./content/personalization-my-tokens.md)
+   + [Token di personalizzazione personalizzati](./content/personalization-my-tokens.md)
    + [Authoring di SMS](./content/sms-authoring.md)
 + Account {#accounts}
    + [Tipi di pubblico](./audiences/account-audience-overview.md)
@@ -54,7 +54,9 @@ ht-degree: 93%
       + [Esportare l’elenco account](./audiences/account-list-export.md)
       + [Tipi di pubblico associati all’account LinkedIn](./data/linkedin-account-matched-audiences.md)
       + [Filtri gruppo acquisto in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
-   + [Elenchi account](./accounts/account-lists.md)
+   + Elenchi account {#occount-lists}
+      + [Panoramica](./accounts/account-lists.md)
+      + [Uso in percorsi e programmi](./accounts/account-lists-journeys.md)
    + [Dettagli dell’account](./accounts/account-details.md)
    + [Campi XDM](./data/field-mapping.md)
 + Gestione dei contenuti {#content-management}
@@ -71,18 +73,18 @@ ht-degree: 93%
          + [Authoring di modelli e-mail](./content/email-template-authoring.md)
       + Modelli pagine di destinazione {#landing-page-templates}
          + [Panoramica](./content/landing-page-templates.md)
-         + [Progettazione modello pagina di destinazione](./content/landing-page-template-design.md)
+         + [Progettazione del modello della pagina di destinazione](./content/landing-page-template-design.md)
    + Frammenti {#visual-fragments}
       + [Panoramica](./content/fragments.md)
       + [Authoring dei frammenti](./content/fragment-authoring.md)
    + Forms {#forms}
       + [Panoramica](./content/forms.md)
-      + [Struttura del modulo](./content/form-design.md)
+      + [Progettazione modulo](./content/form-design.md)
    + Pagine di destinazione {#landing-pages}
       + [Panoramica](./content/landing-pages.md)
       + [Progettazione pagina di destinazione](./content/landing-page-design.md)
    + [Contenuto condizionale](./content/conditional-content.md)
-+ Insights dashboard {#dashboards}
++ Dashboard di Insights {#dashboards}
    + [Dashboard intelligente](./dashboards/intelligent-dashboard.md)
    + [Panoramica del coinvolgimento](./dashboards/engagement-dashboard.md)
    + [Panoramica dei gruppi di acquisto](./dashboards/buying-groups-dashboard.md)

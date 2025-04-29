@@ -3,16 +3,16 @@ title: Nodi del pubblico dell’account
 description: Scopri il tipo di nodo del pubblico di account che puoi utilizzare per definire l’input per i percorsi di account in Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
+source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 5%
 
 ---
 
 # Nodi del percorso di pubblico dell’account
 
-Il nodo Pubblico account definisce il pubblico dell’account di input (creato e gestito in Adobe Experience Platform) per il percorso. Quando [crei un percorso di account](./journey-overview.md#create-an-account-journey), questo inizia sempre con un nodo _Pubblico account_ che definisce l&#39;input per il percorso.
+Il nodo Pubblico account definisce gli account di input per il percorso. Quando [crei un percorso di account](./journey-overview.md#create-an-account-journey), questo inizia sempre con un nodo _Pubblico account_ che definisce l&#39;input per il percorso.
 
 Esistono due tipi di input che è possibile utilizzare per questo nodo:
 

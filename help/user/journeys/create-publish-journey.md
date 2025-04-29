@@ -3,16 +3,16 @@ title: Creazione e pubblicazione di un Percorso di account
 description: Scopri come creare e pubblicare percorsi di account.
 feature: Account Journeys
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 # Creazione e pubblicazione di un percorso di account
 
-Per iniziare a utilizzare un percorso di account, crea il percorso e quindi costruisci i nodi e il flusso del percorso nell’editor di percorso.
+Per iniziare a utilizzare un percorsi percorso di account, crealo e quindi costruisci i nodi e il flusso del percorso nella mappa del percorso.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
@@ -34,8 +34,8 @@ La mappa del percorso __ è la zona centrale nella finestra di progettazione del
 
 Dopo aver creato un percorso di account e aver aggiunto il pubblico, crea il percorso utilizzando i nodi. La mappa del percorso fornisce un’area di lavoro in cui puoi creare casi di utilizzo del marketing B2B a più passaggi utilizzando i seguenti tipi di nodo per creare un percorso di account:
 
-* [Intraprendi un’azione](./action-nodes.md)
-* [Ascolta un evento](./listen-for-event-nodes.md)
+* [Intraprendere un’azione](./action-nodes.md)
+* [Ascoltare un evento](./listen-for-event-nodes.md)
 * [Suddividi percorsi](./split-merge-paths-nodes.md)
 * [Attendere](./wait-nodes.md)
 * [Unisci percorsi](./split-merge-paths-nodes.md)
@@ -50,7 +50,7 @@ Per facilitare la creazione di un percorso senza che si verifichino errori, sono
 
 ## Aggiungi un nodo
 
-1. Passa all’editor di percorso.
+1. Passa alla mappa del percorso.
 
 1. Fai clic sull&#39;icona più ( **+** ) sul percorso e seleziona il tipo di nodo.
 
@@ -58,7 +58,7 @@ Per facilitare la creazione di un percorso senza che si verifichino errori, sono
 
 ## Eliminare un nodo
 
-1. Passa all’editor di percorso.
+1. Passa alla mappa del percorso.
 
 1. Nelle proprietà del nodo a destra, fai clic sull&#39;icona _Elimina_ ( ![Elimina icona](../assets/do-not-localize/icon-delete.svg) ).
 
@@ -66,7 +66,7 @@ Per facilitare la creazione di un percorso senza che si verifichino errori, sono
 
 ## Aggiungere ed eliminare un percorso
 
-1. Passa all’editor di percorso.
+1. Passa alla mappa del percorso.
 
 1. Fai clic sull&#39;icona più ( **+** ) sul percorso e aggiungi il [nodo percorso diviso](./split-merge-paths-nodes.md#split-paths).
 
@@ -134,6 +134,6 @@ Quando pubblichi un percorso, può iniziare immediatamente o in una data futura 
 
 1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Pubblica]**.
 
-## Video introduttivo
+## Video di panoramica
 
 >[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
