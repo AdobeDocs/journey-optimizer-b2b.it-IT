@@ -2,9 +2,9 @@
 title: Note sulla versione
 description: Note sulla versione più recente di Adobe Journey Optimizer B2B edition
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: f4c0870e3cf8a8c1db3ed2f11f7ecfdf244f69fe
+source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2004'
 ht-degree: 81%
 
 ---
@@ -27,7 +27,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | ---- | ---- | ----------- |
 | Funzione | Elenchi account | Ora puoi creare un elenco di account statico o dinamico per eseguire il targeting di account denominati in base a criteri definiti, ad esempio settore, posizione o dimensioni dell’azienda. <a href="../accounts/account-lists.md">Ulteriori informazioni</a> |
 | Funzione | Orchestrazione percorso elenco account | Utilizzare i nodi delle azioni di percorso per aggiungere e rimuovere account per elenchi di account statici. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Ulteriori informazioni</a> |
-| Miglioramento | Filtrare l’iscrizione al percorso in Marketo Engage | Utilizza gli elenchi account di Adobe Journey Optimizer B2B edition per il pubblico di percorso, quindi utilizza il filtro _Membro di un elenco account_ negli elenchi avanzati di Marketo Engage. &lt;a href=&quot;../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list>Ulteriori informazioni</a> |
+| Miglioramento | Filtrare l’iscrizione al percorso in Marketo Engage | Utilizza gli elenchi account di Adobe Journey Optimizer B2B edition per il pubblico di percorso, quindi utilizza il filtro _Membro di un elenco account_ negli elenchi avanzati di Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Ulteriori informazioni</a> |
 | Funzione | Filtri di inattività | Orchestrazione di percorsi in base all’inattività nelle campagne e nei programmi Marketo Engage, inclusi inattività delle e-mail, momenti interessanti, modifiche al valore dei dati e pagine web visitate. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Ulteriori informazioni</a> |
 | Miglioramento | Filtro pagina web visitata | Orchestrare percorsi in base all’attività per le pagine web visitate associate a campagne e programmi Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">Ulteriori informazioni</a> |
 
