@@ -6,7 +6,7 @@ exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
 source-wordcount: '1782'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,7 @@ La pagina _[!UICONTROL Gruppi acquisti]_ è organizzata in schede:
 | Scheda | Descrizione |
 | --- | ----------- |
 | [!UICONTROL Panoramica] | Questa scheda è quella predefinita e mostra la dashboard [Gruppi acquisti](../dashboards/buying-groups-dashboard.md). |
-| [!UICONTROL Sfoglia] | Questa scheda supporta le seguenti attività: <ul><li>Visualizzare l’elenco dei gruppi acquisti esistenti. </li><li>Cercare per nome gruppo acquisti. </li><li>Filtrare per interesse della soluzione. </li><li>Espandere i dettagli del gruppo acquisti. </li><li>Crea un gruppo di acquisto. </li></ul> |
+| [!UICONTROL Sfoglia] | Questa scheda supporta le seguenti attività: <ul><li>Visualizzare l’elenco dei gruppi acquisti esistenti. </li><li>Cercare per nome gruppo acquisti. </li><li>Filtrare per interesse della soluzione. </li><li>Espandere i dettagli del gruppo acquisti. </li><li>Crea un gruppo acquisti. </li></ul> |
 | [!UICONTROL Interessi della soluzione] | Questa scheda supporta le seguenti attività: <ul><li>Visualizzare l’elenco dei gruppi acquisti esistenti. </li><li>Cercare per nome gruppo acquisti. </li><li>Accedere e modificare le proprietà di interesse della soluzione. </li><li>Creare un interesse della soluzione. </li><li>Eliminare un interesse della soluzione. </li><li>Visualizzare ed eliminare i processi del gruppo acquisti. </li></ul> |
 | [!UICONTROL Modelli di ruolo] | Questa scheda supporta le seguenti attività: <ul><li>Visualizzare l’elenco dei modelli di ruolo esistenti. </li><li>Cercare per nome modello di ruoli. </li><li>Accedere e modificare le proprietà e le condizioni del modello di ruoli. </li><li>Creare un modello di ruoli. </li><li>Eliminare un modello di ruoli. </li></ul> |
 | [!UICONTROL Fasi] | Questa scheda supporta le seguenti attività: <ul><li>Visualizzare il modello di fasi dei gruppi acquisti esistenti. </li><li>Accedere e modificare la bozza del modello di fasi del gruppo acquisti. </li><li>Crea il modello di fasi del gruppo acquisti. </li></ul> |
@@ -138,7 +138,7 @@ Il punteggio di coinvolgimento del gruppo acquisti è un numero utilizzato per d
 
 >[!NOTE]
 >
->Le attività con punteggio di coinvolgimento sono registrate nel registro attività [di Marketo Engage per una persona](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+>Le attività con punteggio di coinvolgimento sono registrate nel [registro attività per persona](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} di Marketo Engage.
 
 +++
 

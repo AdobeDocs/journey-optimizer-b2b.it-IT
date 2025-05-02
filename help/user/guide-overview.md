@@ -4,8 +4,8 @@ description: Scopri come utilizzare le funzioni di Adobe Journey Optimizer B2B E
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: 8328829d11af5287dce743d49374fc4b1a4b3f53
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 65%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -120,7 +120,7 @@ Scopri i componenti di un gruppo acquisti e comprendi le nozioni di base per la 
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Contenuto percorso"><br/>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Contenuto del percorso"><br/>
       <strong>Contenuto percorso</strong><br/><a href="./content/email-authoring.md">Authoring di e-mail</a><br/><a href="./content/ai-assistant-emails.md">Assistente IA per e-mail</a><br/><a href="./content/sales-alert-email.md">E-mail di avviso vendite</a><br/><a href="./content/sms-authoring.md">Authoring di SMS</a>
     </td>
         <td>

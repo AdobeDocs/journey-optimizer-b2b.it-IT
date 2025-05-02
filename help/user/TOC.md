@@ -3,8 +3,8 @@ user-guide-title: Documentazione di Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando l’intelligenza artificiale generativa incorporata e l’automazione leader del settore.
 source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 91%
    + [Protocolli per tracciamento ed e-mail](./start/email-protocols.md)
 + Assistente IA {#ai-assistant}
    + [Panoramica](./ai-assistant/ai-assistant-overview.md)
-   + [Abilita l’accesso all’Assistente AI](./ai-assistant/enable-ai-assistant-access.md)
-   + [Indicazioni sulle domande](./ai-assistant/question-guidance.md)
+   + [Abilitare l’accesso all’Assistente IA](./ai-assistant/enable-ai-assistant-access.md)
+   + [Guida alle domande](./ai-assistant/question-guidance.md)
    + [Utilizzo dell’Assistente IA](./ai-assistant/use-ai-assistant.md)
 + Percorsi account {#account-journeys}
    + [Panoramica](./journeys/journey-overview.md)
@@ -34,7 +34,7 @@ ht-degree: 91%
       + [Dividere e unire i percorsi](./journeys/split-merge-paths-nodes.md)
       + [Attendere](./journeys/wait-nodes.md)
    + [Dettagli del percorso](./journeys/journey-details.md)
-+ Contenuto percorso {#journey-content}
++ Contenuto del percorso {#journey-content}
    + Canale e-mail {#email-channel}
       + [Authoring di e-mail](./content/email-authoring.md)
       + [Assistente IA per l’authoring delle e-mail](./content/ai-assistant-emails.md)
@@ -62,7 +62,7 @@ ht-degree: 91%
 + Gestione dei contenuti {#content-management}
    + Risorse {#assets}
       + [Panoramica](./content/assets-overview.md)
-      + Risorse Marketo Engage {#marketo-engage-dam}
+      + Risorse di Marketo Engage {#marketo-engage-dam}
          + [Utilizzare le risorse di Marketo Engage](./content/marketo-engage-design-studio.md)
          + [Modificare le immagini con Adobe Express](./content/image-edit-adobe-express.md)
       + [Risorse immagine in Experience Manager](./content/aem-assets.md)
@@ -73,18 +73,18 @@ ht-degree: 91%
          + [Authoring di modelli e-mail](./content/email-template-authoring.md)
       + Modelli pagine di destinazione {#landing-page-templates}
          + [Panoramica](./content/landing-page-templates.md)
-         + [Progettazione del modello della pagina di destinazione](./content/landing-page-template-design.md)
+         + [Progettazione modello pagina di destinazione](./content/landing-page-template-design.md)
    + Frammenti {#visual-fragments}
       + [Panoramica](./content/fragments.md)
       + [Authoring dei frammenti](./content/fragment-authoring.md)
    + Forms {#forms}
       + [Panoramica](./content/forms.md)
-      + [Progettazione modulo](./content/form-design.md)
+      + [Progettazione del modulo](./content/form-design.md)
    + Pagine di destinazione {#landing-pages}
       + [Panoramica](./content/landing-pages.md)
       + [Progettazione pagina di destinazione](./content/landing-page-design.md)
    + [Contenuto condizionale](./content/conditional-content.md)
-+ Dashboard di Insights {#dashboards}
++ Dashboard di approfondimento {#dashboards}
    + [Dashboard intelligente](./dashboards/intelligent-dashboard.md)
    + [Panoramica del coinvolgimento](./dashboards/engagement-dashboard.md)
    + [Panoramica dei gruppi di acquisto](./dashboards/buying-groups-dashboard.md)
