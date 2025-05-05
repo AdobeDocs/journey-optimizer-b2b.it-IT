@@ -15,7 +15,7 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 
 >[!TIP]
 >
->È possibile modellare le classi XDM Business Person e XDM Business Account in una relazione molti-a-molti utilizzando la classe XDM Business Account Person Relation come descritto nella [documentazione Experience Platform XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b).
+>È possibile modellare le classi XDM Business Person e XDM Business Account in una relazione molti-a-molti utilizzando la classe XDM Business Account Person Relation come descritto nella [documentazione Experience Platform XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
 ## Attributi di relazione della persona dell’account aziendale XDM
 
@@ -79,7 +79,7 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 
 ## Attributi dell’opportunità di business XDM
 
-Inoltre, i dati sulle opportunità vengono memorizzati come attributi nella classe XDM Business Opportunity, che può essere associata alla classe XDM Business Account tramite una relazione molti-a-uno, come descritto [qui](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field).
+Inoltre, i dati sulle opportunità vengono memorizzati come attributi nella classe XDM Business Opportunity, che può essere associata alla classe XDM Business Account tramite una relazione molti-a-uno, come descritto [qui](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field).
 
 | [Proprietà](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) | Nome visualizzato | Nome visualizzato B2B Journey Optimizer | Tipo di dati | Descrizione |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |

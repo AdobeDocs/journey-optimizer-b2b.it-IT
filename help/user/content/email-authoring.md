@@ -26,7 +26,7 @@ Puoi impostare le consegne e-mail in un Percorso di account quando aggiungi un n
 
    >[!NOTE]
    >
-   >Se stai creando un’e-mail per la prima volta, assicurati che il canale e-mail sia configurato dall’interno di Adobe Marketo Engage. Per ulteriori informazioni, consulta [Assicurare il recapito messaggi e-mail](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) nella documentazione di Marketo Engage.
+   >Se stai creando un’e-mail per la prima volta, assicurati che il canale e-mail sia configurato dall’interno di Adobe Marketo Engage. Per ulteriori informazioni, consulta [Assicurare il recapito messaggi e-mail](https://experienceleague.adobe.com/it/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) nella documentazione di Marketo Engage.
 
    ![Esegui un&#39;azione - invia un&#39;e-mail](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 

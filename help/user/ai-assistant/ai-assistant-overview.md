@@ -77,9 +77,9 @@ Per le domande sulle informazioni operative, le risposte potrebbero non riflette
 
 Attualmente, l’ambito di AI Assistant è il seguente:
 
-* [Conoscenza del prodotto](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#product-knowledge): l&#39;Assistente all&#39;intelligenza artificiale è in grado di rispondere alle domande relative alla conoscenza del prodotto per Real-Time Customer Data Platform e Adobe Journey Optimizer B2B edition.
+* [Conoscenza del prodotto](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home#product-knowledge): l&#39;Assistente all&#39;intelligenza artificiale è in grado di rispondere alle domande relative alla conoscenza del prodotto per Real-Time Customer Data Platform e Adobe Journey Optimizer B2B edition.
 
-* [Informazioni operative](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights): è possibile porre domande all&#39;Assistente AI per informazioni operative sui seguenti oggetti dati: attributi, pubblico dell&#39;account, flussi di dati, set di dati, destinazioni, percorsi di account, schemi, origini, modelli di gruppi di acquisto e interessi delle soluzioni.
+* [Informazioni operative](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home#operational-insights): è possibile porre domande all&#39;Assistente AI per informazioni operative sui seguenti oggetti dati: attributi, pubblico dell&#39;account, flussi di dati, set di dati, destinazioni, percorsi di account, schemi, origini, modelli di gruppi di acquisto e interessi delle soluzioni.
 
 ### Privacy, sicurezza e governance
 
@@ -91,7 +91,7 @@ L’Assistente per l’intelligenza artificiale in Journey Optimizer B2B edition
 
 * Per interagire con l&#39;Assistente AI è necessario disporre di autorizzazioni esplicite.
 
-   * Un amministratore può impostare le autorizzazioni utilizzando [Interfaccia utente autorizzazioni](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) e [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse).
+   * Un amministratore può impostare le autorizzazioni utilizzando [Interfaccia utente autorizzazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/permissions) e [Admin Console](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/browse).
 
    * Le autorizzazioni sono granulari e l’amministratore della sandbox può configurare quali utenti possono porre diverse categorie di domande (domande basate sulla conoscenza del prodotto con l’Assistente AI o domande su informazioni operative).
 

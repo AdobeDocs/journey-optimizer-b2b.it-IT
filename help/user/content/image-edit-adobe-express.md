@@ -69,7 +69,7 @@ Se ad Adobe Express si dispone di una licenza Enterprise, è possibile accedere 
 
 ![Apri l&#39;immagine nell&#39;editor aziendale Adobe Express](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-La [Guida utente di Adobe Express](https://helpx.adobe.com/express/user-guide.html){target="_blank"} fornisce informazioni dettagliate sulle funzionalità di modifica disponibili.
+La [Guida utente di Adobe Express](https://helpx.adobe.com/it/express/user-guide.html){target="_blank"} fornisce informazioni dettagliate sulle funzionalità di modifica disponibili.
 
 ## Azioni rapide nell’Adobe Express
 
