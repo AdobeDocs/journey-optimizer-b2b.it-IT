@@ -61,4 +61,4 @@ Remove a member of the buying group. -->
 
 ## Video introduttivo
 
->[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451769/?learn=on&captions=ita)

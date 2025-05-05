@@ -101,4 +101,4 @@ Qualsiasi interesse di soluzione attualmente in uso da un processo o percorso di
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3450121/?learn=on&captions=ita)

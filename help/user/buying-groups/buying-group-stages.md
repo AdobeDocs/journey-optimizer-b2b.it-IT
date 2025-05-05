@@ -364,4 +364,4 @@ Utilizza l’occorrenza di una modifica della fase del gruppo di acquisto per sp
 
 ## Video introduttivo
 
->[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448702/?learn=on&captions=ita)
