@@ -66,11 +66,11 @@ Lo stato di un percorso può cambiare in base alle azioni applicate. In base all
 
 | Stato | Descrizione | Azioni disponibili |
 | ------ | ----------- | ----------------- |
-| _**Bozza**_ | Un percorso non pubblicato che può essere modificato. | <ul><li>[Pubblica](./create-publish-journey.md#publish-an-account-journey)</li><li>Duplica </li><li>Elimina </li></ul> |
-| _**Live**_ | Quando un percorso viene pubblicato, il relativo stato cambia da Bozza a Live. Se il percorso si trova in questo stato, non può più essere modificato. | <ul><li>Duplica </li><li>Chiudi ai nuovi ingressi </li><li>Annulla </li></ul> |
-| _**Chiuso alle nuove voci**_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <ul><li>Duplica </li><li>Annulla </li></ul> |
-| _**Annullato**_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <ul><li>Duplica </li><li>Elimina </li></ul> |
-| _**Completato**_ | Quando tutti gli account completano il percorso, lo stato cambia da Live o Chiuso a Completato. | <ul><li>Duplica </li><li>Elimina </li></ul> |
+| _&#x200B;**Bozza**&#x200B;_ | Un percorso non pubblicato che può essere modificato. | <ul><li>[Pubblica](./create-publish-journey.md#publish-an-account-journey)</li><li>Duplica </li><li>Elimina </li></ul> |
+| _&#x200B;**Live**&#x200B;_ | Quando un percorso viene pubblicato, il relativo stato cambia da Bozza a Live. Se il percorso si trova in questo stato, non può più essere modificato. | <ul><li>Duplica </li><li>Chiudi ai nuovi ingressi </li><li>Annulla </li></ul> |
+| _&#x200B;**Chiuso alle nuove voci**&#x200B;_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <ul><li>Duplica </li><li>Annulla </li></ul> |
+| _&#x200B;**Annullato**&#x200B;_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <ul><li>Duplica </li><li>Elimina </li></ul> |
+| _&#x200B;**Completato**&#x200B;_ | Quando tutti gli account completano il percorso, lo stato cambia da Live o Chiuso a Completato. | <ul><li>Duplica </li><li>Elimina </li></ul> |
 
 ## Gestisci percorsi
 

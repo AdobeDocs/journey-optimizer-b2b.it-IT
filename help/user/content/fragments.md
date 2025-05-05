@@ -285,7 +285,7 @@ I frammenti sono progettati per il riutilizzo e possono essere inseriti per la c
 
 1. Passa a **[!UICONTROL Percorsi di account]** e apri un percorsi percorso esistente o creane uno nuovo.
 
-1. Crea un nodo [_[!UICONTROL Invia e-mail ]_](./email-authoring.md#add-an-email-action-in-an-account-journey).
+1. Crea un nodo [_[!UICONTROL Invia e-mail &#x200B;]_](./email-authoring.md#add-an-email-action-in-an-account-journey).
 
 1. Crea o modifica [contenuto e-mail per il nodo](./email-authoring.md#create-the-email-content).
 
