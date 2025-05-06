@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentazione di Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando l’intelligenza artificiale generativa incorporata e l’automazione leader del settore.
-source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
+source-git-commit: 9b043913b466723def975fdcb5bfdce54a333346
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 0%
       + [Esportare l’elenco account](./audiences/account-list-export.md)
       + [Tipi di pubblico associati all’account LinkedIn](./data/linkedin-account-matched-audiences.md)
       + [Filtri gruppo acquisto in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
-   + Elenchi account {#occount-lists}
+   + Elenchi account {#account-lists}
       + [Panoramica](./accounts/account-lists.md)
       + [Uso in percorsi e programmi](./accounts/account-lists-journeys.md)
    + [Dettagli dell’account](./accounts/account-details.md)
