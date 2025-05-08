@@ -3,10 +3,10 @@ title: Authoring di e-mail
 description: Scopri come creare contenuti e-mail personalizzati da utilizzare in un Percorso di account.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -26,7 +26,7 @@ Puoi impostare le consegne e-mail in un Percorso di account quando aggiungi un n
 
    >[!NOTE]
    >
-   >Se stai creando un’e-mail per la prima volta, assicurati che il canale e-mail sia configurato dall’interno di Adobe Marketo Engage. Per ulteriori informazioni, consulta [Assicurare il recapito messaggi e-mail](https://experienceleague.adobe.com/it/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) nella documentazione di Marketo Engage.
+   >Se stai creando un’e-mail per la prima volta, assicurati che il canale e-mail sia configurato dall’interno di Adobe Marketo Engage. Per ulteriori informazioni, consulta [Assicurare il recapito messaggi e-mail](https://experienceleague.adobe.com/it/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} nella documentazione di Marketo Engage.
 
    ![Esegui un&#39;azione - invia un&#39;e-mail](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -123,7 +123,7 @@ Puoi personalizzare il contenuto importato in base alle esigenze con gli strumen
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_email"
 >title="Informazioni sui componenti per contenuti"
->abstract="I componenti di contenuto sono segnaposto di contenuto vuoti che puoi utilizzare per creare il layout di un’e-mail."
+>abstract="I componenti per contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di un’e-mail."
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -141,7 +141,7 @@ Dopo il salvataggio, l&#39;e-mail viene visualizzata nella pagina dei dettagli d
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-### Personalizzare il contenuto
+### Personalizzazione dei contenuti
 
 {{$include /help/_includes/content-design-personalization.md}}
 

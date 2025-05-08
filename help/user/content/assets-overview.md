@@ -3,8 +3,8 @@ title: Risorse
 description: Scopri la gestione risorse in Journey Optimizer B2B Edition.
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
-workflow-type: ht
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Unisci i flussi di lavoro di marketing e creatività utilizzando Adobe Experienc
 
 Adobe Journey Optimizer B2B Edition può collegarsi ad Adobe Experience Manager Assets as a Cloud Service per la gestione centralizzata delle risorse, che estende il sistema creativo e unifica le risorse digitali per l’esperienza di consegna. Adobe Experience Manager Assets as a Cloud Service offre una soluzione cloud di facile utilizzo per operazioni efficienti di gestione risorse digitali e Dynamic Media. Incorpora perfettamente funzioni avanzate, tra cui l’intelligenza artificiale e l’apprendimento automatico.
 
-Ulteriori informazioni nella [documentazione di Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/overview).
+Ulteriori informazioni nella [documentazione di Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
 
 {{aem-assets-licensing-note}}
 

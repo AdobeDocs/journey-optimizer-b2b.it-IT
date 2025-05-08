@@ -2,7 +2,7 @@
 title: Elenchi account
 description: Scopri gli elenchi di account e come utilizzarli per eseguire il targeting degli account tramite percorsi di account.
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 2fbf54b3e532eadb7b9a84c64c7d67eb8bcf62b2
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1339'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 In Journey Optimizer B2B edition, un elenco di account è una raccolta di account denominati che gli addetti al marketing possono utilizzare per l’orchestrazione del percorso di destinazione. Un elenco di conti può eseguire il targeting dei conti denominati in base a criteri definiti, ad esempio settore, posizione o dimensioni dell’azienda. Esistono due tipi di elenchi di account:
 
 * **Statico** - Con un elenco di account statico, l&#39;elenco cambia solo quando si aggiungono gli account. È possibile aggiungere manualmente account applicando un set di filtri per compilare l&#39;elenco in base ai dati del conto corrente oppure aggiungere e rimuovere account tramite un percorso di account.
-* **Dinamico** - Con un elenco account dinamico, si definisce un set di filtri per la cura automatica dell&#39;elenco. Il sistema utilizza questo set di filtri per aggiungere e rimuovere account in base alle modifiche apportate alle informazioni sull&#39;account. Questa gestione degli elenchi è simile alla [segmentazione del pubblico in Real-time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/segmentation/b2b).
+* **Dinamico** - Con un elenco account dinamico, si definisce un set di filtri per la cura automatica dell&#39;elenco. Il sistema utilizza questo set di filtri per aggiungere e rimuovere account in base alle modifiche apportate alle informazioni sull&#39;account. Questa gestione degli elenchi è simile alla [segmentazione del pubblico in Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
 
 Quando un elenco account è nello stato _Live_ (pubblicato), è disponibile per [l&#39;utilizzo in percorsi di account e programmi Marketo Engage](./account-lists-journeys.md).
 

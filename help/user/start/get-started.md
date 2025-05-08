@@ -2,8 +2,8 @@
 title: Introduzione a Journey Optimizer B2B Edition
 description: In qualità di nuovo utente di Journey Optimizer B2B Edition, scopri le aree chiave per iniziare.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: b403ff764c002796953956379e33fec6eb8c0611
-workflow-type: ht
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 100%
 
@@ -29,13 +29,13 @@ In qualità di Amministratore di sistema, devi comprendere i profili di prodotto
 
 Per ulteriori informazioni sulla gestione degli accessi, consulta le pagine seguenti:
 
-1. **Creare sandbox** per suddividere le istanze in ambienti virtuali separati e isolati. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home#understanding-sandboxes)
+1. **Creare sandbox** per suddividere le istanze in ambienti virtuali separati e isolati. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
 1. **Impostare il profilo di prodotto**. Un profilo di prodotto è un set di diritti unitari in Adobe Experience Platform che consente agli utenti di accedere a determinate funzionalità o oggetti nell’interfaccia. [Ulteriori informazioni](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
 1. **Imposta le autorizzazioni utente** per i profili di prodotto, tra cui le sandbox, e concedi l’accesso ai membri del tuo gruppo assegnandoli a profili di prodotto diversi. Questa attività viene eseguita in Admin Console. [Ulteriori informazioni](../admin/user-management.md#create-a-user-group)
 
-1. **Configura la consegna e-mail** in Marketo Engage, in modo da consentire al gruppo di inviare contenuto e-mail dai percorsi account. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
+1. **Configura la consegna e-mail** in Marketo Engage, in modo da consentire al gruppo di inviare contenuto e-mail dai percorsi account. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
 
 1. **Configurare i servizi SMS**. Imposta uno dei provider di SMS terze parti supportati che offre servizi di SMS in modo indipendente e configura le credenziali dell’account in Adobe Journey Optimizer B2B Edition. [Ulteriori informazioni](../admin/configure-channels-sms.md)
 

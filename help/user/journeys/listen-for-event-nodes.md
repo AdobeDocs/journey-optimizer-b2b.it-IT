@@ -3,7 +3,7 @@ title: Ascolta un evento
 description: Scopri il tipo di nodo Ascolta per un evento che puoi utilizzare per orchestrare i percorsi di account in Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 8%
@@ -118,7 +118,7 @@ Se nell’istanza di Marketo Engage connessa sono state create pagine web, puoi 
 
 ### Ascolta un evento esperienza
 
-Gli amministratori possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP), che consentono agli addetti al marketing di creare percorsi di account che reagiscono a [eventi esperienza AEP](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent). L’utilizzo degli eventi di esperienza di AEP nei percorsi di account è un processo in due fasi:
+Gli amministratori possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP), che consentono agli addetti al marketing di creare percorsi di account che reagiscono a [eventi esperienza AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}. L’utilizzo degli eventi di esperienza di AEP nei percorsi di account è un processo in due fasi:
 
 1. [Crea e pubblica una definizione di evento AEP](../admin/configure-aep-events.md).
 
@@ -182,4 +182,4 @@ Se necessario, definisci il tempo di attesa dell’evento da parte del percorso.
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443242/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

@@ -2,8 +2,8 @@
 title: Tipi di pubblico dell’account
 description: Informazioni sui tipi di pubblico degli account e su come abilitano i percorsi basati su account.
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: b6b26d9cb79926577ed7fc4ed50c094986796505
-workflow-type: ht
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 Un pubblico è un insieme di persone che condividono comportamenti e/o caratteristiche simili. Journey Optimizer B2B Edition utilizza le funzionalità di segmentazione dell’account disponibili nelle edizioni B2B e B2P di Adobe Real-Time Customer Data Platform. Con la segmentazione dell’account, gli utenti possono generare tipi di pubblico per l’account sfruttando i dati provenienti da qualsiasi entità B2B all’interno del sistema. Questi tipi di pubblico servono da input per i percorsi account di Journey Optimizer B2B Edition, facilitando la funzionalità di attivazione e personalizzazione, senza interruzioni.
 
-Ulteriori informazioni sui tipi di pubblico dell’account e su come definirli nella [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/types/account-audiences).
+Ulteriori informazioni sui tipi di pubblico dell’account e su come definirli nella [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
 
 ## Flusso di lavoro del pubblico dell’account
 
@@ -32,7 +32,7 @@ Journey Optimizer B2B Edition consente di creare tipi di pubblico per gli accoun
 
 ## Creare un pubblico dell’account
 
-Definisci il pubblico dell’account creando una segmentazione dell’account. Puoi creare la segmentazione dell’account direttamente nell’applicazione Journey Optimizer B2B Edition oppure utilizzando l’[interfaccia utente Generatore di segmenti](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/segment-builder). Di seguito sono riportati i passaggi che puoi utilizzare per creare una segmentazione dell’account in Journey Optimizer B2B Edition.
+Definisci il pubblico dell’account creando una segmentazione dell’account. Puoi creare la segmentazione dell’account direttamente nell’applicazione Journey Optimizer B2B Edition oppure utilizzando l’[interfaccia utente Generatore di segmenti](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. Di seguito sono riportati i passaggi che puoi utilizzare per creare una segmentazione dell’account in Journey Optimizer B2B Edition.
 
 1. Nel menu di navigazione a sinistra, scegli **[!UICONTROL Account]** > **[!UICONTROL Tipi di pubblico]**.
 

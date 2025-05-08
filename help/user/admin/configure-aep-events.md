@@ -4,20 +4,20 @@ description: Scopri il tipo di nodo Attendi che puoi utilizzare per orchestrare 
 feature: Setup
 soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1768'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Configurare le definizioni degli eventi di Experience Platform
 
-Gli amministratori possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP), che consentono agli addetti al marketing di creare percorsi di account che reagiscono a [eventi esperienza AEP](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent).
+Gli amministratori possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP), che consentono agli addetti al marketing di creare percorsi di account che reagiscono a [eventi esperienza AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda la panoramica del video](#overview-video)
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda la panoramica video](#overview-video)
 
-L’utilizzo degli eventi di esperienza AEP nei percorsi di account è un processo in due fasi:
+L’utilizzo degli eventi di esperienza di AEP nei percorsi di account è un processo in due fasi:
 
 1. Crea e pubblica una definizione di evento AEP.
 
@@ -29,7 +29,7 @@ Ogni definizione di evento richiede il seguente input di Experience Platform:
 
   >[!NOTE]
   >
-  >Coordina con il tuo team di progettazione per assicurarti che siano definiti gli schemi necessari. [La creazione di schemi XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition) è un processo complesso eseguito da data engineer in base ai requisiti dei casi d&#39;uso all&#39;interno dell&#39;organizzazione.
+  >Coordina con il tuo team di progettazione per assicurarti che siano definiti gli schemi necessari. [La creazione di schemi XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"} è un processo complesso eseguito da data engineer in base ai requisiti dei casi d&#39;uso all&#39;interno dell&#39;organizzazione.
 
 * **_Tipi di evento_** - XDM ExperienceEvent eventType (massimo 20 per definizione di evento).
 
@@ -80,7 +80,7 @@ Nell&#39;elenco _[!UICONTROL Definizioni evento]_, la colonna **[!UICONTROL Stat
 | Stato | Descrizione |
 | -------------------- | ----------- |
 | Bozza | Quando crei una definizione di evento, questa si trova nello stato Bozza. Rimane in questo stato fino a quando non lo pubblichi per l’utilizzo nei percorsi di account. Azioni disponibili:<br/><ul><li>Modifica tutti i dettagli<li>Pubblica<li>Elimina |
-| Pubblicato | Quando pubblichi una definizione di evento, questa diventa disponibile per l’utilizzo nei percorsi di account. Impossibile modificare i dettagli. Azioni disponibili:<br/><ul><li>Disponibile per _Ascolta un nodo evento_ percorso<li>Crea bozza di versione<li>Elimina (se non in uso) |
+| Pubblicato | Quando pubblichi una definizione di evento, questa diventa disponibile per l’utilizzo nei percorsi di account. Impossibile modificare i dettagli. Azioni disponibili:<br/><ul><li>Disponibile per _Ascolta un nodo evento_ percorso<li>Crea versione bozza<li>Elimina (se non in uso) |
 | Pubblicato (con bozza) | Quando crei una bozza da una definizione di evento pubblicata, la versione pubblicata rimane disponibile per l’utilizzo nei percorsi di account e può essere modificata. Se pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e la definizione dell’evento viene aggiornata per i percorsi di account in cui non è ancora stata eseguita. Azioni disponibili:<br/><ul><li>Modifica tutti i dettagli<li>Pubblica versione bozza<li>Elimina versione bozza<li>Elimina (se non in uso) |
 
 ![Ciclo di vita stato frammento](../assets/status-lifecycle-diagram.png){zoomable="yes"}
@@ -115,7 +115,7 @@ Per cercare una definizione di evento per nome, immetti una stringa di testo nel
 
 1. Selezionare i **[!UICONTROL Tipi di evento]** da utilizzare per la definizione dell&#39;evento.
 
-   I [tipi di evento](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent#eventType) selezionati determinano gli eventi disponibili come vincoli per un nodo _Ascolta un evento_ in un percorso di account.
+   I [tipi di evento](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} selezionati determinano gli eventi disponibili come vincoli per un nodo _Ascolta un evento_ in un percorso di account.
 
    * Fare clic su **[!UICONTROL Seleziona tipi di evento]**.
    * Nella finestra di dialogo, seleziona uno o più tipi di evento dall’elenco (massimo 20).
@@ -279,6 +279,6 @@ Puoi eliminare una definizione di evento se non è utilizzata da un percorso di 
 
    ![Conferma eliminazione definizione evento](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
 
-## Video introduttivo
+## Video di panoramica
 
 >[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

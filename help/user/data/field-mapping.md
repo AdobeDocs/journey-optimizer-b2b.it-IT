@@ -2,9 +2,9 @@
 title: Campi XDM
 description: Esamina i campi attributo predefiniti sincronizzati tra Adobe Experience Platform e Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 34ef9681b75ef1cd43d34e3f2836a60affb95b33
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1346'
 ht-degree: 12%
 
 ---
@@ -15,11 +15,11 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 
 >[!TIP]
 >
->È possibile modellare le classi XDM Business Person e XDM Business Account in una relazione molti-a-molti utilizzando la classe XDM Business Account Person Relation come descritto nella [documentazione Experience Platform XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/relationship-b2b).
+>È possibile modellare le classi XDM Business Person e XDM Business Account in una relazione molti-a-molti utilizzando la classe XDM Business Account Person Relation come descritto nella [documentazione Experience Platform XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 ## Attributi di relazione della persona dell’account aziendale XDM
 
-| [Proprietà](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | Nome visualizzato | Nome visualizzato B2B Journey Optimizer | Tipo di dati | Descrizione |
+| [Proprietà](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | Nome visualizzato | Nome visualizzato B2B Journey Optimizer | Tipo di dati | Descrizione |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `personRoles` | Ruoli della persona | Ruolo | Array di stringhe | Array di ruoli associati alla persona nell&#39;account, ad esempio `owner, accountant, designer`. |
 
@@ -29,7 +29,7 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 >
 >L&#39;attributo `workEmail.Address` è obbligatorio. Se è vuoto per un membro del pubblico dell’account, la persona non viene acquisita e viene omessa dai percorsi di account e dai gruppi di acquisto che fanno riferimento al pubblico.
 
-| [Proprietà](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | Nome visualizzato | Nome visualizzato B2B Journey Optimizer | Tipo di dati | Descrizione |
+| [Proprietà](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | Nome visualizzato | Nome visualizzato B2B Journey Optimizer | Tipo di dati | Descrizione |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `b2b.isMarketingSuspended` | Indicatore di sospensione del marketing | Marketing sospeso | Booleano | Il valore indica se il marketing è sospeso per la persona. |
 | `b2b.marketingSuspendedCause` | Causa della sospensione del marketing | Causa della sospensione del marketing | Stringa | Se il marketing viene sospeso per la persona, questa proprietà fornisce il motivo. |
@@ -59,7 +59,7 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 >
 >L&#39;attributo `accountName` è obbligatorio. Se è vuoto per un account in un pubblico di account, l’account non viene acquisito e viene omesso dai percorsi di account e dai gruppi di acquisto che fanno riferimento al pubblico.
 
-| [Proprietà](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md) | Nome visualizzato | Nome visualizzato B2B Journey Optimizer | Tipo di dati | Descrizione |
+| [Proprietà](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md){target="_blank"} | Nome visualizzato | Nome visualizzato B2B Journey Optimizer | Tipo di dati | Descrizione |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `accountBillingAddress.city` | Città | Città | Stringa | Il nome della città utilizzato nell’indirizzo di fatturazione. |
 | `accountBillingAddress.country` | Paese | Paese | Stringa | Nome del territorio amministrato dal governo utilizzato nell&#39;indirizzo di fatturazione. A parte `xdm:countryCode`, è un campo in formato libero che può avere il nome del paese in qualsiasi lingua. |
@@ -79,9 +79,9 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 
 ## Attributi dell’opportunità di business XDM
 
-Inoltre, i dati sulle opportunità vengono memorizzati come attributi nella classe XDM Business Opportunity, che può essere associata alla classe XDM Business Account tramite una relazione molti-a-uno, come descritto [qui](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field).
+Inoltre, i dati sulle opportunità vengono memorizzati come attributi nella classe XDM Business Opportunity, che può essere associata alla classe XDM Business Account tramite una relazione molti-a-uno, come descritto nella [documentazione di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
-| [Proprietà](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) | Nome visualizzato | Nome visualizzato B2B Journey Optimizer | Tipo di dati | Descrizione |
+| [Proprietà](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | Nome visualizzato | Nome visualizzato B2B Journey Optimizer | Tipo di dati | Descrizione |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `expectedCloseDate` | Data di chiusura prevista | Data di chiusura prevista dell’opportunità | Stringa | Data prevista di chiusura dell’opportunità. |
 | `expectedRevenue.amount` | Ricavi previsti | Ricavi totali previsti per l&#39;opportunità | Stringa | Ricavi calcolati in base all’importo e alla probabilità. |
