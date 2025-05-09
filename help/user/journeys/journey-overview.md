@@ -4,9 +4,9 @@ description: Scopri come creare e gestire i percorsi account.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1009'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Per iniziare a utilizzare i percorsi account:
 1. [Aggiungi i nodi](./create-publish-journey.md#add-a-node) e [definisci il flusso del percorso](./create-publish-journey.md#add-and-delete-a-path) nella relativa mappa.
 1. [Pubblica il percorso](./create-publish-journey.md#publish-an-account-journey).
 
-## Accedere e sfogliare i percorsi di account
+## Accedere e sfogliare i percorsi account
 
 Nel menu di navigazione a sinistra, fai clic su **[!UICONTROL percorsi di account]**.
 
@@ -66,11 +66,11 @@ Lo stato di un percorso può cambiare in base alle azioni applicate. In base all
 
 | Stato | Descrizione | Azioni disponibili |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Bozza**&#x200B;_ | Un percorso non pubblicato che può essere modificato. | <ul><li>[Pubblica](./create-publish-journey.md#publish-an-account-journey)</li><li>Duplica </li><li>Elimina </li></ul> |
-| _&#x200B;**Live**&#x200B;_ | Quando un percorso viene pubblicato, il relativo stato cambia da Bozza a Live. Se il percorso si trova in questo stato, non può più essere modificato. | <ul><li>Duplica </li><li>Chiudi ai nuovi ingressi </li><li>Annulla </li></ul> |
-| _&#x200B;**Chiuso alle nuove voci**&#x200B;_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <ul><li>Duplica </li><li>Annulla </li></ul> |
-| _&#x200B;**Annullato**&#x200B;_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <ul><li>Duplica </li><li>Elimina </li></ul> |
-| _&#x200B;**Completato**&#x200B;_ | Quando tutti gli account completano il percorso, lo stato cambia da Live o Chiuso a Completato. | <ul><li>Duplica </li><li>Elimina </li></ul> |
+| _**Bozza**_ | Un percorso non pubblicato che può essere modificato. | <ul><li>[Pubblica](./create-publish-journey.md#publish-an-account-journey)</li><li>Duplica </li><li>Elimina </li></ul> |
+| _**Live**_ | Quando un percorso viene pubblicato, il relativo stato cambia da Bozza a Live. Se il percorso si trova in questo stato, non può più essere modificato. | <ul><li>Duplica </li><li>Chiudi ai nuovi ingressi </li><li>Annulla </li></ul> |
+| _**Chiuso alle nuove voci**_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <ul><li>Duplica </li><li>Annulla </li></ul> |
+| _**Annullato**_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <ul><li>Duplica </li><li>Elimina </li></ul> |
+| _**Completato**_ | Quando tutti gli account completano il percorso, lo stato cambia da Live o Chiuso a Completato. | <ul><li>Duplica </li><li>Elimina </li></ul> |
 
 ## Gestisci percorsi
 
@@ -154,4 +154,4 @@ Utilizza un’azione di eliminazione per eliminare definitivamente un percorso. 
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443215/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
