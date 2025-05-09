@@ -4,7 +4,7 @@ user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utiliz
 source-git-commit: 9b043913b466723def975fdcb5bfdce54a333346
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 98%
       + [Filtri gruppo acquisto in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + Elenchi account {#account-lists}
       + [Panoramica](./accounts/account-lists.md)
-      + [Uso in percorsi e programmi](./accounts/account-lists-journeys.md)
+      + [Utilizzo nei percorsi e programmi](./accounts/account-lists-journeys.md)
    + [Dettagli dell’account](./accounts/account-details.md)
    + [Campi XDM](./data/field-mapping.md)
 + Gestione dei contenuti {#content-management}
