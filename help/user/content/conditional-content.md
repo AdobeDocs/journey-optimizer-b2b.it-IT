@@ -3,18 +3,18 @@ title: Contenuto condizionale
 description: Scopri come creare varianti di contenuto e applicare regole condizionali durante la creazione di contenuti e-mail per percorsi di account.
 feature: Email Authoring, Content
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 1351880505fcf656f94dc5d9e383337d83faeff4
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 9%
+source-wordcount: '1305'
+ht-degree: 11%
 
 ---
 
 # Contenuto condizionale
 
-Il contenuto condizionale consente di adattare il contenuto delle e-mail in base alle regole condizionali. Queste regole vengono definite utilizzando gli attributi di profilo o gli eventi contestuali. Puoi creare regole condizionali nel generatore di regole e memorizzarle per riutilizzarle nei vari percorsi di account.
+Il contenuto condizionale consente di adattare il contenuto delle e-mail in base alle regole condizionali. Queste regole vengono definite utilizzando gli attributi di profilo o gli eventi contestuali. Puoi creare regole condizionali nel generatore di regole e memorizzarle per riutilizzarle nei vari percorsi account.
 
-Per aggiungere contenuto condizionale ai messaggi di posta elettronica, Adobe Journey Optimizer consente di applicare le regole condizionali memorizzate nella libreria _Conditions_. Applica regole condizionali nello spazio di progettazione delle e-mail quando [crei un&#39;e-mail all&#39;interno di un percorso di account](./email-authoring.md).
+Per aggiungere contenuto condizionale ai messaggi di posta elettronica, Adobe Journey Optimizer consente di applicare le regole condizionali memorizzate nella libreria _Conditions_. Applica regole condizionali nello spazio di progettazione delle e-mail quando [crei contenuti e-mail per un percorso di account](./email-authoring.md).
 
 ## Aggiungere contenuto condizionale alle e-mail {#email-content}
 
@@ -34,7 +34,7 @@ Quando crei un’e-mail per il percorso di account nello spazio di progettazione
 
    Il componente è evidenziato in arancione per indicare che è attivato come componente condizionale. Il riquadro **[!UICONTROL Contenuto condizionale]** viene visualizzato a sinistra con _Variante predefinita_ e _Variante - 1.
 
-   ![Abilitare il contenuto condizionale per il componente testo](./assets/conditions-enable.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![Abilita contenuto condizionale per il componente testo](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
    Il contenuto originale selezionato e attivato è quello predefinito e si applica quando nessuna delle regole condizionali è soddisfatta per nessuna delle varianti definite.
 
@@ -42,51 +42,51 @@ Quando crei un’e-mail per il percorso di account nello spazio di progettazione
 
 1. Passa il puntatore del mouse sulla prima variante (_Variante - 1_) e fai clic sull&#39;icona _Seleziona condizione_ ( ![Icona condizione](../assets/do-not-localize/icon-select-condition.svg) ).
 
-   ![Seleziona la condizione per la variante](./assets/conditions-variant-select.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![Seleziona condizione per variante](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
    Viene visualizzata la finestra di dialogo _[!UICONTROL Seleziona condizione]_ in cui è visualizzata la libreria delle condizioni.
 
    Se si desidera visualizzare i dettagli di una condizione per assicurarsi che sia ciò che si desidera, fare clic sull&#39;icona _Altro menu_ (**...**) e scegliere **[!UICONTROL Visualizza informazioni]**.
 
-   ![Dettagli condizione di accesso alla libreria delle condizioni](assets/conditions-select-dialog.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Dettagli condizione di accesso alla libreria delle condizioni](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
    Se la condizione necessaria non esiste, [creare una regola condizionale](#create-condition) facendo clic su **[!UICONTROL Crea nuovo]**.
 
 1. Seleziona la regola condizionale e fai clic su **[!UICONTROL Seleziona]** per associarla alla variante.
 
-   È possibile esaminare la condizione associata facendo clic sull&#39;icona del _menu_ Altro (**...**) relativa alla variante e scegliendo **[!UICONTROL Visualizza condizione]**.
+   È possibile rivedere la condizione associata facendo clic sull&#39;icona _Altro menu_ (**...**) per la variante e scegliendo **[!UICONTROL Visualizza condizione]**.
 
-   ![Visualizza la condizione associata alla variante](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Visualizza la condizione associata alla variante](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}
 
    Fai clic su X in alto a destra per chiudere la finestra a comparsa.
 
-   ![Visualizza i dettagli per la condizione associata](./assets/conditions-info-popup.png){width="500"}{width=&quot;500&quot;}
+   ![Visualizza dettagli per la condizione associata](./assets/conditions-info-popup.png){width="500"}
 
 1. Per una migliore leggibilità, rinominare la variante facendo clic sull&#39;icona _Altro menu_ (**...**) per la variante e scegliendo **[!UICONTROL Rinomina]**.
 
    Immetti un nome significativo per la variante che ti aiuti a identificare la variante e il relativo intento.
 
-   ![Rinomina la variante](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Rinomina la variante](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}
 
-1. Con la variante selezionata nel riquadro sinistro, modificare il componente per modificarne l&#39;aspetto nel messaggio di posta elettronica quando la condizione è vera.
+1. Con la variante selezionata nel riquadro a sinistra, modifica il componente in modo da modificarne la modalità di visualizzazione nel messaggio e-mail quando la condizione è true.
 
-   In questo esempio, la variante del componente Testo utilizza una descrizione diversa in base al area geografica del destinatario.
+   In questo esempio, la variante del componente testo utilizza una descrizione diversa in base all’area geografica del destinatario.
 
-   ![Modifica il componente per la variante](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Modifica il componente per la variante](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}
 
 1. Se necessario, definire un&#39;altra variante facendo clic su **[!UICONTROL Aggiungi variante]**.
 
    Ripeti i passaggi da 2 a 5 per selezionare una condizione, rinominare la variante e modificare il componente per la variante.
 
-   È possibile aggiungere tutte le varianti necessarie per il componente contenuto. Modificare la variante selezionata nel riquadro di sinistra in qualsiasi momento per verificare come appare il componente contenuto per la condizione.
+   Puoi aggiungere tutte le varianti necessarie per il componente contenuto. Modifica la variante selezionata nel riquadro a sinistra in qualsiasi momento per verificare come il componente contenuto viene visualizzato per la condizione.
 
    >[!IMPORTANT]
    >
-   >Le contenuto condizionali vengono valutate rispetto alle regole associate nell&#39;ordine in cui sono elencate le varianti. Per il componente viene utilizzata la prima variante con una condizione che restituisce true.
+   >Il contenuto condizionale viene valutato in base alle regole associate nell’ordine in cui sono elencate le varianti. La prima variante con una condizione che restituisce true viene utilizzata per il componente.
    >
-   >Se nessuna delle condizioni di variante definite viene considerata true durante l&#39;invio del messaggio e-mail, il componente contenuto viene visualizzato in base alla **[!UICONTROL variante]** predefinita.
+   >Se nessuna delle condizioni della variante definita restituisce true durante l&#39;invio dell&#39;e-mail, il componente contenuto viene visualizzato in base alla **[!UICONTROL variante predefinita]**.
 
-1. Per eliminare una variante, fate clic sull&#39;icona del _menu_ Altro (**...**) relativa alla variante e scegliete **[!UICONTROL Elimina]**.
+1. Per eliminare una variante, fai clic sull&#39;icona _Altro menu_ (**...**) per la variante e scegli **[!UICONTROL Elimina]**.
 
    Fai clic su **[!UICONTROL Elimina]** nella finestra di dialogo di conferma.
 
@@ -105,12 +105,12 @@ Le regole condizionali vengono memorizzate nella libreria delle condizioni, dove
 
 | Tipo di condizione | Filtri | Descrizione |
 | -------------- | ------- | ----------- |
-| **Account** | Attributi account | Attributi del profilo account, tra cui: <li>Entrate annuali</li><li>Città</li><li>Paese</li><li>Dimensione del dipendente</li><li>Settore</li><li>Nome</li><li>Codice SIC</li><li>Stato</li> |
+| **Account** | Attributi dell’account | Attributi dal profilo dell’account, tra cui: <li>Entrate annuali</li><li>Città</li><li>Paese</li><li>Dimensione dipendente</li><li>Settore</li><li>Nome</li><li>Codice SIC</li><li>Stato</li> |
 | | [!UICONTROL Filtri speciali] > [!UICONTROL Ha un gruppo di acquisto] | L’account non ha membri di gruppi di acquisto. Può essere valutato anche in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li> |
 | | [!UICONTROL Filtri speciali] > [!UICONTROL Ha opportunità] | L’account è o non è correlato a un’opportunità. Può essere valutato anche in base a uno o più dei seguenti attributi di opportunità: <li>Importo<li>Data di chiusura<li>Descrizione<li>Ricavi previsti<li>Trimestre fiscale<li>Anno fiscale<li>Categoria di previsione<li>Nome categoria previsione<li>È chiuso<li>È vinto</li><li>Data dell’ultima attività</li><li>Origine persona<li>Nome</li><li>Passaggio successivo</li><li>Probabilità<li>Quantità<li>Fase</li><li>Tipo |
-| **Persona** | [!UICONTROL Cronologia attività] > [!UICONTROL E-mail] | Attività e-mail associate al percorso: <li>[!UICONTROL Collegamento selezionato nell&#39;e-mail]</li><li>Email aperta</li><li>E-mail recapitata</li><li>È stato inviato un messaggio e-mail</li> Queste condizioni vengono valutate utilizzando un messaggio e-mail selezionato in precedenza nel percorso. |
-|  | [!UICONTROL Attributi della persona] | Attributi del profilo personale, tra cui: <li>Città</li><li>Paese</li><li>Data di nascita</li><li>Indirizzo e-mail</li><li>E-mail non valida</li><li>E-mail sospesa</li><li>Nome</li><li>Area dello stato dedotta</li><li>Posizione lavorativa</li><li>Cognome</li><li>Numero di cellulare</li><li>Numero di telefono</li><li>CAP</li><li>Stato</li><li>Annulla l&#39;iscrizione</li><li>Motivo per annullamento abbonamento</li> |
-| | [!UICONTROL Filtri] speciali > [!UICONTROL iscritto di Buying Group] | La persona è o non è un membro del gruppo di acquisto valutata in base a uno o più dei seguenti criteri: <li>Interesse per la soluzione</li><li>Stato Gruppo di acquisto</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>Ruolo</li> |
+| **Persona** | [!UICONTROL Cronologia attività] > [!UICONTROL E-mail] | Attività e-mail associate al percorso: <li>[!UICONTROL Collegamento selezionato nell&#39;e-mail]</li><li>E-mail aperta</li><li>E-mail consegnata</li><li>È stato inviato un messaggio e-mail</li> Queste condizioni vengono valutate utilizzando un messaggio e-mail selezionato in precedenza nel percorso. |
+|  | [!UICONTROL Attributi della persona] | Attributi dal profilo della persona, tra cui: <li>Città</li><li>Paese</li><li>Data di nascita</li><li>Indirizzo e-mail</li><li>E-mail non valida</li><li>E-mail sospesa</li><li>Nome</li><li>Area dello stato dedotta</li><li>Posizione lavorativa</li><li>Cognome</li><li>Numero di telefono cellulare</li><li>Numero di telefono</li><li>Codice postale</li><li>Stato</li><li>Annulla l&#39;iscrizione</li><li>Motivo per annullamento abbonamento</li> |
+| | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>Ruolo</li> |
 
 <!-- 
 
@@ -136,13 +136,13 @@ Puoi accedere al generatore di regole condizionali dallo spazio di progettazione
    * **[!UICONTROL Condizione persona]** - Scegliere questo tipo per generare la regola condizionale utilizzando gli attributi persona e gli eventi contestuali.
    * **[!UICONTROL Condizione account]** - Scegliere questo tipo per generare la regola condizionale utilizzando gli attributi dell&#39;account.
 
-   ![Scegliere il tipo di condizione da creare](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Scegli il tipo di condizione da creare](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}
 
 1. Crea la regola condizionale in base alle tue esigenze.
 
    Per ogni attributo o evento che desideri includere nella regola, trascina e rilascia l’elemento nell’area di lavoro della regola. Espandi il filtro e completa l’espressione.
 
-   ![Completare l&#39;espressione per valutare](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Completare l&#39;espressione da valutare](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}
 
    Se includi più di un filtro, imposta la **[!UICONTROL logica filtro]**:
 
@@ -153,7 +153,7 @@ Puoi accedere al generatore di regole condizionali dallo spazio di progettazione
 
    Utilizza un nome significativo e una descrizione utile per aiutare gli altri utenti dell’organizzazione a riutilizzarlo invece di creare un’altra condizione duplicata.
 
-   ![Aggiungi un nome e una descrizione per la regola condizionale](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Aggiungere un nome e una descrizione per la regola condizionale](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"}
 
 1. Al termine della regola condizionale, fare clic su **[!UICONTROL Salva]**.
 
@@ -167,7 +167,7 @@ Le regole condizionali salvate nella libreria non possono essere modificate. Tut
 
    Nel generatore di regole viene aperto un duplicato della regola. Utilizza il duplicato come punto di partenza per la regola da generare.
 
-   ![Usa un regola duplicato per creare quello che ti serve](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Utilizzare una regola duplicata per creare quella necessaria](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"}
 
 1. Nel generatore di regole, modifica, aggiungi o elimina le condizioni in base alle tue esigenze.
 

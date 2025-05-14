@@ -3,16 +3,16 @@ title: Assistente AI per l’authoring di e-mail
 description: Scopri come utilizzare AI Assistant per ottimizzare il contenuto delle e-mail utilizzate nei Percorsi di account.
 feature: AI Assistant, Email Authoring, Content
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%
 
 ---
 
-# Assistente AI per l’authoring delle e-mail
+# Assistente IA per l’authoring delle e-mail
 
-Con l&#39;aumento della competitività del settore Marketing, i marchi sono alla ricerca di metodi efficienti per generare contenuti di forte impatto in modo rapido ed efficiente. L’Assistente all’intelligenza artificiale per l’authoring delle e-mail in Adobe Journey Optimizer B2B Edition è la funzionalità di generazione di contenuti basata sull’intelligenza artificiale di Adobe che rivoluziona il modo in cui i professionisti del marketing creano contenuti e-mail professionali e coerenti con il brand. Con modelli GenAI avanzati e una profonda comprensione delle linee guida del brand, AI Assistant genera automaticamente contenuti personalizzati, coinvolgenti ed efficaci in base all’obiettivo di marketing, con contenuti ottimizzati per stili, layout, toni e altro ancora delineati dal brand. Ai Assistant rende la creazione e l’esecuzione di campagne di e-mail marketing intuitiva, semplice e senza problemi. L’aggiunta di questa funzionalità ai flussi di lavoro consente di risparmiare tempo, migliorare l’efficienza e ottenere risultati migliori.
+Con l&#39;aumento della competitività del settore Marketing, i marchi sono alla ricerca di metodi efficienti per generare contenuti di forte impatto in modo rapido ed efficiente. L’Assistente AI per l’authoring delle e-mail in Adobe Journey Optimizer B2B edition è la funzionalità di generazione di contenuti basata sull’intelligenza artificiale di Adobe che rivoluziona il modo in cui i professionisti del marketing creano contenuti e-mail professionali e coerenti con il brand. Con modelli GenAI avanzati e una profonda comprensione delle linee guida del brand, AI Assistant genera automaticamente contenuti personalizzati, coinvolgenti ed efficaci in base all’obiettivo di marketing, con contenuti ottimizzati per stili, layout, toni e altro ancora delineati dal brand. Ai Assistant rende la creazione e l’esecuzione di campagne di e-mail marketing intuitiva, semplice e senza problemi. L’aggiunta di questa funzionalità ai flussi di lavoro consente di risparmiare tempo, migliorare l’efficienza e ottenere risultati migliori.
 
 Questa nuova funzionalità fornisce una generazione di testo basata su prompt, una generazione completa di e-mail e una generazione di contenuti all’interno delle strutture e-mail. Le immagini non vengono generate, ma sono consigliate dall’interno del catalogo delle immagini nella risorsa del brand di input per il modello. Puoi anche utilizzare questa funzionalità per generare linee oggetto e intestazioni preliminari ottimali con cui influire sul tasso di apertura.
 
@@ -22,21 +22,21 @@ Questa nuova funzionalità fornisce una generazione di testo basata su prompt, u
 
 ## Linee guida e limitazioni
 
-Prima di iniziare a utilizzare l’Assistente IA in Adobe Journey Optimizer B2B Edition per la generazione di contenuti e-mail, rivedi queste linee guida:
+Prima di iniziare a utilizzare l’Assistente IA in Adobe Journey Optimizer B2B edition per la generazione di contenuti e-mail, rivedi queste linee guida:
 
 * L’obiettivo/prompt di marketing che definisci è un determinante chiave della qualità del contenuto generato. Utilizzate un prompt ben definito per consentire al modello GenAI di interpretare con precisione.
 * Carica le risorse del brand in modo che siano accurate sui contenuti del brand. Senza queste risorse, il contenuto si basa su informazioni disponibili pubblicamente.
    * Le risorse caricate possono essere nei seguenti formati: PDF, JPEG, PNG o file ZIP (contenenti i formati di file supportati).
    * La dimensione massima per una risorsa marchio caricata è di 50 MB. Possono funzionare file di dimensioni maggiori o grandi quantità di immagini, ma il tempo di elaborazione aumenta.
-* Per creare il contenuto delle e-mail, utilizza i modelli e-mail creati da Adobe Journey Optimizer B2B Edition, preferibilmente i modelli incorporati o di esempio, un modello specifico per il brand o un modello personalizzato. Si consigliano modelli di e-mail con un massimo di otto-dieci immagini.
+* Per creare il contenuto delle e-mail, utilizza i modelli e-mail creati da Adobe Journey Optimizer B2B edition, preferibilmente i modelli incorporati o di esempio, un modello specifico per il brand o un modello personalizzato. Si consigliano modelli di e-mail con un massimo di otto-dieci immagini.
 * Assicurati di segnalare qualsiasi output problematico utilizzando le icone miniatura in basso o flag rispetto a una variante generata.
-* L&#39;utilizzo dell&#39;Assistente per l&#39;intelligenza artificiale è soggetto alle [Linee guida per l&#39;utente generativo per l&#39;intelligenza artificiale di Adobe](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
+* L&#39;utilizzo dell&#39;Assistente all&#39;intelligenza artificiale è soggetto alle [linee guida per l&#39;utente di Adobe Generative AI](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
 
-Le seguenti limitazioni si applicano all’Assistente IA in Adobe Journey Optimizer B2B Edition per la generazione di contenuti e-mail:
+Le seguenti limitazioni si applicano all’Assistente IA in Adobe Journey Optimizer B2B edition per la generazione di contenuti e-mail:
 
 * L’inglese è l’unica lingua supportata.
 * È disponibile solo per il canale e-mail.
-* Il contenuto GenAI potrebbe non essere accurato: condividi il tuo feedback in modo che gli ingegneri Adobi possano perfezionare i modelli.
+* Il contenuto GenAI potrebbe non essere accurato: condividi il tuo feedback in modo che i tecnici Adobe possano perfezionare i modelli.
 * Puoi caricare più risorse per il brand, ma puoi sfruttarne una sola per una generazione specifica.
 
 >[!BEGINSHADEBOX]
@@ -51,9 +51,9 @@ Seleziona il prompt che meglio riflette gli obiettivi previsti e aggiungi i valo
 
 >[!ENDSHADEBOX]
 
-## Acquisto di ruoli di gruppo
+## Ruoli del gruppo acquisti
 
-Adobe Journey Optimizer B2B Edition offre cinque ruoli di gruppo di acquisto B2B standard preconfigurati. Ogni ruolo del gruppo di acquisto ha un oggetto di messaggistica distinto:
+Adobe Journey Optimizer B2B edition offre cinque ruoli standard di gruppo di acquisto B2B pronti all’uso. Ogni ruolo del gruppo di acquisto ha un oggetto di messaggistica distinto:
 
 | Ruolo | Stato attivo messaggistica |
 | ---- | --------------- |
@@ -67,7 +67,7 @@ La scelta di uno di questi ruoli del gruppo di acquisto personalizza automaticam
 
 ## Generare proprietà e-mail con l’Assistente IA
 
-Quando [aggiungi un&#39;azione e-mail](./email-authoring.md#add-an-email-action-in-an-account-journey) a un percorso di account, definisci un set di proprietà e-mail utilizzate per inviare l&#39;e-mail. L&#39;Assistente AI può contribuire a migliorare il coinvolgimento e-mail generando il contenuto consigliato per l&#39;e-mail **riga oggetto** e **preheader**.
+Quando [aggiungi un&#39;azione e-mail](./add-email.md#add-an-email-action-node-in-a-journey) a un percorso di account, definisci un set di proprietà e-mail utilizzate per inviare l&#39;e-mail. L&#39;Assistente AI può contribuire a migliorare il coinvolgimento e-mail generando il contenuto consigliato per l&#39;e-mail **riga oggetto** e **preheader**.
 
 1. Crea un messaggio e-mail da un percorso di account o apri un messaggio e-mail esistente da un nodo di percorso.
 
@@ -201,7 +201,7 @@ Un preheader e-mail è il breve testo di riepilogo che segue la riga dell’ogge
 
 ## Generare contenuti del corpo dell’e-mail con l’Assistente AI
 
-Dopo aver [creato e personalizzato l&#39;e-mail](./email-authoring.md#create-the-email-content), utilizza l&#39;Assistente IA in Adobe Journey Optimizer B2B Edition, basato su IA generativa per elevare il contenuto del corpo dell&#39;e-mail al livello successivo.
+Dopo aver [creato e personalizzato l&#39;e-mail](./email-authoring.md), utilizza l&#39;Assistente per l&#39;intelligenza artificiale in Adobe Journey Optimizer B2B edition, basato sull&#39;intelligenza artificiale generativa, per elevare il contenuto del corpo dell&#39;e-mail al livello successivo.
 
 Nella finestra di progettazione e-mail, l’Assistente AI può aiutarti a ottimizzare l’impatto delle consegne generando l’intero corpo dell’e-mail, il contenuto di testo mirato e i consigli per le immagini che risuonano con il tuo pubblico. Questa ottimizzazione delle campagne e-mail è progettata per produrre un coinvolgimento migliore.
 

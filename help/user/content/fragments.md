@@ -3,10 +3,10 @@ title: Frammenti
 description: Scopri come creare e utilizzare frammenti di contenuto visivo come componenti riutilizzabili per e-mail e modelli e-mail in Adobe Journey Optimizer B2B edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
 source-wordcount: '2624'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -37,11 +37,11 @@ La tabella è ordinata in base alla colonna _[!UICONTROL Modificato]_, con i fra
 
 ### Stato e ciclo di vita del frammento
 
-Lo stato del frammento determina la sua disponibilità per l’utilizzo in un messaggio e-mail o in un modello e-mail e le modifiche che puoi apportarvi.
+Lo stato del frammento determina la sua disponibilità per l’utilizzo in un messaggio o in un modello e-mail e le modifiche che puoi apportarvi.
 
 | Stato | Descrizione |
 | -------------------- | ----------- |
-| Bozza | Quando crei un frammento, questo si trova nello stato Bozza. Rimane in questo stato mentre definisci o modifichi il contenuto visivo fino a quando non lo pubblichi per l’utilizzo in un e-mail o in un modello e-mail. Azioni disponibili:<br/><ul><li>Modifica tutti i dettagli<li>Modifica in designer visivo<li>Pubblicazione<li>Duplica<li>Elimina |
+| Bozza | Quando crei un frammento, questo si trova nello stato Bozza. Rimane in questo stato mentre definisci o modifichi il contenuto visivo fino a quando non lo pubblichi per l’utilizzo in un e-mail o in un modello e-mail. Azioni disponibili:<br/><ul><li>Modifica tutti i dettagli<li>Modifica in designer visivo<li>Pubblica<li>Duplica<li>Elimina |
 | Pubblicato | Quando pubblichi un frammento, questo diventa disponibile per l’utilizzo in un’e-mail o in un modello e-mail. Il contenuto del frammento pubblicato non può essere modificato nella finestra di progettazione visiva. Azioni disponibili:<br/><ul><li>Modifica descrizione<li>Aggiungi a un messaggio e-mail o a un modello<li>Crea versione bozza<li>Duplica<li>Elimina (se non in uso) |
 | Pubblicato con bozza | Quando crei una bozza da un frammento pubblicato, la versione pubblicata rimane disponibile per l’utilizzo in un modello e-mail o e-mail e il contenuto della bozza può essere modificato nella finestra di progettazione visiva. Se pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nelle e-mail e nei modelli e-mail in cui è in uso. Azioni disponibili:<br/><ul><li>Modifica descrizione<li>Aggiungi a un messaggio e-mail o a un modello<li>Modifica versione bozza in Progettazione visiva<li>Pubblica versione bozza<li>Duplica<li>Elimina (se non in uso) |
 
@@ -92,7 +92,7 @@ Per creare nuovi frammenti visivi in Journey Optimizer B2B edition, fai clic su 
    * [Aggiungere struttura e contenuto](./fragment-authoring.md#add-structure-and-content)
    * [Aggiungi Assets](./fragment-authoring.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
-   * [Personalizzare il contenuto](./fragment-authoring.md#personalize-content)
+   * [Personalizzazione dei contenuti](./fragment-authoring.md#personalize-content)
    * [Abilita campi personalizzati](./fragment-authoring.md#enable-fragment-customization)
    * [Modifica tracciamento URL collegato](./fragment-authoring.md#edit-linked-url-tracking)
 
@@ -172,7 +172,7 @@ Le modifiche apportate a un frammento dipendono dal suo stato corrente:
    * [Aggiungere struttura e contenuto](./fragment-authoring.md#add-structure-and-content)
    * [Aggiungi Assets](./fragment-authoring.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
-   * [Personalizzare il contenuto](./fragment-authoring.md#personalize-content)
+   * [Personalizzazione dei contenuti](./fragment-authoring.md#personalize-content)
    * [Abilita campi personalizzati](./fragment-authoring.md#enable-fragment-customization)
    * [Modifica tracciamento URL collegato](./fragment-authoring.md#edit-linked-url-tracking)
 
@@ -201,7 +201,7 @@ Le modifiche apportate a un frammento dipendono dal suo stato corrente:
    * [Aggiungere struttura e contenuto](./fragment-authoring.md#add-structure-and-content)
    * [Aggiungi Assets](./fragment-authoring.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
-   * [Personalizzare il contenuto](./fragment-authoring.md#personalize-content)
+   * [Personalizzazione dei contenuti](./fragment-authoring.md#personalize-content)
    * [Abilita campi personalizzati](./fragment-authoring.md#enable-fragment-customization)
    * [Modifica tracciamento URL collegato](./fragment-authoring.md#edit-linked-url-tracking)
 
@@ -230,7 +230,7 @@ Per aggiornare il contenuto:
    * [Aggiungere struttura e contenuto](./fragment-authoring.md#add-structure-and-content)
    * [Aggiungi Assets](./fragment-authoring.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
-   * [Personalizzare il contenuto](./fragment-authoring.md#personalize-content)
+   * [Personalizzazione dei contenuti](./fragment-authoring.md#personalize-content)
    * [Abilita campi personalizzati](./fragment-authoring.md#enable-fragment-customization)
    * [Modifica tracciamento URL collegato](./fragment-authoring.md#edit-linked-url-tracking)
 
@@ -285,9 +285,9 @@ I frammenti sono progettati per il riutilizzo e possono essere inseriti per la c
 
 1. Passa a **[!UICONTROL Percorsi di account]** e apri un percorsi percorso esistente o creane uno nuovo.
 
-1. Crea un nodo [_[!UICONTROL Invia e-mail &#x200B;]_](./email-authoring.md#add-an-email-action-in-an-account-journey).
+1. Crea un nodo [_[!UICONTROL Invia e-mail ]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
-1. Crea o modifica [contenuto e-mail per il nodo](./email-authoring.md#create-the-email-content).
+1. Crea o modifica [contenuto e-mail per il nodo](./email-authoring.md).
 
 1. Trascina e rilascia un elemento dal menu **[!UICONTROL Componenti]** per fornire una _struttura_ per il frammento.
 
