@@ -4,9 +4,9 @@ description: Scopri come assegnare i membri del gruppo ai profili di prodotto di
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 49df3035b3bafc608a5fb16be77d39c5055bf92e
+source-git-commit: 6e97e687ca577d89245d40c22a61c536e92c869c
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '1879'
 ht-degree: 1%
 
 ---
@@ -56,13 +56,13 @@ Prima di poter utilizzare Admin Console per amministrare gli utenti del team, è
 
 Quando consenti l’accesso a una soluzione Adobe agli utenti, non devi necessariamente concedere loro l’accesso completo. I profili di prodotto consentono a ciascuna soluzione di disporre di un proprio set di autorizzazioni utente. Utilizza Admin Console per assegnare i profili di prodotto.
 
-Per ulteriori informazioni sull&#39;utilizzo dei profili di prodotto per i diritti utente, consulta [Gestire i profili di prodotto per gli utenti aziendali](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html){target="_blank"} nella documentazione di Admin Console.
+Per ulteriori informazioni sull&#39;utilizzo dei profili di prodotto per le adesioni utente, consulta [Gestire i profili di prodotto per gli utenti aziendali](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html){target="_blank"} nella documentazione di Admin Console.
 <!--
 >[!BEGINSHADEBOX]
 
 When you add a user to the Marketo Engage product profile, they are subsequently added to the _Standard User_ role within the Default workspace of the Marketo Engage subscription. This role grants them all _Standard User_ permissions for Marketo Engage in that workspace. Currently, all Journey Optimizer B2B Edition users are required to be Marketo Engage users. A Marketo Engage administrator can restrict access by updating the permissions for the _Standard User_ role or by moving the user to a different Marketo Engage user role with more restrictive permissions.
 
-For more information about managing these permissions within Marketo Engage, see [Managing User Roles and Permissions](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in the Marketo Engage documentation.
+For more information about managing these permissions within Marketo Engage, see [Managing User Roles and Permissions](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in the Marketo Engage documentation.
 
 >[!ENDSHADEBOX]-->
 
@@ -84,7 +84,7 @@ For more information about managing these permissions within Marketo Engage, see
 
 Un gruppo di utenti è una raccolta di utenti a cui viene concesso un set condiviso di autorizzazioni. Puoi aggiungere o rimuovere utenti nel gruppo di utenti. Le autorizzazioni del gruppo rimangono invariate mentre gli utenti all’interno del gruppo cambiano.
 
-Per ulteriori informazioni sulle modalità di utilizzo dei gruppi di utenti per gestire le autorizzazioni, vedi [Gestione dei gruppi di utenti](https://helpx.adobe.com/it/enterprise/using/user-groups.html){target="_blank"} nella documentazione di Admin Console.
+Per ulteriori informazioni sull&#39;utilizzo dei gruppi di utenti per gestire le autorizzazioni, vedere [Gestione dei gruppi di utenti](https://helpx.adobe.com/it/enterprise/using/user-groups.html){target="_blank"} nella documentazione di Admin Console.
 
 ![Requisiti del ruolo di amministratore](../../assets/do-not-localize/icon-admin-user.svg){width="30"} L&#39;amministratore di sistema può eseguire i seguenti passaggi.
 
@@ -143,7 +143,7 @@ Le autorizzazioni sono diritti unitari che ti consentono di definire le autorizz
 
 Nell&#39;area _Autorizzazioni_ di Adobe Experience Platform gli amministratori possono definire ruoli utente e criteri di accesso per gestire le autorizzazioni di accesso per funzionalità e oggetti all&#39;interno di un&#39;applicazione di prodotto. In questa app, puoi creare e gestire i ruoli, nonché assegnare le autorizzazioni per le risorse desiderate per tali ruoli. Le autorizzazioni ti consentono inoltre di gestire le sandbox e gli utenti associati a un ruolo specifico.
 
-Per ulteriori informazioni sulle autorizzazioni per i ruoli in Experience Platform, vedi [Gestione delle autorizzazioni per un ruolo](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} nella documentazione di Experience Platform.
+Per ulteriori informazioni sulle autorizzazioni per i ruoli in Experience Platform, vedi [Gestione delle autorizzazioni per un ruolo](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} nella documentazione di Experience Platform.
 
 ### Autorizzazioni per i prodotti B2B
 
@@ -165,10 +165,10 @@ Quando nella tua organizzazione è stato eseguito il provisioning del prodotto J
 
 | Ruolo | Autorizzazioni |
 | ---- | ----------- |
-| Responsabile Percorso B2B | <li>Gestire Percorsi B2B <li>Gestire i gruppi di acquisto B2B <li>Gestire gli elenchi di account B2B <li>Visualizza dashboard intelligente B2B <li>Visualizza dashboard di approfondimenti B2B |
+| Responsabile Percorso B2B | <li>Gestire Percorsi B2B <li>Gestire i gruppi di acquisto B2B <li>Gestire gli elenchi di account B2B <li>Visualizza dashboard di coinvolgimento B2B <li>Visualizza dashboard di approfondimenti B2B |
 | Channel Manager B2B | <li>Gestire Assets B2B <li>Gestire modelli B2B <li>Gestire i frammenti B2B |
 | Amministratore di sistema B2B | <li>Gestione configurazioni canali B2B <li>Gestire le configurazioni dell’amministratore B2B |
-| Utente di vendita B2B | <li>Visualizza dashboard intelligente |
+| Utente di vendita B2B | <li>Visualizza dashboard di coinvolgimento B2B |
 
 ### Modifica autorizzazioni ruolo
 
