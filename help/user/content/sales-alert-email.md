@@ -1,12 +1,13 @@
 ---
 title: E-mail avviso vendite
 description: Scopri come includere un’e-mail di avviso automatico sulle vendite nei percorsi del tuo account.
-feature: Email Authoring, Content
+feature: Email Authoring, Account Journeys
+role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -35,8 +36,8 @@ In qualità di addetto al marketing, puoi configurare un nodo e-mail di avviso s
 |   | Punteggio di completezza | Punteggio di completezza del gruppo di acquisto. |
 |   | Interesse della soluzione | Interesse della soluzione collegato al gruppo di acquisto |
 |   | Stato | Stato del gruppo di acquisto. |
-| Caratteristiche principali del gruppo di acquisto | Membri principali coinvolti | Membri principali coinvolti del gruppo di acquisto per punteggio e ruolo del coinvolgimento dei membri del gruppo di acquisto. |
-|   | Argomento di interesse | Parole chiave più frequenti che si verificano nel coinvolgimento dei contenuti, in base a e-mail, download, chat, revisione PDF, riepilogo delle attività e domande del webinar. |
+| Punti salienti del gruppo acquisti | Membri principali coinvolti | Membri principali coinvolti del gruppo di acquisto per punteggio e ruolo del coinvolgimento dei membri del gruppo di acquisto. |
+|   | Argomento di interesse | Parole chiave più frequenti che si verificano nel coinvolgimento dei contenuti, in base a e-mail, download, chat, revisione PDF, riepilogo delle attività e domande sui webinar. |
 |   | Ruoli mancanti | Ruoli obbligatori nel modello ma mancanti nel gruppo di acquisto. |
 | Riepilogo gruppo acquisti | Riepilogo delle attività (basato su IA generativa) | Riepilogo generato da IA del gruppo di acquisto in base alle attività dei membri. Vengono considerate le attività degli ultimi 30 giorni. |
 |   | Momenti di interesse chiave | Recenti momenti interessanti relativi ai membri del gruppo di acquisto. |

@@ -1,26 +1,28 @@
 ---
 title: Acquistare filtri di gruppo in Market Engage
-description: Scopri come utilizzare l’iscrizione al Marketo Engage di acquisto per definire i filtri negli elenchi smart.
-feature: Buying Groups
-source-git-commit: 2c01fed7e50a48b268e0b6aceb4634bdfc895866
+description: Scopri come utilizzare l’iscrizione al gruppo di acquisto per definire i filtri negli elenchi avanzati di Marketo Engage.
+feature: Buying Groups, Integrations
+role: User
+exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Acquistare filtri di gruppo in Market Engage
+# Filtri gruppo acquisto in Marketo Engage
 
-In qualità di addetto al marketing, potresti voler eliminare le campagne di Marketo Engage per gli utenti che fanno parte di gruppi di acquisto in Journey Optimizer B2B edition. Puoi anche informare i flussi di lavoro per il punteggio dei lead all’interno di Marketo Engage, utilizzando le informazioni sui lead associati ai gruppi di acquisto. Ad esempio:
+In qualità di addetto al marketing, potresti voler eliminare le campagne in Marketo Engage per gli utenti che fanno parte di gruppi di acquisto in Journey Optimizer B2B edition. Puoi anche informare i flussi di lavoro di valutazione dei lead in Marketo Engage utilizzando informazioni sui lead associati ai gruppi di acquisto. Ad esempio:
 
 * Questo lead fa parte di un gruppo di acquisto?
 * Il gruppo di acquisto è completo e coinvolto?
 
 Se queste condizioni sono vere, puoi scegliere di ottenere un punteggio maggiore. In caso contrario, puoi scegliere di non contrassegnarlo come lead qualificato per il marketing (MQL).
 
-Nell&#39;istanza del Marketo Engage connessa a Journey Optimizer B2B edition, è possibile utilizzare il filtro _[!UICONTROL Membro del gruppo di acquisto]_ negli elenchi smart per identificare questi lead in base alla strategia della campagna.
+Nell&#39;istanza di Marketo Engage connessa a Journey Optimizer B2B edition, è possibile utilizzare il filtro _[!UICONTROL Membro del gruppo di acquisto]_ negli elenchi smart per identificare questi lead in base alla strategia della campagna.
 
-1. Dopo aver [creato un elenco avanzato nel Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, selezionare la scheda **[!UICONTROL Elenco avanzato]** per aprire l&#39;editor filtri.
+1. Dopo aver [creato un elenco avanzato in Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, selezionare la scheda **[!UICONTROL Elenco avanzato]** per aprire l&#39;editor di filtri.
 
 1. Nell&#39;elenco dei filtri a destra, scorri verso il basso ed espandi la cartella **[!UICONTROL Filtri speciali]**.
 

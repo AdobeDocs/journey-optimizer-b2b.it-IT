@@ -1,9 +1,10 @@
 ---
 title: Nodi del pubblico dell’account
 description: Scopri il tipo di nodo del pubblico di account che puoi utilizzare per definire l’input per i percorsi di account in Journey Optimizer B2B edition.
-feature: Account Journeys
+feature: Account Journeys, Audiences, Account Lists
+role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 5%
@@ -53,4 +54,4 @@ _Per creare un segmento di pubblico:_
 
    ![Crea un segmento di pubblico](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Segui i passaggi descritti nella [Guida al servizio di segmentazione](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.
+1. Segui i passaggi descritti nella [Guida al servizio di segmentazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.

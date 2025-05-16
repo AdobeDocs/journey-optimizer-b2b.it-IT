@@ -1,12 +1,13 @@
 ---
 title: Configurazione della pagina di destinazione
 description: Scopri come accedere e configurare le impostazioni della pagina di destinazione in modo che il team Marketing possa creare e pubblicare pagine web a supporto delle campagne.
-feature: Setup, Content
+feature: Setup, Landing Pages, Content
+role: Admin
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 47%

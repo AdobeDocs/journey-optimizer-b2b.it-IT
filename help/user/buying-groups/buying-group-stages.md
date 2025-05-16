@@ -2,15 +2,16 @@
 title: Stadi del gruppo di acquisto
 description: Scopri come acquistare fasi di percorso e come definirle per monitorare la progressione del gruppo rispetto agli obiettivi di vendita.
 feature: Buying Groups, Account Journeys
+role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2344'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Fasi del gruppo di acquisto
+# Fasi del gruppo acquisti
 
 Le fasi di acquisto dei gruppi sono progettate per tenere traccia della progressione dei gruppi di acquisto nella conversione delle opportunità in clienti. Utilizza questa funzione per tenere traccia della progressione del gruppo di acquisto e identificare le migliori azioni successive per i membri del gruppo di acquisto.
 
@@ -18,7 +19,7 @@ Definisci le fasi all’interno di un singolo modello di staging, definendo più
 
 ![Esempio di fasi del gruppo di acquisto](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda la panoramica del video](#overview-video)
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda la panoramica video](#overview-video)
 
 ## Definire il modello di fasi del gruppo di acquisto
 
@@ -189,7 +190,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## Elimina il modello di fasi del gruppo di acquisto
 
-È possibile eliminare il modello delle fasi del gruppo di acquisto quando si trova nello stato Bozza o Pubblicato. Se è pubblicato (in tempo reale), puoi eliminarlo solo se non è associato a un interesse per la soluzione.
+È possibile eliminare il modello delle fasi del gruppo acquisti quando si trova nello stato Bozza o Pubblicato. Se è pubblicato (in tempo reale), puoi eliminarlo solo se non è associato a un interesse per la soluzione.
 
 1. Nel menu di navigazione a sinistra, vai a **[!UICONTROL Account]** > **[!UICONTROL Gruppi di acquisto]**.
 
@@ -362,6 +363,6 @@ Utilizza l’occorrenza di una modifica della fase del gruppo di acquisto per sp
 
 1. Continuare ad apportare altre modifiche e salvare il percorso.
 
-## Video introduttivo
+## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3448702/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

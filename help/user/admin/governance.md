@@ -1,8 +1,10 @@
 ---
 title: Funzioni di governance
 description: Scopri le funzioni di governance attualmente disponibili in Journey Optimizer B2B edition.
+feature: Setup
+role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-source-git-commit: 3198ba223125c95263d8dcf5ee8cb285a888a26a
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -15,7 +17,7 @@ Journey Optimizer B2B edition è un’app Adobe Experience Platform integrata. U
 
 ## Privacy - RGPD
 
-Journey Optimizer B2B edition utilizza le funzioni Marketi Engage di governance RGPD offerte dal servizio Privacy Service e Marketo Privacy Broker.
+Journey Optimizer B2B edition utilizza le funzioni esistenti di governance RGPD di Marketo Engage fornite dal servizio Privacy Service e Marketo Privacy Broker.
 
 ## Controllo degli accessi basato sul ruolo (RBAC)
 

@@ -1,12 +1,13 @@
 ---
 title: Linee guida sulle domande per l’Assistente AI
-description: Placeholder
+description: Scopri come scrivere domande efficaci per l’Assistente AI in Journey Optimizer B2B edition.
 feature: AI Assistant
+role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-source-git-commit: f09f3f5b7d4419ead5308e4c5be3b518b4e16ff5
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '884'
 ht-degree: 1%
 
 ---

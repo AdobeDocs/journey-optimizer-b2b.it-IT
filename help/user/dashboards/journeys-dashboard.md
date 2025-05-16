@@ -2,8 +2,9 @@
 title: Dashboard panoramica dei Percorsi di account
 description: Scopri le informazioni fornite dal dashboard Panoramica Percorso e come possono essere utili per monitorare e gestire la strategia di percorso dell’account.
 feature: Dashboards, Account Journeys
+role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 8df1e44d5d978249ffc6e95b3a383644358d1d66
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 2%

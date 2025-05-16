@@ -1,16 +1,17 @@
 ---
 title: Dati intento
 description: Scopri come assemblare e inviare parole chiave per generare dati di intento per Journey Optimizer B2B edition.
-feature: Setup, Account Insights
+feature: Setup, Intent, Account Insights
 roles: Admin
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# Dati intento
+# Dati di intento
 
 In Journey Optimizer B2B edition, il modello di rilevamento intento (Intent Detection) prevede una soluzione o un prodotto di interesse con sufficiente affidabilità in base all&#39;attività di un lead. Sfrutta anche le attività di altri membri dell’account, insieme ai contenuti con tag. L’intento di una persona può essere interpretato come la probabilità di avere interesse in un prodotto.
 

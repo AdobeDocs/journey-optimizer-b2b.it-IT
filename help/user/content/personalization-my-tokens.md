@@ -1,11 +1,13 @@
 ---
 title: Token personalizzati per E-mail Personalization
 description: Scopri come utilizzare un set di token definito per un percorso di account per gestire la personalizzazione nel contenuto delle e-mail.
-feature: Content, Email Authoring
-source-git-commit: 01c217c928ccb344eaebe471c7b7a8b930c68010
+feature: Personalization, Content, Email Authoring
+role: User
+exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

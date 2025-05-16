@@ -2,9 +2,10 @@
 title: Gruppi acquisti
 description: Scopri come i gruppi acquisti in Journey Optimizer B2B Edition possono aumentare l’efficacia del marketing tramite identificazione e targeting dei membri dei tuoi elenchi di account.
 feature: Buying Groups
+role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
-workflow-type: ht
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+workflow-type: tm+mt
 source-wordcount: '1782'
 ht-degree: 100%
 
@@ -99,7 +100,7 @@ Il punteggio di coinvolgimento del gruppo acquisti è un numero utilizzato per d
 
 +++Attività utilizzate per il punteggio
 
-| Nome attività | Descrizione | Tipo di coinvolgimento | Numero massimo di frequenze giornaliere | Peso attività |
+| Nome attività | Descrizione | Tipo di coinvolgimento | Frequenza massima giornaliera | Peso attività |
 | --- | --- | --- | --- | --- |
 | Registrati a un evento | Registra a un evento associato a una campagna | Evento | 20 | 60 |
 | Partecipa a un evento | Partecipa a un evento della campagna | Evento | 20 | 90 |
@@ -204,4 +205,4 @@ Il punteggio di coinvolgimento finale viene calcolato applicando la ponderazione
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3452945/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

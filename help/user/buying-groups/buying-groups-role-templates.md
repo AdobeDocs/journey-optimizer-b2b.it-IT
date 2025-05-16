@@ -2,8 +2,9 @@
 title: Acquisto di modelli di mansione per gruppi
 description: Scopri come definire un modello di ruolo da utilizzare come componente del gruppo di acquisto.
 feature: Buying Groups
+role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 3%
@@ -163,4 +164,4 @@ Puoi eliminare un modello di ruoli se si trova nello stato _Bozza_.
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3453309/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

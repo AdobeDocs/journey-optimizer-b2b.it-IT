@@ -1,12 +1,13 @@
 ---
 title: Authoring di frammenti
 description: Scopri come creare frammenti di contenuto che possono essere riutilizzati per le e-mail e le progettazioni di modelli per migliorare l’efficienza e mantenere standard di progettazione e branding.
-feature: Content
+feature: Fragments, Content Design Tools
+role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 81f521cf245ac3d5460e1a8eb768ea2b609cf6fe
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 9%
+source-wordcount: '373'
+ht-degree: 14%
 
 ---
 
@@ -36,7 +37,7 @@ Dopo aver [creato un frammento](./fragments.md#create-fragments), utilizza l&#39
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-## Personalizzare il contenuto
+## Personalizzazione dei contenuti
 
 {{$include /help/_includes/content-design-personalization.md}}
 
@@ -52,7 +53,7 @@ Ad esempio, se progetti un banner riutilizzabile che include un pulsante cliccab
 
 1. Fai clic sull&#39;opzione **[!UICONTROL Abilita edizione]** e imposta i campi modificabili.
 
-   ![Abilita campi modificabili per un componente immagine frammento](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![Abilita campi modificabili per un componente immagine frammento](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
 
    Puoi abilitare la personalizzazione per i campi visualizzati, che dipendono dal tipo di componente e dai parametri definiti nel frammento.
 
@@ -60,7 +61,7 @@ Ad esempio, se progetti un banner riutilizzabile che include un pulsante cliccab
 
 1. Fai clic su **[!UICONTROL Panoramica]** per esaminare tutti i campi modificabili e i relativi valori predefiniti.
 
-   ![Rivedi i campi modificabili e i relativi valori predefiniti](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![Esaminare i campi modificabili e i relativi valori predefiniti](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}
 
 1. Salva le modifiche.
 

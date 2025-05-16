@@ -2,8 +2,9 @@
 title: Crea gruppi di acquisto
 description: Scopri come creare gruppi di acquisto utilizzando i componenti richiesti.
 feature: Buying Groups
+role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 2%
@@ -59,6 +60,6 @@ Member of buying group.
 Assign a member of the buying group.
 Remove a member of the buying group. -->
 
-## Video introduttivo
+## Video dimostrativo
 
->[!VIDEO](https://video.tv.adobe.com/v/3451769/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

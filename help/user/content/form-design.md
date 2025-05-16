@@ -1,17 +1,18 @@
 ---
 title: Progettazione modulo
 description: Scopri come progettare moduli riutilizzabili utilizzati per raccogliere informazioni sui lead aziendali.
-feature: Content
+feature: Forms, Content Design Tools
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 4eaaa8a33ba3ada99a75c43a56508362a2e7287b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 1%
 
 ---
 
-# Progettazione modulo
+# Progettazione del modulo
 
 Dopo aver [creato un modulo](./landing-pages.md#create-a-landing-page), lo spazio di progettazione visiva apre una bozza con una definizione di modulo di base predefinita. Nel pannello _[!UICONTROL Riepilogo]_ a destra, fai clic su **[!UICONTROL Modifica modulo]** e utilizza lo spazio di progettazione visiva per definire lo stile del modulo e i componenti campo.
 

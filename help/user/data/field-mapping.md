@@ -1,8 +1,10 @@
 ---
 title: Campi XDM
 description: Esamina i campi attributo predefiniti sincronizzati tra Adobe Experience Platform e Journey Optimizer B2B edition.
+feature: Data Management, Integrations
+role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 12%
@@ -15,7 +17,7 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 
 >[!TIP]
 >
->È possibile modellare le classi XDM Business Person e XDM Business Account in una relazione molti-a-molti utilizzando la classe XDM Business Account Person Relation come descritto nella [documentazione Experience Platform XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>È possibile modellare le classi XDM Business Person e XDM Business Account in una relazione molti-a-molti utilizzando la classe XDM Business Account Person Relation come descritto nella [documentazione Experience Platform XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 ## Attributi di relazione della persona dell’account aziendale XDM
 
@@ -79,7 +81,7 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 
 ## Attributi dell’opportunità di business XDM
 
-Inoltre, i dati sulle opportunità vengono memorizzati come attributi nella classe XDM Business Opportunity, che può essere associata alla classe XDM Business Account tramite una relazione molti-a-uno, come descritto nella [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Inoltre, i dati sulle opportunità vengono memorizzati come attributi nella classe XDM Business Opportunity, che può essere associata alla classe XDM Business Account tramite una relazione molti-a-uno, come descritto nella [documentazione di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 | [Proprietà](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | Nome visualizzato | Nome visualizzato B2B Journey Optimizer | Tipo di dati | Descrizione |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |

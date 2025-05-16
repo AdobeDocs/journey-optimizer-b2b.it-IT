@@ -1,17 +1,18 @@
 ---
 title: Progettazione modello pagina di destinazione
 description: Scopri come progettare e creare contenuti per i modelli di pagina di destinazione che gli addetti al marketing possono riutilizzare per creare pagine di destinazione.
-feature: Content
+feature: Templates, Landing Pages, Content Design Tools
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 4e203a5d1fb0c9d9dc2a6bd14705b17335c98ee3
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
-# Progettazione del modello della pagina di destinazione
+# Progettazione modello pagina di destinazione
 
 Dopo aver [creato un modello di pagina di destinazione](./landing-page-templates.md#create-a-landing-page-template), utilizza lo spazio di progettazione visiva per creare i componenti struttura e contenuto nel modello di pagina.
 

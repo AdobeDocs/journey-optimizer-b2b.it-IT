@@ -2,8 +2,9 @@
 title: Creazione e pubblicazione di un Percorso di account
 description: Scopri come creare e pubblicare percorsi di account.
 feature: Account Journeys
+role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 5%
@@ -136,4 +137,4 @@ Quando pubblichi un percorso, può iniziare immediatamente o in una data futura 
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443227/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

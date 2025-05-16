@@ -2,9 +2,10 @@
 title: Utilizzo dell’Assistente IA
 description: Scopri in che modo l’Assistente per l’intelligenza artificiale può aiutarti a ottenere il massimo dalle funzionalità di Journey Optimizer B2B edition.
 feature: AI Assistant
+role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: 62dc7d43f77b2c84b9e0aa27146a7924ee8d7b35
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 0%
@@ -111,7 +112,7 @@ Se nella risposta si nota un elemento problematico, fare clic sull&#39;icona _Co
 
 ![Risposta dell&#39;Assistente di IA - Modulo di feedback positivo in miniatura](./assets/ai-assistant-response-feedback-positive-form.png){width="600" zoomable="yes"}
 
->[!TAB Anteprima&#x200B;]
+>[!TAB Anteprima]
 
 ![Risposta dell&#39;Assistente di IA - Modulo feedback negativo in miniatura](./assets/ai-assistant-response-feedback-negative-form.png){width="600" zoomable="yes"}
 

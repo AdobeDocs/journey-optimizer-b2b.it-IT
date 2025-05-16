@@ -1,10 +1,11 @@
 ---
 title: Progettazione pagina di destinazione
 description: Scopri come progettare e creare contenuti per le pagine di destinazione che supportano percorsi di account e campagne.
-feature: Content
+feature: Landing Pages, Content Design Tools
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 19%

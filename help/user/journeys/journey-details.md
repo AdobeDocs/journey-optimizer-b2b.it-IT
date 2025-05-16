@@ -2,15 +2,16 @@
 title: Dettagli percorsi
 description: Scopri le informazioni fornite dalla pagina dei dettagli del percorso e come possono aiutarti a monitorare e gestire il percorso di account pubblicato.
 feature: Dashboards, Account Journeys
+role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: 7667478672de935abc4fda587ce4ba977a5a3168
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%
 
 ---
 
-# Dettagli percorso
+# Dettagli del percorso
 
 Quando si fa clic sul nome di un percorso di account attivo, vengono visualizzati i dettagli del percorso. La scheda _[!UICONTROL Panoramica]_ fornisce informazioni utili sul percorso, inclusi i riepiloghi generativi di IA.
 
@@ -74,7 +75,7 @@ Per il grafico _[!UICONTROL Stato Percorso]_, scegliere **[!UICONTROL Espandi]**
 <!--
 The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
 
-### Mostra altro
+### Visualizza altro
 
 Scegliere **[!UICONTROL Visualizza altro]** per accedere ai dati estesi. Il pop-up visualizzato fornisce un raggruppamento dei dati.
 

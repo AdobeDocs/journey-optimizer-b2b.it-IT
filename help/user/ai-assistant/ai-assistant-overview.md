@@ -1,12 +1,13 @@
 ---
 title: Assistente AI in Journey Optimizer B2B edition
-description: Placeholder
+description: Scopri l’Assistente all’intelligenza artificiale e come può aiutarti a navigare nei concetti dei prodotti e ad accedere a informazioni operative personalizzate per il tuo ambiente.
 feature: AI Assistant
+role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1261'
 ht-degree: 4%
 
 ---
@@ -29,7 +30,7 @@ L&#39;Assistente IA in Journey Optimizer B2B edition viene creato dalla stessa b
 
 ## Funzionalità di AI Assistant in Journey Optimizer B2B edition
 
-Per formulare una risposta alle domande inviate, l’Assistente AI esegue una query su un database e converte i dati dal database in una risposta leggibile. Questa risposta è una rappresentazione interna dei dati sottostanti ed è anche nota come _&#x200B;**_Knowledge Graph_**&#x200B;_, un Web completo di concetti, dati e metadati per una determinata risposta. Il Knowledge Graph è costituito da sottografi a cui viene fatto riferimento ogni volta che vengono inviate query:
+Per formulare una risposta alle domande inviate, l’Assistente AI esegue una query su un database e converte i dati dal database in una risposta leggibile. Questa risposta è una rappresentazione interna dei dati sottostanti ed è anche nota come _**_Knowledge Graph_**_, un Web completo di concetti, dati e metadati per una determinata risposta. Il Knowledge Graph è costituito da sottografi a cui viene fatto riferimento ogni volta che vengono inviate query:
 
 * Documentazione di Experience League.
 * Artefatti operativi, come schemi, campi, tipi di pubblico e percorsi.
@@ -59,7 +60,7 @@ Puoi porre domande all’Assistente AI sulle informazioni operative nei seguenti
 | Dominio | Metadati supportati | Metadati non supportati |
 | --- | --- | --- |
 | Attributi/campi | <li>Ricerca nome attributo <li>Attributo: relazione schema <li>Attributo: relazione set di dati <li>Attributo: relazione pubblico <li>Attributo - relazione di destinazione | <li>Classe attributo <li>Audit <li>Stato obsoleto <li>Etichette <li>Valore memorizzato negli attributi |
-| Pubblico dell&#39;account <br><br>**_Nota:_**&#x200B;l&#39;Assistente all&#39;intelligenza artificiale B2B di AJO può rispondere solo alle domande sul pubblico per i tipi di pubblico dell&#39;account, mentre l&#39;Assistente all&#39;intelligenza artificiale di Experience Platform può rispondere alle domande solo per i tipi di pubblico della persona | <li>Conteggio del pubblico <li>Tipo di pubblico (in streaming o in batch) <li>Date di creazione/modifica <li>Stato attivazione <li>Conteggio membri <li>Pubblico duplicato <li>Ricerca per nome e ID | <li>Sovrapposizioni del pubblico <li>Attivazione del pubblico <li>Audit <li>Crea/modifica <li>Etichette <li>Tendenze delle qualifiche dei membri |
+| Pubblico dell&#39;account <br><br>**_Nota:_**l&#39;Assistente all&#39;intelligenza artificiale B2B di AJO può rispondere solo alle domande sul pubblico per i tipi di pubblico dell&#39;account, mentre l&#39;Assistente all&#39;intelligenza artificiale di Experience Platform può rispondere alle domande solo per i tipi di pubblico della persona | <li>Conteggio del pubblico <li>Tipo di pubblico (in streaming o in batch) <li>Date di creazione/modifica <li>Stato attivazione <li>Conteggio membri <li>Pubblico duplicato <li>Ricerca per nome e ID | <li>Sovrapposizioni del pubblico <li>Attivazione pubblico <li>Audit <li>Crea/modifica <li>Etichette <li>Tendenze delle qualifiche dei membri |
 | Flussi di dati | <li>Conteggi dei flussi di dati <li>Stato del flusso di dati <li>Flusso di dati: relazione set di dati <li>Flusso di dati - relazione di origine | <li>Creazione/modifica <li>Relazioni flusso di dati-batch <li>Acquisisci conteggio profili |
 | Set di dati | <li>Conteggio set di dati <li>Stato abilitazione profilo <li>Data di creazione/modifica <li>Set di dati: relazione schema <li>Set di dati: relazione pubblico <li>Set di dati: relazione attributo <li>Set di dati: relazione flusso di dati <li>Ricerca nome <li>Ricerca per nome e ID | <li>Audit <li>Creato da <li>Set di dati: relazione batch <li>Creazione/modifica del set di dati <li>Dimensione set di dati <li>Numero di profili <li>Numero di righe <li>Ricerca di valori |
 | Destinazioni | <li>Conteggi di destinazione configurati <li>Destinazione - Relazione pubblico <li>Relazione attributo di destinazione | <li>Configurazione account <li>Informazioni sulle credenziali dell&#39;account <li>Profili univoci attivati |
@@ -91,7 +92,7 @@ L’Assistente per l’intelligenza artificiale in Journey Optimizer B2B edition
 
 * Per interagire con l&#39;Assistente AI è necessario disporre di autorizzazioni esplicite.
 
-   * Un amministratore può impostare le autorizzazioni utilizzando [Interfaccia utente autorizzazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e [Admin Console](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Un amministratore può impostare le autorizzazioni utilizzando [Interfaccia utente autorizzazioni](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * Le autorizzazioni sono granulari e l’amministratore della sandbox può configurare quali utenti possono porre diverse categorie di domande (domande basate sulla conoscenza del prodotto con l’Assistente AI o domande su informazioni operative).
 

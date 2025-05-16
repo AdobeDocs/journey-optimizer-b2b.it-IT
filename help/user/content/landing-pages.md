@@ -1,10 +1,11 @@
 ---
 title: Pagine di destinazione
 description: Scopri le pagine di destinazione e come crearle e gestirle per supportare percorsi di account e campagne.
-feature: Content
+feature: Landing Pages, Content
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2188'
 ht-degree: 2%
@@ -183,7 +184,7 @@ Le modifiche apportate a una pagina di destinazione dipendono dal suo stato corr
    * [Aggiungere struttura e contenuto](./landing-page-design.md#add-structure-and-content)
    * [Aggiungi Assets](./landing-page-design.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalizzare il contenuto](./landing-page-design.md#personalize-content)
+   * [Personalizzazione dei contenuti](./landing-page-design.md#personalize-content)
    * [Modifica tracciamento URL collegato](./landing-page-design.md#edit-linked-url-tracking)
 
 1. Fai clic su **[!UICONTROL Salva]** o **[!UICONTROL Salva e chiudi]** per tornare ai dettagli della pagina di destinazione.
@@ -211,7 +212,7 @@ Le modifiche apportate a una pagina di destinazione dipendono dal suo stato corr
    * [Aggiungere struttura e contenuto](./landing-page-design.md#add-structure-and-content)
    * [Aggiungi Assets](./landing-page-design.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalizzare il contenuto](./landing-page-design.md#personalize-content)
+   * [Personalizzazione dei contenuti](./landing-page-design.md#personalize-content)
    * [Modifica tracciamento URL collegato](./landing-page-design.md#edit-linked-url-tracking)
 
 1. Fai clic su **[!UICONTROL Salva]** o **[!UICONTROL Salva e chiudi]** per tornare ai dettagli della pagina di destinazione.
@@ -233,7 +234,7 @@ Per aggiornare il contenuto:
    * [Aggiungere struttura e contenuto](./landing-page-design.md#add-structure-and-content)
    * [Aggiungi Assets](./landing-page-design.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalizzare il contenuto](./landing-page-design.md#personalize-content)
+   * [Personalizzazione dei contenuti](./landing-page-design.md#personalize-content)
    * [Modifica tracciamento URL collegato](./landing-page-design.md#edit-linked-url-tracking)
 
 1. Fai clic su **[!UICONTROL Salva]** o **[!UICONTROL Salva e chiudi]** per tornare ai dettagli della pagina di destinazione.

@@ -2,7 +2,9 @@
 title: Dettagli account
 description: Scopri come accedere a informazioni dettagliate e riepiloghi generativi sull’intelligenza artificiale per gli account in Journey Optimizer B2B edition.
 feature: Account Insights
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+role: User
+exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 9%
@@ -42,7 +44,7 @@ Nella sezione _[!UICONTROL Copertura dei contatti]_ viene visualizzato il numero
 * Colonne
 * Nome
 * Account
-* Qualifica
+* Posizione lavorativa
 * Gruppo acquisti
 * Punteggio di coinvolgimento della persona
 * Ultima attività
@@ -60,7 +62,7 @@ Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/ico
 Nella sezione _[!UICONTROL Sovrapposizione contatti]_ vengono visualizzati i contatti dell&#39;account che fanno parte di più gruppi di acquisto in seguito all&#39;associazione a diversi interessi della soluzione. Queste informazioni sono sotto forma di una tabella con le seguenti colonne:
 
 * Nome
-* Qualifica
+* Posizione lavorativa
 * Account
 * Interesse della soluzione
 

@@ -1,19 +1,20 @@
 ---
 title: Modelli di pagina di destinazione
 description: Scopri come creare modelli di pagina di destinazione che il team Marketing può utilizzare per creare nuove pagine per supportare percorsi di account e campagne.
-feature: Content
+feature: Landing Pages, Templates, Content
+role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 0%
 
 ---
 
-# Modelli pagina di destinazione
+# Modelli pagine di destinazione
 
 Per un processo di progettazione accelerato e migliorato, puoi creare modelli di pagina di destinazione autonomi per standardizzare la progettazione e il contenuto della pagina. Gli esperti di marketing possono riutilizzare le pagine e adattarle per adattarle all’utilizzo in campagne e percorsi.
 

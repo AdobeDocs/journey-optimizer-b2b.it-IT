@@ -1,9 +1,10 @@
 ---
-title: Modifica immagini con Adobe Express
+title: Modificare le immagini con Adobe Express
 description: Scopri come utilizzare Adobe Express per modificare le immagini nell’area di lavoro di Journey Optimizer B2B edition.
-feature: Assets, Content
+feature: Assets, Content, Integrations
+role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: cb8196a8bb33c326476ddc9d99103d5fea6d10bd
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 3%
@@ -17,7 +18,7 @@ ht-degree: 3%
 >title="Modificare le immagini in Adobe Express"
 >abstract="Strumenti di editing delle immagini semplici e intuitivi, basati su tecnologia Adobe Express, sono disponibili direttamente all’interno di Adobe Journey Optimizer B2B edition per velocizzare la creazione dei contenuti."
 
-Adobe Journey Optimizer B2B edition si integra in modo nativo con Adobe Express e consente di accedere a un set di strumenti di modifica delle immagini di Adobe Express. Puoi utilizzare questi strumenti per modificare le immagini memorizzate nell’area di lavoro di Journey Optimizer B2B edition per l’archivio risorse di Marketo Engage connesso. L’integrazione offre i seguenti vantaggi chiave:
+Adobe Journey Optimizer B2B edition si integra in modo nativo con Adobe Express e consente di accedere a un set di strumenti di modifica delle immagini Adobe Express. Puoi utilizzare questi strumenti per modificare le immagini memorizzate nell’area di lavoro di Journey Optimizer B2B edition per l’archivio risorse di Marketo Engage connesso. L’integrazione offre i seguenti vantaggi chiave:
 
 * È stato aumentato il riutilizzo dei contenuti modificando e salvando nuove risorse di immagini in Journey Optimizer B2B edition.
 
@@ -25,7 +26,7 @@ Adobe Journey Optimizer B2B edition si integra in modo nativo con Adobe Express 
 
 >[!NOTE]
 >
->I diritti per le funzioni di modifica degli Adobi Express sono inclusi in tutti gli abbonamenti a Journey Optimizer B2B edition.
+>I diritti per le funzioni di modifica di Adobe Express sono inclusi in tutti gli abbonamenti a Journey Optimizer B2B edition.
 
 Le funzioni di Adobe Express supportano i formati di file immagine PNG e JPEG.
 
@@ -53,29 +54,29 @@ Questa azione apre una pagina di elenco con tutte le risorse elencate. L&#39;are
 
 1. Nell&#39;immagine _[!UICONTROL Dettagli]_ a destra, fare clic su **[!UICONTROL Modifica con Adobe Express]**.
 
-   ![Apri l&#39;immagine nell&#39;editor di Adobi Express](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
+   ![Apri l&#39;immagine nell&#39;editor di Adobe Express](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
 
-   Se l&#39;immagine è in uso, viene visualizzata una finestra di dialogo di avviso che informa che eventuali modifiche apportate avranno effetto sul contenuto. Fai clic su **[!UICONTROL Continua]** per passare all&#39;editor di Adobi Express.
+   Se l&#39;immagine è in uso, viene visualizzata una finestra di dialogo di avviso che informa che eventuali modifiche apportate avranno effetto sul contenuto. Fai clic su **[!UICONTROL Continua]** per passare all&#39;editor di Adobe Express.
 
    ![Un avviso fornisce informazioni sull&#39;utilizzo dell&#39;immagine](./assets/assets-edit-adobe-express-usage-alert.png){width="300"}
 
 ## Licenza Adobe Express Enterprise
 
-Se ad Adobe Express si dispone di una licenza Enterprise, è possibile accedere e utilizzare l&#39;editor Express. Queste funzionalità di editing includono operazioni per la regolazione delle immagini, come colore, luminosità, nitidezza, contrasto e ritaglio. Includono anche operazioni di _IA magic_, ad esempio la rimozione di sfondi, l&#39;inserimento e la rimozione di oggetti e la cancellazione di parti dell&#39;immagine.
+Se disponi di una licenza Enterprise per Adobe Express, puoi accedere e utilizzare l’editor rapido. Queste funzionalità di editing includono operazioni per la regolazione delle immagini, come colore, luminosità, nitidezza, contrasto e ritaglio. Includono anche operazioni di _IA magic_, ad esempio la rimozione di sfondi, l&#39;inserimento e la rimozione di oggetti e la cancellazione di parti dell&#39;immagine.
 
 >[!NOTE]
 >
->La licenza Adobe Express Enterprise deve essere acquistata presso la stessa organizzazione IMS per accedere a queste funzionalità complete dell’editor da Journey Optimizer B2B edition. In qualità di membro individuale dell’organizzazione IMS, hai bisogno di una licenza assegnata nell’istanza di Adobe Express. In caso contrario, il tuo accesso Adobe Express è limitato alle [azioni rapide sull&#39;Adobe Express](#quick-actions-in-adobe-express) da Journey Optimizer B2B edition.
+>La licenza Adobe Express Enterprise deve essere acquistata presso la stessa organizzazione IMS per accedere a queste funzionalità complete dell’editor da Journey Optimizer B2B edition. In qualità di membro individuale dell’organizzazione IMS, devi disporre di una licenza assegnata nell’istanza di Adobe Express. In caso contrario, l&#39;accesso ad Adobe Express è limitato alle [azioni rapide su Adobe Express](#quick-actions-in-adobe-express) da Journey Optimizer B2B edition.
 
-![Apri l&#39;immagine nell&#39;editor aziendale Adobe Express](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
+![Apri l&#39;immagine nell&#39;editor aziendale di Adobe Express](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
 La [Guida utente di Adobe Express](https://helpx.adobe.com/it/express/user-guide.html){target="_blank"} fornisce informazioni dettagliate sulle funzionalità di modifica disponibili.
 
-## Azioni rapide nell’Adobe Express
+## Azioni rapide in Adobe Express
 
 Se non disponi di una licenza Adobe Express Enterprise, puoi accedere all’editor delle azioni rapide di Adobe Express.
 
-1. Nell’editor delle azioni rapide di Adobe Express, seleziona una delle funzioni di modifica dell’immagine per modificarla.
+1. Nell’editor delle azioni rapide di Adobe Express, seleziona una delle funzioni di modifica delle immagini per modificare l’immagine.
 
    * [**[!UICONTROL Ridimensiona immagine]**](#resize-image)
    * [**[!UICONTROL Rimuovi sfondo]**](#remove-background)
@@ -85,7 +86,7 @@ Se non disponi di una licenza Adobe Express Enterprise, puoi accedere all’edit
 
    ![Selezionare un tipo di modifica per modificare l&#39;immagine](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}
 
-1. Quando ritorni all&#39;editor azioni rapide dell&#39;Adobe Express principale, fai clic su **[!UICONTROL Salva]** per salvare il file immagine modificato nell&#39;area di lavoro risorse di Journey Optimizer B2B edition con lo stesso nome di file.
+1. Quando ritorni all&#39;editor principale delle azioni rapide di Adobe Express, fai clic su **[!UICONTROL Salva]** per salvare il file immagine modificato nell&#39;area di lavoro risorse di Journey Optimizer B2B edition con lo stesso nome di file.
 
 ## Ridimensiona immagine
 
@@ -105,13 +106,13 @@ Se non disponi di una licenza Adobe Express Enterprise, puoi accedere all’edit
 
 ![Modifica con Adobe Express- rimuovi sfondo](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
 
-Adobe Express esegue una rimozione automatica dello sfondo per isolare l&#39;oggetto principale nell&#39;immagine. Se si è soddisfatti del risultato, fare clic su **[!UICONTROL Applica]**.
+Adobe Express esegue una rimozione automatica dello sfondo per isolare l’oggetto principale nell’immagine. Se si è soddisfatti del risultato, fare clic su **[!UICONTROL Applica]**.
 
 ## Ritaglia immagine
 
 1. Trascina le maniglie agli angoli dell’immagine per rimuovere le aree esterne che non desideri includere nella risorsa immagine.
 
-   ![Modifica con Adobe Express- ritaglia immagine](./assets/assets-edit-adobe-express-crop-image.png){width="600" zoomable="yes"}
+   ![Modifica con Adobe Express- ritaglio immagine](./assets/assets-edit-adobe-express-crop-image.png){width="600" zoomable="yes"}
 
 1. Quando si è soddisfatti del risultato, fare clic su **[!UICONTROL Applica]**.
 

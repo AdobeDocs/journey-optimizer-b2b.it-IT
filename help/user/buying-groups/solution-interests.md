@@ -2,8 +2,9 @@
 title: Interessi soluzione
 description: Scopri gli interessi delle soluzioni e come definirli per l’utilizzo all’interno dei gruppi di acquisto.
 feature: Buying Groups, Account Journeys
+role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 1%
@@ -101,4 +102,4 @@ Qualsiasi interesse di soluzione attualmente in uso da un processo o percorso di
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3450121/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

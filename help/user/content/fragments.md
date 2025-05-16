@@ -1,9 +1,10 @@
 ---
 title: Frammenti
 description: Scopri come creare e utilizzare frammenti di contenuto visivo come componenti riutilizzabili per e-mail e modelli e-mail in Adobe Journey Optimizer B2B edition.
-feature: Content, Email Authoring
+feature: Fragments, Content
+role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2624'
 ht-degree: 2%
@@ -285,7 +286,7 @@ I frammenti sono progettati per il riutilizzo e possono essere inseriti per la c
 
 1. Passa a **[!UICONTROL Percorsi di account]** e apri un percorsi percorso esistente o creane uno nuovo.
 
-1. Crea un nodo [_[!UICONTROL Invia e-mail &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Crea un nodo [_[!UICONTROL Invia e-mail ]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Crea o modifica [contenuto e-mail per il nodo](./email-authoring.md).
 

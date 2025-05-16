@@ -1,9 +1,10 @@
 ---
 title: Dashboard intelligente
 description: Scopri Intelligent Dashboard, che fornisce una panoramica completa delle metriche relative ai gruppi di acquisto e agli account
-feature: Dashboards, Buying Groups
+feature: Dashboards, Intelligent Insights, Buying Groups
+role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1688'
 ht-degree: 15%
@@ -38,11 +39,11 @@ Per utilizzare le informazioni e le informazioni fornite da Intelligent Dashboar
 | [Pagina dettagli account](../accounts/account-details.md) | Uno o più percorsi pubblicati. |
 | [Pagina dettagli gruppo di acquisto](../buying-groups/buying-group-details.md) | Uno o più gruppi di acquisto creati (fasi non necessarie). |
 
-## Fasi del gruppo di acquisto {#buying-group-stages}
+## Fasi del gruppo acquisti {#buying-group-stages}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
->title="Fasi del gruppo di acquisto"
+>title="Fasi del gruppo acquisti"
 >abstract="Questo grafico fornisce una panoramica della progressione del gruppo di acquisto in diverse fasi, in base alle regole di transizione configurate. La prima barra indica il numero di gruppi di acquisto in una fase specifica nella prima data dell’intervallo di tempo selezionato, confrontato con l’ultima data dell’intervallo di tempo selezionato."
 
 Il grafico _[!UICONTROL Fasi gruppo acquisti]_ fornisce una panoramica della progressione del gruppo acquisti in diverse fasi ([in base alle regole di transizione impostate da un amministratore](../buying-groups/buying-group-stages.md)).
@@ -129,7 +130,7 @@ Nella parte superiore destra del pannello _Elementi di rilievo del gruppo acquis
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Modifica](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
-* Interesse per soluzione
+* Interesse della soluzione
 * Gruppo acquisti
 * Account
 
@@ -168,7 +169,7 @@ Fai clic su una barra per ottenere un riepilogo di IA generativo dei conti nella
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Modifica](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
-* Interesse per soluzione
+* Interesse della soluzione
 * Settore
 * Area geografica
 
@@ -223,7 +224,7 @@ At the top right of the _Buying group highlights_ panel, click **[!UICONTROL Vie
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
-* Interesse per soluzione
+* Interesse della soluzione
 * Gruppo acquisti
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
@@ -261,7 +262,7 @@ Fare clic su una cella per visualizzare informazioni dettagliate per i contatti 
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
-* Interesse per soluzione
+* Interesse della soluzione
 * Account
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
@@ -285,7 +286,7 @@ Fai clic su _Informazioni_ ( ![Icona informazioni](../assets/do-not-localize/ico
 
 * Nome del gruppo di acquisto (fare clic sul nome per aprire la pagina dei dettagli del gruppo di acquisto)
 * Ruolo
-* Interesse per soluzione
+* Interesse della soluzione
 * Intento prodotto
 * Prodotto
 
@@ -295,7 +296,7 @@ Fai clic su _Informazioni_ ( ![Icona informazioni](../assets/do-not-localize/ico
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
-* Interesse per soluzione
+* Interesse della soluzione
 * Ruoli
 * Account
 

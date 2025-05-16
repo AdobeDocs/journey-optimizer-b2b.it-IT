@@ -1,16 +1,17 @@
 ---
 title: Dettagli gruppo di acquisto
 description: Scopri come accedere a informazioni dettagliate e riepiloghi generativi sull’intelligenza artificiale per i gruppi di acquisto in Journey Optimizer B2B edition.
-feature: Buying Groups
+feature: Buying Groups, Intelligent Insights
+role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: cfebf3d3a91733261417e338b3ce3c1b80495e5b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
-# Dettagli gruppo di acquisto
+# Dettagli del gruppo acquisti
 
 Quando si fa clic sul nome di un gruppo di acquisto in un punto qualsiasi di Journey Optimizer B2B edition, vengono visualizzati i relativi dettagli. Questa panoramica fornisce informazioni utili sul gruppo di acquisto, inclusi i riepiloghi generativi di IA.
 
@@ -49,7 +50,7 @@ La sezione Panoramica account include le seguenti informazioni sull&#39;account:
 * Ultimi tre percorsi di account in cui l&#39;account è attualmente in uso (fare clic sul nome per aprire i dettagli del percorso)
 * Riepilogo IA generativa dell’account
 
-## Acquisto di membri del gruppo
+## Membri del gruppo acquisti
 
 ![Membri del gruppo di acquisto](./assets/details-page-buying-group-members.png){width="800" zoomable="yes"}
 

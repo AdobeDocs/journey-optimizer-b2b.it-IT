@@ -1,16 +1,17 @@
 ---
 title: Authoring dei modelli e-mail
 description: Scopri come creare modelli e-mail di contenuto che possono essere utilizzati per le e-mail del percorso di account per riutilizzare le progettazioni in modo semplice ed efficiente.
-feature: Email Authoring, Content
+feature: Templates, Email Authoring, Content
+role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
-# Authoring dei modelli e-mail
+# Authoring di modelli e-mail
 
 Dopo aver [creato un modello e-mail](./email-templates.md#create-an-email-template), utilizza la finestra di progettazione visiva per creare i componenti struttura e contenuto nel modello e-mail.
 
@@ -42,7 +43,7 @@ Dopo il salvataggio, il modello viene visualizzato nella pagina dei dettagli del
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-### Personalizzare il contenuto
+### Personalizzazione dei contenuti
 
 {{$include /help/_includes/content-design-personalization.md}}
 
