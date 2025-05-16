@@ -112,7 +112,7 @@ Se nella risposta si nota un elemento problematico, fare clic sull&#39;icona _Co
 
 ![Risposta dell&#39;Assistente di IA - Modulo di feedback positivo in miniatura](./assets/ai-assistant-response-feedback-positive-form.png){width="600" zoomable="yes"}
 
->[!TAB Anteprima&#x200B;]
+>[!TAB Anteprima]
 
 ![Risposta dell&#39;Assistente di IA - Modulo feedback negativo in miniatura](./assets/ai-assistant-response-feedback-negative-form.png){width="600" zoomable="yes"}
 

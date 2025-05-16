@@ -77,7 +77,7 @@ Ad esempio, potresti avere un percorso di percorso in cui invii un’e-mail e al
 
 In qualità di addetto al marketing, potresti voler eliminare i programmi in Marketo Engage per le persone che fanno parte degli elenchi di account in Journey Optimizer B2B edition.
 
-Nell&#39;istanza di Marketo Engage connessa a Journey Optimizer B2B edition, è possibile utilizzare il filtro _[!UICONTROL Membro dell&#39;elenco account]_ negli elenchi smart per identificare questi lead in base alla strategia della campagna. Per ulteriori informazioni sugli elenchi avanzati, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
+Nell&#39;istanza di Marketo Engage connessa a Journey Optimizer B2B edition, è possibile utilizzare il filtro _[!UICONTROL Membro dell&#39;elenco account]_ negli elenchi smart per identificare questi lead in base alla strategia della campagna. Per ulteriori informazioni sugli elenchi avanzati, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
 
 ### Aggiungere il filtro a un elenco avanzato
 
@@ -95,7 +95,7 @@ Nell&#39;istanza di Marketo Engage connessa a Journey Optimizer B2B edition, è 
 
 1. Nel flusso della campagna, aggiungi il passaggio **[!UICONTROL Aggiungi all&#39;elenco]** e scegli l&#39;elenco in cui desideri popolare le persone dall&#39;elenco degli account di Journey Optimizer B2B edition.
 
-   Per informazioni dettagliate sull&#39;aggiunta di passaggi a un flusso, consulta _[Aggiungere un passaggio di flusso a una campagna avanzata](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ nella documentazione di Marketo Engage.
+   Per informazioni dettagliate sull&#39;aggiunta di passaggi a un flusso, consulta _[Aggiungere un passaggio di flusso a una campagna avanzata](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ nella documentazione di Marketo Engage.
 
 ### Esamina i membri
 

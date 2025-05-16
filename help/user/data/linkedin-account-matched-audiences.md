@@ -15,7 +15,7 @@ ht-degree: 16%
 
 Journey Optimizer B2B edition offre la possibilità di generare tipi di pubblico di LinkedIn Ad tramite i tipi di pubblico abbinati all’account ed è progettato per aiutarti a riempire ruoli vuoti nei gruppi di acquisto. Definendo un set di filtri per gruppi di acquisto, puoi mantenere un pubblico abbinato a LinkedIn per eseguire il targeting dei potenziali clienti che corrispondono ai parametri del gruppo di acquisto. Questa funzione sfrutta le destinazioni di Experience Platform per gestire alcuni aspetti dell’integrazione. È previsto un limite di dieci flussi di dati.
 
-Prima di avviare un flusso di dati da Journey Optimizer B2B edition, è necessario disporre di almeno un&#39;istanza del connettore di destinazione [(Companies) LinkedIn MatchedIn Audience](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} con un account LinkedIn Campaign Manager configurato nell&#39;applicazione Experience Platform.
+Prima di avviare un flusso di dati da Journey Optimizer B2B edition, è necessario disporre di almeno un&#39;istanza del connettore di destinazione [(Companies) LinkedIn MatchedIn Audience](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} con un account LinkedIn Campaign Manager configurato nell&#39;applicazione Experience Platform.
 
 ## Configurare una nuova connessione di account LinkedIn {#linkedin-destination-setup}
 
@@ -118,4 +118,4 @@ Il nome e la descrizione dell’account LinkedIn sono visibili per i gruppi di a
 
 Puoi interagire con i membri dell’account tramite un canale multimediale a pagamento, ad esempio i tipi di pubblico di LinkedIn Ad, per acquisire, coltivare e qualificarli per le vendite. Utilizza un nodo _Esegui un&#39;azione_ in un percorso di account per automatizzare il coinvolgimento con i membri chiave di un account tramite un canale esterno che sia più adatto per i diversi membri dell&#39;account.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448680/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

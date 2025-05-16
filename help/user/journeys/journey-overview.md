@@ -155,4 +155,4 @@ Utilizza un’azione di eliminazione per eliminare definitivamente un percorso. 
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443215/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

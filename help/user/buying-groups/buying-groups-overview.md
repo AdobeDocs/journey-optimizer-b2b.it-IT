@@ -4,21 +4,21 @@ description: Scopri come i gruppi acquisti in Journey Optimizer B2B Edition poss
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: d1130841ed3c560208bc93c53a54169f9b0b94aa
 workflow-type: tm+mt
-source-wordcount: '1782'
-ht-degree: 100%
+source-wordcount: '1778'
+ht-degree: 95%
 
 ---
 
 
 # Gruppi acquisti
 
-Per le attività di vendita e marketing B2B, gli account sono fondamentali per qualsiasi strategia. A ogni account è associato un gruppo di persone, che possono essere dipendenti dell’account o collaboratori esterni che utilizzano l’account. Gli account sono gerarchici e prodotti diversi possono essere venduti a diversi livelli nella gerarchia. Ad esempio, Adobe Experience Platform potrebbe essere venduto a livello aziendale a un account di livello dirigenziale, mentre Adobe Photoshop potrebbe essere venduto a un account che rappresenta una divisione o un reparto all’interno di un’organizzazione, ad esempio un reparto progettazione all’interno di un’azienda più grande.
+Per le attività di vendita e marketing B2B, gli account sono fondamentali per qualsiasi strategia. A ogni account è associato un gruppo di persone, che possono essere dipendenti dell’account o collaboratori esterni che utilizzano l’account. Gli account sono gerarchici e prodotti diversi possono essere venduti a diversi livelli nella gerarchia. Ad esempio, Adobe Experience Platform potrebbe essere venduto a livello aziendale a un account di livello superiore. Inoltre, Adobe Photoshop potrebbe essere venduto a un account che rappresenta una divisione o un reparto all’interno di un’organizzazione, ad esempio un reparto progettazione all’interno di un’azienda più grande.
 
 ![Diagramma ruoli account](assets/account-roles-diagram.png){width="800"}
 
-Nell’account potrebbe essere presente un sottoinsieme di persone che costituiscono il _gruppo acquisti_. Queste sono le persone che alla fine prendono la decisione di acquisto, quindi hanno bisogno di particolare attenzione da parte del marketer e potrebbero aver bisogno di informazioni diverse da quelle delle altre persone associate all’account. I gruppi acquisti possono comprendere un gruppo diverso di persone per diverse linee di prodotti o offerte. Ad esempio, un prodotto per la sicurezza informatica potrebbe in genere richiedere un Chief Information Officer o un Chief Security Officer e un rappresentante dell’Ufficio legale per approvare un acquisto, ma un prodotto di tracciamento dei bug potrebbe in genere interessare un VP of Engineering e un direttore IT come membri del gruppo di acquisto.
+Nell’account potrebbe essere presente un sottoinsieme di persone che costituiscono il _gruppo acquisti_. Queste persone alla fine prendono la decisione di acquisto, quindi richiedono particolare attenzione da parte dell’addetto marketing e potrebbero aver bisogno di informazioni diverse da quelle delle altre persone associate all’account. I gruppi acquisti possono comprendere un gruppo diverso di persone per diverse linee di prodotti o offerte. Ad esempio, un prodotto per la sicurezza informatica potrebbe in genere richiedere un Chief Information Officer o un Chief Security Officer e un rappresentante dell’Ufficio legale per approvare un acquisto, ma un prodotto di tracciamento dei bug potrebbe in genere interessare un VP of Engineering e un direttore IT come membri del gruppo di acquisto.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda la panoramica video](#overview-video)
 
@@ -106,7 +106,7 @@ Il punteggio di coinvolgimento del gruppo acquisti è un numero utilizzato per d
 | Partecipa a un evento | Partecipa a un evento della campagna | Evento | 20 | 90 |
 | Apri e-mail | Apre un’email | E-mail | 20 | 30 |
 | Fai clic sull’e-mail | Fa clic su un collegamento in un messaggio e-mail | E-mail | 20 | 30 |
-| Apri e-mail vendite | Apre un messaggio e-mail vendite | E-mail | 20 | 30 |
+| Apri e-mail vendite | Apre un messaggio e-mail di vendita | E-mail | 20 | 30 |
 | Fai clic sull’e-mail vendite | Fa clic su un collegamento in un messaggio e-mail vendite | E-mail | 20 | 30 |
 | Momento interessante | Ha un momento interessante | Curato | 20 | 60 |
 | Tocca Notifica push | Riceve una notifica push | Dispositivi mobili | 20 | 30 |
@@ -126,7 +126,7 @@ Il punteggio di coinvolgimento del gruppo acquisti è un numero utilizzato per d
 | Invito all’azione selezionato nel webinar | Fa clic su un collegamento di invito all’azione in un evento webinar | Invito | 20 | 30 |
 | Download di risorse nel webinar | Scarica un file o una risorsa in un evento webinar | Evento | 20 | 60 |
 | Pone domande nel webinar | Pone domande in un evento webinar | Evento | 20 | 60 |
-| Ha partecipato all’evento | Ha partecipato a un evento | Evento | 20 | 60 |
+| Ha partecipato all’evento | Partecipazione a un evento | Evento | 20 | 60 |
 | Impegnato con un agente nella finestra di dialogo | Interagisce con un agente in una finestra di dialogo di Dynamic Chat | Chat | 20 | 90 |
 | Collegamento selezionato nella chat nella finestra di dialogo | Fa clic su un collegamento in una finestra di dialogo di Dynamic Chat | Chat | 20 | 90 |
 | Impegnato in un flusso conversazionale | Interagisce con un flusso conversazionale di Dynamic Chat | Chat | 20 | 90 |
@@ -205,4 +205,4 @@ Il punteggio di coinvolgimento finale viene calcolato applicando la ponderazione
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3452945/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
