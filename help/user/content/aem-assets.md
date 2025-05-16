@@ -23,7 +23,7 @@ Se nell&#39;ambiente sono presenti una o più connessioni a [archivi Assets](../
 
 >[!IMPORTANT]
 >
->Un amministratore deve aggiungere gli utenti che hanno bisogno di accedere ad Assets ai profili di prodotto Utenti consumer di Assets e Utenti di Assets. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>Un amministratore deve aggiungere gli utenti che hanno bisogno di accedere ad Assets ai profili di prodotto Utenti consumer di Assets e Utenti di Assets. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## Accedere alle immagini di AEM Assets
 
@@ -33,7 +33,7 @@ Nell&#39;editor del contenuto visivo, fai clic sull&#39;icona _Experience Manage
 
 >[!NOTE]
 >
->Al momento, in Adobe Journey Optimizer B2B edition sono supportate solo le risorse immagine di Adobe Experience Manager Assets. Le modifiche alle risorse devono essere effettuate dall’archivio centrale di Adobe Experience Manager Assets. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>Al momento, in Adobe Journey Optimizer B2B edition sono supportate solo le risorse immagine di Adobe Experience Manager Assets. Le modifiche alle risorse devono essere effettuate dall’archivio centrale di Adobe Experience Manager Assets. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### Modificare l’archivio visualizzato
 
