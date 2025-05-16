@@ -54,4 +54,4 @@ _Per creare un segmento di pubblico:_
 
    ![Crea un segmento di pubblico](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Segui i passaggi descritti nella [Guida al servizio di segmentazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.
+1. Segui i passaggi descritti nella [Guida al servizio di segmentazione](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.
