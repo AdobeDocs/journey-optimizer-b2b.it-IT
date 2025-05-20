@@ -3,9 +3,9 @@ title: Note sulla versione
 description: Note sulla versione più recente di Adobe Journey Optimizer B2B edition
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: c3f2d57da830c46bd1e91d172db14f5400aabfca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2030'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Funzione | Orchestrazione dei percorsi dell’elenco account | Utilizza i nodi delle azioni di percorso per aggiungere e rimuovere account per gli elenchi di account statici. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Ulteriori informazioni</a> |
 | Miglioramento | Filtrare l’iscrizione al percorso in Marketo Engage | Utilizza gli elenchi account di Adobe Journey Optimizer B2B Edition per il pubblico del percorso, quindi utilizza il filtro _Membro di un elenco account_ negli elenchi avanzati di Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Ulteriori informazioni</a> |
 | Funzione | Filtri di inattività | Orchestra i percorsi in base all’inattività nelle campagne e nei programmi di Marketo Engage, inclusi inattività delle e-mail, momenti interessanti, modifiche al valore dei dati e pagine web visitate. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Ulteriori informazioni</a> |
-| Miglioramento | Filtro pagina web visitata | Orchestrare percorsi in base all’attività per le pagine web visitate associate a campagne e programmi Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">Ulteriori informazioni</a> |
-| Miglioramento | Elenco e-mail | Visualizza un elenco globale di e-mail attive e bozze per eseguirne la ricerca, la revisione e l’aggiornamento nei percorsi di account associati. <a href="../content/emails-list.md">Ulteriori informazioni</a> |
+| Miglioramento | Filtro pagina web visitata | Orchestra i percorsi in base all’attività per le pagine web visitate associate a campagne e programmi di Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">Ulteriori informazioni</a> |
+| Miglioramento | Elenco di e-mail | Visualizza un elenco globale di e-mail attive e bozze per eseguirne la ricerca, la revisione e l’aggiornamento nei percorsi di account associati. <a href="../content/emails-list.md">Ulteriori informazioni</a> |
 
 ## Note sulla versione 2025.3
 
@@ -53,7 +53,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Campi personalizzabili: frammenti di contenuto | In qualità di designer di frammenti di contenuto, puoi designare un parametro per un componente nel frammento come modificabile. Questa funzione consente all’autore del messaggio e-mail o del modello di specificare un valore di campo personalizzato specifico per le proprie esigenze. Questo flag di personalizzazione è limitato ai componenti visivi immagine, testo e pulsante. <a href="../content/fragment-authoring.md#enable-fragment-customization">Ulteriori informazioni</a> |
+| Funzione | Campi personalizzabili: frammenti di contenuto | In qualità di designer di frammenti di contenuto, puoi designare un parametro per un componente nel frammento come modificabile. Questa funzione consente all’autore del messaggio e-mail o del modello di specificare un valore di campo personalizzato che sia specifico per le proprie esigenze. Questo flag di personalizzazione è limitato ai componenti visivi immagine, testo e pulsante. <a href="../content/fragment-authoring.md#enable-fragment-customization">Ulteriori informazioni</a> |
 | Funzione | Ruoli integrati B2B e autorizzazioni per il prodotto | Experience Platform ora include un set di ruoli integrati (predefiniti) che puoi utilizzare per gestire l’accesso alle funzionalità dei prodotti B2B. <a href="../admin/user-management.md#b2b-built-in-roles">Ulteriori informazioni</a> <br/>Gli amministratori possono ora definire ruoli personalizzati in Adobe Experience Platform per includere le autorizzazioni per i prodotti Journey Optimizer B2B edition.  <a href="../admin/user-management.md#b2b-product-permissions">Ulteriori informazioni</a> |
 | Funzione | Tipi di duplicazione di percorso | Quando duplichi un percorso account, puoi includere i dettagli del nodo, escluse le e-mail e i messaggi SMS creati in Journey Optimizer B2B Edition. In alternativa, puoi creare una copia semplificata della struttura e dei flussi di tracciato, senza specificare i dettagli e le impostazioni del nodo. <a href="../journeys/journey-overview.md#duplicate-journey">Ulteriori informazioni</a> |
 | Miglioramento | Altri quattro modelli e-mail di esempio | La libreria dei modelli e-mail di esempio ora include quattro modelli SecurFinacial come esempi di contenuti di nuovo coinvolgimento, informazione, nurturing e feedback |
