@@ -5,7 +5,7 @@ feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1009'
 ht-degree: 100%
 
@@ -155,4 +155,4 @@ Utilizza un’azione di eliminazione per eliminare definitivamente un percorso. 
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443215/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
