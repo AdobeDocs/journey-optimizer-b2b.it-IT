@@ -4,10 +4,10 @@ description: Scopri i tipi di nodo percorsi suddivisi e di unione che puoi utili
 feature: Account Journeys
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
 workflow-type: tm+mt
-source-wordcount: '2141'
-ht-degree: 3%
+source-wordcount: '2083'
+ht-degree: 2%
 
 ---
 
@@ -43,7 +43,6 @@ _Come funziona un percorso di suddivisione per nodo account?_
 | --------------- | ----------- |
 | Attributi dell’account | Attributi dal profilo dell’account, tra cui: <li>Entrate annuali <li>Città <li>Paese <li>Dimensione dipendente <li>Settore <li>Nome <li>Codice SIC <li>Stato |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Ha un gruppo di acquisto] | L’account non ha membri di gruppi di acquisto. Può essere valutato anche in base a uno o più dei seguenti criteri: <li>Interesse soluzione <li>Stato gruppo acquisti <li>Punteggio di completezza <li>Punteggio di coinvolgimento |
-| [!UICONTROL Filtri speciali] > [!UICONTROL Ha opportunità] | L’account è o non è correlato a un’opportunità. Può essere valutato anche in base a uno o più dei seguenti attributi di opportunità: <li>Importo<li>Data di chiusura<li>Descrizione<li>Ricavi previsti<li>Trimestre fiscale<li>Anno fiscale<li>Categoria di previsione<li>Nome categoria previsione<li>È chiuso<li>È vinto <li>Data dell’ultima attività <li>Origine persona<li>Nome <li>Passaggio successivo <li>Probabilità<li>Quantità<li>Fase <li>Tipo |
 
 ### Aggiungere un percorso di suddivisione per nodo account
 
@@ -184,7 +183,7 @@ Per un percorso suddiviso per persone, puoi definire un percorso in base all’a
 
 >[!BEGINSHADEBOX &quot;Filtro inattività&quot;]
 
-Per ciascuno dei filtri _[!UICONTROL Cronologia attività]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa a filtro inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Ad esempio, se desideri creare un percorso per le persone che _&#x200B;**non hanno aperto**&#x200B;_ un&#39;e-mail da prima nel percorso, aggiungi il filtro _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail aperta]_. Abilita l’opzione di inattività e specifica l’e-mail. È consigliabile utilizzare il vincolo _[!UICONTROL Data attività]_ per definire un periodo di tempo per l&#39;inattività.
+Per ciascuno dei filtri _[!UICONTROL Cronologia attività]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa a filtro inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Ad esempio, se desideri creare un percorso per le persone che _**non hanno aperto**_ un&#39;e-mail da prima nel percorso, aggiungi il filtro _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail aperta]_. Abilita l’opzione di inattività e specifica l’e-mail. È consigliabile utilizzare il vincolo _[!UICONTROL Data attività]_ per definire un periodo di tempo per l&#39;inattività.
 
 ![Condizione Dividi percorso per persona per l&#39;acquisto dell&#39;iscrizione al gruppo](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -234,4 +233,4 @@ Aggiungi un nodo _Unisci percorsi_ per combinare diversi percorsi suddivisi per 
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443264/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
