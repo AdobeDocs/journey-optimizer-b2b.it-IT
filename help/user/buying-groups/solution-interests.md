@@ -4,9 +4,9 @@ description: Scopri gli interessi delle soluzioni e come definirli per l’utili
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 1280bd6a4a889507fcede73a859e943cbe3c0674
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '716'
 ht-degree: 1%
 
 ---
@@ -23,11 +23,13 @@ Prima di creare gruppi di acquisto, è necessario sapere cosa si vende e chi si 
 
 1. Nella pagina _[!UICONTROL Gruppi di acquisto]_, seleziona la scheda **[!UICONTROL Interesse per la soluzione]**.
 
+   La scheda fornisce un elenco di tutti gli interessi della soluzione esistenti. Visualizza le seguenti informazioni in formato colonna: _[!UICONTROL Nome]_, _[!UICONTROL Modello ruoli]_, _[!UICONTROL Processi di creazione gruppo acquisti]_, _[!UICONTROL Aggiorna gruppi acquisti]_, _[!UICONTROL Data creazione]_, _[!UICONTROL Creato da]_, _[!UICONTROL Ultimo aggiornamento]_ e _[!UICONTROL Ultimo aggiornamento da]_,
+
+   Per impostazione predefinita, l&#39;elenco è ordinato in base alla colonna _[!UICONTROL Ultimo aggiornamento]_. Fai clic sul titolo della colonna nell’intestazione per impostare l’ordinamento tra decrescente e crescente.
+
+   Immettere il testo nello strumento _Ricerca_ nella parte superiore dell&#39;elenco per filtrare l&#39;elenco visualizzato in base al nome.
+
    ![Scheda Interesse soluzione](assets/solution-interest-tab.png){width="700" zoomable="yes"}
-
-   La scheda fornisce un elenco di tutti gli interessi della soluzione esistenti. Vengono visualizzate le seguenti informazioni in formato colonna: _[!UICONTROL Nome]_, _[!UICONTROL Modello ruoli]_, _[!UICONTROL Processi di creazione gruppo acquisti]_, _[!UICONTROL Ultimo aggiornamento il]_, _[!UICONTROL Aggiornato da]_, _[!UICONTROL Creato il]_ e _[!UICONTROL Creato da]_
-
-   Per impostazione predefinita, l&#39;elenco è ordinato in base alla colonna _[!UICONTROL Ultimo aggiornamento il]_. Fai clic sul titolo della colonna nell’intestazione per impostare l’ordinamento tra decrescente e crescente.
 
 ## Visualizza ed elimina processi del gruppo acquisti
 
@@ -102,4 +104,4 @@ Qualsiasi interesse di soluzione attualmente in uso da un processo o percorso di
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3450121/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

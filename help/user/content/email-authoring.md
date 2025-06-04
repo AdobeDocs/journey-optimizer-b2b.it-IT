@@ -4,7 +4,7 @@ description: Scopri come creare contenuti e-mail in Adobe Journey Optimizer B2B.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 633f23525a6fd2b03460ecbef17379077d6b51d2
+source-git-commit: 8793e92054f57f64f311b039cc8161281b6269a8
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 15%
@@ -13,7 +13,7 @@ ht-degree: 15%
 
 # Authoring dei messaggi e-mail
 
-Dopo aver &lbrack;aggiunto una nuova<!-- or duplicated --> risorsa e-mail a un nodo azione di percorso&rbrack;(./add-email.md), puoi definire il contenuto del messaggio e-mail.
+Dopo aver [aggiunto una nuova<!-- or duplicated --> risorsa e-mail a un nodo azione di percorso](./add-email.md), puoi definire il contenuto del messaggio e-mail.
 
 Fai clic su **[!UICONTROL Modifica contenuto e-mail]** nella scheda _[!UICONTROL Dettagli]_ nel pannello di destra.
 
@@ -113,7 +113,7 @@ Dopo il salvataggio, l&#39;e-mail viene visualizzata nella pagina dei dettagli d
 
 ### Personalizzazione dei contenuti
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 >[!NOTE]
 >

@@ -4,16 +4,16 @@ description: Scopri come creare modelli e-mail di contenuto che possono essere u
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 45335eeba059ca8b4b390b336fbcb0ef29bd90ca
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 11%
 
 ---
 
 # Authoring di modelli e-mail
 
-Dopo aver [creato un modello e-mail](./email-templates.md#create-an-email-template), utilizza la finestra di progettazione visiva per creare i componenti struttura e contenuto nel modello e-mail.
+Dopo aver [creato un modello e-mail](./email-templates.md#create-an-email-template), utilizza lo spazio di progettazione visiva per creare i componenti struttura e contenuto nel modello e-mail.
 
 ## Aggiungere struttura e contenuto {#structure-content}
 
@@ -45,7 +45,7 @@ Dopo il salvataggio, il modello viene visualizzato nella pagina dei dettagli del
 
 ### Personalizzazione dei contenuti
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 ### Modifica tracciamento URL collegato
 
@@ -53,7 +53,7 @@ Dopo il salvataggio, il modello viene visualizzato nella pagina dei dettagli del
 
 ## Opzioni di visualizzazione
 
-Sfrutta le opzioni di convalida della visualizzazione e del contenuto disponibili nella finestra di progettazione visiva.
+Sfrutta le opzioni di convalida della visualizzazione e del contenuto disponibili nello spazio di progettazione visiva.
 
 * Zoom in/out del contenuto tra le opzioni di zoom predefinite.
 
@@ -63,11 +63,11 @@ Sfrutta le opzioni di convalida della visualizzazione e del contenuto disponibil
 
 ### Altre opzioni
 
-Dal menu _[!UICONTROL Altro ...]_ nella parte superiore della finestra di progettazione e-mail, puoi eseguire le azioni seguenti:
+Dal menu _[!UICONTROL Altro ...]_ nella parte superiore dello spazio di progettazione delle e-mail, puoi eseguire le azioni seguenti:
 
 ![Fai clic su Altro per accedere alle azioni del modello](./assets/visual-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Ripristina modello]** - Fare clic su questa opzione per cancellare l&#39;area di lavoro della finestra di progettazione visiva in un&#39;area vuota e riavviare la creazione del contenuto.
+* **[!UICONTROL Ripristina modello]** - Fare clic su questa opzione per cancellare l&#39;area di progettazione in un&#39;area vuota e riavviare la creazione del contenuto.
 * **[!UICONTROL Salva come frammento]** - Consente di salvare tutte o alcune parti del modello come frammento da riutilizzare in più e-mail o modelli di e-mail. Fornisci un nome e una descrizione per il frammento, quindi salvalo nell’elenco dei frammenti disponibili.
 * **[!UICONTROL Modifica la progettazione]** - Torna alla pagina _Progetta modello_. A questo punto è possibile scegliere di progettare il modello da zero o di utilizzare un modello esistente per riavviare il processo di progettazione.
 * **[!UICONTROL Esporta HTML]** - Scarica il contenuto nell&#39;area di lavoro visiva nel tuo sistema locale in formato HTML racchiuso in un file zip.
