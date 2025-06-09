@@ -1,13 +1,13 @@
 ---
 title: Percorsi account
-description: Inizia a usare i percorsi di account e scopri come gestirli utilizzando l’elenco Percorsi di account.
+description: Inizia a usare i percorsi account e scopri come gestirli utilizzando l’elenco Percorsi account.
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: a67ab8268676050f0c5f34b94d4aebfd46aaf601
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1027'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -30,13 +30,13 @@ Per iniziare a utilizzare i percorsi account:
 
 ## Accedere e sfogliare i percorsi account
 
-Nella barra di navigazione a sinistra, espandi **[!UICONTROL Gestione account]** e fai clic su **[!UICONTROL percorsi account]**.
+Nella barra di navigazione a sinistra, espandi **[!UICONTROL Gestione account]** e fai clic su **[!UICONTROL Percorsi account]**.
 
-Immettere il testo nello strumento _Ricerca_ nella parte superiore dell&#39;elenco per filtrare l&#39;elenco visualizzato in base al nome.
+Immetti il testo nello strumento _Ricerca_ nella parte superiore dell’elenco per filtrare l’elenco visualizzato in base al nome.
 
-![Filtra l&#39;elenco dei percorsi di account](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
+![Filtrare l’elenco dei percorsi account](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
-La pagina dell&#39;elenco _[!UICONTROL Percorsi di account]_ include le colonne seguenti:
+La pagina dell’elenco _[!UICONTROL Percorsi account]_ include le colonne riportate di seguito:
 
 * [!UICONTROL Nome] (fai clic sul nome per aprire il percorso per la modifica)
 * [!UICONTROL Stato]
@@ -62,18 +62,18 @@ Fai clic sul nome (visualizzato come collegamento) nell’elenco _[!UICONTROL pe
 L’intestazione di ciascuna mappa del percorso account include:
 
 * Nome del percorso
-* Strumento di modifica per il nome del percorso (icona ![Modifica](../assets/do-not-localize/icon-edit.svg) _Modifica_)
+* Strumento di modifica per il nome del percorso ( ![icona Modifica](../assets/do-not-localize/icon-edit.svg) icona _Modifica_)
 * Stato del percorso
 
 Lo stato di un percorso può cambiare in base alle azioni applicate. In base allo stato di un percorso, alcune azioni sono/non sono disponibili nel lato destro dell’intestazione.
 
 | Stato | Descrizione | Azioni disponibili |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Bozza**&#x200B;_ | Un percorso non pubblicato che può essere modificato. | <li>[Pubblica](./create-publish-journey.md#publish-an-account-journey)<li>[Duplicato](#duplicate-journey) <li>[Elimina](#delete-journey) |
-| _&#x200B;**Live**&#x200B;_ | Quando un percorso viene pubblicato, il relativo stato cambia da Bozza a Live. Se il percorso si trova in questo stato, non può più essere modificato. | <li>[Duplicato](#duplicate-journey)<li>[Chiudi alle nuove voci](#close-to-new-entries) <li>[Interrompi](#abort-journey) |
-| _&#x200B;**Chiuso alle nuove voci**&#x200B;_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <li>[Duplicato](#duplicate-journey) <li>[Interrompi](#abort-journey) |
-| _&#x200B;**Annullato**&#x200B;_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <li>[Duplicato](#duplicate-journey) <li>[Elimina](#delete-journey) |
-| _&#x200B;**Completato**&#x200B;_ | Quando tutti gli account di un percorso completano il percorso, lo stato cambia da _Live_ o _Closed to new entry_ a _Finished_. | <li>[Duplicato](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Bozza**_ | Un percorso non pubblicato che può essere modificato. | <li>[Pubblica](./create-publish-journey.md#publish-an-account-journey)<li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Live**_ | Quando un percorso viene pubblicato, il relativo stato cambia da Bozza a Live. Se il percorso si trova in questo stato, non può più essere modificato. | <li>[Duplica](#duplicate-journey)<li>[Chiudi ai nuovi ingressi](#close-to-new-entries) <li>[Interrompi](#abort-journey) |
+| _**Chiuso alle nuove voci**_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <li>[Duplica](#duplicate-journey) <li>[Interrompi](#abort-journey) |
+| _**Annullato**_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Completato**_ | Quando tutti gli account completano il percorso, lo stato cambia da _Live_ o _Chiuso ai nuovi ingressi_ a _Completato_. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
 
 ## Gestisci percorsi
 
@@ -85,7 +85,7 @@ Se interrompi (arresti) un percorso live o pianificato, gli account nel percorso
 
 >[!IMPORTANT]
 >
->Quando il percorso di account viene utilizzato in un altro percorso da un nodo _Esegui un&#39;azione_ con l&#39;azione _Aggiungi account a (altro) Percorso_, l&#39;interruzione del percorso blocca tale azione in tale percorso.
+>Quando il percorso account viene utilizzato in un altro percorso da un nodo _Esegui un’azione_ con l’azione _Aggiungi account a (altro) Percorso_, l’interruzione del percorso blocca l’azione da tale percorso.
 
 1. Fai clic sul nome del percorso per aprirlo.
 
@@ -157,4 +157,4 @@ Utilizza un’azione di eliminazione per eliminare definitivamente un percorso. 
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443215/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

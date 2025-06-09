@@ -1,12 +1,12 @@
 ---
-title: Rotazioni delle versioni di Journey Optimizer B2B edition
-description: Scopri le funzioni e i miglioramenti più recenti di Adobe Journey Optimizer B2B edition.
+title: Note sulla versione di Journey Optimizer B2B Edition
+description: Scopri le funzioni e i miglioramenti più recenti di Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2190'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Integrazione con GenStudio for Performance Marketing | (Disponibilità limitata) È ora possibile integrare le esperienze e-mail di GenStudio for Performance Marketing con Journey Optimizer B2B edition per migliorare l’efficienza del marketing e mantenere la coerenza del marchio. Con questa integrazione, puoi combinare la creazione di contenuti basata sull’intelligenza artificiale di GenStudio con le funzionalità di orchestrazione avanzate di Journey Optimizer B2B edition. [Ulteriori informazioni](../content/genstudio-email-workflow.md) |
-| Miglioramento | Formato token Handlebar per e-mail | I token Personalization per il contenuto delle e-mail ora utilizzano un formato aggiornato completamente compatibile con gli script Handlebar. Questo formato utilizza _notazione camel_ o caratteri di sottolineatura, eliminando gli spazi. [Ulteriori informazioni](../content/email-authoring.md#content-authoring---personalization) |
-| Miglioramento | Visualizzazione del conteggio totale per gli elenchi | Le pagine dell&#39;elenco _[!UICONTROL Interessi soluzione]_ e _[!UICONTROL Percorsi di account]_ sono state migliorate con la visualizzazione del conteggio totale accanto alla barra di ricerca. |
+| Funzione | Integrazione con GenStudio for Performance Marketing | (Disponibilità limitata) Ora puoi integrare le esperienze e-mail di GenStudio for Performance Marketing con Journey Optimizer B2B Edition per migliorare l’efficienza del marketing e mantenere la coerenza del brand. Con questa integrazione, puoi combinare la creazione di contenuti basata sull’intelligenza artificiale di GenStudio con le funzionalità di orchestrazione avanzate di Journey Optimizer B2B Edition. [Ulteriori informazioni](../content/genstudio-email-workflow.md) |
+| Miglioramento | Formato token Handlebar per e-mail | I token di personalizzazione per il contenuto delle e-mail ora utilizzano un formato aggiornato completamente compatibile con gli script Handlebar. Questo formato utilizza _camel case_ o trattini bassi, eliminando gli spazi. [Ulteriori informazioni](../content/email-authoring.md#content-authoring---personalization) |
+| Miglioramento | Visualizzazione del conteggio totale per elenchi | Le pagine di elenco _[!UICONTROL Interessi della soluzione]_ e _[!UICONTROL Percorsi account]_ sono state migliorate con la visualizzazione del conteggio totale accanto alla barra di ricerca. |
 
 
 ## Note sulla versione 2025.4
@@ -67,7 +67,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Campi personalizzabili: frammenti di contenuto | Durante la progettazione di un frammento visivo, è possibile designare i parametri di un componente nel frammento come modificabili. Questa funzione consente all’autore del messaggio e-mail o del modello di specificare un valore di campo personalizzato che sia specifico per le proprie esigenze. Questo flag di personalizzazione è limitato ai componenti visivi immagine, testo e pulsante. <a href="../content/fragment-authoring.md#enable-fragment-customization">Ulteriori informazioni</a> |
+| Funzione | Campi personalizzabili: frammenti di contenuto | Durante la progettazione di frammenti visivi, puoi designare parametri per un componente nel frammento come modificabili. Questa funzione consente all’autore del messaggio e-mail o del modello di specificare un valore di campo personalizzato che sia specifico per le proprie esigenze. Questo flag di personalizzazione è limitato ai componenti visivi immagine, testo e pulsante. <a href="../content/fragment-authoring.md#enable-fragment-customization">Ulteriori informazioni</a> |
 | Funzione | Ruoli integrati B2B e autorizzazioni per il prodotto | Experience Platform ora include un set di ruoli integrati (predefiniti) che puoi utilizzare per gestire l’accesso alle funzionalità dei prodotti B2B. <a href="../admin/user-management.md#b2b-built-in-roles">Ulteriori informazioni</a> <br/>Gli amministratori possono ora definire ruoli personalizzati in Adobe Experience Platform per includere le autorizzazioni per i prodotti Journey Optimizer B2B edition.  <a href="../admin/user-management.md#b2b-product-permissions">Ulteriori informazioni</a> |
 | Funzione | Tipi di duplicazione di percorso | Quando duplichi un percorso account, puoi includere i dettagli del nodo, escluse le e-mail e i messaggi SMS creati in Journey Optimizer B2B Edition. In alternativa, puoi creare una copia semplificata della struttura e dei flussi di tracciato, senza specificare i dettagli e le impostazioni del nodo. <a href="../journeys/journey-overview.md#duplicate-journey">Ulteriori informazioni</a> |
 | Miglioramento | Altri quattro modelli e-mail di esempio | La libreria dei modelli e-mail di esempio ora include quattro modelli SecurFinacial come esempi di contenuti di nuovo coinvolgimento, informazione, nurturing e feedback |
@@ -81,7 +81,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
 | Funzione | Inoltro degli eventi esperienza | Gli amministratori possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP). Queste configurazioni consentono ai marketer di creare percorsi account che reagiscono agli eventi esperienza di AEP.  <a href="../admin/configure-aep-events.md">Ulteriori informazioni</a> |
-| Funzione | Destinazioni dei paid media | Rendi idonee le persone note per le campagne di paid media da un percorso di account in modo da poterle coinvolgere ulteriormente su piattaforme pubblicitarie, come LinkedIn. Utilizza un nodo di percorso diviso in un percorso di conti per segmentare i tipi di pubblico degli account in base a un comportamento specifico e identificare gli account che richiedono un coinvolgimento aggiuntivo. In seguito, aggiungi le persone da tali account a un pubblico di clientela esterna tramite Real-time CDP a una destinazione di paid media supportata. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Ulteriori informazioni</a> |
+| Funzione | Destinazioni dei paid media | Rendi idonee le persone note per le campagne di paid media da un percorso di account in modo da poterle coinvolgere ulteriormente su piattaforme pubblicitarie, come LinkedIn. Utilizza un nodo di percorso suddiviso in un percorso di account per segmentare i tipi di pubblico degli account in base a un comportamento specifico e identificare quelli che richiedono un ulteriore coinvolgimento. In seguito, aggiungi le persone da tali account a un pubblico di clientela esterna tramite Real-time CDP a una destinazione di paid media supportata. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Ulteriori informazioni</a> |
 | Funzione | Dashboard intelligente | Visualizza il progresso dei gruppi di acquisto attraverso i loro percorsi di account, comprese le informazioni generate dall’intelligenza artificiale per un’analisi più intelligente e una definizione precisa delle priorità degli account. <a href="../dashboards/intelligent-dashboard.md">Ulteriori informazioni</a> |
 | Funzione | Dettagli del gruppo di acquisto e dell’account | Visualizza informazioni a livello di gruppo di acquisto e di account per disporre di più dati contestuali e storici quando inizi a coinvolgere un cliente.<p>I dettagli del gruppo di acquisto includono qualsiasi intento di prime parti rilevato. <a href="../buying-groups/buying-group-details.md">Ulteriori informazioni</a><p>Gli account dei dettagli evidenziano l’aumento nell’intento rilevato di coinvolgimento, in modo da poter avvisare le vendite su account pronti per un coinvolgimento mirato alle vendite personalizzate.  <a href="../accounts/account-details.md">Ulteriori informazioni</a> |
 | Funzione | Panoramica dei percorsi | Durante l’accesso ai percorsi degli account, la scheda Panoramica fornisce un’istantanea completa dei percorsi di account attivi, con informazioni dettagliate sull’avanzamento dell’account utilizzando grafici a cerchi e a barre che categorizzano e quantificano i completamenti e le attività di coinvolgimento.  <a href="../dashboards/journeys-dashboard.md">Ulteriori informazioni</a> |
@@ -94,7 +94,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 ## Versioni del 2024
 
-Espandi i seguenti elenchi per le funzioni e i miglioramenti di Journey Optimizer B2B edition rilasciati nel 2024.
+Espandi i seguenti elenchi per le funzioni e i miglioramenti di Journey Optimizer B2B Edition rilasciati nel 2024.
 
 +++Note sulla versione di ottobre 2024
 
@@ -114,7 +114,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 +++
 
-+++Note sulla versione di settembre 2024
+Note sulla versione di settembre 2024
 
 **Data di distribuzione**: 7 ottobre 2024
 
@@ -129,7 +129,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 +++
 
-+++Note sulla versione di agosto 2024
+Note sulla versione di agosto 2024
 
 **Data di distribuzione**: 29 agosto 2024
 
