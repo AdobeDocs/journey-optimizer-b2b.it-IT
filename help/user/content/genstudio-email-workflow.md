@@ -6,10 +6,11 @@ topic: Content Supply Chain
 level: Intermediate
 role: User
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: fe54f7eba982a29461aa922b408e6b4d68e6b0e2
+exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
+source-git-commit: 82bfb3b425bc7a3931b5ce8b925b860ef70d11fe
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_genstudio_button"
 >title="Utilizzare un modello creato con GenStudio"
->abstract="Utilizza l’integrazione con Adobe GenStudio for Performance Marketing per importare un modello GenStudio ottimizzato con la tecnologia AI di Adobe."
+>abstract="Utilizza l’integrazione diretta con Adobe GenStudio for Performance Marketing per importare un modello GenStudio ottimizzato con la tecnologia dell’intelligenza artificiale di Adobe."
 
 >[!AVAILABILITY]
 >
@@ -72,7 +73,7 @@ GenStudio for Performance Marketing riconosce alcuni elementi all’interno del 
 
 Utilizza il file HTML per creare un modello in GenStudio for Performance Marketing.
 
-Per informazioni dettagliate sul caricamento di un modello di HTML in GenStudio in Adobe GenStudio for Performance Marketing, consulta [Aggiungere un modello](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) nella documentazione di GenStudio for Performance Marketing.
+Per informazioni dettagliate sul caricamento di un modello di HTML in GenStudio in Adobe GenStudio for Performance Marketing, consulta [Aggiungere un modello](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) nella documentazione di GenStudio for Performance Marketing.
 
 Quando carichi il HTML esportato come modello, GenStudio for Performance Marketing analizza il file HTML per individuare i campi riconosciuti. Utilizza l’anteprima per rivedere gli elementi del modello e confermare che li hai identificati correttamente con i nomi dei campi riconosciuti.
 
@@ -80,7 +81,7 @@ Quando carichi il HTML esportato come modello, GenStudio for Performance Marketi
 
 In GenStudio for Performance Marketing, utilizza il modello per creare diverse varianti di esperienza e-mail e salvarle.
 
-Per informazioni dettagliate sulla generazione di esperienze e-mail con marchio, consulta [Creare un&#39;esperienza e-mail](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) nella documentazione di GenStudio for Performance Marketing.
+Per informazioni dettagliate sulla generazione di esperienze e-mail con marchio, consulta [Creare un&#39;esperienza e-mail](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) nella documentazione di GenStudio for Performance Marketing.
 
 ## Aggiungere esperienze e-mail generate a Journey Optimizer B2B edition
 
