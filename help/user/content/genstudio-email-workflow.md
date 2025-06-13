@@ -73,7 +73,7 @@ GenStudio for Performance Marketing riconosce alcuni elementi all’interno del 
 
 Utilizza il file HTML per creare un modello in GenStudio for Performance Marketing.
 
-Per informazioni dettagliate sul caricamento di un modello di HTML in GenStudio in Adobe GenStudio for Performance Marketing, consulta [Aggiungere un modello](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) nella documentazione di GenStudio for Performance Marketing.
+Per informazioni dettagliate sul caricamento di un modello di HTML in GenStudio in Adobe GenStudio for Performance Marketing, consulta [Aggiungere un modello](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) nella documentazione di GenStudio for Performance Marketing.
 
 Quando carichi il HTML esportato come modello, GenStudio for Performance Marketing analizza il file HTML per individuare i campi riconosciuti. Utilizza l’anteprima per rivedere gli elementi del modello e confermare che li hai identificati correttamente con i nomi dei campi riconosciuti.
 
@@ -81,7 +81,7 @@ Quando carichi il HTML esportato come modello, GenStudio for Performance Marketi
 
 In GenStudio for Performance Marketing, utilizza il modello per creare diverse varianti di esperienza e-mail e salvarle.
 
-Per informazioni dettagliate sulla generazione di esperienze e-mail con marchio, consulta [Creare un&#39;esperienza e-mail](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) nella documentazione di GenStudio for Performance Marketing.
+Per informazioni dettagliate sulla generazione di esperienze e-mail con marchio, consulta [Creare un&#39;esperienza e-mail](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) nella documentazione di GenStudio for Performance Marketing.
 
 ## Aggiungere esperienze e-mail generate a Journey Optimizer B2B edition
 
