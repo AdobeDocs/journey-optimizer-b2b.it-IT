@@ -4,16 +4,16 @@ description: Utilizza l’elenco E-mail per gestire il contenuto delle e-mail in
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # E-mail
 
-Quando [crei e-mail](./add-email.md), le aggiungi nel contesto di un nodo di percorso. Se desideri utilizzare l&#39;e-mail al di fuori della mappa del percorso, utilizza l&#39;elenco _[!UICONTROL E-mail]_ per individuare e aggiornare l&#39;e-mail. Puoi rivedere le e-mail o apportare aggiornamenti alle impostazioni e al contenuto.
+Quando [crei e-mail](./add-email.md), le aggiungi nel contesto di un nodo di percorso. Se desideri utilizzare il contenuto delle e-mail all&#39;esterno della mappa del percorso, utilizza l&#39;elenco _[!UICONTROL E-mail]_ per individuare e aggiornare l&#39;e-mail. Puoi rivedere le e-mail o apportare aggiornamenti alle impostazioni e al contenuto.
 
 ## Accedere e gestire le e-mail
 

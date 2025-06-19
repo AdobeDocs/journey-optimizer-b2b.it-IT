@@ -3,10 +3,10 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni e i miglioramenti più recenti di Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: ae2acbde4fbabb5d49a532e8060005acf04f8b26
+source-git-commit: ffa88d48f2badec61901a5de394f59eca35674a3
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 100%
+source-wordcount: '2187'
+ht-degree: 97%
 
 ---
 
@@ -27,9 +27,9 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
 | Funzione | Integrazione con GenStudio for Performance Marketing | (Disponibilità limitata) Ora puoi integrare le esperienze e-mail di GenStudio for Performance Marketing con Journey Optimizer B2B Edition per migliorare l’efficienza del marketing e mantenere la coerenza del brand. Con questa integrazione, puoi combinare la creazione di contenuti basata sull’intelligenza artificiale di GenStudio con le funzionalità di orchestrazione avanzate di Journey Optimizer B2B Edition. [Ulteriori informazioni](../content/genstudio-email-workflow.md) |
+| Funzione | Test delle e-mail con Litmus | Con un account [Litmus](https://www.litmus.com/email-testing){target="_blank"}, ora puoi visualizzare in anteprima il rendering delle e-mail nei client e-mail più diffusi da Journey Optimizer B2B edition. Questa integrazione ti aiuta a garantire che il contenuto delle e-mail si presenti in modo ottimale e funzioni come previsto in ogni casella in entrata e-mail. [Ulteriori informazioni](../content/email-test-rendering.md) |
 | Miglioramento | Formato token Handlebar per e-mail | I token di personalizzazione per il contenuto delle e-mail ora utilizzano un formato aggiornato completamente compatibile con gli script Handlebar. Questo formato utilizza _camel case_ o trattini bassi, eliminando gli spazi. [Ulteriori informazioni](../content/email-authoring.md#content-authoring---personalization) |
 | Miglioramento | Visualizzazione del conteggio totale per elenchi | Le pagine di elenco _[!UICONTROL Interessi della soluzione]_ e _[!UICONTROL Percorsi account]_ sono state migliorate con la visualizzazione del conteggio totale accanto alla barra di ricerca. |
-
 
 ## Note sulla versione 2025.4
 
