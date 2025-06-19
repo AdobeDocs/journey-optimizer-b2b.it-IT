@@ -230,4 +230,4 @@ Se il profilo della persona non era un membro dell’elenco smart, l’azione vi
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443253/?learn=on&captions=ita)
