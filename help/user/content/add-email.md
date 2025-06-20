@@ -4,9 +4,9 @@ description: Scopri come aggiungere, definire e ottimizzare azioni e-mail in Ado
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: cc3f8299af353f6b4578524fffe4ac01c027577f
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -33,59 +33,55 @@ Puoi impostare le consegne e-mail in un percorso quando [aggiungi un _[!UICONTRO
 
    * Scegli **[!UICONTROL Crea nuova e-mail]** per creare l&#39;e-mail in modo nativo in Journey Optimizer B2B edition.
 
-     Questa opzione consente di gestire il contenuto delle e-mail in modo nativo in Journey Optimizer B2B edition. Fai clic su **[!UICONTROL Crea e-mail]** per aprire la finestra di dialogo _Crea nuova e-mail_. È possibile creare una nuova risorsa di contenuto e-mail<!-- or duplicate an existing email content asset-->.
+     Questa opzione consente di gestire il contenuto delle e-mail in modo nativo in Journey Optimizer B2B edition. Fai clic su **[!UICONTROL Crea e-mail]** per aprire la finestra di dialogo _Crea nuova e-mail_. Puoi creare una nuova risorsa di contenuto e-mail o duplicare una risorsa di contenuto e-mail esistente.
 
-     Nella finestra di dialogo, immetti un **[!UICONTROL Nome]** univoco per l&#39;e-mail e una **[!UICONTROL Riga oggetto]**, quindi fai clic su **[!UICONTROL Crea]**.
+     +++Nuova e-mail
 
-     ![Crea nuova finestra di dialogo e-mail - nuova e-mail](assets/create-new-email-no-duplicate.png){width="400"}
+     Se desideri creare un&#39;e-mail utilizzando un&#39;area di lavoro o un modello e-mail vuoto, utilizza l&#39;opzione _[!UICONTROL Nuova e-mail]_.
 
-     Nella sezione _[!UICONTROL Proprietà e-mail]_ della pagina del contenuto e-mail, i campi _[!UICONTROL Da e-mail]_ e _[!UICONTROL Rispondi all&#39;indirizzo]_ sono già configurati. È possibile immettere valori per i campi _[!UICONTROL Da nome]_ e _[!UICONTROL Descrizione]_ (facoltativo).
+      1. Nella finestra di dialogo, scegli **[!UICONTROL Nuova e-mail]**.
 
-     Definisci le [impostazioni](#define-the-email-settings) dell&#39;e-mail e fai clic su **[!UICONTROL Modifica contenuto e-mail]** per [progettare il contenuto](./email-authoring.md).
+      1. Immetti un **[!UICONTROL Nome]** univoco per l&#39;e-mail e una **[!UICONTROL riga Oggetto]**.
 
-     <!-- +++New email {#new-email}
-     When you want to create an email using an empty canvas or an email template, use the _[!UICONTROL New email]_ option. 
+         ![Crea nuova finestra di dialogo e-mail - nuova e-mail](assets/create-new-email.png){width="400"}
 
-     1. In the dialog, choose **[!UICONTROL New email]**.
+      1. Fai clic su **[!UICONTROL Crea]**.
 
-     1. Enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
+         Nella sezione _[!UICONTROL Proprietà e-mail]_ della pagina del contenuto e-mail, i campi _[!UICONTROL Da e-mail]_ e _[!UICONTROL Rispondi all&#39;indirizzo]_ sono già configurati. È possibile immettere valori per i campi _[!UICONTROL Da nome]_ e _[!UICONTROL Descrizione]_ (facoltativo).
 
-        ![Create new email dialog - new email](assets/create-new-email.png){width="400"}
+      1. Fai clic su **[!UICONTROL Modifica e-mail]** per definire le [impostazioni](#define-the-email-settings) e progettare il [contenuto](./email-authoring.md).
 
-     1. Click **[!UICONTROL Create]**.
++++
 
-       In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
+     +++Duplica e-mail esistente
 
-     1. Click **[!UICONTROL Edit email]** to define the email [settings](#define-the-email-settings) and design the [content](./email-authoring.md).
+     Se desideri creare un messaggio e-mail utilizzando un messaggio e-mail esistente del percorso corrente o di un altro percorso, utilizza l&#39;opzione _[!UICONTROL Duplica messaggio e-mail esistente]_. Puoi apportare modifiche all’e-mail duplicata in base all’obiettivo per il nodo di percorso.
 
-     +++
+      1. Nella finestra di dialogo _[!UICONTROL Crea nuova e-mail]_, scegli **[!UICONTROL Duplica e-mail esistente]**.
 
-     +++Duplicate existing email {#duplicate-email}
-     When you want to create an email using an existing email from the current journey or from another journey, use the Duplicate existing journey option. You can make changes to the duplicated email according to your objective for the journey node.
+      1. Per **[!UICONTROL Messaggio e-mail esistente da duplicare]**, fai clic sull&#39;icona _Selezione_ ( ![Icona Selezione](../assets/do-not-localize/icon-email-select.svg) ) e seleziona l&#39;e-mail che desideri duplicare e utilizzare per il nodo del percorso.
 
-     1. In the dialog, choose **[!UICONTROL Duplicate existing email]**.
+         Per filtrare l’elenco delle e-mail, inserisci una stringa di testo nel campo di ricerca in modo che corrisponda al nome dell’e-mail.
 
-     1. For **[!UICONTROL Existing email to duplicate]**, click the _Select email_ icon and select the email you want to duplicate and use for the journey node.
+         ![Seleziona e-mail](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
 
-      You can filter the list of emails by entering a text string in the search field to match the email name.
+         Selezionare la casella di controllo per l&#39;e-mail che si desidera duplicare e fare clic su **[!UICONTROL Seleziona]**.
 
-      ![Select email](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
+      1. Immetti un **[!UICONTROL Nome]** univoco per l&#39;e-mail e una **[!UICONTROL riga Oggetto]**.
 
-      Select the checkbox for the email that you want to duplicate and click **[!UICONTROL Select]**. 
+         ![Crea nuova finestra di dialogo e-mail - Duplica e-mail esistente](assets/create-new-email-duplicate.png){width="400"}
 
-     1. Enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
+      1. Fai clic su **[!UICONTROL Crea]**.
 
-        ![Create new email dialog - duplciate existing email](assets/create-new-email.png){width="400"}
+         Nella sezione _[!UICONTROL Proprietà e-mail]_ della pagina del contenuto e-mail, i campi _[!UICONTROL Da e-mail]_ e _[!UICONTROL Rispondi all&#39;indirizzo]_ sono già configurati. È possibile immettere valori per i campi _[!UICONTROL Da nome]_ e _[!UICONTROL Descrizione]_ (facoltativo).
 
-     1. Click **[!UICONTROL Create]**.
+      1. Se necessario, fare clic su **[!UICONTROL Modifica e-mail]** per modificare le [impostazioni](#define-the-email-settings) e il [contenuto](./email-authoring.md).
 
-        In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
++++
 
-     1. If needed, click **[!UICONTROL Edit email]** to modify the email [settings](#define-the-email-settings) and [content](./email-authoring.md).
-
-     +++
-   —>
    * Scegli **[!UICONTROL Seleziona e-mail da Adobe Marketo Engage]** per utilizzare una delle e-mail precreate in Marketo Engage e inviarla come parte del percorso.
+
+     Se nell&#39;istanza di Market Engage connessa sono disponibili più aree di lavoro, selezionarle. Quindi, seleziona l’e-mail approvata che desideri inviare per il nodo di percorso.
 
      ![Seleziona e-mail Marketo Engage](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
