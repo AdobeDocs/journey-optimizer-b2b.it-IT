@@ -4,16 +4,16 @@ description: Scopri come creare contenuti e-mail in Adobe Journey Optimizer B2B.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8793e92054f57f64f311b039cc8161281b6269a8
+source-git-commit: db7be2c76039096a743efca11f528815a0e2a7f7
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '927'
 ht-degree: 15%
 
 ---
 
 # Authoring dei messaggi e-mail
 
-Dopo aver &lbrack;aggiunto una nuova<!-- or duplicated --> risorsa e-mail a un nodo azione di percorso&rbrack;(./add-email.md), puoi definire il contenuto del messaggio e-mail.
+Dopo aver [aggiunto una nuova<!-- or duplicated --> risorsa e-mail a un nodo azione di percorso](./add-email.md), puoi definire il contenuto del messaggio e-mail.
 
 Fai clic su **[!UICONTROL Modifica contenuto e-mail]** nella scheda _[!UICONTROL Dettagli]_ nel pannello di destra.
 
@@ -52,14 +52,13 @@ Utilizza lo spazio di progettazione del contenuto visivo per definire la struttu
 1. [Aggiungi risorse immagine](#add-assets) al messaggio e-mail.
 1. [Personalizzare il contenuto dell&#39;e-mail](#personalize-content).
 1. [Rivedi e aggiorna i collegamenti](#preview-and-edit-linked-urls).
+1. [Verifica e-mail](#check-and-test-the-email).
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
 >You cannot revert back to the visual designer for this email after switching to the code editor. -->
-
-Al termine, fai clic su **[!UICONTROL Simula contenuto]** in alto per verificare il rendering. È possibile scegliere la visualizzazione desktop o mobile.
 
 Quando si è soddisfatti del contenuto, fare clic su **[!UICONTROL Salva]**.
 
@@ -133,7 +132,7 @@ Sfrutta le opzioni di convalida di visualizzazione e contenuto disponibili nell�
    * Fai clic sull&#39;icona _Visualizza_ per l&#39;anteprima del contenuto tra i dispositivi.
    * Seleziona uno dei dispositivi predefiniti o immetti dimensioni personalizzate per visualizzare in anteprima il contenuto.
 
-### Altre opzioni
+## Altre opzioni
 
 Dal menu _[!UICONTROL Altro ...]_ nella parte superiore dello spazio di progettazione delle e-mail, puoi eseguire le azioni seguenti:
 
@@ -145,15 +144,21 @@ Dal menu _[!UICONTROL Altro ...]_ nella parte superiore dello spazio di progetta
 * **[!UICONTROL Salva come modello di contenuto]** - Salva il corpo dell&#39;e-mail come modello e-mail da riutilizzare in più e-mail o modelli e-mail. Fornisci un nome e una descrizione per il modello, quindi salvalo nell’elenco dei modelli e-mail salvati.
 * **[!UICONTROL Esporta HTML]** - Scarica il contenuto nell&#39;area di lavoro visiva nel tuo sistema locale in formato HTML racchiuso in un file zip.
 
-## Controllare e testare l’e-mail {#preview-test}
+## Controllare e testare l’e-mail {#email-testing}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="Controllare come viene eseguito il rendering del contenuto"
 >abstract="Una volta definito il contenuto, puoi visualizzarne l’anteprima e verificare se il rendering è corretto in base al canale in uso."
 
-Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarne l’anteprima, inviare bozze e controllarne il rendering nei client desktop, mobili e basati su Web più diffusi. Se hai inserito dei contenuti personalizzati, puoi visualizzare in anteprima come questi contenuti vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
+Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarne l’anteprima, inviare bozze e rivederne il rendering nelle proporzioni desktop e mobile. Se hai inserito dei contenuti personalizzati, puoi visualizzare in anteprima come questi contenuti vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
 
-Per visualizzare in anteprima il contenuto dell&#39;e-mail, fai clic su **[!UICONTROL Simula contenuto]** e quindi aggiungi un profilo di test per verificare il messaggio utilizzando i dati del profilo di test.
+Per [visualizzare l&#39;anteprima del contenuto dell&#39;e-mail](./email-simulate-content.md), fare clic su **[!UICONTROL Simula contenuto]** e selezionare un profilo di test per controllare il messaggio utilizzando i dati del profilo della persona.
 
 ![Simula il contenuto dell&#39;e-mail per controllare la progettazione](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
+
+Puoi accedere a strumenti aggiuntivi per convalidare e rivedere il contenuto dell’e-mail:
+
+* [Inviare una bozza](./email-simulate-content.md#send-proofs)
+* [Test del rendering nei client e-mail](./email-test-rendering.md)
+<!-- * Generate a spam report -->

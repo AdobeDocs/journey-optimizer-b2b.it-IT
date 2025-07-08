@@ -4,9 +4,9 @@ description: Scopri come aggiungere, definire e ottimizzare azioni e-mail in Ado
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: cc3f8299af353f6b4578524fffe4ac01c027577f
+source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1211'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Puoi impostare le consegne e-mail in un percorso quando [aggiungi un _[!UICONTRO
 
       1. Fai clic su **[!UICONTROL Modifica e-mail]** per definire le [impostazioni](#define-the-email-settings) e progettare il [contenuto](./email-authoring.md).
 
-     +++
++++
 
      +++Duplica e-mail esistente
 
@@ -77,7 +77,7 @@ Puoi impostare le consegne e-mail in un percorso quando [aggiungi un _[!UICONTRO
 
       1. Se necessario, fare clic su **[!UICONTROL Modifica e-mail]** per modificare le [impostazioni](#define-the-email-settings) e il [contenuto](./email-authoring.md).
 
-     +++
++++
 
    * Scegli **[!UICONTROL Seleziona e-mail da Adobe Marketo Engage]** per utilizzare una delle e-mail precreate in Marketo Engage e inviarla come parte del percorso.
 
@@ -129,6 +129,8 @@ Durante la progettazione del contenuto dei messaggi e-mail, gli avvisi vengono v
 
 * **_Errori_** che impediscono di testare o attivare il percorso o la campagna finché non vengono risolti, ad esempio:
 
-   * `The subject line is missing`: l&#39;oggetto dell&#39;e-mail è obbligatorio.
+   * `From name is empty`: il campo e-mail _Da_ (obbligatorio) non è definito.
 
-   * `The email version of the message is empty`: questo errore viene visualizzato quando il contenuto dell&#39;e-mail non è stato configurato.
+   * `The subject line is missing`: la riga dell&#39;oggetto dell&#39;e-mail (obbligatorio) non è definita.
+
+   * `The email version of the message is empty`: il contenuto dell&#39;e-mail non è definito.
