@@ -1,13 +1,13 @@
 ---
 title: Linee guida sull’onboarding per amministratori e addetti al marketing
-description: In qualità di nuovo amministratore o utente di Journey Optimizer B2B edition, scopri le aree chiave del processo di onboarding.
+description: In qualità di nuovo amministratore o utente di Journey Optimizer B2B Edition, scopri le aree chiave per iniziare il processo di onboarding.
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: d0bd2d5153b972df92ff42c6f1eebb25448b222f
 workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -31,7 +31,7 @@ Per ulteriori informazioni sulla gestione degli accessi, consulta le pagine segu
 
 1. **Creare sandbox** per suddividere le istanze in ambienti virtuali separati e isolati. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **Rivolgiti al tuo data engineer** per pianificare e implementare l&#39;attivazione dei profili e del pubblico B2B. Esamina i progetti pubblicati e segui le linee guida in base alle tue esigenze. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **Rivolgiti al tuo data engineer** per pianificare e implementare l&#39;attivazione dei profili e del pubblico B2B. Esamina i progetti pubblicati e segui le linee guida in base alle tue esigenze. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **Impostare il profilo di prodotto**. Un profilo di prodotto è un set di diritti unitari in Adobe Experience Platform che consente agli utenti di accedere a determinate funzionalità o oggetti nell’interfaccia. [Ulteriori informazioni](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
