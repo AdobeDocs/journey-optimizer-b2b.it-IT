@@ -4,7 +4,7 @@ user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utiliz
 source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 93%
       + [Creare gruppi acquisto](./buying-groups/buying-groups-create.md)
       + [Esportare l’elenco account](./audiences/account-list-export.md)
       + [Tipi di pubblico associati all’account LinkedIn](./data/linkedin-account-matched-audiences.md)
-      + [Acquisto di filtri per gruppi in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+      + [Filtri gruppo acquisto in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + Elenchi account {#account-lists}
       + [Panoramica](./accounts/account-lists.md)
       + [Utilizzo nei percorsi e programmi](./accounts/account-lists-journeys.md)
