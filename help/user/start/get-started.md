@@ -4,10 +4,10 @@ description: In qualità di nuovo amministratore o utente di Journey Optimizer B
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: d0bd2d5153b972df92ff42c6f1eebb25448b222f
+source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 87%
+source-wordcount: '713'
+ht-degree: 83%
 
 ---
 
@@ -31,7 +31,9 @@ Per ulteriori informazioni sulla gestione degli accessi, consulta le pagine segu
 
 1. **Creare sandbox** per suddividere le istanze in ambienti virtuali separati e isolati. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **Rivolgiti al tuo data engineer** per pianificare e implementare l&#39;attivazione dei profili e del pubblico B2B. Esamina i progetti pubblicati e segui le linee guida in base alle tue esigenze. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **Rivolgiti al tuo data engineer** per pianificare e implementare l&#39;attivazione dei profili e del pubblico B2B. Esamina i progetti pubblicati e segui le linee guida in base alle tue esigenze. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+
+1. **Pianifica e implementa l&#39;integrazione di Marketo Engage** per incorporare lo schema personalizzato, l&#39;acquisizione di profili e account e l&#39;orchestrazione di percorsi personalizzati per i gruppi di acquisto. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **Impostare il profilo di prodotto**. Un profilo di prodotto è un set di diritti unitari in Adobe Experience Platform che consente agli utenti di accedere a determinate funzionalità o oggetti nell’interfaccia. [Ulteriori informazioni](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
@@ -65,7 +67,7 @@ Per impostare il primo percorso, aggiungere risorse e inviare contenuti, consult
 
    * Usa i dati contestuali da eventi, le informazioni da Adobe Experience Platform o i dati da servizi API di terze parti.
 
-   * Utilizza le azioni del canale integrate (e-mail e SMS) per inviare messaggi progettati in Journey Optimizer B2B edition.
+   * Utilizza le azioni del canale incorporate (e-mail e SMS) per inviare messaggi progettati in Journey Optimizer B2B edition.
 
    * Nella mappa del percorso, genera i tuoi casi d’uso in più passaggi, aggiungi condizioni e invia messaggi personalizzati.
 
