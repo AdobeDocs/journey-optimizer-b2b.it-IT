@@ -31,7 +31,7 @@ Per ulteriori informazioni sulla gestione degli accessi, consulta le pagine segu
 
 1. **Creare sandbox** per suddividere le istanze in ambienti virtuali separati e isolati. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **Rivolgiti al tuo data engineer** per pianificare e implementare l&#39;attivazione dei profili e del pubblico B2B. Esamina i progetti pubblicati e segui le linee guida in base alle tue esigenze. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **Rivolgiti al tuo data engineer** per pianificare e implementare l&#39;attivazione dei profili e del pubblico B2B. Esamina i progetti pubblicati e segui le linee guida in base alle tue esigenze. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **Pianifica e implementa l&#39;integrazione di Marketo Engage** per incorporare lo schema personalizzato, l&#39;acquisizione di profili e account e l&#39;orchestrazione di percorsi personalizzati per i gruppi di acquisto. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
