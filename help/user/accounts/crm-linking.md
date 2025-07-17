@@ -134,7 +134,7 @@ Quando definisci l’URL di destinazione del collegamento, puoi utilizzare la vi
 
 **_Esempi:_**
 
-Campo +++URL
++++Campo URL
 
 Per aggiungere il collegamento personalizzato come campo URL, segui la sequenza di attività riportata di seguito:
 

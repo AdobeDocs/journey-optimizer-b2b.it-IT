@@ -51,7 +51,7 @@ Puoi impostare le consegne e-mail in un percorso quando [aggiungi un _[!UICONTRO
 
       1. Fai clic su **[!UICONTROL Modifica e-mail]** per definire le [impostazioni](#define-the-email-settings) e progettare il [contenuto](./email-authoring.md).
 
-+++
+     +++
 
      +++Duplica e-mail esistente
 
@@ -77,7 +77,7 @@ Puoi impostare le consegne e-mail in un percorso quando [aggiungi un _[!UICONTRO
 
       1. Se necessario, fare clic su **[!UICONTROL Modifica e-mail]** per modificare le [impostazioni](#define-the-email-settings) e il [contenuto](./email-authoring.md).
 
-+++
+     +++
 
    * Scegli **[!UICONTROL Seleziona e-mail da Adobe Marketo Engage]** per utilizzare una delle e-mail precreate in Marketo Engage e inviarla come parte del percorso.
 
