@@ -4,9 +4,9 @@ description: Utilizza l’elenco E-mail per gestire il contenuto delle e-mail in
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
+source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,12 @@ Per cercare un messaggio e-mail per nome, immetti una stringa di testo nella bar
 
 ![Accedi alla libreria dei modelli e-mail e filtra per nome e date](./assets/emails-list-filtered.png){width="700" zoomable="yes"}
 
-## Modifica e-mail
+## Aprire e modificare le e-mail
 
 Fai clic sul nome dell’e-mail nell’elenco per aprirla. Puoi rivedere e modificare le [impostazioni e-mail](./add-email.md#define-the-email-settings). Fai clic su **[!UICONTROL Modifica contenuto e-mail]** per apportare [aggiornamenti al contenuto](./email-authoring.md).
 
 Se vengono visualizzati [avvisi](./add-email.md#check-alerts) in alto a destra della pagina, fare clic per esaminare gli avvisi o gli errori e risolvere gli elementi in base alle esigenze.
 
 ![Apri l&#39;e-mail per apportare aggiornamenti](./assets/email-open-update.png){width="700" zoomable="yes"}
+
+È inoltre possibile accedere alla finestra [_[!UICONTROL Simula contenuto]_](./email-simulate-content.md). Utilizza questi strumenti per visualizzare in anteprima il contenuto utilizzando un profilo di test, inviare bozze e verificare il recapito messaggi e-mail e il rendering del client e-mail.

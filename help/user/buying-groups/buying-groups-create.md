@@ -4,10 +4,10 @@ description: Scopri come creare gruppi di acquisto utilizzando i componenti rich
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: d68d99c56b125b9caff62f69a0b88b142c62e056
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 2%
+source-wordcount: '268'
+ht-degree: 3%
 
 ---
 
@@ -50,9 +50,11 @@ La finestra di dialogo di conferma fornisce un riepilogo del processo dei gruppi
 
 ![Finestra di conferma per la creazione di gruppi di acquisto](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
 
-È possibile passare alla scheda Interesse soluzione e visualizzare il numero di processi creati per l&#39;interesse della soluzione.
+## Processi di creazione gruppo acquisti
 
-![Fai clic su Crea gruppi di acquisto](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
+Il processo di creazione crea automaticamente gruppi di acquisto per ogni nuovo account nel pubblico dell’account. Puoi passare alla scheda _[!UICONTROL Interesse soluzione]_, in cui viene visualizzato il numero di processi di creazione creati per ogni interesse soluzione. Fai clic sul numero nella colonna **[!UICONTROL Processi di creazione del gruppo di acquisto]** per visualizzare l&#39;elenco dei processi di creazione.
+
+![Processi del gruppo di acquisto per interesse soluzione](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
 
 <!-- Other buying group activities:
 
@@ -62,4 +64,4 @@ Remove a member of the buying group. -->
 
 ## Video dimostrativo
 
->[!VIDEO](https://video.tv.adobe.com/v/3451769/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

@@ -4,9 +4,10 @@ description: Scopri come visualizzare in anteprima e testare il contenuto delle 
 feature: Email Authoring
 level: Beginner
 role: User
-source-git-commit: c93a294d2e70f9a6c17be9ba9cc6994fb7944ebc
+exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
+source-git-commit: fb243fbbbf897fd40d816995d6bef96480e355c1
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -21,9 +22,11 @@ Utilizza la funzione _Simula contenuto_ per visualizzare in anteprima il contenu
 
 ## Visualizzare l’anteprima e-mail
 
-1. Nello spazio di progettazione delle e-mail<!-- or the email properties -->, fare clic su **[!UICONTROL Simula contenuto]**.
+Puoi accedere all&#39;anteprima del rendering dallo [spazio di progettazione e-mail](./email-authoring.md) o dal _[!UICONTROL Riepilogo]_ quando [apri un&#39;e-mail dall&#39;elenco e-mail](./emails-list.md#edit-emails).
 
-   ![Fai clic su Simula contenuto](assets/email-simulate-content-.png){width="800" zoomable="yes"}
+1. Fai clic su **[!UICONTROL Simula contenuto]** in alto.
+
+   ![Fai clic su Simula contenuto](assets/email-simulate-content.png){width="800" zoomable="yes"}
 
    >[!NOTE]
    >

@@ -4,9 +4,9 @@ description: Scopri come definire un modello di ruolo da utilizzare come compone
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 64e6b19894be749b154720ea542c8b18b9153a07
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1103'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ In un mercato B2B, le decisioni di acquisto sono solitamente prese da più indiv
 
    ![Scheda Modelli ruoli](assets/roles-templates-tab.png){width="700" zoomable="yes"}
 
-   La scheda fornisce un elenco di inventario di tutti i modelli di ruolo esistenti con le colonne seguenti:
+   La scheda fornisce un elenco di inventario di tutti i modelli di ruoli esistenti e visualizza le seguenti informazioni in formato colonna:
 
    * [!UICONTROL Nome]
    * [!UICONTROL Stato]
@@ -36,9 +36,7 @@ In un mercato B2B, le decisioni di acquisto sono solitamente prese da più indiv
    * [!UICONTROL Pubblicato il]
    * [!UICONTROL Pubblicato da]
 
-   Per impostazione predefinita, l&#39;elenco è ordinato in base alla colonna _[!UICONTROL Ultimo aggiornamento]_.
-
-   Il numero di modelli di ruoli _live_ (pubblicati) viene visualizzato in alto a destra nella pagina. Tutti i modelli di ruoli hanno lo stato `Draft` o `Live`.
+   Per impostazione predefinita, l&#39;elenco è ordinato in base all&#39;_[!UICONTROL Ultimo aggiornamento]_. Tutti i modelli di ruoli hanno lo stato `Draft` o `Live`.
 
 1. Per filtrare l’elenco per nome, utilizza il campo di ricerca nella parte superiore dell’elenco.
 
@@ -164,4 +162,4 @@ Puoi eliminare un modello di ruoli se si trova nello stato _Bozza_.
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3453309/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

@@ -4,24 +4,26 @@ description: Scopri come accedere a informazioni dettagliate e riepiloghi genera
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 31c79208503e01964475230ea950eb8bdfadd176
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 9%
+source-wordcount: '636'
+ht-degree: 5%
 
 ---
 
 # Dettagli dell’account
 
-Quando si fa clic sul nome di un account in un punto qualsiasi di Journey Optimizer B2B edition, vengono visualizzati i relativi dettagli. Queste informazioni forniscono informazioni utili sull’account, inclusi i riepiloghi generativi di IA.
+Quando si fa clic sul nome di un account in un punto qualsiasi di Journey Optimizer B2B edition, viene visualizzata la pagina _Dettagli account_. Questa pagina fornisce informazioni utili sull’account, inclusi i riepiloghi generativi di IA. Sono inoltre disponibili [azioni](#account-actions) che è possibile eseguire per i contatti associati all&#39;account.
 
 ![Accedi ai dettagli dell&#39;account](./assets/account-details.png){width="700" zoomable="yes"}
 
-{{intent-data-note}}
+Utilizza la scheda **[!UICONTROL Panoramica]** per esaminare le informazioni sull&#39;account e la scheda **[!UICONTROL Contatti]** per accedere a un elenco dei contatti dell&#39;account.
+
+## Scheda [!UICONTROL Panoramica]
 
 La pagina dei dettagli dell’account è composta da tre sezioni principali:
 
-## Panoramica dell’account
+### Panoramica dell’account
 
 ![Panoramica account](./assets/details-page-account-overview.png){zoomable="yes"}
 
@@ -31,14 +33,26 @@ La sezione Panoramica account include le seguenti informazioni sull&#39;account:
 * Numero di persone nell’account
 * Settore
 * Opportunità aperte
-* I tre percorsi di account più recenti in cui l’account è attualmente in uso (fai clic sul nome per aprire i dettagli del percorso)
+* I tre percorsi di account più recenti in cui l&#39;account è attualmente in uso (fare clic sul nome del percorso per aprire la [panoramica percorso](../journeys/journey-overview.md))
 * Riepilogo IA generativo dell’account, che include informazioni sui principali gruppi di acquisto coinvolti.
 
-## Copertura contatti
+### Dati di intento
+
+In Journey Optimizer B2B edition, il modello di rilevamento intento (Intent Detection) prevede una soluzione o un prodotto di interesse con sufficiente affidabilità in base all’attività di contatto dell’account. L’intento dei contatti del conto può essere interpretato come la probabilità di avere interesse in un prodotto.
+
+{{intent-data-note}}
+
+![Dati intento - Dettagli account](./assets/intent-data-panel.png){width="700" zoomable="yes"}
+
+* Livelli di intento
+* Tipi di segnale di intento: parole chiave, prodotto e soluzione
+
+
+### Copertura contatti
 
 ![Copertura contatti account](./assets/details-page-contact-coverage.png){width="800" zoomable="yes"}
 
-Nella sezione _[!UICONTROL Copertura dei contatti]_ viene visualizzato il numero di contatti dell&#39;account con un ruolo specifico associato a un interesse della soluzione. L’assegnazione del ruolo e dell’interesse nella soluzione si basa sul modello dei ruoli del gruppo di acquisto. Fare clic su una cella per visualizzare informazioni dettagliate:
+Nella sezione _[!UICONTROL Copertura dei contatti]_ viene visualizzato il numero di contatti dell&#39;account con un ruolo specifico associato a un interesse della soluzione. L’assegnazione del ruolo e dell’interesse nella soluzione si basa sul modello dei ruoli del gruppo di acquisto. Fare clic su una cella per visualizzare i dettagli seguenti:
 
 * Descrizione, nel formato seguente: _x persone hanno il ruolo y per l&#39;interesse della soluzione z_
 * Colonne
@@ -53,9 +67,9 @@ Nella sezione _[!UICONTROL Copertura dei contatti]_ viene visualizzato il numero
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
 * Interesse della soluzione
-* Periodo temporale
+* Periodo di tempo
 
-## Sovrapposizione contatti
+### Sovrapposizione contatti
 
 ![Sovrapposizione contatti account](./assets/details-page-contact-overlap.png){width="800" zoomable="yes"}
 
@@ -68,13 +82,53 @@ Nella sezione _[!UICONTROL Sovrapposizione contatti]_ vengono visualizzati i con
 
 Fai clic su _Informazioni_ ( ![Icona informazioni](../assets/do-not-localize/icon-info.svg) ) accanto al nome del contatto per visualizzare una tabella con i dettagli seguenti:
 
-* Gruppo di acquisto (fare clic sul nome per aprire i dettagli del gruppo di acquisto)
+* Gruppo di acquisto (fare clic sul nome per aprire [dettagli gruppo di acquisto](../buying-groups/buying-group-details.md))
 * Ruolo
 * Interesse della soluzione
-* Intento prodotto (se configurato)
+* Intento prodotto (se [configurato](../admin/intent-data.md))
 * Prodotto
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
 * Interesse della soluzione
 * Ruoli
+
+## Scheda [!UICONTROL Contatti]
+
+Seleziona la scheda **[!UICONTROL Contatti]** per visualizzare un elenco di tutte le persone associate all&#39;account, che viene sincronizzato in Experience Platform. Ogni contatto elencato include il nome, l’indirizzo e-mail e il punteggio di coinvolgimento.
+
+![Dettagli account - Scheda Contatti](./assets/account-details-contacts-tab.png){width="700" zoomable="yes"}
+
+## Invia e-mail
+
+Puoi inviare un’e-mail approvata dall’addetto al marketing a uno o più contatti selezionati (fino a 50 alla volta) o a tutti i contatti dell’account. L’elenco delle e-mail disponibili è limitato alle e-mail approvate dall’istanza di Marketo Engage connessa.
+
+>[!BEGINTABS]
+
+>[!TAB Tutti i contatti account]
+
+1. Dalla scheda _[!UICONTROL Panoramica]_, fai clic su **[!UICONTROL Invia e-mail]** in alto a destra.
+
+   ![Dettagli account - Seleziona e-mail](../accounts/assets/account-details-send-email.png){width="700" zoomable="yes"}
+
+1. Nella finestra di dialogo _[!UICONTROL Invia e-mail]_, seleziona l&#39;area di lavoro di Marketo Engage, quindi seleziona la casella di controllo per l&#39;e-mail che desideri inviare.
+
+   ![Selezionare un&#39;e-mail da inviare ai membri del gruppo di acquisto](../accounts/assets/account-details-send-email-dialog.png){width="700" zoomable="yes"}
+
+1. Fai clic su **[!UICONTROL Invia]**.
+
+>[!TAB Contatti selezionati]
+
+1. Nella scheda _[!UICONTROL Contatti]_ selezionare le caselle di controllo relative ai contatti ai quali si desidera inviare l&#39;e-mail.
+
+1. In alto a destra o nella barra di selezione in basso, fai clic su **[!UICONTROL Invia e-mail]**.
+
+   ![Scheda Membri - Invia e-mail](../accounts/assets/account-details-send-email-selections.png){width="700" zoomable="yes"}
+
+1. Nella finestra di dialogo _[!UICONTROL Invia e-mail]_, seleziona l&#39;area di lavoro di Marketo Engage, quindi seleziona la casella di controllo per l&#39;e-mail che desideri inviare.
+
+   ![Selezionare un&#39;e-mail da inviare ai membri del gruppo di acquisto](../accounts/assets/account-details-send-email-dialog.png){width="700" zoomable="yes"}
+
+1. Fai clic su **[!UICONTROL Invia]**.
+
+>[!ENDTABS]

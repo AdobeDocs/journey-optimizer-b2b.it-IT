@@ -5,7 +5,7 @@ feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: fd26ecdb0457141f7beb7fd46d01e609da011a38
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Progettazione del modulo
 
-Dopo aver [creato un modulo](./landing-pages.md#create-a-landing-page), lo spazio di progettazione visiva apre una bozza con una definizione di modulo di base predefinita. Nel pannello _[!UICONTROL Riepilogo]_ a destra, fai clic su **[!UICONTROL Modifica modulo]** e utilizza lo spazio di progettazione visiva per definire lo stile del modulo e i componenti campo.
+Dopo aver [creato un modulo](./forms.md#create-forms), lo spazio di progettazione visiva apre una bozza con una definizione di modulo di base predefinita. Nel pannello _[!UICONTROL Riepilogo]_ a destra, fai clic su **[!UICONTROL Modifica modulo]** e utilizza lo spazio di progettazione visiva per definire lo stile del modulo e i componenti campo.
 
 ![Accedere alla raccolta moduli](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
@@ -179,7 +179,7 @@ Seleziona la scheda **[!UICONTROL Stili]** nel pannello di destra per modificare
 
 Nei nuovi moduli viene utilizzato il CSS predefinito per lo stile. Se desideri modificare gli stili modificando il CSS, puoi copiarlo e quindi utilizzarlo per definire un CSS personalizzato per il modulo.
 
-_Per definire un CSS personalizzato per il modulo:_
+_Per definire un CSS personalizzato per il modulo :_
 
 1. Fai clic su **[!UICONTROL Visualizza CSS]** nel pannello di destra per rivedere il codice CSS.
 

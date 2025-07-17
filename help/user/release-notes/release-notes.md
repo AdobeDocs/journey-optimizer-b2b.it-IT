@@ -3,10 +3,10 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni e i miglioramenti più recenti di Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dbb1c0d57f3d0b9818dc284047bda9562cfb40f6
+source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
 workflow-type: tm+mt
-source-wordcount: '2166'
-ht-degree: 96%
+source-wordcount: '2552'
+ht-degree: 85%
 
 ---
 
@@ -17,6 +17,34 @@ Adobe Journey Optimizer B2B Edition fornisce continuamente nuove funzioni, migli
 Journey Optimizer B2B Edition è costruito nativamente su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} per informazioni su diritti, guardrail delle prestazioni e limitazioni.
+<!-- hold for 2025.8 release 
+
+| Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
+| Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
+
+-->
+
+## Note sulla versione 2025.6
+
+**Data di distribuzione**: mercoledì 15 luglio 2025
+
+Questa versione include le seguenti nuove funzionalità e miglioramenti:
+
+| Tipo | Elemento | Descrizione |
+| ---- | ---- | ----------- |
+| Funzione | Integrazione con GenStudio for Performance Marketing | (Disponibilità limitata) Ora puoi integrare le esperienze e-mail di GenStudio for Performance Marketing con Journey Optimizer B2B Edition per migliorare l’efficienza del marketing e mantenere la coerenza del brand. Con questa integrazione, puoi combinare la creazione di contenuti basata sull’intelligenza artificiale di GenStudio con le funzionalità di orchestrazione avanzate di Journey Optimizer B2B Edition. [Ulteriori informazioni](../content/genstudio-email-workflow.md) |
+| Funzione | Generazione di rapporti sul rilevamento di spam | Per evitare filtri anti-spam e garantire che i messaggi vengano recapitati alle caselle in entrata del pubblico, puoi generare un _rapporto spam_ direttamente nello spazio di progettazione delle e-mail. [Ulteriori informazioni](../content/email-spam-report.md) |
+| Funzione | Pagina dettagli persona | È ora possibile fare clic sul nome di una persona quando viene visualizzato (come collegamento ipertestuale) nella pagina Dashboard intelligente, dettagli gruppo di acquisto e dettagli account. Questa azione apre la pagina dei dettagli della persona associata, che contiene le informazioni sul contatto, la sua attività e i gruppi di acquisto principali coinvolti. [Ulteriori informazioni](../accounts/person-details.md) |
+| Funzione | Azioni dell’account e del gruppo di acquisto | Intraprendere azioni direttamente dalle pagine dei dettagli dell’account e del gruppo di acquisto per un coinvolgimento puntuale e intenzionale. <li>Utilizza l&#39;azione _Invia e-mail_ per inviare un messaggio e-mail di Marketo Engage approvato ai contatti dell&#39;account o ai membri del gruppo di acquisto selezionati. [Ulteriori informazioni](../accounts/account-details.md#send-emails) <li>Dai dettagli del gruppo di acquisto, le azioni includono anche _Assegna un nuovo membro_, _Rimuovi un membro_ e _Modifica un ruolo_. [Ulteriori informazioni](../buying-groups/buying-group-details.md#members-tab) |
+| Funzione | Accesso in-CRM alle pagine dei dettagli | È ora possibile configurare collegamenti diretti alle pagine dei dettagli di Journey Optimizer B2B edition per account, contatti e lead nello strumento di gestione delle relazioni con i clienti (CRM), come Salesforce o Microsoft Dynamics. [Ulteriori informazioni](../accounts/crm-linking.md) |
+| Funzione | Supporto CSS personalizzato per la progettazione di contenuti | Ora puoi aggiungere un CSS personalizzato durante la creazione di contenuti per e-mail e pagine di destinazione nell’area di progettazione. [Ulteriori informazioni](../content/design-custom-css.md) |
+| Funzione | Configurazione della mappatura delle parole chiave intento | Per attivare e gestire il modello di rilevamento intento, ora puoi caricare un foglio di calcolo per definire una categoria di mappatura dei dati intento. [Ulteriori informazioni](../admin/intent-data.md) |
+| Miglioramento | Simula contenuto da riepilogo e-mail | È ora possibile accedere agli strumenti _Simula contenuto_ dal riepilogo e-mail (dettagli e proprietà) quando si apre un messaggio e-mail dall&#39;elenco E-mail. Questo accesso si aggiunge allo spazio di progettazione delle e-mail. [Ulteriori informazioni](../content/email-simulate-content.md#display-the-email-preview) |
+| Miglioramento | Visualizzazione del conteggio totale per l’elenco dei modelli di ruoli | La pagina dell&#39;elenco _[!UICONTROL Modelli ruoli]_ è stata migliorata con la visualizzazione del conteggio totale accanto alla barra di ricerca. |
+
+<!-- The following capabilities are currently available only for a set of program participants (Beta):
+
+**Brand Kit with AI Assistant** - Maintain brand consistency across email assets by storing and managing brand assets. Add assets, such as colors, fonts, logos, themes, visual content, and compliance guidelines, and use them for your generative AI content creation. -->
 
 ## Note sulla versione 2025.5
 
@@ -123,7 +151,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Miglioramento | Libreria di risorse centrale | La _libreria di risorse centrale_ avanzata consente di utilizzare tutte le risorse immagine nell’istanza di Marketo Engage, nelle aree di lavoro di Design Studio. Esistono guardrail integrati che impediscono le modifiche alle risorse Marketo Engage da Journey Optimizer B2B Edition, nonché le operazioni di eliminazione e spostamento. Queste protezioni garantiscono la conservazione delle risorse di origine (Marketo Engage Design Studio) consentendo al tempo stesso la lettura e il riutilizzo senza interruzioni in Journey Optimizer B2B Edition.<p>Per le risorse da utilizzare esclusivamente in Journey Optimizer B2B Edition, un’area di lavoro specifica fornisce funzioni di gestione risorse complete. <a href="../content/marketo-engage-design-studio.md">Ulteriori informazioni</a> |
+| Miglioramento | Libreria di risorse centrale | La _libreria di risorse centrale_ avanzata consente di utilizzare tutte le risorse immagine nell’istanza di Marketo Engage, nelle aree di lavoro di Design Studio. Esistono guardrail incorporati che impediscono le modifiche alle risorse Marketo Engage da Journey Optimizer B2B Edition, nonché le operazioni di eliminazione e spostamento. Queste protezioni garantiscono la conservazione delle risorse di origine (Marketo Engage Design Studio) consentendo al tempo stesso la lettura e il riutilizzo senza interruzioni in Journey Optimizer B2B Edition.<p>Per le risorse da utilizzare esclusivamente in Journey Optimizer B2B Edition, un’area di lavoro specifica fornisce funzioni di gestione risorse complete. <a href="../content/marketo-engage-design-studio.md">Ulteriori informazioni</a> |
 | Funzione | Risorse con accesso recente | La pagina Home dell’app Journey Optimizer B2B Edition ora include la sezione _[!UICONTROL Accesso recente]_, che fornisce un elenco delle risorse utilizzate più di recente dall’addetto marketing o dall’amministratore. Puoi utilizzare questo elenco per passare direttamente alla risorsa su cui hai lavorato di recente senza passare attraverso una serie di pagine di risorse e di ricerche. <p>L’elenco fornisce informazioni aggiuntive relative alla modifica, in modo da poter decidere quale delle risorse deve essere ulteriormente modificata dall’ultima sessione. Per le risorse e-mail, l’elenco visualizza il percorso dell’account in cui viene utilizzata la risorsa e-mail. <a href="../home-page.md">Ulteriori informazioni</a> |
 | Miglioramento | Nodo del percorso suddiviso: riordinare percorsi | Nei nodi del percorso suddivisi, il filtro dei percorsi viene valutato in ordine decrescente. Ogni persona o account procede lungo il primo percorso corrispondente. Per riordinare i percorsi definiti, fai clic sulle frecce su e giù, in alto a destra di ciascuna scheda del percorso, per spostarlo in alto o in basso nell’elenco. <a href="../journeys/split-merge-paths-nodes.md#split-paths">Ulteriori informazioni</a> |
 | Miglioramento | Nodo del percorso suddiviso: attributi di condizione della cronologia dell’attività aggiuntiva | Quando si utilizzano le condizioni per definire il filtro del percorso di un nodo suddiviso secondo le persone, sono disponibili due attributi aggiuntivi: _E-mail aperta_ e _E-mail consegnata_. Queste aggiunte forniscono maggiore flessibilità per filtrare le persone nel percorso in base all’attività e-mail. <a href="../journeys/journey-nodes.md#split-paths">Ulteriori informazioni</a> |

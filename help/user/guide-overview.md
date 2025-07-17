@@ -2,10 +2,10 @@
 title: Documentazione di Adobe Journey Optimizer B2B Edition
 description: Scopri come utilizzare le funzioni di Adobe Journey Optimizer B2B Edition per orchestrare account e percorsi di gruppi acquisti utilizzando l’intelligenza artificiale generativa incorporata e l’automazione leader di settore.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
+workflow-type: tm+mt
+source-wordcount: '610'
+ht-degree: 60%
 
 ---
 
@@ -23,43 +23,41 @@ Integra le esperienze e-mail di GenStudio for Performance Marketing con Journey 
 
 [!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Scopri le esperienze e-mail di GenStudio"}
 
->[!TAB Elenchi account]
+>[!TAB Segnalazione rilevamento spam]
 
-Crea un elenco account, ovvero una raccolta di account denominati che i marketer possono utilizzare per l’orchestrazione del percorso di destinazione. Un elenco account può eseguire il targeting degli account denominati in base a criteri definiti, ad esempio settore, posizione o dimensioni dell’azienda.
+Con i nuovi rapporti Spam, puoi evitare filtri anti-spam e garantire che i messaggi vengano recapitati nelle caselle in entrata del pubblico. Genera un _report spam_ direttamente nello spazio di progettazione delle e-mail.
 
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="Informazioni sugli elenchi account"}
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Scopri come generare rapporti sul rilevamento della posta indesiderata"}
 
->[!TAB Filtri elenco account per elenchi avanzati]
+>[!TAB Azioni per account e gruppo di acquisto]
 
-Ora puoi filtrare gli elenchi avanzati di Marketo Engage con i filtri dell’elenco account. Questi filtri consentono di eliminare e includere i membri dell’elenco account in campagne e programmi di Marketo Engage da percorsi account in Journey Optimizer B2B Edition.
+Intraprendere azioni direttamente dalle pagine dei dettagli dell’account e del gruppo di acquisto per un coinvolgimento puntuale e intenzionale.
 
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list" tooltip="Informazioni sui filtri per elenco account utilizzati negli elenchi avanzati di Marketo Engage"}
+Utilizza l&#39;azione _Invia e-mail_ per inviare un messaggio e-mail di Marketo Engage approvato ai contatti dell&#39;account o ai membri del gruppo di acquisto selezionati.
 
->[!TAB Filtri cronologia inattività]
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="Scopri come inviare e-mail ai contatti dell’account"}
 
-Percorsi di avanzamento basati sull’inattività all’interno di campagne e programmi di Marketo Engage, tra cui e-mail, momenti interessanti, modifiche al valore dei dati e pagine web visitate.
+Dai dettagli del gruppo di acquisto, le azioni includono anche _Assegna un nuovo membro_, _Rimuovi un membro_ e _Modifica un ruolo_.
 
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="Informazioni sui filtri della cronologia di inattività"}
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Scopri come acquistare azioni del gruppo"}
 
->[!TAB Duplicazione percorso]
+>[!TAB Supporto CSS personalizzato]
 
-Duplica le strutture del percorso account per ridurre al minimo gli errori manuali e garantire impostazioni, flussi e percorsi coerenti. Nel percorso duplicato, puoi regolare i contenuti o le azioni, semplificando la gestione di campagne più grandi e complesse.
+Ora puoi aggiungere un CSS personalizzato durante la creazione di contenuti per e-mail e pagine di destinazione nell’area di progettazione.
 
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-journey" tooltip="Informazioni sulla duplicazione dei percorsi"}
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="Informazioni sull’utilizzo di CSS personalizzati"}
 
->[!TAB Dashboard di insight intelligenti]
+>[!TAB Mappatura parole chiave intento]
 
-Con la nuova dashboard intelligente, puoi visualizzare l’avanzamento della qualificazione del gruppo acquisti tra le varie fasi. Scopri quali gruppi acquisti si stanno muovendo rapidamente e quali sono stagnanti in modo da poter curare i percorsi per eseguire il nurturing in base alle esigenze. Sono inoltre disponibili dettagli a livello di gruppo acquisti e di account, che forniscono più dati contestuali e cronologici sul coinvolgimento clienti.
+Per attivare e gestire il modello di rilevamento intento, ora puoi caricare un foglio di calcolo per definire una categoria di mappatura dei dati intento.
 
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/dashboards/intelligent-dashboard.md" tooltip="Scopri la dashboard intelligente"}
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Informazioni sulla configurazione della mappatura delle parole chiave Intent"}
 
->[!TAB Modifica immagini in Adobe Express]
+>[!TAB Verifica dei messaggi di posta elettronica con Litmus]
 
-Utilizza le Azioni rapide di Adobe Express per ritoccare il contenuto con ritaglio, ridimensionamento, rimozione dello sfondo e conversione del formato. L’interfaccia utente intuitiva di Adobe Express è incorporata per mettere a punto rapidamente le risorse immagine.
+Con un account Litmus, ora puoi visualizzare in anteprima il rendering delle e-mail nei client e-mail più diffusi da Journey Optimizer B2B edition. Questa integrazione ti aiuta a garantire che il contenuto delle e-mail si presenti in modo ottimale e funzioni come previsto in ogni casella in entrata e-mail.
 
-Con la licenza di Adobe Express Enterprise, puoi sfruttare una suite completa di funzionalità Adobe Express. Utilizza queste funzioni per perfezionare e migliorare le immagini, attenendoti alle linee guida del brand, e rimuovere gli ostacoli nella catena di fornitura dei contenuti.
-
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Scopri come modificare le immagini con Adobe Express"}
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Scopri l’integrazione del test e-mail Litmus"}
 
 >[!ENDTABS]
 
@@ -139,7 +137,7 @@ Scopri i componenti di un gruppo acquisti e comprendi le nozioni di base per la 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Video e tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrizione prodotto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Video e tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrizione prodotto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/it/docs/experience-platform/landing/home" target="_blank">Documentazione</a> - <a href="https://business.adobe.com/it/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Risorse per sviluppatori</a>
