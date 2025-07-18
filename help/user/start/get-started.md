@@ -1,5 +1,5 @@
 ---
-title: Linee guida sull’onboarding per amministratori e addetti al marketing
+title: Guida all’onboarding per amministratori e marketer
 description: In qualità di nuovo amministratore o utente di Journey Optimizer B2B Edition, scopri le aree chiave per iniziare il processo di onboarding.
 role: Admin, User
 level: Beginner
@@ -7,13 +7,13 @@ exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
 workflow-type: tm+mt
 source-wordcount: '713'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
-# Linee guida per l’onboarding
+# Guida all’onboarding
 
-Le funzioni e gli strumenti che desideri utilizzare in Adobe Journey Optimizer B2B edition dipendono dal tuo ruolo all’interno del team. In base all’organizzazione, gli amministratori possono definire diversi tipi di utente e concedere loro l’accesso a determinate funzionalità in base alle autorizzazioni.
+Le funzioni e gli strumenti da affrontare in Adobe Systems Journey Optimizer B2B Edition dipendono dal tuo ruolo all’interno del team. In base all’organizzazione, gli amministratori possono definire diversi tipi di utente e concedere loro l’accesso a determinate funzionalità in base alle autorizzazioni.
 
 >[!TIP]
 >
@@ -31,7 +31,7 @@ Per ulteriori informazioni sulla gestione degli accessi, consulta le pagine segu
 
 1. **Creare sandbox** per suddividere le istanze in ambienti virtuali separati e isolati. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **Rivolgiti al tuo data engineer** per pianificare e implementare l&#39;attivazione dei profili e del pubblico B2B. Esamina i progetti pubblicati e segui le linee guida in base alle tue esigenze. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **Lavora insieme al tuo tecnico dati** per pianificare e implementare l’attivazione del profilo e del pubblico B2B. Rivedi le blueprint pubblicate e segui le linee guida in base alle tue esigenze. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **Pianifica e implementa l&#39;integrazione di Marketo Engage** per incorporare lo schema personalizzato, l&#39;acquisizione di profili e account e l&#39;orchestrazione di percorsi personalizzati per i gruppi di acquisto. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
@@ -47,7 +47,7 @@ Per ulteriori informazioni sulla gestione degli accessi, consulta le pagine segu
 
 1. **Imposta le definizioni degli eventi esperienza di Adobe Experience Platform (AEP)** per i gruppi responsabili della creazione di percorsi account che ascoltano gli eventi esperienza AEP. [Ulteriori informazioni](../admin/configure-aep-events.md)
 
->[!TAB Addetto marketing]
+>[!TAB Marketer]
 
 In qualità di marketer, o di _professionista del percorso dell’account_, sei responsabile della progettazione di percorsi e della creazione di contenuti. Puoi iniziare a utilizzare Adobe Journey Optimizer B2B Edition dopo che l’amministratore di sistema e il tecnico dati hanno preparato l’ambiente e ti hanno concesso l’accesso.
 
@@ -69,7 +69,7 @@ Per impostare il primo percorso, aggiungere risorse e inviare contenuti, consult
 
    * Utilizza le azioni del canale incorporate (e-mail e SMS) per inviare messaggi progettati in Journey Optimizer B2B edition.
 
-   * Nella mappa del percorso, genera i tuoi casi d’uso in più passaggi, aggiungi condizioni e invia messaggi personalizzati.
+   * Nella mappa del percorso, genera i casi d’uso in più passaggi, aggiungi condizioni e invia messaggi personalizzati.
 
 [Ulteriori informazioni](../journeys/journey-overview.md)
 

@@ -4,7 +4,7 @@ user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utiliz
 source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 + Introduzione {#get-started}
    + [Panoramica su Journey Optimizer B2B Edition](about-journey-optimizer-b2b-edition.md)
    + [Accesso e pagina Home](home-page.md)
-   + [Linee guida per l’onboarding](./start/get-started.md)
+   + [Guida all’onboarding](./start/get-started.md)
    + [Protocolli per tracciamento ed e-mail](./start/email-protocols.md)
 + Assistente IA {#ai-assistant}
    + [Panoramica](./ai-assistant/ai-assistant-overview.md)
@@ -68,7 +68,7 @@ ht-degree: 92%
    + E-mail {#emails}
       + [Utilizzare i contenuti delle e-mail](./content/emails-list.md)
       + Anteprima e convalida {#preview}
-         + [Simula contenuto](./content/email-simulate-content.md)
+         + [Simulare contenuti](./content/email-simulate-content.md)
          + [Testare il rendering delle e-mail](./content/email-test-rendering.md)
          + [Rapporto spam](./content/email-spam-report.md)
    + Risorse {#assets}

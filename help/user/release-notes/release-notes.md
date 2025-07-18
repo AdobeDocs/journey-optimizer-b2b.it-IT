@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
 workflow-type: tm+mt
 source-wordcount: '2552'
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
@@ -54,7 +54,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Test delle e-mail con Litmus | Con un account [Litmus Enterprise](https://www.litmus.com/email-testing){target="_blank"}, ora puoi visualizzare in anteprima il rendering delle e-mail nei client e-mail più diffusi da Journey Optimizer B2B edition. Questa integrazione ti aiuta a garantire che il contenuto delle e-mail si presenti in modo ottimale e funzioni come previsto in ogni casella in entrata e-mail. [Ulteriori informazioni](../content/email-test-rendering.md) |
+| Funzione | Test delle e-mail con Litmus | Con un account [Litmus Enterprise](https://www.litmus.com/email-testing){target="_blank"}, ora puoi visualizzare in anteprima il rendering delle e-mail nei client e-mail più diffusi da Journey Optimizer B2B edition. Questa integrazione ti consente di garantire che il contenuto delle e-mail si presenti in modo ottimale e funzioni come previsto in ogni casella in entrata dell’e-mail. [Ulteriori informazioni](../content/email-test-rendering.md) |
 | Miglioramento | E-mail duplicata | Quando aggiungi un’e-mail per un nodo di percorso, ora puoi duplicare un’e-mail esistente. Modifica l’impostazione o il contenuto dell’e-mail duplicata oppure lasciala intatta.  [Ulteriori informazioni](../content/add-email.md#add-an-email-to-your-journey) |
 | Miglioramento | Formato token Handlebar per e-mail | I token di personalizzazione per il contenuto delle e-mail ora utilizzano un formato aggiornato completamente compatibile con gli script Handlebar. Questo formato utilizza _camel case_ o trattini bassi, eliminando gli spazi. [Ulteriori informazioni](../content/email-authoring.md#content-authoring---personalization) |
 | Miglioramento | Visualizzazione del conteggio totale per elenchi | Le pagine di elenco _[!UICONTROL Interessi della soluzione]_ e _[!UICONTROL Percorsi account]_ sono state migliorate con la visualizzazione del conteggio totale accanto alla barra di ricerca. |
