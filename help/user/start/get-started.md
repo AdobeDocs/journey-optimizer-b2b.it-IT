@@ -33,7 +33,7 @@ Per ulteriori informazioni sulla gestione degli accessi, consulta le pagine segu
 
 1. **Lavora insieme al tuo tecnico dati** per pianificare e implementare l’attivazione del profilo e del pubblico B2B. Rivedi le blueprint pubblicate e segui le linee guida in base alle tue esigenze. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
-1. **Pianifica e implementa l&#39;integrazione di Marketo Engage** per incorporare lo schema personalizzato, l&#39;acquisizione di profili e account e l&#39;orchestrazione di percorsi personalizzati per i gruppi di acquisto. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
+1. **Pianifica e implementa l&#39;integrazione di Marketo Engage** per incorporare lo schema personalizzato, l&#39;acquisizione di profili e account e l&#39;orchestrazione di percorsi personalizzati per i gruppi di acquisto. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **Impostare il profilo di prodotto**. Un profilo di prodotto è un set di diritti unitari in Adobe Experience Platform che consente agli utenti di accedere a determinate funzionalità o oggetti nell’interfaccia. [Ulteriori informazioni](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
