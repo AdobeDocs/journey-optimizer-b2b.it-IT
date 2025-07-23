@@ -4,7 +4,7 @@ description: Scopri come i gruppi acquisti in Journey Optimizer B2B Edition poss
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 92916a9d018084dd10681cbe9e9e54a5970c3c94
+source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 57%
@@ -114,8 +114,6 @@ Il punteggio di coinvolgimento del gruppo acquisti è un numero utilizzato per d
 
 +++Attività utilizzate per il punteggio
 
->[!BEGINSHADEBOX]
-
 | Nome attività | Descrizione | Tipo di coinvolgimento | Frequenza massima giornaliera | Peso attività |
 | --- | --- | --- | --- | --- |
 | [!UICONTROL Visita pagina Web] | Un membro visita una pagina web | Web | 20 | 40 |
@@ -153,9 +151,6 @@ Il punteggio di coinvolgimento del gruppo acquisti è un numero utilizzato per d
 | [!UICONTROL Coinvolto con un agente nel flusso conversazionale] | Un membro si impegna con un agente in un flusso di conversazione Dynamic Chat | Chat | 20 | 90 |
 | [!UICONTROL Collegamento selezionato in Chat in Flusso conversazionale] | Un membro fa clic su un collegamento in un flusso di conversazione Dynamic Chat | Chat | 20 | 90 |
 | [!UICONTROL Fai clic sul collegamento in SMS V2] | Un membro fa clic su un collegamento in un messaggio SMS | SMS | 20 | 90 |
-
-
->[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -225,4 +220,4 @@ Il punteggio di coinvolgimento finale viene calcolato applicando la ponderazione
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3452945/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
