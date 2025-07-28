@@ -2,9 +2,9 @@
 user-guide-title: Documentazione di Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando l’intelligenza artificiale generativa incorporata e l’automazione leader del settore.
 source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,13 +48,13 @@ ht-degree: 93%
    + [Tipi di pubblico](./audiences/account-audience-overview.md)
    + Gruppi acquisti {#buying-groups}
       + [Panoramica](./buying-groups/buying-groups-overview.md)
-      + [Interessi della soluzione](./buying-groups/solution-interests.md)
-      + [Modelli di ruolo](./buying-groups/buying-groups-role-templates.md)
+      + [Soluzioni di interesse](./buying-groups/solution-interests.md)
+      + [Modelli di ruoli](./buying-groups/buying-groups-role-templates.md)
       + [Fasi del gruppo acquisti](./buying-groups/buying-group-stages.md)
-      + [Creare gruppi acquisto](./buying-groups/buying-groups-create.md)
+      + [Creare gruppi acquisti](./buying-groups/buying-groups-create.md)
       + [Esportare l’elenco account](./audiences/account-list-export.md)
       + [Tipi di pubblico associati all’account LinkedIn](./data/linkedin-account-matched-audiences.md)
-      + [Filtri gruppo acquisto in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+      + [Filtri per gruppi acquisti in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + Elenchi account {#account-lists}
       + [Panoramica](./accounts/account-lists.md)
       + [Utilizzo nei percorsi e programmi](./accounts/account-lists-journeys.md)
@@ -62,11 +62,11 @@ ht-degree: 93%
    + Esperienza di vendita {#sales-experience}
       + [Dettagli dell’account](./accounts/account-details.md)
       + [Dettagli del gruppo acquisti](./buying-groups/buying-group-details.md)
-      + [Dettagli della persona](./accounts/person-details.md)
-      + [Collegamento CRM](./accounts/crm-linking.md)
+      + [Dettagli delle persone](./accounts/person-details.md)
+      + [Collegamento con CRM](./accounts/crm-linking.md)
 + Gestione dei contenuti {#content-management}
    + E-mail {#emails}
-      + [Utilizzare i contenuti delle e-mail](./content/emails-list.md)
+      + [Utilizzare il contenuto dell’e-mail](./content/emails-list.md)
       + Anteprima e convalida {#preview}
          + [Simulare contenuti](./content/email-simulate-content.md)
          + [Testare il rendering delle e-mail](./content/email-test-rendering.md)
@@ -99,7 +99,7 @@ ht-degree: 93%
 + Dashboard di approfondimento {#dashboards}
    + [Dashboard intelligente](./dashboards/intelligent-dashboard.md)
    + [Panoramica del coinvolgimento](./dashboards/engagement-dashboard.md)
-   + [Panoramica dei gruppi di acquisto](./dashboards/buying-groups-dashboard.md)
+   + [Panoramica dei gruppi acquisti](./dashboards/buying-groups-dashboard.md)
    + [Panoramica dei percorsi dell’account](./dashboards/journeys-dashboard.md)
 + Amministrazione {#admin}
    + [Gestione degli utenti](./admin/user-management.md)

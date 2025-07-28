@@ -3,9 +3,9 @@ title: Documentazione di Adobe Journey Optimizer B2B Edition
 description: Scopri come utilizzare le funzioni di Adobe Journey Optimizer B2B Edition per orchestrare account e percorsi di gruppi acquisti utilizzando l’intelligenza artificiale generativa incorporata e l’automazione leader di settore.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -23,41 +23,41 @@ Integra le esperienze e-mail di GenStudio for Performance Marketing con Journey 
 
 [!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Scopri le esperienze e-mail di GenStudio"}
 
->[!TAB Segnalazione rilevamento spam]
+>[!TAB Reporting sul rilevamento di spam]
 
-Con i nuovi rapporti Spam, puoi evitare filtri anti-spam e garantire che i messaggi vengano recapitati nelle caselle in entrata del pubblico. Genera un _report spam_ direttamente nello spazio di progettazione delle e-mail.
+Con i nuovi rapporti sullo spam, puoi evitare filtri anti-spam e assicurarti che i messaggi vengano recapitati nelle caselle in entrata del pubblico. Genera un _rapporto spam_ direttamente nello spazio di progettazione delle e-mail.
 
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Scopri come generare rapporti sul rilevamento della posta indesiderata"}
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Informazioni sul reporting per il rilevamento di spam"}
 
->[!TAB Azioni per account e gruppo di acquisto]
+>[!TAB Azioni per account e gruppo acquisti]
 
-Intraprendere azioni direttamente dalle pagine dei dettagli dell’account e del gruppo di acquisto per un coinvolgimento puntuale e intenzionale.
+Intraprendi azioni direttamente dalle pagine dei dettagli dell’account e del gruppo acquisti per un coinvolgimento puntuale e intenzionale.
 
-Utilizza l&#39;azione _Invia e-mail_ per inviare un messaggio e-mail di Marketo Engage approvato ai contatti dell&#39;account o ai membri del gruppo di acquisto selezionati.
+Utilizza l’azione _Invia e-mail_ per inviare un’e-mail di Marketo Engage approvata ai contatti dell’account o ai membri del gruppo acquisti selezionati.
 
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="Scopri come inviare e-mail ai contatti dell’account"}
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="Informazioni sull’invio di e-mail ai contatti dell’account"}
 
-Dai dettagli del gruppo di acquisto, le azioni includono anche _Assegna un nuovo membro_, _Rimuovi un membro_ e _Modifica un ruolo_.
+Dai dettagli del gruppo acquisti, le azioni includono anche _Assegna un nuovo membro_, _Rimuovi un membro_ e _Modifica un ruolo_.
 
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Scopri come acquistare azioni del gruppo"}
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Informazioni sulle azioni del gruppo acquisti"}
 
->[!TAB Supporto CSS personalizzato]
+>[!TAB Supporto di CSS personalizzati]
 
-Ora puoi aggiungere un CSS personalizzato durante la creazione di contenuti per e-mail e pagine di destinazione nell’area di progettazione.
+Ora, nello spazio di progettazione, puoi aggiungere un CSS personalizzato durante l’authoring dei contenuti per e-mail e pagine di destinazione.
 
 [!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="Informazioni sull’utilizzo di CSS personalizzati"}
 
->[!TAB Mappatura parole chiave intento]
+>[!TAB Mappatura delle parole chiave di intento]
 
-Per attivare e gestire il modello di rilevamento intento, ora puoi caricare un foglio di calcolo per definire una categoria di mappatura dei dati intento.
+Per attivare e gestire il modello di rilevamento dell’intento, ora puoi caricare un foglio di calcolo per definire una categoria di mappatura dei dati intento.
 
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Informazioni sulla configurazione della mappatura delle parole chiave Intent"}
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Informazioni sulla configurazione della mappatura delle parole chiave di intento"}
 
->[!TAB Verifica dei messaggi di posta elettronica con Litmus]
+>[!TAB Test delle e-mail con Litmus]
 
-Con un account Litmus, ora puoi visualizzare in anteprima il rendering delle e-mail nei client e-mail più diffusi da Journey Optimizer B2B edition. Questa integrazione ti aiuta a garantire che il contenuto delle e-mail si presenti in modo ottimale e funzioni come previsto in ogni casella in entrata e-mail.
+Con un account Litmus, ora puoi visualizzare in anteprima nei client e-mail più diffusi il rendering delle e-mail provenienti da Journey Optimizer B2B Edition. Grazie a questa integrazione, puoi assicurarti che il contenuto delle e-mail si presenti e funzioni correttamente in tutte le caselle in entrata.
 
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Scopri l’integrazione del test e-mail Litmus"}
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Informazioni sull’integrazione con Litmus per il test delle e-mail"}
 
 >[!ENDTABS]
 
@@ -109,17 +109,17 @@ Scopri i componenti di un gruppo acquisti e comprendi le nozioni di base per la 
     </td> -->
     <td>
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Gruppi acquisti"><br/>
-      <strong>Gruppi acquisti</strong><br/><a href="./buying-groups/buying-groups-overview.md">Panoramica dei gruppi acquisti</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Modelli di ruolo</a><br/><a href="./buying-groups/solution-interests.md">Interessi della soluzione</a><br/><a href="./buying-groups/buying-groups-create.md">Crea gruppi acquisti</a>
+      <strong>Gruppi acquisti</strong><br/><a href="./buying-groups/buying-groups-overview.md">Panoramica dei gruppi acquisti</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Modelli di ruoli</a><br/><a href="./buying-groups/solution-interests.md">Soluzioni di interesse</a><br/><a href="./buying-groups/buying-groups-create.md">Creare gruppi acquisti</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Percorsi account"><br/>
-      <strong>Percorsi account</strong><br/><a href="./journeys/journey-overview.md">Panoramica dei percorsi</a><br/><a href="./journeys/journey-nodes.md">Nodi percorsi</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Crea un percorso account</a>
+      <strong>Percorsi account</strong><br/><a href="./journeys/journey-overview.md">Panoramica dei percorsi</a><br/><a href="./journeys/journey-nodes.md">Nodi percorsi</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Creare un percorso account</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Contenuto del percorso"><br/>
-      <strong>Contenuto Percorso</strong><br/><a href="./content/add-email.md">Canale e-mail</a><br/><a href="./content/ai-assistant-emails.md">Assistente IA per e-mail</a><br/><a href="./content/genstudio-email-workflow.md">Esperienze e-mail di GenStudio</a><br/><a href="./content/sales-alert-email.md">E-mail di avviso vendite</a><br/><a href="./content/sms-authoring.md">Canale SMS</a>
+      <strong>Contenuto del percorso</strong><br/><a href="./content/add-email.md">Canale e-mail</a><br/><a href="./content/ai-assistant-emails.md">Assistente IA per e-mail</a><br/><a href="./content/genstudio-email-workflow.md">Esperienze e-mail di GenStudio</a><br/><a href="./content/sales-alert-email.md">E-mail di avviso vendite</a><br/><a href="./content/sms-authoring.md">Canale SMS</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Gestione dei contenuti"><br/>
@@ -137,7 +137,7 @@ Scopri i componenti di un gruppo acquisti e comprendi le nozioni di base per la 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Video e tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrizione prodotto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Video e tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrizione prodotto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/it/docs/experience-platform/landing/home" target="_blank">Documentazione</a> - <a href="https://business.adobe.com/it/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Risorse per sviluppatori</a>
