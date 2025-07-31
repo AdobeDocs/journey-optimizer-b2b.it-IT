@@ -4,10 +4,10 @@ description: Scopri come assegnare i membri del gruppo ai profili di prodotto di
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: ae2acbde4fbabb5d49a532e8060005acf04f8b26
+source-git-commit: 8fd1bda4a0ccfa2abe84974f7e895825477a7299
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 2%
+source-wordcount: '1085'
+ht-degree: 1%
 
 ---
 
@@ -17,8 +17,8 @@ Dopo aver completato il provisioning e aver associato le sandbox, completa i pas
 
 1. [Crea un profilo di prodotto Marketo Engage](#marketo-engage-profile) in Admin Console (solo nuova istanza Marketo Engage).
 1. [Crea un gruppo utenti](#create-user-group) in Admin Console.
-<!-- 1. [Edit built-in roles](#edit-roles) or [create a custom role](#create-a-custom-role) with Journey Optimizer B2B Edition permissions. 
-1. [Add users](#add-users) or [groups](#add-user-groups-to-a-role) to roles. -->
+<!-- 1. [Edit built-in roles](#edit-roles) or [create a custom role](#create-a-custom-role) with Journey Optimizer B2B Edition permissions. -->
+1. [Aggiungi utenti](#add-users) o [gruppi](#add-user-groups-to-a-role) ai ruoli.
 
 In qualità di amministratore, puoi completare queste attività in Adobe Admin Console, che è una posizione centrale per amministrare e gestire le licenze e gli utenti dei prodotti Adobe. In Admin Console, puoi creare e gestire gli utenti in un’unica posizione invece che all’interno delle varie soluzioni individuali. Per ulteriori informazioni sulle funzioni e le funzionalità della pagina [Panoramica di Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html), fai riferimento a.
 
@@ -57,14 +57,14 @@ Prima di poter utilizzare Admin Console per amministrare gli utenti del team, è
 Quando consenti l’accesso a una soluzione Adobe agli utenti, non devi necessariamente concedere loro l’accesso completo. I profili di prodotto consentono a ciascuna soluzione di disporre di un proprio set di autorizzazioni utente. Utilizza Admin Console per assegnare i profili di prodotto.
 
 Per ulteriori informazioni sull&#39;utilizzo dei profili di prodotto per le adesioni utente, consulta [Gestire i profili di prodotto per gli utenti aziendali](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html){target="_blank"} nella documentazione di Admin Console.
-<!--
+
 >[!BEGINSHADEBOX]
 
-When you add a user to the Marketo Engage product profile, they are subsequently added to the _Standard User_ role within the Default workspace of the Marketo Engage subscription. This role grants them all _Standard User_ permissions for Marketo Engage in that workspace. Currently, all Journey Optimizer B2B Edition users are required to be Marketo Engage users. A Marketo Engage administrator can restrict access by updating the permissions for the _Standard User_ role or by moving the user to a different Marketo Engage user role with more restrictive permissions.
+Quando si aggiunge un utente al profilo di prodotto Marketo Engage, questi vengono successivamente aggiunti al ruolo _Utente standard_ nell&#39;area di lavoro predefinita della sottoscrizione Marketo Engage. Questo ruolo concede loro tutte le autorizzazioni _Utente standard_ per Marketo Engage in tale area di lavoro. Attualmente, tutti gli utenti Journey Optimizer B2B edition devono essere utenti Marketo Engage. Un amministratore di Marketo Engage può limitare l&#39;accesso aggiornando le autorizzazioni per il ruolo _Utente standard_ o spostando l&#39;utente in un altro ruolo utente di Marketo Engage con autorizzazioni più restrittive.
 
-For more information about managing these permissions within Marketo Engage, see [Managing User Roles and Permissions](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in the Marketo Engage documentation.
+Per ulteriori informazioni sulla gestione di queste autorizzazioni in Marketo Engage, vedi [Gestione dei ruoli utente e delle autorizzazioni](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} nella documentazione di Marketo Engage.
 
->[!ENDSHADEBOX]-->
+>[!ENDSHADEBOX]
 
 ![Requisiti del ruolo di amministratore](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema o un amministratore di prodotto Marketo Engage può eseguire i seguenti passaggi.
 
@@ -143,7 +143,7 @@ Permissions are unitary rights that allow you to define the authorizations assig
 
 The _Permissions_ area of Adobe Experience Platform is where administrators can define user roles and access policies to manage access permissions for features and objects within a product application. In this app, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the sandboxes and users associated with a specific role.
 
-For more information about role permissions in Experience Platform, see [Manage permissions for a role](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in the Experience Platform documentation.
+For more information about role permissions in Experience Platform, see [Manage permissions for a role](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in the Experience Platform documentation.
 
 ### B2B product permissions
 
@@ -240,7 +240,7 @@ _To change the permissions for a role:_
 
 ### Add user groups to a role
 
-For information about user management, see [Admin Console users](https://helpx.adobe.com/it/enterprise/using/user-groups.html) in the Admin Console documentation.
+For information about user management, see [Admin Console users](https://helpx.adobe.com/enterprise/using/user-groups.html) in the Admin Console documentation.
 
 ![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
 
@@ -260,53 +260,52 @@ For information about user management, see [Admin Console users](https://helpx.a
 
    ![Experience Platform - Add groups dialog](./assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
 
-1. Click **[!UICONTROL Save]** when you have selected all the users that you want to add.
+1. Click **[!UICONTROL Save]** when you have selected all the users that you want to add. -->
 
-## Create a custom role
+## Creare un ruolo personalizzato
 
-![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
+![Requisiti del ruolo di amministratore](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema o un amministratore di prodotto AEP può eseguire i seguenti passaggi.
 
-1. Select **[!UICONTROL Roles]** in the left navigation and select **[!UICONTROL Create role]**.
+1. Seleziona **[!UICONTROL Ruoli]** nell&#39;area di navigazione a sinistra e seleziona **[!UICONTROL Crea ruolo]**.
 
-1. In the _[!UICONTROL Create new role]_ dialog, enter a name for the role, such as _B2B Marketers_, and a description (optional).
+1. Nella finestra di dialogo _[!UICONTROL Crea nuovo ruolo]_, immetti un nome per il ruolo, ad esempio _B2B Marketers_, e una descrizione (facoltativa).
 
-1. Click **[!UICONTROL Confirm]**.
+1. Fai clic su **[!UICONTROL Conferma]**.
 
-1. Select your sandboxes.
+1. Seleziona le sandbox.
 
-   ![Experience Platform - add sandboxes for the new role](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
+   ![Experience Platform - aggiungi sandbox per il nuovo ruolo](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
 
-1. Add the profile permissions:
+1. Aggiungi le autorizzazioni profilo:
 
-   * In the _[!UICONTROL Resources]_ list on the left, locate the **[!UICONTROL Profile Management]** item and click the _Add_ (**+**) icon to add the attribute.
+   * Nell&#39;elenco _[!UICONTROL Risorse]_ a sinistra, individuare l&#39;elemento **[!UICONTROL Gestione profili]** e fare clic sull&#39;icona _Aggiungi_ (**+**) per aggiungere l&#39;attributo.
 
-   * For the attribute, add the following permissions:
-      * [!UICONTROL View segments]
-      * [!UICONTROL Manage segments]
-      * [!UICONTROL View profiles]
-      * [!UICONTROL Manage profiles]
-      * [!UICONTROL View B2B profile]
-      * [!UICONTROL Manage B2B profile]
+   * Per l’attributo, aggiungi le seguenti autorizzazioni:
+      * [!UICONTROL Visualizza segmenti]
+      * [!UICONTROL Gestisci segmenti]
+      * [!UICONTROL Visualizza profili]
+      * [!UICONTROL Gestisci profili]
+      * [!UICONTROL Visualizza profilo B2B]
+      * [!UICONTROL Gestisci profilo B2B]
 
-   ![Experience Platform - add profiles for the new role](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
+   ![Experience Platform - aggiungi profili per il nuovo ruolo](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
 
-1. Add B2B product permissions:
+1. Aggiungere autorizzazioni prodotto B2B:
 
-   Refer to the list of [B2B product permissions](#b2b-product-permissions) to determine which product capabilities that you want for the role.
+   Consulta l&#39;elenco delle [autorizzazioni prodotto B2B](#b2b-product-permissions) per determinare quali funzionalità prodotto desideri per il ruolo.
 
-   In the _[!UICONTROL Resources]_ list on the left, locate the **[!UICONTROL B2B]** items and click the _Add_ (**+**) icon to add each attribute that you want to enable for the role.
+   Nell&#39;elenco _[!UICONTROL Risorse]_ a sinistra, individuare gli elementi **[!UICONTROL B2B]** e fare clic sull&#39;icona _Aggiungi_ (**+**) per aggiungere ogni attributo che si desidera abilitare per il ruolo.
 
-   You can enter _B2B_ in the search tool to filter the list for the B2B product permissions.
+   È possibile immettere _B2B_ nello strumento di ricerca per filtrare l&#39;elenco delle autorizzazioni per il prodotto B2B.
 
-1. Click **[!UICONTROL Save]** at the top right.
+1. Fai clic su **[!UICONTROL Salva]** in alto a destra.
 
-1. Go to the role details and select the **[!UICONTROL User groups]** tab.
+1. Vai ai dettagli del ruolo e seleziona la scheda **[!UICONTROL Gruppi di utenti]**.
 
-1. Click **[!UICONTROL Add Groups]**.
+1. Fare clic su **[!UICONTROL Aggiungi gruppi]**.
 
-   ![Experience Platform - add profiles for the new role](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
+   ![Experience Platform - aggiungi profili per il nuovo ruolo](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
 
-1. Select the checkbox next to the user group that you created previously in the Admin Console.
+1. Seleziona la casella di controllo accanto al gruppo di utenti creato in precedenza nell’Admin Console.
 
-1. Click **[!UICONTROL Save]**.
--->
+1. Fai clic su **[!UICONTROL Salva]**.

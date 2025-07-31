@@ -4,10 +4,10 @@ description: Esamina i campi attributo predefiniti sincronizzati tra Adobe Exper
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: b62891e3d87ac4ff5345dac564d63c0b8aaa9669
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 13%
+source-wordcount: '1097'
+ht-degree: 12%
 
 ---
 
@@ -17,7 +17,7 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 
 >[!TIP]
 >
->È possibile modellare le classi XDM Business Person e XDM Business Account in una relazione molti-a-molti utilizzando la classe XDM Business Account Person Relation come descritto nella [documentazione Experience Platform XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>È possibile modellare le classi XDM Business Person e XDM Business Account in una relazione molti-a-molti utilizzando la classe XDM Business Account Person Relation come descritto nella [documentazione Experience Platform XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 ## Attributi di relazione della persona dell’account aziendale XDM
 
@@ -29,7 +29,10 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 
 >[!IMPORTANT]
 >
->L&#39;attributo `workEmail.Address` è obbligatorio. Se è vuoto per un membro del pubblico dell’account, la persona non viene acquisita e viene omessa dai percorsi di account e dai gruppi di acquisto che fanno riferimento al pubblico.
+>L’attributo dell’indirizzo e-mail è obbligatorio e deve essere compilato per garantire la funzionalità corretta. Per impostazione predefinita, il sistema utilizza `workEmail.Address`. Se si desidera utilizzare un attributo diverso, contattare il supporto Adobe prima di pubblicare i percorsi per verificare che la configurazione sia corretta.<br/>
+>
+>Assicurati che l’attributo e-mail non sia nullo, in quanto ciò può influire sulla sincronizzazione dei dati e sui processi a valle.
+><ul><li>Se l’attributo e-mail è nullo in Real-time CDP B2B e la persona esiste in Journey Optimizer B2B edition, durante la sincronizzazione l’attributo in viene sovrascritto in Journey Optimizer B2B edition con un valore nullo. Successivamente persiste in Marketo Engage come null.<li>Se l’attributo e-mail è nullo in Real-time CDP B2B e la persona non esiste in Journey Optimizer B2B edition, il record della persona non viene sincronizzato.<ul/>
 
 | [Proprietà](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | Nome visualizzato | Nome visualizzato B2B Journey Optimizer | Tipo di dati | Descrizione |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -81,7 +84,7 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 
 <!-- ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
