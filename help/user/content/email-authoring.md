@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Authoring dei messaggi e-mail
 
-Dopo aver [aggiunto una nuova<!-- or duplicated --> risorsa e-mail a un nodo azione di percorso](./add-email.md), puoi definire il contenuto del messaggio e-mail.
+Dopo aver &lbrack;aggiunto una nuova<!-- or duplicated --> risorsa e-mail a un nodo azione di percorso&rbrack;(./add-email.md), puoi definire il contenuto del messaggio e-mail.
 
 Fai clic su **[!UICONTROL Modifica contenuto e-mail]** nella scheda _[!UICONTROL Dettagli]_ nel pannello di destra.
 
