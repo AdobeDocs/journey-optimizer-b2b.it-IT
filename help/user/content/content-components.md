@@ -347,7 +347,7 @@ Personalizza lo stile del pulsante nella scheda **[!UICONTROL Stili]**.
 
 +++
 
-Margine +++Pulsante
++++Margine Pulsante
 
 +++
 
