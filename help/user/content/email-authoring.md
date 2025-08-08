@@ -4,16 +4,16 @@ description: Scopri come creare contenuti e-mail in Adobe Journey Optimizer B2B.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 47b032788d182da7306f3d855d87162cd43afd34
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 14%
+source-wordcount: '924'
+ht-degree: 2%
 
 ---
 
 # Authoring dei messaggi e-mail
 
-Dopo aver &lbrack;aggiunto una nuova<!-- or duplicated --> risorsa e-mail a un nodo azione di percorso&rbrack;(./add-email.md), puoi definire il contenuto del messaggio e-mail.
+Dopo aver [aggiunto una nuova<!-- or duplicated --> risorsa e-mail a un nodo azione di percorso](./add-email.md), puoi definire il contenuto del messaggio e-mail.
 
 Fai clic su **[!UICONTROL Modifica contenuto e-mail]** nella scheda _[!UICONTROL Dettagli]_ nel pannello di destra.
 
@@ -34,16 +34,6 @@ Dopo aver creato e personalizzato il contenuto dell’e-mail, puoi esportarlo pe
 >Utilizza l’Assistente AI in Adobe Journey Optimizer B2B edition, basato su intelligenza artificiale generativa, per elevare i contenuti al livello successivo. L’Assistente AI può aiutarti a ottimizzare l’impatto delle consegne generando e-mail intere, contenuto di testo mirato e ricevendo consigli dall’Assistente AI per le immagini che risuonano con il tuo pubblico. [Ulteriori informazioni](./ai-assistant-emails.md)
 
 ## Creare e-mail da zero {#design-from-scratch}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_landing_page"
->title="Aggiungere i componenti Struttura"
->abstract="I componenti della struttura definiscono il layout della pagina di destinazione. Per iniziare a progettare il contenuto della pagina di destinazione, trascina un componente **Struttura** nell’area di lavoro."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_landing_page"
->title="Informazioni sui componenti per contenuti"
->abstract="I componenti dei contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione."
 
 Utilizza lo spazio di progettazione del contenuto visivo per definire la struttura e il contenuto dell’e-mail. Aggiungendo e spostando componenti strutturali con semplici azioni di trascinamento della selezione, puoi progettare la forma del contenuto dell’e-mail riutilizzabile in pochi secondi.
 
@@ -83,16 +73,6 @@ Puoi personalizzare il contenuto importato in base alle esigenze con gli strumen
 > Ai modelli salvati possono essere applicate impostazioni di governance (blocco del contenuto) a uno o più componenti. La finestra di progettazione visiva fornisce indicazioni sui componenti bloccati quando si [crea un messaggio e-mail da un modello gestito](./email-authoring-governance.md).
 
 ## Aggiungere struttura e contenuto {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="Aggiungere i componenti Struttura"
->abstract="I componenti della struttura definiscono il layout del messaggio e-mail. Per iniziare a progettare il contenuto delle e-mail, trascina un componente **Struttura** nell’area di lavoro."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="Informazioni sui componenti per contenuti"
->abstract="I componenti per contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di un’e-mail."
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -159,11 +139,6 @@ Dal menu _[!UICONTROL Altro ...]_ nella parte superiore dello spazio di progetta
 * **[!UICONTROL Esporta HTML]** - Scarica il contenuto nell&#39;area di lavoro visiva nel tuo sistema locale in formato HTML racchiuso in un file zip.
 
 ## Controllare e testare l’e-mail {#email-testing}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_email_preview_simulate"
->title="Controllare come viene eseguito il rendering del contenuto"
->abstract="Una volta definito il contenuto, puoi visualizzarne l’anteprima e verificare se il rendering è corretto in base al canale in uso."
 
 Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarne l’anteprima, inviare bozze e rivederne il rendering nelle proporzioni desktop e mobile. Se hai inserito dei contenuti personalizzati, puoi visualizzare in anteprima come questi contenuti vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
 

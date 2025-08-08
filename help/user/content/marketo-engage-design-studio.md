@@ -4,9 +4,9 @@ description: Scopri come utilizzare l’integrazione di Marketo Engage Design St
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2022'
 ht-degree: 1%
 
 ---
@@ -280,7 +280,7 @@ Esistono diversi metodi per aggiungere una risorsa immagine all’area di lavoro
 
 * Trascina e rilascia la miniatura di un’immagine dal menu di navigazione a sinistra.
 
-* Aggiungi un componente immagine all&#39;area di lavoro e fai clic su **[!UICONTROL Sfoglia]** per aprire la finestra di dialogo _[!UICONTROL Seleziona risorsa da Adobe Marketo Engage]_.
+* Aggiungi un componente immagine all&#39;area di lavoro e fai clic su **[!UICONTROL Marketo Engage Assets]** nel componente per aprire la finestra di dialogo _[!UICONTROL Seleziona risorsa da Adobe Marketo Engage]_.
 
   ![Utilizza i filtri e il campo di ricerca per trovare la risorsa necessaria](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

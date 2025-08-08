@@ -4,10 +4,10 @@ description: Scopri la gestione risorse in Journey Optimizer B2B Edition.
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '981'
-ht-degree: 100%
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
+workflow-type: tm+mt
+source-wordcount: '996'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Se hai effettuato il provisioning con Adobe Experience Manager as a Cloud Servic
 
 Per impostazione predefinita, l’archivio delle risorse di Adobe Marketo Engage Design Studio viene fornito con ogni abbonamento a Journey Optimizer B2B Edition. Ciò significa che hai accesso a qualsiasi risorsa di immagine archiviata in Adobe Marketo Engage ([!UICONTROL Design Studio] > [!UICONTROL Immagini e file]). Puoi utilizzare questo archivio come libreria locale di risorse, inclusa la possibilità di caricare e scaricare risorse. Puoi anche utilizzare queste risorse all’interno del contenuto del percorso.
 
-Esistono guardrail integrati che impediscono le modifiche alle risorse Marketo Engage da Journey Optimizer B2B Edition e le operazioni di eliminazione e spostamento. Queste protezioni garantiscono la conservazione delle risorse di origine (Marketo Engage Design Studio) consentendo al tempo stesso la lettura e il riutilizzo senza interruzioni in Journey Optimizer B2B Edition.
+Esistono guardrail incorporati che impediscono le modifiche alle risorse Marketo Engage da Journey Optimizer B2B Edition e le operazioni di eliminazione e spostamento. Queste protezioni garantiscono la conservazione delle risorse di origine (Marketo Engage Design Studio) consentendo al tempo stesso la lettura e il riutilizzo senza interruzioni in Journey Optimizer B2B Edition.
 
 Formati di file supportati: JPG, JPEG, GIF, PNG, EPS, SVG e RGB
 
@@ -47,7 +47,7 @@ Attualmente, in Adobe Journey Optimizer B2B Edition è possibile utilizzare solo
 
 Utilizza le risorse durante l’authoring di e-mail, modelli di e-mail e frammenti visivi. L’editor di contenuti visivi consente di accedere alle immagini negli archivi delle risorse collegate. Se disponi di un abbonamento a Experience Manager Assets as a Cloud Service insieme ad Adobe Marketo Engage Design Studio, puoi scegliere le risorse immagine da entrambe le origini. Puoi anche caricare una risorsa immagine, che viene inserita nell’area di lavoro di Journey Optimizer B2B Edition dell’archivio Marketo Engage Design Studio connesso.
 
-Puoi scegliere l’origine dell’immagine quando modifichi le impostazioni di un componente immagine o direttamente nell’area di lavoro.
+Puoi scegliere l’origine dell’immagine quando modifichi le impostazioni per un componente immagine o direttamente sull’area di lavoro:
 
 * **_Impostazioni del componente immagine_**: se hai selezionato un componente immagine nel designer visivo, puoi visualizzare e modificare le impostazioni nel pannello a destra. Per aggiungere o modificare il file immagine visualizzato nel componente, scegli il tipo di origine e seleziona un file di immagine.
 
@@ -61,7 +61,7 @@ Puoi scegliere l’origine dell’immagine quando modifichi le impostazioni di u
 
   ![Utilizzare la barra degli strumenti per la scelta dell’origine da cui selezionare un file di immagine per il componente immagine](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
-Puoi aggiungere una risorsa immagine, a seconda dell’origine, mentre esegui l’authoring del contenuto.
+Puoi aggiungere una risorsa immagine mentre realizzi il contenuto, a seconda dell’origine della risorsa immagine. Puoi anche scegliere una risorsa immagine nelle impostazioni di sfondo per un componente struttura.
 
 >[!BEGINTABS]
 

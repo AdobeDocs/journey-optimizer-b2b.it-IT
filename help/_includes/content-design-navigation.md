@@ -1,20 +1,20 @@
 ---
 title: Authoring dei contenuti - navigazione
 description: Sezione riutilizzata sull’utilizzo della struttura di navigazione per l’authoring dei contenuti
-source-git-commit: e041d7eb02d2792f2f8c3526ed80b9d6c6cb1556
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 1%
 
 ---
 
 # Authoring dei contenuti - navigazione
 
-Mentre si lavora con il contenuto nella finestra di progettazione visiva, è possibile accedere ai livelli/contenitori e agli elementi utilizzando la struttura _Navigazione_. Fai clic sull&#39;icona _Navigazione_ per visualizzare la struttura a sinistra dell&#39;area di lavoro.
+Quando si lavora con il contenuto nello spazio di progettazione visivo, è possibile accedere ai componenti, alle colonne e agli elementi di contenuto utilizzando la struttura di navigazione. Fai clic sull&#39;icona _[!UICONTROL Struttura di navigazione]_ ( ![Icona Struttura di navigazione](../assets/do-not-localize/icon-navigation-tree.svg) ) a sinistra per visualizzare la struttura.
 
 ![Accedere ai livelli di contenuto](../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 
-L’esempio seguente illustra i passaggi per regolare la spaziatura e l’allineamento verticale all’interno di un componente struttura composto da colonne.
+L’esempio seguente illustra i passaggi per regolare la spaziatura e l’allineamento verticale all’interno di un componente struttura con le colonne.
 
 1. Selezionare la colonna nel componente struttura direttamente nell&#39;area di lavoro o utilizzando la _struttura di spostamento_ visualizzata a sinistra.
 

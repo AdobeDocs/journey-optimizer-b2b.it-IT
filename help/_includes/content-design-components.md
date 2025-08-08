@@ -1,7 +1,7 @@
 ---
 title: Authoring dei contenuti - componenti
 description: Sezione riutilizzata sull’utilizzo di componenti ed elementi di contenuto per l’authoring dei contenuti
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    Le dimensioni di ogni colonna non possono essere inferiori al 10% della larghezza totale del componente struttura. È possibile rimuovere solo colonne vuote.
 
-1. Espandi la sezione **[!UICONTROL Contents]** e aggiungi tutti gli elementi necessari in uno o più componenti della struttura.
+1. Espandi la sezione **[!UICONTROL Contents]** e aggiungi tutti i componenti di contenuto necessari in uno o più componenti della struttura.
 
    ![Trascina un elemento di contenuto nell&#39;area di lavoro e regola le impostazioni](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--
