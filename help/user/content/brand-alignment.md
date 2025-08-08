@@ -1,5 +1,5 @@
 ---
-title: Punteggio di allineamento del brand
+title: Calcolo del punteggio di allineamento del brand
 description: Scopri come creare, convalidare e gestire contenuti nel brand utilizzando un punteggio di allineamento del brand.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
@@ -7,14 +7,15 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: b0b4359128d65c6e765af6d07db1bfeb26d4fbc9
+exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 10%
+ht-degree: 17%
 
 ---
 
-# Punteggio di allineamento del brand {#brand-score}
+# Calcolo del punteggio di allineamento del brand {#brand-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
@@ -24,7 +25,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Punteggio di allineamento del brand"
->abstract="Il punteggio di allineamento del brand misura il rispetto dei contenuti rispetto alle linee guida del brand, garantendo coerenza in termini di colori, font, logo, immagini e stile di scrittura."
+>abstract="Il punteggio di allineamento del brand misura quanto i contenuti rispettano le linee guida, garantendo coerenza in termini di colori, font, logo, immagini e stile di scrittura."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"

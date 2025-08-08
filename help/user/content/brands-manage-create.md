@@ -7,10 +7,11 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 98298c41981de45dfc5d0de430913729f3a92453
+exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '2052'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -71,7 +72,7 @@ Puoi impostare qualsiasi marchio pubblicato (_Live_) come predefinito. Nella sch
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brands_create"
 >title="Creare il brand"
->abstract="Inserisci il nome e carica il file delle linee guida del brand. Lo strumento estrae automaticamente i dettagli chiave, semplificando la gestione della brand identity."
+>abstract="Inserisci il nome e carica il file delle linee guida del brand. Lo strumento estrarrà automaticamente i dettagli chiave, semplificando il mantenimento dell’identità del brand."
 
 Per creare e definire le linee guida per il brand, puoi inserire i dettagli o caricare i documenti di riferimento da utilizzare per l’estrazione automatica.
 

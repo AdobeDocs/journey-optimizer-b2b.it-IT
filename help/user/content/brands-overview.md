@@ -7,10 +7,11 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 91424c334c22bf683cd071afcb0ab0660a9ac832
+exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -19,12 +20,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="Introduzione ai brand"
->abstract="Crea e personalizza i tuoi brand per definire la tua identità visiva e verbale unica e allo stesso tempo facilitare la generazione di contenuti che soddisfino il tuo stile di brand e la tua voce."
+>abstract="Crea e personalizza i tuoi brand per definire la tua identità visiva e verbale unica e allo stesso tempo semplificare la generazione di contenuti che corrispondono allo stile e alla voce del tuo brand."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
 >title="Selezionare il brand"
->abstract="Scegli il tuo marchio per assicurarti che tutti i contenuti generati dall’intelligenza artificiale siano personalizzati in base alle specifiche e alle linee guida del tuo marchio."
+>abstract="Scegli il tuo brand per assicurarti che tutti i contenuti generati dall’IA siano personalizzati in base alle specifiche e alle linee guida del tuo brand."
 
 I brand aiutano a definire la tua _identità del brand_ e svolgono un ruolo cruciale nel garantire una creazione di contenuti coerente ed efficace che rappresenti con precisione l&#39;identità del brand, i valori e i messaggi. Aderendo a stili di marchio ben definiti, le organizzazioni possono mantenere una presenza del marchio coerente e riconoscibile su tutti i canali e i punti di contatto, e rafforzare il riconoscimento del marchio, la fiducia e la fedeltà tra il pubblico di destinazione.
 
@@ -99,4 +100,3 @@ Gli amministratori di prodotto possono abilitare l&#39;accesso alle funzioni di 
    * Fai clic su **[!UICONTROL Salva]** per applicare le modifiche.
 
 >[!ENDSHADEBOX]
-
