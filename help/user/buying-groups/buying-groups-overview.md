@@ -230,4 +230,4 @@ Il punteggio di coinvolgimento finale viene calcolato applicando la ponderazione
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452945/?learn=on&captions=ita)
