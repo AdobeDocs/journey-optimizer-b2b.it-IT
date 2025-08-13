@@ -4,10 +4,10 @@ description: Scopri come i gruppi acquisti in Journey Optimizer B2B Edition poss
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
-workflow-type: ht
-source-wordcount: '2151'
-ht-degree: 100%
+source-git-commit: a2917ea8c389c35129a77d427528051be499addf
+workflow-type: tm+mt
+source-wordcount: '2170'
+ht-degree: 97%
 
 ---
 
@@ -102,14 +102,19 @@ Ad esempio, se all’interno di un gruppo acquisti sono presenti quattro ruoli e
 
 Il punteggio di completezza del gruppo acquisti viene ricalcolato ogni volta che un gruppo acquisti viene creato o aggiornato.
 
-### Punteggio di coinvolgimento del gruppo acquisti
+### Punteggio di coinvolgimento del gruppo acquisti {#engagement-score}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score"
+>title="Punteggio di coinvolgimento"
+>abstract="I punteggi di coinvolgimento determinano il livello di coinvolgimento dei membri del gruppo di acquisto."
 
 Il punteggio di coinvolgimento del gruppo acquisti è un numero utilizzato per determinare il coinvolgimento dei membri di un gruppo acquisti, in base alle attività che eseguono.
 
 * Il calcolo del punteggio di coinvolgimento inizia non appena viene generato il gruppo acquisti.
 * Per calcolare il punteggio viene utilizzata qualsiasi attività in entrata eseguita dai membri del gruppo acquisti negli ultimi 30 giorni.
 * Con la finestra di 30 giorni e con la scadenza delle attività, il punteggio potrebbe diminuire.
-* Per ogni attività è presente un limite di frequenza giornaliero di 20. Se un membro di un gruppo acquisti esegue la stessa attività più di 20 volte al giorno, il numero massimo di attività è 20 e non un numero più alto.
+* Per ogni attività è presente un limite di frequenza giornaliero di 20. Se un membro di un gruppo acquisti esegue la stessa attività più di 20 volte al giorno, il limite massimo dell’attività è 20 e non un numero più alto.
 * Il punteggio visualizzato viene arrotondato. Ad esempio, un punteggio di 75,89999 viene visualizzato come 76.
 
 +++Attività utilizzate per il punteggio
@@ -158,9 +163,14 @@ Il punteggio di coinvolgimento del gruppo acquisti è un numero utilizzato per d
 
 +++
 
-#### Ponderazione
+#### Ponderazione {#engagement-score-weighting}
 
-Gli utenti possono assegnare la _ponderazione_ a ciascun ruolo nel modello dei ruoli per allocare pesi diversi a un ruolo e calcolare il punteggio di coinvolgimento.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score_weighting"
+>title="Ponderazione del punteggio di coinvolgimento"
+>abstract="Utilizza la ponderazione per personalizzare il calcolo del punteggio di coinvolgimento."
+
+Gli utenti possono assegnare _ponderazione_ a ogni ruolo nel modello [ruoli](./buying-groups-role-templates.md) per allocare ponderazioni diverse per un ruolo.
 
 ![Impostare la ponderazione per ogni ruolo nel modello di ruoli](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
@@ -184,7 +194,7 @@ Un modello di ruoli con tre ruoli ponderati come _[!UICONTROL Fondamentale]_, _[
 
 #### Esempio di calcolo
 
-L’esempio seguente illustra il calcolo del punteggio di coinvolgimento utilizzando la percentuale di peso del ruolo delineata, il conteggio delle attività in entrata per ogni membro del gruppo acquisti e un tetto giornaliero di 20 conteggi per ogni evento (se si è verificato più volte).
+L’esempio seguente illustra il calcolo del punteggio di coinvolgimento utilizzando la percentuale di peso del ruolo delineata, il conteggio delle attività in entrata per ogni membro del gruppo acquisti e un limite giornaliero di 20 conteggi per ogni evento (se si è verificato più volte).
 
 | Ruolo | Membro | Tipo di attività | Conteggio di ieri | Conteggio odierno | Calcolo | Punteggio totale |
 |-------------- |--------- |-------------|-----------------|-------------|------|-----------|
@@ -220,4 +230,4 @@ Il punteggio di coinvolgimento finale viene calcolato applicando la ponderazione
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3452945/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
