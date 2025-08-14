@@ -1,13 +1,13 @@
 ---
 title: Abilita accesso Assistente IA
-description: Placeholder
+description: Scopri come abilitare l’Assistente IA in Journey Optimizer B2B edition.
 feature: AI Assistant
 role: Admin
 level: Beginner
 exl-id: f08e0cab-f430-4f7f-8cde-ccf4fabe1ff4
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: b1dbc1cab8b986d9daca9ec18f8ccb842f52e99c
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '319'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ I seguenti parametri regolano l’accesso all’Assistente IA in Journey Optimiz
 
 * **Accedere all&#39;applicazione:** È possibile accedere all&#39;Assistente IA in Adobe Journey Optimizer B2B edition.
 
-* **Autorizzazioni:** Utilizza l&#39;interfaccia utente [Autorizzazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} per concedere o revocare l&#39;accesso all&#39;Assistente IA nella tua organizzazione. Per utilizzare l&#39;Assistente IA, un determinato utente deve appartenere a un ruolo configurato con le autorizzazioni **Abilita Assistente IA** e **Visualizza informazioni operative**.
+* **Autorizzazioni:** Utilizza l&#39;interfaccia utente [Autorizzazioni](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} per concedere o revocare l&#39;accesso all&#39;Assistente IA nella tua organizzazione. Per utilizzare l&#39;Assistente IA, un determinato utente deve appartenere a un ruolo configurato con le autorizzazioni **Abilita Assistente IA** e **Visualizza informazioni operative**.
 
 In qualità di amministratore, puoi:
 
@@ -32,7 +32,7 @@ In qualità di amministratore, puoi:
 
 ![Assegnare le autorizzazioni dell&#39;Assistente AI](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
-Utilizza l’interfaccia utente delle autorizzazioni per concedere le autorizzazioni per utilizzare l’Assistente per l’intelligenza artificiale in Journey Optimizer B2B edition. Per informazioni sull&#39;accesso all&#39;Assistente per l&#39;intelligenza artificiale in Experience Platform e altre applicazioni Experience Cloud, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/access){target="_blank"}.
+Utilizza l’interfaccia utente delle autorizzazioni per concedere le autorizzazioni per utilizzare l’Assistente per l’intelligenza artificiale in Journey Optimizer B2B edition. Per informazioni sull&#39;accesso all&#39;Assistente per l&#39;intelligenza artificiale in Experience Platform e altre applicazioni Experience Cloud, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target="_blank"}.
 
 Se l&#39;utente dispone delle autorizzazioni necessarie, può accedere all&#39;Assistente di IA selezionando l&#39;icona _Assistente di IA_ nell&#39;intestazione superiore dell&#39;applicazione in uso.
 
