@@ -4,9 +4,9 @@ description: Scopri come aggiungere, definire e ottimizzare azioni e-mail in Ado
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
+source-git-commit: 828419933a6552b09d05a8be2a14676a87046a26
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1346'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Puoi impostare le consegne e-mail in un percorso quando [aggiungi un _[!UICONTRO
 
      +++
 
-     +++Duplica e-mail esistente
+     +++E-mail esistente duplicato
 
      Se desideri creare un messaggio e-mail utilizzando un messaggio e-mail esistente del percorso corrente o di un altro percorso, utilizza l&#39;opzione _[!UICONTROL Duplica messaggio e-mail esistente]_. Puoi apportare modifiche all’e-mail duplicata in base all’obiettivo per il nodo di percorso.
 
@@ -100,8 +100,7 @@ Con la scheda **[!UICONTROL Dettagli]** selezionata nel pannello _Riepilogo_ a d
 | [!UICONTROL Indirizzo di risposta] | Indirizzo del mittente utilizzato nell’intestazione dell’e-mail. Il valore predefinito viene popolato dalle [impostazioni di consegna del canale e-mail](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL Da etichetta]). Inserisci l’indirizzo e-mail che desideri compilare se il destinatario utilizza la funzione di risposta (può essere diverso o uguale all’indirizzo del mittente). Fai clic sull&#39;icona _Personalizza_ ( ![Icona Personalizza](../assets/do-not-localize/icon-personalize.svg) ) per utilizzare un token di personalizzazione nel campo. |
 | [!UICONTROL Oggetto] | Testo visualizzato nel campo oggetto dell’e-mail. Il valore predefinito viene compilato dal testo immesso nella finestra di dialogo _[!UICONTROL Crea nuova e-mail]_. Se necessario, puoi modificare il testo. Fai clic sull&#39;icona _Personalizza_ ( ![Icona Personalizza](../assets/do-not-localize/icon-personalize.svg) ) per utilizzare un token di personalizzazione nel campo.<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
 | [!UICONTROL Dominio di branding] | Se nel sistema sono definiti più di un [dominio di branding](../admin/configure-channels-emails.md#branding-domains), selezionare il dominio di branding da utilizzare per inviare l&#39;e-mail. Utilizza un dominio di branding specifico per inviare e-mail che sembrano provenire dal tuo marchio anziché dall’azienda nel suo insieme. Crea fiducia nel brand, personalizza l’esperienza e-mail e aumenta i tassi di apertura e risposta. |
-| [!UICONTROL IP dedicato] | Se hai definito più di un indirizzo IP dedicato, seleziona un indirizzo IP dedicato da utilizzare per inviare l’e-mail. Quando utilizzi un IP dedicato specifico per i programmi, puoi monitorare e monitorare più da vicino il recapito dei messaggi e rispondere rapidamente a eventuali modifiche nelle metriche di consegna. Per ulteriori informazioni sull&#39;aggiunta di un IP dedicato per l&#39;istanza di Marketo Engage connessa, consultare la [documentazione di Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
-| Risoluzione dei problemi: è più facile ricercare, comprendere e risolvere i problemi di consegna. |
+| [!UICONTROL IP dedicato] | Se hai definito più di un indirizzo IP dedicato, seleziona un indirizzo IP dedicato da utilizzare per inviare l’e-mail. Quando utilizzi un IP dedicato specifico per i programmi, puoi monitorare e monitorare più da vicino il recapito dei messaggi e rispondere rapidamente a eventuali modifiche nelle metriche di consegna. Per ulteriori informazioni sull&#39;aggiunta di un IP dedicato per l&#39;istanza di Marketo Engage connessa, consultare la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
 | [!UICONTROL E-mail operativa] | Seleziona la casella di controllo se desideri che l’e-mail sia operativa. Le e-mail operative sono escluse dagli elenchi di rinuncia/annullamento dell’iscrizione e dai limiti di comunicazione. Seleziona questa opzione solo se il destinatario non può considerare il messaggio e-mail come un messaggio commerciale non richiesto (SPAM). |
 | [!UICONTROL Includi visualizzazione come pagina Web] | Seleziona la casella di controllo per includere un collegamento a una pagina web generata dal contenuto del messaggio e-mail. I messaggi e-mail hanno funzionalità più limitate rispetto alle pagine web, quindi è utile per JavaScript, CSS esteso e moduli. Il testo utilizzato per generare il collegamento è configurato nelle [impostazioni di consegna del canale e-mail](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL Visualizza come pagina Web HTML] e [!UICONTROL Visualizza come testo della pagina Web]). |
 | [!UICONTROL Disabilita tracciamento aperto] | Seleziona la casella di controllo se non desideri tenere traccia dell’attività di apertura delle e-mail. Con la funzione disattivata, i conteggi delle attività aperte e-mail vengono incrementati solo quando una persona univoca apre l’e-mail. Puoi [gestire il tracciamento per i collegamenti al contenuto delle e-mail](./email-authoring.md#content-authoring---link-tracking) durante la progettazione del contenuto del corpo dell&#39;e-mail. |
