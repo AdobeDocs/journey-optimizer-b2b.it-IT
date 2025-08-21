@@ -3,10 +3,10 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni e i miglioramenti più recenti di Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
-workflow-type: ht
-source-wordcount: '2552'
-ht-degree: 100%
+source-git-commit: 3461236ca286982bf8c9c722c84486aa4e8266ab
+workflow-type: tm+mt
+source-wordcount: '2780'
+ht-degree: 92%
 
 ---
 
@@ -17,12 +17,32 @@ Adobe Journey Optimizer B2B Edition fornisce continuamente nuove funzioni, migli
 Journey Optimizer B2B Edition è costruito nativamente su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} per informazioni su diritti, guardrail delle prestazioni e limitazioni.
-<!-- hold for 2025.8 release 
+
+<!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
 | Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
 
 -->
+
+## Note sulla versione 2025.8
+
+**Data di distribuzione**: mercoledì 26 agosto 2025
+
+Questa versione include le seguenti nuove funzionalità e miglioramenti:
+
+| Tipo | Elemento | Descrizione |
+| ---- | ---- | ----------- |
+| Funzione | Filtri di punteggio di coinvolgimento della persona per modelli e percorsi di ruoli | È ora possibile utilizzare _Punteggio di coinvolgimento della persona_ come filtro nei modelli di Ruoli utilizzati per la creazione di gruppi di acquisto e nei nodi di percorso con percorso diviso. |
+| Funzione | Configurazione dei ruoli personalizzati dei gruppi di acquisto | Ora puoi configurare ruoli personalizzati per i gruppi di acquisto, per definire i ruoli specifici nei tuoi casi d’uso. |
+| Funzione | Configurazione ponderazione punteggio coinvolgimento | Ora puoi assegnare dei pesi alle attività che influenzano il punteggio di coinvolgimento del gruppo di acquisto. Questa funzione include la definizione di modelli di punteggio personalizzati e la modifica del modello attivo che influenza i calcoli del punteggio di coinvolgimento. |
+| Miglioramento | Contenuto condizionale per frammenti | Ora puoi utilizzare gli strumenti di contenuto condizionale per la progettazione di frammenti visivi. |
+| Miglioramento | Aggiornamenti dei punteggi di coinvolgimento | La logica del punteggio di coinvolgimento del gruppo di acquisto viene aggiornata per normalizzare i punteggi. Inoltre, puoi utilizzare i punteggi di coinvolgimento a livello di membro, nonché i punteggi di coinvolgimento collettivo per l’intero gruppo di acquisto. |
+| Miglioramento | Osservabilità attiva del percorso: account in ogni nodo | Per un percorso di account attivo, puoi accedere a un elenco degli account che hanno raggiunto ogni nodo di account nel percorso. |
+
+>[!NOTE]
+>
+>Le modifiche della versione iniziano la distribuzione il 26 agosto 2025, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 ## Note sulla versione 2025.6
 
@@ -85,7 +105,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Funzione | Duplicare i percorsi dell’account | È ora disponibile un’azione di duplica per i percorsi degli account. Puoi duplicare i dettagli per il percorso account o solo un semplice schema della struttura del flusso e del percorso. <a href="../journeys/journey-overview.md#duplicate-journey">Ulteriori informazioni</a> |
 | Funzione | I miei token per percorsi account | Ora puoi definire un set di token personalizzati con valori specifici del percorso account. Questo set di token personalizzati si chiama _I miei token_ e uno qualsiasi di questi token personalizzati è destinato alla personalizzazione durante l’authoring e-mail del percorso. <a href="../content/personalization-my-tokens.md">Ulteriori informazioni</a> |
 | Funzione | Elimina fasi del gruppo acquisti | È possibile eliminare il modello delle fasi del gruppo acquisti quando si trova nello stato Bozza o Pubblicato. Se è pubblicato (live), puoi eliminarlo solo se non è associato a una soluzione di interesse. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Ulteriori informazioni</a> |
-| Miglioramento | Conteggi nodi percorso | È stata migliorata la visibilità dei conteggi a livello di nodo di appartenenza al percorso pubblicati. Nella _mappa del percorso_, i nodi mostrano il _[!UICONTROL Totale account inseriti]_. Quando selezioni e fai clic sul nodo dell’azione, i dettagli a destra includono anche _[!UICONTROL Account non ancora attivati su]_. E i dettagli dei nodi _Ascolta un evento_ includono _[!UICONTROL Account in questo passaggio]_. Utilizza queste informazioni per convalidare l’avanzamento dell’account nei tuoi percorsi live, completati e interrotti. |
+| Miglioramento | Conteggi nodi percorso | È stata migliorata la visibilità dei conteggi a livello di nodo per l’appartenenza a percorsi pubblicati. Nella _mappa del percorso_, i nodi mostrano il _[!UICONTROL Totale account inseriti]_. Quando selezioni e fai clic sul nodo dell’azione, i dettagli a destra includono anche _[!UICONTROL Account non ancora attivati su]_. E i dettagli dei nodi _Ascolta un evento_ includono _[!UICONTROL Account in questo passaggio]_. Utilizza queste informazioni per convalidare l’avanzamento dell’account nei tuoi percorsi live, completati e interrotti. |
 
 ## Note sulla versione 2025.2
 
@@ -143,7 +163,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 +++
 
-Note sulla versione di settembre 2024
++++Note sulla versione di settembre 2024
 
 **Data di distribuzione**: 7 ottobre 2024
 
@@ -158,7 +178,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 +++
 
-Note sulla versione di agosto 2024
++++Note sulla versione di agosto 2024
 
 **Data di distribuzione**: 29 agosto 2024
 
