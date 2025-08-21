@@ -3,34 +3,35 @@ title: Componenti struttura
 description: Scopri come utilizzare i componenti struttura per definire il layout dell’e-mail, della pagina di destinazione e del contenuto del frammento visivo.
 feature: Content Design Tools
 role: User
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
+source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-# Componenti struttura {#structure-components}
+# Componenti di struttura {#structure-components}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
->title="Informazioni sui componenti struttura"
->abstract="I componenti struttura sono elementi di layout che puoi utilizzare per progettare la struttura di un messaggio e-mail."
+>title="Informazioni sui componenti di struttura"
+>abstract="I componenti di struttura sono elementi di layout che possono essere utilizzati per progettare la struttura di un’e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
->title="Informazioni sui componenti struttura"
->abstract="I componenti struttura sono elementi di layout che è possibile utilizzare per progettare la struttura di una pagina."
+>title="Informazioni sui componenti di struttura"
+>abstract="I componenti di struttura sono elementi di layout che possono essere utilizzati per progettare la struttura di una pagina."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_fragment"
->title="Informazioni sui componenti struttura"
->abstract="I componenti di struttura sono elementi di layout utilizzabili per progettare la struttura di un frammento."
+>title="Informazioni sui componenti di struttura"
+>abstract="I componenti di struttura sono elementi di layout che possono essere utilizzati per progettare la struttura di un frammento."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
->title="Informazioni sui componenti struttura"
->abstract="I componenti struttura sono elementi di layout che è possibile utilizzare per progettare la struttura di un modello."
+>title="Informazioni sui componenti di struttura"
+>abstract="I componenti di struttura sono elementi di layout che possono essere utilizzati per progettare la struttura di un modello."
 
 Utilizza i _componenti struttura_ nell&#39;area di progettazione visiva per definire la struttura del contenuto. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento della selezione, puoi definire rapidamente la forma del layout del contenuto. Ogni componente struttura occupa lo spazio orizzontale e può essere impilato per creare il layout in verticale. Dividi ciascun componente in colonne per formare ogni blocco di contenuto necessario.
 
@@ -146,7 +147,7 @@ Utilizza l&#39;opzione **[!UICONTROL Posizionamento immagine]** per scegliere in
 
 Puoi applicare altri stili dei componenti struttura per regolarne la visualizzazione nel messaggio e-mail o nella pagina di destinazione.
 
-+++ Bordo
++++Bordo
 
 {{styles-border}}
 
@@ -158,7 +159,7 @@ Puoi applicare altri stili dei componenti struttura per regolarne la visualizzaz
 
 +++
 
-+++Avanzato
++++Avanzate
 
 {{styles-advanced}}
 
@@ -196,7 +197,7 @@ Nell’area di lavoro, sposta l’icona di dimensionamento della colonna per reg
 
 Con la colonna selezionata nell’area di lavoro, puoi impostare gli stili da applicare a tale colonna.
 
-+++Sfondo
++++Informazioni di base
 
 * **[!UICONTROL Colore di sfondo]** - Selezionare la casella di controllo e fare clic sul quadrato del colore per scegliere un colore dal selettore. È possibile scegliere un colore immettendo un valore RGB, HSL, HSB o esadecimale noto. In alternativa, è possibile utilizzare il cursore del colore e il campo del colore per selezionare il colore.
 
@@ -210,7 +211,7 @@ Con la colonna selezionata nell’area di lavoro, puoi impostare gli stili da ap
 
 +++
 
-+++ Bordo
++++Bordo
 
 {{styles-border}}
 
@@ -228,7 +229,7 @@ Con la colonna selezionata nell’area di lavoro, puoi impostare gli stili da ap
 
 +++
 
-+++Avanzato
++++Avanzate
 
 {{styles-advanced}}
 

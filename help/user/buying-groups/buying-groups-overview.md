@@ -7,7 +7,7 @@ exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: a2917ea8c389c35129a77d427528051be499addf
 workflow-type: tm+mt
 source-wordcount: '2170'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -28,9 +28,9 @@ Puoi aumentare l’efficacia del marketing in Journey Optimizer B2B Edition crea
 
 | Componente | Finalità |
 | --------- | ------- |
-| Soluzione di interesse | Questo componente fornisce la risposta alle domande seguenti: <ul><li>In qualità di organizzazione di marketing, cosa stai vendendo?</li><li>Su quale prodotto o raccolta di prodotti stai puntando per la vendita?</li></ul>  **Esempio::_** cross-selling del nuovo prodotto X a clientela esistente |
-| Pubblico dell’account | Questo componente fornisce la risposta alle domande seguenti: <ul><li>A chi stai vendendo?</li><li>Qual è l’elenco degli account a cui stai puntando?</li></ul> **Esempio::_** segmento di account definito da account con prodotto Y per ricavi superiori a 1 milione |
-| Modelli di ruoli del gruppo acquisti | Questo componente fornisce la risposta alle domande seguenti: <ul><li>A quali ruoli ti rivolgi?</li><li>Quale insieme di regole viene utilizzato per determinare chi è assegnato ai ruoli del gruppo acquisti?</li></ul>  **Esempio::_** assegna una persona con titolo CMO al ruolo Responsabile delle decisioni |
+| Soluzione di interesse | Questo componente fornisce la risposta alle domande seguenti: <ul><li>In qualità di organizzazione di marketing, cosa stai vendendo?</li><li>A quale prodotto o raccolta di prodotti è orientata la vendita?</li></ul>  **Esempio::_** cross-selling del nuovo prodotto X a clientela esistente |
+| Pubblico dell’account | Questo componente fornisce la risposta alle domande seguenti: <ul><li>A chi stai vendendo?</li><li>Per quale elenco degli account intendi eseguire il targeting?</li></ul> **Esempio::_** segmento di account definito da account con prodotto Y per ricavi superiori a 1 milione |
+| Modelli di ruoli del gruppo acquisti | Questo componente fornisce la risposta alle domande seguenti: <ul><li>Per quali ruoli intendi eseguire il targeting?</li><li>Quale insieme di regole viene utilizzato per determinare chi è assegnato ai ruoli del gruppo acquisti?</li></ul>  **Esempio::_** assegna una persona con titolo CMO al ruolo Responsabile delle decisioni |
 | Fasi del gruppo acquisti | (Facoltativo) Questo componente fornisce la risposta alla domanda: In che modo il gruppo acquisti segue il percorso del successo o del fallimento? |
 
 ## Assegnazione membro
@@ -107,7 +107,7 @@ Il punteggio di completezza del gruppo acquisti viene ricalcolato ogni volta che
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score"
 >title="Punteggio di coinvolgimento"
->abstract="I punteggi di coinvolgimento determinano il livello di coinvolgimento dei membri del gruppo di acquisto."
+>abstract="I punteggi di coinvolgimento determinano il livello di coinvolgimento dei membri del gruppo acquisti."
 
 Il punteggio di coinvolgimento del gruppo acquisti è un numero utilizzato per determinare il coinvolgimento dei membri di un gruppo acquisti, in base alle attività che eseguono.
 
@@ -230,4 +230,4 @@ Il punteggio di coinvolgimento finale viene calcolato applicando la ponderazione
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3452945/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

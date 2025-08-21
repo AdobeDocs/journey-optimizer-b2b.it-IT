@@ -3,34 +3,35 @@ title: Componenti contenuto
 description: Scopri come utilizzare i componenti di contenuto per progettare contenuti per e-mail, pagine di destinazione e frammenti visivi.
 feature: Content Design Tools
 role: User
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
+source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
 workflow-type: tm+mt
 source-wordcount: '2841'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Componenti contenuto {#content-components}
+# Componenti per contenuti {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_email"
 >title="Informazioni sui componenti per contenuti"
->abstract="I componenti di contenuto sono segnaposto di contenuto vuoti che puoi utilizzare per progettare un’e-mail."
+>abstract="I componenti per contenuti sono dei segnaposti di contenuto vuoti che possono essere utilizzati per progettare un’e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
 >title="Informazioni sui componenti per contenuti"
->abstract="I componenti di contenuto sono segnaposto di contenuto vuoti che possono essere utilizzati per progettare una pagina di destinazione."
+>abstract="I componenti per contenuti sono dei segnaposti di contenuto vuoti che possono essere utilizzati per progettare una pagina di destinazione."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_fragment"
 >title="Informazioni sui componenti per contenuti"
->abstract="I componenti di contenuto sono segnaposto di contenuto vuoti che possono essere utilizzati per progettare un frammento."
+>abstract="I componenti per contenuti sono dei segnaposti di contenuto vuoti che possono essere utilizzati per progettare un frammento."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"
 >title="Informazioni sui componenti per contenuti"
->abstract="I componenti di contenuto sono segnaposto di contenuto vuoti che possono essere utilizzati per progettare un modello."
+>abstract="I componenti per contenuti sono dei segnaposti di contenuto vuoti che possono essere utilizzati per progettare un modello."
 
 Quando si progetta contenuto per e-mail, pagine di destinazione, modelli e frammenti visivi, utilizzare [!UICONTROL Componenti contenuto] per aggiungere elementi di progettazione visiva. Puoi aggiungere tutti i componenti di contenuto necessari all’interno di uno o più componenti struttura, che definiscono il layout.
 
@@ -57,7 +58,7 @@ Ogni tipo di componente contenuto visualizza una barra degli strumenti quando la
 
 ### Strumenti di formattazione
 
-+++Modifica stile testo
++++Modificare lo stile del testo
 
 <table>
     <tr>
@@ -142,7 +143,7 @@ Ogni tipo di componente contenuto visualizza una barra degli strumenti quando la
 
 +++
 
-+++Colore carattere
++++Colore font
 
 <table>
     <tr>
@@ -243,13 +244,13 @@ Aggiungere ad esempio un componente _[!UICONTROL Container]_ e quindi un compone
 
 ![Stili dei componenti di contenuto contenitore](./assets/content-components-container.png){width="600" zoomable="yes"}
 
-+++Sfondo
++++Informazioni di base
 
 {{styles-background}}
 
 +++
 
-+++ Bordo
++++Bordo
 
 {{styles-border}}
 
@@ -267,7 +268,7 @@ Aggiungere ad esempio un componente _[!UICONTROL Container]_ e quindi un compone
 
 +++
 
-+++Spaziatura
++++Riempimento
 
 {{styles-padding}}
 
@@ -319,7 +320,7 @@ Nella scheda _[!UICONTROL Impostazioni]_, utilizza le opzioni **[!UICONTROL Coll
 
 Personalizza lo stile del pulsante nella scheda **[!UICONTROL Stili]**.
 
-+++Sfondo
++++Informazioni di base
 
 {{styles-background}}
 
@@ -331,7 +332,7 @@ Personalizza lo stile del pulsante nella scheda **[!UICONTROL Stili]**.
 
 +++
 
-+++ Bordo
++++Bordo
 
 {{styles-border}}
 
@@ -347,7 +348,7 @@ Personalizza lo stile del pulsante nella scheda **[!UICONTROL Stili]**.
 
 +++
 
-+++Margine Pulsante
++++Margine pulsante
 
 +++
 
@@ -357,13 +358,13 @@ Personalizza lo stile del pulsante nella scheda **[!UICONTROL Stili]**.
 
 +++
 
-+++Spaziatura
++++Riempimento
 
 {{styles-padding}}
 
 +++
 
-+++Avanzato
++++Avanzate
 
 {{styles-advanced}}
 
@@ -375,7 +376,7 @@ Utilizza il componente Testo per inserire un blocco di testo nel contenuto. Quan
 
 Personalizza lo stile del componente testo nella scheda **[!UICONTROL Stili]**.
 
-+++Sfondo
++++Informazioni di base
 
 {{styles-background}}
 
@@ -389,7 +390,7 @@ Questi stili vengono applicati all&#39;intero blocco di testo. È possibile appl
 
 +++
 
-+++ Bordo
++++Bordo
 
 {{styles-border}}
 
@@ -407,13 +408,13 @@ Questi stili vengono applicati all&#39;intero blocco di testo. È possibile appl
 
 +++
 
-+++Spaziatura
++++Riempimento
 
 {{styles-padding}}
 
 +++
 
-+++Avanzato
++++Avanzate
 
 {{styles-advanced}}
 
@@ -425,7 +426,7 @@ Aggiungi un componente _Divider_ per incorporare una divisione lineare tra le se
 
 
 
-+++Sfondo
++++Informazioni di base
 
 {{styles-background}}
 
@@ -453,13 +454,13 @@ Aggiungi un componente _Divider_ per incorporare una divisione lineare tra le se
 
 +++
 
-+++Spaziatura
++++Riempimento
 
 {{styles-padding}}
 
 +++
 
-+++Avanzato
++++Avanzate
 
 {{styles-advanced}}
 
@@ -481,13 +482,13 @@ Utilizza il componente HTML per aggiungere parti del HTML esistente. Questo comp
 
 Per un componente HTML, puoi impostare i seguenti stili per l’intero componente HTML nel pannello di destra:
 
-+++Sfondo
++++Informazioni di base
 
 {{styles-background}}
 
 +++
 
-+++ Bordo
++++Bordo
 
 {{styles-border}}
 
@@ -511,13 +512,13 @@ Per un componente HTML, puoi impostare i seguenti stili per l’intero component
 
 +++
 
-+++Spaziatura
++++Riempimento
 
 {{styles-padding}}
 
 +++
 
-+++Avanzato
++++Avanzate
 
 {{styles-advanced}}
 
@@ -617,13 +618,13 @@ Nella scheda _[!UICONTROL Impostazioni]_, utilizza le opzioni **[!UICONTROL Coll
 
 Imposta gli stili del componente immagine nel pannello di destra.
 
-+++Sfondo
++++Informazioni di base
 
 {{styles-background}}
 
 +++
 
-+++ Bordo
++++Bordo
 
 {{styles-border}}
 
@@ -647,13 +648,13 @@ Imposta gli stili del componente immagine nel pannello di destra.
 
 +++
 
-+++Spaziatura
++++Riempimento
 
 {{styles-padding}}
 
 +++
 
-+++Avanzato
++++Avanzate
 
 {{styles-advanced}}
 
@@ -683,13 +684,13 @@ Per definire una dimensione di visualizzazione coerente per tutti gli elementi g
 
 È possibile impostare le seguenti opzioni di stile per il componente _Social_:
 
-+++Sfondo
++++Informazioni di base
 
 {{styles-background}}
 
 +++
 
-+++ Bordo
++++Bordo
 
 {{styles-border}}
 
@@ -713,13 +714,13 @@ Per definire una dimensione di visualizzazione coerente per tutti gli elementi g
 
 +++
 
-+++Spaziatura
++++Riempimento
 
 {{styles-padding}}
 
 +++
 
-+++Avanzato
++++Avanzate
 
 {{styles-advanced}}
 
