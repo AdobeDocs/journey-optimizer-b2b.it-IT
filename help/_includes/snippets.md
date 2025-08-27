@@ -1,10 +1,10 @@
 ---
 title: Snippet
 description: Riutilizzo di note ed elementi visivi per annotare una funzione o una pagina applicata a una specifica edizione
-source-git-commit: f12042952864dfbc37b214351849a20578d1ed63
+source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 0%
+source-wordcount: '2375'
+ht-degree: 3%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Le licenze per AEM Assets as a Cloud Service e Dynamic Media sono prerequisiti per l’integrazione. Verificare che [Dynamic Media con API aperta](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} sia abilitato. L&#39;integrazione è limitata agli archivi dal _livello di consegna_. Se si utilizza il _livello di creazione_ e si desidera convertirlo, contattare il supporto tecnico Adobe Experience Manager.<br/>
->&#x200B;>A seconda del contratto e della configurazione, è possibile accedere a Adobe Experience Manager Assets as a Cloud Service direttamente da Adobe Journey Optimizer B2B edition durante la progettazione di contenuti visivi.
+>Le licenze per AEM Assets as a Cloud Service e Dynamic Media sono prerequisiti per l’integrazione. Verificare che [Dynamic Media con API aperta](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} sia abilitato. L&#39;integrazione è limitata agli archivi dal _livello di consegna_. Se si utilizza il _livello di creazione_ e si desidera convertirlo, contattare il supporto tecnico Adobe Experience Manager.<br/>
+>>A seconda del contratto e della configurazione, è possibile accedere a Adobe Experience Manager Assets as a Cloud Service direttamente da Adobe Journey Optimizer B2B edition durante la progettazione di contenuti visivi.
 
 ## Passaggio Authoring dei contenuti - componenti - strutture {#structures-step}
 
@@ -262,3 +262,16 @@ Nella finestra di dialogo _[!UICONTROL Carica immagine]_, trascina un file dal s
 I nomi dei file delle immagini selezionate vengono visualizzati nella finestra di dialogo. I nomi dei file di risorse devono essere univoci (per tutte le cartelle) e, se esiste già un file con questo nome, viene visualizzato un messaggio. I nomi possono contenere un massimo di 100 caratteri e non possono contenere caratteri speciali (ad esempio `;`, `:`, `\` e `|`).
 
 Fai clic su **[!UICONTROL Importa]**.
+
+## Attività con punteggio di coinvolgimento {#engagement-activities}
+
+| Nome attività | Descrizione | Tipo di coinvolgimento | Frequenza massima giornaliera | Peso attività modello predefinito |
+| --- | --- | --- | --- | --- |
+| [!UICONTROL Partecipa all&#39;evento] | Un membro ha partecipato a un evento | Evento | 20 | 60 |
+| [!UICONTROL E-mail selezionata] | Un membro fa clic su un collegamento in un’e-mail | E-mail | 20 | 30 |
+| [!UICONTROL E-mail aperta] | Un membro apre un’e-mail | E-mail | 20 | 30 |
+| [!UICONTROL Modulo compilato] | Un membro compila e invia un modulo in una pagina web | Web | 20 | 40 |
+| [!UICONTROL Momento interessante] | Un membro ha un momento interessante | Curato | 20 | 60 |
+| [!UICONTROL Clic collegamento] | Un membro fa clic su un collegamento in una pagina web | Web | 20 | 40 |
+| [!UICONTROL Visualizzazioni pagina] | Un membro visualizza una pagina web | Web | 20 | 40 |
+| [!UICONTROL Registrati all&#39;evento] | Un membro registrato per un evento | Evento | 20 | 60 |

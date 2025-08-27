@@ -4,20 +4,20 @@ description: Scopri i tipi di nodo percorsi suddivisi e di unione che puoi utili
 feature: Account Journeys
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: eb80b57b0481837a50c7c0985ac4dc5d71f3577e
 workflow-type: tm+mt
-source-wordcount: '2083'
+source-wordcount: '2107'
 ht-degree: 2%
 
 ---
 
 # Dividere e unire i percorsi
 
-Utilizza i nodi del percorso di unione e divisione nel percorso di account per orchestrare i percorsi di account in base alle condizioni definite per gli account o le persone. Puoi segmentare il pubblico del percorso o l’elenco degli account in base alle condizioni, definire un percorso con nodi di azione ed evento per ciascun segmento, quindi combinare i segmenti e continuare il percorso ulteriormente.
+Utilizza i nodi del percorso di unione e divisione nel percorso di account per segmentare le persone o i conti in base alle condizioni definite. Puoi definire i percorsi per il pubblico di percorso o l’elenco di account in base alle condizioni, definire ogni percorso con nodi di azione ed evento per ciascun segmento, quindi combinare i percorsi e continuare il percorso ulteriormente.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
-Un nodo _Percorsi suddivisi_ definisce uno o più percorsi segmentati in base ai filtri account o persone.
+Un nodo _Percorsi suddivisi_ definisce uno o più percorsi segmentati in base ai filtri per account **_o_** o persone. Una suddivisione basata su un filtro persone viene automaticamente chiusa con un nodo percorsi unione in modo che tutte le persone possano passare al passaggio successivo senza perdere il contesto dell’account.
 
 >[!NOTE]
 >
@@ -25,9 +25,9 @@ Un nodo _Percorsi suddivisi_ definisce uno o più percorsi segmentati in base ai
 
 ## Dividere i percorsi per account
 
-I percorsi suddivisi per account possono includere azioni ed eventi sia per account che per persone. Questi percorsi possono essere ulteriormente suddivisi.
+I percorsi suddivisi per account possono includere azioni ed eventi sia per gli account che per le persone. Questi percorsi possono essere ulteriormente suddivisi.
 
-_Come funziona un percorso di suddivisione per nodo account?_
+_**Funzionamento di un percorso suddiviso per nodo account**_
 
 * Ogni percorso aggiunto include un nodo finale con la possibilità di aggiungere nodi a ogni nodo edge.
 * È possibile nidificare il percorso suddiviso per nodi di account (è possibile dividerlo più volte per account).
@@ -86,11 +86,11 @@ _Come funziona un percorso di suddivisione per nodo account?_
 
 ## Dividi percorsi per persone
 
-I percorsi suddivisi per persone possono includere solo azioni persone. Questi percorsi non possono essere nuovamente suddivisi e uniti automaticamente.
+I percorsi Dividi per persone possono includere solo azioni persone. Questi percorsi non possono essere nuovamente suddivisi e uniti automaticamente.
 
-_Come funziona un percorso diviso per nodo persone?_
+_**Funzionamento di un percorso suddiviso per nodo persone**_
 
-* I nodi suddivisi per persone funzionano all&#39;interno di una combinazione di _nodo raggruppato_ split-merge. I percorsi suddivisi si uniscono automaticamente in modo che tutte le persone nel pubblico possano passare al passaggio successivo senza perdere il contesto dell’account.
+* I nodi suddivisi per persone funzionano all&#39;interno di una combinazione di _nodo raggruppato_ split-merge. I percorsi suddivisi si uniscono automaticamente in modo che tutte le persone possano passare al passaggio successivo senza perdere il contesto dell’account.
 * I nodi Dividi per persone non possono essere nidificati (non è possibile aggiungere un percorso diviso per le persone in un percorso che si trova in questo nodo raggruppato).
 * La valutazione di ciascun percorso è dall&#39;alto verso il basso. Se una persona corrisponde per il primo e il secondo percorso, procede solo lungo il primo percorso.
 * Il nodo supporta l&#39;utilizzo di _relazioni account-persona_, che consente di filtrare le persone in base al loro ruolo (ad esempio, collaboratore esterno o dipendente a tempo pieno) come definito nella relazione.
@@ -102,12 +102,12 @@ _Come funziona un percorso diviso per nodo persone?_
 
 | Condizioni del percorso | Descrizione |
 | --------------- | ----------- |
-| [!UICONTROL Attributi della persona] | Attributi dal profilo della persona, tra cui: <li>Città</li><li>Paese</li><li>Data di nascita</li><li>Indirizzo e-mail</li><li>E-mail non valida</li><li>E-mail sospesa</li><li>Nome</li><li>Area dello stato dedotta</li><li>Posizione lavorativa</li><li>Cognome</li><li>Numero di telefono cellulare</li><li>Numero di telefono</li><li>Codice postale</li><li>Stato</li><li>Annulla l&#39;iscrizione</li><li>Motivo per annullamento abbonamento</li> |
 | [!UICONTROL Cronologia attività] > [!UICONTROL E-mail] | Attività e-mail basate su condizioni valutate utilizzando uno o più messaggi e-mail selezionati di versioni precedenti nel percorso: <li>[!UICONTROL Collegamento selezionato nell&#39;e-mail] <li>E-mail aperta <li>E-mail consegnata <li>È stata inviata l&#39;e-mail <br>**[!UICONTROL Passa al filtro di inattività&#x200B;]**. Utilizzare questa opzione per filtrare in base alla mancanza di attività (una persona non aveva l&#39;attività e-mail). |
 | [!UICONTROL Cronologia attività] > [!UICONTROL Messaggio SMS] | Attività SMS basate su condizioni valutate utilizzando uno o più messaggi SMS selezionati da in precedenza nel percorso: <li>[!UICONTROL Collegamento selezionato in SMS] <li>[!UICONTROL SMS non recapitato] <br>**[!UICONTROL Passa al filtro di inattività&#x200B;]**. Utilizzare questa opzione per filtrare in base all&#39;assenza di attività (una persona non aveva l&#39;attività SMS). |
 | [!UICONTROL Cronologia attività] > [!UICONTROL Valore dati modificato] | Per un attributo persona selezionato, si è verificata una modifica del valore. Questi tipi di modifica includono: <li>Nuovo valore<li>Valore precedente<li>Motivo<li>Origine<li>Data di attività<li>Min numero di volte <br>**[!UICONTROL Passa al filtro di inattività&#x200B;]**. Utilizzare questa opzione per filtrare in base alla mancanza di attività (una persona non ha modificato il valore dei dati). |
 | [!UICONTROL Cronologia attività] > [!UICONTROL Momento di interesse] | L’attività del momento di interesse definita nell’istanza di Marketo Engage associata. I vincoli includono: <li>Milestone<li>E-mail<li><br>**[!UICONTROL Passa al filtro di inattività&#x200B;]**. Utilizzare questa opzione per filtrare in base alla mancanza di attività (una persona non ha avuto un momento di interesse). |
 | [!UICONTROL Cronologia attività] > [!UICONTROL Pagina Web visitata] | Attività della pagina web che per una o più pagine web gestite dall’istanza Marketo Engage associata. I vincoli includono: <li>Pagina Web (obbligatoria)<li>Data di attività<li>Indirizzo IP client <li>Querystring <li>Referrer <li>Agente utente <li>Motore di ricerca <li>Query di ricerca <li>URL personalizzato <li>Token <li>Browser <li>Piattaforma <li>Dispositivo <li>Min numero di volte <br>**[!UICONTROL Passa al filtro di inattività&#x200B;]**. Utilizzare questa opzione per filtrare in base alla mancanza di attività (una persona non ha visitato la pagina Web). |
+| [!UICONTROL Attributi della persona] | Attributi dal profilo della persona, tra cui: <li>Città <li>Paese <li>Data di nascita <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area dello stato dedotta<li>Posizione lavorativa <li>Cognome <li>Numero di telefono cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo per annullamento abbonamento |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>Ruolo</li> |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro dell&#39;elenco] | La persona è o non è membro di uno o più elenchi Marketo Engage. |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del programma] | La persona è o non è membro di uno o più programmi Marketo Engage. |
@@ -183,7 +183,7 @@ Per un percorso suddiviso per persone, puoi definire un percorso in base all’a
 
 >[!BEGINSHADEBOX &quot;Filtro inattività&quot;]
 
-Per ciascuno dei filtri _[!UICONTROL Cronologia attività]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa a filtro inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Ad esempio, se desideri creare un percorso per le persone che _&#x200B;**non hanno aperto**&#x200B;_ un&#39;e-mail da prima nel percorso, aggiungi il filtro _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail aperta]_. Abilita l’opzione di inattività e specifica l’e-mail. È consigliabile utilizzare il vincolo _[!UICONTROL Data attività]_ per definire un periodo di tempo per l&#39;inattività.
+Per ciascuno dei filtri _[!UICONTROL Cronologia attività]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa a filtro inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Ad esempio, se desideri creare un percorso per le persone che _**non hanno aperto**_ un&#39;e-mail da prima nel percorso, aggiungi il filtro _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail aperta]_. Abilita l’opzione di inattività e specifica l’e-mail. È consigliabile utilizzare il vincolo _[!UICONTROL Data attività]_ per definire un periodo di tempo per l&#39;inattività.
 
 ![Condizione Dividi percorso per persona per l&#39;acquisto dell&#39;iscrizione al gruppo](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -233,4 +233,4 @@ Aggiungi un nodo _Unisci percorsi_ per combinare diversi percorsi suddivisi per 
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443264/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

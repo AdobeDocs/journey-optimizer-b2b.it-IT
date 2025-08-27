@@ -3,9 +3,9 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni e i miglioramenti più recenti di Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 3461236ca286982bf8c9c722c84486aa4e8266ab
+source-git-commit: eb8269b481ae7e7a9160f2d17820a81bdcd7f064
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2787'
 ht-degree: 92%
 
 ---
@@ -33,11 +33,11 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Filtri di punteggio di coinvolgimento della persona per modelli e percorsi di ruoli | È ora possibile utilizzare _Punteggio di coinvolgimento della persona_ come filtro nei modelli di Ruoli utilizzati per la creazione di gruppi di acquisto e nei nodi di percorso con percorso diviso. |
-| Funzione | Configurazione dei ruoli personalizzati dei gruppi di acquisto | Ora puoi configurare ruoli personalizzati per i gruppi di acquisto, per definire i ruoli specifici nei tuoi casi d’uso. |
-| Funzione | Configurazione ponderazione punteggio coinvolgimento | Ora puoi assegnare dei pesi alle attività che influenzano il punteggio di coinvolgimento del gruppo di acquisto. Questa funzione include la definizione di modelli di punteggio personalizzati e la modifica del modello attivo che influenza i calcoli del punteggio di coinvolgimento. |
-| Miglioramento | Contenuto condizionale per frammenti | Ora puoi utilizzare gli strumenti di contenuto condizionale per la progettazione di frammenti visivi. |
-| Miglioramento | Aggiornamenti dei punteggi di coinvolgimento | La logica del punteggio di coinvolgimento del gruppo di acquisto viene aggiornata per normalizzare i punteggi. Inoltre, puoi utilizzare i punteggi di coinvolgimento a livello di membro, nonché i punteggi di coinvolgimento collettivo per l’intero gruppo di acquisto. |
+| Funzione | Filtri di punteggio di coinvolgimento della persona per modelli e percorsi di ruoli | È ora possibile utilizzare _Punteggio di coinvolgimento della persona_ come filtro nei modelli di Ruoli utilizzati per la creazione di gruppi di acquisto e nei nodi di percorso con percorso diviso. [Ulteriori informazioni](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Funzione | Configurazione dei ruoli personalizzati dei gruppi di acquisto | Ora puoi configurare ruoli personalizzati per i gruppi di acquisto, per definire i ruoli specifici nei tuoi casi d’uso. [Ulteriori informazioni](../buying-groups/default-custom-roles.md) |
+| Funzione | Configurazione ponderazione punteggio coinvolgimento | Ora puoi assegnare dei pesi alle attività che influenzano il punteggio di coinvolgimento del gruppo di acquisto. Questa funzione include la definizione di modelli di punteggio personalizzati e la modifica del modello attivo che influenza i calcoli del punteggio di coinvolgimento. <!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
+| Miglioramento | Contenuto condizionale per frammenti | Ora puoi utilizzare gli strumenti di contenuto condizionale per la progettazione di frammenti visivi. [Ulteriori informazioni](../content/conditional-content.md) |
+| Miglioramento | Aggiornamenti dei punteggi di coinvolgimento | La logica del punteggio di coinvolgimento del gruppo di acquisto viene aggiornata per normalizzare i punteggi. Inoltre, puoi utilizzare i punteggi di coinvolgimento a livello di membro, nonché i punteggi di coinvolgimento collettivo per l’intero gruppo di acquisto. [Ulteriori informazioni](../buying-groups/engagement-scores.md) |
 | Miglioramento | Osservabilità attiva del percorso: account in ogni nodo | Per un percorso di account attivo, puoi accedere a un elenco degli account che hanno raggiunto ogni nodo di account nel percorso. |
 
 >[!NOTE]
@@ -153,7 +153,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Contenuto condizionale nei modelli e-mail | Personalizza il contenuto delle e-mail in base al comportamento del destinatario e alle caratteristiche del profilo, sia a livello di account che di lead. <p>Quando crei un’e-mail per il percorso dell’account nello spazio di progettazione visiva dell’e-mail, utilizza le regole condizionali per definire più varianti per qualsiasi componente di contenuto. <a href="../content/conditional-content.md">Ulteriori informazioni</a> |
+| Funzione | Contenuto condizionale nelle e-mail | Personalizza il contenuto delle e-mail in base al comportamento del destinatario e alle caratteristiche del profilo, sia a livello di account che di lead. <p>Quando crei un’e-mail per il percorso dell’account nello spazio di progettazione visiva dell’e-mail, utilizza le regole condizionali per definire più varianti per qualsiasi componente di contenuto. <a href="../content/conditional-content.md">Ulteriori informazioni</a> |
 | Funzione | Azioni delle persone _Aggiungi all’elenco_ e _Rimuovi dall’elenco_ in percorsi | Personalizza il contenuto delle e-mail in base al comportamento del destinatario e alle caratteristiche del profilo, sia a livello di account che di lead. <a href="../journeys/action-nodes.md">Ulteriori informazioni</a> |
 | Funzione | Governance dei contenuti e blocco dei componenti | Per garantire il rispetto delle progettazioni di contenuti approvate, utilizza le funzioni di governance dei contenuti per bloccare i componenti di contenuto dei modelli e-mail. Attivando la governance dei contenuti nel modello e-mail, i marketer possono modificare solo gli elementi consentiti per mantenerli allineati alla strategia dei contenuti. <a href="../content/template-content-governance.md">Ulteriori informazioni</a> |
 | Funzione | Fasi del gruppo acquisti | Quando definisci e pubblichi un modello di staging personalizzato per gruppi acquisti, puoi tenere traccia della progressione del gruppo acquisti attraverso le sue fasi del ciclo di vita. Utilizza queste fasi per identificare le prossime azioni migliori per i membri del gruppo acquisti. Puoi configurare le regole di transizione e i nodi del percorso che determinano la progressione delle fasi e attivano le azioni in base alle modifiche. <a href="../buying-groups/buying-group-stages.md">Ulteriori informazioni</a> |

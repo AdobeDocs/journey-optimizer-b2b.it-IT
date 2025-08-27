@@ -4,9 +4,9 @@ description: Scopri come utilizzare i componenti di contenuto per progettare con
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2844'
 ht-degree: 6%
 
 ---
@@ -200,10 +200,9 @@ Ogni tipo di componente contenuto visualizza una barra degli strumenti quando la
 | ---- | ---- | ----- |
 | ![Aggiungere la personalizzazione](../assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} | Aggiungere personalizzazione | Utilizza l’editor di personalizzazione per inserire i token di personalizzazione nel contenuto del componente. [Ulteriori informazioni](./email-authoring.md#personalize-content) |
 | ![Mostra il codice sorgente](../assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | Mostra il codice sorgente | Visualizza il codice sorgente HTML per il componente in una finestra a comparsa di sola lettura. <br/>![Mostra codice HTML](./assets/content-components-show-source-code.png){width="200"} |
-| ![Abilita contenuto condizionale](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Abilita contenuto condizionale | Abilita le varianti condizionali per il componente. [Ulteriori informazioni](./conditional-content.md) |
+| ![Abilita contenuto condizionale](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Abilita contenuto condizionale | (E-mail e frammenti) Abilita le varianti condizionali per il componente. [Ulteriori informazioni](./conditional-content.md) |
 | ![Duplica](../assets/do-not-localize/toolbar-button-duplicate.png){width="40"} | Duplica | Crea una copia del componente e aggiungilo direttamente qui sotto. |
 | ![Elimina](../assets/do-not-localize/toolbar-button-delete.png){width="40"} | Elimina | Rimuovi il componente. |
-
 
 ## Aggiungere un componente di contenuto alla progettazione
 

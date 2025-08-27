@@ -4,16 +4,16 @@ description: Scopri come definire un modello di ruolo da utilizzare come compone
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 64e6b19894be749b154720ea542c8b18b9153a07
+source-git-commit: 6fb15d8d7f67105f4e53c346091798908c8727bd
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1119'
 ht-degree: 3%
 
 ---
 
-# Modelli di ruolo del gruppo acquisti
+# Modelli di ruoli del gruppo acquisti
 
-In un mercato B2B, le decisioni di acquisto sono solitamente prese da più individui. Tali persone partecipano al processo decisionale in base al loro ruolo all’interno dell’organizzazione. Crea modelli di ruolo Gruppo acquisti che contengono queste definizioni di ruolo in base a ciascun tipo di offerta di prodotto o caso di utilizzo dell’account.
+In un mercato B2B, le decisioni di acquisto sono solitamente prese da più individui. Tali persone partecipano al processo decisionale in base al loro ruolo all’interno dell’organizzazione. Crea modelli di ruolo Gruppo acquisti contenenti un gruppo di definizioni di ruolo in base a ciascun tipo di offerta di prodotto o caso di utilizzo dell’account.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
@@ -23,7 +23,7 @@ In un mercato B2B, le decisioni di acquisto sono solitamente prese da più indiv
 
 1. Nella pagina _[!UICONTROL Gruppi di acquisto]_, seleziona la scheda **[!UICONTROL Modelli ruoli]**.
 
-   ![Scheda Modelli ruoli](assets/roles-templates-tab.png){width="700" zoomable="yes"}
+   ![Scheda Modelli ruoli](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    La scheda fornisce un elenco di inventario di tutti i modelli di ruoli esistenti e visualizza le seguenti informazioni in formato colonna:
 
@@ -56,13 +56,13 @@ In un mercato B2B, le decisioni di acquisto sono solitamente prese da più indiv
 
 ### Aggiungere i ruoli modello
 
-Dopo aver creato il modello, questo viene aperto nel workspace e viene richiesto di definire i ruoli. Per impostazione predefinita, viene visualizzata la prima scheda ruolo.
+Dopo aver creato il modello, questo viene aperto nell&#39;area di lavoro e viene richiesto di aggiungere i ruoli. Per impostazione predefinita, viene visualizzata la prima scheda ruolo.
 
 Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, per determinare i membri assegnati al ruolo. Utilizzare i tipi di filtro seguenti per definire le condizioni per un ruolo:
 
 | Tipo | Condizione |
 | ---- | --------- |
-| Attributi della persona | <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Numero di fax <li>Nome <li>Area dello stato dedotta <li>Posizione lavorativa <li>Cognome <li>Secondo nome <li>Numero di telefono cellulare <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo per annullamento abbonamento |
+| Attributi della persona | <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Numero di fax <li>Nome <li>Area dello stato dedotta <li>Posizione lavorativa <li>Cognome <li>Secondo nome <li>Numero di telefono cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo per annullamento abbonamento |
 | Filtri speciali | <li>Membro dell&#39;elenco <li>Membro del programma |
 | Dati di intento | Intento categoria <li>Intento prodotto <li>Intento parola chiave<br/>[Informazioni sui dati intento](../admin/intent-data.md). |
 
@@ -70,7 +70,7 @@ Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, pe
 
    * Scegliere il **[!UICONTROL Ruolo gruppo acquisti]** dall&#39;elenco.
 
-     Per la versione corrente sono disponibili sei ruoli: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` e `Other`.
+     Sei ruoli predefiniti: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` e `Other`. L&#39;elenco include anche i [ruoli personalizzati definiti nell&#39;elenco _Ruoli_](./default-custom-roles.md#custom-roles).
 
      ![Elenco ruoli gruppo acquisti](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -162,4 +162,4 @@ Puoi eliminare un modello di ruoli se si trova nello stato _Bozza_.
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3453309/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

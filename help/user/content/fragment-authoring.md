@@ -4,16 +4,16 @@ description: Scopri come creare frammenti di contenuto che possono essere riutil
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 6028a1ac7989212624be2813d7961f6711080f4e
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 7%
+source-wordcount: '391'
+ht-degree: 6%
 
 ---
 
 # Authoring dei frammenti
 
-Dopo aver [creato un frammento](./fragments.md#create-fragments), utilizza l&#39;editor visivo per creare i componenti strutturali e di contenuto nel frammento.
+Dopo aver [creato un frammento](./fragments.md#create-fragments), utilizza lo spazio di progettazione visiva per creare la struttura e i componenti di contenuto nel frammento.
 
 ## Aggiungere struttura e contenuto {#design-fragment}
 
@@ -30,6 +30,12 @@ Dopo aver [creato un frammento](./fragments.md#create-fragments), utilizza l&#39
 ## Personalizzazione dei contenuti
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+## Contenuto condizionale
+
+Per aggiungere contenuto condizionale che adatta il contenuto ai profili di destinazione in base alle regole, selezionare un componente di contenuto e fare clic sul pulsante **[!UICONTROL Abilita contenuto condizionale]** nella barra degli strumenti del componente. Quando il frammento pubblicato viene incluso in un messaggio e-mail, le regole condizionali determinano la variante di un componente condizionale di cui viene eseguito il rendering nel messaggio e-mail.
+
+Per ulteriori informazioni, vedere [_Contenuto condizionale_](./conditional-content.md).
 
 ## Abilita personalizzazione frammento
 
