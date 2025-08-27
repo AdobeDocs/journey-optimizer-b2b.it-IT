@@ -4,22 +4,24 @@ description: Scopri come gestire e creare modelli e-mail utilizzati per creare e
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
 
 # Modelli e-mail
 
-Per una progettazione più rapida e migliorata, puoi creare modelli e-mail autonomi per riutilizzare contenuti personalizzati nei percorsi di account di Adobe Journey Optimizer B2B edition. Tramite i modelli, i membri del gruppo orientati al contenuto possono lavorare sul contenuto delle e-mail al di fuori dei percorsi. Gli esperti di marketing possono quindi riutilizzare e adattare questi modelli autonomi all’interno dei loro percorsi di account. Ad esempio, un membro del team è responsabile solo del contenuto, senza accesso ai percorsi di account. Tuttavia, possono creare un modello e-mail che gli esperti di marketing possono selezionare come punto di partenza per le comunicazioni e-mail e personalizzarlo in base ai requisiti del percorso.
+Per una progettazione più rapida e migliorata, è possibile creare modelli e-mail autonomi per riutilizzare il contenuto personalizzato tra i percorsi di account [!DNL Adobe Journey Optimizer B2B Edition]. Tramite i modelli, i membri del gruppo orientati al contenuto possono lavorare sul contenuto delle e-mail al di fuori dei percorsi. Gli esperti di marketing possono quindi riutilizzare e adattare questi modelli autonomi all’interno dei loro percorsi di account. Ad esempio, un membro del team è responsabile solo del contenuto, senza accesso ai percorsi di account. Tuttavia, possono creare un modello e-mail che gli esperti di marketing possono selezionare come punto di partenza per le comunicazioni e-mail e personalizzarlo in base ai requisiti del percorso.
 
 ## Accedere e gestire i modelli e-mail
 
-Per accedere ai modelli e-mail in Adobe Journey Optimizer B2B edition, vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Modelli]**. Questa azione apre una pagina di elenco con tutti i modelli e-mail creati nell’istanza elencata in una tabella.
+Per accedere ai modelli e-mail in [!DNL Journey Optimizer B2B Edition], vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Modelli]**. Nel pannello laterale, seleziona **[!UICONTROL Modelli e-mail]**.
 
-Per impostazione predefinita, la tabella è ordinata in base alla colonna _[!UICONTROL Modificato]_, con i modelli aggiornati più di recente nella parte superiore. Fai clic sul titolo della colonna per passare da crescente a decrescente.
+Questa azione apre una pagina di elenco con tutti i modelli e-mail creati nell’istanza elencata in formato tabella.
+
+Per impostazione predefinita, l&#39;elenco è ordinato in base alla colonna _[!UICONTROL Modificato]_, con i modelli aggiornati più di recente nella parte superiore. Fai clic sul titolo della colonna per passare da crescente a decrescente.
 
 Per cercare un modello per nome, immettere una stringa di testo nella barra di ricerca. Fai clic sull&#39;icona _Filtro_ in alto a sinistra per filtrare l&#39;elenco in base alle date di creazione o modifica e ai modelli creati o modificati.
 
@@ -43,7 +45,7 @@ Viene visualizzata la pagina _[!UICONTROL Progetta modello]_ contenente più opz
 
 ![Scegli come iniziare con la progettazione del modello e-mail](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-Dopo aver selezionato il metodo da utilizzare per avviare la progettazione del modello e-mail, utilizza la finestra di progettazione visiva per [creare il contenuto del modello e-mail](./email-template-authoring.md).
+Dopo aver selezionato il metodo da utilizzare per avviare la progettazione del modello e-mail, utilizza lo spazio di progettazione visiva per [creare il contenuto del modello e-mail](./email-template-authoring.md).
 
 ### Creare da zero
 
@@ -55,7 +57,29 @@ Utilizza l’editor di contenuto visivo per definire la struttura del contenuto 
 
 1. Dalla home page di _[!UICONTROL Progetta modello]_, seleziona l&#39;opzione **[!UICONTROL Progetta da zero]**.
 
+1. Nella finestra di dialogo _[!UICONTROL Crea e-mail]_, scegli il tipo di contenuto e-mail che desideri utilizzare per il modello.
+
+   * **[!UICONTROL Usa temi]** - Scegliere questa opzione per creare il modello di posta elettronica in _modalità tema_. In questa modalità, puoi utilizzare un tema del brand definito per semplificare il processo di authoring dei contenuti e assicurarti che la progettazione sia allineata agli standard definiti.
+
+   ![Crea la tua e-mail - Usa temi](./assets/create-email-use-theme.png){width="450"}
+
+   * **[!UICONTROL Stile manuale]** - Scegliere questa opzione per creare il modello di posta elettronica in _Modalità manuale_. In questa modalità, puoi impostare manualmente lo stile per tutti i componenti di struttura e contenuto aggiunti all’area di lavoro vuota.
+
+1. (_Modalità temi_) Applica un tema.
+
+   Nello spazio di progettazione delle e-mail, fai clic sull&#39;icona _Temi_ ( ![Icona Temi](../assets/do-not-localize/icon-design-themes.svg) ) a destra.
+
+   ![Spazio di progettazione e-mail - Icona Temi selezionata](./assets/email-design-themes-icon-selected.png){width="600" zoomable="yes"}
+
+   Viene visualizzato il tema predefinito o applicato al modello. Puoi cambiare le varianti di colore per questo tema.
+
+   Fai clic sulla freccia accanto al tema visualizzato per visualizzare l’elenco dei temi personalizzati e Adobe disponibili. Seleziona **[!UICONTROL I miei temi]** per utilizzare un tema personalizzato creato per la tua organizzazione.
+
+   Quando si fa clic all&#39;esterno dell&#39;elenco, il tema selezionato applica gli stili. Puoi alternare tra le varianti di colore.
+
 1. [Aggiungi struttura e contenuto](./email-authoring.md#add-structure-and-content) al modello.
+
+   Se è presente un tema applicato, i componenti aggiunti ereditano automaticamente gli stili definiti nel tema.
 
 ### Importa HTML
 
@@ -69,7 +93,7 @@ Adobe Journey Optimizer B2B edition consente di importare contenuti HTML esisten
 >
 >L&#39;utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
 
-Puoi personalizzare il contenuto importato in base alle esigenze con il designer visivo.
+Puoi personalizzare il contenuto importato in base alle esigenze nello spazio di progettazione visiva.
 
 ### Seleziona un modello struttura
 
@@ -120,18 +144,18 @@ Puoi duplicare un modello e-mail utilizzando uno dei seguenti metodi:
 
   ![Fai clic su Altro per accedere alle azioni Elimina e Duplica](./assets/template-details-more-menu.png){width="400"}
 
-* Dalla pagina di elenco dei _modelli di posta elettronica_, fai clic sui puntini di sospensione (...) accanto al modello e scegli **[!UICONTROL Duplica]**.
+* Dalla pagina di elenco dei _[!UICONTROL modelli di posta elettronica]_, fai clic sui puntini di sospensione (...) accanto al modello e scegli **[!UICONTROL Duplica]**.
 
 Nella finestra di dialogo, inserisci un nome utile (univoco) e una descrizione. Fai clic su **[!UICONTROL Duplica]** per completare l&#39;azione.
 
-Il (nuovo) modello e-mail duplicato viene quindi visualizzato nell&#39;elenco _Modelli e-mail_.
+Il (nuovo) modello e-mail duplicato viene quindi visualizzato nell&#39;elenco _[!UICONTROL Modelli e-mail]_.
 
 ## Elimina modelli e-mail
 
 Una rimozione del modello e-mail non può essere annullata, pertanto controlla prima di avviare un’azione di eliminazione. Puoi eliminare un modello e-mail utilizzando uno dei seguenti metodi:
 
 * Dai dettagli del modello a destra, espandi **[!UICONTROL Altro]** e fai clic su **[!UICONTROL Elimina]**.
-* Dalla pagina di elenco dei _modelli di posta elettronica_, fai clic sui puntini di sospensione (...) accanto al modello e scegli **[!UICONTROL Elimina]**.
+* Dalla pagina di elenco dei _[!UICONTROL modelli di posta elettronica]_, fai clic sui puntini di sospensione (...) accanto al modello e scegli **[!UICONTROL Elimina]**.
 
   ![Fare clic su ... per accedere alle azioni Duplica ed Elimina](./assets/templates-list-more-menu.png){width="500"}
 
@@ -165,4 +189,4 @@ Per iniziare a creare i contenuti con uno dei modelli e-mail creati, procedi com
 
 1. Fai clic su **[!UICONTROL Usa questo modello]** in alto a destra.
 
-1. Dalla finestra di progettazione del contenuto visivo, modifica il contenuto in base alle esigenze.
+1. Dall’area di progettazione visiva, modifica il contenuto in base alle esigenze.

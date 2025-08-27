@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 3065dfedc4fa70d102d7d39a413ecd7aaf93f3f8
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2053'
 ht-degree: 6%
 
 ---
@@ -148,7 +148,7 @@ Per creare e definire le linee guida per il brand, puoi inserire i dettagli o ca
 
    * **Aggiungi o rivedi esempi delle linee guida e delle esclusioni**.
 
-     Nel riquadro di esempio visualizzato fare clic su _Modifica_ ( ![Icona Modifica](../assets/do-not-localize/icon-edit.svg) ) per modificare l&#39;esempio oppure fare clic sull&#39;icona _Elimina_ ( ![Icona Elimina](../assets/do-not-localize/icon-delete.svg) ) per rimuoverlo.
+     Nel riquadro di esempio visualizzato fare clic sull&#39;icona _Modifica_ ( ![Icona Modifica](../assets/do-not-localize/icon-edit.svg) ) per modificare l&#39;esempio oppure fare clic sull&#39;icona _Elimina_ ( ![Icona Elimina](../assets/do-not-localize/icon-delete.svg) ) per rimuoverlo.
 
 1. Dopo aver definito tutto, fai clic su **[!UICONTROL Salva]**.
 

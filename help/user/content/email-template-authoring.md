@@ -4,10 +4,10 @@ description: Scopri come creare modelli e-mail di contenuto che possono essere u
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 3%
+source-wordcount: '423'
+ht-degree: 2%
 
 ---
 
@@ -30,6 +30,10 @@ Con almeno un componente di contenuto nell&#39;area di lavoro, seleziona il comp
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### Aggiungi frammenti
+
+>[!NOTE]
+>
+>I frammenti non sono compatibili tra la _modalità tema_ e la _modalità manuale_ nel contenuto dell&#39;e-mail. Per utilizzare un frammento nel contenuto dell&#39;e-mail in cui viene applicato un tema, è necessario creare il frammento anche in _modalità tema_.
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -69,5 +73,5 @@ Dal menu _[!UICONTROL Altro ...]_ nella parte superiore dello spazio di progetta
 
 * **[!UICONTROL Ripristina modello]** - Fare clic su questa opzione per cancellare l&#39;area di progettazione in un&#39;area vuota e riavviare la creazione del contenuto.
 * **[!UICONTROL Salva come frammento]** - Consente di salvare tutte o alcune parti del modello come frammento da riutilizzare in più e-mail o modelli di e-mail. Fornisci un nome e una descrizione per il frammento, quindi salvalo nell’elenco dei frammenti disponibili.
-* **[!UICONTROL Modifica la progettazione]** - Torna alla pagina _Progetta modello_. A questo punto è possibile scegliere di progettare il modello da zero o di utilizzare un modello esistente per riavviare il processo di progettazione.
+* **[!UICONTROL Modifica la progettazione]** - Torna alla pagina _Progetta la tua e-mail_. A questo punto è possibile scegliere un altro modello per riavviare il processo di progettazione. Puoi anche scegliere di progettare il contenuto da zero con un&#39;area di lavoro vuota (_Modalità classica_) o utilizzando un [tema del marchio](./brand-themes.md) (_Modalità tema_).
 * **[!UICONTROL Esporta HTML]** - Scarica il contenuto nell&#39;area di lavoro visiva nel tuo sistema locale in formato HTML racchiuso in un file zip.

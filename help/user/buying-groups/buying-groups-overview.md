@@ -4,9 +4,9 @@ description: Scopri come i gruppi acquisti in Journey Optimizer B2B Edition poss
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: eb80b57b0481837a50c7c0985ac4dc5d71f3577e
+source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1194'
 ht-degree: 75%
 
 ---
@@ -20,7 +20,7 @@ Per le attività di vendita e marketing B2B, gli account sono fondamentali per q
 
 Nell’account potrebbe essere presente un sottoinsieme di persone che costituiscono il _gruppo acquisti_. Queste persone alla fine prendono la decisione di acquisto, quindi hanno bisogno di particolare attenzione da parte del marketer e potrebbero aver bisogno di informazioni diverse da quelle delle altre persone associate all’account. I gruppi acquisti possono comprendere un gruppo diverso di persone per diverse linee di prodotti o offerte. Ad esempio, l’approvazione di un acquisto di un prodotto per la sicurezza informatica può richiedere un Chief Information Officer o un Chief Security Officer, e un rappresentante del reparto legale. Per un prodotto di tracciamento dei bug si possono includere tra i membri del gruppo acquisti un VP of Engineering e un direttore IT.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda la panoramica video](#overview-video)
+![Icona video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda la panoramica video](#overview-video)
 
 ## Componenti principali
 
@@ -112,4 +112,4 @@ Per informazioni dettagliate sulle attività e sui calcoli dei punteggi di coinv
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3452945/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

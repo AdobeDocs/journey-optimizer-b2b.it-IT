@@ -4,9 +4,9 @@ description: Scopri come creare e utilizzare frammenti di contenuto visivo come 
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: f700f84c55d37ded9980a08286da05011345800c
 workflow-type: tm+mt
-source-wordcount: '2624'
+source-wordcount: '2738'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,11 @@ Un frammento è un componente riutilizzabile a cui è possibile fare riferimento
 
 **Frammenti visivi**
 
-I frammenti visivi sono blocchi visivi predefiniti creati mediante la finestra di progettazione del contenuto visivo che puoi riutilizzare in più e-mail o modelli e-mail. L’ambito corrente di Journey Optimizer B2B edition e di questa documentazione è quello dei soli frammenti visivi. I frammenti basati su espressioni non sono ancora supportati in Journey Optimizer B2B edition.
+I frammenti visivi sono blocchi visivi predefiniti creati utilizzando gli strumenti di progettazione visiva che puoi riutilizzare in più e-mail o modelli e-mail. L’ambito corrente di Journey Optimizer B2B edition e di questa documentazione è quello dei soli frammenti visivi.
+
+>[!NOTE]
+>
+>I frammenti basati su espressioni non sono ancora supportati in [!DNL Journey Optimizer B2B Edition].
 
 >[!ENDSHADEBOX]
 
@@ -42,9 +46,9 @@ Lo stato del frammento determina la sua disponibilità per l’utilizzo in un me
 
 | Stato | Descrizione |
 | -------------------- | ----------- |
-| Bozza | Quando crei un frammento, questo si trova nello stato Bozza. Rimane in questo stato mentre definisci o modifichi il contenuto visivo fino a quando non lo pubblichi per l’utilizzo in un e-mail o in un modello e-mail. Azioni disponibili:<br/><ul><li>Modifica tutti i dettagli<li>Modifica in designer visivo<li>Pubblica<li>Duplica<li>Elimina |
-| Pubblicato | Quando pubblichi un frammento, questo diventa disponibile per l’utilizzo in un’e-mail o in un modello e-mail. Il contenuto del frammento pubblicato non può essere modificato nella finestra di progettazione visiva. Azioni disponibili:<br/><ul><li>Modifica descrizione<li>Aggiungi a un messaggio e-mail o a un modello<li>Crea versione bozza<li>Duplica<li>Elimina (se non in uso) |
-| Pubblicato con bozza | Quando crei una bozza da un frammento pubblicato, la versione pubblicata rimane disponibile per l’utilizzo in un modello e-mail o e-mail e il contenuto della bozza può essere modificato nella finestra di progettazione visiva. Se pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nelle e-mail e nei modelli e-mail in cui è in uso. Azioni disponibili:<br/><ul><li>Modifica descrizione<li>Aggiungi a un messaggio e-mail o a un modello<li>Modifica versione bozza in Progettazione visiva<li>Pubblica versione bozza<li>Duplica<li>Elimina (se non in uso) |
+| Bozza | Quando crei un frammento, questo si trova nello stato Bozza. Rimane in questo stato mentre definisci o modifichi lo spazio di progettazione visiva fino a quando non lo pubblichi per l’utilizzo in un modello e-mail o e-mail. Azioni disponibili:<br/><ul><li>Modifica tutti i dettagli<li>Modifica nello spazio di progettazione visiva<li>Pubblica<li>Duplica<li>Elimina |
+| Pubblicato | Quando pubblichi un frammento, questo diventa disponibile per l’utilizzo in un’e-mail o in un modello e-mail. Il contenuto del frammento pubblicato non può essere modificato nello spazio di progettazione visiva. Azioni disponibili:<br/><ul><li>Modifica descrizione<li>Aggiungi a un messaggio e-mail o a un modello<li>Crea versione bozza<li>Duplica<li>Elimina (se non in uso) |
+| Pubblicato con bozza | Quando crei una bozza da un frammento pubblicato, la versione pubblicata rimane disponibile per l’utilizzo in un modello e-mail o e-mail e il contenuto della bozza può essere modificato nello spazio di progettazione visiva. Se pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nelle e-mail e nei modelli e-mail in cui è in uso. Azioni disponibili:<br/><ul><li>Modifica descrizione<li>Aggiungi a un messaggio e-mail o a un modello<li>Modifica versione bozza nello spazio di progettazione visivo<li>Pubblica versione bozza<li>Duplica<li>Elimina (se non in uso) |
 
 ![Ciclo di vita stato frammento](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -86,7 +90,7 @@ Per creare nuovi frammenti visivi in Journey Optimizer B2B edition, fai clic su 
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
-   La finestra di progettazione visiva viene aperta con un&#39;area di lavoro vuota.
+   Lo spazio di progettazione visivo si apre con un’area di lavoro vuota.
 
 1. Utilizza gli strumenti di progettazione del contenuto per creare il contenuto del frammento visivo:
 
@@ -96,6 +100,18 @@ Per creare nuovi frammenti visivi in Journey Optimizer B2B edition, fai clic su 
    * [Personalizzazione dei contenuti](./fragment-authoring.md#personalize-content)
    * [Abilita campi personalizzati](./fragment-authoring.md#enable-fragment-customization)
    * [Modifica tracciamento URL collegato](./fragment-authoring.md#edit-linked-url-tracking)
+
+1. (Facoltativo) Applica un [tema marchio](./brand-themes.md) al contenuto del frammento per semplificare il processo di authoring dei frammenti e assicurati che la progettazione sia allineata agli standard definiti.
+
+   >[!NOTE]
+   >
+   >Quando si applica un tema, la compatibilità dei frammenti è limitata alle e-mail e ai modelli e-mail creati in _modalità tema_.
+
+   Fai clic sull&#39;icona _Temi_ ( ![icona Temi](../assets/do-not-localize/icon-design-themes.svg) ) a destra.
+
+   ![Spazio di progettazione frammento - Icona Temi selezionata](./assets/fragment-design-themes-icon-selected.png){width="600" zoomable="yes"}
+
+   Seleziona uno dei temi personalizzati elencati nella scheda **[!UICONTROL I miei temi]** oppure puoi selezionare **[!UICONTROL Temi Adobe]** per utilizzare un tema predefinito. Quando fai clic all’esterno dell’elenco, il tema selezionato applica gli stili per tutti i componenti dell’area di lavoro. Puoi cambiare le varianti di colore in base alle esigenze.
 
 1. Fai clic su **[!UICONTROL Salva]** in qualsiasi momento per salvare la bozza del frammento.
 
@@ -166,7 +182,7 @@ Le modifiche apportate a un frammento dipendono dal suo stato corrente:
 
    ![Dettagli per frammento con stato Bozza](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
-1. Per apportare modifiche al contenuto nella finestra di progettazione visiva, fare clic su **[!UICONTROL Modifica frammento]**.
+1. Per apportare modifiche al contenuto nello spazio di progettazione visivo, fare clic su **[!UICONTROL Modifica frammento]**.
 
    Utilizza gli strumenti di progettazione visiva secondo necessità:
 
@@ -193,7 +209,7 @@ Le modifiche apportate a un frammento dipendono dal suo stato corrente:
 
 1. Se desideri aggiornare il contenuto, fai clic su **[!UICONTROL Crea versione bozza]** in alto a destra.
 
-   Fare clic su **[!UICONTROL OK]** nella finestra di dialogo per aprire la versione bozza nella finestra di progettazione visiva.
+   Fare clic su **[!UICONTROL OK]** nella finestra di dialogo per aprire la versione bozza nello spazio di progettazione visivo.
 
    ![Finestra di dialogo Crea bozza versione](./assets/fragments-create-draft-version.png){width="300"}
 
@@ -286,7 +302,7 @@ I frammenti sono progettati per il riutilizzo e possono essere inseriti per la c
 
 1. Passa a **[!UICONTROL Percorsi di account]** e apri un percorsi percorso esistente o creane uno nuovo.
 
-1. Crea un nodo [_[!UICONTROL Invia e-mail &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Crea un nodo [_[!UICONTROL Invia e-mail ]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Crea o modifica [contenuto e-mail per il nodo](./email-authoring.md).
 
@@ -310,7 +326,7 @@ Il contenuto del frammento viene aggiornato dinamicamente all’interno della st
 
 >[!TIP]
 >
->Se desideri che il frammento occupi l&#39;intero layout orizzontale all&#39;interno del messaggio e-mail, aggiungi una struttura di [!UICONTROL 1:1 colonna], quindi trascina e rilascia il frammento al suo interno.
+>Se desideri che il frammento occupi l&#39;intero layout orizzontale all&#39;interno dell&#39;e-mail, aggiungi una struttura di [!UICONTROL 1:1 colonna], quindi trascina e rilascia il frammento al suo interno.
 
 Dopo il salvataggio, l&#39;e-mail viene visualizzata nella pagina dei dettagli del frammento quando viene selezionata la scheda _[!UICONTROL Usato da]_. I frammenti aggiunti a un’e-mail non sono modificabili all’interno dell’e-mail o del modello; il frammento di origine pubblicato definisce il contenuto.
 

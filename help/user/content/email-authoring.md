@@ -4,16 +4,16 @@ description: Scopri come creare contenuti e-mail in Adobe Journey Optimizer B2B.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '1046'
 ht-degree: 2%
 
 ---
 
 # Authoring dei messaggi e-mail
 
-Dopo aver &lbrack;aggiunto una nuova<!-- or duplicated --> risorsa e-mail a un nodo azione di percorso&rbrack;(./add-email.md), puoi definire il contenuto del messaggio e-mail.
+Dopo aver [aggiunto una risorsa e-mail a un nodo di azione del percorso](./add-email.md), puoi definire il contenuto del messaggio e-mail.
 
 Fai clic su **[!UICONTROL Modifica contenuto e-mail]** nella scheda _[!UICONTROL Dettagli]_ nel pannello di destra.
 
@@ -38,17 +38,24 @@ Dopo aver creato e personalizzato il contenuto dell’e-mail, puoi esportarlo pe
 Utilizza lo spazio di progettazione del contenuto visivo per definire la struttura e il contenuto dell’e-mail. Aggiungendo e spostando componenti strutturali con semplici azioni di trascinamento della selezione, puoi progettare la forma del contenuto dell’e-mail riutilizzabile in pochi secondi.
 
 1. Dalla home page di _[!UICONTROL Progetta modello]_, seleziona l&#39;opzione **[!UICONTROL Progetta da zero]**.
-1. [Aggiungi struttura e contenuto](#add-structure-and-content) al messaggio di posta elettronica.
-1. [Aggiungi risorse immagine](#add-assets) al messaggio e-mail.
-1. [Personalizzare il contenuto dell&#39;e-mail](#personalize-content).
+
+1. Nella finestra di dialogo _[!UICONTROL Crea e-mail]_, scegli il tipo di contenuto e-mail che desideri creare.
+
+   * **[!UICONTROL Usa temi]** - Scegliere questa opzione per creare l&#39;e-mail in _modalità tema_. In questa modalità, puoi utilizzare un tema del brand definito per semplificare il processo di authoring dei contenuti e assicurarti che la progettazione sia allineata agli standard definiti.
+
+   * **[!UICONTROL Stile manuale]** - Scegliere questa opzione per creare l&#39;e-mail in _Modalità manuale_. In questa modalità, puoi impostare manualmente lo stile per tutti i componenti di struttura e contenuto aggiunti all’area di lavoro vuota.
+
+1. [Aggiungi struttura e contenuto](./email-authoring.md#add-structure-and-content) al modello.
+
 1. [Rivedi e aggiorna i collegamenti](#preview-and-edit-linked-urls).
+
 1. [Verifica e-mail](#check-and-test-the-email).
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual designer for this email after switching to the code editor. -->
+>You cannot revert back to the visual design space for this email after switching to the code editor. -->
 
 Quando si è soddisfatti del contenuto, fare clic su **[!UICONTROL Salva]**.
 
@@ -70,7 +77,7 @@ Puoi personalizzare il contenuto importato in base alle esigenze con gli strumen
 
 >[!NOTE]
 >
-> Ai modelli salvati possono essere applicate impostazioni di governance (blocco del contenuto) a uno o più componenti. La finestra di progettazione visiva fornisce indicazioni sui componenti bloccati quando si [crea un messaggio e-mail da un modello gestito](./email-authoring-governance.md).
+> Ai modelli salvati possono essere applicate impostazioni di governance (blocco del contenuto) a uno o più componenti. Lo spazio di progettazione visivo fornisce indicazioni sui componenti bloccati quando si [crea un messaggio e-mail da un modello gestito](./email-authoring-governance.md).
 
 ## Aggiungere struttura e contenuto {#structure-content}
 
@@ -78,7 +85,7 @@ Puoi personalizzare il contenuto importato in base alle esigenze con gli strumen
 
 ### Aggiungere CSS personalizzato
 
-Puoi aggiungere un CSS personalizzato direttamente nello spazio di progettazione delle e-mail. Utilizza CSS personalizzato per applicare uno stile avanzato e specifico, per una maggiore flessibilità e un maggiore controllo sull’aspetto del contenuto. È consigliabile aggiungere questo stile di livello più alto prima di includere componenti quali immagini, pulsanti e testo.
+Puoi aggiungere un CSS personalizzato direttamente nello spazio di progettazione delle e-mail. Utilizza CSS personalizzato per applicare uno stile avanzato e specifico, per una maggiore flessibilità e un maggiore controllo sull’aspetto del contenuto. È consigliabile aggiungere questo stile di livello più alto prima di includere componenti di contenuto quali immagini, pulsanti e testo.
 
 Con almeno un componente di contenuto nell&#39;area di lavoro, seleziona il componente **[!UICONTROL Corpo]** nella struttura di navigazione a sinistra per accedere all&#39;editor CSS personalizzato.
 
@@ -91,6 +98,10 @@ Con almeno un componente di contenuto nell&#39;area di lavoro, seleziona il comp
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### Aggiungi frammenti
+
+>[!NOTE]
+>
+>I frammenti non sono compatibili tra la _modalità tema_ e la _modalità manuale_ nel contenuto dell&#39;e-mail. Per utilizzare un frammento nel contenuto dell&#39;e-mail in cui viene applicato un tema, è necessario creare il frammento anche in _modalità tema_.
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -128,13 +139,13 @@ Sfrutta le opzioni di convalida di visualizzazione e contenuto disponibili nell�
 
 ## Altre opzioni
 
-Dal menu _[!UICONTROL Altro ...]_ nella parte superiore dello spazio di progettazione delle e-mail, puoi eseguire le azioni seguenti:
+Dal menu _[!UICONTROL Altro ...]_ nella parte superiore dello spazio di progettazione visiva, è possibile eseguire le azioni seguenti:
 
 ![Fai clic su Altro per accedere alle azioni del modello](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Reimposta e-mail]** - Fare clic su questa opzione per cancellare l&#39;area di lavoro di progettazione e-mail visiva in una lavagna vuota e riavviare la creazione del contenuto.
+* **[!UICONTROL Reimposta e-mail]** - Fai clic su questa opzione per cancellare l&#39;area di progettazione delle e-mail in una lavagna vuota e riavviare la creazione del contenuto.
 * **[!UICONTROL Salva come frammento]** - Salva tutte o alcune parti dell&#39;e-mail come frammento da riutilizzare in più e-mail o modelli di e-mail. Fornisci un nome e una descrizione per il frammento, quindi salvalo nell’elenco dei frammenti disponibili.
-* **[!UICONTROL Modifica la progettazione]** - Torna alla pagina _Progetta la tua e-mail_. Da lì, puoi scegliere un altro modello per riavviare il processo di progettazione o scegliere di progettare il contenuto da zero in un&#39;area di lavoro nera.\
+* **[!UICONTROL Modifica la progettazione]** - Torna alla pagina _Progetta la tua e-mail_. A questo punto è possibile scegliere un altro modello per riavviare il processo di progettazione. Puoi anche scegliere di progettare il contenuto da zero con un&#39;area di lavoro vuota (_Modalità classica_) o utilizzando un [tema del marchio](./brand-themes.md) (_Modalità tema_).
 * **[!UICONTROL Salva come modello di contenuto]** - Salva il corpo dell&#39;e-mail come modello e-mail da riutilizzare in più e-mail o modelli e-mail. Fornisci un nome e una descrizione per il modello, quindi salvalo nell’elenco dei modelli e-mail salvati.
 * **[!UICONTROL Esporta HTML]** - Scarica il contenuto nell&#39;area di lavoro visiva nel tuo sistema locale in formato HTML racchiuso in un file zip.
 
