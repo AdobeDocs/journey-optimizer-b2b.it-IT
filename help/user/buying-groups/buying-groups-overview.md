@@ -112,4 +112,4 @@ Per informazioni dettagliate sulle attività e sui calcoli dei punteggi di coinv
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452945/?learn=on&captions=ita)
