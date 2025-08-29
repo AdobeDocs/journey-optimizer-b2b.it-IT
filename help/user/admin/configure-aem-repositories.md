@@ -4,24 +4,24 @@ description: Scopri come configurare una connessione agli archivi Experience Man
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
 
 # Configurare gli archivi di risorse di Experience Manager
 
-Adobe Journey Optimizer B2B edition si integra con Adobe Experience Manager Assets as a Cloud Service e consente di utilizzare risorse più che semplici risorse, come le e-mail, all’interno di un percorso di account. Garantisce la trasparenza scambiando informazioni con Experience Manager Assets. Configura la connessione ad Adobe Experience Assets per abilitare questa funzionalità.
+[!DNL Adobe Journey Optimizer B2B Edition] si integra con [!DNL Adobe Experience Manager Assets as a Cloud Service], consentendo l&#39;utilizzo di risorse nel contenuto dell&#39;e-mail. Garantisce la trasparenza scambiando informazioni con [!DNL Experience Manager Assets]. Configurare la connessione a [!DNL Adobe Experience Assets] per abilitare questa funzionalità.
 
-Adobe Experience Manager Cloud Manager è organizzato in programmi e ogni programma dispone di più ambienti e archivi ([Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Quando configuri Adobe Experience Manager Assets in Adobe Journey Optimizer B2B edition, puoi impostare connessioni a ogni archivio che desideri utilizzare per accedere alle risorse digitali.
+Adobe Experience Manager Cloud Manager è organizzato in programmi e ogni programma dispone di più ambienti e archivi ([Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Quando configuri Adobe Experience Manager Assets in Adobe Journey Optimizer B2B edition, puoi impostare connessioni a ogni archivio che desideri utilizzare per accedere alle risorse digitali.
 
 {{aem-assets-licensing-note}}
 
 ## Prerequisiti
 
-* Genera le credenziali del servizio per l&#39;ambiente desiderato in AEM Headless Developer Console ([Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
+* Genera le credenziali del servizio per l&#39;ambiente desiderato in AEM Headless Developer Console ([Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * Ottenere i certificati necessari per la connessione. Come best practice, assicurati che i certificati rimangano almeno sei mesi prima della scadenza. I certificati scadono ogni 365 giorni.
 * Adobe Journey Optimizer B2B edition supporta l’accesso a un’origine per la gestione delle risorse digitali alla volta. Prima di cambiare, assicurati che le risorse richieste siano disponibili in Adobe Experience Manager.
 
@@ -47,7 +47,7 @@ Da qui puoi configurare una alla volta le connessioni a ciascun archivio dell’
 
 1. Fai clic su **[!UICONTROL Aggiungi un certificato]** e utilizza gli strumenti di dialogo per caricare il file.
 
-   Puoi caricare un file .json trascinandolo nella finestra di dialogo o facendo clic sul collegamento per individuare e selezionare un file dal sistema (assicurati che il file sia di tipo JSON valido).
+   Puoi caricare un file .json trascinandolo nella finestra di dialogo. Puoi anche fare clic sul collegamento per individuare e selezionare un file dal sistema.
 
    ![Carica il file JSON del certificato](./assets/configuration-assets-aem-upload-cert.png){width="500"}
 
@@ -65,7 +65,7 @@ Da qui puoi configurare una alla volta le connessioni a ciascun archivio dell’
 
    ![Esaminare gli archivi di risorse AEM configurati](./assets/configuration-assets-aem-repositories.png){width="600" zoomable="yes"}
 
-Al termine della configurazione degli archivi, i membri del gruppo possono selezionare l’Adobe Experience Manager Assets durante l’authoring dei contenuti.
+Al termine della configurazione degli archivi, i membri del team possono selezionare [!DNL Adobe Experience Manager Assets] durante l&#39;authoring dei contenuti.
 
 >[!NOTE]
 >
@@ -73,11 +73,11 @@ Al termine della configurazione degli archivi, i membri del gruppo possono selez
 
 ## Sostituire un certificato
 
-I certificati scadono ogni 365 giorni dalla data di creazione. Sostituiscilo prima della scadenza per garantire che il team possa continuare ad accedere alle risorse.
+I certificati scadono ogni 365 giorni dalla data di creazione. Per garantire che il team possa continuare ad accedere alle risorse, sostituisci il certificato prima della scadenza.
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B edition comunica con le risorse di Experience Manager per informazioni sull’utilizzo. La connessione deve rimanere attiva per un utilizzo affidabile della sincronizzazione dei dati e per evitare discrepanze di dati. Gli utenti amministratori ricevono notifiche sulla scadenza dei certificati tramite notifiche in-app. Possono anche prendere nota delle date di scadenza nella sottosezione Assets - Gestione delle risorse digitali nell’area Amministratore.
+>[!DNL Adobe Journey Optimizer B2B Edition] comunica con [!DNL Experience Manager Assets] per informazioni sulla sintassi. La connessione deve rimanere attiva per un utilizzo affidabile della sincronizzazione dei dati e per evitare discrepanze di dati. Gli amministratori ricevono notifiche sulla scadenza dei certificati tramite notifiche in-app. Le date di scadenza vengono visualizzate anche nella sottosezione _Assets_ dell&#39;area _[!UICONTROL Amministrazione]_.
 
 1. Nella pagina di gestione delle risorse digitali, individua l’elenco degli archivi configurati.
 
@@ -89,7 +89,7 @@ I certificati scadono ogni 365 giorni dalla data di creazione. Sostituiscilo pri
 
 1. Scegliere **[!UICONTROL Sostituisci]** per aprire la finestra di dialogo per il caricamento del file.
 
-1. Carica un file trascinandolo nella finestra di dialogo o utilizzando il collegamento. Assicurati che il file sia di tipo json.
+1. Carica un file trascinandolo nella finestra di dialogo o utilizzando il collegamento. Verifica che il file sia di tipo JSON.
 
    ![Carica il file JSON del certificato del repository delle risorse di AEM sostitutivo](./assets/configuration-assets-aem-upload-replacement-cert.png){width="500"}
 
@@ -107,7 +107,7 @@ Puoi visualizzare il file JSON del certificato associato alla connessione all’
 
 1. Scegliere **[!UICONTROL Visualizza]**.
 
-   ![Visualizzare il file JSON del certificato per un archivio risorse di AEM connesso](./assets/configuration-assets-aem-view-cert.png){width="600"}
+   ![Visualizzare il file JSON del certificato per un repository di risorse AEM connesso](./assets/configuration-assets-aem-view-cert.png){width="600"}
 
 1. Fare clic su **[!UICONTROL Chiudi]** per tornare alla pagina Configura repository.
 

@@ -3,18 +3,18 @@ title: Configurare eventi Experience Platform
 description: Scopri il tipo di nodo Attendi che puoi utilizzare per orchestrare i percorsi di account in Journey Optimizer B2B edition.
 feature: Setup, Integrations
 role: Admin
-soultion: Journey Optimizer B2B Edition, Experience Platform
+solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: a7cf25536ac698f99d9d9a54c574f03d0fe5974b
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1779'
 ht-degree: 1%
 
 ---
 
 # Configurare le definizioni degli eventi di Experience Platform
 
-Gli amministratori possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP), che consentono agli addetti al marketing di creare percorsi di account che reagiscono a [eventi esperienza AEP](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
+Gli amministratori possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP), che consentono agli addetti al marketing di creare percorsi di account che reagiscono a [eventi esperienza AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda la panoramica video](#overview-video)
 
@@ -24,13 +24,13 @@ L’utilizzo degli eventi di esperienza di AEP nei percorsi di account è un pro
 
 2. In un percorso di account, aggiungi un nodo _Ascolta un evento_ e [seleziona una definizione di evento AEP come evento persone](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
-Ogni definizione di evento richiede il seguente input di Experience Platform:
+Ogni definizione di evento richiede i seguenti input di Experience Platform:
 
 * **_Schema_** - Schema XDM che definisce la struttura dati di Experience Event. Deve essere basato su un evento esperienza e deve essere abilitato per il profilo.
 
   >[!NOTE]
   >
-  >Coordina con il tuo team di progettazione per assicurarti che siano definiti gli schemi necessari. [La creazione di schemi XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition){target="_blank"} è un processo complesso eseguito da data engineer in base ai requisiti dei casi d&#39;uso all&#39;interno dell&#39;organizzazione.
+  >Per assicurarti di aver definito gli schemi necessari, rivolgiti al team di progettazione. [La creazione di schemi XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"} è un processo complesso eseguito da data engineer in base ai requisiti dei casi d&#39;uso all&#39;interno dell&#39;organizzazione.
 
 * **_Tipi di evento_** - XDM ExperienceEvent eventType (massimo 20 per definizione di evento).
 
@@ -70,7 +70,7 @@ Quando crei e gestisci le definizioni degli eventi per soddisfare gli obiettivi 
 
    ![Accedere alle definizioni degli eventi configurate](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
 
-   La tabella è ordinata in base alla colonna _[!UICONTROL Modificato]_, con le definizioni aggiornate più di recente nella parte superiore per impostazione predefinita.<!-- Click the column title to change between ascending and descending.-->
+   La tabella è ordinata in base alla colonna _[!UICONTROL Modificato]_, con le definizioni aggiornate più di recente nella parte superiore come predefinite.<!-- Click the column title to change between ascending and descending.-->
 
 1. Per accedere ai dettagli della definizione di un evento, fai clic sul nome.
 
@@ -80,9 +80,9 @@ Nell&#39;elenco _[!UICONTROL Definizioni evento]_, la colonna **[!UICONTROL Stat
 
 | Stato | Descrizione |
 | -------------------- | ----------- |
-| Bozza | Quando crei una definizione di evento, questa si trova nello stato Bozza. Rimane in questo stato fino a quando non lo pubblichi per l’utilizzo nei percorsi di account. Azioni disponibili:<br/><ul><li>Modifica tutti i dettagli<li>Pubblica<li>Elimina |
-| Pubblicato | Quando pubblichi una definizione di evento, questa diventa disponibile per l’utilizzo nei percorsi di account. Impossibile modificare i dettagli. Azioni disponibili:<br/><ul><li>Disponibile per _Ascolta un nodo evento_ percorso<li>Crea versione bozza<li>Elimina (se non in uso) |
-| Pubblicato (con bozza) | Quando crei una bozza da una definizione di evento pubblicata, la versione pubblicata rimane disponibile per l’utilizzo nei percorsi di account e può essere modificata. Se pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e la definizione dell’evento viene aggiornata per i percorsi di account in cui non è ancora stata eseguita. Azioni disponibili:<br/><ul><li>Modifica tutti i dettagli<li>Pubblica versione bozza<li>Elimina versione bozza<li>Elimina (se non in uso) |
+| Bozza | Quando crei una definizione di evento, questa si trova nello stato Bozza. Rimane in questo stato fino a quando non lo pubblichi per l’utilizzo nei percorsi di account. Azioni disponibili: <br/><li>Modifica tutti i dettagli<li>Pubblica<li>Elimina |
+| Pubblicato | Quando pubblichi una definizione di evento, questa diventa disponibile per l’utilizzo nei percorsi di account. Impossibile modificare i dettagli. Azioni disponibili: <br/><li>Disponibile per _Ascolta un nodo evento_ percorso<li>Crea versione bozza<li>Elimina (se non in uso) |
+| Pubblicato (con bozza) | Quando crei una bozza da una definizione di evento pubblicata, la versione pubblicata rimane disponibile per l’utilizzo nei percorsi di account e può essere modificata. Se pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e la definizione dell’evento viene aggiornata per i percorsi di account in cui non è ancora stata eseguita. Azioni disponibili: <br/><li>Modifica tutti i dettagli<li>Pubblica versione bozza<li>Elimina versione bozza<li>Elimina (se non in uso) |
 
 ![Ciclo di vita stato frammento](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -106,7 +106,7 @@ Per cercare una definizione di evento per nome, immetti una stringa di testo nel
 
 1. Imposta lo **[!UICONTROL schema]** da utilizzare per la definizione dell&#39;evento.
 
-   Lo schema selezionato determina i campi disponibili da aggiungere alla definizione, che sono quindi disponibili come vincoli per un nodo _Ascolta un evento_ in un percorso di account.
+   Lo schema selezionato determina i campi disponibili da aggiungere alla definizione. I campi aggiunti sono quindi disponibili come vincoli per un nodo _Ascolta un evento_ in un percorso di account.
 
    * Fare clic su **[!UICONTROL Seleziona schema]**.
    * Nella finestra di dialogo, seleziona uno schema dall’elenco degli schemi basati su Experience Event.
@@ -116,7 +116,7 @@ Per cercare una definizione di evento per nome, immetti una stringa di testo nel
 
 1. Selezionare i **[!UICONTROL Tipi di evento]** da utilizzare per la definizione dell&#39;evento.
 
-   I [tipi di evento](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} selezionati determinano gli eventi disponibili come vincoli per un nodo _Ascolta un evento_ in un percorso di account.
+   I [tipi di evento](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} selezionati determinano gli eventi disponibili come vincoli per un nodo _Ascolta un evento_ in un percorso di account.
 
    * Fare clic su **[!UICONTROL Seleziona tipi di evento]**.
    * Nella finestra di dialogo, seleziona uno o più tipi di evento dall’elenco (massimo 20).
@@ -146,7 +146,7 @@ Per cercare una definizione di evento per nome, immetti una stringa di testo nel
 
 ## Pubblicare una definizione di evento
 
-Una volta verificato che la definizione dell’evento bozza è completa e corretta per le tue esigenze, puoi pubblicarla per renderla disponibile per l’utilizzo nei percorsi di account. Dopo la pubblicazione della definizione dell’evento, puoi creare una versione bozza, se devi apportarvi modifiche. Tuttavia, non è possibile modificare lo schema e aggiungere solo tipi di evento e campi (non è possibile eliminarli).
+Una volta verificato che la definizione dell’evento bozza è completa e corretta per le tue esigenze, puoi pubblicarla. La definizione dell’evento pubblicato è quindi disponibile per l’utilizzo nei percorsi di account. Dopo la pubblicazione della definizione dell’evento, puoi creare una versione bozza, se devi apportarvi modifiche. Tuttavia, non è possibile modificare lo schema e aggiungere solo tipi di evento e campi (non è possibile eliminarli).
 
 1. Nel menu di navigazione a sinistra, scegli **[!UICONTROL Amministrazione]** > **[!UICONTROL Configurazione]**.
 
@@ -202,7 +202,7 @@ Segui i passaggi in base allo stato:
 
 1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Pubblica]**.
 
-   Lo stato della definizione dell&#39;evento cambia in _Pubblicato_ ed è ora disponibile per l&#39;utilizzo in percorsi di account.
+   Lo stato della definizione dell&#39;evento cambia in _Pubblicato_ ed è ora disponibile per l&#39;utilizzo nei percorsi di account.
 
 >[!TAB Pubblicato]
 
@@ -218,7 +218,7 @@ Segui i passaggi in base allo stato:
 
 1. Fai clic sul nome della definizione dell’evento per aprirlo.
 
-   Per la definizione di un evento _Pubblicato (con bozza)_, la scheda della versione _[!UICONTROL Pubblicato]_ è selezionata per impostazione predefinita.
+   Per la definizione di un evento _Pubblicato (con bozza)_, la scheda della versione _[!UICONTROL Pubblicato]_ è selezionata come predefinita.
 
 1. Selezionare la scheda della versione **[!UICONTROL Bozza]**.
 
@@ -240,7 +240,7 @@ Segui i passaggi in base allo stato:
 
 >[!TAB Pubblicato (con bozza)]
 
-Quando apri una definizione dell&#39;evento _Pubblicato (con bozza)_, la scheda della versione _[!UICONTROL Pubblicato]_ è selezionata per impostazione predefinita.
+Quando apri una definizione dell&#39;evento _Pubblicato (con bozza)_, la scheda della versione _[!UICONTROL Pubblicato]_ è selezionata come predefinita.
 
 1. Selezionare la scheda della versione **[!UICONTROL Bozza]**.
 
@@ -248,7 +248,7 @@ Quando apri una definizione dell&#39;evento _Pubblicato (con bozza)_, la scheda 
 
 1. Modificare i dettagli modificabili (**[!UICONTROL Descrizione]**, **[!UICONTROL Tipi di evento]** e **[!UICONTROL Campi]**) in base alle esigenze.
 
-   Segui le stesse linee guida utilizzate per [creare una definizione di evento](#create-an-event-definition).
+   Seguire le stesse linee guida utilizzate per [creare una definizione di evento](#create-an-event-definition).
 
    Le modifiche vengono salvate automaticamente nella bozza.
 
