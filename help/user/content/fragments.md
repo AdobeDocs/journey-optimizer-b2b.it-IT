@@ -4,9 +4,9 @@ description: Scopri come creare e utilizzare frammenti di contenuto visivo come 
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: f700f84c55d37ded9980a08286da05011345800c
+source-git-commit: 5e0415268ac3423a6d3004338302b2f756c75a9f
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2736'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Un frammento è un componente riutilizzabile a cui è possibile fare riferimento
 
 **Frammenti visivi**
 
-I frammenti visivi sono blocchi visivi predefiniti creati utilizzando gli strumenti di progettazione visiva che puoi riutilizzare in più e-mail o modelli e-mail. L’ambito corrente di Journey Optimizer B2B edition e di questa documentazione è quello dei soli frammenti visivi.
+I frammenti visivi sono blocchi visivi predefiniti creati utilizzando gli strumenti di progettazione visiva che puoi riutilizzare in più e-mail o modelli e-mail. L’ambito corrente di Journey Optimizer B2B edition e questa documentazione includono solo i frammenti visivi.
 
 >[!NOTE]
 >
@@ -302,7 +302,7 @@ I frammenti sono progettati per il riutilizzo e possono essere inseriti per la c
 
 1. Passa a **[!UICONTROL Percorsi di account]** e apri un percorsi percorso esistente o creane uno nuovo.
 
-1. Crea un nodo [_[!UICONTROL Invia e-mail &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Crea un nodo [_[!UICONTROL Invia e-mail ]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Crea o modifica [contenuto e-mail per il nodo](./email-authoring.md).
 
