@@ -76,7 +76,7 @@ Le impostazioni di spessore definiscono le bande che è possibile assegnare a og
 1. Per ogni fascia di peso, regolare il nome o i valori in base alle proprie esigenze:
 
    * Modificare il nome nel campo _[!UICONTROL Fascia di ponderazione]_.
-   * Immetti un nuovo valore. Puoi anche fare clic su **&amp;plus;** o **−** per aumentare o diminuire il valore.
+   * Immetti un nuovo valore. Puoi anche fare clic su **&plus;** o **−** per aumentare o diminuire il valore.
 
    ![Impostazioni peso coinvolgimento](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
