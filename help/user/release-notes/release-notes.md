@@ -3,9 +3,9 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni e i miglioramenti più recenti di Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: eb8269b481ae7e7a9160f2d17820a81bdcd7f064
+source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2789'
 ht-degree: 92%
 
 ---
@@ -35,7 +35,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | ---- | ---- | ----------- |
 | Funzione | Filtri di punteggio di coinvolgimento della persona per modelli e percorsi di ruoli | È ora possibile utilizzare _Punteggio di coinvolgimento della persona_ come filtro nei modelli di Ruoli utilizzati per la creazione di gruppi di acquisto e nei nodi di percorso con percorso diviso. [Ulteriori informazioni](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Funzione | Configurazione dei ruoli personalizzati dei gruppi di acquisto | Ora puoi configurare ruoli personalizzati per i gruppi di acquisto, per definire i ruoli specifici nei tuoi casi d’uso. [Ulteriori informazioni](../buying-groups/default-custom-roles.md) |
-| Funzione | Configurazione ponderazione punteggio coinvolgimento | Ora puoi assegnare dei pesi alle attività che influenzano il punteggio di coinvolgimento del gruppo di acquisto. Questa funzione include la definizione di modelli di punteggio personalizzati e la modifica del modello attivo che influenza i calcoli del punteggio di coinvolgimento. <!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
+| Funzione | Configurazione ponderazione punteggio coinvolgimento | Ora puoi assegnare dei pesi alle attività che influenzano il punteggio di coinvolgimento del gruppo di acquisto. Questa funzione include la definizione di modelli di punteggio personalizzati e la modifica del modello attivo che influenza i calcoli del punteggio di coinvolgimento. [Ulteriori informazioni](../admin/engagement-score-weighting.md) |
 | Miglioramento | Contenuto condizionale per frammenti | Ora puoi utilizzare gli strumenti di contenuto condizionale per la progettazione di frammenti visivi. [Ulteriori informazioni](../content/conditional-content.md) |
 | Miglioramento | Aggiornamenti dei punteggi di coinvolgimento | La logica del punteggio di coinvolgimento del gruppo di acquisto viene aggiornata per normalizzare i punteggi. Inoltre, puoi utilizzare i punteggi di coinvolgimento a livello di membro, nonché i punteggi di coinvolgimento collettivo per l’intero gruppo di acquisto. [Ulteriori informazioni](../buying-groups/engagement-scores.md) |
 | Miglioramento | Osservabilità attiva del percorso: account in ogni nodo | Per un percorso di account attivo, puoi accedere a un elenco degli account che hanno raggiunto ogni nodo di account nel percorso. |
