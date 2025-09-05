@@ -4,7 +4,7 @@ description: Scopri come configurare la ponderazione del punteggio di coinvolgim
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: 855e06e07fff9223c607bce9adde5ef4f4f6b97b
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 0%
@@ -27,9 +27,11 @@ In qualità di amministratore, puoi definire più modelli di punteggio di coinvo
 
    ![Accedere alle definizioni degli eventi configurate](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   La tabella mostra i modelli aggiornati più di recente nella parte superiore (ordinati per _[!UICONTROL Ultimo aggiornamento]_) e include la possibilità di eseguire ricerche per _[!UICONTROL Nome]_. Puoi personalizzare la tabella visualizzata facendo clic sull&#39;icona _Impostazioni colonna_ ( ![Impostazioni colonna](../assets/do-not-localize/icon-column-settings.svg) ) nell&#39;angolo in alto a destra e selezionando o deselezionando le caselle di controllo della colonna.
+   La tabella mostra i modelli aggiornati più di recente nella parte superiore (ordinati per _[!UICONTROL Ultimo aggiornamento]_) e include la possibilità di eseguire ricerche per _[!UICONTROL Nome]_.
 
-![Colonne da visualizzare nell&#39;elenco di ponderazione dei punteggi di coinvolgimento](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+   Puoi personalizzare la tabella visualizzata facendo clic sull&#39;icona _Impostazioni colonna_ ( ![Impostazioni colonna](../assets/do-not-localize/icon-column-settings.svg) ) nell&#39;angolo in alto a destra e selezionando o deselezionando le caselle di controllo della colonna.
+
+   ![Colonne da visualizzare nell&#39;elenco di ponderazione dei punteggi di coinvolgimento](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
 1. Per accedere ai dettagli di un modello di punteggio di coinvolgimento, fai clic sul nome.
 
@@ -76,7 +78,7 @@ Le impostazioni di spessore definiscono le bande che è possibile assegnare a og
 1. Per ogni fascia di peso, regolare il nome o i valori in base alle proprie esigenze:
 
    * Modificare il nome nel campo _[!UICONTROL Fascia di ponderazione]_.
-   * Immetti un nuovo valore. Puoi anche fare clic su **&plus;** o **−** per aumentare o diminuire il valore.
+   * Immetti un nuovo valore. Puoi anche fare clic su **&amp;plus;** o **−** per aumentare o diminuire il valore.
 
    ![Impostazioni peso coinvolgimento](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
