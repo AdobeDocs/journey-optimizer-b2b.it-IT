@@ -92,7 +92,7 @@ L’Assistente per l’intelligenza artificiale in Journey Optimizer B2B edition
 
 * Per interagire con l&#39;Assistente AI è necessario disporre di autorizzazioni esplicite.
 
-   * Un amministratore può impostare le autorizzazioni utilizzando [Interfaccia utente autorizzazioni](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Un amministratore può impostare le autorizzazioni utilizzando [Interfaccia utente autorizzazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e [Admin Console](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * Le autorizzazioni sono granulari e l’amministratore della sandbox può configurare quali utenti possono porre diverse categorie di domande (domande basate sulla conoscenza del prodotto con l’Assistente AI o domande su informazioni operative).
 
