@@ -1,15 +1,15 @@
 ---
 title: Configurazione della pagina di destinazione
-description: Scopri come accedere e configurare le impostazioni della pagina di destinazione in modo che il team Marketing possa creare e pubblicare pagine web a supporto delle campagne.
+description: Configura i sottodomini della pagina di destinazione, le impostazioni di precompilazione dei moduli e gli stream di dati per abilitare la pubblicazione di pagine web di Campaign in Journey Optimizer B2B edition.
 feature: Setup, Landing Pages, Content
 role: Admin
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 8bd3d696a52a813b88de9e3b58145b1cbfb3fa32
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '506'
 ht-degree: 23%
 
 ---

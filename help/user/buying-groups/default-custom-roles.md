@@ -1,11 +1,12 @@
 ---
 title: Ruoli predefiniti e personalizzati
-description: Scopri i ruoli predefiniti e personalizzati e come definire i ruoli personalizzati da utilizzare nell’acquisto di modelli di ruoli di gruppo.
+description: 'Gestisci i ruoli predefiniti e personalizzati dei gruppi di acquisto: crea, modifica e configura le definizioni dei ruoli in base alle tue esigenze aziendali in Journey Optimizer B2B edition.'
 feature: Buying Groups
 role: User
-source-git-commit: f68d9ed7e1c64d95cba729eba7f11c5d95d0022f
+exl-id: 3981f26e-dcee-4d32-b15f-f8e315457bd6
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '312'
 ht-degree: 2%
 
 ---

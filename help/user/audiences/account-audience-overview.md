@@ -1,13 +1,13 @@
 ---
 title: Tipi di pubblico dell’account
-description: Informazioni sui tipi di pubblico degli account e su come abilitano i percorsi basati su account.
+description: Crea tipi di pubblico per gli account con segmentazione per indirizzare account specifici e abilitare percorsi personalizzati basati su account in Journey Optimizer B2B edition.
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '552'
-ht-degree: 100%
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,7 @@ Definisci il pubblico dell’account creando una segmentazione dell’account. P
 
    L’esempio seguente definisce il pubblico creato con `Country Code`, `Revenue Amount` e `Market segment`. La query in italiano sarebbe: “Forniscimi tutti gli account degli Stati Uniti presenti nel segmento Finanza e i cui ricavi superano 1 milione di euro.”
 
-   ![esempio di generatore segmenti del pubblico dell’account](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
+   ![esempio di generatore di segmenti del pubblico dell’account](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
    <br/>
 
    >[!IMPORTANT]

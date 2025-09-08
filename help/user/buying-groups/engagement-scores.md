@@ -1,13 +1,13 @@
 ---
 title: Punteggi di coinvolgimento per gruppi di acquisto
-description: Scopri come acquistare i punteggi di coinvolgimento di gruppi e persone, inclusa la logica di calcolo e i tipi di attività che determinano il punteggio.
-feature: Buying Groups
+description: Tieni traccia dei punteggi di coinvolgimento di persone e gruppi di acquisto con attività ponderate e calcoli basati sui ruoli in Journey Optimizer B2B edition.
+feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 75a53661fdfbb65e2652f3365f4c1e907f948bd7
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 24%
+source-wordcount: '1251'
+ht-degree: 28%
 
 ---
 
@@ -30,7 +30,7 @@ Esistono due tipi di punteggi di coinvolgimento:
 
 * **Punteggio di coinvolgimento della persona** - Il punteggio di coinvolgimento della persona si basa sulle attività di un singolo membro del gruppo di acquisto.
 
-  Il punteggio di coinvolgimento della persona per ogni membro del gruppo di acquisto viene visualizzato nella pagina dei dettagli del gruppo di acquisto [_[!UICONTROL Membri &#x200B;]_&#x200B;scheda](./buying-group-details.md#buying-group-members). Questi punteggi vengono visualizzati anche nelle pagine e nei dashboard che includono i membri più coinvolti e le informazioni sui contatti sovrapposte.
+  Il punteggio di coinvolgimento della persona per ogni membro del gruppo di acquisto viene visualizzato nella pagina dei dettagli del gruppo di acquisto [_[!UICONTROL Membri ]_scheda](./buying-group-details.md#buying-group-members). Questi punteggi vengono visualizzati anche nelle pagine e nei dashboard che includono i membri più coinvolti e le informazioni sui contatti sovrapposte.
 
   ![Membri del gruppo di acquisto più coinvolti](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -50,7 +50,16 @@ Il punteggio del gruppo di acquisto non è _basato su trigger_. Si tratta di un 
 
 Per ogni attività è presente un limite di frequenza giornaliero di 20. Se un membro di un gruppo di acquisto esegue la stessa attività più di 20 volte in un singolo giorno, il conteggio per l’attività è limitato a 20.
 
-{{engagement-activities}}
+| Nome attività | Descrizione | Tipo di coinvolgimento | Frequenza massima giornaliera | Peso attività modello predefinito |
+|---------------|-------------|-----------------|---------------------------|-------------------------------|
+| Partecipa a un evento | Un membro ha partecipato a un evento | Evento | 20 | 60 |
+| E-mail selezionata | Un membro fa clic su un collegamento in un’e-mail | E-mail | 20 | 30 |
+| E-mail aperta | Un membro apre un’e-mail | E-mail | 20 | 30 |
+| Modulo compilato | Un membro compila e invia un modulo in una pagina web | Web | 20 | 40 |
+| Momento interessante | Un membro ha un momento interessante | Curato | 20 | 60 |
+| Clic sui collegamenti | Un membro fa clic su un collegamento in una pagina web | Web | 20 | 40 |
+| Page Views | Un membro visualizza una pagina web | Web | 20 | 40 |
+| Registrati a un evento | Un membro registrato per un evento | Evento | 20 | 60 |
 
 <!-- old list
 

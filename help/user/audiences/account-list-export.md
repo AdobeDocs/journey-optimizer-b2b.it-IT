@@ -1,13 +1,13 @@
 ---
 title: Esporta account
-description: Scopri come esportare l’elenco account in base al filtro dei gruppi acquisti.
-feature: Account Lists
+description: Esporta elenchi di account filtrati in CSV per piattaforme di terze parti con gruppi di acquisto e filtri di punteggio di coinvolgimento in Journey Optimizer B2B edition.
+feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
-source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 91%
+source-wordcount: '259'
+ht-degree: 83%
 
 ---
 

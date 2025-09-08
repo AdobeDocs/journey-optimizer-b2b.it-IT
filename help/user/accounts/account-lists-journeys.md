@@ -1,12 +1,12 @@
 ---
 title: Utilizzare gli elenchi di account in Percorsi e programmi
-description: Scopri come orchestrare l’iscrizione all’elenco account nei percorsi e filtrare gli elenchi avanzati di Marketo Engage in base all’iscrizione all’elenco account.
+description: Utilizza gli elenchi di account nell’orchestrazione dei percorsi, aggiungi/rimuovi account in modo dinamico e filtra gli elenchi avanzati di Marketo Engage in Journey Optimizer B2B edition.
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Tutti i percorsi di account iniziano con un nodo [_Pubblico account_](../journey
 
 All&#39;interno di un percorso di account, aggiungi account a un elenco di account statico utilizzando [a _Esegui un&#39;azione_ nodo](../journeys/action-nodes.md).
 
-Ad esempio, potresti avere un percorso di percorso in cui invii un’e-mail e alcuni account eseguono varie azioni come azioni di risposta. Consideri questa attività come un punto di qualificazione nel percorso e vuoi aggiungerla a un elenco di account utilizzato come pubblico per un altro percorso con un flusso diverso per gli account qualificati.
+Ad esempio, potresti avere un percorso di percorso in cui invii un’e-mail e alcuni account eseguono varie azioni come azioni di risposta. Consideri questa attività come un punto di qualificazione nel percorso. Con la qualifica, desideri aggiungerli a un elenco di account utilizzato come pubblico per un altro percorso con un flusso diverso per gli account idonei.
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ Ad esempio, potresti avere un percorso di percorso in cui invii un’e-mail e al
 
 All&#39;interno di un percorso di account, rimuovere gli account da un elenco di account statici utilizzando [a _Esegui un&#39;azione_ nodo](../journeys/action-nodes.md).
 
-Ad esempio, potresti avere un percorso di percorso in cui invii un’e-mail e alcuni account eseguono varie azioni come azioni di risposta. Consideri questa attività come un punto di qualificazione nel percorso e vuoi rimuoverla da un elenco di account utilizzato come pubblico per un altro percorso che invia e-mail aggiuntive in modo da non duplicare le comunicazioni di qualificazione.
+Ad esempio, potresti avere un percorso di percorso in cui invii un’e-mail e alcuni account eseguono varie azioni come azioni di risposta. Consideri questa attività come un punto di qualificazione nel percorso. Con questa qualifica, desideri rimuoverli da un elenco di account utilizzato come pubblico per un altro percorso che invia e-mail aggiuntive in modo da non duplicare le comunicazioni di qualifica.
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Ad esempio, potresti avere un percorso di percorso in cui invii un’e-mail e al
 
 In qualità di addetto al marketing, potresti voler eliminare i programmi in Marketo Engage per le persone che fanno parte degli elenchi di account in Journey Optimizer B2B edition.
 
-Nell&#39;istanza di Marketo Engage connessa a Journey Optimizer B2B edition, è possibile utilizzare il filtro _[!UICONTROL Membro dell&#39;elenco account]_ negli elenchi smart per identificare questi lead in base alla strategia della campagna. Per ulteriori informazioni sugli elenchi avanzati, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
+Nell&#39;istanza di Marketo Engage connessa a Journey Optimizer B2B edition, è possibile utilizzare il filtro _[!UICONTROL Membro dell&#39;elenco account]_ negli elenchi smart per identificare questi lead in base alla strategia della campagna. Per ulteriori informazioni sugli elenchi avanzati, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
 
 ### Aggiungere il filtro a un elenco avanzato
 
@@ -95,7 +95,7 @@ Nell&#39;istanza di Marketo Engage connessa a Journey Optimizer B2B edition, è 
 
 1. Nel flusso della campagna, aggiungi il passaggio **[!UICONTROL Aggiungi all&#39;elenco]** e scegli l&#39;elenco in cui desideri popolare le persone dall&#39;elenco degli account di Journey Optimizer B2B edition.
 
-   Per informazioni dettagliate sull&#39;aggiunta di passaggi a un flusso, consulta _[Aggiungere un passaggio di flusso a una campagna avanzata](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ nella documentazione di Marketo Engage.
+   Per informazioni dettagliate sull&#39;aggiunta di passaggi a un flusso, consulta _[Aggiungere un passaggio di flusso a una campagna avanzata](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ nella documentazione di Marketo Engage.
 
 ### Esamina i membri
 

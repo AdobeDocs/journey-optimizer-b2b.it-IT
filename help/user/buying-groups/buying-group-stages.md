@@ -1,10 +1,10 @@
 ---
 title: Stadi del gruppo di acquisto
-description: Scopri come acquistare fasi di percorso e come definirle per monitorare la progressione del gruppo rispetto agli obiettivi di vendita.
+description: Configurare le fasi dei gruppi di acquisto per tenere traccia dell'andamento delle vendite dall'opportunità alla conversione del cliente in Journey Optimizer B2B edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
 source-wordcount: '2344'
 ht-degree: 1%
@@ -128,7 +128,7 @@ Le regole di transizione determinano il modo in cui un gruppo di acquisto può s
 
 Finché il modello di fasi del gruppo di acquisto rimane nello stato _Bozza_, puoi modificare le fasi e le regole di transizione.
 
-_Per visualizzare il modello bozza:_
+_Per visualizzare il modello bozza :_
 
 1. Nel menu di navigazione a sinistra, vai a **[!UICONTROL Account]** > **[!UICONTROL Gruppi di acquisto]**.
 
@@ -365,4 +365,4 @@ Utilizza l’occorrenza di una modifica della fase del gruppo di acquisto per sp
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3448702/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

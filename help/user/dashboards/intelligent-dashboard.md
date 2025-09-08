@@ -1,13 +1,13 @@
 ---
 title: Dashboard intelligente
-description: Scopri Intelligent Dashboard, che fornisce una panoramica completa delle metriche relative ai gruppi di acquisto e agli account
+description: Accedi a informazioni basate sull’intelligenza artificiale per acquistare gruppi e account con metriche di coinvolgimento, rilevamento intento e analisi predittive in Journey Optimizer B2B edition.
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '1688'
-ht-degree: 15%
+source-wordcount: '1679'
+ht-degree: 16%
 
 ---
 
@@ -66,7 +66,7 @@ Fai clic su una barra per ottenere un riepilogo di IA generativo dei gruppi di a
 
 Il riepilogo generato fornisce una panoramica della progressione del gruppo di acquisto in diverse fasi in base alle regole di transizione configurate.
 
-### Periodo temporale {#time-period-stages}
+### Periodo di tempo {#time-period-stages}
 
 Utilizza il filtro delle date in alto a destra per modificare l’intervallo di date per le visualizzazioni dati. Fai clic sulla freccia rivolta verso il basso per impostare un intervallo di date relativo o per impostare date di inizio e fine personalizzate.
 
@@ -130,13 +130,13 @@ Nella parte superiore destra del pannello _Elementi di rilievo del gruppo acquis
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Modifica](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
-* Interesse della soluzione
+* Soluzione di interesse
 * Gruppo acquisti
 * Account
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
-### Periodo temporale {#time-period-bg-highlights}
+### Periodo di tempo {#time-period-bg-highlights}
 
 Utilizza il filtro delle date in alto a destra per modificare l’intervallo di date per le visualizzazioni dati. Fai clic sulla freccia rivolta verso il basso per impostare un intervallo di date relativo o per impostare date di inizio e fine personalizzate.
 
@@ -153,7 +153,7 @@ La sezione _[!UICONTROL Account chirurgici]_ visualizza una visualizzazione degl
 
 >[!NOTE]
 >
->I dati di aumento dell’account sono limitati agli account acquisiti da Journey Optimizer B2B edition in un pubblico di account tramite percorsi di account o gruppi di acquisto.
+>I dati di incremento dell’account includono solo gli account acquisiti da Journey Optimizer B2B edition tramite percorsi di account o gruppi di acquisto.
 
 ![Visualizzazione dati sovraccarico account](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -169,13 +169,13 @@ Fai clic su una barra per ottenere un riepilogo di IA generativo dei conti nella
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Modifica](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
-* Interesse della soluzione
+* Soluzione di interesse
 * Settore
 * Area geografica
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
-### Periodo temporale {#time-period-acct-surge}
+### Periodo di tempo {#time-period-acct-surge}
 
 Utilizza il filtro delle date in alto a destra per modificare l’intervallo di date per le visualizzazioni dati. Fai clic sulla freccia rivolta verso il basso per impostare un intervallo di date relativo o per impostare date di inizio e fine personalizzate.
 
@@ -197,7 +197,7 @@ La sezione _[!UICONTROL Evidenziazioni account]_ è organizzata in due righe per
 
 >[!NOTE]
 >
->I dati di evidenziazione dell’account sono limitati agli account acquisiti da Journey Optimizer B2B edition in un pubblico di account tramite percorsi di account o gruppi di acquisto.
+>I dati di evidenziazione account includono solo gli account acquisiti da Journey Optimizer B2B edition tramite percorsi di account o gruppi di acquisto.
 
 ![Elementi di rilievo dell&#39;account](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
@@ -224,12 +224,12 @@ At the top right of the _Buying group highlights_ panel, click **[!UICONTROL Vie
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
-* Interesse della soluzione
+* Soluzione di interesse
 * Gruppo acquisti
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
-### Periodo temporale {#time-period-acct-highlights}
+### Periodo di tempo {#time-period-acct-highlights}
 
 Utilizza il filtro delle date in alto a destra per modificare l’intervallo di date per le visualizzazioni dati. Fai clic sulla freccia rivolta verso il basso per impostare un intervallo di date relativo o per impostare date di inizio e fine personalizzate.
 
@@ -262,7 +262,7 @@ Fare clic su una cella per visualizzare informazioni dettagliate per i contatti 
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
-* Interesse della soluzione
+* Soluzione di interesse
 * Account
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
@@ -286,7 +286,7 @@ Fai clic su _Informazioni_ ( ![Icona informazioni](../assets/do-not-localize/ico
 
 * Nome del gruppo di acquisto (fare clic sul nome per aprire la pagina dei dettagli del gruppo di acquisto)
 * Ruolo
-* Interesse della soluzione
+* Soluzione di interesse
 * Intento prodotto
 * Prodotto
 
@@ -296,7 +296,7 @@ Fai clic su _Informazioni_ ( ![Icona informazioni](../assets/do-not-localize/ico
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
-* Interesse della soluzione
+* Soluzione di interesse
 * Ruoli
 * Account
 

@@ -1,12 +1,12 @@
 ---
 title: Dettagli account
-description: Scopri come accedere a informazioni dettagliate e riepiloghi generativi sull’intelligenza artificiale per gli account in Journey Optimizer B2B edition.
+description: Visualizza gli approfondimenti dell’account con riepiloghi IA IA, rilevamento intento, analisi della copertura dei contatti e comunicazioni e-mail in Journey Optimizer B2B edition.
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 31c79208503e01964475230ea950eb8bdfadd176
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '639'
 ht-degree: 5%
 
 ---
@@ -66,7 +66,7 @@ Nella sezione _[!UICONTROL Copertura dei contatti]_ viene visualizzato il numero
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
-* Interesse della soluzione
+* Soluzione di interesse
 * Periodo di tempo
 
 ### Sovrapposizione contatti
@@ -78,19 +78,19 @@ Nella sezione _[!UICONTROL Sovrapposizione contatti]_ vengono visualizzati i con
 * Nome
 * Posizione lavorativa
 * Account
-* Interesse della soluzione
+* Soluzione di interesse
 
 Fai clic su _Informazioni_ ( ![Icona informazioni](../assets/do-not-localize/icon-info.svg) ) accanto al nome del contatto per visualizzare una tabella con i dettagli seguenti:
 
 * Gruppo di acquisto (fare clic sul nome per aprire [dettagli gruppo di acquisto](../buying-groups/buying-group-details.md))
 * Ruolo
-* Interesse della soluzione
+* Soluzione di interesse
 * Intento prodotto (se [configurato](../admin/intent-data.md))
 * Prodotto
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare la visualizzazione dei dati utilizzando uno dei seguenti attributi:
 
-* Interesse della soluzione
+* Soluzione di interesse
 * Ruoli
 
 ## Scheda [!UICONTROL Contatti]

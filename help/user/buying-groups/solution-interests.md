@@ -1,17 +1,17 @@
 ---
 title: Interessi soluzione
-description: Scopri gli interessi delle soluzioni e come definirli per l’utilizzo all’interno dei gruppi di acquisto.
+description: Definisci gli interessi della soluzione per identificare i prodotti target e creare automaticamente gruppi di acquisto con modelli di ruolo in Journey Optimizer B2B edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 1280bd6a4a889507fcede73a859e943cbe3c0674
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '720'
 ht-degree: 1%
 
 ---
 
-# Interessi della soluzione
+# Soluzioni di interesse
 
 Prima di creare gruppi di acquisto, è necessario sapere cosa si vende e chi si desidera eseguire il targeting. La tua strategia di marketing e vendita deve essere allineata in modo da poter aggiungere interesse alla soluzione per i gruppi di acquisto.
 
@@ -104,4 +104,4 @@ Qualsiasi interesse di soluzione attualmente in uso da un processo o percorso di
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3450121/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

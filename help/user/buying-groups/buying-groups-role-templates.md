@@ -1,12 +1,12 @@
 ---
 title: Acquisto di modelli di mansione per gruppi
-description: Scopri come definire un modello di ruolo da utilizzare come componente del gruppo di acquisto.
+description: Crea modelli di ruolo per gruppi di acquisto con condizioni di assegnazione automatica per identificare i responsabili decisionali e le parti interessate in Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 6fb15d8d7f67105f4e53c346091798908c8727bd
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1124'
 ht-degree: 3%
 
 ---
@@ -162,4 +162,4 @@ Puoi eliminare un modello di ruoli se si trova nello stato _Bozza_.
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3453309/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

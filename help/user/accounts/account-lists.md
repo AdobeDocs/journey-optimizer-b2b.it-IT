@@ -1,10 +1,10 @@
 ---
 title: Elenchi account
-description: Scopri gli elenchi di account e come utilizzarli per eseguire il targeting degli account tramite percorsi di account.
+description: Creazione di elenchi di account statici e dinamici con filtri personalizzati per l’orchestrazione mirata del percorso e il marketing basato sugli account in Journey Optimizer B2B edition.
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 40d39ba6d3b4844fe928db5cbf3a990d523aadef
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 In Journey Optimizer B2B edition, un elenco di account è una raccolta di account denominati che gli addetti al marketing possono utilizzare per l’orchestrazione del percorso di destinazione. Un elenco di conti può eseguire il targeting dei conti denominati in base a criteri definiti, ad esempio settore, posizione o dimensioni dell’azienda. Esistono due tipi di elenchi di account:
 
 * **Statico** - Con un elenco di account statico, l&#39;elenco cambia solo quando si aggiungono gli account. È possibile aggiungere manualmente account applicando un set di filtri per compilare l&#39;elenco in base ai dati del conto corrente oppure aggiungere e rimuovere account tramite un percorso di account.
-* **Dinamico** - Con un elenco account dinamico, si definisce un set di filtri per la cura automatica dell&#39;elenco. Il sistema utilizza questo set di filtri per aggiungere e rimuovere account in base alle modifiche apportate alle informazioni sull&#39;account. Questa gestione degli elenchi è simile alla [segmentazione del pubblico in Real-time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
+* **Dinamico** - Con un elenco account dinamico, si definisce un set di filtri per la cura automatica dell&#39;elenco. Il sistema utilizza questo set di filtri per aggiungere e rimuovere account in base alle modifiche apportate alle informazioni sull&#39;account. Questa gestione degli elenchi è simile alla [segmentazione del pubblico in Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
 
 Quando un elenco account è nello stato _Live_ (pubblicato), è disponibile per [l&#39;utilizzo in percorsi di account e programmi Marketo Engage](./account-lists-journeys.md).
 
@@ -24,7 +24,7 @@ Quando un elenco account è nello stato _Live_ (pubblicato), è disponibile per 
 
 >[!NOTE]
 >
->Gli elenchi di account sfruttano i dati degli account di Marketo Engage per creare segmenti ed elenchi di account. Ciò significa che se un segmento di account da Adobe Experience Platform non è sincronizzato attivamente in Marketo Engage, gli account in tale segmento di Experience Platform potrebbero non essere disponibili negli elenchi di account di Journey Optimizer B2B edition. Successivamente, qualsiasi persona proveniente da account di segmenti Experience Platform che non sono sincronizzati con Marketo Engage potrebbe non essere inclusa nei conteggi di iscrizione o conteggiata negli eventi trigger.
+>Gli elenchi di account sfruttano i dati degli account di Marketo Engage per creare segmenti ed elenchi di account. Ciò significa che se un segmento di account da Adobe Experience Platform non è sincronizzato attivamente in Marketo Engage, gli account in tale segmento di Experience Platform potrebbero non essere disponibili negli elenchi di account di Journey Optimizer B2B edition. Successivamente, solo le persone provenienti da account nei segmenti di Experience Platform sincronizzati con Marketo Engage vengono incluse nei conteggi di appartenenza alle persone e negli eventi di attivazione.
 
 ## Accedere e sfogliare gli elenchi di account
 
@@ -180,4 +180,4 @@ Lo stato dell&#39;elenco degli account dinamici cambia in _[!UICONTROL Live]_ ed
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3448657/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)

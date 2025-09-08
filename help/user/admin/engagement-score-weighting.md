@@ -1,12 +1,12 @@
 ---
 title: Configurare la ponderazione dei punteggi di coinvolgimento
-description: Scopri come configurare la ponderazione del punteggio di coinvolgimento personalizzato per riflettere la logica di punteggio in linea con le strategie aziendali.
+description: Crea modelli di punteggio di coinvolgimento personalizzati con attività ponderate per misurare con precisione il coinvolgimento e l’intento del gruppo di acquisto in Journey Optimizer B2B edition.
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: 855e06e07fff9223c607bce9adde5ef4f4f6b97b
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Le impostazioni di spessore definiscono le bande che è possibile assegnare a og
 1. Per ogni fascia di peso, regolare il nome o i valori in base alle proprie esigenze:
 
    * Modificare il nome nel campo _[!UICONTROL Fascia di ponderazione]_.
-   * Immetti un nuovo valore. Puoi anche fare clic su **&plus;** o **−** per aumentare o diminuire il valore.
+   * Immetti un nuovo valore. Puoi anche fare clic su **&amp;plus;** o **−** per aumentare o diminuire il valore.
 
    ![Impostazioni peso coinvolgimento](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 

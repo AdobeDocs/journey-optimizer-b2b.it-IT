@@ -1,16 +1,17 @@
 ---
 title: Dettagli della persona
-description: Scopri come accedere a informazioni dettagliate e a un riepilogo dell’intelligenza artificiale generativo per una persona associata a un account o a un gruppo di acquisto in Journey Optimizer B2B edition.
+description: Visualizza le informazioni sulla persona con riepiloghi di IA, punteggi di coinvolgimento, tracciamento delle attività e rilevamento dell’intento per l’acquisto di membri del gruppo in Journey Optimizer B2B edition.
 feature: Account Insights
 role: User
-source-git-commit: 5382bc89903a567268ee06648a8d6b0bf34695a6
+exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 5%
+source-wordcount: '297'
+ht-degree: 6%
 
 ---
 
-# Dettagli della persona
+# Dettagli delle persone
 
 Quando si fa clic sul nome di una persona in un punto qualsiasi di Journey Optimizer B2B edition, viene visualizzata la pagina dei dettagli della persona. Questa pagina include informazioni utili sulla persona associata a un account o a un gruppo di acquisto, tra cui un riepilogo generativo di IA relativo ai dati di evidenziazione e intento (se configurati). <!-- There are also [actions](#person-actions) that you can execute for the person. -->
 

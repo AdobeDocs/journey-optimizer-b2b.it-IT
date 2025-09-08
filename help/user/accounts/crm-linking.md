@@ -1,21 +1,22 @@
 ---
-title: Accesso in-CRM alle pagine dei dettagli
-description: Scopri come i membri del team vendite possono accedere a pagine dettagliate per account, contatti e lead direttamente dal loro strumento di gestione delle relazioni con i clienti (CRM), come Salesforce o Microsoft Dynamics.
+title: Accesso dal CRM alle pagine dei dettagli
+description: Aggiungi collegamenti personalizzati per i dettagli di account e contatto per abilitare l’accesso diretto agli approfondimenti B2B di Journey Optimizer da Salesforce e Dynamics CRM.
 feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
-source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
+exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 0%
+source-wordcount: '1428'
+ht-degree: 1%
 
 ---
 
-# Accesso in-CRM alle pagine dei dettagli
+# Accesso dal CRM alle pagine dei dettagli
 
-Adobe Journey Optimizer B2B edition consente ai membri del team vendite e ai responsabili dell&#39;account di accedere a pagine dettagliate per informazioni sull&#39;account e sul gruppo di acquisto direttamente dallo strumento CRM (Customer Relationship Management), ad esempio Salesforce o Microsoft Dynamics. Grazie a questa integrazione, i rappresentanti commerciali possono accedere rapidamente agli account in tempo reale e a informazioni approfondite sul gruppo di acquisto, come la cronologia del coinvolgimento, i segnali di intento e i consigli generati dall’intelligenza artificiale. Questa funzionalità consente al team di vendita di raggiungere più rapidamente i clienti, definire le priorità in modo più intelligente e allinearsi meglio al reparto marketing.
+Adobe Journey Optimizer B2B edition consente ai membri del team vendite e account di accedere a pagine dettagliate per informazioni sull’account e sul gruppo di acquisto direttamente dallo strumento CRM (Customer Relationship Management), come Salesforce o Microsoft Dynamics. Grazie a questa integrazione, i rappresentanti commerciali possono accedere rapidamente agli account in tempo reale e a informazioni approfondite sul gruppo di acquisto, come la cronologia del coinvolgimento, i segnali di intento e i consigli generati dall’intelligenza artificiale. Questa funzionalità consente al team di vendita di raggiungere più rapidamente i clienti, definire le priorità in modo più intelligente e allinearsi meglio al reparto marketing.
 
-Per consentire ai membri del team vendite di visualizzare [dettagli account](account-details.md) e [dettagli persona](person-details.md) pagine in Journey Optimizer B2B edition dal CRM, l&#39;amministratore di Salesforce o Dynamics può aggiungere un collegamento Journey Optimizer B2B edition dalla visualizzazione account, contatto o lead.
+Per consentire ai membri del team vendite e account di visualizzare [dettagli account](account-details.md) e [dettagli persona](person-details.md) pagine in Journey Optimizer B2B edition dal CRM, l&#39;amministratore di Salesforce o Dynamics può aggiungere un collegamento dalla visualizzazione account, contatto o lead.
 
 Quando un membro del team vendite utilizza il collegamento dell&#39;istanza di gestione delle relazioni con i clienti, la sandbox deve essere _Prod_ e l&#39;organizzazione IMS è determinata in base alla seguente logica ordinata:
 
@@ -91,7 +92,7 @@ Utilizzare l&#39;oggetto `Account` per recuperare l&#39;ID di 18 caratteri dell&
 
 +++
 
-+++Pulsante pagina dettagli
++++Pulsante Pagina dettagli
 
 1. In Salesforce, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Gestione oggetti]** > **[!UICONTROL Account]**/**[!UICONTROL Contatto]**/**[!UICONTROL Lead]** > **[!UICONTROL Pulsanti, collegamenti e azioni]**.
 1. Fai clic su **[!UICONTROL Nuovo pulsante o collegamento]** nell&#39;angolo in alto a destra e crea il pulsante della pagina dei dettagli.
@@ -222,7 +223,7 @@ Se il collegamento non viene visualizzato, provare ad accedere ad Account, Conta
 
 +++
 
-+++Risorsa Web HTML
++++risorsa web HTML
 
 Per aggiungere il collegamento personalizzato come risorsa Web HTML, segui la sequenza di attività riportata di seguito:
 
@@ -319,7 +320,7 @@ Per aggiungere il collegamento personalizzato come risorsa Web HTML, segui la se
 
    ![Risorsa Web](./assets//crm-linking-dynamics-web-resource-form-properties.png){width="500" zoomable="yes"}
 
-   Per informazioni dettagliate sulle proprietà e sulla formattazione delle risorse Web, consultare la [documentazione sulle app per il risparmio di energia](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy).
+   Per informazioni dettagliate sulle proprietà e sulla formattazione delle risorse Web, consulta la [documentazione sulle app per il risparmio di energia](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy).
 
 1. Fai clic su **[!UICONTROL OK]**.
 

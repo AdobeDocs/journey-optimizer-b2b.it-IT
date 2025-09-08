@@ -1,12 +1,12 @@
 ---
 title: Dashboard panoramica del coinvolgimento
-description: Scopri come utilizzare la dashboard Panoramica coinvolgimento per monitorare le attività di coinvolgimento.
+description: Monitora le metriche di coinvolgimento in tempo reale per account, gruppi di acquisto e persone con grafici interattivi e analisi delle tendenze in Journey Optimizer B2B edition.
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '549'
 ht-degree: 6%
 
 ---
@@ -51,7 +51,7 @@ Per l&#39;intervallo **[!UICONTROL Personalizzato]**, è possibile utilizzare lo
 
 Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare i dati visualizzati utilizzando uno dei seguenti attributi:
 
-* Interesse della soluzione
+* Soluzione di interesse
 * Tipo di coinvolgimento
 * Area geografica
 * Settore
@@ -77,7 +77,7 @@ Vengono riportati i filtri globali (intervallo di dati e attributi) applicati al
 
 | Coinvolgimento per account | Coinvolgimento per gruppi acquisti | Coinvolgimento per persone |
 | ---------------------- | --------------------------- | -------------------- |
-| <li>Nome account <li>Stato <li>Persone impegnate (numero)<li>Attività di coinvolgimento (numero) <li>Ultimo coinvolgimento (data) | <li>Gruppo acquisti <li>Account <li>Interesse della soluzione <li>Stato <li>Attività di coinvolgimento (numero) | <li>Nome <li>Stato <li>E-mail (indirizzo) <li>Attività di coinvolgimento (numero) <li>Ultimo impegno (data) |
+| <li>Nome account <li>Stato <li>Persone impegnate (numero)<li>Attività di coinvolgimento (numero) <li>Ultimo coinvolgimento (data) | <li>Gruppo acquisti <li>Account <li>Soluzione di interesse <li>Stato <li>Attività di coinvolgimento (numero) | <li>Nome <li>Stato <li>E-mail (indirizzo) <li>Attività di coinvolgimento (numero) <li>Ultimo impegno (data) |
 
 Puoi fare clic sull&#39;icona del menu **...** in alto a destra e scegliere **[!UICONTROL Visualizza altro]** per [visualizzare dati e approfondimenti estesi](#view-more).
 

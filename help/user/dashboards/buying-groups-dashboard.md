@@ -1,12 +1,12 @@
 ---
 title: Dashboard panoramica dei gruppi di acquisto
-description: Scopri la dashboard Panoramica dei gruppi di acquisto e come consente il Sales Handoff dal team Marketing.
+description: Tieni traccia dell’avanzamento del gruppo di acquisto con punteggi di completamento, metriche di coinvolgimento e analisi di interesse per la soluzione, per favorire il trasferimento delle vendite in Journey Optimizer B2B edition.
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '588'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/ico
 * Fase corrente
 * Settore
 * Area geografica
-* Interesse della soluzione
+* Soluzione di interesse
 
 ![Filtra i dati visualizzati per attributi](./assets/buying-group-overview-filters.png){width="500"}
 

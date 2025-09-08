@@ -1,12 +1,12 @@
 ---
 title: Dettagli gruppo di acquisto
-description: Scopri come accedere a informazioni dettagliate e riepiloghi generativi sull’intelligenza artificiale per i gruppi di acquisto in Journey Optimizer B2B edition.
+description: Visualizza i dettagli del gruppo di acquisto con informazioni su AI, gestisci i membri e tieni traccia dei punteggi di coinvolgimento in Journey Optimizer B2B edition.
 feature: Buying Groups, Intelligent Insights
 role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: 65c7bdcc998c604125442fbd0a65c2f8ebd3255d
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '780'
 ht-degree: 4%
 
 ---

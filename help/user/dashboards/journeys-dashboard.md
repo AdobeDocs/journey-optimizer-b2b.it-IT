@@ -1,12 +1,12 @@
 ---
 title: Dashboard panoramica dei Percorsi di account
-description: Scopri le informazioni fornite dal dashboard Panoramica Percorso e come possono essere utili per monitorare e gestire la strategia di percorso dell’account.
+description: Monitora le prestazioni del percorso dell’account con tassi di completamento, metriche di coinvolgimento e analisi dell’efficacia dei canali in Journey Optimizer B2B edition.
 feature: Dashboards, Account Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '367'
 ht-degree: 2%
 
 ---
