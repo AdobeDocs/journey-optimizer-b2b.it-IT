@@ -9,10 +9,11 @@ keywords: Temi e-mail, Riutilizzabilità, Allineamento marchio, Progettazione e-
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 9d8aa70c23ce85058a23bbe21c198d6e074923ac
+exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
+source-git-commit: d27a72089e28d0c69ed267e4d9fba3ef44a73542
 workflow-type: tm+mt
 source-wordcount: '3085'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -20,8 +21,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
->title="Applicare un tema del brand al modello e-mail o e-mail"
->abstract="Seleziona un tema per l’e-mail o il modello e-mail per applicare uno stile specifico che si adatti al tuo marchio e design."
+>title="Applicare un tema del brand a e-mail o modelli di e-mail"
+>abstract="Seleziona un tema per per applicare a un’e-mail o a un modello e-mail uno stile specifico in linea con il brand e la progettazione grafica."
 
 Con i temi, i designer non tecnici hanno la possibilità di creare linee guida per la progettazione di contenuti e-mail riutilizzabili, in linea con un marchio e uno stile specifici. I temi consentono agli addetti al marketing di sfruttare le e-mail visivamente accattivanti e coerenti con il brand in modo più rapido e con meno sforzo, e di fornire opzioni di personalizzazione avanzate per esigenze di progettazione univoche.
 

@@ -3,13 +3,13 @@ title: Punteggi di coinvolgimento per gruppi di acquisto
 description: Scopri come acquistare i punteggi di coinvolgimento di gruppi e persone, inclusa la logica di calcolo e i tipi di attività che determinano il punteggio.
 feature: Buying Groups
 role: User
-source-git-commit: 9a70cdf73585a1d55cc973046d91fe15c7e80a02
+exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
+source-git-commit: 75a53661fdfbb65e2652f3365f4c1e907f948bd7
 workflow-type: tm+mt
 source-wordcount: '1139'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
-
 
 # Punteggi di coinvolgimento {#engagement-scores}
 
@@ -30,7 +30,7 @@ Esistono due tipi di punteggi di coinvolgimento:
 
 * **Punteggio di coinvolgimento della persona** - Il punteggio di coinvolgimento della persona si basa sulle attività di un singolo membro del gruppo di acquisto.
 
-  Il punteggio di coinvolgimento della persona per ogni membro del gruppo di acquisto viene visualizzato nella pagina dei dettagli del gruppo di acquisto [_[!UICONTROL Membri &#x200B;]_&#x200B;scheda](./buying-group-details.md#buying-group-members). Questi punteggi vengono visualizzati anche nelle pagine e nei dashboard che includono i membri più coinvolti e le informazioni sui contatti sovrapposte.
+  Il punteggio di coinvolgimento della persona per ogni membro del gruppo di acquisto viene visualizzato nella pagina dei dettagli del gruppo di acquisto [_[!UICONTROL Membri ]_scheda](./buying-group-details.md#buying-group-members). Questi punteggi vengono visualizzati anche nelle pagine e nei dashboard che includono i membri più coinvolti e le informazioni sui contatti sovrapposte.
 
   ![Membri del gruppo di acquisto più coinvolti](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -96,12 +96,12 @@ Per ogni attività è presente un limite di frequenza giornaliero di 20. Se un m
 >
 >Le attività con punteggio di coinvolgimento vengono registrate nel registro attività di Marketo Engage per una persona. Puoi accedere a questo registro nell’istanza di Marketo Engage connessa. Per ulteriori informazioni, vedere [Individuare il registro attività per una persona](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} nella documentazione di Marketo Engage.
 
-## Ponderazione modello ruolo {#engagement-score-weighting}
+## Ponderazione basata su modello ruolo {#engagement-score-weighting}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score_weighting"
->title="Ponderazione ruolo punteggio di coinvolgimento"
->abstract="Utilizza la ponderazione dei ruoli per personalizzare il calcolo del punteggio di coinvolgimento."
+>title="Ponderazione basata su ruolo per punteggio di coinvolgimento"
+>abstract="Utilizza la ponderazione basata sul ruolo per personalizzare il calcolo del punteggio di coinvolgimento."
 
 Gli utenti possono assegnare _ponderazione_ a ogni ruolo nel modello [ruoli](./buying-groups-role-templates.md) per allocare ponderazioni diverse per un ruolo.
 
