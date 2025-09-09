@@ -25,7 +25,7 @@ Quando accedi a Adobe Experience Platform e selezioni l’app Adobe Journey Opti
 
 ![Pagina Home di Journey Optimizer B2B Edition](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition ha due utenti tipo principali: un _**addetto marketing**_ e un _**amministratore**_. Ogni utente tipo ha una pagina Home specifica per diverse fasi di maturità (nuove o avanzate). Il contenuto della pagina è basato su ciò di cui ogni utente ha bisogno in termini di informazioni e di azioni successive da intraprendere.
+Journey Optimizer B2B Edition ha due utenti tipo principali: un _&#x200B;**addetto marketing**&#x200B;_ e un _&#x200B;**amministratore**&#x200B;_. Ogni utente tipo ha una pagina Home specifica per diverse fasi di maturità (nuove o avanzate). Il contenuto della pagina è basato su ciò di cui ogni utente ha bisogno in termini di informazioni e di azioni successive da intraprendere.
 
 * **Addetto marketing - nuovo utente** - La home page _Addetto marketing_ per un nuovo utente consente di abituarsi a Journey Optimizer B2B e alle relative funzionalità. Include una descrizione dettagliata guidata che consente al nuovo addetto marketing di ottenere una descrizione dettagliata per l’onboarding, in modo che possa comprendere le sfumature del sistema e diventare efficiente nello sviluppo di strategie e iniziative di marketing B2B.
 * **Addetto marketing - utente avanzato** - Nella home page di _Addetto marketing_ per un addetto marketing avanzato vengono visualizzati lo stato di avanzamento dell&#39;iniziativa corrente, le azioni successive consigliate e l&#39;accesso rapido alle sezioni rilevanti.
