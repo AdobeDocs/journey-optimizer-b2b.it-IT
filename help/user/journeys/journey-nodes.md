@@ -1,14 +1,14 @@
 ---
 title: Nodi Percorso account
-description: Scopri i tipi di nodo che puoi utilizzare per creare i tuoi percorsi di account in Journey Optimizer B2B edition.
+description: Crea percorsi di account con nodi di azione, evento e orchestrazione (audience, wait, split e merge) per il marketing cross-channel in Journey Optimizer B2B edition.
 feature: Account Journeys
 hide: true
 hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 9438b1472df38eddc3e1fa6cd5bc3992af0c9eec
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 2%
+source-wordcount: '114'
+ht-degree: 12%
 
 ---
 
@@ -19,8 +19,8 @@ Dopo aver [creato un percorso di account](journey-overview.md#create-an-account-
 Crea il tuo percorso di account combinando i diversi nodi di azione, evento e orchestrazione come uno scenario multi-passaggio cross-channel. Ogni nodo di un percorso rappresenta un passo lungo un percorso logico. Utilizza i seguenti tipi di nodo per creare un percorso di account:
 
 * [Pubblico dell’account](./account-audience-nodes.md)
-* [Esegui un&#39;azione](./action-nodes.md)
-* [Ascolta un evento](./listen-for-event-nodes.md)
-* [Dividere i percorsi](./split-merge-paths-nodes.md)
+* [Intraprendere un’azione](./action-nodes.md)
+* [Ascoltare un evento](./listen-for-event-nodes.md)
+* [Suddividi percorsi](./split-merge-paths-nodes.md)
 * [Attendere](./wait-nodes.md)
 * [Unisci percorsi](./split-merge-paths-nodes.md)

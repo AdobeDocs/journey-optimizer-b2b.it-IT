@@ -1,12 +1,12 @@
 ---
 title: E-mail avviso vendite
-description: Scopri come includere un’e-mail di avviso automatico sulle vendite nei percorsi del tuo account.
+description: Configura le e-mail di avviso sulle vendite nei percorsi di account per inviare una notifica ai team di vendita, inclusi i riepiloghi dei gruppi di acquisto, informazioni sull’intelligenza artificiale e dettagli dei membri in Journey Optimizer B2B edition.
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '533'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ In qualità di addetto al marketing, puoi configurare un nodo e-mail di avviso s
 |   | Nome account | Nome dell’account. |
 |   | Punteggio di coinvolgimento | Punteggio di coinvolgimento del gruppo di acquisto, in base alle attività di coinvolgimento attive negli ultimi 30 giorni. |
 |   | Punteggio di completezza | Punteggio di completezza del gruppo di acquisto. |
-|   | Interesse della soluzione | Interesse della soluzione collegato al gruppo di acquisto |
+|   | Soluzione di interesse | Interesse della soluzione collegato al gruppo di acquisto |
 |   | Stato | Stato del gruppo di acquisto. |
 | Punti salienti del gruppo acquisti | Membri principali coinvolti | Membri principali coinvolti del gruppo di acquisto per punteggio e ruolo del coinvolgimento dei membri del gruppo di acquisto. |
 |   | Argomento di interesse | Parole chiave più frequenti che si verificano nel coinvolgimento dei contenuti, in base a e-mail, download, chat, revisione PDF, riepilogo delle attività e domande sui webinar. |
@@ -65,4 +65,4 @@ Puoi impostare le consegne e-mail per gli avvisi di vendita in un percorso di ac
 
    ![Crea nuova finestra di dialogo e-mail](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   Dopo la pubblicazione del percorso dell’account, l’avviso di vendita viene inviato in base a questi parametri.
+   Quando il percorso dell’account è attivo, l’avviso di vendita viene consegnato in base a questi parametri.

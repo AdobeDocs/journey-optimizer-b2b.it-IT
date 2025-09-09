@@ -1,13 +1,13 @@
 ---
 title: Progettazione pagina di destinazione
-description: Scopri come progettare e creare contenuti per le pagine di destinazione che supportano percorsi di account e campagne.
+description: 'Progettare pagine di destinazione con strumenti visivi: aggiungi componenti di contenuto, moduli, CSS personalizzati, personalizzazione e anteprima del dispositivo per percorsi di account in Journey Optimizer B2B edition.'
 feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '381'
 ht-degree: 3%
 
 ---

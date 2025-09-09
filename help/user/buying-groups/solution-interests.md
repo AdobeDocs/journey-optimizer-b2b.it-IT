@@ -1,12 +1,12 @@
 ---
 title: Interessi soluzione
-description: Definisci gli interessi della soluzione per identificare i prodotti target e creare automaticamente gruppi di acquisto con modelli di ruolo in Journey Optimizer B2B edition.
+description: Crea interessi per la soluzione per i prodotti di destinazione, automatizza la creazione di gruppi di acquisto con modelli di ruolo e gestisci la progressione della fase in Journey Optimizer B2B edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '722'
 ht-degree: 1%
 
 ---
@@ -104,4 +104,4 @@ Qualsiasi interesse di soluzione attualmente in uso da un processo o percorso di
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3450121/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

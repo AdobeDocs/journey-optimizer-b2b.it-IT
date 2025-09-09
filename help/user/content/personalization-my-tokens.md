@@ -1,12 +1,12 @@
 ---
 title: Token personalizzati per E-mail Personalization
-description: Scopri come utilizzare un set di token definito per un percorso di account per gestire la personalizzazione nel contenuto delle e-mail.
+description: 'Creazione e gestione di token personalizzati per la personalizzazione dinamica dei messaggi e-mail: definisci le variabili di testo e numero per i percorsi di account in Journey Optimizer B2B edition.'
 feature: Personalization, Content, Email Authoring
 role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '603'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ I _Token personali_ sono variabili personalizzate create o modificate per un per
 
 Quando aggiungi un token personalizzato a un&#39;e-mail, questo viene visualizzato come `{{my.TokenName}}`. Ad esempio, potresti avere `{{my.EventDate}}` o `{{my.WebinarSpeaker}}` token creati per gestire il contenuto delle e-mail relative ai prossimi webinar.
 
-_Per accedere ai token personalizzati per un percorso di account:_
+_Per accedere ai token personalizzati per un percorso di account :_
 
 1. Aprire il percorso di conti provvisori.
 

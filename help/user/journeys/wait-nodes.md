@@ -1,12 +1,12 @@
 ---
 title: Nodi di attesa
-description: Scopri il tipo di nodo Attendi che puoi utilizzare per orchestrare i percorsi di account in Journey Optimizer B2B edition.
+description: Aggiungi nodi di attesa per mettere in pausa la progressione del percorso con durata relativa o date specifiche per la tempistica strategica in Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Esistono due modi per definire il tempo di attesa:
 * Una durata relativa (numero di minuti, ore, giorni, settimane o mesi)
 * Data specifica in cui si desidera passare al nodo successivo nel percorso
 
-_Per definire un nodo di attesa per il percorso di account:_
+_Per definire un nodo di attesa per il percorso di account :_
 
 1. Passa alla mappa del percorso.
 

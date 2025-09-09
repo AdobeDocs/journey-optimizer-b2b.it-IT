@@ -1,17 +1,17 @@
 ---
-title: Assistente AI per l’authoring di e-mail
-description: Scopri come utilizzare AI Assistant per ottimizzare il contenuto delle e-mail utilizzate nei Percorsi di account.
+title: Assistente AI per la generazione di contenuti e-mail
+description: 'Genera contenuti e-mail con AI Assistant: crea contenuti dei messaggi, righe dell’oggetto e intestazioni anticipate con le risorse del brand e il targeting del ruolo di gruppo di acquisto in Journey Optimizer B2B edition.'
 feature: AI Assistant, Email Authoring, Content
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '3072'
+source-wordcount: '3089'
 ht-degree: 0%
 
 ---
 
-# Assistente IA per l’authoring delle e-mail
+# Assistente AI per la generazione di contenuti e-mail
 
 Con l&#39;aumento della competitività del settore Marketing, i marchi sono alla ricerca di metodi efficienti per generare contenuti di forte impatto in modo rapido ed efficiente. L’Assistente AI per l’authoring delle e-mail in Adobe Journey Optimizer B2B edition è la funzionalità di generazione di contenuti basata sull’intelligenza artificiale di Adobe che rivoluziona il modo in cui i professionisti del marketing creano contenuti e-mail professionali e coerenti con il brand. Con modelli GenAI avanzati e una profonda comprensione delle linee guida del brand, AI Assistant genera automaticamente contenuti personalizzati, coinvolgenti ed efficaci in base all’obiettivo di marketing, con contenuti ottimizzati per stili, layout, toni e altro ancora delineati dal brand. Ai Assistant rende la creazione e l’esecuzione di campagne di e-mail marketing intuitiva, semplice e senza problemi. L’aggiunta di questa funzionalità ai flussi di lavoro consente di risparmiare tempo, migliorare l’efficienza e ottenere risultati migliori.
 
@@ -204,11 +204,11 @@ Un preheader e-mail è il breve testo di riepilogo che segue la riga dell’ogge
 
 Dopo aver [creato e personalizzato l&#39;e-mail](./email-authoring.md), utilizza l&#39;Assistente per l&#39;intelligenza artificiale in Adobe Journey Optimizer B2B edition, basato sull&#39;intelligenza artificiale generativa, per elevare il contenuto del corpo dell&#39;e-mail al livello successivo.
 
-Nella finestra di progettazione e-mail, l’Assistente AI può aiutarti a ottimizzare l’impatto delle consegne generando l’intero corpo dell’e-mail, il contenuto di testo mirato e i consigli per le immagini che risuonano con il tuo pubblico. Questa ottimizzazione delle campagne e-mail è progettata per produrre un coinvolgimento migliore.
+Nell’area di progettazione delle e-mail, l’Assistente AI può aiutarti a ottimizzare l’impatto delle consegne generando l’intero corpo dell’e-mail, il contenuto di testo mirato e i consigli per le immagini che risuonano con il tuo pubblico. Questa ottimizzazione delle campagne e-mail è progettata per produrre un coinvolgimento migliore.
 
 1. Crea un&#39;e-mail da un percorso di account e fai clic su **[!UICONTROL Apri Designer e-mail]** o **[!UICONTROL Aggiungi contenuto e-mail]**.
 
-1. Seleziona e apri un modello e-mail nel designer e-mail visivo.
+1. Seleziona e apri un modello e-mail nello spazio di progettazione dell’e-mail visiva.
 
 1. Personalizza l’e-mail in base alle esigenze per il nodo del percorso.
 
@@ -220,7 +220,7 @@ Nella finestra di progettazione e-mail, l’Assistente AI può aiutarti a ottimi
 
 I passaggi seguenti descrivono la sequenza di attività per l’utilizzo dell’Assistente IA per perfezionare un modello e-mail esistente:
 
-1. Nella finestra di progettazione e-mail, accedi al menu Assistente AI facendo clic sull&#39;icona ( ![Attivazione/disattivazione del menu Assistente AI](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) a destra.
+1. Nell&#39;area di progettazione delle e-mail, accedi al menu Assistente AI facendo clic sull&#39;icona ( ![Attiva/Disattiva il menu Assistente AI](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) a destra.
 
    ![Attivazione/disattivazione dell&#39;Assistente IA nella finestra di progettazione e-mail](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -259,15 +259,15 @@ I passaggi seguenti descrivono la sequenza di attività per l’utilizzo dell’
 
      ![Assistente AI - Impostazioni testo](./assets/email-designer-ai-assistant-feedback.png){width="600" zoomable="yes"}
 
-1. Fai clic su **[!UICONTROL Seleziona]** per sostituire il contenuto del modello con la variante selezionata e tornare alla finestra di progettazione e-mail.
+1. Fai clic su **[!UICONTROL Seleziona]** per sostituire il contenuto del modello con la variante selezionata e tornare allo spazio di progettazione delle e-mail.
 
-   Nella finestra di progettazione e-mail, puoi utilizzare gli strumenti di modifica e formattazione nell&#39;area di lavoro per modificare il contenuto, nonché le opzioni _[!UICONTROL Impostazioni]_ e _[!UICONTROL Stile]_ a destra.
+   Nello spazio di progettazione delle e-mail, puoi utilizzare gli strumenti di modifica e formattazione nell&#39;area di lavoro per modificare il contenuto, nonché le opzioni _[!UICONTROL Impostazioni]_ e _[!UICONTROL Stile]_ a destra.
 
 >[!TAB Generazione testo]
 
 I passaggi seguenti descrivono la sequenza di attività per l’utilizzo dell’Assistente IA per perfezionare o migliorare il contenuto testuale di un’e-mail esistente:
 
-1. Nella finestra di progettazione e-mail, accedi al menu Assistente AI facendo clic sull&#39;icona ( ![Attivazione/disattivazione del menu Assistente AI](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) a destra.
+1. Nell&#39;area di progettazione delle e-mail, accedi al menu Assistente AI facendo clic sull&#39;icona ( ![Attiva/Disattiva il menu Assistente AI](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) a destra.
 
    ![Attivazione/disattivazione dell&#39;Assistente IA nella finestra di progettazione e-mail](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -315,9 +315,9 @@ I passaggi seguenti descrivono la sequenza di attività per l’utilizzo dell’
 
    ![Anteprima dell&#39;Assistente IA delle opzioni di variazione e perfezionamento del testo](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
 
-1. Quando hai il contenuto desiderato, fai clic su **[!UICONTROL Seleziona]** per sostituire il testo con la variante selezionata e tornare alla finestra di progettazione e-mail.
+1. Quando hai il contenuto desiderato, fai clic su **[!UICONTROL Seleziona]** per sostituire il testo con la variante selezionata e tornare allo spazio di progettazione delle e-mail.
 
-   Nella finestra di progettazione e-mail, puoi utilizzare gli strumenti di modifica e formattazione nell&#39;area di lavoro per modificare il testo, nonché le opzioni _[!UICONTROL Impostazioni]_ e _[!UICONTROL Stile]_ a destra.
+   Nello spazio di progettazione delle e-mail, puoi utilizzare gli strumenti di modifica e formattazione nell&#39;area di lavoro per modificare il testo, nonché le opzioni _[!UICONTROL Impostazioni]_ e _[!UICONTROL Stile]_ a destra.
 
 >[!TAB Consigli per le immagini]
 
@@ -345,7 +345,7 @@ Puoi utilizzare l’Assistente AI per ottimizzare e migliorare le risorse e gara
 
 1. Utilizza le impostazioni immagine per perfezionare la richiesta:
 
-   * **[!UICONTROL Proporzioni]** - Questa impostazione determina la larghezza e l&#39;altezza della risorsa. È possibile scegliere tra rapporti comuni, ad esempio 16:9, 4:3, 3:2 o 1:1, oppure immettere una dimensione personalizzata.
+   * **[!UICONTROL Proporzioni]** - Questa impostazione determina la larghezza e l&#39;altezza della risorsa. È possibile scegliere tra rapporti comuni quali 16:9, 4:3, 3:2 o 1:1 oppure immettere una dimensione personalizzata.
    * **[!UICONTROL Colore e tono]** - Questa impostazione influenza l&#39;aspetto complessivo dei colori all&#39;interno di un&#39;immagine e l&#39;umore o l&#39;atmosfera che trasmette.
    * **[!UICONTROL Tipo di contenuto]** - Questa impostazione categorizza la natura dell&#39;elemento visivo, distinguendo tra diverse forme di rappresentazione visiva, ad esempio foto, grafica o grafica.
    * **[!UICONTROL Illuminazione]** - Questa impostazione regola il fulmine presente in un&#39;immagine, che ne determina la forma dell&#39;atmosfera ed evidenzia elementi specifici.
@@ -363,8 +363,8 @@ Puoi utilizzare l’Assistente AI per ottimizzare e migliorare le risorse e gara
 
    Per visualizzare una versione a schermo intero della variante selezionata, fare clic su **[!UICONTROL Anteprima]**.
 
-1. Evidenzia l&#39;immagine desiderata e fai clic su **[!UICONTROL Seleziona]** per sostituire l&#39;immagine o il segnaposto con l&#39;elemento selezionato e tornare alla finestra di progettazione e-mail.
+1. Evidenzia l&#39;immagine desiderata e fai clic su **[!UICONTROL Seleziona]** per sostituire l&#39;immagine o il segnaposto con l&#39;elemento selezionato e tornare allo spazio di progettazione e-mail.
 
-   Nella finestra di progettazione e-mail, puoi utilizzare gli strumenti di modifica e formattazione nell&#39;area di lavoro per modificare il contenuto, nonché le opzioni _[!UICONTROL Impostazioni]_ e _[!UICONTROL Stile]_ a destra.
+   Nello spazio di progettazione delle e-mail, puoi utilizzare gli strumenti di modifica e formattazione nell&#39;area di lavoro per modificare il contenuto, nonché le opzioni _[!UICONTROL Impostazioni]_ e _[!UICONTROL Stile]_ a destra.
 
 >[!ENDTABS]

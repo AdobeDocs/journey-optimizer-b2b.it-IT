@@ -1,13 +1,13 @@
 ---
 title: Guida all’onboarding per amministratori e marketer
-description: In qualità di nuovo amministratore o utente di Journey Optimizer B2B Edition, scopri le aree chiave per iniziare il processo di onboarding.
+description: 'Guida all’onboarding per amministratori e addetti al marketing: configurazione di sandbox e canali, creazione di percorsi di acquisto e progettazione di account in Journey Optimizer B2B edition.'
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
-workflow-type: ht
-source-wordcount: '713'
-ht-degree: 100%
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 96%
 
 ---
 

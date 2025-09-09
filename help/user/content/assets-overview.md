@@ -1,21 +1,21 @@
 ---
 title: Risorse
-description: Scopri la gestione risorse in Journey Optimizer B2B Edition.
+description: Gestisci le risorse immagine da Marketo Engage Design Studio e AEM Assets per e-mail, modelli e frammenti in Journey Optimizer B2B edition.
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: ea2093b03ba89f9e8d3f0db60b65cb143603c217
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 48%
+source-wordcount: '883'
+ht-degree: 46%
 
 ---
 
 # Risorse
 
-In [!DNL Adobe Journey Optimizer B2B Edition], le risorse sono in genere le immagini utilizzate durante la progettazione del contenuto per supportare i percorsi di account. Puoi utilizzare queste immagini nelle e-mail, nei modelli e nei frammenti tramite un selettore di risorse o una semplice interfaccia a trascinamento all’interno dello spazio di progettazione visiva.
+In [!DNL Adobe Journey Optimizer B2B Edition], le risorse sono in genere le immagini utilizzate durante la progettazione del contenuto per supportare i percorsi di account. Puoi utilizzare queste immagini nelle e-mail, nei modelli e nei frammenti di e-mail dal selettore delle risorse o da una semplice interfaccia a trascinamento all’interno dello spazio di progettazione visiva.
 
-[!DNL Journey Optimizer B2B Edition] offre agli addetti al marketing l&#39;accesso a due tipi di librerie di risorse: [!DNL Adobe Marketo Engage] [!DNL Design Studio] e [!DNL Adobe Experience Manager Assets as a Cloud Service]. È possibile utilizzare solo Adobe Marketo Engage Design Studio oppure entrambe le librerie configurate contemporaneamente (in base alla licenza [!DNL Experience Manager Assets] di cui si dispone).
+[!DNL Journey Optimizer B2B Edition] offre agli addetti al marketing l&#39;accesso a due tipi di librerie di risorse: [!DNL Adobe Marketo Engage] [!DNL Design Studio] e [!DNL Adobe Experience Manager Assets as a Cloud Service]. È possibile utilizzare solo Adobe Marketo Engage Design Studio oppure entrambe le librerie configurate contemporaneamente (in base alla licenza di [!DNL Experience Manager Assets] disponibile).
 
 ## Gestione risorse
 

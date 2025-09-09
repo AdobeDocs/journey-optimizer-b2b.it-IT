@@ -1,13 +1,13 @@
 ---
 title: Percorsi account
-description: Inizia a usare i percorsi account e scopri come gestirli utilizzando l’elenco Percorsi account.
+description: 'Semplifica la generazione della domanda con i percorsi di account: crea, pubblica, gestisci il coinvolgimento dei gruppi di acquisto tramite e-mail, SMS ed eventi in Journey Optimizer B2B edition.'
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: a67ab8268676050f0c5f34b94d4aebfd46aaf601
-workflow-type: ht
-source-wordcount: '1027'
-ht-degree: 100%
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 97%
 
 ---
 
@@ -157,4 +157,4 @@ Utilizza un’azione di eliminazione per eliminare definitivamente un percorso. 
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443215/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

@@ -1,12 +1,12 @@
 ---
 title: Dettagli percorsi
-description: Scopri le informazioni fornite dalla pagina dei dettagli del percorso e come possono aiutarti a monitorare e gestire il percorso di account pubblicato.
+description: Monitora le prestazioni del percorso di account con tassi di completamento, metriche di coinvolgimento, analisi e-mail/SMS e approfondimenti sull’intelligenza artificiale in Journey Optimizer B2B edition.
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---

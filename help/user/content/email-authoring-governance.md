@@ -1,19 +1,19 @@
 ---
 title: Autore da un modello gestito
-description: Scopri come utilizzare l’authoring delle e-mail con un modello gestito che contiene componenti di contenuto bloccati.
+description: 'Creazione di e-mail da modelli governati con contenuto bloccato: identifica le aree modificabili e lavora entro i vincoli di governance in Journey Optimizer B2B edition.'
 feature: Email Authoring, Content
 role: User
 exl-id: 1af996a6-a010-4899-96e9-bad76f93865c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '277'
 ht-degree: 1%
 
 ---
 
 # Autore da un modello gestito
 
-I progettisti di contenuti possono abilitare [la governance (_il blocco del contenuto_)](./template-content-governance.md) durante la creazione di modelli di posta elettronica. Le funzioni di governance consentono di designare le parti della progettazione che non possono essere modificate quando vengono utilizzate in un percorso di conti. Quando [selezioni un modello salvato](./email-authoring.md#select-a-template) per creare un&#39;e-mail, la finestra di progettazione visiva carica il modello in modo che tu possa utilizzarlo come base per l&#39;e-mail.
+I progettisti di contenuti possono abilitare [la governance (_il blocco del contenuto_)](./template-content-governance.md) durante la creazione di modelli di posta elettronica. Le funzioni di governance consentono di designare le parti della progettazione che non possono essere modificate quando vengono utilizzate in un percorso di conti. Quando [selezioni un modello salvato](./email-authoring.md#select-a-template) per creare un&#39;e-mail, lo spazio di progettazione visiva carica il modello in modo che tu possa utilizzarlo come base per l&#39;e-mail.
 
 Se la governance del modello è abilitata, nel pannello delle proprietà a destra viene visualizzato un avviso. Puoi attivare le **[!UICONTROL aree modificabili evidenziate]** nella parte superiore dell&#39;area di lavoro per vedere quali componenti ed elementi di contenuto sono modificabili per l&#39;utilizzo nel percorso.
 

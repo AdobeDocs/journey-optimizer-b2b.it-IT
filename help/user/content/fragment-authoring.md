@@ -1,10 +1,10 @@
 ---
 title: Authoring di frammenti
-description: Scopri come creare frammenti di contenuto che possono essere riutilizzati per le e-mail e le progettazioni di modelli per migliorare l’efficienza e mantenere standard di progettazione e branding.
+description: 'Crea frammenti di contenuto riutilizzabili con strumenti di progettazione visiva: aggiungi componenti, personalizzazione, contenuto condizionale e campi personalizzabili per e-mail e modelli in Journey Optimizer B2B edition.'
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 6028a1ac7989212624be2813d7961f6711080f4e
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 6%

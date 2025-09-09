@@ -1,15 +1,15 @@
 ---
-title: Modelli di pagina di destinazione
-description: Scopri come creare modelli di pagina di destinazione che il team Marketing può utilizzare per creare nuove pagine per supportare percorsi di account e campagne.
+title: Modelli pagina di destinazione
+description: 'Creare, gestire e riutilizzare i modelli di pagina di destinazione: progetta da zero, importa HTML, duplica, elimina e tieni traccia dell’utilizzo per i team di marketing in Journey Optimizer B2B edition.'
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -150,13 +150,13 @@ Dalla pagina di elenco dei modelli di pagina di destinazione, seleziona più mod
 
 ## Creare una pagina di destinazione da un modello salvato
 
-Dalla pagina _Crea la pagina di destinazione_, utilizza la sezione _Seleziona modello struttura_ per iniziare a creare i contenuti da un modello.
+Dalla pagina _[!UICONTROL Crea la pagina di destinazione]_, utilizza la sezione _Seleziona modello struttura_ per iniziare a creare i contenuti da un modello.
 
 Per iniziare a creare i contenuti con uno dei modelli di pagina di destinazione creati, procedi come segue:
 
 1. Accedi allo spazio di progettazione visiva dalla pagina _Modifica contenuto_.
 
-   Nella pagina _Crea pagina di destinazione_, la scheda _Modelli di esempio_ è selezionata per impostazione predefinita.
+   Nella pagina _[!UICONTROL Crea pagina di destinazione]_, la scheda _Modelli di esempio_ è selezionata per impostazione predefinita.
 
 1. Per utilizzare un modello di pagina di destinazione personalizzato, seleziona la scheda **[!UICONTROL Modelli salvati]**.
 
@@ -168,4 +168,4 @@ Per iniziare a creare i contenuti con uno dei modelli di pagina di destinazione 
 
 1. Fai clic su **[!UICONTROL Usa questo modello]** in alto a destra.
 
-1. Dalla finestra di progettazione del contenuto visivo, modifica il contenuto in base alle esigenze.
+1. Dall’area di progettazione del contenuto visivo, modifica il contenuto in base alle esigenze.

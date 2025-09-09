@@ -1,13 +1,13 @@
 ---
 title: Forms
-description: Scopri come creare moduli riutilizzabili da includere nelle pagine di destinazione.
+description: 'Creazione e gestione di moduli riutilizzabili per la raccolta dati aziendali: progettare campi, impostare pagine di ringraziamento, pubblicare e tenere traccia dell’utilizzo in Journey Optimizer B2B edition.'
 feature: Forms, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 9b3b6db22e27ceff88be9808a1aaf89b3eee7f17
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2350'
+source-wordcount: '2357'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Lo stato del modulo determina la disponibilità del modulo per l’utilizzo in u
 | -------------------- | ----------- |
 | Bozza | Quando si crea un modulo, il modulo si trova nello stato Bozza. Rimane in questo stato mentre definisci o modifichi i campi fino a quando non li pubblichi per l’utilizzo in una pagina di destinazione o in un modello di pagina di destinazione. Azioni disponibili:<br/><ul><li>Modifica tutti i dettagli<li>Modifica nello spazio di progettazione visiva<li>Pubblica<li>Duplica<li>Elimina |
 | Pubblicato | Quando pubblichi un modulo, questo diventa disponibile per l’utilizzo in una pagina di destinazione o in un modello di pagina di destinazione. Il contenuto del modulo pubblicato non può essere modificato nello spazio di progettazione visiva. Azioni disponibili:<br/><ul><li>Modifica nome, descrizione o pagina di ringraziamento<li>Aggiungi a una pagina di destinazione o a un modello di pagina di destinazione<li>Crea versione bozza<li>Duplica<li>Elimina (se non in uso)<li>Codice da incorporare |
-| Pubblicato con bozza | Quando crei una bozza da un modulo pubblicato, la versione pubblicata rimane disponibile per l’utilizzo in una pagina di destinazione o in un modello di pagina di destinazione e il contenuto della bozza può essere modificato nello spazio di progettazione visiva. Se pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nelle pagine di destinazione o nei modelli di pagina di destinazione in cui è in uso. Azioni disponibili:<br/><ul><li>Modificare le pagine di nome, descrizione o ringraziamento<li>Aggiungi a una pagina di destinazione o a un modello di pagina di destinazione<li>Modifica versione bozza in Visual Design Space<li>Pubblica versione bozza<li>Duplica<li>Elimina (se non in uso)<li>Codice da incorporare |
+| Pubblicato con bozza | Quando crei una bozza da un modulo pubblicato, la versione pubblicata rimane disponibile per l’utilizzo in una pagina di destinazione o in un modello. Il contenuto della bozza può essere modificato nello spazio di progettazione visiva. Se pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nelle pagine di destinazione o nei modelli di pagina di destinazione in cui è in uso. Azioni disponibili:<br/><ul><li>Modificare le pagine di nome, descrizione o ringraziamento<li>Aggiungi a una pagina di destinazione o a un modello di pagina di destinazione<li>Modifica versione bozza in Visual Design Space<li>Pubblica versione bozza<li>Duplica<li>Elimina (se non in uso)<li>Codice da incorporare |
 
 ![Ciclo di vita stato modulo](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 

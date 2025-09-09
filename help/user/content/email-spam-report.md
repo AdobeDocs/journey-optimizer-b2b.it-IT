@@ -1,12 +1,13 @@
 ---
 title: Rivedi il rapporto Spam
-description: Scopri come controllare il punteggio di posta indesiderata in un rapporto spam dedicato che prevede se gli ISP o i provider di cassette postali lo considereranno o meno come spam.
+description: Genera rapporti di posta indesiderata con punteggio SpamAssassin per verificare se le e-mail attivano i filtri anti-spam e migliorano il recapito messaggi in Journey Optimizer B2B edition.
 feature: Email Authoring
 level: Beginner
 role: User
-source-git-commit: 7992df497182b69c5103b603d69a70e1a40e903a
+exl-id: 0ab2a85c-fbab-4681-9964-74b7fd1d574f
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -40,6 +41,3 @@ Quando rivedi le impostazioni delle e-mail o modifichi il contenuto, apri la pag
 1. Se all’interno del contenuto dell’e-mail sono presenti alcuni elementi che possono essere migliorati, modifica il contenuto per applicare gli aggiornamenti necessari.
 
 1. Una volta completate le modifiche, torna alla pagina _[!UICONTROL Simula]_ e fai di nuovo clic su **[!UICONTROL Rapporto spam]** per verificare i miglioramenti risultanti nel punteggio.
-
-
-

@@ -1,13 +1,13 @@
 ---
 title: Progettazione modello pagina di destinazione
-description: Scopri come progettare e creare contenuti per i modelli di pagina di destinazione che gli addetti al marketing possono riutilizzare per creare pagine di destinazione.
+description: 'Progetta modelli di pagina di destinazione da riutilizzare: aggiungi componenti di contenuto, moduli, CSS personalizzati, personalizzazione e anteprima dispositivo in Journey Optimizer B2B edition.'
 feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '347'
 ht-degree: 4%
 
 ---

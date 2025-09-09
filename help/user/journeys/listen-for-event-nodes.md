@@ -1,12 +1,12 @@
 ---
 title: Ascolta un evento
-description: Scopri il tipo di nodo Ascolta per un evento che puoi utilizzare per orchestrare i percorsi di account in Journey Optimizer B2B edition.
+description: 'Configurare i nodi evento per i trigger account e persone: ascolta le modifiche del gruppo di acquisto, i clic e-mail, i riempimenti di moduli ed eventi Experience Platform in Journey Optimizer B2B edition.'
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1374'
 ht-degree: 8%
 
 ---
@@ -86,7 +86,7 @@ Ascolta un evento basato sulle persone quando desideri spostare l’account in a
 
 ### Ascolta evento Marketo Engage
 
-Se nell’istanza di Marketo Engage connessa sono state create pagine web, puoi attivare un evento in base a una visita o a nessuna visita alle pagine web di Marketo Engage, nonché ai moduli Marketo Engage che non sono stati compilati.
+Se nell’istanza Marketo Engage connessa sono presenti pagine web, puoi attivare un evento in base a una visita o a nessuna visita a tali pagine web, nonché ai moduli Marketo Engage che non sono stati compilati.
 
 1. Selezionare un nodo **[!UICONTROL Ascolta un evento]** nella mappa del percorso.
 
@@ -119,7 +119,7 @@ Se nell’istanza di Marketo Engage connessa sono state create pagine web, puoi 
 
 ### Ascolta un evento esperienza
 
-Gli amministratori possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP), che consentono agli addetti al marketing di creare percorsi di account che reagiscono a [eventi esperienza AEP](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}. L’utilizzo degli eventi di esperienza di AEP nei percorsi di account è un processo in due fasi:
+Gli amministratori possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP), che consentono agli addetti al marketing di creare percorsi di account che reagiscono a [eventi esperienza AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}. L’utilizzo degli eventi di esperienza di AEP nei percorsi di account è un processo in due fasi:
 
 1. [Crea e pubblica una definizione di evento AEP](../admin/configure-aep-events.md).
 
@@ -127,7 +127,7 @@ Gli amministratori possono configurare definizioni di eventi basate su Adobe Exp
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda la panoramica video](../admin/configure-aep-events.md#overview-video)
 
-_Per includere un evento esperienza nel percorso:_
+_Per includere un evento esperienza nel percorso :_
 
 1. Selezionare un nodo **[!UICONTROL Ascolta un evento]** nella mappa del percorso.
 
@@ -183,4 +183,4 @@ Se necessario, definisci il tempo di attesa dell’evento da parte del percorso.
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443242/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

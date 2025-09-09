@@ -1,13 +1,13 @@
 ---
-title: Progettazione modulo
-description: Scopri come progettare moduli riutilizzabili utilizzati per raccogliere informazioni sui lead aziendali.
+title: Progettazione del modulo
+description: Progetta i moduli con tipi di campo, convalida, stile e attributi dello schema XDM per la raccolta di dati aziendali in Journey Optimizer B2B edition.
 feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: fd26ecdb0457141f7beb7fd46d01e609da011a38
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2062'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,7 @@ Utilizza gli strumenti di progettazione dei campi per creare il set di campi e i
      >
      >_Istruzioni e testo segnaposto_<br/>
      >
-     >Utilizza queste due proprietà per guidare i visitatori nella compilazione del campo. Quando si passa il puntatore del mouse sul campo, il testo delle istruzioni viene visualizzato come testo di descrizione comando o testo a comparsa. Il testo segnaposto viene visualizzato _inattivo_ all&#39;interno del campo e scompare quando il visitatore inserisce il testo nel campo. È possibile utilizzare entrambi i metodi o solo uno.
+     >Utilizza queste due proprietà per guidare i visitatori nella compilazione del campo. Quando si passa il puntatore del mouse sul campo, il testo delle istruzioni viene visualizzato come testo di descrizione comando o testo a comparsa. Il testo segnaposto viene visualizzato _inattivo_ all&#39;interno del campo e scompare quando il visitatore immette il testo nel campo. È possibile utilizzare entrambi i metodi o solo uno.
 
    * **[!UICONTROL Valore predefinito]** - Utilizzare questa opzione per specificare un valore predefinito per il campo.
 

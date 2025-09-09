@@ -1,12 +1,12 @@
 ---
 title: Governance dei contenuti dei modelli
-description: Scopri come bloccare gli elementi di contenuto all’interno dei modelli e-mail in modo da poter determinare come modificarli per l’utilizzo nei percorsi di account.
+description: 'Blocca i componenti dei modelli e-mail per la conformità al brand: imposta le modalità di governance, controlla la modifica dei contenuti e gestisci le autorizzazioni per gli autori di percorsi di account in Journey Optimizer B2B edition.'
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 4905346d8160147f7d71b7b1131ea33f26d3bba0
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ Ad esempio, puoi bloccare l’intestazione e il piè di pagina progettati per la
 
 ## Attiva governance dei contenuti per il modello
 
-Dopo aver utilizzato la finestra di progettazione visiva per [creare i componenti strutturali e di contenuto](./email-template-authoring.md) per il modello di e-mail, abilitare la governance e applicare un blocco di contenuto specifico in base alle esigenze.
+Dopo aver utilizzato lo spazio di progettazione visiva per [creare i componenti strutturali e di contenuto](./email-template-authoring.md) per il modello di e-mail, abilitare la governance e applicare un blocco di contenuto specifico in base alle esigenze.
 
-1. Nella finestra di progettazione visiva, accedere ai livelli/contenitori e agli elementi utilizzando la _struttura di navigazione_.
+1. Nello spazio di progettazione visiva, accedere ai livelli/contenitori e agli elementi utilizzando la _struttura di navigazione_.
 
    Fai clic sull&#39;icona _Struttura di navigazione_ ( ![Icona collegamento](../assets/do-not-localize/icon-navigation-tree.svg) ) a sinistra dell&#39;area di lavoro per visualizzare la struttura.
 

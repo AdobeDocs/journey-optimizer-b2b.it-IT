@@ -1,13 +1,13 @@
 ---
-title: Authoring dei modelli e-mail
-description: Scopri come creare modelli e-mail di contenuto che possono essere utilizzati per le e-mail del percorso di account per riutilizzare le progettazioni in modo semplice ed efficiente.
+title: Authoring di modelli e-mail
+description: Crea modelli e-mail riutilizzabili con strumenti di progettazione visiva, CSS personalizzati, frammenti e personalizzazione per percorsi di account in Journey Optimizer B2B edition.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 2%
+source-wordcount: '422'
+ht-degree: 3%
 
 ---
 

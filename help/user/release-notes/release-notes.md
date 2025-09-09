@@ -1,12 +1,12 @@
 ---
-title: Note sulla versione di Journey Optimizer B2B Edition
-description: Scopri le funzioni e i miglioramenti più recenti di Adobe Journey Optimizer B2B Edition.
+title: Note sulla versione di Journey Optimizer B2B edition
+description: 'Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B edition: resta aggiornato con le nuove funzionalità e i miglioramenti apportati ai prodotti.'
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 92%
+source-wordcount: '2795'
+ht-degree: 90%
 
 ---
 
@@ -130,7 +130,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
 | Funzione | Inoltro degli eventi esperienza | Gli amministratori possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP). Queste configurazioni consentono ai marketer di creare percorsi account che reagiscono agli eventi esperienza di AEP.  <a href="../admin/configure-aep-events.md">Ulteriori informazioni</a> |
-| Funzione | Destinazioni dei paid media | Rendi idonee le persone note per le campagne di paid media da un percorso di account in modo da poterle coinvolgere ulteriormente su piattaforme pubblicitarie, come LinkedIn. Utilizza un nodo di percorso suddiviso in un percorso di account per segmentare i tipi di pubblico degli account in base a un comportamento specifico e identificare quelli che richiedono un ulteriore coinvolgimento. In seguito, aggiungi le persone da tali account a un pubblico di clientela esterna tramite Real-time CDP a una destinazione di paid media supportata. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Ulteriori informazioni</a> |
+| Funzione | Destinazioni dei paid media | Rendi idonee le persone note per le campagne di paid media da un percorso di account in modo da poterle coinvolgere ulteriormente su piattaforme pubblicitarie, come LinkedIn. Utilizza un nodo di percorso suddiviso per segmentare i tipi di pubblico degli account in base a un comportamento specifico e per identificare gli account che richiedono un coinvolgimento aggiuntivo. In seguito, aggiungi le persone da tali account a un pubblico di clientela esterna tramite Real-time CDP a una destinazione di paid media supportata. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Ulteriori informazioni</a> |
 | Funzione | Dashboard intelligente | Visualizza il progresso dei gruppi acquisti attraverso i loro percorsi di account, comprese le informazioni generate dall’IA per un’analisi più intelligente e una definizione precisa delle priorità degli account. <a href="../dashboards/intelligent-dashboard.md">Ulteriori informazioni</a> |
 | Funzione | Dettagli del gruppo acquisti e dell’account | Visualizza informazioni a livello di gruppo acquisti e di account per disporre di più dati contestuali e storici quando inizi a coinvolgere un cliente.<p>I dettagli del gruppo acquisti includono eventuali intenti di prime parti rilevati. <a href="../buying-groups/buying-group-details.md">Ulteriori informazioni</a><p>I dettagli dell’account evidenziano l’aumento nell’intento rilevato di coinvolgimento, in modo da poter avvisare il team vendite in merito agli account pronti per un coinvolgimento personalizzato orientato alla vendita.  <a href="../accounts/account-details.md">Ulteriori informazioni</a> |
 | Funzione | Panoramica dei percorsi | Durante l’accesso ai percorsi degli account, la scheda Panoramica fornisce un’istantanea completa dei percorsi di account attivi, con informazioni dettagliate sull’avanzamento dell’account utilizzando grafici a cerchi e a barre che categorizzano e quantificano i completamenti e le attività di coinvolgimento.  <a href="../dashboards/journeys-dashboard.md">Ulteriori informazioni</a> |

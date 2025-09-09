@@ -1,12 +1,12 @@
 ---
 title: Utilizzare Marketo Engage Assets
-description: Scopri come utilizzare l’integrazione di Marketo Engage Design Studio Asset Management in Journey Optimizer B2B edition.
+description: 'Sfoglia, gestisci e utilizza le risorse Marketo Engage Design Studio in Journey Optimizer B2B edition: organizza le aree di lavoro, modifica le immagini e crea contenuti per percorsi di account.'
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2026'
 ht-degree: 1%
 
 ---
@@ -128,7 +128,7 @@ Nella finestra di dialogo _[!UICONTROL Sostituisci risorsa]_, trascina e rilasci
 
 Per continuare, fare clic su **[!UICONTROL Sostituisci]**. È possibile interrompere il processo facendo clic su **[!UICONTROL Annulla]**.
 
-Se il file da sostituire è in uso, una finestra di dialogo informativa ti avvisa che il nuovo file di immagine sostituisce l’immagine in tutte le posizioni in cui viene utilizzata (e-mail, modelli e frammenti e-mail).
+Se il file da sostituire è in uso, una finestra di dialogo ti avvisa che il nuovo file immagine sostituisce l’immagine in cui viene utilizzata (e-mail, modelli e frammenti e-mail).
 
 ## Scaricare le risorse
 
@@ -148,7 +148,7 @@ Dalla pagina dell&#39;elenco (_[!UICONTROL Gestione contenuto]_ > _[!UICONTROL A
 
 Per le risorse selezionate che risiedono nell&#39;area di lavoro _[!UICONTROL Journey Optimizer B2B edition]_ è possibile eseguire le azioni in blocco seguenti:
 
-+++Sposta risorse
++++Spostare le risorse
 
 1. Nel banner di selezione, fare clic su **[!UICONTROL Sposta]**.
 
@@ -162,7 +162,7 @@ Per le risorse selezionate che risiedono nell&#39;area di lavoro _[!UICONTROL Jo
 
 +++
 
-+++Elimina risorse
++++Eliminare risorse
 
 >[!NOTE]
 >
@@ -234,7 +234,7 @@ A livello di cartella è possibile effettuare le seguenti operazioni:
 
 +++
 
-+++Sposta la cartella
++++Spostare la cartella
 
 1. Per spostare la cartella in un&#39;altra cartella padre, scegliere **[!UICONTROL Sposta]**.
 
@@ -256,7 +256,7 @@ Se una delle risorse nella cartella è attualmente in uso, l’azione apre una f
 
 +++
 
-+++Converti in cartella di archivio
++++Converti in una cartella di archivio
 
 L&#39;archiviazione di una cartella rende impossibile eseguire ricerche nei relativi file. Utilizza la funzione di archiviazione per i file di risorse che non desideri vengano utilizzati in futuro dal membro del team, ad esempio un badge promozionale per un evento non aggiornato o contenuti stagionali. In seguito, puoi annullare l’archiviazione di una cartella se desideri che il contenuto sia nuovamente disponibile.
 
@@ -270,7 +270,7 @@ L&#39;archiviazione di una cartella rende impossibile eseguire ricerche nei rela
 
 Assets può essere utilizzato nell’e-mail del team, nel modello e-mail o nell’authoring di frammenti visivi dall’editor di contenuti visivi.
 
-Dall&#39;interfaccia utente di progettazione visiva, seleziona l&#39;icona _Marketo Engage Assets_ ( ![Marketo Engage Assets icon](../../assets/do-not-localize/icon-assets-me.svg) ) nella barra laterale a sinistra.
+Nello spazio di progettazione visivo, seleziona l&#39;icona _Marketo Engage Assets_ ( ![Marketo Engage Assets icon](../../assets/do-not-localize/icon-assets-me.svg) ) nella barra laterale a sinistra.
 
 Questa azione modifica il pannello strumenti che visualizza un elenco strutturato delle risorse disponibili nell’area di lavoro selezionata. Seleziona l’area di lavoro da visualizzare per scegliere una risorsa.
 

@@ -1,12 +1,12 @@
 ---
 title: Authoring dei messaggi e-mail
-description: Scopri come creare contenuti e-mail in Adobe Journey Optimizer B2B. Utilizza modelli, importazioni HTML e strumenti basati sull’intelligenza artificiale per personalizzare e ottimizzare le comunicazioni e-mail.
+description: 'Creazione di e-mail con strumenti di progettazione visiva, importazione HTML o modelli: utilizza la generazione di contenuti di Assistente IA, CSS personalizzati e la personalizzazione in Journey Optimizer B2B edition.'
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1045'
 ht-degree: 2%
 
 ---

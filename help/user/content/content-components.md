@@ -1,12 +1,12 @@
 ---
 title: Componenti contenuto
-description: Scopri come utilizzare i componenti di contenuto per progettare contenuti per e-mail, pagine di destinazione e frammenti visivi.
+description: 'Progetta e-mail, pagine di destinazione e frammenti con componenti di contenuto: aggiungi pulsanti, testo, immagini, moduli e contenitori in Journey Optimizer B2B edition.'
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2844'
+source-wordcount: '2849'
 ht-degree: 6%
 
 ---

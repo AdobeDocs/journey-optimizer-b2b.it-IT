@@ -1,12 +1,12 @@
 ---
 title: Componenti struttura
-description: Scopri come utilizzare i componenti struttura per definire il layout dell’e-mail, della pagina di destinazione e del contenuto del frammento visivo.
+description: 'Utilizza i componenti struttura per creare layout per e-mail, pagine di destinazione e frammenti: trascina i layout di colonna, imposta gli stili e configura la visualizzazione mobile in Journey Optimizer B2B edition.'
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
-source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1584'
 ht-degree: 6%
 
 ---
