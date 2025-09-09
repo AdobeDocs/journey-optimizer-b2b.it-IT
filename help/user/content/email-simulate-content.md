@@ -1,14 +1,14 @@
 ---
 title: Anteprima e test del contenuto dell’e-mail
-description: Scopri come visualizzare in anteprima e testare il contenuto delle e-mail per assicurarti che sia privo di errori nelle impostazioni di contenuto e personalizzazione.
+description: Visualizza un’anteprima delle e-mail con profili di test, controlla il rendering desktop e mobile, invia bozze ai destinatari e convalida la personalizzazione in Journey Optimizer B2B edition.
 feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 7%
+source-wordcount: '575'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="Controllare come viene eseguito il rendering del contenuto"
->abstract="Una volta definito il contenuto, puoi visualizzarne l’anteprima e verificare se il rendering è corretto in base al canale in uso."
+>abstract="Una volta definito il contenuto, puoi visualizzarne l’anteprima e verificare che il rendering sia corretto per il canale in uso."
 
 Utilizza la funzione _Simula contenuto_ per visualizzare in anteprima il contenuto dell&#39;e-mail e inviare le consegne di prova a destinatari specifici. Per accedere alle funzionalità di anteprima e test, è necessario definire i campi e-mail obbligatori, tra cui _[!UICONTROL Nome mittente]_, _[!UICONTROL Indirizzo mittente]_, _[!UICONTROL Indirizzo destinatario risposta]_ e _[!UICONTROL Riga oggetto]_.
 

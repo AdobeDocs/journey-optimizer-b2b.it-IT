@@ -1,6 +1,6 @@
 ---
 title: Utilizzare i temi dei marchi per i contenuti e-mail
-description: Scopri come semplificare la creazione di contenuti e-mail con temi riutilizzabili, garantendo coerenza ed efficienza nella progettazione.
+description: 'Creazione di temi personalizzati per il brand per e-mail e modelli: definisci colori, font, spaziatura e pulsanti per una progettazione coerente in Journey Optimizer B2B edition.'
 feature: Email Authoring, Brand Identity, Content Design Tools
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: d27a72089e28d0c69ed267e4d9fba3ef44a73542
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '3085'
-ht-degree: 2%
+source-wordcount: '3087'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
 >title="Applicare un tema del brand a e-mail o modelli di e-mail"
->abstract="Seleziona un tema per per applicare a un’e-mail o a un modello e-mail uno stile specifico in linea con il brand e la progettazione grafica."
+>abstract="Seleziona un tema per l’e-mail o il modello e-mail per applicare uno stile adatto al tuo marchio e design."
 
 Con i temi, i designer non tecnici hanno la possibilità di creare linee guida per la progettazione di contenuti e-mail riutilizzabili, in linea con un marchio e uno stile specifici. I temi consentono agli addetti al marketing di sfruttare le e-mail visivamente accattivanti e coerenti con il brand in modo più rapido e con meno sforzo, e di fornire opzioni di personalizzazione avanzate per esigenze di progettazione univoche.
 
@@ -132,7 +132,7 @@ Selezionare la scheda **[!UICONTROL Colori]** e utilizzare le impostazioni per d
 
   | Tipo | Impostazioni | Descrizione |
   | ---- | -------- | ----------- |
-  | [!UICONTROL Generale] | ![Impostazioni colore generali per una variante](./assets/email-theme-colors-settings-variant-general.png){width="300"} | Queste impostazioni consentono di impostare i colori per il corpo, le strutture, i contenitori, gli sfondi, i collegamenti, le griglie e i bordi. |
+  | [!UICONTROL Generale] | ![Impostazioni colore generali per una variante](./assets/email-theme-colors-settings-variant-general.png){width="300"} | Queste impostazioni determinano i colori per corpo, strutture, contenitori, sfondi, collegamenti, griglie e bordi. |
   | [!UICONTROL Intestazioni] | ![Impostazioni colore titolo per una variante](./assets/email-theme-colors-settings-variant-headings.png){width="300"} | Queste impostazioni si applicano agli elementi `Heading`, in cui è possibile impostare i colori del testo e del bordo per ciascuno dei sei livelli di intestazione. Espandere ogni livello di intestazione per cui si desidera impostare il colore per la variante. |
   | [!UICONTROL Paragrafi] | ![Impostazioni colore paragrafo per una variante](./assets/email-theme-colors-settings-variant-paragraphs.png){width="300"} | Queste impostazioni si applicano agli elementi `Paragraph`, in cui è possibile impostare i colori del testo e del bordo per ciascuno dei tre tipi di paragrafo. Espandere ogni tipo di paragrafo per il quale si desidera impostare il colore per la variante. |
   | [!UICONTROL Pulsanti] | ![Impostazioni colore pulsante per una variante](./assets/email-theme-colors-settings-variant-buttons.png){width="300"} | Le impostazioni si applicano agli elementi dei pulsanti, in cui è possibile impostare il colore di riempimento, il colore del bordo e il colore del testo per ciascuno dei tre predefiniti per pulsanti: _Primario_, _Secondario_ e _Terziario_. |
@@ -303,7 +303,7 @@ Quando si individua il tema, fare clic sull&#39;icona _Altro menu_ (**...**) in 
 
 ## Utilizza un tema per l’authoring dei contenuti delle e-mail {#use-email-theme}
 
-Quando crei un nuovo modello e-mail o e-mail, puoi scegliere di utilizzare un tema del brand che semplifica il processo di authoring dei contenuti e assicura che la progettazione sia allineata agli standard definiti. Per un nuovo frammento, puoi anche applicare un tema prima di salvare il frammento. Il frammento rimane in _Modalità tema_ da quel momento ed è compatibile da aggiungere alle e-mail e ai modelli e-mail che sono anche in _Modalità tema_.
+Quando crei un nuovo modello e-mail o e-mail, puoi scegliere di utilizzare un tema del brand che semplifica il processo di authoring dei contenuti e garantisce che la progettazione sia allineata agli standard definiti. Per un nuovo frammento, puoi anche applicare un tema prima di salvare il frammento. Il frammento rimane in _Modalità tema_ da quel momento ed è compatibile da aggiungere alle e-mail e ai modelli e-mail che sono anche in _Modalità tema_.
 
 1. Selezionare una delle azioni seguenti:
 

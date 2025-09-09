@@ -1,6 +1,6 @@
 ---
 title: Utilizzare i brand per la generazione e la coerenza dei contenuti
-description: Scopri le linee guida per i marchi che puoi definire in Journey Optimizer B2B edition per generare e ottimizzare i contenuti in base allo stile e alla voce del tuo marchio.
+description: 'Definisci le linee guida del brand per una creazione coerente dei contenuti: preserva l’identità visiva, l’allineamento dei messaggi e la voce autentica in Journey Optimizer B2B edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 9%
+source-wordcount: '837'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="Introduzione ai brand"
->abstract="Crea e personalizza i tuoi brand per definire la tua identità visiva e verbale unica e allo stesso tempo semplificare la generazione di contenuti che corrispondono allo stile e alla voce del tuo brand."
+>abstract="Crea e personalizza i tuoi brand per definire la tua identità visiva e verbale unica e allo stesso tempo facilitare la generazione di contenuti che soddisfino il tuo stile di brand e la tua voce."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
@@ -73,7 +73,7 @@ Un marchio definito fornisce la _fonte di verità_ che il team creativo può uti
 
 ## Autorizzazioni relative al brand
 
-Gli amministratori di prodotto possono abilitare l&#39;accesso alle funzioni di gestione del brand e allineamento del brand assegnando le autorizzazioni per le risorse **[!UICONTROL Manage brand kit]** o **[!UICONTROL Enable AI Assistant]** tramite l&#39;app _Permissions_ in Adobe Experience Cloud.
+Gli amministratori di prodotto possono abilitare l&#39;accesso alle funzioni di gestione del brand e allineamento del brand assegnando le autorizzazioni per le risorse **[!UICONTROL Manage brand kit]** o **[!UICONTROL Enable AI Assistant]** tramite l&#39;interfaccia utente _Permissions_ in Adobe Experience Cloud.
 
 1. Nell&#39;app Autorizzazioni, vai alla scheda **[!UICONTROL Ruoli]** e seleziona il [ruolo](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"} desiderato.
 
