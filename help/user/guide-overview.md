@@ -5,7 +5,7 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 67%
+ht-degree: 89%
 
 ---
 
@@ -19,15 +19,15 @@ Di seguito è riportato un esempio dei miglioramenti e delle aggiunte più recen
 
 >[!TAB Punteggio di coinvolgimento della persona]
 
-Gli esperti di marketing B2B possono ora utilizzare i punteggi di coinvolgimento a livello di persona come filtro nei percorsi di suddivisione per un percorso o in un modello di ruoli per creare gruppi di acquisto. Questo punteggio e filtro consente di indirizzare con precisione i membri dei gruppi di acquisto per personalizzare il coinvolgimento in corso.
+I marketer B2B possono ora utilizzare i punteggi di coinvolgimento a livello di persona come filtro nei percorsi di suddivisione di un percorso o in un modello di ruoli per creare gruppi acquisti. Questo punteggio e filtro consentono di indirizzare con precisione i membri dei gruppi acquisti per personalizzare il coinvolgimento in corso.
 
 [!BADGE Ulteriori informazioni]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="Scopri i punteggi e i filtri di coinvolgimento delle persone"}
 
->[!TAB Ruoli gruppo di acquisto personalizzato]
+>[!TAB Ruoli del gruppo acquisti personalizzato]
 
-Gli strateghi del marketing B2B possono ora espandere la precisione del gruppo di acquisto con ruoli di gruppo di acquisto personalizzati. Crea fino a 20 ruoli personalizzati oltre i sei predefiniti e riutilizzali tra i gruppi di acquisto. All’interno dei percorsi di account, personalizza i messaggi in base ai tuoi ruoli univoci e migliora la rilevanza e il coinvolgimento tra i gruppi di acquisto&#x200B;
+I responsabili della strategia di marketing B2B possono ora ampliare la precisione del gruppo acquisti con ruoli personalizzati. Crea fino a 20 ruoli personalizzati oltre i sei predefiniti e riutilizzali tra i gruppi acquisti. Personalizza i messaggi in base ai tuoi ruoli univoci e migliora la rilevanza e il coinvolgimento tra i gruppi acquisti all’interno dei percorsi account.
 
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="Scopri i ruoli del gruppo di acquisto personalizzato"}
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="Scopri i ruoli del gruppo acquisti personalizzato"}
 
 >[!TAB Peso del punteggio di coinvolgimento personalizzato]
 
@@ -100,7 +100,7 @@ Scopri i componenti di un gruppo acquisti e comprendi le nozioni di base per la 
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Introduzione"><br/>
-      <strong>Introduzione</strong><br/><a href="home-page.md">Accesso e home page</a><br/><a href="./start/get-started.md">Guida all'onboarding</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">Assistente AI</a>
+      <strong>Introduzione</strong><br/><a href="home-page.md">Accesso e pagina Home</a><br/><a href="./start/get-started.md">Guida all’onboarding</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">Assistente IA</a>
     </td>
     <!--
     <td>
@@ -113,7 +113,7 @@ Scopri i componenti di un gruppo acquisti e comprendi le nozioni di base per la 
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Percorsi account"><br/>
-      <strong>percorsi di account</strong><br/><a href="./journeys/journey-overview.md">Panoramica sui Percorsi</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Creazione di un percorso di account</a><br/><a href="./journeys/journey-nodes.md">Nodi di Percorso</a>
+      <strong>Percorsi account</strong><br/><a href="./journeys/journey-overview.md">Panoramica dei percorsi</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Crea un percorso account</a><br/><a href="./journeys/journey-nodes.md">Nodi percorsi</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -137,7 +137,7 @@ Scopri i componenti di un gruppo acquisti e comprendi le nozioni di base per la 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Video e tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrizione prodotto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Video e tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrizione prodotto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/it/docs/experience-platform/landing/home" target="_blank">Documentazione</a> - <a href="https://business.adobe.com/it/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Risorse per sviluppatori</a>

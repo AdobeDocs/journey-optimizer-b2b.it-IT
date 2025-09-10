@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentazione di Journey Optimizer B2B Edition
-user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi per gruppi acquisti utilizzando funzioni di intelligenza artificiale generativa incorporata e automazione leader del settore.
+user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando le funzioni di IA generativa incorporata e l’automazione leader del settore.
 source-git-commit: 2a452537620e357a94a5f1c6b6c66f994d06c3c2
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 92%
       + [Punteggi di coinvolgimento](./buying-groups/engagement-scores.md)
       + [Fasi del gruppo acquisti](./buying-groups/buying-group-stages.md)
       + [Creare gruppi acquisti](./buying-groups/buying-groups-create.md)
-      + [Esporta account](./audiences/account-list-export.md)
+      + [Esportazione di account](./audiences/account-list-export.md)
       + [Tipi di pubblico associati all’account LinkedIn](./data/linkedin-account-matched-audiences.md)
       + [Filtri per gruppi acquisti in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + Elenchi account {#account-lists}
@@ -97,7 +97,7 @@ ht-degree: 92%
       + [Panoramica](./content/landing-pages.md)
       + [Progettazione pagina di destinazione](./content/landing-page-design.md)
    + Strumenti di progettazione dei contenuti {#content-design}
-      + [Componenti di struttura](./content/structure-components.md)
+      + [Componenti della struttura](./content/structure-components.md)
       + [Componenti per contenuti](./content/content-components.md)
       + [CSS personalizzato](./content/design-custom-css.md)
    + Brand (Beta) {#brands}

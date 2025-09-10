@@ -1,5 +1,5 @@
 ---
-title: Esporta account
+title: Esportazione di account
 description: Esporta elenchi di account filtrati in CSV per piattaforme di terze parti con gruppi di acquisto e filtri di punteggio di coinvolgimento in Journey Optimizer B2B edition.
 feature: Audiences
 role: User
@@ -7,13 +7,13 @@ exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
 source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 83%
+ht-degree: 91%
 
 ---
 
-# Esporta account
+# Esportazione di account
 
-Utilizza la funzione _Esporta account_ per esportare tutti gli account o un set di account in base ai filtri definiti. Il processo di esportazione genera un file CSV e invia l’URL del file memorizzato all’interno di una notifica Pulse. Puoi utilizzare questa funzione per spostare gli account in piattaforme di terze parti quando necessario.
+Utilizza la funzione _Esporta account_ per esportare tutti gli account o un set di account in base al filtro definito. Il processo di esportazione genera un file CSV e invia l’URL del file memorizzato all’interno di una notifica Pulse. Puoi utilizzare questa funzione per spostare gli account in piattaforme di terze parti quando necessario.
 
 1. In Journey Optimizer B2B edition, passa a **[!UICONTROL Account]** > **[!UICONTROL Gruppi acquisti]** nel menu di navigazione a sinistra.
 

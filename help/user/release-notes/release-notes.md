@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
 source-wordcount: '2795'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -27,18 +27,18 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 
 ## Note sulla versione 2025.8
 
-**Data di distribuzione**: mercoledì 26 agosto 2025
+**Data di distribuzione**: 26 agosto 2025
 
 Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Filtri di punteggio di coinvolgimento della persona per modelli e percorsi di ruoli | È ora possibile utilizzare _Punteggio di coinvolgimento della persona_ come filtro nei modelli di Ruoli utilizzati per la creazione di gruppi di acquisto e nei nodi di percorso con percorso diviso. [Ulteriori informazioni](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
-| Funzione | Configurazione dei ruoli personalizzati dei gruppi di acquisto | Ora puoi configurare ruoli personalizzati per i gruppi di acquisto, per definire i ruoli specifici nei tuoi casi d’uso. [Ulteriori informazioni](../buying-groups/default-custom-roles.md) |
-| Funzione | Configurazione ponderazione punteggio coinvolgimento | Ora puoi assegnare dei pesi alle attività che influenzano il punteggio di coinvolgimento del gruppo di acquisto. Questa funzione include la definizione di modelli di punteggio personalizzati e la modifica del modello attivo che influenza i calcoli del punteggio di coinvolgimento. [Ulteriori informazioni](../admin/engagement-score-weighting.md) |
-| Miglioramento | Contenuto condizionale per frammenti | Ora puoi utilizzare gli strumenti di contenuto condizionale per la progettazione di frammenti visivi. [Ulteriori informazioni](../content/conditional-content.md) |
-| Miglioramento | Aggiornamenti dei punteggi di coinvolgimento | La logica del punteggio di coinvolgimento del gruppo di acquisto viene aggiornata per normalizzare i punteggi. Inoltre, puoi utilizzare i punteggi di coinvolgimento a livello di membro, nonché i punteggi di coinvolgimento collettivo per l’intero gruppo di acquisto. [Ulteriori informazioni](../buying-groups/engagement-scores.md) |
-| Miglioramento | Osservabilità attiva del percorso: account in ogni nodo | Per un percorso di account attivo, puoi accedere a un elenco degli account che hanno raggiunto ogni nodo di account nel percorso. |
+| Funzione | Filtri del punteggio di coinvolgimento della persona per modelli di ruolo e percorsi | È ora possibile utilizzare il _Punteggio di coinvolgimento della persona_ come filtro nei modelli di Ruoli utilizzati per la creazione di gruppi acquisti e nei nodi di percorso con percorso suddiviso. [Ulteriori informazioni](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Funzione | Configurazione dei ruoli personalizzati dei gruppi acquisti | Ora disponi della flessibilità di configurare ruoli personalizzati per i gruppi acquisti, per definire i ruoli specifici nei tuoi casi d’uso. [Ulteriori informazioni](../buying-groups/default-custom-roles.md) |
+| Funzione | Configurazione della ponderazione del punteggio di coinvolgimento | Ora puoi assegnare pesi alle attività che influenzano il punteggio di coinvolgimento del gruppo acquisti. Questa funzione include la definizione di modelli di punteggio personalizzati e la modifica del modello attivo che influenza i calcoli del punteggio di coinvolgimento. [Ulteriori informazioni](../admin/engagement-score-weighting.md) |
+| Miglioramento | Contenuto condizionale per frammenti | Ora puoi utilizzare gli strumenti del contenuto condizionale per la progettazione di frammenti visivi. [Ulteriori informazioni](../content/conditional-content.md) |
+| Miglioramento | Aggiornamento del punteggio di coinvolgimento | La logica del punteggio di coinvolgimento del gruppo acquisti viene aggiornata per normalizzare i punteggi. Inoltre, puoi utilizzare i punteggi di coinvolgimento a livello di membro, nonché i punteggi di coinvolgimento collettivo per l’intero gruppo acquisti. [Ulteriori informazioni](../buying-groups/engagement-scores.md) |
+| Miglioramento | Osservabilità attiva del percorso: account in ciascun nodo | Per un percorso di account attivo, puoi accedere a un elenco degli account che hanno raggiunto ciascun nodo account nel percorso. |
 
 >[!NOTE]
 >

@@ -7,7 +7,7 @@ exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 73%
+ht-degree: 95%
 
 ---
 
@@ -41,11 +41,11 @@ Esistono tre modi per assegnare o rimuovere i membri da un gruppo acquisti. I me
 2. **_Azione percorso_**: [nodi delle azioni del percorso per l’iscrizione al gruppo acquisti](../journeys/action-nodes.md#add-a-people-based-action) (_Assegna al gruppo acquisti_ o _Rimuovi dal gruppo acquisti_)
 3. **_Processi di sistema_**: [creazione](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) del gruppo acquisti e processi di manutenzione.
 
-Per evitare di sovrascrivere erroneamente l&#39;assegnazione di un membro in un gruppo di acquisto, l&#39;elenco è nell&#39;ordine di precedenza seguito nel sistema per garantire un&#39;assegnazione accurata dei membri. Ad esempio, se un utente del reparto vendite aggiunge manualmente un membro al gruppo acquisti, nessun processo di manutenzione dovrà cambiare tale aggiunta. Seguendo l’ordine di precedenza, vengono applicati i seguenti scenari:
+Affinché l’assegnazione dei membri in un gruppo acquisti non venga ignorata in modo errato, l’elenco rispecchia l’ordine di precedenza seguito nel sistema, per garantire l’assegnazione accurata dei membri. Ad esempio, se un utente del reparto vendite aggiunge manualmente un membro al gruppo acquisti, nessun processo di manutenzione dovrà cambiare tale aggiunta. Seguendo l’ordine di precedenza, vengono applicati i seguenti scenari:
 
-* Se un utente assegna manualmente un membro a un gruppo di acquisto seguito da un processo di manutenzione del gruppo di acquisto che rimuove lo stesso membro dal gruppo di acquisto, il processo di manutenzione **non rimuove** tale membro e non può sostituire l&#39;assegnazione manuale.
-* Se un utente assegna manualmente un membro a un percorso di acquisto e questo viene seguito da un nodo attivato che rimuove lo stesso membro dal gruppo di acquisto, l&#39;azione del nodo **non rimuove** tale membro e non può sovrascrivere l&#39;assegnazione manuale.
-* Se un nodo di azione del percorso attivato aggiunge un membro a un gruppo di acquisto e viene seguito da un processo di manutenzione del gruppo di acquisto che rimuove lo stesso membro dal gruppo di acquisto, il processo di manutenzione **non rimuove** tale membro e non può sostituire l&#39;assegnazione dell&#39;azione del percorso.
+* Se un utente assegna manualmente un membro a un gruppo acquisti e viene seguito da un processo di manutenzione del gruppo acquisti che prevede la rimozione dello stesso membro dal gruppo acquisti, il processo di manutenzione **non rimuove** tale membro e non può sostituire l’assegnazione manuale.
+* Se un utente assegna manualmente un membro a un gruppo acquisti e viene seguito da un nodo di percorso attivato che rimuove lo stesso membro dal gruppo acquisti, l’azione del nodo **non rimuove** tale membro e non può sostituire l’assegnazione manuale.
+* Se un nodo di azione del percorso attivato aggiunge un membro al gruppo acquisti e viene seguito da un processo di manutenzione del gruppo acquisti che rimuove lo stesso membro dal gruppo, il processo di manutenzione **non rimuove** tale membro e non può sostituire l’assegnazione dell’azione del percorso.
 
 ## Flusso di lavoro del gruppo acquisti
 
@@ -96,7 +96,7 @@ Per accedere ai dettagli di un gruppo acquisti, fai clic sul nome del gruppo acq
 
 ### Punteggio di completezza del gruppo acquisti
 
-Il punteggio di completezza viene utilizzato per determinare se al gruppo di acquisto sono assegnati i membri giusti ai ruoli ed è pronto per essere utilizzato in un percorso di account. Questo punteggio è una percentuale basata sul numero di ruoli all’interno del gruppo acquisti e sul numero di ruoli assegnati con almeno un lead.
+Il punteggio di completezza viene utilizzato per determinare se il gruppo acquisti dispone dei membri giusti assegnati ai ruoli ed è pronto per essere utilizzato in un percorso account. Questo punteggio è una percentuale basata sul numero di ruoli all’interno del gruppo acquisti e sul numero di ruoli assegnati con almeno un lead.
 
 Ad esempio, se all’interno di un gruppo acquisti sono presenti quattro ruoli e tre di tali quattro ruoli sono assegnati ad almeno un lead, il gruppo acquisti è completo al 75%.
 
@@ -104,12 +104,12 @@ Il punteggio di completezza del gruppo acquisti viene ricalcolato ogni volta che
 
 ### Punteggio di coinvolgimento del gruppo acquisti {#engagement-score}
 
-Il punteggio di coinvolgimento si basa sulle attività dei membri del gruppo di acquisto, sulle azioni ponderate e sui ruoli ponderati. Il punteggio risultante viene normalizzato all’interno del tenant/istanza per consentire un confronto coerente e ottenere informazioni fruibili.
+Il punteggio di coinvolgimento si basa sulle attività dei membri del gruppo acquisti, sulle azioni e sui ruoli ponderati. Il punteggio risultante viene normalizzato all’interno del tenant/istanza per consentire un confronto coerente e ottenere approfondimenti utilizzabili.
 
-Il calcolo del punteggio di coinvolgimento iniziale viene avviato non appena si crea il gruppo di acquisto e viene ricalcolato ogni giorno.
+Il calcolo del punteggio di coinvolgimento iniziale viene avviato non appena viene creato il gruppo acquisti e viene ricalcolato ogni giorno.
 
-Per informazioni dettagliate sulle attività e sui calcoli dei punteggi di coinvolgimento, vedere [Punteggi di coinvolgimento](./engagement-scores.md).
+Per informazioni dettagliate sulle attività e sui calcoli dei punteggi di coinvolgimento, consulta [Punteggi di coinvolgimento](./engagement-scores.md).
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3452945/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
