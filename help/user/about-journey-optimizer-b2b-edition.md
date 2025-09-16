@@ -1,11 +1,11 @@
 ---
 title: Panoramica di Adobe Journey Optimizer B2B Edition
-description: 'Scopri Adobe Journey Optimizer B2B edition: orchestrare percorsi di account con gruppi di acquisto, approfondimenti sull’intelligenza artificiale e l’integrazione di Experience Platform per il marketing B2B.'
+description: 'Scopri Adobe Journey Optimizer B2B Edition: orchestra percorsi di account con gruppi acquisti, approfondimenti sull’IA e l’integrazione di Experience Platform per il marketing B2B.'
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '819'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Con Adobe Journey Optimizer B2B Edition, puoi orchestrare account e percorsi del
 
 ## Percorsi di account con gruppi di acquisto
 
-Quando si confrontano Adobe Journey Optimizer B2B edition con gli standard Marketo Engage e Adobe Journey Optimizer, la distinzione chiave è che i percorsi di account spostano gli account nel Percorso, non le persone. Una persona associata a un account in genere presenta una progressione non lineare basata sull’avanzamento dell’account nel percorso e non sulle singole azioni. Ad esempio, quando un account si trova nella fase iniziale del percorso di acquisto, le informazioni inviate potrebbero riguardare le funzionalità o le caratteristiche generali della soluzione. Più avanti nel processo di acquisto, il contenuto potrebbe diventare più mirato su offerte particolari o altri elementi destinati a chiudere una vendita. Dopo l’acquisto della soluzione, le informazioni potrebbero cambiare nuovamente per fornire guide pratiche, best practice o informazioni su eventi successivi, oppure con contenuti su ulteriori upsell. Anche se un singolo utente non ha interagito con il contenuto della fase iniziale, desideri comunque farlo avanzare alla fase corrente non in base alle proprie azioni, ma a quelle di altre persone all’interno del proprio account o gruppo di acquisto.
+Confrontando Adobe Journey Optimizer B2B Edition con Marketo Engage e Adobe Journey Optimizer Standard, la distinzione chiave è che i percorsi degli account spostano gli account nel percorso, non le persone. Una persona associata a un account in genere presenta una progressione non lineare basata sull’avanzamento dell’account nel percorso e non sulle singole azioni. Ad esempio, quando un account si trova nella fase iniziale del percorso di acquisto, le informazioni inviate potrebbero riguardare le funzionalità o le caratteristiche generali della soluzione. Più avanti nel processo di acquisto, il contenuto potrebbe diventare più mirato su offerte particolari o altri elementi destinati a chiudere una vendita. Dopo l’acquisto della soluzione, le informazioni potrebbero cambiare nuovamente per fornire guide pratiche, best practice o informazioni su eventi successivi, oppure con contenuti su ulteriori upsell. Anche se un singolo utente non ha interagito con il contenuto della fase iniziale, desideri comunque farlo avanzare alla fase corrente non in base alle proprie azioni, ma a quelle di altre persone all’interno del proprio account o gruppo di acquisto.
 
 ## Architettura di alto livello
 
@@ -37,7 +37,7 @@ Lo scopo di Experience Platform in questa configurazione è quello di fornire un
 
 I percorsi di account vengono creati in Journey Optimizer B2B Edition e memorizzati nell’istanza Marketo Engage associata all’abbonamento. Anche se è memorizzato nell’archivio dati di Marketo Engage, non è visibile dall’interfaccia utente di Marketo Engage ed è utilizzabile solo da Journey Optimizer B2B Edition.
 
-Un percorso di account inizia sempre con la selezione di un segmento di account da utilizzare come pubblico di account per il percorso. La selezione del pubblico utilizza il componente standard del selettore del pubblico di Experience Platform. Gli addetti al marketing possono quindi implementare il percorso di account suddividendo i percorsi del percorso in base ai propri criteri, che possono includere criteri di account, persone o gruppi di acquisto. In ogni ramo è possibile eseguire azioni per implementare il percorso, ad esempio inviare un messaggio e-mail o attendere che si verifichi un evento.
+Un percorso di account inizia sempre con la selezione di un segmento di account da utilizzare come pubblico di account per il percorso. La selezione del pubblico utilizza il componente standard del selettore del pubblico di Experience Platform. Gli esperti marketing possono quindi implementare il percorso di account suddividendone i percorsi in base ai propri criteri, che possono includere i criteri dell’account, delle persone o del gruppo acquisti. In ogni ramo è possibile eseguire azioni per implementare il percorso, ad esempio inviare un messaggio e-mail o attendere che si verifichi un evento.
 
 Dopo la creazione, il percorso di account deve essere pubblicato. Al momento della pubblicazione, il percorso di account viene convalidato e convertito in una serie di campagne Marketo Engage che implementano l’esperienza di percorso. I servizi di integrazione dati vengono contattati per avviare il flusso di dati che, a sua volta, avvia le operazioni del percorso dell’account. Il primo passaggio consiste nel creare i segmenti per le persone dell’account.
 

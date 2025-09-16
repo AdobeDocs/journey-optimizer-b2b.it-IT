@@ -5,17 +5,17 @@ feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '883'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Risorse
 
-In [!DNL Adobe Journey Optimizer B2B Edition], le risorse sono in genere le immagini utilizzate durante la progettazione di contenuti per supportare percorsi account. Puoi utilizzare queste immagini nelle e-mail, nei modelli e nei frammenti di e-mail dal selettore delle risorse o da una semplice interfaccia a trascinamento all’interno dello spazio di progettazione visiva.
+In [!DNL Adobe Journey Optimizer B2B Edition], le risorse sono in genere le immagini utilizzate durante la progettazione di contenuti per supportare percorsi account. Puoi utilizzare queste immagini nelle e-mail, nei modelli di e-mail e nei frammenti tramite un selettore di risorse o una semplice interfaccia di trascinamento all’interno dello spazio di progettazione visiva.
 
-[!DNL Journey Optimizer B2B Edition] offre ai marketer l’accesso a due tipi di librerie di risorse: [!DNL Adobe Marketo Engage] [!DNL Design Studio] e [!DNL Adobe Experience Manager Assets as a Cloud Service]. È possibile utilizzare solo Adobe Marketo Engage Design Studio oppure entrambe le librerie configurate contemporaneamente (in base alla licenza di [!DNL Experience Manager Assets] disponibile).
+[!DNL Journey Optimizer B2B Edition] offre ai marketer l’accesso a due tipi di librerie di risorse: [!DNL Adobe Marketo Engage] [!DNL Design Studio] e [!DNL Adobe Experience Manager Assets as a Cloud Service]. Puoi utilizzare solo Adobe Marketo Engage Design Studio oppure entrambe le librerie configurate contemporaneamente (in base alla licenza di [!DNL Experience Manager Assets] in tuo possesso).
 
 ## Gestione delle risorse
 

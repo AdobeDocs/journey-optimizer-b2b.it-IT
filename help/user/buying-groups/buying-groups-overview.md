@@ -1,13 +1,13 @@
 ---
 title: Gruppi acquisti
-description: 'Ottimizza il marketing basato sugli account con i gruppi di acquisto: identifica i responsabili decisionali, tieni traccia dei punteggi di coinvolgimento e automatizza il targeting in Journey Optimizer B2B edition.'
+description: 'Ottimizza Account-Based Marketing con i gruppi acquisti: identifica i responsabili delle decisioni, tieni traccia dei punteggi di coinvolgimento e automatizza il targeting in Journey Optimizer B2B edition.'
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1187'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Nell’account potrebbe essere presente un sottoinsieme di persone che costituis
 
 ## Componenti principali
 
-Puoi aumentare l’efficacia del marketing creando gruppi di acquisto che identifichino i membri per gli elenchi dei tuoi account di destinazione per le soluzioni che i team di vendita sono responsabili della vendita. Prima di iniziare a creare i gruppi acquisti con il team di marketing, accertati di aver definito i componenti principali. Questi componenti sono fondamentali per raggiungere gli obiettivi e le finalità aziendali.
+Puoi aumentare l’efficacia del marketing creando gruppi acquisti che comprendano specifici membri dagli elenchi dei tuoi account target per le soluzioni gestite dai team di vendita. Prima di iniziare a creare i gruppi acquisti con il team di marketing, accertati di aver definito i componenti principali. Questi componenti sono fondamentali per raggiungere gli obiettivi e le finalità aziendali.
 
 | Componente | Finalità |
 | --------- | ------- |
@@ -112,4 +112,4 @@ Per informazioni dettagliate sulle attività e sui calcoli dei punteggi di coinv
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3452945/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
