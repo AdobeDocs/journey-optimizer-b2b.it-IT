@@ -3,7 +3,7 @@ title: Panoramica di Adobe Journey Optimizer B2B Edition
 description: 'Scopri Adobe Journey Optimizer B2B Edition: orchestra percorsi di account con gruppi acquisti, approfondimenti sull’IA e l’integrazione di Experience Platform per il marketing B2B.'
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 100%
 
