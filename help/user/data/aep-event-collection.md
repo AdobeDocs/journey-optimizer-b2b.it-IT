@@ -9,7 +9,7 @@ badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmen
 source-git-commit: a5df9dc1674d2a4fbc1705423e51318e3367d3c6
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 1%
+ht-degree: 45%
 
 ---
 
@@ -18,6 +18,6 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_subdomain_datastream_id"
 >title="ID dello stream di dati del sottodominio"
->abstract="Fornisci un flusso di dati per abilitare la raccolta dati della pagina di destinazione con Experience Platform Web SDK. "
+>abstract="Fornisci uno stream di dati per abilitare la raccolta dati della pagina di destinazione con Experience Platform Web SDK. "
 
 Il contenuto sarà presto disponibile.
