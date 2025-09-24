@@ -3,10 +3,10 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: 'Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition: resta aggiornato con le nuove funzionalità e i miglioramenti apportati ai prodotti.'
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
 workflow-type: tm+mt
-source-wordcount: '2795'
-ht-degree: 100%
+source-wordcount: '3016'
+ht-degree: 94%
 
 ---
 
@@ -24,6 +24,23 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
 
 -->
+
+## Note sulla versione 2025.9
+
+**Data di distribuzione**: mercoledì 30 settembre 2025
+
+Questa versione include le seguenti nuove funzionalità e miglioramenti:
+
+| Tipo | Elemento | Descrizione |
+| ---- | ---- | ----------- |
+| Funzione | Collaborazione per contenuto e-mail | Ora puoi commentare la collaborazione con gli altri utenti di Journey Optimizer B2B edition, nel contesto di una risorsa e-mail. Puoi assegnare ai membri del gruppo un tag in modo che ricevano una notifica e-mail con i dettagli del commento. La notifica è disponibile anche come notifica Pulse. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
+| Funzione | Modalità scura per la progettazione di e-mail | Lo spazio di progettazione delle e-mail ora include la possibilità di passare alla _modalità scura_. In modalità scura, puoi visualizzare in anteprima il contenuto dell’e-mail e definire impostazioni personalizzate da visualizzare in modo specifico per i destinatari che visualizzano le e-mail in modalità scura. <!-- [Learn more](../content/email-dark-mode.md) --> |
+| Miglioramento | Percorsi - Dividi percorso per numero di persone nel ruolo | Utilizza un percorso di suddivisione per nodo di account per eseguire il targeting di un account con il numero di persone in uno o più ruoli del gruppo di acquisto. Nel percorso, puoi valutare la fattibilità del gruppo di acquisto per gli avvisi di vendita e altro coinvolgimento in base alla profondità del ruolo. <!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
+| Miglioramento | Percorsi - Filtri persona per gli eventi | Utilizza i filtri persone per ascoltare gli eventi relativi alle persone. Questi filtri includono la possibilità di eseguire il targeting per un ruolo specifico per un gruppo di acquisto corrispondente. <!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+
+>[!NOTE]
+>
+>Le modifiche della versione iniziano la distribuzione il mercoledì 30 settembre 2025, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 ## Note sulla versione 2025.8
 
