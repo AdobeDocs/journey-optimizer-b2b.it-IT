@@ -4,10 +4,10 @@ description: Crea modelli e-mail riutilizzabili con strumenti di progettazione v
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 9f8953423e3b6d578155431c7638e4fec9abf86a
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 3%
+source-wordcount: '540'
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Con almeno un componente di contenuto nell&#39;area di lavoro, seleziona il comp
 
 Dopo il salvataggio, il modello viene visualizzato nella pagina dei dettagli del frammento quando si seleziona la scheda _[!UICONTROL Usato da]_ nel riepilogo.
 
-### Aggiungere risorse
+### Aggiungere risorse immagine
 
 {{$include /help/_includes/content-design-assets.md}}
 
@@ -54,6 +54,14 @@ Dopo il salvataggio, il modello viene visualizzato nella pagina dei dettagli del
 ### Modifica tracciamento URL collegato
 
 {{$include /help/_includes/content-design-links.md}}
+
+### Applica stile modalità scura
+
+Utilizza la _modalità scura_ per verificare la presenza di un tema scuro nel client di posta elettronica. Una modalità scura o un tema consente a un client e-mail o a un’app di supporto di visualizzare e-mail con sfondi più scuri e colori più chiari per testo, pulsanti e altri elementi visivi. In alto a destra nell&#39;area di progettazione, imposta il selettore su _modalità scura_ ( ![icona modalità scura](../assets/do-not-localize/icon-content-dark-mode.svg) ). Quindi, visualizza in anteprima e definisci le impostazioni personalizzate specifiche utilizzate per la visualizzazione dai client e-mail di supporto quando il loro tema scuro è abilitato.
+
+![Area di lavoro di progettazione e-mail con il selettore della modalità scura e il contenuto delle e-mail visualizzato in tale modalità](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+
+Per ulteriori informazioni sullo stile della modalità scura e sulle best practice, vedere [Modalità scura per il contenuto delle e-mail](./email-dark-mode.md).
 
 ## Opzioni di visualizzazione
 

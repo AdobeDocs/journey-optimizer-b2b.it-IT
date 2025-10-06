@@ -4,7 +4,7 @@ description: Calcola i punteggi di coinvolgimento di gruppi di acquisto e person
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 859e96ce0d450b52a8216f767c595938c23a9d50
 workflow-type: tm+mt
 source-wordcount: '1254'
 ht-degree: 28%
@@ -30,13 +30,13 @@ Esistono due tipi di punteggi di coinvolgimento:
 
 * **Punteggio di coinvolgimento della persona** - Il punteggio di coinvolgimento della persona si basa sulle attività di un singolo membro del gruppo di acquisto.
 
-  Il punteggio di coinvolgimento della persona per ogni membro del gruppo di acquisto viene visualizzato nella pagina dei dettagli del gruppo di acquisto [_[!UICONTROL Membri &#x200B;]_&#x200B;scheda](./buying-group-details.md#buying-group-members). Questi punteggi vengono visualizzati anche nelle pagine e nei dashboard che includono i membri più coinvolti e le informazioni sui contatti sovrapposte.
+  Il punteggio di coinvolgimento della persona per ogni membro del gruppo di acquisto viene visualizzato nella pagina dei dettagli del gruppo di acquisto [_[!UICONTROL Membri ]_scheda](./buying-group-details.md#buying-group-members). Questi punteggi vengono visualizzati anche nelle pagine e nei dashboard che includono i membri più coinvolti e le informazioni sui contatti sovrapposte.
 
   ![Membri del gruppo di acquisto più coinvolti](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-Il punteggio di coinvolgimento della persona è un attributo disponibile per il filtraggio in [modelli di ruoli](./buying-groups-role-templates.md#add-the-template-roles) e [nodi splt-path-by-people di percorso](../journeys/split-merge-paths-nodes.md#people-path-conditions).
+Il punteggio di coinvolgimento della persona è un attributo disponibile per il filtraggio in [modelli di ruoli](./buying-groups-role-templates.md#add-the-template-roles) e [nodi splt-path-by-people di percorso](../journeys/split-merge-paths-nodes.md#people-path-filters).
 
 ![Accedere alle definizioni degli eventi configurate](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
 

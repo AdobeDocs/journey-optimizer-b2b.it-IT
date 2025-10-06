@@ -2,10 +2,10 @@
 title: Documentazione di Adobe Journey Optimizer B2B Edition
 description: 'Documentazione completa per Journey Optimizer B2B Edition: esplora le risorse disponibili per l’onboarding, la creazione di gruppi acquisti e di percorsi di account e la gestione dei contenuti.'
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: ht
-source-wordcount: '636'
-ht-degree: 100%
+source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 78%
 
 ---
 
@@ -16,6 +16,18 @@ ht-degree: 100%
 Di seguito è riportato un esempio dei miglioramenti e delle aggiunte più recenti apportate al prodotto e alla documentazione di Journey Optimizer B2B Edition.
 
 >[!BEGINTABS]
+
+>[!TAB Collaborazione per contenuto e-mail]
+
+Lo spazio di progettazione delle e-mail include strumenti di collaborazione per la creazione di commenti e la risoluzione, in modo che i team di marketing possano esaminare, discutere e finalizzare le risorse e-mail direttamente in [!DNL Journey Optimizer B2B Edition]. Invece di condividere le bozze su strumenti esterni (come chat, thread e-mail o fogli di calcolo), gli utenti possono commentare, suggerire modifiche e risolvere feedback all’interno dell’area di progettazione delle e-mail. Puoi assegnare ai membri del gruppo un tag in modo che ricevano un’e-mail o una notifica Pulse con i dettagli del commento.
+
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Scopri gli strumenti di collaborazione per i contenuti e-mail"}
+
+>[!TAB Progettazione e-mail in modalità scura]
+
+Lo spazio di progettazione delle e-mail ora include l&#39;anteprima e le impostazioni della _modalità scura_. La modalità scura consente a un client e-mail o a un’app di supporto di visualizzare e-mail con sfondi più scuri e colori più chiari per testo, pulsanti e altri elementi visivi. Anteprima del rendering, personalizzazione delle impostazioni, garanzia di accessibilità e test tra client e-mail.
+
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Scopri la progettazione delle e-mail in modalità scura"}
 
 >[!TAB Punteggio di coinvolgimento della persona]
 
@@ -35,12 +47,6 @@ Assegna ponderazioni personalizzate alle attività di coinvolgimento in modo che
 
 [!BADGE Ulteriori informazioni]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Informazioni sulla ponderazione personalizzata del punteggio di coinvolgimento"}
 
->[!TAB Esperienze e-mail GenStudio]
-
-Integra le esperienze e-mail di GenStudio for Performance Marketing con Journey Optimizer B2B Edition per migliorare l’efficienza del marketing e mantenere la coerenza del brand. Con questa integrazione, puoi combinare la creazione di contenuti basata sull’intelligenza artificiale di GenStudio con le funzionalità di orchestrazione avanzate di Journey Optimizer B2B Edition.
-
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Scopri le esperienze e-mail di GenStudio"}
-
 >[!TAB Supporto di CSS personalizzati]
 
 Ora, nello spazio di progettazione, puoi aggiungere un CSS personalizzato durante l’authoring dei contenuti per e-mail e pagine di destinazione.
@@ -52,12 +58,6 @@ Ora, nello spazio di progettazione, puoi aggiungere un CSS personalizzato durant
 Per attivare e gestire il modello di rilevamento dell’intento, ora puoi caricare un foglio di calcolo per definire una categoria di mappatura dei dati intento.
 
 [!BADGE Ulteriori informazioni]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Informazioni sulla configurazione della mappatura delle parole chiave di intento"}
-
->[!TAB Reporting sul rilevamento di spam]
-
-Con i nuovi rapporti sullo spam, puoi evitare filtri anti-spam e assicurarti che i messaggi vengano recapitati nelle caselle in entrata del pubblico. Genera un _rapporto spam_ direttamente nello spazio di progettazione delle e-mail.
-
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Informazioni sul reporting per il rilevamento di spam"}
 
 >[!ENDTABS]
 
@@ -137,7 +137,7 @@ Scopri i componenti di un gruppo acquisti e comprendi le nozioni di base per la 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Video e tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrizione prodotto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Video e tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrizione prodotto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/it/docs/experience-platform/landing/home" target="_blank">Documentazione</a> - <a href="https://business.adobe.com/it/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Risorse per sviluppatori</a>
