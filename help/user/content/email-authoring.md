@@ -17,7 +17,7 @@ Dopo aver [aggiunto una risorsa e-mail a un nodo di azione del percorso](./add-e
 
 Fai clic su **[!UICONTROL Modifica contenuto e-mail]** nella scheda _[!UICONTROL Dettagli]_ nel pannello di destra.
 
-![Fare clic su Modifica contenuto e-mail ](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Fare clic su Modifica contenuto e-mail &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Questa azione avvia gli strumenti di progettazione delle e-mail, in cui puoi scegliere come progettare le e-mail dalle seguenti opzioni:
 
@@ -91,7 +91,7 @@ Con almeno un componente di contenuto nell&#39;area di lavoro, seleziona il comp
 
 >[!NOTE]
 >
->Se il messaggio di posta elettronica è progettato utilizzando un modello [ con contenuto bloccato](./template-content-governance.md), non è possibile aggiungere CSS personalizzati al contenuto. L&#39;etichetta del pulsante diventa **[!UICONTROL Visualizza CSS personalizzato]** ed eventuali CSS personalizzati già presenti nel contenuto sono di sola lettura.
+>Se il messaggio di posta elettronica è progettato utilizzando un modello [&#x200B; con contenuto bloccato](./template-content-governance.md), non è possibile aggiungere CSS personalizzati al contenuto. L&#39;etichetta del pulsante diventa **[!UICONTROL Visualizza CSS personalizzato]** ed eventuali CSS personalizzati già presenti nel contenuto sono di sola lettura.
 
 ![Accedere agli stili del corpo](./assets/email-body-styles.png){width="800" zoomable="yes"}
 

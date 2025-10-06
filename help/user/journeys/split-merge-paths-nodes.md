@@ -27,7 +27,7 @@ Un nodo _Percorsi suddivisi_ definisce uno o più percorsi segmentati in base ai
 
 I percorsi suddivisi per account possono includere azioni ed eventi sia per gli account che per le persone. Questi percorsi possono essere ulteriormente suddivisi.
 
-_**Funzionamento di un percorso suddiviso per nodo account**_
+_&#x200B;**Funzionamento di un percorso suddiviso per nodo account**&#x200B;_
 
 * Ogni percorso aggiunto include un nodo finale con la possibilità di aggiungere nodi a ogni nodo edge.
 * È possibile nidificare il percorso suddiviso per nodi di account (è possibile dividerlo più volte per account).
@@ -121,7 +121,7 @@ Per gli account identificati, potresti quindi aggiungere un nodo di azione nel p
 
 I percorsi Dividi per persone possono includere solo azioni persone. Questi percorsi non possono essere nuovamente suddivisi e uniti automaticamente.
 
-_**Funzionamento di un percorso suddiviso per nodo persone**_
+_&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 
 * I nodi suddivisi per persone funzionano all&#39;interno di una combinazione di _nodo raggruppato_ split-merge. I percorsi suddivisi si uniscono automaticamente in modo che tutte le persone possano passare al passaggio successivo senza perdere il contesto dell’account.
 * I nodi Dividi per persone non possono essere nidificati (non è possibile aggiungere un percorso diviso per le persone in un percorso che si trova in questo nodo raggruppato).
@@ -216,7 +216,7 @@ Per un percorso suddiviso per persone, puoi definire un percorso in base all’a
 
 >[!BEGINSHADEBOX &quot;Filtro inattività&quot;]
 
-Per ciascuno dei filtri _[!UICONTROL Cronologia attività]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa a filtro inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Ad esempio, se desideri creare un percorso per le persone che _**non hanno aperto**_ un&#39;e-mail da prima nel percorso, aggiungi il filtro _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail aperta]_. Abilita l’opzione di inattività e specifica l’e-mail. È consigliabile utilizzare il vincolo _[!UICONTROL Data attività]_ per definire un periodo di tempo per l&#39;inattività.
+Per ciascuno dei filtri _[!UICONTROL Cronologia attività]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa a filtro inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Ad esempio, se desideri creare un percorso per le persone che _&#x200B;**non hanno aperto**&#x200B;_ un&#39;e-mail da prima nel percorso, aggiungi il filtro _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail aperta]_. Abilita l’opzione di inattività e specifica l’e-mail. È consigliabile utilizzare il vincolo _[!UICONTROL Data attività]_ per definire un periodo di tempo per l&#39;inattività.
 
 ![Condizione Dividi percorso per persona per l&#39;acquisto dell&#39;iscrizione al gruppo](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
