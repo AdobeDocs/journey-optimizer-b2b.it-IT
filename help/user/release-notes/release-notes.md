@@ -3,9 +3,9 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: 'Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition: resta aggiornato con le nuove funzionalità e i miglioramenti apportati ai prodotti.'
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 93a5b236c9d6f4e11d18704f1feb4804a79989f6
+source-git-commit: fbb949da360e1e80e92fa34b2dd43a4de10011b9
 workflow-type: tm+mt
-source-wordcount: '3000'
+source-wordcount: '2996'
 ht-degree: 97%
 
 ---
@@ -32,8 +32,8 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Collaborazione sui contenuti delle e-mail | Ora puoi aggiungere commenti e collaborare con altri utenti di Journey Optimizer B2B Edition, nel contesto di una risorsa e-mail. Puoi menzionare i membri del gruppo in modo che ricevano una notifica e-mail con i dettagli del commento. La notifica è disponibile anche come notifica Pulse. [Ulteriori informazioni](../content/email-collaboration-tools.md) |
-| Funzione | Modalità scura per la progettazione di e-mail | Lo spazio di progettazione delle e-mail ora include la possibilità di passare alla _modalità scura_. In modalità scura, puoi visualizzare in anteprima il contenuto dell’e-mail e definire impostazioni personalizzate da visualizzare in modo specifico per i destinatari che visualizzano le e-mail in modalità scura. [Ulteriori informazioni](../content/email-dark-mode.md) |
+| Funzione | Collaborazione sui contenuti delle e-mail | Ora puoi aggiungere commenti e collaborare con altri utenti di Journey Optimizer B2B Edition, nel contesto di una risorsa e-mail. Puoi menzionare i membri del gruppo in modo che ricevano una notifica e-mail con i dettagli del commento. La notifica è disponibile anche come notifica Pulse. |
+| Funzione | Modalità scura per la progettazione di e-mail | Lo spazio di progettazione delle e-mail ora include la possibilità di passare alla _modalità scura_. In modalità scura, puoi visualizzare in anteprima il contenuto dell’e-mail e definire impostazioni personalizzate da visualizzare in modo specifico per i destinatari che visualizzano le e-mail in modalità scura. |
 | Miglioramento | Percorsi - Dividere un percorso per numero di persone nel ruolo | Utilizza un percorso diviso per nodo di account per eseguire il targeting di un account con il numero di persone in uno o più ruoli del gruppo acquisti. Nel percorso, puoi valutare la fattibilità del gruppo di acquisto per gli avvisi di vendita e altro coinvolgimento in base alla profondità del ruolo. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | Miglioramento | Percorsi - Filtri persona per eventi | Utilizza i filtri persone per cogliere eventi relativi alle persone. Questi filtri includono la possibilità di eseguire il targeting per un ruolo specifico per un gruppo di acquisto corrispondente. [Ulteriori informazioni](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
