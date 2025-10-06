@@ -221,4 +221,4 @@ Se necessario, definisci il tempo di attesa dell’evento da parte del percorso.
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443242/?learn=on&captions=ita)
