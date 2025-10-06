@@ -3,8 +3,7 @@ title: Agente di creazione percorso per B2B
 description: Scopri come
 feature: Account Journeys, AI Assistant
 role: User
-hidefromtoc: true
-source-git-commit: 0d754ea984580d3b2f19389df63d66c041bd4fd5
+source-git-commit: e8003e7c46c007373d17c6c338f92c80b5ff4017
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
