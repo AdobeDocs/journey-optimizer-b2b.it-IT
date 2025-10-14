@@ -25,7 +25,7 @@ Questo grafico illustra la distribuzione dei percorsi in base al loro tasso di c
 
 Per visualizzare informazioni più dettagliate, fare clic sull&#39;icona del menu **...** in alto a destra.
 
-Distribuzione percentuale di completamento di ![ Percorsi](./assets/journey-completion-rate-distribution.png){width="500"}
+Distribuzione percentuale di completamento di ![&#x200B; Percorsi](./assets/journey-completion-rate-distribution.png){width="500"}
 
 ## Percorsi per tipo di coinvolgimento
 
@@ -33,7 +33,7 @@ Questo grafico a barre mostra la distribuzione dei percorsi in base al tipo di c
 
 Per visualizzare informazioni più dettagliate, fare clic sull&#39;icona del menu **...** in alto a destra.
 
-Distribuzione percentuale di completamento di ![ Percorsi](./assets/journeys-by-engagement-type.png){width="500"}
+Distribuzione percentuale di completamento di ![&#x200B; Percorsi](./assets/journeys-by-engagement-type.png){width="500"}
 
 ## Coinvolgi i dati
 

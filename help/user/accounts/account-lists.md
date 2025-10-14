@@ -86,7 +86,7 @@ Dopo aver creato l’elenco degli account statici, puoi compilarlo applicando un
 
 1. Selezionare **[!UICONTROL Aggiungi account]**.
 
-   ![Aggiungere un filtro account per compilare l&#39;elenco ](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
+   ![Aggiungere un filtro account per compilare l&#39;elenco &#x200B;](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
 
    Puoi accedere a questa funzione nella pagina dell’elenco vuota o in alto a destra.
 
@@ -98,7 +98,7 @@ Dopo aver creato l’elenco degli account statici, puoi compilarlo applicando un
    * Completa la definizione della valutazione della corrispondenza.
    * Ripetere queste operazioni per ogni filtro che si desidera includere.
 
-     ![Aggiungere filtri per popolare l&#39;elenco account ](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}
+     ![Aggiungere filtri per popolare l&#39;elenco account &#x200B;](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
    * Puoi ottimizzare le condizioni applicando la **[!UICONTROL logica di filtro]** nella parte superiore. Puoi scegliere di soddisfare tutte le condizioni dell’attributo o qualsiasi condizione.
 
@@ -116,7 +116,7 @@ Dopo aver creato un elenco di account dinamici, puoi definire il set di filtri u
 
 1. Fare clic su **[!UICONTROL Seleziona filtri]**.
 
-   ![Selezionare i filtri utilizzati per compilare l&#39;elenco in modo dinamico ](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
+   ![Selezionare i filtri utilizzati per compilare l&#39;elenco in modo dinamico &#x200B;](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
 
 1. Nella finestra di dialogo _[!UICONTROL Aggiungi account per filtro]_, utilizza il menu **[!UICONTROL Filtri account]** per aggiungere gli attributi e i filtri speciali che desideri utilizzare per creare il set di filtri:
 
@@ -126,7 +126,7 @@ Dopo aver creato un elenco di account dinamici, puoi definire il set di filtri u
    * Completa la definizione della valutazione della corrispondenza.
    * Ripetere queste operazioni per ogni filtro che si desidera includere.
 
-     ![Aggiungere filtri per popolare l&#39;elenco account ](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"}
+     ![Aggiungere filtri per popolare l&#39;elenco account &#x200B;](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
    * Puoi ottimizzare le condizioni applicando la **[!UICONTROL logica di filtro]** nella parte superiore. Puoi scegliere di soddisfare tutte le condizioni dell’attributo o qualsiasi condizione.
 
