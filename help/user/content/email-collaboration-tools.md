@@ -3,17 +3,16 @@ title: Strumenti di e-mail Collaboration
 description: Collabora alle e-mail in Journey Optimizer B2B edition. Aggiungi commenti, invita i revisori, risolvi i commenti e semplifica i flussi di lavoro di revisione per i team.
 feature: Email Authoring, Content
 role: User
-hidefromtoc: true
-source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
+source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # Strumenti di collaborazione e-mail
 
-Lo [spazio di progettazione e-mail](./email-authoring.md) include strumenti di collaborazione per la creazione di commenti e la risoluzione, in modo che i team di marketing possano esaminare, discutere e finalizzare le risorse e-mail direttamente in [!DNL Journey Optimizer B2B Edition]. Invece di condividere le bozze su strumenti esterni (come chat, thread e-mail o fogli di calcolo), gli utenti possono commentare, suggerire modifiche e risolvere feedback all’interno dell’area di progettazione delle e-mail. Utilizza questi strumenti per semplificare il flusso di lavoro, ridurre gli errori e garantire che le parti interessate siano allineate prima di lanciare la tua campagna e-mail all’interno di un percorso di account:
+Lo [spazio di progettazione e-mail](./email-authoring.md) include strumenti di collaborazione per la creazione di commenti e la risoluzione, in modo che i team di marketing possano esaminare, discutere e finalizzare le risorse e-mail direttamente in [!DNL Journey Optimizer B2B Edition]. Invece di condividere le bozze tramite strumenti esterni (come chat, thread di e-mail o fogli di calcolo), è possibile aggiungere commenti, suggerire modifiche e risolvere i feedback ricevuti senza uscire dall’area di progettazione delle e-mail. Utilizza questi strumenti per semplificare il flusso di lavoro, ridurre gli errori e garantire che le parti interessate siano allineate prima di lanciare la tua campagna e-mail all’interno di un percorso di account:
 
 * **_Feedback centralizzato_**: raccogli e tieni traccia di tutti i feedback in un&#39;unica posizione.
 

@@ -3,8 +3,7 @@ title: Audience Agent B2B
 description: Audience Agent B2B in Percorsi OptimizerB2B Edition utilizza l’analisi intento e la mappatura persona per creare gruppi di acquisto e accelerare i flussi di lavoro di marketing B2B.
 feature: Audiences, AI Assistant
 role: User
-hidefromtoc: true
-source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
+source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
