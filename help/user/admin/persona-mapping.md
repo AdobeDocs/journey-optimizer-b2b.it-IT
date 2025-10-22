@@ -2,11 +2,10 @@
 title: Mappatura personale
 description: Scopri come configurare gli utenti tipo per il marketing basato su account mappando gli attributi delle persone per creare modelli di ruolo semplificati per i gruppi di acquisto.
 feature: Setup, Buying Groups
-hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 role: Admin
-source-git-commit: e301dfd5ac1421eb73e80b1d772d1b17f9ef3a1e
+source-git-commit: 05c70d7b27ba47633ec131782bcb7d269f809239
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
