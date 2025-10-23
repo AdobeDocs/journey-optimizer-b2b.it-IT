@@ -5,9 +5,9 @@ feature: Setup, Buying Groups
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 role: Admin
-source-git-commit: 05c70d7b27ba47633ec131782bcb7d269f809239
+source-git-commit: 521bfb3870e98dab85fbcabe711ed662e9b748d4
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '904'
 ht-degree: 1%
 
 ---
@@ -76,10 +76,7 @@ Per individuare l’utente tipo desiderato, utilizza gli strumenti di ricerca e 
 
   ![Filtra le definizioni degli eventi visualizzati](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
 
-* Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare l&#39;elenco visualizzato utilizzando uno dei seguenti attributi:
-
-   * ?
-   * ?
+* Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare l&#39;elenco visualizzato per attributo.
 
 ## Creare un utente tipo
 
@@ -114,7 +111,6 @@ Per individuare l’utente tipo desiderato, utilizza gli strumenti di ricerca e 
 ## Modificare un tipo di utente
 
 1. Per accedere ai dettagli dell’utente tipo, fai clic sul nome.
-
 
 ## Eliminare un utente tipo
 
