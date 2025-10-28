@@ -1,12 +1,12 @@
 ---
 title: Note sulla versione di Journey Optimizer B2B Edition
-description: 'Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition: resta aggiornato con le nuove funzionalità e i miglioramenti apportati ai prodotti.'
+description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B edition. Rimani aggiornato con nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 4bf03f99f146454658422d5b1dac184a108c802b
 workflow-type: tm+mt
-source-wordcount: '3384'
-ht-degree: 90%
+source-wordcount: '3490'
+ht-degree: 87%
 
 ---
 
@@ -24,15 +24,16 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Schemi personalizzati basati su modelli | Creare schemi personalizzati dalle classi basate su modelli. |
-| Funzione | Attiva nella destinazione | Utilizza la nuova azione _Attiva per l&#39;account aziendale_ per eseguire l&#39;attivazione direttamente alle aziende, anziché ai singoli utenti. (Limitato alle società LinkedIn per questa versione). |
+| Funzione | Modello dati relazionale | Sfrutta i dati relazionali collegati agli account B2B per filtrare gli account all’interno di un percorso di account o personalizzare il contenuto delle e-mail. Questi dati relazionali possono rappresentare entità aziendali reali come record di acquisto, registrazioni di eventi, licenze software, abbonamenti a servizi o prenotazioni. |
+| Funzione | Attiva nella destinazione per percorsi | Utilizza la nuova azione _Attiva per l&#39;account aziendale_ per eseguire l&#39;attivazione direttamente alle aziende, anziché ai singoli utenti. (Limitato alle società LinkedIn per questa versione). |
+| Funzione | Attivazione di più Marketo Engage | Configura le connessioni alle istanze Marketo Engage remote e utilizzale per configurare le azioni di percorso relative a Marketo Engage. Queste azioni, come l’aggiunta o la rimozione di persone dagli elenchi o l’aggiunta di persone a una campagna di richiesta, si applicano all’istanza di Marketo Engage designata. |
 | Funzione | Temi del brand | Con i temi del brand, gli utenti non tecnici hanno ora la possibilità di creare contenuti riutilizzabili che si adattano a un marchio e a un linguaggio di progettazione specifici aggiungendo stili personalizzati sopra i modelli standard. [Ulteriori informazioni](../content/brand-themes.md) |
 | Funzione | Mappatura personale | Associa i membri dell’account con utenti tipo consolidati con il mapping degli attributi. [Ulteriori informazioni](../admin/persona-mapping.md) |
+| Funzione | Informazioni sulle vendite per Salesforce e Dynamics | I membri del team vendite possono ora visualizzare i gruppi di acquisto in scadenza e le relative informazioni all’interno di un’integrazione Salesforce o Dynamics per identificare nuove opportunità. Sono inclusi i dettagli del gruppo di acquisto come fase, punteggio e membri correlati. |
+| Miglioramento | Deduplicazione dell’eccesso di posta elettronica | Ora puoi abilitare la deduplicazione delle e-mail per garantire che la stessa e-mail non venga inviata più volte allo stesso indirizzo in un percorso. Gli indirizzi duplicati vengono bloccati finché il primo record con tale indirizzo e-mail non completa il percorso. |
+| Miglioramento | Limiti di comunicazione | Il sistema ora rispetta i limiti di comunicazione combinati di Marketo Engage e Journey Optimizer B2B edition. |
 | Miglioramento | Acquisto di processi di manutenzione del gruppo | La frequenza dei processi di manutenzione del gruppo di acquisto viene aggiornata da settimanale a giornaliera. |
 | Miglioramento | Progressione del percorso account | Un collegamento _Ulteriori informazioni_ è visibile per la progressione del percorso per accedere ai conteggi e agli elenchi degli account. |
-
-<!-- M1.5 changes
-| Enhancement | Buying group scoring | The Buying Group completeness score is improved, including the ability to customize how the score is calculated. | -->
 
 Nell’interfaccia di AI Assistant sono ora disponibili le seguenti funzionalità di IA per l’agente per Journey Optimizer B2B edition:
 
@@ -43,7 +44,6 @@ Nell’interfaccia di AI Assistant sono ora disponibili le seguenti funzionalit�
 >[!NOTE]
 >
 >Le modifiche della versione vengono introdotte a partire dal sabato 31 ottobre 2025, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
-
 
 <!-- hold for later release 
 
@@ -62,8 +62,6 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | ---- | ---- | ----------- |
 | Funzione | Collaborazione sui contenuti delle e-mail | Ora puoi aggiungere commenti e collaborare con altri utenti di Journey Optimizer B2B Edition, nel contesto di una risorsa e-mail. Puoi menzionare i membri del gruppo in modo che ricevano una notifica e-mail con i dettagli del commento. La notifica è disponibile anche come notifica Pulse. |
 | Funzione | Modalità scura per la progettazione di e-mail | Lo spazio di progettazione delle e-mail ora include la possibilità di passare alla _modalità scura_. In modalità scura, puoi visualizzare in anteprima il contenuto dell’e-mail e definire impostazioni personalizzate da mostrare specificamente ai destinatari che visualizzano le e-mail in modalità scura. |
-| Funzione | Deduplicazione dell’eccesso di posta elettronica | Ora puoi abilitare la deduplicazione delle e-mail per garantire che la stessa e-mail non venga inviata più volte allo stesso indirizzo in un percorso. Gli indirizzi duplicati vengono bloccati finché il primo record con tale indirizzo e-mail non completa il percorso. |
-| Funzione | Informazioni sulle vendite per Salesforce e Dynamics | I membri del team vendite possono ora visualizzare i gruppi di acquisto in scadenza e le relative informazioni all’interno di un’integrazione Salesforce o Dynamics per identificare nuove opportunità. Sono inclusi i dettagli del gruppo di acquisto come fase, punteggio e membri correlati. |
 | Miglioramento | Percorsi - Dividere un percorso per numero di persone nel ruolo | Utilizza un percorso diviso per nodo di account per eseguire il targeting di un account con il numero di persone in uno o più ruoli del gruppo acquisti. Nel percorso puoi valutare la preparazione del gruppo acquisti per avvisi commerciali e altri tipi di coinvolgimento in base alla profondità del ruolo. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | Miglioramento | Percorsi - Filtri persona per eventi | Utilizza i filtri persone per cogliere eventi relativi alle persone. Questi filtri includono la possibilità di eseguire il targeting per un ruolo specifico per un gruppo acquisti corrispondente. [Ulteriori informazioni](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
