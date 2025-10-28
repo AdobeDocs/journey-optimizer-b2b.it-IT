@@ -1,13 +1,11 @@
 ---
 title: Mappatura personale
-description: Scopri come configurare gli utenti tipo per il marketing basato su account mappando gli attributi delle persone per creare modelli di ruolo semplificati per i gruppi di acquisto.
+description: Scopri come impostare la mappatura persona per il marketing B2B. Mappa gli attributi della persona in Journey Optimizer B2B edition per creare modelli di ruolo e ottimizzare il targeting dei gruppi di acquisto.
 feature: Setup, Buying Groups
-hidefromtoc: true
-badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 role: Admin
-source-git-commit: 521bfb3870e98dab85fbcabe711ed662e9b748d4
+source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '901'
 ht-degree: 1%
 
 ---
@@ -92,7 +90,7 @@ Per individuare l’utente tipo desiderato, utilizza gli strumenti di ricerca e 
 
    * Fare clic su **[!UICONTROL Seleziona attributi persona]**.
 
-   * Nella finestra di dialogo _[!UICONTROL Seleziona attributi persona]_, seleziona la casella di controllo per ogni attributo che desideri mappare (un massimo di cinque).
+   * Nella finestra di dialogo, seleziona la casella di controllo per ogni attributo che desideri mappare (un massimo di cinque).
 
      Puoi personalizzare la tabella visualizzata facendo clic sull&#39;icona _Impostazioni colonna_ ( ![Impostazioni colonna](../assets/do-not-localize/icon-column-settings.svg) ) nell&#39;angolo in alto a destra.
 
@@ -110,7 +108,7 @@ Per individuare l’utente tipo desiderato, utilizza gli strumenti di ricerca e 
 
 ## Modificare un tipo di utente
 
-1. Per accedere ai dettagli dell’utente tipo, fai clic sul nome.
+Fai clic sul nome dell’utente tipo per accedere e modificare i dettagli dell’utente tipo,
 
 ## Eliminare un utente tipo
 
