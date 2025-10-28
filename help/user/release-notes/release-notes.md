@@ -3,10 +3,10 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: 'Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition: resta aggiornato con le nuove funzionalità e i miglioramenti apportati ai prodotti.'
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: fbb949da360e1e80e92fa34b2dd43a4de10011b9
-workflow-type: ht
-source-wordcount: '2996'
-ht-degree: 100%
+source-git-commit: c8cf78c8e393121e325ffc8c7876c80902289d11
+workflow-type: tm+mt
+source-wordcount: '3078'
+ht-degree: 97%
 
 ---
 
@@ -36,6 +36,13 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Funzione | Modalità scura per la progettazione di e-mail | Lo spazio di progettazione delle e-mail ora include la possibilità di passare alla _modalità scura_. In modalità scura, puoi visualizzare in anteprima il contenuto dell’e-mail e definire impostazioni personalizzate da mostrare specificamente ai destinatari che visualizzano le e-mail in modalità scura. |
 | Miglioramento | Percorsi - Dividere un percorso per numero di persone nel ruolo | Utilizza un percorso diviso per nodo di account per eseguire il targeting di un account con il numero di persone in uno o più ruoli del gruppo acquisti. Nel percorso puoi valutare la preparazione del gruppo acquisti per avvisi commerciali e altri tipi di coinvolgimento in base alla profondità del ruolo. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | Miglioramento | Percorsi - Filtri persona per eventi | Utilizza i filtri persone per cogliere eventi relativi alle persone. Questi filtri includono la possibilità di eseguire il targeting per un ruolo specifico per un gruppo acquisti corrispondente. [Ulteriori informazioni](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
+
+Nell’interfaccia di AI Assistant sono ora disponibili le seguenti funzionalità di IA per l’agente per Journey Optimizer B2B edition:
+
+| Agente | Aggiornamento | Descrizione |
+| ----- | ------ | ----------- |
+| Creazione Agente Journey | Nuovo | L’agente di generazione del Percorso analizza, crea e crea congiuntamente percorsi in tempo reale, consentendo agli addetti al marketing di avviarsi più rapidamente, migliorare il coinvolgimento e aumentare i tassi di conversione. [Ulteriori informazioni](../agents/journey-agent.md) |
+| Agente Audience | Nuovo | Audience Agent identifica e crea automaticamente i gruppi di acquisto utilizzando dati strutturati e non strutturati. Aiuta gli esperti di marketing a indirizzare le persone giuste in modo più rapido e preciso. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
 
 >[!NOTE]
 >
