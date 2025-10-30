@@ -4,7 +4,7 @@ user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utiliz
 source-git-commit: 43a987557e251b4d1015d3a615df626223aca574
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 98%
    + [Panoramica dei percorsi dell’account](./dashboards/journeys-dashboard.md)
 + Amministrazione {#admin}
    + [Governance](./admin/governance.md)
-   + [Mappatura personale](./admin/persona-mapping.md)
+   + [Mappatura utente tipo](./admin/persona-mapping.md)
    + [Gestione degli utenti](./admin/user-management.md)
    + Canali {#channels}
       + [Configurazioni e-mail](./admin/configure-channels-emails.md)
