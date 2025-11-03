@@ -3,10 +3,10 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B edition. Rimani aggiornato con nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 5a18826c9739bcf3ee86f995700d2a209e9b6ae1
+source-git-commit: 7b36124cf830b5cdb980a1288d3870843a10fed2
 workflow-type: tm+mt
-source-wordcount: '3494'
-ht-degree: 86%
+source-wordcount: '3522'
+ht-degree: 85%
 
 ---
 
@@ -26,9 +26,10 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | ---- | ---- | ----------- |
 | Funzione | Modello dati relazionale | Sfrutta i dati relazionali collegati agli account B2B per filtrare gli account all’interno di un percorso di account o personalizzare il contenuto delle e-mail. Questi dati relazionali possono rappresentare entità aziendali reali come record di acquisto, registrazioni di eventi, licenze software, abbonamenti a servizi o prenotazioni. |
 | Funzione | Attiva nella destinazione per percorsi | Utilizza la nuova azione _Attiva per l&#39;account aziendale_ per eseguire l&#39;attivazione direttamente alle aziende, anziché ai singoli utenti. (Limitato alle società LinkedIn per questa versione). |
-| Funzione | Attivazione di più Marketo Engage | Configura le connessioni alle istanze Marketo Engage remote e utilizzale per configurare le azioni di percorso relative a Marketo Engage. Queste azioni, come l’aggiunta o la rimozione di persone dagli elenchi o l’aggiunta di persone a una campagna di richiesta, si applicano all’istanza di Marketo Engage designata. |
+| Funzione | Attivazione di più Marketo Engage | Configura le connessioni alle istanze Marketo Engage remote e utilizza tali connessioni per configurare le azioni Marketo Engage dai percorsi. Queste azioni, come l’aggiunta/rimozione di persone dagli elenchi o l’aggiunta di persone a una campagna di richieste, si applicano all’istanza di Marketo Engage designata. |
 | Funzione | Temi del brand | Con i temi del brand, gli utenti non tecnici hanno ora la possibilità di creare contenuti riutilizzabili che si adattano a un marchio e a un linguaggio di progettazione specifici aggiungendo stili personalizzati sopra i modelli standard. [Ulteriori informazioni](../content/brand-themes.md) |
-| Funzione | Mappatura personale | Associa i membri dell’account con utenti tipo consolidati con il mapping degli attributi. [Ulteriori informazioni](../admin/persona-mapping.md) |
+| Funzione | Modelli e-mail - Converti immagine in HTML | Ora puoi utilizzare i file di progettazione memorizzati come file di immagine JPG o PNG e generare automaticamente modelli e-mail. [Ulteriori informazioni](../content/email-template-image-convert.md) |
+| Funzione | Mappatura utente tipo | Associa i membri dell’account con utenti tipo consolidati con il mapping degli attributi. [Ulteriori informazioni](../admin/persona-mapping.md) |
 | Funzione | Informazioni sulle vendite per Salesforce e Dynamics | I membri del team vendite possono ora visualizzare i gruppi di acquisto in scadenza e le relative informazioni all’interno di un’integrazione Salesforce o Dynamics per identificare nuove opportunità. Sono inclusi i dettagli del gruppo di acquisto come fase, punteggio e membri correlati. |
 | Miglioramento | Deduplicazione dell’eccesso di posta elettronica | Ora puoi abilitare la deduplicazione delle e-mail per garantire che la stessa e-mail non venga inviata più volte allo stesso indirizzo in un percorso. Gli indirizzi duplicati vengono bloccati finché il primo record con tale indirizzo e-mail non completa il percorso. |
 | Miglioramento | Limiti di comunicazione | Il sistema ora rispetta i limiti di comunicazione combinati di Marketo Engage e Journey Optimizer B2B edition. |

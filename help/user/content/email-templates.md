@@ -4,7 +4,7 @@ description: 'Creazione di modelli e-mail riutilizzabili da zero, importazione H
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: d97a05899e4fff784924c3db0aa941232d169944
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Per impostazione predefinita, l&#39;elenco è ordinato in base alla colonna _[!U
 
 Per cercare un modello per nome, immettere una stringa di testo nella barra di ricerca. Fai clic sull&#39;icona _Filtro_ in alto a sinistra per filtrare l&#39;elenco in base alle date di creazione o modifica e ai modelli creati o modificati.
 
-![Accedi alla libreria dei modelli e-mail e filtra per nome e date](./assets/templates-list-search-filter.png){width="700" zoomable="yes"}
+![Accedi alla libreria dei modelli e-mail e filtra per nome e date](./assets/templates-list-search-filter.png){width="800" zoomable="yes"}
 
 Personalizza le colonne da visualizzare nella tabella facendo clic sull&#39;icona _Personalizza tabella_ ( ![Personalizza icona tabella](../assets/do-not-localize/icon-column-settings.svg) ) in alto a destra. Selezionare le colonne da visualizzare e fare clic su **[!UICONTROL Applica]**.
 
