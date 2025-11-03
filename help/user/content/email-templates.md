@@ -4,7 +4,7 @@ description: 'Creazione di modelli e-mail riutilizzabili da zero, importazione H
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: d97a05899e4fff784924c3db0aa941232d169944
+source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Modelli e-mail
 
-Per una progettazione più rapida e migliorata, è possibile creare modelli e-mail autonomi per riutilizzare il contenuto personalizzato tra i percorsi di account [!DNL Adobe Journey Optimizer B2B Edition]. Tramite i modelli, i membri del gruppo orientati al contenuto possono lavorare sul contenuto delle e-mail al di fuori dei percorsi. Gli esperti di marketing possono quindi riutilizzare e adattare questi modelli autonomi all’interno dei loro percorsi di account. Ad esempio, un membro del team è responsabile solo del contenuto, senza accesso ai percorsi di account. Tuttavia, possono creare un modello e-mail che gli esperti di marketing possono selezionare come punto di partenza per le comunicazioni e-mail e personalizzarlo in base ai requisiti del percorso.
+Per accelerare e migliorare la progettazione, è possibile creare modelli di e-mail autonomi per riutilizzare il contenuto personalizzato tra i percorsi di account [!DNL Adobe Journey Optimizer B2B Edition]. Tramite i modelli, i membri del gruppo orientati al contenuto possono lavorare sul contenuto delle e-mail al di fuori dei percorsi. Gli esperti di marketing possono quindi riutilizzare e adattare questi modelli autonomi all’interno dei loro percorsi. Ad esempio, un membro del team è responsabile solo del contenuto, senza accesso ai percorsi di account. Tuttavia, possono creare un modello e-mail che gli esperti di marketing possono selezionare come punto di partenza per le comunicazioni e-mail e personalizzarlo in base ai requisiti del percorso.
 
 ## Accedere e gestire i modelli e-mail
 
