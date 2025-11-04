@@ -4,7 +4,7 @@ user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utiliz
 source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
    + [Utilizzo dell’Assistente IA](./ai-assistant/use-ai-assistant.md)
 + Percorsi account {#account-journeys}
    + [Panoramica](./journeys/journey-overview.md)
-   + [Creazione Agente Journey](./agents/journey-agent.md)
+   + [Journey Build Agent](./agents/journey-agent.md)
    + [Creare e pubblicare un percorso](./journeys/create-publish-journey.md)
    + [Nodi del percorso](./journeys/journey-nodes.md)
    + Nodi del percorso {#journey-nodes}
@@ -49,7 +49,7 @@ ht-degree: 96%
 + Account {#accounts}
    + [Tipi di pubblico](./audiences/account-audience-overview.md)
    + [Agente Audience](./agents/audience-agent-b2b.md)
-   + [Account Qualification Agent](agents/account-qualification-agent.md)
+   + [Agente Account Qualification](agents/account-qualification-agent.md)
    + Gruppi acquisti {#buying-groups}
       + [Panoramica](./buying-groups/buying-groups-overview.md)
       + [Soluzioni di interesse](./buying-groups/solution-interests.md)

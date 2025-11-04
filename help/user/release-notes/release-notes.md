@@ -1,12 +1,12 @@
 ---
 title: Note sulla versione di Journey Optimizer B2B Edition
-description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B edition. Rimani aggiornato con nuove funzionalità e miglioramenti al prodotto.
+description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 74633474e8d0af1e976d007d75bf4db9906fe7d2
 workflow-type: tm+mt
 source-wordcount: '3644'
-ht-degree: 81%
+ht-degree: 93%
 
 ---
 
@@ -20,31 +20,31 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 
 ## Funzionalità di IA per l’agente
 
-Nell’interfaccia di AI Assistant sono ora disponibili le seguenti funzionalità di IA per l’agente per Journey Optimizer B2B edition:
+Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzionalità di IA agentica per Journey Optimizer B2B Edition:
 
 | Agente | Aggiornamento | Descrizione |
 | ----- | ------ | ----------- |
-| Creazione Agente Journey | Nuovo | L’agente di generazione del Percorso analizza, crea e crea congiuntamente percorsi in tempo reale, consentendo agli addetti al marketing di avviarsi più rapidamente, migliorare il coinvolgimento e aumentare i tassi di conversione. [Ulteriori informazioni](../agents/journey-agent.md) |
-| Agente Audience | Nuovo | Audience Agent identifica e crea automaticamente i gruppi di acquisto utilizzando dati strutturati e non strutturati. Aiuta gli esperti di marketing a indirizzare le persone giuste in modo più rapido e preciso. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
-| Account Qualification Agent | Nuovo | Scopri quali account sono pronti per la fase successiva utilizzando Account Qualification Agent nell’Assistente IA. Questo agente consente ai membri del team vendite di concentrarsi sugli account giusti presentando lead di alto valore e automatizzando i flussi di lavoro di qualificazione. [Ulteriori informazioni](../agents/account-qualification-agent.md) |
+| Journey Build Agent | Nuovo | Il Journey Build Agent analizza, progetta e collabora sui percorsi in tempo reale, consentendo ai marketer di avviare più rapidamente, migliorare il coinvolgimento e aumentare i tassi di conversione. [Ulteriori informazioni](../agents/journey-agent.md) |
+| Agente Audience | Nuovo | L’Agente Audience identifica e crea automaticamente i gruppi acquisti utilizzando dati strutturati e non strutturati. Aiuta i marketer a mirare le persone giuste in modo più rapido e preciso. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
+| Agente Account Qualification | Nuovo | Scopri quali account sono pronti per la fase successiva utilizzando l’Agente Account Qualification nell’assistente IA. Questo agente consente al team di vendita di concentrarsi sugli account giusti identificando lead di alto valore e automatizzando i flussi di lavoro di qualificazione. [Ulteriori informazioni](../agents/account-qualification-agent.md) |
 
 ## Note sulla versione 2025.10
 
-**Data di distribuzione**: sabato 31 ottobre 2025
+**Data di distribuzione**: 31 ottobre 2025
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Modello dati relazionale | Sfrutta i dati relazionali collegati agli account B2B per filtrare gli account all’interno di un percorso di account o personalizzare il contenuto delle e-mail. Questi dati relazionali possono rappresentare entità aziendali reali come record di acquisto, registrazioni di eventi, licenze software, abbonamenti a servizi o prenotazioni. |
-| Funzione | Attiva nella destinazione per percorsi | Utilizza la nuova azione _Attiva per l&#39;account aziendale_ per eseguire l&#39;attivazione direttamente alle aziende, anziché ai singoli utenti. (Limitato alle società LinkedIn per questa versione). |
-| Funzione | Attivazione di più Marketo Engage | Configura le connessioni alle istanze Marketo Engage remote e utilizza tali connessioni per configurare le azioni Marketo Engage dai percorsi. Queste azioni, come l’aggiunta/rimozione di persone dagli elenchi o l’aggiunta di persone a una campagna di richieste, si applicano all’istanza di Marketo Engage designata. |
-| Funzione | Temi del brand | Con i temi del brand, gli utenti non tecnici hanno ora la possibilità di creare contenuti riutilizzabili che si adattano a un marchio e a un linguaggio di progettazione specifici aggiungendo stili personalizzati sopra i modelli standard. [Ulteriori informazioni](../content/brand-themes.md) |
+| Funzione | Modello dati relazionali | Sfrutta i dati relazionali collegati agli account B2B per filtrare gli account all’interno di un percorso account o personalizzare il contenuto delle e-mail. Questi dati relazionali possono rappresentare entità di business reali come record di acquisti, registrazioni di eventi, licenze software, iscrizioni ai servizi o prenotazioni. |
+| Funzione | Attiva nella destinazione per percorsi | Utilizza la nuova azione per gli account aziendali _Attiva nella destinazione_ per eseguire l’attivazione direttamente per le aziende, anziché per i singoli individui. Limitato alle aziende LinkedIn per questa versione. |
+| Funzione | Attivazione multipla di Marketo Engage | Configura le connessioni alle istanze Marketo Engage remote e utilizza tali connessioni per configurare le azioni Marketo Engage dai percorsi. Queste azioni, come l’aggiunta/rimozione di persone dagli elenchi o l’aggiunta di persone a una campagna di richieste, si applicano all’istanza di Marketo Engage designata. |
+| Funzione | Temi del brand | Con i temi del brand, gli utenti non tecnici ora hanno la possibilità di creare contenuti riutilizzabili che si adattano a un brand e a un linguaggio di progettazione specifici aggiungendo stili personalizzati ai modelli standard. [Ulteriori informazioni](../content/brand-themes.md) |
 | Funzione | Modelli e-mail - Converti immagine in HTML | Ora puoi utilizzare i file di progettazione memorizzati come file di immagine JPG o PNG e generare automaticamente modelli e-mail. [Ulteriori informazioni](../content/email-template-image-convert.md) |
-| Funzione | Mappatura utente tipo | Associa i membri dell’account con utenti tipo consolidati con il mapping degli attributi. [Ulteriori informazioni](../admin/persona-mapping.md) |
-| Funzione | Informazioni sulle vendite per Salesforce e Dynamics | I membri del team vendite possono ora visualizzare i gruppi di acquisto in scadenza e le relative informazioni all’interno di un’integrazione Salesforce o Dynamics per identificare nuove opportunità. Sono inclusi i dettagli del gruppo di acquisto come fase, punteggio e membri correlati. |
-| Miglioramento | Deduplicazione dell’eccesso di posta elettronica | Ora puoi abilitare la deduplicazione delle e-mail per garantire che la stessa e-mail non venga inviata più volte allo stesso indirizzo in un percorso. Gli indirizzi duplicati vengono bloccati finché il primo record con tale indirizzo e-mail non completa il percorso. |
-| Miglioramento | Limiti di comunicazione | Il sistema ora rispetta i limiti di comunicazione combinati di Marketo Engage e Journey Optimizer B2B edition. |
-| Miglioramento | Acquisto di processi di manutenzione del gruppo | La frequenza dei processi di manutenzione del gruppo di acquisto viene aggiornata da settimanale a giornaliera. |
-| Miglioramento | Progressione del percorso account | Un collegamento _Ulteriori informazioni_ è visibile per la progressione del percorso per accedere ai conteggi e agli elenchi degli account. |
+| Funzione | Mappatura utente tipo | Associa i membri dell’account agli utenti tipo stabiliti con la mappatura degli attributi. [Ulteriori informazioni](../admin/persona-mapping.md) |
+| Funzione | Sale Insights per Salesforce e Dynamics | I membri del team di vendita possono ora visualizzare i gruppi acquisti in fase di maturazione e gli insight correlati all’interno di un’integrazione Salesforce o Dynamics per identificare nuove opportunità. Sono inclusi i dettagli del gruppo acquisti come fase, punteggio e membri correlati. |
+| Miglioramento | Deduplica per sovraccarico e-mail | Ora puoi abilitare la deduplica delle e-mail per garantire che la stessa e-mail non venga inviata più volte allo stesso indirizzo in un percorso. Gli indirizzi duplicati vengono bloccati finché il primo record che presenta tale indirizzo e-mail non completa il percorso. |
+| Miglioramento | Limiti di comunicazione | Il sistema ora rispetta i limiti di comunicazione combinati di Marketo Engage e Journey Optimizer B2B Edition. |
+| Miglioramento | Processi di manutenzione del gruppo acquisti | La frequenza del processo di manutenzione del gruppo acquisti è stata aggiornata da settimanale a giornaliera. |
+| Miglioramento | Avanzamento del percorso account | Un collegamento _Ulteriori informazioni_ è visibile per l’avanzamento del percorso per accedere ai conteggi e agli elenchi degli account. |
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
 | Funzione | Collaborazione sui contenuti delle e-mail | Ora puoi aggiungere commenti e collaborare con altri utenti di Journey Optimizer B2B Edition, nel contesto di una risorsa e-mail. Puoi menzionare i membri del gruppo in modo che ricevano una notifica e-mail con i dettagli del commento. La notifica è disponibile anche come notifica Pulse. [Ulteriori informazioni](../content/email-collaboration-tools.md) |
-| Funzione | Modalità scura per la progettazione di e-mail | Lo spazio di progettazione delle e-mail ora include la possibilità di passare alla _modalità scura_. In modalità scura, puoi visualizzare in anteprima il contenuto dell’e-mail e definire impostazioni personalizzate da visualizzare in modo specifico per i destinatari che visualizzano le e-mail in modalità scura. [Ulteriori informazioni](../content/email-dark-mode.md) |
+| Funzione | Modalità scura per la progettazione di e-mail | Lo spazio di progettazione delle e-mail ora include la possibilità di passare alla _modalità scura_. In modalità scura, puoi visualizzare in anteprima il contenuto dell’e-mail e definire impostazioni personalizzate da mostrare specificamente ai destinatari che visualizzano le e-mail in modalità scura. [Ulteriori informazioni](../content/email-dark-mode.md) |
 | Miglioramento | Percorsi - Dividere un percorso per numero di persone nel ruolo | Utilizza un percorso diviso per nodo di account per eseguire il targeting di un account con il numero di persone in uno o più ruoli del gruppo acquisti. Nel percorso puoi valutare la preparazione del gruppo acquisti per avvisi commerciali e altri tipi di coinvolgimento in base alla profondità del ruolo. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | Miglioramento | Percorsi - Filtri persona per eventi | Utilizza i filtri persone per cogliere eventi relativi alle persone. Questi filtri includono la possibilità di eseguire il targeting per un ruolo specifico per un gruppo acquisti corrispondente. [Ulteriori informazioni](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
