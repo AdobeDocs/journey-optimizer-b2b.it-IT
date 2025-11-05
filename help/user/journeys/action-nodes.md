@@ -4,10 +4,10 @@ description: 'Configurare i nodi di azione per le azioni account e persone: invi
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 17cdface550fc5bcc8050cd10880929885dfe27c
+source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 3%
+source-wordcount: '1475'
+ht-degree: 2%
 
 ---
 
@@ -49,6 +49,36 @@ Utilizza un’azione sugli account quando desideri applicare una modifica a tutt
 1. Seleziona un&#39;azione dall&#39;elenco e imposta i valori per l&#39;azione.
 
    ![nodo Percorso - eseguire un&#39;azione su un account](./assets/node-take-action-account.png){width="700" zoomable="yes"}
+
+>[!BEGINSHADEBOX]
+
+### Attiva in una destinazione LinkedIn
+
+Utilizza l&#39;azione _Attiva nella destinazione_ per gli account per attivare gli account nelle destinazioni Experience Platform direttamente dal tuo percorso. Questa azione ti consente di inviare account qualificati (in base ai filtri dei gruppi di acquisto, ai punteggi di coinvolgimento e ad altri criteri) ai tipi di pubblico corrispondenti sulle destinazioni supportate. It
+
+A partire dalla versione 2025.10, **_LinkedIn_** è il primo tipo di destinazione supportato. Utilizza l’azione per una destinazione LinkedIn per semplificare l’esecuzione della campagna eliminando gli handoff tra più sistemi e riducendo la latenza. Ad esempio, in qualità di esperto di marketing, puoi attivare automaticamente account con intenti elevati in LinkedIn per il retargeting quando mancano ruoli di acquisto chiave oppure puoi coinvolgere nuovamente account inattivi basati su filtri di inattività.
+
+Per ulteriori informazioni sull&#39;utilizzo di tipi di pubblico con corrispondenza account per una destinazione LinkedIn, vedere [Tipi di pubblico con corrispondenza account LinkedIn](../data/linkedin-account-matched-audiences.md).
+
++++ Impostare l&#39;attivazione degli account su una destinazione LinkedIn
+
+1. Con il nodo _Esegui un&#39;azione_ selezionato nell&#39;area di lavoro del percorso, impostare **[!UICONTROL Azione sugli account]** su **[!UICONTROL Attiva nella destinazione]**.
+
+1. Fare clic su **[!UICONTROL Seleziona destinazione]**.
+
+   ![nodo Percorso - azione sugli account - attivazione alla destinazione](./assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
+
+1. Nella finestra di dialogo, seleziona la destinazione LinkedIn configurata e fai clic su **[!UICONTROL Salva]**.
+
+![nodo Percorso - azione sugli account - attivazione alla destinazione - finestra di dialogo seleziona destinazione](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+
+1. Immetti il **[!UICONTROL Nome pubblico]** utilizzato per identificare il pubblico attivato nella destinazione.
+
+   ![nodo Percorso - azione sugli account - attivazione alla destinazione - impostazioni completate](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
+
++++
+
+>[!ENDSHADEBOX]
 
 ## Azioni persone
 
@@ -97,7 +127,7 @@ Utilizza questa azione per indirizzare le persone a un pubblico esterno che può
 
 ![Azione da eseguire - Aggiungi a pubblico cliente esterno](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-Quando selezioni questa azione basata sulle persone, puoi creare un nuovo pubblico esterno o selezionarlo da un pubblico esterno esistente. Per i tipi di pubblico esistenti, puoi scegliere uno dei tipi di pubblico dei clienti esterni che sono stati creati solo in Journey Optimizer B2B edition. Quando crei un pubblico e lo utilizzi per questa azione di percorso, accertati di connettere la destinazione. Per ulteriori informazioni, consulta [Creare una nuova connessione di destinazione](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Panoramica attivazione](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} nella documentazione di Experience Platform.
+Quando selezioni questa azione basata sulle persone, puoi creare un nuovo pubblico esterno o selezionarlo da un pubblico esterno esistente. Per i tipi di pubblico esistenti, puoi scegliere uno dei tipi di pubblico dei clienti esterni che sono stati creati solo in Journey Optimizer B2B edition. Quando crei un pubblico e lo utilizzi per questa azione di percorso, accertati di connettere la destinazione. Per ulteriori informazioni, consulta [Creare una nuova connessione di destinazione](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Panoramica attivazione](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} nella documentazione di Experience Platform.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda una panoramica video per l&#39;orchestrazione a pagamento](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -149,7 +179,7 @@ Utilizzare questa azione per modificare il valore di un attributo del profilo [p
 
 +++[!UICONTROL Modifica punteggio]
 
-Utilizza questa azione per modificare il punteggio della persona in Marketo Engage. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Utilizza questa azione per modificare il punteggio della persona in Marketo Engage. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Esegui un&#39;azione - Cambia punteggio](./assets/node-action-change-score.png){width="300"}
 
@@ -173,7 +203,7 @@ Utilizza questa azione per rimuovere i profili di persone da un [gruppo di acqui
 
 +++[!UICONTROL Invia e-mail]
 
-Utilizza questa azione per inviare un messaggio e-mail. Dopo aver [creato l&#39;e-mail](../content/add-email.md#add-an-email-to-your-journey) per il nodo, puoi progettare, personalizzare e visualizzare in anteprima i messaggi e-mail nello spazio di progettazione e-mail (vedi [Authoring e-mail](../content/email-authoring.md)). Puoi anche inviare un messaggio e-mail [da Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Seleziona l’area di lavoro di Marketo Engage, quindi fai clic sull’e-mail da inviare.
+Utilizza questa azione per inviare un messaggio e-mail. Dopo aver [creato l&#39;e-mail](../content/add-email.md#add-an-email-to-your-journey) per il nodo, puoi progettare, personalizzare e visualizzare in anteprima i messaggi e-mail nello spazio di progettazione e-mail (vedi [Authoring e-mail](../content/email-authoring.md)). Puoi anche inviare un messaggio e-mail [da Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Seleziona l’area di lavoro di Marketo Engage, quindi fai clic sull’e-mail da inviare.
 
 ![Azione - Invia e-mail](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -193,7 +223,7 @@ Le azioni basate sulle persone di Marketo Engage sono progettate per coordinare 
 
 +++[!UICONTROL Aggiungi all&#39;elenco]
 
-Utilizzare questa azione per aggiungere persone a un [elenco statico](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage.
+Utilizzare questa azione per aggiungere persone a un [elenco statico](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage.
 
 Selezionare innanzitutto l&#39;area di lavoro nell&#39;istanza di Marketo Engage connessa. Quindi, selezionare il nome dell&#39;elenco.
 
@@ -203,7 +233,7 @@ Selezionare innanzitutto l&#39;area di lavoro nell&#39;istanza di Marketo Engage
 
 +++[!UICONTROL Aggiungi alla campagna di richiesta Marketo]
 
-Utilizza questa azione per aggiungere profili di persone a una [campagna di richieste](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in Marketo Engage.
+Utilizza questa azione per aggiungere profili di persone a una [campagna di richieste](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in Marketo Engage.
 
 Selezionare innanzitutto l&#39;area di lavoro nell&#39;istanza di Marketo Engage connessa. Quindi, seleziona il nome della campagna di richiesta.
 
@@ -213,7 +243,7 @@ Selezionare innanzitutto l&#39;area di lavoro nell&#39;istanza di Marketo Engage
 
 +++[!UICONTROL Cambia partizione persone in Marketo Engage]
 
-Utilizzare questa azione per modificare la partizione [persona](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} in Marketo Engage.
+Utilizzare questa azione per modificare la partizione [persona](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} in Marketo Engage.
 
 ![Azione - Cambia partizione persone in Marketo Engage](./assets/node-action-change-people-partition-options.png){width="300"}
 
@@ -221,7 +251,7 @@ Utilizzare questa azione per modificare la partizione [persona](https://experien
 
 +++[!UICONTROL Rimuovi dall&#39;elenco]
 
-Utilizzare questa azione per rimuovere persone da un [elenco statico](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage. Selezionare innanzitutto l&#39;area di lavoro nell&#39;istanza di Marketo Engage connessa. Quindi, selezionare il nome dell&#39;elenco.
+Utilizzare questa azione per rimuovere persone da un [elenco statico](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage. Selezionare innanzitutto l&#39;area di lavoro nell&#39;istanza di Marketo Engage connessa. Quindi, selezionare il nome dell&#39;elenco.
 
 ![Esegui un&#39;azione - Rimuovi dall&#39;elenco](./assets/node-action-remove-from-list-options.png){width="300"}
 
@@ -231,4 +261,4 @@ Se il profilo della persona non era un membro dell’elenco smart, l’azione vi
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443253/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)

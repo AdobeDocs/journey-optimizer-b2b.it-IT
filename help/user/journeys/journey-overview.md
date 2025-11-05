@@ -4,10 +4,10 @@ description: 'Semplifica la generazione della domanda con i percorsi di account:
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: 5ba2531a287143bd1111f764aa9eba8089111bc9
+workflow-type: tm+mt
+source-wordcount: '1130'
+ht-degree: 91%
 
 ---
 
@@ -85,7 +85,7 @@ Se interrompi (arresti) un percorso live o pianificato, gli account nel percorso
 
 >[!IMPORTANT]
 >
->Quando il percorso account viene utilizzato in un altro percorso da un nodo _Esegui un’azione_ con l’azione _Aggiungi account a (altro) Percorso_, l’interruzione del percorso blocca l’azione da tale percorso.
+>Quando il percorso account viene utilizzato in un altro percorso da un nodo _Esegui un’azione_ con l’azione _[!UICONTROL Aggiungi account a (altro) Percorso]_, l’interruzione del percorso blocca l’azione da tale percorso.
 
 1. Fai clic sul nome del percorso per aprirlo.
 
@@ -101,7 +101,7 @@ Se chiudi un percorso live, gli account attualmente presenti nel percorso contin
 
 >[!IMPORTANT]
 >
->Quando il percorso account viene utilizzato in un altro percorso da un nodo _Esegui un’azione_ con l’azione _Aggiungi account a (altro) Percorso_, la chiusura del nodo ai nuovi ingressi blocca l’azione da tale percorso.
+>Quando il percorso account viene utilizzato in un altro percorso da un nodo _Esegui un’azione_ con l’azione _[!UICONTROL Aggiungi account a (altro) Percorso]_, la chiusura del nodo ai nuovi ingressi blocca l’azione da tale percorso.
 
 1. Fai clic sul nome del percorso per aprirlo.
 
@@ -155,6 +155,16 @@ Utilizza un’azione di eliminazione per eliminare definitivamente un percorso. 
 
 1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Elimina]**.
 
+## Verifica progressione account
+
+Per un percorso pubblicato che si trova nello stato _Live_, _Chiuso alle nuove voci_, _Interrotto_ o _Completato_, puoi aprire la mappa del percorso per esaminare la progressione dell&#39;account per i nodi del percorso. Ogni nodo sulla mappa mostra il numero di account per raggiungere il nodo e, per i percorsi live, il numero di account attualmente in quel nodo.
+
+![Informazioni sulla progressione dell&#39;account del nodo di Percorso](./assets/node-account-progression-observability.png){width="400"}
+
+Quando selezioni il nodo, fai clic sul numero per visualizzare un elenco di account che sono entrati nel nodo o si trovano attualmente in quel passaggio del percorso.
+
+![Informazioni sulla progressione dell&#39;account del nodo di Percorso](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
+
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443215/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

@@ -4,10 +4,10 @@ description: 'Ottimizza Account-Based Marketing con i gruppi acquisti: identific
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
-workflow-type: ht
-source-wordcount: '1187'
-ht-degree: 100%
+source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
+workflow-type: tm+mt
+source-wordcount: '1193'
+ht-degree: 90%
 
 ---
 
@@ -46,6 +46,10 @@ Affinché l’assegnazione dei membri in un gruppo acquisti non venga ignorata i
 * Se un utente assegna manualmente un membro a un gruppo acquisti e viene seguito da un processo di manutenzione del gruppo acquisti che prevede la rimozione dello stesso membro dal gruppo acquisti, il processo di manutenzione **non rimuove** tale membro e non può sostituire l’assegnazione manuale.
 * Se un utente assegna manualmente un membro a un gruppo acquisti e viene seguito da un nodo di percorso attivato che rimuove lo stesso membro dal gruppo acquisti, l’azione del nodo **non rimuove** tale membro e non può sostituire l’assegnazione manuale.
 * Se un nodo di azione del percorso attivato aggiunge un membro al gruppo acquisti e viene seguito da un processo di manutenzione del gruppo acquisti che rimuove lo stesso membro dal gruppo, il processo di manutenzione **non rimuove** tale membro e non può sostituire l’assegnazione dell’azione del percorso.
+
+>[!NOTE]
+>
+>I processi di manutenzione automatizzata dei gruppi di acquisto vengono eseguiti ogni giorno, a partire dalla versione 2025.10.
 
 ## Flusso di lavoro del gruppo acquisti
 
@@ -96,11 +100,11 @@ Per accedere ai dettagli di un gruppo acquisti, fai clic sul nome del gruppo acq
 
 ### Punteggio di completezza del gruppo acquisti
 
-Il punteggio di completezza viene utilizzato per determinare se il gruppo acquisti dispone dei membri giusti assegnati ai ruoli ed è pronto per essere utilizzato in un percorso account. Questo punteggio è una percentuale basata sul numero di ruoli all’interno del gruppo acquisti e sul numero di ruoli assegnati con almeno un lead.
+Il punteggio di completezza viene utilizzato per determinare se il gruppo di acquisto ha il numero corretto di membri assegnati ai ruoli richiesti ed è pronto per essere utilizzato in un percorso di account. Questo punteggio è una percentuale basata sul numero di ruoli all’interno del gruppo di acquisto e sulla completezza per ciascuno dei ruoli definiti.
 
-Ad esempio, se all’interno di un gruppo acquisti sono presenti quattro ruoli e tre di tali quattro ruoli sono assegnati ad almeno un lead, il gruppo acquisti è completo al 75%.
+Il calcolo del punteggio di completezza iniziale viene avviato non appena si crea il gruppo di acquisto e viene ricalcolato ogni giorno e ogni volta che un gruppo di acquisto viene creato o aggiornato.
 
-Il punteggio di completezza del gruppo acquisti viene ricalcolato ogni volta che un gruppo acquisti viene creato o aggiornato.
+Vedere [Punteggi di completezza](./completeness-scores.md) per informazioni dettagliate sul punteggio di completezza e sui calcoli.
 
 ### Punteggio di coinvolgimento del gruppo acquisti {#engagement-score}
 
@@ -112,4 +116,4 @@ Per informazioni dettagliate sulle attività e sui calcoli dei punteggi di coinv
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3452945/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

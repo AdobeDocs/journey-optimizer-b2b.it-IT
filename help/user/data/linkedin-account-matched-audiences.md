@@ -1,21 +1,23 @@
 ---
 title: Tipi di pubblico associati all’account LinkedIn
-description: Scopri come collegare un account LinkedIn e attivare un flusso di dati per i gruppi di acquisto.
+description: Scopri come collegare un account LinkedIn e attivare un flusso di dati per i membri dell’account.
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 1cc50d33e396e490f401330688e5d322270090e3
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 16%
+source-wordcount: '920'
+ht-degree: 13%
 
 ---
 
 # Tipi di pubblico associati all’account LinkedIn
 
-Journey Optimizer B2B edition offre la possibilità di generare tipi di pubblico di LinkedIn Ad tramite i tipi di pubblico abbinati all’account ed è progettato per aiutarti a riempire ruoli vuoti nei gruppi di acquisto. Definendo un set di filtri per gruppi di acquisto, puoi mantenere un pubblico abbinato a LinkedIn per eseguire il targeting dei potenziali clienti che corrispondono ai parametri del gruppo di acquisto. Questa funzione sfrutta le destinazioni di Experience Platform per gestire alcuni aspetti dell’integrazione. È previsto un limite di dieci flussi di dati.
+Journey Optimizer B2B edition offre la possibilità di generare tipi di pubblico di LinkedIn Ad tramite i tipi di pubblico abbinati all’account ed è progettato per aiutarti a riempire ruoli vuoti nei gruppi di acquisto. Definendo un set di filtri per gruppi di acquisto, puoi mantenere un pubblico abbinato a LinkedIn per eseguire il targeting dei potenziali clienti che corrispondono ai parametri del gruppo di acquisto. Puoi anche attivare un pubblico da un percorso di account da un nodo _Esegui un&#39;azione_.
 
-Prima di avviare un flusso di dati da Journey Optimizer B2B edition, è necessario disporre di almeno un&#39;istanza del connettore di destinazione [(Companies) LinkedIn MatchedIn Audience](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} con un account LinkedIn Campaign Manager configurato nell&#39;applicazione Experience Platform.
+Questa funzione sfrutta le destinazioni di Experience Platform per gestire alcuni aspetti dell’integrazione. È previsto un limite di dieci flussi di dati.
+
+Prima di avviare un flusso di dati da Journey Optimizer B2B edition, è necessario disporre di almeno un&#39;istanza del connettore di destinazione [(Companies) LinkedIn MatchedIn Audience](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} con un account LinkedIn Campaign Manager configurato nell&#39;applicazione Experience Platform.
 
 ## Configurare una nuova connessione di account LinkedIn {#linkedin-destination-setup}
 
@@ -114,8 +116,26 @@ Il nome e la descrizione dell’account LinkedIn sono visibili per i gruppi di a
 
    In Experience Platform viene visualizzato un banner con un collegamento al menu dei flussi di dati per consentirti di controllare il record del flusso di dati.
 
+## Attivare un pubblico da un percorso di account
+
+A partire dalla versione 2025.10, utilizza l&#39;azione _Attiva su destinazione_ per gli account per attivare gli account su una destinazione LinkedIn direttamente dal tuo percorso. Utilizza l’azione per una destinazione LinkedIn per semplificare l’esecuzione della campagna eliminando gli handoff tra più sistemi e riducendo la latenza. Ad esempio, in qualità di esperto di marketing, puoi attivare automaticamente account con intenti elevati in LinkedIn per il retargeting quando mancano ruoli di acquisto chiave oppure puoi coinvolgere nuovamente account inattivi basati su filtri di inattività.
+
+1. Con il nodo _Esegui un&#39;azione_ selezionato nell&#39;area di lavoro del percorso, impostare **[!UICONTROL Azione sugli account]** su **[!UICONTROL Attiva nella destinazione]**.
+
+1. Fare clic su **[!UICONTROL Seleziona destinazione]**.
+
+   ![nodo Percorso - azione sugli account - attivazione alla destinazione](../journeys/assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
+
+1. Nella finestra di dialogo, seleziona la destinazione LinkedIn configurata e fai clic su **[!UICONTROL Salva]**.
+
+   ![nodo Percorso - azione sugli account - attivazione alla destinazione - finestra di dialogo seleziona destinazione](../journeys/assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+
+1. Immetti il **[!UICONTROL Nome pubblico]** utilizzato per identificare il pubblico attivato nella destinazione.
+
+   ![nodo Percorso - azione sugli account - attivazione alla destinazione - impostazioni completate](../journeys/assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
+
 ## Orchestrare il coinvolgimento di paid media
 
 Puoi interagire con i membri dell’account tramite un canale multimediale a pagamento, ad esempio i tipi di pubblico di LinkedIn Ad, per acquisire, coltivare e qualificarli per le vendite. Utilizza un nodo _Esegui un&#39;azione_ in un percorso di account per automatizzare il coinvolgimento con i membri chiave di un account tramite un canale esterno che sia più adatto per i diversi membri dell&#39;account.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448680/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)
