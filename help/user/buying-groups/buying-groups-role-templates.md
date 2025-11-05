@@ -134,7 +134,7 @@ Vedere [Punteggi di completezza](./completeness-scores.md) per informazioni dett
 
 1. Nella finestra di dialogo, modifica il valore **[!UICONTROL Membri richiesti]** per ogni ruolo definito in base alle esigenze.
 
-   È possibile immettere il valore oppure fare clic su **&amp;plus;** o **−** per aumentare o diminuire il valore.
+   È possibile immettere il valore oppure fare clic su **&plus;** o **−** per aumentare o diminuire il valore.
 
    ![Modello ruoli - pulsante Impostazioni punteggio di completezza](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
