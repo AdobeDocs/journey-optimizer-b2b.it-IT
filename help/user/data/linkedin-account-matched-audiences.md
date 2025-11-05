@@ -138,4 +138,4 @@ A partire dalla versione 2025.10, utilizza l&#39;azione _Attiva su destinazione_
 
 Puoi interagire con i membri dell’account tramite un canale multimediale a pagamento, ad esempio i tipi di pubblico di LinkedIn Ad, per acquisire, coltivare e qualificarli per le vendite. Utilizza un nodo _Esegui un&#39;azione_ in un percorso di account per automatizzare il coinvolgimento con i membri chiave di un account tramite un canale esterno che sia più adatto per i diversi membri dell&#39;account.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448680/?captions=ita&learn=on)
