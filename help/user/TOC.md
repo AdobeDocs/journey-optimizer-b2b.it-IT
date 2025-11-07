@@ -4,7 +4,7 @@ user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utiliz
 source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -92,8 +92,8 @@ ht-degree: 96%
       + Modelli e-mail {#email-templates}
          + [Panoramica](./content/email-templates.md)
          + [Authoring di modelli e-mail](./content/email-template-authoring.md)
-         + [Converti immagine in modello](./content/email-template-image-convert.md)
-      + Modelli di pagina di destinazione (Beta) {#landing-page-templates}
+         + [Convertire l’immagine in un modello](./content/email-template-image-convert.md)
+      + Modelli pagina di destinazione (Beta) {#landing-page-templates}
          + [Panoramica](./content/landing-page-templates.md)
          + [Progettazione modello pagina di destinazione](./content/landing-page-template-design.md)
    + Frammenti {#visual-fragments}

@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
 workflow-type: tm+mt
 source-wordcount: '3690'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Journey Optimizer B2B Edition è costruito nativamente su [!DNL Adobe Experience
 
 Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} per informazioni su diritti, guardrail delle prestazioni e limitazioni.
 
-## Funzionalità di IA per l’agente
+## Funzionalità di IA agentica
 
 Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzionalità di IA agentica per Journey Optimizer B2B Edition:
 
@@ -37,7 +37,7 @@ Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzion
 | Funzione | Modello dati relazionali | Sfrutta i dati relazionali collegati agli account B2B per filtrare gli account all’interno di un percorso account o personalizzare il contenuto delle e-mail. Questi dati relazionali possono rappresentare entità di business reali come record di acquisti, registrazioni di eventi, licenze software, iscrizioni ai servizi o prenotazioni. |
 | Funzione | Attiva nella destinazione per percorsi | Utilizza la nuova azione per gli account aziendali _Attiva nella destinazione_ per eseguire l’attivazione direttamente per le aziende, anziché per i singoli individui. (Limitato alle società LinkedIn per questa versione.) [Ulteriori informazioni](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
 | Funzione | Temi del brand | Con i temi del brand, gli utenti non tecnici ora hanno la possibilità di creare contenuti riutilizzabili che si adattano a un brand e a un linguaggio di progettazione specifici aggiungendo stili personalizzati ai modelli standard. [Ulteriori informazioni](../content/brand-themes.md) |
-| Funzione | Modelli e-mail - Converti immagine in HTML | Ora puoi utilizzare i file di progettazione memorizzati come file di immagine JPG o PNG e generare automaticamente modelli e-mail. [Ulteriori informazioni](../content/email-template-image-convert.md) |
+| Funzione | Modelli e-mail - Converti immagine in HTML | Ora puoi utilizzare i file di progettazione archiviati come file di immagine JPG o PNG e generare automaticamente modelli e-mail. [Ulteriori informazioni](../content/email-template-image-convert.md) |
 | Funzione | Mappatura utente tipo | Associa i membri dell’account agli utenti tipo stabiliti con la mappatura degli attributi. [Ulteriori informazioni](../admin/persona-mapping.md) |
 | Funzione | Sale Insights per Salesforce e Dynamics | I membri del team di vendita possono ora visualizzare i gruppi acquisti in fase di maturazione e gli insight correlati all’interno di un’integrazione Salesforce o Dynamics per identificare nuove opportunità. Sono inclusi i dettagli del gruppo acquisti come fase, punteggio e membri correlati. |
 | Funzione | Attivazione multipla di Marketo Engage | Configura le connessioni alle istanze Marketo Engage remote e utilizzale per configurare le azioni del percorso correlate a Marketo Engage. Queste azioni, come ad esempio l’aggiunta o la rimozione di persone dagli elenchi o a una richiesta di campagna si applicano all’istanza di Marketo Engage designata. |
@@ -49,18 +49,18 @@ Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzion
 
 >[!NOTE]
 >
->Queste modifiche iniziano la distribuzione il 31 ottobre 2025, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
+>Queste modifiche della versione saranno introdotte a partire dal 31 ottobre 2025, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 ### Architettura semplificata
 
-Adobe Journey Optimizer B2B edition è ora disponibile utilizzando un’architettura semplificata. Con questa architettura aggiornata, Journey Optimizer B2B edition e Marketo Engage non si trovano più nello stesso sistema e nello stesso archivio dati. Journey Optimizer B2B edition riceve i dati solo da Adobe Experience Platform. Tuttavia, continua a fare affidamento su adesioni Marketo Engage e su alcune funzionalità di configurazione per il provisioning e la configurazione del sistema.
+Adobe Journey Optimizer B2B Edition è ora disponibile utilizzando un’architettura semplificata. Grazie a questa architettura aggiornata, Journey Optimizer B2B Edition e Marketo Engage non si trovano più nello stesso sistema e nello stesso archivio di dati. Journey Optimizer B2B Edition riceve i dati solo da Adobe Experience Platform. Tuttavia, continua a fare affidamento su diritti di Marketo Engage e su alcune funzioni di configurazione per il provisioning e la configurazione del sistema.
 
 Questa architettura aggiornata offre diversi vantaggi:
 
-* **Unifica e ridimensiona facilmente i dati**: la piattaforma aggiornata supporta modelli di dati complessi, inclusi oggetti personalizzati, gruppi di acquisto ed eventi dell&#39;account.
-* **Connessione di più istanze di Adobe Marketo Engage**: gestione e unificazione dei dati da più ambienti Adobe Marketo Engage in un&#39;unica posizione.
-* **Protezione dei dati**: le funzionalità avanzate di privacy e sicurezza consentono di proteggere le informazioni dei clienti.
-* **Creato per il futuro**: questo aggiornamento imposta la tua organizzazione per continui miglioramenti e innovazioni.
+* **Unifica e scala facilmente i dati**: la piattaforma aggiornata supporta modelli di dati complessi, inclusi oggetti personalizzati, gruppi acquisti ed eventi account.
+* **Collega più istanze di Adobe Marketo Engage**: gestisci e unifica i dati da più ambienti Adobe Marketo Engage in un’unica posizione.
+* **Proteggi i tuoi dati**: le funzioni avanzate di privacy e sicurezza consentono di proteggere le informazioni della clientela.
+* **Progettato per il futuro**: questo aggiornamento prepara la tua organizzazione per continui miglioramenti e innovazioni.
 
 <!-- hold for later release 
 
@@ -84,7 +84,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 >[!NOTE]
 >
->Queste modifiche iniziano la distribuzione il 30 settembre 2025, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
+>Queste modifiche della versione saranno introdotte a partire dal 30 settembre 2025, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 ## Note sulla versione 2025.8
 
