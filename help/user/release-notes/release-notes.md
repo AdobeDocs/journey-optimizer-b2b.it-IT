@@ -3,7 +3,7 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
 source-wordcount: '3690'
 ht-degree: 98%
@@ -26,7 +26,7 @@ Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzion
 | ----- | ------ | ----------- |
 | Journey Build Agent | Nuovo | Il Journey Build Agent analizza, progetta e collabora sui percorsi in tempo reale, consentendo ai marketer di avviare più rapidamente, migliorare il coinvolgimento e aumentare i tassi di conversione. [Ulteriori informazioni](../agents/journey-agent.md) |
 | Agente Audience | Nuovo | L’Agente Audience identifica e crea automaticamente i gruppi acquisti utilizzando dati strutturati e non strutturati. Aiuta i marketer a mirare le persone giuste in modo più rapido e preciso. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
-| Agente Account Qualification | Nuovo | Scopri quali account sono pronti per la fase successiva utilizzando l’Agente Account Qualification nell’assistente IA. Questo agente consente al team di vendita di concentrarsi sugli account giusti identificando lead di alto valore e automatizzando i flussi di lavoro di qualificazione. [Ulteriori informazioni](../agents/account-qualification-agent.md) |
+| Agente Account Qualification | Nuovo | Scopri quali account sono pronti per la fase successiva utilizzando l’Agente Account Qualification nell’assistente IA. Questo agente consente al team di vendita di concentrarsi sugli account giusti identificando lead di alto valore e automatizzando i flussi di lavoro di qualificazione. [Ulteriori informazioni](../agents/sales-qualifier.md) |
 
 ## Note sulla versione 2025.10
 
