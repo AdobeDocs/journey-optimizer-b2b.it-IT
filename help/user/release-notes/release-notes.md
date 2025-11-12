@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
 source-wordcount: '3690'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,17 +35,17 @@ Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzion
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
 | Funzione | Modello dati relazionali | Sfrutta i dati relazionali collegati agli account B2B per filtrare gli account all’interno di un percorso account o personalizzare il contenuto delle e-mail. Questi dati relazionali possono rappresentare entità di business reali come record di acquisti, registrazioni di eventi, licenze software, iscrizioni ai servizi o prenotazioni. |
-| Funzione | Attiva nella destinazione per percorsi | Utilizza la nuova azione per gli account aziendali _Attiva nella destinazione_ per eseguire l’attivazione direttamente per le aziende, anziché per i singoli individui. (Limitato alle società LinkedIn per questa versione.) [Ulteriori informazioni](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| Funzione | Attiva nella destinazione per percorsi | Utilizza la nuova azione per gli account aziendali _Attiva nella destinazione_ per eseguire l’attivazione direttamente per le aziende, anziché per i singoli individui. (Limitata alle aziende LinkedIn per questa versione).[Ulteriori informazioni](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
 | Funzione | Temi del brand | Con i temi del brand, gli utenti non tecnici ora hanno la possibilità di creare contenuti riutilizzabili che si adattano a un brand e a un linguaggio di progettazione specifici aggiungendo stili personalizzati ai modelli standard. [Ulteriori informazioni](../content/brand-themes.md) |
 | Funzione | Modelli e-mail - Converti immagine in HTML | Ora puoi utilizzare i file di progettazione archiviati come file di immagine JPG o PNG e generare automaticamente modelli e-mail. [Ulteriori informazioni](../content/email-template-image-convert.md) |
 | Funzione | Mappatura utente tipo | Associa i membri dell’account agli utenti tipo stabiliti con la mappatura degli attributi. [Ulteriori informazioni](../admin/persona-mapping.md) |
 | Funzione | Sale Insights per Salesforce e Dynamics | I membri del team di vendita possono ora visualizzare i gruppi acquisti in fase di maturazione e gli insight correlati all’interno di un’integrazione Salesforce o Dynamics per identificare nuove opportunità. Sono inclusi i dettagli del gruppo acquisti come fase, punteggio e membri correlati. |
 | Funzione | Attivazione multipla di Marketo Engage | Configura le connessioni alle istanze Marketo Engage remote e utilizzale per configurare le azioni del percorso correlate a Marketo Engage. Queste azioni, come ad esempio l’aggiunta o la rimozione di persone dagli elenchi o a una richiesta di campagna si applicano all’istanza di Marketo Engage designata. |
 | Miglioramento | Deduplica per sovraccarico e-mail | Ora puoi abilitare la deduplica delle e-mail per garantire che la stessa e-mail non venga inviata più volte allo stesso indirizzo in un percorso. Gli indirizzi duplicati vengono bloccati finché il primo record che presenta tale indirizzo e-mail non completa il percorso. |
-| Miglioramento | Punteggio di completezza gruppo di acquisto migliorato | Ora puoi assicurarti che i gruppi di acquisto riflettano il processo decisionale reale con soglie di membri del ruolo personalizzabili per il punteggio di completezza.  [Ulteriori informazioni](../buying-groups/completeness-scores.md) |
+| Miglioramento | Miglioramento del punteggio di completezza del gruppo acquisti | Ora puoi assicurarti che i gruppi acquisti riflettano l’effettivo processo decisionale, impostando per i membri dei vari ruoli delle soglie personalizzabili da utilizzare nel punteggio di completezza.  [Ulteriori informazioni](../buying-groups/completeness-scores.md) |
 | Miglioramento | Limiti di comunicazione | Il sistema ora rispetta i limiti di comunicazione combinati di Marketo Engage e Journey Optimizer B2B Edition. |
 | Miglioramento | Processi di manutenzione del gruppo acquisti | La frequenza del processo di manutenzione del gruppo acquisti è stata aggiornata da settimanale a giornaliera. |
-| Miglioramento | Avanzamento del percorso account | Per un percorso pubblicato che si trova nello stato _Live_, _Chiuso alle nuove voci_, _Interrotto_ o _Completato_, puoi aprire la mappa del percorso per rivedere un elenco di account per ogni nodo del percorso. |
+| Miglioramento | Avanzamento del percorso account | Per un percorso pubblicato che si trova nello stato _Live_, _Chiuso a nuovi ingressi_, _Interrotto_ o _Completato_, puoi aprire la mappa del percorso per rivedere un elenco di account per ogni nodo del percorso. |
 
 >[!NOTE]
 >
