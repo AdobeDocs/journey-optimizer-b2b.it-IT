@@ -167,4 +167,4 @@ Quando selezioni il nodo, fai clic sul numero per visualizzare un elenco di acco
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443215/?captions=ita&learn=on)
