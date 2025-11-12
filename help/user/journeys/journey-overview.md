@@ -5,9 +5,9 @@ feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: 5ba2531a287143bd1111f764aa9eba8089111bc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -69,11 +69,11 @@ Lo stato di un percorso può cambiare in base alle azioni applicate. In base all
 
 | Stato | Descrizione | Azioni disponibili |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Bozza**&#x200B;_ | Un percorso non pubblicato che può essere modificato. | <li>[Pubblica](./create-publish-journey.md#publish-an-account-journey)<li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
-| _&#x200B;**Live**&#x200B;_ | Quando un percorso viene pubblicato, il relativo stato cambia da Bozza a Live. Se il percorso si trova in questo stato, non può più essere modificato. | <li>[Duplica](#duplicate-journey)<li>[Chiudi ai nuovi ingressi](#close-to-new-entries) <li>[Interrompi](#abort-journey) |
-| _&#x200B;**Chiuso alle nuove voci**&#x200B;_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <li>[Duplica](#duplicate-journey) <li>[Interrompi](#abort-journey) |
-| _&#x200B;**Annullato**&#x200B;_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
-| _&#x200B;**Completato**&#x200B;_ | Quando tutti gli account completano il percorso, lo stato cambia da _Live_ o _Chiuso ai nuovi ingressi_ a _Completato_. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Bozza**_ | Un percorso non pubblicato che può essere modificato. | <li>[Pubblica](./create-publish-journey.md#publish-an-account-journey)<li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Live**_ | Quando un percorso viene pubblicato, il relativo stato cambia da Bozza a Live. Se il percorso si trova in questo stato, non può più essere modificato. | <li>[Duplica](#duplicate-journey)<li>[Chiudi ai nuovi ingressi](#close-to-new-entries) <li>[Interrompi](#abort-journey) |
+| _**Chiuso alle nuove voci**_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <li>[Duplica](#duplicate-journey) <li>[Interrompi](#abort-journey) |
+| _**Annullato**_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Completato**_ | Quando tutti gli account completano il percorso, lo stato cambia da _Live_ o _Chiuso ai nuovi ingressi_ a _Completato_. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
 
 ## Gestisci percorsi
 
@@ -155,16 +155,16 @@ Utilizza un’azione di eliminazione per eliminare definitivamente un percorso. 
 
 1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Elimina]**.
 
-## Verifica progressione account
+## Rivedere l’avanzamento degli account
 
-Per un percorso pubblicato che si trova nello stato _Live_, _Chiuso alle nuove voci_, _Interrotto_ o _Completato_, puoi aprire la mappa del percorso per esaminare la progressione dell&#39;account per i nodi del percorso. Ogni nodo sulla mappa mostra il numero di account per raggiungere il nodo e, per i percorsi live, il numero di account attualmente in quel nodo.
+Per un percorso pubblicato che si trova nello stato _Live_, _Chiuso a nuovi ingressi_, _Interrotto_ o _Completato_, puoi aprire la mappa del percorso per rivedere l’avanzamento degli account attraverso i nodi del percorso. Ogni nodo sulla mappa mostra il numero di account che hanno raggiunto quel nodo e, per i percorsi live, il numero di account che si trovano attualmente a quel nodo.
 
-![Informazioni sulla progressione dell&#39;account del nodo di Percorso](./assets/node-account-progression-observability.png){width="400"}
+![Informazioni sull’avanzamento degli account attraverso i nodi del percorso](./assets/node-account-progression-observability.png){width="400"}
 
-Quando selezioni il nodo, fai clic sul numero per visualizzare un elenco di account che sono entrati nel nodo o si trovano attualmente in quel passaggio del percorso.
+Quando selezioni il nodo, fai clic sul numero per visualizzare un elenco di account che sono entrati nel nodo o che si trovano attualmente a quel passaggio del percorso.
 
-![Informazioni sulla progressione dell&#39;account del nodo di Percorso](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
+![Informazioni sull’avanzamento degli account attraverso i nodi del percorso](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443215/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

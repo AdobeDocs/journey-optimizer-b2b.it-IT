@@ -5,9 +5,9 @@ feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1193'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Affinché l’assegnazione dei membri in un gruppo acquisti non venga ignorata i
 
 >[!NOTE]
 >
->I processi di manutenzione automatizzata dei gruppi di acquisto vengono eseguiti ogni giorno, a partire dalla versione 2025.10.
+>I processi di manutenzione automatizzata dei gruppi acquisti vengono eseguiti ogni giorno, a partire dalla versione 2025.10.
 
 ## Flusso di lavoro del gruppo acquisti
 
@@ -100,11 +100,11 @@ Per accedere ai dettagli di un gruppo acquisti, fai clic sul nome del gruppo acq
 
 ### Punteggio di completezza del gruppo acquisti
 
-Il punteggio di completezza viene utilizzato per determinare se il gruppo di acquisto ha il numero corretto di membri assegnati ai ruoli richiesti ed è pronto per essere utilizzato in un percorso di account. Questo punteggio è una percentuale basata sul numero di ruoli all’interno del gruppo di acquisto e sulla completezza per ciascuno dei ruoli definiti.
+Il punteggio di completezza viene utilizzato per determinare se il gruppo acquisti presenta il numero corretto di membri assegnati ai ruoli necessari e se è pronto per essere utilizzato in un percorso account. Questo punteggio è una percentuale basata sul numero di ruoli nel gruppo acquisti e sulla completezza per ciascuno dei ruoli definiti.
 
-Il calcolo del punteggio di completezza iniziale viene avviato non appena si crea il gruppo di acquisto e viene ricalcolato ogni giorno e ogni volta che un gruppo di acquisto viene creato o aggiornato.
+Il calcolo del punteggio di completezza iniziale viene avviato non appena crei il gruppo acquisti e viene ricalcolato ogni giorno e tutte le volte che un gruppo acquisti viene creato o aggiornato.
 
-Vedere [Punteggi di completezza](./completeness-scores.md) per informazioni dettagliate sul punteggio di completezza e sui calcoli.
+Per informazioni dettagliate sul punteggio di completezza e sui calcoli, consulta [Punteggi di completezza](./completeness-scores.md).
 
 ### Punteggio di coinvolgimento del gruppo acquisti {#engagement-score}
 
@@ -116,4 +116,4 @@ Per informazioni dettagliate sulle attività e sui calcoli dei punteggi di coinv
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3452945/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
