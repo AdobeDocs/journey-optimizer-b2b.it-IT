@@ -4,9 +4,9 @@ description: Configura le impostazioni di consegna e-mail, i limiti di comunicaz
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: 6f226c806d321cae27483df02a130bd4d8180702
+source-git-commit: 7d150069e7af582d837411aa52f6e8caa2b5e89e
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,11 @@ Per esaminare i domini di branding, fare clic sulla scheda **[!UICONTROL Domini 
 
 ![Accedere alle impostazioni dei domini di branding](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Questa impostazione definisce il dominio principale per una o più aree di lavoro nell’istanza Marketo Engage connessa. Le nuove e-mail utilizzano questo dominio come predefinito, ma gli addetti al marketing possono [ignorarlo per ogni e-mail](../content/add-email.md#define-the-email-settings). Per ulteriori informazioni sulla definizione del dominio di branding predefinito, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Questa impostazione definisce il dominio principale per una o più aree di lavoro nell’istanza Marketo Engage connessa. Le nuove e-mail utilizzano questo dominio come predefinito, ma gli addetti al marketing possono [ignorarlo per ogni e-mail](../content/add-email.md#define-the-email-settings). Per ulteriori informazioni sulla definizione del dominio di branding predefinito, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->Se stai commercializzando più marchi e desideri che ciascuno di essi abbia i propri collegamenti di tracciamento del marchio, puoi aggiungere un ulteriore dominio di branding. Per ulteriori informazioni sull&#39;aggiunta di più domini di branding, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>Se stai commercializzando più marchi e desideri che ciascuno di essi abbia i propri collegamenti di tracciamento del marchio, puoi aggiungere un ulteriore dominio di branding. Per ulteriori informazioni sull&#39;aggiunta di più domini di branding, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Opzioni intestazione personalizzate] {#custom-header-options}
 
@@ -67,19 +67,67 @@ Quando _[!UICONTROL Strict Transport Security]_ è abilitato, garantisce che i c
 
 ## Limiti di comunicazione
 
-I limiti di comunicazione controllano la quantità di e-mail inviate dalla tua organizzazione. È consigliabile impostare limiti in modo da non travolgere i destinatari con troppe e-mail dall’organizzazione.
+I limiti di comunicazione controllano il numero di e-mail che un contatto riceve dalla tua organizzazione. I limiti impostati vengono condivisi tra Journey Optimizer B2B edition e l&#39;istanza di Marketo Engage connessa. L’impostazione di questi limiti garantisce che un lead non riceva più di un numero massimo di e-mail in un determinato periodo di tempo.
 
-Per rivedere le impostazioni correnti, passare a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**. In _[!UICONTROL E-mail]_ nel pannello di navigazione, seleziona **[!UICONTROL Limiti di comunicazione]**.
-
-![Accedere alle impostazioni dei limiti di comunicazione](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
-
-Fai clic su **[!UICONTROL Modifica impostazioni]** in alto a destra per accedere alle opzioni di configurazione nell&#39;istanza di Marketo Engage connessa.
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->Per accedere e modificare queste impostazioni in Adobe Marketo Engage, è necessario disporre delle autorizzazioni di amministratore di prodotto.
+>I limiti di comunicazione sono disponibili per gli ambienti B2B edition di Journey Optimizer per i quali è stato eseguito il provisioning nell&#39;[architettura semplificata](../simplified-architecture.md).
 
-Per ulteriori informazioni sulla configurazione dei limiti di comunicazione, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
+Ad esempio, con un limite definito di cinque e-mail al giorno, il sistema garantisce che un contatto non riceva una sesta e-mail in un giorno eliminando la sesta e-mail. Con i limiti di comunicazione condivisi tra Journey Optimizer B2B edition e Marketo Engage, le regole dei limiti di comunicazione sono definite in un’unica posizione. La sesta e-mail viene soppressa, indipendentemente dall’azione di invio proveniente da Journey Optimizer B2B edition o Marketo Engage.
+
+Per impostazione predefinita, in tutte le istanze di produzione di Marketo Engage sono definiti limiti di comunicazione (per ulteriori informazioni, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}). Per utilizzare i limiti di comunicazione condivisi, definisci le regole in Journey Optimizer B2B edition ed estendi la condivisione di tali limiti ai codici Munchkin di Marketo.
+
+>[!IMPORTANT]
+>
+>Per estendere il set di regole di comunicazione ai codici Munchkin di Marketo, rivolgiti al team di gestione dell’account Adobe. Questa configurazione fa generalmente parte del processo di onboarding.
+
+Per rivedere o impostare le regole del limite di comunicazione, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**. In _[!UICONTROL E-mail]_ nel pannello di navigazione e seleziona **[!UICONTROL Limiti di comunicazione]**.
+
+![Accedere alla configurazione dei limiti di comunicazione](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
+
+Per impostazione predefinita, esiste un set di regole globale in cui puoi definire, attivare e disattivare più regole in base alle tue esigenze. Fare clic sul nome del set di regole per visualizzare l&#39;elenco delle regole.
+
+### Creare una regola
+
+1. Fai clic su **[!UICONTROL Crea regola]** in alto a destra.
+
+   ![Accedere alla configurazione dei limiti di comunicazione](./assets/config-email-communication-limits-create-rule-select.png){width="600" zoomable="yes"}
+
+1. Immetti il **[!UICONTROL nome regola]**.
+
+1. Imposta l&#39;**[!UICONTROL importo limite]**.
+
+   Inserisci il valore oppure fai clic sulla freccia _Su_ o _Giù_ a destra per aumentare o decreare il valore.
+
+1. Scegli il valore **[!UICONTROL Reimposta frequenza limite]** in base alla modalità di definizione del periodo di tempo per il limite.
+
+   Puoi scegliere _[!UICONTROL Ogni ora]_, _[!UICONTROL Ogni giorno]_, _[!UICONTROL Ogni settimana]_ o _[!UICONTROL Ogni mese]_.
+
+   ![Accedere alla configurazione dei limiti di comunicazione](./assets/config-email-communication-limits-create-rule-settings.png){width="600" zoomable="yes"}
+
+1. Imposta il valore **[!UICONTROL Ogni]** in base al numero di unità di frequenza da includere nel periodo.
+
+   Ad esempio, se utilizzi _Giornaliero_ come frequenza e imposti questo valore su `3`, il periodo è definito come tre giorni.
+
+1. Fai clic su **[!UICONTROL Crea regola]** in alto a destra.
+
+La nuova regola è nello stato _Bozza_ e non viene applicata ai limiti di comunicazione fino a quando non si sceglie di attivarla.
+
+### Gestisci regole
+
+Se una regola è nello stato _Bozza_, puoi modificare la definizione o eliminare la regola. Se desideri applicare la regola, puoi attivarla. Fai clic sull&#39;icona _Altro menu_ (***...***) accanto al nome della regola bozza nell&#39;elenco e scegli **[!UICONTROL Attiva]**.
+
+![Fare clic sul menu Altro per una bozza della regola dei limiti di comunicazione](./assets/config-email-communication-limits-draft-more-menu.png){width="400" zoomable="yes"}
+
+Quindi, fai clic su **[!UICONTROL Attiva]** nella finestra di dialogo di conferma.
+
+Una regola attiva non può essere modificata o eliminata, può solo essere disattivata. Per una regola attiva da rimuovere dai limiti di comunicazione applicati, fare clic sull&#39;icona _Disattiva_ ( ![Icona Disattiva](../assets/do-not-localize/icon-deactivate.svg) ) accanto al nome della regola attiva.
+
+![Fare clic sull&#39;icona Disattiva per una regola dei limiti di comunicazione attiva](./assets/config-email-communication-limits-active-deactivate.png){width="400" zoomable="yes"}
+
+Quindi fare clic su **[!UICONTROL Disattiva]** nella finestra di dialogo di conferma.
+
+La regola viene visualizzata con lo stato _Inattivo_. È simile a una regola bozza e puoi modificarla, eliminarla o attivarla quando necessario.
 
 ## SPF/DKIM
 
@@ -146,4 +194,4 @@ Le impostazioni sono di sola lettura in Journey Optimizer B2B edition. Fai clic 
 >
 >Per accedere e modificare queste impostazioni in Adobe Marketo Engage, è necessario disporre delle autorizzazioni di amministratore di prodotto.
 
-Per ulteriori informazioni sulla configurazione delle opzioni di attività bot, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Per ulteriori informazioni sulla configurazione delle opzioni di attività bot, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
