@@ -34,7 +34,7 @@ Dove:
 
   >[!NOTE]
   >
-  >La struttura degli attributi è definita in uno [schema XDM Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
+  >La struttura degli attributi è definita in uno [schema XDM Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home){target="_blank"}.
 
 * Gli identificatori possono essere qualsiasi carattere Unicode ad eccezione dei seguenti:
 
