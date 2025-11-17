@@ -3,10 +3,10 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: 8ddd69584f834517c9f4cea14ed4417f14020254
 workflow-type: tm+mt
-source-wordcount: '3690'
-ht-degree: 100%
+source-wordcount: '3729'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzion
 | ----- | ------ | ----------- |
 | Journey Build Agent | Nuovo | Il Journey Build Agent analizza, progetta e collabora sui percorsi in tempo reale, consentendo ai marketer di avviare più rapidamente, migliorare il coinvolgimento e aumentare i tassi di conversione. [Ulteriori informazioni](../agents/journey-agent.md) |
 | Agente Audience | Nuovo | L’Agente Audience identifica e crea automaticamente i gruppi acquisti utilizzando dati strutturati e non strutturati. Aiuta i marketer a mirare le persone giuste in modo più rapido e preciso. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
-| Agente Account Qualification | Nuovo | Scopri quali account sono pronti per la fase successiva utilizzando l’Agente Account Qualification nell’assistente IA. Questo agente consente al team di vendita di concentrarsi sugli account giusti identificando lead di alto valore e automatizzando i flussi di lavoro di qualificazione. [Ulteriori informazioni](../agents/sales-qualifier.md) |
+| Qualificatore di vendita | Nuovo | Sales Qualifier è un&#39;applicazione aggiuntiva basata sull&#39;intelligenza artificiale per Adobe Journey Optimizer B2B edition che contiene il Account Qualification Agent ed è progettata per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti tra i canali [Ulteriori informazioni](../agents/sales-qualifier.md) |
 
 ## Note sulla versione 2025.10
 
@@ -34,16 +34,12 @@ Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzion
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Modello dati relazionali | Sfrutta i dati relazionali collegati agli account B2B per filtrare gli account all’interno di un percorso account o personalizzare il contenuto delle e-mail. Questi dati relazionali possono rappresentare entità di business reali come record di acquisti, registrazioni di eventi, licenze software, iscrizioni ai servizi o prenotazioni. |
 | Funzione | Attiva nella destinazione per percorsi | Utilizza la nuova azione per gli account aziendali _Attiva nella destinazione_ per eseguire l’attivazione direttamente per le aziende, anziché per i singoli individui. (Limitata alle aziende LinkedIn per questa versione).[Ulteriori informazioni](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
 | Funzione | Temi del brand | Con i temi del brand, gli utenti non tecnici ora hanno la possibilità di creare contenuti riutilizzabili che si adattano a un brand e a un linguaggio di progettazione specifici aggiungendo stili personalizzati ai modelli standard. [Ulteriori informazioni](../content/brand-themes.md) |
 | Funzione | Modelli e-mail - Converti immagine in HTML | Ora puoi utilizzare i file di progettazione archiviati come file di immagine JPG o PNG e generare automaticamente modelli e-mail. [Ulteriori informazioni](../content/email-template-image-convert.md) |
 | Funzione | Mappatura utente tipo | Associa i membri dell’account agli utenti tipo stabiliti con la mappatura degli attributi. [Ulteriori informazioni](../admin/persona-mapping.md) |
-| Funzione | Sale Insights per Salesforce e Dynamics | I membri del team di vendita possono ora visualizzare i gruppi acquisti in fase di maturazione e gli insight correlati all’interno di un’integrazione Salesforce o Dynamics per identificare nuove opportunità. Sono inclusi i dettagli del gruppo acquisti come fase, punteggio e membri correlati. |
-| Funzione | Attivazione multipla di Marketo Engage | Configura le connessioni alle istanze Marketo Engage remote e utilizzale per configurare le azioni del percorso correlate a Marketo Engage. Queste azioni, come ad esempio l’aggiunta o la rimozione di persone dagli elenchi o a una richiesta di campagna si applicano all’istanza di Marketo Engage designata. |
-| Miglioramento | Deduplica per sovraccarico e-mail | Ora puoi abilitare la deduplica delle e-mail per garantire che la stessa e-mail non venga inviata più volte allo stesso indirizzo in un percorso. Gli indirizzi duplicati vengono bloccati finché il primo record che presenta tale indirizzo e-mail non completa il percorso. |
+| Funzione | Sale Insights per Salesforce e Dynamics | I membri del team di vendita possono ora visualizzare i gruppi acquisti in fase di maturazione e gli insight correlati all’interno di un’integrazione Salesforce o Dynamics per identificare nuove opportunità. Sono inclusi i dettagli del gruppo di acquisto come fase, punteggio e membri correlati. [Ulteriori informazioni](../buying-groups/incrm-insights.md) |
 | Miglioramento | Miglioramento del punteggio di completezza del gruppo acquisti | Ora puoi assicurarti che i gruppi acquisti riflettano l’effettivo processo decisionale, impostando per i membri dei vari ruoli delle soglie personalizzabili da utilizzare nel punteggio di completezza.  [Ulteriori informazioni](../buying-groups/completeness-scores.md) |
-| Miglioramento | Limiti di comunicazione | Il sistema ora rispetta i limiti di comunicazione combinati di Marketo Engage e Journey Optimizer B2B Edition. |
 | Miglioramento | Processi di manutenzione del gruppo acquisti | La frequenza del processo di manutenzione del gruppo acquisti è stata aggiornata da settimanale a giornaliera. |
 | Miglioramento | Avanzamento del percorso account | Per un percorso pubblicato che si trova nello stato _Live_, _Chiuso a nuovi ingressi_, _Interrotto_ o _Completato_, puoi aprire la mappa del percorso per rivedere un elenco di account per ogni nodo del percorso. |
 
@@ -61,6 +57,17 @@ Questa architettura aggiornata offre diversi vantaggi:
 * **Collega più istanze di Adobe Marketo Engage**: gestisci e unifica i dati da più ambienti Adobe Marketo Engage in un’unica posizione.
 * **Proteggi i tuoi dati**: le funzioni avanzate di privacy e sicurezza consentono di proteggere le informazioni della clientela.
 * **Progettato per il futuro**: questo aggiornamento prepara la tua organizzazione per continui miglioramenti e innovazioni.
+
+Con l’architettura semplificata, nella versione 2025.10 sono disponibili le seguenti nuove funzioni e miglioramenti:
+
+| Tipo | Elemento | Descrizione |
+| ---- | ---- | ----------- |
+| Funzione | Modello dati relazionali | Sfrutta i dati relazionali collegati agli account B2B per filtrare gli account all’interno di un percorso di account o personalizzare il contenuto delle e-mail. Questi dati relazionali possono rappresentare entità di business reali come record di acquisti, registrazioni di eventi, licenze software, iscrizioni ai servizi o prenotazioni. |
+| Funzione | Attivazione multipla di Marketo Engage | Configura le connessioni alle istanze Marketo Engage remote e utilizza tali connessioni per configurare le azioni Marketo Engage per i percorsi. Queste azioni, come ad esempio l’aggiunta o la rimozione di persone dagli elenchi o a una richiesta di campagna si applicano all’istanza di Marketo Engage designata. |
+| Funzione | Deduplica per sovraccarico e-mail | Ora puoi abilitare la deduplica delle e-mail per garantire che la stessa e-mail non venga inviata più volte allo stesso indirizzo in un percorso. Gli indirizzi duplicati vengono bloccati finché il primo record che presenta tale indirizzo e-mail non completa il percorso. |
+| Miglioramento | Limiti di comunicazione | Il sistema ora rispetta i limiti di comunicazione combinati di Marketo Engage e Journey Optimizer B2B edition. [Ulteriori informazioni](../admin/configure-channels-emails.md#communication-limits) |
+
+Se il provisioning dell&#39;ambiente è eseguito su questa architettura, esaminare le [linee guida per la configurazione](../simplified-architecture.md).
 
 <!-- hold for later release 
 
@@ -210,8 +217,8 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Contenuto condizionale nelle e-mail | Personalizza il contenuto delle e-mail in base al comportamento del destinatario e alle caratteristiche del profilo, sia a livello di account che di lead. <p>Quando crei un’e-mail per il percorso dell’account nello spazio di progettazione visiva dell’e-mail, utilizza le regole condizionali per definire più varianti per qualsiasi componente di contenuto. <a href="../content/conditional-content.md">Ulteriori informazioni</a> |
-| Funzione | Azioni delle persone _Aggiungi all’elenco_ e _Rimuovi dall’elenco_ in percorsi | Personalizza il contenuto delle e-mail in base al comportamento del destinatario e alle caratteristiche del profilo, sia a livello di account che di lead. <a href="../journeys/action-nodes.md">Ulteriori informazioni</a> |
+| Funzione | Contenuto condizionale nelle e-mail | Personalizza il contenuto dell’e-mail in base al comportamento del destinatario e alle caratteristiche del profilo, sia a livello di account che di lead. <p>Quando crei un’e-mail per il percorso dell’account nello spazio di progettazione visiva dell’e-mail, utilizza le regole condizionali per definire più varianti per qualsiasi componente di contenuto. <a href="../content/conditional-content.md">Ulteriori informazioni</a> |
+| Funzione | Azioni delle persone _Aggiungi all’elenco_ e _Rimuovi dall’elenco_ in percorsi | Personalizza il contenuto dell’e-mail in base al comportamento del destinatario e alle caratteristiche del profilo, sia a livello di account che di lead. <a href="../journeys/action-nodes.md">Ulteriori informazioni</a> |
 | Funzione | Governance dei contenuti e blocco dei componenti | Per garantire il rispetto delle progettazioni di contenuti approvate, utilizza le funzioni di governance dei contenuti per bloccare i componenti di contenuto dei modelli e-mail. Attivando la governance dei contenuti nel modello e-mail, i marketer possono modificare solo gli elementi consentiti per mantenerli allineati alla strategia dei contenuti. <a href="../content/template-content-governance.md">Ulteriori informazioni</a> |
 | Funzione | Fasi del gruppo acquisti | Quando definisci e pubblichi un modello di staging personalizzato per gruppi acquisti, puoi tenere traccia della progressione del gruppo acquisti attraverso le sue fasi del ciclo di vita. Utilizza queste fasi per identificare le prossime azioni migliori per i membri del gruppo acquisti. Puoi configurare le regole di transizione e i nodi del percorso che determinano la progressione delle fasi e attivano le azioni in base alle modifiche. <a href="../buying-groups/buying-group-stages.md">Ulteriori informazioni</a> |
 | Miglioramento | Nuovi modelli e-mail pronti all’uso | La libreria dei modelli di esempio ora include ulteriori modelli e-mail progettati per i marketer B2B. Utilizza questi modelli di esempio come punto di partenza e aggiungi il branding e la messaggistica. <a href="../content/email-templates.md#select-a-design-template">Ulteriori informazioni</a> |
