@@ -131,11 +131,11 @@ Seleziona [schemi relazionali](https://experienceleague.adobe.com/en/docs/experi
 >Tieni presente che gli schemi relazionali devono avere le seguenti configurazioni:
 >
 ><li>Comportamento: record
-&gt; <li>Segmentazione: abilitata
-&gt; <li>Tipo di relazione: molti-a-uno
-&gt; <li>Schema di riferimento: <a href="https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">Account B2B - Schema account aziendale XDM</a>
-&gt; <li>Campi obbligatori: chiave primaria, chiave esterna e descrittore versione
-&gt; <li>Set di dati associato: definito e mappato allo schema
+>&gt; <li>Segmentazione: abilitata
+>&gt; <li>Tipo di relazione: molti-a-uno
+>&gt; <li>Schema di riferimento: <a href="https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">Account B2B - Schema account aziendale XDM</a>
+>&gt; <li>Campi obbligatori: chiave primaria, chiave esterna e descrittore versione
+>&gt; <li>Set di dati associato: definito e mappato allo schema
 
 ### Eventi
 
