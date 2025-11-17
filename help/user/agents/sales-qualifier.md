@@ -223,4 +223,4 @@ Nella parte inferiore sinistra dell&#39;applicazione, fare clic su **[!UICONTROL
 
 Il video seguente offre una breve dimostrazione dei Sales Qualifier e di Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476569?captions=ita)
