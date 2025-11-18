@@ -4,9 +4,9 @@ description: 'Progetta e-mail, pagine di destinazione e frammenti con componenti
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
 workflow-type: tm+mt
-source-wordcount: '2849'
+source-wordcount: '2843'
 ht-degree: 6%
 
 ---
@@ -431,7 +431,7 @@ Aggiungi un componente _Divider_ per incorporare una divisione lineare tra le se
 
 +++
 
-+++Linea
++++LINE
 
 +++
 
@@ -537,7 +537,7 @@ Scegliere il tipo di origine [risorsa](./assets-overview.md) e selezionare un fi
 
   ![Sfoglia le risorse immagini disponibili](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
-  Dalla finestra di dialogo, puoi scegliere un’immagine dall’archivio e dall’area di lavoro selezionati. Fai clic su **[!UICONTROL Seleziona]** per aggiungere la risorsa.
+  Dalla finestra di dialogo, puoi scegliere un’immagine dall’archivio selezionato. Fai clic su **[!UICONTROL Seleziona]** per aggiungere la risorsa.
 
   Sono disponibili alcuni strumenti per individuare la risorsa di cui hai bisogno:
 

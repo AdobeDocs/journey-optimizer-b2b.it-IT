@@ -1,9 +1,9 @@
 ---
 title: Snippet
 description: Riutilizzo di note ed elementi visivi per annotare una funzione o una pagina applicata a una specifica edizione
-source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
+source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2374'
 ht-degree: 3%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Le licenze per AEM Assets as a Cloud Service e Dynamic Media sono prerequisiti per l’integrazione. Verificare che [Dynamic Media con API aperta](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} sia abilitato. L&#39;integrazione è limitata agli archivi dal _livello di consegna_. Se si utilizza il _livello di creazione_ e si desidera convertirlo, contattare il supporto tecnico Adobe Experience Manager.<br/>
->&#x200B;>A seconda del contratto e della configurazione, è possibile accedere a Adobe Experience Manager Assets as a Cloud Service direttamente da Adobe Journey Optimizer B2B edition durante la progettazione di contenuti visivi.
+>Le licenze per AEM Assets as a Cloud Service e Dynamic Media sono prerequisiti per l’integrazione. Verificare che [Dynamic Media con API aperta](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} sia abilitato. L&#39;integrazione è limitata agli archivi dal _livello di consegna_. Se si utilizza il _livello di creazione_ e si desidera convertirlo, contattare il supporto tecnico Adobe Experience Manager.<br/>
+>A seconda del contratto e della configurazione, è possibile accedere a Adobe Experience Manager Assets as a Cloud Service direttamente da Adobe Journey Optimizer B2B edition durante la progettazione di contenuti visivi.
 
 ## Passaggio Authoring dei contenuti - componenti - strutture {#structures-step}
 
@@ -217,7 +217,7 @@ Scegli questo tipo per sfogliare e selezionare una risorsa immagine dalla librer
 
 ![Sfoglia le risorse immagini disponibili](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
-Dalla finestra di dialogo, puoi scegliere un’immagine dall’archivio e dall’area di lavoro selezionati. Fai clic su **[!UICONTROL Seleziona]** per aggiungere la risorsa.
+Dalla finestra di dialogo, puoi scegliere un’immagine dall’archivio selezionato. Fai clic su **[!UICONTROL Seleziona]** per aggiungere la risorsa.
 
 Sono disponibili alcuni strumenti per individuare la risorsa di cui hai bisogno:
 

@@ -3,7 +3,7 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 8ddd69584f834517c9f4cea14ed4417f14020254
+source-git-commit: af71f00fa4be24ed8c594f3e5823bc0c9db17c6d
 workflow-type: tm+mt
 source-wordcount: '3729'
 ht-degree: 95%
@@ -58,6 +58,10 @@ Questa architettura aggiornata offre diversi vantaggi:
 * **Proteggi i tuoi dati**: le funzioni avanzate di privacy e sicurezza consentono di proteggere le informazioni della clientela.
 * **Progettato per il futuro**: questo aggiornamento prepara la tua organizzazione per continui miglioramenti e innovazioni.
 
+>[!NOTE]
+>
+>Se il provisioning dell&#39;ambiente è eseguito su questa architettura, esaminare le [linee guida per la configurazione](../simplified-architecture.md).
+
 Con l’architettura semplificata, nella versione 2025.10 sono disponibili le seguenti nuove funzioni e miglioramenti:
 
 | Tipo | Elemento | Descrizione |
@@ -67,7 +71,12 @@ Con l’architettura semplificata, nella versione 2025.10 sono disponibili le se
 | Funzione | Deduplica per sovraccarico e-mail | Ora puoi abilitare la deduplica delle e-mail per garantire che la stessa e-mail non venga inviata più volte allo stesso indirizzo in un percorso. Gli indirizzi duplicati vengono bloccati finché il primo record che presenta tale indirizzo e-mail non completa il percorso. |
 | Miglioramento | Limiti di comunicazione | Il sistema ora rispetta i limiti di comunicazione combinati di Marketo Engage e Journey Optimizer B2B edition. [Ulteriori informazioni](../admin/configure-channels-emails.md#communication-limits) |
 
-Se il provisioning dell&#39;ambiente è eseguito su questa architettura, esaminare le [linee guida per la configurazione](../simplified-architecture.md).
+<!-- There are additional functional changes with the simplified architecture:
+
+| Item | Description |
+| ---- | ----------- |
+| Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
+| | | -->
 
 <!-- hold for later release 
 
@@ -235,7 +244,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Miglioramento | Libreria di risorse centrale | La _libreria di risorse centrale_ avanzata consente di utilizzare tutte le risorse immagine nell’istanza di Marketo Engage, nelle aree di lavoro di Design Studio. Esistono guardrail incorporati che impediscono le modifiche alle risorse Marketo Engage da Journey Optimizer B2B Edition, nonché le operazioni di eliminazione e spostamento. Queste protezioni garantiscono la conservazione delle risorse di origine (Marketo Engage Design Studio) consentendo al tempo stesso la lettura e il riutilizzo senza interruzioni in Journey Optimizer B2B Edition.<p>Per le risorse da utilizzare esclusivamente in Journey Optimizer B2B Edition, un’area di lavoro specifica fornisce funzioni di gestione risorse complete. <a href="../content/marketo-engage-design-studio.md">Ulteriori informazioni</a> |
+| Miglioramento | Libreria di risorse centrale | La _libreria di risorse centrale_ avanzata consente di utilizzare tutte le risorse immagine nell’istanza di Marketo Engage, nelle aree di lavoro di Design Studio. Esistono guardrail incorporati che impediscono le modifiche alle risorse Marketo Engage da Journey Optimizer B2B Edition, nonché le operazioni di eliminazione e spostamento. Queste protezioni garantiscono la conservazione delle risorse di origine (Marketo Engage Design Studio) consentendo al tempo stesso la lettura e il riutilizzo senza interruzioni in Journey Optimizer B2B Edition.<p>Per le risorse da utilizzare esclusivamente in Journey Optimizer B2B Edition, un’area di lavoro specifica fornisce funzioni di gestione risorse complete. <a href="../content/internal-image-assets.md">Ulteriori informazioni</a> |
 | Funzione | Risorse con accesso recente | La pagina Home dell’app Journey Optimizer B2B Edition ora include la sezione _[!UICONTROL Accesso recente]_, che fornisce un elenco delle risorse utilizzate più di recente dall’addetto marketing o dall’amministratore. Puoi utilizzare questo elenco per passare direttamente alla risorsa su cui hai lavorato di recente senza passare attraverso una serie di pagine di risorse e di ricerche. <p>L’elenco fornisce informazioni aggiuntive relative alla modifica, in modo da poter decidere quale delle risorse deve essere ulteriormente modificata dall’ultima sessione. Per le risorse e-mail, l’elenco visualizza il percorso dell’account in cui viene utilizzata la risorsa e-mail. <a href="../home-page.md">Ulteriori informazioni</a> |
 | Miglioramento | Nodo del percorso suddiviso: riordinare percorsi | Nei nodi del percorso suddivisi, il filtro dei percorsi viene valutato in ordine decrescente. Ogni persona o account procede lungo il primo percorso corrispondente. Per riordinare i percorsi definiti, fai clic sulle frecce su e giù, in alto a destra di ciascuna scheda del percorso, per spostarlo in alto o in basso nell’elenco. <a href="../journeys/split-merge-paths-nodes.md#split-paths">Ulteriori informazioni</a> |
 | Miglioramento | Nodo del percorso suddiviso: attributi di condizione della cronologia dell’attività aggiuntiva | Quando si utilizzano le condizioni per definire il filtro del percorso di un nodo suddiviso secondo le persone, sono disponibili due attributi aggiuntivi: _E-mail aperta_ e _E-mail consegnata_. Queste aggiunte forniscono maggiore flessibilità per filtrare le persone nel percorso in base all’attività e-mail. <a href="../journeys/journey-nodes.md#split-paths">Ulteriori informazioni</a> |

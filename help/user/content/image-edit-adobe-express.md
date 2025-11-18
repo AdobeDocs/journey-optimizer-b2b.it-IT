@@ -1,12 +1,12 @@
 ---
 title: Modificare le immagini con Adobe Express
-description: 'Modifica le immagini in modo nativo con Adobe Express in Journey Optimizer B2B edition: ridimensiona, ritaglia, rimuovi gli sfondi, converti i formati e salva nel tuo workspace.'
+description: 'Modifica le immagini in modo nativo con Adobe Express in Journey Optimizer B2B edition: ridimensiona, ritaglia, rimuovi gli sfondi, converti i formati e salva nel tuo archivio di risorse.'
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '869'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 >title="Modificare le immagini in Adobe Express"
 >abstract="Strumenti di editing delle immagini semplici e intuitivi, basati su tecnologia Adobe Express, sono disponibili direttamente all’interno di Adobe Journey Optimizer B2B edition per velocizzare la creazione dei contenuti."
 
-Adobe Journey Optimizer B2B edition si integra in modo nativo con Adobe Express e consente di accedere a un set di strumenti di modifica delle immagini Adobe Express. Puoi utilizzare questi strumenti per modificare le immagini memorizzate nell’area di lavoro di Journey Optimizer B2B edition per l’archivio risorse di Marketo Engage connesso. L’integrazione offre i seguenti vantaggi chiave:
+Adobe Journey Optimizer B2B edition si integra in modo nativo con Adobe Express e consente di accedere a un set di strumenti di modifica delle immagini Adobe Express. Puoi utilizzare questi strumenti per modificare le immagini memorizzate nell’archivio delle risorse di Journey Optimizer B2B edition. L’integrazione offre i seguenti vantaggi chiave:
 
 * È stato aumentato il riutilizzo dei contenuti modificando e salvando nuove risorse di immagini in Journey Optimizer B2B edition.
 
@@ -34,23 +34,23 @@ _Per modificare un&#39;immagine :_
 
 1. Vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Assets]**.
 
-Questa azione apre una pagina di elenco con tutte le risorse elencate. L&#39;area di lavoro _[!UICONTROL Journey Optimizer B2B edition]_ è selezionata per impostazione predefinita.
+Questa azione apre una pagina di elenco con tutte le risorse elencate.
 
 1. Individua l’immagine da modificare o utilizza come originale per creare una nuova risorsa.
 
-   * Per visualizzare le risorse per area di lavoro e cartella, apri la struttura facendo clic sull&#39;icona _Mostra cartelle_ in alto a sinistra.
+   * Per visualizzare le risorse per cartella, apri la struttura facendo clic sull&#39;icona _Mostra cartelle_ in alto a sinistra.
 
    * Per ordinare la tabella in base a una delle colonne, fare clic sul titolo della colonna. La freccia nella riga del titolo indica la colonna e l&#39;ordine di ordinamento correnti.
 
-   * Per cercare una risorsa immagine nell’area di lavoro o nella cartella selezionata, immetti una stringa di testo nella barra di ricerca.
+   * Per cercare una risorsa immagine all’interno della cartella selezionata, immetti una stringa di testo nella barra di ricerca.
 
-   ![Sfogliare le risorse nell&#39;area di lavoro di Journey Optimizer B2B edition](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
+   ![Sfogliare le risorse nel repository di Journey Optimizer B2B edition](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
 
 1. Fai clic sul nome della risorsa immagine per aprirla e visualizzarne i dettagli.
 
    >[!TIP]
    >
-   >È consigliabile selezionare [la scheda _[!UICONTROL Usato da]_](./marketo-engage-design-studio.md#view-asset-used-by-references) nei dettagli dell&#39;immagine e rivedere il contenuto in cui l&#39;immagine è attualmente utilizzata prima di procedere con le modifiche al file di immagine.
+   >È consigliabile selezionare [la scheda _[!UICONTROL Usato da]_](./internal-image-assets.md#view-asset-used-by-references) nei dettagli dell&#39;immagine e rivedere il contenuto in cui l&#39;immagine è attualmente utilizzata prima di procedere con le modifiche al file di immagine.
 
 1. Nell&#39;immagine _[!UICONTROL Dettagli]_ a destra, fare clic su **[!UICONTROL Modifica con Adobe Express]**.
 
@@ -70,7 +70,7 @@ Se disponi di una licenza Enterprise per Adobe Express, puoi accedere e utilizza
 
 ![Apri l&#39;immagine nell&#39;editor aziendale di Adobe Express](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-La [Guida utente di Adobe Express](https://helpx.adobe.com/it/express/web.html){target="_blank"} fornisce informazioni dettagliate sulle funzionalità di modifica disponibili.
+La [Guida utente di Adobe Express](https://helpx.adobe.com/express/web.html){target="_blank"} fornisce informazioni dettagliate sulle funzionalità di modifica disponibili.
 
 ## Azioni rapide in Adobe Express
 
@@ -86,7 +86,7 @@ Se non disponi di una licenza Adobe Express Enterprise, puoi accedere all’edit
 
    ![Selezionare un tipo di modifica per modificare l&#39;immagine](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}
 
-1. Quando ritorni all&#39;editor principale delle azioni rapide di Adobe Express, fai clic su **[!UICONTROL Salva]** per salvare il file immagine modificato nell&#39;area di lavoro risorse di Journey Optimizer B2B edition con lo stesso nome di file.
+1. Quando ritorni all&#39;editor azioni rapide principale di Adobe Express, fai clic su **[!UICONTROL Salva]** per salvare il file immagine modificato nell&#39;archivio risorse di Journey Optimizer B2B edition con lo stesso nome di file.
 
 ## Ridimensiona immagine
 
@@ -118,8 +118,8 @@ Adobe Express esegue una rimozione automatica dello sfondo per isolare l’ogget
 
 ## Converti formato file
 
-* **[!UICONTROL Converti in JPEG]** - Per un&#39;immagine PNG, è possibile convertirla in un file di immagine JPEG e salvarla come nuova risorsa nell&#39;area di lavoro.
-* **[!UICONTROL Converti in PNG]** - Per un&#39;immagine JPEG, è possibile convertirla in un file di immagine PNG e salvarla come nuova risorsa nell&#39;area di lavoro.
+* **[!UICONTROL Converti in JPEG]** - Per un&#39;immagine PNG, è possibile convertirla in un file di immagine JPEG e salvarla come nuova risorsa.
+* **[!UICONTROL Converti in PNG]** - Per un&#39;immagine JPEG, è possibile convertirla in un file di immagine PNG e salvarla come nuova risorsa.
 
 ![Modifica con Adobe Express- converti in PNG](./assets/assets-edit-adobe-express-convert-to-png.png){width="600" zoomable="yes"}
 
