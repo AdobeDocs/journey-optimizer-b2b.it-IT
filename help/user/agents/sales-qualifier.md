@@ -3,9 +3,9 @@ title: Qualificatore di vendita
 description: Automatizzare la qualifica di potenziale cliente B2B e l'impegno con i qualificatori di vendita. Fornisce ricerca basata sull’intelligenza artificiale, redazione di e-mail, integrazione CRM e piani di coinvolgimento per i BDR.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1376'
 ht-degree: 1%
 
 ---
@@ -22,13 +22,13 @@ Utilizza il browser e i plug-in e-mail per accedere alle informazioni aziendali 
 
 Sales Qualifier è incluso in Journey Optimizer B2B edition, ma è un&#39;app separata all&#39;interno di Experience Platform Experience Cloud.
 
-![Home page Qualificatore vendite](assets/home-screen.png)
+![Dashboard dei qualificatori di vendita che automatizza la qualifica e l&#39;impegno dei potenziali clienti BDR per il B2B aziendale](assets/home-screen.png)
 
 ## Agente Account Qualification
 
 Il Account Qualification Agent (AQA) è il cuore del qualificatore di vendita. L’AQA utilizza l’intelligenza artificiale per leggere gli account e determinare quali sono pronti per il passaggio successivo. Aiuta nella ricerca, nella redazione di e-mail e negli aggiornamenti CRM.
 
-![Account Qualification Agent](assets/acc-qualification-agent.png)
+![Dashboard Account Qualification Agent basato sull&#39;intelligenza artificiale per la ricerca di potenziali clienti e account](assets/acc-qualification-agent.png)
 
 * **Ricerca prospect**
 
@@ -44,11 +44,11 @@ Il Account Qualification Agent (AQA) è il cuore del qualificatore di vendita. L
 
 * **E-mail piano di coinvolgimento**
 
-  Creare bozze e-mail del piano di coinvolgimento personalizzate per ogni passaggio di una cadenza di attività definita da BDR, garantendo che l’intera sequenza sia personalizzata
+  Crea bozze e-mail del piano di coinvolgimento personalizzate per ogni passaggio di una cadenza di estensione definita da BDR, garantendo che l’intera sequenza sia personalizzata.
 
 ### Utilizzo di base
 
-Gli agenti di IA per Adobe utilizzano _query in linguaggio naturale_, il che significa che utilizzano la stessa lingua nel prompt del testo come si farebbe nel parlare con una persona. Più sei dettagliato, migliori saranno i risultati.
+Gli agenti di IA per Adobe utilizzano _query in linguaggio naturale_, il che significa che utilizzano nel prompt del testo la stessa lingua utilizzata quando si parla con una persona. Più sei dettagliato, migliori saranno i risultati.
 
 Utilizzando il linguaggio naturale, puoi chiedere all’agente di:
 
@@ -68,7 +68,7 @@ Eseguire un&#39;iterazione nel percorso perfezionando le richieste per ottenere 
 
 Questa finestra elenca tutti i lead a cui hai accesso. Offre un controllo rapido su elementi quali lo stato del lead e l’ultima attività.
 
-![Visualizza tutti i lead nella tabella Lead](assets/prospects.png)
+![Tabella Lead che visualizza lo stato e l&#39;ultima attività del lead per la gestione del prospect](assets/prospects.png)
 
 Fai clic sull&#39;icona _Filtro_ ![Icona Filtro](../../assets/do-not-localize/icon_filter-outline.svg) per filtrare l&#39;elenco visualizzato in base allo stato del lead.
 
@@ -76,7 +76,7 @@ Fai clic sull&#39;icona _Filtro_ ![Icona Filtro](../../assets/do-not-localize/ic
 
 Questa finestra fornisce dettagli su qualsiasi piano di coinvolgimento definito.
 
-![Piani di coinvolgimento](assets/engagement-plans.png)
+![Dashboard del piano di coinvolgimento con i dettagli del piano, i lead selezionati e le impostazioni di pianificazione](assets/engagement-plans.png)
 
 Per creare un nuovo piano di coinvolgimento, fare clic su **[!UICONTROL Crea piano di coinvolgimento]**.
 
@@ -97,7 +97,7 @@ Questo pannello visualizza tutte le riunioni impostate tramite l&#39;automazione
 
 Questo pannello visualizza tutti i thread di chat.
 
-![Posta in arrivo chat](assets/chat-inbox.png)
+![Pannello che mostra i thread di chat con i contatti e i riepiloghi dei thread per l&#39;automazione delle vendite](assets/chat-inbox.png)
 
 È possibile interagire con i client e visualizzare i riepiloghi del contatto e del thread in modo da poter individuare rapidamente la posizione in cui si trova il thread.
 
@@ -106,15 +106,15 @@ Questo pannello visualizza tutti i thread di chat.
 Con le integrazioni, il Qualificatore di vendita può sfruttare i CRM e altre origini dati per arricchire i profili dei clienti e attingere alle attività di vendita:
 
 * Integra con la tua casella di posta in arrivo per tenere traccia delle e-mail in arrivo rilevanti e contribuire a generare le risposte.
-* Leggi e aggiorna i dati CRM, ad esempio Salesforce o Microsoft® Dynamics, ZoomInfo o Buildwidth.
+* Leggi e aggiorna i dati CRM, ad esempio Salesforce o Microsoft® Dynamics, ZoomInfo o BuiltWith.
 
-![Qualificatore vendite per l&#39;integrazione Outlook](assets/outlook.png)
+![Integrazione dei qualificatori di vendita con Microsoft Outlook che mostra i riepiloghi di e-mail e contatti](assets/outlook.png)
 
 ### Configurare una nuova integrazione
 
 Per avviare una nuova integrazione, fai clic su **[!UICONTROL Crea integrazione]** in alto a destra.
 
-![Dettagli integrazione](assets/integration-details.png)
+![Modulo di installazione dell&#39;integrazione con URL, metodo HTTP, intestazioni e opzioni di autenticazione](assets/integration-details.png)
 
 Definisci l’URL dell’integrazione e stabilisci il payload da inviare:
 
@@ -165,13 +165,13 @@ Le impostazioni del rappresentante specificano informazioni su di te, tra cui da
 
 Nella scheda **[!UICONTROL Dettagli]** è possibile immettere informazioni personali:
 
-![Impostazioni dettagli qualificatore vendite](assets/details.png)
+![Scheda Dettagli che mostra le impostazioni di disponibilità di informazioni personali, posta elettronica e chat per i rappresentanti](assets/details.png)
 
 ### Impostazioni e-mail
 
 Nella scheda **[!UICONTROL Impostazioni e-mail]**, configura le connessioni e-mail.
 
-![Impostazioni e-mail](assets/email-settings.png)
+![Scheda Impostazioni e-mail con le opzioni di connessione e la configurazione della firma e-mail](assets/email-settings.png)
 
 * **[!UICONTROL Connessioni e-mail]** - Fare clic su **[!UICONTROL Connetti]** e seguire la procedura di accesso di Microsoft.
 
@@ -181,7 +181,7 @@ Nella scheda **[!UICONTROL Impostazioni e-mail]**, configura le connessioni e-ma
 
 Nella scheda **[!UICONTROL Impostazioni calendario]**, imposta il tuo fuso orario e la tua disponibilità.
 
-![Impostazioni calendario](assets/calendar-settings.png)
+![Scheda Impostazioni calendario con le opzioni relative al fuso orario e alla disponibilità](assets/calendar-settings.png)
 
 * **[!UICONTROL Connessione calendario]** - Fare clic su **[!UICONTROL Connetti]** e seguire la procedura di accesso di Microsoft per integrare il calendario.
 
@@ -193,7 +193,7 @@ Nella scheda **[!UICONTROL Impostazioni calendario]**, imposta il tuo fuso orari
 
 Nella scheda **[!UICONTROL Impostazioni chat]**, imposta la disponibilità della chat in tempo reale.
 
-![Impostazioni chat](assets/chat-settings.png)
+![Scheda Impostazioni chat per configurare il fuso orario e la disponibilità della chat in tempo reale](assets/chat-settings.png)
 
 ## Gestione dei rappresentanti
 
@@ -223,4 +223,4 @@ Nella parte inferiore sinistra dell&#39;applicazione, fare clic su **[!UICONTROL
 
 Il video seguente offre una breve dimostrazione dei Sales Qualifier e di Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476569?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
