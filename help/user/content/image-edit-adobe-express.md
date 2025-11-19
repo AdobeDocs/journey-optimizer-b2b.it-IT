@@ -4,9 +4,9 @@ description: 'Modifica le immagini in modo nativo con Adobe Express in Journey O
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '856'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 >title="Modificare le immagini in Adobe Express"
 >abstract="Strumenti di editing delle immagini semplici e intuitivi, basati su tecnologia Adobe Express, sono disponibili direttamente all’interno di Adobe Journey Optimizer B2B edition per velocizzare la creazione dei contenuti."
 
-Adobe Journey Optimizer B2B edition si integra in modo nativo con Adobe Express e consente di accedere a un set di strumenti di modifica delle immagini Adobe Express. Puoi utilizzare questi strumenti per modificare le immagini memorizzate nell’archivio delle risorse di Journey Optimizer B2B edition. L’integrazione offre i seguenti vantaggi chiave:
+[!DNL Adobe Journey Optimizer B2B Edition] si integra in modo nativo con Adobe Express e consente di accedere a un set di [!DNL Adobe Express] strumenti di modifica delle immagini. È possibile utilizzare questi strumenti per modificare le immagini archiviate nell&#39;archivio risorse [!DNL Journey Optimizer B2B Edition]. L’integrazione offre i seguenti vantaggi chiave:
 
 * È stato aumentato il riutilizzo dei contenuti modificando e salvando nuove risorse di immagini in Journey Optimizer B2B edition.
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer B2B edition si integra in modo nativo con Adobe Express 
 >
 >I diritti per le funzioni di modifica di Adobe Express sono inclusi in tutti gli abbonamenti a Journey Optimizer B2B edition.
 
-Le funzioni di Adobe Express supportano i formati di file immagine PNG e JPEG.
+Le funzioni [!DNL Adobe Express] supportano i formati di file immagine PNG e JPEG.
 
 _Per modificare un&#39;immagine :_
 
@@ -70,7 +70,7 @@ Se disponi di una licenza Enterprise per Adobe Express, puoi accedere e utilizza
 
 ![Apri l&#39;immagine nell&#39;editor aziendale di Adobe Express](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-La [Guida utente di Adobe Express](https://helpx.adobe.com/it/express/web.html){target="_blank"} fornisce informazioni dettagliate sulle funzionalità di modifica disponibili.
+La [Guida utente di Adobe Express](https://helpx.adobe.com/express/web.html){target="_blank"} fornisce informazioni dettagliate sulle funzionalità di modifica disponibili.
 
 ## Azioni rapide in Adobe Express
 
