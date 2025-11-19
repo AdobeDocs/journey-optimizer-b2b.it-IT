@@ -1,16 +1,16 @@
 ---
-title: Agente di creazione percorso per B2B
+title: Agente di compilazione percorso B2B
 description: Scopri come utilizzare l’agente di generazione del Percorso basato sull’intelligenza artificiale per creare rapidamente percorsi solidi
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# Agente di creazione percorso per B2B
+# Agente di compilazione percorso B2B
 
 L’agente B2B di Percorsi Builder è un agente di intelligenza artificiale che ti assiste nella progettazione/creazione, esecuzione e ottimizzazione del percorso tramite automazione e consigli basati sui dati. L’agente di Percorsi Builder per B2B automatizza e riduce il tempo necessario per eseguire la creazione di nuovi percorsi B2B.
 
