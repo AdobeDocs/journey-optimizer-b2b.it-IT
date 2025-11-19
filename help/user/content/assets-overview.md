@@ -4,10 +4,10 @@ description: Gestisci le risorse immagine da Journey Optimizer B2B edition e AEM
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 9c4f2fd95d60eb98deb256cbbb382da694a1a1cf
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 70%
+source-wordcount: '852'
+ht-degree: 60%
 
 ---
 
@@ -49,15 +49,15 @@ Utilizza le risorse durante l’authoring di e-mail, modelli di e-mail e frammen
 
 Puoi scegliere l’origine dell’immagine quando modifichi le impostazioni di un componente immagine o direttamente nell’area di lavoro.
 
-* **_Impostazioni del componente immagine_**: se hai selezionato un componente immagine nello spazio di progettazione visiva, puoi visualizzare e modificare le impostazioni nel pannello a destra. Per aggiungere o modificare il file immagine visualizzato nel componente, scegli il tipo di origine e seleziona un file di immagine.
+* **_Impostazioni del componente immagine_** - Se nell&#39;area di lavoro è selezionato un componente immagine, è possibile visualizzare e modificare le impostazioni nel pannello di destra. Per aggiungere o modificare il file immagine visualizzato nel componente, scegli il tipo di origine e seleziona un file di immagine.
 
   ![Modifica le impostazioni del componente immagine nel pannello a destra](./assets/content-assets-image-settings.png){width="350"}
 
-* **_Componente vuoto_**: quando aggiungi un componente immagine nello spazio di progettazione visiva, questo è vuoto e consente un facile accesso per scegliere un’origine e selezionare un file di immagine.
+* **_Componente vuoto_** - Quando si aggiunge un componente immagine all&#39;area di lavoro, questo è vuoto e consente di scegliere facilmente un&#39;origine e selezionare un file di immagine.
 
   ![Scegliere un’origine per selezionare un file di immagine per il componente immagine vuoto](./assets/content-assets-image-component-empty.png){width="500"}
 
-* **_Barra degli strumenti del componente immagine_**: se nello spazio di progettazione visiva è selezionato un componente immagine, la barra degli strumenti consente un facile accesso alla scelta dell’origine e alla selezione di un file immagine.
+* **_Barra degli strumenti del componente immagine_** - Se nell&#39;area di lavoro è selezionato un componente immagine, la barra degli strumenti consente di scegliere facilmente un&#39;origine e selezionare il file immagine.
 
   ![Utilizzare la barra degli strumenti per la scelta dell’origine da cui selezionare un file di immagine per il componente immagine](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
