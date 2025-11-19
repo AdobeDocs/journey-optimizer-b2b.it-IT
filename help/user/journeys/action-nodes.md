@@ -4,7 +4,7 @@ description: 'Configurare i nodi di azione per le azioni account e persone: invi
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 559725b4a1c789085fa241b9a19dc666a457c77b
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 2%
@@ -174,7 +174,7 @@ Utilizza questa azione per aggiungere profili di persone a un [gruppo di acquist
 
 +++[!UICONTROL Modifica valore dati]
 
-Utilizzare questa azione per modificare il valore di un attributo del profilo [persone](../data/field-mapping.md#xdm-business-person-attributes). Selezionare l&#39;attributo e quindi impostare il nuovo valore.
+Utilizzare questa azione per modificare il valore di un attributo del profilo [persone](../admin/field-mapping.md#xdm-business-person-attributes). Selezionare l&#39;attributo e quindi impostare il nuovo valore.
 
 ![Azione - Modifica valore dati](./assets/node-action-change-data-value.png){width="300"}
 
