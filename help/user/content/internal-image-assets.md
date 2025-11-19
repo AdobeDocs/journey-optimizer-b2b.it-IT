@@ -4,16 +4,16 @@ description: 'Sfoglia, gestisci e utilizza le risorse di Journey Optimizer B2B e
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: ddc0c68c5d2fb3c1260100bb4686bcff16aafdff
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1758'
 ht-degree: 1%
 
 ---
 
 # Utilizzare risorse immagine interne
 
-L’archivio interno delle risorse di immagini è l’origine predefinita delle risorse per la progettazione del contenuto e puoi gestire e utilizzare facilmente le risorse disponibili per progettare contenuti che supportano i percorsi del tuo account.
+L’archivio interno delle risorse di immagini è l’origine predefinita delle risorse di immagini e puoi gestire e utilizzare facilmente le risorse disponibili per progettare contenuti che supportano i percorsi del tuo account.
 
 Journey Optimizer B2B edition offre una gamma completa di funzioni per la gestione delle risorse. Queste funzioni includono:
 
