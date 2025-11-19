@@ -5,7 +5,7 @@ feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '2062'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Utilizza gli strumenti di progettazione dei campi per creare il set di campi e i
 
 1. Nella finestra di dialogo _[!UICONTROL Seleziona attributo campo]_, seleziona la casella di controllo per l&#39;attributo profilo persona che desideri utilizzare per il campo e fai clic su **[!UICONTROL Seleziona]**.
 
-   Gli [schemi aziendali XDM](../data/field-mapping.md#xdm-business-person-attributes) determinano gli attributi disponibili.  Sono inoltre disponibili eventuali campi personalizzati definiti per l’istanza di Journey Optimizer B2B edition. Utilizzare la casella di testo Cerca per filtrare l&#39;elenco in base al nome oppure fare clic sull&#39;icona Filtro per filtrare l&#39;elenco in base allo schema o al tipo di dati.
+   Gli [schemi aziendali XDM](../admin/field-mapping.md#xdm-business-person-attributes) determinano gli attributi disponibili.  Sono inoltre disponibili eventuali campi personalizzati definiti per l’istanza di Journey Optimizer B2B edition. Utilizzare la casella di testo Cerca per filtrare l&#39;elenco in base al nome oppure fare clic sull&#39;icona Filtro per filtrare l&#39;elenco in base allo schema o al tipo di dati.
 
    ![Aggiungi un componente campo al modulo](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
 
