@@ -4,7 +4,7 @@ description: 'Creazione di messaggi SMS per percorsi di account con personalizza
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: aa79e0655737541f122801f28db73d9f31ebb2f7
+source-git-commit: 9a97682590d779c8b5f5b385efd912ee1f56ed31
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 2%
@@ -67,7 +67,7 @@ Puoi creare un messaggio composto da un massimo di 1600 caratteri, ogni 160 cara
 
 1. Nella finestra di dialogo _[!UICONTROL Immetti valore di fallback]_, immetti il testo che viene visualizzato come fallback, quindi fai clic su **[!UICONTROL Aggiungi]**.
 
-   ![Immettere il testo di fallback per il token](./assets/sms-message-personalize-fallback-text.png){width="400"}
+   ![Immettere il testo di fallback per il token](./assets/sms-message-personalize-fallback-text.png){width="450"}
 
 1. Una volta inseriti i token di personalizzazione, fai clic su **[!UICONTROL Salva]** per salvare le modifiche e tornare all&#39;area di lavoro di authoring SMS principale.
 
@@ -89,12 +89,12 @@ Puoi creare un messaggio composto da un massimo di 1600 caratteri, ogni 160 cara
 
    * **[!UICONTROL Abilita tracciamento]** - Selezionare questa casella di controllo per abilitare il tracciamento, che richiede _accorciamento_ dell&#39;URL. Per una pagina di destinazione, utilizza il sottodominio Marketo Engage per l’URL abbreviato. Viene visualizzato un esempio del formato URL abbreviato. L’URL effettivo viene creato quando l’SMS viene inviato al destinatario.
 
-   * **[!UICONTROL Includi mkt_tok]** - Seleziona questa casella di controllo per tenere traccia dell&#39;attività rispetto a un utente.
+   * **[!UICONTROL Includi mkt_tok]** - Selezionare questa casella di controllo per tenere traccia dell&#39;attività rispetto a un utente.</br>
 
      >[!NOTE]
      >
      >Se consenti il tracciamento ma disabiliti _[!UICONTROL Includi mkt_tok]_, l&#39;URL di destinazione non include il parametro della stringa di query `mkt_tok` dopo il reindirizzamento. Questo parametro viene utilizzato dalle pagine di destinazione di Marketo Engage e da Munchkin per garantire il tracciamento delle attività della persona (ad esempio, quando una persona annulla l’iscrizione a un’e-mail). Non disabilitare questa opzione a meno che il parametro non stia causando problemi sul sito Web.<br/>
-     >Per ulteriori informazioni sull&#39;utilizzo dei codici di tracciamento di Munchkin nel tuo sito Web, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Per ulteriori informazioni sull&#39;utilizzo dei codici di tracciamento di Munchkin nel tuo sito Web, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Finestra di dialogo Aggiungi collegamento per messaggio SMS](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -106,7 +106,7 @@ Puoi creare un messaggio composto da un massimo di 1600 caratteri, ogni 160 cara
 
    Per questi campi sono consentiti caratteri Alpha, numerici e speciali. I seguenti caratteri riservati sono **non consentiti**: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>` e `|`.
 
-1. Scegli il tipo di SMS **&#x200B;**:
+1. Scegli il tipo di SMS ****:
 
    * Utilizza `Marketing` per i messaggi di testo promozionali, che richiedono il consenso dell&#39;utente.
    * Utilizzare `Transactional` per i messaggi non commerciali, ad esempio la conferma di un ordine, le notifiche di reimpostazione della password o le informazioni di consegna.
@@ -117,7 +117,7 @@ Puoi creare un messaggio composto da un massimo di 1600 caratteri, ogni 160 cara
 
 1. Immettere il **[!UICONTROL numero mittente]** &#x200B;che si desidera utilizzare per le comunicazioni.
 
-   ![Proprietà messaggio SMS](./assets/sms-properties.png){width="700" zoomable="yes"}
+   ![Proprietà messaggio SMS](./assets/sms-properties.png){width="500" zoomable="yes"}
 
    Il numero del destinatario è sempre mappato al campo `profile.mobilePhone.number` in Experience Platform.
 
