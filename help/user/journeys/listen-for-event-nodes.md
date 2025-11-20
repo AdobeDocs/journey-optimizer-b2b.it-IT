@@ -4,9 +4,9 @@ description: 'Configurare i nodi evento per i trigger account e persone: ascolta
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: f5fc362d52ff83335c71b5efe7ea2915d6a7e330
+source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1810'
 ht-degree: 4%
 
 ---
@@ -117,7 +117,7 @@ Se nell’istanza Marketo Engage connessa sono presenti pagine web, puoi attivar
 
 1. Fai clic su **[!UICONTROL Modifica evento]** e definisci una o più pagine Web da associare ed eventuali vincoli aggiuntivi per l&#39;evento.
 
-   * (Obbligatorio) Nella finestra di dialogo _[!UICONTROL Modifica evento]_, definisci il vincolo **[!UICONTROL Pagina Web]** o **[!UICONTROL Compila modulo]**. Utilizza **[!UICONTROL is]** (impostazione predefinita) per trovare corrispondenze in una o più pagine o moduli selezionati. Utilizza **[!UICONTROL is not]** per trovare una corrispondenza in tutte le visite/moduli di pagina, con l&#39;esclusione di una o più pagine/moduli selezionati. In alternativa, utilizza **[!UICONTROL è qualsiasi]** da trovare in qualsiasi visita della pagina Web di Marketo Engage o modulo compilato.
+   * (Obbligatorio) Nella finestra di dialogo _[!UICONTROL Modifica evento]_, definisci il vincolo **[!UICONTROL Pagina Web]** o **[!UICONTROL Compila modulo]**. Utilizza **[!UICONTROL is]** (impostazione predefinita) per trovare corrispondenze in una o più pagine o moduli selezionati. Utilizza **[!UICONTROL is not]** per trovare una corrispondenza in tutte le visite/moduli di pagina, con l&#39;esclusione di una o più pagine/moduli selezionati. In alternativa, utilizza l&#39;operatore **[!UICONTROL is any]** per trovare corrispondenze in qualsiasi visita della pagina Web di Marketo Engage o modulo compilato.
 
    * (Facoltativo) Fare clic su **[!UICONTROL Aggiungi vincolo]** e scegliere il campo da utilizzare per il vincolo. Imposta l’operatore e il valore per il campo.
 
@@ -135,13 +135,14 @@ Se nell’istanza Marketo Engage connessa sono presenti pagine web, puoi attivar
 
 ### Ascolta un evento esperienza
 
-Gli amministratori possono configurare definizioni di eventi basate su Adobe Experience Platform (AEP), che consentono agli addetti al marketing di creare percorsi di account che reagiscono a [eventi esperienza AEP](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}. L’utilizzo degli eventi di esperienza di AEP nei percorsi di account è un processo in due fasi:
+Gli amministratori possono selezionare [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi che reagiscono agli eventi in tempo reale. L’utilizzo degli eventi esperienza nei percorsi è un processo in due fasi:
 
-1. [Crea e pubblica una definizione di evento AEP](../admin/configure-aep-events.md).
+1. Un amministratore [seleziona i tipi di evento e i campi di interesse](../admin/configure-aep-events.md#select-an-event) per renderli disponibili in percorsi.
 
-2. In un percorso di account, aggiungi un nodo _Ascolta un evento_ e seleziona una definizione di evento Experience Platform per un evento basato su persone.
+2. In un percorso, aggiungi un nodo _Ascolta un evento_ e seleziona un tipo di evento Experience Platform per un evento basato su persone.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [Guarda la panoramica del video](../admin/configure-aep-events.md#overview-video)
+<!--
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) -->
 
 _Per includere un evento esperienza nel percorso :_
 
@@ -159,21 +160,21 @@ _Per includere un evento esperienza nel percorso :_
 
    ![Modifica evento](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
-1. Fai clic su **[!UICONTROL Modifica evento]** e definisci i tipi di evento ed eventuali vincoli aggiuntivi per l&#39;evento.
+1. Fare clic su **[!UICONTROL Modifica evento]** e definire uno o più vincoli per l&#39;evento.
 
-   * (Obbligatorio) Nella finestra di dialogo _[!UICONTROL Modifica evento]_, definisci il tipo di evento. È possibile utilizzare l&#39;operatore predefinito **[!UICONTROL is]** per la corrispondenza su uno o più tipi di evento selezionati. In alternativa, è possibile utilizzare l&#39;operatore **[!UICONTROL is not]** per la corrispondenza in tutti i tipi di evento con l&#39;esclusione di uno o più tipi di evento selezionati.
+   I vincoli disponibili vengono definiti come campi gestiti per la configurazione dell’evento.
 
-   * (Facoltativo) Fare clic su **[!UICONTROL Aggiungi vincolo]** e scegliere il campo da utilizzare per il vincolo. Imposta l’operatore e il valore per il campo.
+   * Fare clic su **[!UICONTROL Aggiungi vincolo]** e scegliere il campo che si desidera utilizzare per il vincolo.
+
+   * Completare la condizione per il vincolo.
+
+     È possibile utilizzare l&#39;operatore predefinito **[!UICONTROL is]** per far corrispondere uno o più valori di campo. In alternativa, è possibile utilizzare l&#39;operatore **[!UICONTROL is not]** per la corrispondenza su tutti i valori con l&#39;esclusione di uno o più valori specificati.
 
      ![Ascolta un evento esperienza](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
 
-     >[!NOTE]
-     >
-     >I vincoli per _data attività_ e _numero minimo di volte_ non sono supportati.
-
-     È possibile ripetere questa azione per includere vincoli di campo aggiuntivi in base alle esigenze.
-
    * Se necessario, selezionare la scheda **[!UICONTROL Filtri]** per [aggiungere filtri per l&#39;evento](#add-a-filter-to-the-people-event).
+
+   * (Facoltativo) Fai clic su **[!UICONTROL Aggiungi vincolo]** e ripeti questi passaggi per includere eventuali vincoli di campo aggiuntivi.
 
    * Una volta definiti i vincoli e i filtri, fare clic su **[!UICONTROL Fine]**.
 
@@ -219,6 +220,6 @@ Se necessario, definisci il tempo di attesa dell’evento da parte del percorso.
 
    ![Nodo evento Percorso - imposta percorso timeout](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-## Video di panoramica
+<!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443242/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

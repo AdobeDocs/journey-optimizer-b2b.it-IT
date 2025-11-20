@@ -3,14 +3,14 @@ title: Mappatura personale
 description: Scopri come impostare la mappatura persona per il marketing B2B. Mappa gli attributi della persona in Journey Optimizer B2B edition per creare modelli di ruolo e ottimizzare il targeting dei gruppi di acquisto.
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
 
-# Mappatura personale
+# Mappatura utente tipo
 
 Gli utenti tipo sono un aspetto chiave in un approccio di marketing basato sull’account (ABM) perché aiutano gli esperti di marketing ad adeguare le loro strategie alle esigenze, alle preferenze e ai punti critici specifici degli utenti all’interno degli account target. Gli addetti al marketing possono creare profili dettagliati per ogni persona, indicandone background, responsabilità, punti critici e canali di comunicazione preferiti. Con queste definizioni, gli amministratori possono configurare gli utenti tipo in base agli attributi della persona in Journey Optimizer B2B edition, in modo che i modelli di ruolo possano utilizzare condizioni di ruolo semplificate e coerenti per acquisire tali utenti tipo.
 
@@ -39,13 +39,13 @@ Ad esempio, puoi configurare un utente tipo denominato _Product Management_ e de
 
 1. Fai clic su **[!UICONTROL Mappatura persona]** nel pannello intermedio per visualizzare l&#39;elenco degli utenti tipo.
 
-   ![Accedi agli utenti tipo configurati](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
+   ![Accedi agli utenti tipo configurati](./assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
-   Da questa pagina è possibile [creare](#create-an-engagement-score-model), [modificare](#change-the-engagement-weighting-settings) o [eliminare](#delete-a-persona) utenti tipo.
+   Da questa pagina è possibile [creare](#create-a-persona), [modificare](#edit-a-persona) o [eliminare](#delete-a-persona) utenti tipo.
 
-   L’elenco di mappatura personale. è organizzato in una tabella e mostra gli utenti tipo aggiornati più di recente nella parte superiore (in ordine di _[!UICONTROL Ultimo aggiornamento]_). Puoi personalizzare la tabella visualizzata facendo clic sull&#39;icona _Impostazioni colonna_ ( ![Impostazioni colonna](../assets/do-not-localize/icon-column-settings.svg) ) nell&#39;angolo in alto a destra e selezionando o deselezionando le caselle di controllo della colonna.
+   L&#39;elenco di mappatura Persona è organizzato in una tabella e visualizza in alto gli utenti tipo aggiornati più di recente (ordinati per _[!UICONTROL Ultimo aggiornamento]_). Puoi personalizzare la tabella visualizzata facendo clic sull&#39;icona _Impostazioni colonna_ ( ![Impostazioni colonna](../assets/do-not-localize/icon-column-settings.svg) ) nell&#39;angolo in alto a destra e selezionando o deselezionando le caselle di controllo della colonna.
 
-![Colonne da visualizzare nell&#39;elenco di mappatura utenti tipo](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+![Colonne da visualizzare nell&#39;elenco di mappatura utenti tipo](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. Per accedere ai dettagli di un utente tipo, fai clic sul nome.
 
@@ -68,13 +68,9 @@ L&#39;elenco _Mapping persona_ include cinque utenti tipo predefiniti definiti i
 
 ### Filtraggio elenco
 
-Per individuare l’utente tipo desiderato, utilizza gli strumenti di ricerca e filtro:
+Per individuare l’utente tipo desiderato, immetti una stringa di testo nella barra di ricerca in modo che corrisponda agli utenti tipo per nome,
 
-* Immetti una stringa di testo nella barra di ricerca che corrisponda agli utenti tipo per nome.
-
-  ![Filtra le definizioni degli eventi visualizzati](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
-
-* Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare l&#39;elenco visualizzato per attributo.
+![Filtra i mapping utente tipo visualizzati](./assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
 
 ## Creare un utente tipo
 
@@ -86,6 +82,8 @@ Per individuare l’utente tipo desiderato, utilizza gli strumenti di ricerca e 
 
 1. Immetti un **[!UICONTROL Nome]** e una **[!UICONTROL Descrizione]** univoci (facoltativo) per l&#39;utente tipo.
 
+   ![Creare un mapping utente tipo](./assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+
 1. Seleziona gli attributi da utilizzare per la corrispondenza con l’utente tipo.
 
    * Fare clic su **[!UICONTROL Seleziona attributi persona]**.
@@ -96,6 +94,8 @@ Per individuare l’utente tipo desiderato, utilizza gli strumenti di ricerca e 
 
      Per filtrare l&#39;elenco di attributi in base al nome, immettere una stringa di testo nella barra di ricerca. Puoi anche fare clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per filtrare l&#39;elenco visualizzato per tipo, _Standard_ o _Personalizzato_.
 
+     ![Finestra di dialogo Seleziona attributi persona](./assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+
    * Fai clic su **[!UICONTROL Salva]**.
 
      Gli attributi selezionati sono inseriti nella sezione _[!UICONTROL Attributi personali]_.
@@ -104,11 +104,13 @@ Per individuare l’utente tipo desiderato, utilizza gli strumenti di ricerca e 
 
    Al posto di un valore, puoi anche aggiungere un prompt che può essere utilizzato per identificare una corrispondenza. Ad esempio, puoi immettere:
 
-1. Fai clic su **[!UICONTROL Crea]**.
+1. Fai clic su **[!UICONTROL Invia]**.
 
 ## Modificare un tipo di utente
 
 Fai clic sul nome dell’utente tipo per accedere e modificare i dettagli dell’utente tipo,
+
+È possibile modificare il nome o la descrizione, aggiungere attributi o aggiornare i valori degli attributi. Al termine delle modifiche, fai clic su **[!UICONTROL Invia]**.
 
 ## Eliminare un utente tipo
 
