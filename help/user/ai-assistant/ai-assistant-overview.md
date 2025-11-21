@@ -30,7 +30,7 @@ L&#39;Assistente IA in Journey Optimizer B2B edition viene creato dalla stessa b
 
 ## Funzionalità di AI Assistant in Journey Optimizer B2B edition
 
-Per formulare una risposta alle domande inviate, l’Assistente AI esegue una query su un database e converte i dati dal database in una risposta leggibile. Questa risposta è una rappresentazione interna dei dati sottostanti ed è anche nota come _&#x200B;**_Knowledge Graph_**&#x200B;_, un Web completo di concetti, dati e metadati per una determinata risposta. Il Knowledge Graph è costituito da sottografi a cui viene fatto riferimento ogni volta che vengono inviate query:
+Per formulare una risposta alle domande inviate, l’Assistente AI esegue una query su un database e converte i dati dal database in una risposta leggibile. Questa risposta è una rappresentazione interna dei dati sottostanti ed è anche nota come _**_Knowledge Graph_**_, un Web completo di concetti, dati e metadati per una determinata risposta. Il Knowledge Graph è costituito da sottografi a cui viene fatto riferimento ogni volta che vengono inviate query:
 
 * Documentazione di Experience League.
 * Artefatti operativi, come schemi, campi, tipi di pubblico e percorsi.
@@ -92,7 +92,7 @@ L’Assistente per l’intelligenza artificiale in Journey Optimizer B2B edition
 
 * Per interagire con l&#39;Assistente AI è necessario disporre di autorizzazioni esplicite.
 
-   * Un amministratore può impostare le autorizzazioni utilizzando [Interfaccia utente autorizzazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e [Admin Console](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Un amministratore può impostare le autorizzazioni utilizzando [Interfaccia utente autorizzazioni](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * Le autorizzazioni sono granulari e l’amministratore della sandbox può configurare quali utenti possono porre diverse categorie di domande (domande basate sulla conoscenza del prodotto con l’Assistente AI o domande su informazioni operative).
 
