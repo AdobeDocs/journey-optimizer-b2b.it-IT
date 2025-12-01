@@ -4,9 +4,9 @@ description: 'Configurare i nodi di azione per le azioni account e persone: invi
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 3013da8c7178c68ec07bf8d8b56f4ca06c043486
+source-git-commit: ab6629f97231ecde67dcc38d3fcb815b29eb5e37
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1699'
 ht-degree: 2%
 
 ---
@@ -94,7 +94,7 @@ Utilizza un’azione sulle persone quando desideri applicare una modifica a tutt
 
 | Contesto | Azione | Vincoli |
 | ------- | ------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Aggiungi a pubblico cliente esterno] | Seleziona un pubblico di clientela esterno |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Aggiungi a pubblico cliente esterno] | Seleziona un pubblico di clienti esterno |
 | | [!UICONTROL Assegna al gruppo di acquisto] | Seleziona interesse soluzione<br/>Seleziona ruolo |
 | | [!UICONTROL Modifica punteggio] | Nome punteggio<br/>Modifica del punteggio |
 | | [!UICONTROL Momento di interesse della persona] | Tipo<br/>Descrizione |
@@ -130,7 +130,7 @@ Le azioni basate sulle persone B2B di Journey Optimizer sono progettate per gest
 
 +++[!UICONTROL Aggiungi a pubblico cliente esterno]
 
-Utilizza questa azione per indirizzare le persone a un pubblico esterno che può essere attivato su un canale multimediale a pagamento per rivolgerti ulteriormente ai membri dei gruppi di acquisto. Questa azione viene eseguita tramite Real-Time CDP B2B/P Edition.
+Utilizza questa azione per indirizzare le persone a un pubblico esterno che può essere attivato su un canale multimediale a pagamento per rivolgerti ulteriormente ai membri dei gruppi di acquisto. Questa azione viene eseguita tramite Real-Time CDP B2B edition.
 
 >[!NOTE]
 >
@@ -138,9 +138,14 @@ Utilizza questa azione per indirizzare le persone a un pubblico esterno che può
 
 ![Azione da eseguire - Aggiungi a pubblico cliente esterno](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-Quando selezioni questa azione basata sulle persone, puoi creare un nuovo pubblico esterno o selezionarlo da un pubblico esterno esistente. Per i tipi di pubblico esistenti, puoi scegliere uno dei tipi di pubblico dei clienti esterni che sono stati creati solo in Journey Optimizer B2B edition. Quando crei un pubblico e lo utilizzi per questa azione di percorso, accertati di connettere la destinazione. Per ulteriori informazioni, consulta [Creare una nuova connessione di destinazione](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Panoramica attivazione](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} nella documentazione di Experience Platform.
+Quando selezioni questa azione basata sulle persone, puoi creare un nuovo pubblico esterno o selezionarlo dall’elenco dei tipi di pubblico esterni esistenti.
+
+* Per i tipi di pubblico esistenti, è possibile scegliere tra tipi di pubblico clienti esterni creati solo in [!DNL Journey Optimizer B2B Edition].
+* Quando crei un pubblico e lo utilizzi per questa azione di percorso, accertati di connettere la destinazione. Per ulteriori informazioni, vedere [Creare una nuova connessione di destinazione](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Panoramica attivazione](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} nella documentazione di [!DNL Experience Platform].
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda una panoramica video per l&#39;orchestrazione a pagamento](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
+
+A partire dalla versione 2025.10, è inoltre possibile orchestrare tramite tipi di pubblico esterni creati in [!DNL Experience Platform], ad esempio [!DNL Adobe Target] destinazioni. Per informazioni più dettagliate su questa integrazione di pubblico, consulta [Tipi di pubblico esterni di Adobe Target](../audiences/target-external-audience.md).
 
 _Per creare un pubblico esterno :_
 
@@ -182,7 +187,7 @@ Utilizza questa azione per aggiungere profili di persone a un [gruppo di acquist
 
 +++[!UICONTROL Modifica punteggio]
 
-Utilizza questa azione per modificare il punteggio della persona in Marketo Engage. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Utilizza questa azione per modificare il punteggio della persona in Marketo Engage. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Esegui un&#39;azione - Cambia punteggio](./assets/node-action-change-score.png){width="300"}
 
@@ -206,7 +211,7 @@ Utilizza questa azione per rimuovere i profili di persone da un [gruppo di acqui
 
 +++[!UICONTROL Invia e-mail]
 
-Utilizza questa azione per inviare un messaggio e-mail. Dopo aver [creato l&#39;e-mail](../content/add-email.md#add-an-email-to-your-journey) per il nodo, puoi progettare, personalizzare e visualizzare in anteprima i messaggi e-mail nello spazio di progettazione e-mail (vedi [Authoring e-mail](../content/email-authoring.md)). Puoi anche inviare un messaggio e-mail [da Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Seleziona l’area di lavoro di Marketo Engage, quindi fai clic sull’e-mail da inviare.
+Utilizza questa azione per inviare un messaggio e-mail. Dopo aver [creato l&#39;e-mail](../content/add-email.md#add-an-email-to-your-journey) per il nodo, puoi progettare, personalizzare e visualizzare in anteprima i messaggi e-mail nello spazio di progettazione e-mail (vedi [Authoring e-mail](../content/email-authoring.md)). Puoi anche inviare un messaggio e-mail [da Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Seleziona l’area di lavoro di Marketo Engage, quindi fai clic sull’e-mail da inviare.
 
 ![Azione - Invia e-mail](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -246,7 +251,7 @@ Ad esempio, potrebbe essere utile eliminare le campagne in Marketo Engage per gl
 
 +++[!UICONTROL Aggiungi alla campagna di richiesta Marketo Engage]
 
-Utilizza questa azione per aggiungere profili di persone a una [campagna di richieste](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in Marketo Engage.
+Utilizza questa azione per aggiungere profili di persone a una [campagna di richieste](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in Marketo Engage.
 
 Selezionare innanzitutto un&#39;istanza di Marketo Engage connessa. Quindi, seleziona il nome della campagna di richiesta.
 
@@ -256,7 +261,7 @@ Selezionare innanzitutto un&#39;istanza di Marketo Engage connessa. Quindi, sele
 
 +++[!UICONTROL Aggiungi a elenco Marketo]
 
-Utilizzare questa azione per aggiungere persone a un [elenco statico](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage.
+Utilizzare questa azione per aggiungere persone a un [elenco statico](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage.
 
 Selezionare innanzitutto un&#39;istanza di Marketo Engage connessa. Quindi, selezionare il nome dell&#39;elenco.
 
@@ -266,7 +271,7 @@ Selezionare innanzitutto un&#39;istanza di Marketo Engage connessa. Quindi, sele
 
 +++[!UICONTROL Rimuovi dall&#39;elenco di Marketo]
 
-Utilizzare questa azione per rimuovere persone da un [elenco statico](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage.
+Utilizzare questa azione per rimuovere persone da un [elenco statico](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage.
 
 Selezionare innanzitutto un&#39;istanza di Marketo Engage connessa. Quindi, selezionare il nome dell&#39;elenco.
 
@@ -276,4 +281,4 @@ Selezionare innanzitutto un&#39;istanza di Marketo Engage connessa. Quindi, sele
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443253/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
