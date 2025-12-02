@@ -3,10 +3,10 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: af71f00fa4be24ed8c594f3e5823bc0c9db17c6d
+source-git-commit: 4033d0eb711120d615851d614aa6abbcf07f6ea0
 workflow-type: tm+mt
-source-wordcount: '3729'
-ht-degree: 95%
+source-wordcount: '3778'
+ht-degree: 92%
 
 ---
 
@@ -39,6 +39,7 @@ Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzion
 | Funzione | Modelli e-mail - Converti immagine in HTML | Ora puoi utilizzare i file di progettazione archiviati come file di immagine JPG o PNG e generare automaticamente modelli e-mail. [Ulteriori informazioni](../content/email-template-image-convert.md) |
 | Funzione | Mappatura utente tipo | Associa i membri dell’account agli utenti tipo stabiliti con la mappatura degli attributi. [Ulteriori informazioni](../admin/persona-mapping.md) |
 | Funzione | Sale Insights per Salesforce e Dynamics | I membri del team di vendita possono ora visualizzare i gruppi acquisti in fase di maturazione e gli insight correlati all’interno di un’integrazione Salesforce o Dynamics per identificare nuove opportunità. Sono inclusi i dettagli del gruppo di acquisto come fase, punteggio e membri correlati. [Ulteriori informazioni](../buying-groups/incrm-insights.md) |
+| Funzione | Attiva pubblico in [!DNL Adobe Target] | Ora puoi attivare un pubblico da un percorso di account a un pubblico di clienti esterno e inviarlo [!DNL Adobe Target]. Con questa integrazione, puoi fornire un pubblico qualificato tramite una sequenza di percorsi per un&#39;esperienza web progettata in [!DNL Target]. [Ulteriori informazioni](../audiences/target-external-audience.md) |
 | Miglioramento | Miglioramento del punteggio di completezza del gruppo acquisti | Ora puoi assicurarti che i gruppi acquisti riflettano l’effettivo processo decisionale, impostando per i membri dei vari ruoli delle soglie personalizzabili da utilizzare nel punteggio di completezza.  [Ulteriori informazioni](../buying-groups/completeness-scores.md) |
 | Miglioramento | Processi di manutenzione del gruppo acquisti | La frequenza del processo di manutenzione del gruppo acquisti è stata aggiornata da settimanale a giornaliera. |
 | Miglioramento | Avanzamento del percorso account | Per un percorso pubblicato che si trova nello stato _Live_, _Chiuso a nuovi ingressi_, _Interrotto_ o _Completato_, puoi aprire la mappa del percorso per rivedere un elenco di account per ogni nodo del percorso. |
@@ -66,8 +67,8 @@ Con l’architettura semplificata, nella versione 2025.10 sono disponibili le se
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Modello dati relazionali | Sfrutta i dati relazionali collegati agli account B2B per filtrare gli account all’interno di un percorso di account o personalizzare il contenuto delle e-mail. Questi dati relazionali possono rappresentare entità di business reali come record di acquisti, registrazioni di eventi, licenze software, iscrizioni ai servizi o prenotazioni. |
-| Funzione | Attivazione multipla di Marketo Engage | Configura le connessioni alle istanze Marketo Engage remote e utilizza tali connessioni per configurare le azioni Marketo Engage per i percorsi. Queste azioni, come ad esempio l’aggiunta o la rimozione di persone dagli elenchi o a una richiesta di campagna si applicano all’istanza di Marketo Engage designata. |
+| Funzione | Modello dati relazionali | Sfrutta i dati relazionali collegati agli account B2B per filtrare gli account all’interno di un percorso di account o personalizzare il contenuto delle e-mail. Questi dati relazionali possono rappresentare entità aziendali reali come record di acquisto, registrazioni di eventi, licenze software, abbonamenti a servizi o prenotazioni. [Ulteriori informazioni](../admin/xdm-field-management.md#relational-schemas) |
+| Funzione | Attivazioni di più Marketo Engage | Configura le connessioni alle istanze Marketo Engage remote e utilizza tali connessioni per configurare le azioni Marketo Engage per i percorsi. Queste azioni, come l’aggiunta o la rimozione di persone dagli elenchi o l’aggiunta di persone a una campagna di richiesta, si applicano all’istanza di Marketo Engage designata. [Ulteriori informazioni](../admin/marketo-actions-connect.md) |
 | Funzione | Deduplica per sovraccarico e-mail | Ora puoi abilitare la deduplica delle e-mail per garantire che la stessa e-mail non venga inviata più volte allo stesso indirizzo in un percorso. Gli indirizzi duplicati vengono bloccati finché il primo record che presenta tale indirizzo e-mail non completa il percorso. |
 | Miglioramento | Limiti di comunicazione | Il sistema ora rispetta i limiti di comunicazione combinati di Marketo Engage e Journey Optimizer B2B edition. [Ulteriori informazioni](../admin/configure-channels-emails.md#communication-limits) |
 

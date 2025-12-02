@@ -3,7 +3,7 @@ title: Qualificatore di vendita
 description: Automatizzare la qualifica di potenziale cliente B2B e l'impegno con i qualificatori di vendita. Fornisce ricerca basata sull’intelligenza artificiale, redazione di e-mail, integrazione CRM e piani di coinvolgimento per i BDR.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: bae61706c0bee7f2d2e90f6f5f32712ba1adf3eb
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 1%
@@ -14,13 +14,13 @@ ht-degree: 1%
 # Qualificatore di vendita
 
 >[!NOTE]
->Questa funzione è attualmente a disponibilità limitata e non è disponibile per tutti gli utenti.
 >
+>Questa funzione è attualmente a disponibilità limitata e non è disponibile per tutti gli utenti.
 
 Sales Qualifier è un’applicazione aggiuntiva basata sull’intelligenza artificiale per Adobe Journey Optimizer B2B edition che contiene il Account Qualification Agent ed è progettata per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Qualificatore di vendita automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti su tutti i canali. Riduce il carico BDR manuale e accelera la velocità della pipeline per le aziende B2B aziendali.
 Utilizza il browser e i plug-in e-mail per accedere alle informazioni aziendali direttamente in CRM o Outlook.
 
-Sales Qualifier è incluso in Journey Optimizer B2B edition, ma è un&#39;app separata all&#39;interno di Experience Platform Experience Cloud.
+Qualificatore di vendita è incluso in [!UICONTROL Journey Optimizer B2B edition], ma è un&#39;app separata all&#39;interno di Experience Platform Experience Cloud.
 
 ![Dashboard dei qualificatori di vendita che automatizza la qualifica e l&#39;impegno dei potenziali clienti BDR per il B2B aziendale](assets/home-screen.png)
 
@@ -223,4 +223,4 @@ Nella parte inferiore sinistra dell&#39;applicazione, fare clic su **[!UICONTROL
 
 Il video seguente offre una breve dimostrazione dei Sales Qualifier e di Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476569?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
