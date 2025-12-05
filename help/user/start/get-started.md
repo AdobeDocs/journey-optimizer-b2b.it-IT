@@ -4,10 +4,10 @@ description: 'Guida all’onboarding per amministratori e marketer: configura sa
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+source-git-commit: 32b36690e76a4920a87bdd6c2fff85158c22d0e7
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 100%
+source-wordcount: '739'
+ht-degree: 93%
 
 ---
 
@@ -33,13 +33,15 @@ Per ulteriori informazioni sulla gestione degli accessi, consulta le pagine segu
 
 1. **Lavora insieme al tuo tecnico dati** per pianificare e implementare l’attivazione del profilo e del pubblico B2B. Rivedi le blueprint pubblicate e segui le linee guida in base alle tue esigenze. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
-1. **Pianifica e implementa l’integrazione di Marketo Engage** per incorporare lo schema personalizzato, acquisire profili e account e orchestrare percorsi personalizzati per i gruppi acquisti. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
+1. **Pianifica e implementa le integrazioni Marketo Engage** per incorporare lo schema personalizzato, l&#39;acquisizione di profili e account e l&#39;orchestrazione di percorsi personalizzati per l&#39;acquisto di gruppi. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **Impostare il profilo di prodotto**. Un profilo di prodotto è un set di diritti unitari in Adobe Experience Platform che consente agli utenti di accedere a determinate funzionalità o oggetti nell’interfaccia. [Ulteriori informazioni](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
 1. **Imposta le autorizzazioni utente** per i profili di prodotto, tra cui le sandbox, e concedi l’accesso ai membri del tuo gruppo assegnandoli a profili di prodotto diversi. Questa attività viene eseguita in Admin Console. [Ulteriori informazioni](../admin/user-management.md#create-a-user-group)
 
-1. **Configura la consegna e-mail** in Marketo Engage, in modo da consentire al gruppo di inviare contenuto e-mail dai percorsi account. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
+1. **Configura le classi e i campi XDM** per controllare i dati disponibili per l&#39;orchestrazione del percorso e la personalizzazione del contenuto di Journey Optimizer B2B edition. [Ulteriori informazioni](../admin/xdm-field-management.md)
+
+1. **Configura la consegna e-mail** in Marketo Engage, in modo da consentire al gruppo di inviare contenuto e-mail dai percorsi account. [Ulteriori informazioni](../admin/configure-channels-emails.md){target="_blank"}
 
 1. **Configurare i servizi SMS**. Imposta uno dei provider di SMS terze parti supportati che offre servizi di SMS in modo indipendente e configura le credenziali dell’account in Adobe Journey Optimizer B2B Edition. [Ulteriori informazioni](../admin/configure-channels-sms.md)
 
