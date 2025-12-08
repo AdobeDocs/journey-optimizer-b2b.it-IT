@@ -3,7 +3,7 @@ title: Qualificatore di vendita
 description: Automatizzare la qualifica di potenziale cliente B2B e l'impegno con i qualificatori di vendita. Fornisce ricerca basata sull’intelligenza artificiale, redazione di e-mail, integrazione CRM e piani di coinvolgimento per i BDR.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: bae61706c0bee7f2d2e90f6f5f32712ba1adf3eb
+source-git-commit: 467a8d824b9a21ff7b80c3a170265c591fc94f9e
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 1%
@@ -19,6 +19,12 @@ ht-degree: 1%
 
 Sales Qualifier è un’applicazione aggiuntiva basata sull’intelligenza artificiale per Adobe Journey Optimizer B2B edition che contiene il Account Qualification Agent ed è progettata per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Qualificatore di vendita automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti su tutti i canali. Riduce il carico BDR manuale e accelera la velocità della pipeline per le aziende B2B aziendali.
 Utilizza il browser e i plug-in e-mail per accedere alle informazioni aziendali direttamente in CRM o Outlook.
+
+## Video dimostrativo
+
+Il video seguente offre una breve dimostrazione dei Sales Qualifier e di Account Qualification Agent.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 Qualificatore di vendita è incluso in [!UICONTROL Journey Optimizer B2B edition], ma è un&#39;app separata all&#39;interno di Experience Platform Experience Cloud.
 
@@ -218,9 +224,3 @@ Quando il plug-in viene installato in Chrome, il logo Adobe viene visualizzato n
 ## Modifica la barra di navigazione a sinistra
 
 Nella parte inferiore sinistra dell&#39;applicazione, fare clic su **[!UICONTROL Modifica]** per controllare quale delle icone è visibile nell&#39;area di navigazione. Puoi anche trascinarli e rilasciarli per riordinarli come desideri.
-
-## Video dimostrativo
-
-Il video seguente offre una breve dimostrazione dei Sales Qualifier e di Account Qualification Agent.
-
->[!VIDEO](https://video.tv.adobe.com/v/3476569?captions=ita)
