@@ -4,9 +4,9 @@ description: Utilizza la gestione dei campi XDM per controllare i dati disponibi
 feature: Data Management, Integrations
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata sull’architettura semplificata"
-source-git-commit: 7d57fa1154eceff81dedda7e9412a2d57ead3d6b
+source-git-commit: afac024e5eeb6b9d230c4292a6f37e92e16d29f6
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1169'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Gestione dei campi XDM
 
-I campi Experience Data Model (XDM) sono elementi dello schema che forniscono dati all&#39;applicazione [!DNL Journey Optimizer B2B Edition]. Utilizza i campi XDM come filtri e vincoli in percorsi, gruppi di acquisto e funzioni, come la personalizzazione e-mail e il contenuto condizionale.
+I campi Experience Data Model (XDM) sono elementi dello schema che forniscono dati all&#39;applicazione [!DNL Journey Optimizer B2B Edition]. Utilizza i campi XDM come filtri e vincoli nei nodi di percorso, nei gruppi di acquisto e per le funzioni di contenuto, come la personalizzazione delle e-mail e il contenuto condizionale.
 
 Gli schemi definiscono i campi in base alle classi XDM standard. Le classi XDM standard includono Profilo individuale, Account aziendale ed Evento esperienza. Gli schemi relazionali definiscono inoltre campi che consentono di modellare i dati strutturati in modo simile ai database relazionali tradizionali.
 
@@ -74,7 +74,7 @@ Per selezionare i campi dallo schema di unione per le classi XDM standard, fai c
 
 >[!NOTE]
 >
->Un campo deve essere _Gestito_ prima di poter essere _Aggiornabile_. I _campi aggiornabili_ selezionati devono esistere nello schema fornito dall&#39;utente. Lo schema potrebbe non includere campi obbligatori, ad eccezione di quelli definiti dal sistema.
+>Un campo deve essere _Gestito_ prima di poter essere _Aggiornabile_. I _campi aggiornabili_ selezionati devono esistere nello schema fornito dall&#39;utente. Lo schema potrebbe non includere campi obbligatori, ad eccezione dei campi definiti dal sistema.
 
 #### Campi gestiti
 
@@ -90,11 +90,19 @@ Quando si sceglie **[!UICONTROL Campi gestiti]**, nella finestra di dialogo _Sel
 
 #### Campi aggiornabili
 
-Prima di configurare i campi aggiornabili, questi devono trovarsi in un set di dati personalizzato. Per una descrizione dettagliata del flusso di lavoro del set di dati personalizzato, consulta [Creare set di dati e acquisire dati](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e utilizzare l&#39;opzione **[!UICONTROL Creare set di dati dallo schema]**. Questo set di dati viene utilizzato per isolare i campi aggiornabili. Tutti i campi aggiornabili devono essere in questo set di dati.
+Prima di configurare i campi aggiornabili, questi devono trovarsi in un set di dati personalizzato. Per una descrizione dettagliata del flusso di lavoro del set di dati personalizzato, consulta [Creare set di dati e acquisire dati](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e utilizzare l&#39;opzione **[!UICONTROL Creare set di dati dallo schema]**. Questo set di dati viene utilizzato per isolare i campi aggiornabili. Tutti i campi aggiornabili devono essere in questo set di dati.
+
+>[!IMPORTANT]
+>
+>Guardrail per campi aggiornabili:
+>
+>* Schemi - Nella classe Profilo individuale XDM, tutti i campi obbligatori nello schema devono essere definiti dal sistema, ad esempio `identityMap` o `personID`.
+>* Set di dati: non utilizzare un set di dati già in uso per un altro scopo. Come best practice, crea set di dati dedicati per l’archiviazione di campi aggiornabili. Utilizza un set di dati separato per ogni classe XDM.
 
 Crea un set di dati per Profilo individuale e un altro per Account aziendale. Seleziona ogni nuovo set di dati durante il processo di configurazione:
 
 1. Per **[!UICONTROL Set di dati]**, selezionare la nuova origine dati creata.
+
 1. Scegli i campi dal set di dati selezionato.
 
    ![Finestra di dialogo per selezionare campi aggiornabili dai set di dati nella configurazione dello schema XDM](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
@@ -109,7 +117,7 @@ Per informazioni su come utilizzare i campi selezionati per la personalizzazione
 
 >[!NOTE]
 >
->Gli [schemi relazionali](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational#) sono disponibili per [!DNL Journey Optimizer B2B Edition] come versione a disponibilità limitata. Data Mirror e gli schemi relazionali sono disponibili per [!DNL Journey Optimizer Orchestrated Campaigns] titolari di licenza. Gli schemi relazionali sono disponibili anche come versione limitata per [!DNL Customer Journey Analytics] utenti, a seconda della licenza e dell&#39;abilitazione della funzione. Contatta il tuo rappresentante Adobe per accedere.
+>Gli [schemi relazionali](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) sono disponibili per [!DNL Journey Optimizer B2B Edition] come versione a disponibilità limitata. Data Mirror e gli schemi relazionali sono disponibili per [!DNL Journey Optimizer Orchestrated Campaigns] titolari di licenza. Gli schemi relazionali sono disponibili anche come versione limitata per [!DNL Customer Journey Analytics] utenti, a seconda della licenza e dell&#39;abilitazione della funzione. Contatta il tuo rappresentante Adobe per accedere.
 
 >[!NOTE]
 >
