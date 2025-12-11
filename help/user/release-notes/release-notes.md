@@ -3,10 +3,10 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: b7940e98c8370c65c7ef6b795ef27fd4b23eee7a
+source-git-commit: a0f9fc38b2c383dc92542bbeaf86c5a7d81bd25b
 workflow-type: tm+mt
-source-wordcount: '3780'
-ht-degree: 92%
+source-wordcount: '3807'
+ht-degree: 91%
 
 ---
 
@@ -40,6 +40,7 @@ Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzion
 | Funzione | Mappatura utente tipo | Associa i membri dell’account agli utenti tipo stabiliti con la mappatura degli attributi. [Ulteriori informazioni](../admin/persona-mapping.md) |
 | Funzione | Sale Insights per Salesforce e Dynamics | I membri del team di vendita possono ora visualizzare i gruppi acquisti in fase di maturazione e gli insight correlati all’interno di un’integrazione Salesforce o Dynamics per identificare nuove opportunità. Sono inclusi i dettagli del gruppo di acquisto come fase, punteggio e membri correlati. [Ulteriori informazioni](../buying-groups/incrm-insights.md) |
 | Funzione | Attiva pubblico in [!DNL Adobe Target] | Ora puoi attivare un pubblico da un percorso di account a un pubblico di clienti esterno e inviarlo [!DNL Adobe Target]. Con questa integrazione, puoi fornire un pubblico qualificato tramite una sequenza di percorsi per un&#39;esperienza web progettata in [!DNL Target]. [Ulteriori informazioni](../audiences/target-external-audience.md) |
+| Funzione | Dashboard informazioni sul ruolo | Il nuovo dashboard _[!UICONTROL Role Insights]_ fornisce informazioni sul modo in cui le campagne e i percorsi influiscono sull&#39;acquisizione e sul coinvolgimento dei ruoli dei gruppi di acquisto. [Ulteriori informazioni](../buying-groups/buying-group-role-insights.md) |
 | Miglioramento | Miglioramento del punteggio di completezza del gruppo acquisti | Ora puoi assicurarti che i gruppi acquisti riflettano l’effettivo processo decisionale, impostando per i membri dei vari ruoli delle soglie personalizzabili da utilizzare nel punteggio di completezza.  [Ulteriori informazioni](../buying-groups/completeness-scores.md) |
 | Miglioramento | Processi di manutenzione del gruppo acquisti | La frequenza del processo di manutenzione del gruppo acquisti è stata aggiornata da settimanale a giornaliera. |
 | Miglioramento | Avanzamento del percorso account | Per un percorso pubblicato che si trova nello stato _Live_, _Chiuso a nuovi ingressi_, _Interrotto_ o _Completato_, puoi aprire la mappa del percorso per rivedere un elenco di account per ogni nodo del percorso. |
