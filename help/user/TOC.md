@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentazione di Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando le funzioni di IA generativa incorporata e l’automazione leader del settore.
-source-git-commit: a0f9fc38b2c383dc92542bbeaf86c5a7d81bd25b
+source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 88%
+source-wordcount: '378'
+ht-degree: 84%
 
 ---
 
@@ -124,11 +124,12 @@ ht-degree: 88%
       + [Panoramica](./content/personalization.md)
       + [Sintassi di personalizzazione](./content/personalization-syntax.md)
       + [Elenco funzioni Helper](./content/personalization-helper-functions.md)
-+ Dashboard di approfondimento {#dashboards}
-   + [Dashboard intelligente](./dashboards/intelligent-dashboard.md)
-   + [Panoramica del coinvolgimento](./dashboards/engagement-dashboard.md)
-   + [Panoramica dei gruppi acquisti](./dashboards/buying-groups-dashboard.md)
-   + [Panoramica dei percorsi dell’account](./dashboards/journeys-dashboard.md)
++ Dashboard intelligenti {#dashboards}
+   + [Dashboard approfondimenti](./dashboards/intelligent-dashboard.md)
+   + [Dashboard di coinvolgimento](./dashboards/engagement-dashboard.md)
+   + [Dashboard di coinvolgimento Web](./dashboards/web-engagement-dashboard.md)
+   + [Dashboard dei gruppi di acquisto](./dashboards/buying-groups-dashboard.md)
+   + [Dashboard dei Percorsi di account](./dashboards/journeys-dashboard.md)
 + Amministrazione {#admin}
    + [Governance](./admin/governance.md)
    + [Configurazione azioni Marketo](./admin/marketo-actions-connect.md)
