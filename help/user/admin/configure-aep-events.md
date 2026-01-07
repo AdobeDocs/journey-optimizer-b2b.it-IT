@@ -6,7 +6,7 @@ role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 5f3d7bb8eb72c48409273de43b03114d273cb80c
+source-git-commit: cefd98099bf6524d1d559a47d502990852de1468
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Seleziona eventi e campi esperienza
 
-Gli amministratori possono selezionare [AEP Experience Events](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} specifici e i campi associati nello schema di unione Experience Event. Dopo la selezione, gli utenti possono configurare le regole di decisione per ascoltare tali eventi esperienza al fine di abilitare azioni di campagna dinamiche e mirate basate su dati di eventi in tempo quasi reale.
+Gli amministratori possono selezionare [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} specifici e i campi associati nello schema di unione Experience Event. Dopo la selezione, gli utenti possono configurare le regole di decisione per ascoltare tali eventi esperienza al fine di abilitare azioni di campagna dinamiche e mirate basate su dati di eventi in tempo quasi reale.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 L’utilizzo degli eventi di esperienza di AEP nei percorsi è un processo in due fasi:
@@ -139,8 +139,8 @@ Tipo evento: `directMarketing.emailSent`
 
 +++Campi
 
-| Campo | Tipo di campo |
-| ----- | ---------- |
+| Nome visualizzato | Percorso |
+| ------------ | ---- |
 | Identificatore | `_id` |
 | Tipo di evento | `eventType` |
 | Marca temporale | `timestamp` |
@@ -167,8 +167,8 @@ Tipo evento: `directMarketing.emailDelivered `
 
 +++Campi
 
-| Campo | Tipo di campo |
-| ----- | ---------- |
+| Nome visualizzato | Percorso |
+| ------------ | ---- |
 | Identificatore | `_id` |
 | Tipo di evento | `eventType` |
 | Marca temporale | `timestamp` |
@@ -195,8 +195,8 @@ Tipo evento: `directMarketing.emailOpened`
 
 +++Campi
 
-| Campo | Tipo di campo |
-| ----- | ---------- |
+| Nome visualizzato | Percorso |
+| ------------ | ---- |
 | Identificatore | `_id` |
 | Tipo di evento | `eventType` |
 | Marca temporale | `timestamp` |
@@ -227,8 +227,8 @@ Tipo evento: `directMarketing.emailClicked`
 
 +++Campi
 
-| Campo | Tipo di campo |
-| ----- | ---------- |
+| Nome visualizzato | Percorso |
+| ------------ | ---- |
 | Identificatore | `_id` |
 | Tipo di evento | `eventType` |
 | Marca temporale | `timestamp` |
@@ -260,8 +260,8 @@ Tipo evento: `directMarketing.emailBounced`
 
 +++Campi
 
-| Campo | Tipo di campo |
-| ----- | ---------- |
+| Nome visualizzato | Percorso |
+| ------------ | ---- |
 | Identificatore | `_id` |
 | Tipo di evento | `eventType` |
 | Marca temporale | `timestamp` |
@@ -291,8 +291,8 @@ Tipo evento: `directMarketing.emailBouncedSoft`
 
 +++Campi
 
-| Campo | Tipo di campo |
-| ----- | ---------- |
+| Nome visualizzato | Percorso |
+| ------------ | ---- |
 | Identificatore | `_id` |
 | Tipo di evento | `eventType` |
 | Marca temporale | `timestamp` |
@@ -322,8 +322,8 @@ Tipo evento: `directMarketing.emailUnsubscribed `
 
 +++Campi
 
-| Campo | Tipo di campo |
-| ----- | ---------- |
+| Nome visualizzato | Percorso |
+| ------------ | ---- |
 | Identificatore | `_id` |
 | Tipo di evento | `eventType` |
 | Marca temporale | `timestamp` |
@@ -350,8 +350,8 @@ Tipo evento: `web.webpagedetails.pageViews`
 
 +++Campi
 
-| Campo | Tipo di campo |
-| ----- | ---------- |
+| Nome visualizzato | Percorso |
+| ------------ | ---- |
 | Identificatore | `_id` |
 | Tipo di evento | `eventType` |
 | Marca temporale | `timestamp` |
@@ -381,8 +381,8 @@ Tipo evento: `web.formFilledOut`
 
 +++Campi
 
-| Campo | Tipo di campo |
-| ----- | ---------- |
+| Nome visualizzato | Percorso |
+| ------------ | ---- |
 | Identificatore | `_id` |
 | Tipo di evento | `eventType` |
 | Marca temporale | `timestamp` |
@@ -412,8 +412,8 @@ Tipo evento: `web.webinteraction.linkClicks`
 
 +++Campi
 
-| Campo | Tipo di campo |
-| ----- | ---------- |
+| Nome visualizzato | Percorso |
+| ------------ | ---- |
 | Identificatore | `_id` |
 | Tipo di evento | `eventType` |
 | Marca temporale | `timestamp` |
@@ -443,8 +443,8 @@ Tipo evento: `leadOperation.interestingMoment `
 
 +++Campi
 
-| Campo | Tipo di campo |
-| ----- | ---------- |
+| Nome visualizzato | Percorso |
+| ------------ | ---- |
 | Identificatore | `_id` |
 | Tipo di evento | `eventType` |
 | Marca temporale | `timestamp` |
