@@ -4,9 +4,9 @@ description: 'Progetta e-mail, pagine di destinazione e frammenti con componenti
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: 30bb44f9c308cd144a53a60b4f420380df5528e4
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2825'
 ht-degree: 6%
 
 ---
@@ -371,7 +371,7 @@ Personalizza lo stile del pulsante nella scheda **[!UICONTROL Stili]**.
 
 ### Testo
 
-Utilizza il componente Testo per inserire un blocco di testo nel contenuto. Quando il componente testo è selezionato nell’area di lavoro, immetti il testo e utilizza le opzioni della barra degli strumenti per aggiungere formattazione in linea e opzioni, inclusi i token di personalizzazione e le varianti condizionali. Per informazioni dettagliate sulla creazione del testo, tra cui lo stile in linea e le opzioni, nello spazio di progettazione, consulta Authoring del testo.
+Utilizza il componente Testo per inserire un blocco di testo nel contenuto. Quando il componente testo è selezionato nell’area di lavoro, immetti il testo e utilizza le opzioni della barra degli strumenti per aggiungere formattazione in linea e opzioni, inclusi i token di personalizzazione e le varianti condizionali. <!-- For detailed information about crafting text, including inline styling and options, in the design space, see [Text authoring](#). -->
 
 Personalizza lo stile del componente testo nella scheda **[!UICONTROL Stili]**.
 

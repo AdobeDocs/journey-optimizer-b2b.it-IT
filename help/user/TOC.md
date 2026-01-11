@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentazione di Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando le funzioni di IA generativa incorporata e l’automazione leader del settore.
-source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
+source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 84%
+source-wordcount: '392'
+ht-degree: 80%
 
 ---
 
@@ -32,13 +32,14 @@ ht-degree: 84%
    + [Creare e pubblicare un percorso](./journeys/create-publish-journey.md)
    + [Nodi del percorso](./journeys/journey-nodes.md)
    + Nodi del percorso {#journey-nodes}
-      + [Pubblico dell’account](./journeys/account-audience-nodes.md)
+      + [Pubblico di account](./journeys/account-audience-nodes.md)
       + [Intraprendere un’azione](./journeys/action-nodes.md)
       + [Ascoltare un evento](./journeys/listen-for-event-nodes.md)
       + [Dividere e unire i percorsi](./journeys/split-merge-paths-nodes.md)
       + [Attendere](./journeys/wait-nodes.md)
    + [Dettagli del percorso](./journeys/journey-details.md)
 + Contenuto del percorso {#journey-content}
+   + [Canale SMS](./content/sms-authoring.md)
    + Canale e-mail {#email-channel}
       + [Aggiungere un’e-mail](./content/add-email.md)
       + [Authoring di e-mail](./content/email-authoring.md)
@@ -48,8 +49,11 @@ ht-degree: 84%
       + [Modelli gestiti](./content/email-authoring-governance.md)
       + [E-mail di avviso vendite](./content/sales-alert-email.md)
       + [Deduplicazione e-mail](./content/email-deduplication.md)
+   + Canale web (Beta) {#web-channel}
+      + [Panoramica](./content/web-experiences.md)
+      + [Progettazione esperienza web](./content/web-experience-design.md)
+      + [Applicazioni a pagina singola](./content/web-single-page-applications.md)
    + [Token di personalizzazione personalizzati](./content/personalization-my-tokens.md)
-   + [Authoring di SMS](./content/sms-authoring.md)
 + Tipi di pubblico {#audiences}
    + [Tipi di pubblico di Experience Platform](./audiences/account-audience-overview.md)
    + [Destinazione di tipi di pubblico esterni](./audiences/target-external-audience.md)
@@ -60,7 +64,7 @@ ht-degree: 84%
       + [Soluzioni di interesse](./buying-groups/solution-interests.md)
       + [Modelli di ruoli](./buying-groups/buying-groups-role-templates.md)
       + [Ruoli predefiniti e personalizzati](./buying-groups/default-custom-roles.md)
-      + [Informazioni sul ruolo](./buying-groups/buying-group-role-insights.md)
+      + [Insight sui ruoli](./buying-groups/buying-group-role-insights.md)
       + Punteggio del gruppo acquisti {#scoring}
          + [Punteggi di coinvolgimento](./buying-groups/engagement-scores.md)
          + [Punteggio di completezza](./buying-groups/completeness-scores.md)
@@ -142,7 +146,8 @@ ht-degree: 84%
    + Canali {#channels}
       + [Configurazioni e-mail](./admin/configure-channels-emails.md)
       + [Configurazioni SMS](./admin/configure-channels-sms.md)
-      + [Impostazioni pagina di destinazione](./admin/landing-page-settings.md)
+      + [Configurazioni dei canali web (Beta)](./admin/configure-channels-web.md)
+      + [Impostazioni pagina di destinazione (Beta)](./admin/landing-page-settings.md)
       + [Configurare gli stream di dati per la raccolta di eventi](./data/aep-event-collection.md)
    + Configurazioni {#configurations}
       + [Archivi AEM Assets](./admin/configure-aem-repositories.md)
