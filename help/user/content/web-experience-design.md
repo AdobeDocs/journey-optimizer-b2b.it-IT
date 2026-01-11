@@ -231,7 +231,7 @@ Le modifiche apportate al selettore CSS consentono di eseguire il targeting degl
     | &quot;header nav a&quot; | Collegamenti all’interno della navigazione, all’interno dell’intestazione |
     | `[data-offer=&quot;premium&quot;]` | Elementi con un attributo di dati specifico |
 
-1. Scegli un tipo di azione **** e specifica le informazioni o il contenuto richiesti.
+1. Scegli un tipo di azione **&#x200B;**&#x200B;e specifica le informazioni o il contenuto richiesti.
 
    * **[!UICONTROL Imposta contenuto]** - Immettere il testo nel campo **[!UICONTROL Contenuto]** per l&#39;elemento identificato dal valore _[!UICONTROL Selettore elemento CSS]_.
 
