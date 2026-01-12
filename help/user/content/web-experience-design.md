@@ -23,7 +23,7 @@ Prima di poter progettare esperienze web, assicurati di soddisfare i seguenti re
 
 * Un amministratore di prodotto ha configurato uno o più canali web per definire gli URL (pagine) da includere per un’esperienza web. Per ulteriori informazioni, vedere [Configurazioni del canale Web](../admin/configure-channels-web.md).
 
-* Il sito Web include [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementato per l&#39;identificazione dei visitatori e la distribuzione dei contenuti. È richiesto Adobe Experience Platform Web SDK versione 2.16 o successiva.
+* Il sito Web include [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementato per l&#39;identificazione dei visitatori e la distribuzione dei contenuti. È richiesto Adobe Experience Platform Web SDK versione 2.16 o successiva.
 
 * Hai le [autorizzazioni](../admin/user-management.md#b2b-product-permissions) necessarie per creare e gestire esperienze Web in un percorso:
    * _[!UICONTROL Campagne]_ > _[!UICONTROL Gestisci campagne]_ - Necessario per aggiungere o aggiornare un nodo di azione di personalizzazione Web.
@@ -231,7 +231,7 @@ Le modifiche apportate al selettore CSS consentono di eseguire il targeting degl
     | &quot;header nav a&quot; | Collegamenti all’interno della navigazione, all’interno dell’intestazione |
     | `[data-offer=&quot;premium&quot;]` | Elementi con un attributo di dati specifico |
 
-1. Scegli un tipo di azione **&#x200B;**&#x200B;e specifica le informazioni o il contenuto richiesti.
+1. Scegli un tipo di azione **** e specifica le informazioni o il contenuto richiesti.
 
    * **[!UICONTROL Imposta contenuto]** - Immettere il testo nel campo **[!UICONTROL Contenuto]** per l&#39;elemento identificato dal valore _[!UICONTROL Selettore elemento CSS]_.
 
@@ -326,7 +326,7 @@ Tieni traccia delle interazioni dell’utente con gli elementi per misurare il c
 
 Quando la tua esperienza web è attivata (dal vivo), puoi anche creare rapporti utilizzando Adobe Customer Journey Analytics (che richiede un abbonamento al prodotto). Per migliorare il monitoraggio dell’esperienza web, puoi anche tenere traccia dei clic su qualsiasi elemento specifico del sito web. Il tracciamento ti consente di visualizzare il numero di clic per tale elemento nei rapporti web.
 
-Per ulteriori informazioni su Customer Journey Analytics e sulla creazione di report Web, consulta la [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-landing).
+Per ulteriori informazioni su Customer Journey Analytics e sulla creazione di report Web, consulta la [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing).
 
 1. Seleziona un elemento nell’editor esperienze web, ad esempio un’immagine o un collegamento.
 
