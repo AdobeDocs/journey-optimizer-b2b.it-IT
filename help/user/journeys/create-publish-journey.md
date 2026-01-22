@@ -165,4 +165,4 @@ Quando pubblichi un percorso, può iniziare immediatamente o in una data futura 
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443227/?captions=ita&learn=on)
