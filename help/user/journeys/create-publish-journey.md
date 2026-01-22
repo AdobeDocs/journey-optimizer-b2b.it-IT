@@ -1,25 +1,32 @@
 ---
-title: Creazione e pubblicazione di un Percorso di account
-description: Crea percorsi di account nell’area di lavoro visiva, aggiungi nodi azione ed evento, configura la pianificazione e pubblica per l’orchestrazione live in Journey Optimizer B2B edition.
+title: Creare e pubblicare un Percorso
+description: Crea percorsi di account e persone nell’area di lavoro visiva, aggiungi nodi azione ed evento, configura la pianificazione e pubblica per l’orchestrazione live in Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 433b08efbb24453f318bbce989ce18c9d96dea05
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '857'
 ht-degree: 4%
 
 ---
 
-# Creazione e pubblicazione di un percorso di account
+# Creare e pubblicare un percorso
 
-Per iniziare a utilizzare un percorsi percorso di account, crealo e quindi costruisci i nodi e il flusso del percorso nella mappa del percorso.
+Per iniziare a utilizzare un percorsi percorso, crealo e quindi costruisci i nodi e il flusso del percorso nella mappa del percorso.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
-## Creazione di un percorso di account
+## Creare un percorso
 
-1. Nel menu di navigazione a sinistra, fai clic su **[!UICONTROL percorsi di account]**.
+In **[!UICONTROL Gestione Percorsi]** nella barra di navigazione a sinistra, selezionare il tipo di percorso che si desidera creare:
+
+* **[!UICONTROL percorsi di account]**
+* **[!UICONTROL percorsi di persone]** (Beta)
+
+_Per aggiungere un nuovo percorso :_
+
++++Percorso di account
 
 1. Fai clic su **[!UICONTROL Crea Percorso di account]** in alto a destra nella pagina.
 
@@ -29,9 +36,26 @@ Per iniziare a utilizzare un percorsi percorso di account, crealo e quindi costr
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
-## Elementi di base di un percorso
++++
 
-La mappa del percorso __ è la zona centrale nell&#39;area di lavoro del percorso. È in questa zona che puoi aggiungere nodi di percorso e configurarli. Fai clic su un nodo per aprire il relativo riquadro delle proprietà a destra dell’area di lavoro e impostarlo in base alla progettazione. Un percorso di account inizia sempre con un [nodo Pubblico account](./account-audience-nodes.md) in cui puoi aggiungere input al percorso.
++++Percorso di persone (Beta)
+
+1. Fai clic su **[!UICONTROL Crea Percorso]** in alto a destra della pagina.
+
+1. Nella finestra di dialogo, immetti un **[!UICONTROL Nome]** (obbligatorio) e una **[!UICONTROL Descrizione]** (facoltativo) univoci.
+
+   ![Finestra di dialogo Crea Percorso](./assets/person-journey-create-dialog.png){width="400"}
+
+1. Fai clic su **[!UICONTROL Crea]**.
+
++++
+
+## Blocchi predefiniti per la progettazione di percorsi
+
+La mappa del percorso __ è la zona centrale nell&#39;area di lavoro del percorso. È in questa zona che puoi aggiungere nodi di percorso e configurarli. Fai clic su un nodo per aprire il relativo riquadro delle proprietà a destra dell’area di lavoro e impostarlo in base alla progettazione. Un percorso inizia sempre con un nodo di pubblico, in cui puoi definire l’input per il percorso:
+
+* [Nodo pubblico account](./account-audience-nodes.md)
+* [Nodo di pubblico della persona](./person-audience-nodes.md)
 
 Dopo aver creato un percorso di account e aver aggiunto il pubblico, crea il percorso utilizzando i nodi. La mappa del percorso fornisce un’area di lavoro in cui puoi creare casi di utilizzo del marketing B2B a più passaggi utilizzando i seguenti tipi di nodo per creare un percorso di account:
 
@@ -109,7 +133,7 @@ Quando pubblichi un percorso, può iniziare immediatamente o in una data futura 
 
    Quando sei pronto a pubblicare il tuo percorso, puoi rivedere queste impostazioni facendo clic su _[!UICONTROL Pubblica]_.
 
-## Pubblicare un percorso di account
+## Pubblicare un percorso
 
 È possibile pubblicare un percorso se non sono presenti errori di blocco. Quando viene pubblicato, lo stato del percorso cambia in _Live_. Se il percorso presenta errori, il pulsante _[!UICONTROL Pubblica]_ è inattivo con le informazioni sul contenuto: `Resolve errors before publishing`.
 
@@ -141,4 +165,4 @@ Quando pubblichi un percorso, può iniziare immediatamente o in una data futura 
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443227/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

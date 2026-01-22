@@ -4,7 +4,7 @@ description: Configura i nodi del pubblico dell’account con i tipi di pubblico
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Nodi del percorso di pubblico dell’account
 
-Il nodo Pubblico account specifica gli account che entrano nel percorso. Quando [crei un percorso di account](./journey-overview.md#create-an-account-journey), il percorso inizia sempre con un nodo di pubblico dell&#39;account che ne definisce l&#39;input.
+Il nodo Pubblico account specifica gli account che entrano nel percorso. Quando [crei un percorso di account](./create-publish-journey.md#create-a-journey), il percorso inizia sempre con un nodo di pubblico dell&#39;account che ne definisce l&#39;input.
 
 Utilizzare una delle opzioni di input seguenti per questo nodo di percorso:
 

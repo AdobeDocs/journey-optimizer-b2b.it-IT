@@ -4,7 +4,7 @@ description: 'Guida all’onboarding per amministratori e marketer: configura sa
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 32b36690e76a4920a87bdd6c2fff85158c22d0e7
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 93%
@@ -55,7 +55,7 @@ In qualità di marketer, o di _professionista del percorso dell’account_, sei 
 
 Per impostare il primo percorso, aggiungere risorse e inviare contenuti, consulta le sezioni seguenti:
 
-1. **Aggiungere pubblico all’account**. In Journey Optimizer B2B Edition puoi creare tipi di pubblico dell’account tramite le definizioni di segmento direttamente dall’applicazione e quindi utilizzarli nei percorsi account. [Ulteriori informazioni](../audiences/account-audience-overview.md)
+1. **Aggiungere un pubblico di account**. In Journey Optimizer B2B Edition puoi creare un pubblico di account (composto da account) tramite le definizioni di segmento direttamente dall’applicazione e quindi utilizzarli nei percorsi per account. [Ulteriori informazioni](../audiences/account-audience-overview.md)
 
 1. **Creare gruppi acquisti**. Definisci i componenti chiave per raggiungere gli obiettivi e le finalità aziendali e crea gruppi acquisti che identificano i membri degli elenchi di account target. [Ulteriori informazioni](../buying-groups/buying-groups-overview.md)
 
@@ -73,6 +73,6 @@ Per impostare il primo percorso, aggiungere risorse e inviare contenuti, consult
 
    * Nella mappa del percorso, genera i casi d’uso in più passaggi, aggiungi condizioni e invia messaggi personalizzati.
 
-[Ulteriori informazioni](../journeys/journey-overview.md)
+[Ulteriori informazioni](../journeys/journeys-overview.md)
 
 >[!ENDTABS]

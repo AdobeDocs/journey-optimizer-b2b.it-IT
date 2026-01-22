@@ -4,26 +4,26 @@ description: 'Configurare i nodi evento per i trigger account e persone: ascolta
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1843'
 ht-degree: 4%
 
 ---
 
 # Ascoltare un evento
 
-Aggiungi il nodo _Ascolta un evento_ per spostare il pubblico al passaggio successivo nel percorso dell&#39;account quando si verifica un evento.
+Aggiungi il nodo _Ascolta un evento_ per spostare il pubblico al passaggio successivo nel percorso in cui si verifica un evento.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [Guarda il video introduttivo](#overview-video)
 
 >[!NOTE]
 >
->Non è possibile aggiungere questo tipo di nodo nel percorso suddiviso da persone.
+>Per un percorso di account, non è possibile aggiungere questo tipo di nodo nel percorso suddiviso da persone.
 
 ## Eventi account
 
-Ascolta un evento basato sull’account quando desideri spostare l’account in avanti nel percorso in base agli eventi attivati dall’attività dell’account.
+In un percorso di account, è possibile ascoltare un evento basato sull&#39;account quando si desidera spostare l&#39;account in avanti nel percorso in base agli eventi attivati dall&#39;attività dell&#39;account.
 
 ### Eventi e vincoli
 
@@ -52,7 +52,7 @@ Ascolta un evento basato sull’account quando desideri spostare l’account in 
 
 ## Eventi persone
 
-Ascolta un evento basato sulle persone quando desideri spostare l’account in avanti nel percorso in base agli eventi attivati dall’attività delle persone. Puoi anche filtrare gli eventi in base agli attributi delle persone,
+In un percorso di account, puoi ascoltare un evento basato sulle persone quando desideri spostare l’account in avanti nel percorso in base agli eventi attivati dall’attività delle persone. Puoi anche filtrare gli eventi in base agli attributi delle persone,
 
 ### Eventi e vincoli
 
@@ -135,7 +135,7 @@ Se nell’istanza Marketo Engage connessa sono presenti pagine web, puoi attivar
 
 ### Ascolta un evento esperienza
 
-Gli amministratori possono selezionare [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi che reagiscono agli eventi in tempo reale. L’utilizzo degli eventi esperienza nei percorsi è un processo in due fasi:
+Gli amministratori possono selezionare [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale. L’utilizzo degli eventi esperienza nei percorsi è un processo in due fasi:
 
 1. Un amministratore [seleziona i tipi di evento e i campi di interesse](../admin/configure-aep-events.md#select-an-event) per renderli disponibili in percorsi.
 
@@ -148,19 +148,19 @@ _Per includere un evento esperienza nel percorso :_
 
 1. Selezionare un nodo **[!UICONTROL Ascolta un evento]** nella mappa del percorso.
 
-1. Nelle proprietà del nodo a destra, scegli **[!UICONTROL Persone]** per il tipo di evento.
-
-1. Fai clic sulla freccia per il selettore **[!UICONTROL Seleziona evento persone]** e scorri il menu fino alla sezione **[!UICONTROL Adobe Experience Platform]**.
-
-   ![Ascolta un evento esperienza](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+1. (Solo percorso di account) Nelle proprietà del nodo a destra, scegli **[!UICONTROL Persone]** per il tipo di evento.
 
 1. Seleziona l’evento.
 
-   Il tipo di evento viene visualizzato come vuoto nei dettagli del nodo.
+   Per un **_percorso di account_**, fare clic sulla freccia per il selettore **[!UICONTROL Seleziona evento persone]** e scorrere il menu fino alla sezione **[!UICONTROL Adobe Experience Platform]**.
 
-   ![Modifica evento](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
+   ![Ascolta un evento esperienza](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+
+   Per un percorso di persone, fare clic sulla freccia per il selettore **[!UICONTROL Seleziona evento]** e scegliere l&#39;evento.
 
 1. Fare clic su **[!UICONTROL Modifica evento]** e definire uno o più vincoli per l&#39;evento.
+
+   ![Modifica evento](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
    I vincoli disponibili vengono definiti come campi gestiti per la configurazione dell’evento.
 
@@ -182,11 +182,13 @@ _Per includere un evento esperienza nel percorso :_
 
 1. Nella mappa del percorso, aggiungi il nodo successivo da eseguire quando si verifica l’evento.
 
-1. Completa i nodi rimanenti del percorso e [pubblicalo](./journey-overview.md).
+1. Completa i nodi rimanenti del percorso e [pubblicalo](./journeys-overview.md).
 
    Quando il percorso è attivo (pubblicato) e raggiunge il nodo _Ascolta un evento_, inizia l&#39;ascolto degli eventi AEP Experience.
 
 ### Aggiungere filtri all’evento persone
+
+(Solo percorsi di account)
 
 1. Dopo aver definito l&#39;evento, selezionare la scheda **[!UICONTROL Filtri]** nella finestra di dialogo _[!UICONTROL Modifica evento]_.
 
@@ -222,4 +224,4 @@ Se necessario, definisci il tempo di attesa dell’evento da parte del percorso.
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443242/?captions=ita&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

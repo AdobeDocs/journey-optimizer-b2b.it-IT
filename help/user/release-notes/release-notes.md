@@ -3,7 +3,7 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: eabef3060f200d35c6914bc8fecfa8e0960d745d
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '3841'
 ht-degree: 91%
@@ -178,7 +178,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Duplicare i percorsi dell’account | È ora disponibile un’azione di duplica per i percorsi degli account. Puoi duplicare i dettagli per il percorso account o solo un semplice schema della struttura del flusso e del percorso. <a href="../journeys/journey-overview.md#duplicate-journey">Ulteriori informazioni</a> |
+| Funzione | Duplicare i percorsi dell’account | È ora disponibile un’azione di duplica per i percorsi degli account. Puoi duplicare i dettagli per il percorso account o solo un semplice schema della struttura del flusso e del percorso. <a href="../journeys/journeys-overview.md#duplicate-journey">Ulteriori informazioni</a> |
 | Funzione | I miei token per percorsi account | Ora puoi definire un set di token personalizzati con valori specifici del percorso account. Questo set di token personalizzati si chiama _I miei token_ e uno qualsiasi di questi token personalizzati è destinato alla personalizzazione durante l’authoring e-mail del percorso. <a href="../content/personalization-my-tokens.md">Ulteriori informazioni</a> |
 | Funzione | Elimina fasi del gruppo acquisti | È possibile eliminare il modello delle fasi del gruppo acquisti quando si trova nello stato Bozza o Pubblicato. Se è pubblicato (live), puoi eliminarlo solo se non è associato a una soluzione di interesse. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Ulteriori informazioni</a> |
 | Miglioramento | Conteggi nodi percorso | È stata migliorata la visibilità dei conteggi a livello di nodo per l’appartenenza a percorsi pubblicati. Nella _mappa del percorso_, i nodi mostrano il _[!UICONTROL Totale account inseriti]_. Quando selezioni e fai clic sul nodo dell’azione, i dettagli a destra includono anche _[!UICONTROL Account non ancora attivati su]_. E i dettagli dei nodi _Ascolta un evento_ includono _[!UICONTROL Account in questo passaggio]_. Utilizza queste informazioni per convalidare l’avanzamento dell’account nei tuoi percorsi live, completati e interrotti. |
@@ -192,7 +192,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
 | Funzione | Campi personalizzabili: frammenti di contenuto | Durante la progettazione di frammenti visivi, puoi designare parametri per un componente nel frammento come modificabili. Questa funzione consente all’autore del messaggio e-mail o del modello di specificare un valore di campo personalizzato che sia specifico per le proprie esigenze. Questo flag di personalizzazione è limitato ai componenti visivi immagine, testo e pulsante. <a href="../content/fragment-authoring.md#enable-fragment-customization">Ulteriori informazioni</a> |
-| Funzione | Tipi di duplicazione di percorso | Quando duplichi un percorso account, puoi includere i dettagli del nodo, escluse le e-mail e i messaggi SMS creati in Journey Optimizer B2B Edition. In alternativa, puoi creare una copia semplificata della struttura e dei flussi di tracciato, senza specificare i dettagli e le impostazioni del nodo. <a href="../journeys/journey-overview.md#duplicate-journey">Ulteriori informazioni</a> |
+| Funzione | Tipi di duplicazione di percorso | Quando duplichi un percorso account, puoi includere i dettagli del nodo, escluse le e-mail e i messaggi SMS creati in Journey Optimizer B2B Edition. In alternativa, puoi creare una copia semplificata della struttura e dei flussi di tracciato, senza specificare i dettagli e le impostazioni del nodo. <a href="../journeys/journeys-overview.md#duplicate-journey">Ulteriori informazioni</a> |
 | Miglioramento | Altri quattro modelli e-mail di esempio | La libreria dei modelli e-mail di esempio ora include quattro modelli SecurFinacial come esempi di contenuti di nuovo coinvolgimento, informazione, nurturing e feedback |
 
 <!-- | Feature | B2B built-in roles and product permissions | Experience Platform now includes a set of built-in (default) roles that you can use to manage access to the B2B product capabilities. <a href="../admin/user-management.md#b2b-built-in-roles">Learn more</a> <br/>Administrators can now define custom roles in Adobe Experience Platform to include Journey Optimizer B2B Edition product permissions.  <a href="../admin/user-management.md#b2b-product-permissions">Learn more</a> | -->

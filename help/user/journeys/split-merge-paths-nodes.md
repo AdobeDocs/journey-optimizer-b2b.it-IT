@@ -5,9 +5,9 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 1dbcdfd67e90a37774287d8d1a18aa5ba502befe
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
-source-wordcount: '2502'
+source-wordcount: '2509'
 ht-degree: 2%
 
 ---
@@ -26,9 +26,11 @@ Un nodo _Percorsi suddivisi_ definisce uno o più percorsi segmentati in base ai
 
 ## Dividere i percorsi per account
 
+(Solo percorsi di account)
+
 I percorsi suddivisi per account possono includere azioni ed eventi sia per gli account che per le persone. Questi percorsi possono essere ulteriormente suddivisi.
 
-_&#x200B;**Funzionamento di un percorso suddiviso per nodo account**&#x200B;_
+_**Funzionamento di un percorso suddiviso per nodo account**_
 
 * Ogni percorso aggiunto include un nodo finale con la possibilità di aggiungere nodi a ogni nodo edge.
 * È possibile nidificare il percorso suddiviso per nodi di account (è possibile dividerlo più volte per account).
@@ -137,7 +139,7 @@ This will also be available for split paths by people (under special filters) fo
 
 I percorsi Dividi per persone possono includere solo azioni persone. Questi percorsi non possono essere nuovamente suddivisi e uniti automaticamente.
 
-_&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
+_**Funzionamento di un percorso suddiviso per nodo persone**_
 
 * I nodi suddivisi per persone funzionano all&#39;interno di una combinazione di _nodo raggruppato_ split-merge. I percorsi suddivisi si uniscono automaticamente in modo che tutte le persone possano passare al passaggio successivo senza perdere il contesto dell’account.
 * I nodi Dividi per persone non possono essere nidificati (non è possibile aggiungere un percorso diviso per le persone in un percorso che si trova in questo nodo raggruppato).
@@ -145,7 +147,7 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 * Il nodo supporta l&#39;utilizzo di _relazioni account-persona_, che consente di filtrare le persone in base al loro ruolo (ad esempio, collaboratore esterno o dipendente a tempo pieno) come definito nella relazione.
 * Il nodo supporta la definizione di un percorso _[!UICONTROL Altre persone]_, in cui è possibile aggiungere azioni o eventi per le persone che non corrispondono a uno dei segmenti o percorsi definiti.
 
-![nodo Percorso - percorsi suddivisi per persone](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
+![Nodo percorso account - percorsi suddivisi per persone](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
 ### Filtri percorso persone
 
@@ -181,7 +183,7 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 
 1. Nelle proprietà del nodo a destra, scegli **[!UICONTROL Persone]** per la suddivisione.
 
-1. Imposta gli **[!UICONTROL attributi utilizzati per le condizioni]**.
+1. (Solo percorsi di account) Imposta gli **[!UICONTROL attributi utilizzati per le condizioni]**.
 
    * Scegli **[!UICONTROL Solo attributi persone]** per utilizzare le condizioni relative al profilo persona.
    * Scegliere **[!UICONTROL Solo attributi persona-account]** per utilizzare le condizioni relative all&#39;appartenenza al ruolo della persona all&#39;interno di un account.
@@ -232,7 +234,7 @@ Per un percorso suddiviso per persone, puoi definire un percorso in base all’a
 
 >[!BEGINSHADEBOX &quot;Filtro inattività&quot;]
 
-Per ciascuno dei filtri _[!UICONTROL Cronologia attività]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa a filtro inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Aggiungi ad esempio il filtro _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail aperte]_ per creare un percorso per le persone che _&#x200B;**non hanno**&#x200B;_ aperto un&#39;e-mail in precedenza nel percorso. Abilita l’opzione di inattività e specifica l’e-mail. È consigliabile utilizzare il vincolo _[!UICONTROL Data attività]_ per definire un periodo di tempo per l&#39;inattività.
+Per ciascuno dei filtri _[!UICONTROL Cronologia attività]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa a filtro inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Aggiungi ad esempio il filtro _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail aperte]_ per creare un percorso per le persone che _**non hanno**_ aperto un&#39;e-mail in precedenza nel percorso. Abilita l’opzione di inattività e specifica l’e-mail. È consigliabile utilizzare il vincolo _[!UICONTROL Data attività]_ per definire un periodo di tempo per l&#39;inattività.
 
 ![Condizione Dividi percorso per persona per l&#39;acquisto dell&#39;iscrizione al gruppo](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -282,4 +284,4 @@ Aggiungi un nodo _Unisci percorsi_ per combinare diversi percorsi suddivisi per 
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443264/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

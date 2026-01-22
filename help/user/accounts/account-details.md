@@ -4,7 +4,7 @@ description: Visualizza gli approfondimenti dell’account con riepiloghi IA IA,
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 5%
@@ -33,7 +33,7 @@ La sezione Panoramica account include le seguenti informazioni sull&#39;account:
 * Numero di persone nell’account
 * Settore
 * Opportunità aperte
-* I tre percorsi di account più recenti in cui l&#39;account è attualmente in uso (fare clic sul nome del percorso per aprire la [panoramica percorso](../journeys/journey-overview.md))
+* I tre percorsi di account più recenti in cui l&#39;account è attualmente in uso (fare clic sul nome del percorso per aprire la [panoramica percorso](../journeys/journeys-overview.md))
 * Riepilogo IA generativo dell’account, che include informazioni sui principali gruppi di acquisto coinvolti.
 
 ### Dati di intento

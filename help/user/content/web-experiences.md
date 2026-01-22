@@ -4,7 +4,7 @@ description: 'Creazione, progettazione e pubblicazione di esperienze web persona
 feature: Content, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
-source-git-commit: 6eae855a1e20b3a4350353940cb3ea82fd84933b
+source-git-commit: e3c00ab4657c7bf05573e049bbcb4bb3628e751e
 workflow-type: tm+mt
 source-wordcount: '1497'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Prima di poter creare esperienze web, assicurati di soddisfare i seguenti requis
 
 * Un amministratore di prodotto ha configurato uno o più canali web per definire gli URL (pagine) da includere per un’esperienza web. Per ulteriori informazioni, vedere [Configurazioni del canale Web](../admin/configure-channels-web.md).
 
-* Il sito Web include [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementato per l&#39;identificazione dei visitatori e la distribuzione dei contenuti. Verificare che la versione di Adobe Experience Platform Web SDK sia 2.16 o successiva.
+* Il sito Web include [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementato per l&#39;identificazione dei visitatori e la distribuzione dei contenuti. Verificare che la versione di Adobe Experience Platform Web SDK sia 2.16 o successiva.
 
 * Hai le [autorizzazioni](../admin/user-management.md#b2b-product-permissions) necessarie per creare e gestire esperienze Web in un percorso:
    * _[!UICONTROL Campagne]_ > _[!UICONTROL Gestisci campagne]_ - Necessario per aggiungere o aggiornare un nodo di azione di personalizzazione Web.
@@ -177,7 +177,7 @@ Una volta completata la progettazione del contenuto per l&#39;esperienza Web, pu
 
 ## Attiva la tua esperienza web
 
-L&#39;esperienza Web viene attivata e resa visibile al pubblico quando [pubblichi il percorso](../journeys/create-publish-journey.md#publish-an-account-journey). Prima di attivare un’esperienza web tramite un percorso, considera quanto segue:
+L&#39;esperienza Web viene attivata e resa visibile al pubblico quando [pubblichi il percorso](../journeys/create-publish-journey.md#publish-a-journey). Prima di attivare un’esperienza web tramite un percorso, considera quanto segue:
 
 * Se pubblichi un percorso con un’esperienza web che influisce sulle stesse pagine di un altro percorso già live, tutte le modifiche vengono applicate alle pagine web.
 
@@ -189,13 +189,13 @@ Per abilitare la consegna di esperienze web, è necessario definire le seguenti 
 
 * Nella raccolta dati di Adobe Experience Platform, accertati di disporre di un flusso di dati definito con l’opzione Adobe Journey Optimizer B2B edition abilitata nel servizio Adobe Experience Platform.
 
-  Questa configurazione garantisce che Adobe Experience Platform Edge possa gestire correttamente gli eventi in entrata. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure)
+  Questa configurazione garantisce che Adobe Experience Platform Edge possa gestire correttamente gli eventi in entrata. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * In Adobe Experience Platform, accertati di disporre di un criterio di unione con l&#39;opzione _[!UICONTROL Criterio di unione attivo su Edge]_ abilitata.
 
-  Seleziona una policy nel menu Customer > Profiles > Merge Policies Experience Platform (Cliente > Profili > Criteri di unione). [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Seleziona una policy nel menu Customer > Profiles > Merge Policies Experience Platform (Cliente > Profili > Criteri di unione). [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Questo criterio di unione viene utilizzato dai canali in entrata di Journey Optimizer B2B edition per attivare e pubblicare correttamente le esperienze web in entrata nella rete Edge. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/ui-guide)
+  Questo criterio di unione viene utilizzato dai canali in entrata di Journey Optimizer B2B edition per attivare e pubblicare correttamente le esperienze web in entrata nella rete Edge. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Risoluzione dei problemi
 
