@@ -3,10 +3,10 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: cca9f2faab779b073d3d0801f8ec4b67116a29a5
 workflow-type: tm+mt
-source-wordcount: '3841'
-ht-degree: 91%
+source-wordcount: '4087'
+ht-degree: 86%
 
 ---
 
@@ -24,9 +24,29 @@ Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzion
 
 | Agente | Aggiornamento | Descrizione |
 | ----- | ------ | ----------- |
-| Journey Build Agent | Nuovo | Il Journey Build Agent analizza, progetta e collabora sui percorsi in tempo reale, consentendo ai marketer di avviare più rapidamente, migliorare il coinvolgimento e aumentare i tassi di conversione. [Ulteriori informazioni](../agents/journey-agent.md) |
+| Journey Build Agent | Nuovo e aggiornato | Il Journey Build Agent analizza, progetta e collabora sui percorsi in tempo reale, consentendo ai marketer di avviare più rapidamente, migliorare il coinvolgimento e aumentare i tassi di conversione. [Ulteriori informazioni](../agents/journey-agent.md) |
 | Agente Audience | Nuovo | L’Agente Audience identifica e crea automaticamente i gruppi acquisti utilizzando dati strutturati e non strutturati. Aiuta i marketer a mirare le persone giuste in modo più rapido e preciso. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
 | Qualificatore di vendita | Nuovo | Sales Qualifier è un&#39;applicazione aggiuntiva basata sull&#39;intelligenza artificiale per Adobe Journey Optimizer B2B edition che contiene il Account Qualification Agent ed è progettata per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti tra i canali [Ulteriori informazioni](../agents/sales-qualifier.md) |
+
+## Note sulla versione 2026.1
+
+**Data di distribuzione**: martedì 3 febbraio 2025
+
+| Tipo | Elemento | Descrizione |
+| ---- | ---- | ----------- |
+| Funzione | Kit per marchi | (Beta) Definisci un marchio in Journey Optimizer B2B edition per fornire al team creativo la fonte di verità da utilizzare per la creazione di contenuti visivi o scritti. Quando queste linee guida vengono compilate e le risorse del brand condivise, qualsiasi membro del team o collaboratore può creare contenuti sul brand per il tuo prodotto. |
+| Funzione | Marchi per la generazione di contenuti e-mail | Puoi definire le linee guida per il tuo marchio e utilizzare queste informazioni per generare contenuti e-mail. Con questa funzione, il contenuto delle e-mail è allineato con le linee guida, gli stili e il tono specifici del tuo marchio. |
+| Miglioramento | Nodo percorso _Attendi_ - Impostazioni avanzate | Per un nodo _Attendi_ in un percorso, ora puoi specificare i giorni e gli orari di uscita e selezionare i fusi orari. Questo miglioramento offre un migliore controllo dell’orchestrazione del percorso e della tempistica delle campagne. |
+| Miglioramento | Filtro Membro del gruppo di acquisto - Rimosso | Per un nodo _split path by people_, il filtro _[!UICONTROL Member of Buying Group]_ ora include il vincolo _Is Removed_. Selezionando questa opzione, il filtro può includere o escludere il membro del gruppo di acquisto rimosso. È supportato anche negli elenchi avanzati di Marketo Engage, dove è possibile utilizzare questo nuovo vincolo nel filtro _[!UICONTROL Membro del gruppo di acquisto]_. |
+| Miglioramento | Progettazione delle e-mail: punti elenco a più livelli | Gli strumenti per lo spazio di progettazione del contenuto dell’e-mail ora supportano i sub-punti elenco (livelli di punto elenco). |
+
+<!--
+| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. | 
+| -->
+
+>[!NOTE]
+>
+>Queste modifiche della versione saranno introdotte a partire dal martedì 3 febbraio 2025, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 ## Note sulla versione 2025.10
 
