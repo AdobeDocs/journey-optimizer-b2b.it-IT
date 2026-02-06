@@ -5,9 +5,9 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '2509'
+source-wordcount: '2567'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ Un nodo _Percorsi suddivisi_ definisce uno o più percorsi segmentati in base ai
 
 I percorsi suddivisi per account possono includere azioni ed eventi sia per gli account che per le persone. Questi percorsi possono essere ulteriormente suddivisi.
 
-_&#x200B;**Funzionamento di un percorso suddiviso per nodo account**&#x200B;_
+_**Funzionamento di un percorso suddiviso per nodo account**_
 
 * Ogni percorso aggiunto include un nodo finale con la possibilità di aggiungere nodi a ogni nodo edge.
 * È possibile nidificare il percorso suddiviso per nodi di account (è possibile dividerlo più volte per account).
@@ -139,7 +139,7 @@ This will also be available for split paths by people (under special filters) fo
 
 I percorsi Dividi per persone possono includere solo azioni persone. Questi percorsi non possono essere nuovamente suddivisi e uniti automaticamente.
 
-_&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
+_**Funzionamento di un percorso suddiviso per nodo persone**_
 
 * I nodi suddivisi per persone funzionano all&#39;interno di una combinazione di _nodo raggruppato_ split-merge. I percorsi suddivisi si uniscono automaticamente in modo che tutte le persone possano passare al passaggio successivo senza perdere il contesto dell’account.
 * I nodi Dividi per persone non possono essere nidificati (non è possibile aggiungere un percorso diviso per le persone in un percorso che si trova in questo nodo raggruppato).
@@ -159,7 +159,7 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 | [!UICONTROL Cronologia attività] > [!UICONTROL Momento di interesse] | Attività momento di interesse definita nell&#39;istanza [!DNL Marketo Engage] associata. I vincoli includono: <li>Milestone<li>E-mail<li><br>**[!UICONTROL Passa al filtro di inattività&#x200B;]**. Utilizzare questa opzione per filtrare in base alla mancanza di attività (una persona non ha avuto un momento di interesse). |
 | [!UICONTROL Cronologia attività] > [!UICONTROL Pagina Web visitata] | Attività pagina Web per una o più pagine Web gestite dall&#39;istanza [!DNL Marketo Engage] associata. I vincoli includono: <li>Pagina Web (obbligatoria)<li>Data di attività<li>Indirizzo IP client <li>Querystring <li>Referrer <li>Agente utente <li>Motore di ricerca <li>Query di ricerca <li>URL personalizzato <li>Token <li>Browser <li>Piattaforma <li>Dispositivo <li>Min numero di volte <br>**[!UICONTROL Passa al filtro di inattività&#x200B;]**. Utilizzare questa opzione per filtrare in base alla mancanza di attività (una persona non ha visitato la pagina Web). |
 | [!UICONTROL Attributi della persona] | Attributi dal profilo della persona, tra cui: <li>Città <li>Paese <li>Data di nascita <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area dello stato dedotta<li>Posizione lavorativa <li>Cognome <li>Numero di telefono cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo per annullamento abbonamento |
-| [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>Ruolo</li> |
+| [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>È stato rimosso</li><li>Ruolo</li> |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro dell&#39;elenco] | La persona è o non è membro di uno o più elenchi [!DNL Marketo Engage]. |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del programma] | La persona è o non è membro di uno o più programmi [!DNL Marketo Engage]. |
 
@@ -234,7 +234,7 @@ Per un percorso suddiviso per persone, puoi definire un percorso in base all’a
 
 >[!BEGINSHADEBOX &quot;Filtro inattività&quot;]
 
-Per ciascuno dei filtri _[!UICONTROL Cronologia attività]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa a filtro inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Aggiungi ad esempio il filtro _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail aperte]_ per creare un percorso per le persone che _&#x200B;**non hanno**&#x200B;_ aperto un&#39;e-mail in precedenza nel percorso. Abilita l’opzione di inattività e specifica l’e-mail. È consigliabile utilizzare il vincolo _[!UICONTROL Data attività]_ per definire un periodo di tempo per l&#39;inattività.
+Per ciascuno dei filtri _[!UICONTROL Cronologia attività]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa a filtro inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Aggiungi ad esempio il filtro _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail aperte]_ per creare un percorso per le persone che _**non hanno**_ aperto un&#39;e-mail in precedenza nel percorso. Abilita l’opzione di inattività e specifica l’e-mail. È consigliabile utilizzare il vincolo _[!UICONTROL Data attività]_ per definire un periodo di tempo per l&#39;inattività.
 
 ![Condizione Dividi percorso per persona per l&#39;acquisto dell&#39;iscrizione al gruppo](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -242,15 +242,29 @@ Per ciascuno dei filtri _[!UICONTROL Cronologia attività]_, è possibile abilit
 
 ### Filtro appartenenza
 
-Nella sezione _[!UICONTROL Filtri speciali]_ sono disponibili più filtri che è possibile utilizzare per valutare l&#39;appartenenza di una persona a un gruppo di acquisto o a un elenco di [!DNL Marketo Engage]. Ad esempio, se desideri creare un percorso per le persone che sono membri di un gruppo di acquisto e a cui è assegnato un ruolo particolare, aggiungi il filtro _[!UICONTROL Filtri speciali]_ > _[!UICONTROL Membro del gruppo di acquisto]_. Per il filtro, impostare l&#39;appartenenza come _true_, selezionare un _[!UICONTROL Interesse per la soluzione]_ associato a uno o più gruppi di acquisto e impostare il _[!UICONTROL Ruolo]_ che si desidera associare.
+Nella sezione _[!UICONTROL Filtri speciali]_ sono disponibili più filtri che è possibile utilizzare per valutare l&#39;appartenenza di una persona a un gruppo di acquisto o a un elenco di [!DNL Marketo Engage].
+
+Ad esempio, se desideri creare un percorso per le persone che sono membri di un gruppo di acquisto e a cui è assegnato un ruolo particolare, aggiungi il filtro _[!UICONTROL Filtri speciali]_ > _[!UICONTROL Membro del gruppo di acquisto]_. Per il filtro, impostare l&#39;appartenenza come _true_, selezionare un _[!UICONTROL Interesse per la soluzione]_ associato a uno o più gruppi di acquisto e impostare il _[!UICONTROL Ruolo]_ che si desidera associare.
 
 ![Condizione Dividi percorso per persona per l&#39;acquisto dell&#39;iscrizione al gruppo](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
->[!BEGINSHADEBOX &quot;Appartenenza all&#39;elenco Marketo Engage&quot;]
+È inoltre possibile includere ulteriori vincoli di appartenenza ai gruppi di acquisto:
+
+* _[!UICONTROL Fase gruppo acquisti]_
+* _[!UICONTROL Stato gruppo acquisti]_
+* _[!UICONTROL Punteggio di completezza]_
+* _[!UICONTROL Punteggio di coinvolgimento]_
+* _[!UICONTROL Rimosso]_
+
+>[!TIP]
+>
+>Per escludere i membri rimossi da un gruppo di acquisto, utilizzare il vincolo _[!UICONTROL Rimosso]_ impostato su `false`. È inoltre possibile includere in modo esplicito i membri rimossi impostando questo vincolo su `true`.
+
+>[!BEGINSHADEBOX &quot;Elenco Marketo Engage e appartenenza al programma&quot;]
 
 In [!DNL Marketo Engage], _Smart Campaigns_ controlla l&#39;appartenenza ai programmi per assicurarsi che i lead non ricevano e-mail duplicate e non siano membri di più flussi di e-mail contemporaneamente. In Journey Optimizer B2B, è possibile verificare l&#39;appartenenza all&#39;elenco [!DNL Marketo Engage] come condizione per il percorso di suddivisione da parte delle persone per eliminare la duplicazione nelle attività di percorso.
 
-Per utilizzare l&#39;appartenenza a un elenco in una condizione divisa, espandere **[!UICONTROL Filtri speciali]** e trascinare la condizione **[!UICONTROL Membro dell&#39;elenco]** nello spazio del filtro. Completare la definizione del filtro per valutare l&#39;appartenenza a uno o più elenchi [!DNL Marketo Engage].
+Per utilizzare l&#39;appartenenza all&#39;elenco in una condizione di suddivisione, espandere **[!UICONTROL Filtri speciali]** e trascinare la condizione **[!UICONTROL Membro dell&#39;elenco]** o **[!UICONTROL Membro del programma]** nello spazio del filtro. Completare la definizione del filtro per valutare l&#39;appartenenza a uno o più elenchi [!DNL Marketo Engage].
 
 ![Condizione Dividi percorso in base alle persone per l&#39;appartenenza all&#39;elenco [!DNL Marketo Engage]](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
@@ -284,4 +298,4 @@ Aggiungi un nodo _Unisci percorsi_ per combinare diversi percorsi suddivisi per 
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443264/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

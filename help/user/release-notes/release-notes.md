@@ -3,9 +3,9 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 0ac00da33cd292cb1d18dfc1c916b214f5db639e
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '4087'
+source-wordcount: '4085'
 ht-degree: 86%
 
 ---
@@ -37,7 +37,7 @@ Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzion
 | Funzione | Kit per marchi | (Beta) Definisci un marchio in Journey Optimizer B2B edition per fornire al team creativo la fonte di verità da utilizzare per la creazione di contenuti visivi o scritti. Quando queste linee guida vengono compilate e le risorse del brand condivise, qualsiasi membro del team o collaboratore può creare contenuti sul brand per il tuo prodotto. |
 | Funzione | Marchi per la generazione di contenuti e-mail | Puoi definire le linee guida per il tuo marchio e utilizzare queste informazioni per generare contenuti e-mail. Con questa funzione, il contenuto delle e-mail è allineato con le linee guida, gli stili e il tono specifici del tuo marchio. |
 | Miglioramento | Nodo percorso _Attendi_ - Impostazioni avanzate | Per un nodo _Attendi_ in un percorso, ora puoi specificare i giorni e gli orari di uscita e selezionare i fusi orari. Questo miglioramento offre un migliore controllo dell’orchestrazione del percorso e della tempistica delle campagne. |
-| Miglioramento | Filtro Membro del gruppo di acquisto - Rimosso | Per un nodo _split path by people_, il filtro _[!UICONTROL Member of Buying Group]_ ora include il vincolo _Is Removed_. Selezionando questa opzione, il filtro può includere o escludere il membro del gruppo di acquisto rimosso. È supportato anche negli elenchi avanzati di Marketo Engage, dove è possibile utilizzare questo nuovo vincolo nel filtro _[!UICONTROL Membro del gruppo di acquisto]_. |
+| Miglioramento | Filtro speciale Membro del gruppo di acquisto - Rimosso il vincolo | Il filtro speciale _[!UICONTROL Membro del gruppo di acquisto]_ ora include il vincolo _È stato rimosso_. Quando aggiungi questo vincolo al filtro, puoi includere o escludere i membri del gruppo di acquisto rimossi. È supportato anche negli elenchi avanzati di Marketo Engage, dove è possibile utilizzare questo nuovo vincolo nel filtro _[!UICONTROL Membro del gruppo di acquisto]_. |
 | Miglioramento | Progettazione delle e-mail: punti elenco a più livelli | Gli strumenti per lo spazio di progettazione del contenuto dell’e-mail ora supportano i sub-punti elenco (livelli di punto elenco). |
 
 <!--

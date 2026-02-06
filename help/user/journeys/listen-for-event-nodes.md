@@ -4,9 +4,9 @@ description: 'Configurare i nodi evento per i trigger account e persone: ascolta
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1845'
 ht-degree: 4%
 
 ---
@@ -52,7 +52,7 @@ In un percorso di account, è possibile ascoltare un evento basato sull&#39;acco
 
 ## Eventi persone
 
-In un percorso di account, puoi ascoltare un evento basato sulle persone quando desideri spostare l’account in avanti nel percorso in base agli eventi attivati dall’attività delle persone. Puoi anche filtrare gli eventi in base agli attributi delle persone,
+In un percorso di account, puoi ascoltare un evento basato sulle persone quando desideri spostare l’account in avanti nel percorso in base agli eventi attivati dall’attività delle persone. Puoi anche filtrare gli eventi in base agli attributi delle persone.
 
 ### Eventi e vincoli
 
@@ -80,7 +80,7 @@ In un percorso di account, puoi ascoltare un evento basato sulle persone quando 
 | [!UICONTROL Cronologia attività] > [!UICONTROL Momento di interesse] | L’attività del momento di interesse definita nell’istanza di Marketo Engage associata. I vincoli includono: <li>Milestone<li>E-mail<li>Web <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> |
 | [!UICONTROL Cronologia attività] > [!UICONTROL Pagina Web visitata] | Attività della pagina web che per una o più pagine web gestite dall’istanza Marketo Engage associata. I vincoli includono: <li>Pagina Web (obbligatoria)<li>Data di attività<li>Indirizzo IP client <li>Querystring <li>Referrer <li>Agente utente <li>Motore di ricerca <li>Query di ricerca <li>URL personalizzato <li>Token <li>Browser <li>Piattaforma <li>Dispositivo <li>Min numero di volte <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
 | [!UICONTROL Attributi della persona] | Attributi dal profilo della persona, tra cui: <li>Città <li>Paese <li>Data di nascita <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area dello stato dedotta<li>Posizione lavorativa <li>Cognome <li>Numero di telefono cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo per annullamento abbonamento |
-| [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>Ruolo</li> |
+| [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>È stato rimosso</li><li>Ruolo</li> |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro dell&#39;elenco] | La persona è o non è membro di uno o più elenchi Marketo Engage. |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del programma] | La persona è o non è membro di uno o più programmi Marketo Engage. |
 
@@ -108,7 +108,7 @@ Se nell’istanza Marketo Engage connessa sono presenti pagine web, puoi attivar
 
 1. Fai clic sulla freccia per il selettore **[!UICONTROL Seleziona evento persone]** e scorri il menu fino alla sezione **[!UICONTROL Marketo Engage]**.
 
-1. Seleziona un tipo di attività Coinvolgimento nel mercato:
+1. Seleziona un tipo di attività Marketo Engage:
 
    * **[!UICONTROL Pagina Web Visite]**.
    * **[!UICONTROL Compila modulo]**
@@ -135,7 +135,7 @@ Se nell’istanza Marketo Engage connessa sono presenti pagine web, puoi attivar
 
 ### Ascolta un evento esperienza
 
-Gli amministratori possono selezionare [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale. L’utilizzo degli eventi esperienza nei percorsi è un processo in due fasi:
+Gli amministratori possono selezionare [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale. L’utilizzo degli eventi esperienza nei percorsi è un processo in due fasi:
 
 1. Un amministratore [seleziona i tipi di evento e i campi di interesse](../admin/configure-aep-events.md#select-an-event) per renderli disponibili in percorsi.
 
@@ -224,4 +224,4 @@ Se necessario, definisci il tempo di attesa dell’evento da parte del percorso.
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443242/?captions=ita&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

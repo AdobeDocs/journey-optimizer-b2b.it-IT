@@ -4,9 +4,9 @@ description: Filtra i lead acquistando l’iscrizione al gruppo negli elenchi av
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
@@ -26,11 +26,11 @@ In qualità di addetto al marketing, potresti voler eliminare le campagne in Mar
 * Questo lead fa parte di un gruppo di acquisto?
 * Il gruppo di acquisto è completo e coinvolto?
 
-Se queste condizioni sono vere, puoi scegliere di ottenere un punteggio maggiore. In caso contrario, puoi scegliere di non contrassegnarlo come lead qualificato per il marketing (MQL).
+Se queste condizioni sono vere, puoi scegliere di valutare il lead in modo più alto. In caso contrario, puoi scegliere di non contrassegnarlo come lead qualificato per il marketing (MQL).
 
 Nell&#39;istanza di Marketo Engage connessa a Journey Optimizer B2B edition, è possibile utilizzare il filtro _[!UICONTROL Membro del gruppo di acquisto]_ negli elenchi smart per identificare questi lead in base alla strategia della campagna.
 
-1. Dopo aver [creato un elenco avanzato in Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, selezionare la scheda **[!UICONTROL Elenco avanzato]** per aprire l&#39;editor di filtri.
+1. Dopo aver [creato un elenco avanzato in Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, selezionare la scheda **[!UICONTROL Elenco avanzato]** per aprire l&#39;editor di filtri.
 
 1. Nell&#39;elenco dei filtri a destra, scorri verso il basso ed espandi la cartella **[!UICONTROL Filtri speciali]**.
 
@@ -50,7 +50,11 @@ Nell&#39;istanza di Marketo Engage connessa a Journey Optimizer B2B edition, è 
 
    * Selezionare il vincolo da aggiungere, ad esempio _Punteggio di completezza_ o _Interesse soluzione_.
 
-   * Impostare la valutazione da utilizzare per una corrispondenza. Per un punteggio, puoi utilizzare una corrispondenza esatta o un intervallo superiore o inferiore al numero immesso.
+   * Impostare la valutazione da utilizzare per una corrispondenza.
+
+     Per un punteggio, puoi utilizzare una corrispondenza esatta o un intervallo superiore o inferiore al numero immesso.
+
+     Per escludere i membri rimossi da un gruppo di acquisto, utilizzare il vincolo _[!UICONTROL Rimosso]_ impostato su `false`. È inoltre possibile includere in modo esplicito i membri rimossi nell&#39;elenco smart impostando il vincolo su `true`.
 
      Per un articolo discreto, ad esempio gli interessi della soluzione definiti in Journey Optimizer B2B edition, è possibile selezionare uno o più articoli per l&#39;elenco.
 
