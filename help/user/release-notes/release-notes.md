@@ -3,7 +3,7 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: cca9f2faab779b073d3d0801f8ec4b67116a29a5
+source-git-commit: 0ac00da33cd292cb1d18dfc1c916b214f5db639e
 workflow-type: tm+mt
 source-wordcount: '4087'
 ht-degree: 86%
@@ -30,7 +30,7 @@ Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzion
 
 ## Note sulla versione 2026.1
 
-**Data di distribuzione**: martedì 3 febbraio 2025
+**Data di distribuzione**: mercoledì 3 febbraio 2026
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
@@ -46,7 +46,7 @@ Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzion
 
 >[!NOTE]
 >
->Queste modifiche della versione saranno introdotte a partire dal martedì 3 febbraio 2025, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
+>Queste modifiche della versione saranno introdotte a partire dal mercoledì 3 febbraio 2026, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 ## Note sulla versione 2025.10
 
