@@ -4,10 +4,10 @@ description: Crea modelli di ruolo con assegnazione automatica condizionale per 
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
+source-git-commit: bd6dff55621943dc349b47b99f24afefe5b9a514
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 3%
+source-wordcount: '1329'
+ht-degree: 4%
 
 ---
 
@@ -64,7 +64,7 @@ Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, pe
 | ---- | --------- |
 | Attributi della persona | <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Numero di fax <li>Nome <li>Area dello stato dedotta <li>Posizione lavorativa <li>Cognome <li>Secondo nome <li>Numero di telefono cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo per annullamento abbonamento |
 | Filtri speciali | <li>Membro dell&#39;elenco <li>Membro del programma |
-| Dati di intento | Intento categoria <li>Intento prodotto <li>Intento parola chiave<br/>[Informazioni sui dati intento](../admin/intent-data.md). |
+| Dati di intento | <li>Intento categoria <li>Intento prodotto <li>Intento parola chiave<br/>[Informazioni sui dati intento](../admin/intent-data.md) |
 
 1. Per la prima scheda ruolo, definisci le proprietà del ruolo.
 
@@ -115,6 +115,13 @@ In Marketo Engage, _Campagne avanzate_ verifica l&#39;appartenenza ai programmi 
 Per utilizzare l&#39;appartenenza a un elenco come condizione del ruolo, espandere **[!UICONTROL Filtri speciali]** e trascinare la condizione **[!UICONTROL Membro dell&#39;elenco]** nello spazio del filtro. Quindi completa la definizione del filtro per valutare l’appartenenza a uno o più elenchi Marketo Engage.
 
 ![Condizione del modello dei ruoli per l&#39;appartenenza all&#39;elenco di Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+<br/>
+
+>[!NOTE]
+>
+>**Funzionalità obsolete**</br></br>
+>
+>Con l&#39;[architettura semplificata](../simplified-architecture.md) per Journey Optimizer B2B edition, il filtro in base all&#39;appartenenza a un elenco o a un programma in un&#39;istanza di Marketo Engage non è supportato.
 
 >[!ENDSHADEBOX]
 
@@ -126,7 +133,7 @@ Per impostazione predefinita, la completezza di un ruolo viene definita come un 
 
 Ad esempio, la chiusura di un&#39;offerta per la soluzione _X_ richiede l&#39;identificazione e il coinvolgimento di più responsabili delle decisioni di marketing, in quanto la soluzione verrebbe utilizzata da più team di marketing in un&#39;organizzazione. In questo caso, desideri aumentare la soglia per calcolare un gruppo di acquisto _completo_ richiedendo almeno due responsabili delle decisioni di marketing.
 
-Vedere [Punteggi di completezza](./completeness-scores.md) per informazioni dettagliate sul punteggio di completezza e sui calcoli.
+Per informazioni dettagliate sul punteggio di completezza e sui calcoli, consulta [Punteggi di completezza](./completeness-scores.md).
 
 1. Nella parte in alto a destra della pagina dei modelli dei ruoli, fare clic su **[!UICONTROL Impostazioni punteggio di completezza]**.
 
@@ -134,7 +141,7 @@ Vedere [Punteggi di completezza](./completeness-scores.md) per informazioni dett
 
 1. Nella finestra di dialogo, modifica il valore **[!UICONTROL Membri richiesti]** per ogni ruolo definito in base alle esigenze.
 
-   È possibile immettere il valore oppure fare clic su **&plus;** o **−** per aumentare o diminuire il valore.
+   È possibile immettere il valore oppure fare clic su **&amp;plus;** o **−** per aumentare o diminuire il valore.
 
    ![Modello ruoli - pulsante Impostazioni punteggio di completezza](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -182,4 +189,4 @@ Puoi eliminare un modello di ruoli se si trova nello stato _Bozza_.
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3453309/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

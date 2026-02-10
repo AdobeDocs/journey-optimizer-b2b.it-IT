@@ -5,9 +5,9 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
+source-git-commit: bd6dff55621943dc349b47b99f24afefe5b9a514
 workflow-type: tm+mt
-source-wordcount: '2567'
+source-wordcount: '2593'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ Un nodo _Percorsi suddivisi_ definisce uno o più percorsi segmentati in base ai
 
 I percorsi suddivisi per account possono includere azioni ed eventi sia per gli account che per le persone. Questi percorsi possono essere ulteriormente suddivisi.
 
-_&#x200B;**Funzionamento di un percorso suddiviso per nodo account**&#x200B;_
+_**Funzionamento di un percorso suddiviso per nodo account**_
 
 * Ogni percorso aggiunto include un nodo finale con la possibilità di aggiungere nodi a ogni nodo edge.
 * È possibile nidificare il percorso suddiviso per nodi di account (è possibile dividerlo più volte per account).
@@ -139,7 +139,7 @@ This will also be available for split paths by people (under special filters) fo
 
 I percorsi Dividi per persone possono includere solo azioni persone. Questi percorsi non possono essere nuovamente suddivisi e uniti automaticamente.
 
-_&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
+_**Funzionamento di un percorso suddiviso per nodo persone**_
 
 * I nodi suddivisi per persone funzionano all&#39;interno di una combinazione di _nodo raggruppato_ split-merge. I percorsi suddivisi si uniscono automaticamente in modo che tutte le persone possano passare al passaggio successivo senza perdere il contesto dell’account.
 * I nodi Dividi per persone non possono essere nidificati (non è possibile aggiungere un percorso diviso per le persone in un percorso che si trova in questo nodo raggruppato).
@@ -234,7 +234,7 @@ Per un percorso suddiviso per persone, puoi definire un percorso in base all’a
 
 >[!BEGINSHADEBOX &quot;Filtro inattività&quot;]
 
-Per ciascuno dei filtri _[!UICONTROL Cronologia attività]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa a filtro inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Aggiungi ad esempio il filtro _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail aperte]_ per creare un percorso per le persone che _&#x200B;**non hanno**&#x200B;_ aperto un&#39;e-mail in precedenza nel percorso. Abilita l’opzione di inattività e specifica l’e-mail. È consigliabile utilizzare il vincolo _[!UICONTROL Data attività]_ per definire un periodo di tempo per l&#39;inattività.
+Per ciascuno dei filtri _[!UICONTROL Cronologia attività]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa a filtro inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Aggiungi ad esempio il filtro _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail aperte]_ per creare un percorso per le persone che _**non hanno**_ aperto un&#39;e-mail in precedenza nel percorso. Abilita l’opzione di inattività e specifica l’e-mail. È consigliabile utilizzare il vincolo _[!UICONTROL Data attività]_ per definire un periodo di tempo per l&#39;inattività.
 
 ![Condizione Dividi percorso per persona per l&#39;acquisto dell&#39;iscrizione al gruppo](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -267,6 +267,13 @@ In [!DNL Marketo Engage], _Smart Campaigns_ controlla l&#39;appartenenza ai prog
 Per utilizzare l&#39;appartenenza all&#39;elenco in una condizione di suddivisione, espandere **[!UICONTROL Filtri speciali]** e trascinare la condizione **[!UICONTROL Membro dell&#39;elenco]** o **[!UICONTROL Membro del programma]** nello spazio del filtro. Completare la definizione del filtro per valutare l&#39;appartenenza a uno o più elenchi [!DNL Marketo Engage].
 
 ![Condizione Dividi percorso in base alle persone per l&#39;appartenenza all&#39;elenco [!DNL Marketo Engage]](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
+<br/>
+
+>[!NOTE]
+>
+>**Funzionalità obsolete**</br></br>
+>
+>Con l&#39;[architettura semplificata](../simplified-architecture.md) per Journey Optimizer B2B edition, il filtro in base all&#39;appartenenza a un elenco o a un programma in un&#39;istanza di Marketo Engage non è supportato.
 
 >[!ENDSHADEBOX]
 
@@ -298,4 +305,4 @@ Aggiungi un nodo _Unisci percorsi_ per combinare diversi percorsi suddivisi per 
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443264/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
