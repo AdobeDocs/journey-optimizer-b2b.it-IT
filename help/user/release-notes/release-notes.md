@@ -3,10 +3,10 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
+source-git-commit: d9b9b0627a20c49452aef74ae44d506b240aeb1d
 workflow-type: tm+mt
-source-wordcount: '4085'
-ht-degree: 86%
+source-wordcount: '4114'
+ht-degree: 85%
 
 ---
 
@@ -92,6 +92,7 @@ Con l’architettura semplificata, nella versione 2025.10 sono disponibili le se
 | Funzione | Modello dati relazionali | Sfrutta i dati relazionali collegati agli account B2B per filtrare gli account all’interno di un percorso di account o personalizzare il contenuto delle e-mail. Questi dati relazionali possono rappresentare entità aziendali reali come record di acquisto, registrazioni di eventi, licenze software, abbonamenti a servizi o prenotazioni. [Ulteriori informazioni](../admin/xdm-field-management.md#relational-schemas) |
 | Funzione | Attivazioni di più Marketo Engage | Configura le connessioni alle istanze Marketo Engage remote e utilizza tali connessioni per configurare le azioni Marketo Engage per i percorsi. Queste azioni, come l’aggiunta/rimozione di persone dagli elenchi o l’aggiunta di persone a una campagna di richieste, si applicano all’istanza di Marketo Engage designata. [Ulteriori informazioni](../admin/marketo-actions-connect.md) |
 | Funzione | Deduplica per sovraccarico e-mail | Ora puoi abilitare la deduplica delle e-mail per garantire che la stessa e-mail non venga inviata più volte allo stesso indirizzo in un percorso. Gli indirizzi duplicati vengono bloccati finché il primo record con tale indirizzo e-mail non completa il percorso.  [Ulteriori informazioni](../content/email-deduplication.md) |
+| Miglioramento | Ponderazione del punteggio di coinvolgimento - Eventi AEP | La ponderazione del punteggio di coinvolgimento può ora includere uno qualsiasi degli eventi Experience Platform standard o personalizzati e ponderati in base alle tue esigenze. [Ulteriori informazioni](../admin/engagement-score-weighting.md) |
 | Miglioramento | Limiti di comunicazione | Il sistema ora rispetta i limiti di comunicazione combinati di Marketo Engage e Journey Optimizer B2B edition. [Ulteriori informazioni](../admin/configure-channels-emails.md#communication-limits) |
 
 <!-- There are additional functional changes with the simplified architecture:
