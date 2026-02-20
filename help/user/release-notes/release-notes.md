@@ -3,10 +3,10 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: d9b9b0627a20c49452aef74ae44d506b240aeb1d
+source-git-commit: 7ee4ffdee351efb478ea1faefe6f1d478a75e2f8
 workflow-type: tm+mt
-source-wordcount: '4114'
-ht-degree: 85%
+source-wordcount: '4425'
+ht-degree: 80%
 
 ---
 
@@ -18,15 +18,23 @@ Journey Optimizer B2B Edition è costruito nativamente su [!DNL Adobe Experience
 
 Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} per informazioni su diritti, guardrail delle prestazioni e limitazioni.
 
-## Funzionalità di IA agentica
+## Note sulla versione 2026.2
 
-Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzionalità di IA agentica per Journey Optimizer B2B Edition:
+**Data di distribuzione**: sabato 20 febbraio 2026
 
-| Agente | Aggiornamento | Descrizione |
-| ----- | ------ | ----------- |
-| Journey Build Agent | Nuovo e aggiornato | Il Journey Build Agent analizza, progetta e collabora sui percorsi in tempo reale, consentendo ai marketer di avviare più rapidamente, migliorare il coinvolgimento e aumentare i tassi di conversione. [Ulteriori informazioni](../agents/journey-agent.md) |
-| Agente Audience | Nuovo | L’Agente Audience identifica e crea automaticamente i gruppi acquisti utilizzando dati strutturati e non strutturati. Aiuta i marketer a mirare le persone giuste in modo più rapido e preciso. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
-| Qualificatore di vendita | Nuovo | Sales Qualifier è un&#39;applicazione aggiuntiva basata sull&#39;intelligenza artificiale per Adobe Journey Optimizer B2B edition che contiene il Account Qualification Agent ed è progettata per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti tra i canali [Ulteriori informazioni](../agents/sales-qualifier.md) |
+| Tipo | Elemento | Descrizione |
+| ---- | ---- | ----------- |
+| Funzione | Campi XDM/schemi relazionali: supporto per oggetti personalizzati della persona | Gli amministratori ora possono selezionare oggetti personalizzati correlati a una persona utilizzando una relazione uno-a-uno a livello singolo con un account. Questa funzionalità consente all’organizzazione di marketing di rappresentare una visualizzazione più ricca dei dati aziendali reali per eseguire il targeting, personalizzare e creare rapporti su entità oltre il livello di persona o account. |
+| Funzione | Progettazione delle e-mail - Supporto per Firefly e modelli di IA generativa personalizzati | Ora puoi abilitare l’integrazione di modelli Firefly standard e personalizzati, insieme a modelli di immagini di terze parti approvati (come NanoBanana). Gli addetti al marketing possono scegliere il modello migliore per ogni caso d’uso: Firefly standard per esigenze generali, Firefly personalizzato per la generazione on-brand o modelli di terze parti approvati per scenari specializzati o sperimentali. |
+| Miglioramento | Progettazione e-mail - convalida della qualità dei contenuti | Oltre all’allineamento del brand, puoi valutare la qualità complessiva dei contenuti per individuare potenziali problemi di leggibilità, coesione ed efficacia (indipendentemente dalle linee guida del brand). Questi controlli automatizzati consentono di individuare messaggi poco chiari, toni incoerenti o lacune strutturali. |
+| Miglioramento | Reinserimento percorso | Ora puoi inviare account/persone più volte tramite un flusso di lavoro di percorso. Il reinserimento prevede più scenari, ad esempio la rivalutazione dei criteri di qualificazione e dei flussi di lavoro di sviluppo riutilizzabili. |
+| Miglioramento | Attiva nelle destinazioni - Tipi di pubblico riutilizzabili | È ora possibile riutilizzare i tipi di pubblico virtuali in _Attiva nella destinazione_ azioni del percorso all&#39;interno dello stesso percorso e rimuovere gli account dai tipi di pubblico virtuali. |
+| Miglioramento | Percorsi di account e persone: supporto per oggetti personalizzati della persona | Sfrutta i dati relazionali collegati agli account per filtrare le persone all’interno di un account o di un percorso di persone. |
+| Miglioramento | Personalizzazione dei contenuti: supporto per oggetti personalizzati della persona | Quando definisci la personalizzazione del contenuto utilizzando gli oggetti personalizzati, puoi accedere alle variabili per gli oggetti personalizzati della classe basati su modelli (schemi relazionali). |
+
+>[!NOTE]
+>
+>Queste modifiche alla versione iniziano la distribuzione il 20 febbraio 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 ## Note sulla versione 2026.1
 
@@ -47,6 +55,16 @@ Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzion
 >[!NOTE]
 >
 >Queste modifiche della versione saranno introdotte a partire dal mercoledì 3 febbraio 2026, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
+
+## Funzionalità di IA agentica
+
+Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzionalità di IA agentica per Journey Optimizer B2B Edition:
+
+| Agente | Aggiornamento | Descrizione |
+| ----- | ------ | ----------- |
+| Journey Build Agent | Nuovo e aggiornato | Il Journey Build Agent analizza, progetta e collabora sui percorsi in tempo reale, consentendo ai marketer di avviare più rapidamente, migliorare il coinvolgimento e aumentare i tassi di conversione. [Ulteriori informazioni](../agents/journey-agent.md) |
+| Agente Audience | Nuovo | L’Agente Audience identifica e crea automaticamente i gruppi acquisti utilizzando dati strutturati e non strutturati. Aiuta i marketer a mirare le persone giuste in modo più rapido e preciso. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
+| Qualificatore di vendita | Nuovo | Sales Qualifier è un&#39;applicazione aggiuntiva basata sull&#39;intelligenza artificiale per Adobe Journey Optimizer B2B edition che contiene il Account Qualification Agent ed è progettata per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti tra i canali [Ulteriori informazioni](../agents/sales-qualifier.md) |
 
 ## Note sulla versione 2025.10
 
