@@ -4,19 +4,19 @@ description: Controlla quando e con quale frequenza gli account possono reinseri
 feature: Account Journeys
 role: User
 level: Intermediate
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
+source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '432'
 ht-degree: 1%
 
 ---
-
 
 # Reinserimento percorso
 
 _Solo percorsi di account_
 
-Quando si abilita la reimmissione per un percorso di account, è possibile controllare quando e con quale frequenza un account può reimmettere lo stesso percorso. Utilizza le impostazioni di reinserimento per impostare criteri, limiti e tempi di attesa in modo che gli account vengano riqualificati in modo controllato.
+Quando si abilita la reimmissione per un percorso di account, è possibile controllare quando e con quale frequenza un account può reimmettere lo stesso percorso. Utilizzare le impostazioni di reinserimento per impostare criteri, limiti e tempi di attesa in modo che gli account possano essere riqualificati per il percorso in modo controllato.
 
 Un account può essere riqualificato per un percorso quando sono soddisfatte le seguenti condizioni:
 

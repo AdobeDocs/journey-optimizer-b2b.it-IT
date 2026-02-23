@@ -6,9 +6,10 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: espressione, editor, sintassi, personalizzazione
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
+source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
 workflow-type: tm+mt
-source-wordcount: '4857'
+source-wordcount: '4853'
 ht-degree: 6%
 
 ---
@@ -19,7 +20,7 @@ Utilizza le funzioni helper nell’editor di personalizzazione per definire espe
 
 >[!AVAILABILITY]
 >
->Sono disponibili funzioni di supporto per gli ambienti B2B edition di Joureny Optimizer con provisioning nell&#39;[architettura semplificata](../simplified-architecture.md).
+>Le funzioni di supporto sono disponibili per gli ambienti [!DNL Journey Optimizer B2B Edition] per i quali è stato eseguito il provisioning nell&#39;architettura [semplificata](../simplified-architecture.md).
 
 ## Funzioni di aggregazione
 
