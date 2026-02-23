@@ -5,9 +5,9 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: bd6dff55621943dc349b47b99f24afefe5b9a514
+source-git-commit: 863265860a59abac4a73971bf923fa4cc1456e8d
 workflow-type: tm+mt
-source-wordcount: '2593'
+source-wordcount: '2743'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,11 @@ Un nodo _Percorsi suddivisi_ definisce uno o più percorsi segmentati in base ai
 
 ## Dividere i percorsi per account
 
-(Solo percorsi di account)
+_(solo percorsi di account)_
 
 I percorsi suddivisi per account possono includere azioni ed eventi sia per gli account che per le persone. Questi percorsi possono essere ulteriormente suddivisi.
 
-_&#x200B;**Funzionamento di un percorso suddiviso per nodo account**&#x200B;_
+_**Funzionamento di un percorso suddiviso per nodo account**_
 
 * Ogni percorso aggiunto include un nodo finale con la possibilità di aggiungere nodi a ogni nodo edge.
 * È possibile nidificare il percorso suddiviso per nodi di account (è possibile dividerlo più volte per account).
@@ -44,7 +44,8 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo account**&#x200B;_
 
 | Condizioni del percorso | Descrizione |
 | --------------- | ----------- |
-| Attributi dell’account | Attributi dal profilo dell’account, tra cui: <li>Entrate annuali <li>Città <li>Paese <li>Dimensione dipendente <li>Settore <li>Nome <li>Codice SIC <li>Stato <li>Ha `<relational schema>` (Vedi [Filtro dati personalizzato](#custom-data-filtering)) |
+| [!UICONTROL Attributi account] | Attributi dal profilo dell’account, tra cui: <li>Entrate annuali <li>Città <li>Paese <li>Dimensione dipendente <li>Settore <li>Nome <li>Codice SIC <li>Stato |
+| [!UICONTROL Attributi Account] > Contiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funzione Beta"} L&#39;account non dispone di record dello schema relazionale. Può anche essere valutato in base a qualsiasi criterio oggetto personalizzato selezionato, come configurato nello schema relazionale [XDM](../admin/xdm-field-management.md#relational-schemas). (Vedi [Filtro dati personalizzato](#custom-data-filtering).) |
 | [!UICONTROL Filtri speciali] > [!UICONTROL L&#39;account corrisponde al gruppo di acquisto] | L’account corrisponde a uno o più gruppi di acquisto. Può essere valutato in base a uno o più dei seguenti vincoli per un gruppo di acquisto abbinato: <li>Interesse soluzione <li>Fase gruppo acquisti <li>Stato gruppo acquisti <li>Punteggio di coinvolgimento <li>Punteggio di completezza <li> Numero di persone nel ruolo del gruppo acquisti |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Ha un gruppo di acquisto] | L’account non ha membri di gruppi di acquisto. Può anche essere valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione <li>Fase gruppo acquisti <li>Stato gruppo acquisti <li>Punteggio di coinvolgimento <li>Punteggio di completezza |
 
@@ -120,26 +121,13 @@ Ad esempio, potrebbe essere utile valutare lo stato di preparazione di un gruppo
 
 Per gli account identificati, potresti quindi aggiungere un nodo di azione nel percorso per aggiornare lo stato del gruppo di acquisto o della fase o per inviare un messaggio e-mail di avviso sulle vendite.
 
-### Filtro dati personalizzato
-
-[!BADGE Beta]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Disponibile come funzione beta sull’architettura semplificata"}
-
-Puoi utilizzare gli schemi relazionali (classi basate su modelli) per suddividere i percorsi in base all’account. Gli oggetti personalizzati sono definiti all&#39;interno di _schemi relazionali_ e un amministratore di prodotto può [configurare i campi dello schema relazionale](../admin/xdm-field-management.md#relational-schemas) in [!DNL Journey Optimizer B2B Edition]. I campi dello schema selezionati sono disponibili nell’editor delle condizioni e possono essere utilizzati nel percorso suddiviso dai nodi dell’account.
-
-![Esempio di condizioni per lo schema relazionale per l&#39;offerta](./assets/node-split-paths-account-relational-schema.png){width="700" zoomable="yes"}
-
-<!-- SPHR-23746
-
-Note: These are currently going under Account Attributes folder, which is a bug (SPHR-21734). This will move to Special filters when resolved (January release).
-
-This will also be available for split paths by people (under special filters) for the M 1.5 GA release.
--->
-
 ## Dividi percorsi per persone
+
+_(percorsi di account e persone)_
 
 I percorsi Dividi per persone possono includere solo azioni persone. Questi percorsi non possono essere nuovamente suddivisi e uniti automaticamente.
 
-_&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
+_**Funzionamento di un percorso suddiviso per nodo persone**_
 
 * I nodi suddivisi per persone funzionano all&#39;interno di una combinazione di _nodo raggruppato_ split-merge. I percorsi suddivisi si uniscono automaticamente in modo che tutte le persone possano passare al passaggio successivo senza perdere il contesto dell’account.
 * I nodi Dividi per persone non possono essere nidificati (non è possibile aggiungere un percorso diviso per le persone in un percorso che si trova in questo nodo raggruppato).
@@ -158,7 +146,8 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 | [!UICONTROL Cronologia attività] > [!UICONTROL Valore dati modificato] | Per un attributo persona selezionato, si è verificata una modifica del valore. Questi tipi di modifica includono: <li>Nuovo valore<li>Valore precedente<li>Motivo<li>Origine<li>Data di attività<li>Min numero di volte <br>**[!UICONTROL Passa al filtro di inattività&#x200B;]**. Utilizzare questa opzione per filtrare in base alla mancanza di attività (una persona non ha modificato il valore dei dati). |
 | [!UICONTROL Cronologia attività] > [!UICONTROL Momento di interesse] | Attività momento di interesse definita nell&#39;istanza [!DNL Marketo Engage] associata. I vincoli includono: <li>Milestone<li>E-mail<li><br>**[!UICONTROL Passa al filtro di inattività&#x200B;]**. Utilizzare questa opzione per filtrare in base alla mancanza di attività (una persona non ha avuto un momento di interesse). |
 | [!UICONTROL Cronologia attività] > [!UICONTROL Pagina Web visitata] | Attività pagina Web per una o più pagine Web gestite dall&#39;istanza [!DNL Marketo Engage] associata. I vincoli includono: <li>Pagina Web (obbligatoria)<li>Data di attività<li>Indirizzo IP client <li>Querystring <li>Referrer <li>Agente utente <li>Motore di ricerca <li>Query di ricerca <li>URL personalizzato <li>Token <li>Browser <li>Piattaforma <li>Dispositivo <li>Min numero di volte <br>**[!UICONTROL Passa al filtro di inattività&#x200B;]**. Utilizzare questa opzione per filtrare in base alla mancanza di attività (una persona non ha visitato la pagina Web). |
-| [!UICONTROL Attributi della persona] | Attributi dal profilo della persona, tra cui: <li>Città <li>Paese <li>Data di nascita <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area dello stato dedotta<li>Posizione lavorativa <li>Cognome <li>Numero di telefono cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo per annullamento abbonamento |
+| [!UICONTROL Attributi della persona] | Attributi dal profilo della persona, tra cui: <li>Città <li>Paese <li>Data di nascita <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area dello stato dedotta<li>Posizione lavorativa <li>Cognome <li>Numero di telefono cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo per annullamento abbonamento <li>Ha `<custom object>` (Vedi [Filtro dati personalizzato](#custom-data-filtering).) |
+| [!UICONTROL Attributi Persona] > Ha `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funzione Beta"} La persona non dispone di record dello schema relazionale. Può anche essere valutato in base a qualsiasi criterio oggetto personalizzato selezionato, come configurato nello schema relazionale [XDM](../admin/xdm-field-management.md#relational-schemas). (Vedi [Filtro dati personalizzato](#custom-data-filtering)) |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>È stato rimosso</li><li>Ruolo</li> |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro dell&#39;elenco] | La persona è o non è membro di uno o più elenchi [!DNL Marketo Engage]. |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del programma] | La persona è o non è membro di uno o più programmi [!DNL Marketo Engage]. |
@@ -234,7 +223,7 @@ Per un percorso suddiviso per persone, puoi definire un percorso in base all’a
 
 >[!BEGINSHADEBOX &quot;Filtro inattività&quot;]
 
-Per ciascuno dei filtri _[!UICONTROL Cronologia attività]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa a filtro inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Aggiungi ad esempio il filtro _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail aperte]_ per creare un percorso per le persone che _&#x200B;**non hanno**&#x200B;_ aperto un&#39;e-mail in precedenza nel percorso. Abilita l’opzione di inattività e specifica l’e-mail. È consigliabile utilizzare il vincolo _[!UICONTROL Data attività]_ per definire un periodo di tempo per l&#39;inattività.
+Per ciascuno dei filtri _[!UICONTROL Cronologia attività]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa a filtro inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Aggiungi ad esempio il filtro _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail aperte]_ per creare un percorso per le persone che _**non hanno**_ aperto un&#39;e-mail in precedenza nel percorso. Abilita l’opzione di inattività e specifica l’e-mail. È consigliabile utilizzare il vincolo _[!UICONTROL Data attività]_ per definire un periodo di tempo per l&#39;inattività.
 
 ![Condizione Dividi percorso per persona per l&#39;acquisto dell&#39;iscrizione al gruppo](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -277,9 +266,28 @@ Per utilizzare l&#39;appartenenza all&#39;elenco in una condizione di suddivisio
 
 >[!ENDSHADEBOX]
 
+## Filtro dati personalizzato
+
+[!BADGE Beta]{type=Informative tooltip="Funzione Beta"}
+
+Puoi utilizzare gli schemi relazionali (classi basate su modelli) per suddividere i percorsi per account o persone. Gli oggetti personalizzati sono definiti all&#39;interno di _schemi relazionali_ e un amministratore di prodotto può [configurare i campi dello schema relazionale](../admin/xdm-field-management.md#relational-schemas) in [!DNL Journey Optimizer B2B Edition]. I campi dello schema selezionati sono disponibili nell&#39;editor delle condizioni per l&#39;utilizzo in _percorso suddiviso per account_ e _percorso suddiviso per persone_ nodi.
+
+Per una condizione **[!UICONTROL Dividi percorso per account]**, utilizzare il campo di ricerca per filtrare l&#39;elenco in base al nome dell&#39;oggetto personalizzato in _[!UICONTROL Attributi account]_. Aggiungere la condizione e impostare il valore su `true` o `false`.
+
+![Esempio di condizioni degli attributi della persona per l&#39;oggetto personalizzato dello schema relazionale](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
+
+Per una condizione **[!UICONTROL Dividi percorso per persone]**, utilizzare il campo di ricerca per filtrare l&#39;elenco in base al nome dell&#39;oggetto personalizzato in _[!UICONTROL Attributi persona]_.
+
+![Esempio di condizioni degli attributi della persona per l&#39;oggetto personalizzato dello schema relazionale](./assets/node-split-paths-people-relational-schema.png){width="600" zoomable="yes"}
+
+<!-- SPHR-21734
+
+Note: These are currently going under Account Attributes/Person Attributes folder, which is a bug. This will move to Special filters when resolved (? release).
+-->
+
 ## Unisci percorsi
 
-Aggiungi un nodo _Unisci percorsi_ per combinare diversi percorsi suddivisi per account nel percorso.
+Aggiungi un nodo _Unisci percorsi_ per combinare diversi _percorsi suddivisi per account_ nel percorso.
 
 1. Passa alla mappa del percorso.
 
@@ -305,4 +313,4 @@ Aggiungi un nodo _Unisci percorsi_ per combinare diversi percorsi suddivisi per 
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443264/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
