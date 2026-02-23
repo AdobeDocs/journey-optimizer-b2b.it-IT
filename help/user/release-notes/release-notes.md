@@ -3,9 +3,9 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: fd8b811eb7f4568a92213e7873dc626f572ae519
+source-git-commit: 768820247354cf8eb3da23f118314317f3a1e93c
 workflow-type: tm+mt
-source-wordcount: '4434'
+source-wordcount: '4436'
 ht-degree: 80%
 
 ---
@@ -25,12 +25,12 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
 | Funzione | Campi XDM/schemi relazionali: supporto per oggetti personalizzati della persona | (Beta) Gli amministratori ora possono selezionare oggetti personalizzati correlati a una persona utilizzando una relazione uno-a-uno a livello singolo con un account. Questa funzionalità consente all’organizzazione di marketing di rappresentare una visualizzazione più ricca dei dati aziendali reali per eseguire il targeting, personalizzare e creare rapporti su entità oltre il livello di persona o account. [Ulteriori informazioni](../admin/xdm-field-management.md#relational-schemas) |
+| Funzione | Reinserimento percorso | Ora puoi inviare account/persone più volte tramite un flusso di lavoro di percorso. Il reinserimento prevede più scenari, ad esempio la rivalutazione dei criteri di qualificazione e dei flussi di lavoro di sviluppo riutilizzabili. [Ulteriori informazioni](../journeys/journey-re-entry.md) |
 | Funzione | Progettazione delle e-mail - Supporto per Firefly e modelli di IA generativa personalizzati | Ora puoi abilitare l’integrazione di modelli Firefly standard e personalizzati, insieme a modelli di immagini di terze parti approvati (come NanoBanana). Gli addetti al marketing possono scegliere il modello migliore per ogni caso d’uso: Firefly standard per esigenze generali, Firefly personalizzato per la generazione on-brand o modelli di terze parti approvati per scenari specializzati o sperimentali. |
 | Miglioramento | Progettazione e-mail - convalida della qualità dei contenuti | Oltre all’allineamento del brand, puoi valutare la qualità complessiva dei contenuti per individuare potenziali problemi di leggibilità, coesione ed efficacia (indipendentemente dalle linee guida del brand). Questi controlli automatizzati consentono di individuare messaggi poco chiari, toni incoerenti o lacune strutturali. |
-| Miglioramento | Reinserimento percorso | Ora puoi inviare account/persone più volte tramite un flusso di lavoro di percorso. Il reinserimento prevede più scenari, ad esempio la rivalutazione dei criteri di qualificazione e dei flussi di lavoro di sviluppo riutilizzabili. |
-| Miglioramento | Attiva nelle destinazioni - Tipi di pubblico riutilizzabili | È ora possibile riutilizzare i tipi di pubblico virtuali in _Attiva nella destinazione_ azioni del percorso all&#39;interno dello stesso percorso e rimuovere gli account dai tipi di pubblico virtuali. |
 | Miglioramento | Percorsi di account e persone: supporto per oggetti personalizzati della persona | (Beta) Sfrutta i dati relazionali collegati agli account per filtrare le persone all’interno di un account o di un percorso di persone. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
 | Miglioramento | (Beta) Personalizzazione dei contenuti: supporto per oggetti personalizzati della persona | Quando definisci la personalizzazione del contenuto utilizzando gli oggetti personalizzati, puoi accedere alle variabili per gli oggetti personalizzati della classe basati su modelli (schemi relazionali). [Ulteriori informazioni](../content/personalization.md#custom-datasets) |
+| Miglioramento | Attiva nelle destinazioni - Tipi di pubblico riutilizzabili | È ora possibile riutilizzare i tipi di pubblico virtuali in _Attiva nella destinazione_ azioni del percorso all&#39;interno dello stesso percorso e rimuovere gli account dai tipi di pubblico virtuali. |
 
 >[!NOTE]
 >
