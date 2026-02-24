@@ -3,10 +3,10 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: a624ef4575aaf771af7bfcb301e98fdb615699f6
 workflow-type: tm+mt
-source-wordcount: '4474'
-ht-degree: 80%
+source-wordcount: '4371'
+ht-degree: 81%
 
 ---
 
@@ -26,11 +26,15 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | ---- | ---- | ----------- |
 | Funzione | Campi XDM/schemi relazionali: supporto per oggetti personalizzati della persona | [!BADGE Architettura semplificata]{type=Informative tooltip="Disponibile con architettura semplificata"} (Beta) Ora gli amministratori possono selezionare oggetti personalizzati correlati a una persona utilizzando una relazione uno-a-uno a livello singolo con un account. Questa funzionalità consente all’organizzazione di marketing di rappresentare una visualizzazione più ricca dei dati aziendali reali per eseguire il targeting, personalizzare e creare rapporti su entità oltre il livello di persona o account. [Ulteriori informazioni](../admin/xdm-field-management.md#relational-schemas) |
 | Funzione | Reinserimento percorso | [!BADGE Architettura semplificata]{type=Informative tooltip="Disponibile con architettura semplificata"} Ora puoi inviare account/persone tramite un flusso di lavoro di percorso più volte. Il reinserimento prevede più scenari, ad esempio la rivalutazione dei criteri di qualificazione e dei flussi di lavoro di sviluppo riutilizzabili. [Ulteriori informazioni](../journeys/journey-re-entry.md) |
-| Funzione | Progettazione delle e-mail - Supporto per Firefly e modelli di IA generativa personalizzati | Ora puoi abilitare l’integrazione di modelli Firefly standard e personalizzati, insieme a modelli di immagini di terze parti approvati (come NanoBanana). Gli addetti al marketing possono scegliere il modello migliore per ogni caso d’uso: Firefly standard per esigenze generali, Firefly personalizzato per la generazione on-brand o modelli di terze parti approvati per scenari specializzati o sperimentali. |
-| Miglioramento | Progettazione e-mail - convalida della qualità dei contenuti | Oltre all’allineamento del brand, puoi valutare la qualità complessiva dei contenuti per individuare potenziali problemi di leggibilità, coesione ed efficacia (indipendentemente dalle linee guida del brand). Questi controlli automatizzati consentono di individuare messaggi poco chiari, toni incoerenti o lacune strutturali. |
 | Miglioramento | Percorsi di account e persone: supporto per oggetti personalizzati della persona | [!BADGE Architettura semplificata]{type=Informative tooltip="Disponibile con architettura semplificata"} (Beta) Sfrutta i dati relazionali collegati agli account per filtrare le persone all&#39;interno di un account o di un percorso di persone. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
 | Miglioramento | (Beta) Personalizzazione dei contenuti: supporto per oggetti personalizzati della persona | [!BADGE Architettura semplificata]{type=Informative tooltip="Disponibile con architettura semplificata"} Quando si definisce la personalizzazione del contenuto utilizzando gli oggetti personalizzati, è possibile accedere alle variabili per gli oggetti personalizzati della classe basata su modello (schemi relazionali). [Ulteriori informazioni](../content/personalization.md#custom-datasets) |
 | Miglioramento | Attiva nelle destinazioni - Tipi di pubblico riutilizzabili | È ora possibile riutilizzare i tipi di pubblico virtuali in _Attiva nella destinazione_ azioni del percorso all&#39;interno dello stesso percorso e rimuovere gli account dai tipi di pubblico virtuali. |
+
+<!-- wait for next release
+| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. |
+| Feature | Email design - Support for Firefly and custom Generative AI models | You can now enable integration of standard and custom Firefly models, along with approved third-party image models (such as NanoBanana). Marketers can select the best model for each use case: standard Firefly for general needs, custom Firefly for on-brand generation, or approved third-party models for specialized or experimental scenarios. |
+| Enhancement | Email design - content quality validation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. |
+| -->
 
 >[!NOTE]
 >
@@ -47,10 +51,6 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | Miglioramento | Nodo percorso _Attendi_ - Impostazioni avanzate | [!BADGE Architettura semplificata]{type=Informative tooltip="Disponibile per architettura semplificata"} Per un nodo _Wait_ in un percorso, ora puoi specificare i giorni e gli orari di uscita e selezionare i fusi orari. Questo miglioramento offre un migliore controllo dell’orchestrazione del percorso e della tempistica delle campagne. [Ulteriori informazioni](../journeys/wait-nodes.md#advanced-wait-settings) |
 | Miglioramento | Filtro Membro del gruppo di acquisto - Rimosso | Per un nodo _split path by people_, il filtro _[!UICONTROL Member of Buying Group]_ ora include il vincolo _Is Removed_. Selezionando questa opzione, il filtro può includere o escludere il membro del gruppo di acquisto rimosso. È supportato anche negli elenchi avanzati di Marketo Engage, dove è possibile utilizzare questo nuovo vincolo nel filtro _[!UICONTROL Membro del gruppo di acquisto]_. |
 | Miglioramento | Progettazione delle e-mail: punti elenco a più livelli | Gli strumenti per lo spazio di progettazione del contenuto dell’e-mail ora supportano i sub-punti elenco (livelli di punto elenco). |
-
-<!--
-| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. | 
-| -->
 
 >[!NOTE]
 >
