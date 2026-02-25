@@ -1,12 +1,12 @@
 ---
-title: Gestione utente
+title: Gestione degli utenti
 description: 'Gestisci l’accesso degli utenti con Experience Cloud Admin Console: crea gruppi di utenti, assegna profili di prodotto e configura autorizzazioni basate sui ruoli per Journey Optimizer B2B edition.'
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: fed4ffe06d645784dc3f2adc84c15906e9816507
+source-git-commit: 00633bec3f5b9299208dc3e4523bcd97fb055be7
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2012'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Per ulteriori informazioni sull&#39;utilizzo dei profili di prodotto per le ades
 
 Quando si aggiunge un utente al profilo di prodotto Marketo Engage, questi vengono successivamente aggiunti al ruolo _Utente standard_ nell&#39;area di lavoro predefinita della sottoscrizione Marketo Engage. Questo ruolo concede loro tutte le autorizzazioni _Utente standard_ per Marketo Engage in tale area di lavoro. Attualmente, tutti gli utenti Journey Optimizer B2B edition devono essere utenti Marketo Engage. Un amministratore di Marketo Engage può limitare l&#39;accesso aggiornando le autorizzazioni per il ruolo _Utente standard_ o spostando l&#39;utente in un altro ruolo utente di Marketo Engage con autorizzazioni più restrittive.
 
-Per ulteriori informazioni sulla gestione di queste autorizzazioni in Marketo Engage, vedi [Gestione dei ruoli utente e delle autorizzazioni](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} nella documentazione di Marketo Engage.
+Per ulteriori informazioni sulla gestione di queste autorizzazioni in Marketo Engage, vedi [Gestione dei ruoli utente e delle autorizzazioni](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} nella documentazione di Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -106,10 +106,10 @@ Per ulteriori informazioni sull&#39;utilizzo dei gruppi di utenti per gestire le
 
    * [!UICONTROL Marketo Engage]
    * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
-   * [!UICONTROL Raccolta dati di Adobe Experience Platform]
-   * [!UICONTROL Accesso a tutti gli elementi della raccolta dati]
+   * [!UICONTROL Raccolta dati Adobe Experience Platform - Accesso predefinito a tutti gli accessi alla raccolta dati]
+   * [!UICONTROL Adobe Experience Platform - Predefinito Production All Access]
 
-   ![Admin Console - user-group - aggiungi prodotti](./assets/admin-console-user-group-add-products.png){width="700" zoomable="yes"}
+   ![Admin Console - user-group - aggiungi prodotti](./assets/admin-console-user-group-add-products.png){width="550" zoomable="yes"}
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -143,7 +143,7 @@ Le autorizzazioni sono diritti unitari che ti consentono di definire le autorizz
 
 Nell&#39;area _Autorizzazioni_ di Adobe Experience Platform gli amministratori possono definire ruoli utente e criteri di accesso per gestire le autorizzazioni di accesso per funzionalità e oggetti all&#39;interno di un&#39;applicazione di prodotto. In questa app, puoi creare e gestire i ruoli, nonché assegnare le autorizzazioni per le risorse desiderate per tali ruoli. Le autorizzazioni ti consentono inoltre di gestire le sandbox e gli utenti associati a un ruolo specifico.
 
-Per ulteriori informazioni sulle autorizzazioni per i ruoli in Experience Platform, vedi [Gestione delle autorizzazioni per un ruolo](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} nella documentazione di Experience Platform.
+Per ulteriori informazioni sulle autorizzazioni per i ruoli in Experience Platform, vedi [Gestione delle autorizzazioni per un ruolo](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} nella documentazione di Experience Platform.
 
 ### Autorizzazioni per i prodotti B2B
 
