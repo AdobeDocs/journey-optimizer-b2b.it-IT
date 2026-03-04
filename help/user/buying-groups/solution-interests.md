@@ -4,10 +4,10 @@ description: Crea interessi per la soluzione per i prodotti di destinazione, aut
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: e914d3a43c40bd6f4c60c7be0a9e91ff4e5838d1
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 1%
+source-wordcount: '725'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Prima di creare gruppi di acquisto, è necessario sapere cosa si vende e chi si 
 
    Per impostazione predefinita, l&#39;elenco è ordinato in base alla colonna _[!UICONTROL Ultimo aggiornamento]_. Fai clic sul titolo della colonna nell’intestazione per impostare l’ordinamento tra decrescente e crescente.
 
-   Immettere il testo nello strumento _Ricerca_ nella parte superiore dell&#39;elenco per filtrare l&#39;elenco visualizzato in base al nome.
+   Immetti il testo nello strumento _Ricerca_ nella parte superiore dell’elenco per filtrare l’elenco visualizzato in base al nome.
 
    ![Scheda Interesse soluzione](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
@@ -37,7 +37,7 @@ Nella scheda _[!UICONTROL Interesse soluzione]_, nella colonna **[!UICONTROL Pro
 
 ![Acquisto di processi di gruppo per l&#39;interesse della soluzione](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
 
-Per eliminare un processo del gruppo acquisti, fai clic sui puntini di sospensione (...) accanto al nome del processo e scegli **[!UICONTROL Elimina]**.
+Per eliminare un processo del gruppo acquisti, fai clic sui puntini di sospensione (...) accanto al nome del processo e scegliendo **[!UICONTROL Elimina]**.
 
 ## Creare un interesse per la soluzione
 
@@ -59,7 +59,7 @@ Prima di creare un interesse per la soluzione, è necessario disporre di un mode
 
 1. Abilita l&#39;impostazione **[!UICONTROL Aggiorna gruppi di acquisto esistenti]** (facoltativo).
 
-   Quando questa opzione è abilitata, tutti i gruppi di acquisto esistenti associati all’interesse della soluzione vengono aggiornati tramite il ciclo di sincronizzazione di 7 giorni.
+   Quando questa opzione è abilitata, tutti i gruppi di acquisto esistenti associati all’interesse della soluzione vengono aggiornati tramite il ciclo di sincronizzazione giornaliero.
 
 1. Fai clic su **[!UICONTROL Crea]** nell&#39;angolo superiore destro.
 
@@ -72,7 +72,7 @@ In qualsiasi momento, puoi modificare il nome e la descrizione di un interesse p
 1. Dalla scheda _[!UICONTROL Interesse per la soluzione]_, utilizzare uno dei metodi seguenti per aprire le proprietà per l&#39;interesse per la soluzione che si desidera modificare:
 
    * Fai clic sul nome dell’interesse della soluzione.
-   * Fai clic sui puntini di sospensione (**...**) accanto a esso e scegli **[!UICONTROL Modifica]**.
+   * Fare clic sui puntini di sospensione (**...**) accanto e scegliere **[!UICONTROL Modifica]**.
 
    ![Menu Altro interesse soluzione](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
@@ -86,7 +86,7 @@ In qualsiasi momento, puoi modificare il nome e la descrizione di un interesse p
 
    * Modifica l&#39;impostazione **[!UICONTROL Aggiorna gruppi di acquisto esistenti]**.
 
-     Quando questa opzione è abilitata, tutti i gruppi di acquisto esistenti associati all’interesse della soluzione vengono aggiornati tramite il ciclo di sincronizzazione di 7 giorni.
+     Quando questa opzione è abilitata, tutti i gruppi di acquisto esistenti associati all’interesse della soluzione vengono aggiornati tramite il ciclo di sincronizzazione giornaliero.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -94,7 +94,7 @@ In qualsiasi momento, puoi modificare il nome e la descrizione di un interesse p
 
 Qualsiasi interesse di soluzione attualmente in uso da un processo o percorso di account del gruppo di acquisto non può essere eliminato. Inoltre, non è possibile recuperare un interesse di soluzione eliminato.
 
-1. Dalla scheda _[!UICONTROL Interesse soluzione]_, fai clic sui puntini di sospensione (**...**) accanto all&#39;interesse della soluzione e scegli **[!UICONTROL Elimina]**.
+1. Dalla scheda _[!UICONTROL Interesse soluzione]_, fai clic sui puntini di sospensione (**...**) accanto all&#39;interesse della soluzione e scegliere **[!UICONTROL Elimina]**.
 
    Questa azione apre una finestra di dialogo di conferma.
 
@@ -104,4 +104,4 @@ Qualsiasi interesse di soluzione attualmente in uso da un processo o percorso di
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3450121/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
