@@ -4,9 +4,9 @@ description: 'Modifica le immagini in modo nativo con Adobe Express in Journey O
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+source-git-commit: 7e58b0ccb9d9dd0192cb119bec83a1f13e3d5d69
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '860'
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ Se disponi di una licenza Enterprise per Adobe Express, puoi accedere e utilizza
 
 ![Apri l&#39;immagine nell&#39;editor aziendale di Adobe Express](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-La [Guida utente di Adobe Express](https://helpx.adobe.com/it/express/web.html){target="_blank"} fornisce informazioni dettagliate sulle funzionalità di modifica disponibili.
+La [Guida utente di Adobe Express](https://helpx.adobe.com/express/web.html){target="_blank"} fornisce informazioni dettagliate sulle funzionalità di modifica disponibili.
 
 ## Azioni rapide in Adobe Express
 
@@ -88,7 +88,7 @@ Se non disponi di una licenza Adobe Express Enterprise, puoi accedere all’edit
 
 1. Quando ritorni all&#39;editor azioni rapide principale di Adobe Express, fai clic su **[!UICONTROL Salva]** per salvare il file immagine modificato nell&#39;archivio risorse di Journey Optimizer B2B edition con lo stesso nome di file.
 
-## Ridimensiona immagine
+### Ridimensiona immagine
 
 1. Utilizza le impostazioni di ridimensionamento per ridurre o espandere l’immagine:
 
@@ -102,13 +102,13 @@ Se non disponi di una licenza Adobe Express Enterprise, puoi accedere all’edit
 
 1. Quando si è soddisfatti del risultato, fare clic su **[!UICONTROL Applica]**.
 
-## Rimuovi sfondo
+### Rimuovi sfondo
 
 ![Modifica con Adobe Express- rimuovi sfondo](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
 
 Adobe Express esegue una rimozione automatica dello sfondo per isolare l’oggetto principale nell’immagine. Se si è soddisfatti del risultato, fare clic su **[!UICONTROL Applica]**.
 
-## Ritaglia immagine
+### Ritaglia immagine
 
 1. Trascina le maniglie agli angoli dell’immagine per rimuovere le aree esterne che non desideri includere nella risorsa immagine.
 
@@ -116,7 +116,7 @@ Adobe Express esegue una rimozione automatica dello sfondo per isolare l’ogget
 
 1. Quando si è soddisfatti del risultato, fare clic su **[!UICONTROL Applica]**.
 
-## Converti formato file
+### Converti formato file
 
 * **[!UICONTROL Converti in JPEG]** - Per un&#39;immagine PNG, è possibile convertirla in un file di immagine JPEG e salvarla come nuova risorsa.
 * **[!UICONTROL Converti in PNG]** - Per un&#39;immagine JPEG, è possibile convertirla in un file di immagine PNG e salvarla come nuova risorsa.

@@ -5,10 +5,10 @@ feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 093deda1fa43f1e699709b0ec96db173fc39c3cd
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 2%
+source-wordcount: '2220'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Una pagina di destinazione è una pagina web indipendente in cui puoi indirizzare contatti e clienti dopo che hanno fatto clic su un elemento collegato in un’e-mail, un messaggio SMS o qualsiasi posizione digitale. Puoi incorporare queste pagine nei tuoi percorsi di account per consentire ai potenziali clienti e ai clienti di visualizzare i messaggi sul web e i progressi nei tuoi percorsi di account. Puoi creare, personalizzare e visualizzare in anteprima le pagine di destinazione nell’area di progettazione visiva della pagina di destinazione.
 
-Per indirizzare i clienti a una pagina web definita quando fanno clic su un collegamento specifico, crea una pagina di destinazione in Journey Optimizer B2B edition.
+Per indirizzare i clienti a una pagina web definita quando fanno clic su un collegamento specifico, crea una pagina di destinazione in Journey Optimizer B2B edition:
 
 * Creare la pagina
 * Progettare la pagina di destinazione e creare i contenuti
@@ -110,15 +110,15 @@ Adobe Journey Optimizer B2B edition consente di importare contenuti HTML esisten
 
 >[!NOTE]
 >
->L&#39;utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
+>L’utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
 
 Puoi personalizzare il contenuto importato in base alle esigenze con lo spazio di progettazione visiva.
 
-### Seleziona un modello salvato
+### Seleziona un modello salvato o di esempio
 
 Puoi scegliere tra:
 
-* **Modelli di esempio**. L’interfaccia di Journey Optimizer offre una raccolta di modelli di pagina di destinazione pronti all’uso tra cui puoi scegliere.
+* **Modelli di esempio**. L’interfaccia B2B edition di Journey Optimizer offre una raccolta di modelli di pagina di destinazione pronti all’uso che puoi utilizzare come punto di partenza per la progettazione della pagina di destinazione.
 
 * **Modelli salvati**. Utilizza un modello personalizzato salvato creato da un membro dell&#39;organizzazione utilizzando il menu _[!UICONTROL Modelli]_ <!-- or the _[!UICONTROL Save as content template]_ option when designing a landing page. -->
 
@@ -271,7 +271,7 @@ Se non trovi questo pulsante, non sono stati rilevati problemi.
 
 Puoi duplicare una pagina di destinazione utilizzando uno dei seguenti metodi:
 
-* Dalla pagina di elenco _[!UICONTROL Pagina di destinazione]_, fai clic sull&#39;icona _Altro_ (**...**) accanto al nome della pagina di destinazione e scegli **[!UICONTROL Duplica]**.
+* Dalla pagina dell&#39;elenco _[!UICONTROL Pagina di destinazione]_, fare clic sull&#39;icona _Altro_ (**...**) accanto al nome della pagina di destinazione e scegli **[!UICONTROL Duplica]**.
 * Nella parte superiore destra della pagina dei dettagli della pagina di destinazione, fare clic su **[!UICONTROL ... Altro]** e scegli **[!UICONTROL Duplicato]**.
 
 ![Duplica la pagina di destinazione](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"}
@@ -286,7 +286,7 @@ La pagina duplicata (nuova) viene quindi visualizzata nell&#39;elenco _Pagine di
 
 Puoi eliminare una pagina di destinazione utilizzando uno dei seguenti metodi:
 
-* Dalla pagina di elenco _[!UICONTROL Pagina di destinazione]_, fare clic sull&#39;icona _Altro_ (**...**) accanto al nome della pagina di destinazione e scegliere **[!UICONTROL Elimina]**.
+* Dalla pagina dell&#39;elenco _[!UICONTROL Pagina di destinazione]_, fare clic sull&#39;icona _Altro_ (**...**) accanto al nome della pagina di destinazione e scegliere **[!UICONTROL Elimina]**.
 * Nella parte superiore destra della pagina dei dettagli della pagina di destinazione, fare clic su **[!UICONTROL ... Altro]** e scegliere **[!UICONTROL Elimina]**.
 
 Questa azione apre una finestra di dialogo di conferma. È possibile interrompere il processo facendo clic su **[!UICONTROL Annulla]** oppure su **[!UICONTROL Elimina]** per confermare l&#39;eliminazione.

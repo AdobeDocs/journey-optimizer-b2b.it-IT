@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentazione di Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando le funzioni di IA generativa incorporata e l’automazione leader del settore.
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+source-git-commit: b037049c75a83f427185c91dff3a3ffb066e7e20
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 78%
+source-wordcount: '415'
+ht-degree: 76%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 78%
    + [Abilitare l’accesso all’Assistente IA](./ai-assistant/enable-ai-assistant-access.md)
    + [Guida alle domande](./ai-assistant/question-guidance.md)
    + [Utilizzo dell’Assistente IA](./ai-assistant/use-ai-assistant.md)
+   + [IA generativa per i contenuti](./ai-assistant/generative-ai-content.md)
    + Agenti {#ai-agents}
       + [Agente Audience](./agents/audience-agent-b2b.md)
       + [Agente di compilazione percorso B2B](./agents/journey-agent.md)
@@ -116,6 +117,7 @@ ht-degree: 78%
    + Pagine di destinazione (Beta) {#landing-pages}
       + [Panoramica](./content/landing-pages.md)
       + [Progettazione pagina di destinazione](./content/landing-page-design.md)
+      + [Assistente AI per il contenuto della pagina di destinazione](./content/ai-assistant-landing-pages.md)
    + Strumenti di progettazione dei contenuti {#content-design}
       + [Componenti della struttura](./content/structure-components.md)
       + [Componenti per contenuti](./content/content-components.md)
