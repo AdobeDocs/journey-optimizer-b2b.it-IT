@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Temi e-mail, Riutilizzabilità, Allineamento marchio, Progettazione e-mail
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 0440afada2cb17268ee265c07e4646ca244bf2a6
 workflow-type: tm+mt
-source-wordcount: '3086'
-ht-degree: 1%
+source-wordcount: '3107'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
 >title="Applicare un tema del brand a e-mail o modelli di e-mail"
->abstract="Seleziona un tema per l’e-mail o il modello e-mail per applicare uno stile adatto al tuo marchio e design."
+>abstract="Seleziona un tema per l’e-mail o per il modello di e-mail al fine di applicare uno stile adatto intermini di brand e progettazione grafica."
 
 Con i temi, i designer non tecnici hanno la possibilità di creare linee guida per la progettazione di contenuti e-mail riutilizzabili, in linea con un marchio e uno stile specifici. I temi consentono agli addetti al marketing di sfruttare le e-mail visivamente accattivanti e coerenti con il brand in modo più rapido e con meno sforzo, e di fornire opzioni di personalizzazione avanzate per esigenze di progettazione univoche.
 
@@ -113,7 +113,11 @@ Selezionare la scheda **[!UICONTROL Colori]** e utilizzare le impostazioni per d
 
   Fai clic sulla freccia _Indietro_ per chiudere gli strumenti della tavolozza dei colori.
 
-* Fai clic su **[!UICONTROL Aggiungi variante]** per creare più varianti di colore, ad esempio in modalità _chiaro_ e _scuro_, in cui ogni variante dispone di una propria palette di colori e controlli sfumatura. Puoi avere fino a sei varianti.
+* Fai clic su **[!UICONTROL Aggiungi variante]** per creare più varianti di colore, ad esempio in modalità _chiaro_ e _scuro_, in cui ogni variante dispone di una propria palette di colori e controlli sfumatura.
+
+  >[!NOTE]
+  >
+  >Per ogni tema del brand, puoi definire fino a quattro varianti.
 
   Per ogni variante, fai clic sull&#39;icona _Modifica_ ( ![Icona Modifica](../assets/do-not-localize/icon-edit.svg) ). È possibile utilizzare la tavolozza predefinita o qualsiasi colore personalizzato.
 
@@ -286,7 +290,7 @@ Se hai un elenco esteso di temi personalizzati, utilizza il campo _Cerca_ e altr
 
 ### Eliminare o duplicare un tema
 
-Quando si individua il tema, fare clic sull&#39;icona _Altro menu_ (**...**) in basso a destra della scheda del tema e scegliere l&#39;azione che si desidera eseguire:
+Quando si individua il tema, fare clic sul _menu Altro_ (**...**) in basso a destra della scheda del tema e scegli l’azione da intraprendere:
 
 ![Modifica un tema - seleziona un tema personalizzato da modificare](./assets/email-theme-edit-more-menu.png){width="220"}
 
