@@ -2,10 +2,10 @@
 title: Panoramica di Adobe Journey Optimizer B2B Edition
 description: 'Scopri Adobe Journey Optimizer B2B Edition: orchestra percorsi di account con gruppi acquisti, approfondimenti sull’IA e l’integrazione di Experience Platform per il marketing B2B.'
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 100%
+source-wordcount: '841'
+ht-degree: 96%
 
 ---
 
@@ -15,11 +15,11 @@ Con Adobe Journey Optimizer B2B Edition, puoi orchestrare account e percorsi del
 
 ## Percorsi di account con gruppi di acquisto
 
-Confrontando Adobe Journey Optimizer B2B Edition con Marketo Engage e Adobe Journey Optimizer Standard, la distinzione chiave è che i percorsi degli account spostano gli account nel percorso, non le persone. Una persona associata a un account in genere presenta una progressione non lineare basata sull’avanzamento dell’account nel percorso e non sulle singole azioni. Ad esempio, quando un account si trova nella fase iniziale del percorso di acquisto, le informazioni inviate potrebbero riguardare le funzionalità o le caratteristiche generali della soluzione. Più avanti nel processo di acquisto, il contenuto potrebbe diventare più mirato su offerte particolari o altri elementi destinati a chiudere una vendita. Dopo l’acquisto della soluzione, le informazioni potrebbero cambiare nuovamente per fornire guide pratiche, best practice o informazioni su eventi successivi, oppure con contenuti su ulteriori upsell. Anche se un singolo utente non ha interagito con il contenuto della fase iniziale, desideri comunque farlo avanzare alla fase corrente non in base alle proprie azioni, ma a quelle di altre persone all’interno del proprio account o gruppo di acquisto.
+Quando si confrontano i percorsi di account con le funzionalità di percorso in Marketo Engage e Adobe Journey Optimizer Standard, la distinzione chiave è che i percorsi di account spostano gli account nel percorso, non le persone. Una persona associata a un account in genere presenta una progressione non lineare basata sull’avanzamento dell’account nel percorso e non sulle singole azioni. Ad esempio, quando un account si trova nella fase iniziale del percorso di acquisto, le informazioni inviate potrebbero riguardare le funzionalità o le caratteristiche generali della soluzione. Più avanti nel processo di acquisto, il contenuto potrebbe diventare più mirato su offerte particolari o altri elementi destinati a chiudere una vendita. Dopo l’acquisto della soluzione, le informazioni potrebbero cambiare nuovamente per fornire guide pratiche, best practice o informazioni su eventi successivi, oppure con contenuti su ulteriori upsell. Anche se un singolo utente non ha interagito con il contenuto della fase iniziale, desideri comunque farlo avanzare alla fase corrente non in base alle proprie azioni, ma a quelle di altre persone all’interno del proprio account o gruppo di acquisto.
 
 ## Architettura di alto livello
 
-Adobe Journey Optimizer B2B Edition utilizza i _tipi di pubblico dell’account_ e i _tipi di pubblico delle persone_ di Adobe Experience Platform per alimentare un percorso di account, che viene eseguito all’interno di Marketo Engage. Experience Platform è sempre la fonte di verità per questi dati, ma tutta l’esecuzione e l’elaborazione del percorso dell’account avviene all’interno dell’infrastruttura di marketing B2B di Marketo Engage. L’orchestrazione riporta i dati a Experience Platform quasi in tempo reale tramite il connettore di origine Marketo Engage - edizione B2B di Adobe Real-Time CDP esistente, che trasmette le modifiche ai dati da Marketo Engage a Experience Platform.
+Adobe Journey Optimizer B2B Edition utilizza i _tipi di pubblico di account_ e i _tipi di pubblico di persone_ di Adobe Experience Platform per alimentare un percorso per account, che viene eseguito all’interno di Marketo Engage. Experience Platform è sempre la fonte di verità per questi dati, ma tutta l’esecuzione e l’elaborazione del percorso dell’account avviene all’interno dell’infrastruttura di marketing B2B di Marketo Engage. L’orchestrazione riporta i dati a Experience Platform quasi in tempo reale tramite il connettore di origine Marketo Engage - edizione B2B di Adobe Real-Time CDP esistente, che trasmette le modifiche ai dati da Marketo Engage a Experience Platform.
 
 ![Architettura dei dati di alto livello](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
 

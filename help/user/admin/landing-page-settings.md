@@ -3,14 +3,12 @@ title: Configurazione della pagina di destinazione
 description: Configura i sottodomini della pagina di destinazione, le impostazioni di precompilazione dei moduli e gli stream di dati per abilitare la pubblicazione di pagine web di Campaign in Journey Optimizer B2B edition.
 feature: Setup, Landing Pages, Content
 role: Admin
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 6719755db59ed79a4bd32e4f0df0ebb8207aecda
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 28%
+source-wordcount: '500'
+ht-degree: 35%
 
 ---
 
@@ -20,7 +18,7 @@ Gli amministratori devono assicurarsi che le impostazioni della pagina di destin
 
 ## Impostazioni
 
-Per rivedere la configurazione della pagina di destinazione, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**. In _[!UICONTROL Pagine di destinazione]_ nel pannello di navigazione, seleziona **[!UICONTROL Impostazioni]**.
+Per rivedere la configurazione della pagina di destinazione, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**. In _[!UICONTROL Pagine di destinazione]_ nel riquadro di navigazione, selezionare **[!UICONTROL Impostazioni]**.
 
 ![Impostazioni pagina di destinazione](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
 
@@ -52,7 +50,7 @@ Abilita l&#39;opzione **[!UICONTROL Precompila modulo]** per consentire ai modul
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
 >title="ID dello stream di dati mancante"
->abstract="Nel sottodominio manca un ID dello stream di dati, necessario per il routing corretto. Configuralo in Impostazioni per continuare"
+>abstract="Nel sottodominio manca un ID dello stream di dati, necessario per l’indirizzamento corretto. Configuralo in Impostazioni per continuare"
 
 Imposta l&#39;opzione **[!UICONTROL Datastream]** per configurare un datastream per la raccolta eventi della pagina di destinazione.
 
