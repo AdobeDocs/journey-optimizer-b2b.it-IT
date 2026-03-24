@@ -4,10 +4,10 @@ description: 'Semplifica la generazione della domanda con i percorsi: crea, pubb
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 6511f40329df34db665ed6f971fa20670be0ae32
+source-git-commit: a9f38d6d38233a974d640f83e5940d16fec50632
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 44%
+source-wordcount: '1525'
+ht-degree: 43%
 
 ---
 
@@ -70,7 +70,7 @@ Immetti il testo nello strumento _Ricerca_ nella parte superiore dell’elenco p
 
 Nella barra di navigazione a sinistra, espandi **[!UICONTROL Gestione Percorsi]** e fai clic su **[!UICONTROL percorsi di persone]**.
 
-Immettere il testo nello strumento _Ricerca_ nella parte superiore dell&#39;elenco per filtrare l&#39;elenco visualizzato in base al nome.
+Immetti il testo nello strumento _Ricerca_ nella parte superiore dell’elenco per filtrare l’elenco visualizzato in base al nome.
 
 ![Filtra l&#39;elenco dei percorsi di persone](./assets/person-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
@@ -103,11 +103,11 @@ Lo stato di un percorso può cambiare in base alle azioni applicate. In base all
 
 | Stato | Descrizione | Azioni disponibili |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Bozza**&#x200B;_ | Un percorso non pubblicato che può essere modificato. | <li>[Pubblica](./create-publish-journey.md#publish-a-journey)<li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
-| _&#x200B;**Live**&#x200B;_ | Lo stato del percorso cambia da _Bozza_ a _Live_ quando viene pubblicato un percorso. Se il percorso si trova in questo stato, non può più essere modificato. | <li>[Duplica](#duplicate-journey)<li>[Chiudi ai nuovi ingressi](#close-to-new-entries) <li>[Interrompi](#abort-journey) |
-| _&#x200B;**Chiuso alle nuove voci**&#x200B;_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <li>[Duplica](#duplicate-journey) <li>[Interrompi](#abort-journey) |
-| _&#x200B;**Annullato**&#x200B;_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
-| _&#x200B;**Completato**&#x200B;_ | Quando tutti i membri del pubblico dell&#39;account o della persona in un percorso completano il percorso, lo stato cambia da _Live_ o _Closed to new entries_ a _Finished_. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Bozza**_ | Un percorso non pubblicato che può essere modificato. | <li>[Pubblica](./create-publish-journey.md#publish-a-journey)<li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Live**_ | Lo stato del percorso cambia da _Bozza_ a _Live_ quando viene pubblicato un percorso. Se il percorso si trova in questo stato, non può più essere modificato. | <li>[Duplica](#duplicate-journey)<li>[Chiudi ai nuovi ingressi](#close-to-new-entries) <li>[Interrompi](#abort-journey) |
+| _**Chiuso alle nuove voci**_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <li>[Duplica](#duplicate-journey) <li>[Interrompi](#abort-journey) |
+| _**Annullato**_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Completato**_ | Quando tutti i membri del pubblico dell&#39;account o della persona in un percorso completano il percorso, lo stato cambia da _Live_ o _Closed to new entries_ a _Finished_. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
 
 ## Mappe percorso
 
@@ -157,7 +157,7 @@ Se chiudi un percorso live, gli account attualmente presenti nel percorso contin
 
 1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Chiudi a nuovi ingressi]**.
 
-### Duplicare un percorso
+### Duplicare un percorso {#duplicate-journey}
 
 Un’azione di duplicazione è simile a una funzione di clonazione, ma un percorso duplicato non include le risorse dei contenuti del percorso create. Puoi duplicare i dettagli per il percorso o solo una semplice _ossatura_ della struttura del flusso e del percorso.
 
@@ -165,7 +165,7 @@ Un’azione di duplicazione è simile a una funzione di clonazione, ma un percor
 >
 >Questa azione non è attualmente disponibile per percorsi di persone.
 
-1. Fai clic sull’icona _Altro_ (**...**) accanto al nome del percorso e scegli **[!UICONTROL Duplica]**.
+1. Fai clic sull&#39;icona _Altro_ (**...**) accanto al nome del percorso e scegliere **[!UICONTROL Duplica]**.
 
    ![Fai clic sull’icona ... e scegli Duplica](./assets/account-journeys-list-more-menu.png){width="450"}
 
@@ -179,7 +179,7 @@ Un’azione di duplicazione è simile a una funzione di clonazione, ma un percor
 
 1. Nella finestra di dialogo _Duplica percorso_, imposta **[!UICONTROL Nome]** e **[!UICONTROL Descrizione]** per il nuovo percorso.
 
-   Per impostazione predefinita, la finestra di dialogo utilizza il nome del percorso duplicato a cui è stato aggiunto __copia_. Immetti un altro nome univoco per il percorso, in base alle esigenze.
+   Per impostazione predefinita, la finestra di dialogo utilizza il nome del percorso duplicato a cui è stato aggiunto __ copia_. Immetti un altro nome univoco per il percorso, in base alle esigenze.
 
    ![Finestra di dialogo Duplica percorso](./assets/account-journey-duplicate-dialog.png){width="400"}
 
@@ -197,7 +197,7 @@ Un’azione di duplicazione è simile a una funzione di clonazione, ma un percor
 
 Utilizza un’azione di eliminazione per eliminare definitivamente un percorso. Non puoi eliminare un percorso live o pianificato.
 
-1. Fai clic sull’icona _Altro_ (**...**) accanto al nome del percorso e scegli **[!UICONTROL Elimina]**.
+1. Fai clic sull&#39;icona _Altro_ (**...**) accanto al nome del percorso e scegliere **[!UICONTROL Elimina]**.
 
    A seconda dello stato del percorso, puoi anche accedere all’azione di eliminazione dai dettagli del percorso o dalla mappa del percorso:
 
@@ -219,4 +219,4 @@ Quando selezioni il nodo, fai clic sul numero per visualizzare un elenco di acco
 
 ## Video introduttivo sul percorso di account {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443215/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
