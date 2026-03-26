@@ -273,7 +273,7 @@ Per supportare gli addetti al marketing nell’inclusione di altri canali nei lo
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
 <td>Configurare il sito Web aziendale per supportare Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Ulteriori informazioni</a></td>
+<td><a href="https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/js-overview">Ulteriori informazioni</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
