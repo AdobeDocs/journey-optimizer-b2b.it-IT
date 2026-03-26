@@ -4,10 +4,10 @@ description: Configurare Journey Optimizer B2B edition con l'architettura sempli
 feature: Setup, Administration
 role: Admin, Data Engineer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
-source-git-commit: 38d1794ed30a34dbb34dfaec2d3088bc3a4680ac
+source-git-commit: 53bf3ce685079df16752af49c3b61f583f0b72e7
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
@@ -273,7 +273,7 @@ Per supportare gli addetti al marketing nellâ€™inclusione di altri canali nei lo
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
 <td>Configurare il sito Web aziendale per supportare Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/js-overview">Ulteriori informazioni</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Ulteriori informazioni</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
@@ -336,12 +336,12 @@ Una volta completato il provisioning, le sandbox vengono associate e le attivitÃ
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
 <td>Creare un profilo di prodotto Marketo Engage in Adobe Admin Console (solo per la nuova istanza di Marketo Engage)</td>
-<td><a href="./admin/user-management.md#create-the-marketo-engage-product-profile">Ulteriori informazioni</a></td>
+<td><a href="./admin/user-management.md#marketo-engage-profile">Ulteriori informazioni</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
 <td>Aggiungere un gruppo di utenti per il profilo</td>
-<td><a href="./admin/user-management.md#add-a-user-group-for-the-profile">Ulteriori informazioni</a></td>
+<td><a href="./admin/user-management.md#add-user-group">Ulteriori informazioni</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>

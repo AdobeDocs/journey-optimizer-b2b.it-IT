@@ -1,18 +1,19 @@
 ---
 title: Configurazione e-mail
-description: Placeholder
+description: Configura le opzioni Marketo Engage per la consegna delle e-mail B2B di Journey Optimizer, compresi i valori predefiniti, l’annullamento dell’iscrizione, la visualizzazione web, i limiti degli oggetti Velocity, le intestazioni di tracciamento e il filtro dei bot.
 feature: Setup, Channels
 role: Admin
-source-git-commit: 55ffa7995a8d74d352a52f14bed5dd89d7d1c239
+exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
+source-git-commit: 0a9cff812d0631a34a09cca059ffb8496248c2b4
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 0%
+source-wordcount: '1346'
+ht-degree: 83%
 
 ---
 
 # Configurazione e-mail
 
-Per supportare l’infrastruttura di consegna e-mail fornita dall’istanza Marketo Egage allegata, imposta le seguenti opzioni e-mail. Un amministratore di prodotto Marketo Engage può configurare queste impostazioni passando all&#39;area **[!UICONTROL Amministratore]** nell&#39;istanza di Marketo Engage e selezionando **[!UICONTROL E-mail]**.
+Per supportare l’infrastruttura di consegna e-mail fornita dall’istanza Marketo Engage allegata, imposta le seguenti opzioni e-mail. Un amministratore di prodotto Marketo Engage può configurare queste impostazioni passando all&#39;area **[!UICONTROL Amministratore]** nell&#39;istanza di Marketo Engage e selezionando **[!UICONTROL E-mail]**.
 
 ## Impostazioni e-mail
 
@@ -70,7 +71,7 @@ Se hai bisogno di ripristinare il contenuto di sistema predefinito, copia e inco
 
 ### Visualizza come pagina Web
 
-Il contenuto delle e-mail ha funzionalità di visualizzazione limitate (CSS limitate e nessun JavaScript o moduli). Gli addetti al marketing possono utilizzare l&#39;opzione _Visualizza come pagina Web_ per applicare un cookie al destinatario dell&#39;e-mail che utilizza Marketo Munchkin. In qualità di amministratore di prodotto, devi configurare il HTML predefinito e il testo che viene popolato quando un addetto marketing sceglie questa opzione.
+Il contenuto delle e-mail ha funzionalità di visualizzazione limitate (CSS limitate e nessun JavaScript o moduli). Gli addetti al marketing possono utilizzare l&#39;opzione _Visualizza come pagina Web_ per applicare un cookie al destinatario dell&#39;e-mail tramite Marketo Munchkin. In qualità di amministratore di prodotto, devi configurare il HTML predefinito e il testo che viene popolato quando un addetto marketing sceglie questa opzione.
 
 1. Vai all&#39;area **[!UICONTROL Amministratore]** nell&#39;istanza Marketo Engage allegata e seleziona **[!UICONTROL E-mail]**.
 
@@ -157,8 +158,8 @@ Modifica le _[!UICONTROL opzioni di intestazione personalizzate]_ per l&#39;e-ma
 
 L&#39;attività di bot per e-mail, definita anche come interazione non umana (NHI), può gonfiare i dati relativi alle _aperture_ e _clic_ dell&#39;e-mail, distorcendo le metriche di coinvolgimento e attivando la progressione del percorso basato su eventi. Utilizza il filtro dei bot e-mail per mantenere l’integrità delle metriche e delle informazioni sul coinvolgimento nei clic. Esistono due metodi per identificare una sospetta attività da bot:
 
-* _&#x200B;**[!UICONTROL Corrispondenza con l&#39;elenco di bot IAB]**&#x200B;_ - Le attività che corrispondono a qualsiasi elemento nell&#39;[Elenco di bot di Interactive Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (Agente utente/Indirizzo IP) sono contrassegnate come bot.
-* _&#x200B;**[!UICONTROL Corrispondenza con pattern di prossimità]**&#x200B;_ - Due o più attività che si verificano contemporaneamente (in meno di un secondo) sono identificate come bot. Attributi considerati durante il confronto:
+* _**[!UICONTROL Corrispondenza con l&#39;elenco di bot IAB]**_ - Le attività che corrispondono a qualsiasi elemento nell&#39;[Elenco di bot di Interactive Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (Agente utente/Indirizzo IP) sono contrassegnate come bot.
+* _**[!UICONTROL Corrispondenza con pattern di prossimità]**_ - Due o più attività che si verificano contemporaneamente (in meno di un secondo) sono identificate come bot. Attributi considerati durante il confronto:
    * ID lead (deve essere lo stesso)
    * Risorsa e-mail (deve essere la stessa)
    * Clic collegamento o apertura e-mail
@@ -188,11 +189,11 @@ Per l’attività di clic e apertura di e-mail con collegamento, gli attributi v
 
    ![Amministratore e-mail Marketo Engage - Opzioni di identificazione attività bot](./assets/me-admin-email-bot-activity-set-filters.png){width="500"}
 
-   Per _[!UICONTROL Match with Proximity Pattern]_, puoi anche impostare la quantità di secondi per **[!UICONTROL Duration Between Activities]** (il valore predefinito è `0`, il valore massimo è `3`).
+   Per _[!UICONTROL Match with Proximity Pattern]_, è inoltre possibile impostare il numero di secondi per **[!UICONTROL Duration Between Activities]** (il valore predefinito è `0`, il valore massimo è `3`).
 
    >[!NOTE]
    >
-   >Con _Durata tra attività_ impostata su `0` secondi, Marketo Engage identifica le attività e-mail che si verificano nello stesso secondo. Se si verificano più attività e-mail entro la quantità di secondi specificata, viene identificata come attività bot.
+   >Con _Durata tra attività_ impostata su `0` secondi, Marketo Engage identifica le attività e-mail che si verificano in quel preciso secondo. Se si verificano più attività e-mail entro il numero di secondi specificato, viene identificata come attività bot.
 
    Per disattivare entrambi i metodi di filtro, spostare il dispositivo di scorrimento verso sinistra. In tal caso, i dati non vengono ripristinati.
 
@@ -256,7 +257,6 @@ Adobe ha identificato un elenco di indirizzi IP responsabili della generazione d
 
 >[!NOTE]
 >
->Ogni indirizzo IP viene analizzato e analizzato meticolosamente prima di essere incluso in questo elenco, garantendo che vengano bloccati solo gli IP più critici e dannosi.
+>Ogni indirizzo IP viene attentamente analizzato e analizzato prima di essere incluso in questo elenco, garantendo che solo gli IP più critici e dannosi vengano bloccati.
 
 +++
-
