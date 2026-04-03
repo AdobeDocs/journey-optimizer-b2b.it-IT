@@ -1,5 +1,5 @@
 ---
-title: Punteggio di Allineamento marchio
+title: Punteggio di allineamento del brand
 description: 'Valuta il contenuto delle e-mail con il punteggio di allineamento del brand: convalida di colori, font, loghi e stile di scrittura in base alle linee guida del brand in Journey Optimizer B2B edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 5824f311da00468b3e85c4e212f81c5d9657c5f7
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 11%
+source-wordcount: '472'
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Punteggio di allineamento del brand"
->abstract="Il punteggio di allineamento del brand misura se il contenuto è conforme alle linee guida del brand, garantendo coerenza in termini di colori, font, logo, immagini e stile di scrittura."
+>abstract="Il punteggio di allineamento al brand misura quanto i contenuti rispettano le rispettive linee guida, per garantire coerenza in termini di colori, font, logo, immagini e stile di scrittura."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"
@@ -46,7 +46,7 @@ La valutazione e i punteggi di allineamento del brand consentono di creare, esam
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è attualmente disponibile come versione beta privata, con disponibilità progressiva pianificata per tutti i clienti nelle versioni future.
+>Questa funzionalità è attualmente disponibile come versione beta pubblica.
 >
 >È necessario un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di poter utilizzare le funzionalità basate sull&#39;intelligenza artificiale in Adobe Journey Optimizer B2B edition. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 >

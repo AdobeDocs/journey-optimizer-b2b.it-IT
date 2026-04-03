@@ -3,15 +3,13 @@ title: Creare marchi per la generazione e la coerenza dei contenuti
 description: 'Creazione e gestione di linee guida per i marchi con estrazione automatica dai documenti o immissione manuale: imposta i marchi predefiniti per contenuti coerenti in Journey Optimizer B2B edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
-hide: true
-hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
 workflow-type: tm+mt
-source-wordcount: '2056'
-ht-degree: 6%
+source-wordcount: '2069'
+ht-degree: 7%
 
 ---
 
@@ -23,7 +21,7 @@ In Journey Optimizer B2B edition puoi definire e organizzare manualmente le defi
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è attualmente disponibile come versione beta privata, con disponibilità progressiva pianificata per tutti i clienti nelle versioni future.
+>Questa funzionalità è attualmente disponibile come versione beta pubblica.
 >
 ><br>
 >

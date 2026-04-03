@@ -3,15 +3,13 @@ title: Utilizzare i brand per la generazione e la coerenza dei contenuti
 description: 'Definisci le linee guida del brand per una creazione coerente dei contenuti: preserva l’identità visiva, l’allineamento dei messaggi e la voce autentica in Journey Optimizer B2B edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
-hide: true
-hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 6%
+source-wordcount: '868'
+ht-degree: 12%
 
 ---
 
@@ -20,14 +18,14 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="Introduzione ai brand"
->abstract="Crea e personalizza i tuoi brand per definire la tua identità visiva e verbale unica e allo stesso tempo facilitare la generazione di contenuti che soddisfino il tuo stile di brand e la tua voce."
+>abstract="Crea e personalizza i tuoi brand per definire la tua identità visiva e verbale unica e allo stesso tempo semplificare la generazione di contenuti che corrispondono allo stile e alla voce del tuo brand."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
 >title="Selezionare il brand"
 >abstract="Scegli il tuo brand per assicurarti che tutti i contenuti generati dall’IA siano personalizzati in base alle specifiche e alle linee guida del tuo brand."
 
-I brand aiutano a definire la tua _identità del brand_ e svolgono un ruolo cruciale nel garantire una creazione di contenuti coerente ed efficace che rappresenti con precisione l&#39;identità del brand, i valori e i messaggi. Aderendo a stili di marchio ben definiti, le organizzazioni possono mantenere una presenza del marchio coerente e riconoscibile su tutti i canali e i punti di contatto, e rafforzare il riconoscimento del marchio, la fiducia e la fedeltà tra il pubblico di destinazione.
+I brand aiutano a definire la tua _identità del brand_ e svolgono un ruolo cruciale nel garantire una creazione di contenuti coerente ed efficace che rappresenti con precisione l&#39;identità del brand, i valori e i messaggi. Aderendo a stili di marchio ben definiti, le organizzazioni possono mantenere una presenza dei brand coerente e riconoscibile tra canali e punti di contatto, e rafforzare il riconoscimento del marchio, la fiducia e la fedeltà tra il pubblico di destinazione.
 
 +++Vantaggi dell’utilizzo dei brand
 
@@ -47,7 +45,7 @@ La tua organizzazione può sfruttare al meglio un marchio nella creazione e nell
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è attualmente disponibile come versione beta privata, con disponibilità progressiva pianificata per tutti i clienti nelle versioni future.
+>Questa funzionalità è attualmente disponibile come versione beta pubblica.
 >
 >È necessario un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di poter utilizzare le funzionalità basate sull&#39;intelligenza artificiale in Adobe Journey Optimizer B2B edition. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
