@@ -6,9 +6,9 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
+source-git-commit: 4aa4340b17aec143b11d71a2eda64b6b57d14a17
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '875'
 ht-degree: 12%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 12%
 >title="Selezionare il brand"
 >abstract="Scegli il tuo brand per assicurarti che tutti i contenuti generati dall’IA siano personalizzati in base alle specifiche e alle linee guida del tuo brand."
 
-I brand aiutano a definire la tua _identità del brand_ e svolgono un ruolo cruciale nel garantire una creazione di contenuti coerente ed efficace che rappresenti con precisione l&#39;identità del brand, i valori e i messaggi. Aderendo a stili di marchio ben definiti, le organizzazioni possono mantenere una presenza dei brand coerente e riconoscibile tra canali e punti di contatto, e rafforzare il riconoscimento del marchio, la fiducia e la fedeltà tra il pubblico di destinazione.
+I brand aiutano a definire una _identità del brand_ e svolgono un ruolo cruciale nel garantire una creazione di contenuti coerente ed efficace che rappresenti con precisione l&#39;identità del brand, i valori e i messaggi. Aderendo a stili di marchio ben definiti, le organizzazioni possono mantenere una presenza dei brand coerente e riconoscibile tra canali e punti di contatto, e rafforzare il riconoscimento del marchio, la fiducia e la fedeltà tra il pubblico di destinazione.
 
 +++Vantaggi dell’utilizzo dei brand
 
@@ -64,8 +64,8 @@ Un marchio definito fornisce la _fonte di verità_ che il team creativo può uti
 1. Quando è pronto per l&#39;uso, [pubblica il brand](./brands-manage-create.md#publish-the-brand).
 
 1. Utilizza il brand per [allineamento contenuto e-mail](./brand-alignment.md).
-<!-- 
-1. Use the brand to generate content. -->
+
+1. Utilizza il brand per [generare contenuti e-mail](./ai-assistant-emails.md).
 
 >[!BEGINSHADEBOX]
 

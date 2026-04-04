@@ -4,9 +4,9 @@ description: 'Genera contenuti e-mail con l''Assistente AI: crea contenuto del m
 feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: c7c08dc1d9b041bfc83cf8b5766a953fa765f4c9
+source-git-commit: 859656dc4e355be0d9efe9414ad93404970d6e73
 workflow-type: tm+mt
-source-wordcount: '3591'
+source-wordcount: '3632'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Questa nuova funzionalità fornisce una generazione di contenuti basata su messa
 
 ## Linee guida e limitazioni
 
-Prima di iniziare a utilizzare questa funzionalità, rivedi le [linee guida e limitazioni](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [Per poter utilizzare le funzionalità di intelligenza artificiale in [!DNL Journey Optimizer B2B Edition] è inoltre necessario accettare l&#39;accordo utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+Prima di iniziare a utilizzare questa funzionalità, controlla le [linee guida e limitazioni](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). Per poter utilizzare le funzionalità di intelligenza artificiale in [!DNL Journey Optimizer B2B Edition] è inoltre necessario accettare il [Contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-Con l&#39;impegno di Adobe di promuovere la trasparenza nell&#39;utilizzo degli strumenti di intelligenza artificiale generativi nella creazione di contenuti multimediali, Adobe applica [credenziali di contenuto](https://helpx.adobe.com/it/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} a qualsiasi contenuto o progetto che include una risorsa generata da Firefly al momento del download o dell&#39;esportazione.
+Con l&#39;impegno di Adobe di promuovere la trasparenza nell&#39;utilizzo degli strumenti di intelligenza artificiale generativi nella creazione di contenuti multimediali, Adobe applica [credenziali di contenuto](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} a qualsiasi contenuto o progetto che include una risorsa generata da Firefly al momento del download o dell&#39;esportazione.
 
 Le limitazioni e le linee guida seguenti si applicano alle funzioni dell&#39;Assistente IA utilizzate per la generazione di contenuti e-mail in [!DNL Journey Optimizer B2B Edition]:
 
@@ -63,7 +63,7 @@ Selezionare il prompt che meglio riflette gli obiettivi desiderati e fare clic s
 
 Espandi le **[!UICONTROL Impostazioni testo]** nel pannello di destra e imposta le opzioni per il testo generato.
 
-* **[!UICONTROL Gruppo di acquisto]** - Scegli il [ruolo gruppo di acquisto](../buying-groups/buying-groups-role-templates.md) da utilizzare per il targeting dei messaggi. [!DNL Journey Optimizer B2B Edition] offre cinque ruoli standard di gruppo di acquisto B2B pronti all’uso. Ogni ruolo del gruppo di acquisto ha un oggetto di messaggistica distinto:
+* **[!UICONTROL Gruppo di acquisto]** - Scegli il [ruolo gruppo di acquisto](../buying-groups/buying-groups-role-templates.md) da utilizzare per il targeting dei messaggi. [!DNL Journey Optimizer B2B Edition] offre cinque ruoli standard di gruppo di acquisto B2B pronti all&#39;uso. Ogni ruolo del gruppo di acquisto ha un oggetto di messaggistica distinto:
 
   | Ruolo | Stato attivo messaggistica |
   | ---- | --------------- |
@@ -88,7 +88,7 @@ Per includere le immagini nel contenuto generato, espandi le **[!UICONTROL Impos
 
 Per impostazione predefinita, l&#39;opzione **[!UICONTROL Generate images using AI]** è disabilitata. Abilita questa funzione e imposta le seguenti opzioni per includere le immagini generate nelle varianti di contenuto proposte:
 
-<!-- * **[!UICONTROL Generative model]**: Select from available built-in models, custom Firefly models trained on your brand assets, or third-party image generation providers to create images that align with your specific needs and brand requirements. -->
+* **[!UICONTROL Modello generativo]**: seleziona dal modello fornito da Adobe pronto per l’uso, dal modello partner per funzionalità specializzate o dai modelli personalizzati configurati addestrati sulle risorse del tuo marchio. Per ulteriori informazioni sui modelli generativi, consulta _[Modelli di intelligenza artificiale generativa per l&#39;allineamento del brand](generative-ai-models.md)_.
 * **[!UICONTROL Proporzioni]**: quando è selezionato un componente immagine, questa impostazione determina la larghezza e l&#39;altezza della risorsa. È possibile scegliere tra rapporti comuni quali 16:9, 4:3, 3:2 o 1:1 oppure immettere una dimensione personalizzata.
 * **[!UICONTROL Tipo di contenuto]**: il tipo categorizza la natura dell&#39;elemento visivo, distinguendo tra diverse forme di rappresentazione visiva, come foto, grafica o grafica.
 * **[!UICONTROL Intensità visiva]**: controlla l&#39;impatto dell&#39;immagine regolandone l&#39;intensità. Un&#39;impostazione più bassa (ad esempio 2) crea un aspetto più morbido e più contenuto, mentre un&#39;impostazione più alta (ad esempio 10) rende l&#39;immagine più vibrante e visivamente potente.
@@ -96,7 +96,7 @@ Per impostazione predefinita, l&#39;opzione **[!UICONTROL Generate images using 
 * **[!UICONTROL Illuminazione]**: lo stile di illuminazione utilizzato per l&#39;immagine, che ne forma l&#39;atmosfera ed evidenzia elementi specifici.
 * **[!UICONTROL Composizione]**: disposizione degli elementi all&#39;interno della cornice di un&#39;immagine.
 
-![Pannello impostazioni immagine che visualizza le opzioni Tipo di contenuto, Intensità visiva, Colore e tono, Illuminazione e Composizione](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
+![Pannello Impostazioni immagine che visualizza le opzioni Modello generativo, Tipo di contenuto, Intensità visiva, Colore e tono, Illuminazione e Composizione](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
 
 Fare clic sulla freccia sinistra per tornare alle _[!UICONTROL Impostazioni]_ principali.
 
