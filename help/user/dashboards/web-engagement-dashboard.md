@@ -8,7 +8,7 @@ exl-id: 9d067d68-fd35-4b1e-9f23-7fbb6c33ad75
 source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 3%
+ht-degree: 15%
 
 ---
 
@@ -32,12 +32,12 @@ Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/ico
 
 Selezionare tutti i valori per ogni attributo che si desidera utilizzare per filtrare i dati e fare clic su **[!UICONTROL Applica]**.
 
-## [!UICONTROL Visualizzazioni pagine principali] {#top-page-views}
+## [!UICONTROL Visualizzazioni pagina principali] {#top-page-views}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_top_page_views"
 >title="Visualizzazioni pagina principali"
->abstract="Le pagine visualizzate più di frequente sul sito web, che consentono di identificare quale contenuto genera più traffico."
+>abstract="Pagine visualizzate più di frequente sul sito web, che consentono di individuare i contenuti che generano più traffico."
 
 Questa tabella mostra le 10 pagine web più visualizzate, per aiutarti a identificare quale contenuto risuona di più con i visitatori. I dati includono:
 
@@ -50,7 +50,7 @@ Questa tabella mostra le 10 pagine web più visualizzate, per aiutarti a identif
 
 ![Tabella visualizzazioni pagine principali](./assets/web-engagement-dashboard-top-page-views.png){width="650" zoomable="yes"}
 
-## [!UICONTROL Visualizzazioni pagina per area account] {#page-views-by-region}
+## [!UICONTROL Visualizzazioni pagina per area geografica dell’account] {#page-views-by-region}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_page_views_by_region"
@@ -62,7 +62,7 @@ Questa visualizzazione mostra i conteggi dei visitatori segmentati per regione d
 * Nome dell’area del conto
 * Numero di visualizzazioni di pagina
 
-![Visualizzazioni pagina per area account](./assets/web-engagement-dashboard-page-views-by-account-region.png){width="500" zoomable="yes"}
+![Visualizzazioni pagina per area geografica dell’account](./assets/web-engagement-dashboard-page-views-by-account-region.png){width="500" zoomable="yes"}
 
 ## [!UICONTROL Visualizzazioni pagina per settore account] {#page-views-by-industry}
 

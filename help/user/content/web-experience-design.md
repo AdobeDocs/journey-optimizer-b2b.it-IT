@@ -4,10 +4,11 @@ description: 'Progetta esperienze web con editor visivi e non visivi: aggiungi m
 feature: Content Design Tools, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
-source-git-commit: d01f4c14f72ebf78b10e4fc6691df42707bedb47
+exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
+source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
 workflow-type: tm+mt
-source-wordcount: '2333'
-ht-degree: 0%
+source-wordcount: '2371'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +24,7 @@ Prima di poter progettare esperienze web, assicurati di soddisfare i seguenti re
 
 * Un amministratore di prodotto ha configurato uno o più canali web per definire gli URL (pagine) da includere per un’esperienza web. Per ulteriori informazioni, vedere [Configurazioni del canale Web](../admin/configure-channels-web.md).
 
-* Il sito Web include [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementato per l&#39;identificazione dei visitatori e la distribuzione dei contenuti. È richiesto Adobe Experience Platform Web SDK versione 2.16 o successiva.
+* Il sito Web include [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementato per l&#39;identificazione dei visitatori e la distribuzione dei contenuti. È richiesto Adobe Experience Platform Web SDK versione 2.16 o successiva.
 
 * Hai le [autorizzazioni](../admin/user-management.md#b2b-product-permissions) necessarie per creare e gestire esperienze Web in un percorso:
    * _[!UICONTROL Campagne]_ > _[!UICONTROL Gestisci campagne]_ - Necessario per aggiungere o aggiornare un nodo di azione di personalizzazione Web.
@@ -55,7 +56,7 @@ Nelle proprietà dell&#39;esperienza Web, utilizza l&#39;opzione **[!UICONTROL E
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_experience_browse"
 >title="Utilizzare la modalità Sfoglia"
->abstract="In questa modalità, puoi passare alla pagina esatta da personalizzare per la configurazione del canale web selezionato."
+>abstract="In questa modalità puoi passare alla pagina esatta che desideri personalizzare per la configurazione del canale web selezionato."
 
 L’editor visivo carica le pagine web all’interno di un iframe, dove puoi selezionare gli elementi e applicare le modifiche direttamente nell’anteprima della pagina. Completa i seguenti passaggi per utilizzare l’editor visivo per progettare l’esperienza web:
 
@@ -224,14 +225,14 @@ Le modifiche apportate al selettore CSS consentono di eseguire il targeting degl
 
     **Selettori di esempio:**
     
-    | Selettore | Target |
+    | Selettore | Destinazioni |
     | -------- | ------- |
-    | &quot;#hero-banner&quot; | Elemento con ID &quot;hero-banner&quot; |
-    | `.cta-button` | Tutti gli elementi con la classe `cta-button` |
-    | &quot;header nav a&quot; | Collegamenti all’interno della navigazione, all’interno dell’intestazione |
+    | `#hero-banner` | Elemento con ID `hero-banner` |
+    | `.cta-button` | Tutti gli elementi con classe `cta-button` |
+    | `header nav a` | Collegamenti all’interno della navigazione, all’interno dell’intestazione |
     | `[data-offer=&quot;premium&quot;]` | Elementi con un attributo di dati specifico |
 
-1. Scegli un tipo di azione **&#x200B;**&#x200B;e specifica le informazioni o il contenuto richiesti.
+1. Scegli un tipo di azione **** e specifica le informazioni o il contenuto richiesti.
 
    * **[!UICONTROL Imposta contenuto]** - Immettere il testo nel campo **[!UICONTROL Contenuto]** per l&#39;elemento identificato dal valore _[!UICONTROL Selettore elemento CSS]_.
 
@@ -268,7 +269,7 @@ L&#39;elemento `<head>` viene comunemente utilizzato per aggiungere codice JavaS
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_experience_modifications"
 >title="Gestire con facilità tutte le modifiche"
->abstract="Utilizzando questo riquadro, puoi navigare e gestire tutte le regolazioni e le aggiunte definite per la pagina web."
+>abstract="Utilizzando questo riquadro, puoi esplorare e gestire tutte le modifiche e le aggiunte definite per la pagina web."
 
 Tutte le modifiche create vengono tracciate e possono essere gestite dal pannello **[!UICONTROL Modifiche]** dell&#39;editor visivo e dell&#39;editor non visivo. Fai clic sull&#39;icona _[!UICONTROL Modifiche]_ <!-- ( ![Modifications icon](../assets/do-not-localize/icon-web-exp-modifications.svg) ) -->nella barra degli strumenti a sinistra per visualizzare tutte le modifiche.
 
@@ -326,7 +327,7 @@ Tieni traccia delle interazioni dell’utente con gli elementi per misurare il c
 
 Quando la tua esperienza web è attivata (dal vivo), puoi anche creare rapporti utilizzando Adobe Customer Journey Analytics (che richiede un abbonamento al prodotto). Per migliorare il monitoraggio dell’esperienza web, puoi anche tenere traccia dei clic su qualsiasi elemento specifico del sito web. Il tracciamento ti consente di visualizzare il numero di clic per tale elemento nei rapporti web.
 
-Per ulteriori informazioni su Customer Journey Analytics e sulla creazione di report Web, consulta la [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-landing).
+Per ulteriori informazioni su Customer Journey Analytics e sulla creazione di report Web, consulta la [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing).
 
 1. Seleziona un elemento nell’editor esperienze web, ad esempio un’immagine o un collegamento.
 

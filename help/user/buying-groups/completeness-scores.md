@@ -3,20 +3,20 @@ title: Punteggi di completezza per gruppi di acquisto
 description: Calcola i punteggi di completezza dei gruppi di acquisto utilizzando le soglie basate sui ruoli, i requisiti dei membri personalizzabili e le impostazioni di completezza in Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
-source-git-commit: 1ebc27a709e1b82029c22950897505f3945a507f
+exl-id: 6f54d4ac-9d1a-4009-b9bf-8bc80e4cc63c
+source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 3%
+source-wordcount: '895'
+ht-degree: 9%
 
 ---
 
-
-# Punteggi di completezza {#completeness-scores}
+# Punteggio di completezza {#completeness-scores}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_completeness_score"
 >title="Punteggio di completezza"
->abstract="I punteggi di completezza riflettono il livello di allineamento dell’iscrizione al gruppo di acquisto per un gruppo di acquisto pronto per le vendite."
+>abstract="Il punteggio di completezza indica se il gruppo acquisti può considerarsi pronto per le vendite, in termini di iscritti."
 
 Un punteggio di completezza è una percentuale che indica il livello di popolamento di un gruppo di acquisto con i membri richiesti nei ruoli definiti. Questi punteggi si basano sulle soglie dei membri del ruolo configurate nel modello dei ruoli e sul numero effettivo di membri assegnati a ciascun ruolo nel gruppo di acquisto. I punteggi risultanti aiutano gli addetti al marketing a valutare la fattibilità delle vendite e a identificare le lacune nella composizione del gruppo di acquisto. Il calcolo del punteggio viene eseguito automaticamente quando cambia l’iscrizione al gruppo di acquisto.
 
@@ -64,12 +64,12 @@ The buying group completeness score is available to use for filtering in [journe
 
 >[!ENDSHADEBOX] -->
 
-## Calcolo di completezza ruolo {#role-completeness-calculation}
+## Calcolo di completezza dei ruoli {#role-completeness-calculation}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_role_completeness_calculation"
->title="Calcolo di completezza ruolo"
->abstract="I punteggi di completezza dei ruoli vengono calcolati come percentuale in base al numero di membri assegnati a un ruolo."
+>title="Calcolo di completezza dei ruoli"
+>abstract="I punteggi di completezza dei ruoli vengono calcolati come percentuale in base al numero di membri assegnati a ogni ruolo."
 
 Journey Optimizer B2B edition calcola il punteggio di completezza per ogni singolo ruolo del gruppo di acquisto come percentuale. Basare questo punteggio sul numero di membri assegnati al ruolo, rispetto al [numero richiesto nel modello di ruoli](./buying-groups-role-templates.md#change-the-completeness-score-settings) per il completamento.
 
