@@ -20,7 +20,7 @@ Espandi le funzionalità di creazione delle immagini AI con modelli incorporati,
 - **[!UICONTROL Il modello partner]**, con tecnologia Gemini 2.5 Flash, offre funzionalità specializzate per casi d&#39;uso specifici.
 - I **[!UICONTROL modelli personalizzati]** sono modelli specifici del brand addestrati sulle risorse personali e aggiunti dalla tua organizzazione.
 
-Scopri i modelli personalizzati nella [documentazione di Adobe Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
+Scopri i modelli personalizzati nella [documentazione di Adobe Firefly](https://helpx.adobe.com/it/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
 
 Gli addetti al marketing possono selezionare uno dei modelli generativi abilitati durante la generazione di immagini per il contenuto delle e-mail o delle pagine di destinazione.
 
@@ -70,7 +70,7 @@ Crea modelli Firefly personalizzati o connetti provider di generazione immagini 
 
 1. Immetti **[!UICONTROL ID modello]**.
 
-   Per trovare l’ID modello, accedi al sito web Firefly e passa ai modelli che hai appreso. L’identificatore univoco è disponibile nella sezione gestione del modello dopo la pubblicazione. Per ulteriori informazioni, consulta la [documentazione dei modelli personalizzati di Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
+   Per trovare l’ID modello, accedi al sito web Firefly e passa ai modelli che hai appreso. L’identificatore univoco è disponibile nella sezione gestione del modello dopo la pubblicazione. Per ulteriori informazioni, consulta la [documentazione dei modelli personalizzati di Firefly](https://helpx.adobe.com/it/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
 
 1. Facoltativamente, immetti una **[!UICONTROL Descrizione]** per identificare il modello e l&#39;utilizzo previsto.
 
