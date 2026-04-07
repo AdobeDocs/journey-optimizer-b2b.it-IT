@@ -7,7 +7,7 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: d1e818fb-7450-4c13-bc6c-24da5fb71285
-source-git-commit: 859656dc4e355be0d9efe9414ad93404970d6e73
+source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
 workflow-type: tm+mt
 source-wordcount: '2700'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Puoi generare esperienze di contenuto complete per le pagine di destinazione, in
 
 Prima di iniziare a utilizzare questa funzionalità, controlla le [linee guida e limitazioni](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). Per poter utilizzare le funzionalità di intelligenza artificiale in [!DNL Journey Optimizer B2B Edition] è inoltre necessario accettare il [Contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-Con l&#39;impegno di Adobe di promuovere la trasparenza nell&#39;utilizzo degli strumenti di intelligenza artificiale generativi nella creazione di contenuti multimediali, Adobe applica [credenziali di contenuto](https://helpx.adobe.com/it/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} a qualsiasi contenuto o progetto che include una risorsa generata da Firefly al momento del download o dell&#39;esportazione.
+Con l&#39;impegno di Adobe di promuovere la trasparenza nell&#39;utilizzo degli strumenti di intelligenza artificiale generativi nella creazione di contenuti multimediali, Adobe applica [credenziali di contenuto](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} a qualsiasi contenuto o progetto che include una risorsa generata da Firefly al momento del download o dell&#39;esportazione.
 
 Le limitazioni e le linee guida seguenti si applicano alle funzioni dell&#39;Assistente IA utilizzate per la generazione del contenuto della pagina di destinazione in [!DNL Journey Optimizer B2B Edition]:
 
@@ -314,6 +314,6 @@ Fornisci un feedback per le varianti generate facendo clic sull&#39;icona _Minia
 
 La valutazione e il punteggio dell’allineamento del brand ti aiutano a garantire coerenza in termini di tono, messaggi e identità visiva nelle campagne, fungendo anche da controllo di qualità prima che il contenuto venga pubblicato. Una volta completato il contenuto della pagina di destinazione, fai clic sull&#39;icona _Allineamento marchio_ ( ![Icona Allineamento marchio](../assets/do-not-localize/icon-brand-compliance.svg) ) a destra per aprire il pannello destro _Allineamento marchio_ nell&#39;area di progettazione della pagina di destinazione.
 
-![Accedere agli strumenti di allineamento del marchio](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
+![Accedere agli strumenti di valutazione dell&#39;allineamento del marchio](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
-Per informazioni dettagliate, consulta [Convalidare l&#39;allineamento del brand](./brand-alignment.md#validate-your-brand-alignment)
+Per informazioni dettagliate, consulta [_Punteggio di allineamento del brand_](./content-evaluation.md#brand-alignment-score)
