@@ -4,9 +4,9 @@ description: Tieni traccia dell’avanzamento del gruppo di acquisto con puntegg
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '593'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Questa visualizzazione illustra la distribuzione dei gruppi di acquisto in base 
 
 Per visualizzare informazioni più dettagliate, fare clic sull&#39;icona del menu **...** in alto a destra.
 
-![Visualizzazione del punteggio di coinvolgimento del gruppo di acquisto](./assets/buying-group-completion-score-chart.png){width="500"}
+![Visualizzazione del punteggio di coinvolgimento del gruppo di acquisto](./assets/buying-group-engagement-score-chart.png){width="500"}
 
 ## Gruppi acquisti per interesse della soluzione
 
@@ -74,7 +74,7 @@ Selezionare tutti i valori per ogni attributo che si desidera utilizzare per fil
 
 ## Coinvolgi i dati
 
-Per interagire con i dati, utilizza il menu _Altro_ (**...**) in alto a destra di ciascun grafico.
+Per interagire con i dati, utilizzare _Altro_ (**...**) in alto a destra in ciascun grafico.
 
 ### [!UICONTROL Drill-through]
 
@@ -84,7 +84,7 @@ Scegliere **[!UICONTROL Drill-through]** per un&#39;analisi approfondita dei pun
 
 Vengono riportati i filtri globali applicati al dashboard. Fai clic sull&#39;icona _Filtro_ ( ![Icona filtro](../assets/do-not-localize/icon-filter.svg) ) in alto a sinistra per [modificare i filtri attributo](#filter-the-data) per la visualizzazione drill-through.
 
-Puoi fare clic sul menu _Altro_ (**...**) in alto a destra e scegliere **[!UICONTROL Visualizza altro]** per [visualizzare dati estesi](#view-more).
+Puoi fare clic su _Altro_ (**...**) menu in alto a destra e scegliere **[!UICONTROL Visualizza altro]** per [visualizzare dati estesi](#view-more).
 
 ### [!UICONTROL Visualizza altro]
 

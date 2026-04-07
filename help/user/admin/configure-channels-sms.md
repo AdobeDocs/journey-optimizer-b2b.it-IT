@@ -4,7 +4,7 @@ description: Connetti i provider SMS come Sinch, Twilio e Infobip con le credenz
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 1a764cd8d2187b58ce02fefeeab78b0cd79de037
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -57,7 +57,7 @@ _Per configurare Sinch come provider SMS con Adobe Journey Optimizer B2B edition
 
 1. Configura le credenziali API SMS:
 
-   ![Configurare le credenziali API di Sinch SMS](./assets/config-sms-api-sinch.png){width="500"}
+   ![Configurare le credenziali API di Sinch SMS](./assets/config-sms-api-sinch.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL Fornitore SMS]** - Scegliere `Sinch` come provider SMS.
 
@@ -79,7 +79,7 @@ _Per configurare Twilio come provider SMS con Adobe Journey Optimizer B2B editio
 
 1. Configura le credenziali API SMS:
 
-   ![Configurare le credenziali API SMS Twilio](./assets/config-sms-api-twilio.png){width="500"}
+   ![Configurare le credenziali API SMS Twilio](./assets/config-sms-api-twilio.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL Fornitore SMS]** - Scegliere `Twilio` come provider SMS.
 
@@ -101,7 +101,7 @@ _Per configurare Infobip come provider SMS con Adobe Journey Optimizer B2B editi
 
 1. Configura le credenziali API SMS:
 
-   ![Configurare le credenziali API di Infobip SMS](./assets/config-sms-api-infobip.png){width="500"}
+   ![Configurare le credenziali API di Infobip SMS](./assets/config-sms-api-infobip.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL Fornitore SMS]** - Scegliere `Infobip` come provider SMS.
 

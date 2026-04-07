@@ -3,10 +3,11 @@ title: Mappatura personale
 description: Scopri come impostare la mappatura persona per il marketing B2B. Mappa gli attributi della persona in Journey Optimizer B2B edition per creare modelli di ruolo e ottimizzare il targeting dei gruppi di acquisto.
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
+exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '914'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +30,7 @@ Limitazioni di definizione e utilizzo dell’utente:
 
 Molti team di marketing e vendite utilizzano le qualifiche professionali per identificare utenti tipo diversi all’interno di un account. Tuttavia, i titoli dei contatti possono essere incoerenti e utilizzare numerose varianti per ruoli simili. Quando si creano modelli di ruoli di gruppo di acquisto, può essere necessario definire ogni possibile posizione correlata per un determinato ruolo. Puoi semplificare queste definizioni e portare persone con titoli di lavoro simili sotto un unico utente tipo dedotto, che puoi quindi sfruttare tra diversi modelli di ruoli per l’acquisto di gruppi.
 
-Ad esempio, puoi configurare un utente tipo denominato _Product Management_ e definirlo utilizzando l&#39;attributo titolo del processo per i valori di _Product Manager_, _Sr. Product Manager_, _Senior Product Manager_, _PM_, _Sr. PM_, _PM principale_ e _Product Manager principale_. Quindi, utilizza questa persona in un modello di Ruoli in cui la condizione corrisponde in _Persona è Gestione prodotto_. Utilizzando l’utente tipo configurato, la creazione di ciascun modello di ruoli è semplificata e non richiede una condizione complicata che possa corrispondere a ogni possibile titolo di lavoro.
+Ad esempio, è possibile configurare un utente tipo denominato _Product Management_ e definirlo utilizzando l&#39;attributo titolo processo per i valori di _Product Manager_, _Sr. Product Manager_, _Senior Product Manager_, _PM_, _Sr. PM_, _Principal PM_ e _Principal Product Manager_. Quindi, utilizza questa persona in un modello di Ruoli in cui la condizione corrisponde in _Persona è Gestione prodotto_. Utilizzando l’utente tipo configurato, la creazione di ciascun modello di ruoli è semplificata e non richiede una condizione complicata che possa corrispondere a ogni possibile titolo di lavoro.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +46,7 @@ Ad esempio, puoi configurare un utente tipo denominato _Product Management_ e de
 
    L&#39;elenco di mappatura Persona è organizzato in una tabella e visualizza in alto gli utenti tipo aggiornati più di recente (ordinati per _[!UICONTROL Ultimo aggiornamento]_). Puoi personalizzare la tabella visualizzata facendo clic sull&#39;icona _Impostazioni colonna_ ( ![Impostazioni colonna](../assets/do-not-localize/icon-column-settings.svg) ) nell&#39;angolo in alto a destra e selezionando o deselezionando le caselle di controllo della colonna.
 
-![Colonne da visualizzare nell&#39;elenco di mappatura utenti tipo](./assets/configuration-persona-mapping-list-columns.png){width="300"}
+   ![Colonne da visualizzare nell&#39;elenco di mappatura utenti tipo](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. Per accedere ai dettagli di un utente tipo, fai clic sul nome.
 
@@ -118,6 +119,6 @@ Se si elimina un utente tipo, questo viene rimosso dall&#39;elenco _Mapping pers
 
 1. Nella pagina _[!UICONTROL Mapping persona]_ individuare l&#39;utente tipo che si desidera eliminare.
 
-1. Accanto al nome fare clic sull&#39;icona dei puntini di sospensione (**...**) per e scegliere **[!UICONTROL Elimina]**.
+1. Accanto al nome fare clic sui puntini di sospensione (**...**) e scegli **[!UICONTROL Elimina]**.
 
 1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Elimina]**.
