@@ -4,9 +4,9 @@ description: 'Progetta e-mail, pagine di destinazione e frammenti con componenti
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: 30bb44f9c308cd144a53a60b4f420380df5528e4
+source-git-commit: ab9e6a1d8785ad4f36e1026a8c376abc9c526c9e
 workflow-type: tm+mt
-source-wordcount: '2825'
+source-wordcount: '3057'
 ht-degree: 6%
 
 ---
@@ -48,7 +48,7 @@ La sezione **[!UICONTROL Contents]** nella parte inferiore della libreria dei co
 | ![Icona HTML](../../assets/do-not-localize/icon-content-component-html.svg) | [HTML](#html) | Aggiungi questo componente alla progettazione per copiare e incollare le diverse parti del HTML esistente. Utilizza questo componente per creare un blocco HTML modulare gratuito per riutilizzare alcuni contenuti esterni. |
 | ![Icona immagine](../../assets/do-not-localize/icon-content-component-image.svg) | [Immagine](#image) | Aggiungi questo componente alla progettazione per inserire un file di immagine. |
 | ![Icona social](../../assets/do-not-localize/icon-content-component-social.svg) | [Social](#social) | Aggiungi questo componente alla tua progettazione per inserire collegamenti a pagine di social media. |
-| ![Icona modulo](../../assets/do-not-localize/icon-content-component-form.svg) | [Modulo](#form) | **_Disponibile solo per le pagine di destinazione._** Aggiungi questo componente alla tua progettazione per inserire un modulo creato. |
+| ![Icona modulo](../../assets/do-not-localize/icon-content-component-form.svg) | [Modulo](#form) | **_Disponibile solo per le pagine di destinazione._** Aggiungi questo componente alla progettazione per inserire un modulo creato. |
 
 ## Barre degli strumenti del componente Contenuto
 
@@ -210,7 +210,7 @@ Ogni tipo di componente contenuto visualizza una barra degli strumenti quando la
 
 1. Nella libreria **[!UICONTROL Componenti]**, afferra l&#39;_handle di trascinamento_ ![Handle di trascinamento](../../assets/do-not-localize/icon-drag-handle.svg) per il componente contenuto desiderato, quindi trascinalo sui componenti struttura.
 
-   Puoi aggiungere più componenti in un singolo componente struttura e in ogni colonna di un componente struttura.
+   È possibile aggiungere più componenti in un singolo componente struttura e in ogni colonna di un componente struttura.
 
    ![Trascina il componente contenuto nel componente struttura](./assets/content-components-drag.png){width="600" zoomable="yes"}
 
@@ -239,7 +239,7 @@ Se desideri escludere il componente dalla visualizzazione del desktop o del disp
 
 Utilizza un contenitore per applicare uno stile specifico a un gruppo di componenti di contenuto. Aggiungere un componente [!UICONTROL Container], quindi aggiungere altri componenti di contenuto al suo interno. Questo componente è simile alla modalità di utilizzo di un elemento `div` in HTML. Puoi applicare uno stile distinto al contenitore, che è diverso dallo stile applicato ai componenti di contenuto in esso contenuti.
 
-Aggiungere ad esempio un componente _[!UICONTROL Container]_ e quindi un componente _[!UICONTROL Button]_ in tale contenitore. Puoi utilizzare uno stile di area specifico per il contenitore e assegnare al pulsante e al relativo sfondo lo stile desiderato.
+Ad esempio, aggiungi un componente _[!UICONTROL Contenitore]_ e quindi un componente _[!UICONTROL Pulsante]_ all’interno del contenitore. Puoi utilizzare uno stile di area specifico per il contenitore e assegnare al pulsante e al relativo sfondo lo stile desiderato.
 
 ![Stili dei componenti di contenuto contenitore](./assets/content-components-container.png){width="600" zoomable="yes"}
 
@@ -345,9 +345,13 @@ Personalizza lo stile del pulsante nella scheda **[!UICONTROL Stili]**.
 
 +++Allineamento
 
+{{styles-alignment-h-v}}
+
 +++
 
 +++Margine pulsante
+
+{{styles-margin}}
 
 +++
 
@@ -423,8 +427,6 @@ Questi stili vengono applicati all&#39;intero blocco di testo. È possibile appl
 
 Aggiungi un componente _Divider_ per incorporare una divisione lineare tra le sezioni del contenuto.
 
-
-
 +++Informazioni di base
 
 {{styles-background}}
@@ -432,6 +434,22 @@ Aggiungi un componente _Divider_ per incorporare una divisione lineare tra le se
 +++
 
 +++LINE
+
+Nel pannello di destra con la scheda _[!UICONTROL Stili]_ selezionata, espandi la sezione **[!UICONTROL Riga]** e imposta le opzioni per l&#39;altezza e la larghezza del componente:
+
+* **[!UICONTROL Colore]** - Fare clic sul quadrato del colore per scegliere un colore dal selettore. È possibile scegliere un colore immettendo un valore RGB, HSL, HSB o esadecimale noto. In alternativa, è possibile utilizzare il cursore del colore e il campo del colore per selezionare il colore.
+
+* **[!UICONTROL Altezza]** - Fare clic sulle icone delle frecce su e giù per aumentare o diminuire il numero di pixel. Il valore predefinito è vuoto (Automatico) e ridimensiona l’altezza dell’elemento in base al suo contenuto.
+
+* **[!UICONTROL Larghezza]** - Utilizza l&#39;interruttore per impostare la larghezza in pixel o in percentuale.
+
+   * Per una larghezza percentuale, utilizzare il dispositivo di scorrimento per impostare il valore percentuale. La percentuale determina la dimensione dell’elemento in base alla casella del contenuto del blocco contenitore, che esclude la spaziatura interna e i bordi. Ad esempio, con un valore pari a 50 la larghezza dell’elemento viene impostata sul 50% della larghezza del contenuto del blocco che la contiene.
+
+  ![Definire lo stile delle linee per un componente divisore](./assets/component-divider-line-options.png){width="250"}
+
+   * Per una larghezza basata su pixel, fai clic sulle icone freccia su e giù per aumentare o diminuire il numero di pixel. Il valore predefinito è un valore vuoto (Automatico) e la larghezza dell&#39;elemento viene ridimensionata in base al contenuto.
+
+* **[!UICONTROL Stile]** - Scegliere un valore dall&#39;elenco dei valori CSS `line-style` standard, ad esempio _Solido_, _Punteggiato_ e _Tratteggiato_.
 
 +++
 
@@ -471,7 +489,7 @@ Utilizza il componente HTML per aggiungere parti del HTML esistente. Questo comp
 
 1. Selezionare il componente nell&#39;area di lavoro e fare clic sull&#39;icona _Mostra codice sorgente_ nella barra degli strumenti.
 
-   [Apri l&#39;editor di codice per aggiungere HTML](./assets/content-components-html-show-code.png){width="450"}
+   [Apri l’editor di codice per aggiungere il HTML](./assets/content-components-html-show-code.png){width="450"}
 
 1. Incolla il HTML nella casella di testo e fai clic su **[!UICONTROL Salva]**.
 
@@ -741,7 +759,7 @@ Utilizza il componente _Modulo_ per aggiungere un modulo pubblicato a una pagina
 
    * **[!UICONTROL Resta a pagina]** - Scegli questa opzione per mantenere il visitatore sulla stessa pagina al momento dell&#39;invio del modulo.
 
-   * **[!UICONTROL Pagina di destinazione]** - Scegli questa opzione per selezionare una pagina di destinazione Journey Optimizer B2B edition o Marketo Engage come follow-up.
+   * **[!UICONTROL Pagina di destinazione]** - Scegli questa opzione per selezionare una qualsiasi pagina di destinazione Journey Optimizer B2B Edition o Marketo Engage come follow-up.
 
    * **[!UICONTROL URL esterno]** - Scegliere questa opzione per specificare qualsiasi URL come pagina di follow-up. Dopo che il visitatore ha inviato il modulo, il browser carica l’URL designato.
 
