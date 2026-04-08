@@ -4,9 +4,9 @@ description: 'Semplifica la generazione della domanda con i percorsi: crea, pubb
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: a9f38d6d38233a974d640f83e5940d16fec50632
+source-git-commit: 0e79785bd8baf3914127cc650b8e503a8d461a3d
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1524'
 ht-degree: 43%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 43%
 
 # Gestione dei percorsi
 
-In Journey Optimizer B2B edition, i percorsi sono account automatizzati a più passaggi e piani di marketing basati su lead che orchestrano esperienze personalizzate tra canali in risposta a coinvolgimento, eventi di business o campagne pianificate. Definisci un coinvolgimento basato sulle vendite che includa e-mail, SMS e altro ancora in per coordinare il marketing in entrata con le attività di vendita in uscita per ogni membro del gruppo di acquisto.
+In Journey Optimizer B2B edition, i percorsi sono account automatizzati a più passaggi e piani di marketing basati su lead che orchestrano esperienze personalizzate tra canali in risposta a coinvolgimento, eventi di business o campagne pianificate. Definisci un coinvolgimento basato sulle vendite che includa e-mail, SMS e altro per coordinare il marketing in entrata con le attività di vendita in uscita per ogni membro del gruppo di acquisto.
 
 Journey Optimizer B2B edition supporta due tipi di percorso:
 
@@ -103,11 +103,11 @@ Lo stato di un percorso può cambiare in base alle azioni applicate. In base all
 
 | Stato | Descrizione | Azioni disponibili |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Bozza**&#x200B;_ | Un percorso non pubblicato che può essere modificato. | <li>[Pubblica](./create-publish-journey.md#publish-a-journey)<li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
-| _&#x200B;**Live**&#x200B;_ | Lo stato del percorso cambia da _Bozza_ a _Live_ quando viene pubblicato un percorso. Se il percorso si trova in questo stato, non può più essere modificato. | <li>[Duplica](#duplicate-journey)<li>[Chiudi ai nuovi ingressi](#close-to-new-entries) <li>[Interrompi](#abort-journey) |
-| _&#x200B;**Chiuso alle nuove voci**&#x200B;_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <li>[Duplica](#duplicate-journey) <li>[Interrompi](#abort-journey) |
-| _&#x200B;**Annullato**&#x200B;_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
-| _&#x200B;**Completato**&#x200B;_ | Quando tutti i membri del pubblico dell&#39;account o della persona in un percorso completano il percorso, lo stato cambia da _Live_ o _Closed to new entries_ a _Finished_. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Bozza**_ | Un percorso non pubblicato che può essere modificato. | <li>[Pubblica](./create-publish-journey.md#publish-a-journey)<li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Live**_ | Lo stato del percorso cambia da _Bozza_ a _Live_ quando viene pubblicato un percorso. Se il percorso si trova in questo stato, non può più essere modificato. | <li>[Duplica](#duplicate-journey)<li>[Chiudi ai nuovi ingressi](#close-to-new-entries) <li>[Interrompi](#abort-journey) |
+| _**Chiuso alle nuove voci**_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <li>[Duplica](#duplicate-journey) <li>[Interrompi](#abort-journey) |
+| _**Annullato**_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Completato**_ | Quando tutti i membri del pubblico dell&#39;account o della persona in un percorso completano il percorso, lo stato cambia da _Live_ o _Closed to new entries_ a _Finished_. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
 
 ## Mappe percorso
 
@@ -219,4 +219,4 @@ Quando selezioni il nodo, fai clic sul numero per visualizzare un elenco di acco
 
 ## Video introduttivo sul percorso di account {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443215/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

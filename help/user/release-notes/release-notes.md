@@ -3,7 +3,7 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 1d63c0a2f595a81fc6cb41e9fac628a2ff72d4a1
+source-git-commit: ab1462bc8f81c6983e8e4a620f0502e799901c1b
 workflow-type: tm+mt
 source-wordcount: '4907'
 ht-degree: 70%
@@ -18,7 +18,7 @@ Journey Optimizer B2B Edition è costruito nativamente su [!DNL Adobe Experience
 
 Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} per informazioni su diritti, guardrail delle prestazioni e limitazioni.
 
-## Note sulla versione 2026.3
+## Note sulla versione 2026.3 {#rel-2026-3}
 
 **Data di distribuzione**: 27 marzo 2026
 
@@ -43,7 +43,7 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 >Queste modifiche iniziano la distribuzione il 27 marzo 2026, con un rollout graduale di ciascuna funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 
-## Note sulla versione 2026.2
+## Note sulla versione 2026.2 {#rel-2026-2}
 
 **Data di distribuzione**: 20 febbraio 2026
 
@@ -58,7 +58,7 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 >
 >Queste modifiche alla versione iniziano la distribuzione il 20 febbraio 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
-## Note sulla versione 2026.1
+## Note sulla versione 2026.1 {#rel-2026-1}
 
 **Data di distribuzione**: 3 febbraio 2026
 
@@ -74,7 +74,7 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 >
 >Queste modifiche alla versione iniziano la distribuzione il 3 febbraio 2026, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
-## Funzionalità di IA agentica
+## Funzionalità di IA agentica {#rel-agents}
 
 Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzionalità di IA agentica per Journey Optimizer B2B Edition:
 
@@ -84,7 +84,7 @@ Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzion
 | Agente Audience | Nuovo | L’Agente Audience identifica e crea automaticamente i gruppi acquisti utilizzando dati strutturati e non strutturati. Aiuta i marketer a mirare le persone giuste in modo più rapido e preciso. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
 | Qualificatore di vendita | Nuovo | Sales Qualifier è un&#39;applicazione aggiuntiva basata sull&#39;intelligenza artificiale per Adobe Journey Optimizer B2B edition che contiene il Account Qualification Agent ed è progettata per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti nei vari canali. [Ulteriori informazioni](../agents/sales-qualifier.md) |
 
-## Note sulla versione 2025.10
+## Note sulla versione 2025.10 {#rel-2025-10}
 
 **Data di distribuzione**: 31 ottobre 2025
 
@@ -138,7 +138,7 @@ Con l’architettura semplificata, nella versione 2025.10 sono disponibili le se
 | Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
 | | | -->
 
-## Note sulla versione 2025.9
+## Note sulla versione 2025.9 {#rel-2025-9}
 
 **Data di distribuzione**: 30 settembre 2025
 
@@ -155,7 +155,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 >
 >Queste modifiche della versione saranno introdotte a partire dal 30 settembre 2025, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
-## Note sulla versione 2025.8
+## Note sulla versione 2025.8 {#rel-2025-8}
 
 **Data di distribuzione**: 26 agosto 2025
 
@@ -170,7 +170,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Miglioramento | Aggiornamento del punteggio di coinvolgimento | La logica del punteggio di coinvolgimento del gruppo acquisti viene aggiornata per normalizzare i punteggi. Inoltre, puoi utilizzare i punteggi di coinvolgimento a livello di membro, nonché i punteggi di coinvolgimento collettivo per l’intero gruppo acquisti. [Ulteriori informazioni](../buying-groups/engagement-scores.md) |
 | Miglioramento | Osservabilità attiva del percorso: account in ciascun nodo | Per un percorso di account attivo, puoi accedere a un elenco degli account che hanno raggiunto ciascun nodo account nel percorso. |
 
-## Note sulla versione 2025.6
+## Note sulla versione 2025.6 {#rel-2025-6}
 
 **Data di distribuzione**: 15 luglio 2025
 
@@ -188,7 +188,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Miglioramento | Simulare il contenuto da riepilogo e-mail | È ora possibile accedere agli strumenti _Simula contenuto_ dal riepilogo dell’e-mail (dettagli e proprietà) quando viene aperto un messaggio dall’elenco E-mail. Questo si aggiunge alla possibilità di accedere a tali strumenti dallo spazio di progettazione delle e-mail. [Ulteriori informazioni](../content/email-simulate-content.md#display-the-email-preview) |
 | Miglioramento | Visualizzazione del conteggio totale nell’elenco dei modelli di ruoli | La pagina dell’elenco _[!UICONTROL Modelli ruoli]_ è stata migliorata con la visualizzazione del conteggio totale accanto alla barra di ricerca. |
 
-## Note sulla versione 2025.5
+## Note sulla versione 2025.5 {#rel-2025-5}
 
 **Data di distribuzione**: 3 giugno 2025
 
@@ -201,7 +201,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Miglioramento | Formato token Handlebar per e-mail | I token di personalizzazione per il contenuto delle e-mail ora utilizzano un formato aggiornato completamente compatibile con gli script Handlebar. Questo formato utilizza _camel case_ o trattini bassi, eliminando gli spazi. [Ulteriori informazioni](../content/email-authoring.md#content-authoring---personalization) |
 | Miglioramento | Visualizzazione del conteggio totale per elenchi | Le pagine di elenco _[!UICONTROL Soluzioni di interesse]_ e _[!UICONTROL Percorsi account]_ sono state migliorate con la visualizzazione del conteggio totale accanto alla barra di ricerca. |
 
-## Note sulla versione 2025.4
+## Note sulla versione 2025.4 {#rel-2025-4}
 
 **Data di distribuzione**: 29 aprile 2025
 
@@ -216,7 +216,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Miglioramento | Filtro pagina web visitata | Orchestra i percorsi in base all’attività per le pagine web visitate associate a campagne e programmi di Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">Ulteriori informazioni</a> |
 | Miglioramento | Elenco di e-mail | Visualizza un elenco globale di e-mail attive e bozze per eseguirne la ricerca, la revisione e l’aggiornamento nei percorsi di account associati. <a href="../content/emails-list.md">Ulteriori informazioni</a> |
 
-## Note sulla versione 2025.3
+## Note sulla versione 2025.3 {#rel-2025-3}
 
 **Data di distribuzione**: 1 aprile 2025
 
@@ -229,7 +229,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Funzione | Elimina fasi del gruppo acquisti | È possibile eliminare il modello delle fasi del gruppo acquisti quando si trova nello stato Bozza o Pubblicato. Se è pubblicato (live), puoi eliminarlo solo se non è associato a una soluzione di interesse. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Ulteriori informazioni</a> |
 | Miglioramento | Conteggi nodi percorso | È stata migliorata la visibilità dei conteggi a livello di nodo per l’appartenenza a percorsi pubblicati. Nella _mappa del percorso_, i nodi mostrano il _[!UICONTROL Totale account inseriti]_. Quando un addetto al marketing seleziona un nodo di azione, i dettagli a destra includono anche _[!UICONTROL account non ancora attivi su]_. E i dettagli dei nodi _Ascolta un evento_ includono _[!UICONTROL Account in questo passaggio]_. Queste informazioni sono utili per convalidare la progressione dell’account in percorsi live, completati e interrotti. |
 
-## Note sulla versione 2025.2
+## Note sulla versione 2025.2 {#rel-2025-2}
 
 **Data di distribuzione**: 11 marzo 2025
 
