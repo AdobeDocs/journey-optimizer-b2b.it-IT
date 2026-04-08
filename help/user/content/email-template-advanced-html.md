@@ -26,7 +26,7 @@ _La modalità HTML avanzata_ fornisce una visualizzazione che consente agli uten
 
 ## Limitazioni importanti
 
-Prima di utilizzare la modalità HTML avanzata per l&#39;authoring dei modelli di posta elettronica [](./email-template-authoring.md), accertati di comprendere le seguenti limitazioni:
+Prima di utilizzare la modalità HTML avanzata per l&#39;authoring dei modelli di posta elettronica [&#128279;](./email-template-authoring.md), accertati di comprendere le seguenti limitazioni:
 
 * **Nessuna convalida** - L&#39;editor di HTML non esegue la verifica della sintassi o del layout. Rivedi attentamente il codice prima di salvarlo.
 
