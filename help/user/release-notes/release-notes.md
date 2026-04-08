@@ -3,9 +3,9 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: ceb3e1ffed8b3991305250d69de787e848a4ab1f
+source-git-commit: 36bcf61bd7188495e188e408e2faf9b9f24c7724
 workflow-type: tm+mt
-source-wordcount: '4898'
+source-wordcount: '4905'
 ht-degree: 70%
 
 ---
@@ -31,7 +31,7 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | Funzione | Azioni esterne personalizzate per i percorsi | [!BADGE Architettura semplificata]{type=Informative tooltip="Disponibile con architettura semplificata"} Gli sviluppatori possono ora utilizzare le API per creare integrazioni con i propri sistemi di prime parti. Con queste integrazioni personalizzate, gli addetti al marketing possono aggiungere _nodi Azione esterna_ e _Percorso suddiviso esterno_ per effettuare richieste in uscita ai servizi esterni durante l&#39;esecuzione del percorso di account. |
 | Funzione | Brand | (Beta) I team di marketing possono mantenere la coerenza del brand tra le risorse dei contenuti e-mail archiviando e gestendo i profili del brand. Aggiungendo risorse quali colori, font, loghi, temi, contenuti visivi e linee guida di conformità, è possibile utilizzare il profilo del marchio per la creazione di contenuti di intelligenza artificiale generativi. Possono anche misurare l’allineamento del brand per garantire la conformità. [Ulteriori informazioni](../content/brands-overview.md) |
 | Miglioramento | Invia e-mail - Ottimizzazione dell’ora di invio | [!BADGE Architettura semplificata]{type=Informative tooltip="Disponibile con architettura semplificata"} Per i nodi di azione _Invia e-mail_ in percorsi di persone, puoi utilizzare le opzioni di _Ottimizzazione del tempo di invio_ per personalizzare la tempistica di consegna delle e-mail prevedendo quando è più probabile che ogni profilo sia coinvolto. [Ulteriori informazioni](../content/email-send-time-optimization.md) |
-| Miglioramento | Strumenti di progettazione e-mail - Modalità avanzata | Con la _modalità Expert_ nello spazio di progettazione delle e-mail, gli utenti possono apportare modifiche minori a HTML/CSS e aggiungere tag script a un messaggio e-mail per risolvere i problemi di rendering. |
+| Miglioramento | Strumenti di progettazione dei modelli e-mail - Modalità HTML avanzata | Con la _modalità HTML avanzata_ nello spazio di progettazione del modello e-mail, gli utenti possono apportare modifiche minori a HTML/CSS e aggiungere tag script a un modello e-mail per risolvere i problemi di rendering. [Ulteriori informazioni](../content/email-template-advanced-html.md) |
 | Miglioramento | Oggetti personalizzati della persona - acquisto di modelli di ruoli del gruppo | [!BADGE Architettura semplificata]{type=Informative tooltip="Disponibile con architettura semplificata"} Quando gli amministratori configurano oggetti personalizzati correlati a un profilo di persona aziendale, gli addetti al marketing possono ora definire ruoli del gruppo di acquisto utilizzando questi oggetti personalizzati. [Ulteriori informazioni](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Miglioramento | Punteggio del contenuto dell’e-mail - Valutazione della qualità del contenuto | Oltre all’allineamento del brand, puoi valutare la qualità complessiva dei contenuti per individuare potenziali problemi di leggibilità, coesione ed efficacia (indipendentemente dalle linee guida del brand). Questi controlli automatizzati consentono di individuare messaggi poco chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content/content-evaluation.md) |
 
