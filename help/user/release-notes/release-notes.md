@@ -3,7 +3,7 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 621ada36fac8b5d0796ab4474ac246f86235f798
+source-git-commit: 2ecef6ad487570024745693dc0c8ea7d8a3a3375
 workflow-type: tm+mt
 source-wordcount: '4847'
 ht-degree: 71%
@@ -25,9 +25,7 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Landing pages | Marketers can now create and publish landing pages in Journey Optimizer B2B Edition to support journeys and programs _(previously a Beta program feature)_. |
-| Feature | Forms | Marketers can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition _(previously a Beta program feature)_. | -->
-
-<!-- wait for release information
+| Feature | Forms | Marketers can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition _(previously a Beta program feature)_. |
 | Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | -->
 
 ## Note sulla versione 2026.3 {#rel-2026-3}
