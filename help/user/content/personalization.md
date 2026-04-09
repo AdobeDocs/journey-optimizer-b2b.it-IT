@@ -7,7 +7,7 @@ role: User, Developer
 level: Intermediate
 keywords: espressione, editor, start, personalization
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
-source-git-commit: 10e02b821609c48b82ea0248501daa60de6daa12
+source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 6%
@@ -43,7 +43,7 @@ In [!DNL Journey Optimizer B2B Edition], puoi creare il contenuto dinamico delle
 
 >[!NOTE]
 >
->Ulteriori informazioni sugli schemi XDM nella [documentazione di Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home){target="_blank"}.
+>Ulteriori informazioni sugli schemi XDM nella [documentazione di Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 ## Editor Personalization
 
@@ -65,10 +65,12 @@ Fai clic sull&#39;icona _Altro menu_ ( **...** ) accanto all&#39;icona _Aggiungi
 
 ![Editor Personalization - menu Altro token](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
 
-<!-- >>[!NOTE]
+<!--
+>[!NOTE]
 >
 >By default, the attributes list shows only populated attributes. To display all attributes, click the _Settings_ icon above the search field and toggle off the **[!UICONTROL Show only populated attributes]** option.
 -->
+
 Puoi anche definire una stringa di testo di fallback predefinita che viene visualizzata se un attributo di profilo di tipo stringa è vuoto. Fai clic sull&#39;icona _Altro menu_ ( **...** ) per l&#39;attributo e seleziona **[!UICONTROL Inserisci con testo di fallback]**. Immettere il testo da visualizzare quando il valore dell&#39;attributo per un profilo è vuoto, quindi fare clic su **[!UICONTROL Aggiungi]**.
 
 È consigliabile convalidare l’espressione prima di inserirla nel contenuto. Fai clic su **[!UICONTROL Convalida]** nella parte inferiore dell&#39;editor per verificare la sintassi e verificare che non siano presenti errori.

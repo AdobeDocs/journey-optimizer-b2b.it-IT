@@ -4,7 +4,7 @@ description: 'Blocca i componenti dei modelli e-mail per la conformità al brand
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -48,14 +48,15 @@ Dopo aver utilizzato lo spazio di progettazione visiva per [creare i componenti 
    ![Abilita aggiunte contenuto](./assets/governance-template-content-additions.png){width="600" zoomable="yes"}
 
    Con questa modalità impostata a livello principale, tutti gli elementi del modello sono bloccati. Nella struttura ad albero a sinistra viene visualizzata l&#39;icona _Sola lettura_ ( ![Icona Sola lettura](../assets/do-not-localize/icon-tree-lock.svg) ) accanto alla radice e a tutti gli elementi figlio.
-<!-- 
+<!--
 
    
 - ![Link icon](../assets/do-not-localize/icon-navigation-tree.svg)
 - ![Read only icon](../assets/do-not-localize/icon-tree-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-content-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-edit-text.svg)
-- ![Edit element](../assets/do-not-localize/icon-edit.svg) -->
+- ![Edit element](../assets/do-not-localize/icon-edit.svg) 
+-->
 
 ## Applicare il blocco a una struttura
 

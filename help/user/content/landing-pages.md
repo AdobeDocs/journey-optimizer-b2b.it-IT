@@ -5,10 +5,10 @@ feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 093deda1fa43f1e699709b0ec96db173fc39c3cd
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '2220'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -27,8 +27,9 @@ Per indirizzare i clienti a una pagina web definita quando fanno clic su un coll
 Ad esempio, puoi creare e progettare pagine di destinazione per indirizzare gli utenti a informazioni online. La pagina potrebbe includere un modulo in cui gli utenti possono dare il consenso o rinunciare alla ricezione delle comunicazioni. Oppure potrebbe essere l&#39;opportunità di abbonarsi a comunicazioni ricorrenti, come una newsletter.
 
 Nello spazio di progettazione visiva puoi creare, personalizzare e visualizzare in anteprima le pagine di destinazione.
-<!-- 
-For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. -->
+<!--
+For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. 
+-->
 
 ## Accedere e gestire le pagine di destinazione
 
@@ -152,10 +153,11 @@ Adobe Journey Optimizer B2B edition offre una selezione di _modelli predefiniti_
 
 >[!ENDTABS]
 
-<!-- 
+<!--
 >[!NOTE]
 >
-> Saved templates may have governance (content locking) settings applied to one or more components. The visual designer provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md). -->
+> Saved templates may have governance (content locking) settings applied to one or more components. The visual designer provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md). 
+-->
 
 ## Modificare una pagina di destinazione
 

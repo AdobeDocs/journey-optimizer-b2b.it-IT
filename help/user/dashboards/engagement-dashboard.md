@@ -4,9 +4,9 @@ description: Monitora le metriche di coinvolgimento in tempo reale per account, 
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '561'
 ht-degree: 6%
 
 ---
@@ -77,7 +77,7 @@ Vengono riportati i filtri globali (intervallo di dati e attributi) applicati al
 
 | Coinvolgimento per account | Coinvolgimento per gruppi acquisti | Coinvolgimento per persone |
 | ---------------------- | --------------------------- | -------------------- |
-| <li>Nome account <li>Stato <li>Persone impegnate (numero)<li>Attività di coinvolgimento (numero) <li>Ultimo coinvolgimento (data) | <li>Gruppo acquisti <li>Account <li>Soluzione di interesse <li>Stato <li>Attività di coinvolgimento (numero) | <li>Nome <li>Stato <li>E-mail (indirizzo) <li>Attività di coinvolgimento (numero) <li>Ultimo impegno (data) |
+| <li>Nome account <li>Stato <li>Persone impegnate (numero)<li>Attività di coinvolgimento (numero) <li>Ultimo coinvolgimento (data) | <li>Gruppo acquisti <li>Account <li>Interesse della soluzione <li>Stato <li>Attività di coinvolgimento (numero) | <li>Nome <li>Stato <li>E-mail (indirizzo) <li>Attività di coinvolgimento (numero) <li>Ultimo impegno (data) |
 
 Puoi fare clic sull&#39;icona del menu **...** in alto a destra e scegliere **[!UICONTROL Visualizza altro]** per [visualizzare dati e approfondimenti estesi](#view-more).
 
@@ -90,7 +90,7 @@ Scegli **[!UICONTROL Visualizza altri]** per dati e approfondimenti estesi.
 A seconda del grafico, sono disponibili dati estesi per i seguenti elementi:
 
 | Coinvolgimento per account/gruppi di acquisto/persone | Account/gruppi di acquisto/persone coinvolte nel tempo |
-| ----------------------------------------------- | -------------------------------------------------- | 
+| ----------------------------------------------- | -------------------------------------------------- |
 | <li>Coinvolti <li>Non coinvolto | <li>Data <li>Account / Gruppi di acquisto / Persone (numero) <li>Coinvolto/Non coinvolto |
 
 Per copiare i dati estesi, fai clic su **[!UICONTROL Scarica CSV]** in alto a destra.

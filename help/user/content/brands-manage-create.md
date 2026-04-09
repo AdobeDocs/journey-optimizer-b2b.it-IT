@@ -6,7 +6,7 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 7%
@@ -251,7 +251,8 @@ Selezionare la scheda **[!UICONTROL Stile scrittura]** e rivedere ogni categoria
 |                            | [!UICONTROL Standard di copyright] | Includi avvisi di copyright sul materiale di marketing. | Non utilizzare contenuti di terze parti senza autorizzazione. |
 |                            | [!UICONTROL Standard disclaimer] | Visualizzare le liberatorie in modo leggibile sulle risorse digitali. | Non nascondere le liberatoria in aree non visibili. |
 
-<!-- #### Preferred and avoided terms
+<!--
+ #### Preferred and avoided terms
 
 Supplement your work choice guidelines by adding preferred and avoided terms. 
 
@@ -286,14 +287,14 @@ Seleziona la scheda **[!UICONTROL Contenuto visivo]** e controlla ogni categoria
 | [!UICONTROL Standard icona] | Utilizza un sistema di griglia a 24 px coerente. | Non combinare le dimensioni delle icone, non utilizzare pesi di traccia incoerenti o non discostarsi dalle regole della griglia. |
 | [!UICONTROL Linee guida per l&#39;utilizzo] | Scegliete uno stile di vita che rifletta i clienti reali che usano il prodotto in ambienti professionali. | Non utilizzare immagini che contraddicono il tono del marchio o che appaiono fuori contesto. |
 
-<!-- #### Styles
+<!--
+ #### Styles
 
 To define the overall style for the category, click **[!UICONTROL Add style]**. In the popup dialog, enter the style type and description. 
 
 ![Add style for visual content category](./assets/brands-visual-content-add-style.png){width="500" zoomable="yes"}
 
 #### Specifications
-
 -->
 
 #### Immagini di esempio

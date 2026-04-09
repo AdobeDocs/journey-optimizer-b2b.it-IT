@@ -4,10 +4,10 @@ description: Crea modelli personalizzati di fase del gruppo di acquisto con fasi
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 1%
+source-wordcount: '2357'
+ht-degree: 2%
 
 ---
 
@@ -168,7 +168,7 @@ In assenza di errori di convalida, il modello può essere pubblicato. Quando vie
 
 >[!IMPORTANT]
 >
->**Dopo la pubblicazione, il modello non può essere aggiornato o eliminato.** Prima di pubblicare il modello, assicurati che le tue risorse siano corrette.
+>**Impossibile aggiornare o eliminare il modello dopo la pubblicazione.** Prima di pubblicare il modello, verificate che le informazioni disponibili siano corrette.
 
 1. Rivedi attentamente le fasi e le transizioni definite.
 
@@ -181,22 +181,24 @@ In assenza di errori di convalida, il modello può essere pubblicato. Quando vie
    Tornando alla pagina dei dettagli del modello, il modello viene designato come _[!UICONTROL Live]_. Fai clic sulla freccia _Indietro_ in alto a sinistra per tornare alla scheda _[!UICONTROL Stadi]_.
 
 ![Modello pubblicato](assets/stages-tab-model-live.png){width="700" zoomable="yes"}
-<!-- list these later when the Published columns are working correctly
+<!--
+ list these later when the Published columns are working correctly
 
 Columns - Name, Status, Created by, Created date, Last updated by, Last update, Published by, Published on.
 Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the stage inventory page. 
 Info icon beside the name - display the description on click.
-Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
+Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. 
+-->
 
 ## Elimina il modello di fasi del gruppo di acquisto
 
-È possibile eliminare il modello delle fasi del gruppo acquisti quando si trova nello stato Bozza o Pubblicato. Se è pubblicato (in tempo reale), puoi eliminarlo solo se non è associato a un interesse per la soluzione.
+È possibile eliminare il modello delle fasi del gruppo acquisti quando si trova nello stato Bozza o Pubblicato. Se è pubblicato (live), puoi eliminarlo solo se non è associato a una soluzione di interesse.
 
 1. Nel menu di navigazione a sinistra, vai a **[!UICONTROL Account]** > **[!UICONTROL Gruppi di acquisto]**.
 
 1. Nella pagina _Gruppi di acquisto_ selezionare la scheda **[!UICONTROL Fasi]**.
 
-1. Fai clic sull&#39;icona del menu _Altro_ (**...**) accanto al nome del modello di stadi e scegli **[!UICONTROL Elimina]**.
+1. Fai clic sull&#39;icona del menu _Altro_ (**...**) accanto al nome del modello stadi e scegliere **[!UICONTROL Elimina]**.
 
    ![Acquisto di modelli di fasi del gruppo - menu Altro](./assets/stages-model-list-more-menu.png){width="700"}
 
@@ -215,7 +217,7 @@ Per ogni interesse di soluzione esistente in cui si desidera associare il modell
 1. Aprire l&#39;interesse della soluzione utilizzando uno dei metodi seguenti per aprire le proprietà per l&#39;interesse della soluzione che si desidera modificare:
 
    * Fai clic sul nome dell’interesse della soluzione.
-   * Fai clic sui puntini di sospensione (**...**) accanto a esso e scegli **[!UICONTROL Modifica]**.
+   * Fare clic sui puntini di sospensione (**...**) accanto e scegliere **[!UICONTROL Modifica]**.
 
    ![Menu Altro interesse soluzione](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
@@ -365,4 +367,4 @@ Utilizza l’occorrenza di una modifica della fase del gruppo di acquisto per sp
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3448702/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

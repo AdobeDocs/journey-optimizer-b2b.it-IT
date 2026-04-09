@@ -5,9 +5,9 @@ feature: Content Design Tools, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
-source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2357'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ Prima di poter progettare esperienze web, assicurati di soddisfare i seguenti re
 
 * Un amministratore di prodotto ha configurato uno o più canali web per definire gli URL (pagine) da includere per un’esperienza web. Per ulteriori informazioni, vedere [Configurazioni del canale Web](../admin/configure-channels-web.md).
 
-* Il sito Web include [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementato per l&#39;identificazione dei visitatori e la distribuzione dei contenuti. È richiesto Adobe Experience Platform Web SDK versione 2.16 o successiva.
+* Il sito Web include [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementato per l&#39;identificazione dei visitatori e la distribuzione dei contenuti. È richiesto Adobe Experience Platform Web SDK versione 2.16 o successiva.
 
 * Hai le [autorizzazioni](../admin/user-management.md#b2b-product-permissions) necessarie per creare e gestire esperienze Web in un percorso:
    * _[!UICONTROL Campagne]_ > _[!UICONTROL Gestisci campagne]_ - Necessario per aggiungere o aggiornare un nodo di azione di personalizzazione Web.
@@ -221,18 +221,18 @@ Le modifiche apportate al selettore CSS consentono di eseguire il targeting degl
 
 1. Immetti il selettore nel campo **[!UICONTROL Selettore elemento CSS]**.
 
-<!-- This field helps you find and select the HTML elements (or nodes in the DOM tree). -->
+   <!-- This field helps you find and select the HTML elements (or nodes in the DOM tree). -->
 
-    **Selettori di esempio:**
-    
-    | Selettore | Destinazioni |
-    | -------- | ------- |
-    | `#hero-banner` | Elemento con ID `hero-banner` |
-    | `.cta-button` | Tutti gli elementi con classe `cta-button` |
-    | `header nav a` | Collegamenti all’interno della navigazione, all’interno dell’intestazione |
-    | `[data-offer=&quot;premium&quot;]` | Elementi con un attributo di dati specifico |
+   **Selettori di esempio:**
 
-1. Scegli un tipo di azione **&#x200B;**&#x200B;e specifica le informazioni o il contenuto richiesti.
+   | Selettore | Target |
+   | -------- | ------- |
+   | `#hero-banner` | Elemento con ID `hero-banner` |
+   | `.cta-button` | Tutti gli elementi con classe `cta-button` |
+   | `header nav a` | Collegamenti all’interno della navigazione, all’interno dell’intestazione |
+   | `[data-offer="premium"]` | Elementi con un attributo di dati specifico |
+
+1. Scegli un tipo di azione **** e specifica le informazioni o il contenuto richiesti.
 
    * **[!UICONTROL Imposta contenuto]** - Immettere il testo nel campo **[!UICONTROL Contenuto]** per l&#39;elemento identificato dal valore _[!UICONTROL Selettore elemento CSS]_.
 
@@ -299,11 +299,13 @@ Ogni record di modifica include:
 
 1. Quando richiesto, confermare la rimozione.
 
-<!-- ### Reorder modifications
+<!--
+ ### Reorder modifications
 
 Modifications are applied in the order that they appear in the list. If you have multiple modifications that affect the same element, the order may impact the final result.
 
-Drag and drop modifications in the list to change the order. The preview updates to reflect the new modification order. -->
+Drag and drop modifications in the list to change the order. The preview updates to reflect the new modification order. 
+-->
 
 ## Anteprima delle modifiche
 
@@ -327,7 +329,7 @@ Tieni traccia delle interazioni dell’utente con gli elementi per misurare il c
 
 Quando la tua esperienza web è attivata (dal vivo), puoi anche creare rapporti utilizzando Adobe Customer Journey Analytics (che richiede un abbonamento al prodotto). Per migliorare il monitoraggio dell’esperienza web, puoi anche tenere traccia dei clic su qualsiasi elemento specifico del sito web. Il tracciamento ti consente di visualizzare il numero di clic per tale elemento nei rapporti web.
 
-Per ulteriori informazioni su Customer Journey Analytics e sulla creazione di report Web, consulta la [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-landing).
+Per ulteriori informazioni su Customer Journey Analytics e sulla creazione di report Web, consulta la [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing).
 
 1. Seleziona un elemento nell’editor esperienze web, ad esempio un’immagine o un collegamento.
 

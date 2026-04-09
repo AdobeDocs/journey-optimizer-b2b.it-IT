@@ -3,9 +3,9 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 2ecef6ad487570024745693dc0c8ea7d8a3a3375
+source-git-commit: 7eacf9d3951e4d5a393cb2636cee0c6b40ecc050
 workflow-type: tm+mt
-source-wordcount: '4847'
+source-wordcount: '4891'
 ht-degree: 71%
 
 ---
@@ -41,7 +41,13 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | Miglioramento | Invia e-mail - Ottimizzazione dell’ora di invio | [!BADGE Architettura semplificata]{type=Informative tooltip="Disponibile con architettura semplificata"} Per i nodi di azione _Invia e-mail_ in percorsi di persone, puoi utilizzare le opzioni di _Ottimizzazione del tempo di invio_ per personalizzare la tempistica di consegna delle e-mail prevedendo quando è più probabile che ogni profilo sia coinvolto. [Ulteriori informazioni](../content/email-send-time-optimization.md) |
 | Miglioramento | Strumenti di progettazione dei modelli e-mail - Modalità HTML avanzata | Con la _modalità HTML avanzata_ nello spazio di progettazione del modello e-mail, gli utenti possono apportare modifiche minori a HTML/CSS e aggiungere tag script a un modello e-mail per risolvere i problemi di rendering. [Ulteriori informazioni](../content/email-template-advanced-html.md) |
 | Miglioramento | Oggetti personalizzati della persona - acquisto di modelli di ruoli del gruppo | [!BADGE Architettura semplificata]{type=Informative tooltip="Disponibile con architettura semplificata"} Quando gli amministratori configurano oggetti personalizzati correlati a un profilo di persona aziendale, gli addetti al marketing possono ora definire ruoli del gruppo di acquisto utilizzando questi oggetti personalizzati. [Ulteriori informazioni](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Miglioramento | Punteggio del contenuto dell’e-mail - Convalida della qualità del contenuto | Oltre all’allineamento del brand, puoi valutare la qualità complessiva dei contenuti per individuare potenziali problemi di leggibilità, coesione ed efficacia (indipendentemente dalle linee guida del brand). Questi controlli automatizzati consentono di individuare messaggi poco chiari, toni incoerenti o lacune strutturali. |
 | Miglioramento | Punteggio del contenuto dell’e-mail - Valutazione della qualità del contenuto | Oltre all’allineamento del brand, puoi valutare la qualità complessiva dei contenuti per individuare potenziali problemi di leggibilità, coesione ed efficacia (indipendentemente dalle linee guida del brand). Questi controlli automatizzati consentono di individuare messaggi poco chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content/content-evaluation.md) |
+
+<!--
+ wait for later release
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
+-->
 
 >[!NOTE]
 >
@@ -136,12 +142,14 @@ Con l’architettura semplificata, nella versione 2025.10 sono disponibili le se
 | Miglioramento | Ponderazione del punteggio di coinvolgimento - Eventi AEP | La ponderazione del punteggio di coinvolgimento può ora includere uno qualsiasi degli eventi Experience Platform standard o personalizzati e ponderati in base alle tue esigenze. [Ulteriori informazioni](../admin/engagement-score-weighting.md) |
 | Miglioramento | Limiti di comunicazione | Il sistema ora rispetta i limiti di comunicazione combinati di Marketo Engage e Journey Optimizer B2B edition. [Ulteriori informazioni](../admin/configure-channels-emails.md#communication-limits) |
 
-<!-- There are additional functional changes with the simplified architecture:
+<!--
+ There are additional functional changes with the simplified architecture:
 
 | Item | Description |
 | ---- | ----------- |
 | Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
-| | | -->
+| | |
+-->
 
 ## Note sulla versione 2025.9 {#rel-2025-9}
 

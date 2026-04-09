@@ -1,10 +1,10 @@
 ---
 title: Snippet
 description: Riutilizzo di note ed elementi visivi per annotare una funzione o una pagina applicata a una specifica edizione
-source-git-commit: 9ff6a9ded077ed9556cc01e48341379ff2a1b3c0
+source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
 workflow-type: tm+mt
-source-wordcount: '2365'
-ht-degree: 3%
+source-wordcount: '2405'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Le licenze per AEM Assets as a Cloud Service e Dynamic Media sono prerequisiti per l’integrazione. Verificare che [Dynamic Media con API aperta](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} sia abilitato. L&#39;integrazione è limitata agli archivi dal _livello di consegna_. Se si utilizza il _livello di creazione_ e si desidera convertirlo, contattare il supporto tecnico Adobe Experience Manager.<br/>
+>Le licenze per AEM Assets as a Cloud Service e Dynamic Media sono prerequisiti per l’integrazione. Verificare che [Dynamic Media con API aperta](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} sia abilitato. L&#39;integrazione è limitata agli archivi dal _livello di consegna_. Se si utilizza il _livello di creazione_ e si desidera convertirlo, contattare il supporto tecnico Adobe Experience Manager.<br/>
 >A seconda del contratto e della configurazione, è possibile accedere a Adobe Experience Manager Assets as a Cloud Service direttamente da Adobe Journey Optimizer B2B edition durante la progettazione di contenuti visivi.
 
 ## Passaggio Authoring dei contenuti - componenti - strutture {#structures-step}
@@ -44,8 +44,10 @@ ht-degree: 3%
 1. Espandi la sezione **[!UICONTROL Contents]** e aggiungi tutti gli elementi necessari in uno o più componenti della struttura.
 
    ![Trascina un elemento di contenuto nell&#39;area di lavoro e regola le impostazioni](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
+
    <!--
-   reference to the contents elements--->
+   reference to the contents elements
+   -->
 
 ## Authoring dei contenuti - componenti - passaggio impostazioni {#settings-step}
 

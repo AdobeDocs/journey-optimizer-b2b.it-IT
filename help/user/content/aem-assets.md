@@ -4,9 +4,9 @@ description: 'Accedi e utilizza le immagini AEM Assets nell’authoring dei cont
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '592'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Se nell&#39;ambiente sono presenti una o più connessioni a [archivi Assets](../
 
 >[!IMPORTANT]
 >
->Un amministratore deve aggiungere gli utenti che hanno bisogno di accedere ad Assets ai profili di prodotto Utenti consumer di Assets e Utenti di Assets. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>Un amministratore deve aggiungere gli utenti che hanno bisogno di accedere ad Assets ai profili di prodotto Utenti consumer di Assets e Utenti di Assets. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## Accedere alle immagini di AEM Assets
 
@@ -33,7 +33,7 @@ Nello spazio di progettazione del contenuto, fai clic sull&#39;icona _[!UICONTRO
 
 >[!NOTE]
 >
->Attualmente, in [!DNL Adobe Experience Manager Assets] sono supportate solo le risorse immagine di [!DNL Adobe Journey Optimizer B2B Edition]. Le modifiche alle risorse devono essere eseguite dall&#39;archivio centrale [!DNL Adobe Experience Manager Assets]. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>Attualmente, in [!DNL Adobe Journey Optimizer B2B Edition] sono supportate solo le risorse immagine di [!DNL Adobe Experience Manager Assets]. Le modifiche alle risorse devono essere eseguite dall&#39;archivio centrale [!DNL Adobe Experience Manager Assets]. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### Modificare l’archivio visualizzato
 
@@ -78,7 +78,7 @@ Esistono diversi metodi per aggiungere una risorsa immagine all’area di lavoro
    ![Utilizza i filtri e il campo di ricerca per individuare la risorsa](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
 
 1. Fai clic su **[!UICONTROL Seleziona]**.
-<!-- 
+<!--
 
 ## Upload assets
 

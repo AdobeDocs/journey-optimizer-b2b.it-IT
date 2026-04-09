@@ -4,10 +4,10 @@ description: 'Creazione di e-mail con strumenti di progettazione visiva, importa
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9f8953423e3b6d578155431c7638e4fec9abf86a
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 2%
+source-wordcount: '1175'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ Dopo aver [aggiunto una risorsa e-mail a un nodo di azione del percorso](./add-e
 
 Fai clic su **[!UICONTROL Modifica contenuto e-mail]** nella scheda _[!UICONTROL Dettagli]_ nel pannello di destra.
 
-![Fare clic su Modifica contenuto e-mail &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Fare clic su Modifica contenuto e-mail ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Questa azione avvia gli strumenti di progettazione delle e-mail, in cui puoi scegliere come progettare le e-mail dalle seguenti opzioni:
 
@@ -51,11 +51,13 @@ Utilizza lo spazio di progettazione del contenuto visivo per definire la struttu
 
 1. [Verifica e-mail](#check-and-test-the-email).
 
-<!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
+<!--
+ If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual design space for this email after switching to the code editor. -->
+>You cannot revert back to the visual design space for this email after switching to the code editor. 
+-->
 
 Quando si è soddisfatti del contenuto, fare clic su **[!UICONTROL Salva]**.
 
@@ -67,7 +69,7 @@ Quando si è soddisfatti del contenuto, fare clic su **[!UICONTROL Salva]**.
 
 >[!NOTE]
 >
->L&#39;utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
+>L’utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
 
 Puoi personalizzare il contenuto importato in base alle esigenze con gli strumenti dell’editor e-mail visivo.
 
@@ -91,7 +93,7 @@ Con almeno un componente di contenuto nell&#39;area di lavoro, seleziona il comp
 
 >[!NOTE]
 >
->Se il messaggio di posta elettronica è progettato utilizzando un modello [&#x200B; con contenuto bloccato](./template-content-governance.md), non è possibile aggiungere CSS personalizzati al contenuto. L&#39;etichetta del pulsante diventa **[!UICONTROL Visualizza CSS personalizzato]** ed eventuali CSS personalizzati già presenti nel contenuto sono di sola lettura.
+>Se il messaggio di posta elettronica è progettato utilizzando un modello [ con contenuto bloccato](./template-content-governance.md), non è possibile aggiungere CSS personalizzati al contenuto. L&#39;etichetta del pulsante diventa **[!UICONTROL Visualizza CSS personalizzato]** ed eventuali CSS personalizzati già presenti nel contenuto sono di sola lettura.
 
 ![Accedere agli stili del corpo](./assets/email-body-styles.png){width="800" zoomable="yes"}
 

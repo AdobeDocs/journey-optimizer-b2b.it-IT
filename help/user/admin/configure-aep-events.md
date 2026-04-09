@@ -6,16 +6,16 @@ role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: cefd98099bf6524d1d559a47d502990852de1468
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 7%
+source-wordcount: '1477'
+ht-degree: 12%
 
 ---
 
 # Seleziona eventi e campi esperienza
 
-Gli amministratori possono selezionare [AEP Experience Events](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} specifici e i campi associati nello schema di unione Experience Event. Dopo la selezione, gli utenti possono configurare le regole di decisione per ascoltare tali eventi esperienza al fine di abilitare azioni di campagna dinamiche e mirate basate su dati di eventi in tempo quasi reale.
+Gli amministratori possono selezionare [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} specifici e i campi associati nello schema di unione Experience Event. Dopo la selezione, gli utenti possono configurare le regole di decisione per ascoltare tali eventi esperienza al fine di abilitare azioni di campagna dinamiche e mirate basate su dati di eventi in tempo quasi reale.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 L’utilizzo degli eventi di esperienza di AEP nei percorsi è un processo in due fasi:
@@ -283,7 +283,7 @@ Tipo evento: `directMarketing.emailBounced`
 
 +++
 
-### E-mail non recapitata temporaneamente
+### E-mail con mancato recapito non permanente
 
 Questo evento tiene traccia dei mancati recapiti non permanenti di un’e-mail a una persona.
 
@@ -462,6 +462,8 @@ Tipo evento: `leadOperation.interestingMoment `
 
 +++
 
-<!-- ## Overview video
+<!--
+ ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
+-->

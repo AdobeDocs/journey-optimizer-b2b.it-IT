@@ -4,7 +4,7 @@ description: 'Progetta e-mail, pagine di destinazione e frammenti con componenti
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: ab9e6a1d8785ad4f36e1026a8c376abc9c526c9e
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '3057'
 ht-degree: 6%
@@ -759,7 +759,7 @@ Utilizza il componente _Modulo_ per aggiungere un modulo pubblicato a una pagina
 
    * **[!UICONTROL Resta a pagina]** - Scegli questa opzione per mantenere il visitatore sulla stessa pagina al momento dell&#39;invio del modulo.
 
-   * **[!UICONTROL Pagina di destinazione]** - Scegli questa opzione per selezionare una qualsiasi pagina di destinazione Journey Optimizer B2B Edition o Marketo Engage come follow-up.
+   * **[!UICONTROL Pagina di destinazione]** - Scegli questa opzione per selezionare una pagina di destinazione Journey Optimizer B2B edition o Marketo Engage come follow-up.
 
    * **[!UICONTROL URL esterno]** - Scegliere questa opzione per specificare qualsiasi URL come pagina di follow-up. Dopo che il visitatore ha inviato il modulo, il browser carica l’URL designato.
 

@@ -6,7 +6,7 @@ level: Beginner
 topic: Artificial Intelligence
 role: User
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
-source-git-commit: ce4df9a2726cf842c088738521b3e5dd88dd768f
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 2%
@@ -36,7 +36,8 @@ L&#39;intelligenza artificiale generativa per il contenuto in [!DNL Adobe Journe
 Utilizzare le funzionalità di intelligenza artificiale generativa per la creazione di contenuti in [!DNL Journey Optimizer B2B Edition] per sfruttare le funzionalità di intelligenza artificiale generativa di Adobe. Crea testo e immagini personalizzati per e-mail, messaggi SMS, pagine di destinazione e altro ancora. Quando si crea una campagna completa o si perfezionano semplicemente risorse specifiche, queste funzioni consentono di allineare i contenuti in modo semplice alle linee guida del marchio, risparmiando tempo prezioso.
 
 <!--
-Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. -->
+Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. 
+-->
 
 >[!IMPORTANT]
 >
@@ -49,7 +50,7 @@ Gli strumenti di AI Assistant per la generazione di contenuti sono supportati co
 
 ## Linee guida e limitazioni generali {#general-guidelines-and-limitations}
 
-L&#39;utilizzo delle funzionalità di IA generativa è soggetto alle [linee guida per l&#39;utente di IA generativa di Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Con l&#39;impegno di Adobe per la trasparenza nell&#39;utilizzo degli strumenti di intelligenza artificiale generativi per la creazione di contenuti multimediali, Adobe applica [credenziali contenuto](https://helpx.adobe.com/it/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} a qualsiasi contenuto o progetto che include una risorsa generata da [!DNL Firefly] al momento del download o dell&#39;esportazione.
+L&#39;utilizzo delle funzionalità di IA generativa è soggetto alle [linee guida per l&#39;utente di IA generativa di Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Con l&#39;impegno di Adobe per la trasparenza nell&#39;utilizzo degli strumenti di intelligenza artificiale generativi per la creazione di contenuti multimediali, Adobe applica [credenziali contenuto](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} a qualsiasi contenuto o progetto che include una risorsa generata da [!DNL Firefly] al momento del download o dell&#39;esportazione.
 
 Rivedi le seguenti linee guida generali per l&#39;utilizzo di IA generativa per il contenuto in [!DNL Journey Optimizer B2B Edition]:
 
@@ -243,7 +244,8 @@ Fornisci sempre contesto e proposta di valore per la produzione di contenuti ril
 </tbody>
 </table>
 
-<!-- channels not yet supported
+<!--
+ channels not yet supported
 <tr>
 <td><strong>SMS</strong></td>
 <td>"Alert VIP customers about a 4-hour flash sale on premium electronics with 40% discount, limited to the first 100 customers"</td>
@@ -251,9 +253,11 @@ Fornisci sempre contesto e proposta di valore per la produzione di contenuti ril
 <tr>
 <td><strong>Push Notifications</strong></td>
 <td>"Re-engage users who haven't opened the app in 7 days with personalized content recommendations based on their reading history"</td>
-</tr> -->
+</tr> 
+-->
 
-<!-- Wait on more B2B specific examples
+<!--
+ Wait on more B2B specific examples
 
 ### Industry-specific approaches {#industry-approaches}
 
@@ -291,7 +295,8 @@ Fornisci sempre contesto e proposta di valore per la produzione di contenuti ril
 </tr>
 </tbody>
 </table>
- -->
+ 
+-->
 
 ### Nuovi contenuti e modifica di quelli esistenti {#new-vs-modify}
 

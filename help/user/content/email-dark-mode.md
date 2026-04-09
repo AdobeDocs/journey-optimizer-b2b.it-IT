@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: modalità scura, e-mail, colore, progettazione
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
-source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 5%
@@ -30,7 +30,7 @@ _Modalità scura_ consente a un client e-mail o a un&#39;app di supporto di visu
 
 ![Diagramma concettuale della modalità chiara e scura che mostra il rendering del contenuto con temi chiari e scuri](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
 
-Quando [crei il contenuto delle e-mail](./email-authoring.md) nello spazio di progettazione visiva [!DNL Journey Optimizer B2B Edition], puoi passare alla visualizzazione _&#x200B;**[!UICONTROL modalità scura]**&#x200B;_. In questa visualizzazione, puoi anche definire impostazioni personalizzate specifiche per il supporto dei client e-mail quando è abilitata la modalità scura.
+Quando [crei il contenuto delle e-mail](./email-authoring.md) nello spazio di progettazione visiva [!DNL Journey Optimizer B2B Edition], puoi passare alla visualizzazione _**[!UICONTROL modalità scura]**_. In questa visualizzazione, puoi anche definire impostazioni personalizzate specifiche per il supporto dei client e-mail quando è abilitata la modalità scura.
 
 ## Considerazioni sul client e-mail
 
@@ -92,10 +92,12 @@ Quando si applica uno stile al contenuto delle e-mail per la modalità scura in 
 
 ### Anteprima modalità scura predefinita {#preview-dark-mode}
 
-<!-- Should work with templates and themes, NOT for LP and fragments - but TBC with eng. 
+<!--
+ Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
 >[!NOTE]
 >
->Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).-->
+>Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).
+-->
 
 1. Apri il contenuto dell’e-mail nello spazio di progettazione e-mail.
 
@@ -187,10 +189,14 @@ La modalità scura può alterare i colori, gli sfondi e le immagini, a volte ign
 | Progettare contenuti accessibili in modalità scura | Elenco di controllo:<ul><li>Utilizza combinazioni di colori facili da distinguere per le persone con daltonismo. <li>Utilizza una palette di mezzitoni per garantire il contrasto sia contro gli sfondi chiari che scuri. <li>Utilizza combinazioni di colori accessibili con contrasto elevato per migliorare la leggibilità e soddisfare gli standard [!DNL Web Content Accessibility Guidelines (WCAG)]. Utilizza strumenti come [!DNL WebAIM Contrast Checker] per verificare il contrasto dei colori. <li>Evita i font sottili in quanto possono influire sulla leggibilità. Se il tuo marchio richiede un font sottile, grassetto in modalità scura. <li>Salta il bianco puro sul nero puro, che può causare affaticamento degli occhi e potrebbe essere invertito automaticamente in alcuni client e-mail. <li>Se la modalità scura non è supportata, fornisci uno stile di fallback accessibile. |
 | Verifica le e-mail in un ambiente in modalità scura | Elenco di controllo:<ul><li>Utilizza l&#39;[anteprima in modalità scura](#preview-dark-mode) nello spazio di progettazione delle e-mail, che utilizza combinazioni di colori invertite per individuare i problemi in anticipo. <li>Utilizza un account Litmus Enterprise con l&#39;opzione [[!UICONTROL Rendering e-mail]](./email-test-rendering.md) per simulare le progettazioni tra i principali client e-mail (ad esempio Apple Mail, Gmail e Outlook) e vedere come si comportano i colori e le immagini in modalità scura. |
 
-<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
+<!--
+KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
 If needed, it can be moved to the Design accessible content page:
-The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).-->
+The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).
+-->
 
-<!--**Inline critical styles**
+<!--
+**Inline critical styles**
 
-Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.-->
+Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.
+-->

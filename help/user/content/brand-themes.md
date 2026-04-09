@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: Temi e-mail, Riutilizzabilità, Allineamento marchio, Progettazione e-mail
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 5e8dc7e2da8f27950e9c05c66943317669a5361b
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '3107'
 ht-degree: 2%
@@ -34,7 +34,7 @@ Quando lavori con i temi, tieni presenti le seguenti linee guida e limitazioni:
 * Le modifiche a un tema personalizzato non si sovrappongono automaticamente a tutti i messaggi e-mail o modelli e-mail che lo utilizzano già. Modifica il contenuto di ogni per aggiornare il tema.
 
 * Se elimini un tema, questo non influisce su eventuali modelli e-mail o e-mail a cui è già stato applicato.
-<!-- 
+<!--
 * If using a content created in HTML, you will be in [compatibility mode](existing-content.md) and you cannot apply themes to this content.
 -->
 
@@ -379,4 +379,5 @@ Per un e-mail o un modello e-mail creato in _Modalità tema_, puoi modificare il
 - The theme is saved and reused by marketers to author multiple emails.
 
 ### 2. Switching Themes
-- A marketer applies a holiday-themed design to an existing email by switching to a pre-designed holiday theme.-->
+- A marketer applies a holiday-themed design to an existing email by switching to a pre-designed holiday theme.
+-->

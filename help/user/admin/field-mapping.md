@@ -4,10 +4,10 @@ description: Esamina i campi attributo predefiniti sincronizzati tra Adobe Exper
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 4af43d4ee2040bbdee85286950db6e3658395198
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '1221'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 
 >[!TIP]
 >
->È possibile modellare le classi XDM Business Person e XDM Business Account in una relazione molti-a-molti utilizzando la classe XDM Business Account Person Relation come descritto nella [documentazione Experience Platform XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>È possibile modellare le classi XDM Business Person e XDM Business Account in una relazione molti-a-molti utilizzando la classe XDM Business Account Person Relation come descritto nella [documentazione Experience Platform XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 >[!NOTE]
 >
@@ -86,9 +86,10 @@ I dati sul pubblico dell’account vengono memorizzati come attributi sia nelle 
 | `accountPhone.number` | N/D | Numero di telefono dell’account | Stringa | Numero di telefono associato all’account. |
 | `accountSourceType` | N/D | Tipo di origine | Stringa | Tipo di Source per l’account. |
 
-<!-- ## XDM Business Opportunity attributes
+<!--
+ ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Experience Platform documentation](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 | [Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | Display name | Journey Optimizer B2B display name | Data type | Description |
 | --- | --- | --- | --- | --- |
@@ -110,4 +111,5 @@ Additionally, opportunity data is stored as attributes in the XDM Business Oppor
 | `opportunityStage` | Opportunity Stage | Opportunity stage | String | Sales stage of the opportunity to aid the sales team in their efforts to win it. |
 | `opportunityType` | Opportunity Type | Opportunity type | String | Type assigned to the opportunity, such as _Existing Business_ or _New Business_ |
 | `probabilityPercentage` | Probability Percentage | Opportunity probability percentage | String | Likelihood of closing the opportunity, stated as a percentage. |
- -->
+ 
+-->

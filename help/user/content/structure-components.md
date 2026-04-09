@@ -4,14 +4,14 @@ description: 'Utilizza i componenti struttura per creare layout per e-mail, pagi
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 6%
+source-wordcount: '1603'
+ht-degree: 7%
 
 ---
 
-# Componenti di struttura {#structure-components}
+# Componenti della struttura {#structure-components}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
@@ -97,7 +97,7 @@ Per rimuovere la designazione di intestazione o piè di pagina, seleziona il com
 
 Per schermate o finestre di visualizzazione più piccole, le colonne nel componente struttura vengono visualizzate in pila a meno che non si modifichi l’impostazione predefinita. Con il componente struttura a più colonne selezionato, modifica l&#39;impostazione **[!UICONTROL Non impilare le colonne sul dispositivo mobile]** spostando il cursore di attivazione/disattivazione a destra.
 
-![Non impilare colonne sul dispositivo mobile &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"}
+![Non impilare colonne sul dispositivo mobile ](./assets/structure-component-settings-stack-columns.png){width="250"}
 
 ## Stili dei componenti
 

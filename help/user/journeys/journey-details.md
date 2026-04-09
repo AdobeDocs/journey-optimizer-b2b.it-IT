@@ -4,9 +4,9 @@ description: Monitora le prestazioni del percorso di account con tassi di comple
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -60,12 +60,13 @@ Le tabelle delle prestazioni forniscono un’analisi dettagliata dell’efficaci
 * _[!UICONTROL Inviato]_ - numero di messaggi SMS inviati
 * _[!UICONTROL Percentuale di recapito]_ - numero di messaggi SMS recapitati diviso per il numero inviato
 * _[!UICONTROL Percentuale di click-through]_ - numero di messaggi SMS selezionati diviso per il numero recapitato
-<!-- 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
+<!--
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. 
+-->
 
 ## Interazione migliorata
 
-Interagisci ulteriormente con i dati utilizzando l&#39;icona dell&#39;azione (**...**) in alto a destra di ogni grafico o tabella.
+Interagisci ulteriormente con i dati utilizzando l&#39;icona dell&#39;azione (**...**) in alto a destra in ogni grafico o tabella.
 
 ### Drill-through
 
@@ -73,7 +74,8 @@ Per il grafico _[!UICONTROL Stato Percorso]_, scegliere **[!UICONTROL Espandi]**
 
 ![Drill-through per i dati del grafico](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
-The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
+The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.
+-->
 
 ### Visualizza altro
 

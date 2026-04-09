@@ -4,10 +4,10 @@ description: 'Accedi a Journey Optimizer B2B edition e naviga tra le pagine Home
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 93%
 
 ---
 
@@ -15,13 +15,16 @@ ht-degree: 100%
 
 Con Adobe Journey Optimizer B2B Edition, puoi orchestrare account e percorsi del gruppo acquisti utilizzando l’intelligenza artificiale generativa incorporata e l’automazione leader di settore per ottimizzare la domanda di offerte specifiche utilizzando gruppi di acquisto qualificati per il marketing.
 
-<!-- Requirements?
+<!--
+ Requirements?
 -->
+
 Per accedere a [!DNL Adobe Journey Optimizer B2B Edition], connettiti ad Adobe Experience Cloud con il tuo Adobe ID e seleziona [!DNL Journey Optimizer B2B Edition].
 
 ![App Adobe Experience Platform](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
-La pagina Home viene visualizzata accedendo ad Adobe Experience Platform e selezionando l’app Adobe Journey Optimizer B2B Edition. Questa pagina fornisce una panoramica dello stato corrente delle tue iniziative di Journey Optimizer B2B sotto forma di<!-- refined insights and--> collegamenti di accesso rapido alle risorse rilevanti. <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
+La pagina Home viene visualizzata accedendo ad Adobe Experience Platform e selezionando l’app Adobe Journey Optimizer B2B Edition. In questa pagina viene fornita una panoramica dello stato corrente delle iniziative B2B di Journey Optimizer sotto forma di <!-- refined insights and--> collegamenti di accesso rapido alle risorse rilevanti.
+<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
 ![Pagina Home di Journey Optimizer B2B Edition](./assets/home-page.png){width="800" zoomable="yes"}
 
@@ -36,7 +39,7 @@ La sezione _[!UICONTROL Accesso recente]_ fornisce un elenco delle risorse utili
 
 La pagina include inoltre l’accesso all’[Assistente IA](./ai-assistant/ai-assistant-overview.md), che consente agli utenti di ottenere informazioni rapide su domande o argomenti specifici necessari.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
-<!-- 
+<!--
 
 ## Marketer - new user
 
@@ -81,5 +84,4 @@ The second row consists of the recent assets used by the B2B marketers in a sing
 The third row consists of the Key Performance Indicators that would help the administrators gauge the progress of the instance in terms of operational parameters such as users and usage.
 
 The fourth row consists of the learning resources that would help the administrator gain more information on a specific topic.
-
 -->

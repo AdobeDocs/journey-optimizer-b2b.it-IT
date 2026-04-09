@@ -4,9 +4,9 @@ description: Accedi a informazioni basate sull’intelligenza artificiale per ac
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1682'
 ht-degree: 16%
 
 ---
@@ -217,8 +217,9 @@ Ogni scheda include i dati seguenti:
    * L&#39;ordinamento è da alto a basso per categoria, prodotto e parole chiave. Se uno o più tipi hanno lo stesso livello di intensità di intento, l&#39;ordinamento utilizza l&#39;ordine alfabetico.
 
   {{intent-data-note}}
-<!-- 
-At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page. -->
+<!--
+At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page. 
+-->
 
 ### Filtro attributi {#attribute-filter-acct-highlights}
 

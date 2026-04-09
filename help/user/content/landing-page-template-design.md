@@ -5,10 +5,10 @@ feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 4%
+source-wordcount: '353'
+ht-degree: 6%
 
 ---
 
@@ -54,7 +54,8 @@ Con almeno un componente di contenuto nell&#39;area di lavoro, seleziona il comp
 
 Fai clic su **[!UICONTROL Salva]** in qualsiasi momento per salvare il modello della pagina di destinazione.
 <!--
-You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). -->
+You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). 
+-->
 
 ### Opzioni di visualizzazione
 
@@ -74,5 +75,5 @@ Dal menu _[!UICONTROL Altro ...]_ nella parte superiore dello spazio di progetta
 
 * **[!UICONTROL Ripristina pagina di destinazione]** - Fare clic su questa opzione per cancellare l&#39;area di lavoro di progettazione visiva e ricominciare a creare il contenuto della pagina.
 * **[!UICONTROL Modifica la progettazione]** - Torna alla _[!UICONTROL home page di creazione della pagina di destinazione principale]_. A questo punto è possibile scegliere un altro modello per riavviare il processo di progettazione oppure scegliere di progettare la pagina da zero in un&#39;area di lavoro vuota.
-<!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
+<!-- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
 * **[!UICONTROL Esporta HTML]** - Scarica il contenuto nell&#39;area di lavoro visiva nel tuo sistema locale in formato HTML racchiuso in un file zip.

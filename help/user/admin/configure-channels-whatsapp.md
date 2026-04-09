@@ -4,9 +4,9 @@ description: Connetti il tuo account aziendale WhatsApp tramite l’API Cloud di
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
-source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1491'
 ht-degree: 11%
 
 ---
@@ -72,7 +72,7 @@ Completa le seguenti attività:
    * **[!UICONTROL Token API]** - Immetti il token API. Per informazioni, consultare la [documentazione di Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL ID account aziendale]** - Inserisci il numero univoco relativo al tuo portfolio aziendale. Per informazioni, consultare la [documentazione di Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![Credenziali API impostazioni WhatsApp &#x200B;](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![Credenziali API impostazioni WhatsApp ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Fai clic su **[!UICONTROL Continua]**.
 
@@ -112,8 +112,10 @@ Se riscontri un errore HTTP 500 durante la configurazione delle credenziali API 
 
 1. Verifica le credenziali esternamente: verifica le credenziali direttamente con l’API di Meta per verificare se il problema si verifica con le credenziali o con la gestione delle credenziali di Journey Optimizer B2B edition.
 
-<!-- 1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures. 
-do we have advanced logs? How are they enabled?-->
+<!--
+ 1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures.
+do we have advanced logs? How are they enabled?
+-->
 
 1. Contatta Adobe - Se l’ambiente e le adesioni sono confermate valide, ma l’errore HTTP 500 persiste, contatta il rappresentante Adobe.
 
@@ -215,6 +217,8 @@ Una configurazione del canale definisce le impostazioni di consegna utilizzate p
    <!-- 1. For **[!UICONTROL Marketing action]**, select one or more marketing actions to associate consent policies with this configuration. -->
 
    <!-- Make sure to include all applicable marketing actions to ensure compliance with customer preferences. -->
+
+   Tutti i criteri di consenso associati a un’azione di marketing selezionata vengono utilizzati automaticamente per rispettare le preferenze dei clienti. Ad esempio, qualsiasi messaggio WhatsApp che utilizzi tale configurazione in un percorso viene inviato solo ai profili che hanno acconsentito a ricevere messaggi WhatsApp da te. Sono esclusi i profili che non hanno acconsentito a ricevere queste comunicazioni.
 
    <!-- All consent policies associated with a selected marketing action are automatically leveraged in order to respect the preferences of your customers. For example, any WhatsApp message using that configuration in a journey is only sent to the profiles who have consented to receive WhatsApp messages from you. Profiles who have not consented to receive these communications are excluded. -->
 

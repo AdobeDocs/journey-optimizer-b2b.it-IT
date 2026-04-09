@@ -1,9 +1,9 @@
 ---
 title: Authoring dei contenuti - componenti
 description: Sezione riutilizzata sull’utilizzo di componenti ed elementi di contenuto per l’authoring dei contenuti
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,11 @@ ht-degree: 0%
 
 1. Espandi la sezione **[!UICONTROL Contents]** e aggiungi tutti i componenti di contenuto necessari in uno o più componenti della struttura.
 
-   ![Trascina un elemento di contenuto nell&#39;area di lavoro e regola le impostazioni](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
-   <!--
-   reference to the contents elements when we have a completed reference for each.--->
+   ![Trascinare un elemento di contenuto nell&#39;area di lavoro e modificare le impostazioni](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
+&lt;!--
+riferimento agli elementi del contenuto quando per ciascuno di essi è stato completato un riferimento.
+
+   -->
 
 1. Se necessario, puoi effettuare ulteriori personalizzazioni per ciascun componente nelle schede _[!UICONTROL Impostazioni]_ o _[!UICONTROL Stile]_.
 

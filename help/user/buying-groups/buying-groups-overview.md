@@ -4,9 +4,9 @@ description: 'Ottimizza Account-Based Marketing con i gruppi acquisti: identific
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
-workflow-type: ht
-source-wordcount: '1193'
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+workflow-type: tm+mt
+source-wordcount: '1199'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Puoi aumentare l’efficacia del marketing creando gruppi acquisti che comprenda
 | Componente | Finalità |
 | --------- | ------- |
 | Soluzione di interesse | Questo componente fornisce la risposta alle domande seguenti: <ul><li>In qualità di organizzazione di marketing, cosa stai vendendo?</li><li>A quale prodotto o raccolta di prodotti è orientata la vendita?</li></ul>  **Esempio::_** cross-selling del nuovo prodotto X a clientela esistente |
-| Pubblico dell’account | Questo componente fornisce la risposta alle domande seguenti: <ul><li>A chi stai vendendo?</li><li>Per quale elenco degli account intendi eseguire il targeting?</li></ul> **Esempio::_** segmento di account definito da account con prodotto Y per ricavi superiori a 1 milione |
+| Pubblico di account | Questo componente fornisce la risposta alle domande seguenti: <ul><li>A chi stai vendendo?</li><li>Per quale elenco degli account intendi eseguire il targeting?</li></ul> **Esempio::_** segmento di account definito da account con prodotto Y per ricavi superiori a 1 milione |
 | Modelli di ruoli del gruppo acquisti | Questo componente fornisce la risposta alle domande seguenti: <ul><li>Per quali ruoli intendi eseguire il targeting?</li><li>Quale insieme di regole viene utilizzato per determinare chi è assegnato ai ruoli del gruppo acquisti?</li></ul>  **Esempio::_** assegna una persona con titolo CMO al ruolo Responsabile delle decisioni |
 | Fasi del gruppo acquisti | (Facoltativo) Questo componente fornisce la risposta alla domanda: In che modo il gruppo acquisti segue il percorso del successo o del fallimento? |
 
@@ -68,7 +68,8 @@ Affinché l’assegnazione dei membri in un gruppo acquisti non venga ignorata i
 <!--
    * Acquire missing people
    * Send to LinkedIn Destination
-   * Enrich with Zoominfo -->
+   * Enrich with Zoominfo 
+-->
 
 1. Aggiungi le azioni del gruppo acquisti ai tuoi percorsi account.
 
@@ -116,4 +117,4 @@ Per informazioni dettagliate sulle attività e sui calcoli dei punteggi di coinv
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3452945/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

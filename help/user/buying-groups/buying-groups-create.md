@@ -4,9 +4,9 @@ description: Crea gruppi di acquisto automatizzati selezionando gli interessi de
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 3%
 
 ---
@@ -56,12 +56,14 @@ Il processo di creazione crea automaticamente gruppi di acquisto per ogni nuovo 
 
 ![Processi del gruppo di acquisto per interesse soluzione](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
 
-<!-- Other buying group activities:
+<!--
+ Other buying group activities:
 
 Member of buying group.
 Assign a member of the buying group.
-Remove a member of the buying group. -->
+Remove a member of the buying group. 
+-->
 
 ## Video dimostrativo
 
->[!VIDEO](https://video.tv.adobe.com/v/3451769/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

@@ -4,10 +4,10 @@ description: Crea varianti di contenuto dinamico con regole condizionali basate 
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -87,7 +87,7 @@ Quando crei un frammento o un’e-mail nello spazio di progettazione visivo, uti
    >
    >Se nessuna delle condizioni della variante definita restituisce true durante l&#39;invio dell&#39;e-mail, il componente contenuto viene visualizzato in base alla **[!UICONTROL variante predefinita]**.
 
-1. Per eliminare una variante, fai clic sull&#39;icona _Altro menu_ (**...**) per la variante e scegli **[!UICONTROL Elimina]**.
+1. Per eliminare una variante, fare clic sull&#39;icona _Altro menu_ (**...**) per la variante e scegliere **[!UICONTROL Elimina]**.
 
    Fai clic su **[!UICONTROL Elimina]** nella finestra di dialogo di conferma.
 
@@ -98,16 +98,17 @@ Le regole vengono memorizzate nella libreria delle condizioni, dove possono esse
 <!--
 >[!NOTE]
 >
->You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.-->
+>You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.
+-->
 
 ### Filtri condizione {#condition-filters}
 
 | Tipo di condizione | Filtri | Descrizione |
 | -------------- | ------- | ----------- |
-| **Account** | Attributi dell’account | Attributi dal profilo dell’account, tra cui: <li>Entrate annuali</li><li>Città</li><li>Paese</li><li>Dimensione dipendente</li><li>Settore</li><li>Nome</li><li>Codice SIC</li><li>Stato</li> |
+| **Account** | Attributi dell’account | Attributi dal profilo dell’account, tra cui: <li>Ricavi annuali</li><li>Città</li><li>Paese</li><li>Numero dipendenti</li><li>Settore</li><li>Nome</li><li>Codice SIC</li><li>Stato</li> |
 | | [!UICONTROL Filtri speciali] > [!UICONTROL Ha un gruppo di acquisto] | L’account non ha membri di gruppi di acquisto. Il filtro può anche essere valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li> |
-| **Persona** | [!UICONTROL Cronologia attività] > [!UICONTROL E-mail] | Attività e-mail associate al percorso: <li>[!UICONTROL Collegamento selezionato nell&#39;e-mail]</li><li>E-mail aperta</li><li>E-mail consegnata</li><li>È stato inviato un messaggio e-mail</li> Queste condizioni vengono valutate utilizzando un messaggio e-mail selezionato in precedenza nel percorso. |
-|  | [!UICONTROL Attributi della persona] | Attributi dal profilo della persona, tra cui: <li>Città</li><li>Paese</li><li>Data di nascita</li><li>Indirizzo e-mail</li><li>E-mail non valida</li><li>E-mail sospesa</li><li>Nome</li><li>Area dello stato dedotta</li><li>Posizione lavorativa</li><li>Cognome</li><li>Numero di telefono cellulare</li><li>Numero di telefono</li><li>Codice postale</li><li>Stato</li><li>Annulla l&#39;iscrizione</li><li>Motivo per annullamento abbonamento</li> |
+| **Persona** | [!UICONTROL Cronologia attività] > [!UICONTROL E-mail] | Attività e-mail associate al percorso: <li>[!UICONTROL Collegamento selezionato nell&#39;e-mail]</li><li>E-mail aperta</li><li>È stata consegnata un’e-mail</li><li>È stata inviata un’e-mail</li> Queste condizioni vengono valutate utilizzando un messaggio e-mail selezionato in precedenza nel percorso. |
+|  | [!UICONTROL Attributi della persona] | Attributi dal profilo della persona, tra cui: <li>Città</li><li>Paese</li><li>Data di nascita</li><li>Indirizzo e-mail</li><li>E-mail non valida</li><li>E-mail sospesa</li><li>Nome</li><li>Area geografica dello stato dedotta</li><li>Titolo del processo</li><li>Cognome</li><li>Numero di cellulare</li><li>Numero di telefono</li><li>Codice postale</li><li>Stato</li><li>Annulla l&#39;iscrizione</li><li>Motivo dell’annullamento dell’iscrizione</li> |
 | | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>È stato rimosso</li><li>Ruolo</li> |
 
 ### Creare una regola condizionale {#create-condition}

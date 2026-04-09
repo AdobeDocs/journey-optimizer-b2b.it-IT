@@ -6,10 +6,11 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: espressione, editor, sintassi, personalizzazione
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+exl-id: 91bbead6-aca0-4f39-9ab5-798b26ab81ee
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 2%
+source-wordcount: '361'
+ht-degree: 3%
 
 ---
 
@@ -34,7 +35,7 @@ Dove:
 
   >[!NOTE]
   >
-  >La struttura degli attributi è definita in uno [schema XDM Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home){target="_blank"}.
+  >La struttura degli attributi è definita in uno [schema XDM Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 * Gli identificatori possono essere qualsiasi carattere Unicode ad eccezione dei seguenti:
 
@@ -48,9 +49,11 @@ Dove:
 
 * In Handlebars, i valori restituiti da {\{expression}\} sono _con escape HTML_. Se l&#39;espressione contiene `&`, l&#39;output con escape HTML restituito verrà generato come `&amp;`. Se non desiderate che Handlebars utilizzi il carattere escape per un valore, utilizzate il carattere +triple-stash_.
 
-<!-- For example:
+<!--
+ For example:
 
-    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. -->
+    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. 
+-->
 
 * Per gli argomenti delle funzioni letterali, il parser del linguaggio del modello non supporta una singola barra rovesciata senza escape (`\`). Questo carattere deve essere preceduto da una barra rovesciata (`\`). Esempio:
 
@@ -68,9 +71,11 @@ Una funzione helper Handlebars è un semplice identificatore che può essere agg
 {{/each }}
 ```
 
-<!-- These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name. 
+<!--
+ These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name.
 
-Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). -->
+Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). 
+-->
 
 Per informazioni più dettagliate su queste funzioni, vedere [Funzioni helper](./personalization-helper-functions.md).
 

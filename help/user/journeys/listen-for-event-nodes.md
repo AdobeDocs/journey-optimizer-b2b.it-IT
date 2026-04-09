@@ -4,10 +4,10 @@ description: 'Configurare i nodi evento per i trigger account e persone: ascolta
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: a9f38d6d38233a974d640f83e5940d16fec50632
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '1844'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
@@ -29,12 +29,12 @@ In un percorso di account, è possibile ascoltare un evento basato sull&#39;acco
 
 | Evento | Vincoli |
 | ----- | ----------- |
-| [!UICONTROL L&#39;account ha avuto un momento interessante] | Tipo (E-mail, Milestone o Web)<br/>Vincoli aggiuntivi (facoltativo): <li>Descrizione</li><li>Origine</li><li>Data di attività</li> <br/>Timeout (facoltativo) |
-| [!UICONTROL Modifica del valore dei dati dell&#39;account] | Attributo<br/>Vincoli aggiuntivi (facoltativo): <li>Nuovo valore</li><li>Valore precedente</li><li>Data di attività</li> <br/>Timeout (facoltativo) |
-| [!UICONTROL Modifica in fase gruppo acquisti] | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo): <li>Nuova fase</li><li>Fase precedente</li><li>Data di attività</li><br/> Timeout (facoltativo) |
-| [!UICONTROL Modifica dello stato del gruppo di acquisto] | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo): <li>Nuovo stato</li><li>Stato precedente</li><li>Data di attività</li><br/> Timeout (facoltativo) |
-| [!UICONTROL Modifica del punteggio di completezza] | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo): <li>Nuovo punteggio</li><li>Punteggio precedente</li><li>Data di attività</li><br/> Timeout (facoltativo) |
-| [!UICONTROL Modifica del punteggio di coinvolgimento] | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo): <li>Nuovo punteggio</li><li>Punteggio precedente</li><li>Data di attività</li><br/> Timeout (facoltativo) |
+| [!UICONTROL L&#39;account ha avuto un momento interessante] | Tipo (E-mail, Milestone o Web)<br/>Vincoli aggiuntivi (facoltativo): <li>Descrizione</li><li>Origine</li><li>Data dell’attività</li> <br/>Timeout (facoltativo) |
+| [!UICONTROL Modifica del valore dei dati dell&#39;account] | Attributo<br/>Vincoli aggiuntivi (facoltativo): <li>Nuovo valore</li><li>Valore precedente</li><li>Data dell’attività</li> <br/>Timeout (facoltativo) |
+| [!UICONTROL Modifica in fase gruppo acquisti] | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo): <li>Nuova fase</li><li>Fase precedente</li><li>Data dell’attività</li><br/> Timeout (facoltativo) |
+| [!UICONTROL Modifica dello stato del gruppo di acquisto] | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo): <li>Nuovo stato</li><li>Stato precedente</li><li>Data dell’attività</li><br/> Timeout (facoltativo) |
+| [!UICONTROL Modifica del punteggio di completezza] | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo): <li>Nuovo punteggio</li><li>Punteggio precedente</li><li>Data dell’attività</li><br/> Timeout (facoltativo) |
+| [!UICONTROL Modifica del punteggio di coinvolgimento] | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo): <li>Nuovo punteggio</li><li>Punteggio precedente</li><li>Data dell’attività</li><br/> Timeout (facoltativo) |
 
 ### Aggiungere un evento account
 
@@ -58,17 +58,17 @@ In un percorso di account, puoi ascoltare un evento basato sulle persone quando 
 
 | Tipo di input | Evento | Vincoli |
 | ---------- | ----- | ----------- |
-| Journey Optimizer B2B | [!UICONTROL Assegnato al gruppo di acquisto] | Interesse soluzione<br/><br/>Vincoli aggiuntivi (facoltativo): <li>Ruolo</li><li>Data di attività</li><br/>Timeout (facoltativo) |
-| | [!UICONTROL Clic sul collegamento nell&#39;e-mail] | E-mail<br/><br/>Vincoli aggiuntivi (facoltativo): <li>Collegamento</li><li>ID collegamento</li><li>È un dispositivo mobile</li><li>Dispositivo</li><li>Piattaforma</li><li>Browser</li><li>Contenuto predittivo</li><li>È un’attività bot</li><li>Pattern di attività bot</li><li>Browser</li><li>Data di attività</li><li>Min numero di volte</li><br/>Timeout (facoltativo) |
-| | [!UICONTROL Clic sul collegamento in SMS] | E-mail<br/><br/>Vincoli aggiuntivi (facoltativo): <li>Collegamento</li><li>Dispositivo</li><li>Piattaforma</li><li>Data di attività</li><li>Min numero di volte</li><br/>Timeout (facoltativo) |
-| | [!UICONTROL Modifiche al valore dei dati] | Attributo persona<br/><br/>Vincoli aggiuntivi (facoltativo): <li>Nuovo valore</li><li>Valore precedente</li><li>Motivo</li><li>Origine</li><li>Data di attività</li><li>Min numero di volte</li><br/>Timeout (facoltativo) |
-| | [!UICONTROL Apre l&#39;e-mail] | E-mail<br/><br/>Vincoli aggiuntivi (facoltativo): <li>Collegamento</li><li>ID collegamento</li><li>È un dispositivo mobile</li><li>Dispositivo</li><li>Piattaforma</li><li>Browser</li><li>Contenuto predittivo</li><li>È un’attività bot</li><li>Pattern di attività bot</li><li>Browser</li><li>Data di attività</li><li>Min numero di volte</li><br/>Timeout (facoltativo) |
+| Journey Optimizer B2B | [!UICONTROL Assegnato al gruppo di acquisto] | Interesse soluzione<br/><br/>Vincoli aggiuntivi (facoltativo): <li>Ruolo</li><li>Data dell’attività</li><br/>Timeout (facoltativo) |
+| | [!UICONTROL Clic sul collegamento nell&#39;e-mail] | E-mail<br/><br/>Vincoli aggiuntivi (facoltativo): <li>Collegamento</li><li>ID collegamento</li><li>È un dispositivo mobile</li><li>Dispositivo</li><li>Piattaforma</li><li>Browser</li><li>È un contenuto predittivo</li><li>È l’attività del bot</li><li>Pattern di attività del bot</li><li>Browser</li><li>Data dell’attività</li><li>Min numero di volte</li><br/>Timeout (facoltativo) |
+| | [!UICONTROL Clic sul collegamento in SMS] | E-mail<br/><br/>Vincoli aggiuntivi (facoltativo): <li>Collegamento</li><li>Dispositivo</li><li>Piattaforma</li><li>Data dell’attività</li><li>Min numero di volte</li><br/>Timeout (facoltativo) |
+| | [!UICONTROL Modifiche al valore dei dati] | Attributo persona<br/><br/>Vincoli aggiuntivi (facoltativo): <li>Nuovo valore</li><li>Valore precedente</li><li>Motivo</li><li>Origine</li><li>Data dell’attività</li><li>Min numero di volte</li><br/>Timeout (facoltativo) |
+| | [!UICONTROL Apre l&#39;e-mail] | E-mail<br/><br/>Vincoli aggiuntivi (facoltativo): <li>Collegamento</li><li>ID collegamento</li><li>È un dispositivo mobile</li><li>Dispositivo</li><li>Piattaforma</li><li>Browser</li><li>È un contenuto predittivo</li><li>È l’attività del bot</li><li>Pattern di attività del bot</li><li>Browser</li><li>Data dell’attività</li><li>Min numero di volte</li><br/>Timeout (facoltativo) |
 | | [!UICONTROL Rimosso dal gruppo di acquisto] | Interesse soluzione<br/>Data di attività (facoltativo)<br/>Timeout (facoltativo) |
-| | [!UICONTROL Il punteggio è cambiato] | Nome punteggio<br/><br/>Vincoli aggiuntivi (facoltativo):<li>Cambia</li><li>Nuovo punteggio</li><li>Urgenza</li><li>Priorità</li><li>Punteggio relativo</li><li>Urgenza relativa</li><li>Data di attività</li><li>Min numero di volte</li><br/>Timeout (facoltativo) |
-| | [!UICONTROL Mancati recapiti SMS] | Messaggio SMS<br/><br/>Vincoli aggiuntivi (facoltativo): <li>Data di attività</li><li>Numero minimo di volte</li><br/>Timeout (facoltativo) |
-| Marketo Engage | [!UICONTROL Pagina Web Visite] | Pagina Web <br/> Selezionare una o più pagine Marketo Engage da associare. <br/><br/>Vincoli aggiuntivi (facoltativi): <li>Querystring</li><li>Indirizzo IP client</li><li>Referrer</li><li>Agente utente</li><li>Motore di ricerca</li><li>Query di ricerca</li><li>Token</li><li>Browser</li><li>Piattaforma</li><li>Dispositivo</li><li>Data di attività</li> |
-| | [!UICONTROL Compila modulo] | Modulo <br/> Selezionare uno o più moduli Marketo Engage da associare. <br/><br/>Vincoli aggiuntivi (facoltativi): <li>Data di attività</li><li>Querystring</li><li>Indirizzo IP client</li><li>Referrer</li><li>Agente utente</li><li>Piattaforma</li><li>Dispositivo</li><br/>Timeout (facoltativo) |
-| Adobe Experience Platform | [!UICONTROL Definizione evento] | Tipo evento <br/><br/>Vincoli aggiuntivi (facoltativo): <li>Campi</li> <br/>Vincoli aggiuntivi (non supportati): <li>Data di attività</li><li>Min numero di volte</li><br/> Timeout (facoltativo) |
+| | [!UICONTROL Il punteggio è cambiato] | Nome punteggio<br/><br/>Vincoli aggiuntivi (facoltativo):<li>Cambia</li><li>Nuovo punteggio</li><li>Urgenza</li><li>Priorità</li><li>Punteggio relativo</li><li>Urgenza relativa</li><li>Data dell’attività</li><li>Min numero di volte</li><br/>Timeout (facoltativo) |
+| | [!UICONTROL Mancati recapiti SMS] | Messaggio SMS<br/><br/>Vincoli aggiuntivi (facoltativo): <li>Data dell’attività</li><li>Numero minimo di volte</li><br/>Timeout (facoltativo) |
+| Marketo Engage | [!UICONTROL Pagina Web Visite] | Pagina Web <br/> Selezionare una o più pagine Marketo Engage da associare. <br/><br/>Ulteriori vincoli (facoltativi): <li>Querystring</li><li>Indirizzo IP del cliente</li><li>Referrer</li><li>Agente utente</li><li>Motore di ricerca</li><li>Query di ricerca</li><li>Token</li><li>Browser</li><li>Piattaforma</li><li>Dispositivo</li><li>Data dell’attività</li> |
+| | [!UICONTROL Compila modulo] | Modulo <br/> Selezionare uno o più moduli Marketo Engage da associare. <br/><br/>Ulteriori vincoli (facoltativi): <li>Data dell’attività</li><li>Querystring</li><li>Indirizzo IP del cliente</li><li>Referrer</li><li>Agente utente</li><li>Piattaforma</li><li>Dispositivo</li><br/>Timeout (facoltativo) |
+| Adobe Experience Platform | [!UICONTROL Definizione evento] | Tipo evento <br/><br/>Vincoli aggiuntivi (facoltativo): <li>Campi</li> <br/>Vincoli aggiuntivi (non supportati): <li>Data dell’attività</li><li>Min numero di volte</li><br/> Timeout (facoltativo) |
 
 ### Filtri per eventi Persone
 
@@ -76,10 +76,10 @@ In un percorso di account, puoi ascoltare un evento basato sulle persone quando 
 | ------------ | ----------- |
 | [!UICONTROL Cronologia attività] > [!UICONTROL E-mail] | Attività e-mail basate su condizioni valutate utilizzando uno o più messaggi e-mail selezionati di versioni precedenti nel percorso: <li>[!UICONTROL Collegamento selezionato nell&#39;e-mail] <li>E-mail aperta <li>È stato recapitato tramite e-mail <li>E-mail inviata <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the email activity).--> |
 | [!UICONTROL Cronologia attività] > [!UICONTROL Messaggio SMS] | Attività SMS basate su condizioni valutate utilizzando uno o più messaggi SMS selezionati da in precedenza nel percorso: <li>[!UICONTROL Collegamento selezionato in SMS] <li>[!UICONTROL SMS non recapitato] <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the SMS activity). --> |
-| [!UICONTROL Cronologia attività] > [!UICONTROL Valore dati modificato] | Per un attributo persona selezionato, si è verificata una modifica del valore. Questi tipi di modifica includono: <li>Nuovo valore<li>Valore precedente<li>Motivo<li>Origine<li>Data di attività<li>Min numero di volte <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
+| [!UICONTROL Cronologia attività] > [!UICONTROL Valore dati modificato] | Per un attributo persona selezionato, si è verificata una modifica del valore. Questi tipi di modifica includono: <li>Nuovo valore<li>Valore precedente<li>Motivo<li>Origine<li>Data dell’attività<li>Min numero di volte <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
 | [!UICONTROL Cronologia attività] > [!UICONTROL Momento di interesse] | L’attività del momento di interesse definita nell’istanza di Marketo Engage associata. I vincoli includono: <li>Milestone<li>E-mail<li>Web <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> |
-| [!UICONTROL Cronologia attività] > [!UICONTROL Pagina Web visitata] | Attività della pagina web che per una o più pagine web gestite dall’istanza Marketo Engage associata. I vincoli includono: <li>Pagina Web (obbligatoria)<li>Data di attività<li>Indirizzo IP client <li>Querystring <li>Referrer <li>Agente utente <li>Motore di ricerca <li>Query di ricerca <li>URL personalizzato <li>Token <li>Browser <li>Piattaforma <li>Dispositivo <li>Min numero di volte <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
-| [!UICONTROL Attributi della persona] | Attributi dal profilo della persona, tra cui: <li>Città <li>Paese <li>Data di nascita <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area dello stato dedotta<li>Titolo del processo <li>Cognome <li>Numero di telefono cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo per annullamento abbonamento |
+| [!UICONTROL Cronologia attività] > [!UICONTROL Pagina Web visitata] | Attività della pagina web che per una o più pagine web gestite dall’istanza Marketo Engage associata. I vincoli includono: <li>Pagina Web (obbligatoria)<li>Data dell’attività<li>Indirizzo IP del cliente <li>Querystring <li>Referrer <li>Agente utente <li>Motore di ricerca <li>Query di ricerca <li>URL personalizzato <li>Token <li>Browser <li>Piattaforma <li>Dispositivo <li>Min numero di volte <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
+| [!UICONTROL Attributi della persona] | Attributi dal profilo della persona, tra cui: <li>Città <li>Paese <li>Data di nascita <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area geografica dello stato dedotta<li>Titolo del processo <li>Cognome <li>Numero di cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo dell’annullamento dell’iscrizione |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>È stato rimosso</li><li>Ruolo</li> |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro dell&#39;elenco] | La persona è o non è membro di uno o più elenchi Marketo Engage. |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del programma] | La persona è o non è membro di uno o più programmi Marketo Engage. |
@@ -135,14 +135,15 @@ Se nell’istanza Marketo Engage connessa sono presenti pagine web, puoi attivar
 
 ### Ascolta un evento esperienza
 
-Gli amministratori possono selezionare [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale. L’utilizzo degli eventi esperienza nei percorsi è un processo in due fasi:
+Gli amministratori possono selezionare [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale. L’utilizzo degli eventi esperienza nei percorsi è un processo in due fasi:
 
 1. Un amministratore [seleziona i tipi di evento e i campi di interesse](../admin/configure-aep-events.md#select-an-event) per renderli disponibili in percorsi.
 
 2. In un percorso, aggiungi un nodo _Ascolta un evento_ e seleziona un tipo di evento Experience Platform per un evento basato su persone.
 
 <!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) -->
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) 
+-->
 
 _Per includere un evento esperienza nel percorso :_
 
@@ -222,6 +223,8 @@ Se necessario, definisci il tempo di attesa dell’evento da parte del percorso.
 
    ![Nodo evento Percorso - imposta percorso timeout](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-<!-- ## Overview video
+<!--
+ ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443242/?captions=ita&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
+-->
