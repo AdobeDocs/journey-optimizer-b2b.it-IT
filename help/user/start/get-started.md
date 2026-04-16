@@ -4,10 +4,10 @@ description: 'Guida all’onboarding per amministratori e marketer: configura sa
 role: User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 632530569c6247ffbd453578fc8561d17d500283
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 72%
 
 Le funzioni e gli strumenti da affrontare in Adobe Systems Journey Optimizer B2B Edition dipendono dal tuo ruolo all’interno del team. In base all’organizzazione, gli amministratori possono definire diversi tipi di utente e concedere loro l’accesso a determinate funzionalità in base alle autorizzazioni.
 
-Dopo che un amministratore ha completato le [attività di installazione](../simplified-architecture.md), utilizza queste informazioni per l&#39;onboarding generale dell&#39;utente.
+Dopo che un amministratore ha completato le [attività di installazione](../setup-ultimate.md), utilizza queste informazioni per l&#39;onboarding generale dell&#39;utente.
 
 >[!TIP]
 >
@@ -25,13 +25,13 @@ In qualità di marketer, o di _professionista del percorso dell’account_, sei 
 
 Per impostare il primo percorso, aggiungere risorse e inviare contenuti, consulta le sezioni seguenti:
 
-1. **Aggiungere un pubblico di account**. Journey Optimizer B2B edition consente di creare tipi di pubblico per l’account tramite definizioni di segmenti direttamente dall’applicazione e di sfruttarli nei percorsi dell’account. [Ulteriori informazioni](../audiences/account-audience-overview.md)
+1. **Aggiungere un pubblico di account**. In Journey Optimizer B2B Edition puoi creare un pubblico di account (composto da account) tramite le definizioni di segmento direttamente dall’applicazione e quindi utilizzarli nei percorsi per account. [Ulteriori informazioni](../audiences/account-audience-overview.md)
 
-1. **Creare gruppi acquisti**. Definisci i componenti chiave per raggiungere gli obiettivi e le finalità aziendali e crea gruppi di acquisto che identifichino i membri per gli elenchi di account di destinazione. [Ulteriori informazioni](../buying-groups/buying-groups-overview.md)
+1. **Creare gruppi acquisti**. Definisci i componenti chiave per raggiungere gli obiettivi e le finalità aziendali e crea gruppi acquisti che identificano i membri degli elenchi di account target. [Ulteriori informazioni](../buying-groups/buying-groups-overview.md)
 
-1. **Creare e gestire le risorse**. Adobe Experience Manager Assets fornisce un archivio di risorse unico e centralizzato da utilizzare per compilare i messaggi. [Ulteriori informazioni](../content/assets-overview.md)
+1. **Creare e gestire le risorse**. Adobe Experience Manager Assets fornisce un archivio unico e centralizzato di risorse che puoi utilizzare per compilare i messaggi. [Ulteriori informazioni](../content/assets-overview.md)
 
-1. **Aggiungere modelli e-mail personalizzati e dinamici**. Sfrutta le funzionalità di personalizzazione e contenuti dinamici di Journey Optimizer B2B edition per adattare il messaggio al tuo pubblico. [Ulteriori informazioni](../content/email-templates.md)
+1. **Aggiungere modelli e-mail personalizzati e dinamici**. Sfrutta le funzionalità di personalizzazione e per contenuti dinamici di Journey Optimizer B2B Edition per adattare il messaggio al tuo pubblico. [Ulteriori informazioni](../content/email-templates.md)
 
 1. **Progetta i percorsi account per offrire esperienze personalizzate e contestuali**. Journey Optimizer B2B Edition consente di creare casi d’uso di orchestrazione in tempo reale sfruttando i dati contestuali archiviati negli eventi o nelle origini dati. Progetta scenari avanzati a più passaggi basati sulle seguenti funzionalità:
 

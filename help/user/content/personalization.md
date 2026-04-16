@@ -7,9 +7,9 @@ role: User, Developer
 level: Intermediate
 keywords: espressione, editor, start, personalization
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
-source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '751'
 ht-degree: 6%
 
 ---
@@ -43,7 +43,7 @@ In [!DNL Journey Optimizer B2B Edition], puoi creare il contenuto dinamico delle
 
 >[!NOTE]
 >
->Ulteriori informazioni sugli schemi XDM nella [documentazione di Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home){target="_blank"}.
+>Ulteriori informazioni sugli schemi XDM nella [documentazione di Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 ## Editor Personalization
 
@@ -52,10 +52,6 @@ L’editor di personalizzazione è disponibile in ogni contesto in cui è necess
 Aggiungi la personalizzazione a qualsiasi campo o componente di contenuto facendo clic sull&#39;icona _Aggiungi personalizzazione_ ( ![Aggiungi icona personalizzazione](../../assets/do-not-localize/icon-personalization-field.svg) ).
 
 ![Editor Personalization](./assets/personalization-editor.png){width="800" zoomable="yes"}
-
->[!NOTE]
->
->Le informazioni seguenti sull&#39;editor di personalizzazione riflettono le modifiche disponibili per gli ambienti [!DNL Journey Optimizer B2B Edition] per i quali è stato eseguito il provisioning nell&#39;architettura [semplificata](../simplified-architecture.md).
 
 ### Token e funzioni di assistenza
 

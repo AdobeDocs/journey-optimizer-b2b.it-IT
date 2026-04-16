@@ -4,9 +4,9 @@ description: Crea modelli di punteggio di coinvolgimento personalizzati con atti
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: ff635309749cfb7c065522a34b1228e71b144a9f
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1306'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,13 @@ Apri l&#39;elenco di ponderazione del punteggio di coinvolgimento __ per visuali
 
 ### Modello punteggio predefinito
 
-Il sistema crea un modello di punteggio di coinvolgimento iniziale denominato _Modello di ponderazione attività 1_. Lo stato del modello e le attività di coinvolgimento dipendono dall&#39;architettura dei dati dell&#39;ambiente [!DNL Journey Optimizer B2B Edition]:
+Il sistema crea un modello di punteggio di coinvolgimento iniziale denominato _Modello di ponderazione attività 1_. Le attività di coinvolgimento si basano su eventi Experience Platform standard e personalizzati. Il valore predefinito per tutte le attività è 0.
 
-* **Architettura semplificata** (Beta): se l&#39;ambiente utilizza l&#39;[architettura semplificata](../simplified-architecture.md), le attività di coinvolgimento si basano su eventi Experience Platform standard e personalizzati. Il valore predefinito per tutte le attività è 0.
+![Modello di ponderazione del punteggio di coinvolgimento predefinito per gli eventi Experience Platform](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
 
-  ![Modello di ponderazione punteggio coinvolgimento predefinito per l&#39;architettura semplificata](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
+<!-- **Standard architecture (legacy)** - If your environment still uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it. -->
 
-* **Architettura standard** - Se l&#39;ambiente utilizza l&#39;architettura standard, l&#39;istanza [!DNL Marketo Engage] connessa è l&#39;origine dei dati dell&#39;attività di coinvolgimento. Il modello predefinito è attivo finché non crei una versione personalizzata e la attivi.
-
-  ![Modello di ponderazione punteggio coinvolgimento predefinito per l&#39;architettura standard](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"}
+<!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
 
 Quando attivi un modello personalizzato, lo stato del modello attivo diventa _Archiviato_. Se decidi di ripristinare il modello di punteggio di coinvolgimento predefinito, puoi duplicare il modello predefinito originale e quindi attivarlo o utilizzarlo come punto di partenza per un altro modello personalizzato.
 
@@ -92,7 +90,7 @@ Le impostazioni di spessore definiscono le bande che è possibile assegnare a og
 1. Per ogni fascia di peso, regolare il nome o i valori in base alle proprie esigenze:
 
    * Modificare il nome nel campo _[!UICONTROL Fascia di ponderazione]_.
-   * Immetti un nuovo valore. Puoi anche fare clic su **&plus;** o **−** per aumentare o diminuire il valore.
+   * Immetti un nuovo valore. Puoi anche fare clic su **&amp;plus;** o **−** per aumentare o diminuire il valore.
 
    ![Impostazioni peso coinvolgimento](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
@@ -110,9 +108,9 @@ Le impostazioni di spessore definiscono le bande che è possibile assegnare a og
 
 Ogni modello di punteggio include l’elenco completo delle attività di punteggio di coinvolgimento supportate.
 
-+++Attività per architettura semplificata
++++Attività per eventi Experience Platform
 
-Il modello predefinito per l’architettura semplificata include le attività tracciate di Experience Platform. Ogni attività ha un peso pari a zero (0) (non utilizzato) fino a quando non viene assegnato un peso. Tutte le attività hanno anche una frequenza massima giornaliera di 20, che non puoi modificare.
+Il modello predefinito per gli eventi di Experience Platform include le attività tracciate di Experience Platform. Ogni attività ha un peso pari a zero (0) (non utilizzato) fino a quando non viene assegnato un peso. Tutte le attività hanno anche una frequenza massima giornaliera di 20, che non puoi modificare.
 
 <table style="table-layout: fixed; width: 100%; border: 0;">
 <tbody>

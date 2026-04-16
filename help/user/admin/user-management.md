@@ -4,10 +4,10 @@ description: 'Gestisci l’accesso degli utenti con Experience Cloud Admin Conso
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 53bf3ce685079df16752af49c3b61f583f0b72e7
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
 source-wordcount: '2161'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -62,7 +62,7 @@ Per ulteriori informazioni sull&#39;utilizzo dei profili di prodotto per i dirit
 
 Quando si aggiunge un utente al profilo di prodotto Marketo Engage, questi vengono successivamente aggiunti al ruolo _Utente standard_ nell&#39;area di lavoro predefinita della sottoscrizione Marketo Engage. Questo ruolo concede loro tutte le autorizzazioni standard per Marketo Engage in tale area di lavoro. Attualmente, tutti gli utenti Journey Optimizer B2B edition devono essere utenti Marketo Engage. Un amministratore di Marketo Engage può limitare l&#39;accesso aggiornando le autorizzazioni per il ruolo _Utente standard_ o spostando l&#39;utente in un altro ruolo utente di Marketo Engage con autorizzazioni più restrittive.
 
-Per ulteriori informazioni sulla gestione di queste autorizzazioni in Marketo Engage, vedi [Gestione dei ruoli utente e delle autorizzazioni](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} nella documentazione di Marketo Engage.
+Per ulteriori informazioni sulla gestione di queste autorizzazioni in Marketo Engage, vedi [Gestione dei ruoli utente e delle autorizzazioni](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} nella documentazione di Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +86,7 @@ Un gruppo di utenti è una raccolta di utenti a cui viene concesso un set condiv
 
 >[!TIP]
 >
->Se stai eseguendo la migrazione all’architettura semplificata e desideri aggiungere gli utenti Journey Optimizer B2B edition esistenti a Marketo Engage, puoi saltare i passaggi di creazione dei gruppi di utenti, aprire semplicemente il gruppo di utenti esistente e aggiungere il profilo di prodotto Marketo Engage.
+>Se stai eseguendo la migrazione da una distribuzione legacy e desideri aggiungere gli utenti Journey Optimizer B2B Edition esistenti a Marketo Engage, puoi saltare i passaggi di creazione dei gruppi di utenti, aprire semplicemente il gruppo di utenti esistente e aggiungere il profilo di prodotto Marketo Engage.
 
 Per ulteriori informazioni sull&#39;utilizzo dei gruppi di utenti per gestire le autorizzazioni, vedere [Gestione dei gruppi di utenti](https://helpx.adobe.com/it/enterprise/using/user-groups.html){target="_blank"} nella documentazione di Admin Console.
 
@@ -147,7 +147,7 @@ Le autorizzazioni sono diritti unitari che ti consentono di definire le autorizz
 
 Nell&#39;area _Autorizzazioni_ di Adobe Experience Platform gli amministratori possono definire ruoli utente e criteri di accesso per gestire le autorizzazioni di accesso per funzionalità e oggetti all&#39;interno di un&#39;applicazione di prodotto. In questa app, puoi creare e gestire i ruoli, nonché assegnare le autorizzazioni per le risorse desiderate per tali ruoli. Le autorizzazioni ti consentono inoltre di gestire le sandbox e gli utenti associati a un ruolo specifico.
 
-Per ulteriori informazioni sulle autorizzazioni per i ruoli in Experience Platform, vedi [Gestione delle autorizzazioni per un ruolo](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} nella documentazione di Experience Platform.
+Per ulteriori informazioni sulle autorizzazioni per i ruoli in Experience Platform, vedi [Gestione delle autorizzazioni per un ruolo](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} nella documentazione di Experience Platform.
 
 ### Autorizzazioni per i prodotti B2B {#b2b-product-permissions}
 

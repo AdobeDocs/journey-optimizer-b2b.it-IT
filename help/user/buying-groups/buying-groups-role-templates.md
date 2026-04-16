@@ -1,10 +1,10 @@
 ---
 title: Acquisto di modelli di mansione per gruppi
-description: Crea modelli di ruolo con assegnazione automatica condizionale per identificare i responsabili decisionali e le parti interessate per l’acquisto di gruppi in Journey Optimizer B2B edition.
+description: Crea modelli di ruolo con assegnazione automatica condizionale per identificare i responsabili decisionali e le parti interessate per l’acquisto di gruppi in Journey Optimizer B2B Edition.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 40043117de44d158f21890ce267790a6ccbc0436
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
 source-wordcount: '1410'
 ht-degree: 5%
@@ -128,7 +128,7 @@ Per utilizzare l&#39;appartenenza a un elenco come condizione del ruolo, espande
 >
 >**Funzionalità obsolete**</br></br>
 >
->Con l&#39;[architettura semplificata](../simplified-architecture.md) per Journey Optimizer B2B edition, il filtro in base all&#39;appartenenza a un elenco o a un programma in un&#39;istanza di Marketo Engage non è supportato.
+>Nella versione corrente di Journey Optimizer B2B Edition, il filtro basato sull’iscrizione a un elenco o a un programma in un’istanza di Marketo Engage non è più supportato.
 
 >[!ENDSHADEBOX]
 
@@ -146,7 +146,7 @@ Per informazioni dettagliate sul punteggio di completezza e sui calcoli, consult
 
 1. Nella finestra di dialogo, modifica il valore **[!UICONTROL Membri richiesti]** per ogni ruolo definito in base alle esigenze.
 
-   È possibile immettere il valore oppure fare clic su **&plus;** o **−** per aumentare o diminuire il valore.
+   È possibile immettere il valore oppure fare clic su **&amp;plus;** o **−** per aumentare o diminuire il valore.
 
    ![Modello ruoli - pulsante Impostazioni punteggio di completezza](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -194,4 +194,4 @@ Puoi eliminare un modello di ruoli se si trova nello stato _Bozza_.
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3453309/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

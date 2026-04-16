@@ -3,11 +3,10 @@ title: Gestione campi XDM
 description: Utilizza la gestione dei campi XDM per controllare i dati disponibili per Journey Optimizer B2B edition.
 feature: Data Management, Integrations
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata sull’architettura semplificata"
 exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
-source-git-commit: fd41d620249274fc25228ad3ecf4ca4c63d35e65
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1185'
 ht-degree: 95%
 
 ---
@@ -21,10 +20,6 @@ Gli schemi definiscono i campi in base alle classi XDM standard. Le classi XDM s
 Gli schemi di Adobe Experience Platform (AEP) in genere contengono molti campi in gerarchie complesse. L’attraversamento degli alberi dello schema XDM richiede tempo. La gestione dei campi XDM semplifica la selezione dei campi visualizzando solo i campi rilevanti per i percorsi, i gruppi di acquisto e la personalizzazione.  Gli amministratori abilitano questi campi per l’utilizzo in Journey Optimizer B2B edition, inclusi quelli di sola lettura o modificabili.
 
 Gli amministratori che conoscono XDM e collaborano con data engineer o con le parti interessate alla modellazione dati di Customer Data Platform (CDP) B2B devono utilizzare i passaggi seguenti per configurare le classi XDM per [!DNL Journey Optimizer B2B Edition].
-
->[!NOTE]
->
->La gestione dei campi XDM è disponibile per gli ambienti Journey Optimizer B2B edition con provisioning nell&#39;[architettura semplificata](../simplified-architecture.md).
 
 ## Accedere alle classi XDM
 
@@ -92,7 +87,7 @@ Quando si sceglie **[!UICONTROL Campi gestiti]**, nella finestra di dialogo _Sel
 
 Impostare i campi aggiornabili per scegliere quali campi possono essere modificati tramite **[!UICONTROL Aggiorna profilo account]** o **[!UICONTROL Aggiorna profilo persona]** azioni di percorso.
 
-Prima di configurare i campi aggiornabili, questi devono trovarsi in un set di dati personalizzato. Per una descrizione dettagliata del flusso di lavoro del set di dati personalizzato, consulta [Creare set di dati e acquisire dati](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e utilizzare l&#39;opzione **[!UICONTROL Creare set di dati dallo schema]**. Questo set di dati viene utilizzato per isolare i campi aggiornabili. Tutti i campi aggiornabili devono essere in questo set di dati.
+Prima di configurare i campi aggiornabili, questi devono trovarsi in un set di dati personalizzato. Per una descrizione dettagliata del flusso di lavoro del set di dati personalizzato, consulta [Creare set di dati e acquisire dati](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e utilizzare l&#39;opzione **[!UICONTROL Creare set di dati dallo schema]**. Questo set di dati viene utilizzato per isolare i campi aggiornabili. Tutti i campi aggiornabili devono essere in questo set di dati.
 
 >[!IMPORTANT]
 >
@@ -123,7 +118,7 @@ Sono disponibili diverse funzioni che supportano l’utilizzo degli schemi e dei
 
 >[!AVAILABILITY]
 >
->Gli [schemi relazionali](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational#) sono disponibili per [!DNL Journey Optimizer B2B Edition] come versione a disponibilità limitata. Data Mirror e gli schemi relazionali sono disponibili per [!DNL Journey Optimizer Orchestrated Campaigns] titolari di licenza. Gli schemi relazionali sono disponibili anche come versione limitata per [!DNL Customer Journey Analytics] utenti, a seconda della licenza e dell&#39;abilitazione della funzione. Contatta il tuo rappresentante Adobe per accedere.
+>Gli [schemi relazionali](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) sono disponibili per [!DNL Journey Optimizer B2B Edition] come versione a disponibilità limitata. Data Mirror e gli schemi relazionali sono disponibili per [!DNL Journey Optimizer Orchestrated Campaigns] titolari di licenza. Gli schemi relazionali sono disponibili anche come versione limitata per [!DNL Customer Journey Analytics] utenti, a seconda della licenza e dell&#39;abilitazione della funzione. Contatta il tuo rappresentante Adobe per accedere.
 
 >[!NOTE]
 >

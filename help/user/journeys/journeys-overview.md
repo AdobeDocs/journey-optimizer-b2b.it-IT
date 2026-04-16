@@ -4,10 +4,10 @@ description: 'Semplifica la generazione della domanda con i percorsi: crea, pubb
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 0e79785bd8baf3914127cc650b8e503a8d461a3d
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 43%
+source-wordcount: '1520'
+ht-degree: 44%
 
 ---
 
@@ -66,7 +66,7 @@ Immetti il testo nello strumento _Ricerca_ nella parte superiore dell’elenco p
 
 >[!TAB percorsi di persone (Beta)]
 
-[!BADGE Beta]{type=Informative tooltip="Disponibile come funzione beta sull’architettura semplificata"}
+[!BADGE Beta]{type=Informative tooltip="Disponibile come funzione beta"}
 
 Nella barra di navigazione a sinistra, espandi **[!UICONTROL Gestione Percorsi]** e fai clic su **[!UICONTROL percorsi di persone]**.
 
@@ -103,11 +103,11 @@ Lo stato di un percorso può cambiare in base alle azioni applicate. In base all
 
 | Stato | Descrizione | Azioni disponibili |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Bozza**&#x200B;_ | Un percorso non pubblicato che può essere modificato. | <li>[Pubblica](./create-publish-journey.md#publish-a-journey)<li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
-| _&#x200B;**Live**&#x200B;_ | Lo stato del percorso cambia da _Bozza_ a _Live_ quando viene pubblicato un percorso. Se il percorso si trova in questo stato, non può più essere modificato. | <li>[Duplica](#duplicate-journey)<li>[Chiudi ai nuovi ingressi](#close-to-new-entries) <li>[Interrompi](#abort-journey) |
-| _&#x200B;**Chiuso alle nuove voci**&#x200B;_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <li>[Duplica](#duplicate-journey) <li>[Interrompi](#abort-journey) |
-| _&#x200B;**Annullato**&#x200B;_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
-| _&#x200B;**Completato**&#x200B;_ | Quando tutti i membri del pubblico dell&#39;account o della persona in un percorso completano il percorso, lo stato cambia da _Live_ o _Closed to new entries_ a _Finished_. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Bozza**_ | Un percorso non pubblicato che può essere modificato. | <li>[Pubblica](./create-publish-journey.md#publish-a-journey)<li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Live**_ | Lo stato del percorso cambia da _Bozza_ a _Live_ quando viene pubblicato un percorso. Se il percorso si trova in questo stato, non può più essere modificato. | <li>[Duplica](#duplicate-journey)<li>[Chiudi ai nuovi ingressi](#close-to-new-entries) <li>[Interrompi](#abort-journey) |
+| _**Chiuso alle nuove voci**_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <li>[Duplica](#duplicate-journey) <li>[Interrompi](#abort-journey) |
+| _**Annullato**_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Completato**_ | Quando tutti i membri del pubblico dell&#39;account o della persona in un percorso completano il percorso, lo stato cambia da _Live_ o _Closed to new entries_ a _Finished_. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
 
 ## Mappe percorso
 
@@ -219,4 +219,4 @@ Quando selezioni il nodo, fai clic sul numero per visualizzare un elenco di acco
 
 ## Video introduttivo sul percorso di account {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443215/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

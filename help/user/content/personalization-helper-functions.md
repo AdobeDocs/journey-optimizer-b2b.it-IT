@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate
 keywords: espressione, editor, sintassi, personalizzazione
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '4943'
+source-wordcount: '4930'
 ht-degree: 6%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 6%
 # Funzioni Helper
 
 Utilizza le funzioni helper nell’editor di personalizzazione per definire esperienze di contenuto personalizzate con precisione ed efficienza, manipolando i dati, eseguendo calcoli e formattando i contenuti. Esplora e sperimenta queste funzioni, operatori e collaboratori per scoprire come collaborano per aiutarti a creare percorsi personalizzati basati sui dati.
-
->[!AVAILABILITY]
->
->Le funzioni di supporto sono disponibili per gli ambienti [!DNL Journey Optimizer B2B Edition] per i quali è stato eseguito il provisioning nell&#39;architettura [semplificata](../simplified-architecture.md).
 
 ## Funzioni di aggregazione
 
