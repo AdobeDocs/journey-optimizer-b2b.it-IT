@@ -1,19 +1,19 @@
 ---
-title: Punteggio contenuto
+title: Valutazione e valutazione dei contenuti
 description: 'Valuta il contenuto delle e-mail con il punteggio di allineamento del brand: convalida di colori, font, loghi e stile di scrittura in base alle linee guida del brand in Journey Optimizer B2B edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: 37e4a7976d716f24edf2c2e92cbfa4c149aa66ec
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 8%
 
 ---
 
-# Punteggio del contenuto {#content-scoring}
+# Valutazione e valutazione dei contenuti {#content-scoring}
 
 La valutazione e il punteggio dei contenuti consentono di creare, esaminare e gestire contenuti conformi alle linee guida [definite nel marchio selezionato](./brands-manage-create.md#brand-definitions) e agli standard di qualità generali. L’esecuzione di una valutazione garantisce coerenza in termini di tono, messaggistica e identità visiva in tutte le campagne e-mail, fungendo anche da controllo di qualità prima che il contenuto venga pubblicato.
 
@@ -41,7 +41,7 @@ La valutazione e il punteggio dei contenuti consentono di creare, esaminare e ge
 
    ![Punteggi di valutazione nel pannello di destra](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
 
-## Punteggio di allineamento del brand {#brand-score}
+## Punteggio di allineamento del brand {#brand-alignment-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
@@ -81,7 +81,7 @@ Il punteggio viene calcolato in base alle violazioni identificate nel contenuto 
 * 60-79 = Equo - Alcune violazioni significative
 * Inferiore a 60 = Scarso - Violazioni gravi hanno bisogno di attenzione
 
-Puoi esaminare i risultati della valutazione in modo più dettagliato per identificare le violazioni e migliorare i punteggi di allineamento delle categorie (_Alta_, _Medium_ e _Bassa_) e rivedere i dettagli.
+Puoi esaminare i risultati della valutazione in modo più dettagliato per identificare le violazioni e migliorare i punteggi di allineamento delle categorie (_Alta_, _Medium_ e _Bassa_).
 
 Per lo **[!UICONTROL stile scrittura]** o il **[!UICONTROL contenuto visivo]**, fare clic sulla freccia _Espandi_ ( ![Espandi freccia](../assets/do-not-localize/icon-expand-right.svg) ) per visualizzare i dettagli per la valutazione.
 

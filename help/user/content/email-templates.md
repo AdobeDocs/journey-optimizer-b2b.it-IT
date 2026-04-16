@@ -1,13 +1,13 @@
 ---
 title: Modelli e-mail
-description: 'Creazione di modelli e-mail riutilizzabili da zero, importazione HTML o progettazioni esistenti: gestione di modelli per percorsi di account in Journey Optimizer B2B edition.'
+description: 'Creazione di modelli e-mail riutilizzabili da zero, importazione HTML o progettazioni esistenti: gestisci modelli per percorsi di account in Journey Optimizer B2B Edition.'
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
-source-wordcount: '1533'
-ht-degree: 0%
+source-wordcount: '1538'
+ht-degree: 2%
 
 ---
 
@@ -83,7 +83,7 @@ Utilizza l’editor di contenuto visivo per definire la struttura del contenuto 
 
 ### Importa HTML
 
-Adobe Journey Optimizer B2B edition consente di importare contenuti HTML esistenti per progettare modelli e-mail.
+Adobe Journey Optimizer B2B Edition consente di importare contenuti HTML esistenti per progettare i modelli e-mail.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -91,7 +91,7 @@ Adobe Journey Optimizer B2B edition consente di importare contenuti HTML esisten
 
 >[!NOTE]
 >
->L&#39;utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
+>L’utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
 
 Puoi personalizzare il contenuto importato in base alle esigenze nello spazio di progettazione visiva.
 
@@ -121,7 +121,7 @@ Nella pagina dei dettagli dei modelli e-mail, fai clic sulla scheda **[!UICONTRO
 
 ![Fare clic sulla scheda Utilizzato da per verificare l&#39;utilizzo del modello](./assets/template-details-used-by.png){width="400"}
 
-Le e-mail in Journey Optimizer B2B edition vengono incorporate e create all’interno di percorsi, pertanto il percorso principale dell’e-mail che utilizza il modello viene visualizzato in riferimenti.
+Le e-mail in Journey Optimizer B2B Edition vengono incorporate e create all’interno di percorsi, pertanto il percorso principale dell’e-mail che utilizza il modello viene visualizzato in riferimenti.
 
 * Fai clic sul collegamento per passare all’e-mail del percorso corrispondente in cui viene utilizzato il modello e-mail.
 
@@ -132,7 +132,7 @@ Le e-mail in Journey Optimizer B2B edition vengono incorporate e create all’in
 Questa azione può essere intrapresa da:
 
 * La pagina dei dettagli - Fai clic su **[!UICONTROL Modifica modello e-mail]**.
-* Pagina dell&#39;elenco - Fai clic sui puntini di sospensione (**...**) accanto a un modello di e-mail e scegli **[!UICONTROL Modifica]**.
+* Pagina dell&#39;elenco - Fare clic sui puntini di sospensione (**...**) accanto a un modello di e-mail e scegli **[!UICONTROL Modifica]**.
 
 Questa azione ti porta alla pagina _Progetta il modello_ o alla pagina dell&#39;editor di contenuti visivi (in base all&#39;ultimo stato salvato del modello e-mail). Da qui puoi modificare il contenuto del modello e-mail in base alle esigenze. Per informazioni sulle opzioni di modifica, consulta [Creare modelli e-mail](#create-email-templates).
 
@@ -144,7 +144,7 @@ Puoi duplicare un modello e-mail utilizzando uno dei seguenti metodi:
 
   ![Fai clic su Altro per accedere alle azioni Elimina e Duplica](./assets/template-details-more-menu.png){width="400"}
 
-* Dalla pagina di elenco dei _[!UICONTROL modelli di posta elettronica]_, fai clic sui puntini di sospensione (...) accanto al modello e scegli **[!UICONTROL Duplica]**.
+* Nella pagina dell&#39;elenco dei _[!UICONTROL modelli di posta elettronica]_, fare clic sui puntini di sospensione (...) accanto al modello e scegliere **[!UICONTROL Duplica]**.
 
 Nella finestra di dialogo, inserisci un nome utile (univoco) e una descrizione. Fai clic su **[!UICONTROL Duplica]** per completare l&#39;azione.
 
@@ -155,7 +155,7 @@ Il (nuovo) modello e-mail duplicato viene quindi visualizzato nell&#39;elenco _[
 Una rimozione del modello e-mail non può essere annullata, pertanto controlla prima di avviare un’azione di eliminazione. Puoi eliminare un modello e-mail utilizzando uno dei seguenti metodi:
 
 * Dai dettagli del modello a destra, espandi **[!UICONTROL Altro]** e fai clic su **[!UICONTROL Elimina]**.
-* Dalla pagina di elenco dei _[!UICONTROL modelli di posta elettronica]_, fai clic sui puntini di sospensione (...) accanto al modello e scegli **[!UICONTROL Elimina]**.
+* Nella pagina dell&#39;elenco dei _[!UICONTROL modelli di posta elettronica]_, fare clic sui puntini di sospensione (...) accanto al modello e scegliere **[!UICONTROL Elimina]**.
 
   ![Fare clic su ... per accedere alle azioni Duplica ed Elimina](./assets/templates-list-more-menu.png){width="500"}
 
@@ -175,7 +175,7 @@ Dalla schermata _Crea e-mail_, utilizza la sezione _Seleziona modello struttura_
 
 Per iniziare a creare i contenuti con uno dei modelli e-mail creati, procedi come segue:
 
-1. Accedi al Designer di posta elettronica dalla pagina _Modifica contenuto_.
+1. Accedi allo spazio di progettazione visiva dalla pagina _Modifica contenuto_.
 
    Nella pagina _Crea messaggio e-mail_, la scheda _Modelli di esempio_ è selezionata per impostazione predefinita.
 
@@ -183,7 +183,7 @@ Per iniziare a creare i contenuti con uno dei modelli e-mail creati, procedi com
 
    In questa scheda viene visualizzato un elenco di tutti i modelli e-mail creati nella sandbox. Puoi ordinarli _Per nome_, _Ultima modifica_ e _Ultima creazione_.
 
-1. Seleziona dall’elenco il modello desiderato.
+1. Seleziona il modello desiderato dall’elenco.
 
    Dopo la selezione, viene visualizzata un&#39;anteprima del modello. In modalità anteprima puoi spostarti tra tutti i modelli di una categoria (campione o salvato, a seconda della selezione) utilizzando le frecce destra e sinistra.
 
