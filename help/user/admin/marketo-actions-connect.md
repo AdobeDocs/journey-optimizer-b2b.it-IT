@@ -4,10 +4,10 @@ description: Attiva le connessioni Marketo Engage per supportare le azioni di pe
 feature: Setup, Integrations
 role: Admin
 exl-id: e324a11b-1025-4850-865f-ef8886a6b2bb
-source-git-commit: 69c7bcdcfd2785e90f7aaf5c3c3875f694d65a28
+source-git-commit: 5607ad407ffba007d174f4427e82b0ca6c162c24
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 96%
+source-wordcount: '545'
+ht-degree: 92%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 Le azioni Marketo Engage sono _azioni basate sulle persone_ che ti consentono di coordinare l&#39;orchestrazione marketing _basata sull&#39;account_ tra Journey Optimizer B2B edition e le attività di marketing _basate sui lead_ in Marketo Engage. Utilizza queste azioni per orchestrare l’iscrizione all’elenco statico e inserire le persone nelle campagne.
 
-Per utilizzare le azioni di percorso di Marketo Engage, un amministratore crea innanzitutto un [servizio personalizzato](https://experienceleague.adobe.com/it/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} in Marketo Engage, che fornisce le credenziali necessarie per l&#39;autenticazione. L’amministratore di prodotto per Journey Optimizer B2B edition utilizza quindi le credenziali per creare una connessione a Marketo Engage. Gli utenti di Journey Optimizer B2B edition possono quindi fare riferimento alla connessione per configurare le azioni di Marketo Engage in percorsi di persone e account:
+Per utilizzare le azioni di percorso di Marketo Engage, un amministratore crea innanzitutto un [servizio personalizzato](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} in Marketo Engage, che fornisce le credenziali necessarie per l&#39;autenticazione. L’amministratore di prodotto per Journey Optimizer B2B edition utilizza quindi le credenziali per creare una connessione a Marketo Engage. Gli utenti di Journey Optimizer B2B Edition possono quindi fare riferimento alla connessione per configurare le azioni di Marketo Engage in percorsi di persone e account:
 
 * [!UICONTROL Aggiungi a elenco Marketo]
 * [!UICONTROL Rimuovi dall&#39;elenco Marketo]
@@ -32,14 +32,14 @@ Completa le seguenti attività per configurare un’istanza Marketo Engage ester
 
 ### Creare il servizio personalizzato Marketo Engage
 
-1. Accedi a Marketo Engage come amministratore e [crea un servizio personalizzato](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
+1. Accedi a Marketo Engage come amministratore e [crea un servizio personalizzato](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
 1. Copia i seguenti valori da utilizzare per la connessione Journey Optimizer B2B edition:
 
    * ID Munchkin
    * ID client
    * Segreto client
 
-La visibilità delle risorse nell&#39;area di lavoro di Marketo Engage, ad esempio elenchi e campagne, è disciplinata dalle autorizzazioni per il ruolo [assegnate nel servizio personalizzato](https://experienceleague.adobe.com/it/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}. Gli addetti al marketing possono utilizzare la stessa connessione più volte all’interno di un percorso e utilizzare diverse connessioni Marketo Engage all’interno dello stesso percorso.
+La visibilità delle risorse nell&#39;area di lavoro di Marketo Engage, ad esempio elenchi e campagne, è disciplinata dalle autorizzazioni per il ruolo [assegnate nel servizio personalizzato](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}. Gli addetti al marketing possono utilizzare la stessa connessione più volte all’interno di un percorso e utilizzare diverse connessioni Marketo Engage all’interno dello stesso percorso.
 
 ### Aggiungere l’integrazione
 
@@ -68,6 +68,10 @@ La visibilità delle risorse nell&#39;area di lavoro di Marketo Engage, ad esemp
 ## Utilizzare la connessione in un&#39;azione di percorso
 
 Quando un addetto al marketing utilizza un’azione Marketo Engage in un percorso, può configurare il nodo utilizzando il nome della connessione.
+
+>[!NOTE]
+>
+>Le azioni Marketo Engage eseguite da un percorso non si applicano ai limiti REST API per l’istanza Marketo Engage connessa.
 
 Con l&#39;integrazione completata, le azioni Marketo Engage sono disponibili da **Azioni in:** nelle proprietà del nodo.
 
