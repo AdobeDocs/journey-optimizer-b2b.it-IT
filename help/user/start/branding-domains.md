@@ -3,10 +3,11 @@ title: Configurare i domini di branding
 description: Configura i domini di branding in modo che ciascuno dei brand abbia i propri collegamenti di tracciamento del brand.
 feature: Setup, Channels
 role: Admin
-source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
+exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 1%
+source-wordcount: '1014'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +23,7 @@ Un dominio di branding in Marketo Engage è un sottodominio personalizzato (ad e
 
 **CNAME univoci per il tracciamento dei collegamenti**
 
-I collegamenti di tracciamento e-mail devono essere nuovi e univoci per l’istanza Marketo Engage allegata. Se disponi di CNAME esistenti per il tracciamento dei collegamenti che puntano a un&#39;istanza Marketo Engage (di produzione) preesistente, non puoi riutilizzarli _così com&#39;è_.
+I collegamenti di tracciamento e-mail devono essere nuovi e univoci per l’istanza Marketo Engage allegata. Se disponi di CNAME esistenti per il tracciamento dei collegamenti che puntano a un’istanza Marketo Engage (di produzione) preesistente, non puoi riutilizzarli senza modifiche.
 
 Puoi condividere il branding del dominio del percorso di ritorno tra l’istanza Marketo Engage di produzione e l’istanza associata, ma si tratta di una modifica di back-end. Apri un ticket di supporto e fornisci il prefisso Marketo Engage (Munchkin ID) e il nuovo prefisso Journey Optimizer B2B edition (Munchkin ID) per richiedere il branding del dominio del percorso di ritorno condiviso.
 
@@ -30,7 +31,7 @@ Puoi condividere il branding del dominio del percorso di ritorno tra l’istanza
 
 >[!PREREQUISITES]
 >
->Prima di modificare o aggiungere un dominio nell&#39;interfaccia utente, è necessario disporre di un [CNAME mappato a un dominio Marketo Engage fornito da Adobe](https://experienceleague.adobe.com/it/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
+>Prima di modificare o aggiungere un dominio nell&#39;interfaccia utente, è necessario disporre di un [CNAME mappato a un dominio Marketo Engage fornito da Adobe](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
 >Quando si aggiunge un dominio, il sistema verifica la presenza di SSL preesistenti, che potrebbero essere stati creati manualmente in precedenza. Se si verifica questa convalida, crea il dominio senza selezionare la creazione SSL, quindi collegalo come procedura separata.
 
@@ -70,7 +71,7 @@ Il primo passaggio nell’utilizzo dei domini di branding consiste nella modific
 
 ## Definisci un dominio aggiuntivo
 
-Dopo aver modificato il dominio predefinito, puoi aggiungere un altro dominio di branding se desideri eseguire più brand dall’ambiente Journey Optimizer B2B edition, ciascuno con i propri collegamenti di tracciamento del brand. Quando si aggiunge un dominio, sono disponibili le seguenti opzioni:
+Dopo aver modificato il dominio predefinito, puoi aggiungere un altro dominio di branding per supportare più marchi nell’ambiente Journey Optimizer B2B Edition, ciascuno dei quali dispone di collegamenti di tracciamento con marchio. Quando si aggiunge un dominio, sono disponibili le seguenti opzioni:
 
 >* _Rendi dominio primario_: rendi questo dominio primario per l&#39;area di lavoro. Quando selezioni questa opzione, tutte le e-mail non inviate esistenti vengono impostate sul dominio primario predefinito e tutte le e-mail appena create vengono impostate automaticamente su questo dominio primario. Se necessario, gli addetti al marketing possono scegliere un dominio di branding alternativo.
 >
@@ -92,7 +93,7 @@ _Per aggiungere il dominio :_
 
    >[!NOTE]
    >
-   >**_SSL personalizzati_**: se hai bisogno di un SSL personalizzato, puoi inviare un [ticket di supporto](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Non utilizzare la casella di controllo per la creazione SSL.
+   >**_SSL personalizzati_**: se hai bisogno di un SSL personalizzato, puoi inviare un [ticket di supporto](https://experienceleague.adobe.com/en/support){target="_blank"}. Non utilizzare la casella di controllo per la creazione SSL.
 
 1. Se per l&#39;istanza di Marketo Engage sono state definite più aree di lavoro, fare clic su **[!UICONTROL Avanti]**.
 

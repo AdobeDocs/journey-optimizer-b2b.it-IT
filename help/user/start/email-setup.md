@@ -4,10 +4,10 @@ description: Configura le opzioni Marketo Engage per la consegna delle e-mail B2
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
-source-git-commit: 0a9cff812d0631a34a09cca059ffb8496248c2b4
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 83%
+source-wordcount: '1326'
+ht-degree: 73%
 
 ---
 
@@ -58,7 +58,7 @@ Per le e-mail di marketing non operative, il testo e i collegamenti per l’annu
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
-Se hai bisogno di ripristinare il contenuto di sistema predefinito, copia e incolla quanto segue:
+Se devi ripristinare il contenuto di sistema predefinito, copia e incolla quanto segue:
 
 +++ Testo predefinito per l’annullamento dell’iscrizione
 
@@ -130,21 +130,21 @@ campo.
 
    ![Amministratore e-mail Marketo Engage - Limiti di recupero oggetti personalizzati valori predefiniti](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
 
-   Sono supportati valori da 10 a 100. Il _[!UICONTROL limite di recupero figlio]_ viene impostato automaticamente dividendo 1000 per il limite padre. Ad esempio, se imposti il limite padre su 50, il limite figlio viene calcolato come 20 (1000 ÷ 50 = 20).
+   Sono supportati valori da 10 a 100. Il sistema imposta automaticamente il _[!UICONTROL limite di recupero figlio]_ dividendo 1000 per il limite padre. Ad esempio, se imposti il limite padre su 50, il limite figlio viene calcolato come 20 (1000 ÷ 50 = 20).
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
 ## Opzioni intestazione personalizzate
 
-Modifica le _[!UICONTROL opzioni di intestazione personalizzate]_ per l&#39;e-mail per configurare le intestazioni di collegamento di tracciamento e-mail. Abilita queste opzioni per implementare collegamenti di tracciamento sicuri utilizzando HTTPS con Strict Transport.
+Modifica le _[!UICONTROL opzioni di intestazione personalizzate]_ per l&#39;e-mail per configurare le intestazioni di collegamento di tracciamento e-mail. Abilita queste opzioni per implementare collegamenti di tracciamento sicuri utilizzando HTTPS con Trasporto rigoroso.
 
 1. Vai all&#39;area **[!UICONTROL Amministratore]** nell&#39;istanza Marketo Engage allegata e seleziona **[!UICONTROL E-mail]**.
 
 1. Scorri fino al pannello _[!UICONTROL Opzioni intestazione personalizzate]_ e modifica l&#39;impostazione in base ai criteri di tracciamento dei collegamenti:
 
-   ![Amministratore e-mail Marketo Engage - Impostazioni predefinite per le opzioni di intestazione personalizzate](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
+   ![Amministratore e-mail Marketo Engage - Impostazioni predefinite per le opzioni di intestazione personalizzate](./assets/me-admin-email-custom-header-options.png){width="500"}
 
-   * **[!UICONTROL Trasporto sicuro]** - Imposta questa opzione su Abilitato per garantire che i collegamenti di tracciamento vengano sempre serviti tramite HTTPS (deve essere impostato solo per gli abbonamenti con collegamenti di tracciamento protetti da SSL).
+   * **[!UICONTROL Trasporto sicuro]** - Imposta questa opzione su _Abilitato_ per garantire che i collegamenti di tracciamento vengano sempre serviti tramite HTTPS. Abilita questa opzione solo per le sottoscrizioni con collegamenti di tracciamento protetti da SSL.
    * **[!UICONTROL Max-age]** - Questo campo supporta la direttiva obbligatoria per specificare il tempo, in secondi, in cui il browser deve ricordarsi di accedere solo al dominio tramite HTTPS.
    * **[!UICONTROL IncludeSubDomains]** - Utilizzare questa opzione per includere la direttiva che applica il criterio HSTS a tutti i sottodomini dell&#39;host.
 
@@ -158,8 +158,8 @@ Modifica le _[!UICONTROL opzioni di intestazione personalizzate]_ per l&#39;e-ma
 
 L&#39;attività di bot per e-mail, definita anche come interazione non umana (NHI), può gonfiare i dati relativi alle _aperture_ e _clic_ dell&#39;e-mail, distorcendo le metriche di coinvolgimento e attivando la progressione del percorso basato su eventi. Utilizza il filtro dei bot e-mail per mantenere l’integrità delle metriche e delle informazioni sul coinvolgimento nei clic. Esistono due metodi per identificare una sospetta attività da bot:
 
-* _&#x200B;**[!UICONTROL Corrispondenza con l&#39;elenco di bot IAB]**&#x200B;_ - Le attività che corrispondono a qualsiasi elemento nell&#39;[Elenco di bot di Interactive Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (Agente utente/Indirizzo IP) sono contrassegnate come bot.
-* _&#x200B;**[!UICONTROL Corrispondenza con pattern di prossimità]**&#x200B;_ - Due o più attività che si verificano contemporaneamente (in meno di un secondo) sono identificate come bot. Attributi considerati durante il confronto:
+* _**[!UICONTROL Corrispondenza con l&#39;elenco di bot IAB]**_ - Le attività che corrispondono a qualsiasi elemento nell&#39;[Elenco di bot di Interactive Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (Agente utente/Indirizzo IP) sono contrassegnate come bot.
+* _**[!UICONTROL Corrispondenza con pattern di prossimità]**_ - Due o più attività che si verificano contemporaneamente (in meno di un secondo) sono identificate come bot. Attributi considerati durante il confronto:
    * ID lead (deve essere lo stesso)
    * Risorsa e-mail (deve essere la stessa)
    * Clic collegamento o apertura e-mail
@@ -199,7 +199,7 @@ Per l’attività di clic e apertura di e-mail con collegamento, gli attributi v
 
 ### INSERIRE NELL&#39;ELENCO BLOCCATI IP
 
-Adobe ha identificato un elenco di indirizzi IP responsabili della generazione di milioni di falsi impegni, in quanto tali impegni ricevuti da uno qualsiasi dei seguenti IP vengono automaticamente filtrati e non aggiunti all’istanza di Marketo Engage. Questo filtro può comportare una riduzione delle aperture delle e-mail, dei clic e di altre attività correlate. L&#39;elenco può essere aggiornato periodicamente.
+Adobe ha identificato gli indirizzi IP responsabili della generazione di falsi impegni. Il coinvolgimento da questi IP viene automaticamente filtrato ed escluso dall’istanza di Marketo Engage. Questo filtro può ridurre le aperture delle e-mail, i clic e altre attività correlate. L&#39;elenco può essere aggiornato periodicamente.
 
 +++ Indirizzi IP bloccati
 

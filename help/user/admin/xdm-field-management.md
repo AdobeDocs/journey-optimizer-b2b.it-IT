@@ -4,10 +4,10 @@ description: Utilizza la gestione dei campi XDM per controllare i dati disponibi
 feature: Data Management, Integrations
 role: User
 exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 95%
+source-wordcount: '1180'
+ht-degree: 90%
 
 ---
 
@@ -63,7 +63,7 @@ Le informazioni sulla classe visualizzate includono:
 * Numero di campi aggiornabili
 * Ora ultimo aggiornamento
 
-Per selezionare i campi dallo schema di unione per le classi XDM standard, fai clic sul nome della classe per aprire la finestra di dialogo di selezione _Campi gestiti_ oppure fai clic sull&#39;icona _Altro menu_ ( **...** ) per scegliere tra _[!UICONTROL Campi gestiti]_ e _[!UICONTROL Campi aggiornabili]_.
+Per selezionare i campi dallo schema di unione, fai clic sul nome della classe per aprire la finestra di dialogo di selezione dei campi gestiti. In alternativa, fare clic sul _menu Altro_ (**...**) e scegliere tra i campi gestiti e aggiornabili.
 
 ![Fare clic sull&#39;icona Altro per scegliere tra campi gestiti e campi aggiornabili](./assets/xdm-classes-standard-more-menu.png){width="550" zoomable="yes"}
 
@@ -87,7 +87,7 @@ Quando si sceglie **[!UICONTROL Campi gestiti]**, nella finestra di dialogo _Sel
 
 Impostare i campi aggiornabili per scegliere quali campi possono essere modificati tramite **[!UICONTROL Aggiorna profilo account]** o **[!UICONTROL Aggiorna profilo persona]** azioni di percorso.
 
-Prima di configurare i campi aggiornabili, questi devono trovarsi in un set di dati personalizzato. Per una descrizione dettagliata del flusso di lavoro del set di dati personalizzato, consulta [Creare set di dati e acquisire dati](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e utilizzare l&#39;opzione **[!UICONTROL Creare set di dati dallo schema]**. Questo set di dati viene utilizzato per isolare i campi aggiornabili. Tutti i campi aggiornabili devono essere in questo set di dati.
+Prima di configurare i campi aggiornabili, questi devono trovarsi in un set di dati personalizzato. Per una descrizione dettagliata del flusso di lavoro del set di dati personalizzato, consulta [Creare set di dati e acquisire dati](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e utilizzare l&#39;opzione **[!UICONTROL Creare set di dati dallo schema]**. Questo set di dati viene utilizzato per isolare i campi aggiornabili. Tutti i campi aggiornabili devono essere in questo set di dati.
 
 >[!IMPORTANT]
 >
@@ -108,7 +108,7 @@ Crea un set di dati per Profilo individuale e un altro per Account aziendale. Se
 
 ### Schemi relazionali
 
-Gli schemi relazionali consentono di creare classi di dati personalizzate. Con l’accesso a più set di dati, puoi creare classi personalizzate in base alle tue esigenze di dati. Utilizza gli schemi relazionali per le entità business, ad esempio acquisti, licenze e registrazioni di eventi, nelle decisioni del percorso e nella personalizzazione e-mail. Puoi selezionare fino a 20 schemi e fino a 50 campi per schema.
+Gli schemi relazionali consentono di creare classi di dati personalizzate. Con l’accesso a più set di dati, puoi creare classi personalizzate in base alle tue esigenze di dati. Utilizza gli schemi relazionali per le entità aziendali, ad esempio acquisti, licenze e registrazioni di eventi, nelle decisioni di percorso e nella personalizzazione e-mail. Puoi selezionare fino a 20 schemi e fino a 50 campi per schema.
 
 Sono disponibili diverse funzioni che supportano l’utilizzo degli schemi e dei campi relazionali configurati:
 
@@ -118,7 +118,7 @@ Sono disponibili diverse funzioni che supportano l’utilizzo degli schemi e dei
 
 >[!AVAILABILITY]
 >
->Gli [schemi relazionali](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational#) sono disponibili per [!DNL Journey Optimizer B2B Edition] come versione a disponibilità limitata. Data Mirror e gli schemi relazionali sono disponibili per [!DNL Journey Optimizer Orchestrated Campaigns] titolari di licenza. Gli schemi relazionali sono disponibili anche come versione limitata per [!DNL Customer Journey Analytics] utenti, a seconda della licenza e dell&#39;abilitazione della funzione. Contatta il tuo rappresentante Adobe per accedere.
+>Gli [schemi relazionali](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) sono disponibili per [!DNL Journey Optimizer B2B Edition] come versione a disponibilità limitata. Data Mirror e gli schemi relazionali sono disponibili per [!DNL Journey Optimizer Orchestrated Campaigns] titolari di licenza. Gli schemi relazionali sono disponibili anche come versione limitata per [!DNL Customer Journey Analytics] utenti, a seconda della licenza e dell&#39;abilitazione della funzione. Contatta il tuo rappresentante Adobe per accedere.
 
 >[!NOTE]
 >
