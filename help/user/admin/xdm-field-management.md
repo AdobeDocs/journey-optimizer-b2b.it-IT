@@ -4,10 +4,10 @@ description: Utilizza la gestione dei campi XDM per controllare i dati disponibi
 feature: Data Management, Integrations
 role: User
 exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
-source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
+source-git-commit: d07545fbe58d994cf7aa5f4d14deca8d046d1320
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 90%
+source-wordcount: '1189'
+ht-degree: 87%
 
 ---
 
@@ -87,13 +87,13 @@ Quando si sceglie **[!UICONTROL Campi gestiti]**, nella finestra di dialogo _Sel
 
 Impostare i campi aggiornabili per scegliere quali campi possono essere modificati tramite **[!UICONTROL Aggiorna profilo account]** o **[!UICONTROL Aggiorna profilo persona]** azioni di percorso.
 
-Prima di configurare i campi aggiornabili, questi devono trovarsi in un set di dati personalizzato. Per una descrizione dettagliata del flusso di lavoro del set di dati personalizzato, consulta [Creare set di dati e acquisire dati](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e utilizzare l&#39;opzione **[!UICONTROL Creare set di dati dallo schema]**. Questo set di dati viene utilizzato per isolare i campi aggiornabili. Tutti i campi aggiornabili devono essere in questo set di dati.
+Prima di configurare i campi aggiornabili, questi devono trovarsi in un set di dati personalizzato. Per una descrizione dettagliata del flusso di lavoro del set di dati personalizzato, consulta [Creare set di dati e acquisire dati](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e utilizzare l&#39;opzione **[!UICONTROL Creare set di dati dallo schema]**. Questo set di dati viene utilizzato per isolare i campi aggiornabili. Tutti i campi aggiornabili devono essere in questo set di dati.
 
 >[!IMPORTANT]
 >
 >Guardrail per campi aggiornabili:
 >
->* Schemi - Nella classe Profilo individuale XDM, tutti i campi obbligatori nello schema devono essere definiti dal sistema, ad esempio `identityMap` o `personID`.
+>* Schemi - Lo schema deve utilizzare l&#39;identità primaria della persona B2B (`b2b.personKey.sourceKey`). Nella classe XDM Individual Profile, tutti i campi obbligatori nello schema devono essere definiti dal sistema, ad esempio `identityMap` o `personID`.
 >* Set di dati: non utilizzare un set di dati già in uso per un altro scopo. Come best practice, crea set di dati dedicati per l’archiviazione di campi aggiornabili. Utilizza un set di dati separato per ogni classe XDM.
 
 Crea un set di dati per Profilo individuale e un altro per Account aziendale. Seleziona ogni nuovo set di dati durante il processo di configurazione:
@@ -118,7 +118,7 @@ Sono disponibili diverse funzioni che supportano l’utilizzo degli schemi e dei
 
 >[!AVAILABILITY]
 >
->Gli [schemi relazionali](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational#) sono disponibili per [!DNL Journey Optimizer B2B Edition] come versione a disponibilità limitata. Data Mirror e gli schemi relazionali sono disponibili per [!DNL Journey Optimizer Orchestrated Campaigns] titolari di licenza. Gli schemi relazionali sono disponibili anche come versione limitata per [!DNL Customer Journey Analytics] utenti, a seconda della licenza e dell&#39;abilitazione della funzione. Contatta il tuo rappresentante Adobe per accedere.
+>Gli [schemi relazionali](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) sono disponibili per [!DNL Journey Optimizer B2B Edition] come versione a disponibilità limitata. Data Mirror e gli schemi relazionali sono disponibili per [!DNL Journey Optimizer Orchestrated Campaigns] titolari di licenza. Gli schemi relazionali sono disponibili anche come versione limitata per [!DNL Customer Journey Analytics] utenti, a seconda della licenza e dell&#39;abilitazione della funzione. Contatta il tuo rappresentante Adobe per accedere.
 
 >[!NOTE]
 >
