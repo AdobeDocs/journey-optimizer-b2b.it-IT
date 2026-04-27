@@ -1,16 +1,16 @@
 ---
 title: Modelli pagina di destinazione
-description: 'Creare, gestire e riutilizzare i modelli di pagina di destinazione: progetta da zero, importa HTML, duplica, elimina e tieni traccia dell’utilizzo per i team di marketing in Journey Optimizer B2B edition.'
+description: 'Creare, gestire e riutilizzare i modelli di pagina di destinazione: progetta da zero, importa HTML, duplica, elimina e tieni traccia dell’utilizzo per i team di marketing in Journey Optimizer B2B Edition.'
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 0%
+source-wordcount: '1290'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ Per un processo di progettazione accelerato e migliorato, puoi creare modelli di
 
 ## Accedere e gestire i modelli di pagina di destinazione
 
-Per accedere ai modelli di pagina di destinazione in Adobe Journey Optimizer B2B edition, passa a **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Modelli]**. In _[!UICONTROL WEB]_ nel pannello di navigazione, seleziona **[!UICONTROL Modelli pagina di destinazione]**.
+Per accedere ai modelli di pagina di destinazione in Adobe Journey Optimizer B2B Edition, vai a **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Modelli]**. In _[!UICONTROL WEB]_ nel pannello di navigazione, seleziona **[!UICONTROL Modelli pagina di destinazione]**.
 
 La pagina di elenco visualizzata include tutti i modelli di pagina di destinazione creati nell’istanza elencata in formato tabella. Per impostazione predefinita, la tabella è ordinata in base alla colonna _[!UICONTROL Modificato]_, con i modelli aggiornati più di recente nella parte superiore. Fai clic sul titolo della colonna per passare da crescente a decrescente.
 
@@ -64,7 +64,7 @@ Utilizza lo spazio di progettazione visiva per definire la struttura del contenu
 
 ### Importa HTML
 
-Adobe Journey Optimizer B2B edition consente di importare contenuti HTML esistenti per progettare i modelli di pagina di destinazione.
+Adobe Journey Optimizer B2B Edition consente di importare contenuti HTML esistenti per progettare i modelli di pagina di destinazione.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer B2B edition consente di importare contenuti HTML esisten
 
 >[!NOTE]
 >
->L&#39;utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
+>L’utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
 
 Puoi personalizzare il contenuto importato in base alle esigenze con lo spazio di progettazione visiva.
 
@@ -111,7 +111,7 @@ Nella pagina dei dettagli dei modelli, fai clic sulla scheda **[!UICONTROL Usato
 Questa azione può essere intrapresa da:
 
 * La pagina dei dettagli - Fai clic su **[!UICONTROL Modifica modello pagina di destinazione]**.
-* Pagina dell&#39;elenco - Fai clic sui puntini di sospensione (**...**) accanto a un modello e scegli **[!UICONTROL Modifica]**.
+* Pagina dell&#39;elenco - Fare clic sui puntini di sospensione (**...**) accanto a un modello e scegliere **[!UICONTROL Modifica]**.
 
 Questa azione ti porta alla pagina _Progetta il modello_ o alla pagina dell&#39;editor di contenuti visivi (in base all&#39;ultimo stato salvato del modello della pagina di destinazione). Da qui puoi modificare il contenuto del modello della pagina di destinazione in base alle esigenze. Per informazioni sulle opzioni di modifica, consulta [Creare un modello di pagina di destinazione](#create-a-landing-page-template).
 
@@ -123,7 +123,7 @@ Puoi duplicare un modello di pagina di destinazione utilizzando uno dei seguenti
 
   ![Fai clic su Altro per accedere alle azioni Elimina e Duplica](./assets/template-details-more-menu.png){width="400"}
 
-* Dalla pagina di elenco _[!UICONTROL Modelli pagina di destinazione]_, fai clic sui puntini di sospensione (...) accanto al modello e scegli **[!UICONTROL Duplica]**.
+* Dalla pagina dell&#39;elenco _[!UICONTROL Modelli di pagina di destinazione]_, fare clic sui puntini di sospensione (...) accanto al modello e scegliere **[!UICONTROL Duplica]**.
 
 Nella finestra di dialogo, inserisci un nome utile (univoco) e una descrizione. Fai clic su **[!UICONTROL Duplica]** per completare l&#39;azione.
 
@@ -134,7 +134,7 @@ Il (nuovo) modello di pagina di destinazione duplicato viene quindi visualizzato
 La rimozione di un modello di pagina di destinazione non può essere annullata, pertanto controlla prima di avviare un’azione di eliminazione. Puoi eliminare un modello di pagina di destinazione utilizzando uno dei seguenti metodi:
 
 * Dai dettagli del modello a destra, espandi **[!UICONTROL Altro]** e fai clic su **[!UICONTROL Elimina]**.
-* Dalla pagina di elenco _Modelli pagina di destinazione_, fai clic sui puntini di sospensione (...) accanto al modello e scegli **[!UICONTROL Elimina]**.
+* Dalla pagina dell&#39;elenco _Modelli di pagina di destinazione_, fare clic sui puntini di sospensione (...) accanto al modello e scegliere **[!UICONTROL Elimina]**.
 
   ![Fare clic su ... per accedere alle azioni Duplica ed Elimina](./assets/templates-list-more-menu.png){width="500"}
 
@@ -162,7 +162,7 @@ Per iniziare a creare i contenuti con uno dei modelli di pagina di destinazione 
 
    In questa scheda viene visualizzato un elenco di tutti i modelli di pagina di destinazione creati nella sandbox. Puoi ordinarli _Per nome_, _Ultima modifica_ e _Ultima creazione_.
 
-1. Seleziona dall’elenco il modello desiderato.
+1. Seleziona il modello desiderato dall’elenco.
 
    Dopo la selezione, viene visualizzata un&#39;anteprima del modello. In modalità anteprima puoi spostarti tra tutti i modelli di una categoria (campione o salvato, a seconda della selezione) utilizzando le frecce destra e sinistra.
 

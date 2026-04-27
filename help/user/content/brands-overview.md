@@ -1,12 +1,12 @@
 ---
 title: Utilizzare i brand per la generazione e la coerenza dei contenuti
-description: 'Definisci le linee guida del brand per una creazione coerente dei contenuti: preserva l’identità visiva, l’allineamento dei messaggi e la voce autentica in Journey Optimizer B2B edition.'
+description: 'Definisci le linee guida del brand per una creazione coerente dei contenuti: preserva l’identità visiva, l’allineamento dei messaggi e la voce autentica in Journey Optimizer B2B Edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 12%
@@ -47,9 +47,9 @@ La tua organizzazione può sfruttare al meglio un marchio nella creazione e nell
 >
 >Questa funzionalità è attualmente disponibile come versione beta pubblica.
 >
->È necessario un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di poter utilizzare le funzionalità basate sull&#39;intelligenza artificiale in Adobe Journey Optimizer B2B edition. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>È necessario un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di poter utilizzare le funzionalità basate sull&#39;intelligenza artificiale in Adobe Journey Optimizer B2B Edition. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-Un marchio definito fornisce la _fonte di verità_ che il team creativo può utilizzare quando crea contenuti visivi o scritti. Quando queste linee guida vengono compilate e le risorse del brand condivise, qualsiasi membro del team o collaboratore può creare contenuti sul brand per il tuo prodotto. Per abilitare la creazione di contenuti nel brand in Journey Optimizer B2B edition, completa le seguenti attività:
+Un marchio definito fornisce la _fonte di verità_ che il team creativo può utilizzare quando crea contenuti visivi o scritti. Quando queste linee guida vengono compilate e le risorse del brand condivise, qualsiasi membro del team o collaboratore può creare contenuti sul brand per il tuo prodotto. Per abilitare la creazione di contenuti nel brand in Journey Optimizer B2B Edition, completa le seguenti attività:
 
 1. Prepara la definizione del brand.
 
@@ -59,13 +59,14 @@ Un marchio definito fornisce la _fonte di verità_ che il team creativo può uti
 
 1. Assemblate queste informazioni in uno o più file PDF.
 
-1. Usa il file PDF per [creare il brand](./brands-manage-create.md#create-and-define-a-brand) in Journey Optimizer B2B edition.
+1. Usa il file PDF per [creare il brand](./brands-manage-create.md#create-and-define-a-brand) in Journey Optimizer B2B Edition.
 
 1. Quando è pronto per l&#39;uso, [pubblica il brand](./brands-manage-create.md#publish-the-brand).
 
 1. Utilizza il brand per [allineamento contenuto e-mail](./content-evaluation.md#brand-alignment-score).
 <!-- 
-1. Use the brand to generate content. -->
+1. Use the brand to generate content. 
+-->
 
 >[!BEGINSHADEBOX]
 

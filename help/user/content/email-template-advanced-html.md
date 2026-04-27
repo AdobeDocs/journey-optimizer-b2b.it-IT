@@ -1,10 +1,11 @@
 ---
 title: Modalità HTML avanzata per la progettazione di modelli e-mail
-description: Utilizza la modalità HTML avanzata per visualizzare e modificare direttamente l’origine HTML non elaborata del contenuto del modello e-mail nell’area di progettazione e-mail in Journey Optimizer B2B edition.
+description: Utilizza la modalità HTML avanzata per visualizzare e modificare direttamente l’origine HTML non elaborata del contenuto del modello e-mail nell’area di progettazione e-mail in Journey Optimizer B2B Edition.
 feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
-source-git-commit: 95dba963e08125370f998cf3960d51ede94c2fb9
+exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -15,10 +16,12 @@ ht-degree: 0%
 
 _La modalità HTML avanzata_ fornisce una visualizzazione che consente agli utenti esperti di visualizzare e modificare direttamente il codice sorgente non elaborato per il contenuto del modello e-mail. Questa modalità è ideale quando si desidera inserire espressioni sofisticate, come la logica condizionale, direttamente nella sorgente. È utile anche per apportare regolazioni strutturali che vadano oltre ciò che gli strumenti di progettazione visiva espongono.
 
-<!-- We don't have the code editor at this point 
+<!-- 
+We don't have the code editor at this point 
 >[!NOTE]
 >
->_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. -->
+>_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. 
+-->
 
 >[!AVAILABILITY]
 >
@@ -26,7 +29,7 @@ _La modalità HTML avanzata_ fornisce una visualizzazione che consente agli uten
 
 ## Limitazioni importanti
 
-Prima di utilizzare la modalità HTML avanzata per l&#39;authoring dei modelli di posta elettronica [&#128279;](./email-template-authoring.md), accertati di comprendere le seguenti limitazioni:
+Prima di utilizzare la modalità HTML avanzata per l&#39;authoring dei modelli di posta elettronica [](./email-template-authoring.md), accertati di comprendere le seguenti limitazioni:
 
 * **Nessuna convalida** - L&#39;editor di HTML non esegue la verifica della sintassi o del layout. Rivedi attentamente il codice prima di salvarlo.
 
