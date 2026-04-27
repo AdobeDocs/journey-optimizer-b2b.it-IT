@@ -1,13 +1,13 @@
 ---
 title: Modalità scura per il contenuto delle e-mail
-description: Scopri la progettazione delle e-mail in modalità scura in Journey Optimizer B2B edition. Visualizza in anteprima il rendering, personalizza le impostazioni, sostieni l’accessibilità ed esegui test su diversi client e-mail.
+description: Scopri la progettazione delle e-mail in modalità scura in Journey Optimizer B2B Edition. Visualizza in anteprima il rendering, personalizza le impostazioni, sostieni l’accessibilità ed esegui test su diversi client e-mail.
 feature: Email Authoring
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: modalità scura, e-mail, colore, progettazione
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+source-git-commit: 781a1043d2da8fb8e2eb14936dea209bd2ff0f2e
 workflow-type: tm+mt
 source-wordcount: '1606'
 ht-degree: 4%
@@ -28,9 +28,9 @@ ht-degree: 4%
 
 _Modalità scura_ consente a un client e-mail o a un&#39;app di supporto di visualizzare e-mail con sfondi più scuri e colori più chiari per testo, pulsanti e altri elementi visivi. Questo tipo di display può ridurre l&#39;affaticamento degli occhi, ridurre la durata della batteria e migliorare la leggibilità in ambienti scarsamente illuminati, per un&#39;esperienza di visualizzazione più confortevole. In quanto tendenza in crescita tra i principali sistemi operativi e app, ora è un elemento importante nella progettazione di e-mail moderne per garantire che il contenuto rimanga leggibile e visivamente attraente per tutti gli utenti.
 
-![Diagramma concettuale della modalità chiara e scura che mostra il rendering del contenuto con temi chiari e scuri](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
+![Diagramma concettuale della modalità chiara e scura che mostra il rendering del contenuto con temi chiari e scuri](../assets/do-not-localize/light-dark-mode.png){width="550"}
 
-Quando [crei il contenuto delle e-mail](./email-authoring.md) nello spazio di progettazione visiva [!DNL Journey Optimizer B2B Edition], puoi passare alla visualizzazione _&#x200B;**[!UICONTROL modalità scura]**&#x200B;_. In questa visualizzazione, puoi anche definire impostazioni personalizzate specifiche per il supporto dei client e-mail quando è abilitata la modalità scura.
+Quando [crei il contenuto delle e-mail](./email-authoring.md) nello spazio di progettazione visiva [!DNL Journey Optimizer B2B Edition], puoi passare alla visualizzazione _**[!UICONTROL modalità scura]**_. In questa visualizzazione, puoi anche definire impostazioni personalizzate specifiche per il supporto dei client e-mail quando è abilitata la modalità scura.
 
 ## Considerazioni sul client e-mail {#email-client-considerations}
 
