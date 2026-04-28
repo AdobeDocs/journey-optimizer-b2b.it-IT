@@ -1,8 +1,8 @@
 ---
 source-git-commit: 14ce84c26dc292c33479ca60841dafd1ab20db53
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 49%
+source-wordcount: '517'
+ht-degree: 46%
 
 ---
 # Contribuire agli articoli
@@ -11,7 +11,7 @@ I contributi della community e dei dipendenti di Adobe esterni ai team di docume
 
 ## Codice di condotta open source di Adobe
 
-Questo progetto ha adottato il [Codice di condotta di Adobe Open Source](code-of-conduct.md) o il [Codice di condotta di .NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct). Per ulteriori informazioni, consulta l’articolo [Contribuzione](contributing.md).
+Questo progetto ha adottato il [Codice di condotta open source di Adobe](code-of-conduct.md) o il [Codice di condotta di .NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct). Per ulteriori informazioni, consulta l’articolo [Come contribuire](contributing.md).
 
 ## Come contribuire al contenuto Adobe
 
@@ -26,7 +26,7 @@ Questo progetto ha adottato il [Codice di condotta di Adobe Open Source](code-of
 Se stai contribuendo con un aggiornamento minore:
 
 1. Passare all&#39;argomento da modificare.
-1. In _Questo contenuto è stato utile?_ banner nella parte inferiore della finestra del browser, fai clic su **Opzioni di feedback dettagliate**.
+1. In _Questo contenuto è stato utile?_ nella parte inferiore della finestra del browser, fai clic su **Opzioni di feedback dettagliate**.
 1. Fai clic su **Suggerisci una modifica** e invia una richiesta di pull (PR) con le modifiche nell&#39;interfaccia utente di GitHub.
 
    Per ulteriori informazioni, consulta la [Guida collaboratore per i documenti di Adobe](https://experienceleague.adobe.com/it/docs/contributor/contributor-guide/introduction) generale.
