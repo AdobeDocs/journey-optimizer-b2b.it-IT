@@ -1,13 +1,12 @@
 ---
 title: Modelli pagina di destinazione
-description: 'Creare, gestire e riutilizzare i modelli di pagina di destinazione: progetta da zero, importa HTML, duplica, elimina e tieni traccia dell’utilizzo per i team di marketing in Journey Optimizer B2B Edition.'
+description: 'Creare, gestire e riutilizzare i modelli di pagina di destinazione: progetta da zero, importa HTML, duplica, elimina e tieni traccia dell’utilizzo per i team di marketing in Journey Optimizer B2B edition.'
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
+source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 4%
@@ -20,7 +19,7 @@ Per un processo di progettazione accelerato e migliorato, puoi creare modelli di
 
 ## Accedere e gestire i modelli di pagina di destinazione
 
-Per accedere ai modelli di pagina di destinazione in Adobe Journey Optimizer B2B Edition, vai a **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Modelli]**. In _[!UICONTROL WEB]_ nel pannello di navigazione, seleziona **[!UICONTROL Modelli pagina di destinazione]**.
+Per accedere ai modelli di pagina di destinazione in Adobe Journey Optimizer B2B edition, passa a **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Modelli]**. In _[!UICONTROL WEB]_ nel pannello di navigazione, seleziona **[!UICONTROL Modelli pagina di destinazione]**.
 
 La pagina di elenco visualizzata include tutti i modelli di pagina di destinazione creati nell’istanza elencata in formato tabella. Per impostazione predefinita, la tabella è ordinata in base alla colonna _[!UICONTROL Modificato]_, con i modelli aggiornati più di recente nella parte superiore. Fai clic sul titolo della colonna per passare da crescente a decrescente.
 
@@ -64,7 +63,7 @@ Utilizza lo spazio di progettazione visiva per definire la struttura del contenu
 
 ### Importa HTML
 
-Adobe Journey Optimizer B2B Edition consente di importare contenuti HTML esistenti per progettare i modelli di pagina di destinazione.
+Adobe Journey Optimizer B2B edition consente di importare contenuti HTML esistenti per progettare i modelli di pagina di destinazione.
 
 {{$include /help/_includes/content-design-import.md}}
 

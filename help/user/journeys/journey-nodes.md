@@ -1,11 +1,10 @@
 ---
 title: Nodi percorso
-description: Crea percorsi con nodi di azione, evento e orchestrazione (audience, wait, split e merge) per il marketing cross-channel in Journey Optimizer B2B Edition.
+description: Crea percorsi con nodi di azione, evento e orchestrazione (audience, wait, split e merge) per il marketing cross-channel in Journey Optimizer B2B edition.
 feature: Account Journeys
 hide: true
-hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
+source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 12%

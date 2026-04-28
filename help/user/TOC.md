@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentazione di Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando le funzioni di IA generativa incorporata e l’automazione leader del settore.
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 94%
    + [Percorsi di account e persone](./journeys/journeys-overview.md)
    + [Creare e pubblicare un percorso](./journeys/create-publish-journey.md)
    + [Reinserimento percorso](./journeys/journey-re-entry.md)
-   + [Nodi del percorso](./journeys/journey-nodes.md)
+   + {hide-from-toc}[nodi Percorso](./journeys/journey-nodes.md)
    + Nodi del percorso {#journey-nodes}
       + [Pubblico di account](./journeys/account-audience-nodes.md)
       + [Pubblico della persona (Beta)](./journeys/person-audience-nodes.md)
@@ -119,7 +119,7 @@ ht-degree: 94%
          + [Modifica avanzata di HTML](./content/email-template-advanced-html.md)
          + [Convertire l’immagine in un modello](./content/email-template-image-convert.md)
       + Modelli pagina di destinazione (Beta) {#landing-page-templates}
-         + [Panoramica](./content/landing-page-templates.md)
+         + {hide-from-toc}[Panoramica](./content/landing-page-templates.md)
          + [Progettazione modello pagina di destinazione](./content/landing-page-template-design.md)
    + Frammenti {#visual-fragments}
       + [Panoramica](./content/fragments.md)
@@ -167,4 +167,4 @@ ht-degree: 94%
       + [Configurazioni WhatsApp](./admin/configure-channels-whatsapp.md)
       + [Configurazioni dei canali web (Beta)](./admin/configure-channels-web.md)
       + [Impostazioni pagina di destinazione (Beta)](./admin/landing-page-settings.md)
-      + [Configurare gli stream di dati per la raccolta di eventi](./data/aep-event-collection.md)
+      + {hide-from-toc}[Configurare gli stream di dati per la raccolta eventi](./data/aep-event-collection.md)
