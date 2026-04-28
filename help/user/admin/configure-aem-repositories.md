@@ -4,7 +4,7 @@ description: Collega gli archivi Experience Manager Assets a Journey Optimizer B
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
+source-git-commit: a722a5ba7a0e70329032e2768c5fbaf63537a2b7
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 1%
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer B2B Edition] si integra con [!DNL Adobe Experience Manager Assets as a Cloud Service], consentendo l&#39;utilizzo di risorse nel contenuto dell&#39;e-mail. Garantisce la trasparenza scambiando informazioni con [!DNL Experience Manager Assets]. Configurare la connessione a [!DNL Adobe Experience Assets] per abilitare questa funzionalità.
 
-Adobe Experience Manager Cloud Manager è organizzato in programmi e ogni programma dispone di più ambienti e archivi ([Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Quando configuri Adobe Experience Manager Assets in Adobe Journey Optimizer B2B edition, puoi impostare connessioni a ogni archivio che desideri utilizzare per accedere alle risorse digitali.
+Adobe Experience Manager Cloud Manager è organizzato in programmi e ogni programma dispone di più ambienti e archivi ([Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Quando configuri Adobe Experience Manager Assets in Adobe Journey Optimizer B2B edition, puoi impostare connessioni a ogni archivio che desideri utilizzare per accedere alle risorse digitali.
 
 {{aem-assets-licensing-note}}
 
 ## Prerequisiti
 
-* Genera le credenziali del servizio per l&#39;ambiente desiderato in AEM Headless Developer Console ([Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
+* Genera le credenziali del servizio per l&#39;ambiente desiderato in AEM Headless Developer Console ([Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * Ottenere i certificati necessari per la connessione. Come best practice, assicurati che i certificati rimangano almeno sei mesi prima della scadenza. I certificati scadono ogni 365 giorni.
 * Adobe Journey Optimizer B2B edition supporta l’accesso a un’origine per la gestione delle risorse digitali alla volta. Prima di cambiare, assicurati che le risorse richieste siano disponibili in Adobe Experience Manager.
 
@@ -125,7 +125,6 @@ L’eliminazione di un archivio rimuove l’accesso degli utenti all’ambiente 
 1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Elimina]**.
 
 <!--
-
 ## Switch back to Adobe Marketo Engage Assets
 
 Select Adobe Marketo Engage digital asset management in the Assets section.
