@@ -4,7 +4,7 @@ description: Collega gli archivi Experience Manager Assets a Journey Optimizer B
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
+source-git-commit: a722a5ba7a0e70329032e2768c5fbaf63537a2b7
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 1%
@@ -125,7 +125,6 @@ L’eliminazione di un archivio rimuove l’accesso degli utenti all’ambiente 
 1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Elimina]**.
 
 <!--
-
 ## Switch back to Adobe Marketo Engage Assets
 
 Select Adobe Marketo Engage digital asset management in the Assets section.
