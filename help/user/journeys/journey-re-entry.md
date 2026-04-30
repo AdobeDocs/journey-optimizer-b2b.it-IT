@@ -5,10 +5,10 @@ feature: Account Journeys
 role: User
 level: Intermediate
 exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
-source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
+source-git-commit: 585f98370f6741a5f4854beedd14a69c3a663f3c
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 1%
+source-wordcount: '419'
+ht-degree: 9%
 
 ---
 
@@ -60,7 +60,10 @@ Un account può essere riqualificato per un percorso quando sono soddisfatte le 
 
 ## Progressione e attività dell’account
 
-Per un percorso di account pubblicato, la mappa del percorso visualizza [progressione account](./journeys-overview.md#review-account-progression) per i nodi del percorso. Ogni nodo sulla mappa mostra il numero di account per raggiungere il nodo e, per i percorsi live, il numero di account attualmente in quel nodo. Ogni volta che un account viene reinserito in un percorso, viene conteggiato come voce distinta.
-<!-- You can see how many times accounts have entered the journey. ?? -->
+Per un percorso di account pubblicato, la mappa del percorso visualizza [progressione account](./journeys-overview.md#review-account-progression) per i nodi del percorso. Ogni nodo sulla mappa mostra il numero di account che hanno raggiunto quel nodo e, per i percorsi live, il numero di account che si trovano attualmente a quel nodo. Ogni volta che un account viene reinserito in un percorso, viene conteggiato come voce distinta.
 
-Quando si esegue l&#39;espansione ai [dettagli account](../accounts/account-details.md), l&#39;attività dell&#39;account viene visualizzata ogni volta che l&#39;account è entrato nel percorso. Include un’attività esplicita e un conteggio di ricorrenza che ti consente di visualizzare chiaramente i reinserimenti.
+<!-- 
+You can see how many times accounts have entered the journey. ?? 
+
+When you drill in to [account details](../accounts/account-details.md), the account activity shows each time the account entered the journey. It includes explicit activity and a recurrence count so that you can see re-entries clearly.
+-->
