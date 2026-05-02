@@ -15,7 +15,7 @@ ht-degree: 81%
 
 Le azioni Marketo Engage sono _azioni basate sulle persone_ che ti consentono di coordinare l&#39;orchestrazione marketing _basata sull&#39;account_ tra Journey Optimizer B2B edition e le attività di marketing _basate sui lead_ in Marketo Engage. Utilizza queste azioni per orchestrare l’iscrizione all’elenco statico e inserire le persone nelle campagne.
 
-Per utilizzare le azioni di percorso di Marketo Engage, un amministratore crea innanzitutto un [servizio personalizzato](https://experienceleague.adobe.com/it/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} in Marketo Engage, che fornisce le credenziali necessarie per l&#39;autenticazione. L’amministratore di prodotto per Journey Optimizer B2B edition utilizza quindi le credenziali per creare una connessione a Marketo Engage. Gli utenti di Journey Optimizer B2B Edition possono quindi fare riferimento alla connessione per configurare le azioni di Marketo Engage in percorsi di persone e account:
+Per utilizzare le azioni di percorso di Marketo Engage, un amministratore crea innanzitutto un [servizio personalizzato](https://experienceleague.adobe.com/it/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} in Marketo Engage, che fornisce le credenziali necessarie per l&#39;autenticazione. L’amministratore di prodotto per Journey Optimizer B2B edition utilizza quindi le credenziali per creare una connessione a Marketo Engage. Gli utenti di Journey Optimizer B2B edition possono quindi fare riferimento alla connessione per configurare le azioni di Marketo Engage in percorsi di persone e account:
 
 * [!UICONTROL Aggiungi a elenco Marketo]
 * [!UICONTROL Rimuovi dall&#39;elenco Marketo]

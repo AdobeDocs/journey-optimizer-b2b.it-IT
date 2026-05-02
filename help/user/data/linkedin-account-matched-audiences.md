@@ -6,14 +6,14 @@ role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
 source-git-commit: f50108fa113312c05ded9c09e7d91eeb49fb90ff
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 12%
+source-wordcount: '1015'
+ht-degree: 14%
 
 ---
 
 # Tipi di pubblico associati all&#39;account LinkedIn
 
-[!DNL Journey Optimizer B2B Edition] offre la possibilità di generare tipi di pubblico di LinkedIn Ad tramite i tipi di pubblico corrispondenti all&#39;account ed è progettato per aiutarti a riempire ruoli vuoti nei tuoi gruppi di acquisto. Definendo un set di filtri per gruppi di acquisto, puoi mantenere un pubblico abbinato a LinkedIn per eseguire il targeting dei potenziali clienti che corrispondono ai parametri del gruppo di acquisto. Puoi anche attivare un pubblico da un percorso di account da un nodo _Esegui un&#39;azione_.
+[!DNL Journey Optimizer B2B Edition] offre la possibilità di generare tipi di pubblico di LinkedIn Ad tramite i tipi di pubblico corrispondenti all&#39;account ed è progettato per aiutarti a riempire ruoli vuoti nei tuoi gruppi di acquisto. Definendo un set di filtri di gruppi acquisti, puoi mantenere un pubblico associato a LinkedIn per eseguire il targeting dei potenziali clienti che corrispondono ai parametri del gruppo acquisti. Puoi anche attivare un pubblico da un percorso di account da un nodo _Esegui un&#39;azione_.
 
 Questa funzione sfrutta le destinazioni di Experience Platform per gestire alcuni aspetti dell’integrazione. È previsto un limite di dieci flussi di dati.
 
@@ -34,7 +34,7 @@ Prima di avviare un flusso di dati da Journey Optimizer B2B edition, è necessar
    >
    >È possibile trovare rapidamente il connettore immettendo `LinkedIn` nella casella di ricerca.
 
-1. Nella scheda del connettore, fai clic sull&#39;icona _Altro_ (**...**) e scegli **[!UICONTROL Configura nuova destinazione]**.
+1. Nella scheda del connettore, fai clic su _Altro_ (**...**) e scegliere **[!UICONTROL Configura nuova destinazione]**.
 
    ![Accedi al connettore LinkedIn (Aziende) del pubblico corrispondente](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
@@ -58,7 +58,7 @@ Il nome e la descrizione dell’account LinkedIn sono visibili per i gruppi di a
 
 1. Vai a **[!UICONTROL Connessioni]** > **[!UICONTROL Destinazioni]** nella navigazione a sinistra e seleziona la scheda **[!UICONTROL Account]**.
 
-1. Per il nuovo account creato, fare clic sul menu _Altro_ (**...**) e scegliere **[!UICONTROL Modifica dettagli]**.
+1. Per il nuovo account creato, fai clic su _Altro_ (**...**) e scegliere **[!UICONTROL Modifica dettagli]**.
 
    ![Modificare i dettagli dell’account](./assets/aep-destinations-accounts-edit-details.png){width="800" zoomable="yes"}
 

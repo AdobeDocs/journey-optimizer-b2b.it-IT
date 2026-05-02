@@ -1,6 +1,6 @@
 ---
 title: Modalità scura per il contenuto delle e-mail
-description: Scopri la progettazione delle e-mail in modalità scura in Journey Optimizer B2B Edition. Visualizza in anteprima il rendering, personalizza le impostazioni, sostieni l’accessibilità ed esegui test su diversi client e-mail.
+description: Scopri la progettazione delle e-mail in modalità scura in Journey Optimizer B2B edition. Visualizza in anteprima il rendering, personalizza le impostazioni, sostieni l’accessibilità ed esegui test su diversi client e-mail.
 feature: Email Authoring
 topic: Content Management
 role: User

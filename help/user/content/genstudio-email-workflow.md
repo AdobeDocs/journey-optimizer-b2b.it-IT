@@ -9,8 +9,8 @@ badge: label="Disponibilità limitata" type="Informative"
 exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 8%
+source-wordcount: '862'
+ht-degree: 11%
 
 ---
 
@@ -35,7 +35,7 @@ Ad esempio, un esperto di marketing tecnico che utilizza Journey Optimizer B2B e
 
 ## Funzionalità di generazione dei contenuti GenStudio
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/it/products/genstudio-for-performance-marketing.html){target="_blank"} è un&#39;applicazione IA-first generativa che consente ai team di marketing di creare annunci ed e-mail personalizzati e di grande impatto, conformi agli standard del marchio e ai criteri aziendali. Sfruttando la tecnologia di intelligenza artificiale Adobe, fornisce una suite completa di strumenti che semplificano le complessità della creazione e della gestione dei contenuti in modo che i creativi possano concentrarsi sull’innovazione.
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/it/products/genstudio-for-performance-marketing.html){target="_blank"} è un&#39;applicazione IA-first generativa che consente ai team di marketing di creare annunci ed e-mail personalizzati e di grande impatto, conformi agli standard del marchio e ai criteri aziendali. Sfruttando la tecnologia Adobe AI, fornisce una suite completa di strumenti che semplificano le complessità di creazione e gestione dei contenuti, consentendo ai creativi di concentrarsi sull’innovazione.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Crea e-mail marketing sul marchio](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
