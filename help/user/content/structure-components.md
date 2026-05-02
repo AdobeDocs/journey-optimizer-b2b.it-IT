@@ -97,7 +97,7 @@ Per rimuovere la designazione di intestazione o piè di pagina, seleziona il com
 
 Per schermate o finestre di visualizzazione più piccole, le colonne nel componente struttura vengono visualizzate in pila a meno che non si modifichi l’impostazione predefinita. Con il componente struttura a più colonne selezionato, modifica l&#39;impostazione **[!UICONTROL Non impilare le colonne sul dispositivo mobile]** spostando il cursore di attivazione/disattivazione a destra.
 
-![Non impilare colonne sul dispositivo mobile ](./assets/structure-component-settings-stack-columns.png){width="250"}
+![Non impilare colonne sul dispositivo mobile &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"}
 
 ## Stili dei componenti
 
