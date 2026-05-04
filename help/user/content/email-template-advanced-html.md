@@ -1,13 +1,19 @@
 ---
 title: Modalità HTML avanzata per la progettazione di modelli e-mail
-description: Utilizza la modalità HTML avanzata per visualizzare e modificare direttamente l’origine HTML non elaborata del contenuto del modello e-mail nell’area di progettazione e-mail in Journey Optimizer B2B Edition.
+description: Utilizza la modalità HTML avanzata per visualizzare e modificare direttamente l’origine HTML non elaborata del contenuto del modello e-mail nell’area di progettazione e-mail in Journey Optimizer B2B edition.
 feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
 exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
-source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: 583
 ht-degree: 0%
 
 ---
@@ -29,7 +35,7 @@ We don't have the code editor at this point
 
 ## Limitazioni importanti
 
-Prima di utilizzare la modalità HTML avanzata per l&#39;authoring dei modelli di posta elettronica [&#128279;](./email-template-authoring.md), accertati di comprendere le seguenti limitazioni:
+Prima di utilizzare la modalità HTML avanzata per l&#39;authoring dei modelli di posta elettronica [](./email-template-authoring.md), accertati di comprendere le seguenti limitazioni:
 
 * **Nessuna convalida** - L&#39;editor di HTML non esegue la verifica della sintassi o del layout. Rivedi attentamente il codice prima di salvarlo.
 

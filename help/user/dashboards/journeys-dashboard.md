@@ -4,9 +4,16 @@ description: Monitora le prestazioni del percorso dell’account con tassi di co
 feature: Dashboards, Account Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+autotag-review: '2026-03-30T22:42:55.045Z'
+source-git-commit: 78593516165b04654ea0894ab619cac7d120e11f
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: 371
 ht-degree: 2%
 
 ---
@@ -25,7 +32,7 @@ Questo grafico illustra la distribuzione dei percorsi in base al loro tasso di c
 
 Per visualizzare informazioni più dettagliate, fare clic sull&#39;icona del menu **...** in alto a destra.
 
-Distribuzione percentuale di completamento di ![&#x200B; Percorsi](./assets/journey-completion-rate-distribution.png){width="500"}
+Distribuzione percentuale di completamento di ![ Percorsi](./assets/journey-completion-rate-distribution.png){width="500"}
 
 ## Percorsi per tipo di coinvolgimento
 
@@ -33,7 +40,7 @@ Questo grafico a barre mostra la distribuzione dei percorsi in base al tipo di c
 
 Per visualizzare informazioni più dettagliate, fare clic sull&#39;icona del menu **...** in alto a destra.
 
-Distribuzione percentuale di completamento di ![&#x200B; Percorsi](./assets/journeys-by-engagement-type.png){width="500"}
+Distribuzione percentuale di completamento di ![ Percorsi](./assets/journeys-by-engagement-type.png){width="500"}
 
 ## Coinvolgi i dati
 
@@ -45,7 +52,7 @@ Per il grafico circolare, scegliere **[!UICONTROL Drill through]** per un&#39;an
 
 ![Eseguire il drill-through per accedere ai dati del grafico](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
 
-Puoi fare clic sul menu _Altro_ (**...**) in alto a destra e scegliere **[!UICONTROL Visualizza altro]** per [visualizzare dati estesi](#view-more).
+Puoi fare clic su _Altro_ (**...**) in alto a destra e scegliere **[!UICONTROL Visualizza altro]** per [visualizzare dati estesi](#view-more).
 
 ### [!UICONTROL Visualizza altro]
 

@@ -1,18 +1,25 @@
 ---
-title: Forms
+title: Moduli
 description: 'Creazione e gestione di moduli riutilizzabili per la raccolta dati aziendali: progettare campi, impostare pagine di ringraziamento, pubblicare e tenere traccia dell’utilizzo in Journey Optimizer B2B edition.'
 feature: Forms, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+autotag-review: '2026-03-30T22:51:56.324Z'
+source-git-commit: 78593516165b04654ea0894ab619cac7d120e11f
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: 2374
 ht-degree: 1%
 
 ---
 
-# Forms
+# Moduli
 
 Per acquisire informazioni dai visitatori delle pagine web, crea moduli e aggiungili alle pagine di destinazione. Un modulo è un insieme di campi che i visitatori della pagina completano e inviano per ottenere un qualche tipo di contenuto o offerta, ad esempio un white paper, un webinar on-demand o una versione di prova gratuita.
 

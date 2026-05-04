@@ -4,9 +4,16 @@ description: 'Creazione e gestione di token personalizzati per la personalizzazi
 feature: Personalization, Content, Email Authoring
 role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+autotag-review: '2026-03-30T22:21:17.156Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: 605
 ht-degree: 2%
 
 ---
@@ -59,7 +66,7 @@ _Per accedere ai token personalizzati per un percorso di account :_
 
 Mentre il percorso di account rimane nello stato Bozza, puoi modificare qualsiasi token definito.
 
-1. Nella pagina _[!UICONTROL Token personali]_, fai clic sull&#39;icona _Altre azioni_ (**...**) accanto al nome del token e scegli **[!UICONTROL Modifica]**.
+1. Nella pagina _[!UICONTROL I miei token]_, fai clic sull&#39;icona _Altre azioni_ (**...**) accanto al nome del token e scegliere **[!UICONTROL Modifica]**.
 
    ![Menu altre azioni token](./assets/my-tokens-more-actions.png){width="430"}
 
@@ -73,7 +80,7 @@ Mentre il percorso di account rimane nello stato Bozza, puoi modificare qualsias
 
 Puoi eliminare un token personalizzato dall&#39;elenco _Token personali_, ma devi accertarti che non sia attualmente utilizzato nel contenuto dell&#39;e-mail del percorso.
 
-1. Nella pagina _[!UICONTROL Token personali]_, fai clic sull&#39;icona _Altre azioni_ (**...**) accanto al nome del token e scegli **[!UICONTROL Elimina]**.
+1. Nella pagina _[!UICONTROL I miei token]_, fai clic sull&#39;icona _Altre azioni_ (**...**) accanto al nome del token e scegliere **[!UICONTROL Elimina]**.
 
 1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Elimina]**.
 

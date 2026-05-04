@@ -5,10 +5,17 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 0%
+source-wordcount: 971
+ht-degree: 1%
 
 ---
 
@@ -40,7 +47,7 @@ Le domande relative alla conoscenza del prodotto riguardano i concetti e le info
 * Come posso inviare un’e-mail in un percorso?
 * Come posso personalizzare il contenuto delle e-mail?
 
-Per porre una domanda sul prodotto, immettilo nel campo nella parte inferiore del pannello e premi Invio. Ad esempio, quando devi imparare a utilizzare un gruppo di acquisto in un percorso. In questo caso, immetti _Come si utilizza un percorso di acquisto?_ Dopo l&#39;invio della domanda, l&#39;Assistente AI esegue una query sulla knowledge base e compila una risposta in pochi secondi.
+Per porre una domanda sul prodotto, immettilo nel campo nella parte inferiore del pannello e premi Invio. Ad esempio, quando devi imparare a utilizzare un gruppo di acquisto in un percorso. In questo caso, immetti _Come si utilizza un gruppo di acquisto in un percorso?_ Dopo aver inviato la domanda, l&#39;Assistente IA esegue una query sulla knowledge base e compila una risposta in pochi secondi.
 
 ![Immettere una domanda nella casella di testo](./assets/ai-assistant-ask-question.png){width="420"}
 
@@ -112,7 +119,7 @@ Se nella risposta si nota un elemento problematico, fare clic sull&#39;icona _Co
 
 ![Risposta dell&#39;Assistente di IA - Modulo di feedback positivo in miniatura](./assets/ai-assistant-response-feedback-positive-form.png){width="600" zoomable="yes"}
 
->[!TAB Anteprima&#x200B;]
+>[!TAB Anteprima]
 
 ![Risposta dell&#39;Assistente di IA - Modulo feedback negativo in miniatura](./assets/ai-assistant-response-feedback-negative-form.png){width="600" zoomable="yes"}
 

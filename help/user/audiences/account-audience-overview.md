@@ -4,10 +4,16 @@ description: Crea un pubblico di account con segmentazione per indirizzare accou
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+autotag-review: '2026-03-30T19:50:18.033Z'
+source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 100%
+source-wordcount: 585
+ht-degree: 92%
 
 ---
 
@@ -52,14 +58,14 @@ Definisci il pubblico di account creando una segmentazione per account. Puoi cre
 
    L’esempio seguente definisce il pubblico creato con `Country Code`, `Revenue Amount` e `Market segment`. La query in italiano sarebbe: “Forniscimi tutti gli account degli Stati Uniti presenti nel segmento Finanza e i cui ricavi superano 1 milione di euro.”
 
-   ![esempio di generatore di segmenti per un pubblico di account](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
+   ![esempio di generatore di segmenti di pubblico dell&#39;account](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
    <br/>
 
    >[!IMPORTANT]
    >
-   >L’attributo `Account Name` per i record di account deve contenere un valore da includere nei percorsi di account. Se l’attributo è vuoto (null), il record dell’account viene escluso.<br/>
-   >Per assicurarti che vengano inclusi solo gli account con un nome account non vuoto, aggiungi l’attributo **[!UICONTROL Nome account]** e seleziona _[!UICONTROL esiste]_ come condizione di corrispondenza.<br/>
-   >![L’attributo Nome account esiste](./assets/audience-segment-builder-account-name-exists.png){width="600"}
+   >L’attributo `Account Name` per i record di account deve contenere un valore da includere nei percorsi di account. Se questo attributo è vuoto (null), il record dell&#39;account viene escluso.<br/>
+   >Per assicurarsi che siano inclusi solo gli account con un nome account non vuoto, aggiungere l&#39;attributo **[!UICONTROL Nome account]** e selezionare _[!UICONTROL exists]_ come condizione di corrispondenza.<br/>
+   >![L&#39;attributo Nome account esiste già](./assets/audience-segment-builder-account-name-exists.png){width="600"}
    ><br/>Se stai utilizzando un attributo personalizzato per il nome account, utilizza tale attributo al posto di _[!UICONTROL Nome account]_.
 
 1. Fai clic su **[!UICONTROL Salva e chiudi]** in alto a destra.
