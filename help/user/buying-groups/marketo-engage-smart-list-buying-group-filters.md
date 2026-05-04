@@ -4,9 +4,22 @@ description: Filtra i lead acquistando l’iscrizione al gruppo negli elenchi av
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-03-30T21:39:24.495Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: 562
 ht-degree: 1%
 
 ---
@@ -17,18 +30,18 @@ ht-degree: 1%
 >
 >**Funzionalità obsolete**</br></br>
 >
->In Journey Optimizer B2B Edition i filtri dei gruppi di acquisto non sono più disponibili in un&#39;istanza di Marketo Engage connessa.</br></br>
+>In Journey Optimizer B2B edition i filtri dei gruppi di acquisto non sono più disponibili in un&#39;istanza di Marketo Engage connessa.</br></br>
 >
 >In alternativa, puoi creare un elenco statico per ogni interesse della soluzione e quindi [utilizzare l&#39;azione _Aggiungi all&#39;elenco di Marketo_](../journeys/action-nodes.md#marketo-engage-actions) da un nodo di percorso. Questa azione aggiunge i membri del gruppo di acquisto a un particolare elenco statico in un’istanza di Marketo Engage connessa. Quindi, utilizza l’elenco statico incentrato sugli interessi della soluzione per un filtro elenco avanzato.
 
-In qualità di addetto al marketing, potresti voler eliminare le campagne in Marketo Engage per gli utenti che fanno parte di gruppi di acquisto in Journey Optimizer B2B Edition. Puoi anche informare i flussi di lavoro di valutazione dei lead in Marketo Engage utilizzando informazioni sui lead associati ai gruppi di acquisto. Ad esempio:
+In qualità di addetto al marketing, potresti voler eliminare le campagne in Marketo Engage per gli utenti che fanno parte di gruppi di acquisto in Journey Optimizer B2B edition. Puoi anche informare i flussi di lavoro di valutazione dei lead in Marketo Engage utilizzando informazioni sui lead associati ai gruppi di acquisto. Ad esempio:
 
 * Questo lead fa parte di un gruppo di acquisto?
 * Il gruppo di acquisto è completo e coinvolto?
 
 Se queste condizioni sono vere, puoi scegliere di valutare il lead in modo più alto. In caso contrario, puoi scegliere di non contrassegnarlo come lead qualificato per il marketing (MQL).
 
-Nell&#39;istanza di Marketo Engage connessa a Journey Optimizer B2B Edition, è possibile utilizzare il filtro _[!UICONTROL Membro del gruppo di acquisto]_ negli elenchi smart per identificare questi lead in base alla strategia della campagna.
+Nell&#39;istanza di Marketo Engage connessa a Journey Optimizer B2B edition, è possibile utilizzare il filtro _[!UICONTROL Membro del gruppo di acquisto]_ negli elenchi smart per identificare questi lead in base alla strategia della campagna.
 
 1. Dopo aver [creato un elenco avanzato in Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, selezionare la scheda **[!UICONTROL Elenco avanzato]** per aprire l&#39;editor di filtri.
 
@@ -56,7 +69,7 @@ Nell&#39;istanza di Marketo Engage connessa a Journey Optimizer B2B Edition, è 
 
      Per escludere i membri rimossi da un gruppo di acquisto, utilizzare il vincolo _[!UICONTROL Rimosso]_ impostato su `false`. È inoltre possibile includere in modo esplicito i membri rimossi nell&#39;elenco smart impostando il vincolo su `true`.
 
-     Per un articolo discreto, ad esempio gli interessi della soluzione definiti in Journey Optimizer B2B Edition, è possibile selezionare uno o più articoli per l&#39;elenco.
+     Per un articolo discreto, ad esempio gli interessi della soluzione definiti in Journey Optimizer B2B edition, è possibile selezionare uno o più articoli per l&#39;elenco.
 
      ![Selezionare un valore per il vincolo dall&#39;elenco](./assets/me-member-of-buying-group-filter-constraint-list.png){width="600" zoomable="yes"}
 

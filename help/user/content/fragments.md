@@ -4,9 +4,23 @@ description: 'Creazione, gestione e riutilizzo di frammenti di contenuto visivo 
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: e1663313-7961-4100-bea9-fa9f4edf8493
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+autotag-review: '2026-03-30T22:25:36.421Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: 2748
 ht-degree: 2%
 
 ---
@@ -232,7 +246,7 @@ Le modifiche apportate a un frammento dipendono dal suo stato corrente:
 
 Esistono due modi per aprire la versione bozza per la modifica dalla pagina di elenco _[!UICONTROL Frammenti]_:
 
-* Fai clic sull&#39;icona _Altro_ (**...**) accanto al nome del frammento e scegli **[!UICONTROL Apri versione bozza]**.
+* Fai clic sull&#39;icona _Altro_ (**...**) accanto al nome del frammento e scegliere **[!UICONTROL Apri versione bozza]**.
 
   ![Apri versione bozza](./assets/fragments-create-draft-version.png){width="300"}
 
@@ -263,7 +277,7 @@ Per aggiornare il contenuto:
 
 Puoi duplicare un frammento utilizzando uno dei seguenti metodi:
 
-* Dalla pagina dell&#39;elenco _[!UICONTROL Frammenti]_, fai clic sull&#39;icona _Altro_ (**...**) accanto al nome del frammento e scegli **[!UICONTROL Duplica]**.
+* Dalla pagina dell&#39;elenco dei _[!UICONTROL frammenti]_, fare clic sull&#39;icona _Altro_ (**...**) accanto al nome del frammento e scegliere **[!UICONTROL Duplica]**.
 * Nella parte superiore destra della pagina dei dettagli del frammento, fare clic su **[!UICONTROL ... Altro]** e scegli **[!UICONTROL Duplicato]**.
 
 ![Duplica il frammento](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
@@ -300,7 +314,7 @@ I frammenti sono progettati per il riutilizzo e possono essere inseriti per la c
 
 >[!TAB Aggiungere frammenti a un&#39;e-mail]
 
-1. Passa a **[!UICONTROL Percorsi di account]** e apri un percorsi percorso esistente o creane uno nuovo.
+1. Passa a **[!UICONTROL Percorsi di account]** e apri un percorso esistente o creane uno nuovo.
 
 1. Crea un nodo [_[!UICONTROL Invia e-mail &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
 

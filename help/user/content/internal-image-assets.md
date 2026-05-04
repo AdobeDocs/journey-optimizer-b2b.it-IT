@@ -4,9 +4,22 @@ description: 'Sfoglia, gestisci e utilizza le risorse di Journey Optimizer B2B e
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: da3860b0-d637-47df-bef0-273751180266
+autotag-review: '2026-03-30T22:14:12.746Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: 1765
 ht-degree: 1%
 
 ---
@@ -90,7 +103,7 @@ Per eliminare una risorsa, utilizza uno dei metodi seguenti:
 
   ![Azioni di accesso per la risorsa](./assets/assets-details-more-menu.png){width="450" zoomable="yes"}
 
-* Nella pagina dell&#39;inserzione _[!UICONTROL Assets]_, fai clic sull&#39;icona _Altro_ (**[!UICONTROL ...]**) accanto all&#39;elemento della risorsa e scegli **[!UICONTROL Elimina]** dalle opzioni.
+* Nella pagina dell&#39;elenco di _[!UICONTROL Assets]_ fare clic sull&#39;icona _Altro_ (**[!UICONTROL ...]**) accanto all&#39;elemento della risorsa e scegliere **[!UICONTROL Elimina]** dalle opzioni.
 
   ![Azioni di accesso per la risorsa](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
 
@@ -104,7 +117,7 @@ Utilizzare uno dei metodi seguenti per sostituire una risorsa che risiede nell&#
 
 * Vai ai dettagli della risorsa, fai clic su **[!UICONTROL ... Altro]** in alto a destra e scegli **[!UICONTROL Sostituisci]** tra le opzioni.
 
-* Nella pagina dell&#39;inserzione _[!UICONTROL Assets]_, fai clic sull&#39;icona _Altro_ (**[!UICONTROL ...]**) accanto all&#39;elemento della risorsa e scegli **[!UICONTROL Sostituisci]** tra le opzioni.
+* Nella pagina dell&#39;elenco di _[!UICONTROL Assets]_ fare clic sull&#39;icona _Altro_ (**[!UICONTROL ...]**) accanto all&#39;elemento della risorsa e scegliere **[!UICONTROL Sostituisci]** tra le opzioni.
 
 Nella finestra di dialogo _[!UICONTROL Sostituisci risorsa]_, trascina e rilascia il file di sostituzione dal sistema nella casella del file. Puoi anche fare clic sul collegamento _[!UICONTROL Seleziona un file dal computer]_ per utilizzare il file system locale per selezionare un file. Se si selezionano più file nel sistema locale, il primo file selezionato viene utilizzato per la sostituzione.
 

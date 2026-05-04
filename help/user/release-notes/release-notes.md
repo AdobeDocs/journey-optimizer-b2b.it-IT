@@ -3,9 +3,22 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: fcc2d738bd22b7fd38e4d086f36d675945600520
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: '2026-03-30T22:58:45.043Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '4794'
+source-wordcount: 4794
 ht-degree: 71%
 
 ---
@@ -124,11 +137,11 @@ Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzion
 
 ### Architettura aggiornata
 
-Con l’architettura aggiornata, Journey Optimizer B2B Edition e Marketo Engage non si trovano sullo stesso sistema e archivio dati. Journey Optimizer B2B Edition riceve dati da Adobe Experience Platform. Tuttavia, continua a fare affidamento su diritti di Marketo Engage e su alcune funzioni di configurazione per il provisioning e la configurazione del sistema.
+Con l’architettura aggiornata, Journey Optimizer B2B edition e Marketo Engage non si trovano sullo stesso sistema e sullo stesso archivio dati. Journey Optimizer B2B edition riceve i dati da Adobe Experience Platform. Tuttavia, continua a fare affidamento su diritti di Marketo Engage e su alcune funzioni di configurazione per il provisioning e la configurazione del sistema.
 
 >[!NOTE]
 >
->Le note sulla versione precedenti facevano riferimento a questa distribuzione come *architettura semplificata*. Tale modello è ora l’implementazione predefinita di Journey Optimizer B2B Edition.
+>Le note sulla versione precedenti facevano riferimento a questa distribuzione come *architettura semplificata*. Tale modello è ora l’implementazione predefinita di Journey Optimizer B2B edition.
 
 Questa implementazione offre diversi vantaggi:
 

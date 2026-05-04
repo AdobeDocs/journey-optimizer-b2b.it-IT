@@ -5,9 +5,20 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: 895
 ht-degree: 1%
 
 ---
@@ -25,7 +36,7 @@ Le domande di esempio seguenti sono raggruppate in base agli obiettivi che è po
 | Concetti di apprendimento e flussi di lavoro continui | In qualità di utente principiante, puoi utilizzare AI Assistant per apprendere i concetti di Real-Time CDP e Adobe Journey Optimizer B2B edition e per integrare te stesso in prodotti e funzionalità che non conosci. <br>In qualità di utente esperto, puoi utilizzare l&#39;Assistente AI per risolvere un caso limite che potrebbe bloccare il flusso di lavoro. | <li>Dimmi alcuni casi d’uso per Real-Time CDP. <li>Spiegami il concetto di Gruppo acquisti. |
 | Risoluzione dei problemi | Utilizza l’Assistente AI per scoprire come eseguire il debug degli errori di base che potrebbero verificarsi nel flusso di lavoro. | <li>Cosa significa questo errore &lt;ERROR_MESSAGE>? <li>Perché non riesco a eliminare il pubblico denominato &quot;...&quot;? |
 | Igiene delle sandbox | Utilizza l’Assistente AI per identificare eventuali oggetti duplicati o inutilizzati in modo da poter gestire la sandbox in modo efficiente. | <li>Puoi mostrarmi tipi di pubblico simili per l’account? <li>Esistono schemi a cui non è associato un set di dati? |
-| Analisi del valore | Utilizza l’Assistente AI per identificare gli oggetti dati più utilizzati e valutare eventuali indicatori di prestazioni o trovare gli oggetti dati più importanti. | <li>Quanti account ci sono nella definizione del segmento &quot;...&quot;? <li>Quando i tipi di pubblico sono stati attivati nella destinazione Pubblico di Experience Cloud? |
+| Analisi del valore | Utilizza l’Assistente AI per identificare gli oggetti dati più utilizzati e valutare eventuali indicatori di prestazioni o trovare gli oggetti dati più importanti. | <li>Quanti account ci sono nel nostro &quot;...&quot; definizione del segmento? <li>Quando i tipi di pubblico sono stati attivati nella destinazione Pubblico di Experience Cloud? |
 | Ricerca | Utilizza l’Assistente AI per trovare gli oggetti Experience Platform e Adobe Journey Optimizer B2B edition supportati, ad esempio il pubblico dell’account, i set di dati, le destinazioni, gli schemi, le origini, i percorsi di account, i modelli di gruppi di acquisto e gli interessi delle soluzioni | <li>Elenca i tipi di pubblico contenenti &quot;Luma&quot; nel nome utilizzati nei percorsi di account. <li>Quali attributi sono presenti nello schema XDM &quot;Luma: Azioni personalizzate&quot;? |
 | Analisi dell&#39;impatto | Utilizza l’Assistente AI per identificare gli oggetti dati utilizzati in alcuni flussi di lavoro in modo da poter valutare l’impatto di eventuali modifiche. | <li>Quali tipi di pubblico dell&#39;account utilizzano `workEmail.address` nello schema &quot;Persona B2B&quot;? <li>Quali set di dati sono ... `jobTitle` archiviati in? |
 

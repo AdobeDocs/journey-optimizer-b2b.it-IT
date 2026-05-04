@@ -2,9 +2,14 @@
 title: Documentazione di Adobe Journey Optimizer B2B Edition
 description: 'Documentazione completa per Journey Optimizer B2B Edition: esplora le risorse disponibili per l’onboarding, la creazione di gruppi acquisti e di percorsi di account e la gestione dei contenuti.'
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 865963d661c66391e6a234e5655174643003318e
+autotag-review: '2026-03-27T22:18:45.397Z'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: 915
 ht-degree: 30%
 
 ---
@@ -85,7 +90,7 @@ Rimani aggiornato con le note sulla versione più recente, le nuove funzioni e i
 
 Introduzione
 
-Consulta le linee guida per l’onboarding di Journey Optimizer B2B Edition per amministratori e addetti al marketing.
+Consulta le linee guida per l’onboarding di Journey Optimizer B2B edition per amministratori e addetti al marketing.
 
 [Amministratori](./setup-ultimate.md)
 [Utenti](./start/get-started.md)
@@ -196,7 +201,7 @@ Scopri i componenti di un gruppo acquisti e comprendi le nozioni di base per la 
 ## Risorse aggiuntive
 
 <table style="table-layout:fixed">
-<tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
+<tr><td><strong>Adobe Journey Optimizer B2B edition</strong><br/>
 <a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Video e tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrizione del prodotto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
