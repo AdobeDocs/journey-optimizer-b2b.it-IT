@@ -196,4 +196,4 @@ Lo stato dell&#39;elenco degli account dinamici cambia in _[!UICONTROL Live]_ ed
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448657/?captions=ita&learn=on)
