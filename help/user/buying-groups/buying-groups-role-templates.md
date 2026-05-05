@@ -15,9 +15,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: '2026-03-30T21:37:51.618Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: 09e0fead8d6a04b432cb6fd94aaea561b84a0063
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: 1412
 ht-degree: 5%
 
 ---
@@ -74,7 +74,7 @@ Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, pe
 | Tipo | Condizioni |
 | ---- | --------- |
 | [!UICONTROL Attributi persona] | Attributi dal [profilo persona](../admin/field-mapping.md#xdm-business-person-attributes), inclusi: <li>Città <li>Paese <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area geografica dello stato dedotta <li>Titolo del processo <li>Cognome <li>Numero di cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato |
-| [!UICONTROL Oggetti personalizzati] > Contiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funzione Beta"} L&#39;account non dispone di record dello schema relazionale. Può anche essere valutato in base a qualsiasi criterio oggetto personalizzato selezionato, come configurato negli [schemi relazionali XDM](../admin/xdm-field-management.md#relational-schemas). |
+| [!UICONTROL Oggetti personalizzati] > Contiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funzione Beta"} L&#39;account o la persona non dispone di record dello schema relazionale. Può anche essere valutato in base a qualsiasi criterio oggetto personalizzato selezionato, come configurato negli [schemi relazionali XDM](../admin/xdm-field-management.md#relational-schemas). |
 | Filtri speciali | <li>Membro dell’elenco (obsoleto) <li>Membro del programma (obsoleto) |
 | Dati di intento | <li>Intento categoria <li>Intento prodotto <li>Intento parola chiave <br/>(vedere [_Dati intento_](../admin/intent-data.md)) |
 
