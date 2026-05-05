@@ -4,20 +4,15 @@ description: Crea modelli di ruolo con assegnazione automatica condizionale per 
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-subfeature_v2:
-  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+subfeature_v2: id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: '2026-03-30T21:37:51.618Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: 09e0fead8d6a04b432cb6fd94aaea561b84a0063
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: 1412
 ht-degree: 5%
 
 ---
@@ -74,7 +69,7 @@ Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, pe
 | Tipo | Condizioni |
 | ---- | --------- |
 | [!UICONTROL Attributi persona] | Attributi dal [profilo persona](../admin/field-mapping.md#xdm-business-person-attributes), inclusi: <li>Città <li>Paese <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area geografica dello stato dedotta <li>Titolo del processo <li>Cognome <li>Numero di cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato |
-| [!UICONTROL Oggetti personalizzati] > Contiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funzione Beta"} L&#39;account non dispone di record dello schema relazionale. Può anche essere valutato in base a qualsiasi criterio oggetto personalizzato selezionato, come configurato negli [schemi relazionali XDM](../admin/xdm-field-management.md#relational-schemas). |
+| [!UICONTROL Oggetti personalizzati] > Contiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funzione Beta"} L&#39;account o la persona non dispone di record dello schema relazionale. Può anche essere valutato in base a qualsiasi criterio oggetto personalizzato selezionato, come configurato negli [schemi relazionali XDM](../admin/xdm-field-management.md#relational-schemas). |
 | Filtri speciali | <li>Membro dell’elenco (obsoleto) <li>Membro del programma (obsoleto) |
 | Dati di intento | <li>Intento categoria <li>Intento prodotto <li>Intento parola chiave <br/>(vedere [_Dati intento_](../admin/intent-data.md)) |
 
@@ -157,7 +152,7 @@ Per informazioni dettagliate sul punteggio di completezza e sui calcoli, consult
 
 1. Nella finestra di dialogo, modifica il valore **[!UICONTROL Membri richiesti]** per ogni ruolo definito in base alle esigenze.
 
-   È possibile immettere il valore oppure fare clic su **&plus;** o **−** per aumentare o diminuire il valore.
+   È possibile immettere il valore oppure fare clic su **&amp;plus;** o **−** per aumentare o diminuire il valore.
 
    ![Modello ruoli - pulsante Impostazioni punteggio di completezza](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -205,4 +200,4 @@ Puoi eliminare un modello di ruoli se si trova nello stato _Bozza_.
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3453309/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
