@@ -19,9 +19,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: '2026-03-27T22:30:01.860Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: 13e00f66e0ca107857e830aef4cc629f1f7cb027
 workflow-type: tm+mt
-source-wordcount: 1189
+source-wordcount: 1192
 ht-degree: 87%
 
 ---
@@ -145,12 +145,12 @@ Puoi creare schemi relazionali utilizzando l&#39;editor schema (vai a **[!UICONT
 
 **Requisiti dello schema**
 
-Durante la creazione di uno schema da utilizzare con [!DNL Journey Optimizer B2B Edition], sono necessari i seguenti valori di configurazione:
+Quando [si crea uno schema da utilizzare con [!DNL Journey Optimizer B2B Edition]](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data), sono necessari i seguenti valori di configurazione:
 
 * Comportamento: record
 * Segmentazione: abilitata
 * Tipo di relazione: molti-a-uno
-* Schema di riferimento: [Account B2B](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
+* Schema di riferimento: account B2B o persona B2B
 * Campi obbligatori: chiave primaria, chiave esterna e descrittore di versione
 * Set di dati associato: definito e mappato allo schema
 
