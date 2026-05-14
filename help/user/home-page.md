@@ -4,17 +4,13 @@ description: 'Accedi a Journey Optimizer B2B edition e naviga tra le pagine Home
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: '2026-03-27T22:19:43.813Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: 2026-03-27T22:19:43.813Z
+TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 421
 ht-degree: 93%
@@ -38,7 +34,7 @@ La pagina Home viene visualizzata accedendo ad Adobe Experience Platform e selez
 
 ![Pagina Home di Journey Optimizer B2B Edition](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition ha due utenti tipo principali: un _&#x200B;**addetto marketing**&#x200B;_ e un _&#x200B;**amministratore**&#x200B;_. Ogni utente tipo ha una pagina Home specifica per diverse fasi di maturità (nuove o avanzate). Il contenuto della pagina è basato su ciò di cui ogni utente ha bisogno in termini di informazioni e di azioni successive da intraprendere.
+Journey Optimizer B2B Edition ha due utenti tipo principali: un _**addetto marketing**_ e un _**amministratore**_. Ogni utente tipo ha una pagina Home specifica per diverse fasi di maturità (nuove o avanzate). Il contenuto della pagina è basato su ciò di cui ogni utente ha bisogno in termini di informazioni e di azioni successive da intraprendere.
 
 * **Marketer - nuovo utente**: la pagina Home _Marketer_ per nuovo utente, consente di abituarsi a Journey Optimizer B2B e alle relative funzionalità. Include una descrizione dettagliata guidata che consente al nuovo marketer di ottenere una descrizione dettagliata per l’onboarding, in modo che possa comprendere le sfumature del sistema e diventare efficiente nello sviluppo di strategie e iniziative di marketing B2B.
 * **Marketer - utente avanzato**: nella pagina Home _Marketer_, per un marketer di livello avanzato, vengono visualizzati lo stato di avanzamento dell’iniziativa corrente, le azioni successive consigliate e l’accesso rapido alle sezioni rilevanti.

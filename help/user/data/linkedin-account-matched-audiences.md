@@ -4,23 +4,14 @@ description: Scopri come collegare un account LinkedIn e attivare un flusso di d
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-subfeature_v2:
-  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: '2026-03-30T22:49:08.608Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+autotag-review: 2026-03-30T22:49:08.608Z
+TQID: https://experienceleague.adobe.com/rFBH54jR-xCWenpoD13UzmONLdKn9WLdtNdTCtgQNbQ
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 1015
 ht-degree: 14%
@@ -33,7 +24,7 @@ ht-degree: 14%
 
 Questa funzione sfrutta le destinazioni di Experience Platform per gestire alcuni aspetti dell’integrazione. È previsto un limite di dieci flussi di dati.
 
-Prima di avviare un flusso di dati da Journey Optimizer B2B edition, è necessario disporre di almeno un&#39;istanza del connettore di destinazione [(Companies) LinkedIn MatchedIn Audience](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} con un account LinkedIn Campaign Manager configurato nell&#39;applicazione Experience Platform.
+Prima di avviare un flusso di dati da Journey Optimizer B2B edition, è necessario disporre di almeno un&#39;istanza del connettore di destinazione [(Companies) LinkedIn MatchedIn Audience](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} con un account LinkedIn Campaign Manager configurato nell&#39;applicazione Experience Platform.
 
 ## Configurare una nuova connessione di account LinkedIn {#linkedin-destination-setup}
 
@@ -164,4 +155,4 @@ A partire dalla versione 2025.10, utilizza l&#39;azione _Attiva su destinazione_
 
 Puoi interagire con i membri dell’account tramite un canale multimediale a pagamento, ad esempio i tipi di pubblico di LinkedIn Ad, per acquisire, coltivare e qualificarli per le vendite. Utilizza un nodo _Esegui un&#39;azione_ in un percorso di account per automatizzare il coinvolgimento con i membri chiave di un account tramite un canale esterno che sia più adatto per i diversi membri dell&#39;account.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448680/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

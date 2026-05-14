@@ -4,21 +4,14 @@ description: 'Creazione di messaggi SMS per percorsi di account con personalizza
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: '2026-03-30T22:13:38.262Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+autotag-review: 2026-03-30T22:13:38.262Z
+TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 1328
 ht-degree: 3%
@@ -110,7 +103,7 @@ Puoi creare un messaggio composto da un massimo di 1600 caratteri, ogni 160 cara
      >[!NOTE]
      >
      >Se consenti il tracciamento ma disabiliti _[!UICONTROL Includi mkt_tok]_, l&#39;URL di destinazione non include il parametro della stringa di query `mkt_tok` dopo il reindirizzamento. Questo parametro viene utilizzato dalle pagine di destinazione di Marketo Engage e da Munchkin per garantire il tracciamento delle attività della persona (ad esempio, quando una persona annulla l’iscrizione a un’e-mail). Non disabilitare questa opzione a meno che il parametro non stia causando problemi sul sito web.<br/>
-     >Per ulteriori informazioni sull&#39;utilizzo dei codici di tracciamento di Munchkin nel tuo sito Web, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Per ulteriori informazioni sull&#39;utilizzo dei codici di tracciamento di Munchkin nel tuo sito Web, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Finestra di dialogo Aggiungi collegamento per messaggio SMS](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -122,7 +115,7 @@ Puoi creare un messaggio composto da un massimo di 1600 caratteri, ogni 160 cara
 
    Per questi campi sono consentiti caratteri Alpha, numerici e speciali. I seguenti caratteri riservati sono **non consentiti**: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>` e `|`.
 
-1. Scegli il tipo di SMS **&#x200B;**:
+1. Scegli il tipo di SMS ****:
 
    * Utilizza `Marketing` per i messaggi di testo promozionali, che richiedono il consenso dell&#39;utente.
    * Utilizzare `Transactional` per i messaggi non commerciali, ad esempio la conferma di un ordine, le notifiche di reimpostazione della password o le informazioni di consegna.
