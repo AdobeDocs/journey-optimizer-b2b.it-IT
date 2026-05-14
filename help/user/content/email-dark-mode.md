@@ -7,11 +7,17 @@ role: User
 level: Beginner, Intermediate
 keywords: modalità scura, e-mail, colore, progettazione
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: 2026-03-30T22:06:55.168Z
 TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJEgNE
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -37,7 +43,7 @@ _Modalità scura_ consente a un client e-mail o a un&#39;app di supporto di visu
 
 ![Diagramma concettuale della modalità chiara e scura che mostra il rendering del contenuto con temi chiari e scuri](../assets/do-not-localize/light-dark-mode.png){width="550"}
 
-Quando [crei il contenuto delle e-mail](./email-authoring.md) nello spazio di progettazione visiva [!DNL Journey Optimizer B2B Edition], puoi passare alla visualizzazione _**[!UICONTROL modalità scura]**_. In questa visualizzazione, puoi anche definire impostazioni personalizzate specifiche per il supporto dei client e-mail quando è abilitata la modalità scura.
+Quando [crei il contenuto delle e-mail](./email-authoring.md) nello spazio di progettazione visiva [!DNL Journey Optimizer B2B Edition], puoi passare alla visualizzazione _&#x200B;**[!UICONTROL modalità scura]**&#x200B;_. In questa visualizzazione, puoi anche definire impostazioni personalizzate specifiche per il supporto dei client e-mail quando è abilitata la modalità scura.
 
 ## Considerazioni sul client e-mail {#email-client-considerations}
 

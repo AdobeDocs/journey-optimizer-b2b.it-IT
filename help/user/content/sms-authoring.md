@@ -4,11 +4,17 @@ description: 'Creazione di messaggi SMS per percorsi di account con personalizza
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T22:13:38.262Z
 TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -115,7 +121,7 @@ Puoi creare un messaggio composto da un massimo di 1600 caratteri, ogni 160 cara
 
    Per questi campi sono consentiti caratteri Alpha, numerici e speciali. I seguenti caratteri riservati sono **non consentiti**: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>` e `|`.
 
-1. Scegli il tipo di SMS ****:
+1. Scegli il tipo di SMS **&#x200B;**:
 
    * Utilizza `Marketing` per i messaggi di testo promozionali, che richiedono il consenso dell&#39;utente.
    * Utilizzare `Transactional` per i messaggi non commerciali, ad esempio la conferma di un ordine, le notifiche di reimpostazione della password o le informazioni di consegna.
