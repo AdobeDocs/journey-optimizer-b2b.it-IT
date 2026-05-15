@@ -1,7 +1,7 @@
 ---
 user-guide-title: Documentazione di Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando le funzioni di IA generativa incorporata e l’automazione leader del settore.
-source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
+source-git-commit: 8be440c86b32a582891f0f30cae259e23028d336
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 92%
@@ -47,7 +47,7 @@ ht-degree: 92%
       + [Pubblico della persona (Beta)](./journeys/person-audience-nodes.md)
       + [Intraprendere un’azione](./journeys/action-nodes.md)
       + [Ascoltare un evento](./journeys/listen-for-event-nodes.md)
-      + [Dividi e unisci percorsi](./journeys/split-merge-paths-nodes.md)
+      + [Dividere e unire i percorsi](./journeys/split-merge-paths-nodes.md)
       + [Attendere](./journeys/wait-nodes.md)
       + [Nodi esterni](./journeys/external-nodes.md)
    + [Dettagli del percorso](./journeys/journey-details.md)
@@ -150,7 +150,7 @@ ht-degree: 92%
 + Dashboard intelligenti {#dashboards}
    + [Dashboard approfondimenti](./dashboards/intelligent-dashboard.md)
    + [Dashboard di coinvolgimento](./dashboards/engagement-dashboard.md)
-   + [Dashboard di coinvolgimento Web](./dashboards/web-engagement-dashboard.md)
+   + [Dashboard di coinvolgimento web](./dashboards/web-engagement-dashboard.md)
    + [Dashboard dei gruppi di acquisto](./dashboards/buying-groups-dashboard.md)
    + [Dashboard dei Percorsi di account](./dashboards/journeys-dashboard.md)
 + Amministrazione {#admin}
@@ -161,10 +161,10 @@ ht-degree: 92%
       + [Dati di intento](./admin/intent-data.md)
       + [Ponderazione del punteggio di coinvolgimento](./admin/engagement-score-weighting.md)
       + [Azioni esterne](./admin/configure-external-actions.md)
+      + {hide-from-toc}[Configurare gli stream di dati per la raccolta eventi](./data/aep-event-collection.md)
    + Canali {#channels}
       + [Configurazioni e-mail](./admin/configure-channels-emails.md)
       + [Configurazioni SMS](./admin/configure-channels-sms.md)
       + [Configurazioni WhatsApp](./admin/configure-channels-whatsapp.md)
       + [Configurazioni dei canali web (Beta)](./admin/configure-channels-web.md)
       + [Impostazioni pagina di destinazione (Beta)](./admin/landing-page-settings.md)
-      + {hide-from-toc}[Configurare gli stream di dati per la raccolta eventi](./data/aep-event-collection.md)
