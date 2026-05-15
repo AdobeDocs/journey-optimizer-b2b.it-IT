@@ -5,10 +5,17 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 exl-id: cc590444-41df-44fe-830b-92241718ee81
 autotag-review: 2026-03-30T15:10:20.350Z
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: fc1ff3b2-6614-41ad-a113-de48597598fdid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 TQID: https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs
 source-git-commit: 55d6f156fbeaf27203f15524833b2825832e5dc5
 workflow-type: tm+mt
@@ -280,10 +287,10 @@ Nella pagina _[!UICONTROL Flusso di lavoro in uscita]_, la scheda **[!UICONTROL 
 ### Best practice per i flussi di lavoro in uscita
 
 * **Investire nell&#39;obiettivo.** Il targeting a valle, la cadenza e le e-mail riconducono tutti all’obiettivo. Obiettivi specifici e focalizzati sui risultati superano quelli vaghi.
-* **Finalizza i prompt dei punti di contatto prima della generazione per singolo prospect.**** Dopo la generazione in blocco, le modifiche vengono in genere apportate a un prospect alla volta.
+* **Finalizza i prompt dei punti di contatto prima della generazione per singolo prospect.**&#x200B;** Dopo la generazione in blocco, le modifiche vengono in genere apportate a un prospect alla volta.
 * **Usa il ragionamento come controllo qualità.** Se viene enfatizzato il segnale sbagliato (o se ne manca uno ovvio), modifica l’e-mail o visita nuovamente il prompt del punto di contatto e rigenera la cadenza.
-* **Abbina lo strumento di modifica alla modifica.**** Modifiche dirette per testo e tono; **[!UICONTROL Genera con IA]** per ristrutturazione o riformattazione.
-* **Approva solo ciò che hai rivisto.**** Espandi i punti di contatto, leggi il contenuto e perfeziona se necessario prima dell&#39;iscrizione.
+* **Abbina lo strumento di modifica alla modifica.**&#x200B;**&#x200B; Modifiche dirette per testo e tono; &#x200B;** [!UICONTROL Genera con IA]** per ristrutturazione o riformattazione.
+* **Approva solo ciò che hai rivisto.**&#x200B;** Espandi i punti di contatto, leggi il contenuto e perfeziona se necessario prima dell&#39;iscrizione.
 
 ## Posta in uscita e-mail
 
