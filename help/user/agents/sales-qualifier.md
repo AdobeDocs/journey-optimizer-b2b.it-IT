@@ -17,9 +17,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 TQID: https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs
-source-git-commit: 3830e7474e7d3be9f43782dff35820563cfd9cb4
+source-git-commit: 55d6f156fbeaf27203f15524833b2825832e5dc5
 workflow-type: tm+mt
-source-wordcount: 4757
+source-wordcount: 4594
 ht-degree: 1%
 
 ---
@@ -42,24 +42,6 @@ Qualificatore di vendita è incluso in [!UICONTROL Journey Optimizer B2B edition
 
 Il Account Qualification Agent (AQA) è il cuore del qualificatore di vendita. L’AQA utilizza l’intelligenza artificiale per leggere gli account e determinare quali sono pronti per il passaggio successivo. Aiuta nella ricerca, nella redazione di e-mail e nel contesto informato sul sistema CRM quando l’organizzazione ha connesso il sistema CRM (sola lettura).
 
-![Dashboard Account Qualification Agent basato sull&#39;intelligenza artificiale per la ricerca di potenziali clienti e account](./assets/acc-qualification-agent.png){width="800" zoomable="yes"}
-
-* **Ricerca prospect**
-
-  Effettua ricerche utilizzando il recupero e la visualizzazione automatici delle informazioni chiave sul potenziale cliente (come titolo del lavoro, impegni recenti, acquisto di iscrizioni al gruppo) per ottenere un quadro completo in pochi secondi.
-
-* **Ricerca account**
-
-  Eseguire ricerche sull&#39;account utilizzando il recupero automatico e la visualizzazione di informazioni dettagliate sull&#39;organizzazione di un potenziale cliente. Queste informazioni includono i dati vitali dell&#39;azienda, le notizie recenti, le priorità strategiche e i principali membri coinvolti.
-
-* **E-mail bozza**
-
-  Genera bozze e-mail sintetizzando le ricerche provenienti da approfondimenti su potenziali clienti e account per produrre contenuti e-mail singoli e personalizzati pertinenti in base all’obiettivo BDR.
-
-* **E-mail piano di coinvolgimento**
-
-  Crea bozze e-mail del piano di coinvolgimento personalizzate per ogni passaggio di una cadenza di estensione definita da BDR, garantendo che l’intera sequenza sia personalizzata.
-
 <!--
 ## Edit the left navigation bar
 
@@ -72,17 +54,15 @@ Gli agenti di Adobe AI utilizzano _query in linguaggio naturale_, il che signifi
 
 Utilizzando il linguaggio naturale, puoi chiedere all’agente di:
 
-* `Show me my assigned leads with no engagement yet`
-* `Show me all my leads that are not part of any autonomous engagement`
-* `Give me a detailed summary on Acme company, including their buying group, recent intent signals, and our past engagement.`
+* `Tell me the latest financial results of Bodea`
+* `Tell me more about hiring at TechNova`
+* `Tell me about the new AI features in Bodea LumaSecure4`
 
-Puoi capire immediatamente quali account e lead sono più attivi e mostrano le intenzioni più alte, in modo da concentrare la tua energia dove ha il maggior impatto.
+Itera i flussi di lavoro in uscita perfezionando le richieste per ottenere i risultati necessari. Ad esempio:
 
-Eseguire un&#39;iterazione nel percorso perfezionando le richieste per ottenere i risultati desiderati. Ad esempio:
+* _Crea una bozza di disegno di un&#39;e-mail di follow-up dal contesto, ad esempio chiamate o rapporti sui guadagni._ Fino a 120 parole. Oggetto: Captivazione, con un tema chiave. Introduzione: hook con una citazione diretta da origini di contesto. Corpo: connettiti ai punti critici e alle proposte di valore. CTA: propone una breve chiamata per approfondire l’analisi._
 
-* _Crea una bozza di un&#39;e-mail di follow-up dal contesto, ad esempio chiamate o rapporti sui guadagni. Fino a 120 parole. Oggetto: Captivazione, con un tema chiave. Introduzione: hook con una citazione diretta da origini di contesto. Corpo: connettiti ai punti critici e alle proposte di valore. CTA: proporre una breve chiamata per approfondire l&#39;analisi._
-
-* _L&#39;obiettivo di questa e-mail è quello di avviare una conversazione e creare credibilità. Redigi un&#39;e-mail sotto 120 parole con un tono consultivo ed empatico. Assicurarsi di evitare un approccio troppo familiare o di vendita e non utilizzare le frasi &quot;spero di stare bene&quot;, &quot;solo check-in&quot; o &quot;per favore.&quot;_
+* _L&#39;obiettivo di questa e-mail è quello di avviare una conversazione e creare credibilità._ Redigi un&#39;e-mail sotto 120 parole con un tono consultivo ed empatico. Assicurati di evitare un approccio troppo familiare o di vendita e non utilizzare le frasi &quot;spera di stare bene&quot;, &quot;solo check-in&quot;, o &quot;per favore&quot;._
 
 ### Accesso ai prodotti e gruppi di utenti
 
@@ -114,21 +94,6 @@ Seleziona **[!UICONTROL Prospect]** nella barra di navigazione a sinistra per vi
 ![Tabella dei potenziali clienti con lo stato del lead e l&#39;ultima attività per la gestione dei potenziali clienti](./assets/prospects.png){width="800" zoomable="yes"}
 
 Fai clic sull&#39;icona _Filtro_ ![Icona Filtro](../../assets/do-not-localize/icon_filter-outline.svg) per filtrare l&#39;elenco visualizzato in base allo stato del lead.
-
-<!--
-## Engagement plans
-
-This window provides details about any defined Engagement plans.
-
-![Engagement plan dashboard showing plan details, selected leads, and schedule settings](assets/engagement-plans.png)
-
-To make a new Engagement plan, click **[!UICONTROL Create engagement plan]**.
-
-1. In the _Details_ stage, provide a name and optional description. Click **[!UICONTROL Save and Continue]**.
-1. In the _Select prospects_ stage, select the leads that should belong in this plan.
-1. In the _Define cadence_ stage, set the parameters for the plan.
-1. In the _Preview_ stage, ensure that everything is working as expected.
--->
 
 ## Flussi di lavoro in uscita
 
@@ -167,7 +132,7 @@ Le sezioni seguenti descrivono l’intero ciclo di vita: creazione di un flusso 
 
 ### Creare un flusso di lavoro in uscita
 
-La creazione del flusso di lavoro è una procedura guidata in cinque passaggi: **Obiettivo**, **Targeting**, **Generare punti di contatto**, **Impostazioni** e **Aggiungere potenziali clienti**. Ogni passaggio si basa sull’ultimo, con l’obiettivo di definire prima la modellazione ogni decisione successiva.
+La creazione del flusso di lavoro è una procedura guidata in cinque passaggi: **Obiettivo**, **Targeting**, **Generare punti di contatto**, **Impostazioni** e **Aggiungere potenziali clienti**. Ogni passaggio si basa sull’ultimo; l’obiettivo iniziale forma ogni decisione successiva.
 
 1. Nel menu di navigazione a sinistra, seleziona **[!UICONTROL Flusso di lavoro in uscita]**.
 
@@ -189,7 +154,7 @@ Gli obiettivi funzionano meglio quando indicano un **risultato concreto**, non s
 
 #### Passaggio 2: configurare i filtri di targeting
 
-I filtri di targeting definiscono quali potenziali clienti sono idonei. Quando si aggiungono i potenziali clienti in un secondo momento, nell&#39;elenco di selezione vengono visualizzati solo quelli che corrispondono a questi filtri.
+I filtri di targeting definiscono quali potenziali clienti sono idonei. Quando si aggiungono i potenziali clienti in un secondo momento, nell&#39;elenco di selezione vengono visualizzati solo i potenziali clienti che corrispondono a questi filtri.
 
 1. Fare clic sulla freccia rivolta verso il basso per visualizzare l&#39;elenco **[!UICONTROL Aggiungi un filtro]** e selezionare un filtro da applicare.
 
@@ -209,7 +174,7 @@ Dopo aver impostato il targeting, l&#39;IA crea la **_cadenza_**: analizza l&#39
 
 ![Cadenza punto di contatto generata dal flusso di lavoro in uscita e prompt](./assets/outbound-workflow-create-touchpoints.png){width="700" zoomable="yes"}
 
-Espandi un punto di contatto e-mail per leggere il relativo prompt, che è l’istruzione che l’intelligenza artificiale segue quando scrivi l’e-mail effettiva di ogni potenziale cliente (tono, lunghezza, elemento attivo e call to action).
+Espandi un punto di contatto e-mail per leggerne il prompt. Questa istruzione guida l’intelligenza artificiale durante la scrittura dell’e-mail di ogni potenziale cliente, inclusi il tono, la lunghezza, lo stato attivo e call to action.
 
 **Rigenerare la cadenza**
 
@@ -313,7 +278,7 @@ L’approvazione attiva la cadenza per un potenziale cliente. Fino a quando un p
 
 ![Selezione e approvazione del flusso di lavoro in uscita](./assets/outbound-workflow-create-approve-enroll-prospects.png){width="700" zoomable="yes"}
 
-Coda di e-mail approvate da inviare durante il flusso di lavoro **finestra di invio**, nel **fuso orario** configurato, nel giorno pianificato di ogni punto di contatto relativo all&#39;iscrizione. I potenziali clienti che non approvi rimangono in **[!UICONTROL Pronti per la revisione]** fino a quando non agisci. Dopo l’approvazione, il flusso di lavoro viene eseguito in base alla cadenza definita.
+Le e-mail approvate vengono inviate durante il flusso di lavoro **finestra di invio** nel **fuso orario** configurato, nel giorno pianificato di ogni punto di contatto relativo all&#39;iscrizione. I potenziali clienti che non approvi rimangono in **[!UICONTROL Pronti per la revisione]** fino a quando non agisci. Dopo l’approvazione, il flusso di lavoro viene eseguito in base alla cadenza definita.
 
 ### Gestire i flussi di lavoro esistenti
 
@@ -322,10 +287,10 @@ Nella pagina _[!UICONTROL Flusso di lavoro in uscita]_, la scheda **[!UICONTROL 
 ### Best practice per i flussi di lavoro in uscita
 
 * **Investire nell&#39;obiettivo.** Il targeting a valle, la cadenza e le e-mail riconducono tutti all’obiettivo. Obiettivi specifici e focalizzati sui risultati superano quelli vaghi.
-* **Finalizza i prompt dei punti di contatto prima della generazione per singolo prospect.** Dopo la generazione in blocco, le modifiche vengono in genere apportate un prospect alla volta.
+* **Finalizza i prompt dei punti di contatto prima della generazione per singolo prospect.**&#x200B;** Dopo la generazione in blocco, le modifiche vengono in genere apportate a un prospect alla volta.
 * **Usa il ragionamento come controllo qualità.** Se viene enfatizzato il segnale sbagliato (o se ne manca uno ovvio), modifica l’e-mail o visita nuovamente il prompt del punto di contatto e rigenera la cadenza.
-* **Corrispondenza tra lo strumento di modifica e la modifica.** Modifiche dirette per la formulazione e il tono; **[!UICONTROL Generare con IA]** per la ristrutturazione o il riframing.
-* **Approva solo ciò che hai rivisto.** Espandi i punti di contatto, leggi il contenuto e perfeziona eventualmente prima dell’iscrizione.
+* **Abbina lo strumento di modifica alla modifica.**&#x200B;**&#x200B; Modifiche dirette per testo e tono; &#x200B;** [!UICONTROL Genera con IA]** per ristrutturazione o riformattazione.
+* **Approva solo ciò che hai rivisto.**&#x200B;** Espandi i punti di contatto, leggi il contenuto e perfeziona se necessario prima dell&#39;iscrizione.
 
 ## Posta in uscita e-mail
 
@@ -348,7 +313,7 @@ You can interact with clients, and see summaries for the contact and the thread 
 
 ## Attività
 
-L&#39;area _Attività_ in Qualificatore vendite offre ai rappresentanti per lo sviluppo aziendale uno spazio dedicato per gestire ed elaborare le azioni del flusso di lavoro in uscita. Le attività vengono generate automaticamente dal motore del flusso di lavoro in uscita e rappresentano le azioni specifiche che un BDR deve intraprendere con ogni potenziale cliente: telefonate, LinkedInMails e revisioni di e-mail.
+L&#39;area _Attività_ in Qualificatore vendite offre ai rappresentanti per lo sviluppo aziendale uno spazio dedicato per gestire ed elaborare le azioni del flusso di lavoro in uscita. Il motore del flusso di lavoro in uscita genera automaticamente attività che rappresentano le azioni specifiche che un BDR deve intraprendere con ogni potenziale cliente: telefonate, LinkedInMails e revisioni di e-mail.
 
 L&#39;esperienza di gestione delle attività è progettata come una **coda di elaborazione**, non solo come elenco attività. È possibile aprire un&#39;attività, eseguire un&#39;azione, contrassegnarla come completata e passare a quella successiva senza uscire dalla pagina.
 
@@ -368,7 +333,7 @@ Tutte le attività sono associate ai passaggi del flusso di lavoro in uscita. Es
 
 **LinkedIn InMail** — Creato quando una sequenza raggiunge un passaggio LinkedIn InMail. Nel pannello attività viene visualizzato il contenuto InMail suggerito che è possibile copiare e inviare all&#39;esterno del prodotto.
 
-**Revisione e-mail** — creata una volta che il sistema termina la generazione di e-mail personalizzate per un potenziale cliente iscritto a un flusso di lavoro. Esamina e approva le e-mail prima di iniziare l’uscita per quel potenziale cliente. Ogni potenziale cliente riceve un’attività di revisione e-mail separata; se iscrivi 10 potenziali clienti in un flusso di lavoro, al termine della generazione vedrai fino a 10 attività di revisione e-mail.
+**Revisione e-mail** — creata una volta che il sistema termina la generazione di e-mail personalizzate per un potenziale cliente iscritto a un flusso di lavoro. Esamina e approva le e-mail prima di iniziare l’uscita per quel potenziale cliente. Ogni potenziale cliente riceve un’attività di revisione e-mail separata; se iscrivi 10 potenziali clienti in un flusso di lavoro, al termine della generazione vengono visualizzate fino a 10 attività di revisione e-mail.
 
 ### Gestione attività
 
@@ -393,13 +358,11 @@ Per le attività Phone Call (Chiamata telefonica) e LinkedInMail (InMail), nel p
 
 Per gestire le attività, utilizzare le azioni seguenti:
 
-* **[!UICONTROL Contrassegna come completato]** - Azione primaria. Utilizzalo dopo aver eseguito l’attività: effettuato la chiamata, inviato InMail o rivisto e approvato le e-mail. Al completamento, l&#39;attività viene registrata come **Completata** e la coda avanza automaticamente.
+* **[!UICONTROL Contrassegna come completato]** - Azione primaria. Utilizza questa azione dopo aver eseguito l’attività: effettuato la chiamata, inviato InMail o rivisto e approvato le e-mail. Al completamento, l&#39;attività viene registrata come **Completata** e la coda avanza automaticamente.
 
-* **[!UICONTROL Salta punto di contatto]** - Disponibile dal menu di overflow nel pannello di lavoro. Utilizzalo quando non puoi completare questo passaggio specifico, ma il potenziale cliente è ancora una destinazione valida e deve rimanere nel flusso di lavoro.
-
-  Quando salti un punto di contatto:
+* **[!UICONTROL Salta punto di contatto]** - Disponibile dal menu di overflow nel pannello di lavoro. Utilizza questa opzione quando non riesci a completare questo passaggio, ma il prospect rimane una destinazione valida nel flusso di lavoro.
    * Il prospect avanza al passaggio successivo nella sequenza. Le attività future vengono comunque generate nei tempi previsti.
-   * È necessario selezionare un motivo: *Informazioni contatto non valide*, *Intervallo non valido*, *Contenuto non rilevante* o *Altro* (con un campo a testo libero).
+   * Seleziona un motivo: *Informazioni contatto non valide*, *Intervallo non valido*, *Contenuto non rilevante* o *Altro* (con un campo a testo libero).
    * Lo stato dell&#39;attività è impostato su **Ignorato** e registrato con il motivo e la marca temporale.
    * Se questo è stato l’ultimo passaggio del flusso di lavoro, l’esecuzione del flusso di lavoro del prospect termina. L’attività è ancora registrata come Ignorata (non rimossa).
 
@@ -408,13 +371,13 @@ Per gestire le attività, utilizzare le azioni seguenti:
   Quando rimuovi un prospect da un flusso di lavoro:
    * Tutte le attività in sospeso e future per quel prospect all’interno di questo flusso di lavoro vengono annullate.
    * Lo stato di iscrizione del prospect cambia in **Rimosso da BDR**.
-   * È necessario selezionare un motivo: *Società di sinistra*, *Duplicato*, *Adattamento errato*, *Già convertito* o *Altro* (con un campo di testo).
-   * Viene visualizzata una finestra di dialogo di conferma: *&quot;Verranno annullati tutti i punti di contatto rimanenti per [Prospect] in [Nome flusso di lavoro]. Continuare?&quot;*
+   * Seleziona un motivo: *Società di sinistra*, *Duplicato*, *Adattamento errato*, *Già convertito* o *Altro* (con un campo di testo).
+   * Viene visualizzata una finestra di dialogo di conferma: *&quot;Questa azione annullerà tutti i punti di contatto rimanenti per [Prospect] in [Nome flusso di lavoro]. Continuare?&quot;*
    * Lo stato dell&#39;attività è impostato su **Rimosso**. Anche tutte le attività di pari livello annullate sono contrassegnate come **Rimosse**.
 
 >[!NOTE]
 >
->Ignora e rimuovi i feed di dati del motivo in Analytics: ignora la frequenza per canale, la frequenza di rimozione per flusso di lavoro e i motivi principali. Questo consente di migliorare la qualità del flusso di lavoro e di informare l’analisi delle prestazioni nel tempo.
+>I dati relativi al motivo di salto e rimozione vengono utilizzati nelle analisi, inclusi il tasso di salto per canale, il tasso di rimozione per flusso di lavoro e i motivi principali. Questo consente di migliorare la qualità del flusso di lavoro e di informare l’analisi delle prestazioni nel tempo.
 
 ### Stato attività
 
@@ -437,9 +400,9 @@ Utilizza le schede nella parte superiore dell’elenco delle attività per passa
 
 * **Oggi** *(impostazione predefinita)* — Attività in scadenza oggi che non sono state completate.
 
-* **Scaduto** — Attività la cui data di scadenza è passata e sono ancora aperte. Risolvi prima questi problemi.
+* **Scaduto** — Attività la cui data di scadenza è passata e sono ancora aperte. Risolvi prima queste attività.
 
-* **Prossimo** — Attività con una data di scadenza futura in cui il passaggio precedente del flusso di lavoro è già stato completato. Sono visibili in anticipo, per consentirti di pianificare o agire prima al momento giusto (ad esempio, se sei già in contatto con un potenziale cliente). Viene visualizzata la data di scadenza pianificata in modo da conoscere la tempistica prevista.
+* **Prossimo** — Attività con una data di scadenza futura in cui il passaggio precedente del flusso di lavoro è già stato completato. Queste attività sono visibili in anticipo, per consentirti di pianificare o agire prima al momento giusto (ad esempio, se sei già in contatto con un potenziale cliente). Viene visualizzata la data di scadenza pianificata in modo da conoscere la tempistica prevista.
 
 * **Completato**: record di attività completate, ignorate o rimosse. Utile a scopo di revisione e audit.
 
@@ -477,7 +440,7 @@ Un&#39;attività scade il giorno successivo alla data di scadenza se non è stat
 
 ### Attività future
 
-Le attività future vengono create nel momento in cui un potenziale cliente completa un passaggio del flusso di lavoro, anche se la scadenza del passaggio successivo è ancora nel futuro. Questo offre una visibilità anticipata della pipeline, che ti consente di pianificare in anticipo o agire in anticipo quando si presenta l’opportunità.
+Le attività future vengono create nel momento in cui un potenziale cliente completa un passaggio del flusso di lavoro, anche se la scadenza del passaggio successivo è ancora nel futuro. Questa visibilità ti consente di accedere in anteprima a insight nella pipeline in modo da poter pianificare in anticipo o agire in anticipo quando si presenta l’opportunità.
 
 Le attività future mostrano la data di scadenza pianificata, in modo da sapere sempre quando devono essere gestite. Il completamento anticipato di un&#39;attività è completamente supportato: il motore del flusso di lavoro registra la data di completamento effettiva e avanza normalmente il prospect.
 
@@ -522,7 +485,7 @@ Rivolgiti all’amministratore del sistema di gestione delle relazioni con i cli
 
 1. Assegna un ruolo di sicurezza che conceda a **read** l&#39;accesso alle entità richieste da Qualificatore vendite (ad esempio lead, contatti, account, opportunità e attività).
 
-   Senza un ruolo, l’app non può leggere i dati.
+   L’app richiede un ruolo di sicurezza con accesso in lettura ai dati.
 
 **Informazioni da fornire durante la connessione a Dynamics:**
 
@@ -533,7 +496,7 @@ Rivolgiti all’amministratore del sistema di gestione delle relazioni con i cli
 
 #### Salesforce
 
-In Salesforce, [crea un&#39;app client esterna](https://help.salesforce.com/s/articleView?id=xcloud.create_a_local_external_client_app.htm) (o una _app connessa_) con OAuth abilitato e ambiti che consentono l&#39;accesso API a identità e dati, in base agli standard di sicurezza della tua organizzazione. L’utente che esegue l’integrazione (ad esempio quando si utilizza una configurazione di stile con credenziali client) deve avere accesso in lettura a oggetti quali lead, account, contatti, attività, eventi, opportunità e oggetti opportunità correlati. Per le attività amministrative è spesso necessario che un utente con **[!UICONTROL Gestione app collegate]** (tra le altre autorizzazioni) visualizzi una chiave consumer e un segreto dopo la creazione.
+In Salesforce, [crea un&#39;app client esterna](https://help.salesforce.com/s/articleView?id=xcloud.create_a_local_external_client_app.htm&type=5) (o una _app connessa_) con OAuth abilitato e ambiti che consentono l&#39;accesso API a identità e dati, in base agli standard di sicurezza della tua organizzazione. L’utente che esegue l’integrazione (ad esempio quando si utilizza una configurazione di stile con credenziali client) deve avere accesso in lettura a oggetti quali lead, account, contatti, attività, eventi, opportunità e oggetti opportunità correlati. Per le attività amministrative è spesso necessario che un utente con **[!UICONTROL Gestione app collegate]** (tra le altre autorizzazioni) visualizzi una chiave consumer e un segreto dopo la creazione.
 
 >[!PREREQUISITES]
 >
@@ -686,7 +649,7 @@ Nella scheda **[!UICONTROL Configurazione calendario]**, imposta il tuo fuso ora
 Se si disconnette il calendario:
 
 * I collegamenti di prenotazione attivi sono effettivamente disabilitati.
-* La pagina di prenotazione mostra uno stato di indisponibilità temporanea.
+* La pagina di prenotazione mostra uno stato amichevole, temporaneamente non disponibile.
 * La riconnessione mantiene le impostazioni.
 
 ### Disponibilità del calendario
