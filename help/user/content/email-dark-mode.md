@@ -7,23 +7,17 @@ role: User
 level: Beginner, Intermediate
 keywords: modalità scura, e-mail, colore, progettazione
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: 2026-03-30T22:06:55.168Z
 TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJEgNE
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 1606
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -32,18 +26,18 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="Passare alla modalità scura"
->abstract="Passa alla modalità scura per visualizzare in anteprima il rendering e definire impostazioni personalizzate specifiche. <br>Il rendering finale dipende dal client di posta elettronica del destinatario. Tieni presente che tutti i client e-mail non supportano la modalità scura personalizzata."
+>abstract="Passa alla modalità scura per visualizzare in anteprima il rendering e definire impostazioni personalizzate specifiche. <br>Il rendering finale dipende dal client e-mail del destinatario. Tieni presente che non tutti i client e-mail supportano la modalità scura personalizzata."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
 >title="Passare alla modalità scura"
->abstract="Passare alla modalità scura per visualizzare in anteprima il rendering nei client e-mail che la supportano. <br>Il rendering finale dipende dal client di posta elettronica del destinatario. Tieni presente che non tutti i client e-mail supportano la modalità scura."
+>abstract="Passare alla modalità scura per visualizzare in anteprima il rendering nei client e-mail che la supportano. <br>Il rendering finale dipende dal client e-mail del destinatario. Tieni presente che non tutti i client e-mail supportano la modalità scura."
 
 _Modalità scura_ consente a un client e-mail o a un&#39;app di supporto di visualizzare e-mail con sfondi più scuri e colori più chiari per testo, pulsanti e altri elementi visivi. Questo tipo di display può ridurre l&#39;affaticamento degli occhi, ridurre la durata della batteria e migliorare la leggibilità in ambienti scarsamente illuminati, per un&#39;esperienza di visualizzazione più confortevole. In quanto tendenza in crescita tra i principali sistemi operativi e app, ora è un elemento importante nella progettazione di e-mail moderne per garantire che il contenuto rimanga leggibile e visivamente attraente per tutti gli utenti.
 
 ![Diagramma concettuale della modalità chiara e scura che mostra il rendering del contenuto con temi chiari e scuri](../assets/do-not-localize/light-dark-mode.png){width="550"}
 
-Quando [crei il contenuto delle e-mail](./email-authoring.md) nello spazio di progettazione visiva [!DNL Journey Optimizer B2B Edition], puoi passare alla visualizzazione _&#x200B;**[!UICONTROL modalità scura]**&#x200B;_. In questa visualizzazione, puoi anche definire impostazioni personalizzate specifiche per il supporto dei client e-mail quando è abilitata la modalità scura.
+Quando [crei il contenuto delle e-mail](./email-authoring.md) nello spazio di progettazione visiva [!DNL Journey Optimizer B2B Edition], puoi passare alla visualizzazione _**[!UICONTROL modalità scura]**_. In questa visualizzazione, puoi anche definire impostazioni personalizzate specifiche per il supporto dei client e-mail quando è abilitata la modalità scura.
 
 ## Considerazioni sul client e-mail {#email-client-considerations}
 
@@ -135,7 +129,7 @@ Quando si applica uno stile al contenuto delle e-mail per la modalità scura in 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_image"
 >title="Utilizzare un’immagine specifica per la modalità scura"
->abstract="È possibile selezionare un&#39;altra immagine da visualizzare quando è attiva la modalità scura. <br>L&#39;aggiunta di un&#39;immagine specifica per la modalità scura non garantisce il corretto rendering in tutti i client di posta elettronica. Tieni presente che non tutti i client e-mail supportano la modalità scura personalizzata."
+>abstract="Puoi selezionare un’altra immagine da visualizzare quando è attiva la modalità scura. <br>L’aggiunta di un’immagine specifica per la modalità scura non garantisce che venga riprodotta correttamente in tutti i client e-mail. Tieni presente che non tutti i client e-mail supportano la modalità scura personalizzata."
 
 Dopo il passaggio alla modalità scura, puoi scegliere di modificare elementi di stile specifici del contenuto che vengono visualizzati solo quando la modalità scura è abilitata nel client e-mail del destinatario (purché supporti tale funzione).
 
