@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 01ee41d681aa67052f4fd34edc86159b054c6644
 workflow-type: tm+mt
-source-wordcount: 1520
+source-wordcount: 1511
 ht-degree: 44%
 
 ---
@@ -171,10 +171,6 @@ Se chiudi un percorso live, gli account attualmente presenti nel percorso contin
 ### Duplicare un percorso {#duplicate-journey}
 
 Un’azione di duplicazione è simile a una funzione di clonazione, ma un percorso duplicato non include le risorse dei contenuti del percorso create. Puoi duplicare i dettagli per il percorso o solo una semplice _ossatura_ della struttura del flusso e del percorso.
-
->[!NOTE]
->
->Questa azione non è attualmente disponibile per percorsi di persone.
 
 1. Fai clic sull&#39;icona _Altro_ (**...**) accanto al nome del percorso e scegliere **[!UICONTROL Duplica]**.
 
