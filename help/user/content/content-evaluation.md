@@ -18,7 +18,7 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
 source-wordcount: 755
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
@@ -60,7 +60,7 @@ La valutazione e il punteggio dei contenuti consentono di creare, esaminare e ge
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Punteggio di allineamento del brand"
->abstract="Il punteggio di allineamento del brand misura se il contenuto aderisce alle linee guida del brand per garantire coerenza in termini di colori, font, logo, immagini e stile di scrittura."
+>abstract="Il punteggio di allineamento al brand misura quanto i contenuti rispettano le linee guida del brand, per garantire coerenza in termini di colori, font, logo, immagini e stile di scrittura."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors_score"
@@ -104,12 +104,12 @@ Seleziona una linea guida segnalata per visualizzare feedback e suggerimenti spe
 
 È possibile apportare modifiche al contenuto e fare clic su **[!UICONTROL Rivaluta punteggio]** per eseguire un&#39;altra valutazione e verificare la presenza di un risultato migliorato.
 
-## Punteggio qualità contenuto {#quality-score}
+## Punteggio di qualità per il contenuto {#quality-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_quality_score_overview"
 >title="Qualità dei contenuti"
->abstract="Valuta la qualità generale dei contenuti per identificare potenziali problemi di leggibilità, coerenza ed efficacia dei contenuti. La valutazione della qualità è indipendente dalle linee guida del tuo marchio."
+>abstract="Valuta la qualità complessiva dei contenuti per individuare potenziali problemi relativi alla leggibilità, alla coerenza e all’efficacia. La valutazione della qualità è indipendente dalle linee guida del brand."
 
 >[!NOTE]
 >

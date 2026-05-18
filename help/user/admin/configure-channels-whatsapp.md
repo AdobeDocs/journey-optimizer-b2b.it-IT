@@ -19,7 +19,7 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
 source-wordcount: 1491
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -143,7 +143,7 @@ do we have advanced logs? How are they enabled?
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin_whatsapp-webhook-inbound-keyword"
 >title="Immettere le parole chiave"
->abstract="Puoi definire parole chiave per attivare risposte automatiche specifiche in base al testo digitato dagli utenti. Le parole chiave non fanno distinzione tra maiuscole e minuscole (stop e STOP vengono trattati allo stesso modo)."
+>abstract="Puoi definire parole chiave per attivare risposte automatiche specifiche in base al testo digitato dagli utenti. Le parole chiave non fanno distinzione tra maiuscole e minuscole, ad esempio, interruzione e INTERRUZIONE vengono trattate allo stesso modo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-webhook-url"
