@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
 workflow-type: tm+mt
-source-wordcount: 813
+source-wordcount: 828
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ Puoi impostare le consegne dei messaggi WhatsApp in un percorso di account quand
 
 >[!IMPORTANT]
 >
->**Gestione del consenso WhatsApp**: in conformità ai criteri di Meta e alle normative applicabili, tutti i messaggi di marketing WhatsApp devono essere inviati solo ai destinatari che hanno acconsentito alla ricezione di comunicazioni. I destinatari WhatsApp possono rinunciare in qualsiasi momento rispondendo con una parola chiave di rinuncia. Le risposte di rinuncia vengono rispettate automaticamente e i profili corrispondenti vengono rimossi dai futuri tipi di pubblico dei messaggi di marketing.
+>**Gestione del consenso WhatsApp**: in conformità ai criteri di Meta e alle normative applicabili, tutti i messaggi di marketing WhatsApp devono essere inviati solo ai destinatari che hanno acconsentito alla ricezione di comunicazioni. I destinatari WhatsApp possono rinunciare in qualsiasi momento rispondendo con una parola chiave di rinuncia. Le risposte di rinuncia vengono rispettate automaticamente e i profili corrispondenti vengono rimossi dai futuri tipi di pubblico dei messaggi di marketing. Per informazioni dettagliate sulla valutazione delle preferenze di consenso WhatsApp al momento della consegna, consulta [Preferenze di consenso](./channels-consent-preferences.md).
 
 I messaggi WhatsApp vengono inviati utilizzando modelli di messaggio preapprovati dal tuo account aziendale Meta WhatsApp. **I modelli devono essere revisionati e approvati da Meta** prima di poter essere utilizzati in Journey Optimizer B2B edition. Rivolgiti all&#39;amministratore del tuo account [!DNL Meta Business Manager] per gestire e inviare i modelli per l&#39;approvazione.
 

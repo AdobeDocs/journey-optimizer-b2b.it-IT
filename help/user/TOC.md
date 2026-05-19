@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentazione di Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando le funzioni di IA generativa incorporata e l’automazione leader del settore.
-source-git-commit: 8be440c86b32a582891f0f30cae259e23028d336
+source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 92%
+source-wordcount: '440'
+ht-degree: 93%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 92%
    + [Canale WhatsApp](./content/whatsapp-authoring.md)
    + Canale e-mail {#email-channel}
       + [Aggiungere un’e-mail](./content/add-email.md)
-      + [Ottimizzazione del tempo di invio](./content/email-send-time-optimization.md)
+      + [Ottimizzazione dell’ora di invio](./content/email-send-time-optimization.md)
       + [Authoring di e-mail](./content/email-authoring.md)
       + [Assistente IA per l’authoring delle e-mail](./content/ai-assistant-emails.md)
       + [Flussi di lavoro GenStudio](./content/genstudio-email-workflow.md)
@@ -69,6 +69,7 @@ ht-degree: 92%
       + [Progettazione esperienza web](./content/web-experience-design.md)
       + [Applicazioni a pagina singola](./content/web-single-page-applications.md)
    + [Token di personalizzazione personalizzati](./content/personalization-my-tokens.md)
+   + [Preferenze di consenso](./content/channels-consent-preferences.md)
 + Tipi di pubblico {#audiences}
    + [Tipi di pubblico di Experience Platform](./audiences/account-audience-overview.md)
    + [Destinazione di tipi di pubblico esterni](./audiences/target-external-audience.md)
