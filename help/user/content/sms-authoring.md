@@ -17,7 +17,7 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T22:13:38.262Z
 TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: d7e971b6d533a173632224baa359f7559b865497
 workflow-type: tm+mt
 source-wordcount: 1343
 ht-degree: 3%
@@ -29,6 +29,12 @@ ht-degree: 3%
 Utilizza Adobe Journey Optimizer B2B edition per inviare SMS ai clienti sui loro dispositivi mobili. Puoi creare, personalizzare e visualizzare in anteprima i messaggi in formato testo dall’editor SMS.
 
 Prima di creare messaggi SMS per percorsi di account, verificare che il provider di servizi SMS [sia configurato](../admin/configure-channels-sms.md) dalle impostazioni _[!UICONTROL Amministratore]_.
+
+>[!IMPORTANT]
+>
+>**Gestione del consenso SMS**<br/>
+>
+>In conformità agli standard e alle normative del settore, tutti i messaggi SMS di marketing devono consentire ai destinatari di annullare facilmente l’iscrizione alla ricezione di messaggi. A questo scopo, i destinatari di SMS possono rispondere con parole chiave di consenso e rinuncia. Tutte le parole chiave di consenso e rinuncia standard sono supportate e rispettate. Sono inoltre supportate e rispettate tutte le parole chiave personalizzate configurate per l’account del provider di servizi SMS. Per informazioni dettagliate sulla valutazione delle preferenze di consenso SMS al momento della consegna, consulta [Preferenze di consenso](./channels-consent-preferences.md).
 
 ## Aggiungere un’azione SMS in un percorso di account
 
@@ -51,12 +57,6 @@ Puoi impostare le consegne di messaggi di testo in un percorso di account quando
    Viene aperta la mappa del _Percorso_ ed è possibile creare il messaggio e impostare le proprietà SMS per l&#39;invio del messaggio.
 
 ### Creare il messaggio SMS
-
->[!IMPORTANT]
->
->**Gestione del consenso SMS**<br/>
->
->In conformità agli standard e alle normative del settore, tutti i messaggi SMS di marketing devono consentire ai destinatari di annullare facilmente l’iscrizione alla ricezione di messaggi. A questo scopo, i destinatari di SMS possono rispondere con parole chiave di consenso e rinuncia. Tutte le parole chiave di consenso e rinuncia standard sono supportate e rispettate. Sono inoltre supportate e rispettate tutte le parole chiave personalizzate configurate per l’account del provider di servizi SMS. Per informazioni dettagliate sulla valutazione delle preferenze di consenso SMS al momento della consegna, consulta [Preferenze di consenso](./channels-consent-preferences.md).
 
 Immetti il testo da inviare nel campo **[!UICONTROL Messaggio]**.
 

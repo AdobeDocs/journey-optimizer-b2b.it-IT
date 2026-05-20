@@ -16,9 +16,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: d7e971b6d533a173632224baa359f7559b865497
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 419
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Con Journey Optimizer B2B edition e l’accesso a Adobe Admin Console, gli ammin
 
 ## Consenso/rinuncia
 
-Journey Optimizer B2B edition legge le preferenze di consenso per persona memorizzate nei profili XDM di Adobe Experience Platform e le applica al momento della consegna dei messaggi per i canali e-mail, SMS e WhatsApp. Le persone che hanno rinunciato a un canale sono escluse dalla consegna prima che il contenuto venga inviato dal canale o dal provider di messaggistica a valle.
+Journey Optimizer B2B edition legge le preferenze di consenso per persona memorizzate nei profili XDM di Adobe Experience Platform e le applica al momento della consegna dei messaggi per i canali e-mail, SMS e WhatsApp. Una persona che ha rinunciato a un canale è esclusa dalla consegna prima che il contenuto venga inviato dal canale o dal provider di messaggistica a valle.
 
 Il consenso viene valutato al momento della consegna utilizzando i campi XDM del gruppo di campi Consenso profilo. Il comportamento predefinito del consenso varia a seconda del canale: per impostazione predefinita, l’e-mail ha acconsentito quando non è impostata alcuna preferenza, mentre per impostazione predefinita SMS e WhatsApp ha acconsentito.
 
