@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: cba977f62f3d2a83bcf2487a8ec612b76a655954
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: 412
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Journey Optimizer B2B edition valuta il seguente attributo XDM per il consenso e
 
 Per il consenso e-mail, tieni presenti le seguenti considerazioni:
 
-* Le persone che hanno rinunciato a livello globale all’e-mail possono ancora ricevere e-mail contrassegnate come operative.
+* Le persone che hanno rinunciato a livello globale all’e-mail possono ricevere e-mail contrassegnate come operative.
 * Preferenze a livello di abbonamento non supportate.
 
 ## SMS {#sms}
