@@ -4,21 +4,15 @@ description: Scopri le funzioni di governance attualmente disponibili in Journey
 feature: Setup
 role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: d7e971b6d533a173632224baa359f7559b865497
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 419
 ht-degree: 0%
 
 ---
@@ -43,7 +37,7 @@ Con Journey Optimizer B2B edition e l’accesso a Adobe Admin Console, gli ammin
 
 ## Consenso/rinuncia
 
-Journey Optimizer B2B edition legge le preferenze di consenso per persona memorizzate nei profili XDM di Adobe Experience Platform e le applica al momento della consegna dei messaggi per i canali e-mail, SMS e WhatsApp. Le persone che hanno rinunciato a un canale sono escluse dalla consegna prima che il contenuto venga inviato dal canale o dal provider di messaggistica a valle.
+Journey Optimizer B2B edition legge le preferenze di consenso per persona memorizzate nei profili XDM di Adobe Experience Platform e le applica al momento della consegna dei messaggi per i canali e-mail, SMS e WhatsApp. Una persona che ha rinunciato a un canale è esclusa dalla consegna prima che il contenuto venga inviato dal canale o dal provider di messaggistica a valle.
 
 Il consenso viene valutato al momento della consegna utilizzando i campi XDM del gruppo di campi Consenso profilo. Il comportamento predefinito del consenso varia a seconda del canale: per impostazione predefinita, l’e-mail ha acconsentito quando non è impostata alcuna preferenza, mentre per impostazione predefinita SMS e WhatsApp ha acconsentito.
 

@@ -4,17 +4,12 @@ description: Crea messaggi WhatsApp per percorsi di account utilizzando modelli 
 feature: Content, Channels, Account Journeys
 role: User
 exl-id: 36c7e377-1f51-4d68-9e00-c6ce994e9909
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: d7e971b6d533a173632224baa359f7559b865497
 workflow-type: tm+mt
 source-wordcount: 828
 ht-degree: 1%
@@ -26,6 +21,7 @@ ht-degree: 1%
 Utilizza Adobe Journey Optimizer B2B edition per inviare messaggi WhatsApp ai membri dell’account sui loro dispositivi mobili. Puoi creare, personalizzare e visualizzare in anteprima i messaggi utilizzando modelli di messaggio approvati da Meta dall’editor WhatsApp. <!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
 
 Prima di creare messaggi WhatsApp per i percorsi di account, assicurati di disporre del [canale WhatsApp configurato](../admin/configure-channels-whatsapp.md) nelle impostazioni _[!UICONTROL Amministratore]_.
+
 
 >[!NOTE]
 >
@@ -58,6 +54,10 @@ Per i messaggi WhatsApp sono disponibili le seguenti opzioni di call-to-action:
 
 ## Aggiungere un’azione WhatsApp in un percorso di account
 
+>[!IMPORTANT]
+>
+>**Gestione del consenso WhatsApp**: in conformità ai criteri di Meta e alle normative applicabili, tutti i messaggi di marketing WhatsApp devono essere inviati solo ai destinatari che hanno acconsentito alla ricezione di comunicazioni. I destinatari WhatsApp possono rinunciare in qualsiasi momento rispondendo con una parola chiave di rinuncia. Le risposte di rinuncia vengono rispettate automaticamente e i profili corrispondenti vengono rimossi dai futuri tipi di pubblico dei messaggi di marketing. Per informazioni dettagliate sulla valutazione delle preferenze di consenso WhatsApp al momento della consegna, consulta [Preferenze di consenso](./channels-consent-preferences.md).
+
 Puoi impostare le consegne dei messaggi WhatsApp in un percorso di account quando [aggiungi un _[!UICONTROL Esegui un&#39;azione]_ nodo](../journeys/action-nodes.md) ed effettua le seguenti operazioni:
 
 1. Per l&#39;azione _[!UICONTROL sulla destinazione]_, scegliere **[!UICONTROL Persone]**.
@@ -89,10 +89,6 @@ Puoi impostare le consegne dei messaggi WhatsApp in un percorso di account quand
 1. Fai clic su **[!UICONTROL Modifica contenuto]** per passare ai parametri e al testo del messaggio.
 
 ### Seleziona un modello di messaggio
-
->[!IMPORTANT]
->
->**Gestione del consenso WhatsApp**: in conformità ai criteri di Meta e alle normative applicabili, tutti i messaggi di marketing WhatsApp devono essere inviati solo ai destinatari che hanno acconsentito alla ricezione di comunicazioni. I destinatari WhatsApp possono rinunciare in qualsiasi momento rispondendo con una parola chiave di rinuncia. Le risposte di rinuncia vengono rispettate automaticamente e i profili corrispondenti vengono rimossi dai futuri tipi di pubblico dei messaggi di marketing. Per informazioni dettagliate sulla valutazione delle preferenze di consenso WhatsApp al momento della consegna, consulta [Preferenze di consenso](./channels-consent-preferences.md).
 
 I messaggi WhatsApp vengono inviati utilizzando modelli di messaggio preapprovati dal tuo account aziendale Meta WhatsApp. **I modelli devono essere revisionati e approvati da Meta** prima di poter essere utilizzati in Journey Optimizer B2B edition. Rivolgiti all&#39;amministratore del tuo account [!DNL Meta Business Manager] per gestire e inviare i modelli per l&#39;approvazione.
 
