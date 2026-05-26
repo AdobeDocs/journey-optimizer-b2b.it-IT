@@ -14,26 +14,50 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
 workflow-type: tm+mt
-source-wordcount: 1412
-ht-degree: 5%
+source-wordcount: 1571
+ht-degree: 4%
 
 ---
 
 # Modelli di ruoli del gruppo acquisti
 
-In un mercato B2B, le decisioni di acquisto sono solitamente prese da più individui. Tali persone partecipano al processo decisionale in base al loro ruolo all’interno dell’organizzazione. Crea modelli di ruolo per gruppo di acquisto contenenti un gruppo di definizioni di ruolo in base a ciascun tipo di offerta di prodotto o caso di utilizzo dell’account.
+In un mercato B2B, più individui di solito prendono decisioni di acquisto. Tali persone partecipano al processo decisionale in base al loro ruolo all’interno dell’organizzazione. Crea modelli di ruolo per gruppo di acquisto contenenti un gruppo di definizioni di ruolo in base a ciascun tipo di offerta di prodotto o caso di utilizzo dell’account.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
-## Accedere e sfogliare i modelli di ruolo
+>[!BEGINSHADEBOX]
+
+## Audience Agent B2B
+
+[Audience Agent B2B](../agents/audience-agent-b2b.md) può generare un modello di ruoli del gruppo di acquisto dal rilevamento intento di prime parti e dal mapping degli utenti tipo. Nel flusso guidato, puoi identificare gli utenti tipo collegati a un prodotto, esaminare le mappature tra ruoli e utenti tipo consigliate dall’intelligenza artificiale e perfezionare il modello con un linguaggio naturale prima di pubblicarlo.
+
+**Richieste da provare:**
+
+* Crea un modello di gruppo di acquisto per `<product>`
+* Aggiungi `<role>` mappato a `<persona>`
+* Rimuovi `<role>` / `<persona>`
+
+![Audience Agent B2B creazione di un modello di ruoli del gruppo di acquisto](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
+
+>[!ENDSHADEBOX]
+
+>[!PREREQUISITES]
+>
+>Prima di creare un modello di ruoli, configura i dati utilizzabili dalle condizioni del ruolo:
+>
+>* [Mappatura campo profilo persona](../admin/field-mapping.md#xdm-business-person-attributes) per filtri attributi persona
+>* [Dati intento](../admin/intent-data.md) se si utilizzano filtri intento nelle condizioni del ruolo
+>* [Ruoli di gruppo di acquisto personalizzati](./default-custom-roles.md#custom-roles) (facoltativo) se hai bisogno di ruoli oltre i sei predefiniti
+
+## Accedere e sfogliare i modelli di ruolo {#access-and-browse-role-templates}
 
 1. Nel menu di navigazione a sinistra, fai clic su **[!UICONTROL Gruppi di acquisto]**.
 
 1. Nella pagina _[!UICONTROL Gruppi di acquisto]_, seleziona la scheda **[!UICONTROL Modelli ruoli]**.
 
-   ![Scheda Modelli ruoli](assets/roles-templates-tab.png){width="800" zoomable="yes"}
+   ![Scheda inventario modelli ruoli](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    La scheda fornisce un elenco di inventario di tutti i modelli di ruoli esistenti e visualizza le seguenti informazioni in formato colonna:
 
@@ -64,9 +88,11 @@ In un mercato B2B, le decisioni di acquisto sono solitamente prese da più indiv
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
-### Aggiungere i ruoli modello
+### Aggiungere i ruoli modello {#add-the-template-roles}
 
 Dopo aver creato il modello, questo viene aperto nell&#39;area di lavoro e viene richiesto di aggiungere i ruoli. Per impostazione predefinita, viene visualizzata la prima scheda ruolo.
+
+#### Tipi di filtro condizione ruolo
 
 Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, per determinare i membri assegnati al ruolo. Utilizzare i tipi di filtro seguenti per definire le condizioni per un ruolo:
 
@@ -76,6 +102,8 @@ Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, pe
 | [!UICONTROL Oggetti personalizzati] > Contiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funzione Beta"} L&#39;account o la persona non dispone di record dello schema relazionale. Può anche essere valutato in base a qualsiasi criterio oggetto personalizzato selezionato, come configurato negli [schemi relazionali XDM](../admin/xdm-field-management.md#relational-schemas). |
 | Filtri speciali | <li>Membro dell’elenco (obsoleto) <li>Membro del programma (obsoleto) |
 | Dati di intento | <li>Intento categoria <li>Intento prodotto <li>Intento parola chiave <br/>(vedere [_Dati intento_](../admin/intent-data.md)) |
+
+#### Definire le proprietà del ruolo
 
 1. Per la prima scheda ruolo, definisci le proprietà del ruolo.
 
@@ -89,11 +117,13 @@ Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, pe
 
      Il valore di ciascuna opzione viene convertito in percentuale per il calcolo del punteggio: [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Importante] = 80, e [!UICONTROL Vital] = 100.
 
-     Ad esempio, un modello di ruolo con ruoli che utilizzano Vital, Importante e Normale viene quindi convertito come 100/240, 80/240, 60/240.
+     Ad esempio, un modello di ruolo con ruoli Vitale, Importante e Normale viene convertito in 100, 80 e 60 su 240.
 
    * **[!UICONTROL Aggiungi condizioni per l&#39;assegnazione automatica]** - Selezionare questa casella di controllo per aggiungere condizioni per l&#39;assegnazione automatica dei membri al gruppo di acquisto che soddisfano la condizione. Se la casella di controllo non è selezionata, l’aggiunta di condizioni NON è richiesta.
 
    * **[!UICONTROL Necessario per il punteggio di completezza]** - Selezionare questa casella di controllo per il ruolo se si desidera che sia un requisito per il calcolo di un punteggio di completezza.
+
+#### Aggiungi condizioni per assegnazione automatica
 
 1. Fare clic su **[!UICONTROL Aggiungi condizione]** e definire la regola condizionale per il ruolo.
 
@@ -103,7 +133,7 @@ Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, pe
 
      >[!NOTE]
      >
-     >Se nello schema per persona aziendale di Experience Platform sono definiti campi persona personalizzati, questi campi sono disponibili per l’utilizzo come attributi persona nelle condizioni.
+     >Se nello schema Experience Platform per persona aziendale sono definiti campi persona personalizzati, è possibile utilizzarli come attributi persona nelle condizioni.
 
      Utilizza l’attributo per creare un filtro corrispondente utilizzando uno o più valori.
 
@@ -119,7 +149,9 @@ Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, pe
 
    * Fai clic su **[!UICONTROL Fine]**.
 
-1. Per ogni ruolo aggiuntivo che si desidera includere per il modello, fare clic su **[!UICONTROL Aggiungi un altro ruolo]** e ripetere i passaggi 1 e 2 per definire il ruolo.
+#### Aggiungi altri ruoli
+
+1. Per ogni ruolo aggiuntivo che si desidera includere per il modello, fare clic su **[!UICONTROL Aggiungi un altro ruolo]** e ripetere i passaggi in **Definisci le proprietà del ruolo** e **Aggiungi condizioni per l&#39;assegnazione automatica** per definire il ruolo.
 
    ![Modello ruoli con più ruoli definiti](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
@@ -136,15 +168,15 @@ Per utilizzare l&#39;appartenenza a un elenco come condizione del ruolo, espande
 
 >[!NOTE]
 >
->**Funzionalità obsolete**</br></br>
+>**Funzionalità obsolete**
 >
 >Nella versione corrente di Journey Optimizer B2B edition, il filtro basato sull’iscrizione a un elenco o a un programma in un’istanza di Marketo Engage non è più supportato.
 
 >[!ENDSHADEBOX]
 
-### Modificare le impostazioni del punteggio di completezza
+### Modificare le impostazioni del punteggio di completezza {#change-the-completeness-score-settings}
 
-Per impostazione predefinita, la completezza di un ruolo viene definita come un membro assegnato al ruolo. Se si desidera utilizzare la completezza del gruppo di acquisto come indicatore della fattibilità o del successo <!-- journey decisioning coming later-->, è possibile utilizzare queste impostazioni per allineare il punteggio al numero di membri per ruolo necessario per chiudere un&#39;opportunità.
+Per impostazione predefinita, la completezza di un ruolo viene definita come un membro assegnato al ruolo. Quando si utilizza la completezza del gruppo di acquisto per indicare la fattibilità delle vendite, utilizzare queste impostazioni per allineare il punteggio al numero di membri necessari per chiudere un&#39;opportunità.
 
 Ad esempio, la chiusura di un&#39;offerta per la soluzione _X_ richiede l&#39;identificazione e il coinvolgimento di più responsabili delle decisioni di marketing, in quanto la soluzione verrebbe utilizzata da più team di marketing in un&#39;organizzazione. In questo caso, desideri aumentare la soglia per calcolare un gruppo di acquisto _completo_ richiedendo almeno due responsabili delle decisioni di marketing.
 
@@ -158,7 +190,7 @@ Per informazioni dettagliate sul punteggio di completezza e sui calcoli, consult
 
    È possibile immettere il valore oppure fare clic su **&plus;** o **−** per aumentare o diminuire il valore.
 
-   ![Modello ruoli - pulsante Impostazioni punteggio di completezza](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
+   ![Finestra di dialogo Impostazioni punteggio completezza modello ruoli](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -168,11 +200,13 @@ Se il modello è pronto per l&#39;uso, fai clic su **[!UICONTROL Pubblica]** in 
 
 La pubblicazione del modello imposta lo stato su _Live_ e lo rende disponibile per l&#39;associazione a un interesse per la soluzione. Per pubblicare il modello dei ruoli deve essere presente almeno un ruolo definito.
 
+Dopo la pubblicazione, lo stato del modello è _Live_ nella scheda **[!UICONTROL Modelli ruoli]** e puoi selezionarlo quando [crei un interesse per la soluzione](./solution-interests.md).
+
 ## Modificare un modello di ruoli bozza
 
 Quando un modello di ruoli si trova nello stato _Bozza_, è possibile continuare a modificare i ruoli definiti. Tutte le modifiche apportate vengono salvate automaticamente.
 
-Modifica le impostazioni nell&#39;intestazione della scheda ruolo, inclusi il ruolo del gruppo di acquisto, la ponderazione, l&#39;assegnazione automatica e il requisito del punteggio di completezza.
+Modifica le impostazioni di intestazione della scheda ruolo, ad esempio il ruolo del gruppo di acquisto, la ponderazione, l’assegnazione automatica o il requisito del punteggio di completezza.
 
 ![Modifica proprietà ruolo gruppo acquisti](./assets/roles-template-role-properties.png){width="600"}
 
@@ -198,10 +232,12 @@ Puoi eliminare un modello di ruoli se si trova nello stato _Bozza_.
 
 1. Fai clic su **[!UICONTROL Elimina]** in alto a destra.
 
-   ![Modifica priorità ruolo](./assets/roles-template-delete.png){width="700"}
+   ![Finestra di conferma eliminazione modello ruoli](./assets/roles-template-delete.png){width="700"}
 
 1. Nella finestra di dialogo, fai clic su **[!UICONTROL Elimina]** per confermare.
 
-## Video di panoramica
+   Dopo la conferma, il modello ruoli viene rimosso dall&#39;elenco di inventario **[!UICONTROL Modelli ruoli]**.
+
+## Video di panoramica {#overview-video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3453309/?captions=ita&learn=on)
