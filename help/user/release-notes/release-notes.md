@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 4cc24ff8a19aa1ec6888c7ef35c1a4c6ac93f344
+source-git-commit: dd5dae1845686654d2935d9d10b4cd61c5fc502f
 workflow-type: tm+mt
-source-wordcount: 5096
+source-wordcount: 5099
 ht-degree: 67%
 
 ---
@@ -43,8 +43,8 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | Funzione | Pagine di destinazione | Gli addetti al marketing possono ora creare e pubblicare pagine di destinazione in Journey Optimizer B2B edition per supportare percorsi e programmi _(in precedenza funzionalità di un programma Beta)_. |
 | Funzione | Moduli | Gli addetti al marketing possono ora creare e pubblicare componenti di moduli riutilizzabili per abilitare l&#39;invio di dati dalle pagine di destinazione create e pubblicate in Journey Optimizer B2B edition _(in precedenza funzionalità di un programma Beta)_. |
 | Funzione | Membro del filtro Elenco account | Utilizzare l&#39;appartenenza a Elenchi account come punto di orchestrazione nei percorsi di account. Gli addetti al marketing possono creare elenchi Bloccati di account, elenchi di priorità o qualsiasi altro tipo di sottoinsieme del pubblico e fornire esperienze univoche di account in percorsi in base alla loro appartenenza. |
-| Funzione | Filtro cronologia eventi esperienza | Questa funzione consente all’orchestrazione di percorso B2B di utilizzare il coinvolgimento storico per indirizzare le decisioni basate sul comportamento per i membri del pubblico. |
-| Funzione | Decisioning percorso suddiviso percorso | Puoi ottimizzare il split path decisioning per percorsi di account e persone, perfezionando il modo in cui i tipi di pubblico vengono instradati tra i percorsi prima dell’attivazione del percorso o in fase di runtime. |
+| Funzione | Filtro cronologia eventi esperienza | Questa funzione consente all’orchestrazione di percorso B2B di utilizzare il coinvolgimento storico per indirizzare le decisioni basate sul comportamento per i membri del pubblico. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
+| Funzione | Nodi del percorso di percorsi migliore successivo | Puoi ottimizzare il split path decisioning per i percorsi di persone, perfezionando il modo in cui i tipi di pubblico vengono instradati tra i percorsi prima dell’attivazione del percorso o in fase di runtime. [Ulteriori informazioni](../journeys/next-best-path-node.md) |
 | Miglioramento | Competenze B2B in Audience Agent | Vengono aggiornate le competenze B2B di Audience Agent, inclusa la creazione di modelli di gruppi di acquisto basati sull’intelligenza artificiale. Utilizza la mappatura intento e utente tipo di prima parte per generare modelli di gruppi di acquisto, esaminare le mappature da ruolo a utente consigliate dall’intelligenza artificiale e perfezionare i modelli con linguaggio naturale prima di pubblicarli. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
 | Miglioramento | Rapporto sulle prestazioni del coinvolgimento e-mail | Il rapporto Prestazioni del coinvolgimento e-mail offre agli addetti al marketing una visualizzazione unificata delle attività e-mail in tutti i percorsi in Adobe Journey Optimizer B2B edition. |
 | Miglioramento | Dashboard panoramica dei Percorsi di persone | Questa dashboard offre una panoramica completa dei percorsi di persone attive. |
