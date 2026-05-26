@@ -29,13 +29,13 @@ ht-degree: 11%
 
 # Seleziona eventi e campi esperienza
 
-Gli amministratori possono selezionare [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} specifici e i campi associati nello schema di unione Experience Event. Dopo la selezione, gli utenti possono configurare le regole di decisione per ascoltare tali eventi esperienza al fine di abilitare azioni di campagna dinamiche e mirate basate su dati di eventi in tempo quasi reale.
+Gli amministratori possono selezionare [AEP Experience Events](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} specifici e i campi associati nello schema di unione Experience Event. Dopo la selezione, gli utenti possono configurare le regole di decisione per ascoltare tali eventi esperienza al fine di abilitare azioni di campagna dinamiche e mirate basate su dati di eventi in tempo quasi reale.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
 >[!PREREQUISITES]
 >
->L’utilizzo dei campi e degli eventi esperienza in Journey Optimizer B2B edition richiede schemi Experience Event abilitati per il profilo. Per ulteriori informazioni, consulta [Abilitare Real-Time Customer Profiles](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} nelle esercitazioni di Experience Platform.
+>L’utilizzo dei campi e degli eventi esperienza in Journey Optimizer B2B edition richiede schemi Experience Event abilitati per il profilo. Per ulteriori informazioni, consulta [Abilitare Real-Time Customer Profiles](https://experienceleague.adobe.com/it/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} nelle esercitazioni di Experience Platform.
 
 L’utilizzo degli eventi di esperienza di AEP nei percorsi è un processo in due fasi:
 
