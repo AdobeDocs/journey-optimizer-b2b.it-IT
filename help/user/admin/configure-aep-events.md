@@ -3,7 +3,6 @@ title: Seleziona eventi e campi esperienza
 description: Seleziona i campi e gli eventi di Experience Platform per attivare il decisioning in tempo reale nei percorsi in base al comportamento del cliente.
 feature: Setup, Integrations
 role: Admin
-badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
 product_v2:
@@ -20,9 +19,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
+source-git-commit: 5a18693617ebd20fe3d552d9bbc236888348ad57
 workflow-type: tm+mt
-source-wordcount: 1608
+source-wordcount: 1605
 ht-degree: 11%
 
 ---
@@ -48,7 +47,7 @@ L’utilizzo degli eventi di esperienza di AEP nei percorsi è un processo in du
 
 >[!BEGINSHADEBOX]
 
-## Linee guida e limitazioni
+## Linee guida e limitazioni {#guidelines-and-limitations}
 
 Quando selezioni gli eventi per soddisfare gli obiettivi organizzativi, considera quanto segue:
 
@@ -62,11 +61,11 @@ Quando selezioni gli eventi per soddisfare gli obiettivi organizzativi, consider
 
 * Quando utilizzi un evento esperienza e pubblichi il percorso, puoi aggiungere altri campi, ma non puoi rimuovere i campi precedentemente selezionati.
 
-* Puoi fare riferimento a un evento esperienza in più percorsi o utilizzare lo stesso evento più volte all’interno dello stesso percorso.
+* Puoi fare riferimento a un evento esperienza in più percorsi o utilizzarlo più volte nello stesso percorso.
 
 >[!ENDSHADEBOX]
 
-## Gestire gli eventi esperienza
+## Gestire gli eventi esperienza {#manage-experience-events}
 
 1. Nel menu di navigazione a sinistra, scegli **[!UICONTROL Amministrazione]** > **[!UICONTROL Configurazioni]**.
 
@@ -80,7 +79,7 @@ Quando selezioni gli eventi per soddisfare gli obiettivi organizzativi, consider
 
    Per accedere ai dettagli di un evento selezionato, fai clic sul nome dell’evento.
 
-### Filtrare l’elenco degli eventi
+### Filtrare l’elenco degli eventi {#filter-the-event-list}
 
 Immetti il testo nel campo _[!UICONTROL Ricerca]_ per filtrare gli eventi visualizzati in base a una corrispondenza con il nome dell&#39;evento.
 
@@ -89,10 +88,6 @@ Immetti il testo nel campo _[!UICONTROL Ricerca]_ per filtrare gli eventi visual
 ### Aggiungi un evento {#add-an-event}
 
 Per rendere disponibile un evento esperienza per un nodo _Ascolta un evento_ in un percorso, selezionare l&#39;evento e i campi supportati.
-
->[!NOTE]
->
->Nella versione beta, non è possibile rimuovere gli eventi dall’elenco. Assicurati che ogni evento aggiunto sia quello che la tua organizzazione intende utilizzare.
 
 1. Fai clic su **[!UICONTROL Seleziona evento esperienza]** in alto a destra.
 
@@ -142,19 +137,23 @@ Modifica i dettagli dell’evento per modificare i campi.
 
 1. Fai clic su **[!UICONTROL Seleziona]** per salvare le selezioni.
 
-### Rimuovere un evento
+### Rimuovere un evento {#remove-an-event}
 
->[!NOTE]
->
->Per il rilascio Beta di questa funzione, non è possibile rimuovere un evento dall’elenco degli eventi selezionati. La rimozione degli eventi è pianificata per la versione GA.
+Per evitare che un evento esperienza venga utilizzato in un nodo _Ascolta un evento_ all&#39;interno di un percorso, rimuovi l&#39;evento. Non puoi rimuovere un evento se è utilizzato da un percorso con stato _Pianificato_, _Live_ o _Completato_.
 
-## Eventi e campi
+1. Fai clic sull&#39;icona _Altro menu_ ( **...** ) accanto al nome dell&#39;evento e scegli **[!UICONTROL Rimuovi]**.
+
+1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Rimuovi]**.
+
+   ![Conferma la rimozione dell&#39;evento](./assets/configurations-xdm-events-remove.png){width="500" zoomable="yes"}
+
+## Eventi e campi {#events-and-fields}
 
 Per [!DNL Journey Optimizer B2B Edition], alcune attività a livello di persone vengono acquisite come [!DNL Experience Platform] eventi esperienza. Questi eventi vengono memorizzati in un set di dati di sistema che utilizza lo schema XDM Experience Event e include gruppi di campi specifici per il percorso. È possibile utilizzare questi eventi in [!UICONTROL Journey Optimizer B2B edition] come qualsiasi altro evento esperienza.
 
 Ogni evento espone un set definito di campi che possono essere utilizzati nel percorso _Ascolta un evento_ nodi (decisioning basato sugli eventi). Esamina i tipi di evento disponibili e i relativi campi per determinare quale evento e campi utilizzare in questi nodi di percorso:
 
-### E-mail inviata
+### E-mail inviata {#email-sent}
 
 Questo evento tiene traccia di quando un’e-mail di marketing è stata inviata a una persona.
 
@@ -182,7 +181,7 @@ Tipo evento: `directMarketing.emailSent`
 
 +++
 
-### E-mail consegnata
+### E-mail consegnata {#email-delivered}
 
 Questo evento tiene traccia di quando un’e-mail è stata recapitata correttamente al servizio e-mail di un utente.
 
@@ -210,7 +209,7 @@ Tipo evento: `directMarketing.emailDelivered`
 
 +++
 
-### E-mail aperta
+### E-mail aperta {#email-opened}
 
 Questo evento tiene traccia di quando una persona ha aperto un’e-mail di marketing.
 
@@ -242,7 +241,7 @@ Tipo evento: `directMarketing.emailOpened`
 
 +++
 
-### E-mail cliccata
+### E-mail cliccata {#email-clicked}
 
 Questo evento tiene traccia di quando una persona ha fatto clic su un collegamento in un’e-mail di marketing.
 
@@ -275,7 +274,7 @@ Tipo evento: `directMarketing.emailClicked`
 
 +++
 
-### E-mail non recapitata
+### E-mail non recapitata {#email-bounced}
 
 Questo evento tiene traccia di quando un’e-mail inviata a una persona non viene recapitata.
 
@@ -306,7 +305,7 @@ Tipo evento: `directMarketing.emailBounced`
 
 +++
 
-### E-mail con mancato recapito non permanente
+### E-mail con mancato recapito non permanente {#email-bounced-soft}
 
 Questo evento tiene traccia dei mancati recapiti non permanenti di un’e-mail a una persona.
 
@@ -337,7 +336,7 @@ Tipo evento: `directMarketing.emailBouncedSoft`
 
 +++
 
-### Annullamento iscrizione e-mail
+### Annullamento iscrizione e-mail {#email-unsubscribed}
 
 Questo evento tiene traccia di quando una persona ha annullato l’abbonamento a un’e-mail di marketing.
 
@@ -365,7 +364,7 @@ Tipo evento: `directMarketing.emailUnsubscribed`
 
 +++
 
-### Visita pagina web
+### Visita pagina web {#visit-web-page}
 
 Questo tipo di evento è il metodo standard per contrassegnare l’hit come visualizzazione di pagina.
 
@@ -396,7 +395,7 @@ Tipo evento: `web.webpagedetails.pageViews`
 
 +++
 
-### Modulo compilato
+### Modulo compilato {#form-filled-out}
 
 Questo evento tiene traccia di quando una persona ha compilato un modulo su una pagina web.
 
@@ -427,7 +426,7 @@ Tipo evento: `web.formFilledOut`
 
 +++
 
-### Collegamento web su cui è stato fatto clic
+### Collegamento web su cui è stato fatto clic {#web-link-clicked}
 
 L&#39;evento segnala che il Web SDK ha registrato automaticamente un clic di collegamento.
 
@@ -458,7 +457,7 @@ Tipo evento: `web.webinteraction.linkClicks`
 
 +++
 
-### Momento interessante
+### Momento interessante {#interesting-moment}
 
 Questo evento tiene traccia di quando è stato registrato un momento interessante per una persona.
 
