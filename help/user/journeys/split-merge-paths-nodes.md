@@ -5,11 +5,17 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
 source-git-commit: f20c8fb32fab59d5bb15017577b75a2358b66b10
@@ -37,7 +43,7 @@ Un nodo _Percorsi suddivisi_ definisce uno o più percorsi segmentati in base ai
 
 I percorsi suddivisi per account possono includere azioni ed eventi sia per gli account che per le persone. Questi percorsi possono essere ulteriormente suddivisi.
 
-_**Funzionamento di un percorso suddiviso per nodo account**_
+_&#x200B;**Funzionamento di un percorso suddiviso per nodo account**&#x200B;_
 
 * Ogni percorso aggiunto include un nodo finale con la possibilità di aggiungere nodi a ogni nodo edge.
 * È possibile nidificare il percorso suddiviso per nodi di account (è possibile dividerlo più volte per account).
@@ -129,7 +135,7 @@ _(percorsi di account e persone)_
 
 I percorsi Dividi per persone possono includere solo azioni persone. Questi percorsi non possono essere nuovamente suddivisi e uniti automaticamente.
 
-_**Funzionamento di un percorso suddiviso per nodo persone**_
+_&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 
 * I nodi suddivisi per persone funzionano all&#39;interno di una combinazione di _nodo raggruppato_ split-merge. I percorsi suddivisi si uniscono automaticamente in modo che tutte le persone possano passare al passaggio successivo senza perdere il contesto dell’account.
 * I nodi Dividi per persone non possono essere nidificati (non è possibile aggiungere un percorso diviso per le persone in un percorso che si trova in questo nodo raggruppato).
@@ -227,7 +233,7 @@ Puoi perfezionare ulteriormente il filtro utilizzando vincoli specifici per i ca
 
 >[!BEGINSHADEBOX &quot;Filtro inattività&quot;]
 
-Per ciascuno dei filtri _[!UICONTROL Cronologia eventi]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa al filtro di inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Ad esempio, aggiungi il filtro _[!UICONTROL E-mail marketing diretto aperto]_ per creare un percorso per le persone che _**non hanno**_ aperto un&#39;e-mail. Abilita l’opzione di inattività e specifica l’e-mail.
+Per ciascuno dei filtri _[!UICONTROL Cronologia eventi]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa al filtro di inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Ad esempio, aggiungi il filtro _[!UICONTROL E-mail marketing diretto aperto]_ per creare un percorso per le persone che _&#x200B;**non hanno**&#x200B;_ aperto un&#39;e-mail. Abilita l’opzione di inattività e specifica l’e-mail.
 
 ![Dividi percorso per condizione di inattività persone](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
