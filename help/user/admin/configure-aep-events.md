@@ -20,9 +20,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 8a0bb99acd71950d1b43732002e9e4d09bfd86b4
+source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
 workflow-type: tm+mt
-source-wordcount: 1522
+source-wordcount: 1608
 ht-degree: 11%
 
 ---
@@ -39,12 +39,12 @@ Gli amministratori possono selezionare [AEP Experience Events](https://experienc
 
 L’utilizzo degli eventi di esperienza di AEP nei percorsi è un processo in due fasi:
 
-1. Un amministratore [aggiunge eventi esperienza AEP e campi](#add-an-event) nelle configurazioni di Journey Optimizer B2B edition.
+1. Un amministratore [aggiunge i campi e gli eventi di esperienza AEP](#add-an-event) nelle configurazioni di Journey Optimizer B2B edition.
 
-2. In un percorso, un addetto marketing aggiunge un nodo _Ascolta un evento_ e [seleziona un evento esperienza](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+1. In un percorso, un addetto al marketing utilizza gli eventi configurati in uno dei due modi seguenti:
 
-   * Seleziona l&#39;evento da utilizzare nel nodo.
-   * Seleziona i campi da utilizzare come vincoli.
+   * Aggiunge un nodo _Ascolta un evento_ e [seleziona un evento esperienza](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) per attivare la progressione del percorso in base all&#39;attività evento in tempo reale durante il percorso.
+   * Aggiunge un nodo _Dividi percorsi per persone_ e configura un percorso per [filtrare su un evento](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) dalla cartella **[!UICONTROL Event history]**.
 
 >[!BEGINSHADEBOX]
 
@@ -56,11 +56,13 @@ Quando selezioni gli eventi per soddisfare gli obiettivi organizzativi, consider
 
 * I percorsi possono ascoltare gli eventi esperienza acquisiti utilizzando le funzionalità di streaming di Experience Platform, come Web SDK o API HTTP.
 
-* Puoi utilizzare gli eventi esperienza a scopo decisionale all’interno di un percorso, ma non vengono mantenuti. Pertanto, non puoi sfruttare un record storico di eventi esperienza in Journey Optimizer B2B edition.
+* I dati cronologici dell’evento esperienza iniziano a accumularsi per una persona quando l’evento esiste nel database di Journey Optimizer B2B edition. Per le persone che esistono già al momento della configurazione di un tipo di evento, la retrocompilazione inizia al momento della configurazione. Per le nuove persone, l’accumulo inizia quando la persona viene aggiunta per la prima volta (la sua storia precedente non è disponibile retroattivamente).
+
+* Attualmente non esiste alcun meccanismo di eliminazione per la cronologia degli eventi accumulati. I criteri di conservazione a lungo termine sono soggetti a modifiche.
 
 * Quando utilizzi un evento esperienza e pubblichi il percorso, puoi aggiungere altri campi, ma non puoi rimuovere i campi precedentemente selezionati.
 
-* Puoi fare riferimento a un evento esperienza in più percorsi o utilizzarne uno più di una volta nello stesso percorso.
+* Puoi fare riferimento a un evento esperienza in più percorsi o utilizzare lo stesso evento più volte all’interno dello stesso percorso.
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +70,7 @@ Quando selezioni gli eventi per soddisfare gli obiettivi organizzativi, consider
 
 1. Nel menu di navigazione a sinistra, scegli **[!UICONTROL Amministrazione]** > **[!UICONTROL Configurazioni]**.
 
-1. Fai clic su **[!UICONTROL Classi XDM]** nel pannello intermedio, quindi fai clic sulla scheda **[!UICONTROL Eventi]** per visualizzare l&#39;elenco degli eventi disponibili.
+1. Fai clic su **[!UICONTROL Configurazioni XDM]** nel pannello intermedio, quindi fai clic sulla scheda **[!UICONTROL Eventi]** per visualizzare l&#39;elenco degli eventi disponibili.
 
    ![Accedi agli eventi esperienza selezionati](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
@@ -84,7 +86,7 @@ Immetti il testo nel campo _[!UICONTROL Ricerca]_ per filtrare gli eventi visual
 
 ![Filtra l&#39;elenco degli eventi selezionati per nome](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
 
-### Aggiungi un evento
+### Aggiungi un evento {#add-an-event}
 
 Per rendere disponibile un evento esperienza per un nodo _Ascolta un evento_ in un percorso, selezionare l&#39;evento e i campi supportati.
 
@@ -126,7 +128,7 @@ Per rendere disponibile un evento esperienza per un nodo _Ascolta un evento_ in 
 
 L&#39;evento salvato viene visualizzato nell&#39;elenco della scheda _[!UICONTROL Eventi]_.
 
-### Modificare un evento
+### Modificare un evento {#edit-an-event}
 
 Modifica i dettagli dell’evento per modificare i campi.
 
@@ -134,7 +136,9 @@ Modifica i dettagli dell’evento per modificare i campi.
 
    ![Fare clic sull&#39;icona Altro](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
-1. Fai clic su **[!UICONTROL Modifica campi]** per aggiungere altri campi o rimuovere selezioni esistenti nella finestra di dialogo _[!UICONTROL Seleziona campi]_.
+1. Fai clic su **[!UICONTROL Modifica campi]** per aprire la finestra di dialogo _[!UICONTROL Seleziona campi]_ e aggiungere altri campi.
+
+   Non puoi rimuovere i campi precedentemente selezionati dopo la pubblicazione di un percorso che utilizza questo evento.
 
 1. Fai clic su **[!UICONTROL Seleziona]** per salvare le selezioni.
 
@@ -170,8 +174,8 @@ Tipo evento: `directMarketing.emailSent`
 | Chiave sorgente della persona | `personKey.sourceKey` |
 | ID origine e-mail | `directMarketing.emailSent.mailingKey.sourceID` |
 | Tipo di origine e-mail | `directMarketing.emailSent.mailingKey.sourceType` |
-| ID istanza origine e-mail | `directMarketing.emailSent.mailingKey.sourceInstanceID ` |
-| Chiave sorgente e-mail | `directMailing.emailSent.mailingKey.sourceKey` |
+| ID istanza origine e-mail | `directMarketing.emailSent.mailingKey.sourceInstanceID` |
+| Chiave sorgente e-mail | `directMarketing.emailSent.mailingKey.sourceKey` |
 | Nome mailing | `directMarketing.emailSent.mailingName` |
 | ID PERCORSO | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
@@ -182,7 +186,7 @@ Tipo evento: `directMarketing.emailSent`
 
 Questo evento tiene traccia di quando un’e-mail è stata recapitata correttamente al servizio e-mail di un utente.
 
-Tipo evento: `directMarketing.emailDelivered `
+Tipo evento: `directMarketing.emailDelivered`
 
 +++Campi
 
@@ -337,7 +341,7 @@ Tipo evento: `directMarketing.emailBouncedSoft`
 
 Questo evento tiene traccia di quando una persona ha annullato l’abbonamento a un’e-mail di marketing.
 
-Tipo evento: `directMarketing.emailUnsubscribed `
+Tipo evento: `directMarketing.emailUnsubscribed`
 
 +++Campi
 
@@ -458,7 +462,7 @@ Tipo evento: `web.webinteraction.linkClicks`
 
 Questo evento tiene traccia di quando è stato registrato un momento interessante per una persona.
 
-Tipo evento: `leadOperation.interestingMoment `
+Tipo evento: `leadOperation.interestingMoment`
 
 +++Campi
 

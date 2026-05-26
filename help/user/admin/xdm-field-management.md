@@ -20,10 +20,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
 workflow-type: tm+mt
-source-wordcount: 1192
-ht-degree: 87%
+source-wordcount: 1191
+ht-degree: 79%
 
 ---
 
@@ -31,21 +31,21 @@ ht-degree: 87%
 
 I campi Experience Data Model (XDM) sono elementi dello schema che forniscono dati all&#39;applicazione [!DNL Journey Optimizer B2B Edition]. Utilizza i campi XDM come filtri e vincoli nei nodi di percorso, nei gruppi di acquisto e per le funzioni di contenuto, come la personalizzazione delle e-mail e il contenuto condizionale.
 
-Gli schemi definiscono i campi in base alle classi XDM standard. Le classi XDM standard includono Profilo individuale, Account aziendale ed Evento esperienza. Gli schemi relazionali definiscono inoltre campi che consentono di modellare i dati strutturati in modo simile ai database relazionali tradizionali.
+Gli schemi definiscono i campi in base ai profili XDM standard. Le configurazioni XDM standard includono Profilo individuale, Account aziendale ed Evento esperienza. Gli schemi relazionali definiscono inoltre campi che consentono di modellare i dati strutturati in modo simile ai database relazionali tradizionali.
 
 Gli schemi di Adobe Experience Platform (AEP) in genere contengono molti campi in gerarchie complesse. L’attraversamento degli alberi dello schema XDM richiede tempo. La gestione dei campi XDM semplifica la selezione dei campi visualizzando solo i campi rilevanti per i percorsi, i gruppi di acquisto e la personalizzazione.  Gli amministratori abilitano questi campi per l’utilizzo in Journey Optimizer B2B edition, inclusi quelli di sola lettura o modificabili.
 
-Gli amministratori che conoscono XDM e collaborano con data engineer o con le parti interessate alla modellazione dati di Customer Data Platform (CDP) B2B devono utilizzare i passaggi seguenti per configurare le classi XDM per [!DNL Journey Optimizer B2B Edition].
+Gli amministratori che conoscono XDM e collaborano con data engineer o con le parti interessate alla modellazione dati di Customer Data Platform (CDP) B2B devono utilizzare i passaggi seguenti per configurare i campi XDM per [!DNL Journey Optimizer B2B Edition].
 
-## Accedere alle classi XDM
+## Accedere alle configurazioni XDM
 
 1. Nel menu di navigazione a sinistra, scegli **[!UICONTROL Amministrazione]** > **[!UICONTROL Configurazione]**.
 
-1. Fai clic su **[!UICONTROL Classi XDM]** nel pannello intermedio.
+1. Fai clic su **[!UICONTROL Configurazioni XDM]** nel pannello intermedio.
 
    * Utilizza le schede **[!UICONTROL Standard]** e **[!UICONTROL Relazionale]** per aggiungere nuovi campi e renderli disponibili in Journey Optimizer B2B edition.
 
-   * Utilizza la scheda **Eventi** per [selezionare eventi esperienza AEP specifici e i campi associati](./configure-aep-events.md) da utilizzare per i nodi evento di percorso.
+   * Utilizza la scheda **[!UICONTROL Eventi]** per [selezionare eventi esperienza AEP specifici e i campi associati](./configure-aep-events.md) da utilizzare per i nodi evento di percorso.
 
 ## Selezioni campi
 
@@ -59,14 +59,14 @@ Per effettuare le selezioni dei campi, attenersi alla seguente linea guida:
 * L’eliminazione, la ridenominazione o la modifica dei tipi di campo possono causare problemi di funzionalità del percorso. Presta attenzione durante la manipolazione degli schemi.
 * Non rinominare o eliminare schemi o modificare le chiavi negli schemi relazionali.
 
-### Classi standard
+### Schemi standard
 
 Nella scheda _[!UICONTROL Standard]_ è possibile modificare _Campi gestiti_ e _Campi aggiornabili_ per le classi standard:
 
 * I campi gestiti vengono visualizzati in percorsi, gruppi di acquisto e funzioni di personalizzazione.
 * I campi aggiornabili fungono da vincoli per i nodi di percorso _Aggiorna profilo account_ e _Aggiorna profilo persona_.
 
-![Scheda Classi standard che mostra la configurazione della classe XDM](assets/xdm-standard.png){width="600" zoomable="yes"}
+![Scheda Classi standard con la configurazione XDM](./assets/xdm-standard.png){width="600" zoomable="yes"}
 
 L’elenco include due classi:
 
@@ -91,11 +91,11 @@ Per selezionare i campi dallo schema di unione, fai clic sul nome della classe p
 
 Quando si sceglie **[!UICONTROL Campi gestiti]**, nella finestra di dialogo _Seleziona campi_ sono elencati tutti i campi configurabili.
 
-1. Seleziona fino a 100 campi per ogni classe XDM.
+1. Seleziona fino a 100 campi per ogni schema XDM.
 
    Utilizza il campo _[!UICONTROL Ricerca]_ per filtrare l&#39;elenco visualizzato in base al nome. Utilizza il cursore **[!UICONTROL Mostra solo campi selezionati]** per rivedere le selezioni correnti.
 
-   ![Finestra di dialogo per la selezione dei campi gestiti per le classi XDM standard che visualizzano le opzioni dei campi configurabili](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
+   ![Finestra di dialogo per la selezione dei campi gestiti per gli schemi XDM standard che visualizzano le opzioni dei campi configurabili](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare le tue selezioni.
 
@@ -110,7 +110,7 @@ Prima di configurare i campi aggiornabili, questi devono trovarsi in un set di d
 >Guardrail per campi aggiornabili:
 >
 >* Schemi - Lo schema deve utilizzare l&#39;identità primaria della persona B2B (`b2b.personKey.sourceKey`). Nella classe XDM Individual Profile, tutti i campi obbligatori nello schema devono essere definiti dal sistema, ad esempio `identityMap` o `personID`.
->* Set di dati: non utilizzare un set di dati già in uso per un altro scopo. Come best practice, crea set di dati dedicati per l’archiviazione di campi aggiornabili. Utilizza un set di dati separato per ogni classe XDM.
+>* Set di dati: non utilizzare un set di dati già in uso per un altro scopo. Come best practice, crea set di dati dedicati per l’archiviazione di campi aggiornabili. Utilizza un set di dati separato per ogni schema XDM.
 
 Crea un set di dati per Profilo individuale e un altro per Account aziendale. Seleziona ogni nuovo set di dati durante il processo di configurazione:
 

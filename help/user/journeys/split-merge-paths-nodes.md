@@ -1,6 +1,6 @@
 ---
 title: Dividi e unisci percorsi
-description: Crea nodi di percorsi suddivisi e di unione per segmentare account e persone con logica condizionale, filtrare per gruppi di acquisto e riunire percorsi in Journey Optimizer B2B edition.
+description: Suddividi e unisci i percorsi del percorso per segmentare gli account o le persone in base a condizioni, gruppi di acquisto e cronologia degli eventi in Journey Optimizer B2B edition.
 feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
@@ -18,14 +18,14 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: f20c8fb32fab59d5bb15017577b75a2358b66b10
 workflow-type: tm+mt
-source-wordcount: 2744
-ht-degree: 4%
+source-wordcount: 2550
+ht-degree: 3%
 
 ---
 
-# Dividere e unire i percorsi
+# Dividere e unire i percorsi {#split-paths}
 
 Utilizza i nodi di percorsi di unione e suddivisione per segmentare persone o account in base alle condizioni definite. Crea percorsi per il pubblico o l’elenco di account in base alle condizioni, definisci ogni percorso con nodi di azione ed evento per il segmento, quindi combina i percorsi e continua il percorso.
 
@@ -37,9 +37,9 @@ Un nodo _Percorsi suddivisi_ definisce uno o più percorsi segmentati in base ai
 >
 >Sono supportati un massimo di 25 percorsi.
 
-## Dividere i percorsi per account
+## Dividere i percorsi per account {#split-paths-by-accounts}
 
-_(solo percorsi di account)_
+**_(solo percorsi di account)_**
 
 I percorsi suddivisi per account possono includere azioni ed eventi sia per gli account che per le persone. Questi percorsi possono essere ulteriormente suddivisi.
 
@@ -53,18 +53,13 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo account**&#x200B;_
 
 ![nodo Percorso - percorsi suddivisi per account](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
-### Condizioni del percorso dell’account
+### Condizioni del percorso dell’account {#account-path-filters}
 
 | Condizioni del percorso | Descrizione |
 | --------------- | ----------- |
 | [!UICONTROL Attributi account] | Attributi dal profilo dell’account, tra cui: <li>Ricavi annuali <li>Città <li>Paese <li>Numero dipendenti <li>Settore <li>Nome <li>Codice SIC <li>Stato |
-| [!UICONTROL Attributi Account] > Contiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funzione Beta"} L&#39;account non dispone di record dello schema relazionale. Può anche essere valutato in base a qualsiasi criterio oggetto personalizzato selezionato, come configurato nello schema relazionale [XDM](../admin/xdm-field-management.md#relational-schemas). (Vedi [Filtro dati personalizzato](#custom-data-filtering).) |
+| [!UICONTROL Oggetti personalizzati] > Contiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funzione Beta"} L&#39;account non dispone di record dello schema relazionale. Può anche essere valutato in base a qualsiasi criterio oggetto personalizzato selezionato, come configurato nello schema relazionale [XDM](../admin/xdm-field-management.md#relational-schemas). (Vedi [Filtro dati personalizzato](#custom-data-filtering).) |
 | [!UICONTROL Filtri speciali] > [!UICONTROL L&#39;account corrisponde al gruppo di acquisto] | L’account corrisponde a uno o più gruppi di acquisto. Può essere valutato in base a uno o più dei seguenti vincoli per un gruppo di acquisto abbinato: <li>Interesse soluzione <li>Fase gruppo acquisti <li>Stato gruppo acquisti <li>Punteggio di coinvolgimento <li>Punteggio di completezza <li> Numero di persone nel ruolo del gruppo acquisti |
-| [!UICONTROL Filtri speciali] > [!UICONTROL Ha un gruppo di acquisto] | L’account non ha membri di gruppi di acquisto. Può anche essere valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione <li>Fase gruppo acquisti <li>Stato gruppo acquisti <li>Punteggio di coinvolgimento <li>Punteggio di completezza |
-
->[!NOTE]
->
->Il filtro _[!UICONTROL Ha il gruppo acquisti]_ è contrassegnato per essere dichiarato obsoleto in futuro. Per i nuovi percorsi, utilizzare il filtro _[!UICONTROL Account con gruppo di acquisto]_ corrispondente, che include tutti gli stessi vincoli.
 
 ### Aggiungere un percorso di suddivisione per nodo account
 
@@ -108,7 +103,7 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo account**&#x200B;_
 
 ### Filtro gruppo acquisti per account {#buying-group-filtering-accounts}
 
-Puoi definire un percorso per gli account associati ai gruppi di acquisto e filtrarlo utilizzando i criteri del gruppo di acquisto. Utilizza il filtro **[!UICONTROL Account con gruppo di acquisto corrispondente]** per definire il segmento del percorso utilizzando un gruppo di acquisto corrispondente. Questo filtro include anche l’opzione di identificazione degli account in base al numero di ruoli assegnati all’interno di un gruppo di acquisto corrispondente.
+Puoi definire un percorso per gli account associati ai gruppi di acquisto e filtrarlo utilizzando i criteri del gruppo di acquisto. Utilizza il filtro **[!UICONTROL Account con gruppo di acquisto corrispondente]** per definire il segmento del percorso utilizzando un gruppo di acquisto corrispondente. Questo filtro include anche l’opzione per identificare gli account in base al numero di ruoli assegnati all’interno di un gruppo di acquisto corrispondente.
 
 Ad esempio, potrebbe essere utile valutare lo stato di preparazione di un gruppo di acquisto in base al livello di approfondimento (numero di persone) di cui dispone in ruoli diversi, ad esempio tre decision maker e due influencer. In questo caso, imposta la condizione per eseguire il targeting dei conti con un minimo di tre (3) decision maker e due (2) influencer in un gruppo di acquisto abbinato:
 
@@ -150,17 +145,13 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 
 ![Nodo percorso account - percorsi suddivisi per persone](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
-### Filtri percorso persone
+### Filtri percorso persone {#people-path-filters}
 
 | Filtri | Descrizione |
 | ------------ | ----------- |
-| [!UICONTROL Cronologia attività] > [!UICONTROL E-mail] | Attività e-mail basate su condizioni valutate utilizzando uno o più messaggi e-mail selezionati di versioni precedenti nel percorso: <li>[!UICONTROL Collegamento selezionato nell&#39;e-mail] <li>E-mail aperta <li>È stata consegnata un’e-mail <li>È stata inviata l&#39;e-mail <br>**[!UICONTROL Passa al filtro di inattività&#x200B;]**. Utilizzare questa opzione per filtrare in base alla mancanza di attività (una persona non aveva l&#39;attività e-mail). |
-| [!UICONTROL Cronologia attività] > [!UICONTROL Messaggio SMS] | Attività SMS basate su condizioni valutate utilizzando uno o più messaggi SMS selezionati da in precedenza nel percorso: <li>[!UICONTROL Collegamento selezionato in SMS] <li>[!UICONTROL SMS non recapitato] <br>**[!UICONTROL Passa al filtro di inattività&#x200B;]**. Utilizzare questa opzione per filtrare in base all&#39;assenza di attività (una persona non aveva l&#39;attività SMS). |
-| [!UICONTROL Cronologia attività] > [!UICONTROL Valore dati modificato] | Per un attributo persona selezionato, si è verificata una modifica del valore. Questi tipi di modifica includono: <li>Nuovo valore<li>Valore precedente<li>Motivo<li>Origine<li>Data dell’attività<li>Min numero di volte <br>**[!UICONTROL Passa al filtro di inattività&#x200B;]**. Utilizzare questa opzione per filtrare in base alla mancanza di attività (una persona non ha modificato il valore dei dati). |
-| [!UICONTROL Cronologia attività] > [!UICONTROL Momento di interesse] | Attività momento di interesse definita nell&#39;istanza [!DNL Marketo Engage] associata. I vincoli includono: <li>Milestone<li>E-mail<li><br>**[!UICONTROL Passa al filtro di inattività&#x200B;]**. Utilizzare questa opzione per filtrare in base alla mancanza di attività (una persona non ha avuto un momento di interesse). |
-| [!UICONTROL Cronologia attività] > [!UICONTROL Pagina Web visitata] | Attività pagina Web per una o più pagine Web gestite dall&#39;istanza [!DNL Marketo Engage] associata. I vincoli includono: <li>Pagina Web (obbligatoria)<li>Data dell’attività<li>Indirizzo IP del cliente <li>Querystring <li>Referrer <li>Agente utente <li>Motore di ricerca <li>Query di ricerca <li>URL personalizzato <li>Token <li>Browser <li>Piattaforma <li>Dispositivo <li>Min numero di volte <br>**[!UICONTROL Passa al filtro di inattività&#x200B;]**. Utilizzare questa opzione per filtrare in base alla mancanza di attività (una persona non ha visitato la pagina Web). |
+| [!UICONTROL Oggetti personalizzati] > Contiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funzione Beta"} La persona non dispone di record dello schema relazionale. Può anche essere valutato in base a qualsiasi criterio oggetto personalizzato selezionato, come configurato nello schema relazionale [XDM](../admin/xdm-field-management.md#relational-schemas). (Vedi [Filtro dati personalizzato](#custom-data-filtering)) |
+| [!UICONTROL Cronologia eventi] | Divide le persone in base agli eventi di esperienza che si sono verificati prima dell’ingresso nel percorso. Espandere la cartella per visualizzare tutti i tipi di evento configurati in [Amministrazione > Configurazione evento XDM](../admin/configure-aep-events.md) e selezionarne uno da aggiungere come filtro. I vincoli includono i campi dell’evento selezionato, un intervallo di tempo di lookback misurato dal momento in cui la persona entra nel percorso e un numero minimo facoltativo di volte. |
 | [!UICONTROL Attributi persona] | Attributi dal [profilo persona](../admin/field-mapping.md#xdm-business-person-attributes), inclusi: <li>Città <li>Paese <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area geografica dello stato dedotta <li>Titolo del processo <li>Cognome <li>Numero di cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato |
-| [!UICONTROL Attributi Persona] > Ha `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funzione Beta"} La persona non dispone di record dello schema relazionale. Può anche essere valutato in base a qualsiasi criterio oggetto personalizzato selezionato, come configurato nello schema relazionale [XDM](../admin/xdm-field-management.md#relational-schemas). (Vedi [Filtro dati personalizzato](#custom-data-filtering)) |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | (Obsoleto) La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>È stato rimosso</li><li>Ruolo</li> |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro dell&#39;elenco] | (Obsoleto) L&#39;utente è o non è membro di uno o più elenchi [!DNL Marketo Engage]. |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del programma] | (Obsoleto) L&#39;utente è o non è membro di uno o più programmi [!DNL Marketo Engage]. |
@@ -171,7 +162,7 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 | --------------- | ----------- |
 | [!UICONTROL Ruolo nell&#39;account] | Alla persona è o non è assegnata una mansione nell’account. Vincoli facoltativi: <li>Nome ruolo |
 
-### Aggiungere un percorso suddiviso per nodo persone
+### Aggiungere un percorso suddiviso per nodo persone {#add-a-split-path-by-people-node}
 
 >[!NOTE]
 >
@@ -224,21 +215,27 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 
    Quando hai definito le condizioni per ogni percorso per suddividere il pubblico a livello di persone, puoi aggiungere azioni che desideri eseguire sulle persone.
 
-### Filtro attività
+### Filtro cronologia eventi esperienza {#experience-event-history-filtering}
 
-Per un percorso suddiviso per persone, puoi definire un percorso in base all’attività della persona relativa a:
+Per un percorso suddiviso per persone, puoi definire un percorso in base agli eventi di esperienza che si sono verificati prima che la persona entrasse nel percorso. Nell&#39;editor condizioni espandere la cartella **[!UICONTROL Cronologia eventi]** per visualizzare un elenco di tutti i tipi di eventi configurati dall&#39;amministratore. Seleziona un tipo di evento per aggiungerlo come condizione di filtro.
 
-* Messaggi e-mail da prima nel percorso
-* Messaggi SMS da all’inizio del percorso
-* Modifica del valore dei dati nel profilo della persona
-* Momento di interesse (rilevato in [!DNL Marketo Engage]) associato a un&#39;e-mail, una pagina Web o una milestone
-* Visita a una pagina Web (rilevata in [!DNL Marketo Engage])
+L’intervallo di tempo di lookback per la cronologia degli eventi viene misurato indietro dal momento in cui la persona entra nel percorso. Una finestra di 30 giorni, ad esempio, valuta se l&#39;evento idoneo si è verificato nei 30 giorni precedenti l&#39;immissione del percorso.
+
+Puoi perfezionare ulteriormente il filtro utilizzando vincoli specifici per i campi dell’evento selezionato. I vincoli facoltativi **[!UICONTROL Numero minimo di volte]** e **[!UICONTROL Data attività]** vengono entrambi valutati nell&#39;intervallo di lookback definito. Poiché i dati della cronologia eventi vengono sincronizzati da Adobe Experience Platform, potrebbe verificarsi un breve ritardo prima che un evento recente diventi visibile a questo filtro.
+
+>[!NOTE]
+>
+>Gli eventi disponibili nella cartella [!UICONTROL Cronologia eventi] sono determinati dalle [Configurazioni eventi esperienza e campi](../admin/configure-aep-events.md).
+
+**Esempio:** Per indirizzare gli utenti che hanno fatto clic su un collegamento in un&#39;e-mail di marketing prima di entrare nel percorso, seleziona l&#39;evento di clic e-mail dalla cartella [!UICONTROL Event history], imposta l&#39;intervallo di lookback in modo che copra il periodo di tempo rilevante e applica eventuali vincoli a livello di campo (ad esempio un URL di collegamento specifico) in base alle esigenze.
+
+![Condizione Dividi percorso per persone per cronologia eventi](./assets/node-split-people-condition-event-history.png){width="700" zoomable="yes"}
 
 >[!BEGINSHADEBOX &quot;Filtro inattività&quot;]
 
-Per ciascuno dei filtri _[!UICONTROL Cronologia attività]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa a filtro inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Aggiungi ad esempio il filtro _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail aperte]_ per creare un percorso per le persone che _&#x200B;**non hanno**&#x200B;_ aperto un&#39;e-mail in precedenza nel percorso. Abilita l’opzione di inattività e specifica l’e-mail. È consigliabile utilizzare il vincolo _[!UICONTROL Data attività]_ per definire un periodo di tempo per l&#39;inattività.
+Per ciascuno dei filtri _[!UICONTROL Cronologia eventi]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa al filtro di inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Ad esempio, aggiungi il filtro _[!UICONTROL E-mail marketing diretto aperto]_ per creare un percorso per le persone che _&#x200B;**non hanno**&#x200B;_ aperto un&#39;e-mail. Abilita l’opzione di inattività e specifica l’e-mail.
 
-![Condizione Dividi percorso per persona per l&#39;acquisto dell&#39;iscrizione al gruppo](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
+![Dividi percorso per condizione di inattività persone](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -279,39 +276,21 @@ Per utilizzare l&#39;appartenenza all&#39;elenco in una condizione di suddivisio
 
 >[!ENDSHADEBOX]
 
-## Filtro dati personalizzato
+## Filtro dati personalizzato {#custom-data-filtering}
 
 [!BADGE Beta]{type=Informative tooltip="Funzione Beta"}
 
 Puoi utilizzare gli schemi relazionali (classi basate su modelli) per suddividere i percorsi per account o persone. Gli oggetti personalizzati sono definiti all&#39;interno di _schemi relazionali_ e un amministratore di prodotto può [configurare i campi dello schema relazionale](../admin/xdm-field-management.md#relational-schemas) in [!DNL Journey Optimizer B2B Edition]. I campi dello schema selezionati sono disponibili nell&#39;editor delle condizioni per l&#39;utilizzo in _percorso suddiviso per account_ e _percorso suddiviso per persone_ nodi.
 
-Per una condizione **[!UICONTROL Dividi percorso per account]**, utilizzare il campo di ricerca per filtrare l&#39;elenco in base al nome dell&#39;oggetto personalizzato in _[!UICONTROL Attributi account]_. Aggiungere la condizione e impostare il valore su `true` o `false`.
+Per una condizione **[!UICONTROL Dividi percorso per account]** o **[!UICONTROL Dividi percorso per persone]**, espandere _[!UICONTROL Oggetti personalizzati]_. Aggiungere la condizione e impostare il valore su `true` o `false`. Fare clic su **[!UICONTROL Aggiungi vincolo]** per utilizzare i valori dei campi per il filtro.
 
-![Esempio di condizioni degli attributi della persona per l&#39;oggetto personalizzato dello schema relazionale](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
+![Esempio di condizioni account per l&#39;oggetto personalizzato dello schema relazionale](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
 
-Per una condizione **[!UICONTROL Dividi percorso per persone]**, utilizzare il campo di ricerca per filtrare l&#39;elenco in base al nome dell&#39;oggetto personalizzato in _[!UICONTROL Attributi persona]_.
-
-![Esempio di condizioni degli attributi della persona per l&#39;oggetto personalizzato dello schema relazionale](./assets/node-split-paths-people-relational-schema.png){width="600" zoomable="yes"}
-
-<!--
- SPHR-21734
-
-Note: These are currently going under Account Attributes/Person Attributes folder, which is a bug. This will move to Special filters when resolved (? release).
--->
-
-## Unisci percorsi
+## Unisci percorsi {#merge-paths}
 
 Aggiungi un nodo _Unisci percorsi_ per combinare diversi _percorsi suddivisi per account_ nel percorso.
 
-1. Passa alla mappa del percorso.
-
-1. Fare clic sull&#39;icona più ( **+** ) in un percorso e scegliere **[!UICONTROL Dividi percorsi]**.
-
-1. Fai clic sul nodo diviso per aprirne le proprietà a destra.
-
-1. Fai clic su [!UICONTROL Aggiungi percorso] per creare tre percorsi.
-
-1. Aggiungi una combinazione di azioni ed eventi a ciascun percorso.
+1. In una mappa di percorso con un nodo diviso che ha tre o più percorsi, aggiungi una combinazione di azioni ed eventi a ciascun percorso.
 
 1. Fai clic sull&#39;icona più ( **+** ) per uno di questi percorsi e scegli **[!UICONTROL Unisci]** dalle opzioni visualizzate.
 
@@ -325,6 +304,6 @@ Aggiungi un nodo _Unisci percorsi_ per combinare diversi _percorsi suddivisi per
 
 1. Se necessario, puoi annullare l’unione dei percorsi tornando alle proprietà del nodo percorsi unione e deselezionando la casella di controllo per tutti i percorsi che desideri rimuovere.
 
-## Video di panoramica
+## Video di panoramica {#overview-video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3443264/?captions=ita&learn=on)

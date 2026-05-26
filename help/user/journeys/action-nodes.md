@@ -17,7 +17,7 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
 workflow-type: tm+mt
 source-wordcount: 2037
 ht-degree: 3%
@@ -53,7 +53,7 @@ In un percorso di account, utilizza un’azione sugli account quando desideri ap
 >
 >L&#39;azione _[!UICONTROL Valore dati modifica account]_ è obsoleta per la versione 2025.10. _[!UICONTROL Aggiorna profilo account]_ sostituisce questa azione in Journey Optimizer B2B edition.<br/>
 >
->Un amministratore può configurare gli attributi disponibili per l&#39;account aziendale XDM aggiornando i campi nelle _[!UICONTROL classi XDM]_ > _[!UICONTROL classi standard]_. Per ulteriori informazioni, vedere [Classi standard](../admin/xdm-field-management.md#standard-classes).
+>Un amministratore può configurare gli attributi disponibili per l&#39;account aziendale XDM aggiornando i campi nelle _[!UICONTROL configurazioni XDM]_ > _[!UICONTROL classi standard]_. Per ulteriori informazioni, vedere [Classi standard](../admin/xdm-field-management.md#standard-classes).
 
 ### Aggiungere un’azione basata sull’account
 
@@ -272,7 +272,7 @@ Utilizzare questa azione per modificare il valore di un attributo del profilo [p
 >
 >L&#39;azione _[!UICONTROL Modifica valore dati]_ nella versione corrente di Journey Optimizer B2B edition è sostituita dall&#39;azione _[!UICONTROL Aggiorna profilo persona]_.<br/>
 >
->Un amministratore può configurare gli attributi disponibili per il profilo individuale XDM aggiornando i campi nelle _[!UICONTROL classi XDM]_ > [!UICONTROL classi standard]. Per ulteriori informazioni, vedere [Classi standard](../admin/xdm-field-management.md#standard-classes).
+>Un amministratore può configurare gli attributi disponibili per il profilo individuale XDM aggiornando i campi nelle _[!UICONTROL configurazioni XDM]_ > [!UICONTROL classi standard]. Per ulteriori informazioni, vedere [Classi standard](../admin/xdm-field-management.md#standard-classes).
 
 +++
 

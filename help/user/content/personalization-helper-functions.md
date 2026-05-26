@@ -21,7 +21,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 TQID: https://experienceleague.adobe.com/79OalHOVUw0jEO-mFXa76-sQFE36zguoBwpmdg0TUB4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: cb8dacee0c668c8048193fb0d4ee38d742a38f71
 workflow-type: tm+mt
 source-wordcount: 4930
 ht-degree: 6%
@@ -1572,7 +1572,7 @@ Some edu specific content
 
 Utilizza l&#39;helper `each` per eseguire l&#39;iterazione su un array.
 
-La struttura helper è ```{{#each ArrayName}}``` YourContent `{{/each}}`
+La struttura helper è `{{#each ArrayName}}` YourContent `{{/each}}`
 
 È possibile utilizzare la parola chiave `this` all&#39;interno del blocco per fare riferimento ai singoli elementi dell&#39;array. Utilizzare `{{@index}}` per eseguire il rendering dell&#39;indice dell&#39;elemento dell&#39;array.
 
