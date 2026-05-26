@@ -3,23 +3,16 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: b52b85ffa6f81bc05ebde6d9171c85a65802e616
+source-git-commit: 4582cce8bf46ca36c09c830a9a965da1d56b840a
 workflow-type: tm+mt
-source-wordcount: 5096
+source-wordcount: 5092
 ht-degree: 67%
 
 ---
@@ -245,8 +238,8 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Funzione | Elenchi account | Ora puoi creare un elenco account statico o dinamico per eseguire il targeting di account denominati in base a criteri definiti, ad esempio settore, posizione o dimensioni dell’azienda. <a href="../accounts/account-lists.md">Ulteriori informazioni</a> |
 | Funzione | Orchestrazione dei percorsi dell’elenco account | Utilizza i nodi delle azioni di percorso per aggiungere e rimuovere account per gli elenchi di account statici. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Ulteriori informazioni</a> |
 | Miglioramento | Filtrare l’iscrizione al percorso in Marketo Engage | Utilizza gli elenchi account di Adobe Journey Optimizer B2B Edition per il pubblico del percorso, quindi utilizza il filtro _Membro di un elenco account_ negli elenchi avanzati di Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Ulteriori informazioni</a> |
-| Funzione | Filtri di inattività | Orchestra i percorsi in base all’inattività nelle campagne e nei programmi di Marketo Engage, inclusi inattività delle e-mail, momenti interessanti, modifiche al valore dei dati e pagine web visitate. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Ulteriori informazioni</a> |
-| Miglioramento | Filtro pagina web visitata | Orchestra i percorsi in base all’attività per le pagine web visitate associate a campagne e programmi di Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">Ulteriori informazioni</a> |
+| Funzione | Filtri di inattività | Orchestra i percorsi in base all’inattività nelle campagne e nei programmi di Marketo Engage, inclusi inattività delle e-mail, momenti interessanti, modifiche al valore dei dati e pagine web visitate. |
+| Miglioramento | Filtro pagina web visitata | Orchestra i percorsi in base all’attività per le pagine web visitate associate a campagne e programmi di Marketo Engage. |
 | Miglioramento | Elenco di e-mail | Visualizza un elenco globale di e-mail attive e bozze per eseguirne la ricerca, la revisione e l’aggiornamento nei percorsi di account associati. <a href="../content/emails-list.md">Ulteriori informazioni</a> |
 
 ## Note sulla versione 2025.3 {#rel-2025-3}

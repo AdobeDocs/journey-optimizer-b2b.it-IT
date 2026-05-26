@@ -4,22 +4,17 @@ description: 'Configurare i nodi evento per i trigger account e persone: ascolta
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 8a0bb99acd71950d1b43732002e9e4d09bfd86b4
+source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
 workflow-type: tm+mt
-source-wordcount: 1844
-ht-degree: 12%
+source-wordcount: 1879
+ht-degree: 11%
 
 ---
 
@@ -65,6 +60,10 @@ In un percorso di account, è possibile ascoltare un evento basato sull&#39;acco
 ## Eventi persone
 
 In un percorso di account, puoi ascoltare un evento basato sulle persone quando desideri spostare l’account in avanti nel percorso in base agli eventi attivati dall’attività delle persone. Puoi anche filtrare gli eventi in base agli attributi delle persone.
+
+>[!TIP]
+>
+>Per instradare le persone in base agli eventi di esperienza che si sono verificati _prima_ quando sono entrate nel percorso (ad esempio un clic e-mail precedente o un&#39;interazione Web), utilizza il filtro [!UICONTROL Event history] in un nodo [Split paths by people](./split-merge-paths-nodes.md#experience-event-history-filtering).
 
 ### Eventi e vincoli
 
@@ -145,9 +144,9 @@ Se nell’istanza Marketo Engage connessa sono presenti pagine web, puoi attivar
 
 1. Nella mappa del percorso, aggiungi il nodo successivo da eseguire quando si verifica l’evento.
 
-### Ascolta un evento esperienza
+### Ascolta un evento esperienza {#listen-for-an-experience-event}
 
-Gli amministratori possono selezionare [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale. L’utilizzo degli eventi esperienza nei percorsi è un processo in due fasi:
+Gli amministratori possono selezionare [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale. L’utilizzo degli eventi esperienza nei percorsi è un processo in due fasi:
 
 1. Un amministratore [aggiunge i tipi di evento e i campi di interesse](../admin/configure-aep-events.md#add-an-event) per renderli disponibili in percorsi.
 
@@ -238,5 +237,5 @@ Se necessario, definisci il tempo di attesa dell’evento da parte del percorso.
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443242/?captions=ita&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->
