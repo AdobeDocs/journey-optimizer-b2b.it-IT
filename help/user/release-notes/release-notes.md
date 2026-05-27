@@ -17,7 +17,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: ae856607a1ded85eee6bef6d3fee7e46456e23b3
+source-git-commit: e1d68e75c6bcbab943f3ddf8326f4f9ffb4922c4
 workflow-type: tm+mt
 source-wordcount: 5116
 ht-degree: 66%
@@ -45,8 +45,8 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | Funzione | Membro del filtro Elenco account | Utilizzare l&#39;appartenenza a Elenchi account come punto di orchestrazione nei percorsi di account. Gli addetti al marketing possono creare elenchi Bloccati di account, elenchi di priorità o qualsiasi altro tipo di sottoinsieme del pubblico e fornire esperienze univoche di account in percorsi in base alla loro appartenenza. |
 | Funzione | Filtro cronologia eventi esperienza | Questa funzione consente all’orchestrazione di percorso B2B di utilizzare il coinvolgimento storico per indirizzare le decisioni basate sul comportamento per i membri del pubblico. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Funzione | Nodi del percorso di percorsi migliore successivo | Puoi ottimizzare il split path decisioning per i percorsi di persone, perfezionando il modo in cui i tipi di pubblico vengono instradati tra i percorsi prima dell’attivazione del percorso o in fase di runtime. [Ulteriori informazioni](../journeys/next-best-path-node.md) |
+| Funzione | Dashboard delle prestazioni delle e-mail | La dashboard Prestazioni e-mail offre agli addetti al marketing una visualizzazione unificata delle attività e-mail in tutti i percorsi in Adobe Journey Optimizer B2B edition. [Ulteriori informazioni](../dashboards/email-performance-dashboard.md) |
 | Miglioramento | Competenze B2B in Audience Agent | Vengono aggiornate le competenze B2B di Audience Agent, inclusa la creazione di modelli di gruppi di acquisto basati sull’intelligenza artificiale. Utilizza la mappatura intento e utente tipo di prima parte per generare modelli di gruppi di acquisto, esaminare le mappature da ruolo a utente consigliate dall’intelligenza artificiale e perfezionare i modelli con linguaggio naturale prima di pubblicarli. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
-| Miglioramento | Rapporto sulle prestazioni del coinvolgimento e-mail | Il rapporto Prestazioni del coinvolgimento e-mail offre agli addetti al marketing una visualizzazione unificata delle attività e-mail in tutti i percorsi in Adobe Journey Optimizer B2B edition. |
 | Miglioramento | Dashboard panoramica percorsi - percorsi di persone | I percorsi di persone (Beta) ora includono una scheda _[!UICONTROL Panoramica]_ con le stesse analisi dei percorsi di account, inclusa la distribuzione del tasso di completamento dei percorsi, i percorsi per tipo di coinvolgimento e le azioni di drill-through ed esportazione. <a href="../dashboards/journeys-dashboard.md">Ulteriori informazioni</a> |
 | Miglioramento | Supporto per set di dati relazionali di AEP | Ora vengono visualizzati nuovi set di dati relazionali nella sandbox di AEP, insieme ai set di dati esistenti. |
 

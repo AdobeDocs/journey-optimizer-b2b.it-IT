@@ -15,9 +15,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T23:21:08.953Z
 TQID: https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mpxCDY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: 568
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Quando si fa clic sul nome di un percorso di account attivo, vengono visualizzati i dettagli del percorso. La scheda _[!UICONTROL Panoramica]_ fornisce informazioni utili sul percorso, inclusi i riepiloghi generativi di IA.
 
-Questa dashboard offre una panoramica completa di un percorso di account selezionato, con informazioni dettagliate sull’avanzamento dell’account utilizzando grafici a cerchi e a linee che categorizzano e quantificano completamenti, attività in corso e interruzioni nel tempo. Aiuta gli addetti al marketing a valutare l’efficacia dei canali E-mail e SMS attraverso metriche chiave di consegna e coinvolgimento.
+Questa dashboard offre una panoramica completa di un percorso di account selezionato, con informazioni dettagliate sull’avanzamento dell’account utilizzando grafici a cerchi e a linee che categorizzano e quantificano completamenti, attività in corso e interruzioni nel tempo. Aiuta gli addetti al marketing a valutare l’efficacia dei canali e-mail e SMS attraverso metriche chiave di consegna e coinvolgimento. Per le metriche e-mail aggregate in tutti i percorsi, consulta il [Rapporto sulle prestazioni delle e-mail](../dashboards/email-performance-dashboard.md).
 
 Questa panoramica è disponibile per i percorsi di account pubblicati e il popolamento dei grafici e delle tabelle richiede circa quattro ore per i dati.
 
@@ -55,7 +55,7 @@ Questa sezione presenta due metriche vitali:
 
 ## Prestazioni di e-mail e SMS
 
-Le tabelle delle prestazioni forniscono un’analisi dettagliata dell’efficacia dei canali E-mail e SMS. Ogni tabella presenta metriche, come tassi di consegna e tassi di click-through, che consentono di valutare l’impatto di ogni punto di contatto di comunicazione.
+Le tabelle delle prestazioni forniscono un’analisi dettagliata dell’efficacia dei canali E-mail e SMS. Ogni tabella presenta metriche, come tassi di consegna e tassi di click-through, che consentono di valutare l’impatto di ogni punto di contatto di comunicazione. Le tabelle seguenti mostrano le metriche e-mail e SMS solo per questo percorso. Per le stesse metriche e-mail in tutti i percorsi, utilizza il [Rapporto sulle prestazioni delle e-mail](../dashboards/email-performance-dashboard.md).
 
 **[!UICONTROL Prestazioni e-mail]** colonne tabella:
 

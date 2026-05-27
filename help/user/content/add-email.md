@@ -17,16 +17,16 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 1387
+source-wordcount: 1403
 ht-degree: 0%
 
 ---
 
 # Aggiungi un messaggio e-mail al percorso
 
-Utilizza Adobe Journey Optimizer B2B edition per inviare messaggi e-mail ai clienti tramite percorsi di account. Puoi scegliere di creare, personalizzare e visualizzare in anteprima i messaggi nello spazio di progettazione delle e-mail. In alternativa, puoi scegliere di inviare un’e-mail già definita nell’istanza di Marketo Engage connessa.
+Utilizza Adobe Journey Optimizer B2B edition per inviare messaggi e-mail ai clienti tramite percorsi di account. Puoi scegliere di creare, personalizzare e visualizzare in anteprima i messaggi nello spazio di progettazione delle e-mail. In alternativa, puoi scegliere di inviare un’e-mail già definita nell’istanza di Marketo Engage connessa. Dopo che le e-mail sono attive in percorsi, monitora l&#39;invio, la consegna e il coinvolgimento nel [report sulle prestazioni delle e-mail](../dashboards/email-performance-dashboard.md).
 
 >[!NOTE]
 >

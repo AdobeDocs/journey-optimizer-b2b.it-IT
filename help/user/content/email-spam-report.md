@@ -19,16 +19,16 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:30:57.478Z
 TQID: https://experienceleague.adobe.com/SX8ewAjGolTNim8LeVKhLXne6EntrSMs8aMETVahYaQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 378
 ht-degree: 0%
 
 ---
 
 # Rivedi il rapporto sulla posta indesiderata
 
-Molti provider di posta in arrivo e la maggior parte dei sistemi aziendali utilizzano un processo di filtraggio dello spam. L’invio di e-mail che attivano questi filtri può influire notevolmente sul recapito messaggi. In Journey Optimizer B2B edition, puoi verificare il punteggio di posta indesiderata generato generando un rapporto Spam. Questo report utilizza [[!DNL SpamAssassin]](https://spamassassin.apache.org/) per testare l&#39;e-mail e consente di determinare se un messaggio può essere considerato come posta indesiderata dagli strumenti anti-spam. Puoi utilizzare le informazioni contenute nel rapporto per intraprendere azioni che migliorano il punteggio e il recapito dei contenuti dell’e-mail.
+Molti provider di posta in arrivo e la maggior parte dei sistemi aziendali utilizzano un processo di filtraggio dello spam. L’invio di e-mail che attivano questi filtri può influire notevolmente sul recapito messaggi. In Journey Optimizer B2B edition, puoi verificare il punteggio di posta indesiderata generato generando un rapporto Spam. Questo report utilizza [[!DNL SpamAssassin]](https://spamassassin.apache.org/) per testare l&#39;e-mail e consente di determinare se un messaggio può essere considerato come posta indesiderata dagli strumenti anti-spam. Puoi utilizzare le informazioni contenute nel rapporto per intraprendere azioni che migliorano il punteggio e il recapito dei contenuti dell’e-mail. Dopo aver ottimizzato il contenuto, tieni traccia della percentuale di mancati recapiti e della consegna nel [Rapporto sulle prestazioni delle e-mail](../dashboards/email-performance-dashboard.md).
 
 Quando rivedi le impostazioni delle e-mail o modifichi il contenuto, apri la pagina _[!UICONTROL Simula]_ e genera un _rapporto spam_ per rivedere il punteggio e gli elementi contrassegnati che possono attivare il filtro anti-spam.
 
