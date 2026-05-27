@@ -6,29 +6,22 @@ role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
 autotag-review: '2026-05-21T21:07:43.367Z'
 TQID: 'https://experienceleague.adobe.com/u-zKjTHRErQFQCHxuft-gJiiiE5a1oJUIZfziasvcHs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a1947a16cde3ba625027b794cd370a0143238e36
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6beid: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
 workflow-type: tm+mt
-source-wordcount: 432
+source-wordcount: 449
 ht-degree: 2%
 
 ---
 
 # Dashboard panoramica dei percorsi
 
-Il dashboard Panoramica per [percorsi account e persone](../journeys/journeys-overview.md) fornisce un&#39;istantanea completa dei percorsi attivi. I grafici a cerchi e a barre categorizzano e quantificano le attività di completamento e coinvolgimento in modo da poter valutare l’efficacia dei canali e-mail e SMS attraverso metriche chiave di consegna e coinvolgimento.
+Il dashboard Panoramica per [percorsi account o persone](../journeys/journeys-overview.md) fornisce un&#39;istantanea completa dei percorsi attivi. I grafici a cerchi e a barre categorizzano e quantificano le attività di completamento e coinvolgimento in modo da poter valutare l’efficacia dei canali e-mail e SMS attraverso metriche chiave di consegna e coinvolgimento. Per una visualizzazione cross-percorso dei dati di consegna e coinvolgimento specifici per le e-mail, consulta il [Rapporto sulle prestazioni delle e-mail](email-performance-dashboard.md).
 
 Questa panoramica è disponibile per i percorsi pubblicati e il popolamento dei grafici e delle tabelle richiede circa quattro ore per i dati.
 
@@ -56,7 +49,7 @@ Questo grafico illustra la distribuzione dei percorsi in base al loro tasso di c
 
 Per visualizzare informazioni più dettagliate, fare clic sull&#39;icona del menu **...** in alto a destra.
 
-Distribuzione percentuale di completamento di ![&#x200B; Percorsi](./assets/journey-completion-rate-distribution.png){width="500"}
+Distribuzione percentuale di completamento di ![ Percorsi](./assets/journey-completion-rate-distribution.png){width="500"}
 
 ## Percorsi per tipo di coinvolgimento {#journeys-by-engagement-type}
 
