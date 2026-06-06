@@ -6,11 +6,13 @@ level: Beginner
 topic: Artificial Intelligence
 role: User
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
+autotag-review: '2026-06-05T16:07:36.688Z'
+TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
 subfeature_v2:
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
@@ -20,11 +22,13 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 2506
-ht-degree: 7%
+source-wordcount: 2476
+ht-degree: 3%
 
 ---
 
@@ -33,22 +37,22 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
 >title="Generazione di contenuti con l’IA"
->abstract="Dopo aver creato il layout, puoi migliorare i contenuti mediante gli strumenti di IA generativa disponibili in [!DNL Journey Optimizer B2B Edition]. Questi semplificano il processo di personalizzazione e miglioramento dei contenuti ottimizzandoli in base a un prompt descrittivo."
+>abstract="Dopo aver creato il layout, utilizza strumenti di intelligenza artificiale generativi in [!DNL Journey Optimizer B2B Edition] per migliorare i contenuti. Questa funzione semplifica la personalizzazione e il miglioramento dei contenuti ottimizzandoli in base alle tue richieste."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-reference-context"
 >title="Contenuto di riferimento"
->abstract="Usa _Contenuto di riferimento_ per caricare un file di risorse il cui contenuto fornisce ulteriore contesto all’IA generativa in [!DNL Journey Optimizer B2B Edition] o per selezionare un file già caricato in precedenza. Grazie a questa opzione, sarà disponibile tutto il materiale necessario a migliorare la qualità e la pertinenza dei contenuti generati."
+>abstract="Utilizza _Contenuto di riferimento_ per caricare o selezionare un file di risorse che fornisca il contesto per l&#39;intelligenza artificiale generativa in [!DNL Journey Optimizer B2B Edition]. In questo modo i materiali sono disponibili per migliorare la qualità e la pertinenza dei contenuti generati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-start"
 >title="Condizioni per l’IA generativa di Adobe"
->abstract="L’accesso a questa funzione è soggetto al consenso alle Linee guida per l’utente dell’IA generativa di Adobe Experience Cloud. Verifica l’accuratezza degli output generati da questa funzione e assicurati che siano appropriati al tuo caso d’uso."
+>abstract="L’accesso a questa funzione richiede l’accettazione delle linee guida per l’utente di Adobe Experience Cloud Generative AI. Verifica l’accuratezza degli output generati da questa funzione e assicurati che siano appropriati al tuo caso d’uso."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Linee guida per l’utente sull’intelligenza artificiale generativa di Adobe"
 
 L&#39;intelligenza artificiale generativa per il contenuto in [!DNL Adobe Journey Optimizer B2B Edition], basata su Microsoft Azure OpenAI e Adobe Firefly, fornisce suggerimenti proattivi per la variazione dei contenuti per testo e immagini. Ottimizza l’impatto dei contenuti sperimentando con diversi titoli e immagini principali.
 
-Utilizzare le funzionalità di intelligenza artificiale generativa per la creazione di contenuti in [!DNL Journey Optimizer B2B Edition] per sfruttare le funzionalità di intelligenza artificiale generativa di Adobe. Crea testo e immagini personalizzati per e-mail, messaggi SMS, pagine di destinazione e altro ancora. Quando si crea una campagna completa o si perfezionano semplicemente risorse specifiche, queste funzioni consentono di allineare i contenuti in modo semplice alle linee guida del marchio, risparmiando tempo prezioso.
+Utilizzare le funzionalità di intelligenza artificiale generativa per la creazione di contenuti in [!DNL Journey Optimizer B2B Edition] per sfruttare le funzionalità di intelligenza artificiale generativa di Adobe. Crea testo e immagini personalizzati per e-mail, messaggi SMS, pagine di destinazione e altro ancora. Durante la creazione di una campagna o l’ottimizzazione delle risorse, queste funzioni consentono di allineare i contenuti alle linee guida del brand, risparmiando tempo.
 
 <!--
 Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. 
@@ -65,7 +69,7 @@ Gli strumenti di AI Assistant per la generazione di contenuti sono supportati co
 
 ## Linee guida e limitazioni generali {#general-guidelines-and-limitations}
 
-L&#39;utilizzo delle funzionalità di IA generativa è soggetto alle [linee guida per l&#39;utente di IA generativa di Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Con l&#39;impegno di Adobe per la trasparenza nell&#39;utilizzo degli strumenti di intelligenza artificiale generativi per la creazione di contenuti multimediali, Adobe applica [credenziali contenuto](https://helpx.adobe.com/it/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} a qualsiasi contenuto o progetto che include una risorsa generata da [!DNL Firefly] al momento del download o dell&#39;esportazione.
+L&#39;utilizzo delle funzionalità di intelligenza artificiale generativa è soggetto alle [linee guida per l&#39;utente di intelligenza artificiale generativa di Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Con l&#39;impegno di Adobe per la trasparenza nell&#39;utilizzo degli strumenti di intelligenza artificiale generativi per la creazione di contenuti multimediali, Adobe applica [credenziali contenuto](https://helpx.adobe.com/it/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} a qualsiasi contenuto o progetto che include una risorsa generata da [!DNL Firefly] al momento del download o dell&#39;esportazione.
 
 Rivedi le seguenti linee guida generali per l&#39;utilizzo di IA generativa per il contenuto in [!DNL Journey Optimizer B2B Edition]:
 
@@ -313,7 +317,7 @@ Fornisci sempre contesto e proposta di valore per la produzione di contenuti ril
  
 -->
 
-### Nuovi contenuti e modifica di quelli esistenti {#new-vs-modify}
+### Nuovo contenuto o modifica di contenuto esistente {#new-vs-modify}
 
 Indica chiaramente se la richiesta comporta la generazione di nuovo contenuto o l&#39;aggiornamento del materiale esistente. Questa distinzione è importante perché guida l’intelligenza artificiale nella selezione dell’approccio appropriato e garantisce un risultato più accurato e utile.
 

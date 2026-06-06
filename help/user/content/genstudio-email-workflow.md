@@ -23,10 +23,10 @@ topic_v2:
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: 2026-03-30T22:24:40.416Z
 TQID: https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJyjtQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 862
-ht-degree: 11%
+source-wordcount: 857
+ht-degree: 8%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_genstudio_button"
 >title="Utilizzare un modello creato con GenStudio"
->abstract="Utilizza l’integrazione diretta con Adobe GenStudio for Performance Marketing per importare un modello GenStudio ottimizzato con la tecnologia dell’intelligenza artificiale di Adobe."
+>abstract="Utilizza l’integrazione con Adobe GenStudio for Performance Marketing per importare un modello GenStudio ottimizzato con la tecnologia Adobe AI."
 
 >[!AVAILABILITY]
 >
@@ -43,7 +43,7 @@ ht-degree: 11%
 >
 >Questa integrazione è disponibile solo per il canale e-mail.
 
-Per migliorare l’efficienza del flusso di lavoro e mantenere la coerenza del marchio, puoi combinare le esperienze di GenStudio for Performance Marketing con l’orchestrazione e-mail di Adobe Journey Optimizer B2B edition. Questo flusso di lavoro esteso consente di sfruttare gli strumenti di creazione dei contenuti basati sull’intelligenza artificiale di GenStudio per espandere e massimizzare le comunicazioni e-mail tramite i percorsi di account.
+Per migliorare l’efficienza del flusso di lavoro e mantenere la coerenza del marchio, puoi combinare le esperienze di GenStudio for Performance Marketing con l’orchestrazione e-mail di Adobe Journey Optimizer B2B edition. Questo flusso di lavoro esteso consente di sfruttare gli strumenti di creazione dei contenuti basati sull’intelligenza artificiale disponibili in GenStudio per espandere e massimizzare le comunicazioni e-mail tramite i percorsi di account.
 
 Ad esempio, un esperto di marketing tecnico che utilizza Journey Optimizer B2B edition per sviluppare e automatizzare comunicazioni e-mail per account chiave può collaborare con un esperto di marketing delle prestazioni che crea contenuti utilizzando GenStudio. Con questo flusso di lavoro, entrambi possono collaborare per combinare contenuti on-brand da GenStudio all’automazione del marketing basata sull’account Journey Optimizer B2B edition, fornendo e-mail coinvolgenti mirate a gruppi di acquisto specifici e incentivando le vendite.
 
@@ -51,7 +51,7 @@ Ad esempio, un esperto di marketing tecnico che utilizza Journey Optimizer B2B e
 
 ## Funzionalità di generazione dei contenuti GenStudio
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/it/products/genstudio-for-performance-marketing.html){target="_blank"} è un&#39;applicazione IA-first generativa che consente ai team di marketing di creare annunci ed e-mail personalizzati e di grande impatto, conformi agli standard del marchio e ai criteri aziendali. Sfruttando la tecnologia Adobe AI, fornisce una suite completa di strumenti che semplificano le complessità di creazione e gestione dei contenuti, consentendo ai creativi di concentrarsi sull’innovazione.
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/it/products/genstudio/performance-marketing.html){target="_blank"} è un&#39;applicazione IA-first generativa che consente ai team di marketing di creare annunci ed e-mail personalizzati e di grande impatto, conformi agli standard del marchio e ai criteri aziendali. Sfruttando la tecnologia Adobe AI, fornisce una suite completa di strumenti che semplificano la complessità della creazione e della gestione dei contenuti, consentendo ai creatori di contenuti di concentrarsi sull’innovazione.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Crea e-mail marketing sul marchio](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
@@ -89,7 +89,7 @@ GenStudio for Performance Marketing riconosce alcuni elementi all’interno del 
 
 Utilizza il file HTML per creare un modello in GenStudio for Performance Marketing.
 
-Per informazioni dettagliate sul caricamento di un modello di HTML in GenStudio in Adobe GenStudio for Performance Marketing, consulta [Aggiungere un modello](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) nella documentazione di GenStudio for Performance Marketing.
+Per ulteriori informazioni sul caricamento di un modello di HTML in Adobe GenStudio for Performance Marketing, consulta [Aggiungere un modello](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/templates/use-templates#add-a-template) nella documentazione di GenStudio for Performance Marketing.
 
 Quando carichi il HTML esportato come modello, GenStudio for Performance Marketing analizza il file HTML per individuare i campi riconosciuti. Utilizza l’anteprima per rivedere gli elementi del modello e confermare che li hai identificati correttamente con i nomi dei campi riconosciuti.
 

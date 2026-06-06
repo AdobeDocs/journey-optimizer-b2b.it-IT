@@ -20,10 +20,10 @@ topic_v2:
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: 2026-03-30T22:06:55.168Z
 TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJEgNE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1606
-ht-degree: 9%
+source-wordcount: 1564
+ht-degree: 4%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="Passare alla modalità scura"
->abstract="Passa alla modalità scura per visualizzare in anteprima il rendering e definire impostazioni personalizzate specifiche. <br>Il rendering finale dipende dal client e-mail del destinatario. Tieni presente che non tutti i client e-mail supportano la modalità scura personalizzata."
+>abstract="Passa alla modalità scura per visualizzare in anteprima il rendering e definire le impostazioni personalizzate. <br>Il rendering dipende dal client di posta elettronica del destinatario. Non tutti i client e-mail supportano la modalità scura personalizzata."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
 >title="Passare alla modalità scura"
->abstract="Passare alla modalità scura per visualizzare in anteprima il rendering nei client e-mail che la supportano. <br>Il rendering finale dipende dal client e-mail del destinatario. Tieni presente che non tutti i client e-mail supportano la modalità scura."
+>abstract="Passa alla modalità scura per visualizzare in anteprima il rendering quando si supportano i client e-mail. <br>Il rendering finale dipende dal client e-mail del destinatario. Non tutti i client e-mail supportano la modalità scura."
 
 _Modalità scura_ consente a un client e-mail o a un&#39;app di supporto di visualizzare e-mail con sfondi più scuri e colori più chiari per testo, pulsanti e altri elementi visivi. Questo tipo di display può ridurre l&#39;affaticamento degli occhi, ridurre la durata della batteria e migliorare la leggibilità in ambienti scarsamente illuminati, per un&#39;esperienza di visualizzazione più confortevole. In quanto tendenza in crescita tra i principali sistemi operativi e app, ora è un elemento importante nella progettazione di e-mail moderne per garantire che il contenuto rimanga leggibile e visivamente attraente per tutti gli utenti.
 
@@ -47,7 +47,7 @@ Quando [crei il contenuto delle e-mail](./email-authoring.md) nello spazio di pr
 
 ## Considerazioni sul client e-mail {#email-client-considerations}
 
-Esiste una varianza significativa nel modo in cui i diversi client e-mail e le diverse app applicano la modalità scura. Per questo motivo, è necessario considerare con cautela le aspettative relative al rendering in modalità scura. Prima di utilizzare la modalità scura nell’area di progettazione delle e-mail, considera i seguenti casi di utilizzo del client e-mail:
+Esiste una varianza significativa nel modo in cui i diversi client e-mail e le diverse app applicano la modalità scura. Per questo motivo, considera con cautela le aspettative relative al rendering in modalità scura. Prima di utilizzare la modalità scura nell’area di progettazione delle e-mail, considera i seguenti casi di utilizzo del client e-mail:
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
 
@@ -67,7 +67,7 @@ Se definisci le impostazioni personalizzate della modalità scura nella progetta
 
 +++Client che applicano la propria modalità scura {#default-support}
 
-Alcuni client di posta elettronica applicano sistematicamente la propria modalità scura predefinita a tutte le e-mail ricevute. Regolano automaticamente colori, sfondi, immagini e altri elementi in base alle impostazioni della modalità scura e alle impostazioni esterne. Questi clienti includono:
+Alcuni client di posta elettronica applicano sistematicamente la propria modalità scura predefinita a tutte le e-mail ricevute. Regolano automaticamente colori, sfondi, immagini e altri elementi in base alle impostazioni della modalità scura e non sono possibili impostazioni esterne. Questi clienti includono:
 
 * Gmail (Posta sul desktop, iOS, Android™, Posta sul Web mobile)
 * Windows di Outlook
@@ -128,14 +128,14 @@ Quando si applica uno stile al contenuto delle e-mail per la modalità scura in 
 
 >[!CAUTION]
 >
->Il rendering finale può variare a seconda del client e-mail del destinatario. Per visualizzare una simulazione che si avvicina il più possibile al risultato finale per ogni client di posta elettronica, utilizzare l&#39;integrazione [Rendering e-mail test Litmus](./email-test-rendering.md).
+>Il rendering finale può variare a seconda del client e-mail del destinatario. Per visualizzare una simulazione che si avvicina il più possibile al risultato finale per ogni client di posta elettronica, utilizzare l&#39;integrazione [Rendering test e-mail Litmus](./email-test-rendering.md).
 
 ### Definire le impostazioni personalizzate della modalità scura {#custom-dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_image"
 >title="Utilizzare un’immagine specifica per la modalità scura"
->abstract="Puoi selezionare un’altra immagine da visualizzare quando è attiva la modalità scura. <br>L’aggiunta di un’immagine specifica per la modalità scura non garantisce che venga riprodotta correttamente in tutti i client e-mail. Tieni presente che non tutti i client e-mail supportano la modalità scura personalizzata."
+>abstract="Selezionate un&#39;altra immagine per la modalità scura. <br>L&#39;aggiunta di un&#39;immagine specifica non garantisce il rendering corretto in tutti i client di posta elettronica. Non tutti i client e-mail supportano la modalità scura personalizzata."
 
 Dopo il passaggio alla modalità scura, puoi scegliere di modificare elementi di stile specifici del contenuto che vengono visualizzati solo quando la modalità scura è abilitata nel client e-mail del destinatario (purché supporti tale funzione).
 
@@ -143,7 +143,7 @@ Dopo il passaggio alla modalità scura, puoi scegliere di modificare elementi di
 >
 >Il rendering finale in modalità scura dipende da ciascun client e-mail, pertanto i risultati possono variare da un client all’altro. Rivedi le [considerazioni sul client e-mail](#email-client-considerations) per ulteriori informazioni.
 
-Lo stile modalità scura personalizzato nello spazio di progettazione e-mail utilizza <!-- `@media (prefers-color-scheme: dark)` method--> Query CSS `@media (prefers-color-scheme: dark)` che rileva se il client di posta elettronica è impostato sulla modalità scura e applica la struttura a tema scuro definita nell&#39;e-mail.
+Lo stile modalità scura personalizzato utilizza la query CSS `@media (prefers-color-scheme: dark)` per rilevare se il client di posta elettronica è impostato sulla modalità scura e applicare la progettazione a tema scuro definita.
 
 _Per definire le impostazioni personalizzate della modalità scura :_
 
