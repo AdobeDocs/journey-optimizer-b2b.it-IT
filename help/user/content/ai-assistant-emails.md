@@ -42,7 +42,7 @@ Questa nuova funzionalità fornisce una generazione di contenuti basata su messa
 
 Prima di iniziare a utilizzare questa funzionalità, controlla le [linee guida e limitazioni](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). Per poter utilizzare le funzionalità di intelligenza artificiale in [!DNL Journey Optimizer B2B Edition] è inoltre necessario accettare il [Contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-Adobe applica [credenziali contenuto](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} alle risorse generate da Firefly al momento del download o dell&#39;esportazione per promuovere la trasparenza.
+Adobe applica [credenziali contenuto](https://helpx.adobe.com/it/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} alle risorse generate da Firefly al momento del download o dell&#39;esportazione per promuovere la trasparenza.
 
 Le limitazioni e le linee guida seguenti si applicano alle funzioni dell&#39;Assistente IA utilizzate per la generazione di contenuti e-mail in [!DNL Journey Optimizer B2B Edition]:
 

@@ -151,7 +151,7 @@ Se nell’istanza Marketo Engage connessa sono presenti pagine web, puoi attivar
 
 ### Ascolta un evento esperienza {#listen-for-an-experience-event}
 
-Gli amministratori possono selezionare [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale. L’utilizzo degli eventi esperienza nei percorsi è un processo in due fasi:
+Gli amministratori possono selezionare [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale. L’utilizzo degli eventi esperienza nei percorsi è un processo in due fasi:
 
 1. Un amministratore [aggiunge i tipi di evento e i campi di interesse](../admin/configure-aep-events.md#add-an-event) per renderli disponibili in percorsi.
 
