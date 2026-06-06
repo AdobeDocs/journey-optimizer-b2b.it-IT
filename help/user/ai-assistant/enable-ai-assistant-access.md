@@ -60,7 +60,7 @@ Se l&#39;utente dispone delle autorizzazioni necessarie, può accedere all&#39;A
 
 Per scoprire come configurare l’accesso a AI Assistant per l’organizzazione e gli utenti, guarda il video seguente.
 
->[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3475927/?captions=ita&learn=on)
 
 ## Passaggi successivi
 
