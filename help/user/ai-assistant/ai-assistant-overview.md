@@ -5,22 +5,17 @@ feature: AI Assistant
 role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2:
-  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+autotag-review: '2026-06-05T16:05:30.499Z'
+TQID: 'https://experienceleague.adobe.com/4bXkOzwadjZVzhedVO6oQEEV1biaWMZFHEuqey74qek'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 1314
+source-wordcount: 1300
 ht-degree: 8%
 
 ---
@@ -43,7 +38,7 @@ L&#39;Assistente IA in Journey Optimizer B2B edition viene creato dalla stessa b
 
 ## Funzionalità di AI Assistant in Journey Optimizer B2B edition
 
-Per formulare una risposta alle domande inviate, l’Assistente AI esegue una query su un database e converte i dati dal database in una risposta leggibile. Questa risposta è una rappresentazione interna dei dati sottostanti ed è anche nota come _&#x200B;**_Knowledge Graph_**&#x200B;_, un Web completo di concetti, dati e metadati per una determinata risposta. Il Knowledge Graph è costituito da sottografi a cui viene fatto riferimento ogni volta che vengono inviate query:
+Per formulare una risposta alle domande inviate, l’Assistente AI esegue una query su un database e converte i dati dal database in una risposta leggibile. Questa risposta è una rappresentazione interna dei dati sottostanti ed è anche nota come _**_Knowledge Graph_**_, una raccolta completa di concetti, dati e metadati per una determinata risposta. Il Knowledge Graph è costituito da sottografi a cui viene fatto riferimento ogni volta che vengono inviate query:
 
 * Documentazione di Experience League.
 * Artefatti operativi, come schemi, campi, tipi di pubblico e percorsi.
@@ -57,7 +52,7 @@ Per conoscenza del prodotto si intendono i concetti e gli argomenti basati sulla
 | Conoscenza del prodotto | Esempi |
 | --- | --- |
 | Apprendimento puntato | <li>Che cos’è un gruppo di acquisto? <li> Mostrami un esempio di modello per ruoli di gruppo di acquisto? |
-| Rilevamento aperto | <li>Quali sono i passaggi per creare gruppi di acquisto? <li>Come si utilizzano i campi personalizzati nei modelli di ruolo di un gruppo di acquisto? |
+| Ricerca aperta | <li>Quali sono i passaggi per creare gruppi di acquisto? <li>Come si utilizzano i campi personalizzati nei modelli di ruolo di un gruppo di acquisto? |
 | Risoluzione dei problemi | <li>Perché non sono stati creati gruppi di acquisto per il mio percorso? <li>Perché non riesco a trovare gli Eventi esperienza da ascoltare nel percorso? |
 
 ### Insight operativi
@@ -97,19 +92,19 @@ Attualmente, l’ambito di AI Assistant è il seguente:
 
 ### Privacy, sicurezza e governance
 
-L’Assistente per l’intelligenza artificiale in Journey Optimizer B2B edition è progettato per garantire la privacy, la sicurezza e la governance in prima linea. Consulta le seguenti informazioni per scoprire le funzionalità incentrate sulla fiducia del cliente che puoi aspettarti dall’Assistente AI:
+L’Assistente AI in Journey Optimizer B2B edition assegna priorità a privacy, sicurezza e governance. Consulta le seguenti informazioni per scoprire le funzionalità incentrate sulla fiducia del cliente che puoi aspettarti dall’Assistente AI:
 
-* Nessun dato personale viene utilizzato oggi da AI Assistant, anche a scopo di formazione.
+* L’Assistente AI oggi non utilizza i dati personali, nemmeno a scopo di formazione.
 
 * Ai Assistant non è a conoscenza dei dati dei clienti, ad esempio persone, account, opportunità e gruppi di acquisto.
 
 * Per interagire con l&#39;Assistente AI è necessario disporre di autorizzazioni esplicite.
 
-   * Un amministratore può impostare le autorizzazioni utilizzando [Interfaccia utente autorizzazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e [Admin Console](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Un amministratore può impostare le autorizzazioni utilizzando [Interfaccia utente autorizzazioni](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * Le autorizzazioni sono granulari e l’amministratore della sandbox può configurare quali utenti possono porre diverse categorie di domande (domande basate sulla conoscenza del prodotto con l’Assistente AI o domande su informazioni operative).
 
-* È possibile visualizzare un registro delle interazioni precedenti con l’Assistente AI con un criterio di conservazione di 30 giorni.
+* Puoi visualizzare un registro di 30 giorni delle interazioni precedenti con l’Assistente AI.
 
 * L’Assistente AI si basa sui dati specifici delle sandbox e sulla documentazione pubblica di Adobe quando si rispondono alle richieste degli utenti. I dati non sono condivisi tra sandbox diverse.
 
@@ -129,7 +124,7 @@ L’Assistente AI è in grado di rispondere alle domande relative alle conoscenz
 
 **L&#39;Assistente AI può fornire informazioni sui dati dei clienti?**
 
-No. L’Assistente AI non ha accesso ai dati del cliente e pertanto non viene esaminato o utilizzato dall’Assistente AI.
+No. L’Assistente AI non ha accesso ai dati del cliente e pertanto non viene esaminato o utilizzato.
 
 **Le informazioni personali vengono utilizzate nei dati di formazione dell&#39;Assistente di intelligenza artificiale?**
 

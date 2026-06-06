@@ -4,20 +4,13 @@ description: L’ottimizzazione del tempo di invio (STO) in Adobe Journey Optimi
 feature: Person Journeys, Channels
 role: User
 exl-id: a0423bdc-f2ad-450b-9dc6-b9f2f7a1ef8c
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 483
 ht-degree: 0%
@@ -61,7 +54,7 @@ Puoi configurare l&#39;ottimizzazione dell&#39;ora di invio quando [aggiungi un 
 
 1. Utilizza l&#39;interruttore **[!UICONTROL Ottimizzazione dell&#39;ora di invio]** per abilitare la funzione.
 
-1. Impostare le opzioni STO per specificare la finestra e la distribuzione dei test:
+1. Per specificare la distribuzione della finestra e del test, impostare le opzioni STO:
 
    * **[!UICONTROL Invia entro]** - Questo valore determina la finestra di ottimizzazione (in giorni), che è l&#39;intervallo di tempo in cui è possibile recapitare le e-mail. Ad esempio, per un webinar che si svolge in cinque giorni, puoi impostare una finestra di quattro o cinque giorni. STO seleziona il tempo di invio migliore previsto per ciascun profilo all’interno di questa finestra.
 

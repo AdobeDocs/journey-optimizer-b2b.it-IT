@@ -4,20 +4,14 @@ description: 'Creazione e gestione di token personalizzati per la personalizzazi
 feature: Personalization, Content, Email Authoring
 role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:21:17.156Z
 TQID: https://experienceleague.adobe.com/PhcREmr9HfV-uGyGUB6YRATemaGn0du0VWaGaBHUmxY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 605
 ht-degree: 2%
@@ -32,7 +26,7 @@ Oltre a _I miei token_, specifici del percorso di account, puoi utilizzare quals
 
 ## Gestisci i miei token {#my-tokens}
 
-I _Token personali_ sono variabili personalizzate create o modificate per un percorso di account in stato Bozza. Questo set di token personalizzati supporta attualmente le definizioni dei token di testo e numerici.
+I _Token personali_ sono variabili personalizzate create o modificate per un percorso di account in stato Bozza. Questo set di token personalizzati supporta attualmente le definizioni di token di testo e numerici.
 
 Quando aggiungi un token personalizzato a un&#39;e-mail, questo viene visualizzato come `{{my.TokenName}}`. Ad esempio, potresti avere `{{my.EventDate}}` o `{{my.WebinarSpeaker}}` token creati per gestire il contenuto delle e-mail relative ai prossimi webinar.
 
@@ -100,7 +94,7 @@ Quando crei contenuti e-mail per il percorso di account, puoi utilizzare uno qua
 
    Questa azione apre la finestra di dialogo _Modifica Personalization_. La finestra di dialogo include una cartella _[!UICONTROL I miei token]_ nella libreria _[!UICONTROL Token di Personalization]_ se sono stati definiti token personalizzati per il percorso di account.
 
-1. Espandi la cartella **[!UICONTROL I miei token]**, quindi fai clic su **+** o **...** per aggiungere uno dei tuoi token personalizzati allo spazio vuoto.
+1. Per aggiungere uno dei token personalizzati allo spazio vuoto, espandi la cartella **[!UICONTROL Token personali]**, quindi fai clic su **+** o **...**.
 
    Se necessario, puoi aggiungere altro testo statico.
 

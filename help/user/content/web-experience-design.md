@@ -5,24 +5,15 @@ feature: Content Design Tools, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-04-29T23:47:13.174Z
 TQID: https://experienceleague.adobe.com/8L1-UpqqSPlLqMwUpwOgOMT4cDzc55tua87M8-X1dKk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 2357
+source-wordcount: 2339
 ht-degree: 4%
 
 ---
@@ -39,19 +30,19 @@ Prima di poter progettare esperienze web, assicurati di soddisfare i seguenti re
 
 * Un amministratore di prodotto ha configurato uno o più canali web per definire gli URL (pagine) da includere per un’esperienza web. Per ulteriori informazioni, vedere [Configurazioni del canale Web](../admin/configure-channels-web.md).
 
-* Il sito Web include [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementato per l&#39;identificazione dei visitatori e la distribuzione dei contenuti. È richiesto Adobe Experience Platform Web SDK versione 2.16 o successiva.
+* Il sito Web include [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementato per l&#39;identificazione dei visitatori e la distribuzione dei contenuti. È richiesto Adobe Experience Platform Web SDK versione 2.16 o successiva.
 
 * Hai le [autorizzazioni](../admin/user-management.md#b2b-product-permissions) necessarie per creare e gestire esperienze Web in un percorso:
    * _[!UICONTROL Campagne]_ > _[!UICONTROL Gestisci campagne]_ - Necessario per aggiungere o aggiornare un nodo di azione di personalizzazione Web.
-   * _[!UICONTROL Campagne]_ > _[!UICONTROL Visualizza campagne]_ - Necessario per visualizzare i dettagli dei nodi di un&#39;azione di personalizzazione Web.
+   * _[!UICONTROL Campagne]_ > _[!UICONTROL Visualizza campagne]_ - Necessario per visualizzare i dettagli di un nodo di azione di personalizzazione Web.
 
 >[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->Prima di progettare un’esperienza web, accertati di aver installato l’estensione del browser Adobe Experience Cloud Visual Editing Helper per il browser web. Questa estensione è necessaria per aprire, creare e visualizzare in anteprima le pagine Web in modo affidabile nello spazio di progettazione di Journey Optimizer B2B edition Web Experience.<br/>
+>Prima di progettare un’esperienza web, accertati di aver installato l’estensione Adobe Experience Cloud Visual Editing Helper per il browser web. Questa estensione è necessaria per aprire, creare e visualizzare in anteprima le pagine Web in modo affidabile nello spazio di progettazione di Journey Optimizer B2B edition Web Experience.<br/>
 >
->Google Chrome e Microsoft Edge sono attualmente gli unici browser che supportano l’estensione e l’authoring di esperienze web in Journey Optimizer B2B edition. Per ulteriori informazioni, vedere [Installare l&#39;estensione Helper per editing video](./web-experiences.md#install-the-visual-editing-helper-extension).
+>Google Chrome e Microsoft Edge sono attualmente gli unici browser che supportano l’estensione e la creazione di esperienze web in Journey Optimizer B2B edition. Per ulteriori informazioni, vedere [Installare l&#39;estensione Helper per editing video](./web-experiences.md#install-the-visual-editing-helper-extension).
 
 ## Editor esperienza web
 
@@ -99,11 +90,11 @@ L’editor visivo carica le pagine web all’interno di un iframe, dove puoi sel
 
    * [Inserire nuovi componenti](#insert-new-components) (divisore, HTML, immagine, intestazione, paragrafo o collegamento) nella pagina per l&#39;esperienza Web.
 
-   * Seleziona un elemento esistente dalla pagina, ad esempio un&#39;immagine, un pulsante, un paragrafo, un testo, un contenitore, un&#39;intestazione o un collegamento, e [modificalo per l&#39;esperienza Web](#modify-elements).
+   * Seleziona un elemento esistente dalla pagina e [modificalo per l&#39;esperienza Web](#modify-elements).
 
    * [Aggiungi il tracciamento dei clic](#click-tracking-for-web-experiences) per gli elementi che misurano il coinvolgimento e raccolgono informazioni.
 
-1. Ripeti il passaggio 2 per caricare altre pagine da includere nell’esperienza web e ripeti il passaggio 3 per definire le modifiche di pagina.
+1. Ripeti il passaggio 2 per caricare altre pagine da includere nell’esperienza web. Ripeti il passaggio 3 per definire le modifiche alla pagina.
 
 1. [Rivedi le modifiche](#manage-modifications) e apporta le modifiche necessarie.
 
@@ -186,7 +177,7 @@ Quando si seleziona l&#39;icona **+** nella struttura di spostamento a sinistra 
 * **[!UICONTROL Immagine]** - Utilizzare questo componente per inserire un file di immagine nella pagina. Potete regolare gli attributi di stile, ad esempio la larghezza e l&#39;altezza, dalle proprietà nel pannello di destra. Per ulteriori informazioni, vedere [Immagine](./content-components.md#image) in _Componenti contenuto_.
 * **[!UICONTROL Intestazione]** - Utilizzare questo componente per inserire il testo della classe di intestazione. Potete regolare gli attributi di stile, ad esempio il colore del testo, lo stile, il font e le dimensioni, dalle proprietà nel pannello di destra. Per ulteriori informazioni, vedere [Testo](./content-components.md#text) in _Componenti contenuto_.
 * **[!UICONTROL Paragrafo]** - Utilizzare questo componente per inserire un elemento di testo standard. Potete regolare gli attributi di stile, ad esempio il colore del testo, lo stile, il font e le dimensioni, dalle proprietà nel pannello di destra. Per ulteriori informazioni, vedere [Testo](./content-components.md#text) in _Componenti contenuto_.
-* **[!UICONTROL Collegamento]** - Utilizzare questo componente per inserire un collegamento di testo autonomo a un URL specificato. Potete regolare gli attributi di stile, ad esempio il colore del testo, lo stile, l&#39;allineamento e le dimensioni, dalle proprietà nel pannello di destra.
+* **[!UICONTROL Collegamento]** - Utilizzare questo componente per inserire un collegamento di testo autonomo a un URL specificato. Potete regolare gli attributi di stile dalle proprietà nel pannello di destra.
 
 Seleziona un tipo di componente a sinistra, quindi passa il cursore su un elemento adiacente al punto in cui desideri aggiungerlo.
 
@@ -247,11 +238,11 @@ Le modifiche apportate al selettore CSS consentono di eseguire il targeting degl
    | `header nav a` | Collegamenti all’interno della navigazione, all’interno dell’intestazione |
    | `[data-offer="premium"]` | Elementi con un attributo di dati specifico |
 
-1. Scegli un tipo di azione **&#x200B;**&#x200B;e specifica le informazioni o il contenuto richiesti.
+1. Scegli un tipo di azione **** e specifica le informazioni o il contenuto richiesti.
 
    * **[!UICONTROL Imposta contenuto]** - Immettere il testo nel campo **[!UICONTROL Contenuto]** per l&#39;elemento identificato dal valore _[!UICONTROL Selettore elemento CSS]_.
 
-   * **[!UICONTROL Imposta attributo]** - Specifica un attributo da associare al selettore CSS corrente in modo che l&#39;elemento possa essere identificato da questo attributo. Immettere un nome nel campo **[!UICONTROL Nome attributo]** e un valore nel campo **[!UICONTROL Contenuto]**. Se l&#39;attributo esiste già, il valore viene aggiornato; in caso contrario, viene aggiunto un nuovo attributo con il nome e il valore specificati.
+   * **[!UICONTROL Imposta attributo]** - Specifica un attributo da associare al selettore CSS corrente in modo da poter identificare l&#39;elemento tramite questo attributo. Immettere un nome nel campo **[!UICONTROL Nome attributo]** e un valore nel campo **[!UICONTROL Contenuto]**. Se l&#39;attributo esiste già, il valore viene aggiornato; in caso contrario, viene aggiunto un nuovo attributo con il nome e il valore specificati.
 
    ![Modifica del selettore CSS dell&#39;editor non visivo](./assets/web-experience-design-non-visual-editor-modification-css-selector.png){width="800" zoomable="yes"}
 
@@ -336,7 +327,7 @@ Utilizza le opzioni di anteprima del dispositivo nella parte superiore dell’ed
 
 L’anteprima viene aggiornata per mostrare il rendering delle modifiche su ogni dimensione del dispositivo.
 
-Utilizza la barra URL per passare a pagine diverse all’interno della configurazione del canale web. Quindi, verifica che le modifiche vengano applicate correttamente alle pagine di destinazione in base alle regole di corrispondenza URL.
+Utilizza la barra URL per passare a pagine diverse all’interno della configurazione del canale web. Quindi, verifica che le modifiche vengano applicate nel modo corretto alle pagine di destinazione in base alle regole di corrispondenza URL.
 
 ## Tracciamento dei clic per esperienze web {#web-click-tracking}
 
@@ -344,7 +335,7 @@ Tieni traccia delle interazioni dell’utente con gli elementi per misurare il c
 
 Quando la tua esperienza web è attivata (dal vivo), puoi anche creare rapporti utilizzando Adobe Customer Journey Analytics (che richiede un abbonamento al prodotto). Per migliorare il monitoraggio dell’esperienza web, puoi anche tenere traccia dei clic su qualsiasi elemento specifico del sito web. Il tracciamento ti consente di visualizzare il numero di clic per tale elemento nei rapporti web.
 
-Per ulteriori informazioni su Customer Journey Analytics e sulla creazione di report Web, consulta la [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-landing).
+Per ulteriori informazioni su Customer Journey Analytics e sulla creazione di report Web, consulta la [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing).
 
 1. Seleziona un elemento nell’editor esperienze web, ad esempio un’immagine o un collegamento.
 

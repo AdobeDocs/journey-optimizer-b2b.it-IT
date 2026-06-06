@@ -4,28 +4,17 @@ description: Configura le opzioni Marketo Engage per la consegna delle e-mail B2
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: f467931a-9b22-4ca8-869f-adfbd64061ceid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 73%
+source-wordcount: 1321
+ht-degree: 70%
 
 ---
 
@@ -55,7 +44,7 @@ Modifica i valori per e-mail ed etichetta Da in modo che le nuove e-mail vengano
 
 ### Messaggi per annullare l’abbonamento
 
-Per le e-mail di marketing non operative, il testo e i collegamenti per l’annullamento dell’abbonamento vengono aggiunti in basso. In qualità di amministratore di prodotto, devi configurare il HTML predefinito e il testo che viene popolato quando un addetto marketing non contrassegna l’e-mail come operativa.
+Per le e-mail di marketing non operative, il testo e i collegamenti per l’annullamento dell’abbonamento vengono aggiunti in basso. In qualità di amministratore di prodotto, configura il HTML e il testo predefiniti che vengono compilati quando un addetto al marketing non contrassegna l’e-mail come operativa.
 
 1. Vai all&#39;area **[!UICONTROL Amministratore]** nell&#39;istanza Marketo Engage allegata e seleziona **[!UICONTROL E-mail]**.
 
@@ -89,7 +78,7 @@ Se devi ripristinare il contenuto di sistema predefinito, copia e incolla quanto
 
 ### Visualizza come pagina Web
 
-Il contenuto delle e-mail ha funzionalità di visualizzazione limitate (CSS limitate e nessun JavaScript o moduli). Gli addetti al marketing possono utilizzare l&#39;opzione _Visualizza come pagina Web_ per applicare un cookie al destinatario dell&#39;e-mail tramite Marketo Munchkin. In qualità di amministratore di prodotto, devi configurare il HTML predefinito e il testo che viene popolato quando un addetto marketing sceglie questa opzione.
+Il contenuto delle e-mail ha funzionalità di visualizzazione limitate (CSS limitate e nessun JavaScript o moduli). Gli addetti al marketing possono utilizzare l&#39;opzione _Visualizza come pagina Web_ per applicare un cookie al destinatario dell&#39;e-mail tramite Marketo Munchkin. In qualità di amministratore di prodotto, configura il HTML predefinito e il testo che viene popolato quando un addetto al marketing sceglie questa opzione.
 
 1. Vai all&#39;area **[!UICONTROL Amministratore]** nell&#39;istanza Marketo Engage allegata e seleziona **[!UICONTROL E-mail]**.
 
@@ -163,7 +152,7 @@ Modifica le _[!UICONTROL opzioni di intestazione personalizzate]_ per l&#39;e-ma
    ![Amministratore e-mail Marketo Engage - Impostazioni predefinite per le opzioni di intestazione personalizzate](./assets/me-admin-email-custom-header-options.png){width="500"}
 
    * **[!UICONTROL Trasporto sicuro]** - Imposta questa opzione su _Abilitato_ per garantire che i collegamenti di tracciamento vengano sempre serviti tramite HTTPS. Abilita questa opzione solo per le sottoscrizioni con collegamenti di tracciamento protetti da SSL.
-   * **[!UICONTROL Max-age]** - Questo campo supporta la direttiva obbligatoria per specificare il tempo, in secondi, in cui il browser deve ricordarsi di accedere solo al dominio tramite HTTPS.
+   * **[!UICONTROL Max-age]** - Questo campo supporta la direttiva obbligatoria per specificare il tempo, in secondi, in cui il browser ricorda di accedere solo al dominio tramite HTTPS.
    * **[!UICONTROL IncludeSubDomains]** - Utilizzare questa opzione per includere la direttiva che applica il criterio HSTS a tutti i sottodomini dell&#39;host.
 
    >[!IMPORTANT]
@@ -176,8 +165,8 @@ Modifica le _[!UICONTROL opzioni di intestazione personalizzate]_ per l&#39;e-ma
 
 L&#39;attività di bot per e-mail, definita anche come interazione non umana (NHI), può gonfiare i dati relativi alle _aperture_ e _clic_ dell&#39;e-mail, distorcendo le metriche di coinvolgimento e attivando la progressione del percorso basato su eventi. Utilizza il filtro dei bot e-mail per mantenere l’integrità delle metriche e delle informazioni sul coinvolgimento nei clic. Esistono due metodi per identificare una sospetta attività da bot:
 
-* _&#x200B;**[!UICONTROL Corrispondenza con l&#39;elenco di bot IAB]**&#x200B;_ - Le attività che corrispondono a qualsiasi elemento nell&#39;[Elenco di bot di Interactive Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (Agente utente/Indirizzo IP) sono contrassegnate come bot.
-* _&#x200B;**[!UICONTROL Corrispondenza con pattern di prossimità]**&#x200B;_ - Due o più attività che si verificano contemporaneamente (in meno di un secondo) sono identificate come bot. Attributi considerati durante il confronto:
+* _**[!UICONTROL Corrispondenza con l&#39;elenco di bot IAB]**_ - Le attività che corrispondono a qualsiasi elemento nell&#39;[Elenco di bot di Interactive Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (Agente utente/Indirizzo IP) sono contrassegnate come bot.
+* _**[!UICONTROL Corrispondenza con pattern di prossimità]**_ - Due o più attività che si verificano contemporaneamente (in meno di un secondo) sono identificate come bot. Attributi considerati durante il confronto:
    * ID lead (deve essere lo stesso)
    * Risorsa e-mail (deve essere la stessa)
    * Clic collegamento o apertura e-mail

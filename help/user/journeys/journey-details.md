@@ -4,20 +4,15 @@ description: Monitora le prestazioni del percorso di account con tassi di comple
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T23:21:08.953Z
 TQID: https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mpxCDY
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: 566
 ht-degree: 0%
 
 ---
@@ -26,7 +21,7 @@ ht-degree: 0%
 
 Quando si fa clic sul nome di un percorso di account attivo, vengono visualizzati i dettagli del percorso. La scheda _[!UICONTROL Panoramica]_ fornisce informazioni utili sul percorso, inclusi i riepiloghi generativi di IA.
 
-Questa dashboard offre una panoramica completa di un percorso di account selezionato, con informazioni dettagliate sull’avanzamento dell’account utilizzando grafici a cerchi e a linee che categorizzano e quantificano completamenti, attività in corso e interruzioni nel tempo. Aiuta gli addetti al marketing a valutare l’efficacia dei canali e-mail e SMS attraverso metriche chiave di consegna e coinvolgimento. Per le metriche e-mail aggregate in tutti i percorsi, consulta il [Rapporto sulle prestazioni delle e-mail](../dashboards/email-performance-dashboard.md).
+Questa dashboard offre una panoramica completa di un percorso di account selezionato, con informazioni dettagliate sull’avanzamento dell’account utilizzando grafici a cerchi e a linee che categorizzano e quantificano completamenti, attività in corso e interruzioni nel tempo. Aiuta i team di marketing a valutare l’efficacia dei canali e-mail e SMS attraverso metriche chiave di consegna e coinvolgimento. Per le metriche e-mail aggregate in tutti i percorsi, consulta il [Rapporto sulle prestazioni delle e-mail](../dashboards/email-performance-dashboard.md).
 
 Questa panoramica è disponibile per i percorsi di account pubblicati e il popolamento dei grafici e delle tabelle richiede circa quattro ore per i dati.
 
@@ -41,9 +36,9 @@ Questa sezione presenta due metriche di completamento:
 
 ## Coinvolgimento percorso
 
-Questa sezione presenta due metriche di completamento:
+Questa sezione presenta due metriche di coinvolgimento:
 
-* **[!UICONTROL Coinvolgimento per account]** - Questo grafico a cerchi segmenta gli account di un percorso in _Categorie Coinvolte_ e _Non Coinvolte_. Nella figura centrale viene visualizzato il conteggio totale. Questa visualizzazione fornisce una panoramica del coinvolgimento complessivo dell’account.
+* **[!UICONTROL Coinvolgimento per account]** - Questo grafico a cerchi segmenta gli account di un percorso in _Categorie Coinvolte_ e _Non Coinvolte_. Nella figura centrale viene visualizzato il conteggio totale. Questa visualizzazione offre una rapida comprensione del coinvolgimento complessivo dell’account.
 * **Coinvolgimento da parte di persone** - Questa visualizzazione mostra il numero totale di persone qualificate come _coinvolte_ in un percorso.
 
 ## Prestazioni del percorso
@@ -55,29 +50,29 @@ Questa sezione presenta due metriche vitali:
 
 ## Prestazioni di e-mail e SMS
 
-Le tabelle delle prestazioni forniscono un’analisi dettagliata dell’efficacia dei canali E-mail e SMS. Ogni tabella presenta metriche, come tassi di consegna e tassi di click-through, che consentono di valutare l’impatto di ogni punto di contatto di comunicazione. Le tabelle seguenti mostrano le metriche e-mail e SMS solo per questo percorso. Per le stesse metriche e-mail in tutti i percorsi, utilizza il [Rapporto sulle prestazioni delle e-mail](../dashboards/email-performance-dashboard.md).
+Le tabelle delle prestazioni forniscono informazioni dettagliate sull’efficacia dei canali E-mail e SMS. Ogni tabella presenta metriche, come tassi di consegna e tassi di click-through, che consentono di valutare l’impatto di ogni punto di contatto di comunicazione. Le tabelle seguenti mostrano le metriche e-mail e SMS solo per questo percorso. Per le stesse metriche e-mail in tutti i percorsi, utilizza il [Rapporto sulle prestazioni delle e-mail](../dashboards/email-performance-dashboard.md).
 
 **[!UICONTROL Prestazioni e-mail]** colonne tabella:
 
-* _[!UICONTROL Nome risorsa]_ - nome risorsa
-* _[!UICONTROL Inviato]_ - numero di e-mail inviate
-* _[!UICONTROL Percentuale di recapito]_ - numero di e-mail consegnate diviso per il numero inviato
-* _[!UICONTROL Percentuale aperture]_ - numero di messaggi e-mail aperti diviso per il numero di messaggi consegnati
-* _[!UICONTROL Percentuale di click-through]_ - numero di e-mail su cui è stato fatto clic diviso per il numero di messaggi consegnati
+* _[!UICONTROL Nome risorsa]_ - Nome risorsa
+* _[!UICONTROL Inviato]_ - Numero di e-mail inviate
+* _[!UICONTROL Percentuale di recapito]_ - Numero di e-mail consegnate diviso per il numero inviato
+* _[!UICONTROL Percentuale aperture]_ - Numero di messaggi e-mail aperti diviso per il numero di messaggi consegnati
+* _[!UICONTROL Percentuale di click-through]_ - Numero di e-mail su cui è stato fatto clic diviso per il numero di messaggi consegnati
 
 **[!UICONTROL Prestazioni SMS]** colonne di tabella:
 
-* _[!UICONTROL Nome risorsa]_ - nome risorsa
-* _[!UICONTROL Inviato]_ - numero di messaggi SMS inviati
-* _[!UICONTROL Percentuale di recapito]_ - numero di messaggi SMS recapitati diviso per il numero inviato
-* _[!UICONTROL Percentuale di click-through]_ - numero di messaggi SMS selezionati diviso per il numero recapitato
+* _[!UICONTROL Nome risorsa]_ - Nome risorsa
+* _[!UICONTROL Inviato]_ - Numero di messaggi SMS inviati
+* _[!UICONTROL Percentuale di recapito]_ - Numero di messaggi SMS recapitati diviso per il numero inviato
+* _[!UICONTROL Percentuale di click-through]_ - Numero di messaggi SMS selezionati diviso per il numero recapitato
 <!--
 To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. 
 -->
 
 ## Interazione migliorata
 
-Interagisci ulteriormente con i dati utilizzando l&#39;icona dell&#39;azione (**...**) in alto a destra in ogni grafico o tabella.
+Interagisci con i dati utilizzando l&#39;icona dell&#39;azione (**...**) in alto a destra in ogni grafico o tabella.
 
 ### Drill-through
 

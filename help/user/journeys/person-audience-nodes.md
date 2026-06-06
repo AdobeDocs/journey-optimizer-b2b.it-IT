@@ -5,23 +5,16 @@ feature: Audiences
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 716
+source-wordcount: 678
 ht-degree: 1%
 
 ---
@@ -42,15 +35,15 @@ Utilizza una delle seguenti opzioni di input per il nodo percorso di pubblico pe
 
 ## Acquisizione profilo
 
-In Journey Optimizer B2B edition, un’attività di acquisizione notturna del pubblico mantiene i profili sincronizzati con Experience Platform. Anche se i percorsi di persone basati su eventi possono qualificare profili che non fanno parte di un profilo o di un pubblico di account acquisito/in uso da Journey Optimizer B2B edition, ciò si traduce in profili acquisiti che rimangono non aggiornati a meno che non facciano parte di un pubblico utilizzato da un percorso di persone, un percorso di account o un gruppo di acquisto. Se un profilo viene acquisito e successivamente aggiunto a un pubblico, viene eseguita l’unione di profili e il profilo rimane sincronizzato con Experience Platform. Sono previsti miglioramenti alla sincronizzazione dei dati del profilo per le versioni future.
+In Journey Optimizer B2B edition, un’attività di acquisizione notturna del pubblico sincronizza i profili con Experience Platform. I percorsi di persone basati su eventi possono qualificare i profili non in un pubblico utilizzato da Journey Optimizer B2B edition, ma tali profili rimangono non aggiornati a meno che non vengano aggiunti a un pubblico utilizzato da un percorso di persone, un percorso di account o un gruppo di acquisto. Se un profilo viene acquisito e successivamente aggiunto a un pubblico, viene eseguita l’unione di profili e il profilo rimane sincronizzato con Experience Platform. Sono previsti miglioramenti alla sincronizzazione dei dati del profilo per le versioni future.
 
-Un nuovo profilo creato acquisito da un percorso di persone basato su eventi potrebbe non disporre delle informazioni di profilo aggiornate al momento dell’acquisizione. Ad esempio, se un profilo viene creato tramite un evento di compilazione del modulo e un percorso di persone lo acquisisce dall’evento di compilazione del modulo, i dati inviati nel modulo potrebbero non essere ancora sincronizzati con il profilo al momento in cui il percorso lo ha acquisito. Il risultato potrebbe essere costituito da dati incompleti per la personalizzazione (ad esempio nel contenuto dell’e-mail). Sono previsti miglioramenti alla sincronizzazione dei dati di questo evento profilo per le versioni future.
+Un nuovo profilo creato, acquisito da un percorso di persone basato su eventi, potrebbe non disporre delle informazioni di profilo aggiornate al momento dell’acquisizione. Ad esempio, se un profilo viene creato tramite un evento di compilazione del modulo, i dati inviati potrebbero non essere sincronizzati con il profilo quando il percorso lo acquisisce. Il risultato potrebbe essere costituito da dati incompleti per la personalizzazione (ad esempio nel contenuto dell’e-mail). Sono previsti miglioramenti alla sincronizzazione dei dati di questo evento profilo per le versioni future.
 
-I percorsi di persone basati su eventi possono qualificare profili ancora anonimi/senza indirizzi e-mail e contenenti solo ECID. Si verifica più comunemente quando si dispone di una logica di qualificazione per l’attività della pagina web. Una logica di pubblico eccessivamente ampia basata su eventi potrebbe portare l’istanza a raggiungere il limite di 40 milioni di profili, se troppi profili sono idonei. Limita il possibile ambito del pubblico per evitare questo scenario.
+I percorsi di persone basati su eventi possono qualificare profili ancora anonimi/senza indirizzi e-mail e che contengono solo ECID. Ciò si verifica più comunemente quando si dispone di una logica di qualificazione per l’attività della pagina web. Una logica di pubblico basata su eventi eccessivamente ampia potrebbe portare l’istanza a raggiungere il limite di 40 milioni di profili, se troppi profili si qualificano. Per evitare questo scenario, limita il possibile ambito del pubblico.
 
 >[!IMPORTANT]
 >
->Durante il programma beta corrente, l’utilizzo ideale dei percorsi di persone consiste nel qualificare solo i profili di cui esegui il targeting anche nei percorsi di account e nelle definizioni dei gruppi di acquisto. Questo utilizzo assicura che il profilo completo rimanga sincronizzato con Experience Platform.
+>Durante il programma beta corrente, l’utilizzo ideale dei percorsi di persone consiste nel qualificare solo i profili di cui esegui il targeting anche nei percorsi di account e nelle definizioni dei gruppi di acquisto. Questo utilizzo garantisce un profilo completo che rimane sincronizzato con Experience Platform.
 
 ## Impostare il pubblico per il nodo del pubblico della persona
 
