@@ -16,7 +16,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:11:12.994Z
 TQID: https://experienceleague.adobe.com/a-dPU6YNtDv86OD-i35749QY4HCDFtVIVn9F6jm0zEA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
 source-wordcount: 687
 ht-degree: 0%
@@ -40,10 +40,10 @@ Esistono due modi per definire il tempo di attesa:
 
    ![Aggiungi nodo percorso - attendi](./assets/add-node-wait.png){width="440"}
 
-1. Nelle proprietà del nodo a destra, imposta il **[!UICONTROL Tipo]** di tempo da attendere prima che il percorso proceda al nodo successivo nel percorso.
+1. Per impostare il tempo di attesa prima che il percorso passi al nodo successivo nel percorso, utilizzare le proprietà del nodo a destra per impostare il tipo **[!UICONTROL Type]**.
 
    * **[!UICONTROL Durata]** - Definisci un numero specifico di giorni, ore o minuti tra l&#39;entrata e l&#39;uscita del nodo di attesa.
-   * **[!UICONTROL Data]** - Specificare una data e un&#39;ora specifiche per l&#39;uscita.
+   * **[!UICONTROL Data]** - Specificare una data e un&#39;ora di uscita.
 
    ![nodo Percorso - attendi](./assets/node-wait.png){width="500"}
 
@@ -51,7 +51,7 @@ Esistono due modi per definire il tempo di attesa:
 
 Abilita l&#39;opzione **[!UICONTROL Deve terminare il]** per configurare un _passaggio di attesa avanzato_ e assicurarsi che i messaggi raggiungano le persone e i membri dell&#39;account nel momento ottimale. Questa configurazione offre un controllo preciso su quando una persona o un account esce da un passaggio di attesa e procede al nodo successivo nel percorso. Invece di un numero fisso di ore o giorni dall&#39;entrata all&#39;uscita, puoi pianificare azioni che si verificano in orari specifici e in giorni specifici della settimana.
 
-Con un _passaggio di attesa avanzato_, puoi definire **_quando_** la persona o l&#39;account deve uscire, non solo per quanto tempo deve attendere.
+Con un _passaggio di attesa avanzato_, puoi definire **_quando_** la persona o l&#39;account esce, non semplicemente per quanto tempo devono attendere.
 
 ![nodo Percorso - passaggio di attesa avanzato](./assets/node-wait-advanced.png){width="500"}
 
@@ -66,11 +66,11 @@ Con un _passaggio di attesa avanzato_, puoi definire **_quando_** la persona o l
 
 ### Scenari comuni
 
-Gli scenari seguenti illustrano come applicare scenari tipici alla configurazione dei nodi di attesa:
+Gli scenari seguenti illustrano come applicare esempi tipici alla configurazione dei nodi di attesa:
 
 +++Arrivo e-mail durante l’orario di lavoro
 
-**Scenario:** Vendi a clienti B2B che leggono e-mail al lavoro. Vuoi che tutte le e-mail arrivino durante l’orario di lavoro.
+**Scenario:** Vendi a clienti B2B che leggono e-mail durante la giornata lavorativa. Vuoi che tutte le e-mail arrivino durante l’orario di lavoro.
 
 **Soluzione:** Configura il passaggio di attesa per rilasciare i lead alle 9:00 nei giorni feriali (dal lunedì al venerdì). Indipendentemente dal momento in cui un lead entra nel nodo di attesa, riceve l’e-mail durante l’orario di lavoro.
 
@@ -86,7 +86,7 @@ Gli scenari seguenti illustrano come applicare scenari tipici alla configurazion
 
 +++Attività di follow-up conformi a SLA
 
-**Scenario:** il tuo team vendite dispone di un SLA di due giorni lavorativi per seguire i lead qualificati per il marketing. I fine settimana non contano.
+**Scenario:** il tuo team vendite dispone di un SLA di due giorni lavorativi per seguire i lead qualificati per il marketing. I fine settimana sono esclusi.
 
 **Soluzione:** configurare il passaggio di attesa per rilasciare i lead solo nei giorni lavorativi. Un lead qualificato venerdì viene inviato per il follow-up lunedì o martedì, non nel fine settimana.
 

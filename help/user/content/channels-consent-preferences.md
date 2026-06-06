@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: 415
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Journey Optimizer B2B edition valuta il seguente attributo XDM per il consenso e
 | --- | --- | --- | --- |
 | `consents.marketing.email.val` | Consenso accordato | Rinuncia | Consenso accordato |
 
-Per il consenso e-mail, tieni presenti le seguenti considerazioni:
+Considera quanto segue per il consenso e-mail:
 
 * Le persone che hanno rinunciato a livello globale all’e-mail possono ricevere e-mail contrassegnate come operative.
 * Preferenze a livello di abbonamento non supportate.
@@ -58,7 +58,7 @@ Journey Optimizer B2B edition valuta i seguenti attributi XDM per il consenso SM
 | `consents.marketing.subscriptions.<senderID>` | Consenso accordato | Rinuncia | Rinuncia |
 | `consents.marketing.sms.subscriptions.<senderId>.subscribers.<phoneNumber>` | Consenso accordato | Rinuncia | Rinuncia |
 
-Per il consenso SMS, tieni presenti le seguenti considerazioni:
+Per il consenso SMS, considera quanto segue:
 
 * Quando un record principale (persona) viene escluso dagli SMS, viene escluso completamente e non viene passato ai provider SMS a valle.
 * Quando disponibile, viene valutato il consenso a livello di abbonamento. La rinuncia globale viene utilizzata come fallback quando il consenso a livello di abbonamento non è disponibile.
@@ -74,7 +74,7 @@ Journey Optimizer B2B edition valuta i seguenti attributi XDM per il consenso Wh
 | `consents.marketing.whatsApp.val` | Consenso accordato | Rinuncia | Rinuncia |
 | `consents.idSpecific.Phone.<number>.marketing.whatsApp.val` | Consenso accordato | Rinuncia | Rinuncia |
 
-Per il consenso WhatsApp, tieni presenti le seguenti considerazioni:
+Considera quanto segue per il consenso WhatsApp:
 
 * Se il valore dell&#39;attributo WhatsApp globale (`consents.marketing.whatsApp.val`) è presente, viene utilizzato per la valutazione del consenso.
 * Se il valore dell’attributo globale non è presente ma è presente una voce specifica del mittente, per la valutazione del consenso viene utilizzata la voce specifica del mittente.

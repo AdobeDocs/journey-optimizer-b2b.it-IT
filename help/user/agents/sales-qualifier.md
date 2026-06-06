@@ -4,22 +4,27 @@ description: Automatizzare la qualifica di potenziale cliente B2B e l'impegno co
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 exl-id: cc590444-41df-44fe-830b-92241718ee81
-autotag-review: 2026-03-30T15:10:20.350Z
+autotag-review: '2026-06-05T16:42:16.451Z'
+TQID: 'https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
   - id: fc1ff3b2-6614-41ad-a113-de48597598fd
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+subfeature_v2:
+  - id: fe583b80-65a2-48c2-b4e1-9ea8fbac0a8a
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-TQID: https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs
-source-git-commit: 55d6f156fbeaf27203f15524833b2825832e5dc5
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 4594
+source-wordcount: 4580
 ht-degree: 1%
 
 ---
@@ -40,7 +45,7 @@ Qualificatore di vendita è incluso in [!UICONTROL Journey Optimizer B2B edition
 
 ### Agente Account Qualification
 
-Il Account Qualification Agent (AQA) è il cuore del qualificatore di vendita. L’AQA utilizza l’intelligenza artificiale per leggere gli account e determinare quali sono pronti per il passaggio successivo. Aiuta nella ricerca, nella redazione di e-mail e nel contesto informato sul sistema CRM quando l’organizzazione ha connesso il sistema CRM (sola lettura).
+Il Account Qualification Agent (AQA) è il nucleo del qualificatore di vendita. L’AQA utilizza l’intelligenza artificiale per leggere gli account e determinare quali sono pronti per il passaggio successivo. Aiuta nella ricerca, nella redazione di e-mail e nel contesto informato sul sistema CRM quando l’organizzazione ha connesso il sistema CRM (sola lettura).
 
 <!--
 ## Edit the left navigation bar
@@ -50,7 +55,7 @@ At the bottom left of the application, click the _Edit_ ( ![Edit icon](../assets
 
 ### Utilizzo di base dell’agente
 
-Gli agenti di Adobe AI utilizzano _query in linguaggio naturale_, il che significa che utilizzano nel prompt del testo la stessa lingua utilizzata quando si parla con una persona. Più sei dettagliato, migliori saranno i risultati.
+Gli agenti di Adobe AI utilizzano _query in linguaggio naturale_, il che significa che utilizzano la stessa lingua nel prompt del testo utilizzata quando si parla con una persona. Più sei dettagliato, migliori saranno i risultati.
 
 Utilizzando il linguaggio naturale, puoi chiedere all’agente di:
 
@@ -62,7 +67,7 @@ Itera i flussi di lavoro in uscita perfezionando le richieste per ottenere i ris
 
 * _Crea una bozza di disegno di un&#39;e-mail di follow-up dal contesto, ad esempio chiamate o rapporti sui guadagni._ Fino a 120 parole. Oggetto: Captivazione, con un tema chiave. Introduzione: hook con una citazione diretta da origini di contesto. Corpo: connettiti ai punti critici e alle proposte di valore. CTA: propone una breve chiamata per approfondire l’analisi._
 
-* _L&#39;obiettivo di questa e-mail è quello di avviare una conversazione e creare credibilità._ Redigi un&#39;e-mail sotto 120 parole con un tono consultivo ed empatico. Assicurati di evitare un approccio troppo familiare o di vendita e non utilizzare le frasi &quot;spera di stare bene&quot;, &quot;solo check-in&quot;, o &quot;per favore&quot;._
+* _L&#39;obiettivo di questa e-mail è quello di avviare una conversazione e creare credibilità._ Redigi un&#39;e-mail sotto 120 parole con un tono consultivo ed empatico. Evita un approccio troppo familiare alle vendite e non usare le frasi &quot;spera di stare bene&quot;, &quot;solo per il check-in&quot; o &quot;per favore&quot;._
 
 ### Accesso ai prodotti e gruppi di utenti
 
@@ -89,7 +94,7 @@ Gli utenti BDR standard devono essere membri del gruppo di utenti `Sales Qualifi
 
 ## Potenziali clienti
 
-Seleziona **[!UICONTROL Prospect]** nella barra di navigazione a sinistra per visualizzare un elenco di tutti i lead a cui puoi accedere. Consente di controllare rapidamente elementi quali lo stato del lead e l’ultima attività.
+Seleziona **[!UICONTROL Prospect]** nella barra di navigazione a sinistra per visualizzare un elenco di tutti i lead a cui puoi accedere. Fornisce una rapida revisione delle informazioni, come lo stato del lead e l’ultima attività.
 
 ![Tabella dei potenziali clienti con lo stato del lead e l&#39;ultima attività per la gestione dei potenziali clienti](./assets/prospects.png){width="800" zoomable="yes"}
 
@@ -174,7 +179,7 @@ Dopo aver impostato il targeting, l&#39;IA crea la **_cadenza_**: analizza l&#39
 
 ![Cadenza punto di contatto generata dal flusso di lavoro in uscita e prompt](./assets/outbound-workflow-create-touchpoints.png){width="700" zoomable="yes"}
 
-Espandi un punto di contatto e-mail per leggerne il prompt. Questa istruzione guida l’intelligenza artificiale durante la scrittura dell’e-mail di ogni potenziale cliente, inclusi il tono, la lunghezza, lo stato attivo e call to action.
+Espandi un punto di contatto e-mail per leggerne il prompt. Questa istruzione guida l&#39;intelligenza artificiale durante la scrittura dell&#39;e-mail di ogni prospect, inclusi il tono, la lunghezza, lo stato attivo e _call to action_.
 
 **Rigenerare la cadenza**
 
@@ -238,7 +243,7 @@ Al termine della generazione, nella vista dei dettagli del flusso di lavoro vien
 
 #### Leggere il ragionamento dell’intelligenza artificiale
 
-Per ogni e-mail generata, **[!UICONTROL Reasoning]** spiega come l&#39;intelligenza artificiale ha creato il messaggio, inclusi i segnali, gli attributi e le origini che hanno modellato il contenuto e call to action. Esamina queste informazioni per convalidare la personalizzazione prima di approvare.
+Per ogni e-mail generata, **[!UICONTROL Reasoning]** spiega come l&#39;intelligenza artificiale ha creato il messaggio, inclusi i segnali, gli attributi e le origini che hanno modellato il contenuto e call to action. Esamina queste informazioni e convalida la personalizzazione prima di approvare.
 
 ![Motivo IA per l&#39;e-mail generato dal flusso di lavoro in uscita](./assets/outbound-workflow-create-review-generated-email-reasoning.png){width="600" zoomable="yes"}
 
@@ -287,10 +292,10 @@ Nella pagina _[!UICONTROL Flusso di lavoro in uscita]_, la scheda **[!UICONTROL 
 ### Best practice per i flussi di lavoro in uscita
 
 * **Investire nell&#39;obiettivo.** Il targeting a valle, la cadenza e le e-mail riconducono tutti all’obiettivo. Obiettivi specifici e focalizzati sui risultati superano quelli vaghi.
-* **Finalizza i prompt dei punti di contatto prima della generazione per singolo prospect.**&#x200B;** Dopo la generazione in blocco, le modifiche vengono in genere apportate a un prospect alla volta.
+* **Finalizza i prompt dei punti di contatto prima della generazione per singolo prospect.** Dopo la generazione in blocco, le modifiche vengono in genere apportate un prospect alla volta.
 * **Usa il ragionamento come controllo qualità.** Se viene enfatizzato il segnale sbagliato (o se ne manca uno ovvio), modifica l’e-mail o visita nuovamente il prompt del punto di contatto e rigenera la cadenza.
-* **Abbina lo strumento di modifica alla modifica.**&#x200B;**&#x200B; Modifiche dirette per testo e tono; &#x200B;** [!UICONTROL Genera con IA]** per ristrutturazione o riformattazione.
-* **Approva solo ciò che hai rivisto.**&#x200B;** Espandi i punti di contatto, leggi il contenuto e perfeziona se necessario prima dell&#39;iscrizione.
+* **Corrispondenza tra lo strumento di modifica e la modifica.** Modifiche dirette per la formulazione e il tono; **[!UICONTROL Generare con IA]** per la ristrutturazione o il riframing.
+* **Approva solo ciò che hai rivisto.** Espandi i punti di contatto, leggi il contenuto e perfeziona eventualmente prima dell’iscrizione.
 
 ## Posta in uscita e-mail
 
@@ -317,7 +322,7 @@ L&#39;area _Attività_ in Qualificatore vendite offre ai rappresentanti per lo s
 
 L&#39;esperienza di gestione delle attività è progettata come una **coda di elaborazione**, non solo come elenco attività. È possibile aprire un&#39;attività, eseguire un&#39;azione, contrassegnarla come completata e passare a quella successiva senza uscire dalla pagina.
 
-Seleziona **[!UICONTROL Attività]** nella barra di navigazione a sinistra per aprire la pagina Attività completa. Questa è l&#39;area di lavoro principale per l&#39;elaborazione delle attività una alla volta.
+Seleziona **[!UICONTROL Attività]** nella barra di navigazione a sinistra per aprire la pagina completa delle attività. Questa pagina è l&#39;area di lavoro principale per l&#39;elaborazione delle attività una alla volta.
 
 ![Pagina Attività con coda attività e pannello dettagli](./assets/tasks.png){width="800" zoomable="yes"}
 
@@ -366,7 +371,7 @@ Per gestire le attività, utilizzare le azioni seguenti:
    * Lo stato dell&#39;attività è impostato su **Ignorato** e registrato con il motivo e la marca temporale.
    * Se questo è stato l’ultimo passaggio del flusso di lavoro, l’esecuzione del flusso di lavoro del prospect termina. L’attività è ancora registrata come Ignorata (non rimossa).
 
-* **[!UICONTROL Rimuovi dal flusso di lavoro]** - Disponibile dal menu di overflow nel pannello di lavoro. Utilizzalo quando il potenziale cliente non dovrebbe più essere in questo flusso di lavoro.
+* **[!UICONTROL Rimuovi dal flusso di lavoro]** - Disponibile dal menu di overflow nel pannello di lavoro. Utilizzalo quando il prospect non appartiene più a questo flusso di lavoro.
 
   Quando rimuovi un prospect da un flusso di lavoro:
    * Tutte le attività in sospeso e future per quel prospect all’interno di questo flusso di lavoro vengono annullate.
@@ -463,7 +468,7 @@ Con le integrazioni, il qualificatore di vendita può utilizzare il CRM in modo 
 
 >[!IMPORTANT]
 >
->L&#39;accesso alle integrazioni in Qualificatore vendite richiede l&#39;appartenenza al gruppo di utenti `Sales Qualifier Admins`.
+>L&#39;accesso alle integrazioni in Qualificatore vendite richiede l&#39;iscrizione al gruppo di utenti `Sales Qualifier Admins`.
 
 ### Ambito di accesso CRM
 
@@ -500,7 +505,7 @@ In Salesforce, [crea un&#39;app client esterna](https://help.salesforce.com/s/ar
 
 >[!PREREQUISITES]
 >
->Per creare un’app client esterna, è necessario essere amministratore di sistema e verificare di aver abilitato quanto segue (dal profilo o dal set di autorizzazioni):
+>Per creare un’app client esterna, l’amministratore del prodotto deve verificare che siano abilitati i seguenti elementi (dal profilo o dal set di autorizzazioni):
 >
 >* Personalizza applicazione
 >* Visualizza configurazione e configurazione
@@ -545,7 +550,7 @@ Assicurati che l’utente configurato abbia accesso in lettura ai seguenti ogget
 
 1. Nel menu di navigazione a sinistra, espandi **[!UICONTROL Amministrazione]** e seleziona **[!UICONTROL Integrazioni]**.
 
-   Dovresti vedere le schede per Salesforce e Microsoft Dynamics.
+   Nella pagina sono visualizzate le schede per Salesforce e Microsoft Dynamics.
 
    ![Pagina Integrazioni con le schede di connessione di Salesforce e Dynamics](./assets/integrations-crm-connections.png){width="800" zoomable="yes"}
 
@@ -644,7 +649,7 @@ Nella scheda **[!UICONTROL Configurazione calendario]**, imposta il tuo fuso ora
 
 * **[!UICONTROL E-mail di conferma riunione]** - Quando un cliente conferma una riunione con te, riceve l&#39;e-mail di conferma come risposta. Utilizza queste impostazioni per definire l’oggetto e il corpo dell’e-mail.
 
-* **[!UICONTROL Preferenze]** - Imposta la durata predefinita della riunione e l&#39;intervallo di tempo che desideri tra le riunioni back-to-back.
+* **[!UICONTROL Preferenze]** - Imposta la durata predefinita della riunione e l&#39;intervallo tra le riunioni di back-to-back.
 
 Se si disconnette il calendario:
 

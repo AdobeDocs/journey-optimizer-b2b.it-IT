@@ -16,22 +16,22 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 1879
+source-wordcount: 1880
 ht-degree: 11%
 
 ---
 
 # Ascoltare un evento
 
-Aggiungi il nodo _Ascolta un evento_ per spostare il pubblico al passaggio successivo nel percorso in cui si verifica un evento.
+Per spostare il pubblico al passaggio successivo nel percorso quando si verifica un evento, aggiungi il nodo _Ascolta un evento_.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [Guarda il video introduttivo](#overview-video)
 
 >[!NOTE]
 >
->Per un percorso di account, non è possibile aggiungere questo tipo di nodo nel percorso suddiviso da persone.
+>Per un percorso di account, non è possibile aggiungere questo tipo di nodo in un percorso suddiviso da persone.
 
 ## Eventi account
 
@@ -68,7 +68,7 @@ In un percorso di account, puoi ascoltare un evento basato sulle persone quando 
 
 >[!TIP]
 >
->Per instradare le persone in base agli eventi di esperienza che si sono verificati _prima_ quando sono entrate nel percorso (ad esempio un clic e-mail precedente o un&#39;interazione Web), utilizza il filtro [!UICONTROL Event history] in un nodo [Split paths by people](./split-merge-paths-nodes.md#experience-event-history-filtering).
+>Gli eventi di esperienza possono verificarsi _prima che_ persone entrino nel percorso (ad esempio un clic e-mail precedente o un&#39;interazione web). Per instradare le persone in base a questi eventi, utilizzare il filtro [!UICONTROL Cronologia eventi] in un nodo [Dividi percorsi per persone](./split-merge-paths-nodes.md#experience-event-history-filtering).
 
 ### Eventi e vincoli
 
@@ -95,7 +95,7 @@ In un percorso di account, puoi ascoltare un evento basato sulle persone quando 
 | [!UICONTROL Cronologia attività] > [!UICONTROL Valore dati modificato] | Per un attributo persona selezionato, si è verificata una modifica del valore. Questi tipi di modifica includono: <li>Nuovo valore<li>Valore precedente<li>Motivo<li>Origine<li>Data dell’attività<li>Min numero di volte <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
 | [!UICONTROL Cronologia attività] > [!UICONTROL Momento di interesse] | L’attività del momento di interesse definita nell’istanza di Marketo Engage associata. I vincoli includono: <li>Milestone<li>E-mail<li>Web <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> |
 | [!UICONTROL Cronologia attività] > [!UICONTROL Pagina Web visitata] | Attività della pagina web che per una o più pagine web gestite dall’istanza Marketo Engage associata. I vincoli includono: <li>Pagina Web (obbligatoria)<li>Data dell’attività<li>Indirizzo IP del cliente <li>Querystring <li>Referrer <li>Agente utente <li>Motore di ricerca <li>Query di ricerca <li>URL personalizzato <li>Token <li>Browser <li>Piattaforma <li>Dispositivo <li>Min numero di volte <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
-| [!UICONTROL Attributi della persona] | Attributi dal profilo della persona, tra cui: <li>Città <li>Paese <li>Data di nascita <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area geografica dello stato dedotta<li>Titolo del processo <li>Cognome <li>Numero di cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo dell’annullamento dell’iscrizione |
+| [!UICONTROL Attributi della persona] | Attributi dal profilo della persona, tra cui: <li>Città <li>Paese <li>Data di nascita <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area geografica dello stato dedotta<li>Posizione lavorativa <li>Cognome <li>Numero di cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo dell’annullamento dell’iscrizione |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>È stato rimosso</li><li>Ruolo</li> |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro dell&#39;elenco] | La persona è o non è membro di uno o più elenchi Marketo Engage. |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del programma] | La persona è o non è membro di uno o più programmi Marketo Engage. |
@@ -139,7 +139,7 @@ Se nell’istanza Marketo Engage connessa sono presenti pagine web, puoi attivar
 
      ![Ascolta un evento esperienza](./assets/node-listen-events-people-me-event-edit-dialog.png){width="700" zoomable="yes"}
 
-     È possibile ripetere questa azione per includere vincoli di campo aggiuntivi in base alle esigenze.
+     Per includere vincoli di campo aggiuntivi in base alle esigenze, ripetere questa azione.
 
    * Se necessario, selezionare la scheda **[!UICONTROL Filtri]** per [aggiungere filtri per l&#39;evento](#add-a-filter-to-the-people-event).
 
@@ -211,7 +211,7 @@ _Per includere un evento esperienza nel percorso :_
 
    ![Ascolta il nodo Evento da parte degli utenti - Seleziona la scheda Filtri per modificare l&#39;evento](./assets/node-listen-event-people-edit-event-filters.png){width="700" zoomable="yes"}
 
-1. Aggiungi uno o più filtri per eseguire il targeting delle persone per l’evento.
+1. Per eseguire il targeting delle persone per l’evento, aggiungi uno o più filtri.
 
    * Trascina uno dei [filtri persone](#people-event-filters) dalla navigazione a sinistra e completa la definizione della corrispondenza.
 
@@ -219,7 +219,7 @@ _Per includere un evento esperienza nel percorso :_
      >
      >Se hai dei campi persona personalizzati definiti nello schema del pubblico dell&#39;account in Experience Platform, questi campi sono disponibili anche in **[!UICONTROL Attributi]** da usare come attributi persona nei filtri.
 
-   * Ottimizza il filtro applicando la **[!UICONTROL logica filtro]** nella parte superiore. Scegli di far corrispondere tutti i filtri o qualsiasi filtro.
+   * Affina il filtro applicando la **[!UICONTROL logica filtro]** nella parte superiore. Puoi scegliere di far corrispondere tutti i filtri o qualsiasi filtro.
 
      ![Filtri persona utilizzati in una definizione evento](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 

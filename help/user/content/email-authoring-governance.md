@@ -15,9 +15,9 @@ topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 autotag-review: 2026-03-30T22:35:16.900Z
 TQID: https://experienceleague.adobe.com/iwVl-dwU9oGG0rHQ9-J3EO5r3B778jQCe6XK742ArEo
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 277
+source-wordcount: 273
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 I progettisti di contenuti possono abilitare [la governance (_il blocco del contenuto_)](./template-content-governance.md) durante la creazione di modelli di posta elettronica. Le funzioni di governance consentono di designare le parti della progettazione che non possono essere modificate quando vengono utilizzate in un percorso di conti. Quando [selezioni un modello salvato](./email-authoring.md#select-a-template) per creare un&#39;e-mail, lo spazio di progettazione visiva carica il modello in modo che tu possa utilizzarlo come base per l&#39;e-mail.
 
-Se la governance del modello è abilitata, nel pannello delle proprietà a destra viene visualizzato un avviso. Puoi attivare le **[!UICONTROL aree modificabili evidenziate]** nella parte superiore dell&#39;area di lavoro per vedere quali componenti ed elementi di contenuto sono modificabili per l&#39;utilizzo nel percorso.
+Se la governance del modello è abilitata, nel pannello delle proprietà a destra viene visualizzato un avviso. Seleziona **[!UICONTROL Evidenzia aree modificabili]** nella parte superiore dell&#39;area di lavoro per vedere quali componenti ed elementi di contenuto sono modificabili per l&#39;utilizzo nel percorso.
 
 ![Visualizzare le aree modificabili in un modello gestito](./assets/email-designer-governed-highlight.png){width="800" zoomable="yes"}
 

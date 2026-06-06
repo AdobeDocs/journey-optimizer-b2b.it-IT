@@ -17,9 +17,9 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T22:13:38.262Z
 TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: 1306
 ht-degree: 3%
 
 ---
@@ -74,7 +74,7 @@ Puoi creare un messaggio composto da un massimo di 1600 caratteri, ogni 160 cara
 
 1. Aggiungere un token facendo clic sul simbolo più ( **+** ) accanto a esso.
 
-   Se desideri aggiungere il token con un fallback (impostazione predefinita che viene visualizzata se il campo non è disponibile per un lead), fai clic sull&#39;icona _Altro_ ( **...** ) e scegli **[!UICONTROL Inserisci con testo di fallback]**.
+   Se desideri aggiungere il token con un fallback, fai clic sull&#39;icona _Altro_ ( **...** ) e scegli **[!UICONTROL Inserisci con testo di fallback]**. Il fallback è l’impostazione predefinita che viene visualizzata se tale campo non è disponibile per un lead.
 
    ![Fare clic sui puntini di sospensione per utilizzare un fallback per il token](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
@@ -108,7 +108,7 @@ Puoi creare un messaggio composto da un massimo di 1600 caratteri, ogni 160 cara
 
      >[!NOTE]
      >
-     >Se consenti il tracciamento ma disabiliti _[!UICONTROL Includi mkt_tok]_, l&#39;URL di destinazione non include il parametro della stringa di query `mkt_tok` dopo il reindirizzamento. Questo parametro viene utilizzato dalle pagine di destinazione di Marketo Engage e da Munchkin per garantire il tracciamento delle attività della persona (ad esempio, quando una persona annulla l’iscrizione a un’e-mail). Non disabilitare questa opzione a meno che il parametro non stia causando problemi sul sito web.<br/>
+     >Se consenti il tracciamento ma disabiliti _[!UICONTROL Includi mkt_tok]_, l&#39;URL di destinazione non include il parametro della stringa di query `mkt_tok` dopo il reindirizzamento. Questo parametro viene utilizzato dalle pagine di destinazione di Marketo Engage e da Munchkin per garantire il tracciamento delle attività della persona (ad esempio, quando una persona annulla l’iscrizione a un’e-mail). Non disabilitare questa opzione a meno che il parametro non stia causando problemi sul sito Web.<br/>
      >Per ulteriori informazioni sull&#39;utilizzo dei codici di tracciamento di Munchkin nel tuo sito Web, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Finestra di dialogo Aggiungi collegamento per messaggio SMS](./assets/sms-add-link-dialog.png){width="470"}
@@ -175,7 +175,7 @@ Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test
 
 ## Gestione del consenso SMS
 
-Come requisito legale, è necessario dare ai destinatari la possibilità di annullare l’abbonamento alla ricezione di comunicazioni da un marchio e rispettare questa scelta. Il mancato rispetto di queste normative comporta rischi legali per il tuo marchio. Questa funzione ti aiuta anche a evitare l’invio di comunicazioni non richieste ai destinatari, che potrebbero essere contrassegnate come spam e danneggiare la tua reputazione.
+Come requisito legale, è necessario dare ai destinatari la possibilità di annullare l’abbonamento alla ricezione di comunicazioni da un marchio e rispettare questa scelta. Il mancato rispetto di queste normative comporta rischi legali per il tuo marchio. Questa funzione ti aiuta a evitare l’invio di comunicazioni non richieste ai destinatari, in modo che possano contrassegnare i messaggi come spam e danneggiare la tua reputazione.
 
 Quando fornisci questa opzione, i destinatari di SMS possono rispondere con parole chiave di consenso e rinuncia. Sono supportate e rispettate tutte le parole chiave standard di consenso e rinuncia, nonché tutte le parole chiave personalizzate configurate con il provider di servizi SMS. Quando l’abbonamento viene annullato, i profili vengono rimossi automaticamente dal pubblico dei messaggi di marketing futuri.
 

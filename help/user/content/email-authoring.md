@@ -17,9 +17,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: 1164
 ht-degree: 5%
 
 ---
@@ -44,11 +44,11 @@ Dopo aver creato e personalizzato il contenuto dell’e-mail, puoi esportarlo pe
 
 >[!TIP]
 >
->Utilizza l’Assistente AI in Adobe Journey Optimizer B2B edition, basato su intelligenza artificiale generativa, per elevare i contenuti al livello successivo. L’Assistente AI può aiutarti a ottimizzare l’impatto delle consegne generando e-mail intere, contenuto di testo mirato e ricevendo consigli dall’Assistente AI per le immagini che risuonano con il tuo pubblico. [Ulteriori informazioni](./ai-assistant-emails.md)
+>Utilizza AI Assistant in Adobe Journey Optimizer B2B edition, basato su AI generativa, per migliorare i contenuti. L’Assistente AI può aiutarti a ottimizzare l’impatto delle consegne generando e-mail intere, contenuto di testo mirato e ricevendo consigli dall’Assistente AI per le immagini che risuonano con il tuo pubblico. [Ulteriori informazioni](./ai-assistant-emails.md)
 
 ## Creare e-mail da zero {#design-from-scratch}
 
-Utilizza lo spazio di progettazione del contenuto visivo per definire la struttura e il contenuto dell’e-mail. Aggiungendo e spostando componenti strutturali con semplici azioni di trascinamento della selezione, puoi progettare la forma del contenuto dell’e-mail riutilizzabile in pochi secondi.
+Utilizza lo spazio di progettazione del contenuto visivo per definire la struttura e il contenuto dell’e-mail. Aggiungendo e spostando componenti strutturali con semplici azioni di trascinamento della selezione, puoi progettare il layout e l’organizzazione del contenuto dell’e-mail in pochi secondi.
 
 1. Dalla home page di _[!UICONTROL Progetta modello]_, seleziona l&#39;opzione **[!UICONTROL Progetta da zero]**.
 
@@ -92,7 +92,7 @@ Puoi personalizzare il contenuto importato in base alle esigenze con gli strumen
 
 >[!NOTE]
 >
-> Ai modelli salvati possono essere applicate impostazioni di governance (blocco del contenuto) a uno o più componenti. Lo spazio di progettazione visivo fornisce indicazioni sui componenti bloccati quando si [crea un messaggio e-mail da un modello gestito](./email-authoring-governance.md).
+> Ai modelli salvati possono essere applicate le impostazioni di governance (blocco del contenuto) a uno o più componenti. Lo spazio di progettazione visivo fornisce indicazioni sui componenti bloccati quando si [crea un messaggio e-mail da un modello gestito](./email-authoring-governance.md).
 
 ## Aggiungere struttura e contenuto {#structure-content}
 
@@ -156,7 +156,7 @@ Sfrutta le opzioni di convalida di visualizzazione e contenuto disponibili nell�
 
 * Zoom in/out del contenuto tra le opzioni di zoom predefinite.
 
-* Cambia la visualizzazione del contenuto tra desktop, dispositivi mobili o solo testo/solo testo.
+* Consente di passare dalla visualizzazione del contenuto su desktop a quella su dispositivi mobili o solo testo o solo testo.
    * Fai clic sull&#39;icona _Visualizza_ per l&#39;anteprima del contenuto tra i dispositivi.
    * Seleziona uno dei dispositivi predefiniti o immetti dimensioni personalizzate per visualizzare in anteprima il contenuto.
 
@@ -166,7 +166,7 @@ Dal menu _[!UICONTROL Altro ...]_ nella parte superiore dello spazio di progetta
 
 ![Fai clic su Altro per accedere alle azioni del modello](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Reimposta e-mail]** - Fai clic su questa opzione per cancellare l&#39;area di progettazione delle e-mail in una lavagna vuota e riavviare la creazione del contenuto.
+* **[!UICONTROL Reimposta e-mail]** - Fai clic su questa opzione per cancellare l&#39;area di progettazione dell&#39;e-mail e riavviare la creazione del contenuto.
 * **[!UICONTROL Salva come frammento]** - Salva tutte o alcune parti dell&#39;e-mail come frammento da riutilizzare in più e-mail o modelli di e-mail. Fornisci un nome e una descrizione per il frammento, quindi salvalo nell’elenco dei frammenti disponibili.
 * **[!UICONTROL Modifica la progettazione]** - Torna alla pagina _Progetta la tua e-mail_. A questo punto è possibile scegliere un altro modello per riavviare il processo di progettazione. Puoi anche scegliere di progettare il contenuto da zero con un&#39;area di lavoro vuota (_Modalità classica_) o utilizzando un [tema del marchio](./brand-themes.md) (_Modalità tema_).
 * **[!UICONTROL Salva come modello di contenuto]** - Salva il corpo dell&#39;e-mail come modello e-mail da riutilizzare in più e-mail o modelli e-mail. Fornisci un nome e una descrizione per il modello, quindi salvalo nell’elenco dei modelli e-mail salvati.
@@ -180,7 +180,7 @@ Per [visualizzare l&#39;anteprima del contenuto dell&#39;e-mail](./email-simulat
 
 ![Simula il contenuto dell&#39;e-mail per controllare la progettazione](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
 
-Puoi accedere a strumenti aggiuntivi per convalidare e rivedere il contenuto dell’e-mail:
+Per convalidare e rivedere il contenuto dell’e-mail, accedi agli strumenti aggiuntivi:
 
 * [Inviare una bozza](./email-simulate-content.md#send-proofs)
 * [Test del rendering nei client e-mail](./email-test-rendering.md)

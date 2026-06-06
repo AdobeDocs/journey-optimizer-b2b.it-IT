@@ -20,10 +20,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1191
-ht-degree: 79%
+source-wordcount: 1186
+ht-degree: 72%
 
 ---
 
@@ -35,7 +35,7 @@ Gli schemi definiscono i campi in base ai profili XDM standard. Le configurazion
 
 Gli schemi di Adobe Experience Platform (AEP) in genere contengono molti campi in gerarchie complesse. L’attraversamento degli alberi dello schema XDM richiede tempo. La gestione dei campi XDM semplifica la selezione dei campi visualizzando solo i campi rilevanti per i percorsi, i gruppi di acquisto e la personalizzazione.  Gli amministratori abilitano questi campi per l’utilizzo in Journey Optimizer B2B edition, inclusi quelli di sola lettura o modificabili.
 
-Gli amministratori che conoscono XDM e collaborano con data engineer o con le parti interessate alla modellazione dati di Customer Data Platform (CDP) B2B devono utilizzare i passaggi seguenti per configurare i campi XDM per [!DNL Journey Optimizer B2B Edition].
+Gli amministratori che conoscono XDM e collaborano con data engineer o con le parti interessate alla modellazione dati di Customer Data Platform (CDP) B2B utilizzano i seguenti passaggi per configurare i campi XDM per [!DNL Journey Optimizer B2B Edition].
 
 ## Accedere alle configurazioni XDM
 
@@ -101,7 +101,7 @@ Quando si sceglie **[!UICONTROL Campi gestiti]**, nella finestra di dialogo _Sel
 
 #### Campi aggiornabili
 
-Impostare i campi aggiornabili per scegliere quali campi possono essere modificati tramite **[!UICONTROL Aggiorna profilo account]** o **[!UICONTROL Aggiorna profilo persona]** azioni di percorso.
+Per scegliere quali campi modificare tramite **[!UICONTROL Aggiorna profilo account]** o **[!UICONTROL Aggiorna profilo persona]** azioni di percorso, impostare i campi aggiornabili.
 
 Prima di configurare i campi aggiornabili, questi devono trovarsi in un set di dati personalizzato. Per una descrizione dettagliata del flusso di lavoro del set di dati personalizzato, consulta [Creare set di dati e acquisire dati](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e utilizzare l&#39;opzione **[!UICONTROL Creare set di dati dallo schema]**. Questo set di dati viene utilizzato per isolare i campi aggiornabili. Tutti i campi aggiornabili devono essere in questo set di dati.
 
@@ -138,7 +138,7 @@ Sono disponibili diverse funzioni che supportano l’utilizzo degli schemi e dei
 
 >[!NOTE]
 >
->Questa funzione supporta attualmente casi di utilizzo di oggetti personalizzati relativi all’account e alle persone, con l’intenzione di supportare più casi di utilizzo di oggetti preconfigurati in futuro.
+>Questa funzione supporta attualmente casi di utilizzo di oggetti personalizzati relativi all’account e alle persone, con l’intenzione di supportare in futuro casi di utilizzo di oggetti più standard.
 
 Puoi creare schemi relazionali utilizzando l&#39;editor schema (vai a **[!UICONTROL Gestione dati]** > **[!UICONTROL Schemi]** nel menu di navigazione a sinistra).
 

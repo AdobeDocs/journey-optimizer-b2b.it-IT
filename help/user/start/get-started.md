@@ -17,16 +17,16 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T23:05:00.531Z
 TQID: https://experienceleague.adobe.com/3gCGyaNUShU2ZHvIqc4FwsH7floQjrSy9fcdfevRYlE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 386
-ht-degree: 95%
+source-wordcount: 388
+ht-degree: 72%
 
 ---
 
 # Linee guida per l’onboarding degli utenti
 
-Le funzioni e gli strumenti da affrontare in Adobe Systems Journey Optimizer B2B Edition dipendono dal tuo ruolo all’interno del team. In base all’organizzazione, gli amministratori possono definire diversi tipi di utente e concedere loro l’accesso a determinate funzionalità in base alle autorizzazioni.
+Le funzioni e gli strumenti che desideri utilizzare in Adobe Journey Optimizer B2B edition dipendono dal tuo ruolo all’interno del team. In base all’organizzazione, gli amministratori possono definire diversi tipi di utente e concedere loro l’accesso a determinate funzionalità in base alle autorizzazioni.
 
 Dopo che un amministratore ha completato le [attività di installazione](../setup-ultimate.md), utilizza queste informazioni per l&#39;onboarding generale dell&#39;utente.
 
@@ -38,17 +38,17 @@ In qualità di marketer, o di _professionista del percorso dell’account_, sei 
 
 Per impostare il primo percorso, aggiungere risorse e inviare contenuti, consulta le sezioni seguenti:
 
-1. **Aggiungere un pubblico di account**. In Journey Optimizer B2B Edition puoi creare un pubblico di account (composto da account) tramite le definizioni di segmento direttamente dall’applicazione e quindi utilizzarli nei percorsi per account. [Ulteriori informazioni](../audiences/account-audience-overview.md)
+1. **Aggiungere un pubblico di account**. Journey Optimizer B2B edition consente di creare tipi di pubblico per gli account tramite definizioni di segmenti direttamente dall’applicazione e di sfruttarli nei percorsi di account. [Ulteriori informazioni](../audiences/account-audience-overview.md)
 
 1. **Creare gruppi acquisti**. Definisci i componenti chiave per raggiungere gli obiettivi e le finalità aziendali e crea gruppi acquisti che identificano i membri degli elenchi di account target. [Ulteriori informazioni](../buying-groups/buying-groups-overview.md)
 
-1. **Creare e gestire le risorse**. Adobe Experience Manager Assets fornisce un archivio unico e centralizzato di risorse che puoi utilizzare per compilare i messaggi. [Ulteriori informazioni](../content/assets-overview.md)
+1. **Creare e gestire le risorse**. Adobe Experience Manager Assets fornisce un archivio di risorse unico e centralizzato da utilizzare nei messaggi. [Ulteriori informazioni](../content/assets-overview.md)
 
-1. **Aggiungere modelli e-mail personalizzati e dinamici**. Sfrutta le funzionalità di personalizzazione e per contenuti dinamici di Journey Optimizer B2B Edition per adattare il messaggio al tuo pubblico. [Ulteriori informazioni](../content/email-templates.md)
+1. **Aggiungi modelli e-mail personalizzati e dinamici**. Sfrutta le funzionalità di personalizzazione e per contenuti dinamici di Journey Optimizer B2B Edition per adattare il messaggio al tuo pubblico. [Ulteriori informazioni](../content/email-templates.md)
 
 1. **Progetta i percorsi account per offrire esperienze personalizzate e contestuali**. Journey Optimizer B2B Edition consente di creare casi d’uso di orchestrazione in tempo reale sfruttando i dati contestuali archiviati negli eventi o nelle origini dati. Progetta scenari avanzati a più passaggi basati sulle seguenti funzionalità:
 
-   * Invia una consegna unitaria in tempo reale attivata quando viene ricevuto un evento, oppure in batch, utilizzando i tipi di pubblico di Adobe Experience Platform.
+   * Invia consegne unitarie in tempo reale attivate quando viene ricevuto un evento, oppure in batch utilizzando i tipi di pubblico di Adobe Experience Platform.
 
    * Usa i dati contestuali da eventi, le informazioni da Adobe Experience Platform o i dati da servizi API di terze parti.
 

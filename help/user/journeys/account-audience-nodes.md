@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 276
+source-wordcount: 277
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ Utilizzare una delle opzioni di input seguenti per questo nodo di percorso:
 
 ## Impostare il pubblico per il nodo del pubblico dell’account
 
-1. Fai clic sul nodo **[!UICONTROL Pubblico account]**. Questa azione visualizza le proprietà del nodo a destra.
+1. Fai clic sul nodo **[!UICONTROL Pubblico account]**. Questa azione visualizza le proprietà del nodo nel pannello di destra.
 
    ![Nodo percorso di destinatari account](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
 

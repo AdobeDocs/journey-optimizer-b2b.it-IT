@@ -17,16 +17,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 2037
+source-wordcount: 2031
 ht-degree: 3%
 
 ---
 
 # Intraprendere un’azione
 
-Nel tuo percorso puoi aggiungere un nodo _[!UICONTROL Esegui un&#39;azione]_ per eseguire un&#39;azione, ad esempio inviare un&#39;e-mail, modificare un punteggio, assegnare un gruppo di acquisto e così via. Le azioni sono in genere ciò che desideri che accada come risultato di un qualche tipo di trigger, ad esempio un evento o un’azione precedente.
+Per eseguire un&#39;azione, ad esempio l&#39;invio di un&#39;e-mail, la modifica di un punteggio, l&#39;assegnazione a un gruppo di acquisto e così via, è possibile aggiungere un nodo _[!UICONTROL Esegui un&#39;azione]_ nel percorso. Le azioni sono in genere ciò che desideri che accada come risultato di un qualche tipo di trigger, ad esempio un evento o un’azione precedente.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
@@ -101,7 +101,7 @@ Per ulteriori informazioni sull&#39;utilizzo di tipi di pubblico con corrisponde
 
 ## Azioni persone
 
-In un percorso di account o persone, utilizza un’azione sulle persone quando desideri applicare una modifica a tutte le persone nel percorso del nodo. Per un percorso di account, questo tipo di nodo può essere utilizzato nel percorso _split da persone_ o nel percorso _split da account_.
+In un percorso di account o persone, utilizza un’azione sulle persone quando desideri applicare una modifica a tutte le persone nel percorso del nodo. Per un percorso di account, puoi utilizzare questo tipo di nodo all&#39;interno del percorso _split da persone_ o _split path da account_.
 
 ### Azioni e vincoli {#people-action-constraints}
 
@@ -238,7 +238,7 @@ Utilizza questa azione per inviare un messaggio e-mail. Dopo aver [creato l&#39;
 
 ![Azione - Invia e-mail](./assets/node-action-send-email-from-marketo.png){width="300"}
 
-Per i percorsi di persone, puoi utilizzare [Ottimizzazione del tempo di invio](../content/email-send-time-optimization.md) per personalizzare la tempistica di consegna delle e-mail prevedendo quando è più probabile che ogni profilo sia coinvolto.
+Per i percorsi di persone, utilizza [Ottimizzazione del tempo di invio](../content/email-send-time-optimization.md) per personalizzare la tempistica di consegna delle e-mail prevedendo quando è più probabile che ogni profilo sia coinvolto.
 
 >[!NOTE]
 >
@@ -284,7 +284,7 @@ Le azioni basate sulle persone di Marketo Engage sono progettate per coordinare 
 >
 >Le azioni Marketo Engage richiedono un’integrazione configurata con una o più istanze Marketo Engage esterne. Per informazioni dettagliate su questa configurazione, vedere [_Attivare le connessioni Marketo Engage per supportare le azioni_](../admin/marketo-actions-connect.md).
 
-Ad esempio, potrebbe essere utile eliminare le campagne in Marketo Engage per gli utenti che fanno parte di gruppi di acquisto in Journey Optimizer B2B edition. In questo caso, puoi creare un elenco statico in Marketo Engage specifico per la soluzione in questione. Quindi, in un percorso suddiviso acquistando il gruppo, utilizza l&#39;azione _Aggiungi a elenco Marketo_ da un nodo di percorso. Questa azione aggiunge i membri del gruppo di acquisto a un particolare elenco statico in un’istanza di Marketo Engage connessa. Quindi, utilizza l’elenco statico incentrato sugli interessi della soluzione per un filtro elenco avanzato in Marketo Engage.
+Ad esempio, è possibile eliminare le campagne in Marketo Engage per gli utenti che fanno parte di gruppi di acquisto in Journey Optimizer B2B edition. In questo caso, puoi creare un elenco statico in Marketo Engage specifico per la soluzione in questione. Quindi, in un percorso suddiviso acquistando il gruppo, utilizza l&#39;azione _Aggiungi a elenco Marketo_ da un nodo di percorso. Questa azione aggiunge i membri del gruppo di acquisto a un particolare elenco statico in un’istanza di Marketo Engage connessa. Quindi, utilizza l’elenco statico incentrato sugli interessi della soluzione per un filtro elenco avanzato in Marketo Engage.
 
 +++[!UICONTROL Aggiungi alla campagna di richiesta Marketo]
 

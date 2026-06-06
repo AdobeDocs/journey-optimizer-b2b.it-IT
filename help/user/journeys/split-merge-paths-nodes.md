@@ -18,9 +18,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: f20c8fb32fab59d5bb15017577b75a2358b66b10
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 2550
+source-wordcount: 2542
 ht-degree: 3%
 
 ---
@@ -75,11 +75,11 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo account**&#x200B;_
 
    ![Dividi nodo percorso - aggiungi condizione](./assets/node-split-properties-apply-condition.png){width="500" zoomable="yes"}
 
-1. Nell’editor delle condizioni, aggiungi uno o più filtri per definire il percorso di divisione.
+1. Per definire il percorso di divisione, aggiungi uno o più filtri nell’editor delle condizioni.
 
    * Trascina e rilascia gli attributi del filtro dal menu di navigazione a sinistra e completa la definizione della corrispondenza.
 
-   * Ottimizza le condizioni applicando la **[!UICONTROL logica filtro]** nella parte superiore. Scegli di far corrispondere tutti i filtri o qualsiasi filtro.
+   * Affina le condizioni applicando la **[!UICONTROL logica filtro]** nella parte superiore. Scegli di far corrispondere tutti i filtri o qualsiasi filtro.
 
      ![Dividi nodo percorso - condizioni account filtro logica](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
@@ -105,7 +105,7 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo account**&#x200B;_
 
 Puoi definire un percorso per gli account associati ai gruppi di acquisto e filtrarlo utilizzando i criteri del gruppo di acquisto. Utilizza il filtro **[!UICONTROL Account con gruppo di acquisto corrispondente]** per definire il segmento del percorso utilizzando un gruppo di acquisto corrispondente. Questo filtro include anche l’opzione per identificare gli account in base al numero di ruoli assegnati all’interno di un gruppo di acquisto corrispondente.
 
-Ad esempio, potrebbe essere utile valutare lo stato di preparazione di un gruppo di acquisto in base al livello di approfondimento (numero di persone) di cui dispone in ruoli diversi, ad esempio tre decision maker e due influencer. In questo caso, imposta la condizione per eseguire il targeting dei conti con un minimo di tre (3) decision maker e due (2) influencer in un gruppo di acquisto abbinato:
+Ad esempio, puoi valutare lo stato di preparazione di un gruppo di acquisto in base al numero di persone che occupa in ruoli diversi, ad esempio tre decision maker e due influencer. In questo caso, imposta la condizione per eseguire il targeting dei conti con un minimo di tre (3) decision maker e due (2) influencer in un gruppo di acquisto abbinato:
 
 1. Fai clic su **[!UICONTROL Aggiungi filtro]** e scegli il filtro **[!UICONTROL Numero di persone nell&#39;acquisto del ruolo del gruppo]**.
 
@@ -127,7 +127,7 @@ Ad esempio, potrebbe essere utile valutare lo stato di preparazione di un gruppo
 
 1. Fai clic su **[!UICONTROL Fine]** quando sono state definite tutte le condizioni per il percorso.
 
-Per gli account identificati, potresti quindi aggiungere un nodo di azione nel percorso per aggiornare lo stato del gruppo di acquisto o della fase o per inviare un messaggio e-mail di avviso sulle vendite.
+Per gli account identificati, puoi quindi aggiungere un nodo di azione nel percorso per aggiornare lo stato del gruppo di acquisto o della fase o per inviare un messaggio e-mail di avviso sulle vendite.
 
 ## Dividi percorsi per persone
 
@@ -139,7 +139,7 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 
 * I nodi suddivisi per persone funzionano all&#39;interno di una combinazione di _nodo raggruppato_ split-merge. I percorsi suddivisi si uniscono automaticamente in modo che tutte le persone possano passare al passaggio successivo senza perdere il contesto dell’account.
 * I nodi Dividi per persone non possono essere nidificati (non è possibile aggiungere un percorso diviso per le persone in un percorso che si trova in questo nodo raggruppato).
-* La valutazione di ciascun percorso è dall&#39;alto verso il basso. Se una persona corrisponde per il primo e il secondo percorso, procede solo lungo il primo percorso.
+* La valutazione di ciascun percorso è dall&#39;alto verso il basso. Se una persona corrisponde al primo e al secondo percorso, procede solo lungo il primo percorso.
 * Il nodo supporta l&#39;utilizzo di _relazioni account-persona_, che consente di filtrare le persone in base al loro ruolo (ad esempio, collaboratore esterno o dipendente a tempo pieno) come definito nella relazione.
 * Il nodo supporta la definizione di un percorso _[!UICONTROL Altre persone]_, in cui è possibile aggiungere azioni o eventi per le persone che non corrispondono a uno dei segmenti o percorsi definiti.
 
@@ -191,7 +191,7 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
      >
      >Se hai dei campi persona personalizzati definiti nello schema del pubblico di account in Experience Platform, questi campi sono disponibili per l’utilizzo come attributi persona in determinate condizioni.
 
-   * Ottimizza le condizioni applicando la **[!UICONTROL logica filtro]** nella parte superiore. Scegli di soddisfare tutte le condizioni dell’attributo o qualsiasi condizione.
+   * Affina le condizioni applicando la **[!UICONTROL logica filtro]** nella parte superiore. Scegli di soddisfare tutte le condizioni dell’attributo o qualsiasi condizione.
 
      ![Dividi nodo percorso - condizioni logica filtro persona](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 
@@ -265,7 +265,7 @@ In [!DNL Marketo Engage], _Smart Campaigns_ controlla l&#39;appartenenza ai prog
 
 Per utilizzare l&#39;appartenenza all&#39;elenco in una condizione di suddivisione, espandere **[!UICONTROL Filtri speciali]** e trascinare la condizione **[!UICONTROL Membro dell&#39;elenco]** o **[!UICONTROL Membro del programma]** nello spazio del filtro. Completare la definizione del filtro per valutare l&#39;appartenenza a uno o più elenchi [!DNL Marketo Engage].
 
-![Condizione Dividi percorso per persone per appartenenza all&#39;elenco [!DNL Marketo Engage]](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
+![Condizione Dividi percorso in base alle persone per l&#39;appartenenza all&#39;elenco [!DNL Marketo Engage]](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 <br/>
 
 >[!NOTE]

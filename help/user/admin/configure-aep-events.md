@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 5a18693617ebd20fe3d552d9bbc236888348ad57
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
 source-wordcount: 1605
 ht-degree: 11%
@@ -125,7 +125,7 @@ L&#39;evento salvato viene visualizzato nell&#39;elenco della scheda _[!UICONTRO
 
 ### Modificare un evento {#edit-an-event}
 
-Modifica i dettagli dell’evento per modificare i campi.
+Per modificare i campi, modifica i dettagli dell’evento.
 
 1. Fai clic sul nome dell&#39;evento oppure fai clic sull&#39;icona _Altro menu_ ( **...** ) e scegli **[!UICONTROL Modifica]**.
 
@@ -151,7 +151,7 @@ Per evitare che un evento esperienza venga utilizzato in un nodo _Ascolta un eve
 
 Per [!DNL Journey Optimizer B2B Edition], alcune attività a livello di persone vengono acquisite come [!DNL Experience Platform] eventi esperienza. Questi eventi vengono memorizzati in un set di dati di sistema che utilizza lo schema XDM Experience Event e include gruppi di campi specifici per il percorso. È possibile utilizzare questi eventi in [!UICONTROL Journey Optimizer B2B edition] come qualsiasi altro evento esperienza.
 
-Ogni evento espone un set definito di campi che possono essere utilizzati nel percorso _Ascolta un evento_ nodi (decisioning basato sugli eventi). Esamina i tipi di evento disponibili e i relativi campi per determinare quale evento e campi utilizzare in questi nodi di percorso:
+Ogni evento espone un set definito di campi che possono essere utilizzati nel percorso _Ascolta un evento_ nodi (decisioning basato sugli eventi). Per determinare l’evento e i campi da utilizzare in questi nodi di percorso, controlla i tipi di evento disponibili e i relativi campi:
 
 ### E-mail inviata {#email-sent}
 

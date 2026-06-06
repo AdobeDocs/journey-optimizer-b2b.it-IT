@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 01ee41d681aa67052f4fd34edc86159b054c6644
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 1511
-ht-degree: 44%
+source-wordcount: 1512
+ht-degree: 42%
 
 ---
 
@@ -110,7 +110,7 @@ Per personalizzare (mostrare/nascondere) le colonne visualizzate nella tabella, 
 
 ### Stato del percorso
 
-Lo stato di un percorso può cambiare in base alle azioni applicate. In base allo stato di un percorso, alcune azioni sono/non sono disponibili nel lato destro dell’intestazione.
+Lo stato di un percorso può cambiare in base alle azioni applicate. In base allo stato di un percorso, alcune azioni sono o non sono disponibili dal lato destro dell’intestazione.
 
 | Stato | Descrizione | Azioni disponibili |
 | ------ | ----------- | ----------------- |
@@ -170,7 +170,7 @@ Se chiudi un percorso live, gli account attualmente presenti nel percorso contin
 
 ### Duplicare un percorso {#duplicate-journey}
 
-Un’azione di duplicazione è simile a una funzione di clonazione, ma un percorso duplicato non include le risorse dei contenuti del percorso create. Puoi duplicare i dettagli per il percorso o solo una semplice _ossatura_ della struttura del flusso e del percorso.
+Un’azione di duplicazione è simile a una funzione di clonazione, ma un percorso duplicato non include le risorse dei contenuti del percorso create. Puoi duplicare i dettagli per il percorso o una semplice _struttura_ della struttura del flusso e del percorso.
 
 1. Fai clic sull&#39;icona _Altro_ (**...**) accanto al nome del percorso e scegliere **[!UICONTROL Duplica]**.
 
@@ -194,7 +194,7 @@ Un’azione di duplicazione è simile a una funzione di clonazione, ma un percor
 
    * **[!UICONTROL Duplicazione parziale del contenuto]**: utilizza questo tipo per copiare tutto ciò che si trova nel percorso, esclusi i messaggi e-mail o SMS creati. I nodi che fanno riferimento a un messaggio e-mail o SMS di Marketo Engage rimangono completamente intatti.
 
-   * **[!UICONTROL Duplica senza dettagli]**: utilizza questo tipo per copiare solo la struttura e i percorsi dei nodi. Tutte le impostazioni del nodo e le condizioni del percorso non sono definite (impostazione predefinita), pertanto puoi riutilizzare il flusso di base con diverse impostazioni di pubblico, azioni e segmentazione del percorso. Tutti i nodi _Attendi_ utilizzano il valore predefinito di cinque giorni.
+   * **[!UICONTROL Duplica senza dettagli]** - Utilizzare questo tipo per copiare solo la struttura e i percorsi dei nodi. Tutte le impostazioni del nodo e le condizioni del percorso non sono definite (impostazione predefinita), pertanto puoi riutilizzare il flusso di base con diverse impostazioni di pubblico, azioni e segmentazione del percorso. Tutti i nodi _Attendi_ utilizzano il valore predefinito di cinque giorni.
 
 1. Fai clic su **[!UICONTROL Duplica]**.
 

@@ -21,9 +21,9 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T22:02:23.111Z
 TQID: https://experienceleague.adobe.com/L5Mn4u-o4xACD2L1TW2lx7pB9gkC3O2uRmL8b0alDkA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 848
+source-wordcount: 846
 ht-degree: 2%
 
 ---
@@ -115,9 +115,9 @@ Configura le modifiche per attendere che esistano gli elementi target prima di a
 
 1. La modifica viene applicata una volta che l’elemento target viene visualizzato nel DOM.
 
-#### Utilizzare osservatori delle mutazioni
+#### Implementare osservatori delle mutazioni
 
-Per i contenuti altamente dinamici, il Web SDK include osservatori delle mutazioni incorporati che rilevano quando vengono aggiunti nuovi elementi alla pagina. Questi osservatori garantiscono che le modifiche vengano applicate anche quando gli elementi vengono caricati in modo asincrono.
+Per i contenuti altamente dinamici, il Web SDK include osservatori delle mutazioni che rilevano quando vengono aggiunti nuovi elementi alla pagina. Questi osservatori garantiscono che le modifiche vengano applicate anche quando gli elementi vengono caricati in modo asincrono.
 
 ### Framework SPA
 
@@ -170,12 +170,12 @@ Durante il test delle esperienze web SPA:
 Alcune applicazioni a pagina singola utilizzano animazioni o transizioni tra viste. Considera:
 
 * **Intervallo** - Assicurati che le modifiche vengano applicate dopo il completamento delle animazioni di transizione.
-* **Visibilità elemento** - Gli elementi possono esistere ma essere nascosti durante le transizioni.
+* **Visibilità elemento** - Gli elementi possono esistere ma sono nascosti durante le transizioni.
 * **Sfarfallio** - Applica le modifiche in tempo utile per evitare modifiche visibili al contenuto.
 
 ## Risoluzione dei problemi
 
-Durante l’esame delle modifiche alla progettazione dell’applicazione a pagina singola, utilizza le seguenti raccomandazioni per risolvere alcuni problemi comuni:
+Durante la revisione delle modifiche alla progettazione dell’applicazione a pagina singola, utilizza le seguenti raccomandazioni per risolvere alcuni problemi comuni:
 
 * **Modifiche non visualizzate** - Se le modifiche non sono visualizzate nell&#39;applicazione a pagina singola:
 

@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:14:46.843Z
 TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: 861
 ht-degree: 5%
 
 ---
@@ -69,7 +69,7 @@ La mappa del percorso __ è la zona centrale nell&#39;area di lavoro del percors
 * [Nodo pubblico account](./account-audience-nodes.md)
 * [Nodo di pubblico della persona](./person-audience-nodes.md)
 
-Dopo aver creato un percorso di account e aver aggiunto il pubblico, crea il percorso utilizzando i nodi. La mappa del percorso fornisce un’area di lavoro in cui puoi creare casi di utilizzo del marketing B2B a più passaggi utilizzando i seguenti tipi di nodo per creare un percorso di account:
+Dopo aver creato un percorso di account e aver aggiunto il pubblico, progetta il percorso utilizzando i nodi. La mappa del percorso fornisce un’area di lavoro in cui puoi creare casi di utilizzo del marketing B2B a più passaggi utilizzando i seguenti tipi di nodo per creare un percorso di account:
 
 * [Intraprendere un’azione](./action-nodes.md)
 * [Ascoltare un evento](./listen-for-event-nodes.md)
@@ -100,7 +100,7 @@ Per facilitare la creazione di un percorso senza che si verifichino errori, sono
 
 1. Nelle proprietà del nodo a destra, fai clic sull&#39;icona _Elimina_ ( ![Elimina icona](../assets/do-not-localize/icon-delete.svg) ).
 
-1. Nella finestra di dialogo di conformazione, fare clic su **[!UICONTROL Elimina]**.
+1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Elimina]**.
 
 ## Aggiungere ed eliminare un percorso
 

@@ -20,10 +20,10 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1004
-ht-degree: 96%
+source-wordcount: 1003
+ht-degree: 88%
 
 ---
 
@@ -33,7 +33,7 @@ La configurazione di Journey Optimizer B2B edition include gli spazi dei nomi e 
 
 >[!AVAILABILITY]
 >
->- Devi avere accesso a [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"} per i tuoi schemi B2B per qualificarti in [Profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/home){target="_blank"}.
+>- Affinché gli schemi B2B siano idonei in [Real-Time Customer Profile](https://experienceleague.adobe.com/it/docs/experience-platform/profile/home){target="_blank"}, è necessario avere accesso a [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"}.
 >
 >- Le entità B2B di Experience Platform devono utilizzare le relazioni standard descritte nella [guida degli spazi dei nomi e degli schemi B2B](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}.
 
@@ -104,7 +104,7 @@ Gli spazi dei nomi B2B vengono utilizzati nell’identità primaria dell’entit
 
 Experience Platform utilizza gli schemi per descrivere la struttura dei dati in modo coerente e riutilizzabile. Definendo i dati in modo coerente tra i sistemi, diventa più semplice mantenere un significato e quindi ottenere valore dai dati.
 
-Prima che Experience Platform possa acquisire i dati, è necessario uno schema che descriva la struttura dei dati e fornisca vincoli al tipo di dati che possono essere contenuti all’interno di ciascun campo. Gli schemi sono costituiti da una classe base e da zero o più gruppi di campi schema.
+Prima che Experience Platform possa acquisire i dati, è necessario uno schema che descriva la struttura dei dati e fornisca vincoli sul tipo di dati che possono essere contenuti all’interno di ciascun campo. Gli schemi sono costituiti da una classe base e da zero o più gruppi di campi schema.
 
 Per ulteriori informazioni sul modello di composizione dello schema, inclusi i principi di progettazione e le best practice, vedere [_Nozioni di base sulla composizione dello schema_](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition){target="_blank"}.
 
@@ -387,7 +387,7 @@ Per ulteriori informazioni sul modello di composizione dello schema, inclusi i p
 
 >[!NOTE]
 >
->Static List in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
+>A Static List in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
 
 +++
 
@@ -431,7 +431,7 @@ Per ulteriori informazioni sul modello di composizione dello schema, inclusi i p
 
 >[!NOTE]
 >
->Static List member in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
+>A Static List member in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
 
 +++
 

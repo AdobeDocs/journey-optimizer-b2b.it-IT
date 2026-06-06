@@ -4,6 +4,8 @@ description: Scopri come utilizzare il Journey Agent basato sull’intelligenza 
 feature: Account Journeys, Person Journeys, Agentic AI
 role: User
 exl-id: 5d2945ab-4f6c-4d9c-b0a1-1a93dc1849f3
+autotag-review: '2026-06-05T16:42:46.785Z'
+TQID: 'https://experienceleague.adobe.com/SgjavYf2Tp5yO8s3f0DQexRCUILQRsD5bM6UwmbcgyE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
@@ -16,11 +18,13 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 1170
+source-wordcount: 1165
 ht-degree: 0%
 
 ---
@@ -38,7 +42,7 @@ Journey Agent B2B fornisce una serie di competenze IA, ognuna incentrata su un a
 
 ## Abilità di Percorsi Build
 
-L’abilità di creazione del Percorso traduce i tuoi obiettivi di marketing, la strategia di coinvolgimento e i KPI in percorsi di clienti B2B completi. Affronta oggi tre sfide chiave per gli esperti di marketing B2B:
+L’abilità di creazione del Percorso traduce i tuoi obiettivi di marketing, la strategia di coinvolgimento e i KPI in percorsi di clienti B2B completi. Affronta tre sfide chiave che gli esperti di marketing B2B devono affrontare oggi:
 
 * Gestire percorsi di clienti sempre più complessi (complessità in termini di pubblico, contenuti e messaggi, omnicanale)
 * Aumento dell&#39;efficienza in un contesto di budget più limitati
@@ -59,7 +63,7 @@ Per utilizzare l’abilità Journey Agent Build, digita nella finestra del promp
 
 ![Richiesta B2B dell&#39;agente di Percorso per l&#39;abilità di compilazione](./assets/journey-agent-tasks.png)
 
-Più dettagli puoi fornire, migliore sarà la risposta. Se disponi di materiali di marketing esistenti che descrivono l’evento, o il tuo prodotto, ecc., incollali nel prompt, in modo che l’agente abbia una migliore percezione dell’obiettivo.
+Maggiore è il numero di dettagli forniti, migliore è la risposta. Se disponi di materiali di marketing esistenti che descrivono l’evento, il prodotto, ecc., incollali nel prompt, in modo che l’agente possa comprendere meglio l’obiettivo.
 
 &quot;Agisci come stratega del percorso B2B per creare un percorso di account cliente in più fasi che coinvolga decisori e responsabili marketing nella prima fase di esplorazione di `<Solution Name>`. L&#39;obiettivo è quello di convertire i visitatori anonimi in contatti noti, approfondire il coinvolgimento con contenuti rilevanti su `<domain>`.com e lead qualificati principali per `<Product Name>` attività di vendita. Utilizza canali quali e-mail e media a pagamento, sfruttando i segmenti di pubblico e i contenuti esistenti. Strutturare il percorso in fasi di consapevolezza, considerazione e valutazione per 4-6 settimane, con chiari trigger, azioni e obiettivi per ogni fase. Includi KPI come tassi di conversione, punteggi di coinvolgimento e richieste demo e restituisce l’output come un flusso di percorso strutturato.&quot;
 
@@ -85,8 +89,7 @@ Esempi di prompt di Percorso end-to-end:
 
 ### Percorsi multi-stage
 
-Puoi agire come progettista di percorsi B2B per creare un percorso di account cliente in più fasi che informi i responsabili decisionali e gli utenti marketing fin dalle prime fasi della fase di esplorazione.
-L’obiettivo è quello di convertire i visitatori anonimi in contatti noti, rafforzare il coinvolgimento con contenuti rilevanti e lead altamente qualificati per attività di vendita.
+Puoi agire come progettista di percorsi B2B per creare un percorso di account cliente in più fasi che informi i responsabili decisionali e gli utenti marketing fin dalle prime fasi della fase di esplorazione. L’obiettivo è quello di convertire i visitatori anonimi in contatti noti, rafforzare il coinvolgimento con contenuti rilevanti e lead altamente qualificati per attività di vendita.
 
 * Utilizza canali come `Email`, `Paid media`, `Personalized web experiences` per sfruttare i segmenti di pubblico e i contenuti esistenti.
 * Strutturare il percorso in `awareness`, `consideration` e `evaluation` fasi nell&#39;arco di 4-6 settimane, con trigger, azioni e obiettivi chiari per ciascuna fase.
@@ -145,7 +148,7 @@ Per i percorsi che inviano messaggi push a canali esterni, come LinkedIn, puoi c
 
 ### Sincronizzazione dei dati e osservabilità della pipeline
 
-L’abilità Observability può anche far emergere informazioni sullo stato di sincronizzazione dei dati per facilitare la risoluzione dei problemi relativi all’eventuale esclusione di un account o di un lead da un percorso:
+L’abilità di osservabilità può inoltre evidenziare informazioni sulla sincronizzazione dei dati per facilitare la risoluzione dei problemi relativi al motivo per cui un account o un lead non è stato incluso in un percorso:
 
 * Metriche e stato del processo di esportazione del pubblico esterno
 * Programmi di segmentazione batch e tempi di completamento

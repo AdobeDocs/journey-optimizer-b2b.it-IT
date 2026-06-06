@@ -16,9 +16,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 870
+source-wordcount: 866
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Il nodo _Azione esterna_ chiama un servizio esterno e continua lungo un singolo 
 
 1. Continua a creare il percorso dai percorsi in uscita del nodo.
 
-   Il percorso _[!UICONTROL Timeout o errore]_ viene creato automaticamente. Se il periodo di timeout (configurato nel servizio) scade prima che venga ricevuta una risposta, l’account o la persona procede lungo questo percorso. È lo stesso se viene ricevuta una risposta di errore. Puoi aggiungere nodi di percorso a questo percorso per gestire questi scenari, oppure il percorso termina per il membro del pubblico.
+   Il percorso _[!UICONTROL Timeout o errore]_ viene creato automaticamente. Se il periodo di timeout (configurato nel servizio) scade prima che venga ricevuta una risposta, l’account o la persona procede lungo questo percorso. Lo stesso vale se si riceve una risposta di errore. Per gestire questi scenari, puoi aggiungere nodi di percorso a questo percorso oppure il percorso termina per il membro del pubblico.
 
 ## Nodo percorsi suddivisi esterni {#external-split-paths}
 
@@ -101,6 +101,6 @@ Il nodo Percorsi suddivisi esterni richiama un servizio esterno e utilizza la ri
 
 1. Continua a creare il percorso da ogni percorso in uscita del nodo.
 
-   Il percorso _[!UICONTROL Timeout o errore]_ viene creato automaticamente. Se il periodo di timeout (configurato nel servizio) scade prima che venga ricevuta una risposta, l’account o la persona procede lungo questo percorso. È lo stesso se viene ricevuta una risposta di errore. Puoi aggiungere nodi di percorso a questo percorso per gestire questi scenari, oppure il percorso termina per il membro del pubblico.
+   Il percorso _[!UICONTROL Timeout o errore]_ viene creato automaticamente. Se il periodo di timeout (configurato nel servizio) scade prima che venga ricevuta una risposta, l’account o la persona procede lungo questo percorso. Lo stesso vale se si riceve una risposta di errore. Per gestire questi scenari, puoi aggiungere nodi di percorso a questo percorso oppure il percorso termina per il membro del pubblico.
 
-1. Per _Dividi per account_, puoi aggiungere un [nodo percorsi unione](./split-merge-paths-nodes.md#merge-paths) per combinare due o più percorsi in base alle esigenze.
+1. Per combinare due o più percorsi in base alle esigenze per _Dividi per account_, è possibile aggiungere un [nodo percorsi unione](./split-merge-paths-nodes.md#merge-paths).

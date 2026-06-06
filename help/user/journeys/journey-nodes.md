@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:57.315Z
 TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 134
-ht-degree: 14%
+source-wordcount: 133
+ht-degree: 15%
 
 ---
 
@@ -32,7 +32,7 @@ I nodi di pubblico sono automaticamente il primo nodo del percorso:
 * [Pubblico di account](./account-audience-nodes.md)
 * [Pubblico persona](./person-audience-nodes.md) (Beta)
 
-Crea il percorso combinando i diversi nodi di azione, evento e orchestrazione come uno scenario multi-passaggio tra canali. Ogni nodo di un percorso rappresenta un passo lungo un percorso logico. Utilizza i seguenti tipi di nodo per creare un percorso di account:
+Costruisci il percorso combinando i diversi nodi di azione, evento e orchestrazione come uno scenario multi-passaggio cross-channel. Ogni nodo di un percorso rappresenta un passo lungo un percorso logico. Utilizza i seguenti tipi di nodo per creare un percorso di account:
 
 * [Intraprendere un’azione](./action-nodes.md)
 * [Ascoltare un evento](./listen-for-event-nodes.md)

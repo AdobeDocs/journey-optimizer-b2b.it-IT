@@ -15,10 +15,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:19:43.813Z
 TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 421
-ht-degree: 93%
+source-wordcount: 415
+ht-degree: 83%
 
 ---
 
@@ -41,7 +41,7 @@ La pagina Home viene visualizzata accedendo ad Adobe Experience Platform e selez
 
 Journey Optimizer B2B Edition ha due utenti tipo principali: un _&#x200B;**addetto marketing**&#x200B;_ e un _&#x200B;**amministratore**&#x200B;_. Ogni utente tipo ha una pagina Home specifica per diverse fasi di maturità (nuove o avanzate). Il contenuto della pagina è basato su ciò di cui ogni utente ha bisogno in termini di informazioni e di azioni successive da intraprendere.
 
-* **Marketer - nuovo utente**: la pagina Home _Marketer_ per nuovo utente, consente di abituarsi a Journey Optimizer B2B e alle relative funzionalità. Include una descrizione dettagliata guidata che consente al nuovo marketer di ottenere una descrizione dettagliata per l’onboarding, in modo che possa comprendere le sfumature del sistema e diventare efficiente nello sviluppo di strategie e iniziative di marketing B2B.
+* **Marketer - nuovo utente**: la pagina Home _Marketer_ per nuovo utente, consente di abituarsi a Journey Optimizer B2B e alle relative funzionalità. Include una guida dettagliata per il nuovo esperto di marketing, che gli consentirà di comprendere le sfumature del sistema e diventare efficienti nello sviluppo di strategie e iniziative di marketing B2B.
 * **Marketer - utente avanzato**: nella pagina Home _Marketer_, per un marketer di livello avanzato, vengono visualizzati lo stato di avanzamento dell’iniziativa corrente, le azioni successive consigliate e l’accesso rapido alle sezioni rilevanti.
 * **Amministratore - nuovo utente**: la pagina Home _Amministratore_, per un nuovo amministratore, consente di abituarsi a Journey Optimizer B2B Edition e alle relative funzionalità. Include una descrizione dettagliata guidata che consente al nuovo amministratore di ottenere un percorso di onboarding dettagliato per comprenderne le sfumature e diventare efficiente nello sviluppo di strategie e iniziative di marketing B2B.
 * **Amministratore - utente avanzato**: nella pagina Home di _Amministratore_, per un amministratore di livello avanzato, vengono visualizzati lo stato corrente dell’istanza e i passaggi attuabili per migliorare l’efficienza e l’efficacia delle azioni amministrative.

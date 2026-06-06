@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:48:47.183Z
 TQID: https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
 source-wordcount: 541
-ht-degree: 81%
+ht-degree: 75%
 
 ---
 
@@ -41,7 +41,7 @@ Per utilizzare le azioni di percorso di Marketo Engage, un amministratore crea i
 >title="Connessioni Marketo Engage esterne"
 >abstract="Gli amministratori di prodotto possono configurare connessioni alle istanze esterne di Marketo Engage, rendendole disponibili per le azioni di percorso."
 
-Completa le seguenti attività per configurare un’istanza Marketo Engage esterna da utilizzare con le azioni di percorso.
+Per configurare un&#39;istanza Marketo Engage esterna da utilizzare con le azioni di percorso, completare le attività seguenti.
 
 ### Creare il servizio personalizzato Marketo Engage
 
@@ -86,6 +86,6 @@ Quando un addetto al marketing utilizza un’azione Marketo Engage in un percors
 >
 >Le azioni Marketo Engage eseguite da un percorso non si applicano ai limiti REST API per l’istanza Marketo Engage connessa.
 
-Con l&#39;integrazione completata, le azioni Marketo Engage sono disponibili da **Azioni in:** nelle proprietà del nodo.
+Con l&#39;integrazione completata, le azioni Marketo Engage sono disponibili da **_Actions il:_** nelle proprietà del nodo.
 
 ![Elenco azioni di Marketo](assets/marketo-actions-list.png){width="800" zoomable="yes"}

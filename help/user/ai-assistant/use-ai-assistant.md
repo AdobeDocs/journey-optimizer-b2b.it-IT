@@ -5,11 +5,14 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
+autotag-review: '2026-06-05T16:09:10.773Z'
+TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -17,28 +20,26 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-04-29T23:21:59.633Z
-TQID: https://experienceleague.adobe.com/nLvepx6T0xVR0KZqO-8zRgf2z63sJtGJLCVCCpYoNYk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 971
+source-wordcount: 970
 ht-degree: 1%
 
 ---
 
 # Utilizzare l’Assistente AI in Journey Optimizer B2B edition
 
-In Journey Optimizer B2B edition, AI Assistant è una funzione dell’interfaccia utente che consente di comprendere i concetti del prodotto, navigare rapidamente, scoprire le funzioni del prodotto e ottenere informazioni operative approfondite per il proprio ambiente. È disponibile anche in diversi prodotti di Adobe Experience Cloud.
+In Journey Optimizer B2B edition, AI Assistant è una funzione dell’interfaccia utente che consente di comprendere i concetti del prodotto, navigare rapidamente, scoprire le funzioni del prodotto e ottenere informazioni operative approfondite per il proprio ambiente. È disponibile anche in diversi prodotti Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
->Prima di poter utilizzare l’Assistente all’intelligenza artificiale, è necessario un accordo per le linee guida utente di Adobe Experience Cloud Generative AI. Per ulteriori informazioni su questo contratto e sulle linee guida per l&#39;utilizzo, consulta le [linee guida per l&#39;utente di Adobe Experience Cloud Generative AI](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>Prima di poter utilizzare l’Assistente all’intelligenza artificiale è necessario un accordo per le linee guida utente per l’intelligenza artificiale generativa di Adobe Experience Cloud. Per ulteriori informazioni su questo contratto e sulle linee guida per l&#39;utilizzo, consulta le [Linee guida per l&#39;utente di Adobe Experience Cloud Generative AI](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
 Per accedere a AI Assistant, fai clic sull’icona nell’intestazione. L’Assistente AI si apre in un pannello a destra.
 
 ![Fare clic sull&#39;icona per accedere all&#39;Assistente AI](./assets/ai-assistant-icon-displayed.png){width="420"}
 
-Viene visualizzata l’interfaccia di AI Assistant, che fornisce immediatamente le informazioni necessarie per iniziare. Puoi utilizzare le opzioni fornite in _Idee per iniziare_ a rispondere a domande e comandi, ad esempio:
+Viene visualizzata l’interfaccia di AI Assistant, che fornisce immediatamente le informazioni necessarie per iniziare. Puoi utilizzare le opzioni fornite in _[!UICONTROL Idee per iniziare]_ a rispondere a domande e comandi, ad esempio:
 
 * Quali percorsi sono stati pubblicati?
 * Quali interessi sono stati creati per la soluzione?
@@ -54,7 +55,7 @@ Le domande relative alla conoscenza del prodotto riguardano i concetti e le info
 * Come posso inviare un’e-mail in un percorso?
 * Come posso personalizzare il contenuto delle e-mail?
 
-Per porre una domanda sul prodotto, immettilo nel campo nella parte inferiore del pannello e premi Invio. Ad esempio, quando devi imparare a utilizzare un gruppo di acquisto in un percorso. In questo caso, immetti _Come si utilizza un gruppo di acquisto in un percorso?_ Dopo aver inviato la domanda, l&#39;Assistente IA esegue una query sulla knowledge base e compila una risposta in pochi secondi.
+Per porre una domanda sul prodotto, immettilo nel campo nella parte inferiore del pannello e premi Invio. Ad esempio, quando devi imparare a utilizzare un gruppo di acquisto in un percorso. In questo caso, immetti _Come si utilizza un gruppo di acquisto in un percorso?_ Dopo aver inviato la domanda, l’Assistente IA esegue una query sulla sua knowledge base e genera una risposta in pochi secondi.
 
 ![Immettere una domanda nella casella di testo](./assets/ai-assistant-ask-question.png){width="420"}
 
@@ -66,13 +67,13 @@ Per porre una domanda sul prodotto, immettilo nel campo nella parte inferiore de
 
 ## Poni le tue domande sulle informazioni operative
 
-Le domande sulle informazioni operative riguardano gli oggetti di percorso nella sandbox dell’organizzazione. Puoi porre domande sugli artefatti operativi, ad esempio il pubblico dell’account, il percorso di account, gli interessi della soluzione e il modello di gruppo di acquisto. Alcuni esempi di domande o prompt di approfondimenti operativi includono:
+Le domande sulle informazioni operative riguardano gli oggetti di percorso nella sandbox dell’organizzazione. Puoi porre domande sugli artefatti operativi, ad esempio il pubblico dell’account, i percorsi, gli interessi delle soluzioni e i modelli di gruppi di acquisto. Alcuni esempi di domande o prompt di approfondimenti operativi includono:
 
 * Quanti percorsi live ho in Adobe Journey Optimizer B2B edition?
 * Dammi un elenco di tutti i percorsi pianificati
 * Quanti percorsi sono stati creati negli ultimi 7 giorni?
 
-Per consentire all’Assistente AI di fornire una risposta sufficiente a una domanda sulle informazioni operative, devi trovarti in una sandbox attiva.
+Assicurati di trovarti in una sandbox attiva affinché l’Assistente AI possa fornire una risposta sufficiente a una domanda sulle informazioni operative.
 
 >[!NOTE]
 >
@@ -106,13 +107,13 @@ L’Assistente AI fornisce collegamenti alla documentazione che conferma la risp
 
 Dopo aver ricevuto una risposta per una domanda di approfondimenti operativi, fare clic su **[!UICONTROL Mostra origine]** e quindi selezionare **[!UICONTROL Visualizza query di origine]**.
 
-È possibile verificare ogni risposta relativa alle domande di approfondimenti operativi utilizzando una query SQL fornita dall’Assistente AI. Quando viene eseguita una query con una domanda di approfondimenti operativi, l’Assistente AI fornisce una query SQL che può essere utilizzata per verificare il processo necessario per calcolare la risposta. Questa query di origine è solo a scopo di verifica e non è supportata in Query Service.
+È possibile verificare ogni risposta relativa alle domande di approfondimenti operativi utilizzando una query SQL fornita dall’Assistente AI. Quando viene eseguita una query con una domanda di approfondimenti operativi, l’Assistente AI fornisce una query SQL. Puoi utilizzarlo per verificare il processo necessario per calcolare la risposta. Questa query di origine è solo a scopo di verifica e non è supportata in Query Service.
 
 ![Risultati dalla query dell&#39;Assistente di IA](./assets/ai-assistant-artifacts-query-source.png){width="550" zoomable="yes"}
 
 ## Fornire feedback
 
-Utilizza le icone _Thumb up_ ( ![Thumb up](../assets/do-not-localize/icon-thumb-up.svg) ) o _Thumb down_ ( ![Thumb down](../assets/do-not-localize/icon-thumb-down.svg) ) per valutare l&#39;utilità e la qualità della risposta. Completa il breve modulo del sondaggio in base alla tua esperienza e fai clic su **[!UICONTROL Invia]**. Le informazioni fornite vengono utilizzate per apportare miglioramenti all&#39;Assistente IA.
+Utilizza le icone _Valutazione positiva_ ( ![Valutazione positiva](../assets/do-not-localize/icon-thumb-up.svg) ) o _Valutazione negativa_ ( ![Valutazione negativa](../assets/do-not-localize/icon-thumb-down.svg) ) per valutare l&#39;utilità e la qualità della risposta. Completa il breve modulo del sondaggio in base alla tua esperienza e fai clic su **[!UICONTROL Invia]**. Le informazioni fornite vengono utilizzate per apportare miglioramenti all&#39;Assistente IA.
 
 Se nella risposta si nota un elemento problematico, fare clic sull&#39;icona _Contrassegno_ ( ![Icona Contrassegno](../assets/do-not-localize/icon-flag.svg) ). Utilizza il modulo per descrivere il problema e fai clic su **[!UICONTROL Invia]** per segnalarlo.
 

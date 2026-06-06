@@ -17,18 +17,18 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:20:15.181Z
 TQID: https://experienceleague.adobe.com/npmmJAOBjGr4QPoK5320jVjN-PDpWZ99aqN1ldljXzk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 531
 ht-degree: 5%
 
 ---
 
 # E-mail di avviso vendite
 
-Un messaggio e-mail di _avviso vendite_ segnala la consegna dei gruppi di acquisto alle vendite. L’e-mail contiene un riepilogo del gruppo di acquisto e informazioni sui membri del gruppo di acquisto e sulle loro attività.
+Un messaggio e-mail di _avviso vendite_ segnala il trasferimento dei gruppi di acquisto alle vendite. L’e-mail contiene un riepilogo del gruppo di acquisto e informazioni sui membri del gruppo di acquisto e sulle loro attività.
 
-In qualità di addetto al marketing, puoi configurare un nodo e-mail di avviso sulle vendite nei tuoi percorsi di account per avvisare il team di vendita del completamento del percorso per particolari gruppi di acquisto. All’interno del nodo, puoi specificare gli indirizzi e-mail del team vendite o un alias di distribuzione che raggiunge un set di account.
+Per avvisare il tuo team di vendita del completamento del percorso per particolari gruppi di acquisto, puoi configurare un nodo e-mail di avviso vendite nei tuoi percorsi di account. All’interno del nodo, puoi specificare gli indirizzi e-mail del team vendite o un alias di distribuzione che raggiunge un set di account.
 
 >[!IMPORTANT]
 >

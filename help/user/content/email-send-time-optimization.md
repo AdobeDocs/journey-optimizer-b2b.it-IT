@@ -17,7 +17,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 483
 ht-degree: 0%
@@ -61,7 +61,7 @@ Puoi configurare l&#39;ottimizzazione dell&#39;ora di invio quando [aggiungi un 
 
 1. Utilizza l&#39;interruttore **[!UICONTROL Ottimizzazione dell&#39;ora di invio]** per abilitare la funzione.
 
-1. Impostare le opzioni STO per specificare la finestra e la distribuzione dei test:
+1. Per specificare la distribuzione della finestra e del test, impostare le opzioni STO:
 
    * **[!UICONTROL Invia entro]** - Questo valore determina la finestra di ottimizzazione (in giorni), che è l&#39;intervallo di tempo in cui è possibile recapitare le e-mail. Ad esempio, per un webinar che si svolge in cinque giorni, puoi impostare una finestra di quattro o cinque giorni. STO seleziona il tempo di invio migliore previsto per ciascun profilo all’interno di questa finestra.
 

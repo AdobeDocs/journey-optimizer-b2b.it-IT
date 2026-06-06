@@ -5,6 +5,8 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
+autotag-review: '2026-06-05T16:08:18.792Z'
+TQID: 'https://experienceleague.adobe.com/14sGSyP1nI123o2II9rkVQh-ECcEr6BcyfnMnVlrjlU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
@@ -15,17 +17,17 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 895
+source-wordcount: 889
 ht-degree: 1%
 
 ---
 
 # Linee guida sulle domande per l’Assistente AI in Journey Optimizer B2B edition
 
-Rivedi il seguente set di domande di esempio per l’esecuzione di query sull’Assistente IA in Journey Optimizer B2B edition. Queste informazioni includono anche suggerimenti su come formulare le domande per ottenere risposte ottimali dall’Assistente AI.
+Rivedi le seguenti domande di esempio per l’esecuzione di query sull’Assistente IA in Journey Optimizer B2B edition. Queste informazioni includono anche suggerimenti su come formulare le domande per ottenere risposte ottimali dall’Assistente AI.
 
 ## Domande basate su obiettivi
 
@@ -36,19 +38,19 @@ Le domande di esempio seguenti sono raggruppate in base agli obiettivi che è po
 | Concetti di apprendimento e flussi di lavoro continui | In qualità di utente principiante, puoi utilizzare AI Assistant per apprendere i concetti di Real-Time CDP e Adobe Journey Optimizer B2B edition e per integrare te stesso in prodotti e funzionalità che non conosci. <br>In qualità di utente esperto, puoi utilizzare l&#39;Assistente AI per risolvere un caso limite che potrebbe bloccare il flusso di lavoro. | <li>Dimmi alcuni casi d’uso per Real-Time CDP. <li>Spiegami il concetto di Gruppo acquisti. |
 | Risoluzione dei problemi | Utilizza l’Assistente AI per scoprire come eseguire il debug degli errori di base che potrebbero verificarsi nel flusso di lavoro. | <li>Cosa significa questo errore &lt;ERROR_MESSAGE>? <li>Perché non riesco a eliminare il pubblico denominato &quot;...&quot;? |
 | Igiene delle sandbox | Utilizza l’Assistente AI per identificare eventuali oggetti duplicati o inutilizzati in modo da poter gestire la sandbox in modo efficiente. | <li>Puoi mostrarmi tipi di pubblico simili per l’account? <li>Esistono schemi a cui non è associato un set di dati? |
-| Analisi del valore | Utilizza l’Assistente AI per identificare gli oggetti dati più utilizzati e valutare eventuali indicatori di prestazioni o trovare gli oggetti dati più importanti. | <li>Quanti account ci sono nel nostro &quot;...&quot; definizione del segmento? <li>Quando i tipi di pubblico sono stati attivati nella destinazione Pubblico di Experience Cloud? |
+| Analisi del valore | Utilizza l’Assistente AI per identificare gli oggetti dati più utilizzati e valutare eventuali indicatori di prestazioni o trovare gli oggetti dati più importanti. | <li>Quanti account ci sono nel nostro &quot;...&quot; definizione del segmento? <li>Quando i tipi di pubblico sono stati attivati nella destinazione Tipi di pubblico di Experience Cloud? |
 | Ricerca | Utilizza l’Assistente AI per trovare gli oggetti Experience Platform e Adobe Journey Optimizer B2B edition supportati, ad esempio il pubblico dell’account, i set di dati, le destinazioni, gli schemi, le origini, i percorsi di account, i modelli di gruppi di acquisto e gli interessi delle soluzioni | <li>Elenca i tipi di pubblico contenenti &quot;Luma&quot; nel nome utilizzati nei percorsi di account. <li>Quali attributi sono presenti nello schema XDM &quot;Luma: Azioni personalizzate&quot;? |
 | Analisi dell&#39;impatto | Utilizza l’Assistente AI per identificare gli oggetti dati utilizzati in alcuni flussi di lavoro in modo da poter valutare l’impatto di eventuali modifiche. | <li>Quali tipi di pubblico dell&#39;account utilizzano `workEmail.address` nello schema &quot;Persona B2B&quot;? <li>Quali set di dati sono ... `jobTitle` archiviati in? |
 
 ## Formulazione delle domande
 
-Per ottenere una risposta il più accurata possibile, è necessario formulare le domande all’Assistente IA con chiarezza e contesto. Consulta il seguente elenco di suggerimenti per indicazioni su come porre una domanda chiara con il contesto:
+Per ottenere una risposta il più accurata possibile, formula le tue domande all’Assistente AI con chiarezza e contesto. Consulta il seguente elenco di suggerimenti per indicazioni su come porre una domanda chiara con il contesto:
 
 * Dichiara il tuo compito e/o la tua domanda in modo conciso.
 * Evita un linguaggio ambiguo o una sintassi troppo complessa per facilitare la comprensione.
 * Fornisci un contesto rilevante relativo all’attività e/o alla domanda, in quanto il contesto può aiutare l’Assistente AI a generare risposte più rilevanti.
 
-Le tabelle seguenti forniscono alcune best practice che è possibile seguire quando si utilizza l’Assistente IA:
+Le tabelle seguenti forniscono alcuni consigli che è possibile seguire quando si utilizza l’Assistente IA:
 
 | Esegui | Esempio |
 | --- | --- |
@@ -68,8 +70,8 @@ Le tabelle seguenti forniscono alcune best practice che è possibile seguire qua
 
 L’elenco seguente include esempi di domande che l’Assistente IA in Journey Optimizer B2B edition non supporta attualmente:
 
-* Quali tipi di pubblico dell’account utilizzano il campo workEmail.address del gruppo di campi ... nelle sue condizioni? 
-* Mostra il numero di percorsi attivi utilizzando tipi di pubblico dell&#39;account di dimensioni superiori a 10.000, 5000-10.000, 1000-5000 e inferiori a 1000, in una visualizzazione di distribuzione
+* Quali tipi di pubblico dell’account utilizzano il campo workEmail.address del gruppo di campi ... nelle loro condizioni? 
+* Mostra il numero di percorsi attivi utilizzando tipi di pubblico dell’account di dimensioni superiori a 10.000, 5000-10.000, 1000-5000 e inferiori a 1000, in un’immagine di distribuzione
 * Chi ha effettuato l’ultimo aggiornamento nel percorso di account x?
 * Quanti percorsi attivi aggiungono membri del gruppo di acquisto per l&#39;interesse della soluzione x?
 * Quali percorsi attivi aggiungono membri del gruppo di acquisto per l&#39;interesse della soluzione x?
