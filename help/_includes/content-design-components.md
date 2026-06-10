@@ -1,10 +1,10 @@
 ---
 title: Authoring dei contenuti - componenti
 description: Sezione riutilizzata sull’utilizzo di componenti ed elementi di contenuto per l’authoring dei contenuti
-source-git-commit: 6ff0d61295d46bfc0706e522ff870d99fc48e70d
+source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 0%
+source-wordcount: '240'
+ht-degree: 2%
 
 ---
 
@@ -22,13 +22,19 @@ ht-degree: 0%
 
    Le dimensioni di ogni colonna non possono essere inferiori al 10% della larghezza totale del componente struttura. È possibile rimuovere solo colonne vuote.
 
+   Per ulteriori informazioni sull&#39;utilizzo e la formattazione di questi componenti, vedere _[Componenti struttura](../user/content/structure-components.md)_.
+
 1. Espandi la sezione **[!UICONTROL Contents]** e aggiungi tutti i componenti di contenuto necessari in uno o più componenti della struttura.
 
    ![Trascina un elemento di contenuto nell&#39;area di lavoro e regola le impostazioni](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
 
-   <!--
-   reference to the contents elements when we have a completed reference for each.
-   -->
+   * [Contenitore](../user/content/content-components.md#container)
+   * [Pulsante](../user/content/content-components.md#button)
+   * [Testo](../user/content/content-components.md#text)
+   * [Divisore](../user/content/content-components.md#divider)
+   * [Immagine](../user/content/content-components.md#image)
+   * [Social](../user/content/content-components.md#social)
+   * [Modulo](../user/content/content-components.md#form) (solo pagine di destinazione)
 
 1. Se necessario, puoi effettuare ulteriori personalizzazioni per ciascun componente nelle schede _[!UICONTROL Impostazioni]_ o _[!UICONTROL Stile]_.
 

@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentazione di Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando le funzioni di IA generativa incorporata e l’automazione leader del settore.
-source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
+source-git-commit: 59fb0015ada5e28e5575cf57159c9be44bc66f18
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 92%
+source-wordcount: '449'
+ht-degree: 89%
 
 ---
 
@@ -76,6 +76,7 @@ ht-degree: 92%
    + [Destinazione di tipi di pubblico esterni](./audiences/target-external-audience.md)
    + [Tipi di pubblico associati all&#39;account LinkedIn](./data/linkedin-account-matched-audiences.md)
    + [Campi XDM predefiniti](./admin/field-mapping.md)
+   + [Profili di test](./audiences/test-profiles.md)
 + Account {#accounts}
    + Gruppi acquisti {#buying-groups}
       + [Panoramica](./buying-groups/buying-groups-overview.md)
@@ -121,16 +122,17 @@ ht-degree: 92%
          + [Modifica avanzata di HTML](./content/email-template-advanced-html.md)
          + [Convertire l’immagine in un modello](./content/email-template-image-convert.md)
       + Modelli pagina di destinazione (Beta) {#landing-page-templates}
-         + {hide-from-toc}[Panoramica](./content/landing-page-templates.md)
+         + [Panoramica](./content/landing-page-templates.md)
          + [Progettazione modello pagina di destinazione](./content/landing-page-template-design.md)
    + Frammenti {#visual-fragments}
       + [Panoramica](./content/fragments.md)
       + [Authoring dei frammenti](./content/fragment-authoring.md)
-   + Moduli (Beta) {#forms}
+   + Moduli {#forms}
       + [Panoramica](./content/forms.md)
       + [Progettazione del modulo](./content/form-design.md)
-   + Pagine di destinazione (Beta) {#landing-pages}
+   + Pagine di destinazione {#landing-pages}
       + [Panoramica](./content/landing-pages.md)
+      + [Creare e pubblicare](./content/landing-pages-create-publish.md)
       + [Progettazione pagina di destinazione](./content/landing-page-design.md)
       + [Assistente AI per il contenuto della pagina di destinazione](./content/ai-assistant-landing-pages.md)
    + Strumenti di progettazione dei contenuti {#content-design}
@@ -170,4 +172,5 @@ ht-degree: 92%
       + [Configurazioni SMS](./admin/configure-channels-sms.md)
       + [Configurazioni WhatsApp](./admin/configure-channels-whatsapp.md)
       + [Configurazioni dei canali web (Beta)](./admin/configure-channels-web.md)
-      + [Impostazioni pagina di destinazione (Beta)](./admin/landing-page-settings.md)
+      + [Configurazioni delle pagine di destinazione](./admin/configure-channels-landing-pages.md)
+      + [Configurazioni Forms](./admin/configure-channels-forms.md)

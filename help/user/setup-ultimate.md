@@ -21,7 +21,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
 source-wordcount: 849
 ht-degree: 74%
@@ -288,7 +288,7 @@ Per supportare i team di marketing che includono altri canali nei loro percorsi,
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
 <td>Completa le impostazioni della pagina di destinazione per supportare gli esperti di marketing che creano e pubblicano queste pagine</td>
-<td><a href="./admin/landing-page-settings.md">Ulteriori informazioni</a></td>
+<td><a href="./admin/configure-channels-landing-pages.md">Ulteriori informazioni</a></td>
 </tr>
 <tr>
 <td colspan="2">Configurazione del canale <strong>Web</strong> (Beta) per Journey Optimizer B2B edition</td>

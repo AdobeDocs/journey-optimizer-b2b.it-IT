@@ -17,9 +17,9 @@ topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
 workflow-type: tm+mt
-source-wordcount: 3057
+source-wordcount: 3064
 ht-degree: 6%
 
 ---
@@ -165,7 +165,7 @@ Ogni tipo di componente contenuto visualizza una barra degli strumenti quando la
         <th style="width: 20%;">Componenti</th>
     </tr>
     <tr>
-        <td><img width="160px" src="../assets/do-not-localize/toolbar-button-font-color.png" alt="Strumento Colore carattere"></td>
+        <td><img width="200px" src="../assets/do-not-localize/toolbar-button-font-color.png" alt="Strumento Colore carattere"></td>
         <td>Applica il colore del carattere al testo selezionato. Scegliete un colore dal selettore e utilizzate il cursore del colore e il campo del colore per selezionare il colore. In alternativa, è possibile immettere un valore RGB, HSL, HSB o esadecimale noto. </td>
         <td><li>Pulsante <li>Testo</td>
     </tr>
@@ -182,8 +182,8 @@ Ogni tipo di componente contenuto visualizza una barra degli strumenti quando la
         <th style="width: 20%;">Componenti</th>
     </tr>
     <tr>
-        <td><img width="120px" src="../assets/do-not-localize/toolbar-button-insert-link.png" alt="Inserisci strumento collegamento"></td>
-        <td>Crea un collegamento cliccabile (URL esterno o pagina di destinazione) per il testo o l’elemento selezionato.</td>
+        <td><img width="200px" src="../assets/do-not-localize/toolbar-button-insert-link.png" alt="Inserisci strumento collegamento"></td>
+        <td>Crea un collegamento cliccabile per il testo o l'elemento selezionato. <li>Contenuto e-mail - Specifica un URL esterno o una pagina di destinazione.<li>Contenuto della pagina di destinazione: specifica un collegamento esterno.</td>
         <td><li>Pulsante <li>Testo <li>Immagine </td>
     </tr>
 </table>
@@ -200,7 +200,7 @@ Ogni tipo di componente contenuto visualizza una barra degli strumenti quando la
     </tr>
     <tr>
         <td><img width="80px" src="../assets/do-not-localize/toolbar-button-remove-link.png" alt="Rimuovi strumento collegamento"></td>
-        <td> Rimuovi il collegamento cliccabile (URL esterno o pagina di destinazione) per il testo o l’elemento selezionato.</td>
+        <td> Rimuovi il collegamento cliccabile per il testo o l'elemento selezionato.</td>
         <td><li>Pulsante <li>Testo <li>Immagine </td>
     </tr>
 </table>
@@ -312,7 +312,7 @@ Nella scheda _[!UICONTROL Impostazioni]_, utilizza le opzioni **[!UICONTROL Coll
 
    * **Pagina di destinazione** - Scegliere questo tipo per selezionare una pagina di destinazione pubblicata nell&#39;istanza di Marketo Engage connessa <!-- Journey Optimizer B2B Edition (_Beta_) or -->.
 
-     Per l&#39;opzione **[!UICONTROL Pagina di destinazione]**, selezionare la pagina di destinazione pubblicata. Fai clic sull&#39;icona _Seleziona pagina_ ( ![Mostra icona collegamenti](/help/assets/do-not-localize/icon-landing-page-select.svg) ) e [seleziona la pagina di destinazione pubblicata](./landing-pages.md#link-to-a-landing-page).
+     Per l&#39;opzione **[!UICONTROL Pagina di destinazione]**, selezionare la pagina di destinazione pubblicata. Fai clic sull&#39;icona _Seleziona pagina_ ( ![Mostra icona collegamenti](../assets/do-not-localize/icon-landing-page-select.svg) ) e [seleziona la pagina di destinazione pubblicata](./landing-pages.md#link-to-a-landing-page).
 
      ![Definisci un collegamento a una pagina di destinazione per un componente pulsante](./assets/component-button-link-options-landing-page.png){width="200"}
 
@@ -628,7 +628,7 @@ Nella scheda _[!UICONTROL Impostazioni]_, utilizza le opzioni **[!UICONTROL Coll
 
    * **Pagina di destinazione** - Scegliere questo tipo per selezionare una pagina di destinazione pubblicata nell&#39;istanza di Marketo Engage connessa <!-- Journey Optimizer B2B Edition (_Beta_) or -->.
 
-     Per l&#39;opzione **[!UICONTROL Pagina di destinazione]**, selezionare la pagina di destinazione pubblicata. Fai clic sull&#39;icona _Seleziona pagina_ ( ![Mostra icona collegamenti](/help/assets/do-not-localize/icon-landing-page-select.svg) ) e [seleziona la pagina di destinazione pubblicata](./landing-pages.md#link-to-a-landing-page).
+     Per l&#39;opzione **[!UICONTROL Pagina di destinazione]**, selezionare la pagina di destinazione pubblicata. Fai clic sull&#39;icona _Seleziona pagina_ ( ![Mostra icona collegamenti](../assets/do-not-localize/icon-landing-page-select.svg) ) e [seleziona la pagina di destinazione pubblicata](./landing-pages.md#link-to-a-landing-page).
 
      ![Definisci un collegamento a una pagina di destinazione per un componente pulsante](./assets/component-button-link-options-landing-page.png){width="250"}
 
@@ -756,7 +756,7 @@ Per definire una dimensione di visualizzazione coerente per tutti gli elementi g
 
 +++
 
-### Modulo (pagine di destinazione)
+### Modulo (solo pagine di destinazione) {#form}
 
 [!BADGE Beta]{type=Informative url="/help/user/content/forms.md" tooltip="Funzione Beta"}
 

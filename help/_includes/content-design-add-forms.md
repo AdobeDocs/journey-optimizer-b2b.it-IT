@@ -1,9 +1,9 @@
 ---
 title: Authoring dei contenuti - aggiungere moduli
 description: Sezione riutilizzata sull’aggiunta di moduli nelle pagine di destinazione e nei modelli
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Nell&#39;esempio seguente vengono illustrati i passaggi necessari per aggiungere
 
    >[!TIP]
    >
-   >Per aggiungere il modulo in modo che occupi l’intero layout orizzontale all’interno dell’e-mail, aggiungi una struttura di colonne 1:1 e quindi trascina e rilascia il modulo al suo interno.
+   >Per aggiungere il modulo in modo che occupi l’intero layout orizzontale all’interno dell’e-mail, aggiungi una struttura di colonne da 1:1, quindi trascina e rilascia il modulo al suo interno.
 
 1. Fai clic sull&#39;icona _Modulo_ nella barra degli strumenti del componente oppure utilizza le proprietà **[!UICONTROL Incorpora modulo]** a destra per selezionare il modulo pubblicato.
 

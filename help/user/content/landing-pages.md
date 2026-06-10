@@ -3,24 +3,25 @@ title: Pagine di destinazione
 description: 'Creazione, progettazione e pubblicazione di pagine di destinazione per percorsi di account: creazione da zero, importazione di HTML, aggiunta di moduli, personalizzazione del contenuto e collegamento dalle e-mail in Journey Optimizer B2B edition.'
 feature: Landing Pages, Content
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
+autotag-review: '2026-05-27T16:16:24.088Z'
+TQID: 'https://experienceleague.adobe.com/zAr9SwPBHxU50gD1ZRdJQo3M-qL-BEO6R1UYq7hSG-8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: 2026-03-30T21:57:18.444Z
-TQID: https://experienceleague.adobe.com/vrsWEm-DjB2IuI4ghEBKhQAlbYRgnWgddPCDV4a2mmI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: 2220
-ht-degree: 4%
+source-wordcount: 1637
+ht-degree: 2%
 
 ---
 
@@ -28,28 +29,34 @@ ht-degree: 4%
 
 Una pagina di destinazione è una pagina web indipendente in cui puoi indirizzare contatti e clienti dopo che hanno fatto clic su un elemento collegato in un’e-mail, un messaggio SMS o qualsiasi posizione digitale. Puoi incorporare queste pagine nei tuoi percorsi di account per consentire ai potenziali clienti e ai clienti di visualizzare i messaggi sul web e i progressi nei tuoi percorsi di account. Puoi creare, personalizzare e visualizzare in anteprima le pagine di destinazione nell’area di progettazione visiva della pagina di destinazione.
 
-Per indirizzare i clienti a una pagina web definita quando fanno clic su un collegamento specifico, crea una pagina di destinazione in Journey Optimizer B2B edition:
+Casi d’uso comuni per le pagine di destinazione:
 
-* Creare la pagina
-* Progettare la pagina di destinazione e creare i contenuti
-* Verifica la pagina
-* Pubblicare la pagina
-* Collega alla pagina dal contenuto del percorso
+* Fornisci il consenso o la rinuncia alle comunicazioni di marketing o a un servizio specifico. Utilizza un collegamento a un elenco di destinazione in un’e-mail o in un’altra comunicazione.
+* Raccogli il consenso prima di inviare le comunicazioni e invia un’e-mail di conferma in caso di consenso o rinuncia.
+* Acquisisci o aggiorna i dati del profilo (profilatura progressiva, preferenze, registrazioni e scenari simili) utilizzando i moduli nelle pagine di destinazione.
+* Indirizza le persone a informazioni specifiche per la campagna progettate per l’orchestrazione del percorso.
+* Reindirizza le persone a un modulo web dedicato senza creare una pagina esterna al di fuori di Journey Optimizer B2B edition.
+
+## Flusso di lavoro per pagina di destinazione
+
+Per indirizzare i membri di un pubblico di percorso a una pagina web definita quando fanno clic su un collegamento specifico, crea una pagina di destinazione in Journey Optimizer B2B edition:
+
+1. [Crea la pagina](./landing-pages-create-publish.md) - Seleziona un predefinito, imposta la pagina principale e aggiungi eventuali pagine secondarie richieste.
+1. [Progettare il contenuto della pagina di destinazione](./landing-page-design.md) - Creare il contenuto della pagina utilizzando i componenti di progettazione visiva trascinati.
+1. [Verifica e pubblica la pagina di destinazione](./landing-pages-create-publish.md) - Visualizza l&#39;anteprima della pagina, verifica il comportamento del modulo, quindi pubblica per renderla live.
+1. [Collega alla pagina dal tuo percorso](#link-to-a-landing-page). Aggiungi l&#39;URL della pagina di destinazione a un&#39;azione e-mail, SMS o percorso in modo che i destinatari possano raggiungerla.
 
 Ad esempio, puoi creare e progettare pagine di destinazione per indirizzare gli utenti a informazioni online. La pagina potrebbe includere un modulo in cui gli utenti possono dare il consenso o rinunciare alla ricezione delle comunicazioni. Oppure potrebbe essere l&#39;opportunità di abbonarsi a comunicazioni ricorrenti, come una newsletter.
 
 Nello spazio di progettazione visiva puoi creare, personalizzare e visualizzare in anteprima le pagine di destinazione.
-<!--
-For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. 
--->
 
 ## Accedere e gestire le pagine di destinazione
 
-Per accedere alle pagine di destinazione in Adobe Journey Optimizer B2B edition, vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Pagine di destinazione]**. Questa azione apre una pagina di elenco con tutte le pagine di destinazione create nell’istanza elencata in una tabella.
+Per accedere alle pagine di destinazione in Journey Optimizer B2B edition, vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Pagine di destinazione]**. Questa azione visualizza un elenco di tutte le pagine di destinazione create nell’istanza.
 
 ![Accedi alla libreria delle pagine di destinazione](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
-La tabella è ordinata in base alla colonna _[!UICONTROL Modificato]_, con gli elementi aggiornati più di recente nella parte superiore per impostazione predefinita. Fai clic sul titolo della colonna per passare da crescente a decrescente.
+L&#39;elenco è ordinato in base alla colonna _[!UICONTROL Modificato]_, con gli elementi aggiornati più di recente nella parte superiore. Fai clic sul titolo della colonna per passare da crescente a decrescente.
 
 ### Filtrare l’elenco delle pagine di destinazione
 
@@ -57,13 +64,15 @@ Per cercare una pagina di destinazione per nome, immetti una stringa di testo ne
 
 ![Filtra le pagine di destinazione visualizzate](./assets/landing-pages-list-filtered.png){width="700" zoomable="yes"}
 
-### Personalizzare la visualizzazione delle colonne
+<!-- 
+This is going away? ### Customize the column display
 
-Personalizza le colonne da visualizzare nella tabella facendo clic sull&#39;icona _Personalizza tabella_ ( ![Personalizza icona tabella](../assets/do-not-localize/icon-column-settings.svg) ) in alto a destra.
+Customize the columns that you want to display in the table by clicking the _Customize table_ icon ( ![Customize table icon](../assets/do-not-localize/icon-column-settings.svg) ) at the top right. 
 
-Nella finestra di dialogo, seleziona le colonne da visualizzare e fai clic su **[!UICONTROL Applica]**.
+In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
-![Selezionare le colonne da visualizzare](./assets/landing-pages-customize-table-dialog.png){width="300"}
+![Select the columns that you want to display](./assets/landing-pages-customize-table-dialog.png){width="300"} 
+-->
 
 ### Stato e ciclo di vita della pagina di destinazione
 
@@ -76,100 +85,6 @@ Lo stato della pagina di destinazione determina la disponibilità del collegamen
 | Pubblicato con bozza | Quando crei una bozza da una pagina di destinazione pubblicata, la versione pubblicata rimane e il contenuto della bozza può essere modificato nello spazio di progettazione visiva. Se pubblichi la bozza della versione, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nella pagina ospitata. Azioni disponibili:<br/><ul><li>Modifica nome o descrizione<li>Modifica URL collegamento<li>Aggiungere un collegamento nel contenuto di un messaggio e-mail o SMS<li>Modifica versione bozza in Visual Design Space<li>Pubblica versione bozza<li>Duplica<li>Elimina (elimina entrambe le versioni)<li>Elimina bozza (torna allo stato pubblicato) |
 
 ![Ciclo di vita stato pagina di destinazione](./assets/status-lifecycle-diagram.png){zoomable="yes"}
-
-## Creare una pagina di destinazione
-
-Puoi aggiungere una nuova pagina di destinazione in Journey Optimizer B2B edition facendo clic su **[!UICONTROL Crea pagina di destinazione]** in alto a destra.
-
-1. Nella finestra di dialogo _[!UICONTROL Crea pagina di destinazione]_, immetti un **[!UICONTROL Nome]** e una **[!UICONTROL Descrizione]** utili (facoltativi).
-
-   Requisiti della pagina di destinazione:
-
-   * Nome: massimo 100 caratteri, deve essere univoco, senza distinzione tra maiuscole e minuscole
-
-   * Descrizione: massimo 300 caratteri
-
-   * Alpha, caratteri numerici e speciali sono consentiti
-
-   * I caratteri riservati sono **_non consentiti_**: `\ / : * ? " < > |`
-
-   ![Finestra di dialogo Crea pagina di destinazione](./assets/landing-page-create-dialog.png){width="400"}
-
-1. Se necessario e se sono configurati più sottodomini, modifica il **[!UICONTROL Sottodominio]** da utilizzare per la pagina di destinazione.
-
-1. Fai clic su **[!UICONTROL Crea]**.
-
-   Viene aperta la home page di _[!UICONTROL Crea pagina di destinazione principale]_ e sono disponibili più opzioni per la creazione della pagina: _[!UICONTROL Progetta da zero]_, _[!UICONTROL Importa HTML]_ o utilizza un modello salvato.
-
-   ![Scegli come iniziare con la progettazione della pagina di destinazione](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
-
-   Dopo aver selezionato il metodo da utilizzare per avviare la progettazione della pagina di destinazione, utilizzare lo spazio di progettazione visiva per [progettare la pagina](./landing-page-design.md).
-
-### Creare da zero
-
-Utilizza l’editor di contenuto visivo per definire la struttura del contenuto della pagina di destinazione. Aggiungendo e spostando componenti strutturali con semplici azioni di trascinamento della selezione, puoi progettare la forma del contenuto della pagina in pochi secondi.
-
-1. Dalla home page _[!UICONTROL Crea la pagina di destinazione principale]_, seleziona l&#39;opzione **[!UICONTROL Progetta da zero]**.
-
-1. [Aggiungi struttura e contenuto](./landing-page-design.md#add-structure-and-content) alla pagina.
-
-### Importa HTML
-
-Adobe Journey Optimizer B2B edition consente di importare contenuti HTML esistenti per progettare le pagine di destinazione.
-
-{{$include /help/_includes/content-design-import.md}}
-
-![importa contenuto html in un file zip](./assets/templates-import-zip-file.png){width="500"}
-
->[!NOTE]
->
->L’utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
-
-Puoi personalizzare il contenuto importato in base alle esigenze con lo spazio di progettazione visiva.
-
-### Seleziona un modello salvato o di esempio
-
-Puoi scegliere tra:
-
-* **Modelli di esempio**. L’interfaccia B2B edition di Journey Optimizer offre una raccolta di modelli di pagina di destinazione pronti all’uso che puoi utilizzare come punto di partenza per la progettazione della pagina di destinazione.
-
-* **Modelli salvati**. Utilizza un modello personalizzato salvato creato da un membro dell&#39;organizzazione utilizzando il menu _[!UICONTROL Modelli]_ <!-- or the _[!UICONTROL Save as content template]_ option when designing a landing page. -->
-
-Utilizza la sezione _[!UICONTROL Seleziona modello struttura]_ per iniziare a creare il contenuto da un modello. Puoi utilizzare un modello di esempio o un modello di pagina di destinazione personalizzato salvato dall’istanza di Journey Optimizer B2B edition.
-
->[!BEGINTABS]
-
->[!TAB Modelli salvati]
-
-Nella home page _Crea la pagina di destinazione principale_, la scheda _Modelli di esempio_ è selezionata per impostazione predefinita. Per utilizzare un modello personalizzato, selezionare la scheda **[!UICONTROL Modelli salvati]**.
-
-Viene visualizzato l’elenco di tutti i modelli di pagina di destinazione salvati. Puoi ordinarli per _[!UICONTROL Nome]_, _[!UICONTROL Ultima modifica]_ e _[!UICONTROL Ultima creazione]_.
-
-![Scegli un modello salvato](./assets/landing-page-design-saved-templates-sort-by.png){width="700" zoomable="yes"}
-
-Selezionare il modello desiderato dall&#39;elenco.
-
-Dopo la selezione, viene visualizzata un&#39;anteprima del modello. In modalità anteprima puoi spostarti tra tutti i modelli di una categoria (campione o salvato, a seconda della selezione) utilizzando le frecce destra e sinistra.
-
-![Anteprima del modello salvato](./assets/landing-page-design-saved-template-preview.png){width="800" zoomable="yes"}
-
-Quando la visualizzazione corrisponde a quella che si desidera utilizzare, fare clic su **[!UICONTROL Usa questo modello]** in alto a destra nella finestra di anteprima.
-
-Questa azione copia il contenuto nello spazio di progettazione visiva, dove puoi modificarlo in base alle esigenze.
-
->[!TAB Modelli di esempio]
-
-Adobe Journey Optimizer B2B edition offre una selezione di _modelli predefiniti_ di pagina di destinazione, che possono essere utilizzati per creare pagine di destinazione e modelli di pagina di destinazione personalizzati.
-
-<!-- ![Choose a template provided by Adobe](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"} -->
-
->[!ENDTABS]
-
-<!--
->[!NOTE]
->
-> Saved templates may have governance (content locking) settings applied to one or more components. The visual designer provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md). 
--->
 
 ## Modificare una pagina di destinazione
 
@@ -195,7 +110,7 @@ Le modifiche apportate a una pagina di destinazione dipendono dal suo stato corr
 
    Utilizza gli strumenti di progettazione visiva secondo necessità:
 
-   * [Aggiungere struttura e contenuto](./landing-page-design.md#add-structure-and-content)
+   * [Aggiungere struttura e contenuto](./landing-page-design.md#structure-content-landing-page)
    * [Aggiungi Assets](./landing-page-design.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Personalizzazione dei contenuti](./landing-page-design.md#personalize-content)
@@ -207,7 +122,7 @@ Le modifiche apportate a una pagina di destinazione dipendono dal suo stato corr
 
 >[!TAB Pubblicato]
 
-1. Dalla pagina di elenco _[!UICONTROL Pagina di destinazione]_, fare clic sul nome della pagina per aprirla.
+1. Dalla pagina di elenco _[!UICONTROL Pagine di destinazione]_, fare clic sul nome della pagina per aprirla.
 
    Viene visualizzata un’anteprima del contenuto visivo, con i dettagli della pagina di destinazione a destra.
 
@@ -223,7 +138,7 @@ Le modifiche apportate a una pagina di destinazione dipendono dal suo stato corr
 
    Utilizza gli strumenti di progettazione visiva secondo necessità:
 
-   * [Aggiungere struttura e contenuto](./landing-page-design.md#add-structure-and-content)
+   * [Aggiungere struttura e contenuto](./landing-page-design.md#structure-content-landing-page)
    * [Aggiungi Assets](./landing-page-design.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Personalizzazione dei contenuti](./landing-page-design.md#personalize-content)
@@ -237,7 +152,7 @@ Le modifiche apportate a una pagina di destinazione dipendono dal suo stato corr
 
 >[!TAB Pubblicato con bozza]
 
-Quando apri la pagina di destinazione, per impostazione predefinita viene visualizzata la versione bozza. Le schede nella parte superiore dello spazio di anteprima consentono di alternare la visualizzazione tra la versione pubblicata e quella bozza. Le bozze delle azioni e dei dettagli sono visualizzate a destra.
+Quando apri la pagina di destinazione, viene visualizzata la versione bozza. Le schede nella parte superiore dello spazio di anteprima consentono di alternare la visualizzazione tra la versione pubblicata e quella bozza. Le bozze delle azioni e dei dettagli sono visualizzate a destra.
 
 ![Anteprima e dettagli della versione bozza della pagina di destinazione](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"}
 
@@ -245,7 +160,7 @@ Per aggiornare il contenuto:
 
 1. Fai clic su **[!UICONTROL Modifica pagina di destinazione]** in alto a destra. Utilizza gli strumenti di progettazione visiva secondo necessità:
 
-   * [Aggiungere struttura e contenuto](./landing-page-design.md#add-structure-and-content)
+   * [Aggiungere struttura e contenuto](./landing-page-design.md#structure-content-landing-page)
    * [Aggiungi Assets](./landing-page-design.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Personalizzazione dei contenuti](./landing-page-design.md#personalize-content)
@@ -258,28 +173,6 @@ Per aggiornare il contenuto:
    Quando pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nella pagina ospitata.
 
 >[!ENDTABS]
-
-### Controllare gli avvisi
-
-Durante la progettazione del contenuto della pagina di destinazione, gli avvisi vengono visualizzati nell’interfaccia (in alto a destra) quando mancano le impostazioni chiave.
-
-![Avvisi per problemi di contenuto della pagina](./assets/alerts-button.png){width="250"}
-
-Se non trovi questo pulsante, non sono stati rilevati problemi.
-
-È possibile rilevare due tipi di avvisi:
-
-* **_Avvisi_** che fanno riferimento a consigli e best practice, ad esempio:
-
-   * `Placeholder links are present in the landing page body`: non dimenticare di sostituire i segnaposto con collegamenti validi.
-
-   * `Text version of HTML is empty`: non dimenticare di definire una versione testuale del corpo della pagina, che viene utilizzata quando non è possibile visualizzare il contenuto HTML.
-
-   * `Empty link is present in page body`: verificare che tutti i collegamenti nella pagina siano corretti.
-
-* **_Errori_** che impediscono di testare o attivare il percorso o la campagna finché non vengono risolti, ad esempio:
-
-   * `The landing page content is empty`: contenuto pagina obbligatorio.
 
 ## Duplicare una pagina di destinazione
 
@@ -327,11 +220,11 @@ In qualità di addetto al marketing o Designer che crea contenuti per e-mail, fr
 
 1. Per l&#39;opzione **[!UICONTROL Target]**, scegliere il comportamento della destinazione di collegamento:
 
-   * **[!UICONTROL Nessuno]** - apre il collegamento utilizzando il comportamento predefinito del browser.
-   * **[!UICONTROL Vuoto]** - apre il collegamento in una nuova finestra o scheda.
-   * **[!UICONTROL Autonomo]** - apre il collegamento nello stesso frame.
-   * **[!UICONTROL Elemento padre]** - apre il collegamento nel frame principale.
-   * **[!UICONTROL Top]** - apre il collegamento nel corpo completo della finestra.
+   * **[!UICONTROL Nessuno]** - Apre il collegamento utilizzando il comportamento predefinito del browser.
+   * **[!UICONTROL Vuoto]** - Apre il collegamento in una nuova finestra o scheda.
+   * **[!UICONTROL Autonomo]** - Apre il collegamento nello stesso frame.
+   * **[!UICONTROL Elemento padre]** - Apre il collegamento nel frame padre.
+   * **[!UICONTROL Top]** - Apre il collegamento nel corpo completo della finestra.
 
 1. (Solo collegamento di testo) Per sottolineare il testo collegato, selezionare la casella di controllo **[!UICONTROL Sottolinea collegamento]**.
 

@@ -1,10 +1,10 @@
 ---
 title: Snippet
 description: Riutilizzo di note ed elementi visivi per annotare una funzione o una pagina applicata a una specifica edizione
-source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 2%
+source-wordcount: '2343'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 >[!NOTE]
 >
 >Le licenze per AEM Assets as a Cloud Service e Dynamic Media sono prerequisiti per l’integrazione. Verificare che [Dynamic Media con API aperta](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} sia abilitato. L&#39;integrazione è limitata agli archivi dal _livello di consegna_. Se si utilizza il _livello di creazione_ e si desidera convertirlo, contattare il supporto tecnico Adobe Experience Manager.<br/>
->A seconda del contratto e della configurazione, è possibile accedere a Adobe Experience Manager Assets as a Cloud Service direttamente da Adobe Journey Optimizer B2B edition durante la progettazione di contenuti visivi.
+>A seconda del contratto e della configurazione, è possibile accedere ad Adobe Experience Manager Assets as a Cloud Service direttamente da Adobe Journey Optimizer B2B edition durante la progettazione di contenuti visivi.
 
 ## Passaggio Authoring dei contenuti - componenti - strutture {#structures-step}
 
@@ -141,7 +141,7 @@ Selezionare la casella di controllo e fare clic sul quadrato del colore per sceg
 
 Nel pannello di destra con la scheda _[!UICONTROL Stili]_ selezionata, espandi la sezione **[!UICONTROL Margine]** e imposta le opzioni per la spaziatura dei margini all&#39;interno del componente strutturale. Questo stile replica il parametro CSS `margin`, che controlla lo spazio all&#39;esterno del bordo di un componente, separandolo dagli altri componenti. Crea un gap intorno al componente per influenzarne il posizionamento e il layout del contenuto circostante.
 
-Impostate i valori dei margini in pixel in base alle esigenze di progettazione. Puoi impostare il margine per tutti i lati, il bottone superiore, il lato sinistro-destro o ciascun lato del componente in modo indipendente:
+Impostate i valori dei margini in pixel in base alle esigenze di progettazione. Puoi impostare il margine per tutti i lati, dall’alto verso il basso, da sinistra a destra o da ciascun lato del componente in modo indipendente:
 
 * **Tutti i lati** - Per impostare un valore da applicare a tutti i lati, deselezionare la casella di controllo **[!UICONTROL Margine diverso per ogni lato]**. Fai clic sulle icone freccia su e giù per aumentare o diminuire il numero di pixel.
 
@@ -161,7 +161,7 @@ Impostate i valori dei margini in pixel in base alle esigenze di progettazione. 
 
 Nel pannello di destra con la scheda _[!UICONTROL Stili]_ selezionata, espandi la sezione **[!UICONTROL Spaziatura interna]** e imposta le opzioni per la spaziatura interna nel componente strutturale. Questo stile replica il parametro CSS `padding`, che è lo spazio tra il contenuto di un componente e il relativo bordo. La spaziatura interna consente di controllare la distanza tra il contenuto e il bordo del componente.
 
-Imposta i valori di spaziatura in pixel in base alle tue esigenze di progettazione. Puoi impostare la spaziatura per tutti i lati, il bottone superiore, il lato sinistro-destro o ciascun lato del componente in modo indipendente:
+Imposta i valori di spaziatura in pixel in base alle tue esigenze di progettazione. Potete impostare la spaziatura per tutti i lati, dall&#39;alto in basso, da sinistra a destra o da ciascun lato del componente in modo indipendente:
 
 * **Tutti i lati** - Per impostare un valore da applicare a tutti i lati, deselezionare la casella di controllo **[!UICONTROL Spaziatura interna diversa per ogni lato]**. Fai clic sulle icone freccia su e giù per aumentare o diminuire il numero di pixel.
 

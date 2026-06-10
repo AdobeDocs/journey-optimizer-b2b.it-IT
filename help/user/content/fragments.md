@@ -4,19 +4,22 @@ description: 'Creazione, gestione e riutilizzo di frammenti di contenuto visivo 
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
+autotag-review: '2026-05-27T16:13:50.677Z'
+TQID: 'https://experienceleague.adobe.com/Jvf48iWEQ2aOznKw2QEy33-X-q8cMfUQkbPAjgmgZqw'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: e1663313-7961-4100-bea9-fa9f4edf8493
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:25:36.421Z
-TQID: https://experienceleague.adobe.com/uSnmvOt0QVY4GbYxIfC0byCqvCZO8F4rMHmyoo3zIJ0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: 2748
 ht-degree: 2%
@@ -106,7 +109,7 @@ Per creare nuovi frammenti visivi in Journey Optimizer B2B edition, fai clic su 
 
 1. Utilizza gli strumenti di progettazione del contenuto per creare il contenuto del frammento visivo:
 
-   * [Aggiungere struttura e contenuto](./fragment-authoring.md#add-structure-and-content)
+   * [Aggiungere struttura e contenuto](./fragment-authoring.md#design-fragment)
    * [Aggiungi Assets](./fragment-authoring.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalizzazione dei contenuti](./fragment-authoring.md#personalize-content)
@@ -198,7 +201,7 @@ Le modifiche apportate a un frammento dipendono dal suo stato corrente:
 
    Utilizza gli strumenti di progettazione visiva secondo necessità:
 
-   * [Aggiungere struttura e contenuto](./fragment-authoring.md#add-structure-and-content)
+   * [Aggiungere struttura e contenuto](./fragment-authoring.md#design-fragment)
    * [Aggiungi Assets](./fragment-authoring.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalizzazione dei contenuti](./fragment-authoring.md#personalize-content)
@@ -227,7 +230,7 @@ Le modifiche apportate a un frammento dipendono dal suo stato corrente:
 
    Utilizza gli strumenti di progettazione visiva secondo necessità:
 
-   * [Aggiungere struttura e contenuto](./fragment-authoring.md#add-structure-and-content)
+   * [Aggiungere struttura e contenuto](./fragment-authoring.md#design-fragment)
    * [Aggiungi Assets](./fragment-authoring.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalizzazione dei contenuti](./fragment-authoring.md#personalize-content)
@@ -256,7 +259,7 @@ Per aggiornare il contenuto:
 
 1. Fai clic su **[!UICONTROL Modifica frammento]** in alto a destra. Utilizza gli strumenti di progettazione visiva secondo necessità:
 
-   * [Aggiungere struttura e contenuto](./fragment-authoring.md#add-structure-and-content)
+   * [Aggiungere struttura e contenuto](./fragment-authoring.md#design-fragment)
    * [Aggiungi Assets](./fragment-authoring.md#add-assets)
    * [Spostarsi tra livelli, impostazioni e stili](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalizzazione dei contenuti](./fragment-authoring.md#personalize-content)

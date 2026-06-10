@@ -17,10 +17,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
-source-wordcount: 1164
-ht-degree: 5%
+source-wordcount: 1381
+ht-degree: 4%
 
 ---
 
@@ -58,7 +58,7 @@ Utilizza lo spazio di progettazione del contenuto visivo per definire la struttu
 
    * **[!UICONTROL Stile manuale]** - Scegliere questa opzione per creare l&#39;e-mail in _Modalità manuale_. In questa modalità, puoi impostare manualmente lo stile per tutti i componenti di struttura e contenuto aggiunti all’area di lavoro vuota.
 
-1. [Aggiungi struttura e contenuto](./email-authoring.md#add-structure-and-content) al modello.
+1. [Aggiungi struttura e contenuto](./email-authoring.md#structure-content) al modello.
 
 1. [Rivedi e aggiorna i collegamenti](#preview-and-edit-linked-urls).
 
@@ -141,6 +141,20 @@ Dopo il salvataggio, l&#39;e-mail viene visualizzata nella pagina dei dettagli d
 ### Modifica tracciamento URL collegato
 
 {{$include /help/_includes/content-design-links.md}}
+
+![Fai clic sull&#39;icona Modifica per accedere al tracciamento dei collegamenti](./assets/email-link-tracking.png){width="400"}
+
+Il sistema di consegna e-mail (tramite Marketo Engage) racchiude automaticamente tutti gli URL nelle e-mail di HTML con un reindirizzamento di tracciamento univoco al momento dell’invio. Utilizza il **[!UICONTROL Tipo di tracciamento]** per controllare il tracciamento del collegamento:
+
+* **[!UICONTROL Traccia senza token]** - Il sistema registra il clic, ma tiene traccia di ciò che l&#39;utente fa successivamente sulla pagina Web. Questo può essere importante in alcuni casi tecnici, ad esempio quando si tratta di sistemi di terze parti che potrebbero non gestire correttamente mkt_tok. Tuttavia, il successivo tracciamento web è limitato.
+
+* **[!UICONTROL Traccia con mkt-tok]** - Utilizza il token di tracciamento (mkt_tok) per tenere traccia delle attività Web successive tramite Munchkin. Quando un destinatario fa clic sul collegamento, registra un evento _E-mail clic_ nel registro attività, tiene traccia in modo sicuro della propria attività e applica un cookie per monitorare le interazioni future del sito.
+
+* **[!UICONTROL Non tenere traccia]** - Il sistema non tiene traccia dell&#39;attività associata al collegamento. Questa funzione è utile quando la pagina di destinazione non supporta i parametri URL e può causare il mancato funzionamento del collegamento.
+
+  >[!NOTE]
+  >
+  >Se un’e-mail è stata inviata più di 365 giorni fa e nessuno ha fatto clic sui collegamenti negli ultimi 180 giorni, il sistema cancella il percorso all’URL dal database. Questa rimozione causa l’interruzione del collegamento. Se desideri che il collegamento sia permanente, devi disattivare il tracciamento.
 
 ### Applica stile modalità scura
 

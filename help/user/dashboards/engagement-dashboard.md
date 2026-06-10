@@ -18,7 +18,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T22:44:41.871Z
 TQID: https://experienceleague.adobe.com/kPDEmNYLphx3OIt8Q7LmK3Ofjsj9Gl8giNQ2aTh9H-0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7b884e313f584252aecc25ee813dfb6c7f5d8f15
 workflow-type: tm+mt
 source-wordcount: 561
 ht-degree: 6%
@@ -57,7 +57,7 @@ Utilizza il filtro _[!UICONTROL Intervallo date]_ in alto a destra per filtrare 
 
 ![Filtra i dati visualizzati per intervallo di date](./assets/engagement-date-filter.png){width="380"}
 
-Per l&#39;intervallo **[!UICONTROL Personalizzato]**, è possibile utilizzare lo strumento Calendario per specificare una data di inizio e una data di fine. Per impostazione predefinita, la data di fine corrisponde al giorno corrente.
+Per l&#39;intervallo **[!UICONTROL Personalizzato]**, fare clic sull&#39;icona _Calendario_ ( ![Icona Calendario](../assets/do-not-localize/icon-calendar.svg) ) per specificare una data di inizio e una data di fine. Per impostazione predefinita, la data di fine corrisponde al giorno corrente.
 
 ![Filtra i dati visualizzati per attributi](./assets/engagement-date-filter-custom.png){width="380"}
 
@@ -91,7 +91,7 @@ Vengono riportati i filtri globali (intervallo di dati e attributi) applicati al
 
 | Coinvolgimento per account | Coinvolgimento per gruppi acquisti | Coinvolgimento per persone |
 | ---------------------- | --------------------------- | -------------------- |
-| <li>Nome account <li>Stato <li>Persone impegnate (numero)<li>Attività di coinvolgimento (numero) <li>Ultimo coinvolgimento (data) | <li>Gruppo acquisti <li>Account <li>Interesse della soluzione <li>Stato <li>Attività di coinvolgimento (numero) | <li>Nome <li>Stato <li>E-mail (indirizzo) <li>Attività di coinvolgimento (numero) <li>Ultimo impegno (data) |
+| <li>Nome account <li>Stato <li>Persone impegnate (numero)<li>Attività di coinvolgimento (numero) <li>Ultimo coinvolgimento (data) | <li>Gruppo acquisti <li>Account <li>Soluzione di interesse <li>Stato <li>Attività di coinvolgimento (numero) | <li>Nome <li>Stato <li>E-mail (indirizzo) <li>Attività di coinvolgimento (numero) <li>Ultimo impegno (data) |
 
 Puoi fare clic sull&#39;icona del menu **...** in alto a destra e scegliere **[!UICONTROL Visualizza altro]** per [visualizzare dati e approfondimenti estesi](#view-more).
 

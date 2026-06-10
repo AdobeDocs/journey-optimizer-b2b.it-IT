@@ -17,7 +17,7 @@ topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 autotag-review: 2026-03-30T22:17:40.055Z
 TQID: https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: 1538
 ht-degree: 2%
@@ -90,7 +90,7 @@ Utilizza l’editor di contenuto visivo per definire la struttura del contenuto 
 
    Quando si fa clic all&#39;esterno dell&#39;elenco, il tema selezionato applica gli stili. Puoi alternare tra le varianti di colore.
 
-1. [Aggiungi struttura e contenuto](./email-authoring.md#add-structure-and-content) al modello.
+1. [Aggiungi struttura e contenuto](./email-authoring.md#structure-content) al modello.
 
    Se è presente un tema applicato, i componenti aggiunti ereditano automaticamente gli stili definiti nel tema.
 
