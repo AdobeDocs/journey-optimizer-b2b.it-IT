@@ -6,12 +6,20 @@ role: User
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
 autotag-review: '2026-05-27T16:10:55.800Z'
 TQID: 'https://experienceleague.adobe.com/2-5PPPyFLrTpU89D-ByVskTVAF6ItgqJYFZrTbHsPTU'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
 source-wordcount: 2190
@@ -25,7 +33,7 @@ Dopo aver [creato un modulo](./forms.md#create-forms), lo spazio di progettazion
 
 ![Spazio di progettazione modulo](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-Per impostazione predefinita, il pulsante _**Invia**_ (campo piè di pagina) fa parte del modulo e non può essere rimosso. È possibile selezionare il componente pulsante/piè di pagina nel modulo per [modificare il testo e lo stile del pulsante](#submit-button).
+Per impostazione predefinita, il pulsante _&#x200B;**Invia**&#x200B;_ (campo piè di pagina) fa parte del modulo e non può essere rimosso. È possibile selezionare il componente pulsante/piè di pagina nel modulo per [modificare il testo e lo stile del pulsante](#submit-button).
 
 ## Campi
 
