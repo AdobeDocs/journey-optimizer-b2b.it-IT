@@ -87,7 +87,7 @@ Per creare i profili, è innanzitutto necessario creare uno schema in [!DNL Jour
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-Per ulteriori informazioni sulla creazione dello schema, consulta la [documentazione XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
+Per ulteriori informazioni sulla creazione dello schema, consulta la [documentazione XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=it#prerequisites){target="_blank"}.
 
 >[!IMPORTANT]
 >
@@ -101,7 +101,7 @@ Per ulteriori informazioni sulla creazione dello schema, consulta la [documentaz
 
 ## Creare un set di dati {#create-dataset}
 
-Dopo aver creato lo schema, crea il set di dati utilizzato per importare i profili. Per ulteriori informazioni sulla creazione di set di dati, consulta la [documentazione di Catalog Service](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
+Dopo aver creato lo schema, crea il set di dati utilizzato per importare i profili. Per ulteriori informazioni sulla creazione di set di dati, consulta la [documentazione di Catalog Service](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it#getting-started){target="_blank"}.
 
 1. In _[!UICONTROL Gestione dati]_ nel menu di navigazione a sinistra, seleziona **[!UICONTROL Set di dati]**.
 
@@ -167,12 +167,12 @@ In [!DNL Adobe Experience Platform] puoi creare profili caricando un file CSV co
 
 >[!NOTE]
 >
->Per ulteriori informazioni sull&#39;importazione di dati CSV, consulta la [documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
+>Per ulteriori informazioni sull&#39;importazione di dati CSV, consulta la [documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=it#tutorials){target="_blank"}.
 
 <!--
 ## Create test profiles using API calls {#create-test-profiles-api}
 
-You can also create test profiles via API calls. Learn more in [[!DNL Adobe Experience Platform] documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}.
+You can also create test profiles via API calls. Learn more in [[!DNL Adobe Experience Platform] documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
 
 You must use a Profile schema that contains the **[!UICONTROL Profile test details]** field group. The `testProfile` flag is part of this field group.
 When creating a profile, make sure you pass the value: `testProfile = true`.
