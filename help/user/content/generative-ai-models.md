@@ -6,16 +6,15 @@ feature: Generative AI, Brand Identity, Content
 role: User
 level: Beginner, Intermediate
 exl-id: 9f69320e-8603-4343-80e0-052d820ba61f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+autotag-review: '2026-05-27T16:14:57.623Z'
+TQID: 'https://experienceleague.adobe.com/LCYTDtFTLBqRjafMWrRZI6TWfJFxRDhxWGdgBBTHYDk'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: a509712a-4df0-4095-9c79-78116d8e3311
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
 source-wordcount: 497
 ht-degree: 0%
@@ -30,7 +29,7 @@ Espandi le funzionalità di creazione delle immagini AI con modelli incorporati,
 - **[!UICONTROL Il modello partner]**, con tecnologia Gemini 2.5 Flash, offre funzionalità specializzate per casi d&#39;uso specifici.
 - I **[!UICONTROL modelli personalizzati]** sono modelli specifici del brand addestrati sulle risorse personali e aggiunti dalla tua organizzazione.
 
-Scopri i modelli personalizzati nella [documentazione di Adobe Firefly](https://helpx.adobe.com/it/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
+Scopri i modelli personalizzati nella [documentazione di Adobe Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
 
 Gli addetti al marketing possono selezionare uno dei modelli generativi abilitati durante la generazione di immagini per il contenuto delle e-mail o delle pagine di destinazione.
 
@@ -80,7 +79,7 @@ Crea modelli Firefly personalizzati o connetti provider di generazione immagini 
 
 1. Immetti **[!UICONTROL ID modello]**.
 
-   Per trovare l’ID modello, accedi al sito web Firefly e passa ai modelli che hai appreso. L’identificatore univoco è disponibile nella sezione gestione del modello dopo la pubblicazione. Per ulteriori informazioni, consulta la [documentazione dei modelli personalizzati di Firefly](https://helpx.adobe.com/it/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
+   Per trovare l’ID modello, accedi al sito web Firefly e passa ai modelli che hai appreso. L’identificatore univoco è disponibile nella sezione gestione del modello dopo la pubblicazione. Per ulteriori informazioni, consulta la [documentazione dei modelli personalizzati di Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
 
 1. Facoltativamente, immetti una **[!UICONTROL Descrizione]** per identificare il modello e l&#39;utilizzo previsto.
 

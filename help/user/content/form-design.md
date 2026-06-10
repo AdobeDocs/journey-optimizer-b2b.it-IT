@@ -3,24 +3,18 @@ title: Progettazione del modulo
 description: Progetta i moduli con tipi di campo, convalida, stile e attributi dello schema XDM per la raccolta di dati aziendali in Journey Optimizer B2B edition.
 feature: Forms, Content Design Tools
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: 2026-03-30T22:15:18.544Z
-TQID: https://experienceleague.adobe.com/xUMPdHtj6Z4LQjGZm-R0QtJXoEXkXbbl3L49ysIZBo0
-source-git-commit: 3830e7474e7d3be9f43782dff35820563cfd9cb4
+autotag-review: '2026-05-27T16:10:55.800Z'
+TQID: 'https://experienceleague.adobe.com/2-5PPPyFLrTpU89D-ByVskTVAF6ItgqJYFZrTbHsPTU'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 2066
+source-wordcount: 2190
 ht-degree: 1%
 
 ---
@@ -29,31 +23,37 @@ ht-degree: 1%
 
 Dopo aver [creato un modulo](./forms.md#create-forms), lo spazio di progettazione visiva apre una bozza con una definizione di modulo di base predefinita. Nel pannello _[!UICONTROL Riepilogo]_ a destra, fai clic su **[!UICONTROL Modifica modulo]** e utilizza lo spazio di progettazione visiva per definire lo stile del modulo e i componenti campo.
 
-![Accedere alla raccolta moduli](./assets/form-new-design-space.png){width="700" zoomable="yes"}
+![Spazio di progettazione modulo](./assets/form-new-design-space.png){width="700" zoomable="yes"}
+
+Per impostazione predefinita, il pulsante _**Invia**_ (campo piè di pagina) fa parte del modulo e non può essere rimosso. È possibile selezionare il componente pulsante/piè di pagina nel modulo per [modificare il testo e lo stile del pulsante](#submit-button).
 
 ## Campi
 
-I campi modulo vengono utilizzati per acquisire i dati del profilo della persona che possono essere utilizzati per eseguire il targeting delle persone e associarle ad account e gruppi di acquisto. Tutti i nuovi moduli iniziano con i campi seguenti in un layout a colonna singola:
-
-* Nome
-* Cognome
-* Indirizzo e-mail
-
-Utilizza gli strumenti di progettazione dei campi per creare il set di campi e il layout necessari per raccogliere i dati necessari per le attività di marketing basate sull’account.
+I campi modulo vengono utilizzati per acquisire i dati del profilo della persona che possono essere utilizzati per eseguire il targeting delle persone e associarle ad account e gruppi di acquisto. Utilizza gli strumenti di progettazione dei campi per creare il set di campi e il layout necessari per raccogliere i dati necessari per le attività di marketing basate sull’account.
 
 ### Aggiungi un campo {#add-field}
 
 1. Nel pannello _[!UICONTROL Componenti]_ a sinistra, trascina il componente di contenuto **[!UICONTROL Campo]** e rilascialo nell&#39;area di lavoro.
 
-   ![Aggiungi un componente campo al modulo](./assets/form-content-add-field.png){width="700" zoomable="yes"}
+   ![Aggiungi un componente campo al modulo](./assets/form-content-add-field.png){width="800" zoomable="yes"}
 
-1. Fare clic su **[!UICONTROL Seleziona attributo campo]**.
+1. Per _[!UICONTROL Seleziona attributo campo]_, scegli un&#39;opzione e imposta l&#39;attributo per il campo.
 
-1. Nella finestra di dialogo _[!UICONTROL Seleziona attributo campo]_, seleziona la casella di controllo per l&#39;attributo profilo persona che desideri utilizzare per il campo e fai clic su **[!UICONTROL Seleziona]**.
+   * **[!UICONTROL Seleziona attributo campo]**. Utilizzare questa opzione per selezionare un attributo in base allo schema del set di dati definito nel predefinito per il modulo.
 
-   Gli [schemi aziendali XDM](../admin/field-mapping.md#xdm-business-person-attributes) determinano gli attributi disponibili.  Sono inoltre disponibili eventuali campi personalizzati definiti per l’istanza di Journey Optimizer B2B edition. Utilizzare la casella di testo Cerca per filtrare l&#39;elenco in base al nome oppure fare clic sull&#39;icona Filtro per filtrare l&#39;elenco in base allo schema o al tipo di dati.
+     Nella finestra di dialogo _[!UICONTROL Seleziona attributo campo]_, seleziona la casella di controllo per l&#39;attributo che desideri utilizzare per il campo e fai clic su **[!UICONTROL Seleziona]**.
 
-   ![Aggiungi un componente campo al modulo](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
+     ![Aggiungi al modulo un componente campo attributo selezionato](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
+
+     Ad esempio, puoi impostare E-mail e società. Quando gli utenti completano e inviano il modulo, le informazioni immesse vengono salvate nel set di dati selezionato.
+
+     Per mappare i dati raccolti con un profilo, seleziona un campo di identità del profilo. I campi di identità sono contrassegnati come **[!UICONTROL Obbligatori]** nell&#39;elenco degli attributi. Puoi filtrarli.
+
+   * **[!UICONTROL Aggiungi campo personalizzato]**
+
+     Con questa opzione, puoi definire un campo libero senza mapparlo su un campo nel set di dati collegato.
+
+     ![Aggiungi componente campo personalizzato al modulo](./assets/form-field-add-custom-field.png){width="600" zoomable="yes"}
 
    Nell’area di lavoro, l’etichetta del campo predefinito per l’attributo selezionato viene compilata nell’area di lavoro. I **[!UICONTROL Dettagli campo]** sono visualizzati nel pannello a destra.
 
@@ -63,26 +63,28 @@ Utilizza gli strumenti di progettazione dei campi per creare il set di campi e i
 
 1. Imposta **[!UICONTROL Tipo di campo]** in base al tipo di dati per il campo:
 
-   | Tipo di campo | Utilizzo | Esempio |
-   | ---------- | ----- | ------- |
-   | **[!UICONTROL Casella di controllo]** | Utilizza questo tipo in modo che i visitatori possano selezionare un valore _true_ (selezionato) o _false_ (non selezionato). | |
-   | **[!UICONTROL Gruppo di caselle di controllo]** | Utilizza questo tipo in modo che i visitatori possano selezionare un valore _true_ (selezionato) o _false_ (non selezionato) per più elementi. | |
-   | **[!UICONTROL Valuta]** | Utilizzare questo tipo per consentire un campo float che rappresenta il tipo di valuta predefinito selezionato per l&#39;istanza di Journey Optimizer B2B edition. | |
-   | **[!UICONTROL Data]** | Utilizzare questo tipo per limitare l&#39;immissione a un formato data e fornire un selettore calendario nel campo. | |
-   | **[!UICONTROL Doppio]** |  | |
-   | **[!UICONTROL E-mail]** | Utilizzare questo tipo per limitare l&#39;immissione a un formato di indirizzo e-mail. | |
-   | **[!UICONTROL Numero]** | Utilizzare questo tipo per limitare il campo a un valore numerico. | |
-   | **[!UICONTROL Gruppo pulsanti di scelta]** | Usa questo tipo per consentire ai visitatori di selezionare una delle opzioni disponibili. | |
-   | **[!UICONTROL Seleziona]** | Utilizza questo tipo per consentire ai visitatori di selezionare una delle opzioni disponibili in un elenco a discesa. | |
-   | **[!UICONTROL Cursore]** | Usa questo tipo per consentire ai visitatori di impostare un valore numerico utilizzando un cursore. | |
-   | **[!UICONTROL Telefono]** | Utilizzare questo tipo per un campo di immissione numeri telefonici. | |
-   | **[!UICONTROL Testo]** | Utilizzare questo tipo per un campo di immissione testo standard (stringa). | |
-   | **[!UICONTROL Area testo]** | Utilizzare questo tipo per supportare l&#39;immissione di testo più lunga. | |
-   | **[!UICONTROL URL]** | Utilizzare questo tipo per limitare l&#39;immissione di testo a un URL, incluso il protocollo URL standard. | |
+   | Tipo di campo | Utilizzo |
+   | ---------- | ----- |
+   | **[!UICONTROL Casella di controllo]** | Utilizza questo tipo in modo che i visitatori possano selezionare un valore _true_ (selezionato) o _false_ (non selezionato). |
+   | **[!UICONTROL Gruppo di caselle di controllo]** | Utilizza questo tipo in modo che i visitatori possano selezionare un valore _true_ (selezionato) o _false_ (non selezionato) per più elementi. |
+   | **[!UICONTROL Valuta]** | Utilizzare questo tipo per consentire un campo float che rappresenta il tipo di valuta predefinito selezionato per l&#39;istanza di Journey Optimizer B2B edition. |
+   | **[!UICONTROL Data]** | Utilizzare questo tipo per limitare l&#39;immissione a un formato data e fornire un selettore calendario nel campo. |
+   | **[!UICONTROL Doppio]** | Variabile doppia (virgola mobile a doppia precisione) memorizzata come numeri a virgola mobile IEEE a 64 bit (8 byte). |
+   | **[!UICONTROL E-mail]** | Utilizzare questo tipo per limitare l&#39;immissione a un formato di indirizzo e-mail. |
+   | **[!UICONTROL Numero]** | Utilizzare questo tipo per limitare il campo a un valore numerico. |
+   | **[!UICONTROL Gruppo pulsanti di scelta]** | Usa questo tipo per consentire ai visitatori di selezionare una delle opzioni disponibili. |
+   | **[!UICONTROL Seleziona]** | Utilizza questo tipo per consentire ai visitatori di selezionare una delle opzioni disponibili in un elenco a discesa. |
+   | **[!UICONTROL Cursore]** | Usa questo tipo per consentire ai visitatori di impostare un valore numerico utilizzando un cursore. |
+   | **[!UICONTROL Telefono]** | Utilizzare questo tipo per un campo di immissione numeri telefonici. |
+   | **[!UICONTROL Testo]** | Utilizzare questo tipo per un campo di immissione testo standard (stringa). |
+   | **[!UICONTROL Area testo]** | Utilizzare questo tipo per supportare l&#39;immissione di testo più lunga. |
+   | **[!UICONTROL URL]** | Utilizzare questo tipo per limitare l&#39;immissione di testo a un URL, incluso il protocollo URL standard. |
 
-1. A seconda del tipo di campo selezionato, impostare le altre opzioni per l&#39;immissione e la convalida del campo:
+1. A seconda del tipo di campo selezionato, impostare le altre opzioni per l&#39;immissione e la convalida del campo.
 
-   ![Impostare le opzioni per il campo in base al tipo di campo selezionato](./assets//form-field-details-text-type.png){width="400" zoomable="yes"}
+   ![Impostare le opzioni per il campo in base al tipo di campo selezionato](./assets/form-field-details-text-type.png){width="800" zoomable="yes"}
+
+   Ad esempio, il tipo di campo _Testo_ dispone delle seguenti opzioni per l&#39;immissione e la convalida dei campi:
 
    * **[!UICONTROL Segnaposto]**: il valore segnaposto per il campo che fornisce al visitatore un esempio di ciò che è previsto per il campo.
 
@@ -98,15 +100,21 @@ Utilizza gli strumenti di progettazione dei campi per creare il set di campi e i
 
    * **[!UICONTROL Messaggio di convalida]** - Utilizzare questa opzione per specificare un messaggio di convalida per il campo. Questo messaggio viene visualizzato se il visitatore immette un valore non valido per il campo. Il messaggio _[!UICONTROL Standard]_ è impostato per impostazione predefinita. Scegli **[!UICONTROL Personalizzato]** e immetti il tuo messaggio.
 
-   * **Lunghezza massima** - Immettere il numero massimo di caratteri che è possibile immettere nel campo.
+   * **[!UICONTROL Lunghezza massima]** - Immettere il numero massimo di caratteri che è possibile immettere nel campo.
 
 1. Imposta **[!UICONTROL Comportamenti campo]** in base alle esigenze:
 
-   * **Obbligatorio** - Selezionare la casella di controllo per rendere obbligatorio l&#39;input del campo per l&#39;invio del modulo.
+   * **[!UICONTROL Obbligatorio]** - Selezionare la casella di controllo per rendere obbligatorio l&#39;input del campo per l&#39;invio del modulo.
 
-   * **Abilita maschera di input** - Selezionare la casella di controllo per limitare l&#39;input del visitatore utilizzando una maschera di input. Ad esempio, potrebbe essere utile che i visitatori immettano i numeri di telefono in un formato specifico. Nella finestra di dialogo, immetti la maschera utilizzando `9` per qualsiasi numero, `a` per qualsiasi lettera e `*` per entrambe. Fare clic su Salva per attivare la maschera di input specificata.
+   * **[!UICONTROL Sensibile]** - Seleziona la casella di controllo per fare in modo che il campo faccia distinzione tra maiuscole e minuscole.
 
-     ![Definisci una maschera di input per il campo](./assets/form-field-mask-input-dialog.png){width="500" zoomable="yes"}
+   * **[!UICONTROL Precompilato abilitato]** - Selezionare la casella di controllo per compilare il campo dalle informazioni del profilo, se disponibili.
+
+   * **[!UICONTROL Abilita maschera di input]** - Selezionare la casella di controllo per limitare l&#39;input del visitatore utilizzando una maschera di input. Ad esempio, potrebbe essere utile che i visitatori immettano i numeri di telefono in un formato specifico. Nella finestra di dialogo, immetti la maschera utilizzando `9` per qualsiasi numero, `a` per qualsiasi lettera e `*` per entrambe.
+
+     ![Definisci una maschera di input per il campo](./assets/form-field-mask-input-dialog.png){width="550" zoomable="yes"}
+
+     Fai clic su **[!UICONTROL Salva]** per abilitare la maschera di input specificata.
 
 ### Modificare lo stile dei campi {#field-styling}
 
@@ -128,7 +136,7 @@ Seleziona la scheda **[!UICONTROL Stili]** nel pannello di destra per modificare
 
 * **[!UICONTROL Margine]** - Imposta i margini (in pixel) intorno al campo. È possibile impostare lo stesso margine su tutti e quattro i lati oppure selezionare la casella di controllo **[!UICONTROL Margine diverso per ciascun lato]** per impostare separatamente i margini orizzontale e verticale.
 
-* **[!UICONTROL Spaziatura interna]** - Imposta spaziatura interna (in pixel) intorno al campo. È possibile impostare lo stesso margine su tutti e quattro i lati oppure selezionare la casella di controllo **[!UICONTROL Spaziatura interna diversa per ciascun lato]** per impostare i margini orizzontale e verticale separatamente.
+* **[!UICONTROL Spaziatura interna]** - Imposta spaziatura interna (in pixel) intorno al campo. Puoi impostare la stessa spaziatura su tutti e quattro i lati oppure selezionare la casella di controllo **[!UICONTROL Spaziatura diversa per ciascun lato]** per impostare la spaziatura orizzontale e verticale separatamente.
 
   ![Impostare le dimensioni, il margine e gli stili di riempimento per il campo modulo](./assets/form-field-styles-size-margin-padding.png){width="600" zoomable="yes"}
 
@@ -150,13 +158,13 @@ Fai clic sull&#39;icona _Duplica_ ( ![Icona Duplica](../assets/do-not-localize/i
 
 ## Pulsante Invia
 
-Per impostazione predefinita, il pulsante Invia (campo piè di pagina) fa parte del modulo e non può essere rimosso. Selezionate il componente pulsante/piè di pagina nel modulo per modificare il testo e lo stile del pulsante.
+Per impostazione predefinita, il pulsante Invia (campo piè di pagina) fa parte del modulo e non può essere rimosso. Seleziona il componente Pulsante/Piè di pagina nel modulo per modificare il testo e lo stile del pulsante.
 
 ### Modificare il contenuto del pulsante {#button-content}
 
-Nella scheda _[!UICONTROL Contenuto]_ visualizzata nel pannello di destra, modifica il testo nel campo **[!UICONTROL Testo pulsante]**. Il ridimensionamento del pulsante viene regolato in base alla lunghezza del testo.
+Con la scheda _[!UICONTROL Contenuto]_ visualizzata nel pannello di destra, modifica il testo nel campo **[!UICONTROL Testo pulsante]**. Il ridimensionamento del pulsante viene regolato in base alla lunghezza del testo.
 
-![Modifica il testo del pulsante nel modulo](./assets//form-field-button-text.png){width="600" zoomable="yes"}
+![Modifica il testo del pulsante nel modulo](./assets/form-field-button-text.png){width="600" zoomable="yes"}
 
 ### Personalizzare lo stile del pulsante Invia {#button-styles}
 
@@ -176,15 +184,15 @@ Seleziona la scheda **[!UICONTROL Stili]** nel pannello di destra per modificare
 
 * **[!UICONTROL Allineamento pulsante]** - Quando si sceglie una dimensione di _Metà larghezza_ o _Automatico_ per il pulsante, impostare l&#39;allineamento a sinistra, a destra o al centro. La spaziatura viene regolata in base alle impostazioni di dimensione e allineamento.
 
-* **[!UICONTROL Margine]** - Imposta i margini (in pixel) intorno al campo. È possibile impostare lo stesso margine su tutti e quattro i lati oppure selezionare la casella di controllo **[!UICONTROL Margine diverso per ciascun lato]** per impostare separatamente i margini orizzontale e verticale.
+* **[!UICONTROL Margine]** - Imposta i margini (in pixel) attorno al pulsante. È possibile impostare lo stesso margine su tutti e quattro i lati oppure selezionare la casella di controllo **[!UICONTROL Margine diverso per ciascun lato]** per impostare separatamente i margini orizzontale e verticale.
 
-* **[!UICONTROL Spaziatura interna]** - Imposta spaziatura interna (in pixel) intorno al campo. È possibile impostare lo stesso margine su tutti e quattro i lati oppure selezionare la casella di controllo **[!UICONTROL Spaziatura interna diversa per ciascun lato]** per impostare i margini orizzontale e verticale separatamente. La spaziatura viene regolata se si modificano le impostazioni di dimensione e allineamento.
+* **[!UICONTROL Spaziatura]** - Imposta spaziatura (in pixel) attorno al pulsante. Puoi impostare la stessa spaziatura su tutti e quattro i lati oppure selezionare la casella di controllo **[!UICONTROL Spaziatura diversa per ciascun lato]** per impostare la spaziatura orizzontale e verticale separatamente. La spaziatura viene regolata se si modificano le impostazioni di dimensione e allineamento.
 
   ![Impostare gli stili di allineamento, margine e riempimento per il pulsante modulo](./assets/form-button-styles-alignment-margin-padding.png){width="600" zoomable="yes"}
 
 ## Stile modulo {#form-styling}
 
-È possibile modificare gli stili dell&#39;area del modulo quando si fa clic all&#39;esterno dei componenti strutturali o del modulo. I componenti del modulo (campi e pulsante) ereditano gli stili _Corpo_ definiti negli stili di livello superiore, a meno che non siano definiti altri stili a livello di campo o di pulsante/piè di pagina.
+È possibile modificare gli stili dell&#39;area del modulo quando si fa clic all&#39;esterno dei componenti strutturali o del modulo. I componenti del modulo (campi e pulsante) ereditano gli stili _Corpo_ definiti al livello superiore, a meno che non siano definiti altri stili a livello di campo o di pulsante/piè di pagina.
 
 ![Impostare gli stili di primo livello per il corpo del modulo](./assets/form-body-styles.png){width="600" zoomable="yes"}
 
@@ -196,7 +204,7 @@ _Per definire un CSS personalizzato per il modulo :_
 
 1. Fai clic su **[!UICONTROL Visualizza CSS]** nel pannello di destra per rivedere il codice CSS.
 
-   ![Impostare i colori di sfondo per il modulo](./assets/form-body-styles-view-css.png){width="450" zoomable="yes"}
+   ![Visualizza CSS per il modulo](./assets/form-body-styles-view-css.png){width="450" zoomable="yes"}
 
 1. Seleziona il codice CSS nella finestra di scorrimento e copialo negli Appunti.
 
@@ -208,7 +216,7 @@ _Per definire un CSS personalizzato per il modulo :_
 
 1. Incolla il codice CSS nella finestra.
 
-   ![Impostare i colori di sfondo per il modulo](./assets/form-body-styles-custom-css.png){width="450" zoomable="yes"}
+   ![Aggiungi CSS personalizzato per il modulo](./assets/form-body-styles-custom-css.png){width="450" zoomable="yes"}
 
    Potete modificare il testo incollato in questa finestra.
 

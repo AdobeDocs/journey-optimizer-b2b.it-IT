@@ -3,32 +3,24 @@ title: Progettazione pagina di destinazione
 description: 'Progettare pagine di destinazione con strumenti visivi: aggiungi componenti di contenuto, moduli, CSS personalizzati, personalizzazione e anteprima del dispositivo per percorsi di account in Journey Optimizer B2B edition.'
 feature: Landing Pages, Content Design Tools
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T23:18:56.836Z
 TQID: https://experienceleague.adobe.com/SXG2FrjpMlsGnofiUj1WeJ4NN3EVe1ZrcRpNdFfHwqA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: 387
-ht-degree: 5%
+source-wordcount: 411
+ht-degree: 2%
 
 ---
 
 # Progettazione pagina di destinazione
 
-Dopo aver [creato una pagina di destinazione](./landing-pages.md#create-a-landing-page), utilizza lo spazio di progettazione visiva per creare i componenti strutturali e di contenuto nella pagina.
+Dopo aver [creato una pagina di destinazione](./landing-pages-create-publish.md#create-landing-page), utilizza lo spazio di progettazione visiva per creare i componenti strutturali e di contenuto nella pagina.
 
 ## Aggiungere struttura e contenuto {#structure-content-landing-page}
 
@@ -64,6 +56,18 @@ Con almeno un componente di contenuto nell&#39;area di lavoro, seleziona il comp
 
 {{$include /help/_includes/content-design-links.md}}
 
+![Fai clic sull&#39;icona Modifica per accedere al tracciamento dei collegamenti](./assets/landing-page-link-tracking.png){width="400"}
+
+Utilizza il **[!UICONTROL Tipo di tracciamento]** per controllare il tracciamento del collegamento:
+
+* **[!UICONTROL Tracciato]** - Attiva il tracciamento sull&#39;URL del collegamento.
+<!-- 
+* External Opt-out - Considers the link URL as an opt-out or unsubscription URL.
+
+* Mirror page - Considers the link URL as a mirror page URL.
+-->
+* **[!UICONTROL Mai]** - Non attiva mai il tracciamento dell&#39;URL del collegamento.
+
 ### Salvare i dati
 
 Fai clic su **[!UICONTROL Salva]** in qualsiasi momento per salvare la bozza della pagina di destinazione.
@@ -84,7 +88,7 @@ Sfrutta le opzioni di convalida della visualizzazione e del contenuto disponibil
 
 Dal menu _[!UICONTROL Altro ...]_ nella parte superiore dello spazio di progettazione visiva, è possibile eseguire le azioni seguenti:
 
-![Fai clic su Altro per accedere alle azioni del modello](./assets/landing-page-designer-more-menu.png){width="500"}
+![Fai clic su Altro per accedere alle azioni della pagina di destinazione](./assets/landing-page-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL Ripristina pagina di destinazione]** - Fare clic su questa opzione per cancellare l&#39;area di lavoro di progettazione visiva e ricominciare a creare il contenuto della pagina.
 * **[!UICONTROL Modifica la progettazione]** - Torna alla _[!UICONTROL home page di creazione della pagina di destinazione principale]_. A questo punto è possibile scegliere un altro modello per riavviare il processo di progettazione oppure scegliere di progettare la pagina da zero in un&#39;area di lavoro vuota.
