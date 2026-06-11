@@ -18,9 +18,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 06b214f486571275d723e7a67fdf352263990b79
 workflow-type: tm+mt
-source-wordcount: 2542
+source-wordcount: 2541
 ht-degree: 3%
 
 ---
@@ -152,7 +152,7 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 | [!UICONTROL Oggetti personalizzati] > Contiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funzione Beta"} La persona non dispone di record dello schema relazionale. Può anche essere valutato in base a qualsiasi criterio oggetto personalizzato selezionato, come configurato nello schema relazionale [XDM](../admin/xdm-field-management.md#relational-schemas). (Vedi [Filtro dati personalizzato](#custom-data-filtering)) |
 | [!UICONTROL Cronologia eventi] | Divide le persone in base agli eventi di esperienza che si sono verificati prima dell’ingresso nel percorso. Espandere la cartella per visualizzare tutti i tipi di evento configurati in [Amministrazione > Configurazione evento XDM](../admin/configure-aep-events.md) e selezionarne uno da aggiungere come filtro. I vincoli includono i campi dell’evento selezionato, un intervallo di tempo di lookback misurato dal momento in cui la persona entra nel percorso e un numero minimo facoltativo di volte. |
 | [!UICONTROL Attributi persona] | Attributi dal [profilo persona](../admin/field-mapping.md#xdm-business-person-attributes), inclusi: <li>Città <li>Paese <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area geografica dello stato dedotta <li>Titolo del processo <li>Cognome <li>Numero di cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato |
-| [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | (Obsoleto) La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>È stato rimosso</li><li>Ruolo</li> |
+| [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>È stato rimosso</li><li>Ruolo</li> |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro dell&#39;elenco] | (Obsoleto) L&#39;utente è o non è membro di uno o più elenchi [!DNL Marketo Engage]. |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del programma] | (Obsoleto) L&#39;utente è o non è membro di uno o più programmi [!DNL Marketo Engage]. |
 
