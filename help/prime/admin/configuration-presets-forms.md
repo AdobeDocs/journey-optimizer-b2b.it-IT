@@ -104,7 +104,7 @@ Durante la creazione di un predefinito:
 
    >[!NOTE]
    >
-   >Al momento sono disponibili per la selezione solo [set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) abilitati e non abilitati per il profilo. È possibile selezionare un set di dati alla volta. I set di dati di sistema non possono essere utilizzati per salvare i dati del modulo.
+   >Al momento sono disponibili per la selezione solo [set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview) abilitati e non abilitati per il profilo. È possibile selezionare un set di dati alla volta. I set di dati di sistema non possono essere utilizzati per salvare i dati del modulo.
 
    Selezionare la casella di controllo per il set di dati e fare clic su **[!UICONTROL Seleziona]**.
 
