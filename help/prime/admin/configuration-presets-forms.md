@@ -18,7 +18,7 @@ Quando i dati arrivano sull’endpoint di streaming, sono collegati alle informa
 
 ## Prerequisiti
 
-Per utilizzare i moduli Web, è necessario che in Adobe Experience Platform siano definite una o più _&#x200B;**connessioni di streaming API HTTP**&#x200B;_. Verificare che ogni connessione che si desidera utilizzare soddisfi i seguenti requisiti:
+Per utilizzare i moduli Web, è necessario che in Adobe Experience Platform siano definite una o più _**connessioni di streaming API HTTP**_. Verificare che ogni connessione che si desidera utilizzare soddisfi i seguenti requisiti:
 
 * Il tipo di dati deve essere impostato su XDM (non su dati non elaborati)
 * L&#39;autenticazione deve essere disabilitata (connessione non autenticata)
@@ -90,7 +90,7 @@ Durante la creazione di un predefinito:
 
    >[!NOTE]
    >
-   >Al momento sono disponibili per la selezione solo [set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview) abilitati e non abilitati per il profilo. È possibile selezionare un set di dati alla volta. I set di dati di sistema non possono essere utilizzati per salvare i dati del modulo.
+   >Al momento sono disponibili per la selezione solo [set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) abilitati e non abilitati per il profilo. È possibile selezionare un set di dati alla volta. I set di dati di sistema non possono essere utilizzati per salvare i dati del modulo.
 
    Selezionare la casella di controllo per il set di dati e fare clic su **[!UICONTROL Seleziona]**.
 

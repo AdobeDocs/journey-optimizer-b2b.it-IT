@@ -36,7 +36,6 @@ For example, you can create and design landing pages to direct your users to onl
 
 You can create, personalize, and preview landing pages in the visual design space.
 -->
-
 ## Accedere e gestire le pagine di destinazione
 
 Per accedere alle pagine di destinazione in Journey Optimizer B2B Prime, vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Pagine di destinazione]**. Questa azione visualizza un elenco di tutte le pagine di destinazione create nell’istanza.
