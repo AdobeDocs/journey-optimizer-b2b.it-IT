@@ -6,26 +6,21 @@ roles: Admin
 level: Beginner
 solution: Journey Optimizer B2B Edition
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f467931a-9b22-4ca8-869f-adfbd64061ce
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:47:43.575Z
 TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
 source-wordcount: 2267
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
 # Accesso utente e autorizzazioni
 
-Dopo aver completato il provisioning e aver associato le sandbox, completa i passaggi seguenti per fornire al team e agli utenti l’accesso a Adobe Journey Optimizer B2B edition.
+Dopo aver completato il provisioning e aver associato le sandbox, procedi come segue per fornire al team e agli utenti l’accesso a Adobe Journey Optimizer B2B edition.
 
 1. [Crea un profilo di prodotto Marketo Engage](#marketo-engage-profile) in Admin Console (solo nuova istanza Marketo Engage).
 1. [Aggiungi un gruppo di utenti](#add-user-group) in Admin Console.
@@ -74,7 +69,7 @@ Per ulteriori informazioni sull&#39;utilizzo dei profili di prodotto per i dirit
 
 Quando si aggiunge un utente al profilo di prodotto Marketo Engage, questi vengono successivamente aggiunti al ruolo _Utente standard_ nell&#39;area di lavoro predefinita della sottoscrizione Marketo Engage. Questo ruolo concede loro tutte le autorizzazioni standard per Marketo Engage in tale area di lavoro. Attualmente, tutti gli utenti Journey Optimizer B2B edition devono essere utenti Marketo Engage. Un amministratore di Marketo Engage può limitare l&#39;accesso aggiornando le autorizzazioni per il ruolo _Utente standard_ o spostando l&#39;utente in un altro ruolo utente di Marketo Engage con autorizzazioni più restrittive.
 
-Per ulteriori informazioni sulla gestione di queste autorizzazioni in Marketo Engage, vedi [Gestione dei ruoli utente e delle autorizzazioni](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} nella documentazione di Marketo Engage.
+Per ulteriori informazioni sulla gestione di queste autorizzazioni in Marketo Engage, vedi [Gestione dei ruoli utente e delle autorizzazioni](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} nella documentazione di Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -167,7 +162,7 @@ Le autorizzazioni sono diritti unitari che ti consentono di definire le autorizz
 
 Nell&#39;area _Autorizzazioni_ di Adobe Experience Platform gli amministratori possono definire ruoli utente e criteri di accesso per gestire le autorizzazioni di accesso per funzionalità e oggetti all&#39;interno di un&#39;applicazione di prodotto. In questa app, puoi creare e gestire i ruoli, nonché assegnare le autorizzazioni per le risorse desiderate per tali ruoli. Le autorizzazioni ti consentono inoltre di gestire le sandbox e gli utenti associati a un ruolo specifico.
 
-Per ulteriori informazioni sulle autorizzazioni per i ruoli in Experience Platform, vedi [Gestione delle autorizzazioni per un ruolo](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} nella documentazione di Experience Platform.
+Per ulteriori informazioni sulle autorizzazioni per i ruoli in Experience Platform, vedi [Gestione delle autorizzazioni per un ruolo](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} nella documentazione di Experience Platform.
 
 ### Autorizzazioni per i prodotti B2B {#b2b-product-permissions}
 
