@@ -1,30 +1,34 @@
 ---
 title: Authoring di e-mail
-description: Utilizza gli strumenti di progettazione delle e-mail in Journey Optimizer B2B Prime, tra cui modelli e-mail, frammenti, personalizzazione, temi, modalità scura e convalida.
-source-git-commit: 2f19137465c71f2292d37bea5786533b1df6e286
+description: Utilizza gli strumenti di progettazione delle e-mail in Journey Optimizer B2B Prime, tra cui modelli e-mail, frammenti, personalizzazione, modalità scura e convalida.
+autotag-review: '2026-06-12T22:51:19.543Z'
+TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: 2775
 ht-degree: 1%
 
 ---
 
 # Authoring di e-mail
 
-In [!DNL Adobe Journey Optimizer B2B Edition] Prime, lo spazio di progettazione delle e-mail fornisce un&#39;area di lavoro visiva in cui gli addetti al marketing compongono le e-mail. Gli strumenti di progettazione delle e-mail nei pannelli sinistro e superiore (strutture, componenti di contenuto, modelli, frammenti e altro ancora) supportano la creazione da zero con il trascinamento della selezione. Puoi anche scegliere di iniziare da un modello, incollare HTML non elaborati o assemblare messaggi da frammenti visivi riutilizzabili.
+In [!DNL Adobe Journey Optimizer B2B Prime], lo spazio di progettazione delle e-mail fornisce un&#39;area di lavoro visiva in cui gli addetti al marketing compongono le e-mail. Gli strumenti di progettazione delle e-mail nei pannelli sinistro e superiore (strutture, componenti di contenuto, modelli, frammenti e altro ancora) supportano la creazione da zero con il trascinamento della selezione. Puoi anche scegliere di iniziare da un modello, incollare HTML non elaborati o assemblare messaggi da frammenti visivi riutilizzabili.
 
 >[!IMPORTANT]
 >
 >Per informazioni sulla configurazione da parte dell&#39;amministratore di sottodomini, autenticazione, pool IP e canali e-mail, vedere [Recapito messaggi e-mail e configurazione dei canali](../admin/configuration-email-deliverability.md).
 
-In [!DNL Journey Optimizer B2B Edition] Prime, ogni e-mail è associata a un&#39;azione _[!UICONTROL Invia e-mail]_ in un percorso. L’intero flusso di lavoro dalla progettazione del percorso alla definizione dell’e-mail avviene in un’esperienza continua. Quando [aggiungi un _Invia e-mail_ nodo](../marketing/person-journey-nodes.md#add-an-action-node) a un percorso di persone, fai clic su **[!UICONTROL Crea e-mail]** per avviare il processo di progettazione del contenuto dell&#39;e-mail.
+In [!DNL Journey Optimizer B2B Prime], ogni e-mail è associata a un&#39;azione _[!UICONTROL Invia e-mail]_ in un percorso. L’intero flusso di lavoro dalla progettazione del percorso alla definizione dell’e-mail avviene in un’esperienza continua. Quando [aggiungi un _Invia e-mail_ nodo](../marketing/person-journey-nodes.md#add-an-action-node) a un percorso di persone, fai clic su **[!UICONTROL Crea e-mail]** per avviare il processo di progettazione del contenuto dell&#39;e-mail.
 
-
-
-Questa azione avvia gli strumenti di progettazione delle e-mail, in cui puoi scegliere come progettare le e-mail dalle seguenti opzioni:
+Questa azione avvia lo spazio di progettazione delle e-mail, in cui puoi scegliere come progettare le e-mail tra le seguenti opzioni:
 
 * [Progetta il tuo messaggio e-mail da zero](#design-your-email-from-scratch) utilizzando l&#39;interfaccia di progettazione visiva. Crea il componente layout e-mail per componente trascinando la selezione su un’area di lavoro vuota. Questo metodo è ideale per creare nuovi modelli o e-mail una tantum.
 
-* [Crea un codice o incolla per HTML](#html) non elaborato nell&#39;editor di codice o lavora fianco a fianco con l&#39;area di lavoro visiva.
+* [Importa HTML](#html) nell&#39;editor di codice o lavora fianco a fianco con l&#39;area di lavoro visiva.
 
   <!-- Full HTML import workflow with .html and .zip uploads is on the Beta roadmap. -->
 
@@ -38,6 +42,20 @@ Questa azione avvia gli strumenti di progettazione delle e-mail, in cui puoi sce
 * **Barra a sinistra:** strutture (layout colonne), contenuto (testo, pulsante, immagine, divisore, social, HTML), frammenti, modelli, struttura di navigazione (gerarchia DOM dell&#39;e-mail).
 * **Area di lavoro centrale:** editor WYSIWYG con anteprima desktop e mobile.
 * **Barra a destra:** impostazioni e stili per il componente attualmente selezionato, incluse le proprietà del contenuto, lo sfondo, il bordo, la spaziatura interna e la personalizzazione.
+
+## Best practice per la progettazione e-mail {#design-best-practices}
+
+L’aderenza alle best practice HTML e CSS consente di garantire un rendering coerente tra i client e-mail.
+
+| Approccio | Linee guida |
+| -------- | -------- |
+| **Consigliato** | Layout statici basati su tabelle · Tabelle HTML e tabelle nidificate · Larghezze dei modelli di 600-800 px · CSS in linea semplice · Font Web-safe |
+| **Usare con cautela** | Immagini di sfondo (supporto client limitato) · Font web personalizzati (definiscono sempre un font di fallback) · Layout di dimensioni superiori a 800 px · Mappe immagine |
+| **Evita** | JavaScript, iframe o Flash · Audio o video incorporati · HTML Form · Layout basati su Div |
+
+>[!NOTE]
+>
+>Il contenuto dell’e-mail deve inoltre soddisfare i requisiti di accessibilità digitale applicabili. Strutturare le intestazioni in modo logico, fornire testo alternativo per tutte le immagini e verificare il contrasto dei colori in modalità chiara e scura.
 
 ## Creare un messaggio e-mail da un percorso {#email-from-journey}
 
@@ -119,7 +137,7 @@ I modelli sono layout e-mail riutilizzabili. Accelerano la creazione di e-mail, 
 * **Modelli di esempio (preconfigurati).** Circa 20 modelli già pronti che coprono casi d’uso comuni (sensibilizzazione basata sull’account, inviti a eventi, formazione, annunci di prodotti). Disponibile immediatamente per ogni cliente.
 * **Modelli salvati (personalizzati).** Modelli creati dal team: creati da zero in **[!UICONTROL Gestione contenuto]** → **[!UICONTROL Modelli]** o salvati da un&#39;e-mail esistente utilizzando l&#39;opzione &quot;Salva come modello&quot;.
 
-### Passaggio per passaggio: creare un messaggio e-mail da un modello {#create-from-template}
+### Creare un messaggio e-mail da un modello {#create-from-template}
 
 1. Dal nodo e-mail del percorso, fare clic su **[!UICONTROL Modifica contenuto]** → **[!UICONTROL Modifica corpo e-mail]**.
 1. Nella schermata Crea e-mail, la scheda **[!UICONTROL Modelli di esempio]** è selezionata per impostazione predefinita.
@@ -130,7 +148,7 @@ I modelli sono layout e-mail riutilizzabili. Accelerano la creazione di e-mail, 
 1. Personalizzare testo, immagini e collegamenti. La struttura ereditata dal modello può essere modificata come un’e-mail originale.
 1. Fai clic su **[!UICONTROL Salva]** → **[!UICONTROL Indietro]** per tornare alle proprietà dell&#39;e-mail.
 
-### Passo dopo passo: creare un modello riutilizzabile {#create-reusable-template}
+### Creare un modello riutilizzabile {#create-reusable-template}
 
 1. Passa a **[!UICONTROL Gestione contenuto]** → **[!UICONTROL Modelli]**.
 1. Fare clic su **[!UICONTROL Crea modello]**.
@@ -142,7 +160,7 @@ I modelli sono layout e-mail riutilizzabili. Accelerano la creazione di e-mail, 
    * Blocca componenti specifici: rendi i singoli componenti di sola lettura quando vengono utilizzati in un messaggio e-mail.
 1. Fai clic su **[!UICONTROL Salva]**. Il modello è ora disponibile per tutti gli utenti nella raccolta Modelli salvati.
 
-### Passaggio per passaggio: salvare un’e-mail come modello {#save-as-template}
+### Salvare un’e-mail come modello {#save-as-template}
 
 1. Apri un’e-mail esistente nello spazio di progettazione e-mail.
 1. Nel menu a discesa **[!UICONTROL Salva]**, fai clic su **[!UICONTROL Salva come modello]**.
@@ -158,7 +176,7 @@ I modelli sono layout e-mail riutilizzabili. Accelerano la creazione di e-mail, 
 
 Un frammento visivo è un blocco di contenuto riutilizzabile, come intestazione, piè di pagina, CTA, dichiarazione di non responsabilità legale e set di collegamenti social, che può essere inserito in molte e-mail. Quando aggiorni un frammento, la modifica si propaga automaticamente a ogni e-mail che lo utilizza. I frammenti sono il metodo consigliato per applicare la coerenza del brand e centralizzare gli aggiornamenti dei contenuti.
 
-### Passaggio per passaggio: creare un frammento visivo {#create-fragment}
+### Creare un frammento visivo {#create-fragment}
 
 1. Passa a **[!UICONTROL Gestione contenuto]** → **[!UICONTROL Frammenti]**.
 1. Fare clic su **[!UICONTROL Crea frammento]**.
@@ -171,7 +189,7 @@ Un frammento visivo è un blocco di contenuto riutilizzabile, come intestazione,
    * Gli autori di e-mail che utilizzano il frammento possono ignorare questi campi senza interrompere la struttura del frammento.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-### Passaggio per passaggio: inserire un frammento in un messaggio e-mail {#insert-fragment}
+### Inserire un frammento in un messaggio e-mail {#insert-fragment}
 
 1. Apri l’e-mail nello spazio di progettazione e-mail.
 1. Nella barra a sinistra, fai clic su **[!UICONTROL Frammenti]**.
@@ -199,7 +217,7 @@ Prime utilizza la sintassi Handlebars per la personalizzazione. I token vengono 
 >
 >In questa versione sono disponibili solo gli attributi del profilo nell’editor di Personalization.
 
-### Passaggio per passaggio: inserire un token di personalizzazione {#insert-token}
+### Inserire un token di personalizzazione {#insert-token}
 
 1. Nell’area di progettazione e-mail (o nella schermata delle proprietà e-mail per la riga dell’oggetto), fai clic sul campo in cui desideri inserire un token.
 1. Fai clic sull&#39;icona di personalizzazione (spesso etichettata **[!UICONTROL Apri finestra di dialogo per personalizzazione]** o **[!UICONTROL Aggiungi espressione]**).
@@ -217,6 +235,18 @@ Utilizza espressioni Handlebars come le seguenti (la personalizzazione utilizza 
 * **`{{profile.firstName}}, ready to take the next step?`** - Combina token e testo statico in linea.
 
 Per un saluto di nome con un fallback quando manca il valore, utilizza l&#39;helper `default` come mostrato nei passaggi di personalizzazione precedenti (ad esempio, nome con `"there"` predefinito).
+
+### Handlebars Helpers {#handlebars-helpers}
+
+Oltre a `default`, l&#39;editor di personalizzazione include helper Handlebars incorporati per logica condizionale, trasformazione del testo e formattazione della data. Utilizza il browser delle funzioni dell’editor per esplorare gli helper disponibili e inserirli con la sintassi corretta.
+
+>[!TIP]
+>
+>Nello spazio di progettazione delle e-mail, digita `{{` direttamente in qualsiasi campo di testo per attivare un elenco a discesa di completamento automatico in linea contenente gli attributi di profilo disponibili. Non è necessario aprire la finestra di dialogo di personalizzazione completa per gli inserimenti rapidi.
+
+### Espressioni basate sull’intelligenza artificiale {#ai-personalization}
+
+L’Assistente IA nell’editor di personalizzazione può generare espressioni Handlebars da una descrizione in linguaggio semplice, spiegare cosa fa un’espressione esistente e identificare potenziali problemi. Utilizzala per accelerare l’authoring delle espressioni, in particolare per gli helper per la logica condizionale o la formattazione della data.
 
 ## Aggiunta di risorse da Marketo Design Studio {#marketo-assets}
 
@@ -245,29 +275,11 @@ Prime rende disponibili le risorse esistenti di Marketo Design Studio nell’are
    * Destinazione collegamento - rende l&#39;immagine cliccabile.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Temi e modalità scura {#themes-dark-mode}
+## Modalità scura {#dark-mode}
 
-### Temi {#themes}
+Il rendering in modalità scura è supportato tramite le query multimediali CSS `prefers-color-scheme`. Gli strumenti di progettazione delle e-mail includono un’anteprima in modalità scura e opzioni per definire uno stile personalizzato per i client e-mail di supporto, che consente di verificare che il testo rimanga leggibile, che i loghi siano visibili e che i colori del brand resistano su sfondi scuri.
 
-Un tema è un predefinito di stile riutilizzabile che definisce colori, composizione tipografica, spaziatura, stili di pulsante e divisori. Applica un tema a un’e-mail per applicare istantaneamente lo stile del brand in ogni componente.
-
-Per applicare o modificare i temi:
-
-1. Nell&#39;area di progettazione delle e-mail, fai clic su **[!UICONTROL Temi]** (nella barra degli strumenti superiore o nella barra a destra, a seconda della tua visualizzazione).
-1. Scegli **[!UICONTROL Applica tema]** per selezionare un tema esistente oppure **[!UICONTROL Crea nuovo tema]** per definire una tavolozza del marchio.
-1. Personalizza colori, font e stili a livello di componente. Sono supportate entrambe le varianti luce/buio.
-1. Applicare a livello globale; le sostituzioni locali per componente rimangono possibili.
-1. Cambia il tema in un secondo momento per aggiungerlo di nuovo al marchio senza riscriverlo.
-
-### Modalità scura {#dark-mode}
-
-Il rendering in modalità scura è supportato tramite le query multimediali CSS `prefers-color-scheme`. Gli strumenti di progettazione delle e-mail includono un’anteprima in modalità scura per ogni client e-mail, per consentire agli autori di verificare che il testo rimanga leggibile, che i loghi non scompaiano e che i colori del brand resistano agli sfondi scuri.
-
-Per visualizzare l&#39;anteprima della modalità scura, fare clic sull&#39;interruttore della modalità scura nei controlli di anteprima dell&#39;area di lavoro.
-
->[!TIP]
->
->Insidie comuni in modalità scura: i loghi scuri scompaiono su sfondi scuri, il testo a basso contrasto e i colori invertiti sulle immagini trasparenti. Visualizza sempre l’anteprima del messaggio e-mail in modalità scura prima di salvare la versione finale.
+Per istruzioni dettagliate sull&#39;anteprima, sulla configurazione delle impostazioni della modalità scura personalizzata, sul supporto client e-mail e sulle best practice per i test, consulta [Modalità scura per il contenuto delle e-mail](./email-dark-mode.md).
 
 ## Convalida del contenuto delle e-mail {#validation}
 
@@ -285,7 +297,7 @@ Prima di poter attivare il percorso, il contenuto dell’e-mail deve essere vali
 | **Token di personalizzazione non risolto** | Un token Handlebars fa riferimento a un attributo di profilo senza fallback e l’attributo potrebbe non essere presente per alcuni destinatari. | Aggiungere un fallback utilizzando l&#39;helper Handlebars `default` come descritto in [Personalization](#personalization). In alternativa, limita il pubblico di percorso ai profili in cui l’attributo è garantito. |
 | **Immagine non caricata** | Un componente immagine fa riferimento a una risorsa che non è più disponibile. | Fai clic sull’immagine, apri il selettore risorse e riseleziona la risorsa da Marketo Design Studio. |
 
-### Procedura dettagliata: revisione e risoluzione degli avvisi {#resolve-alerts}
+### Rivedere e risolvere gli avvisi {#resolve-alerts}
 
 1. Apri il percorso contenente il nodo e-mail. I nodi e-mail con avvisi non risolti sono contrassegnati da un contrassegno rosso nell’area di lavoro.
 1. Fai clic sul nodo e-mail per aprire la barra delle proprietà.
