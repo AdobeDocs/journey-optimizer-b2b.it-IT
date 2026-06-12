@@ -18,10 +18,10 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T23:06:01.153Z
 TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 2362
-ht-degree: 80%
+source-wordcount: 2333
+ht-degree: 81%
 
 ---
 
@@ -55,7 +55,7 @@ Completa i seguenti passaggi per garantire il tracciamento e la consegna e-mail:
 
 ## Creare record DNS per pagine di destinazione e e-mail
 
-La connessione di un record CNAME consente ai marketer di ospitare versioni web di e-mail, pagine di destinazione e blog con un branding coerente che migliora il traffico e le conversioni. Si consiglia vivamente di aggiungere i CNAME all’host del dominio principale affinché Marketo Engage possa ospitare le risorse web incentrate sul marketing. Per pianificare e implementare un record CNAME per i collegamenti di tracciamento inclusi nelle e-mail inviate tramite Marketo Engage, rivolgiti al team Marketing in qualità di amministratore.
+La connessione di un record CNAME consente ai marketer di ospitare versioni web di e-mail, pagine di destinazione e blog con un branding coerente che migliora il traffico e le conversioni. Si consiglia vivamente di aggiungere i CNAME all’host del dominio principale affinché Marketo Engage possa ospitare le risorse web incentrate sul marketing.
 
 Per pianificare e implementare due record CNAME, rivolgiti al team Marketing in qualità di amministratore. Il primo è per gli URL delle pagine di destinazione, in modo che le pagine di destinazione vengano visualizzate in URL che riflettono il dominio e non Adobe Marketo Engage (l’host effettivo). Il secondo è per i collegamenti di tracciamento inclusi nelle e-mail inviate tramite Marketo Engage.
 

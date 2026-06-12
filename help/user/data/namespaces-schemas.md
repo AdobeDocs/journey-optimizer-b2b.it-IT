@@ -20,10 +20,10 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
 source-wordcount: 1003
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -70,7 +70,7 @@ Con una console per sviluppatori Experience Platform e la configurazione di [!DN
 
 ### Eseguire gli script
 
-Dopo aver impostato i valori dell&#39;ambiente, utilizzare l&#39;interfaccia [!DNL Postman] per eseguire lo script per la creazione degli spazi dei nomi e degli schemi. Selezionare la cartella principale dell&#39;utilità di generazione automatica, quindi selezionare **[!DNL Run]** dall&#39;intestazione superiore.
+Dopo aver impostato i valori dell&#39;ambiente, utilizzare l&#39;interfaccia [!DNL Postman] per eseguire lo script per la creazione degli spazi dei nomi e degli schemi. Selezionare la cartella principale dell&#39;utilità di generazione automatica, quindi selezionare **[!DNL Run]** nell&#39;intestazione superiore.
 
 ![Cartella principale del generatore di spazi dei nomi e schemi nell&#39;interfaccia utente di Postman](./assets/namespaces-schemas-postman-root-folder.png){width="500" zoomable="yes"}
 

@@ -19,9 +19,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1605
+source-wordcount: 1603
 ht-degree: 11%
 
 ---
@@ -121,7 +121,7 @@ Per rendere disponibile un evento esperienza per un nodo _Ascolta un evento_ in 
 
 1. Nella pagina dei dettagli dell&#39;evento, fare clic su **[!UICONTROL Salva]**.
 
-L&#39;evento salvato viene visualizzato nell&#39;elenco della scheda _[!UICONTROL Eventi]_.
+L&#39;elenco nella scheda _[!UICONTROL Eventi]_ visualizza l&#39;evento salvato.
 
 ### Modificare un evento {#edit-an-event}
 

@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1015
-ht-degree: 83%
+source-wordcount: 1013
+ht-degree: 80%
 
 ---
 
@@ -144,7 +144,7 @@ Per abilitare SSL per i domini esistenti, segui la procedura riportata di seguit
 
 >[!NOTE]
 >
->Se si desidera eliminare il dominio di branding principale (in una o più aree di lavoro), è innanzitutto necessario selezionare un dominio di branding diverso come dominio principale per ogni area di lavoro.
+>Se si desidera eliminare il dominio di branding principale (in una o più aree di lavoro), selezionare innanzitutto un dominio di branding diverso come dominio principale per ogni area di lavoro.
 >
 >L&#39;eliminazione di un dominio **_non_** elimina il certificato SSL. Questo guardrail evita errori degli utenti che determinano la mancanza di certificati SSL in un sito Web. Se desideri rimuovere i certificati SSL, contatta il supporto Adobe.
 

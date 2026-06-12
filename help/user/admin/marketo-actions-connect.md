@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:48:47.183Z
 TQID: https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 541
-ht-degree: 75%
+source-wordcount: 540
+ht-degree: 71%
 
 ---
 
@@ -80,7 +80,7 @@ Le autorizzazioni per il ruolo [assegnate nel servizio personalizzato](https://e
 
 ## Utilizzare la connessione in un&#39;azione di percorso
 
-Quando un addetto al marketing utilizza un’azione Marketo Engage in un percorso, può configurare il nodo utilizzando il nome della connessione.
+Quando un addetto al marketing utilizza un’azione Marketo Engage in un percorso, configura il nodo utilizzando il nome della connessione.
 
 >[!NOTE]
 >

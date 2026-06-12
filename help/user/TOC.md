@@ -1,10 +1,10 @@
 ---
-user-guide-title: Documentazione di Journey Optimizer B2B Ultimate
-user-guide-description: Scopri Adobe Journey Optimizer B2B edition Ultimate e come utilizzarlo per orchestrare account e percorsi di gruppi di acquisto utilizzando l’intelligenza artificiale generativa integrata e l’automazione leader di settore.
-source-git-commit: b686ab778c1640cc76f098aa18b8f2bdb1e24a32
+user-guide-title: Documentazione di Journey Optimizer B2B Edition
+user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando le funzioni di IA generativa incorporata e l’automazione leader del settore.
+source-git-commit: dc6942ca34b730ce4104e588ec198ce7a4ec7cea
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 79%
+source-wordcount: '449'
+ht-degree: 87%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 79%
 + [Note sulla versione](./release-notes/release-notes.md)
 + Introduzione {#get-started}
    + [Panoramica su Journey Optimizer B2B Edition](about-journey-optimizer-b2b-edition.md)
-   + Configurazione di Ultimate {#ultimate}
+   + Configurazione dell’ambiente {#admin-setup}
       + [Elenco di controllo per l’installazione](./setup-ultimate.md)
       + [Spazi dei nomi e schemi](./data/namespaces-schemas.md)
       + [Selezione campo XDM](./admin/xdm-field-management.md)
