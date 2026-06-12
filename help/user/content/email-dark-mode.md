@@ -23,7 +23,7 @@ TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJ
 source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 1564
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="Passare alla modalità scura"
->abstract="Passa alla modalità scura per visualizzare in anteprima il rendering e definire le impostazioni personalizzate. <br>Il rendering dipende dal client di posta elettronica del destinatario. Non tutti i client e-mail supportano la modalità scura personalizzata."
+>abstract="Passa alla modalità scura per visualizzare in anteprima il rendering e definire le impostazioni personalizzate. <br>Il rendering dipende dal client e-mail del destinatario. Non tutti i client e-mail supportano la modalità scura personalizzata."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
 >title="Passare alla modalità scura"
->abstract="Passa alla modalità scura per visualizzare in anteprima il rendering quando si supportano i client e-mail. <br>Il rendering finale dipende dal client e-mail del destinatario. Non tutti i client e-mail supportano la modalità scura."
+>abstract="Passa alla modalità scura per visualizzare in anteprima il rendering nei client e-mail che la supportano. <br>Il rendering finale dipende dal client e-mail del destinatario. Tieni presente che non tutti i client e-mail supportano la modalità scura."
 
 _Modalità scura_ consente a un client e-mail o a un&#39;app di supporto di visualizzare e-mail con sfondi più scuri e colori più chiari per testo, pulsanti e altri elementi visivi. Questo tipo di display può ridurre l&#39;affaticamento degli occhi, ridurre la durata della batteria e migliorare la leggibilità in ambienti scarsamente illuminati, per un&#39;esperienza di visualizzazione più confortevole. In quanto tendenza in crescita tra i principali sistemi operativi e app, ora è un elemento importante nella progettazione di e-mail moderne per garantire che il contenuto rimanga leggibile e visivamente attraente per tutti gli utenti.
 
@@ -135,7 +135,7 @@ Quando si applica uno stile al contenuto delle e-mail per la modalità scura in 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_image"
 >title="Utilizzare un’immagine specifica per la modalità scura"
->abstract="Selezionate un&#39;altra immagine per la modalità scura. <br>L&#39;aggiunta di un&#39;immagine specifica non garantisce il rendering corretto in tutti i client di posta elettronica. Non tutti i client e-mail supportano la modalità scura personalizzata."
+>abstract="Seleziona un’altra immagine per la modalità scura. <br>L’aggiunta di un’immagine specifica non garantisce il rendering corretto in tutti i client e-mail. Non tutti i client e-mail supportano la modalità scura personalizzata."
 
 Dopo il passaggio alla modalità scura, puoi scegliere di modificare elementi di stile specifici del contenuto che vengono visualizzati solo quando la modalità scura è abilitata nel client e-mail del destinatario (purché supporti tale funzione).
 

@@ -26,7 +26,7 @@ TQID: https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJ
 source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 857
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_genstudio_button"
 >title="Utilizzare un modello creato con GenStudio"
->abstract="Utilizza l’integrazione con Adobe GenStudio for Performance Marketing per importare un modello GenStudio ottimizzato con la tecnologia Adobe AI."
+>abstract="Utilizza l’integrazione diretta con Adobe GenStudio for Performance Marketing per importare un modello GenStudio ottimizzato con la tecnologia dell’intelligenza artificiale di Adobe."
 
 >[!AVAILABILITY]
 >
