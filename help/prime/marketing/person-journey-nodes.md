@@ -3,17 +3,11 @@ title: Aggiungi nodi Percorso
 description: Pagina Segnaposto per i nodi del percorso di persone.
 autotag-review: '2026-06-12T23:02:52.147Z'
 TQID: 'https://experienceleague.adobe.com/sTnrOvrGIrgboPqOMrrkUvNU1y6zZJX42zEJxuUInKQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
 workflow-type: tm+mt
 source-wordcount: 1137
 ht-degree: 2%
@@ -48,7 +42,7 @@ In un percorso di persone, utilizza un’azione sulle persone quando desideri ap
 | **[!UICONTROL Invia e-mail]** | <li>Crea e-mail <li>Ottimizzazione del tempo di invio (facoltativo) |
 | **[!UICONTROL Modifica valore dati]** | <li>Seleziona attributo persona <li>Imposta nuovo valore |
 
-### Aggiungi un nodo azione
+### Aggiungi un nodo azione {#add-an-action-node}
 
 1. Passa alla mappa del percorso.
 
@@ -120,7 +114,7 @@ Un nodo Percorsi suddivisi definisce uno o più percorsi segmentati in base ai f
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
 
-_&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
+_**Funzionamento di un percorso suddiviso per nodo persone**_
 
 * La valutazione di ciascun percorso è dall&#39;alto verso il basso. Se una persona corrisponde per il primo e il secondo percorso, procede solo lungo il primo percorso.
 * Il nodo supporta la definizione di un percorso _Altre persone_, in cui è possibile aggiungere azioni o eventi per le persone che non corrispondono a uno dei segmenti o percorsi definiti.

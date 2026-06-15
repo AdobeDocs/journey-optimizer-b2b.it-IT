@@ -3,21 +3,13 @@ title: Authoring di e-mail
 description: Utilizza gli strumenti di progettazione delle e-mail in Journey Optimizer B2B Prime, tra cui modelli e-mail, frammenti, personalizzazione, modalità scura e convalida.
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
 workflow-type: tm+mt
-source-wordcount: 2775
+source-wordcount: 2789
 ht-degree: 1%
 
 ---
@@ -34,17 +26,15 @@ In [!DNL Journey Optimizer B2B Prime], ogni e-mail è associata a un&#39;azione 
 
 Questa azione avvia lo spazio di progettazione delle e-mail, in cui puoi scegliere come progettare le e-mail tra le seguenti opzioni:
 
-* [Progetta il tuo messaggio e-mail da zero](#design-your-email-from-scratch) utilizzando l&#39;interfaccia di progettazione visiva. Crea il componente layout e-mail per componente trascinando la selezione su un’area di lavoro vuota. Questo metodo è ideale per creare nuovi modelli o e-mail una tantum.
+* [Progetta il tuo messaggio e-mail da zero](#build-from-scratch) utilizzando l&#39;interfaccia di progettazione visiva. Crea il componente layout e-mail per componente trascinando la selezione su un’area di lavoro vuota. Questo metodo è ideale per creare nuovi modelli o e-mail una tantum.
 
-* [Importa HTML](#html) nell&#39;editor di codice o lavora fianco a fianco con l&#39;area di lavoro visiva.
+* Importa HTML nell’editor di codice o lavora fianco a fianco con l’area di lavoro visiva. Il flusso di lavoro di importazione completo di HTML con caricamenti .html e .zip è incluso nella roadmap di Beta.
 
-  <!-- Full HTML import workflow with .html and .zip uploads is on the Beta roadmap. -->
-
-* [Selezionare un modello esistente](#select-a-template) da un elenco di modelli di posta elettronica predefiniti o personalizzati. Questo metodo è ideale per i casi di utilizzo di e-mail ripetibili.
+* [Selezionare un modello esistente](#create-from-template) da un elenco di modelli di posta elettronica predefiniti o personalizzati. Questo metodo è ideale per i casi di utilizzo di e-mail ripetibili.
 
 <!-- * Upload a design prototype (JPG, PNG, PDF, or Figma export) and have AI Assitant convert it into a responsive HTML email. (Image to HTML (Img2HTML) -->
 
-## Strumenti di progettazione e-mail
+## Strumenti di progettazione e-mail {#email-design-tools}
 
 * **Barra degli strumenti superiore:** Salva, Indietro, Passa all&#39;editor di codice, controlli di anteprima.
 * **Barra a sinistra:** strutture (layout colonne), contenuto (testo, pulsante, immagine, divisore, social, HTML), frammenti, modelli, struttura di navigazione (gerarchia DOM dell&#39;e-mail).
@@ -65,7 +55,7 @@ L’aderenza alle best practice HTML e CSS consente di garantire un rendering co
 >
 >Il contenuto dell’e-mail deve inoltre soddisfare i requisiti di accessibilità digitale applicabili. Strutturare le intestazioni in modo logico, fornire testo alternativo per tutte le immagini e verificare il contrasto dei colori in modalità chiara e scura.
 
-## Creare un messaggio e-mail da un percorso {#email-from-journey}
+## Creazione di un messaggio e-mail da un percorso {#email-from-journey}
 
 1. Fai clic sul pulsante **[!UICONTROL Modifica e-mail]** per procedere al passaggio di configurazione dell&#39;e-mail.
 1. Nella schermata successiva, seleziona una configurazione di canale creata in precedenza dal menu a discesa **[!UICONTROL Configurazione e-mail]**. Sono elencate solo le configurazioni attive.
@@ -140,7 +130,7 @@ Il preheader è lo snippet di testo mostrato dopo la riga dell&#39;oggetto nelle
 
 I modelli sono layout e-mail riutilizzabili. Accelerano la creazione di e-mail, impongono la coerenza del marchio e semplificano la collaborazione tra team.
 
-### Tipi di modelli
+### Tipi di modelli {#template-types}
 
 * **Modelli di esempio (preconfigurati).** Circa 20 modelli già pronti che coprono casi d’uso comuni (sensibilizzazione basata sull’account, inviti a eventi, formazione, annunci di prodotti). Disponibile immediatamente per ogni cliente.
 * **Modelli salvati (personalizzati).** Modelli creati dal team: creati da zero in **[!UICONTROL Gestione contenuto]** → **[!UICONTROL Modelli]** o salvati da un&#39;e-mail esistente utilizzando l&#39;opzione &quot;Salva come modello&quot;.
@@ -214,7 +204,7 @@ Un frammento visivo è un blocco di contenuto riutilizzabile, come intestazione,
 
 Prime utilizza la sintassi Handlebars per la personalizzazione. I token vengono sostituiti al momento dell’invio con i valori dei dati di profilo di ciascun destinatario.
 
-### Dove puoi personalizzare
+### Dove puoi personalizzare {#where-you-can-personalize}
 
 * **Oggetto**: punto di personalizzazione più comune.
 * **Preheader** — impostato nell&#39;area di lavoro visiva; supporta i token di attributi di profilo.

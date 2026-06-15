@@ -3,21 +3,13 @@ title: Configurazione Forms
 description: Placeholder
 autotag-review: '2026-06-12T22:44:42.084Z'
 TQID: 'https://experienceleague.adobe.com/aJKRaYBEdieyIUsuszVy4g2LANEVLQP9aQfhhrKOhx0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: f2da1b69-6919-4386-a5d2-9c7b5c9033dbid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ce49389601416e7acefb9f948c052a1d840d8854
 workflow-type: tm+mt
-source-wordcount: 538
+source-wordcount: 541
 ht-degree: 10%
 
 ---
@@ -32,7 +24,7 @@ Quando i dati arrivano sull’endpoint di streaming, sono collegati alle informa
 
 ## Prerequisiti
 
-Per utilizzare i moduli Web, è necessario che in Adobe Experience Platform siano definite una o più _&#x200B;**connessioni di streaming API HTTP**&#x200B;_. Verificare che ogni connessione che si desidera utilizzare soddisfi i seguenti requisiti:
+Per utilizzare i moduli Web, è necessario che in Adobe Experience Platform siano definite una o più _**connessioni di streaming API HTTP**_. Verificare che ogni connessione che si desidera utilizzare soddisfi i seguenti requisiti:
 
 * Il tipo di dati deve essere impostato su XDM (non su dati non elaborati)
 * L&#39;autenticazione deve essere disabilitata (connessione non autenticata)
@@ -65,7 +57,7 @@ Durante la creazione di un predefinito:
    * _Connessione di destinazione_ - in cui i dati vengono archiviati o utilizzati.
    * _Flusso Source_: la pipeline che sposta i dati dalla connessione di origine in Experience Platform. Gestisce la mappatura, la trasformazione e la convalida.
 
-## Creare un predefinito di modulo
+## Creare un predefinito di modulo {#create-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_connection"
@@ -96,7 +88,7 @@ Durante la creazione di un predefinito:
 
    Questa connessione è l’endpoint di streaming utilizzato per inviare i dati quando un visualizzatore web invia un modulo. Se la connessione in streaming necessaria non viene visualizzata nell’elenco, verifica che i requisiti siano soddisfatti.
 
-1. Fai clic sull&#39;icona _Seleziona set di dati_<!-- ( ![Select dataset icon](../assets/do-not-localize/icon-select-data.svg) ) --> per collegare un set di dati al modulo.
+1. Fai clic sull&#39;icona _Seleziona set di dati_ ( ![Icona Seleziona set di dati](../../user/assets/do-not-localize/icon-select-data.svg) ) per collegare un set di dati al modulo.
 
    Il set di dati è il luogo in cui vengono memorizzate e riflesse le risposte del modulo. Puoi immettere una stringa di testo per cercare un set di dati specifico o selezionarlo dall’elenco.
 
@@ -104,7 +96,7 @@ Durante la creazione di un predefinito:
 
    >[!NOTE]
    >
-   >Al momento sono disponibili per la selezione solo [set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview) abilitati e non abilitati per il profilo. È possibile selezionare un set di dati alla volta. I set di dati di sistema non possono essere utilizzati per salvare i dati del modulo.
+   >Al momento sono disponibili per la selezione solo [set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) abilitati e non abilitati per il profilo. Puoi selezionare un set di dati alla volta. I set di dati di sistema non possono essere utilizzati per salvare i dati del modulo.
 
    Selezionare la casella di controllo per il set di dati e fare clic su **[!UICONTROL Seleziona]**.
 
