@@ -14,7 +14,7 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: beb843b812f6398d342f52f7fcfdd387e916d2f6
 workflow-type: tm+mt
 source-wordcount: 875
 ht-degree: 1%
@@ -41,7 +41,8 @@ ht-degree: 1%
    >
    >In questa versione di Beta, sono supportati solo i modelli e-mail.
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. Fai clic su **[!UICONTROL Crea]** per aprire lo spazio di progettazione delle e-mail.
 
 1. Fai clic su **[!UICONTROL Modifica corpo dell&#39;e-mail]** per accedere allo spazio di progettazione del contenuto.
@@ -99,7 +100,8 @@ Prima di iniziare:
 1. Immettere un **[!UICONTROL nome modello]** e una **[!UICONTROL descrizione]** facoltativa.
 1. Imposta **[!UICONTROL Canale]** su E-mail.
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!--  Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. Fai clic su **[!UICONTROL Crea]**.
 
 ### Generare il contenuto del modello

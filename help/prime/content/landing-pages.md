@@ -13,16 +13,16 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 90d0cdfd37de3ee961cac64db3da87a042a26697
+source-git-commit: 21f0ab524176df40128212fef920e10b06b5c317
 workflow-type: tm+mt
-source-wordcount: 1461
-ht-degree: 6%
+source-wordcount: 2180
+ht-degree: 4%
 
 ---
 
 # Pagine di destinazione
 
-Una pagina di destinazione è una pagina web indipendente in cui puoi indirizzare contatti e clienti dopo che hanno fatto clic su un elemento collegato in un’e-mail, un messaggio SMS o qualsiasi posizione digitale. Puoi incorporare queste pagine nei tuoi percorsi di account per consentire ai potenziali clienti e ai clienti di visualizzare i messaggi sul web e i progressi nei tuoi percorsi di account. Puoi creare, personalizzare e visualizzare in anteprima le pagine di destinazione nell’area di progettazione visiva della pagina di destinazione.
+Una pagina di destinazione è una pagina web indipendente in cui puoi indirizzare contatti e clienti dopo che hanno fatto clic su un elemento collegato in un’e-mail, un messaggio SMS o qualsiasi posizione digitale. Puoi incorporare queste pagine nei tuoi percorsi per consentire ai potenziali clienti e ai clienti di visualizzare i messaggi sul web e i progressi compiuti nei tuoi percorsi. Puoi creare, personalizzare e visualizzare in anteprima le pagine di destinazione nell’area di progettazione visiva della pagina di destinazione.
 
 Casi d’uso comuni per le pagine di destinazione:
 
@@ -40,7 +40,7 @@ To direct members of a journey audience to a defined web page when they click a 
 
 1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
 1. [Design the landing page content](./landing-page-design.md) - Build the page content using drag-and-drop visual design components.
-1. [Test and publish the landing page](./landing-pages-create-publish.md) - Preview the page, test form behavior, and then publish to make it live.
+1. [Test the landing page](./landing-pages-create.md) - Preview the page, test form behavior, and then publish to make it live.
 1. [Link to the page from your journey](#link-to-a-landing-page) - Add the landing page URL to an email, SMS, or journey action so that recipients can reach it.
 
 
@@ -49,15 +49,15 @@ For example, you can create and design landing pages to direct your users to onl
 You can create, personalize, and preview landing pages in the visual design space.
 -->
 
-## Accedere e gestire le pagine di destinazione
+## Accedere e gestire le pagine di destinazione {#access-manage-landing-pages}
 
 Per accedere alle pagine di destinazione in Journey Optimizer B2B Prime, vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Pagine di destinazione]**. Questa azione visualizza un elenco di tutte le pagine di destinazione create nell’istanza.
 
 L&#39;elenco è ordinato in base alla colonna _[!UICONTROL Modificato]_, con gli elementi aggiornati più di recente nella parte superiore. Fai clic sul titolo della colonna per passare da crescente a decrescente.
 
-### Filtrare l’elenco delle pagine di destinazione
+### Filtrare l’elenco delle pagine di destinazione {#filter-list}
 
-Per cercare una pagina di destinazione per nome, immetti una stringa di testo nella barra di ricerca per trovare una corrispondenza. Fai clic sull&#39;icona _Filtro_ <!-- ( ![Show or hide filters icon](../assets/do-not-localize/icon-filter.svg) ) --> per visualizzare le opzioni di filtro disponibili e modificare le impostazioni per filtrare gli elementi visualizzati in base ai criteri specificati.
+Per cercare una pagina di destinazione per nome, immetti una stringa di testo nella barra di ricerca per trovare una corrispondenza. Fai clic sull&#39;icona _Filtro_ ( ![Mostra o nascondi icona filtri](../../user/assets/do-not-localize/icon-filter.svg) ) per visualizzare le opzioni di filtro disponibili e modificare le impostazioni per filtrare gli elementi visualizzati in base ai criteri specificati.
 
 ![Filtra le pagine di destinazione visualizzate](./assets/landing-pages-list-filtered.png){width="800" zoomable="yes"}
 
@@ -71,15 +71,15 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 ![Select the columns that you want to display](./assets/landing-pages-customize-table-dialog.png){width="300"} 
 -->
 
-### Stato e ciclo di vita della pagina di destinazione
+### Stato e ciclo di vita della pagina di destinazione {#landing-page-status}
 
 Lo stato della pagina di destinazione determina la disponibilità del collegamento nei contenuti e-mail e SMS e le modifiche che puoi apportare.
 
 | Stato | Descrizione |
 | -------------------- | ----------- |
-| Bozza | Quando crei una pagina di destinazione, questa si trova nello stato Bozza. Rimane in questo stato mentre definisci o modifichi il contenuto visivo e fino a quando non lo pubblichi come pagina in hosting. Azioni disponibili:<br/><ul><li>Modifica nome o descrizione<li>Modifica URL collegamento<li>Modifica nello spazio di progettazione visiva<li>Pubblica<li>Duplica<li>Elimina |
-| Pubblicato | Quando pubblichi una pagina di destinazione, questa viene ospitata sull’istanza Prime B2B di Journey Optimizer e diventa disponibile per il collegamento in un contenuto di un messaggio e-mail o SMS. Azioni disponibili:<br/><ul><li>Modifica nome o descrizione<li>Modifica URL collegamento<li>Aggiungere un collegamento nel contenuto di un messaggio e-mail o SMS<li>Crea versione bozza<li>Duplica<li>Elimina |
-| Pubblicato con bozza | Quando crei una bozza da una pagina di destinazione pubblicata, la versione pubblicata rimane e il contenuto della bozza può essere modificato nello spazio di progettazione visiva. Se pubblichi la bozza della versione, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nella pagina ospitata. Azioni disponibili:<br/><ul><li>Modifica nome o descrizione<li>Modifica URL collegamento<li>Aggiungere un collegamento nel contenuto di un messaggio e-mail o SMS<li>Modifica versione bozza in Visual Design Space<li>Pubblica versione bozza<li>Duplica<li>Elimina (elimina entrambe le versioni)<li>Elimina bozza (torna allo stato pubblicato) |
+| Bozza | Quando crei una pagina di destinazione, questa si trova nello stato Bozza. Rimane in questo stato mentre definisci o modifichi il contenuto visivo e fino a quando non lo pubblichi come pagina in hosting. Azioni disponibili:<br/><ul><li>Modifica nome o descrizione</li><li>Modifica URL collegamento</li><li>Modifica nello spazio di progettazione visiva</li><li>Pubblica</li><li>Duplica</li><li>Elimina</li></ul> |
+| Pubblicato | Quando pubblichi una pagina di destinazione, questa viene ospitata sull’istanza Prime B2B di Journey Optimizer e diventa disponibile per il collegamento in un contenuto di un messaggio e-mail o SMS. Azioni disponibili:<br/><ul><li>Modifica nome o descrizione</li><li>Modifica URL collegamento</li><li>Aggiungere un collegamento nel contenuto di un messaggio e-mail o SMS</li><li>Crea versione bozza</li><li>Duplica</li><li>Elimina</li></ul> |
+| Pubblicato con bozza | Quando crei una bozza da una pagina di destinazione pubblicata, la versione pubblicata rimane e il contenuto della bozza può essere modificato nello spazio di progettazione visiva. Se pubblichi la bozza della versione, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nella pagina ospitata. Azioni disponibili:<br/><ul><li>Modifica nome o descrizione</li><li>Modifica URL collegamento</li><li>Aggiungere un collegamento nel contenuto di un messaggio e-mail o SMS</li><li>Modifica versione bozza in Visual Design Space</li><li>Pubblica versione bozza</li><li>Duplica</li><li>Elimina (elimina entrambe le versioni)</li><li>Elimina bozza (torna allo stato pubblicato)</li></ul> |
 
 <!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
 
@@ -90,7 +90,46 @@ Lo stato della pagina di destinazione determina la disponibilità del collegamen
 >title="Definire e configurare la pagina di destinazione"
 >abstract="Per creare una pagina di destinazione, devi selezionare un predefinito; configurare la pagina principale e le pagine secondarie; e infine verificare la pagina prima di pubblicarla."
 
-Da definire
+Per indirizzare i membri del pubblico di un percorso di persone a una pagina Web definita quando fanno clic su un collegamento specifico, creare una pagina di destinazione in [!DNL Journey Optimizer B2B Prime]. Selezionare un predefinito, configurare la pagina principale e le eventuali pagine secondarie, [verificare la pagina](#test-landing-page) e pubblicarla.
+
+>[!IMPORTANT]
+>
+>Prima di creare la prima pagina di destinazione, completa la relativa configurazione. Ciò include la configurazione di un sottodominio per ospitare le pagine di destinazione e la definizione di almeno un predefinito che specifica il sottodominio e le altre impostazioni del canale. Quando crei la pagina di destinazione, selezioni un predefinito. Per la configurazione dell&#39;amministratore, vedere [Configurazione della pagina di destinazione](../admin/configuration-presets-landing-pages.md).
+>
+>Per i casi di utilizzo relativi all&#39;acquisizione dei dati, crea un [modulo](./forms.md) prima di incorporarlo in una pagina di destinazione.
+
+Per creare una pagina di destinazione, effettua le seguenti operazioni:
+
+1. Vai alla navigazione a sinistra e seleziona **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Pagine di destinazione]**.
+
+1. Nell&#39;elenco delle pagine di destinazione fare clic su **[!UICONTROL Crea pagina di destinazione]**.
+
+1. Immetti un **[!UICONTROL Titolo]** (obbligatorio) e una **[!UICONTROL Descrizione]** (facoltativo).
+
+   Criteri di titolo e descrizione:
+
+   * **Titolo** — Massimo 100 caratteri. Deve essere univoco (senza distinzione tra maiuscole e minuscole).
+   * **Descrizione** — Massimo 300 caratteri.
+   * Sono consentiti caratteri Alpha, numerici e speciali.
+   * I caratteri riservati sono **_non consentiti_**: `\ / : * ? " < > |`
+
+1. Seleziona un **[!UICONTROL predefinito]**.
+
+   Un amministratore [crea i predefiniti per le pagine di destinazione](../admin/configuration-presets-landing-pages.md#lp-presets) per definire il sottodominio e altre impostazioni utilizzate per le pagine di destinazione. Seleziona un predefinito, quindi fai clic su **[!UICONTROL Visualizza predefinito]** per rivederne le impostazioni e confermare che corrispondono ai requisiti della pagina di destinazione.
+
+1. Fai clic su **[!UICONTROL Crea]**.
+
+   Viene visualizzata la pagina principale e le relative proprietà. Scopri come [configurare le impostazioni della pagina principale](#configure-primary-page).
+
+1. Per aggiungere una pagina secondaria, ad esempio una pagina di ringraziamento o di errore, fare clic sull&#39;icona **+**.
+
+   Puoi aggiungere fino a due pagine secondarie per pagina di destinazione.
+
+Dopo aver configurato e progettato la pagina principale e le eventuali pagine secondarie, [verifica la pagina di destinazione](#test-landing-page) prima di pubblicarla.
+
+>[!CAUTION]
+>
+>Non puoi accedere alla pagina di destinazione copiando e incollando l’URL definito in un browser web, anche se la pagina è pubblicata. Eseguire il test della pagina utilizzando la funzione di anteprima come descritto in [Eseguire il test della pagina di destinazione](#test-landing-page).
 
 ## Configurare la pagina principale {#configure-primary-page}
 
@@ -104,7 +143,30 @@ Da definire
 >title="Definire l’URL della pagina di destinazione"
 >abstract="In questa sezione, definisci un URL univoco per la pagina di destinazione. La prima parte dell’URL richiede la configurazione precedente di un sottodominio della pagina di destinazione come parte del predefinito selezionato."
 
-Da definire
+La pagina principale è quella che viene visualizzata immediatamente quando un destinatario fa clic sul collegamento della pagina di destinazione, ad esempio da un’e-mail o da un sito web.
+
+Per definire le impostazioni della pagina principale, effettuare le seguenti operazioni:
+
+1. Modifica il **[!UICONTROL Nome pagina]** in base alle tue esigenze, che per impostazione predefinita è _Pagina principale_.
+
+1. Definisci la parte finale dell’URL della pagina.
+
+   Il predefinito selezionato determina la prima parte dell’URL. Un amministratore configura il sottodominio [della pagina di destinazione](../admin/configuration-presets-landing-pages.md#lp-subdomains) come parte del predefinito.
+
+   >[!CAUTION]
+   >
+   >L’URL della pagina di destinazione deve essere univoco.
+   >
+   >Non puoi accedere alla pagina di destinazione copiando e incollando questo URL in un browser web, anche se la pagina è pubblicata. Eseguire il test utilizzando la funzione di anteprima come descritto in [Verificare la pagina di destinazione](#test-landing-page).
+
+1. Se desideri una pagina di destinazione anonima, disabilita l&#39;opzione **[!UICONTROL Richiedi utenti identificati]**.
+
+1. Fai clic sull&#39;icona _Calendario_ per impostare la **[!UICONTROL scadenza pagina]**.
+
+   Dopo aver selezionato una data di scadenza, scegli l’azione alla scadenza della pagina:
+
+   * **[!UICONTROL URL di reindirizzamento]** - Immettere l&#39;URL della pagina da utilizzare come reindirizzamento.
+   * **[!UICONTROL Errore del browser]** - Immettere il testo dell&#39;errore da visualizzare al posto della pagina.
 
 ## Verificare la pagina di destinazione {#test-landing-page}
 
@@ -113,9 +175,39 @@ Da definire
 >title="Visualizzare l’anteprima e testare la pagina di destinazione"
 >abstract="Dopo aver definito le impostazioni e il contenuto della pagina di destinazione, utilizza i profili di test per visualizzare l’anteprima della pagina."
 
-Da definire
+Una volta definiti le impostazioni e il contenuto della pagina di destinazione, puoi utilizzare i profili di test per visualizzare l’anteprima della pagina. Se hai inserito [contenuto personalizzato](email-authoring.md#personalization), puoi controllare come questo contenuto viene visualizzato nella pagina di destinazione utilizzando i dati del profilo di test.
 
-## Modificare una pagina di destinazione
+>[!PREREQUISITES]
+>
+>Per visualizzare in anteprima e verificare le pagine di destinazione, devi disporre dell&#39;autorizzazione **[!UICONTROL Pubblica messaggi]** e di un set di dati definito contenente i profili di test.
+
+1. Fai clic su **[!UICONTROL Anteprima e test]** per aprire la selezione del profilo di test.
+
+   >[!NOTE]
+   >
+   >È inoltre possibile utilizzare **[!UICONTROL Simula contenuto]** nello spazio di progettazione visiva.
+
+1. Dalla schermata _[!UICONTROL Simula]_, seleziona un profilo di test.
+
+   Se i profili necessari non sono elencati, fare clic su **[!UICONTROL Gestisci profili di test]** per utilizzare un indirizzo di posta elettronica del profilo di test noto e aggiungerlo all&#39;elenco.
+
+   +++Aggiungere profili di test
+
+   Per **[!UICONTROL Spazio dei nomi identità]**, fai clic sull&#39;icona _Seleziona_ ( ![Seleziona icona](../../user/assets/do-not-localize/icon-select-data.svg) ) e scegli lo spazio dei nomi `Email` da utilizzare per testare i profili.
+
+   Nel campo **[!UICONTROL Valore identità]** immettere l&#39;indirizzo di posta elettronica per identificare il profilo di test e fare clic su **[!UICONTROL Aggiungi profilo]**. Puoi ripetere questa operazione per aggiungere più profili.
+
+   Fai clic sulla freccia indietro in alto a sinistra per tornare alla pagina _[!UICONTROL Simula]_.
+
+   +++
+
+1. Seleziona **[!UICONTROL Apri anteprima]** per verificare la pagina di destinazione.
+
+   L’anteprima della pagina di destinazione viene visualizzata in una nuova scheda. I dati del profilo di test selezionati sostituiscono gli elementi personalizzati.
+
+1. Seleziona altri profili di test per visualizzare in anteprima il rendering per ogni variante della pagina di destinazione.
+
+## Modificare una pagina di destinazione {#edit-landing-page}
 
 Le modifiche apportate a una pagina di destinazione dipendono dal suo stato corrente:
 
@@ -179,7 +271,7 @@ Per aggiornare il contenuto:
 
 >[!ENDTABS]
 
-## Duplicare una pagina di destinazione
+## Duplicare una pagina di destinazione {#duplicate-landing-page}
 
 Puoi duplicare una pagina di destinazione utilizzando uno dei seguenti metodi:
 
@@ -194,7 +286,7 @@ Nella finestra di dialogo, inserisci un nome utile (univoco) e una descrizione (
 
 La pagina duplicata (nuova) viene quindi visualizzata nell&#39;elenco _Pagine di destinazione_.
 
-## Eliminare una pagina di destinazione
+## Eliminare una pagina di destinazione {#delete-landing-page}
 
 Puoi eliminare una pagina di destinazione utilizzando uno dei seguenti metodi:
 
@@ -205,7 +297,7 @@ Questa azione apre una finestra di dialogo di conferma. È possibile interromper
 
 <!-- ![Delete landing page dialog](./assets/landing-page-delete-dialog.png){width="400"} -->
 
-## Collegamento a una pagina di destinazione
+## Collegamento a una pagina di destinazione {#link-to-landing-page}
 
 In qualità di addetto al marketing o creativo che produce e-mail, frammenti e contenuti di pagina, puoi incorporare collegamenti alle pagine di destinazione pubblicate (live) create nell’istanza Prime B2B di Journey Optimizer.
 
@@ -217,7 +309,7 @@ In qualità di addetto al marketing o creativo che produce e-mail, frammenti e c
 
    <!-- ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"} -->
 
-1. Per l&#39;opzione **[!UICONTROL Pagina di destinazione]**, fare clic sull&#39;icona <!-- ( ![Show links icon](/help/assets/do-not-localize/icon-landing-page-select.svg) ) --> _Seleziona pagina_.
+1. Per l&#39;opzione **[!UICONTROL Pagina di destinazione]**, fare clic sull&#39;icona _Seleziona pagina_ ( ![Mostra icona collegamenti](../../user/assets/do-not-localize/icon-landing-page-select.svg) ).
 
 1. Nella finestra di dialogo Seleziona pagina di destinazione, imposta **[!UICONTROL Origine pagina di destinazione]** come **[!UICONTROL Journey Optimizer B2B edition]**, seleziona la casella di controllo per la pagina di destinazione dall&#39;elenco delle pagine pubblicate e fai clic su **[!UICONTROL Seleziona]**.
 
