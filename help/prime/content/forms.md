@@ -3,15 +3,9 @@ title: Moduli
 description: 'Creazione e gestione di moduli riutilizzabili per la raccolta dati aziendali: progettare campi, impostare pagine di ringraziamento, pubblicare e tenere traccia dell’utilizzo in Journey Optimizer B2B Prime.'
 autotag-review: '2026-06-12T22:53:03.357Z'
 TQID: 'https://experienceleague.adobe.com/iwrvFvR6amcRnXyPd3PoDZ8FU9zITH9i3B172QDTAn0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-subfeature_v2:
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+subfeature_v2: id: d57c4909-c813-470d-ac87-cdd2d6b5f9dcid: d270a788-eb1d-40ed-b74e-9158ed975b1f
 source-git-commit: 7bad3c48217ccf026756819fa6d9525ef5d8925a
 workflow-type: tm+mt
 source-wordcount: 2281
@@ -105,7 +99,7 @@ Prima di iniziare a creare moduli riutilizzabili in Journey Optimizer B2B editio
 
 <!--
 Add to context help when available
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
 Puoi creare un modulo in Journey Optimizer B2B edition facendo clic su **[!UICONTROL Crea modulo]** in alto a destra nella pagina dell&#39;elenco _[!UICONTROL Forms]_.
