@@ -14,7 +14,7 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
 workflow-type: tm+mt
 source-wordcount: 485
 ht-degree: 1%
@@ -55,7 +55,7 @@ Crea cartelle per raggruppare i modelli per team, campagna, marchio o qualsiasi 
 
 **Per spostare un modello in una cartella:**
 
-1. Fai clic sull&#39;icona **[!UICONTROL Altro]** (⋯) accanto al modello.
+1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ( ... ) accanto al modello.
 1. Selezionare **[!UICONTROL Sposta nella cartella]**.
 1. Selezionare la cartella di destinazione e fare clic su **[!UICONTROL Sposta]**.
 
@@ -67,15 +67,15 @@ Fai clic sul nome di un modello per aprirne la pagina dei dettagli. Da qui puoi 
 
 ### Modificare un modello
 
-Fai clic sul nome di un modello per aprire la pagina dei dettagli, quindi fai clic su **[!UICONTROL Modifica modello e-mail]**. È inoltre possibile fare clic sull&#39;icona **[!UICONTROL Altro]** (⋯) nell&#39;elenco dei modelli e selezionare **[!UICONTROL Modifica]**.
+Fai clic sul nome di un modello per aprire la pagina dei dettagli, quindi fai clic su **[!UICONTROL Modifica modello e-mail]**. È inoltre possibile fare clic sull&#39;icona **[!UICONTROL Altro]** ( ... ) nell&#39;elenco dei modelli e selezionare **[!UICONTROL Modifica]**.
 
 ### Duplicare un modello
 
-Fai clic sull&#39;icona **[!UICONTROL Altro]** (⋯) accanto al modello e seleziona **[!UICONTROL Duplica]**. Viene visualizzata la copia in modo da poterla rinominare e apportare le modifiche necessarie.
+Fai clic sull&#39;icona **[!UICONTROL Altro]** ( ... ) accanto al modello e seleziona **[!UICONTROL Duplica]**. Viene visualizzata la copia in modo da poterla rinominare e apportare le modifiche necessarie.
 
 ### Eliminare un modello
 
-Fai clic sull&#39;icona **[!UICONTROL Altro]** (⋯) accanto al modello e seleziona **[!UICONTROL Elimina]**. Quando richiesto, conferma l’eliminazione.
+Fai clic sull&#39;icona **[!UICONTROL Altro]** ( ... ) accanto al modello e seleziona **[!UICONTROL Elimina]**. Quando richiesto, conferma l’eliminazione.
 
 >[!NOTE]
 >

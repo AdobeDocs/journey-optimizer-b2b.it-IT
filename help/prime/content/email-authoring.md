@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
+source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
 workflow-type: tm+mt
 source-wordcount: 2789
 ht-degree: 1%
@@ -30,7 +30,7 @@ In [!DNL Adobe Journey Optimizer B2B Prime], lo spazio di progettazione delle e-
 >
 >Per informazioni sulla configurazione da parte dell&#39;amministratore di sottodomini, autenticazione, pool IP e canali e-mail, vedere [Recapito messaggi e-mail e configurazione dei canali](../admin/configuration-email-deliverability.md).
 
-In [!DNL Journey Optimizer B2B Prime], ogni e-mail è associata a un&#39;azione _[!UICONTROL Invia e-mail]_ in un percorso. L’intero flusso di lavoro dalla progettazione del percorso alla definizione dell’e-mail avviene in un’esperienza continua. Quando [aggiungi un _Invia e-mail_ nodo](../marketing/person-journey-nodes.md#add-an-action-node) a un percorso di persone, fai clic su **[!UICONTROL Crea e-mail]** per avviare il processo di progettazione del contenuto dell&#39;e-mail.
+In [!DNL Journey Optimizer B2B Prime], ogni e-mail è associata a un&#39;azione _[!UICONTROL Invia e-mail]_ in un percorso. L’intero flusso di lavoro dalla progettazione del percorso alla definizione dell’e-mail avviene in un’esperienza continua. Quando [aggiungi un _Invia e-mail_ nodo](../marketing/action-nodes.md#add-an-action-node) a un percorso di persone, fai clic su **[!UICONTROL Crea e-mail]** per avviare il processo di progettazione del contenuto dell&#39;e-mail.
 
 Questa azione avvia lo spazio di progettazione delle e-mail, in cui puoi scegliere come progettare le e-mail tra le seguenti opzioni:
 

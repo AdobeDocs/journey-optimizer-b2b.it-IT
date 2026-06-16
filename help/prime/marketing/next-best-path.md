@@ -16,10 +16,10 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 342218380ccd06c072a7195ab37790c82cc1de01
 workflow-type: tm+mt
-source-wordcount: 2205
-ht-degree: 0%
+source-wordcount: 1528
+ht-degree: 1%
 
 ---
 
@@ -114,119 +114,11 @@ Le assegnazioni di percorsi basate sull’intelligenza artificiale diventano eff
 
 Gli esempi seguenti mostrano come scrivere prompt dei percorsi efficaci nei casi d’uso comuni di marketing B2B. Utilizzali come punti di partenza e adatta la lingua per adattarsi al contesto del tuo percorso e ai dati del pubblico.
 
-+++Ricerca attiva e segnali di acquisto
+* &quot;Identifica le persone che hanno un coinvolgimento sui siti HR (shrm.org, hbr.org/topic/human-resource-management), interessate a Journey Optimizer negli ultimi 30 giorni, e che probabilmente parteciperanno a un webinar sull’intelligenza artificiale in HR Operations. Avrebbero anche dovuto mostrare un certo interesse per i prodotti AI.&quot;
 
-**Percorso 1 - Ricercatori prodotti attivi**
-*Identificare le persone che ricercano attivamente il software CRM. Cerca visite ripetute alla pagina del prodotto, coinvolgimento con contenuti di confronto, visite di ritorno frequenti e segnali di intento elevati di terze parti negli ultimi 30 giorni.*
+* Identifica le persone che hanno partecipato a siti di finanza (wsj.com/finance,investopedia.com), interessate a Marketo negli ultimi 30 giorni, e che probabilmente parteciperanno al webinar sull’intelligenza artificiale in Financial Planning. Avrebbero dovuto mostrare anche un certo interesse per i prodotti basati sull’intelligenza artificiale.&quot;
 
-**Percorso 2 - Comportamento di confronto prezzi**
-*Identifica gli utenti che hanno visualizzato più volte le pagine di confronto dei prezzi o dei piani negli ultimi 14 giorni, in particolare quelli che si alternano tra le pagine di documentazione dei prezzi e delle funzionalità.*
-
-**Percorso 3 - Intento elevato, nessuna conversione**
-*Identifica i visitatori ad alto intento che si sono impegnati con demo di prodotti, pagine di prezzi o documentazione di integrazione negli ultimi 21 giorni, ma che non hanno inviato un modulo o convertito.*
-
-**Percorso 4: comportamento di estrazione esitante**
-*Identifica gli utenti che hanno avviato i flussi di pagamento o di prenotazione demo ma non li hanno completati e che hanno restituito almeno una volta in seguito senza convertirli.*
-
-+++
-
-+++Rischio di abbandono e fidelizzazione
-
-**Percorso 1 - Segnali di rischio di abbandono**
-*Identifica i clienti che mostrano segni di abbandono dovuti al calo dell&#39;utilizzo dei prodotti, alla frequenza di accesso ridotta, ai picchi dei ticket di supporto e al minore impegno nel marketing negli ultimi 60 giorni.*
-
-**Percorso 2 - Disattivazione degli utenti esperti**
-*Identifica gli utenti precedentemente coinvolti la cui velocità di coinvolgimento è diminuita significativamente negli ultimi 30 giorni rispetto alla linea di base cronologica.*
-
-+++
-
-+++Carenze tra istruzione e valutazione
-
-**Percorso 1 - Ricerca nella sequenza di determinazione prezzi**
-*Identifica gli utenti che hanno scaricato un ebook e poi hanno visitato la pagina dei prezzi entro 7 giorni, ma non hanno richiesto una demo.*
-
-**Percorso 2 - Webinar senza follow-up**
-*Identifica le persone che hanno partecipato a un webinar e successivamente sono tornate alle pagine dei prodotti ma che non hanno mai prenotato una demo o contattato le vendite.*
-
-**Percorso 3 - Valutazione basata sul confronto**
-*Identifica i visitatori che hanno visualizzato un articolo di confronto con un concorrente e poi hanno visitato la documentazione sull&#39;integrazione o sulla migrazione entro 14 giorni.*
-
-+++
-
-+++Sequenze di coinvolgimento e-mail
-
-**Percorso 1 - Si apre senza clic**
-*Identifica i lead che hanno aperto tre o più e-mail marketing entro 30 giorni senza aver mai fatto clic sul sito Web.*
-
-**Percorso 2: clic effettuato, ma nessun coinvolgimento più approfondito**
-*Identifica gli utenti che hanno fatto clic da un messaggio e-mail a una pagina di prodotto ma non hanno esplorato ulteriori pagine o non sono tornati entro 7 giorni.*
-
-+++
-
-+++Modelli di prova e conversione
-
-**Percorso 1 - Convertitori veloci**
-*Identificare i clienti che hanno effettuato l&#39;aggiornamento entro 30 giorni dall&#39;avvio di una prova e hanno mostrato un elevato coinvolgimento nel prodotto durante il periodo di prova.*
-
-**Percorso 2 - Versione di prova degli utenti bloccati**
-*Identificare gli utenti della versione di valutazione che hanno effettuato l&#39;accesso durante la prima settimana ma hanno mostrato un&#39;attività minima in seguito e non hanno effettuato la conversione prima della scadenza della versione di valutazione.*
-
-+++
-
-+++Acquirenti multicanale
-
-**Percorso 1 - Convergenza organica e annuncio**
-*Identifica gli utenti che hanno iniziato a utilizzare gli annunci a pagamento e successivamente hanno fatto ritorno tramite canali diretti o organici entro 14 giorni.*
-
-**Percorso 2 - Valutazione da evento a prodotto**
-*Identificare gli account che hanno partecipato a un evento di persona o virtuale e successivamente hanno aumentato il comportamento di ricerca dei prodotti entro 30 giorni.*
-
-**Percorso 3 - Ricercatori da social-to-site**
-*Identifica gli utenti che hanno a che fare con contenuti social e successivamente hanno visitato pagine ad alto intento come prezzi o prenotazioni dimostrative.*
-
-+++
-
-+++Segnali di acquisto regionali
-
-**Percorso 1 - Incremento in una regione specifica**
-*Identifica gli account in Nord America che mostrano un aumento dell&#39;attività di ricerca sui prodotti e segnali di intenti di terze parti elevati negli ultimi 30 giorni rispetto alla linea di base storica.*
-
-**Percorso 2: slancio dei mercati emergenti**
-*Identificare gli account in APAC in cui la velocità di coinvolgimento è aumentata in modo significativo negli ultimi 14 giorni, anche se il volume complessivo di coinvolgimento è ancora moderato.*
-
-**Percorso 3: interesse aziendale specifico per l&#39;area geografica**
-*Identifica gli account di dimensioni Enterprise nell&#39;area EMEA che hanno a che fare con la conformità, la residenza dei dati o la documentazione sulla sicurezza negli ultimi 21 giorni.*
-
-**Percorso 4 - Territorio poco penetrato**
-*Identificare gli account di elevata idoneità nelle aree di vendita assegnate che hanno mostrato segnali di intento ma che le vendite non hanno ancora contattato.*
-
-+++
-
-+++Targeting del pubblico del webinar
-
-**Percorso 1 - Leader HR interessati all’intelligenza artificiale**
-*Identificare le persone che hanno partecipato a siti HR (shrm.org, hbr.org/topic/human-resource-management), interessate a Journey Optimizer negli ultimi 30 giorni, che probabilmente parteciperanno a un webinar su &quot;IA in HR Operations&quot;. Dovrebbero inoltre aver mostrato un certo interesse per i prodotti AI.*
-
-**Percorso 2: professionisti della finanza interessati all’intelligenza artificiale**
-*Identificare le persone che hanno partecipato a siti di finanza (wsj.com/finance, investopedia.com), interessate a Marketo negli ultimi 30 giorni, che probabilmente parteciperanno a un webinar su &quot;AI in Financial Planning&quot;. Dovrebbero inoltre aver mostrato un certo interesse per i prodotti AI.*
-
-**Percorso 3: professionisti del rischio e della ricerca interessati all’intelligenza artificiale**
-*Identificare le persone che hanno partecipato a siti di ricerca/rischio (mckinsey.com/capabilities/risk-and-resilience, forrester.com/research), interessate a GenStudio negli ultimi 30 giorni, che probabilmente parteciperanno a un webinar su &quot;IA in Risk Management&quot;. Dovrebbero inoltre aver mostrato un certo interesse per i prodotti AI.*
-
-+++
-
-+++Segnali di timing comportamentale
-
-**Percorso 1 - Ricercatori fuori orario**
-*Identifica gli utenti che interagiscono ripetutamente con pagine di prodotti e prezzi al di fuori del normale orario di lavoro nel loro fuso orario locale.*
-
-**Percorso 2 - Finestra di ricerca compressa**
-*Identifica gli account che mostrano una densità di coinvolgimento insolitamente elevata in una breve finestra di 72 ore in più aree di prodotto.*
-
-**Percorso 3: picco attività fine trimestre**
-*Identificare gli account con un aumento dell&#39;attività nella fase di valutazione durante gli ultimi 30 giorni del trimestre fiscale.*
-
-+++
+* &quot;Identifica le persone che hanno partecipato a siti di ricerca/rischio(mckinsey.com/capabilities/risk-and-resilience, forrester.com/research), interessate a GenStudio negli ultimi 30 giorni, e che probabilmente parteciperanno a un webinar sull’intelligenza artificiale in RiskManagement. Avrebbero dovuto mostrare anche un certo interesse per i prodotti basati sull’intelligenza artificiale.&quot;
 
 ## Simulare decisioni prima della pubblicazione {#simulate}
 
