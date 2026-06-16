@@ -3,25 +3,18 @@ title: Gestione dell'audience
 description: Pagina segnaposto per i tipi di pubblico.
 autotag-review: '2026-06-12T22:47:10.727Z'
 TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c844cb4fb520f802c18a9988461c39106000b778
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 4%
+source-wordcount: 474
+ht-degree: 3%
 
 ---
 
 # Gestione del pubblico
-
-Come vengono riprodotti i tipi di pubblico in AJO B2B Prime?
 
 Dall&#39;hub di gestione marketing, fare clic su **[!UICONTROL Elenchi persone]** nell&#39;area di navigazione a destra.
 
@@ -74,9 +67,9 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 ## Creare un elenco di persone
 
 
-Per creare un nuovo elenco dinamico o statico:
+Per creare un elenco dinamico o statico:
 
-1. Fai clic su **Crea elenco** in alto a destra della pagina _[!UICONTROL Elenchi persone]_.
+1. Fai clic su **[!UICONTROL Crea elenco]** in alto a destra della pagina _[!UICONTROL Elenchi persone]_.
 1. Selezionare un programma come **[!UICONTROL Elemento padre]** per l&#39;elenco.
 1. Immettere nell&#39;elenco **[!UICONTROL Nome]** e **[!UICONTROL Descrizione]** (facoltativo).
 1. Scegli quindi elenca **[!UICONTROL Tipo]**:
@@ -93,6 +86,10 @@ Per creare un nuovo elenco dinamico o statico:
 ## Elenchi statici
 
 L’appartenenza a un elenco statico è definita da filtri semplici che fanno riferimento ad attributi e attività delle persone. L&#39;appartenenza non cambia a meno che non si qualifichino o non si qualifichino manualmente i membri.
+
+>[!NOTE]
+>
+>Le definizioni dei filtri elenco statico vengono applicate una sola volta quando si aggiungono o rimuovono membri dall&#39;elenco. Il filtro definito non è disponibile in seguito. Se desideri mantenere una definizione del pubblico coerente utilizzando i filtri, utilizza invece un elenco dinamico.
 
 ### Aggiungi membri
 
