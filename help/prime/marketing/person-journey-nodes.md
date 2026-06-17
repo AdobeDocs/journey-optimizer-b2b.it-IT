@@ -13,16 +13,16 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 356
+source-wordcount: 358
 ht-degree: 2%
 
 ---
 
 # Nodi del percorso di persone
 
-Dopo aver creato un percorso di persone, aggiungi il pubblico e crea il percorso utilizzando i nodi. La mappa del percorso fornisce un’area di lavoro in cui puoi creare i tuoi casi d’uso di marketing B2B a più passaggi.
+Dopo aver creato un percorso di persone, aggiungi il pubblico e crea il percorso utilizzando i nodi. L’area di lavoro di percorso fornisce uno spazio di progettazione visiva, in cui puoi creare casi di utilizzo B2B di marketing a più passaggi.
 
 Il nodo _[!UICONTROL Pubblico persona]_ è automaticamente il primo nodo del percorso. Dopo aver selezionato il pubblico, crea il percorso combinando i diversi nodi di azione, evento e decisioning come scenario a più passaggi tra canali diversi. Ogni nodo di un percorso rappresenta un passo lungo un percorso logico.
 

@@ -1,6 +1,6 @@
 ---
 title: Dividere e unire i nodi dei percorsi
-description: Placeholder
+description: Scopri come utilizzare suddividere e unire i nodi dei percorsi nei percorsi di persone per segmentare le persone in percorsi distinti in base a condizioni definite, quindi riunirle in un punto comune a valle.
 autotag-review: '2026-06-12T23:04:27.208Z'
 TQID: 'https://experienceleague.adobe.com/TZlkuuES1Q2ZlG-ND-tIu6cVBRA65hIfotDcroER9Mc'
 product_v2:
@@ -13,16 +13,16 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 569
+source-wordcount: 658
 ht-degree: 0%
 
 ---
 
 # Dividere e unire i nodi dei percorsi
 
-
+Utilizza nodi di percorsi suddivisi e uniti in percorsi di persone per segmentare le persone in percorsi distinti in base alle condizioni che definisci, quindi riunisci nuovamente tali percorsi in modo che il percorso possa continuare. I percorsi di suddivisione consentono di personalizzare azioni ed eventi per segmenti di pubblico specifici, mentre i percorsi di unione riuniscono tali segmenti in un punto comune a valle.
 
 ## Dividere i nodi dei percorsi
 
@@ -31,7 +31,6 @@ Utilizza i nodi suddivisi per segmentare le persone in base alle condizioni defi
 Un nodo Percorsi suddivisi definisce uno o più percorsi segmentati in base ai filtri delle persone.
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
-
 
 _&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 
@@ -51,17 +50,11 @@ Per ogni percorso definito per il nodo, utilizza i seguenti tipi di filtro per f
 
 ### Aggiungere un nodo di percorsi suddivisi
 
-<!--
->[!NOTE]
->
->When you split paths by people, a _Close split paths_ node is automatically inserted to end the split. A split-by-people path allows only _Take an action_ on people nodes.
--->
-
-1. Passa alla mappa del percorso.
+1. Passa all’area di lavoro del percorso.
 
 1. Fare clic sull&#39;icona più ( **+** ) in un percorso e scegliere **[!UICONTROL Dividi percorsi]**.
 
-   <!-- ![Add journey node - split paths](./assets/add-node-split.png){width="300" zoomable="no"} -->
+   ![Fai clic sull&#39;icona Aggiungi nel percorso del percorso](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Per definire una condizione applicabile a _[!UICONTROL Percorso 1]_, fare clic su **[!UICONTROL Applica condizione]**.
 
@@ -95,13 +88,11 @@ Dopo aver definito le condizioni per ogni percorso, puoi aggiungere nodi di even
 
 ## Unisci percorsi nodi
 
-1. Passa alla mappa del percorso e individua il nodo dei percorsi suddivisi con due o più percorsi.
+1. Passa all’area di lavoro del percorso e individua il nodo dei percorsi suddivisi con due o più percorsi.
 
    Ogni percorso deve avere una combinazione di azioni ed eventi su ogni percorso.
 
 1. Fai clic sull&#39;icona più ( **+** ) alla fine di uno di questi percorsi e scegli **[!UICONTROL Unisci percorsi]** dalle opzioni visualizzate.
-
-   <!-- ![Journey node - merge paths](./assets/node-plus-icon-merge-paths.png){width="400" zoomable="no"} -->
 
 1. Nelle proprietà del nodo a destra, seleziona i percorsi che desideri unire.
 

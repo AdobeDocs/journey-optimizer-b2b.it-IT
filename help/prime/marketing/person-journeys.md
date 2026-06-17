@@ -12,10 +12,10 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c10cdff01356ff3dbce906416f86dd2fd11c6b5
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 1426
-ht-degree: 21%
+source-wordcount: 1422
+ht-degree: 19%
 
 ---
 
@@ -30,7 +30,7 @@ In [!DNL Adobe Journey Optimizer B2B Edition Prime], i percorsi di persone sono 
 _Per creare un nuovo percorso di persone :_
 
 1. Crea il percorso di persone.
-1. Aggiungi i nodi e definisci il flusso di percorso nella mappa del percorso.
+1. Aggiungi i nodi e definisci il flusso di percorso nell’area di lavoro del percorso.
 1. [Pubblica il percorso](#publish-a-journey).
 
 ## Accedere e sfogliare percorsi di persone {#access-and-browse-person-journeys}
@@ -55,7 +55,7 @@ _Per creare un nuovo percorso di persone :_
 
 La pagina dell&#39;elenco percorsi include le colonne riportate di seguito.
 
-* [!UICONTROL Nome] (fare clic sul nome per aprire la mappa del percorso per la modifica)
+* [!UICONTROL Nome] (fare clic sul nome per aprire l&#39;area di lavoro del percorso per la modifica)
 * [!UICONTROL Stato]
 * [!UICONTROL Data di creazione]
 * [!UICONTROL Creato da]
@@ -98,20 +98,20 @@ Lo stato di un percorso può cambiare in base alle azioni applicate. In base all
 
 ### Intestazione percorso {#journey-header}
 
-L&#39;intestazione di ogni mappa del percorso include il nome, lo stato e la pianificazione del percorso.
+L’intestazione di ogni area di lavoro del percorso include il nome, lo stato e la pianificazione del percorso.
 
 ![Intestazione percorso di persone](./assets/person-journey-header.png){width="600" zoomable="yes"}
 
 * Fai clic sull&#39;icona _Modifica_ ( ![Modifica icona](../../assets/do-not-localize/icon-react-edit.svg) ) per modificare il nome o le informazioni di descrizione del percorso.
 * Fai clic su **[!UICONTROL Impostazioni Percorso]** per modificare l&#39;inizio del percorso e la ricorrenza.
-* Fai clic su **[!UICONTROL Altro]** per applicare un&#39;azione di percorso o per abilitare/disabilitare il controllo del traffico e il rientro.
+* Fare clic su **[!UICONTROL ... Altro]** per applicare un&#39;azione di percorso o per abilitare/disabilitare il controllo del traffico e il rientro.
 * Se tutti gli errori sono stati risolti e si desidera attivare il percorso, fare clic su **[!UICONTROL Pubblica]**.
 
 ### Progettazione percorso {#journey-design}
 
-La mappa del percorso __ è la zona centrale nell&#39;area di lavoro del percorso. È dove puoi aggiungere nodi di percorso e configurarli. Fai clic su un nodo per aprirne le proprietà nel pannello a destra del layout e impostarle in base al design. Un percorso di persone inizia sempre con un nodo [_[!UICONTROL Pubblico persona &#x200B;]_](./person-audience-node.md), in cui puoi definire l&#39;input per il percorso.
+L&#39;area di lavoro _percorso_ è la zona centrale nell&#39;area di lavoro percorso. È dove puoi aggiungere nodi di percorso e configurarli. Fai clic su un nodo per aprirne le proprietà nel pannello a destra del layout e impostarle in base al design. Un percorso di persone inizia sempre con un nodo [_[!UICONTROL Pubblico persona &#x200B;]_](./person-audience-node.md), in cui puoi definire l&#39;input per il percorso.
 
-Dopo aver creato un percorso di persone e aver definito il pubblico di tale persona, crea il percorso utilizzando i nodi. La mappa del percorso fornisce un’area di lavoro in cui puoi creare casi di utilizzo B2B a più passaggi utilizzando i seguenti tipi di nodo per creare il percorso:
+Dopo aver creato un percorso di persone e aver definito il pubblico di tale persona, crea il percorso utilizzando i nodi. L’area di lavoro del percorso fornisce uno spazio di progettazione visiva in cui puoi creare i casi di utilizzo del marketing B2B a più passaggi utilizzando i seguenti tipi di nodo per creare il percorso:
 
 * [Intraprendere un’azione](./action-nodes.md)
 * [Ascoltare un evento](./listen-for-event-nodes.md)
@@ -134,7 +134,7 @@ La pagina dell’elenco percorsi include tutti i percorsi di persone nell’ista
 
 1. Aprire il percorso bozza dall&#39;elenco _[!UICONTROL percorsi di persone]_.
 
-1. Nella parte superiore destra della mappa del percorso, fai clic su **[!UICONTROL Pubblica]**.
+1. In alto a destra nell&#39;area di lavoro del percorso, fai clic su **[!UICONTROL Pubblica]**.
 
 1. Nella finestra di dialogo _[!UICONTROL Rivedi impostazioni percorso]_, imposta le opzioni di avvio del percorso.
 
@@ -147,7 +147,7 @@ La pagina dell’elenco percorsi include tutti i percorsi di persone nell’ista
 
 1. Se necessario, specifica la **[!UICONTROL data di fine]** per il percorso.
 
-   ![Finestra di dialogo Rivedi impostazioni percorso](./assets/journey-settings.png){width="400" zoomable="no"}
+   ![Finestra di dialogo Rivedi impostazioni percorso](./assets/journey-publish-review-settings.png){width="400" zoomable="no"}
 
    Può essere un massimo di tre anni dalla data di inizio. Questo campo è obbligatorio per la pubblicazione.
 
@@ -161,7 +161,7 @@ Se si interrompe un percorso in tempo reale o un percorso pianificato per una da
 
 1. Apri il percorso dall&#39;elenco _[!UICONTROL percorsi di persone]_.
 
-1. Fai clic sul menu **[!UICONTROL Altro...]** in alto a destra e scegli **[!UICONTROL Interrompi]**.
+1. Fare clic su **[!UICONTROL ... Altro]** in alto a destra e scegli **[!UICONTROL Interrompi]**.
 
    ![Intestazione percorso persona in tempo reale](./assets/person-journey-live-header.png){width="600" zoomable="yes"}
 
@@ -173,7 +173,7 @@ Se chiudi un percorso in tempo reale ai nuovi ingressi, le persone attualmente n
 
 1. Apri il percorso dall&#39;elenco _[!UICONTROL percorsi di persone]_.
 
-1. Fai clic sul menu **[!UICONTROL Altro...]** in alto a destra e scegli **[!UICONTROL Chiudi ai nuovi ingressi]**.
+1. Fare clic su **[!UICONTROL ... Altro]** in alto a destra e scegli **[!UICONTROL Chiudi alle nuove voci]**.
 
 1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Chiudi a nuovi ingressi]**.
 
@@ -185,9 +185,9 @@ Un’azione di duplicazione è simile a una funzione di clonazione, ma un percor
 
    ![Menu Altro percorso bozza persona](./assets/person-journey-draft-more-menu.png){width="400"}
 
-   A seconda dello stato del percorso, puoi anche accedere all’azione duplicata dai dettagli del percorso o dalla mappa del percorso:
+   A seconda dello stato del percorso, puoi anche accedere all’azione duplicata dai dettagli del percorso o dall’area di lavoro del percorso:
 
-   * Per un percorso bozza, fai clic sul menu **[!UICONTROL Altro]** in alto a destra e scegli **[!UICONTROL Duplica]**.
+   * Per un percorso bozza, fare clic su **[!UICONTROL ... Altro]** in alto a destra e scegli **[!UICONTROL Duplica]**.
    * Per tutti gli altri stati del percorso, fai clic su **[!UICONTROL Duplica]** in alto a destra.
 
 1. Nella finestra di dialogo, seleziona il programma **[!UICONTROL Principale]** per il percorso duplicato.
@@ -220,7 +220,7 @@ Utilizza un’azione di eliminazione per eliminare definitivamente un percorso. 
 
    A seconda dello stato del percorso, puoi anche accedere all’azione di eliminazione dall’intestazione del percorso:
 
-   * Per un percorso bozza, fai clic su **[!UICONTROL Altro...]** in alto a destra e scegli **[!UICONTROL Elimina]**.
+   * Per un percorso bozza, fare clic su **[!UICONTROL ... Altro]** in alto a destra e scegli **[!UICONTROL Elimina]**.
    * Per altri stati del percorso, ad esempio _Completato_ o _Interrotto_, fai clic su **[!UICONTROL Elimina]** in alto a destra.
 
 1. Nella finestra di dialogo di conferma, fai clic su **[!UICONTROL Elimina]**.

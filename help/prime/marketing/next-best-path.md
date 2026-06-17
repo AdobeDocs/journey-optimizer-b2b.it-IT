@@ -16,7 +16,7 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 342218380ccd06c072a7195ab37790c82cc1de01
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 1528
 ht-degree: 1%
@@ -62,7 +62,7 @@ Se nessun percorso corrisponde o se il prompt fa riferimento a dati non disponib
 
 ## Aggiungi un nodo percorso migliore successivo {#add-node}
 
-1. Apri il percorso di persone e passa alla mappa del percorso.
+1. Apri il percorso persone e passa all’area di lavoro percorso.
 
 1. Fai clic sull&#39;icona più ( **+** ) in un percorso e scegli **Percorso migliore successivo**.
 
@@ -169,7 +169,7 @@ Dopo aver convalidato i risultati della simulazione:
 
 Una volta che il percorso è attivo, il nodo del percorso migliore successivo viene eseguito al momento dell’esecuzione. Man mano che ogni persona raggiunge il nodo, l’intelligenza artificiale li valuta in tempo reale utilizzando i segnali più recenti e li indirizza al percorso più rilevante.
 
-Per un percorso pubblicato, apri la mappa del percorso e seleziona il nodo del percorso migliore successivo per visualizzare la sezione **_[!UICONTROL Risultati live]_** nel pannello di destra. I risultati live mostrano:
+Per un percorso pubblicato, apri l&#39;area di lavoro del percorso e seleziona il nodo del percorso migliore successivo per visualizzare la sezione **_[!UICONTROL Risultati live]_** nel pannello di destra. I risultati live mostrano:
 
 * La distribuzione percentuale dei profili in ciascun percorso
 * Punteggio di affidabilità per ogni assegnazione di percorso
