@@ -4,19 +4,14 @@ description: 'Configurare i nodi evento per i trigger account e persone: ascolta
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 1880
 ht-degree: 11%
@@ -50,7 +45,7 @@ In un percorso di account, è possibile ascoltare un evento basato sull&#39;acco
 
 ### Aggiungere un evento account
 
-1. Passa alla mappa del percorso.
+1. Passa all’area di lavoro del percorso.
 
 1. Fai clic sull&#39;icona più ( **+** ) in un percorso e scegli **[!UICONTROL Ascolta un evento]**.
 
@@ -102,7 +97,7 @@ In un percorso di account, puoi ascoltare un evento basato sulle persone quando 
 
 ### Aggiungere un evento persone
 
-1. Passa alla mappa del percorso.
+1. Passa all’area di lavoro del percorso.
 
 1. Fai clic sull&#39;icona più ( **+** ) in un percorso e scegli **[!UICONTROL Ascolta un evento]**.
 
@@ -118,7 +113,7 @@ In un percorso di account, puoi ascoltare un evento basato sulle persone quando 
 
 Se nell’istanza Marketo Engage connessa sono presenti pagine web, puoi attivare un evento in base a una visita o a nessuna visita a tali pagine web, nonché ai moduli Marketo Engage che non sono stati compilati.
 
-1. Selezionare un nodo **[!UICONTROL Ascolta un evento]** nella mappa del percorso.
+1. Selezionare un nodo **[!UICONTROL Ascolta un evento]** nell&#39;area di lavoro del percorso.
 
 1. Nelle proprietà del nodo a destra, scegli **[!UICONTROL Persone]** per il tipo di evento.
 
@@ -147,11 +142,11 @@ Se nell’istanza Marketo Engage connessa sono presenti pagine web, puoi attivar
 
 1. Se necessario, impostare l&#39;opzione **[!UICONTROL Timeout]** per limitare il periodo di tempo per l&#39;ascolto dell&#39;evento (vedere [Aggiungere un timeout a un nodo evento](#add-a-timeout-to-an-event-node)).
 
-1. Nella mappa del percorso, aggiungi il nodo successivo da eseguire quando si verifica l’evento.
+1. Nell’area di lavoro del percorso, aggiungi il nodo successivo da eseguire quando si verifica l’evento.
 
 ### Ascolta un evento esperienza {#listen-for-an-experience-event}
 
-Gli amministratori possono selezionare [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale. L’utilizzo degli eventi esperienza nei percorsi è un processo in due fasi:
+Gli amministratori possono selezionare [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale. L’utilizzo degli eventi esperienza nei percorsi è un processo in due fasi:
 
 1. Un amministratore [aggiunge i tipi di evento e i campi di interesse](../admin/configure-aep-events.md#add-an-event) per renderli disponibili in percorsi.
 
@@ -163,7 +158,7 @@ Gli amministratori possono selezionare [Adobe Experience Platform (AEP) Experien
 
 _Per includere un evento esperienza nel percorso :_
 
-1. Selezionare un nodo **[!UICONTROL Ascolta un evento]** nella mappa del percorso.
+1. Selezionare un nodo **[!UICONTROL Ascolta un evento]** nell&#39;area di lavoro del percorso.
 
 1. (Solo percorso di account) Nelle proprietà del nodo a destra, scegli **[!UICONTROL Persone]** per il tipo di evento.
 
@@ -197,7 +192,7 @@ _Per includere un evento esperienza nel percorso :_
 
 1. Se necessario, impostare l&#39;opzione **[!UICONTROL Timeout]** per limitare il periodo di tempo per l&#39;ascolto dell&#39;evento (vedere [Aggiungere un timeout a un nodo evento](#add-a-timeout-to-an-event-node)).
 
-1. Nella mappa del percorso, aggiungi il nodo successivo da eseguire quando si verifica l’evento.
+1. Nell’area di lavoro del percorso, aggiungi il nodo successivo da eseguire quando si verifica l’evento.
 
 1. Completa i nodi rimanenti del percorso e [pubblicalo](./journeys-overview.md).
 
@@ -242,5 +237,5 @@ Se necessario, definisci il tempo di attesa dell’evento da parte del percorso.
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443242/?captions=ita&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->

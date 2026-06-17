@@ -1,21 +1,16 @@
 ---
 title: Nodo di attesa
-description: Placeholder
+description: 'Configurare i nodi di attesa in Journey Optimizer B2B edition Prime: sospendere la progressione del percorso in base a durata, data o pianificazione avanzata di giorno e ora.'
 autotag-review: '2026-06-12T23:04:57.946Z'
 TQID: 'https://experienceleague.adobe.com/XTJRC-qc9xKVYuwAGgDpA97sPJinNGe7OCvATFfwXFU'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c10cdff01356ff3dbce906416f86dd2fd11c6b5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
 workflow-type: tm+mt
-source-wordcount: 656
-ht-degree: 1%
+source-wordcount: 690
+ht-degree: 0%
 
 ---
 
@@ -28,30 +23,30 @@ Esistono due modi per definire il tempo di attesa:
 * Data specifica in cui si desidera passare al nodo successivo nel percorso
 * Una durata relativa (numero di minuti, ore, giorni, settimane o mesi)
 
-## Aggiungi il nodo di attesa
+## Aggiungi il nodo di attesa {#add-wait-node}
 
-1. Passa alla mappa del percorso.
+1. Passa all’area di lavoro del percorso.
 
 1. Fai clic sull&#39;icona più ( **+** ) in un percorso e scegli **[!UICONTROL Attendi]**.
 
-<!-- ![Add journey node - wait](./assets/add-node-wait.png){width="440"} -->
+   ![Fai clic sull&#39;icona Aggiungi nel percorso del percorso](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Per impostare il tempo di attesa prima che il percorso passi al nodo successivo nel percorso, utilizzare le proprietà del nodo a destra per impostare il tipo **[!UICONTROL Type]**.
 
    * **[!UICONTROL Durata]** - Definisci un numero specifico di giorni, ore o minuti tra l&#39;entrata e l&#39;uscita del nodo di attesa.
    * **[!UICONTROL Data]** - Specificare una data e un&#39;ora di uscita.
 
-<!-- ![Journey node - wait](./assets/node-wait.png){width="500"} -->
+   ![nodo Percorso - attendi](./assets/wait-node.png){width="500"}
 
-## Impostazioni di attesa avanzate
+## Impostazioni di attesa avanzate {#advanced-wait-settings}
 
 Abilita l&#39;opzione **[!UICONTROL Deve terminare il]** per configurare un _passaggio di attesa avanzato_ e assicurarsi che i messaggi raggiungano le persone e i membri dell&#39;account nel momento ottimale. Questa configurazione offre un controllo preciso su quando una persona o un account esce da un passaggio di attesa e procede al nodo successivo nel percorso. Invece di un numero fisso di ore o giorni dall&#39;entrata all&#39;uscita, puoi pianificare azioni che si verificano in orari specifici e in giorni specifici della settimana.
 
 Con un _passaggio di attesa avanzato_, puoi definire **_quando_** la persona o l&#39;account esce, non semplicemente per quanto tempo devono attendere.
 
-<!-- ![Journey node - advanced wait step](./assets/node-wait-advanced.png){width="500"} -->
+![nodo Percorso - passaggio di attesa avanzato](./assets/wait-node-advanced.png){width="500"}
 
-### Tipi di attesa
+### Tipi di attesa {#wait-types}
 
 | Tipo di attesa | Descrizione | Configurazione |
 | --------- | ----------- | ------------- |
@@ -60,7 +55,7 @@ Con un _passaggio di attesa avanzato_, puoi definire **_quando_** la persona o l
 | **Intervallo di giorni o combinazione** | Mantieni fino a qualsiasi giorno compreso in un intervallo (ad esempio, dal lunedì al venerdì) o in uno qualsiasi dei giorni specificati | Seleziona i giorni di destinazione. Se non viene specificata un&#39;ora, esce a mezzanotte (per il fuso orario selezionato) nel giorno successivo corrispondente. |
 | **Combinazione tempo + giorno** | Combina entrambi per una pianificazione precisa (ad esempio martedì alle ore 10:00) | Seleziona i giorni di destinazione e imposta l’ora di destinazione. Esci al giorno/ora successiva (per il fuso orario selezionato). |
 
-### Scenari comuni
+### Scenari comuni {#common-scenarios}
 
 Gli scenari seguenti illustrano come applicare esempi tipici alla configurazione dei nodi di attesa:
 
@@ -88,7 +83,7 @@ Gli scenari seguenti illustrano come applicare esempi tipici alla configurazione
 
 +++
 
-### Esempi di entrata e uscita
+### Esempi di entrata e uscita {#entry-exit-examples}
 
 | Attendi configurazione | Inserimenti account/lead | Uscite account/lead |
 | ------------------ | ------------------- | ------------------ |
