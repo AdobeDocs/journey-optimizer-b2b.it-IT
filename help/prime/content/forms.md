@@ -105,7 +105,7 @@ Prima di iniziare a creare moduli riutilizzabili in Journey Optimizer B2B editio
 
 <!--
 Add to context help when available
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
 Puoi creare un modulo in Journey Optimizer B2B edition facendo clic su **[!UICONTROL Crea modulo]** in alto a destra nella pagina dell&#39;elenco _[!UICONTROL Forms]_.
