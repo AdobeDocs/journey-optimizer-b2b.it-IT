@@ -1,5 +1,5 @@
 ---
-title: Recapito messaggi e-mail e configurazione dei canali
+title: Recapito messaggi e-mail e configurazione del canale
 description: Configura la delega dei sottodomini, DMARC, SPF, DKIM, i pool IP e le configurazioni dei canali e-mail per Journey Optimizer B2B Prime.
 autotag-review: '2026-06-12T22:43:42.799Z'
 TQID: 'https://experienceleague.adobe.com/RKZSQkjSRvHixOm2faRT5D-yB00IykXfPO06vvIUQ6k'
@@ -14,46 +14,28 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
 workflow-type: tm+mt
-source-wordcount: 3414
-ht-degree: 0%
+source-wordcount: 3095
+ht-degree: 1%
 
 ---
 
 # Recapito messaggi e-mail e configurazione dei canali
 
-[!DNL Adobe Journey Optimizer B2B Edition] Prime offre agli esperti di marketing B2B un&#39;esperienza moderna di authoring e consegna di e-mail di livello enterprise. Questa versione introduce strumenti di progettazione delle e-mail riprogettati e un set completo di controlli per la consegna delle e-mail.
-
 Le seguenti informazioni sono destinate agli amministratori che configurano l’infrastruttura di invio per supportare gli esperti di marketing e gli autori di e-mail. Descrive le funzioni di recapito messaggi, i ruoli e le autorizzazioni e come configurare sottodomini, autenticazione, pool IP e configurazioni dei canali.
 
 Per informazioni dettagliate sulla creazione di e-mail e sull&#39;authoring del contenuto delle e-mail nello spazio di progettazione delle e-mail, consulta [Authoring e-mail](../content/email-authoring.md).
 
-## Panoramica del canale e-mail {#overview}
-
-* **Strumenti di progettazione delle e-mail mediante trascinamento visivo** - Progetta il contenuto delle e-mail con strutture, componenti di contenuto, temi, supporto in modalità scura e frammenti visivi riutilizzabili.
-* **Configurazioni del canale e-mail** - Gestisci l&#39;identità del mittente, il comportamento della risposta, i tipi di messaggi di marketing e transazionali e il tracciamento.
-* **Controlli per il recapito messaggi e-mail** - Configura il tuo canale di recapito messaggi e-mail, inclusa la delega del sottodominio (metodi Fully Delegated e CNAME), la configurazione automatica di DMARC, SPF/DKIM e il supporto del pool IP condiviso.
-* **Azione Invia e-mail** - Da un percorso, aggiungi un&#39;azione Invia e-mail, inclusa la personalizzazione tramite gli attributi del profilo (sintassi Handlebars).
-* **Risorse di Marketo Design Studio**: scegli immagini e risorse da una copia unica della libreria di risorse Marketo Engage direttamente nell&#39;area di lavoro delle e-mail.
-* **Modelli e frammenti riutilizzabili**: consente di salvare intestazioni, piè di pagina, CTA e layout e-mail comuni e riutilizzarli in percorsi diversi.
-* **RBAC (Role-Based Access Control)**: applica autorizzazioni granulari per la creazione, la modifica, l&#39;approvazione e l&#39;invio di e-mail.
-
 ## Concetti chiave {#key-concepts}
 
-Prima di configurare l’e-mail, controlla questi concetti che si applicano alle funzioni del canale e-mail in tutto il prodotto.
+Prima di configurare l’e-mail, esamina i concetti seguenti che si applicano alle funzioni di consegna del canale e-mail:
 
 | Concetto | Che cosa significa in [!DNL Journey Optimizer B2B Edition] Prime |
 | ------- | ---------------------- |
 | **_Configurazione canale_** | Un set riutilizzabile di impostazioni di invio e-mail, tra cui identità del mittente, indirizzo di risposta, sottodominio, pool IP, tipo di e-mail (marketing o transazionale) e tracciamento, da allegare alle azioni e-mail nei percorsi. Puoi avere più configurazioni di canale denominate per diversi marchi, business unit o tipi di invio. |
 | **_Sottodominio_** | Parte delegata del dominio di invio (ad esempio, `mail.contoso.com`) utilizzata per inviare messaggi di posta elettronica tramite Prime. I sottodomini isolano la reputazione di marketing B2B dalla posta aziendale o transazionale. |
 | **_Pool IP_** | Un gruppo di indirizzi IP associati a uno o più sottodomini. In questa versione, Prime supporta un pool IP condiviso gestito da Adobe; i pool IP dedicati sono inclusi nella roadmap di GA. |
-| **_Spazio di progettazione e-mail_** | L’area di lavoro visiva e gli strumenti di progettazione utilizzati per comporre il contenuto delle e-mail. Include componenti di layout drag-and-drop, modelli, frammenti, temi e un editor di personalizzazione. |
-| **_Modello_** | Layout e-mail riutilizzabile disponibile per la creazione di un nuovo messaggio e-mail. Può essere un modello di esempio integrato fornito da Adobe o un modello personalizzato creato dal team. |
-| **_Frammento visivo_** | Blocco di contenuto riutilizzabile (ad esempio intestazione, piè di pagina, CTA, dichiarazione di non responsabilità legale) che può essere inserito in più e-mail. L’aggiornamento di un frammento propaga la modifica a ogni e-mail che lo utilizza. |
-| **_Tema_** | Predefinito di stile riutilizzabile (colori, composizione tipografica, spaziatura, stili di pulsante) applicato a un messaggio e-mail. |
-| **_Token Personalization_** | Un&#39;espressione Handlebars, ad esempio `{{profile.firstName}}`, è stata risolta in fase di invio utilizzando i dati del profilo di ogni destinatario. |
-| **_Invia azione e-mail_** | Nodo di azione del percorso che utilizza una configurazione di canale e contenuti e-mail per inviare un messaggio e-mail. |
 
 ## Ruoli e autorizzazioni {#roles-permissions}
 
@@ -84,7 +66,7 @@ La maggior parte delle funzionalità di posta elettronica seguono un pattern `vi
 | **Gestire le risorse** | `manage-b2b-assets` | Accesso in lettura e future azioni di gestione delle risorse (ambito Beta). |
 | **Esporta dati messaggio** | `manage-b2b-message-export` | Esporta dati e rapporti dei messaggi a livello di e-mail. |
 
-Entro un percorso, l&#39;azione **Invia e-mail** richiede `manage-b2b-person-journeys` (per aggiungere l&#39;azione e attivare il percorso). Un utente con solo autorizzazioni e-mail può creare contenuti ma non può aggiungere un’e-mail a un percorso.
+All&#39;interno di un percorso di persone, l&#39;azione **Invia e-mail** richiede `manage-b2b-person-journeys` (per aggiungere l&#39;azione e attivare il percorso). Un utente con solo autorizzazioni e-mail può creare contenuti ma non può aggiungere un’e-mail a un percorso.
 
 ### Autorizzazioni di recapito messaggi e-mail {#email-deliverability-permissions}
 
