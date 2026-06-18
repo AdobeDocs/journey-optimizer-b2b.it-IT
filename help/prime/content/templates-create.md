@@ -14,7 +14,7 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6be2e3e71e297ec1498a6252e878cd8c9c7f0894
+source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: 880
 ht-degree: 1%
@@ -171,3 +171,4 @@ Utilizza le seguenti linee guida per ottenere risultati migliori dalla conversio
 * Prima di utilizzare il modello in un percorso, verifica il rendering tra client e dispositivi e-mail.
 * Verifica l’allineamento con i colori del marchio, i font e le linee guida di stile.
 * Rivedi e migliora l’accessibilità, incluso il testo alternativo dell’immagine.
+<!-- -->

@@ -16,7 +16,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 85f61c8fa8eda07dfe8ea1e83f3c261c9159976f
+source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: 495
 ht-degree: 3%
@@ -93,3 +93,4 @@ Seleziona una risorsa nella vista a elenco o a galleria per aprirne la vista dei
 Al termine del caricamento, il sistema genera automaticamente una descrizione, assegna tag e parole chiave ed estrae attributi visivi come l’oggetto e l’impostazione. Non è richiesta alcuna assegnazione tag manuale. La nuova immagine viene visualizzata con lo stato _[!UICONTROL ELABORAZIONE]_ fino al completamento del processo.
 
 ![Nuova risorsa immagine in elaborazione](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
+<!-- -->
