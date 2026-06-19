@@ -1,5 +1,5 @@
 ---
-title: Authoring di e-mail
+title: Contenuto e-mail
 description: Utilizza gli strumenti di progettazione delle e-mail in Journey Optimizer B2B Prime, tra cui modelli e-mail, frammenti, personalizzazione, modalità scura e convalida.
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
@@ -15,22 +15,22 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
-source-wordcount: 2753
+source-wordcount: 2738
 ht-degree: 1%
 
 ---
 
-# Authoring di e-mail
+# Authoring dei contenuti e-mail
 
 In [!DNL Adobe Journey Optimizer B2B Prime], lo spazio di progettazione delle e-mail fornisce un&#39;area di lavoro visiva in cui gli addetti al marketing compongono le e-mail. Gli strumenti di progettazione delle e-mail nei pannelli sinistro e superiore (strutture, componenti di contenuto, modelli, frammenti e altro ancora) supportano la creazione da zero con il trascinamento della selezione. Puoi anche scegliere di iniziare da un modello, incollare HTML non elaborati o assemblare messaggi da frammenti visivi riutilizzabili.
 
 >[!IMPORTANT]
 >
->Per informazioni sulla configurazione da parte dell&#39;amministratore di sottodomini, autenticazione, pool IP e canali e-mail, vedere [Recapito messaggi e-mail e configurazione dei canali](../admin/configuration-email-deliverability.md).
+>Per informazioni sulla configurazione da parte dell&#39;amministratore di sottodomini, autenticazione, pool IP e canali e-mail, vedere [Recapito messaggi e-mail](../start/email-deliverability.md) e [Configurazione canale e-mail](../admin/email-channel-configuration.md).
 
-In [!DNL Journey Optimizer B2B Prime], ogni e-mail è associata a un&#39;azione _[!UICONTROL Invia e-mail]_ in un percorso. L’intero flusso di lavoro dalla progettazione del percorso alla definizione dell’e-mail avviene in un’esperienza continua. Quando [aggiungi un _Invia e-mail_ nodo](../marketing/action-nodes.md#add-an-action-node) a un percorso di persone, fai clic su **[!UICONTROL Crea e-mail]** per avviare il processo di progettazione del contenuto dell&#39;e-mail.
+In [!DNL Adobe Journey Optimizer B2B Prime], ogni e-mail è associata a un&#39;azione _[!UICONTROL Invia e-mail]_ in un percorso. L’intero flusso di lavoro dalla progettazione del percorso alla definizione dell’e-mail avviene in un’esperienza continua. Quando [aggiungi un _Invia e-mail_ nodo](../marketing/action-nodes.md#add-an-action-node) a un percorso di persone, fai clic su **[!UICONTROL Crea e-mail]** per avviare il processo di progettazione del contenuto dell&#39;e-mail.
 
 Questa azione avvia lo spazio di progettazione delle e-mail, in cui puoi scegliere come progettare le e-mail tra le seguenti opzioni:
 
@@ -65,16 +65,13 @@ L’aderenza alle best practice HTML e CSS consente di garantire un rendering co
 
 ## Creazione di un messaggio e-mail da un percorso {#email-from-journey}
 
-1. Fai clic sul pulsante **[!UICONTROL Modifica e-mail]** per procedere al passaggio di configurazione dell&#39;e-mail.
-1. Nella schermata successiva, seleziona una configurazione di canale creata in precedenza dal menu a discesa **[!UICONTROL Configurazione e-mail]**. Sono elencate solo le configurazioni attive.
-1. Inserisci un Etichetta per l’azione (visibile nell’area di lavoro del percorso) e un nome e-mail interno.
-1. Immettere la riga Oggetto.
-1. Facoltativamente, attiva **[!UICONTROL Abilita tracciamento URL]** per questo nodo e-mail.
-1. Fai clic su **[!UICONTROL Modifica contenuto]** per aprire lo spazio di progettazione delle e-mail.
+Per aggiungere un&#39;azione _[!UICONTROL Invia e-mail]_ a un percorso di persone, creare l&#39;e-mail e configurare le impostazioni del canale nella scheda **[!UICONTROL Azioni]**, vedere [Aggiungere e-mail ai percorsi](../marketing/email-channel.md).
+
+Dopo aver configurato l&#39;e-mail nelle schede **[!UICONTROL Proprietà]**, **[!UICONTROL Azioni]** e **[!UICONTROL Contenuto]**, utilizza le sezioni di questo argomento per progettare il corpo dell&#39;e-mail nell&#39;area di progettazione e-mail.
 
 ### Schermata Modifica contenuto {#edit-content-screen}
 
-Da questa schermata puoi confermare i dettagli del mittente (ereditati dalla configurazione del canale), impostare l’oggetto e aprire lo spazio di progettazione dell’e-mail per creare il corpo. Il preheader è configurato nello spazio di progettazione e-mail (vedi [Impostazione del preheader](#preheader)).
+Dalla scheda **[!UICONTROL Contenuto]**, puoi confermare i dettagli del mittente (ereditati dalla [configurazione del canale e-mail](../admin/email-channel-configuration.md)), impostare l&#39;oggetto e aprire lo spazio di progettazione e-mail per creare il corpo. Il preheader è configurato nello spazio di progettazione e-mail (vedi [Impostazione del preheader](#preheader)).
 
 * **Da nome, Da e-mail, Ccn:** Ereditato dalla configurazione del canale. Sola lettura in questa schermata.
 * **Riga oggetto:** Obbligatorio. Personalization è supportato.
@@ -295,10 +292,10 @@ Prima di poter attivare il percorso, il contenuto dell’e-mail deve essere vali
 
 | Avviso | Che cosa significa | Come risolvere |
 | ----- | ------------- | -------------- |
-| **Riga oggetto mancante** | Il campo Oggetto è vuoto. | Apri l’e-mail e immetti un oggetto nella schermata Modifica contenuto. I token Personalization sono consentiti, ma il campo non può essere vuoto. |
+| **Riga oggetto mancante** | Il campo Oggetto è vuoto. | Apri l&#39;e-mail e immetti un oggetto nella scheda **[!UICONTROL Contenuto]**. I token Personalization sono consentiti, ma il campo non può essere vuoto. |
 | **Il corpo dell&#39;email è vuoto** | L’area di lavoro nell’area di progettazione e-mail non ha contenuto. | Fai clic su **[!UICONTROL Modifica corpo dell&#39;e-mail]** per aprire lo spazio di progettazione e-mail. Trascina nell’area di lavoro almeno un componente Struttura e uno Contenuto, quindi fai clic su Salva. |
-| **Configurazione canale non selezionata** | Non è stata scelta alcuna configurazione e-mail per il nodo e-mail. | Nella schermata delle proprietà e-mail, seleziona una configurazione del canale attivo dal menu a discesa **[!UICONTROL Configurazione e-mail]**. |
-| **Configurazione canale eliminata** | La configurazione di canale selezionata in precedenza è stata eliminata o non è più attiva. | Apri le proprietà e-mail e seleziona un’altra configurazione del canale attivo. Se non ne è disponibile alcuna, un amministratore deve crearne o riattivarne una. |
+| **Configurazione canale non selezionata** | Non è stata scelta alcuna configurazione del canale e-mail per il nodo e-mail. | Nella scheda **[!UICONTROL Azioni]**, seleziona una **[!UICONTROL configurazione canale e-mail]** attiva. |
+| **Configurazione canale eliminata** | La configurazione di canale selezionata in precedenza è stata eliminata o non è più attiva. | Nella scheda **[!UICONTROL Azioni]**, seleziona un&#39;altra **[!UICONTROL configurazione canale e-mail attiva]**. Se non ne è disponibile alcuna, un amministratore deve crearne o riattivarne una in [Configurazione canale e-mail](../admin/email-channel-configuration.md). |
 | **La dimensione dell&#39;e-mail supera i 100 KB** | La dimensione totale dell’e-mail (HTML, CSS in linea, contenuto codificato) supera il limite di 100 KB previsto per le best practice ISP. | Riduci la dimensione dell’e-mail: sostituisci immagini in linea di grandi dimensioni con immagini ospitate esternamente da Marketo Design Studio, rimuovi i file CSS in linea non utilizzati, semplifica le strutture nidificate. |
 | **Token di personalizzazione non risolto** | Un token Handlebars fa riferimento a un attributo di profilo senza fallback e l’attributo potrebbe non essere presente per alcuni destinatari. | Aggiungere un fallback utilizzando l&#39;helper Handlebars `default` come descritto in [Personalization](#personalization). In alternativa, limita il pubblico di percorso ai profili in cui l’attributo è garantito. |
 | **Immagine non caricata** | Un componente immagine fa riferimento a una risorsa che non è più disponibile. | Fai clic sull’immagine, apri il selettore risorse e riseleziona la risorsa da Marketo Design Studio. |

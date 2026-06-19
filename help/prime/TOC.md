@@ -2,10 +2,10 @@
 user-guide-title: Documentazione di Journey Optimizer B2B Prime
 user-guide-description: Scopri Adobe Journey Optimizer B2B edition Prime e come utilizzarlo per ?.
 hide: true
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 42%
+ht-degree: 44%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 42%
 + Introduzione {#start}
    + [Elenco di controllo per l’installazione](./start/setup-prime.md)
    + [Gestione degli utenti](./start/user-management.md)
+   + [Recapitabilità delle e-mail](./start/email-deliverability.md)
 + [Home e approfondimenti](./home-insights/home-insights.md)
 + [Agenti](./agents/agents.md)
 + Gestione marketing {#marketing-management}
@@ -33,7 +34,7 @@ ht-degree: 42%
    + Canale e-mail {#email-channel}
       + [Panoramica](./marketing/email-channel.md)
       + [Ottimizzazione dell’ora di invio delle e-mail](./marketing/email-send-time-optimization.md)
-      + [Authoring di e-mail](./content/email-authoring.md)
+      + [Authoring dei contenuti](./content/email-authoring.md)
       + [Progettazione modalità scura](./content/email-dark-mode.md)
    + [Canale WhatsApp](./content/whatsapp-authoring.md)
 + Tipi di pubblico {#audiences}
@@ -54,9 +55,9 @@ ht-degree: 42%
 + Amministrazione {#admin}
    + {hide-from-toc}[Amministrazione](./admin/admin.md)
    + Canali {#channels}
-      + [Recapito messaggi e-mail e configurazione dei canali](./admin/configuration-email-deliverability.md)
-      + [Configurazione del canale SMS](./admin/configuration-channels-sms.md)
-      + [Configurazione del canale web](./admin/configuration-channels-web.md)
+      + [Configurazione del canale e-mail](./admin/email-channel-configuration.md)
+      + {hide-from-toc}[Configurazione del canale SMS](./admin/configuration-channels-sms.md)
+      + {hide-from-toc}[Configurazione canale Web](./admin/configuration-channels-web.md)
       + [Configurazione del canale WhatsApp](./admin/configuration-channels-whatsapp.md)
       + [Configurazione della pagina di destinazione](./admin/configuration-presets-landing-pages.md)
       + [Configurazione predefinito per modulo](./admin/configuration-presets-forms.md)
