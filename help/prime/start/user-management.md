@@ -1,7 +1,7 @@
 ---
 title: Accesso utente e autorizzazioni
 description: 'Gestire l’accesso degli utenti in Adobe Admin Console: crea gruppi di utenti, assegna profili di prodotto e imposta autorizzazioni basate sui ruoli per Journey Optimizer B2B edition Prime.'
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 70%
@@ -305,4 +305,3 @@ Per informazioni sulla gestione degli utenti, vedi [_Utenti Adobe Admin Console_
 1. Fai clic su **[!UICONTROL Salva]**.
 
 Il ruolo personalizzato è configurato e gli utenti del gruppo assegnato possono ora accedere alle funzionalità di Journey Optimizer B2B edition selezionate.
-<!-- -->

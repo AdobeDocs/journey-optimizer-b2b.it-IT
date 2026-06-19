@@ -14,7 +14,7 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
 source-wordcount: 190
 ht-degree: 55%
@@ -42,22 +42,22 @@ Una volta completato il provisioning, le sandbox vengono associate e le attivit√
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
 <td>Creare un profilo di prodotto Marketo Engage in Adobe Admin Console (solo per la nuova istanza di Marketo Engage)</td>
 <td><a href="./user-management.md#create-profile">Ulteriori informazioni</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
 <td>Aggiungere un gruppo di utenti per il profilo</td>
 <td><a href="./user-management.md#add-user-group">Ulteriori informazioni</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
 <td>Configurare i ruoli utente B2B</td>
 <td><a href="./user-management.md#edit-roles-for-product-permissions">Ulteriori informazioni</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
+<td><img src=".../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
 <td>Aggiungere utenti o gruppi ai ruoli</td>
 <td><a href="./user-management.md#add-users-to-a-role">Ulteriori informazioni</a></td>
 </tr>
@@ -81,26 +81,25 @@ Prima che gli esperti di marketing possano inviare e-mail dai percorsi, configur
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
 <td>Delegare un sottodominio ad Adobe</td>
 <td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">Delega completa</a> o <a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
 <td>Configurare DMARC per il sottodominio</td>
 <td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">Ulteriori informazioni</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
 <td>Revisione e assegnazione di un pool IP</td>
 <td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">Ulteriori informazioni</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo"/></td>
 <td>Creare una configurazione del canale e-mail</td>
 <td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">Ulteriori informazioni</a></td>
 </tr>
 </tbody>
 </table>
-<!-- -->
 

@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: 541
 ht-degree: 10%
@@ -119,4 +119,3 @@ Durante la creazione di un predefinito:
 1. Fai clic su **[!UICONTROL Pubblica]**.
 
    Quando il predefinito per moduli è elencato con lo stato _Pubblicato_, è disponibile per la creazione di moduli.
-<!-- -->
