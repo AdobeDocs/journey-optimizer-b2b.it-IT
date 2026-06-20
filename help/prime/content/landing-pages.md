@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 21f0ab524176df40128212fef920e10b06b5c317
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 2180
+source-wordcount: 2164
 ht-degree: 4%
 
 ---
@@ -30,12 +30,12 @@ Casi d’uso comuni per le pagine di destinazione:
 * Raccogli il consenso prima di inviare le comunicazioni e invia un’e-mail di conferma in caso di consenso o rinuncia.
 * Acquisisci o aggiorna i dati del profilo (profilatura progressiva, preferenze, registrazioni e scenari simili) utilizzando i moduli nelle pagine di destinazione.
 * Indirizza le persone a informazioni specifiche per la campagna progettate per l’orchestrazione del percorso.
-* Reindirizza le persone a un modulo web dedicato senza creare una pagina esterna al di fuori di Journey Optimizer B2B Prime.
+* Reindirizza le persone a un modulo web dedicato senza creare una pagina esterna all&#39;esterno di [!DNL Journey Optimizer B2B Prime].
 
 <!-- 
 ## Landing page workflow
 
-To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in Journey Optimizer B2B Edition: 
+To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in [!DNL Journey Optimizer B2B Prime]: 
 
 
 1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
@@ -51,7 +51,7 @@ You can create, personalize, and preview landing pages in the visual design spac
 
 ## Accedere e gestire le pagine di destinazione {#access-manage-landing-pages}
 
-Per accedere alle pagine di destinazione in Journey Optimizer B2B Prime, vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Pagine di destinazione]**. Questa azione visualizza un elenco di tutte le pagine di destinazione create nell’istanza.
+Per accedere alle pagine di destinazione in [!DNL Journey Optimizer B2B Prime], vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Pagine di destinazione]**. Questa azione visualizza un elenco di tutte le pagine di destinazione create nell’istanza.
 
 L&#39;elenco è ordinato in base alla colonna _[!UICONTROL Modificato]_, con gli elementi aggiornati più di recente nella parte superiore. Fai clic sul titolo della colonna per passare da crescente a decrescente.
 
@@ -78,7 +78,7 @@ Lo stato della pagina di destinazione determina la disponibilità del collegamen
 | Stato | Descrizione |
 | -------------------- | ----------- |
 | Bozza | Quando crei una pagina di destinazione, questa si trova nello stato Bozza. Rimane in questo stato mentre definisci o modifichi il contenuto visivo e fino a quando non lo pubblichi come pagina in hosting. Azioni disponibili:<br/><ul><li>Modifica nome o descrizione</li><li>Modifica URL collegamento</li><li>Modifica nello spazio di progettazione visiva</li><li>Pubblica</li><li>Duplica</li><li>Elimina</li></ul> |
-| Pubblicato | Quando pubblichi una pagina di destinazione, questa viene ospitata sull’istanza Prime B2B di Journey Optimizer e diventa disponibile per il collegamento in un contenuto di un messaggio e-mail o SMS. Azioni disponibili:<br/><ul><li>Modifica nome o descrizione</li><li>Modifica URL collegamento</li><li>Aggiungere un collegamento nel contenuto di un messaggio e-mail o SMS</li><li>Crea versione bozza</li><li>Duplica</li><li>Elimina</li></ul> |
+| Pubblicato | Quando pubblichi una pagina di destinazione, questa è ospitata nell&#39;istanza [!DNL Journey Optimizer B2B Prime] e diventa disponibile per il collegamento in un contenuto di un messaggio e-mail o SMS. Azioni disponibili:<br/><ul><li>Modifica nome o descrizione</li><li>Modifica URL collegamento</li><li>Aggiungere un collegamento nel contenuto di un messaggio e-mail o SMS</li><li>Crea versione bozza</li><li>Duplica</li><li>Elimina</li></ul> |
 | Pubblicato con bozza | Quando crei una bozza da una pagina di destinazione pubblicata, la versione pubblicata rimane e il contenuto della bozza può essere modificato nello spazio di progettazione visiva. Se pubblichi la bozza della versione, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nella pagina ospitata. Azioni disponibili:<br/><ul><li>Modifica nome o descrizione</li><li>Modifica URL collegamento</li><li>Aggiungere un collegamento nel contenuto di un messaggio e-mail o SMS</li><li>Modifica versione bozza in Visual Design Space</li><li>Pubblica versione bozza</li><li>Duplica</li><li>Elimina (elimina entrambe le versioni)</li><li>Elimina bozza (torna allo stato pubblicato)</li></ul> |
 
 <!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
@@ -175,7 +175,7 @@ Per definire le impostazioni della pagina principale, effettuare le seguenti ope
 >title="Visualizzare l’anteprima e testare la pagina di destinazione"
 >abstract="Dopo aver definito le impostazioni e il contenuto della pagina di destinazione, utilizza i profili di test per visualizzare l’anteprima della pagina."
 
-Una volta definiti le impostazioni e il contenuto della pagina di destinazione, puoi utilizzare i profili di test per visualizzare l’anteprima della pagina. Se hai inserito [contenuto personalizzato](email-authoring.md#personalization), puoi controllare come questo contenuto viene visualizzato nella pagina di destinazione utilizzando i dati del profilo di test.
+Una volta definiti le impostazioni e il contenuto della pagina di destinazione, puoi utilizzare i profili di test per visualizzare l’anteprima della pagina. Se hai inserito [contenuto personalizzato](email-authoring.md#personalize-content), puoi controllare come questo contenuto viene visualizzato nella pagina di destinazione utilizzando i dati del profilo di test.
 
 >[!PREREQUISITES]
 >
@@ -299,7 +299,7 @@ Questa azione apre una finestra di dialogo di conferma. È possibile interromper
 
 ## Collegamento a una pagina di destinazione {#link-to-landing-page}
 
-In qualità di addetto al marketing o creativo che produce e-mail, frammenti e contenuti di pagina, puoi incorporare collegamenti alle pagine di destinazione pubblicate (live) create nell’istanza Prime B2B di Journey Optimizer.
+In qualità di addetto al marketing o creativo che produce contenuti per e-mail, frammenti e pagine, puoi incorporare collegamenti alle pagine di destinazione pubblicate (live) create nell&#39;istanza [!DNL Journey Optimizer B2B Prime].
 
 1. Quando lavori nello spazio di progettazione visiva per un frammento, un’e-mail, una pagina di destinazione o un modello, seleziona una parte di testo, un componente pulsante o un componente immagine per il collegamento.
 

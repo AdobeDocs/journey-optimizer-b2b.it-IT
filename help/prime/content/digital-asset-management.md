@@ -1,6 +1,6 @@
 ---
 title: Risorse
-description: Gestisci le risorse immagine da Journey Optimizer B2B edition per e-mail, modelli e frammenti visivi.
+description: Gestisci le risorse immagine da Journey Optimizer B2B Prime per e-mail, modelli e frammenti visivi.
 feature: Assets, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione fa parte di una versione beta limitata."
@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 524
-ht-degree: 5%
+source-wordcount: 786
+ht-degree: 18%
 
 ---
 
@@ -91,3 +91,29 @@ Seleziona una risorsa nella vista a elenco o a galleria per aprirne la vista dei
 Al termine del caricamento, il sistema genera automaticamente una descrizione, assegna tag e parole chiave ed estrae attributi visivi come l’oggetto e l’impostazione. Non è richiesta alcuna assegnazione tag manuale. La nuova immagine viene visualizzata con lo stato _[!UICONTROL ELABORAZIONE]_ fino al completamento del processo.
 
 ![Nuova risorsa immagine in elaborazione](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
+
+## Utilizzare le risorse per l’authoring dei contenuti {#assets-authoring}
+
+Utilizza le risorse durante l’authoring di e-mail, modelli di e-mail e frammenti visivi. L&#39;editor del contenuto visivo fornisce l&#39;accesso alle immagini nella libreria _Assets_. Puoi anche caricare una risorsa di immagine, che la inserisce nell’archivio delle risorse interno.
+
+Puoi scegliere la risorsa immagine quando modifichi le impostazioni per un componente immagine o direttamente sull’area di lavoro:
+
+* **_Componente vuoto_** - Quando si aggiunge un componente immagine all&#39;area di lavoro, questo è vuoto e consente di scegliere o importare facilmente un file di immagine.
+
+  ![Scegliere un’origine per selezionare un file di immagine per il componente immagine vuoto](./assets/dam-assets-image-component-empty.png){width="500"}
+
+* **_Barra degli strumenti del componente immagine_** - Se nell&#39;area di lavoro è selezionato un componente immagine, la barra degli strumenti consente di scegliere facilmente un&#39;origine e selezionare il file immagine.
+
+  ![Utilizzare la barra degli strumenti per la scelta dell’origine da cui selezionare un file di immagine per il componente immagine](./assets/dam-assets-image-toolbar-settings.png){width="500"}
+
+* **_Impostazioni del componente immagine_** - Se nell&#39;area di lavoro è selezionato un componente immagine, è possibile visualizzare e modificare le impostazioni nel pannello di destra. Per aggiungere o modificare il file immagine visualizzato nel componente, scegli il tipo di origine e seleziona un file di immagine.
+
+  ![Modifica le impostazioni del componente immagine nel pannello a destra](./assets/dam-assets-image-settings.png){width="350"}
+
+Fai clic su **[!UICONTROL Seleziona risorsa]** per aprire il selettore risorse, in cui puoi scegliere un&#39;immagine dall&#39;archivio risorse [!DNL Journey Optimizer B2B Prime].
+
+![Seleziona una risorsa immagine](./assets/dam-assets-internal-image-selected.png){width="700" zoomable="yes"}
+
+Puoi utilizzare la ricerca e i filtri per individuare la risorsa immagine desiderata. Seleziona la risorsa e fai clic su **[!UICONTROL Seleziona]** per utilizzarla per il componente immagine.
+
+Puoi anche scegliere una risorsa immagine nelle impostazioni dello sfondo di un componente struttura.

@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: 492
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 # Modelli e-mail
 
-I modelli e-mail in [!DNL Journey Optimizer B2B Edition Prime] consentono agli esperti di contenuto di creare layout e-mail riutilizzabili in modo indipendente, in modo che i team di marketing possano applicarli tra i percorsi di account senza dover ricreare le progettazioni ogni volta.
+I modelli e-mail in [!DNL Adobe Journey Optimizer B2B Prime] consentono agli esperti di contenuto di creare layout e-mail riutilizzabili in modo indipendente, in modo che i team di marketing possano applicarli tra i percorsi di account senza dover ricreare le progettazioni ogni volta.
 
 >[!NOTE]
 >
@@ -87,4 +87,4 @@ Selezionare la casella di controllo accanto a ogni modello che si desidera rimuo
 
 ## Utilizzare un modello in un messaggio e-mail {#use-in-journey}
 
-Durante la creazione di un messaggio e-mail in un percorso, la sezione **[!UICONTROL Seleziona modello struttura]** consente di scegliere tra modelli salvati o modelli di esempio. Fai clic sulla miniatura di un modello per visualizzarne l&#39;anteprima, quindi fai clic su **[!UICONTROL Usa questo modello]** per applicarlo. Consulta [Authoring di e-mail](email-authoring.md#templates) per il flusso di lavoro completo.
+Durante la creazione di un messaggio e-mail in un percorso, la sezione **[!UICONTROL Seleziona modello struttura]** consente di scegliere tra modelli salvati o modelli di esempio. Fai clic sulla miniatura di un modello per visualizzarne l&#39;anteprima, quindi fai clic su **[!UICONTROL Usa questo modello]** per applicarlo. Per informazioni sulla posizione in cui la selezione del modello si inserisce nel flusso di lavoro generale delle e-mail, vedere [Creazione del contenuto delle e-mail](./email-authoring.md).

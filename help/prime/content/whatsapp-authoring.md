@@ -15,22 +15,22 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 21a905201c3fc49f2e825dea2a0f0cc76f7b285f
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: 803
 ht-degree: 1%
 
 ---
 
 # Authoring WhatsApp
 
-Utilizza Journey Optimizer B2B Prime per inviare messaggi WhatsApp alle persone sui loro dispositivi mobili. Puoi creare, personalizzare e visualizzare in anteprima i messaggi utilizzando modelli di messaggio approvati da Meta dall’editor WhatsApp.
+Utilizza [!DNL Adobe Journey Optimizer B2B Prime] per inviare messaggi WhatsApp a persone sui loro dispositivi mobili. Puoi creare, personalizzare e visualizzare in anteprima i messaggi utilizzando modelli di messaggio approvati da Meta dall’editor WhatsApp.
 
 Prima di creare messaggi WhatsApp per percorsi di persone, assicurati di disporre di un [canale WhatsApp configurato](../admin/configuration-channels-whatsapp.md) nelle impostazioni _[!UICONTROL Amministratore]_.
 
 >[!NOTE]
 >
->Solo gli elementi di messaggio WhatsApp _in uscita_ sono supportati in Journey Optimizer B2B Prime.
+>In [!DNL Journey Optimizer B2B Prime] sono supportati solo gli elementi di messaggio WhatsApp _in uscita_.
 
 +++ Elementi del messaggio supportati e opzioni call-to-action
 
@@ -91,7 +91,7 @@ Puoi impostare le consegne dei messaggi WhatsApp in un percorso di persone quand
 
 ### Seleziona un modello di messaggio {#select-message-template}
 
-I messaggi WhatsApp vengono inviati utilizzando modelli di messaggio preapprovati dal tuo account aziendale Meta WhatsApp. **I modelli devono essere revisionati e approvati da Meta** prima di poter essere utilizzati in Journey Optimizer B2B Prime. Per gestire e inviare i modelli per l&#39;approvazione, rivolgersi all&#39;amministratore dell&#39;account [!DNL Meta Business Manager].
+I messaggi WhatsApp vengono inviati utilizzando modelli di messaggio preapprovati dal tuo account aziendale Meta WhatsApp. **I modelli devono essere revisionati e approvati da Meta** prima di poter essere utilizzati in [!DNL Journey Optimizer B2B Prime]. Per gestire e inviare i modelli per l&#39;approvazione, rivolgersi all&#39;amministratore dell&#39;account [!DNL Meta Business Manager].
 
 1. Per **[!UICONTROL Selezionare la categoria modello]**, scegliere una delle opzioni seguenti:
 

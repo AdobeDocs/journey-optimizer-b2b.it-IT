@@ -1,20 +1,25 @@
 ---
 title: Moduli
 description: 'Creazione e gestione di moduli riutilizzabili per la raccolta dati aziendali: progettare campi, impostare pagine di ringraziamento, pubblicare e tenere traccia dell’utilizzo in Journey Optimizer B2B Prime.'
-autotag-review: '2026-06-12T22:53:03.357Z'
+autotag-review: '2026-06-19T23:02:49.150Z'
 TQID: 'https://experienceleague.adobe.com/iwrvFvR6amcRnXyPd3PoDZ8FU9zITH9i3B172QDTAn0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
   - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 2281
+source-wordcount: 2261
 ht-degree: 2%
 
 ---
@@ -31,7 +36,7 @@ La quantità di informazioni che il modulo deve acquisire dipende dal valore del
 >
 
 <!-- 
->Form creation in Journey Optimizer B2B Edition requires the following [permissions](../start/user-management.md#b2b-product-permissions):
+>Form creation in [!DNL Journey Optimizer B2B Prime] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
 >
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Read B2C Forms]_ - Required to access and view forms.
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Manage B2C Forms]_ - Required to create, update, and delete forms.
@@ -40,7 +45,7 @@ La quantità di informazioni che il modulo deve acquisire dipende dal valore del
 
 ## Accedere e gestire i moduli {#view-forms}
 
-Per accedere ai moduli in Journey Optimizer B2B edition, vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Forms]**. Questa azione consente di aprire una pagina di elenco in cui vengono visualizzati tutti i moduli creati nell’istanza.
+Per accedere ai moduli in [!DNL Journey Optimizer B2B Prime], passa alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Forms]**. Questa azione consente di aprire una pagina di elenco in cui vengono visualizzati tutti i moduli creati nell’istanza.
 
 <!-- ![Access the forms library](./assets/forms-list.png){width="800" zoomable="yes"} -->
 
@@ -74,7 +79,7 @@ Nella finestra di dialogo, seleziona le colonne da visualizzare e fai clic su **
 
 ## Creare moduli {#create-forms}
 
-Prima di iniziare a creare moduli riutilizzabili in Journey Optimizer B2B edition è necessario considerare diversi aspetti:
+Prima di iniziare a creare moduli riutilizzabili in [!DNL Journey Optimizer B2B Prime], è necessario prendere in considerazione diversi aspetti:
 
 * Determinare i moduli necessari.
 
@@ -108,7 +113,7 @@ Add to context help when available
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
-Puoi creare un modulo in Journey Optimizer B2B edition facendo clic su **[!UICONTROL Crea modulo]** in alto a destra nella pagina dell&#39;elenco _[!UICONTROL Forms]_.
+Puoi creare un modulo in [!DNL Journey Optimizer B2B Prime] facendo clic su **[!UICONTROL Crea modulo]** in alto a destra nella pagina dell&#39;elenco _[!UICONTROL Forms]_.
 
 1. Nella finestra di dialogo _[!UICONTROL Crea modulo]_, immetti un **[!UICONTROL Nome]** (obbligatorio) e una **[!UICONTROL Descrizione]** (facoltativo) utili.
 
@@ -156,7 +161,7 @@ Nel pannello _[!UICONTROL Riepilogo]_ a destra, scorri fino alla sezione **[!UIC
 
 * **[!UICONTROL Resta a pagina]** - Scegli questa opzione per mantenere il visitatore sulla stessa pagina al momento dell&#39;invio del modulo.
 
-* **[!UICONTROL Pagina di destinazione]** - Scegli questa opzione per selezionare una pagina di destinazione di Journey Optimizer B2B edition come follow-up.
+* **[!UICONTROL Pagina di destinazione]** - Scegli questa opzione per selezionare una pagina di destinazione [!DNL Journey Optimizer B2B Prime] come follow-up.
 
 * **[!UICONTROL URL esterno]** - Scegliere questa opzione per specificare qualsiasi URL come pagina di follow-up. Dopo che il visitatore ha inviato il modulo, il browser carica l’URL designato.
 
@@ -188,7 +193,7 @@ Uscire dalla visualizzazione in qualsiasi momento facendo clic sulla freccia _In
 
 ## Visualizza riferimenti modulo utilizzato da
 
-Nel pannello _[!UICONTROL Riepilogo]_ a destra, fai clic sulla scheda **[!UICONTROL Usato da]** per visualizzare i dettagli sulla posizione in cui il modulo è attualmente utilizzato in Journey Optimizer B2B edition, tra le pagine di destinazione e i modelli di pagina di destinazione.
+Nel pannello _[!UICONTROL Riepilogo]_ a destra, fai clic sulla scheda **[!UICONTROL Usato da]** per visualizzare i dettagli della posizione in cui il modulo è attualmente utilizzato in [!DNL Journey Optimizer B2B Prime], tra le pagine di destinazione e i modelli di pagina di destinazione.
 
 >[!IMPORTANT]
 >
