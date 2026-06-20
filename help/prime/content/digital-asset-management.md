@@ -6,10 +6,16 @@ role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione fa parte di una versione beta limitata."
 autotag-review: '2026-06-18T20:11:57.611Z'
 TQID: 'https://experienceleague.adobe.com/Xsl4zqpk4xqXuOS85Z5U08tnbv8GWm3FXdqsegPCBI4'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975fid: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
 source-wordcount: 786
@@ -41,7 +47,7 @@ Nel menu di navigazione a sinistra, espandi **[!UICONTROL Gestione contenuto]** 
 
 >[!BEGINSHADEBOX]
 
-La prima volta che accedi alla libreria _[!UICONTROL Assets]_, rivedi le [_[!UICONTROL Condizioni d&#39;uso generative per l&#39;intelligenza artificiale ]_](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) e conferma il tuo contratto.
+La prima volta che accedi alla libreria _[!UICONTROL Assets]_, rivedi le [_[!UICONTROL Condizioni d&#39;uso generative per l&#39;intelligenza artificiale &#x200B;]_](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) e conferma il tuo contratto.
 
 ![Finestra di dialogo del contratto Generative AI Terms of Use nella libreria Assets](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 
