@@ -1,9 +1,9 @@
 ---
 title: Authoring dei contenuti - importare HTML
 description: Sezione riutilizzata sull’importazione dall’authoring dei contenuti HTML
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '139'
 ht-degree: 17%
 
 ---
@@ -21,6 +21,6 @@ Il contenuto importato può essere:
 
 _Per importare un file contenente contenuto HTML :_
 
-1. Dalla home page di _[!UICONTROL Progettare il modello]_, selezionare l&#39;opzione **[!UICONTROL Importa HTML]**.
+1. Nella home page di progettazione selezionare l&#39;opzione **[!UICONTROL Importa HTML]**.
 
 1. Trascina il file HTML o .zip con il contenuto HTML e fai clic su **[!UICONTROL Importa]**.
