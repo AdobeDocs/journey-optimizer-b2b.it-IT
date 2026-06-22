@@ -6,19 +6,13 @@ feature: Content Design Tools
 role: User
 autotag-review: '2026-06-19T22:49:14.999Z'
 TQID: 'https://experienceleague.adobe.com/4yZyKIShtXQ1KgivMKaGMwH03sbmeqmURY3kttX6hyI'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 1656
+source-wordcount: 1633
 ht-degree: 5%
 
 ---
@@ -45,7 +39,7 @@ ht-degree: 5%
 >title="Informazioni sui componenti di struttura"
 >abstract="I componenti di struttura sono elementi di layout che possono essere utilizzati per progettare la struttura di un modello."
 
-Utilizza i _componenti struttura_ nell&#39;area di progettazione visiva per definire la struttura del contenuto. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento della selezione, puoi definire rapidamente la forma del layout del contenuto. Ogni componente struttura occupa lo spazio orizzontale e può essere impilato per creare il layout in verticale. Dividi ogni componente in colonne per formare ogni blocco di contenuto necessario, quindi aggiungi [componenti di contenuto](./content-components.md) al suo interno per popolare il layout.
+Utilizza i _componenti struttura_ nell&#39;area di progettazione visiva per definire la struttura del contenuto. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento della selezione, puoi definire rapidamente la forma del layout del contenuto. Ogni componente struttura occupa lo spazio orizzontale e può essere impilato per creare il layout in verticale. <!-- Divide each component into columns to form each content block that you need, then add [content components](./content-components.md) inside them to populate the layout. -->
 
 ## Libreria struttura {#structure-library}
 
