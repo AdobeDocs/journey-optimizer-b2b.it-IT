@@ -3,21 +3,16 @@ title: Aggiungi CSS personalizzato per il contenuto
 description: Aggiungi CSS personalizzato alle e-mail e alle pagine di destinazione per uno stile avanzato e un controllo preciso della progettazione oltre i componenti standard in Journey Optimizer B2B Prime.
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
+badgeBeta: label="Beta" type="informative" tooltip="Questa funzione fa parte di una versione beta limitata."
 autotag-review: '2026-06-19T22:00:56.704Z'
 TQID: 'https://experienceleague.adobe.com/z0vACEVhY2WZcSgeO3Kbx7ceSNsf4Se3DZut36xnN4E'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c9ba0bd460bf68ea46c2641b8044f23c9656334b
 workflow-type: tm+mt
-source-wordcount: 557
+source-wordcount: 567
 ht-degree: 0%
 
 ---
@@ -200,7 +195,7 @@ body {
 
 Se desideri utilizzare CSS personalizzati con il contenuto importato nell’e-mail o nello spazio di progettazione della pagina di destinazione, considera quanto segue:
 
-* Se si importa contenuto HTML esterno, inclusi i file CSS, <!-- unless converting that content, -->verrà popolato in [!UICONTROL Modalità di compatibilità] e la sezione [!UICONTROL Stili CSS] non sarà disponibile.
+* Se si importa contenuto HTML esterno, incluso CSS, viene popolato in [!UICONTROL Modalità di compatibilità] e la sezione [!UICONTROL Stili CSS] non è disponibile.
 
 * Se importi contenuto creato originariamente nell&#39;area di progettazione dell&#39;e-mail o della pagina di destinazione con l&#39;opzione [!UICONTROL Aggiungi CSS personalizzato], il CSS applicato sarà visibile e modificabile dalla stessa opzione.
 
