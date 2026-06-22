@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 2209
+source-wordcount: 2192
 ht-degree: 2%
 
 ---
@@ -136,7 +136,9 @@ Per istruzioni dettagliate sull&#39;anteprima, sulla configurazione delle impost
 
 ### Aggiungere componenti struttura e contenuto {#components}
 
-Crea il layout e-mail aggiungendo [componenti struttura](./structure-components.md) e [componenti contenuto](./content-components.md) all&#39;area di lavoro. Trascina gli elementi dalle sezioni **[!UICONTROL Strutture]** e **[!UICONTROL Contenuti]** nel pannello a sinistra, quindi configura ogni componente nelle schede _[!UICONTROL Impostazioni]_ e _[!UICONTROL Stili]_ a destra.
+<!-- Build your email layout by adding [structure components](./structure-components.md) and [content components](./content-components.md) to the canvas. -->
+
+Trascina gli elementi dalle sezioni **[!UICONTROL Strutture]** e **[!UICONTROL Contenuti]** nel pannello a sinistra, quindi configura ogni componente nelle schede _[!UICONTROL Impostazioni]_ e _[!UICONTROL Stili]_ a destra.
 
 ### Aggiungere CSS personalizzato {#custom-css}
 
@@ -219,7 +221,7 @@ Per ulteriori informazioni sull&#39;utilizzo delle risorse, vedere [_Utilizzare 
 
 ### Spostarsi tra livelli, impostazioni e stili {#navigation-layers}
 
-Utilizza la struttura di navigazione per selezionare componenti e colonne, quindi regolane impostazioni e stili nel pannello di destra. Vedi [Struttura di navigazione](./structure-components.md#navigation-tree).
+Utilizza la struttura di navigazione per selezionare componenti e colonne, quindi regolane impostazioni e stili nel pannello di destra. <!-- See [Navigation tree](./structure-components.md#navigation-tree). -->
 
 ### Personalizzazione dei contenuti {#personalize-content}
 
@@ -281,7 +283,7 @@ Per informazioni dettagliate sugli strumenti e sulla sintassi dell&#39;editor di
 
 Utilizza i controlli per l’anteprima desktop e mobile nella barra degli strumenti e-mail design space per rivedere il layout dell’e-mail prima di salvarla. Passa all&#39;anteprima in modalità scura per verificare la leggibilità e il contrasto (vedi [Modalità scura per contenuti e-mail](./email-dark-mode.md)).
 
-I profili di test, **[!UICONTROL Simula contenuto]** e invia flussi di lavoro di bozza non sono disponibili in questa versione di Beta. Consulta [Limitazioni correnti](../marketing/email-channel.md#limitations) nella panoramica del canale e-mail.
+I profili di test, [!UICONTROL Simula contenuto] e invia flussi di lavoro di bozza non sono disponibili in questa versione di Beta. Consulta [Limitazioni correnti](../marketing/email-channel.md#limitations) nella panoramica del canale e-mail.
 
 Rivedi [Convalida del contenuto delle e-mail](#validation) per gli avvisi sul contenuto da risolvere prima dell&#39;attivazione del percorso.
 

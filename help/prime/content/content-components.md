@@ -16,9 +16,9 @@ subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 2840
+source-wordcount: 2820
 ht-degree: 7%
 
 ---
@@ -45,7 +45,9 @@ ht-degree: 7%
 >title="Informazioni sui componenti per contenuti"
 >abstract="I componenti per contenuti sono dei segnaposti di contenuto vuoti che possono essere utilizzati per progettare un modello."
 
-Quando si progetta contenuto per e-mail, pagine di destinazione, modelli e frammenti visivi, utilizzare [!UICONTROL Componenti contenuto] per aggiungere elementi di progettazione visiva. Puoi aggiungere tutti i componenti di contenuto necessari all&#39;interno di uno o più [componenti struttura](./structure-components.md), che definiscono il layout.
+Quando si progetta contenuto per e-mail, pagine di destinazione, modelli e frammenti visivi, utilizzare [!UICONTROL Componenti contenuto] per aggiungere elementi di progettazione visiva.
+
+<!-- You can add as many content components as you need inside one or more [structure components](./structure-components.md), which define the layout. -->
 
 ## Libreria dei contenuti
 

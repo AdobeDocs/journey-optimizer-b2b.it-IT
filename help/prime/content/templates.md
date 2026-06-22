@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 224d6a6f8ca33d2f0d675254bf010f76a5c30e99
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: 495
 ht-degree: 1%
 
 ---
@@ -87,4 +87,4 @@ Selezionare la casella di controllo accanto a ogni modello che si desidera rimuo
 
 ## Utilizzare un modello in un messaggio e-mail {#use-in-journey}
 
-Durante la creazione di un messaggio e-mail in un percorso, la sezione **[!UICONTROL Seleziona modello struttura]** consente di scegliere tra modelli salvati o modelli di esempio. Fai clic sulla miniatura di un modello per visualizzarne l&#39;anteprima, quindi fai clic su **[!UICONTROL Usa questo modello]** per applicarlo. Per informazioni sulla posizione in cui la selezione del modello si inserisce nel flusso di lavoro generale delle e-mail, vedere [Creazione del contenuto delle e-mail](./email-authoring.md).
+Durante la creazione di un messaggio e-mail in un percorso, la sezione **[!UICONTROL Seleziona modello struttura]** consente di scegliere tra modelli salvati o modelli di esempio. Fai clic sulla miniatura di un modello per visualizzarne l&#39;anteprima, quindi fai clic su **[!UICONTROL Usa questo modello]** per applicarlo. Per informazioni su come utilizzare i modelli nel flusso di lavoro di authoring di e-mail, consulta [Authoring di contenuti e-mail](./email-authoring.md#templates).
