@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
+source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
 workflow-type: tm+mt
-source-wordcount: 2192
+source-wordcount: 2209
 ht-degree: 2%
 
 ---
@@ -136,7 +136,7 @@ Per istruzioni dettagliate sull&#39;anteprima, sulla configurazione delle impost
 
 ### Aggiungere componenti struttura e contenuto {#components}
 
-<!-- Build your email layout by adding [structure components](./structure-components.md) and [content components](./content-components.md) to the canvas. -->
+Crea il layout e-mail aggiungendo [componenti struttura](./structure-components.md) e [componenti contenuto](./content-components.md) all&#39;area di lavoro.
 
 Trascina gli elementi dalle sezioni **[!UICONTROL Strutture]** e **[!UICONTROL Contenuti]** nel pannello a sinistra, quindi configura ogni componente nelle schede _[!UICONTROL Impostazioni]_ e _[!UICONTROL Stili]_ a destra.
 
@@ -221,7 +221,7 @@ Per ulteriori informazioni sull&#39;utilizzo delle risorse, vedere [_Utilizzare 
 
 ### Spostarsi tra livelli, impostazioni e stili {#navigation-layers}
 
-Utilizza la struttura di navigazione per selezionare componenti e colonne, quindi regolane impostazioni e stili nel pannello di destra. <!-- See [Navigation tree](./structure-components.md#navigation-tree). -->
+Utilizza la struttura di navigazione per selezionare componenti e colonne, quindi regolane impostazioni e stili nel pannello di destra. Vedi [Struttura di navigazione](./structure-components.md#navigation-tree).
 
 ### Personalizzazione dei contenuti {#personalize-content}
 
