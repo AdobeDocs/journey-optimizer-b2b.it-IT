@@ -16,9 +16,9 @@ subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: edeafa25a378f340cca12b4af0a977baf4303698
+source-git-commit: 205013add5060318d46a2b048bb347003c167470
 workflow-type: tm+mt
-source-wordcount: 1022
+source-wordcount: 1015
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 7%
 >title="Informazioni sull’editor di personalizzazione"
 >abstract="L’editor di personalizzazione ti consente di selezionare, disporre, personalizzare e convalidare gli attributi del profilo per creare contenuti personalizzati."
 
-L&#39;editor di personalizzazione è il fulcro della personalizzazione in [!DNL Journey Optimizer B2B Prime]. Utilizzalo ovunque ti serva contenuto dinamico: in [e-mail](./email-authoring.md#personalize-content), [messaggi WhatsApp](./whatsapp-authoring.md#personalize-message-content), [pagine di destinazione](./landing-pages.md) e campi URL.
+L&#39;editor di personalizzazione è il fulcro della personalizzazione in [!DNL Journey Optimizer B2B Prime]. Utilizzalo ovunque tu abbia bisogno di contenuti dinamici: nelle e-mail, nei messaggi WhatsApp, nelle pagine di destinazione e nei campi URL.
 
 Nell’interfaccia dell’editor di personalizzazione puoi selezionare, disporre, personalizzare e convalidare gli attributi del profilo per creare contenuti personalizzati.
 
@@ -44,7 +44,7 @@ Puoi aggiungere la personalizzazione in qualsiasi campo con l&#39;icona _Persona
 
 +++E-mail e messaggi WhatsApp
 
-Nelle e-mail e nei [messaggi WhatsApp](./whatsapp-authoring.md#personalize-message-content), è possibile aggiungere la personalizzazione in posizioni diverse, ad esempio nel campo **[!UICONTROL Oggetto]** di un messaggio e-mail o in parametri dinamici di un modello WhatsApp approvato.
+In [messaggi e-mail](./email-authoring.md#personalize-content) e [messaggi WhatsApp](./whatsapp-authoring.md#personalize-message-content), è possibile aggiungere la personalizzazione in posizioni diverse, ad esempio il campo **[!UICONTROL Oggetto]** in un messaggio e-mail o parametri dinamici in un modello WhatsApp approvato.
 
 Può essere aggiunto anche in altre sezioni del contenuto, tra cui il testo del corpo dell’e-mail, le preintestazioni e gli URL dei pulsanti.
 
@@ -174,8 +174,6 @@ In questo caso **jobTitle** è una stringa e non un array:
 * **Sintassi Handlebars non valida. Trovato`'[XYZ}}'`**
 
 Questo errore si verifica quando viene utilizzata una sintassi Handlebars non valida.
-
-Le espressioni Handlebars sono circondate solo da `{{` e `}}`.
 
 ```handlebars
 {{[profile.firstName}}
