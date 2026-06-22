@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
+source-git-commit: 598f728a271bf23752dec2b0056bcc3a14a88b32
 workflow-type: tm+mt
-source-wordcount: 1633
+source-wordcount: 1634
 ht-degree: 5%
 
 ---
@@ -121,7 +121,7 @@ Con la scheda _[!UICONTROL Stili]_ selezionata nel pannello di destra, utilizza 
 
 #### [!UICONTROL Colore di sfondo]
 
-Selezionare la casella di controllo e fare clic sul quadrato del colore per scegliere un colore dal selettore. È possibile scegliere un colore immettendo un valore RGB, HSL, HSB o esadecimale noto. In alternativa, utilizzare il cursore del colore e il campo del colore per selezionare il colore.
+Selezionare la casella di controllo e fare clic sul quadrato di colore per scegliere un colore dal selettore. È possibile scegliere un colore immettendo un valore RGB, HSL, HSB o esadecimale noto. In alternativa, utilizzare il cursore del colore e il campo del colore per selezionare il colore.
 
 ![Selettore colore di sfondo](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 

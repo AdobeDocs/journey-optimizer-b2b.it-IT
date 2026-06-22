@@ -16,13 +16,14 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c9ba0bd460bf68ea46c2641b8044f23c9656334b
+source-git-commit: 68ce728130c78df150ba3041859dcb593a9a709b
 workflow-type: tm+mt
-source-wordcount: 567
+source-wordcount: 573
 ht-degree: 0%
 
 ---
 
+# Aggiungi CSS personalizzato per il contenuto
 
 Puoi aggiungere un CSS personalizzato direttamente nell’e-mail o nello spazio di progettazione della pagina di destinazione. Utilizza CSS personalizzato per applicare uno stile avanzato e specifico, per una maggiore flessibilità e un maggiore controllo sull’aspetto del contenuto.
 
