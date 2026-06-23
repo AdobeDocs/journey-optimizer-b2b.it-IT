@@ -34,7 +34,7 @@ Qualificatore di vendita è un&#39;applicazione basata su IA che è possibile ut
 
 I BDR possono utilizzare il browser e i plug-in e-mail per accedere alle informazioni aziendali direttamente in CRM o Outlook. Il video seguente offre una breve dimostrazione dei Sales Qualifier e di Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476569?captions=ita)
 
 ## Home dell’applicazione {#application-home}
 
