@@ -18,7 +18,7 @@ role_v2:
 source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: 541
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -76,7 +76,7 @@ Durante la creazione di un predefinito:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_dataset"
 >title="Selezionare un set di dati"
->abstract="Definisci un set di dati in cui vengono memorizzate e riflesse le risposte del modulo. Inserisci il testo per cercare un set di dati specifico o selezionarlo dall’elenco."
+>abstract="Definisci un set di dati in cui memorizzare e riflettere le risposte del modulo. Inserisci il testo per cercare un set di dati specifico o selezionarlo dall’elenco."
 
 1. Nel menu di navigazione a sinistra, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**.
 

@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: aee98a6556736490878bac00607952fa0f3b0480
 workflow-type: tm+mt
 source-wordcount: 2504
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -97,13 +97,13 @@ Prima di iniziare a creare moduli riutilizzabili in Journey Optimizer B2B editio
 
   Quando consenti il bypass di un modulo a una persona nota che visita la pagina di destinazione, può semplicemente accedere al contenuto direttamente. Ignorando il modulo si ottiene un’esperienza del visitatore più semplice.
 
-### Aggiungi un nuovo modulo {#new-form}
+### Aggiungere un nuovo modulo {#new-form}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_form_preset"
 >title="Selezionare un predefinito"
 >abstract="Scegli un predefinito preimpostato contenente la connessione da utilizzare e un set di dati preimpostato per il modulo."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="Creare un predefinito di modulo"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="Creare un predefinito di modulo"
 
 Puoi creare un modulo in Journey Optimizer B2B edition facendo clic su **[!UICONTROL Crea modulo]** in alto a destra nella pagina dell&#39;elenco _[!UICONTROL Forms]_.
 

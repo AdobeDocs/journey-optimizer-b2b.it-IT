@@ -101,7 +101,7 @@ Prima di iniziare a creare moduli riutilizzabili in [!DNL Journey Optimizer B2B 
 
   Quando consenti il bypass di un modulo a una persona nota che visita la pagina di destinazione, può semplicemente accedere al contenuto direttamente. Ignorando il modulo si ottiene un’esperienza del visitatore più semplice.
 
-### Aggiungi un nuovo modulo {#new-form}
+### Aggiungere un nuovo modulo {#new-form}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_preset"

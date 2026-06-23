@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 144848cff6a37691ccbe7a83b78f9db33d8a2b3d
 workflow-type: tm+mt
 source-wordcount: 1719
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
@@ -89,7 +89,7 @@ Prima che gli esperti di marketing possano creare pagine di destinazione per sup
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_access_settings"
 >title="Definire l’URL della pagina di destinazione"
->abstract="In questa sezione, definisci un URL univoco per la pagina di destinazione. La prima parte dell’URL richiede la configurazione precedente di un sottodominio della pagina di destinazione come parte del predefinito selezionato."
+>abstract="In questa sezione, definisci un URL univoco per la pagina di destinazione. Per la prima parte dell’URL, devi aver già impostato un sottodominio della pagina di destinazione come parte del predefinito selezionato."
 
 1. Modifica il **[!UICONTROL Nome pagina]** in base alle tue esigenze, che per impostazione predefinita è _Pagina principale_.
 
@@ -246,7 +246,7 @@ Esistono due tipi di avvisi:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_preview_lp_profiles"
 >title="Visualizzare l’anteprima e testare la pagina di destinazione"
->abstract="Dopo aver definito le impostazioni e il contenuto della pagina di destinazione, utilizza i profili di test per visualizzare l’anteprima della pagina."
+>abstract="Una volta definite le impostazioni e il contenuto della pagina di destinazione, utilizza i profili di test per visualizzare in anteprima la pagina."
 
 Una volta definiti le impostazioni e il contenuto della pagina di destinazione, puoi utilizzare i profili di test per visualizzare l’anteprima della pagina. Se hai inserito [contenuti personalizzati](./personalization.md), puoi verificare come vengono visualizzati nella pagina di destinazione utilizzando i dati del profilo di test.
 

@@ -16,7 +16,7 @@ role_v2:
 source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
 source-wordcount: 2164
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -141,7 +141,7 @@ Dopo aver configurato e progettato la pagina principale e le eventuali pagine se
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_access_settings"
 >title="Definire l’URL della pagina di destinazione"
->abstract="In questa sezione, definisci un URL univoco per la pagina di destinazione. La prima parte dell’URL richiede la configurazione precedente di un sottodominio della pagina di destinazione come parte del predefinito selezionato."
+>abstract="In questa sezione, definisci un URL univoco per la pagina di destinazione. Per la prima parte dell’URL, devi aver già impostato un sottodominio della pagina di destinazione come parte del predefinito selezionato."
 
 La pagina principale è quella che viene visualizzata immediatamente quando un destinatario fa clic sul collegamento della pagina di destinazione, ad esempio da un’e-mail o da un sito web.
 
@@ -173,7 +173,7 @@ Per definire le impostazioni della pagina principale, effettuare le seguenti ope
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_preview_lp_profiles"
 >title="Visualizzare l’anteprima e testare la pagina di destinazione"
->abstract="Dopo aver definito le impostazioni e il contenuto della pagina di destinazione, utilizza i profili di test per visualizzare l’anteprima della pagina."
+>abstract="Una volta definite le impostazioni e il contenuto della pagina di destinazione, utilizza i profili di test per visualizzare in anteprima la pagina."
 
 Una volta definiti le impostazioni e il contenuto della pagina di destinazione, puoi utilizzare i profili di test per visualizzare l’anteprima della pagina. Se hai inserito [contenuto personalizzato](email-authoring.md#personalize-content), puoi controllare come questo contenuto viene visualizzato nella pagina di destinazione utilizzando i dati del profilo di test.
 
