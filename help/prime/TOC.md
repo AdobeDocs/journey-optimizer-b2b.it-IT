@@ -2,10 +2,10 @@
 user-guide-title: Documentazione di Journey Optimizer B2B Prime
 user-guide-description: Scopri Adobe Journey Optimizer B2B Prime e come utilizzarlo per ?.
 hide: true
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 53%
+source-wordcount: '138'
+ht-degree: 51%
 
 ---
 
@@ -22,7 +22,9 @@ ht-degree: 53%
 + [Qualificatore di vendita](./sales-qualifier/sales-qualifier.md)
 + Gestione marketing {#marketing-management}
    + [Panoramica](./marketing/marketing-management.md)
-   + [Programmi](./marketing/programs.md)
+   + Programmi {#programs}
+      + [Panoramica](./marketing/programs.md)
+      + [Token personalizzati per la personalizzazione](./marketing/personalization-my-tokens.md)
    + [Percorsi di persone](./marketing/person-journeys.md)
    + Nodi del percorso {#journey-nodes}
       + [Panoramica dei nodi](./marketing/person-journey-nodes.md)
@@ -62,10 +64,10 @@ ht-degree: 53%
       + [Configurazione del canale WhatsApp](./admin/configuration-channels-whatsapp.md)
       + [Configurazione della pagina di destinazione](./admin/configuration-presets-landing-pages.md)
       + [Configurazione predefinito per modulo](./admin/configuration-presets-forms.md)
+   + [Tipi di programmi](./admin/program-types.md)
 
 <!--
    + Business rules
-   + Program types
 
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
