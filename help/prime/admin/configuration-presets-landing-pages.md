@@ -3,22 +3,14 @@ title: Configurazione della pagina di destinazione
 description: Placeholder
 autotag-review: '2026-06-12T22:45:35.906Z'
 TQID: 'https://experienceleague.adobe.com/wLeiKuegGFhAA73dOrwF9lmsZrDWhUiZXWSzwMpQwxk'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: a96755d6-1f54-4f3f-a971-d31f83705ab7id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: fc507317f18b7672905292f01315418e1d431575
 workflow-type: tm+mt
 source-wordcount: 971
-ht-degree: 8%
+ht-degree: 21%
 
 ---
 
@@ -35,17 +27,17 @@ Gli amministratori devono verificare che le configurazioni della pagina di desti
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_subdomain_lp_header"
 >title="Delegare un sottodominio della pagina di destinazione"
->abstract="Imposta un sottodominio per l’utilizzo di una pagina di destinazione. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne un altro."
+>abstract="Configura un sottodominio per l’utilizzo di una pagina di destinazione. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne un altro."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_subdomain_lp"
 >title="Delegare un sottodominio della pagina di destinazione"
->abstract="Devi configurare un sottodominio della pagina di destinazione prima di creare un predefinito per la pagina di destinazione. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne uno nuovo."
+>abstract="È necessario configurare un sottodominio per la pagina di destinazione prima di creare un predefinito per tale pagina. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne uno nuovo."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_config_lp_subdomain"
->title="Creare un predefinito per la pagina di destinazione"
->abstract="Per creare un predefinito per pagina di destinazione, accertati di disporre di almeno un sottodominio della pagina di destinazione configurato per la scelta dall’elenco Nome sottodominio."
+>title="Creare un predefinito per le pagine di destinazione"
+>abstract="Per creare un predefinito per la pagina di destinazione, assicurati di aver configurato almeno un sottodominio per la pagina di destinazione da selezionare dall’elenco dei nomi di sottodominio."
 
 Per esaminare i sottodomini configurati per la pagina di destinazione, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]**. In _[!UICONTROL Pagine di destinazione]_ nel riquadro di navigazione, seleziona **[!UICONTROL Sottodomini pagina di destinazione]**.
 
@@ -119,7 +111,7 @@ To use a subdomain that is already delegated to Adobe:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_lp_subdomain_dns"
 >title="Generare il record DNS corrispondente"
->abstract="Per configurare un nuovo sottodominio della pagina di destinazione, devi copiare le informazioni del server dei nomi Adobe visualizzate nell’interfaccia B2B di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Quando i controlli hanno esito positivo, il sottodominio è pronto per essere utilizzato per creare predefiniti per pagine di destinazione."
+>abstract="Per configurare un nuovo sottodominio per la pagina di destinazione, è necessario copiare le informazioni del server dei nomi Adobe visualizzate nell’interfaccia di Journey Optimizer B2B e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta superati i controlli di verifica, il sottodominio è pronto per essere utilizzato per creare i predefiniti per la pagina di destinazione."
 
 1. Fai clic su **[!UICONTROL Configura sottodominio della pagina di destinazione]**.
 
@@ -218,8 +210,8 @@ _To add a landing page subdomain:_
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_config_lp_subdomain_header"
->title="Creare un predefinito per la pagina di destinazione"
->abstract="Per creare una pagina di destinazione e sfruttarla tramite Journey Optimizer B2B edition, è necessario creare un predefinito per pagina di destinazione che includa il sottodominio da utilizzare."
+>title="Creare un predefinito per le pagine di destinazione"
+>abstract="Per creare una pagina di destinazione e utilizzarla tramite Journey Optimizer B2B Edition, è necessario creare un predefinito per pagine di destinazione che includa il sottodominio da utilizzare."
 
 Quando creano una pagina di destinazione, gli addetti al marketing devono selezionare un predefinito per la pagina di destinazione per poterla creare e sfruttarla tramite [!DNL Journey Optimizer B2B Edition]. Il predefinito include il sottodominio da utilizzare per la pagina di destinazione.
 
@@ -231,7 +223,7 @@ Per rivedere i predefiniti configurati per la pagina di destinazione, passa a **
 
 Fai clic sul nome di un predefinito per accedere ai dettagli del predefinito per pagina di destinazione.
 
-### Creare un predefinito per la pagina di destinazione {#lp-create-preset}
+### Creare un predefinito per le pagine di destinazione {#lp-create-preset}
 
 1. Fai clic su **[!UICONTROL Crea predefinito per pagina di destinazione]**.
 
