@@ -1,20 +1,16 @@
 ---
 title: Percorsi persona
 description: 'Creazione, pubblicazione e gestione di percorsi di persone in Journey Optimizer B2B edition Prime: sfoglia l’elenco dei percorsi, progetta flussi a più passaggi e duplica o elimina percorsi.'
+badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 autotag-review: '2026-06-12T23:03:17.139Z'
 TQID: 'https://experienceleague.adobe.com/MhkAuypbebo-n9uwxFPUKbNgyHijaTnaVsqhs9-lXC0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 951d9ceaa95656952e36b6d8f238348b08c796ca
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
 workflow-type: tm+mt
-source-wordcount: 1422
+source-wordcount: 1432
 ht-degree: 19%
 
 ---
@@ -74,11 +70,11 @@ Lo stato di un percorso può cambiare in base alle azioni applicate. In base all
 
 | Stato | Descrizione | Azioni disponibili |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Bozza**&#x200B;_ | Un percorso non pubblicato che può essere modificato. | [Pubblicazione](#publish-a-journey), [Duplicata](#duplicate-a-journey), [Elimina](#delete-a-journey) |
-| _&#x200B;**Live**&#x200B;_ | Lo stato del percorso cambia da _Bozza_ a _Live_ quando pubblichi un percorso. Se il percorso si trova in questo stato, non può più essere modificato. | [Duplicato](#duplicate-a-journey), [Vicino alle nuove voci](#close-to-new-entries), [Interrompi](#abort-a-journey) |
-| _&#x200B;**Chiuso alle nuove voci**&#x200B;_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando si fa clic su **[!UICONTROL Chiudi alle nuove voci]** nell&#39;intestazione del percorso. | [Duplicato](#duplicate-a-journey), [Interrompi](#abort-a-journey) |
-| _&#x200B;**Annullato**&#x200B;_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | [Duplicato](#duplicate-a-journey), [Elimina](#delete-a-journey) |
-| _&#x200B;**Completato**&#x200B;_ | Quando tutti i membri del pubblico in un percorso completano il percorso, lo stato cambia da _Live_ o _Closed to new entries_ a _Finished_. | [Duplicato](#duplicate-a-journey), [Elimina](#delete-a-journey) |
+| _**Bozza**_ | Un percorso non pubblicato che può essere modificato. | [Pubblicazione](#publish-a-journey), [Duplicata](#duplicate-a-journey), [Elimina](#delete-a-journey) |
+| _**Live**_ | Lo stato del percorso cambia da _Bozza_ a _Live_ quando pubblichi un percorso. Se il percorso si trova in questo stato, non può più essere modificato. | [Duplicato](#duplicate-a-journey), [Vicino alle nuove voci](#close-to-new-entries), [Interrompi](#abort-a-journey) |
+| _**Chiuso alle nuove voci**_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando si fa clic su **[!UICONTROL Chiudi alle nuove voci]** nell&#39;intestazione del percorso. | [Duplicato](#duplicate-a-journey), [Interrompi](#abort-a-journey) |
+| _**Annullato**_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | [Duplicato](#duplicate-a-journey), [Elimina](#delete-a-journey) |
+| _**Completato**_ | Quando tutti i membri del pubblico in un percorso completano il percorso, lo stato cambia da _Live_ o _Closed to new entries_ a _Finished_. | [Duplicato](#duplicate-a-journey), [Elimina](#delete-a-journey) |
 
 ## Creazione di un percorso di persone {#create-a-person-journey}
 
@@ -109,7 +105,7 @@ L’intestazione di ogni area di lavoro del percorso include il nome, lo stato e
 
 ### Progettazione percorso {#journey-design}
 
-L&#39;area di lavoro _percorso_ è la zona centrale nell&#39;area di lavoro percorso. È dove puoi aggiungere nodi di percorso e configurarli. Fai clic su un nodo per aprirne le proprietà nel pannello a destra del layout e impostarle in base al design. Un percorso di persone inizia sempre con un nodo [_[!UICONTROL Pubblico persona &#x200B;]_](./person-audience-node.md), in cui puoi definire l&#39;input per il percorso.
+L&#39;area di lavoro _percorso_ è la zona centrale nell&#39;area di lavoro percorso. È dove puoi aggiungere nodi di percorso e configurarli. Fai clic su un nodo per aprirne le proprietà nel pannello a destra del layout e impostarle in base al design. Un percorso di persone inizia sempre con un nodo [_[!UICONTROL Pubblico persona ]_](./person-audience-node.md), in cui puoi definire l&#39;input per il percorso.
 
 Dopo aver creato un percorso di persone e aver definito il pubblico di tale persona, crea il percorso utilizzando i nodi. L’area di lavoro del percorso fornisce uno spazio di progettazione visiva in cui puoi creare i casi di utilizzo del marketing B2B a più passaggi utilizzando i seguenti tipi di nodo per creare il percorso:
 
