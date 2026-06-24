@@ -14,9 +14,9 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+source-git-commit: 47afe74615b02c805ef0a931e54899cbc2f30a05
 workflow-type: tm+mt
-source-wordcount: 668
+source-wordcount: 670
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ Per ogni percorso definito per il nodo, utilizza i seguenti tipi di filtro per f
    * Messaggi e-mail
    * Modifica del valore dei dati
 
-* Attributi persona: consente di definire una condizione in base agli attributi di una persona, ad esempio paese, qualifica o appartenenza a un elenco.
+* Attributi della persona: definisce una condizione in base agli attributi di una persona, ad esempio paese, qualifica professionale, persona dervived o iscrizione all’elenco.
 
 ### Aggiungere un nodo di percorsi suddivisi
 

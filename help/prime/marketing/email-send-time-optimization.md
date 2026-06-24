@@ -1,22 +1,26 @@
 ---
 title: Ottimizzazione dell’ora di invio delle e-mail
-description: L’ottimizzazione dell’ora di invio (STO) in Adobe Journey Optimizer B2B Prime personalizza la consegna e-mail per i percorsi di persone. Scopri come abilitare l’STO e migliorare il coinvolgimento.
-autotag-review: '2026-06-17T20:52:02.535Z'
+description: Configurare l’ottimizzazione del tempo di invio nei percorsi di persone Prime B2B di Journey Optimizer. Imposta le finestre di invio, aggiungi nodi di attesa e visualizza i rapporti STO nell’Assistente AI.
+badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
+autotag-review: '2026-06-24T00:17:58.032Z'
 TQID: 'https://experienceleague.adobe.com/wlxhS7E8DnbThm5ge-wzTkMcn-eBzFUXfw3ZGrfcRHA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-source-git-commit: 951d9ceaa95656952e36b6d8f238348b08c796ca
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1fa72c956678cddcecd1b50a13c42ef9eada05fc
 workflow-type: tm+mt
-source-wordcount: 403
-ht-degree: 0%
+source-wordcount: 785
+ht-degree: 1%
 
 ---
 
@@ -26,7 +30,7 @@ Utilizza la funzione di ottimizzazione del tempo di invio per personalizzare la 
 
 STO analizza il coinvolgimento storico di ciascun profilo utilizzando un modello di linguaggio di grandi dimensioni. Prevede e classifica i potenziali tempi di invio, quindi pianifica la consegna al momento più alto nella finestra di ottimizzazione.
 
-<!-- Performance insights, such as usage, engagement lift, and STO vs. non-STO comparisons, are available through natural language queries in the AI Assistant. -->
+Informazioni approfondite sulle prestazioni, come l’utilizzo, l’incremento del coinvolgimento e i confronti STO e non-STO, sono disponibili tramite query in linguaggio naturale nell’Assistente IA.
 
 >[!BEGINSHADEBOX]
 
@@ -64,6 +68,55 @@ Puoi configurare l&#39;ottimizzazione dell&#39;ora di invio quando [aggiungi un 
 
 1. Dopo aver completato il resto del percorso di persone, procedi alla [pubblicazione](./person-journeys.md#publish).
 
-## Reporting
+## Generazione dei rapporti {#reporting}
 
+I dati sulle prestazioni STO sono disponibili tramite l&#39;[Assistente AI](../agents/chat-interface.md) utilizzando l&#39;abilità `send-time-report`. Puoi visualizzare un rapporto a livello di percorso che riepiloga tutti i nodi e-mail, oppure approfondire un rapporto a livello di nodo per una specifica azione e-mail.
 
+Il report visualizza ogni nodo e-mail nel percorso e indica se STO è abilitato per esso. Mostra inoltre un confronto tabulare tra e-mail abilitate all’STO e non all’STO per valutare l’incremento del coinvolgimento.
+
+### Generare il rapporto STO {#generate-sto-report}
+
+Esistono tre modi per generare un rapporto STO utilizzando l’Assistente AI:
+
+**Usa il comando barra**
+
+1. Nel pannello Assistente AI, digita `/` per visualizzare l&#39;elenco delle abilità disponibili.
+1. Selezionare **[!UICONTROL send-time-report]** dall&#39;elenco e fare clic sulla freccia su per inviare la query.
+
+   ![Query abilità report tempo di invio Assistente IA](./assets/email-sto-reporting-ai-assistant.png){width="700" zoomable="yes"}
+
+   Se un percorso è aperto nell’editor, l’assistente AI lo utilizza automaticamente come contesto. In caso contrario, l&#39;assistente richiede di specificare il percorso.
+
+   L’assistente AI carica il rapporto e visualizza una scheda di riepilogo.
+
+1. Fai clic su **[!UICONTROL Apri report]** per visualizzare il report completo con i dettagli a livello di nodo.
+
+**Fare clic su un nodo e-mail**
+
+1. Nell&#39;area di lavoro del percorso fare clic sul nodo **[!UICONTROL Invia e-mail]**.
+
+1. Nel pannello Assistente AI, chiedi il rapporto STO.
+
+   Poiché il nodo è selezionato, l&#39;Assistente IA lo utilizza come contesto e restituisce un report con ambito solo a tale nodo.
+
+   Carica il rapporto e visualizza una scheda di riepilogo.
+
+1. Fai clic su **[!UICONTROL Apri report]** per visualizzare il report completo.
+
+**Query in linguaggio naturale**
+
+1. Nel pannello Assistente AI, immetti una richiesta come _Assegnami il rapporto STO per [Nome percorso]_.
+
+   L&#39;assistente interpreta la richiesta, carica l&#39;abilità `send-time-report`, genera il report e visualizza una scheda di riepilogo.
+
+1. Fai clic su **[!UICONTROL Apri report]** per visualizzare il report completo.
+
+### Visualizzare i dati del rapporto e-mail {#sto-report-data}
+
+Puoi ridurre il pannello dell’Assistente AI per aumentare le dimensioni del rapporto visualizzato, oppure scorrere per visualizzarne l’intera larghezza.
+
+![Rapporto ottimizzazione ora di invio - riepilogo prestazioni e-mail](./assets/email-sto-reporting-summary-report.png){width="700" zoomable="yes"}
+
+Nella colonna _[!UICONTROL Dettagli]_ fare clic su **[!UICONTROL Visualizza risultati STO]** per aprire una finestra popup. La finestra fornisce visualizzazioni dei dati e-mail per _Confronto prestazioni_, _Distribuzione al momento dell&#39;invio_ e _Integrità dati_.
+
+![Rapporto di ottimizzazione del tempo di invio - dati sulle prestazioni delle e-mail](./assets/email-sto-reporting-data.png){width="500" zoomable="yes"}
