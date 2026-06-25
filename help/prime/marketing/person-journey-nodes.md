@@ -13,10 +13,10 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 30b2d9f95b45a94d2ba42c23cd1d59952fb61720
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: 365
-ht-degree: 2%
+source-wordcount: 320
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Il nodo _[!UICONTROL Pubblico persona]_ è automaticamente il primo nodo del per
 :::: landing-cards-container
 
 :::
-![Nodo pubblico persona](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=it)
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=it) -->
 
 Nodo di pubblico della persona
 
@@ -39,7 +39,7 @@ Il percorso inizia sempre con un nodo di pubblico persona. Imposta il pubblico d
 :::
 
 :::
-![Nodi azione](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it) -->
 
 Nodi azione
 
@@ -49,7 +49,7 @@ Applica le modifiche a ogni persona in un percorso, ad esempio l’invio di un�
 :::
 
 :::
-![Nodi evento](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it) -->
 
 Nodi evento
 
@@ -59,7 +59,7 @@ Porta le persone al passaggio del percorso successivo quando si verifica un’at
 :::
 
 :::
-![Nodi di attesa](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it) -->
 
 Nodi di attesa
 
@@ -69,7 +69,7 @@ Sospendi la progressione del percorso per una durata impostata o fino a una data
 :::
 
 :::
-![Dividere e unire i nodi dei percorsi](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it) -->
 
 Dividere e unire i nodi dei percorsi
 
@@ -79,7 +79,7 @@ Segmenta le persone in percorsi separati in base alle condizioni, applica azioni
 :::
 
 :::
-![Nodo percorso migliore successivo](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=it)
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=it) -->
 
 Nodo percorso migliore successivo
 

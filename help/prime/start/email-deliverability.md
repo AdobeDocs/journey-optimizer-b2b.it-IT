@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: 1910
+source-wordcount: 1918
 ht-degree: 1%
 
 ---
@@ -38,6 +38,8 @@ Utilizza i seguenti blocchi predefiniti, configurati da un amministratore, in ge
 1. [Configura i record DMARC, SPF e DKIM](#dmarc-spf-dkim) in ciascun sottodominio.
 1. [Conferma il pool IP](#ip-pools) utilizzato per inviare e-mail per il tuo sottodominio.
 1. [Crea una o più configurazioni del canale e-mail](../admin/email-channel-configuration.md#create-email-channel-configuration) che associano un sottodominio, un pool IP e un&#39;identità mittente.
+
+![Configurazione del recapito messaggi e-mail per Journey Optimizer B2B Prime](./assets/email-deliverability-diagram.svg){width="450" zoomable="yes"}
 
 >[!TIP]
 >
