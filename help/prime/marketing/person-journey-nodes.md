@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
 source-wordcount: 320
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # Nodi del percorso di persone
 
-Dopo aver creato un percorso di persone, utilizza gli strumenti nell’area di lavoro per aggiungere il pubblico e creare il percorso utilizzando i nodi. L’area di lavoro di percorso fornisce uno spazio di progettazione visiva, in cui puoi creare casi di utilizzo B2B di marketing a più passaggi.
+Dopo aver creato un [percorso di persone](./person-journeys.md), utilizza gli strumenti nell&#39;area di lavoro per aggiungere il pubblico e creare il percorso utilizzando i nodi. L’area di lavoro di percorso fornisce uno spazio di progettazione visiva, in cui puoi creare casi di utilizzo B2B di marketing a più passaggi.
 
 Il nodo _[!UICONTROL Pubblico persona]_ è automaticamente il primo nodo del percorso. Dopo aver selezionato il pubblico, crea il percorso combinando i diversi nodi di azione, evento e decisioning come scenario a più passaggi tra canali diversi. Ogni nodo di un percorso rappresenta un passo lungo un percorso logico.
 

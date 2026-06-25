@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a48a12635d2ba4f14dda49e25e79a5496ebbdecf
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: 332
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 In [!DNL Adobe Journey Optimizer B2B Prime], _i tipi di pubblico basati su eventi_ ti consentono di aggiungere membri del pubblico a un [percorso di persone](../marketing/person-journeys.md) in tempo reale quando si verifica un&#39;attività [!DNL Marketo Engage]. Puoi configurare i tipi di pubblico basati su eventi sul nodo Pubblico dell’area di lavoro del percorso:
 
-* Seleziona una o più attività Marketo (standard o personalizzate) come eventi qualificati.
+* Seleziona una o più attività [!DNL Marketo Engage] (standard o personalizzate) come eventi qualificanti.
 * Facoltativamente, aggiungi i filtri del profilo della persona (ad esempio settore, regione o fase del ciclo di vita) per limitare le persone che possono entrare.
 * Facoltativamente, definisci i vincoli dell’attributo dell’attività (ad esempio un modulo, un URL o un programma specifico) per limitare le occorrenze di ciascuna attività idonee.
 

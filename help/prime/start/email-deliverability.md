@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 1918
+source-wordcount: 1920
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Utilizza i seguenti blocchi predefiniti, configurati da un amministratore, in ge
 
 ## Limitazioni attuali {#limitations}
 
-* **Il metodo di delega personalizzato** per la delega del sottodominio non è ancora disponibile. Utilizzare Fully Delegated o CNAME. La delega personalizzata è impostata per GA.
+* **Il metodo di delega personalizzato** per la delega del sottodominio non è ancora disponibile. Utilizzare Fully Delegated o CNAME. Per la versione GA è prevista la delega personalizzata.
 * **Pool IP dedicati** non disponibili in Beta. L&#39;unica opzione è il pool IP condiviso. Gli IP dedicati vengono forniti in GA, inclusa la pianificazione del riscaldamento IP e la gestione dei record PTR.
 
 ## Concetti chiave {#key-concepts}
