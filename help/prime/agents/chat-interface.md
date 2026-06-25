@@ -14,9 +14,9 @@ subfeature_v2:
   - id: a30218bb-f80a-4410-8ac4-b039e99a15b4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
 workflow-type: tm+mt
-source-wordcount: 869
+source-wordcount: 878
 ht-degree: 1%
 
 ---
@@ -85,9 +85,11 @@ I connettori aprono un modale invece di inserire testo. Le scelte rapide per la 
 
 Un&#39;abilità è un flusso di lavoro in pacchetti che l&#39;agente è in grado di eseguire, ovvero i blocchi predefiniti del menu `/` e le richieste in linguaggio naturale. Ogni abilità riunisce istruzioni dettagliate e gli strumenti specifici necessari per un lavoro (ad esempio, &quot;pubblicare un percorso&quot;, &quot;confrontare elenchi di due persone&quot;, &quot;creare un modello di punteggio&quot;).
 
+Per un elenco completo delle abilità attualmente supportate, consulta _[Abilità dell&#39;Assistente AI](./skills.md)_.
+
 Aspetti chiave da conoscere sulle competenze:
 
-* **Le abilità hanno ambito di prodotto.** In AJO B2B Prime troverai competenze AJO B2B (percorsi, elenchi di persone, punteggi, canali, ottimizzazione del tempo di invio e così via). Alcune competenze sono esclusivamente per Marketo e un paio lavorano in entrambi i prodotti (importazione di lead, conoscenza del prodotto). Le abilità sono visibili solo nel punto in cui ti trovi.
+* **Le abilità hanno ambito di prodotto.** In [!DNL Journey Optimizer B2B Prime] sono disponibili varie abilità specifiche del prodotto (percorsi, elenchi di persone, punteggi, canali, ottimizzazione dell&#39;ora di invio e così via). Alcune abilità sono solo [!DNL Marketo Engage] e una coppia lavora in entrambi i prodotti (importazione lead, conoscenza del prodotto). Le abilità sono visibili solo nel punto in cui ti trovi.
 * **Non è necessario memorizzare i nomi delle abilità.** Descrivi il tuo obiettivo e l&#39;agente sceglie l&#39;abilità corrispondente. Il menu `/` è un collegamento più veloce e individuabile agli stessi flussi di lavoro.
 * **Alcune abilità leggono solo, altre cambiano le cose.** Le abilità investigative e di reporting (ad esempio, analisi dei lead, query di intento, report sul tempo di invio) consentono di leggere solo i dati. Creare e configurare abilità (ad esempio, creazione di percorsi, punteggio) creare o modificare dati.
 

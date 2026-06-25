@@ -2,10 +2,10 @@
 user-guide-title: Documentazione di Journey Optimizer B2B Prime
 user-guide-description: Scopri Adobe Journey Optimizer B2B Prime e come utilizzarlo per ?.
 hide: true
-source-git-commit: 47afe74615b02c805ef0a931e54899cbc2f30a05
+source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 50%
+source-wordcount: '152'
+ht-degree: 46%
 
 ---
 
@@ -18,7 +18,10 @@ ht-degree: 50%
    + [Gestione degli utenti](./start/user-management.md)
    + [Recapitabilità delle e-mail](./start/email-deliverability.md)
 + [Pagina Home](./home-insights/home-page.md)
-+ [Interfaccia chat](./agents/chat-interface.md)
++ Assistente IA {#ai-assistant}
+   + [Interfaccia chat](./agents/chat-interface.md)
+   + [Abilità](./agents/skills.md)
+   + [Crea programma da breve](./agents/program-from-brief.md)
 + [Qualificatore di vendita](./sales-qualifier/sales-qualifier.md)
 + Gestione marketing {#marketing-management}
    + [Panoramica](./marketing/marketing-management.md)
@@ -26,7 +29,7 @@ ht-degree: 50%
       + [Panoramica](./marketing/programs.md)
       + [Token personalizzati per la personalizzazione](./marketing/personalization-my-tokens.md)
    + [Percorsi di persone](./marketing/person-journeys.md)
-   + Nodi del percorso {#journey-nodes}
+   + Area di lavoro e nodi del percorso {#journey-nodes}
       + [Panoramica dei nodi](./marketing/person-journey-nodes.md)
       + [Pubblico persona](./marketing/person-audience-node.md)
       + [Intraprendere un’azione](./marketing/action-nodes.md)
@@ -43,6 +46,7 @@ ht-degree: 50%
 + Tipi di pubblico {#audiences}
    + [Elenchi di persone](./audiences/people-lists.md)
    + [Tipi di pubblico basati su eventi](./audiences/event-based-audiences.md)
+   + [Punteggi di coinvolgimento della persona](./audiences/engagement-scores.md)
    + [Utenti tipo derivati](./audiences/personas.md)
    + [Destinazioni](./audiences/destinations.md)
    + [Qualificazione del pubblico dinamico](./audiences/dynamic-audience-qualification.md)
@@ -77,9 +81,5 @@ ht-degree: 50%
     + [Question guidance](./ai-assistant/question-guidance.md)
     + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
     + [Generative AI for content](./ai-assistant/generative-ai-content.md)
-    + Agents {#agents}
-       + [Audience Agent B2B](./agents/audience-agent-b2b.md)
-       + [Journey Agent B2B](./agents/journey-agent.md)
-       + [Account Qualification](./agents/sales-qualifier.md)
 
 -->
