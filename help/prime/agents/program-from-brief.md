@@ -4,18 +4,13 @@ description: Utilizza l’abilità Creazione di programmi in Journey Optimizer B
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 autotag-review: '2026-06-24T21:24:16.095Z'
 TQID: 'https://experienceleague.adobe.com/lR07HqB--U57eYKgiPWMf9EQx4IfHe3yitffwN7FqRs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b92782904da5c01c3dc1b3fb44ef02729723015a
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: 1119
 ht-degree: 3%
 
 ---
@@ -158,7 +153,7 @@ I programmi sono **associati in modo permanente** a un tipo di programma definit
 | **Appartenenza a elenco asincrono** | Gli elenchi statici (da criteri) vengono compilati in diversi minuti, non istantaneamente |
 | **Gestione errori** | Gli errori dello strumento vengono segnalati con l’errore esatto; l’assistente richiede di confermare l’input e riprovare |
 | **Conflitti di nomi** | Risoluzione non automatica: verrà richiesto un nome diverso |
-| **Ambito** | Solo Prime B2B di Journey Optimizer; gli utenti Marketo devono utilizzare competenze separate per la creazione e la pianificazione dei programmi |
+| **Ambito** | Solo Journey Optimizer B2B Prime; [!DNL Marketo Engage] utenti devono utilizzare le competenze separate di creazione/pianificazione del programma |
 
 
 ## Controllo di qualità
