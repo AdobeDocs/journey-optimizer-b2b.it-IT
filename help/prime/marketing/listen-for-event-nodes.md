@@ -14,10 +14,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
+source-git-commit: d6c6691525c1fcfc695d109ef55dc2133f67c671
 workflow-type: tm+mt
-source-wordcount: 233
-ht-degree: 8%
+source-wordcount: 357
+ht-degree: 5%
 
 ---
 
@@ -27,11 +27,17 @@ Aggiungi il nodo _Ascolta un evento_ per spostare il pubblico al passaggio succe
 
 ## Trigger evento {#event-triggers}
 
-Ottieni elenco da PM
+Puoi generare trigger intorno a [!DNL Marketo Engage] attività, ad esempio:
+
+* Modulo compilato: si attiva quando una persona invia un modulo [!DNL Marketo Engage] nella pagina di destinazione.
+* Pagina Web Visite: viene attivata quando un lead visualizza una pagina Web tracciata (è possibile specificare URL esatti o utilizzare caratteri jolly).
+* Clic sul collegamento: viene attivato quando si fa clic su un collegamento tracciato in un’e-mail di marketing.
+* Modifiche al valore dei dati: viene attivato quando un campo specifico (come Stato lead, Punteggio o Settore) viene aggiornato sui record di una persona.
+* Campaign is Requested (Campagna è richiesta): spesso utilizzato per integrazioni API o webhook, questo attivatore avvia una campagna quando viene chiamato da un altro programma o servizio web.
+* Punteggio modificato: viene attivato quando il punteggio di lead di un individuo aumenta o diminuisce oltre una determinata soglia.
+* Push mobile attivato: viene attivato nelle campagne intelligenti di mobile marketing quando una notifica push viene interagita con su un dispositivo.
 
 ## Filtri degli eventi {#event-filters}
-
-Ottieni elenco aggiornato da PM
 
 | Filtri | Descrizione |
 | ------- | ----------- |

@@ -14,10 +14,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+source-git-commit: 1940cd62ab63243382637c1e60bb4df02ba2d56e
 workflow-type: tm+mt
-source-wordcount: 494
-ht-degree: 12%
+source-wordcount: 505
+ht-degree: 10%
 
 ---
 
@@ -36,9 +36,8 @@ Introduzione
 
 Completa la configurazione iniziale, quindi scopri come esplorare l’applicazione e utilizzare la pagina Home.
 
-[Configurazione amministratore](./start/setup-prime.md)
-
-[Pagina Home](./home-insights/home-page.md)
+[Configurazione amministratore](./start/setup-prime.md) <br/>
+[Home page](./home-insights/home-page.md)
 :::
 
 :::
@@ -48,8 +47,7 @@ Assistente IA
 
 Utilizza il linguaggio naturale per pianificare programmi, creare percorsi, gestire tipi di pubblico e creare contenuti con competenze di intelligenza artificiale agentica.
 
-[Interfaccia chat](./agents/chat-interface.md)
-
+[Interfaccia chat](./agents/chat-interface.md) <br/>
 [Competenze disponibili](./agents/skills.md)
 :::
 
@@ -70,9 +68,8 @@ Gestione marketing
 
 Organizza le campagne in programmi, progetta percorsi di persone con contenuti multicanale e personalizzali con token personalizzati.
 
-[Panoramica sul marketing](./marketing/marketing-management.md)
-
-[Percorsi di persone](./marketing/person-journeys.md)
+[Panoramica marketing](./marketing/marketing-management.md) <br/>
+[percorsi di persone](./marketing/person-journeys.md)
 :::
 
 :::
@@ -82,8 +79,7 @@ Tipi di pubblico
 
 Crea e gestisci elenchi di persone, definisci tipi di pubblico basati su eventi e tieni traccia del coinvolgimento con punteggi basati su persona.
 
-[Elenchi di persone](./audiences/people-lists.md)
-
+[Elenchi persone](./audiences/people-lists.md) <br/>
 [Punteggi di coinvolgimento](./audiences/engagement-scores.md)
 :::
 
@@ -94,10 +90,8 @@ Contenuti
 
 Crea e-mail e messaggi WhatsApp, gestisci modelli e risorse, crea pagine di destinazione e moduli e applica la personalizzazione.
 
-[Authoring di e-mail](./content/email-authoring.md)
-
-[Modelli](./content/templates.md)
-
+[Authoring di e-mail](./content/email-authoring.md) <br/>
+[Modelli](./content/templates.md) <br/>
 [Pagine di destinazione](./content/landing-pages.md)
 :::
 
@@ -113,7 +107,7 @@ Crea e-mail e messaggi WhatsApp, gestisci modelli e risorse, crea pagine di dest
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-gen-ai-blue.svg" width="35px" alt="Assistente IA"><br/>
-      <strong>Assistente AI</strong><br/><a href="./agents/chat-interface.md">Interfaccia chat</a><br/><a href="./agents/skills.md">Abilità</a><br/><a href="./agents/program-from-brief.md">Crea programma dal breve</a>
+      <strong>Assistente AI</strong><br/><a href="./agents/chat-interface.md">Interfaccia chat</a><br/><a href="./agents/skills.md">Abilità</a><br/><a href="./agents/program-from-brief.md">Crea programma da breve</a><br/><a href="./agents/audience-creation.md">Crea tipi di pubblico per programmi</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Gestione marketing"><br/>

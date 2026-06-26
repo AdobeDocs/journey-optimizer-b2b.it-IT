@@ -15,7 +15,7 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6ba70fe8d56bc35829649948c89356327042bf3f
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 650
 ht-degree: 2%
@@ -61,7 +61,7 @@ Il filtro _[!UICONTROL Persona derivata]_ viene visualizzato nel pannello dei fi
 
 Quando si aggiungono o rimuovono membri da un [elenco di persone statiche](./people-lists.md#static-list) o quando si definiscono le regole di appartenenza per un [elenco di persone dinamiche](./people-lists.md#dynamic-lists), è possibile filtrare per Persona derivata per eseguire il targeting di tutte le persone i cui attributi corrispondono a un utente tipo specifico configurato.
 
-![Filtro utente tipo derivato per un elenco di persone](./assets/derived-persona-filter-people-list.png){width="700" zoomable="yes"}
+![Filtro utente tipo derivato per un elenco di persone](./assets/derived-persona-filter-people-list.png){width="750" zoomable="yes"}
 
 **Elenco statico — Aggiungi membri**
 
@@ -91,7 +91,7 @@ Quando si aggiungono o rimuovono membri da un [elenco di persone statiche](./peo
 
 Quando configuri la segmentazione per un percorso di persone in un nodo [_Percorsi suddivisi_](../marketing/split-merge-paths-nodes.md), puoi utilizzare un utente tipo derivato come filtro del profilo persona per controllare quali persone entrano nel percorso del percorso.
 
-![Filtro utente tipo derivato per una condizione di percorso diviso](./assets/derived-persona-filter-split-path.png){width="700" zoomable="yes"}
+![Filtro utente tipo derivato per una condizione di percorso diviso](./assets/derived-persona-filter-split-path.png){width="750" zoomable="yes"}
 
 1. Fare clic sul nodo **[!UICONTROL Percorsi suddivisi]** nell&#39;area di lavoro del percorso.
 

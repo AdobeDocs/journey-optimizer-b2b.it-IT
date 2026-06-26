@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 30b2d9f95b45a94d2ba42c23cd1d59952fb61720
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1548
 ht-degree: 6%
@@ -157,9 +157,7 @@ Per informazioni di base sui modelli di punteggio di coinvolgimento, sulle fasce
 
 1. Nel campo di input della chat, digita il comando barra seguita dall’intento. Ad esempio:
 
-   ```text
-   /engagement-configuration Configure activity weights for the person engagement score model
-   ```
+   `/engagement-configuration Configure activity weights for the person engagement score model`
 
    Durante la digitazione di `/`, l&#39;Assistente AI visualizza un elenco dei comandi e delle abilità barra disponibili. Il comando di configurazione dell&#39;engagement indirizza direttamente alla pagina Ponderazione dei punteggi di coinvolgimento.
 

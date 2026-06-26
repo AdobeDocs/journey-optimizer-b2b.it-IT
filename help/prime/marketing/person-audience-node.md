@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 4%
@@ -34,7 +34,7 @@ _Per configurare il pubblico di percorso :_
 
    Questa azione visualizza le proprietà del nodo a destra.
 
-   ![Nodo percorso di pubblico della persona](./assets/person-audience-node-properties.png){width="500" zoomable="yes"}
+   ![Nodo percorso di pubblico della persona](./assets/person-audience-node-properties.png){width="600" zoomable="yes"}
 
 1. Utilizza una delle seguenti opzioni di configurazione del pubblico per il pubblico della persona:
 

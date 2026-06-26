@@ -15,7 +15,7 @@ subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1478
 ht-degree: 7%
@@ -53,7 +53,7 @@ Se definisci le impostazioni personalizzate della modalità scura nella progetta
 
 +++
 
-+++Client che applicano la propria modalità scura {#default-support}
++++Client che applicano la propria modalità scura
 
 Alcuni client di posta elettronica applicano sistematicamente la propria modalità scura predefinita a tutte le e-mail ricevute. Regolano automaticamente colori, sfondi, immagini e altri elementi in base alle impostazioni della modalità scura e non sono possibili impostazioni esterne. Questi clienti includono:
 
