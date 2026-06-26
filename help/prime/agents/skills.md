@@ -4,19 +4,13 @@ description: 'Esaminare le competenze di AI Assistant in Journey Optimizer B2B P
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 autotag-review: '2026-06-24T23:55:36.649Z'
 TQID: 'https://experienceleague.adobe.com/iIi07OBWKxxa-oW-A6VrlkoTS02kmCx8kfMaCe-C-4o'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2cid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
 workflow-type: tm+mt
-source-wordcount: 565
+source-wordcount: 582
 ht-degree: 6%
 
 ---
@@ -33,7 +27,7 @@ Un _skill_ è un flusso di lavoro integrato che l&#39;agente è in grado di eseg
 
 | Abilità | Funzionamento | Accesso | Superficie del prodotto | Impatto/flusso di dati |
 |---|---|---|---|---|
-| `falco-program-creation` | Creazione del programma [!DNL Journey Optimizer B2B Prime] end-to-end: programma, sottocartelle, token, elenchi, percorsi. | Scrittura | [!DNL Journey Optimizer B2B Prime] | Legge e scrive [!DNL Journey Optimizer B2B Prime] |
+| `falco-program-creation` | Creazione del programma [!DNL Journey Optimizer B2B Prime] end-to-end: programma, sottocartelle, token, elenchi, percorsi. | Scrittura | [!DNL Journey Optimizer B2B Prime] | Legge e scrive [!DNL Journey Optimizer B2B Prime]. Consulta _[Creare un programma da una descrizione](./program-from-brief.md)_. |
 | `adapt-program` | Genera storie di migrazione da [!DNL Marketo Engage] programmi per l&#39;adattamento [!DNL Journey Optimizer B2B Prime]. | Lettura | [!DNL Journey Optimizer B2B Prime] | Legge [!DNL Marketo Engage], scrive [!DNL Journey Optimizer B2B Prime] |
 | `folder-creation` | Crea cartelle organizzative nella struttura ad albero delle risorse. | Scrittura | [!DNL Journey Optimizer B2B Prime] | Legge e scrive [!DNL Journey Optimizer B2B Prime] |
 | `program-creation` *(Programmi di compilazione)* | Crea programmi Marketo da una descrizione della campagna. | Scrittura | [!DNL Marketo Engage] | Legge e scrive [!DNL Marketo Engage] |
@@ -56,7 +50,7 @@ Un _skill_ è un flusso di lavoro integrato che l&#39;agente è in grado di eseg
 
 | Abilità | Funzionamento | Accesso | Prodotto | Back-end (flusso di dati) |
 |---|---|---|---|---|
-| `audience-creation` | Adattare uno smartlist [!DNL Marketo Engage], creare un elenco di persone o aggiungere/aggiornare regole. | Scrittura | [!DNL Journey Optimizer B2B Prime] | Legge [!DNL Marketo Engage] + legge/scrive [!DNL Journey Optimizer B2B Prime] |
+| `audience-creation` | Adattare uno smartlist [!DNL Marketo Engage], creare un elenco di persone o aggiungere/aggiornare regole. | Scrittura | [!DNL Journey Optimizer B2B Prime] | Legge [!DNL Marketo Engage] + legge/scrive [!DNL Journey Optimizer B2B Prime].  Consulta _[Creare tipi di pubblico per i programmi](./audience-creation.md)_. |
 | `people-list-comparison` | Confrontare gli elenchi di due persone e visualizzare i membri sovrapposti. | Lettura | [!DNL Journey Optimizer B2B Prime] | Legge [!DNL Journey Optimizer B2B Prime] |
 | `import-leads` | Controllare la qualità dei dati CSV e confermare le importazioni in [!DNL Marketo Engage]. | Lettura e scrittura | Entrambi | Legge e scrive [!DNL Marketo Engage] |
 | `lead-investigation` *(Indagare sui lead)* | Analizzare l’attività, il punteggio, la qualifica e il ciclo di vita di un lead. | Lettura | [!DNL Marketo Engage] | Legge [!DNL Marketo Engage] |
@@ -73,7 +67,7 @@ Un _skill_ è un flusso di lavoro integrato che l&#39;agente è in grado di eseg
 
 | Abilità | Funzionamento | Accesso | Prodotto | Back-end (flusso di dati) |
 |---|---|---|---|---|
-| `scoring-studio` | Elencare/ottenere modelli di punteggio e generarli/pubblicarli. | Lettura e scrittura | [!DNL Journey Optimizer B2B Prime] | Legge e scrive [!DNL Journey Optimizer B2B Prime] (servizio di punteggio); legge [!DNL Marketo Engage] campi/tipi di attività lead |
+| `scoring-studio` | Elencare/ottenere modelli di punteggio e generarli/pubblicarli. | Lettura e scrittura | [!DNL Journey Optimizer B2B Prime] | Legge e scrive [!DNL Journey Optimizer B2B Prime] (servizio di assegnazione punteggio); legge [!DNL Marketo Engage] campi/tipi di attività lead. Consulta _[Creare modelli di punteggio personalizzati](./lead-scoring-model.md)_. |
 | `engagementconfiguration` | Mostra la configurazione del coinvolgimento e modifica/aggiorna i pesi. | Lettura e scrittura | [!DNL Journey Optimizer B2B Prime] | Legge e scrive [!DNL Journey Optimizer B2B Prime] |
 | `intentconfiguration` | Mostra la configurazione intento e imposta/aggiorna i pesi. | Lettura e scrittura | [!DNL Journey Optimizer B2B Prime] | Legge e scrive [!DNL Journey Optimizer B2B Prime] |
 | `intent-query` | Eseguire query e spiegare i punteggi di intento per persona/segmento/elenco. | Lettura | [!DNL Journey Optimizer B2B Prime] | Legge [!DNL Journey Optimizer B2B Prime] |

@@ -4,18 +4,11 @@ description: Utilizza utenti tipo derivati in Journey Optimizer B2B Prime per es
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 autotag-review: '2026-06-23T22:01:21.605Z'
 TQID: 'https://experienceleague.adobe.com/OZ4GDkaqg9a5Aikic-m-f0MtHSpc3BO0h41fTAL1Rww'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6ba70fe8d56bc35829649948c89356327042bf3f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 650
 ht-degree: 2%
@@ -61,7 +54,7 @@ Il filtro _[!UICONTROL Persona derivata]_ viene visualizzato nel pannello dei fi
 
 Quando si aggiungono o rimuovono membri da un [elenco di persone statiche](./people-lists.md#static-list) o quando si definiscono le regole di appartenenza per un [elenco di persone dinamiche](./people-lists.md#dynamic-lists), è possibile filtrare per Persona derivata per eseguire il targeting di tutte le persone i cui attributi corrispondono a un utente tipo specifico configurato.
 
-![Filtro utente tipo derivato per un elenco di persone](./assets/derived-persona-filter-people-list.png){width="700" zoomable="yes"}
+![Filtro utente tipo derivato per un elenco di persone](./assets/derived-persona-filter-people-list.png){width="750" zoomable="yes"}
 
 **Elenco statico — Aggiungi membri**
 
@@ -91,7 +84,7 @@ Quando si aggiungono o rimuovono membri da un [elenco di persone statiche](./peo
 
 Quando configuri la segmentazione per un percorso di persone in un nodo [_Percorsi suddivisi_](../marketing/split-merge-paths-nodes.md), puoi utilizzare un utente tipo derivato come filtro del profilo persona per controllare quali persone entrano nel percorso del percorso.
 
-![Filtro utente tipo derivato per una condizione di percorso diviso](./assets/derived-persona-filter-split-path.png){width="700" zoomable="yes"}
+![Filtro utente tipo derivato per una condizione di percorso diviso](./assets/derived-persona-filter-split-path.png){width="750" zoomable="yes"}
 
 1. Fare clic sul nodo **[!UICONTROL Percorsi suddivisi]** nell&#39;area di lavoro del percorso.
 

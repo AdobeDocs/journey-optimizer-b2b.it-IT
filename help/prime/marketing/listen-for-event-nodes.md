@@ -3,21 +3,14 @@ title: Ascolta un nodo evento
 description: 'Configurare Ascolta per i nodi di un evento in Journey Optimizer B2B edition Prime: imposta i trigger di evento, applica filtri facoltativi e avanza le persone quando si verificano attività o modifiche di dati.'
 autotag-review: '2026-06-12T23:00:36.531Z'
 TQID: 'https://experienceleague.adobe.com/SBEfrrIKSCnO5x1tGXQTz1EZryH0IKhQx4tuqVn78FI'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d0031543-532c-4a26-8f90-01af2b91e6d0
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d0031543-532c-4a26-8f90-01af2b91e6d0id: ba367494-9862-4596-bd6f-299c7e10a46bid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d6c6691525c1fcfc695d109ef55dc2133f67c671
 workflow-type: tm+mt
-source-wordcount: 233
-ht-degree: 8%
+source-wordcount: 357
+ht-degree: 5%
 
 ---
 
@@ -27,11 +20,17 @@ Aggiungi il nodo _Ascolta un evento_ per spostare il pubblico al passaggio succe
 
 ## Trigger evento {#event-triggers}
 
-Ottieni elenco da PM
+Puoi generare trigger intorno a [!DNL Marketo Engage] attività, ad esempio:
+
+* Modulo compilato: si attiva quando una persona invia un modulo [!DNL Marketo Engage] nella pagina di destinazione.
+* Pagina Web Visite: viene attivata quando un lead visualizza una pagina Web tracciata (è possibile specificare URL esatti o utilizzare caratteri jolly).
+* Clic sul collegamento: viene attivato quando si fa clic su un collegamento tracciato in un’e-mail di marketing.
+* Modifiche al valore dei dati: viene attivato quando un campo specifico (come Stato lead, Punteggio o Settore) viene aggiornato sui record di una persona.
+* Campaign is Requested (Campagna è richiesta): spesso utilizzato per integrazioni API o webhook, questo attivatore avvia una campagna quando viene chiamato da un altro programma o servizio web.
+* Punteggio modificato: viene attivato quando il punteggio di lead di un individuo aumenta o diminuisce oltre una determinata soglia.
+* Push mobile attivato: viene attivato nelle campagne intelligenti di mobile marketing quando una notifica push viene interagita con su un dispositivo.
 
 ## Filtri degli eventi {#event-filters}
-
-Ottieni elenco aggiornato da PM
 
 | Filtri | Descrizione |
 | ------- | ----------- |
