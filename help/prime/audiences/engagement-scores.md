@@ -151,7 +151,7 @@ Quando configuri la segmentazione per un percorso di persone in un nodo [_Percor
 
 In [!DNL Journey Optimizer B2B Prime] è possibile configurare la ponderazione dei punteggi di coinvolgimento direttamente dall&#39;interfaccia chat dell&#39;[Assistente IA](../agents/chat-interface.md).
 
-Per informazioni di base sui modelli di punteggio di coinvolgimento, sulle fasce di ponderazione e sui pesi delle attività, consulta [Configurare la ponderazione del punteggio di coinvolgimento personalizzato](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
+Per informazioni di base sui modelli di punteggio di coinvolgimento, sulle fasce di ponderazione e sui pesi delle attività, consulta [Configurare la ponderazione del punteggio di coinvolgimento personalizzato](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
 
 1. Apri il pannello chat **[!UICONTROL Assistente AI]** dal lato sinistro della schermata (icona chat).
 
