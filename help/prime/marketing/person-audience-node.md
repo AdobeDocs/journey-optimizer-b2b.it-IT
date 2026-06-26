@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 4%
@@ -41,4 +41,3 @@ _Per configurare il pubblico di percorso :_
    * **[!UICONTROL Elenco dinamico]** - Utilizza un elenco di persone dinamico basato su regole. Le regole di elenco vengono valutate in fase di runtime del percorso per qualificare i membri del percorso. Le persone che in seguito vengono escluse dall’elenco dinamico non vengono rimosse dal percorso. Vedi _[Elenchi dinamici](../audiences/people-lists.md#dynamic-lists)_.
 
    * **[!UICONTROL Pubblico evento]** - Utilizza un pubblico evento per definire il pubblico percorso in base agli eventi qualificanti. Definisci i membri del pubblico utilizzando il filtro del profilo della persona e attiva l’immissione del percorso utilizzando i criteri degli eventi. Consulta _[Tipi di pubblico basati su eventi](../audiences/event-based-audiences.md)_.
-
