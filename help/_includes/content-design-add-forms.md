@@ -1,7 +1,7 @@
 ---
 title: Authoring dei contenuti - aggiungere moduli
 description: Sezione riutilizzata sull’aggiunta di moduli nelle pagine di destinazione e nei modelli
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Nell&#39;esempio seguente vengono illustrati i passaggi necessari per aggiungere
      >
      >Se desideri utilizzare il modulo per scaricare un file, puoi specificare un URL per il file ospitato. Con questa configurazione, il pulsante Invia funziona come un pulsante di download.
 
-   ![Modifica l&#39;impostazione di completamento](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
+     ![Modifica l&#39;impostazione di completamento](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 
 1. Se si desidera limitare la visualizzazione del modulo per tipo di dispositivo, modificare l&#39;impostazione **[!UICONTROL Opzioni visualizzazione]**:
 
