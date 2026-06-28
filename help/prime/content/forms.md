@@ -3,21 +3,12 @@ title: Moduli
 description: 'Creazione e gestione di moduli riutilizzabili per la raccolta dati aziendali: progettare campi, impostare pagine di ringraziamento, pubblicare e tenere traccia dell’utilizzo in Journey Optimizer B2B Prime.'
 autotag-review: '2026-06-19T23:02:49.150Z'
 TQID: 'https://experienceleague.adobe.com/iwrvFvR6amcRnXyPd3PoDZ8FU9zITH9i3B172QDTAn0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-subfeature_v2:
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+subfeature_v2: id: d57c4909-c813-470d-ac87-cdd2d6b5f9dcid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
 workflow-type: tm+mt
 source-wordcount: 2261
 ht-degree: 2%
@@ -33,7 +24,6 @@ La quantità di informazioni che il modulo deve acquisire dipende dal valore del
 >[!PREREQUISITES]
 >
 >Prima che i team di marketing possano creare e utilizzare i moduli per acquisire informazioni, un amministratore deve definire uno o più predefiniti per moduli. Per ulteriori informazioni, vedere [_Configurazioni Forms_](../admin/configuration-presets-forms.md)
->
 
 <!-- 
 >Form creation in [!DNL Journey Optimizer B2B Prime] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
@@ -110,7 +100,7 @@ Prima di iniziare a creare moduli riutilizzabili in [!DNL Journey Optimizer B2B 
 
 <!--
 Add to context help when available
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
 Puoi creare un modulo in [!DNL Journey Optimizer B2B Prime] facendo clic su **[!UICONTROL Crea modulo]** in alto a destra nella pagina dell&#39;elenco _[!UICONTROL Forms]_.
@@ -120,11 +110,8 @@ Puoi creare un modulo in [!DNL Journey Optimizer B2B Prime] facendo clic su **[!
    Requisiti del modulo:
 
    * Nome: massimo 100 caratteri, deve essere univoco, senza distinzione tra maiuscole e minuscole
-
    * Descrizione: massimo 300 caratteri
-
    * Alpha, caratteri numerici e speciali sono consentiti
-
    * I caratteri riservati sono **_non consentiti_**: `\ / : * ? " < > |`
 
    <!-- ![Create form dialog](./assets/forms-create-dialog.png){width="400"} -->
@@ -160,9 +147,7 @@ Fai clic su **[!UICONTROL Salva e chiudi]** per salvare le modifiche alla strutt
 Nel pannello _[!UICONTROL Riepilogo]_ a destra, scorri fino alla sezione **[!UICONTROL Pagina di ringraziamento]** e utilizza l&#39;impostazione **[!UICONTROL Completa con]** per definire cosa accade quando un visitatore invia il modulo:
 
 * **[!UICONTROL Resta a pagina]** - Scegli questa opzione per mantenere il visitatore sulla stessa pagina al momento dell&#39;invio del modulo.
-
 * **[!UICONTROL Pagina di destinazione]** - Scegli questa opzione per selezionare una pagina di destinazione [!DNL Journey Optimizer B2B Prime] come follow-up.
-
 * **[!UICONTROL URL esterno]** - Scegliere questa opzione per specificare qualsiasi URL come pagina di follow-up. Dopo che il visitatore ha inviato il modulo, il browser carica l’URL designato.
 
   >[!TIP]
@@ -259,7 +244,7 @@ Le modifiche apportate a un modulo dipendono dallo stato corrente:
 
 1. Per apportare modifiche al modulo nello spazio di progettazione visivo, fare clic su **[!UICONTROL Modifica modulo]**.
 
-<!--
+   <!--
    Use the visual design tools as needed:
 
    * [Add fields](./form-design.md#add-field)
@@ -270,7 +255,7 @@ Le modifiche apportate a un modulo dipendono dallo stato corrente:
 
    -->
 
-Fai clic su **[!UICONTROL Salva e chiudi]** per tornare ai dettagli del modulo.
+   Fai clic su **[!UICONTROL Salva e chiudi]** per tornare ai dettagli del modulo.
 
 1. Quando il modulo soddisfa i criteri e desideri renderlo disponibile per l&#39;utilizzo in una pagina di destinazione o in un modello di pagina di destinazione, fai clic su **[!UICONTROL Pubblica]**.
 
@@ -307,7 +292,6 @@ Fai clic su **[!UICONTROL Salva e chiudi]** per tornare ai dettagli del modulo.
 >[!TAB Pubblicato con bozza]
 
 1. Fare clic sul nome del modulo per aprirlo.
-
 1. Selezionare la scheda **[!UICONTROL Bozza]**.
 
    Viene visualizzata un’anteprima del contenuto del modulo della versione bozza, con i dettagli del modulo a destra.
@@ -354,4 +338,3 @@ Quando un modulo viene incluso in una pagina di destinazione o in un modello di 
 Quando selezioni il modulo nello spazio di progettazione della pagina di destinazione, queste azioni sono disponibili nella barra degli strumenti contestuale e nel pannello delle proprietà a destra.
 
 <!-- ![Apply actions to the selected form](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"} -->
-
