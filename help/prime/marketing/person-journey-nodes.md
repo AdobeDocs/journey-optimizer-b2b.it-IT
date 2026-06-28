@@ -3,17 +3,11 @@ title: Nodi del Percorso di persone
 description: 'Scopri i nodi del percorso di persone in Journey Optimizer B2B edition Prime: pubblico, azioni, eventi, attese, divisioni dei percorsi e routing dei percorsi migliore basato sull’intelligenza artificiale.'
 autotag-review: '2026-06-16T21:21:16.531Z'
 TQID: 'https://experienceleague.adobe.com/sTnrOvrGIrgboPqOMrrkUvNU1y6zZJX42zEJxuUInKQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9711cdf8f172523a32d8b64f0597d5ee14e7722b
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c260820ff5e4ce44759bb9c74aef877dfc6267b8
 workflow-type: tm+mt
 source-wordcount: 320
 ht-degree: 0%
@@ -29,7 +23,7 @@ Il nodo _[!UICONTROL Pubblico persona]_ è automaticamente il primo nodo del per
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=it) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
 
 Nodo di pubblico della persona
 
@@ -39,7 +33,7 @@ Il percorso inizia sempre con un nodo di pubblico persona. Imposta il pubblico d
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
 
 Nodi azione
 
@@ -49,7 +43,7 @@ Applica le modifiche a ogni persona in un percorso, ad esempio l’invio di un�
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
 
 Nodi evento
 
@@ -59,7 +53,7 @@ Porta le persone al passaggio del percorso successivo quando si verifica un’at
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
 
 Nodi di attesa
 
@@ -69,7 +63,7 @@ Sospendi la progressione del percorso per una durata impostata o fino a una data
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
 
 Dividere e unire i nodi dei percorsi
 
@@ -79,7 +73,7 @@ Segmenta le persone in percorsi separati in base alle condizioni, applica azioni
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=it) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
 
 Nodo percorso migliore successivo
 
@@ -89,4 +83,3 @@ Utilizza le decisioni basate sull’intelligenza artificiale per indirizzare ogn
 :::
 
 ::::
-
