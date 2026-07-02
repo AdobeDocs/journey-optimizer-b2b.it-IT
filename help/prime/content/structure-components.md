@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: 598f728a271bf23752dec2b0056bcc3a14a88b32
 workflow-type: tm+mt
 source-wordcount: 1634
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_structure_components_fragment"
 >title="Informazioni sui componenti di struttura"
->abstract="I componenti struttura sono elementi di layout che possono essere utilizzati per progettare la struttura di un frammento."
+>abstract="I componenti di struttura sono elementi di layout che puoi utilizzare per progettare la struttura di un frammento."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_structure_components_template"

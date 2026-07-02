@@ -19,16 +19,16 @@ role_v2:
 source-git-commit: 205013add5060318d46a2b048bb347003c167470
 workflow-type: tm+mt
 source-wordcount: 1015
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
-# Editor Personalization
+# Editor di personalizzazione
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_personalization_editor"
 >title="Informazioni sull’editor di personalizzazione"
->abstract="L’editor di personalizzazione ti consente di selezionare, disporre, personalizzare e convalidare gli attributi del profilo per creare contenuti personalizzati."
+>abstract="L’editor di personalizzazione consente di selezionare, disporre, personalizzare e convalidare gli attributi del profilo per creare contenuti personalizzati."
 
 L&#39;editor di personalizzazione è il fulcro della personalizzazione in [!DNL Journey Optimizer B2B Prime]. Utilizzalo ovunque tu abbia bisogno di contenuti dinamici: nelle e-mail, nei messaggi WhatsApp, nelle pagine di destinazione e nei campi URL.
 
@@ -81,7 +81,7 @@ Durante la creazione di una [configurazione del canale e-mail](../admin/email-ch
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_perso_editor_autocomplete"
 >title="Completamento automatico"
->abstract="L’attivazione di questa opzione consente al sistema di suggerire e completare automaticamente il codice durante la digitazione. Questa funzione è disponibile solo per i formati HTML e Text e supporta gli attributi del profilo. Se viene disabilitata tramite l’apposito pulsante di attivazione, il completamento automatico del codice HTML nativo verrà eseguito dall’editor."
+>abstract="L’attivazione di questa opzione consente al sistema di suggerire e completare automaticamente il codice durante la digitazione. Questa funzione è disponibile solo per i formati HTML e Testo e supporta gli attributi di profilo. Se viene disabilitata tramite il pulsante di attivazione, il completamento automatico del codice HTML nativo verrà eseguito dall’editor."
 
 Nell’area di lavoro centrale puoi creare la sintassi di personalizzazione. Per utilizzare un attributo per personalizzare il messaggio, individuarlo nel riquadro di spostamento a sinistra e fare clic sul pulsante `+` per aggiungerlo all&#39;espressione.
 
@@ -109,7 +109,7 @@ Le opzioni disponibili sono:
 
 1. **[!UICONTROL Trova]** / **[!UICONTROL Trova e sostituisci]**: cerca nell&#39;espressione e sostituisci automaticamente parti di codice.
 1. **[!UICONTROL Annulla]** / **[!UICONTROL Ripristina]**: annulla/ripristina l&#39;ultima operazione.
-1. **[!UICONTROL Completamento automatico]**: suggerisce e completa automaticamente il codice durante la digitazione. Questa funzione è disponibile solo per i formati HTML e Text e supporta gli attributi del profilo. Se viene disabilitata tramite l’apposito pulsante di attivazione, il completamento automatico del codice HTML nativo verrà eseguito dall’editor.
+1. **[!UICONTROL Completamento automatico]**: suggerisce e completa automaticamente il codice durante la digitazione. Questa funzione è disponibile solo per i formati HTML e Testo e supporta gli attributi di profilo. Se viene disabilitata tramite il pulsante di attivazione, il completamento automatico del codice HTML nativo verrà eseguito dall’editor.
 
    <!-- ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"} -->
 
