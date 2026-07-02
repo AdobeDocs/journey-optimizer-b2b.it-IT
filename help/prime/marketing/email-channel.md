@@ -6,21 +6,14 @@ feature: Email Authoring, Person Journeys
 role: User
 autotag-review: '2026-06-18T20:30:25.418Z'
 TQID: 'https://experienceleague.adobe.com/K3OZnLvtSdwSq6AT4JlRQ62t32d6smIJ4K9EEnK-QUc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
 workflow-type: tm+mt
 source-wordcount: 1037
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -117,7 +110,7 @@ La pagina e-mail viene visualizzata quando crei un messaggio e-mail per un nodo 
 
 1. (Facoltativo) Selezionare la casella di controllo **[!UICONTROL Ottimizza dimensioni HTML]** per ridurre le dimensioni del HTML di posta elettronica durante il processo di pubblicazione.
 
-   Questo aiuta a evitare il clipping delle e-mail in client come Gmail, che tronca i messaggi di oltre 100 KB. Per ulteriori informazioni, vedere [_Ottimizzare le dimensioni del HTML e-mail_](#optimize-html-size).
+   Questo è utile per evitare che l’e-mail risulti tagliata in client come Gmail, in cui i messaggi di oltre 100 KB vengono troncati. Per ulteriori informazioni, vedere [_Ottimizzare le dimensioni del HTML e-mail_](#optimize-html-size).
 
 1. Fai clic su **[!UICONTROL Modifica corpo dell&#39;e-mail]** per accedere agli strumenti di progettazione visiva e avviare [la creazione del contenuto](../content/email-authoring.md).
 
@@ -140,18 +133,18 @@ La pagina e-mail viene visualizzata quando crei un messaggio e-mail per un nodo 
 * Sono stati rilevati collegamenti vuoti
 * L&#39;e-mail supera i 100 K
 
-## Ottimizzare le dimensioni del HTML e-mail {#optimize-html-size}
+## Ottimizzare la dimensione dell’HTML dell’e-mail {#optimize-html-size}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_email_minification"
->title="Riduci dimensioni HTML"
->abstract="Abilita questa opzione per comprimere il HTML e-mail durante la pubblicazione rimuovendo spazi vuoti, rientri e commenti non essenziali non necessari. Questo aiuta a evitare il clipping delle e-mail in client come Gmail, che tronca i messaggi di oltre 100 KB."
+>title="Riduci la dimensionie dell’HTML"
+>abstract="Abilita questa opzione per comprimere l’HTML dell’e-mail durante la pubblicazione rimuovendo spazi vuoti, rientri e commenti non essenziali non necessari. Questo è utile per evitare che l’e-mail risulti tagliata in client come Gmail, in cui i messaggi di oltre 100 KB vengono troncati."
 
 [!DNL Journey Optimizer B2B Prime] consente di comprimere la versione di e-mail HTML durante il processo di pubblicazione rimuovendo spazi vuoti, rientri e commenti non essenziali. Le dimensioni ridotte di HTML consentono di:
 
 * Evita **il ritaglio e-mail**. Alcuni client, ad esempio Gmail, troncano i messaggi di dimensioni superiori a ~100 KB, impedendo ai destinatari di visualizzare l&#39;intero contenuto.
 * Migliora il **tempo di caricamento e-mail** nella casella in entrata del destinatario.
-* Migliora il recapito messaggi **1&rbrace; e riduci l&#39;utilizzo della larghezza di banda.**
+* Migliora il recapito messaggi **1} e riduci l&#39;utilizzo della larghezza di banda.**
 
 Questa ottimizzazione non viene applicata automaticamente. Abilitarla nella scheda _[!UICONTROL Contenuto]_.
 
