@@ -17,16 +17,16 @@ role_v2:
 source-git-commit: 95f506e5ec59996bf4af53151cd0553d23b19082
 workflow-type: tm+mt
 source-wordcount: 489
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
-# Creare modelli di punteggio personalizzati
+# Crea modelli di punteggio personalizzati
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_scoring_studio"
 >title="Scoring Studio"
->abstract="Utilizza l’abilità Studio di valutazione per creare, configurare e pubblicare modelli di punteggio del lead personalizzati tramite l’interfaccia chat dell’Assistente AI."
+>abstract="Utilizza l’abilità Scoring Studio per creare, configurare e pubblicare modelli di punteggio dei lead personalizzati tramite l’interfaccia chat dell’Assistente IA."
 
 L&#39;abilità [_Scoring Studio_](./skills.md#scoring-signals) in [!DNL Adobe Journey Optimizer B2B Prime] fornisce una soluzione di valutazione dei lead nativa per l&#39;intelligenza artificiale che consente di creare, configurare e pubblicare modelli di valutazione dei lead. Lo studio combina un flusso di lavoro basato su agenti con un&#39;interfaccia utente visiva: è possibile creare modelli di punteggio tramite prompt del linguaggio naturale nell&#39;interfaccia chat dell&#39;[Assistente IA](./chat-interface.md) o interagendo direttamente con i controlli dell&#39;interfaccia utente.
 

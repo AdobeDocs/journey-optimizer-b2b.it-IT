@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 1548
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_person_engagement_score"
 >title="Punteggio di coinvolgimento della persona"
->abstract="I punteggi di coinvolgimento della persona riflettono il livello di coinvolgimento dei singoli lead in base alle loro attività recenti."
+>abstract="I punteggi di coinvolgimento della persona riflettono il livello di coinvolgimento dei singoli lead in base alle attività recenti."
 
 Un punteggio di coinvolgimento della persona è un numero che riflette il livello di coinvolgimento di un singolo lead. I punteggi si basano sulle attività svolte da una persona, e ogni tipo di attività presenta un valore ponderato. I punteggi vengono normalizzati all’interno dell’istanza (tenant) per consentire un confronto coerente e informazioni fruibili.
 
