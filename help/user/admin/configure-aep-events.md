@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 73acecac0a17215eec885108521e86225ca54d49
+source-git-commit: 0006aa457b010f30226ac9b0fd8d7c52fd9187e9
 workflow-type: tm+mt
 source-wordcount: 1632
 ht-degree: 10%
@@ -63,13 +63,13 @@ Quando selezioni gli eventi per soddisfare gli obiettivi organizzativi, consider
 
 * Puoi fare riferimento a un evento esperienza in più percorsi o utilizzarlo più volte nello stesso percorso.
 
+>[!NOTE]
+>
+>Quando si selezionano i campi XDM per _[!UICONTROL Standard]_, _[!UICONTROL Relazionale]_ o _[!UICONTROL Eventi]_, sono supportati solo i tipi di dati di base (stringa, numero intero, doppio e booleano). Array e oggetti non consentiti.
+
 >[!ENDSHADEBOX]
 
 ## Gestire gli eventi esperienza {#manage-experience-events}
-
->[!NOTE]
->
->Quando si selezionano i campi XDM per _[!UICONTROL Standard]_, [!UICONTROL Relazionale] o [!UICONTROL Eventi], sono supportati solo i tipi di dati di base (stringa, numero intero, doppio e booleano). Array e oggetti non consentiti.
 
 1. Nel menu di navigazione a sinistra, scegli **[!UICONTROL Amministrazione]** > **[!UICONTROL Configurazioni]**.
 
