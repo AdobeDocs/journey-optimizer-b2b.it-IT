@@ -19,16 +19,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 73acecac0a17215eec885108521e86225ca54d49
 workflow-type: tm+mt
-source-wordcount: 1603
-ht-degree: 11%
+source-wordcount: 1632
+ht-degree: 10%
 
 ---
 
 # Seleziona eventi e campi esperienza
 
-Gli amministratori possono selezionare [AEP Experience Events](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} specifici e i campi associati nello schema di unione Experience Event. Dopo la selezione, gli utenti possono configurare le regole di decisione per ascoltare tali eventi esperienza al fine di abilitare azioni di campagna dinamiche e mirate basate su dati di eventi in tempo quasi reale.
+Gli amministratori possono selezionare [Eventi esperienza](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} specifici di Adobe Experience Platform (AEP) e i campi associati nello schema di unione degli eventi esperienza. Dopo la selezione, gli utenti possono configurare le regole di decisione per ascoltare tali eventi esperienza al fine di abilitare azioni di campagna dinamiche e mirate basate su dati di eventi in tempo quasi reale.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
@@ -36,7 +36,7 @@ Gli amministratori possono selezionare [AEP Experience Events](https://experienc
 >
 >L’utilizzo dei campi e degli eventi esperienza in Journey Optimizer B2B edition richiede schemi Experience Event abilitati per il profilo. Per ulteriori informazioni, consulta [Abilitare Real-Time Customer Profiles](https://experienceleague.adobe.com/it/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} nelle esercitazioni di Experience Platform.
 
-L’utilizzo degli eventi di esperienza di AEP nei percorsi è un processo in due fasi:
+L’utilizzo di AEP Experience Events in percorsi è un processo in due fasi:
 
 1. Un amministratore [aggiunge i campi e gli eventi di esperienza AEP](#add-an-event) nelle configurazioni di Journey Optimizer B2B edition.
 
@@ -66,6 +66,10 @@ Quando selezioni gli eventi per soddisfare gli obiettivi organizzativi, consider
 >[!ENDSHADEBOX]
 
 ## Gestire gli eventi esperienza {#manage-experience-events}
+
+>[!NOTE]
+>
+>Quando si selezionano i campi XDM per _[!UICONTROL Standard]_, [!UICONTROL Relazionale] o [!UICONTROL Eventi], sono supportati solo i tipi di dati di base (stringa, numero intero, doppio e booleano). Array e oggetti non consentiti.
 
 1. Nel menu di navigazione a sinistra, scegli **[!UICONTROL Amministrazione]** > **[!UICONTROL Configurazioni]**.
 
