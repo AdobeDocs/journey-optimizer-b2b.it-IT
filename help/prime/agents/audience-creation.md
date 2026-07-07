@@ -1,30 +1,23 @@
 ---
 title: Creare tipi di pubblico per i programmi
-description: Utilizza l’abilità Creazione di tipi di pubblico in Journey Optimizer B2B Prime per creare elenchi di persone, adattare gli elenchi avanzati di Marketo e modificare le regole degli elenchi in chat.
+description: Utilizza l’abilità Creazione di tipi di pubblico in Journey Optimizer B2B Prime per creare elenchi di persone, adattare gli elenchi avanzati di Marketo Engage e modificare le regole degli elenchi in chat.
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
-autotag-review: '2026-06-25T19:19:21.361Z'
+autotag-review: '2026-07-06T16:19:54.563Z'
 TQID: 'https://experienceleague.adobe.com/l3xd0u8LR0UDLfeGMXPEEJ9qwXPJX5DxkaH41W4Q7PE'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0f014bd931324eb41e841a788ee4cf2058522455
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 95f506e5ec59996bf4af53151cd0553d23b19082
 workflow-type: tm+mt
-source-wordcount: 1496
+source-wordcount: 1499
 ht-degree: 1%
 
 ---
 
 # Creare tipi di pubblico per i programmi
 
-In [!DNL Adobe Journey Optimizer B2B Prime], [_elenchi di persone_](../audiences/people-lists.md) definiscono il pubblico per i percorsi di persone, sia come elenchi basati su filtri dinamici che vengono aggiornati automaticamente, sia come elenchi statici con appartenenza fissa. Dall&#39;interfaccia [chat](./chat-interface.md), l&#39;abilità _Creazione pubblico_ crea, adatta e modifica gli elenchi di persone tramite una conversazione guidata.
+In [!DNL Adobe Journey Optimizer B2B Prime], [_elenchi di persone_](../audiences/people-lists.md) definiscono il pubblico per i percorsi di persone, sia come elenchi basati su filtri dinamici che vengono aggiornati automaticamente, sia come elenchi statici con appartenenza fissa. Dall&#39;interfaccia di [chat](./chat-interface.md), l&#39;_creazione pubblico_ [abilità](./skills.md) crea, adatta e modifica gli elenchi di persone tramite una conversazione guidata.
 
 * **Abilità** - `audience-creation` e `people-list-comparison`
 * **Chiamata** - Descrive direttamente i criteri del pubblico, carica un elenco avanzato [!DNL Marketo Engage] o denomina un elenco esistente da modificare
@@ -32,7 +25,7 @@ In [!DNL Adobe Journey Optimizer B2B Prime], [_elenchi di persone_](../audiences
 
 ## Flussi di lavoro supportati {#workflows}
 
-L’assistente supporta tre flussi di lavoro e determina quale si applica alla tua richiesta. Se il tuo intento è ambiguo, lo richiede prima di procedere.
+L’Assistente AI supporta tre flussi di lavoro per la creazione di tipi di pubblico e determina quale applicare dalla richiesta. Se il tuo intento è ambiguo, lo richiede prima di procedere.
 
 | Flusso di lavoro | Quando utilizzarlo | Esempio di prompt |
 |---|---|---|
@@ -42,16 +35,16 @@ L’assistente supporta tre flussi di lavoro e determina quale si applica alla t
 
 ## Creare un elenco di persone da zero {#create-from-scratch}
 
-Prima di generare qualsiasi cosa, l’assistente conferma tutte e quattro le seguenti operazioni. Chiede tutte quelle che mancano — in un singolo messaggio.
+Prima di generare qualsiasi cosa, l’Assistente AI conferma tutte e quattro le seguenti operazioni. Chiede tutte quelle che mancano — in un singolo messaggio.
 
 1. **Regole/criteri**: descrizione in linguaggio semplice di chi appartiene all&#39;elenco.
 1. **Nome** - Chiamata dell&#39;elenco.
-1. **Posizione** — Quale programma deve risiedere l&#39;elenco. Fornisci un nome per il programma e l’assistente lo trova; se ci sono più corrispondenze, ti chiede di scegliere.
-1. **Tipo**: dinamico (basato su filtro, aggiornamento automatico) o statico (appartenenza fissa). Questo è obbligatorio — l&#39;assistente non indovinerà; se non specifichi, chiede.
+1. **Posizione** — Quale programma deve risiedere l&#39;elenco. Fornisci un nome per il programma e l’Assistente AI lo trova; se ci sono più corrispondenze, ti chiede di scegliere.
+1. **Tipo**: dinamico (basato su filtro, aggiornamento automatico) o statico (appartenenza fissa). Questo è obbligatorio — IA Assistant non indovinerà; se non specifichi, chiede.
 
-### Elenchi dinamici
+### Elenchi dinamici {#dynamic-lists}
 
-Per gli elenchi dinamici, l’assistente suggerisce in modo proattivo di includere attributi di personalizzazione per rendere il targeting più ricco. Questi attributi sono **_inclusi per impostazione predefinita. Si rinuncia, non in_**:
+Per gli elenchi dinamici, l’Assistente AI suggerisce in modo proattivo di includere attributi di personalizzazione per arricchire il targeting. Questi attributi sono **_inclusi per impostazione predefinita. Si rinuncia, non in_**:
 
 | Attributo | Perché aiuta |
 |---|---|
@@ -59,16 +52,16 @@ Per gli elenchi dinamici, l’assistente suggerisce in modo proattivo di include
 | **Intento derivato** | Segnali dedotti di intento di acquisto che emergono dai conti di mercato. |
 | **Livello di coinvolgimento** | Livello di coinvolgimento calcolato che dà priorità ai contatti coinvolti. |
 
-Informare l&#39;assistente se si desidera rimuovere uno di questi prima di procedere.
+Informare l&#39;Assistente AI se si desidera rimuovere uno di questi elementi prima di procedere.
 
-### Elenchi statici
+### Elenchi statici {#static-lists}
 
 * **Statico, nessun criterio**. L&#39;elenco verrà creato vuoto e sarà possibile aggiungere membri manualmente.
-* **Statico da criteri (snapshot)** — L&#39;Assistente IA crea il set corrispondente e copia tali persone in. La popolazione è asincrona: l’assistente conferma che l’elenco è stato creato, ma nota che la visualizzazione potrebbe richiedere alcuni minuti. Non dichiarerà che l&#39;elenco è pronto immediatamente.
+* **Statico da criteri (snapshot)** — L&#39;Assistente IA crea il set corrispondente e copia tali persone in. La popolazione è asincrona: l’Assistente IA conferma che l’elenco è stato creato, ma nota che la visualizzazione delle persone potrebbe richiedere alcuni minuti. Non dichiarerà che l&#39;elenco è pronto immediatamente.
 
 ## Scheda Revisione {#review-card}
 
-Non viene creato nulla finché non lo approvi. Dopo aver descritto i criteri, l&#39;assistente presenta una scheda interattiva _Revisione creazione elenco persone_ (per gli adattamenti da elenchi [!DNL Marketo Engage], la scheda si chiama _Revisione conversione elenco persone_).
+Non viene creato nulla finché non lo approvi. Dopo aver descritto i criteri, l&#39;Assistente IA presenta una scheda _Revisione creazione elenco persone_ interattiva (per gli adattamenti da elenchi [!DNL Marketo Engage], la scheda si chiama _Revisione conversione elenco persone_).
 
 Ogni riga nella scheda rappresenta una condizione:
 
@@ -95,13 +88,13 @@ Un _riepilogo conversione_ conteggia _N affidabilità elevata_ e _N affidabilit�
 
 ## Mappatura attributi {#attribute-mapping}
 
-Quando descrivi i criteri, l’assistente traduce ogni condizione in un attributo reale e noto a livello di persona. Nella scheda Review possono essere visualizzati tre risultati:
+Quando descrivi i criteri, l’Assistente AI traduce ogni condizione in un attributo reale e noto a livello di persona. Nella scheda Review possono essere visualizzati tre risultati:
 
 1. **Corrispondenza (affidabilità elevata)** — La condizione viene mappata direttamente su un attributo (ad esempio, _&quot;email is acme.com&quot;_ corrisponde all&#39;attributo `email`). Selezionato per impostazione predefinita.
 1. **Approssimativo (attendibilità bassa)** — L&#39;attributo disponibile più vicino differisce per nome o modello dati (ad esempio, un filtro Marketo _Importo_ approssimato come _Punteggio lead_). Viene mostrata con una nota che spiega la differenza; deselezionata per impostazione predefinita.
 1. **Non trovato**. Impossibile eseguire il mapping della condizione ad alcun attributo noto. Visualizzato come _&quot;Nessun equivalente trovato&quot;_. Nessuna regola generata.
 
-Questo è il motivo per cui un elenco che descrivi potrebbe avere meno regole rispetto alle condizioni specificate: le condizioni senza corrispondenza vengono visualizzate in modo esplicito anziché essere eliminate in modo invisibile all&#39;utente. Se i criteri importanti arrivano come &quot;non trovato&quot;, riformulali utilizzando il nome reale dell’attributo e l’assistente riprova.
+Questo è il motivo per cui un elenco che descrivi potrebbe avere meno regole rispetto alle condizioni specificate: le condizioni senza corrispondenza vengono visualizzate in modo esplicito anziché essere eliminate in modo invisibile all&#39;utente. Se i criteri importanti arrivano come &quot;not found&quot; (non trovato), riformulali utilizzando il nome reale dell’attributo e l’Assistente IA ritenta.
 
 >[!NOTE]
 >
@@ -109,12 +102,12 @@ Questo è il motivo per cui un elenco che descrivi potrebbe avere meno regole ri
 
 ## Modificare le regole per un elenco esistente {#edit-rules}
 
-Quando si chiede di modificare le regole di un elenco già esistente, l&#39;assistente stabilisce quale elenco e quale modalità di modifica:
+Quando viene richiesto di modificare le regole in un elenco già esistente, l&#39;Assistente AI stabilisce quale elenco e quale modalità di modifica:
 
 * **Aggiungi/Aggiungi** (impostazione predefinita per _&quot;aggiungi regole&quot;_, _&quot;aggiungi altre regole&quot;_). Le nuove regole vengono unite a quelle esistenti.
 * **Sostituisci** (impostazione predefinita per _&quot;sostituisci regole&quot;_, _&quot;cambia regole in&quot;_) — le nuove regole sostituiscono tutte le regole esistenti nell&#39;elenco.
 
-L’assistente riepiloga ciò che verrà applicato e indica chiaramente se si tratta di aggiunta o sostituzione, quindi ti chiede di confermare prima di confermare. Dopo l’applicazione, riporta il conteggio totale delle regole e quanti sono stati aggiunti o sostituiti.
+L’Assistente AI riepiloga ciò che verrà applicato e indica chiaramente se si tratta di aggiunta o sostituzione, quindi ti chiede di confermare prima di confermare. Dopo l’applicazione, riporta il conteggio totale delle regole e quanti sono stati aggiunti o sostituiti.
 
 >[!NOTE]
 >
@@ -136,8 +129,8 @@ Chiedi all&#39;Assistente AI di confrontare due elenchi di persone (ad esempio, 
 |---|---|
 | **Dimensione tabella** | Mostra fino a 200 membri; oltre a ciò nota _&quot;Visualizzazione di 200 di N — chiedimi di perfezionare la query per limitare i risultati.&quot;_ |
 | **Calcolo sovrapposizione** | Calcolato in base all’indirizzo e-mail; le persone senza e-mail sono escluse dall’intersezione. |
-| **Dimensione elenco** | Legge approssimativamente i primi ~1.000 membri di ciascun elenco. Per gli elenchi più grandi, l’assistente indica che i risultati sono parziali. |
-| **Elenchi dinamici bozza** | Non può essere confrontato — un elenco che non è stato pubblicato non ha un segmento live. L&#39;assistente richiede di pubblicarlo prima o di utilizzare un elenco statico. |
+| **Dimensione elenco** | Legge approssimativamente i primi ~1.000 membri di ciascun elenco. Per gli elenchi più grandi, l’Assistente AI indica che i risultati sono parziali. |
+| **Elenchi dinamici bozza** | Non può essere confrontato — un elenco che non è stato pubblicato non ha un segmento live. L’Assistente AI richiede di pubblicarlo prima o di utilizzare un elenco statico. |
 
 ## Convalida QA {#qa-validation}
 
@@ -155,10 +148,10 @@ Dopo aver creato o aggiornato un elenco, l&#39;Assistente AI offre: _&quot;Verif
 
 | Limitazione | Dettaglio |
 |---|---|
-| **Adattamento a elenco statico da[!DNL Marketo Engage]** | Non puoi adattare un elenco statico di [!DNL Marketo Engage] (o un messaggio e-mail o un&#39;altra risorsa non filtrabile) a un elenco di persone. Gli elenchi statici sono ID membri espliciti e non possono essere espressi come filtri; l’assistente richiede un elenco avanzato o una campagna avanzata. |
+| **Adattamento a elenco statico da[!DNL Marketo Engage]** | Non puoi adattare un elenco statico di [!DNL Marketo Engage] (o un messaggio e-mail o un&#39;altra risorsa non filtrabile) a un elenco di persone. Gli elenchi statici sono ID membri espliciti e non possono essere espressi come filtri. L’Assistente IA richiede un elenco avanzato o una campagna avanzata. |
 | **Filtri basati su attività e appartenenza** | Durante l&#39;adattamento da [!DNL Marketo Engage], i filtri come _E-mail aperta_, _Pagina Web visitata_, _Modulo compilato_, _Membro dell&#39;elenco_ e _Membro di Smart Campaign_ non hanno un equivalente dell&#39;elenco persone e vengono restituiti come &quot;Nessun equivalente trovato&quot;. |
 | **Condizioni a livello aziendale** | Tradotto all’attributo a livello di persona più vicino, ove possibile (gli elenchi di persone funzionano sugli attributi di persona) e contrassegnato come a bassa affidabilità quando l’adattamento è assente. |
-| **Logica AND/OR profondamente nidificata** | Una logica nidificata complessa può comprimere in un AND/OR di livello superiore; l’assistente ne prende nota quando ciò accade. |
-| **Conflitti di nomi** | Non risolto automaticamente: se il nome viene utilizzato, l&#39;assistente richiede un nome diverso anziché aggiungere automaticamente un suffisso. |
-| **Approvazione richiesta** | L&#39;Assistente non creerà o modificherà un elenco finché non farai clic su **[!UICONTROL Procedi]**, confermerai o concederai un chiaro via libera (_&quot;approvato&quot;_, _&quot;sembra buono&quot;_, _&quot;compilalo&quot;_). |
+| **Logica AND/OR profondamente nidificata** | Una logica nidificata complessa può comprimere in un AND/OR di livello principale; l’Assistente AI ne prende nota quando ciò accade. |
+| **Conflitti di nomi** | Non risolto automaticamente: se il nome viene utilizzato, l&#39;Assistente IA richiede un nome diverso anziché aggiungere automaticamente un suffisso. |
+| **Approvazione richiesta** | L&#39;Assistente AI non creerà o modificherà un elenco finché non farai clic su **[!UICONTROL Procedi]**, confermerai o concederai un chiaro via libera (_&quot;approvato&quot;_, _&quot;sembra buono&quot;_, _&quot;compilalo&quot;_). |
 | **Popolazione snapshot statico** | L’appartenenza a elenchi statici creati dai criteri viene riempita in pochi minuti, non all’istante. |
