@@ -15,7 +15,7 @@ subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
+source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 1478
 ht-degree: 7%
@@ -173,3 +173,4 @@ La modalità scura può alterare i colori, gli sfondi e le immagini, a volte ign
 | Guarda i tuoi sfondi | Elenco di controllo:<ul><li>Assicurati un contrasto sufficiente tra il testo e i colori di sfondo per garantire leggibilità sia nelle modalità chiara che in quelle scure. <li>Evita di utilizzare solo i colori di sfondo per i contenuti critici. Alcuni client ignorano i colori di sfondo in modalità scura, quindi assicurati che le informazioni chiave siano ancora visibili. |
 | Progettare contenuti accessibili in modalità scura | Elenco di controllo:<ul><li>Utilizza combinazioni di colori facili da distinguere per le persone con daltonismo. <li>Utilizza una palette di mezzitoni per garantire il contrasto sia contro gli sfondi chiari che scuri. <li>Utilizza combinazioni di colori accessibili con contrasto elevato per migliorare la leggibilità e soddisfare gli standard [!DNL Web Content Accessibility Guidelines (WCAG)]. Utilizza strumenti come [!DNL WebAIM Contrast Checker] per verificare il contrasto dei colori. <li>Evita i font sottili in quanto possono influire sulla leggibilità. Se il tuo marchio richiede un font sottile, grassetto in modalità scura. <li>Salta il bianco puro sul nero puro, che può causare affaticamento degli occhi e potrebbe essere invertito automaticamente in alcuni client e-mail. <li>Se la modalità scura non è supportata, fornisci uno stile di fallback accessibile. |
 | Verifica le e-mail in un ambiente in modalità scura | Elenco di controllo:<ul><li>Utilizza l&#39;[anteprima in modalità scura](#preview-dark-mode) nello spazio di progettazione delle e-mail, che utilizza combinazioni di colori invertite per individuare i problemi in anticipo. <li>Se disponi di un account Litmus Enterprise, utilizza l&#39;opzione **[!UICONTROL Rendering e-mail]** per simulare le progettazioni tra i principali client e-mail (come Apple Mail, Gmail e Outlook) e vedere come si comportano i colori e le immagini in modalità scura. |
+

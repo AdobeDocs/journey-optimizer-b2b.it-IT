@@ -15,7 +15,7 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
+source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 650
 ht-degree: 2%
@@ -102,3 +102,4 @@ Quando configuri la segmentazione per un percorso di persone in un nodo [_Percor
 1. Nella condizione del filtro, scegli **[!UICONTROL is]** e seleziona uno o più utenti tipo dall&#39;elenco.
 
 1. Fai clic su **[!UICONTROL Fine]** per salvare il filtro per il percorso.
+

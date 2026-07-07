@@ -14,7 +14,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
+source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 582
 ht-degree: 6%
@@ -101,3 +101,4 @@ Queste abilità si estendono su più back-end:
 - **`scoring-studio`** - legge [!DNL Marketo Engage] tipi di campi/attività lead insieme al servizio di punteggio [!DNL Journey Optimizer B2B Prime].
 
 Tutti gli strumenti `falco-mcp_*` e percorsi/token/scoring/STO/FCS hanno raggiunto [!DNL Journey Optimizer B2B Prime] servizi; gli strumenti CSV/program/lead hanno raggiunto [!DNL Marketo Engage].
+

@@ -14,7 +14,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
+source-git-commit: 95f506e5ec59996bf4af53151cd0553d23b19082
 workflow-type: tm+mt
 source-wordcount: 489
 ht-degree: 2%
@@ -61,11 +61,11 @@ Il modello creato è organizzato in _dimensioni_ e _segnali_. Puoi configurare o
 * **Attività o attributo**: l&#39;elemento specifico da valutare
 * **Parametri segnale** — Impostazioni regolabili per il segnale
 
-Puoi generare e configurare modelli interamente tramite l’agente utilizzando il linguaggio naturale oppure interagire direttamente con i controlli dell’interfaccia utente.
+Puoi generare e configurare modelli interamente tramite l’Assistente all’intelligenza artificiale utilizzando il linguaggio naturale oppure interagire direttamente con i controlli dell’interfaccia utente.
 
 ## Pubblicare un modello di punteggio {#publish-model}
 
-Quando il modello viene finalizzato, indica all&#39;agente di pubblicarlo. Il processo di pubblicazione gestisce automaticamente quanto segue:
+Quando il modello è finalizzato, indica all’Assistente AI di pubblicarlo. Il processo di pubblicazione gestisce automaticamente quanto segue:
 
 | Passaggio | Cosa succede |
 |---|---|
