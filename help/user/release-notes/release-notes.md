@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c556fb63675dfd1d6e03f6b0143b3d3bd619557e
+source-git-commit: d67c4bf990aeafe801186f2daacf34c5d39b2d41
 workflow-type: tm+mt
-source-wordcount: 5164
-ht-degree: 66%
+source-wordcount: 5271
+ht-degree: 65%
 
 ---
 
@@ -32,6 +32,22 @@ Journey Optimizer B2B Edition è costruito nativamente su [!DNL Adobe Experience
 
 Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} per informazioni su diritti, guardrail delle prestazioni e limitazioni.
 
+## Note sulla versione 2026.6 {#rel-2026-6}
+
+**Data di distribuzione**: 10 luglio 2026
+
+<!-- Learn more links omitted for 2026.6 items until updated feature documentation is published. -->
+
+| Tipo | Elemento | Descrizione |
+| ---- | ---- | ----------- |
+| Miglioramento | Dividi nodi percorso di percorsi - Varianti | Gli addetti al marketing possono ora testare le varianti all’interno di un percorso assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. |
+| Miglioramento | Nodi percorso di percorsi suddivisi esterni - percorsi di persone | Il supporto per i nodi del percorso dei percorsi di suddivisione esterni è ora disponibile per i percorsi di persone. |
+| Miglioramento | Nodi del percorso di azione esterna - percorsi di persone | Il supporto per i nodi del percorso di azioni esterne è ora disponibile per i percorsi di persone. |
+
+>[!NOTE]
+>
+>Queste modifiche alla versione iniziano la distribuzione il 10 luglio 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
+
 ## Note sulla versione 2026.5 {#rel-2026-5}
 
 **Data di distribuzione**: 22 maggio 2026
@@ -42,9 +58,9 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | ---- | ---- | ----------- |
 | Funzione | Pagine di destinazione | Le pagine di destinazione sono disponibili in Journey Optimizer B2B edition per supportare percorsi e programmi _(in precedenza funzionalità di un programma Beta)_. <ul><li>Gli amministratori possono configurare i sottodomini e i predefiniti della pagina di destinazione per abilitarne la pubblicazione. [Ulteriori informazioni](../admin/configure-channels-landing-pages.md)</li><li>Gli addetti al marketing possono creare, progettare e pubblicare pagine di destinazione per supportare i loro percorsi con contenuti web personalizzati. [Ulteriori informazioni](../content/landing-pages.md)</li></ul> |
 | Funzione | Moduli | Journey Optimizer B2B edition ora supporta componenti modulo riutilizzabili per abilitare l&#39;invio di dati dalle pagine di destinazione _(in precedenza funzionalità di un programma Beta)_. <ul><li>Gli amministratori possono configurare più predefiniti di modulo utilizzando diverse combinazioni di set di dati e connessioni in streaming. [Ulteriori informazioni](../admin/configure-channels-forms.md)</li><li>Gli addetti al marketing possono ora definire componenti di moduli riutilizzabili per acquisire informazioni dai visitatori delle pagine web. [Ulteriori informazioni](../content/forms.md)</li></ul> |
-| Funzione | Membro del filtro Elenco account | Utilizzare l&#39;appartenenza a Elenchi account come punto di orchestrazione nei percorsi di account. Gli addetti al marketing possono creare elenchi Bloccati di account, elenchi di priorità o qualsiasi altro tipo di sottoinsieme del pubblico e fornire esperienze univoche di account in percorsi in base alla loro appartenenza. |
-| Funzione | Filtro cronologia eventi esperienza | Questa funzione consente all’orchestrazione di percorso B2B di utilizzare il coinvolgimento storico per indirizzare le decisioni basate sul comportamento per i membri del pubblico. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
-| Funzione | Nodi del percorso di percorsi migliore successivo | Puoi ottimizzare il split path decisioning per i percorsi di persone, perfezionando il modo in cui i tipi di pubblico vengono instradati tra i percorsi prima dell’attivazione del percorso o in fase di runtime. [Ulteriori informazioni](../journeys/next-best-path-node.md) |
+| Funzione | Membro del filtro relativo a elenchi di account | Utilizzare l&#39;appartenenza all&#39;elenco degli account come punto di orchestrazione nei percorsi di account. Gli addetti al marketing possono creare elenchi Bloccati di account, elenchi di priorità o qualsiasi altro tipo di sottoinsieme del pubblico e fornire esperienze univoche di account in percorsi in base alla loro appartenenza. |
+| Funzione | Filtro relativo alla cronologia di eventi esperienza | Questa funzione consente all’orchestrazione di percorso B2B di utilizzare il coinvolgimento storico per indirizzare le decisioni basate sul comportamento per i membri del pubblico. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
+| Funzione | Nodi del percorso migliore successivo | Puoi ottimizzare il split path decisioning per i percorsi di persone, perfezionando il modo in cui i tipi di pubblico vengono instradati tra i percorsi prima dell’attivazione del percorso o in fase di runtime. [Ulteriori informazioni](../journeys/next-best-path-node.md) |
 | Funzione | Dashboard delle prestazioni delle e-mail | La dashboard Prestazioni e-mail offre agli addetti al marketing una visualizzazione unificata delle attività e-mail in tutti i percorsi in Adobe Journey Optimizer B2B edition. [Ulteriori informazioni](../dashboards/email-performance-dashboard.md) |
 | Miglioramento | Competenze B2B in Audience Agent | Vengono aggiornate le competenze B2B di Audience Agent, inclusa la creazione di modelli di gruppi di acquisto basati sull’intelligenza artificiale. Utilizza la mappatura intento e utente tipo di prima parte per generare modelli di gruppi di acquisto, esaminare le mappature da ruolo a utente consigliate dall’intelligenza artificiale e perfezionare i modelli con linguaggio naturale prima di pubblicarli. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
 | Miglioramento | Dashboard panoramica percorsi - percorsi di persone | I percorsi di persone (Beta) ora includono una scheda _[!UICONTROL Panoramica]_ con le stesse analisi dei percorsi di account, inclusa la distribuzione del tasso di completamento dei percorsi, i percorsi per tipo di coinvolgimento e le azioni di drill-through ed esportazione. [Ulteriori informazioni](../dashboards/journeys-dashboard.md) |
