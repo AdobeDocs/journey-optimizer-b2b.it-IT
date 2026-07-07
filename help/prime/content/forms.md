@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5905973b2fc677d6e6d9a24ac68691237c837037
+source-git-commit: a046883f6f4170f40c01734e1a3f473e9f5bef4c
 workflow-type: tm+mt
 source-wordcount: 2261
 ht-degree: 2%
@@ -261,7 +261,6 @@ Le modifiche apportate a un modulo dipendono dallo stato corrente:
    * [Reorder fields](./form-design.md#field-reorder)
    * [Change submit button text and styling](./form-design.md#submit-button)
    * [Change the form styling](./form-design.md#form-styling)
-
    -->
 
    Fai clic su **[!UICONTROL Salva e chiudi]** per tornare ai dettagli del modulo.
