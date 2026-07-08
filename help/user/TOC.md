@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentazione di Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando le funzioni di IA generativa incorporata e l’automazione leader del settore.
-source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
+source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '453'
 ht-degree: 86%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 86%
       + [Modelli gestiti](./content/email-authoring-governance.md)
       + [E-mail di avviso vendite](./content/sales-alert-email.md)
       + [Deduplicazione e-mail](./content/email-deduplication.md)
-      + {hide-from-toc}[Tracciamento e-mail](./content/email-tracking-manage.md)
+      + [Tracciamento e-mail](./content/email-tracking-manage.md)
    + Canale web (Beta) {#web-channel}
       + [Panoramica](./content/web-experiences.md)
       + [Progettazione esperienza web](./content/web-experience-design.md)
@@ -160,7 +160,7 @@ ht-degree: 86%
    + [Dashboard dei gruppi di acquisto](./dashboards/buying-groups-dashboard.md)
    + [dashboard percorsi](./dashboards/journeys-dashboard.md)
 + Amministrazione {#admin}
-   + [Governance](./admin/governance.md)
+   + [Governance e privacy](./admin/governance.md)
    + [Mappatura utente tipo](./admin/persona-mapping.md)
    + Configurazioni {#configurations}
       + [Archivi AEM Assets](./admin/configure-aem-repositories.md)

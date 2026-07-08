@@ -21,18 +21,26 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
+source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
 workflow-type: tm+mt
-source-wordcount: 712
+source-wordcount: 860
 ht-degree: 0%
 
 ---
 
 # Gestire il tracciamento delle aperture delle e-mail
 
-La tua organizzazione è responsabile della determinazione dei tuoi obblighi di conformità in base alle linee guida e alle leggi applicabili della giurisdizione, ma puoi utilizzare le seguenti funzionalità [!DNL Journey Optimizer B2B Edition] per supportare le tue attività di conformità.
-
 Puoi disabilitare il tracciamento aperto per una singola e-mail, oppure acquisire le preferenze di tracciamento di ciascuna persona in Adobe Experience Platform e utilizzare un percorso suddiviso per indirizzare le persone alle varianti e-mail di tracciamento e non tracciamento.
+
+>[!BEGINSHADEBOX &quot;Linee guida CNIL sui pixel di tracciamento e-mail&quot;]
+
+Il 14 aprile 2026 la *Commission Nationale de l&#39;Informatique et des Libertés* (CNIL) ha pubblicato una [raccomandazione sull&#39;uso dei pixel di tracciamento nelle e-mail](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). La guida chiarisce quando è necessario il consenso ed evidenzia l’importanza di pratiche di consenso appropriate per il tracciamento dei pixel dell’e-mail. Questo criterio potrebbe influire sulle pratiche di invio per qualsiasi entità che distribuisce e-mail agli abbonati con sede in Francia.
+
+Un pixel di tracciamento e-mail è un’immagine trasparente 1x1 incorporata nel HTML di un’e-mail. Quando il client e-mail del destinatario carica l’immagine, il pixel invia un ping a un server che registra dati quali marca temporale, tipo di dispositivo, client e-mail e, a volte, un indirizzo IP per la posizione approssimativa. Tale registro viene quindi associato al record di un destinatario, consentendo agli addetti al marketing di sapere se un’e-mail è aperta.
+
+Le funzionalità del prodotto [!UICONTROL Journey Optimizer B2B edition] qui descritte sono blocchi predefiniti che, configurati e gestiti in modo appropriato, possono supportare un&#39;implementazione conforme. Ciascun cliente è responsabile della determinazione e del rispetto degli obblighi derivanti dalla legge applicabile.
+
+>[!ENDSHADEBOX]
 
 ## Disattiva il tracciamento per una singola e-mail {#disable-tracking-single-email}
 
