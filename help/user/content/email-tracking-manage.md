@@ -7,32 +7,31 @@ role: User
 level: Beginner, Intermediate
 autotag-review: '2026-07-08T00:02:50.497Z'
 TQID: 'https://experienceleague.adobe.com/LIutoajlpVQTeJP2y4i0Wv7H-WqGj-c-LVsOGfin384'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
 workflow-type: tm+mt
-source-wordcount: 712
+source-wordcount: 860
 ht-degree: 0%
 
 ---
 
 # Gestire il tracciamento delle aperture delle e-mail
 
-La tua organizzazione è responsabile della determinazione dei tuoi obblighi di conformità in base alle linee guida e alle leggi applicabili della giurisdizione, ma puoi utilizzare le seguenti funzionalità [!DNL Journey Optimizer B2B Edition] per supportare le tue attività di conformità.
-
 Puoi disabilitare il tracciamento aperto per una singola e-mail, oppure acquisire le preferenze di tracciamento di ciascuna persona in Adobe Experience Platform e utilizzare un percorso suddiviso per indirizzare le persone alle varianti e-mail di tracciamento e non tracciamento.
+
+>[!BEGINSHADEBOX &quot;Linee guida CNIL sui pixel di tracciamento e-mail&quot;]
+
+Il 14 aprile 2026 la *Commission Nationale de l&#39;Informatique et des Libertés* (CNIL) ha pubblicato una [raccomandazione sull&#39;uso dei pixel di tracciamento nelle e-mail](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). La guida chiarisce quando è necessario il consenso ed evidenzia l’importanza di pratiche di consenso appropriate per il tracciamento dei pixel dell’e-mail. Questo criterio potrebbe influire sulle pratiche di invio per qualsiasi entità che distribuisce e-mail agli abbonati con sede in Francia.
+
+Un pixel di tracciamento e-mail è un’immagine trasparente 1x1 incorporata nel HTML di un’e-mail. Quando il client e-mail del destinatario carica l’immagine, il pixel invia un ping a un server che registra dati quali marca temporale, tipo di dispositivo, client e-mail e, a volte, un indirizzo IP per la posizione approssimativa. Tale registro viene quindi associato al record di un destinatario, consentendo agli addetti al marketing di sapere se un’e-mail è aperta.
+
+Le funzionalità del prodotto [!UICONTROL Journey Optimizer B2B edition] qui descritte sono blocchi predefiniti che, configurati e gestiti in modo appropriato, possono supportare un&#39;implementazione conforme. Ciascun cliente è responsabile della determinazione e del rispetto degli obblighi derivanti dalla legge applicabile.
+
+>[!ENDSHADEBOX]
 
 ## Disattiva il tracciamento per una singola e-mail {#disable-tracking-single-email}
 
@@ -98,7 +97,7 @@ Aggiungi un [_Dividi percorsi per persone_ nodo](../journeys/split-merge-paths-n
 
 ### Configurare le varianti e-mail di tracciamento e non di tracciamento {#configure-tracking-and-non-tracking-email-variants}
 
-Aggiungi un nodo azione [_[!UICONTROL Invia e-mail &#x200B;]_](./add-email.md) a ogni percorso in modo che ogni persona riceva la variante e-mail che corrisponde alle proprie preferenze di tracciamento.
+Aggiungi un nodo azione [_[!UICONTROL Invia e-mail ]_](./add-email.md) a ogni percorso in modo che ogni persona riceva la variante e-mail che corrisponde alle proprie preferenze di tracciamento.
 
 1. Nel percorso abilitato per il tracciamento, aggiungi un&#39;azione **[!UICONTROL Invia e-mail]** e seleziona o crea l&#39;e-mail come di consueto, lasciando **[!UICONTROL Disabilita tracciamento aperto]** cancellato nelle proprietà e-mail.
 
