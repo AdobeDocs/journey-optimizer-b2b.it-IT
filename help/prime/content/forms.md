@@ -1,6 +1,7 @@
 ---
 title: Moduli
 description: 'Creazione e gestione di moduli riutilizzabili per la raccolta dati aziendali: progettare campi, impostare pagine di ringraziamento, pubblicare e tenere traccia dell’utilizzo in Journey Optimizer B2B Prime.'
+badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 autotag-review: '2026-06-19T23:02:49.150Z'
 TQID: 'https://experienceleague.adobe.com/iwrvFvR6amcRnXyPd3PoDZ8FU9zITH9i3B172QDTAn0'
 product_v2:
@@ -17,9 +18,9 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a046883f6f4170f40c01734e1a3f473e9f5bef4c
+source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
 workflow-type: tm+mt
-source-wordcount: 2261
+source-wordcount: 2446
 ht-degree: 2%
 
 ---
@@ -32,7 +33,7 @@ La quantità di informazioni che il modulo deve acquisire dipende dal valore del
 
 >[!PREREQUISITES]
 >
->Prima che i team di marketing possano creare e utilizzare i moduli per acquisire informazioni, un amministratore deve definire uno o più predefiniti per moduli. Per ulteriori informazioni, vedere [_Configurazioni Forms_](../admin/configuration-presets-forms.md)
+>Prima che i team di marketing possano creare e utilizzare i moduli per acquisire informazioni, un amministratore deve definire uno o più predefiniti per moduli. Per ulteriori informazioni, vedere [_Configurazioni Forms_](../admin/configuration-presets-forms.md).
 
 <!-- 
 >Form creation in [!DNL Journey Optimizer B2B Prime] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
@@ -46,7 +47,7 @@ La quantità di informazioni che il modulo deve acquisire dipende dal valore del
 
 Per accedere ai moduli in [!DNL Journey Optimizer B2B Prime], passa alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Forms]**. Questa azione consente di aprire una pagina di elenco in cui vengono visualizzati tutti i moduli creati nell’istanza.
 
-<!-- ![Access the forms library](./assets/forms-list.png){width="800" zoomable="yes"} -->
+![Accedere alla raccolta moduli](./assets/forms-list.png){width="800" zoomable="yes"}
 
 Il sistema ordina la tabella in base alla colonna _[!UICONTROL Modificato]_, che mostra i moduli aggiornati più di recente nella parte superiore per impostazione predefinita. Fai clic sul titolo della colonna per passare da crescente a decrescente.
 
@@ -60,13 +61,13 @@ Lo stato del modulo determina la disponibilità del modulo per l’utilizzo in u
 | Pubblicato | Quando pubblichi un modulo, questo diventa disponibile per l’utilizzo in una pagina di destinazione o in un modello di pagina di destinazione. Il contenuto del modulo pubblicato non può essere modificato nello spazio di progettazione visiva. Azioni disponibili:<br/><ul><li>Modifica nome, descrizione o pagina di ringraziamento<li>Aggiungi a una pagina di destinazione o a un modello di pagina di destinazione<li>Crea versione bozza<li>Duplica<li>Elimina (se non in uso)<li>Codice da incorporare |
 | Pubblicato con bozza | Quando crei una bozza da un modulo pubblicato, la versione pubblicata rimane disponibile per l’utilizzo in una pagina di destinazione o in un modello. Il contenuto della bozza può essere modificato nello spazio di progettazione visiva. Se pubblichi la versione bozza, questa sostituisce la versione pubblicata corrente e il contenuto viene aggiornato nelle pagine di destinazione o nei modelli di pagina di destinazione in cui è in uso. Azioni disponibili:<br/><ul><li>Modificare le pagine di nome, descrizione o ringraziamento<li>Aggiungi a una pagina di destinazione o a un modello di pagina di destinazione<li>Modifica versione bozza in Visual Design Space<li>Pubblica versione bozza<li>Duplica<li>Elimina (se non in uso)<li>Codice da incorporare |
 
-<!-- ![Form status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
+![Ciclo di vita stato modulo](../../user/content/assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 ### Filtrare l’elenco dei moduli {#filter-list}
 
 Per cercare un modulo per nome, immettere una stringa di testo nella barra di ricerca per trovare una corrispondenza. Fai clic sull&#39;icona _Filtro_ ( ![Mostra o nascondi icona filtri](../../user/assets/do-not-localize/icon-filter.svg) ) per visualizzare le opzioni di filtro disponibili e modificare le impostazioni per filtrare gli elementi visualizzati in base ai criteri specificati.
 
-<!-- ![Filter the displayed forms](./assets/forms-list-filtered.png){width="700" zoomable="yes"} -->
+![Filtra i moduli visualizzati](../../user/content/assets/forms-list-filtered.png){width="700" zoomable="yes"}
 
 ### Personalizzare la visualizzazione delle colonne {#column-display}
 
@@ -74,7 +75,7 @@ Personalizza le colonne da visualizzare nella tabella facendo clic sull&#39;icon
 
 Nella finestra di dialogo, seleziona le colonne da visualizzare e fai clic su **[!UICONTROL Applica]**.
 
-<!-- ![Columns to display in the Forms list](./assets/forms-customize-table-dialog.png){width="300"} -->
+![Colonne da visualizzare nell&#39;elenco di Forms](../../user/content/assets/forms-customize-table-dialog.png){width="300"}
 
 ## Creare moduli {#create-forms}
 
@@ -106,11 +107,7 @@ Prima di iniziare a creare moduli riutilizzabili in [!DNL Journey Optimizer B2B 
 >id="ajo-b2b-prime_lp_form_preset"
 >title="Selezionare un predefinito"
 >abstract="Scegli un predefinito preimpostato contenente la connessione da utilizzare e un set di dati preimpostato per il modulo."
-
-<!--
-Add to context help when available
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
--->
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="Creare un predefinito di modulo"
 
 Puoi creare un modulo in [!DNL Journey Optimizer B2B Prime] facendo clic su **[!UICONTROL Crea modulo]** in alto a destra nella pagina dell&#39;elenco _[!UICONTROL Forms]_.
 
@@ -123,7 +120,7 @@ Puoi creare un modulo in [!DNL Journey Optimizer B2B Prime] facendo clic su **[!
    * Alpha, caratteri numerici e speciali sono consentiti
    * I caratteri riservati sono **_non consentiti_**: `\ / : * ? " < > |`
 
-   <!-- ![Create form dialog](./assets/forms-create-dialog.png){width="400"} -->
+   ![Finestra di dialogo Crea modulo](../../user/content/assets/forms-create-dialog.png){width="400"}
 
 1. Per **[!UICONTROL Predefinito]**, fai clic sull&#39;icona _Seleziona dati_ ( ![Seleziona icona dati](../../user/assets/do-not-localize/icon-select-data.svg) ) per collegare al modulo un predefinito di modulo configurato.
 
@@ -133,21 +130,17 @@ Puoi creare un modulo in [!DNL Journey Optimizer B2B Prime] facendo clic su **[!
 
    Viene visualizzata la pagina dei dettagli del modulo con una definizione di base predefinita.
 
-   <!-- ![Default form content](./assets/form-new-default-content.png){width="700" zoomable="yes"} -->
+   ![Contenuto modulo predefinito](../../user/content/assets/form-new-default-content.png){width="700" zoomable="yes"}
 
 ### Modificare la struttura predefinita del modulo {#design}
 
 Utilizza gli strumenti di progettazione visiva per modificare il contenuto del modulo in base alle esigenze:
 
-<!-- 
-
-* [Add fields](./form-design.md#add-field)
-* [Change field styling](./form-design.md#field-styling)
-* [Reorder fields](./form-design.md#field-reorder)
-* [Change submit button text and styling](./form-design.md#submit-button)
-* [Change the form styling](./form-design.md#form-styling)
-
--->
+* [Aggiungi campi](./form-design.md#add-field)
+* [Modificare lo stile dei campi](./form-design.md#field-styling)
+* [Riordina campi](./form-design.md#field-reorder)
+* [Modificare il testo e lo stile del pulsante di invio](./form-design.md#submit-button)
+* [Modificare lo stile del modulo](./form-design.md#form-styling)
 
 Fai clic su **[!UICONTROL Salva e chiudi]** per salvare le modifiche alla struttura del contenuto del modulo e passare ai dettagli del modulo.
 
@@ -167,7 +160,7 @@ Nel pannello _[!UICONTROL Riepilogo]_ a destra, scorri fino alla sezione **[!UIC
 
 Quando sei pronto a rendere il modulo disponibile per l&#39;utilizzo in una pagina di destinazione o in un modello di pagina di destinazione, fai clic su **[!UICONTROL Pubblica]**.
 
-<!-- ![Publish form dialog](./assets/form-publish-dialog.png){width="400"} -->
+![Finestra di dialogo Pubblica modulo](../../user/content/assets/form-publish-dialog.png){width="400"}
 
 Questa azione apre una finestra di dialogo di conferma. È possibile interrompere il processo di pubblicazione facendo clic su **[!UICONTROL Annulla]** oppure su **[!UICONTROL Pubblica]** per confermare.
 
@@ -179,13 +172,13 @@ Fare clic sul nome di un modulo nella pagina elenco per aprire la pagina dettagl
 >
 >Se un modulo pubblicato è utilizzato da una pagina di destinazione o da un modello di pagina di destinazione, non è possibile modificare il contenuto o la pagina di ringraziamento. È possibile creare una bozza di versione se si desidera apportare modifiche al modulo.
 
-<!-- ![View details for a published form](./assets/form-details-published.png){width="600" zoomable="yes"} -->
+![Visualizza dettagli per un modulo pubblicato](../../user/content/assets/form-details-published.png){width="600" zoomable="yes"}
 
 Fare clic su **[!UICONTROL Modifica modulo]** per aprire il modulo nello spazio di progettazione visiva.
 
 Uscire dalla visualizzazione in qualsiasi momento facendo clic sulla freccia _Indietro_ in alto a sinistra, per tornare alla pagina dell&#39;elenco _[!UICONTROL Forms]_.
 
-## Visualizza riferimenti modulo utilizzato da
+## Visualizza riferimenti modulo utilizzato da {#used-by}
 
 Nel pannello _[!UICONTROL Riepilogo]_ a destra, fai clic sulla scheda **[!UICONTROL Usato da]** per visualizzare i dettagli della posizione in cui il modulo è attualmente utilizzato in [!DNL Journey Optimizer B2B Prime], tra le pagine di destinazione e i modelli di pagina di destinazione.
 
@@ -193,7 +186,7 @@ Nel pannello _[!UICONTROL Riepilogo]_ a destra, fai clic sulla scheda **[!UICONT
 >
 >Non è possibile eliminare i moduli attualmente utilizzati da pagine di destinazione o modelli di pagine di destinazione.
 
-<!-- ![Used by references for the form](./assets/form-used-by-published.png){width="600" zoomable="yes"} -->
+![Utilizzato dai riferimenti per il modulo](../../user/content/assets/form-used-by-published.png){width="600" zoomable="yes"}
 
 I riferimenti vengono visualizzati in base alla categoria: _Pagina di destinazione_ o _Modello pagina di destinazione_. Fare clic sul collegamento per aprire la pagina o il modello corrispondente in cui viene utilizzato il modulo.
 
@@ -208,11 +201,11 @@ Non è possibile eliminare i moduli attualmente utilizzati da una pagina di dest
 
 Questa azione apre una finestra di dialogo di conferma. È possibile interrompere il processo facendo clic su **[!UICONTROL Annulla]** oppure su **[!UICONTROL Elimina]** per confermare l&#39;eliminazione.
 
-<!-- ![Delete form dialog](./assets/form-delete-dialog.png){width="400"} -->
+![Finestra di dialogo Elimina modulo](../../user/content/assets/form-delete-dialog.png){width="400"}
 
 Se il modulo è attualmente in uso, l&#39;azione apre una finestra di dialogo informativa che avvisa che non è possibile eliminarlo. Fare clic su **[!UICONTROL OK]** per interrompere l&#39;azione di eliminazione.
 
-<!-- ![Delete form dialog - cannot delete in-use form](./assets/form-delete-dialog-in-use.png){width="400"} -->
+![Finestra di dialogo Elimina modulo - impossibile eliminare il modulo in uso](../../user/content/assets/form-delete-dialog-in-use.png){width="400"}
 
 ## Duplicare i moduli {#duplicate-forms}
 
@@ -223,11 +216,11 @@ Duplicare un modulo come metodo rapido e semplice per creare un nuovo modulo uti
 * Nella parte superiore destra della pagina dei dettagli del modulo fare clic su **[!UICONTROL ... Altro]** e scegli **[!UICONTROL Duplicato]**.
 * Dalla pagina dell&#39;elenco _[!UICONTROL Forms]_, fare clic su _Altro_ (**...**) accanto al nome del modulo e scegliere **[!UICONTROL Duplica]**.
 
-<!-- ![Duplicate the form](./assets/form-list-page-duplicate.png){width="450"} -->
+![Duplica il modulo](../../user/content/assets/form-list-page-duplicate.png){width="450"}
 
 Nella finestra di dialogo, inserisci un nome utile (univoco) e una descrizione. Fai clic su **[!UICONTROL Duplica]** per completare l&#39;azione.
 
-<!-- ![Name and description for the duplicate form](./assets/form-duplicate-dialog.png){width="400"} -->
+![Nome e descrizione del modulo duplicato](../../user/content/assets/form-duplicate-dialog.png){width="400"}
 
 Modificate il modulo duplicato per modificare il nome in base alle esigenze e modificare il modulo per l&#39;uso previsto.
 
@@ -249,19 +242,17 @@ Le modifiche apportate a un modulo dipendono dallo stato corrente:
 
 1. Modifica uno dei dettagli, ad esempio nome e descrizione.
 
-   <!-- ![Details for form with Draft status](./assets/form-details-draft.png){width="600" zoomable="yes"} -->
+   ![Dettagli modulo con stato Bozza](../../user/content/assets/form-details-draft.png){width="600" zoomable="yes"}
 
 1. Per apportare modifiche al modulo nello spazio di progettazione visivo, fare clic su **[!UICONTROL Modifica modulo]**.
 
-   <!--
-   Use the visual design tools as needed:
+   Utilizza gli strumenti di progettazione visiva secondo necessità:
 
-   * [Add fields](./form-design.md#add-field)
-   * [Change field styling](./form-design.md#field-styling)
-   * [Reorder fields](./form-design.md#field-reorder)
-   * [Change submit button text and styling](./form-design.md#submit-button)
-   * [Change the form styling](./form-design.md#form-styling)
-   -->
+   * [Aggiungi campi](./form-design.md#add-field)
+   * [Modificare lo stile dei campi](./form-design.md#field-styling)
+   * [Riordina campi](./form-design.md#field-reorder)
+   * [Modificare il testo e lo stile del pulsante di invio](./form-design.md#submit-button)
+   * [Modificare lo stile del modulo](./form-design.md#form-styling)
 
    Fai clic su **[!UICONTROL Salva e chiudi]** per tornare ai dettagli del modulo.
 
@@ -277,17 +268,15 @@ Le modifiche apportate a un modulo dipendono dallo stato corrente:
 
 1. Fare clic su **[!UICONTROL Crea bozza versione]** nella finestra di dialogo per aprire la bozza versione nello spazio di progettazione visivo.
 
-   <!-- ![Create draft version dialog](./assets/form-published-edit-create-draft-dialog.png){width="400"} -->
+   ![Finestra di dialogo Crea bozza versione](../../user/content/assets/form-published-edit-create-draft-dialog.png){width="400"}
 
 1. Utilizza gli strumenti di progettazione visiva necessari per aggiornare il contenuto del modulo:
 
-   <!--
-   * [Add fields](./form-design.md#add-field)
-   * [Change field styling](./form-design.md#field-styling)
-   * [Reorder fields](./form-design.md#field-reorder)
-   * [Change submit button text and styling](./form-design.md#submit-button)
-   * [Change the form styling](./form-design.md#form-styling)
-   -->
+   * [Aggiungi campi](./form-design.md#add-field)
+   * [Modificare lo stile dei campi](./form-design.md#field-styling)
+   * [Riordina campi](./form-design.md#field-reorder)
+   * [Modificare il testo e lo stile del pulsante di invio](./form-design.md#submit-button)
+   * [Modificare lo stile del modulo](./form-design.md#form-styling)
 
    Fai clic su **[!UICONTROL Salva e chiudi]** per tornare ai dettagli del modulo.
 
@@ -302,17 +291,15 @@ Le modifiche apportate a un modulo dipendono dallo stato corrente:
 
    Viene visualizzata un’anteprima del contenuto del modulo della versione bozza, con i dettagli del modulo a destra.
 
-   <!-- ![Edit the form draft version](./assets/form-published-with-draft-edit.png){width="700" zoomable="yes"} -->
+   ![Modifica versione bozza modulo](../../user/content/assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
 
 1. Fai clic su **[!UICONTROL Modifica modulo]** nel riquadro _[!UICONTROL Riepilogo]_ a destra e utilizza gli strumenti di progettazione visiva in base alle esigenze:
 
-   <!--
-   * [Add fields](./form-design.md#add-field)
-   * [Change field styling](./form-design.md#field-styling)
-   * [Reorder fields](./form-design.md#field-reorder)
-   * [Change submit button text and styling](./form-design.md#submit-button)
-   * [Change the form styling](./form-design.md#form-styling)
-   -->
+   * [Aggiungi campi](./form-design.md#add-field)
+   * [Modificare lo stile dei campi](./form-design.md#field-styling)
+   * [Riordina campi](./form-design.md#field-reorder)
+   * [Modificare il testo e lo stile del pulsante di invio](./form-design.md#submit-button)
+   * [Modificare lo stile del modulo](./form-design.md#form-styling)
 
    Fai clic su **[!UICONTROL Salva e chiudi]** per tornare ai dettagli del modulo.
 
@@ -341,4 +328,4 @@ Quando un modulo viene incluso in una pagina di destinazione o in un modello di 
 
 Quando selezioni il modulo nello spazio di progettazione della pagina di destinazione, queste azioni sono disponibili nella barra degli strumenti contestuale e nel pannello delle proprietà a destra.
 
-<!-- ![Apply actions to the selected form](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"} -->
+![Applica azioni al modulo selezionato](../../user/content/assets/form-actions-page-authoring.png){width="600" zoomable="yes"}

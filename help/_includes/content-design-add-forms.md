@@ -1,18 +1,18 @@
 ---
 title: Authoring dei contenuti - aggiungere moduli
 description: Sezione riutilizzata sull’aggiunta di moduli nelle pagine di destinazione e nei modelli
-source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
+source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # Authoring dei contenuti - aggiungere moduli
 
-Un modulo è un componente riutilizzabile a cui è possibile fare riferimento tramite più pagine di destinazione e modelli di pagina di destinazione in Adobe Journey Optimizer B2B edition. Si tratta di un blocco di campi e di un pulsante di invio che può essere creato anticipatamente e inserito rapidamente per rendere la progettazione della pagina più rapida e coerente.
+Un modulo è un componente riutilizzabile a cui è possibile fare riferimento tramite più pagine di destinazione e modelli di pagina di destinazione. Si tratta di un blocco di campi e di un pulsante di invio che può essere creato anticipatamente e inserito rapidamente per rendere la progettazione della pagina più rapida e coerente.
 
-Nell&#39;esempio seguente vengono illustrati i passaggi necessari per aggiungere un modulo durante la progettazione della pagina.
+L’esempio seguente illustra i passaggi necessari per aggiungere un modulo durante la progettazione della pagina di destinazione.
 
 1. Nella sezione **[!UICONTROL Contents]** trascinare l&#39;elemento **[!UICONTROL Form]** in un componente strutturale nello spazio di progettazione della pagina.
 
@@ -28,11 +28,11 @@ Nell&#39;esempio seguente vengono illustrati i passaggi necessari per aggiungere
 
 1. Se si desidera ignorare il tipo di **[!UICONTROL completamento]** predefinito per il modulo, modificare l&#39;impostazione in base ai requisiti della pagina o del modello.
 
-   Questa è anche nota come _pagina di ringraziamento_ per il modulo e questa impostazione determina cosa accade quando un visitatore invia il modulo:
+   Questa è anche nota come _pagina di ringraziamento_ per il modulo e determina cosa accade quando un visitatore invia il modulo:
 
    * **[!UICONTROL Resta a pagina]** - Scegli questa opzione per mantenere il visitatore sulla stessa pagina al momento dell&#39;invio del modulo.
 
-   * **[!UICONTROL Pagina di destinazione]** - Scegli questa opzione per selezionare una pagina di destinazione Journey Optimizer B2B edition o Marketo Engage come follow-up.
+   * **[!UICONTROL Pagina di destinazione]** - Scegli questa opzione per selezionare un&#39;altra pagina di destinazione come follow-up.
 
    * **[!UICONTROL URL esterno]** - Scegliere questa opzione per specificare qualsiasi URL come pagina di follow-up. Dopo che il visitatore ha inviato il modulo, il browser carica l’URL designato.
 
