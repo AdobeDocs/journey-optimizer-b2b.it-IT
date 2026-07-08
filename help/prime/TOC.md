@@ -2,10 +2,10 @@
 user-guide-title: Documentazione di Journey Optimizer B2B Prime
 user-guide-description: Scopri Adobe Journey Optimizer B2B Prime e come utilizzarlo per ?.
 hide: true
-source-git-commit: 7ad94f63f181d3e51c00c9629f3b2347c0eba04f
+source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 45%
+source-wordcount: '160'
+ht-degree: 50%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 45%
    + [Abilità](./agents/skills.md)
    + [Crea programma da breve](./agents/program-from-brief.md)
    + [Creare tipi di pubblico per i programmi](./agents/audience-creation.md)
-   + [Creare modelli di punteggio personalizzati](./agents/lead-scoring-model.md)
+   + [Crea modelli di punteggio personalizzati](./agents/lead-scoring-model.md)
 + [Qualificatore di vendita](./sales-qualifier/sales-qualifier.md)
 + Gestione marketing {#marketing-management}
    + [Panoramica](./marketing/marketing-management.md)
@@ -58,7 +58,9 @@ ht-degree: 45%
       + [Creare modelli](./content/templates-create.md)
       + [Governance dei contenuti](./content/template-content-governance.md)
    + [Pagine di destinazione](./content/landing-pages.md)
-   + [Moduli](./content/forms.md)
+   + Moduli {#forms}
+      + [Panoramica](./content/forms.md)
+      + [Progettazione del modulo](./content/form-design.md)
    + [Personalizzazione](./content/personalization-expressions.md)
    + Strumenti di progettazione dei contenuti {#content-design}
       + [Componenti della struttura](./content/structure-components.md)
