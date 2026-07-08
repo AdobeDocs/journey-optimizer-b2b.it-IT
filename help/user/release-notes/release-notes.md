@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: d67c4bf990aeafe801186f2daacf34c5d39b2d41
+source-git-commit: c4fdf10fda4dd2066fe96c9804cd9aa27266fbde
 workflow-type: tm+mt
-source-wordcount: 5271
+source-wordcount: 5232
 ht-degree: 65%
 
 ---
@@ -40,13 +40,17 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Miglioramento | Dividi nodi percorso di percorsi - Varianti | Gli addetti al marketing possono ora testare le varianti all’interno di un percorso assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. |
-| Miglioramento | Nodi percorso di percorsi suddivisi esterni - percorsi di persone | Il supporto per i nodi del percorso dei percorsi di suddivisione esterni è ora disponibile per i percorsi di persone. |
-| Miglioramento | Nodi del percorso di azione esterna - percorsi di persone | Il supporto per i nodi del percorso di azioni esterne è ora disponibile per i percorsi di persone. |
+| Funzione | Dividi nodi percorso di percorsi - Varianti | (Beta) Gli addetti al marketing possono ora testare le varianti all’interno di un percorso assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. |
 
 >[!NOTE]
 >
 >Queste modifiche alla versione iniziano la distribuzione il 10 luglio 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
+
+<!-- 
+Add for 2026.8 release
+| Enhancement | External split path journey nodes - Person journeys | Support for external split path journey nodes is now available for person journeys. |
+| Enhancement | External action journey nodes - Person journeys | Support for external action journey nodes is now available for person journeys. |
+-->
 
 ## Note sulla versione 2026.5 {#rel-2026-5}
 
