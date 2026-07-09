@@ -1,6 +1,6 @@
 ---
 title: Accesso utente e autorizzazioni
-description: 'Gestire l’accesso degli utenti in Adobe Admin Console: crea gruppi di utenti, assegna profili di prodotto e imposta autorizzazioni basate sui ruoli per Journey Optimizer B2B edition Prime.'
+description: 'Gestire l’accesso degli utenti in Adobe Admin Console: crea gruppi di utenti, assegna profili di prodotto e imposta autorizzazioni basate sui ruoli per Journey Optimizer B2B Prime.'
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 autotag-review: '2026-06-22T20:31:37.404Z'
 TQID: 'https://experienceleague.adobe.com/Z9U-dtvCzs73d6WhsfFNKAeYL2YgRi1hrwcqnfZj4-k'
@@ -16,20 +16,22 @@ subfeature_v2:
   - id: bd42eee1-e206-4826-91ea-88dc726d858e
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+source-git-commit: 0f264f00c8018324abf1d409ddc381c6dcc9c08a
 workflow-type: tm+mt
-source-wordcount: 1729
-ht-degree: 70%
+source-wordcount: 1710
+ht-degree: 61%
 
 ---
 
 # Accesso utente e autorizzazioni
 
-Dopo aver completato il provisioning e aver associato le sandbox, completa i passaggi seguenti per fornire al team e agli utenti l’accesso a Adobe Journey Optimizer B2B edition.
+Dopo aver completato il provisioning e aver associato le sandbox, completa i passaggi seguenti per fornire l&#39;accesso [!DNL Journey Optimizer B2B Prime] al team e agli utenti.
 
-1. [Creare un profilo di prodotto Adobe Journey Optimizer B2B edition](#create-profile) in Admin Console (solo configurazione una tantum/iniziale).
+1. [Crea un  [!DNL Journey Optimizer B2B Edition] profilo di prodotto](#create-profile) in Admin Console (solo configurazione una tantum/iniziale).
 1. [Aggiungi un gruppo di utenti](#add-user-group) in Admin Console.
-1. [Modifica ruoli incorporati](#edit-role-permissions) o [crea un ruolo personalizzato](#create-a-custom-role) con autorizzazioni Journey Optimizer B2B edition nelle autorizzazioni Adobe Experience Platform.
+1. [Assegna il profilo di prodotto](#assign-profile) al gruppo di utenti in Admin Console.
+1. [Aggiungi utenti al nuovo gruppo](#add-users) in Admin Console.
+1. [Modifica ruoli predefiniti](#edit-role-permissions) o [crea un ruolo personalizzato](#create-a-custom-role) con autorizzazioni [!DNL Journey Optimizer B2B Edition] in Adobe Experience Platform.
 1. [Aggiungi utenti](#add-users-to-a-role) o [gruppi](#add-user-groups-to-a-role) ai ruoli in Adobe Experience Platform.
 
 ## Configurare il profilo di prodotto {#config-profile}
@@ -66,17 +68,17 @@ Prima di poter utilizzare Admin Console per amministrare gli utenti del team, è
 
    * Se il valore nella colonna **[!UICONTROL RUOLO AMMINISTRATORE]** mostra `System`, l&#39;amministratore di sistema è tu o l&#39;utente visualizzato.
 
-### Creare il profilo di prodotto Adobe Journey Optimizer B2B edition {#create-profile}
+### Crea il profilo di prodotto [!DNL Journey Optimizer B2B Edition] {#create-profile}
 
 Quando consenti l’accesso a una soluzione Adobe agli utenti, non devi necessariamente concedere loro l’accesso completo. I profili di prodotto consentono a ciascuna soluzione di disporre di un proprio set di autorizzazioni utente. Utilizza Admin Console per assegnare i profili di prodotto.
 
 Per ulteriori informazioni sull&#39;utilizzo dei profili di prodotto per i diritti utente, consulta [_Gestire i profili di prodotto per gli utenti aziendali_](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html){target="_blank"} nella documentazione di Admin Console.
 
-![Requisiti del ruolo di amministratore](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema o un amministratore di prodotto Adobe Journey Optimizer B2B edition può eseguire i seguenti passaggi da [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
+![Requisiti del ruolo di amministratore](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema o un amministratore di prodotto [!DNL Experience Platform] può eseguire i passaggi seguenti da [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Selezionare la scheda **[!UICONTROL Prodotti]**.
 
-1. Apri l&#39;istanza di Adobe Journey Optimizer B2B edition in cui desideri aggiungere il profilo e fai clic su **[!UICONTROL Nuovo profilo]**.
+1. Aprire l&#39;istanza [!DNL Journey Optimizer B2B Edition] in cui si desidera aggiungere il profilo e fare clic su **[!UICONTROL Nuovo profilo]**.
 
    ![Experience Platform - profili di prodotto per gruppo utenti](./assets/admin-console-product-profiles.png){width="600" zoomable="yes"}
 
@@ -98,7 +100,7 @@ Per ulteriori informazioni sull&#39;utilizzo dei gruppi di utenti per gestire le
 
 1. Fai clic su **[!UICONTROL Nuovo gruppo utenti]** in alto a destra.
 
-1. Immetti un nome per il gruppo di utenti, ad esempio _Utenti del percorso B2B_ e fai clic su **[!UICONTROL Salva]**.
+1. Immettere un nome per il gruppo di utenti, ad esempio _utenti B2B_ e fare clic su **[!UICONTROL Salva]**.
 
    ![Admin Console - aggiungi gruppo utenti](./assets/admin-console-new-user-group.png){width="600" zoomable="yes"}
 
@@ -175,7 +177,7 @@ Per ulteriori informazioni sulle autorizzazioni per i ruoli in Experience Platfo
 
 ### B2B product permissions {#b2b-product-permissions}
 
-The following permissions govern access to Journey Optimizer B2B Edition capabilities:
+The following permissions govern access to [!DNL Journey Optimizer B2B Edition] capabilities:
 
 | Category | Description | Permissions |
 | -------- | ----------- | ---------- |
@@ -190,7 +192,7 @@ The following permissions govern access to Journey Optimizer B2B Edition capabil
 
 ### B2B built-in roles {#b2b-built-in-roles}
 
-When your organization has the Journey Optimizer B2B Edition product provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
+When your organization has [!DNL Journey Optimizer B2B Edition] provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
 
 | Role | Permissions |
 | ---- | ----------- |
@@ -205,7 +207,9 @@ When your organization has the Journey Optimizer B2B Edition product provisioned
 
 Per i ruoli incorporati o personalizzati, puoi decidere in qualsiasi momento di aggiungere o eliminare le autorizzazioni. La modifica di un ruolo predefinito o personalizzato ha effetto su tutti gli utenti assegnati al ruolo.
 
-Nell’esempio seguente, desideri aggiungere le autorizzazioni relative alla risorsa Percorsi B2B per gli utenti assegnati al ruolo di Channel Manager B2B. Questa modifica consente agli utenti di quel ruolo di gestire anche i percorsi di account.
+>[!IMPORTANT]
+>
+>Per l&#39;accesso a [!DNL Journey Optimizer B2B Prime] è necessario abilitare una sandbox specifica predisposta utilizzando la seguente convenzione di denominazione: prefisso di sottoscrizione Marketo Engage + Prime. Ad esempio, se il prefisso della sottoscrizione Marketo Engage collegata è _AcmeAssoc_, la sandbox richiesta per l&#39;accesso [!DNL Journey Optimizer B2B Prime] è _AcmeAssocPrime_.
 
 >[!NOTE]
 >
@@ -219,17 +223,19 @@ _Per modificare le autorizzazioni per un ruolo :_
 
 1. Nella pagina dei dettagli, fai clic su **[!UICONTROL Modifica]** in alto a destra.
 
-   ![Experience Platform - modifica il ruolo](../../user/admin/assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
+   ![Experience Platform - modifica il ruolo](./assets/aep-permissions-role-prime-edit.png){width="800" zoomable="yes"}
 
-   Nel menu _[!UICONTROL Risorse]_ dell&#39;editor dei ruoli viene visualizzato l&#39;elenco delle risorse applicabili ai prodotti delle applicazioni basate su Experience Cloud - Platform.
+   Nell&#39;editor dei ruoli, il menu _[!UICONTROL Risorse]_ visualizza l&#39;elenco delle risorse applicabili alle applicazioni basate su Experience Cloud - Platform.
 
-   È possibile immettere _B2B_ nello strumento di ricerca per filtrare l&#39;elenco delle autorizzazioni per il prodotto B2B.
+1. Selezionare la sandbox predisposta per l&#39;accesso [!DNL Journey Optimizer B2B Prime] (`<Marketo subscription prefix>Prime`).
 
-1. Fai clic sull&#39;icona _Aggiungi_ (**+**) per la risorsa Percorsi B2B.
+   ![Experience Platform - aggiungi sandbox per il nuovo ruolo](./assets/aep-permissions-role-prime-sandbox.png){width="800" zoomable="yes"}
+
+1. Fai clic sull&#39;icona _Aggiungi_ (**+**) per ciascuna delle risorse B2B.
 
    ![Experience Platform - Risorsa Percorsi B2B aggiunta al ruolo di Channel Manager](./assets/aep-permissions-b2b-list.png){width="700" zoomable="yes"}
 
-1. Nella scheda delle autorizzazioni _[!UICONTROL Percorsi B2B]_, seleziona **[!UICONTROL Gestisci Percorsi di account B2B]**.
+1. Aggiungi le autorizzazioni specifiche per ciascuna risorsa oppure seleziona **[!UICONTROL Aggiungi tutto]**.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -239,7 +245,7 @@ _Per modificare le autorizzazioni per un ruolo :_
 
 ### Aggiungere utenti a un ruolo {#add-users-to-a-role}
 
-![Requisiti del ruolo di amministratore](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema o un amministratore di prodotto AEP può eseguire i seguenti passaggi.
+![Requisiti del ruolo di amministratore](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema o un amministratore Experience Platform può eseguire i seguenti passaggi.
 
 1. Apri i dettagli del ruolo e seleziona la scheda **[!UICONTROL Utenti]**.
 
@@ -247,7 +253,7 @@ _Per modificare le autorizzazioni per un ruolo :_
 
 1. Fare clic su **[!UICONTROL Aggiungi utenti]**.
 
-   ![Experience Platform - aggiungi utenti al ruolo](../../user/admin/assets/aep-permissions-role-add-users.png){width="700" zoomable="yes"}
+   ![Experience Platform - aggiungi utenti al ruolo](./assets/aep-permissions-role-prime-add-users.png){width="800" zoomable="yes"}
 
 1. Nella finestra di dialogo _[!UICONTROL Aggiungi utenti]_, individua e seleziona gli utenti che desideri aggiungere al ruolo.
 
@@ -263,7 +269,7 @@ _Per modificare le autorizzazioni per un ruolo :_
 
 Per informazioni sulla gestione degli utenti, vedi [_Utenti Adobe Admin Console_](https://helpx.adobe.com/it/enterprise/using/users.html){target="_blank"} nella documentazione di Admin Console.
 
-![Requisiti del ruolo di amministratore](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema o un amministratore di prodotto AEP può eseguire i seguenti passaggi.
+![Requisiti del ruolo di amministratore](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema o un amministratore Experience Platform può eseguire i seguenti passaggi.
 
 1. Apri i dettagli del ruolo e seleziona la scheda **[!UICONTROL Gruppi di utenti]**.
 
@@ -271,7 +277,7 @@ Per informazioni sulla gestione degli utenti, vedi [_Utenti Adobe Admin Console_
 
 1. Fare clic su **[!UICONTROL Aggiungi gruppi]**.
 
-   ![Experience Platform - aggiungi gruppi al ruolo](../../user/admin/assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
+   ![Experience Platform - aggiungi gruppi al ruolo](./assets/aep-permissions-role-prime-add-groups.png){width="800" zoomable="yes"}
 
 1. Nella finestra di dialogo _[!UICONTROL Aggiungi gruppi]_, individua e seleziona i gruppi da aggiungere al ruolo.
 
@@ -285,7 +291,7 @@ Per informazioni sulla gestione degli utenti, vedi [_Utenti Adobe Admin Console_
 
 ### Creare un ruolo personalizzato {#create-a-custom-role}
 
-![Requisiti del ruolo di amministratore](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema o un amministratore di prodotto AEP può eseguire i seguenti passaggi.
+![Requisiti del ruolo di amministratore](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un amministratore di sistema o un amministratore Experience Platform può eseguire i seguenti passaggi.
 
 1. Seleziona **[!UICONTROL Ruoli]** nell&#39;area di navigazione a sinistra e seleziona **[!UICONTROL Crea ruolo]**.
 
@@ -293,9 +299,9 @@ Per informazioni sulla gestione degli utenti, vedi [_Utenti Adobe Admin Console_
 
 1. Fai clic su **[!UICONTROL Conferma]**.
 
-1. Seleziona le sandbox.
+1. Selezionare la sandbox predisposta per l&#39;accesso [!DNL Journey Optimizer B2B Prime] (`<Marketo subscription prefix>Prime`).
 
-   ![Experience Platform - aggiungi sandbox per il nuovo ruolo](../../user/admin/assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
+   ![Experience Platform - aggiungi sandbox per il nuovo ruolo](./assets/aep-permissions-role-prime-sandbox.png){width="800" zoomable="yes"}
 
 1. Aggiungere autorizzazioni prodotto B2B:
 
@@ -313,10 +319,8 @@ Per informazioni sulla gestione degli utenti, vedi [_Utenti Adobe Admin Console_
 
 1. Fare clic su **[!UICONTROL Aggiungi gruppi]**.
 
-   ![Experience Platform - seleziona il gruppo di utenti per il ruolo personalizzato](../../user/admin/assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
-
 1. Seleziona la casella di controllo accanto al gruppo di utenti creato in precedenza nell’Admin Console.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-Il ruolo personalizzato è configurato e gli utenti del gruppo assegnato possono ora accedere alle funzionalità di Journey Optimizer B2B edition selezionate.
+Il ruolo personalizzato è configurato e gli utenti del gruppo assegnato possono ora accedere alle funzionalità [!DNL Journey Optimizer B2B Prime] selezionate.
