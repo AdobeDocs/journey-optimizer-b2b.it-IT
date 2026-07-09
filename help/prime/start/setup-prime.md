@@ -4,21 +4,14 @@ description: Completa le attività iniziali di configurazione per l’istanza Pr
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione fa parte di una versione beta limitata."
 autotag-review: '2026-06-12T23:06:52.179Z'
 TQID: 'https://experienceleague.adobe.com/D8qXM-F4anA8IVYmdlaclUoxgTwqQptN36xYFpsuvHY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f467931a-9b22-4ca8-869f-adfbd64061ceid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 0f264f00c8018324abf1d409ddc381c6dcc9c08a
 workflow-type: tm+mt
-source-wordcount: 228
-ht-degree: 11%
+source-wordcount: 261
+ht-degree: 10%
 
 ---
 
@@ -51,6 +44,16 @@ Una volta completato il provisioning e quando le sandbox sono associate, configu
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo per l'attività"/></td>
 <td>Aggiungere un gruppo di utenti in Admin Console</td>
 <td><a href="./user-management.md#add-user-group">Aggiungi gruppo utenti</a></td>
+</tr>
+<tr>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo per l'attività"/></td>
+<td>Assegnare il profilo di prodotto al gruppo di utenti in Admin Console</td>
+<td><a href="./user-management.md#assign-profile">Assegna profilo prodotto</a></td>
+</tr>
+<tr>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo per l'attività"/></td>
+<td>Aggiungere utenti al gruppo di utenti in Admin Console</td>
+<td><a href="./user-management.md#add-users">Aggiungere utenti</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casella di controllo per l'attività"/></td>
