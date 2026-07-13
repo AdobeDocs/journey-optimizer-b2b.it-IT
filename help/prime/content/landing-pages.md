@@ -14,9 +14,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: 415cfd2d9bdeee87364fa8935bc8a2a8259174ba
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1601
 ht-degree: 3%
 
 ---
@@ -47,7 +47,7 @@ Ad esempio, puoi creare e progettare pagine di destinazione per indirizzare gli 
 
 ## Accedere e gestire le pagine di destinazione {#access-manage-landing-pages}
 
-Per accedere alle pagine di destinazione in [!DNL Journey Optimizer B2B Prime], vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Pagine di destinazione]**. Questa azione visualizza un elenco di tutte le pagine di destinazione create nell’istanza.
+Per accedere alle pagine di destinazione in [!DNL Journey Optimizer B2B Prime], vai alla navigazione a sinistra ed espandi **[!UICONTROL Gestione contenuto]**. Quindi selezionare **[!UICONTROL Pagine di destinazione]**. Questa azione visualizza un elenco di tutte le pagine di destinazione create nell’istanza.
 
 ![Accedi alla libreria delle pagine di destinazione](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
