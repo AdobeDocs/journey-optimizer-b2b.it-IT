@@ -103,7 +103,7 @@ Quando si sceglie **[!UICONTROL Campi gestiti]**, nella finestra di dialogo _Sel
 
 Per scegliere quali campi modificare tramite **[!UICONTROL Aggiorna profilo account]** o **[!UICONTROL Aggiorna profilo persona]** azioni di percorso, impostare i campi aggiornabili.
 
-Prima di configurare i campi aggiornabili, questi devono trovarsi in un set di dati personalizzato. Per una descrizione dettagliata del flusso di lavoro del set di dati personalizzato, consulta [Creare set di dati e acquisire dati](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e utilizzare l&#39;opzione **[!UICONTROL Creare set di dati dallo schema]**. Questo set di dati viene utilizzato per isolare i campi aggiornabili. Tutti i campi aggiornabili devono essere in questo set di dati.
+Prima di configurare i campi aggiornabili, questi devono trovarsi in un set di dati personalizzato. Per una descrizione dettagliata del flusso di lavoro del set di dati personalizzato, consulta [Creare set di dati e acquisire dati](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} e utilizzare l&#39;opzione **[!UICONTROL Creare set di dati dallo schema]**. Questo set di dati viene utilizzato per isolare i campi aggiornabili. Tutti i campi aggiornabili devono essere in questo set di dati.
 
 >[!IMPORTANT]
 >
@@ -124,7 +124,7 @@ Crea un set di dati per Profilo individuale e un altro per Account aziendale. Se
 
 ### Schemi relazionali
 
-Gli schemi relazionali consentono di creare classi di dati personalizzate. Con l’accesso a più set di dati, puoi creare classi personalizzate in base alle tue esigenze di dati. Utilizza [schemi relazionali](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) per le entità aziendali, ad esempio acquisti, licenze e registrazioni di eventi, nelle decisioni di percorso e nella personalizzazione delle e-mail. Puoi selezionare fino a 20 schemi e fino a 50 campi per schema.
+Gli schemi relazionali consentono di creare classi di dati personalizzate. Con l’accesso a più set di dati, puoi creare classi personalizzate in base alle tue esigenze di dati. Utilizza [schemi relazionali](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational#) per le entità aziendali, ad esempio acquisti, licenze e registrazioni di eventi, nelle decisioni di percorso e nella personalizzazione delle e-mail. Puoi selezionare fino a 20 schemi e fino a 50 campi per schema.
 
 Sono disponibili diverse funzioni che supportano l’utilizzo degli schemi e dei campi relazionali configurati:
 
