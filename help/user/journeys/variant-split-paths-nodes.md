@@ -7,10 +7,14 @@ role: User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 autotag-review: '2026-07-06T23:50:12.985Z'
 TQID: 'https://experienceleague.adobe.com/42lSbF7J-yEzFYbFFhs2sSQ4j4NfRtENlIz-R-HcPx8'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 11e6c1954e3a99f3da6fc0967038d1c316991d07
 workflow-type: tm+mt
 source-wordcount: 1439
@@ -53,7 +57,7 @@ Quando un account raggiunge un nodo di percorsi suddivisi variante, il nodo lo a
 
 ### Algoritmo di distribuzione {#distribution-algorithm}
 
-Il nodo percorsi suddivisi variante utilizza un algoritmo di assegnazione casuale _**basato su**_ quota. Quando un account raggiunge il nodo, il sistema valuta le assegnazioni di account esistenti per ciascun percorso e indirizza l&#39;account al percorso più al di sotto della quota configurata. Esistono due proprietà chiave per l’algoritmo:
+Il nodo percorsi suddivisi variante utilizza un algoritmo di assegnazione casuale _&#x200B;**basato su**&#x200B;_ quota. Quando un account raggiunge il nodo, il sistema valuta le assegnazioni di account esistenti per ciascun percorso e indirizza l&#39;account al percorso più al di sotto della quota configurata. Esistono due proprietà chiave per l’algoritmo:
 
 * La distribuzione tiene traccia da vicino delle percentuali configurate in tutti i volumi di account. Poiché l&#39;algoritmo gestisce attivamente i conteggi delle quote, la distribuzione effettiva varia solo di un conto per percorso a causa dell&#39;arrotondamento quando i totali non si dividono in modo uniforme.
 * L&#39;algoritmo utilizza un blocco pessimistico durante la valutazione delle quote per serializzare le assegnazioni, che garantisce un tracciamento accurato del conteggio nell&#39;esecuzione concorrente.
