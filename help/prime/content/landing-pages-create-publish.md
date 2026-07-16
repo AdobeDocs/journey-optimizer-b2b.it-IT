@@ -6,20 +6,14 @@ feature: Landing Pages, Content Design Tools
 role: User
 autotag-review: '2026-07-08T20:35:24.091Z'
 TQID: 'https://experienceleague.adobe.com/wj4r5EUW-tvZDVa6eZZw-tETc0kkcGZVCGSjxHk-dAs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
 workflow-type: tm+mt
-source-wordcount: 1471
-ht-degree: 12%
+source-wordcount: 1562
+ht-degree: 13%
 
 ---
 
@@ -162,7 +156,22 @@ Quando si è soddisfatti del contenuto, fare clic su **[!UICONTROL Salva]**.
 
 ### Importa HTML {#import-html}
 
-{{$include /help/_includes/content-design-import.md}}
+<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
+
+Il contenuto importato può essere:
+
+* Un file HTML con un foglio di stile incorporato
+* Un file .zip che include un file HTML, il foglio di stile (.css) e le immagini
+
+  >[!NOTE]
+  >
+  >La struttura del file .zip non è soggetta a specifici vincoli. Tuttavia, i riferimenti devono essere relativi e adattarsi alla struttura ad albero della cartella .zip. Le immagini vengono sempre caricate nell&#39;archivio [assets](./digital-asset-management.md).
+
+_Per importare un file contenente contenuto HTML :_
+
+1. Nella home page di progettazione selezionare l&#39;opzione **[!UICONTROL Importa HTML]**.
+
+1. Trascina il file HTML o .zip con il contenuto HTML e fai clic su **[!UICONTROL Importa]**.
 
 ![Importa contenuto HTML in un file zip](../../user/content/assets/templates-import-zip-file.png){width="500"}
 
@@ -170,7 +179,7 @@ Quando si è soddisfatti del contenuto, fare clic su **[!UICONTROL Salva]**.
 >
 >L’utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
 
-Puoi personalizzare il contenuto importato in base alle esigenze con lo spazio di progettazione visiva.
+Puoi personalizzare il contenuto importato in base alle esigenze con gli strumenti di progettazione visiva.
 
 ## Controllare gli avvisi {#check-alerts}
 
