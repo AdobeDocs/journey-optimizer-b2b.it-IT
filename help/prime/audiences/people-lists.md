@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+source-git-commit: 4c7c9b6044716d0014ea2b0dda86aa69c762ca30
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: 891
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 1. Scegli quindi elenca **[!UICONTROL Tipo]**:
 
    * **[!UICONTROL Statico]** - L&#39;appartenenza è determinata dai filtri qualificati valutati al momento della creazione dell&#39;elenco. L&#39;iscrizione all&#39;elenco non viene aggiornata a meno che non si qualifichino o non qualifichino manualmente i record.
-***[!UICONTROL Dinamico]** - L&#39;appartenenza è determinata dinamicamente da filtri qualificati. L’iscrizione all’elenco si aggiorna automaticamente.
+***[!UICONTROL Dinamico]** - L&#39;appartenenza viene determinata dinamicamente dai filtri qualificati. L’iscrizione all’elenco si aggiorna automaticamente.
 
    ![Finestra di dialogo Crea elenco persone](./assets/people-list-create-dialog.png){width="450"}
 
@@ -203,7 +203,7 @@ L’appartenenza a un elenco dinamico viene definita utilizzando filtri semplici
 
    Dopo un breve periodo di tempo, i membri qualificati vengono visualizzati nell&#39;elenco.
 
-Per aprire la pagina dei dettagli del profilo del lead in cui è possibile visualizzare le attività di riepilogo e recenti, fare clic sul nome di una persona nell&#39;elenco.
+Per aprire la pagina [dettagli persona](./person-details.md) in cui è possibile visualizzare le attività di riepilogo e recenti, fare clic sul nome di una persona nell&#39;elenco.
 
 ### Duplicare un elenco dinamico
 

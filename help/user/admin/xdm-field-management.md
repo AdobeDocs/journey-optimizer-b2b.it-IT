@@ -20,10 +20,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: d7237ad4dfb17b8177315d942bb273422153ce23
 workflow-type: tm+mt
-source-wordcount: 1185
-ht-degree: 71%
+source-wordcount: 1140
+ht-degree: 70%
 
 ---
 
@@ -124,17 +124,13 @@ Crea un set di dati per Profilo individuale e un altro per Account aziendale. Se
 
 ### Schemi relazionali
 
-Gli schemi relazionali consentono di creare classi di dati personalizzate. Con l’accesso a più set di dati, puoi creare classi personalizzate in base alle tue esigenze di dati. Utilizza gli schemi relazionali per le entità aziendali, ad esempio acquisti, licenze e registrazioni di eventi, nelle decisioni di percorso e nella personalizzazione e-mail. Puoi selezionare fino a 20 schemi e fino a 50 campi per schema.
+Gli schemi relazionali consentono di creare classi di dati personalizzate. Con l’accesso a più set di dati, puoi creare classi personalizzate in base alle tue esigenze di dati. Utilizza [schemi relazionali](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational#) per le entità aziendali, ad esempio acquisti, licenze e registrazioni di eventi, nelle decisioni di percorso e nella personalizzazione delle e-mail. Puoi selezionare fino a 20 schemi e fino a 50 campi per schema.
 
 Sono disponibili diverse funzioni che supportano l’utilizzo degli schemi e dei campi relazionali configurati:
 
 * [Personalizzazione dei contenuti](../content/personalization.md#custom-datasets)
 * [Decisioning del percorso (percorsi suddivisi)](../journeys/split-merge-paths-nodes.md#custom-data-filtering)
 * [Acquisto di ruoli gruppo](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) (solo persona B2B)
-
->[!AVAILABILITY]
->
->Gli [schemi relazionali](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational#) sono disponibili per [!DNL Journey Optimizer B2B Edition] come versione a disponibilità limitata. Data Mirror e gli schemi relazionali sono disponibili per [!DNL Journey Optimizer Orchestrated Campaigns] titolari di licenza. Gli schemi relazionali sono disponibili anche come versione limitata per [!DNL Customer Journey Analytics] utenti, a seconda della licenza e dell&#39;abilitazione della funzione. Contatta il tuo rappresentante Adobe per accedere.
 
 >[!NOTE]
 >

@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c4fdf10fda4dd2066fe96c9804cd9aa27266fbde
+source-git-commit: cbb8062b529e230bc2e2a8d8f80307eeb15e5f7e
 workflow-type: tm+mt
-source-wordcount: 5232
+source-wordcount: 5234
 ht-degree: 65%
 
 ---
@@ -36,11 +36,9 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 
 **Data di distribuzione**: 10 luglio 2026
 
-<!-- Learn more links omitted for 2026.6 items until updated feature documentation is published. -->
-
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Dividi nodi percorso di percorsi - Varianti | (Beta) Gli addetti al marketing possono ora testare le varianti all’interno di un percorso assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. |
+| Funzione | Dividi nodi percorso di percorsi - Varianti | (Beta) Gli addetti al marketing possono ora testare le varianti all’interno di un percorso assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. [Ulteriori informazioni](../journeys/variant-split-paths-nodes.md) |
 
 >[!NOTE]
 >

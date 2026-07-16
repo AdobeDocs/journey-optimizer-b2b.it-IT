@@ -17,9 +17,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
+source-git-commit: 9d2d1e90d7576f28f70c2c301c6acb1c294d1fe2
 workflow-type: tm+mt
-source-wordcount: 1037
+source-wordcount: 1060
 ht-degree: 7%
 
 ---
@@ -103,7 +103,9 @@ La pagina e-mail viene visualizzata quando crei un messaggio e-mail per un nodo 
 
      Gli amministratori creano configurazioni in [Configurazione del canale e-mail](../admin/email-channel-configuration.md).
 
-   * **[!UICONTROL Regole aziendali]** - (Facoltativo) Applica le regole di limite all&#39;azione e-mail selezionando un set di regole.
+   * **[!UICONTROL Regole aziendali]** - (Facoltativo) Applica regole di limitazione o di inattività all&#39;azione e-mail selezionando un set di regole.
+
+     Per ulteriori informazioni sulle regole business e su come definire e attivare set di regole per le comunicazioni di canale, vedere [_Regole business_](../admin/business-rules.md).
 
    * **[!UICONTROL Tracciamento azioni]** - Selezionare le caselle di controllo per le azioni di cui si desidera tenere traccia per l&#39;e-mail.
 
