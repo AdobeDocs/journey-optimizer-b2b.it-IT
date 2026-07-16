@@ -3,8 +3,8 @@ title: Authoring dei contenuti - Seleziona modello e-mail
 description: Sezione riutilizzata sulla selezione di un modello e-mail per l’authoring dei contenuti
 source-git-commit: 985b0ac83f21e5ec0bf8d49d3d94deb5035789be
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 0%
+source-wordcount: '283'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ Puoi scegliere tra:
 
 * **Modelli salvati**. Utilizza un modello personalizzato salvato che hai creato da zero utilizzando il menu _[!UICONTROL Modelli]_ o salvato da un&#39;e-mail in un percorso utilizzando l&#39;opzione _[!UICONTROL Salva come modello di contenuto]_.
 
-Utilizza la sezione _[!UICONTROL Seleziona modello struttura]_ per iniziare a creare il contenuto da un modello. Puoi utilizzare un modello di esempio o un modello e-mail personalizzato salvato dall’istanza Journey Optimizer B2B Edition.
+Utilizza la sezione _[!UICONTROL Seleziona modello struttura]_ per iniziare a creare il contenuto da un modello. Puoi utilizzare un modello di esempio o un modello e-mail personalizzato salvato dall’istanza di Journey Optimizer B2B edition.
 
 >[!BEGINTABS]
 
@@ -40,7 +40,7 @@ Questa azione copia il contenuto nel designer del contenuto visivo, dove puoi mo
 
 >[!TAB Modelli di esempio]
 
-Adobe Journey Optimizer B2B Edition offre una selezione di modelli e-mail _preconfigurati_, che possono essere utilizzati per la creazione di e-mail e modelli e-mail.
+Adobe Journey Optimizer B2B edition offre una selezione di modelli e-mail offerti _predefiniti_, che possono essere utilizzati per la creazione di e-mail e modelli e-mail.
 
 ![Scegli un modello fornito da Adobe](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"}
 
