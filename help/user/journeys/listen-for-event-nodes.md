@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
+source-git-commit: e369d695d565c361738b045211c5012d20b1a1a0
 workflow-type: tm+mt
-source-wordcount: 1880
-ht-degree: 11%
+source-wordcount: 1834
+ht-degree: 12%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 11%
 
 Per spostare il pubblico al passaggio successivo nel percorso quando si verifica un evento, aggiungi il nodo _Ascolta un evento_.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [Guarda il video introduttivo](#overview-video)
+<!--
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
+-->
 
 >[!NOTE]
 >
@@ -151,17 +153,11 @@ Se nell’istanza Marketo Engage connessa sono presenti pagine web, puoi attivar
 
 ### Ascolta un evento esperienza {#listen-for-an-experience-event}
 
-Gli amministratori possono selezionare [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale. L’utilizzo degli eventi esperienza nei percorsi è un processo in due fasi:
-
-1. Un amministratore [aggiunge i tipi di evento e i campi di interesse](../admin/configure-aep-events.md#add-an-event) per renderli disponibili in percorsi.
-
-2. In un percorso, aggiungi un nodo _Ascolta un evento_ e seleziona un tipo di evento Experience Platform per un evento basato su persone.
-
-<!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) 
--->
-
-_Per includere un evento esperienza nel percorso :_
+>[!PREREQUISITES]
+>
+>Gli amministratori configurano [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale.
+>
+>Per rendere Experience Events disponibili per percorsi, un amministratore di prodotto deve prima [aggiungere i tipi di evento e i campi di interesse](../admin/configure-aep-events.md#add-an-event) in [!DNL Journey Optimizer B2B Edition].
 
 1. Selezionare un nodo **[!UICONTROL Ascolta un evento]** nell&#39;area di lavoro del percorso.
 

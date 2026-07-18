@@ -13,9 +13,9 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
+source-git-commit: 5239170ff139aab47d3fb017a6f0204ef027b9bb
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1433
 ht-degree: 19%
 
 ---
@@ -105,7 +105,7 @@ L’intestazione di ogni area di lavoro del percorso include il nome, lo stato e
 
 * Fai clic sull&#39;icona _Modifica_ ( ![Modifica icona](../../assets/do-not-localize/icon-react-edit.svg) ) per modificare il nome o le informazioni di descrizione del percorso.
 * Fai clic su **[!UICONTROL Impostazioni Percorso]** per modificare l&#39;inizio del percorso e la ricorrenza.
-* Fare clic su **[!UICONTROL ... Altro]** per applicare un&#39;azione di percorso o per abilitare/disabilitare il controllo del traffico e il rientro.
+* Fare clic su **[!UICONTROL ... Altro]** per applicare un&#39;azione di percorso o per abilitare/disabilitare [il controllo del traffico di percorso](./journey-traffic-control.md) e reinserire.
 * Se tutti gli errori sono stati risolti e si desidera attivare il percorso, fare clic su **[!UICONTROL Pubblica]**.
 
 ### Progettazione percorso {#journey-design}
