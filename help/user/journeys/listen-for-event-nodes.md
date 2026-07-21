@@ -4,11 +4,16 @@ description: 'Configurare i nodi evento per i trigger account e persone: ascolta
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
 source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
@@ -251,7 +256,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 È possibile utilizzare una modifica negli attributi del profilo di persona B2B per attivare il nodo nei percorsi di persone nella finestra di dialogo _[!UICONTROL Modifica evento]_.
 
-1. Trascina **[!UICONTROL Modifica del profilo della persona]**s dall&#39;elenco _[!UICONTROL Triggers]_ nello spazio del generatore di corrispondenze eventi.
+1. Trascina **[!UICONTROL Modifica del profilo della persona]**&#x200B;s dall&#39;elenco _[!UICONTROL Triggers]_ nello spazio del generatore di corrispondenze eventi.
 
 1. Fare clic su **[!UICONTROL Aggiungi vincolo]** e selezionare la modifica dell&#39;attributo che si desidera utilizzare per l&#39;attivazione dell&#39;evento.
 
