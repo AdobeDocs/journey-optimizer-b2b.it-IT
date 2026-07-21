@@ -3,24 +3,17 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: cbb8062b529e230bc2e2a8d8f80307eeb15e5f7e
+source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
 workflow-type: tm+mt
-source-wordcount: 5234
-ht-degree: 65%
+source-wordcount: 5349
+ht-degree: 64%
 
 ---
 
@@ -38,7 +31,10 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Dividi nodi percorso di percorsi - Varianti | (Beta) Gli addetti al marketing possono ora testare le varianti all’interno di un percorso assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. [Ulteriori informazioni](../journeys/variant-split-paths-nodes.md) |
+| Funzione | _Dividi percorso_ nodi di percorso - Varianti | (Beta) Gli addetti al marketing possono ora testare le varianti all’interno di un percorso assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. [Ulteriori informazioni](../journeys/variant-split-paths-nodes.md) |
+| Miglioramento | _Ascolta un evento_ nodi di percorso | Nei percorsi di persone, i nodi del listener di eventi possono ora essere configurati con più eventi da attivare. Il primo evento qualificante fa avanzare il record nel percorso. (Supporto pianificato nei percorsi di account per la prossima versione). [Ulteriori informazioni](../journeys/listen-for-event-nodes.md#person-journeys) |
+| Miglioramento | _Ascolta un evento_ nodi di percorso | La scheda _[!UICONTROL Filtri]_ per eventi persone/persone è stata modificata da un selettore di azione singola a un&#39;interfaccia del generatore di regole. Questo fornisce supporto per più configurazioni di attività utilizzando eventi di esperienza configurati. [Ulteriori informazioni](../journeys/listen-for-event-nodes.md#filters-people-event) |
+| Miglioramento | _Azione_ nodi di percorso | Sono ora disponibili azioni aggiuntive per il contesto persone del percorso account e da un percorso di persone: _Aggiungi al percorso di persone_ e _Rimuovi dal percorso di persone_. |
 
 >[!NOTE]
 >
