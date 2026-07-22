@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
+source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
 workflow-type: tm+mt
-source-wordcount: 5349
+source-wordcount: 5351
 ht-degree: 64%
 
 ---
@@ -41,7 +41,7 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | Funzione | _Dividi percorso_ nodi di percorso - Varianti | (Beta) Gli addetti al marketing possono ora testare le varianti all’interno di un percorso assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. [Ulteriori informazioni](../journeys/variant-split-paths-nodes.md) |
 | Miglioramento | _Ascolta un evento_ nodi di percorso | Nei percorsi di persone, i nodi del listener di eventi possono ora essere configurati con più eventi da attivare. Il primo evento qualificante fa avanzare il record nel percorso. (Supporto pianificato nei percorsi di account per la prossima versione). [Ulteriori informazioni](../journeys/listen-for-event-nodes.md#person-journeys) |
 | Miglioramento | _Ascolta un evento_ nodi di percorso | La scheda _[!UICONTROL Filtri]_ per eventi persone/persone è stata modificata da un selettore di azione singola a un&#39;interfaccia del generatore di regole. Questo fornisce supporto per più configurazioni di attività utilizzando eventi di esperienza configurati. [Ulteriori informazioni](../journeys/listen-for-event-nodes.md#filters-people-event) |
-| Miglioramento | _Azione_ nodi di percorso | Sono ora disponibili azioni aggiuntive per il contesto persone del percorso account e da un percorso di persone: _Aggiungi al percorso di persone_ e _Rimuovi dal percorso di persone_. |
+| Miglioramento | _Azione_ nodi di percorso | Sono ora disponibili azioni aggiuntive per il contesto persone del percorso account e da un percorso di persone: _Aggiungi al percorso di persone_ e _Rimuovi dal percorso di persone_. [Ulteriori informazioni](../journeys/action-nodes.md#people-actions) |
 
 >[!NOTE]
 >
