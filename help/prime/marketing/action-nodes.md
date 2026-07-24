@@ -1,6 +1,6 @@
 ---
 title: Crea un nodo azione
-description: Placeholder
+description: Configurare un nodo Azione in Journey Optimizer B2B edition Prime per aggiungere, rimuovere o aggiornare persone, elenchi, programmi e destinazioni o per inviare messaggi quando raggiungono il nodo in un percorso di persone.
 autotag-review: '2026-06-12T22:58:21.806Z'
 TQID: 'https://experienceleague.adobe.com/uR-WvNz3gA6V7yyN3RRXH-MggrmGb1qvu1CBhMZRuAc'
 product_v2:
@@ -13,10 +13,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
+source-git-commit: 7a954ba7ade748d5d51cae82a0cddb64449fa2a2
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 2%
+source-wordcount: 1125
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ In un percorso di persone, utilizza un’azione sulle persone quando desideri ap
 
 | Azione | Vincoli |
 | ------ | ----------- |
-| **[!UICONTROL Attiva nella destinazione]** | <li>Seleziona o crea un elenco statico <li>Se l’elenco non ha una destinazione attivata, attiva l’elenco |
+| **[!UICONTROL Attiva nella destinazione]** | <li>Seleziona o crea un elenco statico <li>Se l’elenco non ha una destinazione attivata, attivalo per una o più destinazioni |
 | **[!UICONTROL Aggiungi persona al Percorso]** | <li>Seleziona un percorso pianificato o live <li>I criteri di pubblico del percorso target non vengono applicati |
 | **[!UICONTROL Aggiungi all&#39;elenco]** | <li>Crea un nuovo elenco statico o selezionane uno esistente |
 | **[!UICONTROL Aggiungi a elenco Marketo]** | <li>Seleziona un elenco statico in Marketo Engage |
@@ -54,15 +54,44 @@ In un percorso di persone, utilizza un’azione sulle persone quando desideri ap
 
 +++Attiva nella destinazione
 
-Utilizza questa azione per attivare le persone nelle destinazioni di Experience Platform direttamente dal tuo percorso. Seleziona la destinazione e immetti un nome di pubblico per identificare il pubblico attivato nella destinazione.
+Utilizza questa azione per aggiungere persone a un elenco statico e attivare tale elenco in una destinazione direttamente dal percorso. È possibile utilizzare un elenco statico esistente o crearne uno specifico per il percorso.
+
+>[!PREREQUISITES]
+>
+>Prima di impostare un nodo di percorso _Attiva nella destinazione_, è necessario disporre di una o più [destinazioni configurate](../audiences/destinations.md) per la sandbox [!DNL Journey Optimizer B2B Prime].
 
 ![Esegui un&#39;azione - Attiva nella destinazione](./assets/person-action-node-activate-to-destination.png){width="450"}
+
+In **[!UICONTROL Aggiungi all&#39;elenco]** scegliere una delle opzioni seguenti:
+
+* **[!UICONTROL Crea]** — crea un nuovo elenco statico e aggiungi persone. L&#39;elenco è immediatamente disponibile in **[!UICONTROL Elenchi persone]**.
+
+  Selezionare un programma padre per l&#39;elenco e immettere un **[!UICONTROL Nome]** (obbligatorio) e una **[!UICONTROL Descrizione]** (facoltativo). Fai clic su **[!UICONTROL Crea]** per aggiungere il nuovo elenco per il nodo.
+
+  ![Creare un elenco statico da utilizzare per il nodo di percorso](./assets/person-action-node-destination-create-list.png){width="375"}
+
+* **[!UICONTROL Seleziona]** — seleziona un elenco statico esistente in cui aggiungere le persone che raggiungono il nodo.
+
+  Selezionare la casella di controllo per l&#39;elenco statico esistente e fare clic su **[!UICONTROL Salva]**.
+
+  ![Selezionare un elenco statico da utilizzare per il nodo di percorso](./assets/person-action-node-destination-select-list.png){width="700" zoomable="yes"}
+
+Chiunque raggiunga il nodo viene aggiunto all’elenco statico selezionato, ma l’azione non viene completata finché l’elenco non viene attivato su una destinazione:
+
+* Se l&#39;elenco selezionato è già attivato, le relative destinazioni vengono visualizzate in **[!UICONTROL Destinazioni]** e l&#39;azione è pronta.
+* In caso contrario, viene visualizzato un messaggio _È richiesta almeno una destinazione_. Fai clic su **[!UICONTROL Attiva elenco nella destinazione]**, seleziona la destinazione e fai clic su **[!UICONTROL Salva]**. Fai clic su **[!UICONTROL Attiva]** nella finestra di dialogo di conferma.
+
+![Destinazioni configurate disponibili per l&#39;attivazione](../audiences/assets/static-list-activate-destination-select.png){width="600" zoomable="yes"}
+
+Al termine dell&#39;attivazione, la destinazione viene visualizzata in **[!UICONTROL Destinazioni]** e l&#39;azione è pronta. Se necessario, puoi attivare l’elenco in altre destinazioni.
+
+Chiunque raggiunga il nodo viene aggiunto all’elenco statico selezionato, che viene attivato nella destinazione scelta, in modo che vengano aggiunti al pubblico di destinazione e, a sua volta, a qualsiasi campagna feed dal pubblico.
 
 +++
 
 +++[!UICONTROL Aggiungi persona al Percorso]
 
-Utilizza questa azione per aggiungere persone ad altri percorsi pianificati o live. Le persone aggiunte tramite questa azione vengono aggiunte immediatamente al pubblico del percorso target; i criteri di pubblico del percorso non vengono applicati.
+Utilizza questa azione per aggiungere persone ad altri percorsi pianificati o live. Le persone aggiunte tramite questa azione vengono immediatamente aggiunte al pubblico del percorso target; i criteri di pubblico del percorso target non vengono applicati.
 
 ![Esegui un&#39;azione - Aggiungi persona al percorso](./assets/person-action-node-add-to-journey.png){width="450"}
 
@@ -77,7 +106,7 @@ Utilizza questa azione per aggiungere persone a un elenco statico in Journey Opt
 Scegliere una delle opzioni seguenti:
 
 * **[!UICONTROL Crea]** — crea una nuova risorsa elenco statica e aggiungi persone. L’elenco è immediatamente disponibile per l’utilizzo da parte di altre risorse in Journey Optimizer B2B Prime.
-* **[!UICONTROL Seleziona]** — seleziona una risorsa elenco statico esistente in cui si desidera aggiungere persone che raggiungono il nodo.
+* **[!UICONTROL Seleziona]** — seleziona una risorsa elenco statico esistente in cui desideri aggiungere persone che raggiungono il nodo.
 
 +++
 
@@ -155,9 +184,9 @@ Utilizza questa azione per inviare un’e-mail alle persone che hanno prestato i
 
 ![Azione - Invia e-mail](./assets/person-action-node-send-email.png){width="450"}
 
-Puoi creare un’e-mail, modificare un’e-mail esistente o utilizzare un’e-mail personalizzata con IA. Per informazioni sulla creazione e la modifica delle e-mail, consulta [Canale e-mail](../marketing/email-channel.md).
+Puoi creare un’e-mail, modificare un’e-mail esistente o utilizzare un’e-mail personalizzata con IA. Per informazioni sulla creazione e la modifica delle e-mail, consulta [Canale e-mail](./email-channel.md).
 
-Puoi utilizzare [Ottimizzazione del tempo di invio](../marketing/email-send-time-optimization.md) per personalizzare la tempistica di consegna delle e-mail prevedendo quando è più probabile che ogni profilo sia coinvolto.
+Puoi utilizzare [Ottimizzazione del tempo di invio](./email-send-time-optimization.md) per personalizzare la tempistica di consegna delle e-mail prevedendo quando è più probabile che ogni profilo sia coinvolto.
 
 +++
 

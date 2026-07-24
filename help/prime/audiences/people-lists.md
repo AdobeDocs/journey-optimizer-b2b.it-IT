@@ -13,10 +13,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c7c9b6044716d0014ea2b0dda86aa69c762ca30
+source-git-commit: f57eec2bd5c00d508d83b6ecb872162edb35094c
 workflow-type: tm+mt
-source-wordcount: 891
-ht-degree: 3%
+source-wordcount: 1157
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 In [!DNL Adobe Journey Optimizer B2B Prime] gli elenchi persone sono i contenitori di pubblico a livello di persona per il targeting e la voce percorso di persone, con elenchi dinamici per la qualifica live basata su regole ed elenchi statici per l&#39;iscrizione fissa o gestita dal percorso.
 
-## Accedere e sfogliare gli elenchi di persone {#access-and-browse}
+## Accedere e sfogliare gli elenchi di persone {#access-browse}
 
 1. Nella barra di navigazione a sinistra, espandere **[!UICONTROL Gestione marketing]**.
 
@@ -32,7 +32,7 @@ In [!DNL Adobe Journey Optimizer B2B Prime] gli elenchi persone sono i contenito
 
    ![Accedi agli elenchi di persone per gestire i tuoi tipi di pubblico](./assets/people-lists.png){width="800" zoomable="yes"}
 
-Nella pagina sono disponibili due schede per la visualizzazione e la gestione di **[!UICONTROL elenchi dinamici]** e **[!UICONTROL elenchi statici]**. Fai clic sulla scheda per passare dalla visualizzazione a elenco a un tipo e viceversa.
+Nella pagina sono disponibili due schede in cui è possibile visualizzare e gestire **[!UICONTROL Elenchi dinamici]** e **[!UICONTROL Elenchi statici]**. Fai clic sulla scheda per passare dalla visualizzazione a elenco ai due tipi.
 
 È possibile immettere testo nello strumento _Ricerca_ nella parte superiore dell&#39;elenco per filtrare l&#39;elenco visualizzato in base al nome. Utilizzare gli strumenti elenco per personalizzare l&#39;elenco visualizzato:
 
@@ -86,12 +86,12 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 
 1. Nella finestra di dialogo, seleziona un programma come **[!UICONTROL Elemento padre]** per l&#39;elenco.
 
-1. Immettere nell&#39;elenco **[!UICONTROL Nome]** e **[!UICONTROL Descrizione]** (facoltativo).
+1. Immetti un **[!UICONTROL Nome]** (obbligatorio) e una **[!UICONTROL Descrizione]** (facoltativo) per l&#39;elenco.
 
-1. Scegli quindi elenca **[!UICONTROL Tipo]**:
+1. Scegli l&#39;elenco **[!UICONTROL Tipo]**:
 
-   * **[!UICONTROL Statico]** - L&#39;appartenenza è determinata dai filtri qualificati valutati al momento della creazione dell&#39;elenco. L&#39;iscrizione all&#39;elenco non viene aggiornata a meno che non si qualifichino o non qualifichino manualmente i record.
-***[!UICONTROL Dinamico]** - L&#39;appartenenza viene determinata dinamicamente dai filtri qualificati. L’iscrizione all’elenco si aggiorna automaticamente.
+   * [**[!UICONTROL Statico]**](#static-lists) - L&#39;appartenenza è determinata dai filtri qualificati valutati al momento della creazione dell&#39;elenco. L&#39;iscrizione all&#39;elenco non viene aggiornata a meno che non si qualifichino o non qualifichino manualmente i record.
+   * [**[!UICONTROL Dinamico]**](#dynamic-lists) - L&#39;appartenenza è determinata dinamicamente da filtri qualificati. L’iscrizione all’elenco si aggiorna automaticamente.
 
    ![Finestra di dialogo Crea elenco persone](./assets/people-list-create-dialog.png){width="450"}
 
@@ -101,13 +101,13 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 >
 >Eliminazione e duplicazione non sono attualmente supportate per gli elenchi di persone in questa versione di Beta.
 
-## Elenchi statici {#static-list}
+## Elenchi statici {#static-lists}
 
 L’appartenenza a un elenco statico è definita da filtri semplici che fanno riferimento ad attributi e attività delle persone. L&#39;appartenenza non cambia a meno che non si qualifichino o non si qualifichino manualmente i membri.
 
 >[!NOTE]
 >
->Le definizioni dei filtri elenco statico vengono applicate una sola volta quando si aggiungono o rimuovono membri dall&#39;elenco. Il filtro definito non è disponibile in seguito. Se desideri mantenere una definizione del pubblico coerente utilizzando i filtri, utilizza invece un elenco dinamico.
+>Le definizioni dei filtri di elenco statici vengono applicate una sola volta quando si aggiungono o rimuovono membri dall&#39;elenco. Il filtro definito non è disponibile in seguito. Se desideri mantenere una definizione del pubblico coerente utilizzando i filtri, utilizza invece un elenco dinamico.
 
 <!--
 What internet says about Marketo static lists -- which of these is also true in AJO B2B Prime?
@@ -133,23 +133,31 @@ So far, activating to a destination is the only thing that they are used for tha
    * Attributi della persona
    * Filtri speciali, ad esempio appartenenza al percorso
 
+   Per ogni filtro aggiunto, fare clic su **[!UICONTROL Aggiungi vincoli]** per perfezionare i criteri di corrispondenza per il filtro.
+
+   ![Aggiungere filtri con vincoli per aggiungere persone all&#39;elenco statico](./assets/people-list-static-add-people-filters.png){width="700" zoomable="yes"}
+
 1. Per salvare le modifiche, fai clic su **[!UICONTROL Fine]**.
 
 1. Selezionare la scheda **[!UICONTROL Membri]**.
 
    Dopo un breve periodo di tempo, i membri qualificati vengono visualizzati nell&#39;elenco.
 
+   ![Membri per elenco statico](./assets/people-list-static-members.png){width="700" zoomable="yes"}
+
 ### Rimuovi membri {#static-list-remove-members}
 
 1. Apri l&#39;elenco statico e fai clic su **[!UICONTROL Rimuovi persone]** in alto a destra.
 
-1. Nella finestra di dialogo, aggiungi i filtri per far corrispondere i membri che desideri escludere.
+1. Nella finestra di dialogo _[!UICONTROL Rimuovi persone]_, aggiungi i filtri in modo che corrispondano ai membri che desideri rimuovere.
+
+   ![Aggiungi filtri per rimuovere persone dall&#39;elenco statico](./assets/people-list-static-members-remove-people-filters.png){width="700" zoomable="yes"}
 
 1. Per salvare le modifiche, fai clic su **[!UICONTROL Fine]**.
 
 1. Selezionare la scheda **[!UICONTROL Membri]**.
 
-   Dopo un breve periodo di tempo, i membri squalificati lasciano la lista.
+   Dopo un breve periodo, i membri squalificati lasciano la lista.
 
 ### Attiva in una destinazione {#static-list-activate}
 
@@ -166,11 +174,21 @@ Poiché il modello di attivazione è destinato a essere persistente, non un’es
 * Gli addetti al marketing evitano ripetute esportazioni CSV e caricamenti manuali.
 * I percorsi possono aggiornare il pubblico nel tempo per un’orchestrazione continua.
 
+>[!PREREQUISITES]
+>
+>Per attivare un elenco statico in una destinazione è necessario disporre di una o più [destinazioni configurate](./destinations.md) per la sandbox [!DNL Journey Optimizer B2B Prime].
+
 1. Selezionare la scheda **[!UICONTROL Elenchi statici]**.
 
 1. Individua l’elenco statico da attivare su una destinazione.
 
-1. Fai clic sull&#39;icona _Attiva_ ( ![Personalizza icona tabella](../../assets/do-not-localize/icon-falco-activate-dest.svg) ) accanto al nome dell&#39;elenco statico.
+1. Fai clic sull&#39;icona _Altro menu_ ( **...** ) accanto all&#39;elenco e scegli **[!UICONTROL Attiva nella destinazione]**.
+
+   ![Accedere al menu Altro per un elenco statico](./assets/people-lists-static-more-menu.png){width="450"}
+
+   Puoi anche aprire l&#39;elenco statico e utilizzare il menu _[!UICONTROL Altro]_ in alto a destra.
+
+   <!-- which UI is it?  _Activate_ ( ![Customize table icon](../../assets/do-not-localize/icon-falco-activate-dest.svg) ) icon next to the static list name. -->
 
 1. Selezionare la casella di controllo per la connessione di destinazione configurata.
 
@@ -178,15 +196,33 @@ Poiché il modello di attivazione è destinato a essere persistente, non un’es
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
+1. Confermare l&#39;attivazione nella finestra di dialogo _[!UICONTROL Attiva elenco nella destinazione]_ facendo clic su **[!UICONTROL Attiva]**.
+
+Al termine dell&#39;attivazione, viene visualizzata una conferma (_La destinazione è stata attivata._) e la destinazione è elencata come **[!UICONTROL Attiva]** nella scheda **[!UICONTROL Destinazioni]** dell&#39;elenco. Un elenco statico può essere attivato su più destinazioni alla volta; l&#39;appartenenza viene sincronizzata con tutte le destinazioni.
+
+Per esaminare le destinazioni a cui è attivato un elenco statico, apri l&#39;elenco e seleziona la scheda **[!UICONTROL Destinazioni]**. Per impostazione predefinita, a un nuovo elenco non è connessa alcuna destinazione.
+
+#### Disattivare una destinazione {#deactivate-destination}
+
+1. Apri l&#39;elenco statico e seleziona la scheda **[!UICONTROL Destinazioni]**.
+
+1. Fare clic sull&#39;icona _meno_ ( **-** ) nella riga della destinazione che si desidera rimuovere.
+
+1. Conferma nella finestra di dialogo _[!UICONTROL Disattiva destinazione]_.
+
+La disattivazione rimuove la destinazione dall’elenco. Anche le persone nell’elenco vengono rimosse dal pubblico di destinazione connesso.
+
 ## Elenchi dinamici {#dynamic-lists}
 
 L’appartenenza a un elenco dinamico viene definita utilizzando filtri semplici che fanno riferimento agli attributi e alle attività delle persone. L’iscrizione viene mantenuta automaticamente qualificando e squalificando i lead in base alla logica del filtro.
 
-### Imposta regole di appartenenza
+### Imposta regole di appartenenza {#set-membership-rules}
 
 1. Apri l&#39;elenco dinamico e seleziona la scheda **[!UICONTROL Regole]**.
 
 1. Fai clic su **[!UICONTROL Modifica regole]**.
+
+   ![Regole di accesso per la creazione di un elenco di persone dinamico](./assets/people-list-dynamic-rules-edit.png){width="550" zoomable="yes"}
 
 1. Nella finestra di dialogo, definisci le regole per qualificare i lead trascinando i filtri da sinistra.
 
@@ -197,21 +233,27 @@ L’appartenenza a un elenco dinamico viene definita utilizzando filtri semplici
    * Attributi della persona
    * Filtri speciali, ad esempio appartenenza al percorso
 
+   Per ogni filtro aggiunto, fare clic su **[!UICONTROL Aggiungi vincoli]** per perfezionare i criteri di corrispondenza per il filtro.
+
+   ![Aggiungere filtri con vincoli per popolare l&#39;elenco dinamico](./assets/people-list-dynamic-rules-edit-filters.png){width="700" zoomable="yes"}
+
 1. Per salvare le modifiche, fai clic su **[!UICONTROL Fine]**.
 
 1. Selezionare la scheda **[!UICONTROL Membri]**.
 
    Dopo un breve periodo di tempo, i membri qualificati vengono visualizzati nell&#39;elenco.
 
-Per aprire la pagina [dettagli persona](./person-details.md) in cui è possibile visualizzare le attività di riepilogo e recenti, fare clic sul nome di una persona nell&#39;elenco.
+   ![Membri generati per elenco dinamico](./assets/people-list-dynamic-rules-members.png){width="700" zoomable="yes"}
 
-### Duplicare un elenco dinamico
+   Per aprire la pagina [dettagli persona](./person-details.md) in cui è possibile visualizzare le attività di riepilogo e recenti, fare clic sul nome di una persona nell&#39;elenco.
+
+### Duplicare un elenco dinamico {#duplicate-dynamic-list}
 
 Per un elenco dinamico, un&#39;azione duplicata è simile a una funzione clone. Utilizzare questa funzione per replicare il filtro delle appartenenze e aggiungerlo a un altro programma.
 
-1. Nella scheda _[!UICONTROL Elenchi dinamici]_, fai clic sull&#39;icona _Duplica_ ( **...** ) accanto all&#39;elenco da duplicare.
+1. Nella scheda _[!UICONTROL Elenchi dinamici]_, fai clic sull&#39;icona _Altro menu_ ( **...** ) accanto all&#39;elenco e scegli **[!UICONTROL Duplica]**.
 
-1. Nella finestra di dialogo, seleziona il programma **[!UICONTROL Principale]** per il percorso duplicato.
+1. Nella finestra di dialogo, seleziona il programma **[!UICONTROL Principale]** per l&#39;elenco duplicato.
 
 1. Immetti un **[!UICONTROL Nome]** univoco (obbligatorio) e **[!UICONTROL Descrizione]** (facoltativo).
 
