@@ -4,21 +4,14 @@ description: Accedi a informazioni basate sull’intelligenza artificiale per ac
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f979fe0e-02fe-4599-b492-7b3df1d4e7dcid: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T22:43:58.948Z
 TQID: https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
 source-wordcount: 1682
 ht-degree: 16%
@@ -27,7 +20,7 @@ ht-degree: 16%
 
 # Dashboard intelligente
 
-La dashboard intelligente offre una panoramica completa delle metriche relative ai gruppi di acquisto e agli account, consentendoti di monitorare e strategizzare le attività di marketing in modo più efficace.
+La dashboard intelligente fornisce una visualizzazione completa del [gruppo di acquisto](../buying-groups/buying-groups-overview.md) e delle metriche dell&#39;account, consentendoti di monitorare e pianificare le attività di marketing in modo più efficace.
 
 Per accedere a _Intelligent Dashboard_, seleziona l&#39;elemento **[!UICONTROL Dashboard]** nell&#39;area di navigazione a sinistra.
 
@@ -132,9 +125,9 @@ Ogni scheda include i dati seguenti:
 
   ![Acquisto dei dati di intento del gruppo](./assets/intelligent-dashboard-buying-group-intent-details.png){width="500" zoomable="yes"}
 
-   * Nel menu a comparsa dei dettagli viene visualizzato il nome della categoria con il livello di intento nella parte superiore.
-   * I dati di ogni riga sono organizzati in colonne: il nome del prodotto, la forza di intento del prodotto e le parole chiave principali in base alla forza di intento.
-   * L&#39;ordinamento è da alto a basso per categoria, prodotto e parole chiave. Se uno o più tipi hanno lo stesso livello di intensità di intento, l&#39;ordinamento utilizza l&#39;ordine alfabetico.
+  * Nel menu a comparsa dei dettagli viene visualizzato il nome della categoria con il livello di intento nella parte superiore.
+  * I dati di ogni riga sono organizzati in colonne: il nome del prodotto, la forza di intento del prodotto e le parole chiave principali in base alla forza di intento.
+  * L&#39;ordinamento è da alto a basso per categoria, prodotto e parole chiave. Se uno o più tipi hanno lo stesso livello di intensità di intento, l&#39;ordinamento utilizza l&#39;ordine alfabetico.
 
   {{intent-data-note}}
 
@@ -226,9 +219,9 @@ Ogni scheda include i dati seguenti:
 
   ![Dati intento account](./assets/intelligent-dashboard-account-intent-details.png){width="500" zoomable="yes"}
 
-   * Nel menu a comparsa dei dettagli viene visualizzato il nome della categoria con il livello di intento nella parte superiore.
-   * I dati di ogni riga sono organizzati in colonne: il nome del prodotto, la forza di intento del prodotto e le parole chiave principali in base alla forza di intento.
-   * L&#39;ordinamento è da alto a basso per categoria, prodotto e parole chiave. Se uno o più tipi hanno lo stesso livello di intensità di intento, l&#39;ordinamento utilizza l&#39;ordine alfabetico.
+  * Nel menu a comparsa dei dettagli viene visualizzato il nome della categoria con il livello di intento nella parte superiore.
+  * I dati di ogni riga sono organizzati in colonne: il nome del prodotto, la forza di intento del prodotto e le parole chiave principali in base alla forza di intento.
+  * L&#39;ordinamento è da alto a basso per categoria, prodotto e parole chiave. Se uno o più tipi hanno lo stesso livello di intensità di intento, l&#39;ordinamento utilizza l&#39;ordine alfabetico.
 
   {{intent-data-note}}
 <!--
