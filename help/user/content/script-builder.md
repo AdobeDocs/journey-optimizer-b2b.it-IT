@@ -6,12 +6,19 @@ role: User, Developer
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 autotag-review: '2026-07-27T16:18:02.498Z'
 TQID: 'https://experienceleague.adobe.com/JWnXAAbCuZVLv4ZhWubpNsZ61xbYU7xtdOXkG9uoWis'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0004f8fba0c3d4ae89063418e4d3ef8fea22b0c3
 workflow-type: tm+mt
 source-wordcount: 1074
@@ -57,7 +64,7 @@ Script Builder è disponibile dall&#39;[editor di personalizzazione](./personali
 
    >[!BEGINSHADEBOX]
 
-   La prima volta che accedi a Script Builder, controlla le [_[!UICONTROL Condizioni d&#39;uso di IA generativa ]_](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} e conferma il tuo contratto.
+   La prima volta che accedi a Script Builder, controlla le [_[!UICONTROL Condizioni d&#39;uso di IA generativa &#x200B;]_](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} e conferma il tuo contratto.
 
    ![Finestra di dialogo del contratto Generative AI Terms of Use in Script Builder](./assets/personalization-script-builder-gen-ai-terms.png){width="400"}
 
