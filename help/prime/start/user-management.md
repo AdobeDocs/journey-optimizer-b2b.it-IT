@@ -1,7 +1,7 @@
 ---
 title: Accesso utente e autorizzazioni
 description: 'Gestire l’accesso degli utenti in Adobe Admin Console: crea gruppi di utenti, assegna profili di prodotto e imposta autorizzazioni basate sui ruoli per Journey Optimizer B2B Prime.'
-badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
+badgeBeta: label="Beta" type="informative" tooltip="Questa funzione fa parte di una versione beta limitata."
 autotag-review: '2026-06-22T20:31:37.404Z'
 TQID: 'https://experienceleague.adobe.com/Z9U-dtvCzs73d6WhsfFNKAeYL2YgRi1hrwcqnfZj4-k'
 product_v2:
@@ -16,10 +16,10 @@ subfeature_v2:
   - id: bd42eee1-e206-4826-91ea-88dc726d858e
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: b5c78cc54f46f47809b80bb6df1066f0f35c52e8
+source-git-commit: a2fcdae381cba44c7f1458be3e851628e7e11b26
 workflow-type: tm+mt
-source-wordcount: 1729
-ht-degree: 58%
+source-wordcount: 2294
+ht-degree: 44%
 
 ---
 
@@ -157,7 +157,7 @@ Per informazioni sulla gestione degli utenti, vedi [_Utenti Adobe Admin Console_
 
 ## Assegnare le autorizzazioni del prodotto {#assign-product-permissions}
 
-Le autorizzazioni sono diritti unitari che ti consentono di definire le autorizzazioni assegnate a un profilo di prodotto. Ogni autorizzazione è raggruppata in una funzionalità, ad esempio percorsi o gruppi di acquisto, che rappresenta le funzionalità in [!DNL Journey Optimizer B2B Prime].
+Le autorizzazioni sono diritti unitari che ti consentono di definire le autorizzazioni assegnate a un profilo di prodotto. Ogni autorizzazione è raggruppata in una funzionalità, ad esempio percorsi di persone o contenuto, che rappresentano funzionalità in [!DNL Journey Optimizer B2B Prime].
 
 Nell&#39;area _Autorizzazioni_ di Adobe Experience Platform gli amministratori possono definire ruoli utente e criteri di accesso per gestire le autorizzazioni di accesso per funzionalità e oggetti all&#39;interno di un&#39;applicazione di prodotto. In questa app, puoi creare e gestire i ruoli, nonché assegnare le autorizzazioni per le risorse desiderate per tali ruoli. Le autorizzazioni ti consentono inoltre di gestire le sandbox e gli utenti associati a un ruolo specifico.
 
@@ -173,22 +173,51 @@ Per ulteriori informazioni sulle autorizzazioni per i ruoli in Experience Platfo
 
    ![Experience Platform - Autorizzazioni di accesso](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
-<!--
+### Autorizzazioni {#permissions}
 
-### B2B product permissions {#b2b-product-permissions}
+Le seguenti autorizzazioni controllano l&#39;accesso alla configurazione del canale, alla gestione del contenuto e alle funzionalità del percorso di persone in [!DNL Journey Optimizer B2B Prime]:
 
-The following permissions govern access to [!DNL Journey Optimizer B2B Edition] capabilities:
-
-| Category | Description | Permissions |
+| Categoria | Autorizzazione | Descrizione |
 | -------- | ----------- | ---------- |
-| B2B Account Lists | Configure, manage, view, and publish permissions for B2B account lists. These permissions include actions such as add, remove, import, and delete accounts from account lists. | <li>Manage B2B Account Lists |
-| B2B Admin Configurations | Configure, manage, and view permissions for B2B administrative configurations. These permissions include digital asset management connections, asset repositories, and events. | <li>Manage B2B Admin Configurations |
-| B2B Assets | Configure, manage, and view permissions for B2B assets. These permissions include emails, SMS, landing pages, fragments, templates, and images. | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments <li>Manage B2B Emails |
-| B2B Buying Groups | Configure, manage, and view permissions for B2B buying groups. These permissions include solution interests, roles templates, and buying group status. | <li>Manage B2B Buying Groups <li>Manage B2B Solution Interests <li>Manage B2B Role Templates <li>Manage B2B Stages <li>View B2B Buying Groups |
-| B2B Channel Configurations | Configure, manage, and view permissions for B2B channel configurations. These permissions include settings for communication limits, API credentials, and security settings. | <li>Manage B2B Channels Configurations |
-| B2B Dashboards | Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>View B2B Engagement Dashboard |
-| B2B Journeys | Configure, manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths. | <li>Manage B2B Account Journeys |
-| Journey Optimizer Rules | Access and configure frequency rules (communication limits). These permissions should be limited to product administrators. | <li>View Frequency Rules <li>Manage Frequency Rules |
+| Configurazioni del canale B2B | Visualizza impostazioni e-mail B2B | Visualizzare le impostazioni e-mail (sottodomini, record PTR, pool IP, elenchi di soppressione, elenchi di seed, piani di riscaldamento IP). |
+| | Gestione impostazioni e-mail B2B | Configura le impostazioni e-mail (sottodomini, record PTR, pool IP, elenchi di soppressione, elenchi di seed, piani di riscaldamento IP). Queste impostazioni sono necessarie prima che gli utenti possano inviare e-mail. |
+| | Gestione configurazioni canali B2B | Accedi alla voce di menu _Canali_ nell&#39;area di navigazione a sinistra e a tutte le operazioni di configurazione dei canali. |
+| | Gestire i predefiniti WhatsApp B2B | Crea, visualizza ed elimina i predefiniti per messaggi WhatsApp e le impostazioni SMS associate. |
+| Percorsi B2B | Gestire Percorsi di persone B2B | Accesso all&#39;elenco _Percorsi di persone_ e a tutte le operazioni del percorso di persone. |
+| Assets B2B | Visualizza modelli di contenuto | Visualizzare l’elenco e i dettagli dei modelli di contenuto. |
+| | Gestire modelli B2B | Creare, modificare ed eliminare modelli di contenuto. |
+| | Visualizzare frammenti B2B | Visualizzare l’elenco e i dettagli dei frammenti di contenuto. |
+| | Gestire i frammenti B2B | Crea, modifica ed elimina frammenti di contenuto. |
+| | Pubblicare frammenti B2B | Pubblica frammenti di contenuto da utilizzare in modelli, e-mail e pagine di destinazione. |
+| | Visualizza Assets B2B | Visualizza i dettagli della libreria Assets e del file di risorse. |
+| | Gestire Assets B2B | Crea, modifica ed elimina i file di risorse. |
+| | Visualizza e-mail B2B | Visualizzare i messaggi e-mail. |
+| | Gestire le e-mail B2B | Crea, modifica ed elimina messaggi e-mail. |
+| | Gestione esportazione messaggi B2B | Esporta i rapporti sui messaggi nella sezione E-mail. |
+| Libreria Journey Optimizer | Gestire gli elementi della libreria B2B | Aggiungi ed elimina le espressioni salvate nella libreria. |
+| Governance dei dati | Gestire le etichette di utilizzo per l’eliminazione B2B | Visualizzare, creare ed eliminare le etichette di utilizzo dei dati (DULE) applicate ai set di dati e agli schemi. |
+| Amministrazione sandbox | Gestire pacchetti B2B | Crea, esporta, importa, copia ed elimina pacchetti sandbox. |
+
+Per fornire supporto per le destinazioni esterne in [!DNL Journey Optimizer B2B Prime], sono necessarie le seguenti autorizzazioni:
+
+| Categoria | Autorizzazione | Descrizione |
+| -------- | ----------- | ---------- |
+| Dashboard | Visualizza dashboard standard | Accesso in sola visualizzazione alle _dashboard dei profili_, _destinazioni_ e _segmenti_. Abilita inoltre l&#39;accesso a _Dashboard_ nel menu di navigazione a sinistra e alla scheda _Dashboard_ inventario e integrazioni. |
+| | Gestione dashboard standard | Aggiungi attributi personalizzati non ancora presenti nel data warehouse. |
+| Destinazioni | Visualizza destinazioni | Accesso in sola visualizzazione per visualizzare le destinazioni disponibili nella scheda _Catalogo_ e le destinazioni autenticate nella scheda _Sfoglia_. |
+| | Gestire le destinazioni | Visualizzare, creare ed eliminare connessioni di destinazioni e account di destinazione. |
+| | Attivare le destinazioni | Attiva i dati nelle destinazioni attive. Per accedere a questa funzione è inoltre necessario _Visualizza destinazioni_ o _Gestisci destinazioni_. |
+| | Attiva segmento senza mappatura | Attiva i tipi di pubblico nelle destinazioni esistenti, senza visualizzare il passaggio di mappatura. Gli utenti possono aggiungere e rimuovere tipi di pubblico nei flussi di lavoro di attivazione, ma non possono aggiungere o rimuovere attributi o identità mappati. Per accedere a questa funzione è necessaria anche l&#39;autorizzazione _Visualizza destinazioni_. |
+| | Gestire e attivare la destinazione del set di dati | Visualizza, crea, modifica e disabilita i flussi di esportazione dei set di dati, nonché attiva i dati nei set di dati attivi. Per accedere a questa funzione è necessaria anche l&#39;autorizzazione _Visualizza destinazioni_. |
+| | Authoring delle destinazioni | Possibilità di creare destinazioni utilizzando Adobe Experience Platform Destination SDK. |
+| Governance dei dati | Visualizza criteri di utilizzo dati | Accesso in sola visualizzazione per i criteri di utilizzo dei dati appartenenti alla tua organizzazione. |
+| | Gestire i criteri di utilizzo dei dati | Visualizza, crea, modifica ed elimina i criteri di utilizzo dei dati. |
+| Acquisizione dei dati | Visualizza origini | Accesso in sola visualizzazione alle origini disponibili nella scheda _Catalogo_ e alle origini autenticate nella scheda _Sfoglia_. |
+| | Gestisci origini | Visualizzare, creare, modificare e disattivare le origini. |
+| Gestione profilo | Visualizza impostazioni profilo | Accesso in sola visualizzazione a tutte le impostazioni di profilo. |
+| | Gestione impostazioni profilo | Visualizza e modifica tutte le impostazioni di profilo. |
+
+<!--
 
 ### B2B built-in roles {#b2b-built-in-roles}
 
@@ -305,11 +334,11 @@ Per informazioni sulla gestione degli utenti, vedi [_Utenti Adobe Admin Console_
 
 1. Aggiungere autorizzazioni prodotto B2B:
 
-   <!-- To determine which product capabilities that you want for the role, refer to the list of [B2B product permissions](#b2b-product-permissions). -->
+   Per determinare quali funzionalità di prodotto desideri per il ruolo, consulta l&#39;elenco di [autorizzazioni di prodotto](#permissions).
 
    Nell&#39;elenco _[!UICONTROL Risorse]_ a sinistra, individuare gli elementi B2B e fare clic sull&#39;icona _Aggiungi_ (**+**) per aggiungere ogni attributo che si desidera abilitare per il ruolo.
 
-   È possibile immettere _B2B_ nello strumento di ricerca per filtrare l&#39;elenco delle autorizzazioni per il prodotto B2B.
+   È possibile immettere _B2B_ nello strumento di ricerca per filtrare l&#39;elenco per molte delle autorizzazioni del prodotto B2B.
 
    ![Experience Platform - Autorizzazioni B2B](./assets/aep-permissions-b2b-list.png){width="700" zoomable="yes"}
 
