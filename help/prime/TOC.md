@@ -2,9 +2,9 @@
 user-guide-title: Documentazione di Journey Optimizer B2B Prime
 user-guide-description: Scopri Adobe Journey Optimizer B2B Prime e come utilizzarlo per ?.
 hide: true
-source-git-commit: 120afb1109e550fc65c2fc5a01680f2d7d2e2345
+source-git-commit: e009878c46054b6df033ced369423b32cdaa89cf
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '187'
 ht-degree: 54%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 54%
 + [Pagina Home](./home-insights/home-page.md)
 + Assistente IA {#ai-assistant}
   + [Interfaccia chat](./agents/chat-interface.md)
-  + [Abilità](./agents/skills.md)
+  + [Competenza](./agents/skills.md)
   + [Crea programma da breve](./agents/program-from-brief.md)
   + [Creare tipi di pubblico per i programmi](./agents/audience-creation.md)
   + [Crea modelli di punteggio personalizzati](./agents/lead-scoring-model.md)
@@ -54,7 +54,9 @@ ht-degree: 54%
   + [Utenti tipo derivati](./audiences/personas.md)
   + [Destinazioni](./audiences/destinations.md)
 + Contenuti {#content}
-  + [Risorse](./content/digital-asset-management.md)
+  + Risorse {#assets}
+    + [Panoramica](./content/digital-asset-management.md)
+    + [Content Credentials](./content/content-credentials.md)
   + Modelli {#templates}
     + [Panoramica](./content/templates.md)
     + [Creare modelli](./content/templates-create.md)
