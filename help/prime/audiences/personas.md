@@ -4,20 +4,13 @@ description: Utilizza utenti tipo derivati in Journey Optimizer B2B Prime per es
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 autotag-review: '2026-06-23T22:01:21.605Z'
 TQID: 'https://experienceleague.adobe.com/OZ4GDkaqg9a5Aikic-m-f0MtHSpc3BO0h41fTAL1Rww'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 650
+source-wordcount: 639
 ht-degree: 2%
 
 ---
@@ -27,9 +20,9 @@ ht-degree: 2%
 La classificazione Persona trasforma i dati grezzi dei clienti in acquirenti semantici, comprendendo che l’intelligenza artificiale può utilizzare per generare contesto e favorire decisioni personalizzate su ogni canale e percorso. Questo profilo unificato consente di:
 
 * _Diramazione di Percorso_ - Dividi percorsi route lead per persona, profondità di coinvolgimento e ruolo
-* _Arbitrato di Percorso_ - Determina a quale elemento appartiene un lead in questo momento, evitando conflitti di messaggi tra programmi concorrenti
-* _Personalizzazione dei contenuti_ - Contenuti che sono narrazioni specifiche per il ruolo (&quot;per un dirigente&quot; vs. &quot;per un professionista&quot;)
-* _Contesto qualificatore vendite_ - I BDR ottengono un resoconto di una schermata che mostra &quot;chi è questa persona, cosa gli interessa, dove si trova nel percorso di acquirenti&quot;
+* _Arbitrato Percorso_ - Determina il percorso di sviluppo a cui appartiene un lead in questo momento, evitando conflitti di messaggi tra programmi concorrenti
+* _Personalizzazione dei contenuti_ - Contenuti con narrazioni specifiche per il ruolo (&quot;per un dirigente&quot; o &quot;per un professionista&quot;)
+* _Contesto qualificatore vendite_ - I rappresentanti dello sviluppo commerciale (BDR) ricevono un riepilogo a schermo singolo che mostra l&#39;identità dell&#39;individuo, i suoi interessi e la sua fase corrente nel percorso di acquirenti
 
 ## Utenti tipo predefiniti {#default-ersonas}
 
@@ -49,17 +42,17 @@ Per la versione Beta di Journey Optimizer B2B Prime, i seguenti utenti tipo pred
 
 >[!NOTE]
 >
->Nella versione con disponibilità generale, potrai modificare uno di questi utenti tipo predefiniti in base alle esigenze della tua organizzazione. Supporterà anche le definizioni e la mappatura personalizzate dei tipi di pubblico.
+>Nella prossima versione di Disponibilità generale, puoi modificare uno qualsiasi di questi utenti tipo predefiniti in base alle esigenze della tua organizzazione. Supporterà anche le definizioni e la mappatura personalizzate dei tipi di pubblico.
 
 ## Filtra per persona derivata {#derived-persona-filter}
 
-Journey Optimizer B2B Prime deriva un utente tipo per ogni record persona valutandone gli attributi rispetto agli utenti tipo definiti. È possibile utilizzare il risultato dedotto, ovvero _Persona derivata_, come filtro durante la definizione del pubblico per un elenco di persone o per la segmentazione in un percorso di persone.
+[!DNL Journey Optimizer B2B Prime] deriva un utente tipo per ogni record persona valutando gli attributi del record rispetto agli utenti tipo definiti. È possibile utilizzare il risultato dedotto, ovvero _Persona derivata_, come filtro durante la definizione del pubblico per un elenco di persone o per la segmentazione in un percorso di persone.
 
 Il filtro _[!UICONTROL Persona derivata]_ viene visualizzato nel pannello dei filtri nella categoria **[!UICONTROL Attributi persona]**.
 
 ### Elenchi di persone {#people-lists}
 
-Quando si aggiungono o rimuovono membri da un [elenco di persone statiche](./people-lists.md#static-list) o quando si definiscono le regole di appartenenza per un [elenco di persone dinamiche](./people-lists.md#dynamic-lists), è possibile filtrare per Persona derivata per eseguire il targeting di tutte le persone i cui attributi corrispondono a un utente tipo specifico configurato.
+Quando gestisci i membri in un [elenco di persone statiche](./people-lists.md#static-lists) o definisci le regole per un [elenco di persone dinamiche](./people-lists.md#dynamic-lists), puoi filtrare per _Persona derivata_ per eseguire il targeting di tutte le persone i cui attributi corrispondono a un utente tipo specifico configurato.
 
 ![Filtro utente tipo derivato per un elenco di persone](./assets/derived-persona-filter-people-list.png){width="750" zoomable="yes"}
 

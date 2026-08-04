@@ -4,21 +4,13 @@ description: Calcola i punteggi di coinvolgimento delle persone per i lead utili
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 autotag-review: '2026-06-24T19:48:49.647Z'
 TQID: 'https://experienceleague.adobe.com/FTUV9Bh9LmcWcKDd8yR5EYTlZDB-6Pz57M4KuyPrrFQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f979fe0e-02fe-4599-b492-7b3df1d4e7dcid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: e388c29d-df1e-4b47-ad27-1b14ae45776e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1548
+source-wordcount: 1533
 ht-degree: 8%
 
 ---
@@ -30,7 +22,7 @@ ht-degree: 8%
 >title="Punteggio di coinvolgimento della persona"
 >abstract="I punteggi di coinvolgimento della persona riflettono il livello di coinvolgimento dei singoli lead in base alle attività recenti."
 
-Un punteggio di coinvolgimento della persona è un numero che riflette il livello di coinvolgimento di un singolo lead. I punteggi si basano sulle attività svolte da una persona, e ogni tipo di attività presenta un valore ponderato. I punteggi vengono normalizzati all’interno dell’istanza (tenant) per consentire un confronto coerente e informazioni fruibili.
+Un punteggio di coinvolgimento della persona è un numero che riflette il livello di coinvolgimento di un singolo lead. I punteggi si basano sulle attività svolte da una persona, in cui ogni tipo di attività ha un valore ponderato. I punteggi vengono normalizzati all’interno dell’istanza (tenant) per consentire un confronto coerente e informazioni fruibili.
 
 Il calcolo del punteggio viene eseguito ogni giorno. Qualsiasi attività ponderata per il coinvolgimento eseguita dalla persona negli ultimi 30 giorni contribuisce al punteggio. Con questo intervallo continuo di 30 giorni, le occorrenze di attività più vecchie scadono e i punteggi possono diminuire nel tempo (decadimento del punteggio). I punteggi visualizzati vengono arrotondati (ad esempio, un punteggio di 75,89999 viene visualizzato come 76).
 
@@ -38,7 +30,7 @@ I dati del punteggio di coinvolgimento sono disponibili da **[!UICONTROL Report]
 
 ![Dati report punteggio coinvolgimento persona](./assets/engagement-score-reporting.png){width="800" zoomable="yes"}
 
-Il punteggio di coinvolgimento della persona è un attributo che puoi utilizzare come [condizione filtro](#engagement-score-filter) negli elenchi di persone e nei nodi dei percorsi suddivisi all&#39;interno dei percorsi di persone.
+Il punteggio di coinvolgimento della persona è un attributo utilizzabile come [condizione filtro](#engagement-score-filter) negli elenchi di persone e nei nodi dei percorsi suddivisi nei percorsi di persone.
 
 ## Attività utilizzate per il punteggio di coinvolgimento {#activities}
 
@@ -89,11 +81,11 @@ Il sistema applica un processo di normalizzazione in più fasi per produrre un p
 
 1. Calcola il punteggio di coinvolgimento non elaborato sommando l’attività giornaliera per tipo di attività, moltiplicandola per il peso associato e quindi sommando i risultati per tutti i giorni nell’intervallo di lookback.
 
-1. Applica una _trasformazione di potenza_ (Radice quadrata) per stabilizzare la varianza riducendo l&#39;impatto dei valori anomali.
+1. Per stabilizzare la varianza riducendo l&#39;impatto degli outlier, applicare una _trasformazione di potenza_ (Radice quadrata).
 
    Questa trasformazione riduce lo sfasamento e rende i pattern nei dati più lineari.
 
-1. Applica una trasformazione _Normalizzazione ridimensionata_ per garantire che i punteggi utilizzino l&#39;intervallo completo compreso tra 0 e 100.
+1. Per garantire che i punteggi utilizzino l&#39;intervallo completo compreso tra 0 e 100, applicare una trasformazione _Normalizzazione ridimensionata_.
 
 ## Filtra per punteggio di coinvolgimento {#engagement-score-filter}
 
@@ -103,7 +95,7 @@ Il filtro _[!UICONTROL Punteggio coinvolgimento persona]_ viene visualizzato nel
 
 ### Elenchi di persone {#people-lists}
 
-Quando aggiungi o rimuovi membri da un [elenco di persone statiche](./people-lists.md#static-list) o quando definisci le regole di appartenenza per un [elenco di persone dinamiche](./people-lists.md#dynamic-lists), puoi filtrare per punteggio di coinvolgimento della persona per eseguire il targeting di tutte le persone i cui attributi corrispondono ai criteri di punteggio.
+Quando gestisci i membri in un [elenco di persone statiche](./people-lists.md#static-lists) o definisci regole per un [elenco di persone dinamiche](./people-lists.md#dynamic-lists), puoi filtrare in base al punteggio di coinvolgimento della persona per eseguire il targeting delle persone che corrispondono ai tuoi criteri.
 
 ![Filtro del punteggio di coinvolgimento della persona per un elenco di persone](./assets/engagement-score-filter-people-list.png){width="700" zoomable="yes"}
 
@@ -151,7 +143,7 @@ Quando configuri la segmentazione per un percorso di persone in un nodo [_Percor
 
 In [!DNL Journey Optimizer B2B Prime] è possibile configurare la ponderazione dei punteggi di coinvolgimento direttamente dall&#39;interfaccia chat dell&#39;[Assistente IA](../agents/chat-interface.md).
 
-Per informazioni di base sui modelli di punteggio di coinvolgimento, sulle fasce di ponderazione e sui pesi delle attività, consulta [Configurare la ponderazione del punteggio di coinvolgimento personalizzato](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
+Per informazioni di base sui modelli di punteggio di coinvolgimento, sulle fasce di ponderazione e sui pesi delle attività, consulta [Configurare la ponderazione del punteggio di coinvolgimento personalizzato](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
 
 1. Apri il pannello chat **[!UICONTROL Assistente AI]** dal lato sinistro della schermata (icona chat).
 
@@ -205,13 +197,13 @@ I modelli bozza presentano opzioni _[!UICONTROL Ponderazione]_ modificabili per 
 
 1. Nella tabella delle attività individuare l&#39;attività di coinvolgimento che si desidera aggiornare.
 
-1. Fare clic sulla freccia verso il basso **[!UICONTROL Ponderazione]** per l&#39;attività e selezionare la fascia di ponderazione appropriata (ad esempio, `Important`,`Trivial`, `Minor`, `Normal` e `Vital`).
+1. Fare clic sulla freccia verso il basso **[!UICONTROL Ponderazione]** per l&#39;attività e selezionare la fascia di ponderazione appropriata (ad esempio, `Important`, `Trivial`, `Minor`, `Normal` e `Vital`).
 
    Le modifiche vengono salvate automaticamente. Non è richiesta alcuna azione di salvataggio esplicita.
 
 >[!NOTE]
 >
->Per modificare un modello attivo o archiviato, è possibile duplicarlo per creare un nuovo modello 2D, quindi modificare e attivare il duplicato. Non è possibile modificare un modello attivo nella stessa posizione.
+>Per modificare un modello attivo o archiviato, duplicalo per creare un nuovo modello 2D, quindi modifica e attiva il duplicato. Non è possibile modificare un modello attivo nella stessa posizione.
 
 ### Attivare un modello 2D {#activate-weighting-model}
 

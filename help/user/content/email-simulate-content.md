@@ -5,22 +5,16 @@ feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:31:50.715Z
 TQID: https://experienceleague.adobe.com/pwS-mF-KluJnQgXWXyxrflSsC8LuEoJm-eku9IHqgyQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 577
+source-wordcount: 574
 ht-degree: 7%
 
 ---
@@ -36,11 +30,11 @@ Utilizza la funzione _Simula contenuto_ per visualizzare in anteprima il contenu
 
 >[!IMPORTANT]
 >
->Non puoi visualizzare l’anteprima del messaggio e-mail in presenza di errori. Controlla _Avvisi_ per assicurarti che non ci siano errori che bloccano le funzioni di anteprima. Gli avvisi non bloccano l’anteprima, ma è necessario indirizzarli prima di pubblicare il percorso che attiva la consegna e-mail.
+>Non puoi visualizzare l’anteprima del messaggio e-mail in presenza di errori. Per verificare che non vi siano errori che bloccano le funzioni di anteprima, controllare _Alert_. Gli avvisi non bloccano l’anteprima, ma vengono indirizzati prima della pubblicazione del percorso che attiva la consegna e-mail.
 
 ## Visualizzare l’anteprima e-mail
 
-Puoi accedere all&#39;anteprima del rendering dallo [spazio di progettazione e-mail](./email-authoring.md) o dal _[!UICONTROL Riepilogo]_ quando [apri un&#39;e-mail dall&#39;elenco e-mail](./emails-list.md#edit-emails).
+Puoi accedere all&#39;anteprima del rendering dallo [spazio di progettazione e-mail](./email-authoring.md) o dal _[!UICONTROL Riepilogo]_ quando [apri un&#39;e-mail dall&#39;elenco e-mail](./emails-list.md#open-and-edit-emails).
 
 1. Fai clic su **[!UICONTROL Simula contenuto]** in alto.
 
@@ -100,7 +94,7 @@ Una bozza è un messaggio di test consegnato che consente a te e ai membri del g
 
 1. Nella finestra di dialogo _[!UICONTROL Aggiungi persone per il test]_, immetti l&#39;indirizzo e-mail completo del contatto.
 
-   Per aggiungere più contatti, immettere più indirizzi separati da una virgola.
+   Per aggiungere più contatti, immettere più indirizzi separati da virgole.
 
 1. Seleziona la casella di controllo per ogni contatto corrispondente che desideri aggiungere all’elenco dei profili di test.
 

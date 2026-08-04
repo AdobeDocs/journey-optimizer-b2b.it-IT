@@ -4,27 +4,22 @@ description: Visualizza gli approfondimenti dell’account con riepiloghi genera
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:20:55.565Z
 TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: 640
 ht-degree: 7%
 
 ---
 
 # Dettagli dell’account
 
-Quando si fa clic sul nome di un account in un punto qualsiasi di Journey Optimizer B2B edition, viene visualizzata la pagina _Dettagli account_. Questa pagina fornisce informazioni utili sull’account, inclusi i riepiloghi generativi di IA. Sono inoltre disponibili [azioni](#account-actions) che è possibile eseguire per i contatti associati all&#39;account.
+Quando si fa clic sul nome di un account in un punto qualsiasi di Journey Optimizer B2B edition, viene visualizzata la pagina _Dettagli account_. Questa pagina fornisce informazioni sull’account, inclusi i riepiloghi generativi di IA. Sono inoltre disponibili [azioni](#send-email) che è possibile eseguire per i contatti associati all&#39;account.
 
 ![Accedi ai dettagli dell&#39;account](./assets/account-details.png){width="700" zoomable="yes"}
 
@@ -91,7 +86,7 @@ Nella sezione _[!UICONTROL Sovrapposizione contatti]_ vengono visualizzati i con
 * Account
 * Soluzione di interesse
 
-Fai clic su _Informazioni_ ( ![Icona informazioni](../assets/do-not-localize/icon-info.svg) ) accanto al nome del contatto per visualizzare una tabella con i dettagli seguenti:
+Fai clic sull&#39;icona _Informazioni_ ( ![Icona informazioni](../assets/do-not-localize/icon-info.svg) ) accanto al nome del contatto per visualizzare una tabella con i dettagli seguenti:
 
 * Gruppo di acquisto (fare clic sul nome per aprire [dettagli gruppo di acquisto](../buying-groups/buying-group-details.md))
 * Ruolo

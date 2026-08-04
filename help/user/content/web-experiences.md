@@ -7,23 +7,13 @@ badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmen
 exl-id: d04079ce-da51-40d3-ab05-75c26584521f
 autotag-review: '2026-05-27T16:20:23.362Z'
 TQID: 'https://experienceleague.adobe.com/iT1EdQiozvA7stSut7isr7ofdeLN5PKLUz-9q5OyPWs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 1544
 ht-degree: 3%
@@ -32,12 +22,12 @@ ht-degree: 3%
 
 # Esperienze web
 
-Il canale web in Adobe Journey Optimizer B2B edition ti consente di creare esperienze personalizzate direttamente sul sito web, aiutandoti a connettersi con i clienti in modo significativo. Questa funzione offre un set flessibile di strumenti che puoi utilizzare per migliorare il coinvolgimento con contenuti personalizzati e integrarli facilmente con altri canali, come e-mail e SMS.
+Il canale web in Adobe Journey Optimizer B2B edition consente di creare esperienze personalizzate direttamente sul sito web, aiutandoti a connettersi con i clienti in modo significativo. Questa funzione offre un set flessibile di strumenti che puoi utilizzare per migliorare il coinvolgimento con contenuti personalizzati e integrarli facilmente con altri canali, come e-mail e SMS.
 
 Le esperienze web consentono di:
 
 * Consegnare modifiche personalizzate ai contenuti mirati ai visitatori del sito web
-* Personalizza gli elementi del sito web come banner, testo, immagini e pulsanti utilizzando gli attributi dell’account
+* Personalizza elementi del sito web come banner, testo, immagini e pulsanti con attributi account
 * Eseguire il targeting di pagine specifiche o applicare modifiche su più pagine utilizzando le regole di corrispondenza URL
 * Tracciare il coinvolgimento e monitorare l’impatto delle attività di personalizzazione web
 
@@ -49,12 +39,12 @@ Prima di poter creare esperienze web, assicurati di soddisfare i seguenti requis
 
 * Un amministratore di prodotto ha configurato uno o più canali web per definire gli URL (pagine) da includere per un’esperienza web. Per ulteriori informazioni, vedere [Configurazioni del canale Web](../admin/configure-channels-web.md).
 
-* Il sito Web include [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementato per l&#39;identificazione dei visitatori e la distribuzione dei contenuti. Verificare che la versione di Adobe Experience Platform Web SDK sia 2.16 o successiva.
+* Il sito Web include [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementato per l&#39;identificazione dei visitatori e la distribuzione dei contenuti. Verificare che la versione di Adobe Experience Platform Web SDK sia 2.16 o successiva.
 
 * Hai le [autorizzazioni](../admin/user-management.md#b2b-product-permissions) necessarie per creare e gestire esperienze Web in un percorso:
-   * _[!UICONTROL Campagne]_ > _[!UICONTROL Gestisci campagne]_ - Necessario per aggiungere o aggiornare un nodo di azione di personalizzazione Web.
-   * _[!UICONTROL Campagne]_ > _[!UICONTROL Visualizza campagne]_ - Necessario per visualizzare i dettagli di un nodo di azione di personalizzazione Web.
-   * _[!UICONTROL Campagne]_ > _[!UICONTROL Approva e pubblica campagne]_ - Necessario per pubblicare un percorso con uno o più nodi di azione di personalizzazione Web.
+  * _[!UICONTROL Campagne]_ > _[!UICONTROL Gestisci campagne]_ - Necessario per aggiungere o aggiornare un nodo di azione di personalizzazione Web.
+  * _[!UICONTROL Campagne]_ > _[!UICONTROL Visualizza campagne]_ - Necessario per visualizzare i dettagli di un nodo di azione di personalizzazione Web.
+  * _[!UICONTROL Campagne]_ > _[!UICONTROL Approva e pubblica campagne]_ - Necessario per pubblicare un percorso con uno o più nodi di azione di personalizzazione Web.
 
 * Hai installato l&#39;estensione del browser Adobe Experience Cloud [Helper per editing video](#install-the-visual-editing-helper-extension) per il browser Web. Questa estensione è necessaria per aprire, creare e visualizzare in anteprima le pagine web in modo affidabile nello spazio di progettazione dei contenuti di Journey Optimizer B2B edition.
 
@@ -134,7 +124,7 @@ Puoi impostare le esperienze Web in un percorso quando [aggiungi un _[!UICONTROL
 
 1. Nel pannello a destra, imposta le proprietà dell’esperienza web in base alla modalità di definizione e gestione.
 
-   * **[!UICONTROL Editor visivo]** - Consente di passare dall&#39;editor visivo all&#39;editor non visivo [e viceversa](./web-experience-design.md#web-design-tools) per la struttura di modifica dell&#39;esperienza Web.
+   * **[!UICONTROL Editor visivo]** - Consente di passare dall&#39;editor visivo all&#39;editor non visivo [e viceversa](./web-experience-design.md#web-experience-editors) per la struttura di modifica dell&#39;esperienza Web.
    * **[!UICONTROL Reindirizzamento visitatori]** - Abilita questa opzione per [reindirizzare i visitatori a un altro URL esistente](#redirect-to-url) anziché creare una nuova variante nella scheda dei contenuti.
 
    ![Attiva/disattiva proprietà per l&#39;editor visivo e l&#39;URL di reindirizzamento](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}
@@ -208,13 +198,13 @@ Per abilitare la consegna di esperienze web, è necessario definire le seguenti 
 
 * Nella raccolta dati di Adobe Experience Platform, accertati di avere un flusso di dati definito. Assicurati che l’opzione Adobe Journey Optimizer B2B edition sia abilitata nel servizio Adobe Experience Platform.
 
-  Questa configurazione garantisce che Adobe Experience Platform Edge possa gestire correttamente gli eventi in entrata. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure)
+  Questa configurazione garantisce che Adobe Experience Platform Edge possa gestire correttamente gli eventi in entrata. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * In Adobe Experience Platform, accertati di disporre di un criterio di unione con l&#39;opzione _[!UICONTROL Criterio di unione attivo su Edge]_ abilitata.
 
-  Seleziona una policy nel menu Cliente > Profili > Criteri di unione in Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Seleziona una policy nel menu Cliente > Profili > Criteri di unione in Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  I canali in entrata di Journey Optimizer B2B edition utilizzano questo criterio di unione per attivare e pubblicare correttamente le esperienze web in entrata nella rete Edge. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/ui-guide)
+  I canali in entrata di Journey Optimizer B2B edition utilizzano questo criterio di unione per attivare e pubblicare correttamente le esperienze web in entrata nella rete Edge. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Risoluzione dei problemi
 

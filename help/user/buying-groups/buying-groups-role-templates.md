@@ -4,20 +4,16 @@ description: Crea modelli di ruolo con assegnazione automatica condizionale per 
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1571
-ht-degree: 4%
+source-wordcount: 1577
+ht-degree: 5%
 
 ---
 
@@ -49,7 +45,7 @@ In un mercato B2B, più individui di solito prendono decisioni di acquisto. Tali
 >
 >* [Mappatura campo profilo persona](../admin/field-mapping.md#xdm-business-person-attributes) per filtri attributi persona
 >* [Dati intento](../admin/intent-data.md) se si utilizzano filtri intento nelle condizioni del ruolo
->* [Ruoli di gruppo di acquisto personalizzati](./default-custom-roles.md#custom-roles) (facoltativo) se hai bisogno di ruoli oltre i sei predefiniti
+>* [Ruoli di gruppo di acquisto personalizzati](./default-custom-roles.md#create-a-custom-role) (facoltativo) se hai bisogno di ruoli oltre i sei predefiniti
 
 ## Accedere e sfogliare i modelli di ruolo {#access-and-browse-role-templates}
 
@@ -70,7 +66,7 @@ In un mercato B2B, più individui di solito prendono decisioni di acquisto. Tali
    * [!UICONTROL Pubblicato il]
    * [!UICONTROL Pubblicato da]
 
-   Per impostazione predefinita, l&#39;elenco è ordinato in base all&#39;_[!UICONTROL Ultimo aggiornamento]_. Tutti i modelli di ruoli hanno lo stato `Draft` o `Live`.
+   Per impostazione predefinita, il sistema ordina l&#39;elenco in base a _[!UICONTROL Ultimo aggiornamento]_. Tutti i modelli di ruoli hanno lo stato `Draft` o `Live`.
 
 1. Per filtrare l’elenco per nome, utilizza il campo di ricerca nella parte superiore dell’elenco.
 
@@ -109,7 +105,7 @@ Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, pe
 
    * Scegliere il **[!UICONTROL Ruolo gruppo acquisti]** dall&#39;elenco.
 
-     Sei ruoli predefiniti: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` e `Other`. L&#39;elenco include anche i [ruoli personalizzati definiti nell&#39;elenco _Ruoli_](./default-custom-roles.md#custom-roles).
+     Sei ruoli predefiniti: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` e `Other`. L&#39;elenco include anche i [ruoli personalizzati definiti nell&#39;elenco _Ruoli_](./default-custom-roles.md#create-a-custom-role).
 
      ![Elenco ruoli gruppo acquisti](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -161,7 +157,7 @@ Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, pe
 
 In Marketo Engage, _Campagne avanzate_ verifica l&#39;appartenenza ai programmi per assicurarsi che i lead non ricevano e-mail duplicate e non siano membri di più flussi di e-mail contemporaneamente. In Journey Optimizer B2B, puoi verificare la presenza dell’iscrizione all’elenco Marketo Engage come condizione per il modello dei ruoli, in modo da eliminare le duplicazioni nell’iscrizione al gruppo di acquisto e nelle attività di percorso.
 
-Per utilizzare l&#39;appartenenza a un elenco come condizione del ruolo, espandere **[!UICONTROL Filtri speciali]** e trascinare la condizione **[!UICONTROL Membro dell&#39;elenco]** nello spazio del filtro. Quindi completa la definizione del filtro per valutare l’appartenenza a uno o più elenchi Marketo Engage.
+Per utilizzare l&#39;appartenenza a un elenco come condizione del ruolo, espandere **[!UICONTROL Filtri speciali]** e trascinare la condizione **[!UICONTROL Membro dell&#39;elenco]** nello spazio del filtro. Per valutare l’appartenenza a uno o più elenchi Marketo Engage, completa la definizione del filtro.
 
 ![Condizione modello ruoli per appartenenza a elenco Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 <br/>
@@ -178,7 +174,7 @@ Per utilizzare l&#39;appartenenza a un elenco come condizione del ruolo, espande
 
 Per impostazione predefinita, la completezza di un ruolo viene definita come un membro assegnato al ruolo. Quando si utilizza la completezza del gruppo di acquisto per indicare la fattibilità delle vendite, utilizzare queste impostazioni per allineare il punteggio al numero di membri necessari per chiudere un&#39;opportunità.
 
-Ad esempio, la chiusura di un&#39;offerta per la soluzione _X_ richiede l&#39;identificazione e il coinvolgimento di più responsabili delle decisioni di marketing, in quanto la soluzione verrebbe utilizzata da più team di marketing in un&#39;organizzazione. In questo caso, desideri aumentare la soglia per calcolare un gruppo di acquisto _completo_ richiedendo almeno due responsabili delle decisioni di marketing.
+Ad esempio, la chiusura di un&#39;offerta per la soluzione _X_ richiede l&#39;identificazione e il coinvolgimento di più responsabili delle decisioni di marketing, poiché la soluzione viene utilizzata da più team di marketing in un&#39;organizzazione. In questo caso, desideri aumentare la soglia per calcolare un gruppo di acquisto _completo_ richiedendo almeno due responsabili delle decisioni di marketing.
 
 Per informazioni dettagliate sul punteggio di completezza e sui calcoli, consulta [Punteggi di completezza](./completeness-scores.md).
 
@@ -188,7 +184,7 @@ Per informazioni dettagliate sul punteggio di completezza e sui calcoli, consult
 
 1. Nella finestra di dialogo, modifica il valore **[!UICONTROL Membri richiesti]** per ogni ruolo definito in base alle esigenze.
 
-   È possibile immettere il valore oppure fare clic su **&plus;** o **−** per aumentare o diminuire il valore.
+   È possibile immettere il valore oppure fare clic su **&amp;plus;** o **−** per aumentare o diminuire il valore.
 
    ![Finestra di dialogo Impostazioni punteggio completezza modello ruoli](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -198,7 +194,7 @@ Per informazioni dettagliate sul punteggio di completezza e sui calcoli, consult
 
 Se il modello è pronto per l&#39;uso, fai clic su **[!UICONTROL Pubblica]** in alto a destra.
 
-La pubblicazione del modello imposta lo stato su _Live_ e lo rende disponibile per l&#39;associazione a un interesse per la soluzione. Per pubblicare il modello dei ruoli deve essere presente almeno un ruolo definito.
+Per rendere il modello disponibile per l&#39;associazione a un interesse di soluzione, pubblicarlo per impostare lo stato su _Live_. Per pubblicare il modello dei ruoli deve essere presente almeno un ruolo definito.
 
 Dopo la pubblicazione, lo stato del modello è _Live_ nella scheda **[!UICONTROL Modelli ruoli]** e puoi selezionarlo quando [crei un interesse per la soluzione](./solution-interests.md).
 
@@ -206,13 +202,13 @@ Dopo la pubblicazione, lo stato del modello è _Live_ nella scheda **[!UICONTROL
 
 Quando un modello di ruoli si trova nello stato _Bozza_, è possibile continuare a modificare i ruoli definiti. Tutte le modifiche apportate vengono salvate automaticamente.
 
-Modifica le impostazioni di intestazione della scheda ruolo, ad esempio il ruolo del gruppo di acquisto, la ponderazione, l’assegnazione automatica o il requisito del punteggio di completezza.
+Modifica le impostazioni di intestazione della scheda ruolo, ad esempio i requisiti di ruolo, ponderazione, assegnazione automatica o completezza.
 
 ![Modifica proprietà ruolo gruppo acquisti](./assets/roles-template-role-properties.png){width="600"}
 
 ### Modificare le condizioni per un ruolo
 
-Per modificare la condizione/logica di filtro per uno qualsiasi dei ruoli, fai clic sull&#39;icona _Modifica_ ( ![Icona Modifica](../assets/do-not-localize/icon-edit.svg) ) in alto a destra nella scheda ruolo. Questa azione apre l&#39;area di lavoro _[!UICONTROL Condizioni]_ in cui è possibile modificare un filtro esistente, aggiungerne o rimuoverne uno o modificare la logica del filtro.
+Per modificare la condizione/logica di filtro per uno qualsiasi dei ruoli, fai clic sull&#39;icona _Modifica_ ( ![Icona Modifica](../assets/do-not-localize/icon-edit.svg) ) in alto a destra nella scheda dei ruoli. Questa azione apre l&#39;area di lavoro _[!UICONTROL Condizioni]_ in cui è possibile modificare un filtro esistente, aggiungerne o rimuoverne uno o modificare la logica del filtro.
 
 ### Eliminare una scheda ruolo
 
@@ -240,4 +236,4 @@ Puoi eliminare un modello di ruoli se si trova nello stato _Bozza_.
 
 ## Video di panoramica {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453309/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

@@ -4,22 +4,16 @@ description: Crea modelli personalizzati di fase del gruppo di acquisto con fasi
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d9b663ab-b785-4c49-8fc3-d3dda520c908
 autotag-review: 2026-03-30T21:47:43.205Z
 TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 2357
+source-wordcount: 2326
 ht-degree: 2%
 
 ---
@@ -28,7 +22,7 @@ ht-degree: 2%
 
 Le fasi di acquisto dei gruppi sono progettate per tenere traccia della progressione dei gruppi di acquisto nella conversione delle opportunità in clienti. Utilizza questa funzione per tenere traccia della progressione del gruppo di acquisto e identificare le migliori azioni successive per i membri del gruppo di acquisto.
 
-Definisci le fasi all’interno di un singolo modello di staging, definendo più fasi e il flusso di transizione tra di esse. Una o più fasi sono designate per l&#39;immissione nel ciclo di vita. Il modello consente anche una progressione non lineare, in cui è possibile specificare transizioni da uno stadio all&#39;altro, ad esempio dallo stadio A agli stadi B, C o D. È necessario che una fase sia designata come fase di successo, ad esempio un contratto di acquisto o firmato. È facoltativo che un&#39;altra fase sia designata come fase di fallimento, ad esempio un contratto rifiutato o l&#39;acquisto di una soluzione concorrente da un altro fornitore. Monitora queste fasi tramite [dashboard intelligenti](../dashboards/intelligent-dashboard.md) che mostrano l&#39;avanzamento dei gruppi di acquisto in termini di completamento di un&#39;opportunità di vendita o di conversione di un&#39;opportunità in un cliente.
+Definisci le fasi all’interno di un singolo modello di staging, definendo più fasi e il flusso di transizione tra di esse. Una o più fasi sono designate per l&#39;immissione nel ciclo di vita. Il modello consente una progressione non lineare, ad esempio dalla fase A alla fase B, C o D. Una fase deve essere designata come fase di successo, come un contratto di acquisto o firmato. È facoltativo che un&#39;altra fase sia designata come fase di fallimento, ad esempio un contratto rifiutato o l&#39;acquisto di una soluzione concorrente da un altro fornitore. Monitora queste fasi tramite [dashboard intelligenti](../dashboards/intelligent-dashboard.md) che mostrano l&#39;avanzamento dei gruppi di acquisto in termini di completamento di un&#39;opportunità di vendita o di conversione di un&#39;opportunità in un cliente.
 
 ![Esempio di fasi del gruppo di acquisto](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -42,7 +36,7 @@ Per creare e configurare un modello di fasi del gruppo di acquisto, effettuare l
 * Definizione dei flussi di transizione
 * Definizione delle fasi di entrata e destinazione
 
-È supportato un solo modello, quindi è importante lavorare con i team di marketing e vendita per pianificare il modello ottimale per la tua organizzazione prima di crearlo e pubblicarlo in Journey Optimizer B2B edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+È supportato un solo modello. Per pianificare il modello ottimale, collaborare con il team Marketing e Vendite prima di crearlo e pubblicarlo in Journey Optimizer B2B edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 Quando si crea il modello di fase del gruppo di acquisto, questo viene automaticamente impostato sullo stato _Bozza_ e non può essere eliminato o rinominato. Rimane in questo stato mentre definisci le fasi e configuri il flusso di transizione tra le fasi. Quando il modello si trova nello stato pubblicato (_Live_), non può essere modificato.
 
@@ -94,7 +88,7 @@ Dopo aver creato il modello, questo viene aperto nel workspace e viene richiesto
 
 ### Configurare il flusso di lavoro e le regole di transizione
 
-Dopo aver salvato gli stadi, questo ritorna all&#39;area di lavoro del modello. La colonna _[!UICONTROL Transito consentito in]_ è vuota, a indicare che le regole di transizione per gli stadi del modello non sono ancora definite.
+Dopo aver salvato le fasi, tornate all&#39;area di lavoro del modello. La colonna _[!UICONTROL Transito consentito in]_ è vuota, a indicare che le regole di transizione per gli stadi del modello non sono ancora definite.
 
 ![Le regole di transizione non sono ancora definite](assets/stages-model-stages-empty-rules.png){width="700" zoomable="yes"}
 
@@ -118,11 +112,11 @@ Le regole di transizione determinano il modo in cui un gruppo di acquisto può s
 
 1. Per ogni fase non di destinazione, definisci una o più fasi successive nel flusso (transizione).
 
-   Tutte le fasi non di destinazione devono avere almeno una fase **[!UICONTROL Transito consentito a]** selezionata. In caso contrario, la logica del modello non è valida e gli account possono ottenere _bloccato_ in quella fase senza alcun modo per procedere con successo o errore.
+   Tutte le fasi non di destinazione devono avere almeno una fase **[!UICONTROL Transito consentito a]** selezionata. In caso contrario, la logica del modello non è valida e gli account possono rimanere in quella fase senza alcun modo di progredire verso il successo o il fallimento.
 
    ![Configurare le transizioni tra fasi non di destinazione](./assets/stages-model-edit-stage-rules-transitons.png){width="700" zoomable="yes"}
 
-   Facoltativamente, potete specificare una transizione da una fase di errore. Ad esempio, è possibile designare una fase denominata _Nessuna risposta_ come fase di errore. Ma anche designare una fase denominata _Risorgenza_ come possibile transizione per identificare i casi in cui un account inattivo viene riattivato.
+   Facoltativamente, potete specificare una transizione da una fase di errore. Ad esempio, designare una fase denominata _Nessuna risposta_ come fase di errore. Ma anche designare una fase denominata _Risorgenza_ come possibile transizione per identificare i casi in cui un account inattivo viene riattivato.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -227,7 +221,7 @@ Per ogni interesse di soluzione esistente in cui si desidera associare il modell
 
 1. Selezionare la scheda _[!UICONTROL Interesse soluzione]_.
 
-1. Aprire l&#39;interesse della soluzione utilizzando uno dei metodi seguenti per aprire le proprietà per l&#39;interesse della soluzione che si desidera modificare:
+1. Utilizzare uno dei metodi seguenti per aprire le proprietà per l&#39;interesse della soluzione che si desidera modificare:
 
    * Fai clic sul nome dell’interesse della soluzione.
    * Fare clic sui puntini di sospensione (**...**) accanto e scegliere **[!UICONTROL Modifica]**.
@@ -246,7 +240,7 @@ Per ogni interesse di soluzione esistente in cui si desidera associare il modell
 
 ### Suddividi percorsi
 
-Utilizzando un [nodo percorso suddiviso](../journeys/journey-nodes.md#split-paths), puoi filtrare a livello di account o di persone in base alle fasi del gruppo di acquisto. Ad esempio, aggiungi una fase del gruppo di acquisto come condizione del percorso quando dividi i percorsi per membro del gruppo di acquisto.
+Utilizzando un [nodo percorso suddiviso](../journeys/split-merge-paths-nodes.md#split-paths), puoi filtrare a livello di account o di persone in base alle fasi del gruppo di acquisto. Ad esempio, aggiungi una fase del gruppo di acquisto come condizione del percorso quando dividi i percorsi per membro del gruppo di acquisto.
 
 >[!BEGINTABS]
 
@@ -264,7 +258,7 @@ Utilizzando un [nodo percorso suddiviso](../journeys/journey-nodes.md#split-path
 
    ![Dividi nodo percorso - aggiungi condizione](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. Nell’editor delle condizioni, aggiungi il filtro del gruppo di acquisto per definire il percorso di divisione.
+1. Per definire il percorso di divisione, aggiungi il filtro gruppo di acquisto nell’editor delle condizioni.
 
    * A sinistra, espandi **[!UICONTROL Filtri speciali]** in basso e trascina l&#39;attributo **[!UICONTROL Gruppo acquisti]** nell&#39;area di lavoro filtri.
 
@@ -298,7 +292,7 @@ Utilizzando un [nodo percorso suddiviso](../journeys/journey-nodes.md#split-path
 
    ![Dividi nodo percorso - aggiungi condizione](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. Nell’editor delle condizioni, aggiungi il filtro del gruppo di acquisto per definire il percorso di divisione.
+1. Per definire il percorso di divisione, aggiungi il filtro gruppo di acquisto nell’editor delle condizioni.
 
    * A sinistra, espandi **[!UICONTROL Filtri speciali]** in basso e trascina l&#39;attributo **[!UICONTROL Membro del gruppo acquisti]** nell&#39;area di lavoro filtri.
 
@@ -320,7 +314,7 @@ Utilizzando un [nodo percorso suddiviso](../journeys/journey-nodes.md#split-path
 
 ### Aggiorna azione account fase gruppo di acquisto
 
-Utilizzando un [nodo azione account](../journeys/journey-nodes.md#add-an-account-action), puoi aggiornare la fase del gruppo di acquisto. La definizione di questo nodo comporta la selezione dell’interesse della soluzione e la definizione della nuova fase per il gruppo di acquisto.
+Utilizzando un [nodo azione account](../journeys/action-nodes.md#add-an-account-based-action), puoi aggiornare la fase del gruppo di acquisto. La definizione di questo nodo comporta la selezione dell’interesse della soluzione e la definizione della nuova fase per il gruppo di acquisto.
 
 >[!NOTE]
 >
@@ -334,7 +328,7 @@ Utilizzando un [nodo azione account](../journeys/journey-nodes.md#add-an-account
 
 1. Nelle proprietà del nodo a destra, scegliere **[!UICONTROL Account]** per l&#39;azione.
 
-1. Definisci l’azione per aggiornare la fase del gruppo di acquisto.
+1. Per aggiornare la fase del gruppo di acquisto, definisci l’azione.
 
    * Per **[!UICONTROL Azione sugli account]**, selezionare **[!UICONTROL Aggiorna fase gruppo acquisti]**.
 
@@ -380,4 +374,4 @@ Utilizza l’occorrenza di una modifica della fase del gruppo di acquisto per sp
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3448702/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

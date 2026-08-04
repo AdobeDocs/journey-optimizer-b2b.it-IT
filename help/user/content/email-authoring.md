@@ -4,22 +4,15 @@ description: 'Creazione di e-mail con strumenti di progettazione visiva, importa
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1381
+source-wordcount: 1380
 ht-degree: 4%
 
 ---
@@ -30,7 +23,7 @@ Dopo aver [aggiunto una risorsa e-mail a un nodo di azione del percorso](./add-e
 
 Fai clic su **[!UICONTROL Modifica contenuto e-mail]** nella scheda _[!UICONTROL Dettagli]_ nel pannello di destra.
 
-![Fare clic su Modifica contenuto e-mail &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Fare clic su Modifica contenuto e-mail ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Questa azione avvia gli strumenti di progettazione delle e-mail, in cui puoi scegliere come progettare le e-mail dalle seguenti opzioni:
 
@@ -44,11 +37,11 @@ Dopo aver creato e personalizzato il contenuto dell’e-mail, puoi esportarlo pe
 
 >[!TIP]
 >
->Utilizza AI Assistant in Adobe Journey Optimizer B2B edition, basato su AI generativa, per migliorare i contenuti. L’Assistente AI può aiutarti a ottimizzare l’impatto delle consegne generando e-mail intere, contenuto di testo mirato e ricevendo consigli dall’Assistente AI per le immagini che risuonano con il tuo pubblico. [Ulteriori informazioni](./ai-assistant-emails.md)
+>Utilizza l’Assistente per l’intelligenza artificiale in Adobe Journey Optimizer B2B edition, basato sull’intelligenza artificiale generativa, per migliorare i contenuti. L’Assistente AI può aiutarti a ottimizzare l’impatto delle consegne generando interi messaggi e-mail e contenuti di testo mirati e fornendo consigli per le immagini che risuonano con il tuo pubblico. [Ulteriori informazioni](./ai-assistant-emails.md)
 
 ## Creare e-mail da zero {#design-from-scratch}
 
-Utilizza lo spazio di progettazione del contenuto visivo per definire la struttura e il contenuto dell’e-mail. Aggiungendo e spostando componenti strutturali con semplici azioni di trascinamento della selezione, puoi progettare il layout e l’organizzazione del contenuto dell’e-mail in pochi secondi.
+Utilizza lo spazio di progettazione del contenuto visivo per definire la struttura e il contenuto dell’e-mail. Aggiungendo e spostando componenti strutturali con semplici azioni di trascinamento della selezione, puoi progettare rapidamente il layout e l’organizzazione del contenuto dell’e-mail.
 
 1. Dalla home page di _[!UICONTROL Progetta modello]_, seleziona l&#39;opzione **[!UICONTROL Progetta da zero]**.
 
@@ -60,7 +53,7 @@ Utilizza lo spazio di progettazione del contenuto visivo per definire la struttu
 
 1. [Aggiungi struttura e contenuto](./email-authoring.md#structure-content) al modello.
 
-1. [Rivedi e aggiorna i collegamenti](#preview-and-edit-linked-urls).
+1. [Rivedi e aggiorna i collegamenti](#edit-linked-url-tracking).
 
 1. [Verifica e-mail](#check-and-test-the-email).
 
@@ -106,7 +99,7 @@ Con almeno un componente di contenuto nell&#39;area di lavoro, seleziona il comp
 
 >[!NOTE]
 >
->Se il messaggio di posta elettronica è progettato utilizzando un modello [&#x200B; con contenuto bloccato](./template-content-governance.md), non è possibile aggiungere CSS personalizzati al contenuto. L&#39;etichetta del pulsante diventa **[!UICONTROL Visualizza CSS personalizzato]** ed eventuali CSS personalizzati già presenti nel contenuto sono di sola lettura.
+>Se il messaggio di posta elettronica è progettato utilizzando un modello [ con contenuto bloccato](./template-content-governance.md), non è possibile aggiungere CSS personalizzati al contenuto. L&#39;etichetta del pulsante diventa **[!UICONTROL Visualizza CSS personalizzato]** ed eventuali CSS personalizzati già presenti nel contenuto sono di sola lettura.
 
 ![Accedere agli stili del corpo](./assets/email-body-styles.png){width="800" zoomable="yes"}
 
@@ -146,11 +139,11 @@ Dopo il salvataggio, l&#39;e-mail viene visualizzata nella pagina dei dettagli d
 
 Il sistema di consegna e-mail (tramite Marketo Engage) racchiude automaticamente tutti gli URL nelle e-mail di HTML con un reindirizzamento di tracciamento univoco al momento dell’invio. Utilizza il **[!UICONTROL Tipo di tracciamento]** per controllare il tracciamento del collegamento:
 
-* **[!UICONTROL Traccia senza token]** - Il sistema registra il clic, ma tiene traccia di ciò che l&#39;utente fa successivamente sulla pagina Web. Questo può essere importante in alcuni casi tecnici, ad esempio quando si tratta di sistemi di terze parti che potrebbero non gestire correttamente mkt_tok. Tuttavia, il successivo tracciamento web è limitato.
+* **[!UICONTROL Traccia senza token]** - Il sistema registra il clic, ma non tiene traccia di ciò che l&#39;utente fa successivamente sulla pagina Web. Questo comportamento è importante in alcuni casi tecnici, ad esempio quando si tratta di sistemi di terze parti che non gestiscono correttamente mkt_tok. Tuttavia, il successivo tracciamento web è limitato.
 
 * **[!UICONTROL Traccia con mkt-tok]** - Utilizza il token di tracciamento (mkt_tok) per tenere traccia delle attività Web successive tramite Munchkin. Quando un destinatario fa clic sul collegamento, registra un evento _E-mail clic_ nel registro attività, tiene traccia in modo sicuro della propria attività e applica un cookie per monitorare le interazioni future del sito.
 
-* **[!UICONTROL Non tenere traccia]** - Il sistema non tiene traccia dell&#39;attività associata al collegamento. Questa funzione è utile quando la pagina di destinazione non supporta i parametri URL e può causare il mancato funzionamento del collegamento.
+* **[!UICONTROL Non tenere traccia]** - Il sistema non tiene traccia dell&#39;attività associata al collegamento. Questa opzione è utile quando la pagina di destinazione non supporta i parametri URL e genera un collegamento non funzionante.
 
   >[!NOTE]
   >
@@ -171,8 +164,8 @@ Sfrutta le opzioni di convalida di visualizzazione e contenuto disponibili nell�
 * Zoom in/out del contenuto tra le opzioni di zoom predefinite.
 
 * Consente di passare dalla visualizzazione del contenuto su desktop a quella su dispositivi mobili o solo testo o solo testo.
-   * Fai clic sull&#39;icona _Visualizza_ per l&#39;anteprima del contenuto tra i dispositivi.
-   * Seleziona uno dei dispositivi predefiniti o immetti dimensioni personalizzate per visualizzare in anteprima il contenuto.
+  * Fai clic sull&#39;icona _Visualizza_ per l&#39;anteprima del contenuto tra i dispositivi.
+  * Seleziona uno dei dispositivi predefiniti o immetti dimensioni personalizzate per visualizzare in anteprima il contenuto.
 
 ## Altre opzioni
 

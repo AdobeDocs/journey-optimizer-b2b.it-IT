@@ -4,27 +4,17 @@ description: Attiva i tipi di pubblico esterni a  [!DNL Adobe Target]  tramite p
 feature: Integrations, Audiences, Account Journeys
 role: User, Admin
 exl-id: 8feb1dc2-2f1f-46bc-bffa-fafea956d84f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T19:48:50.374Z
 TQID: https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 2%
+source-wordcount: 715
+ht-degree: 3%
 
 ---
 
@@ -32,14 +22,14 @@ ht-degree: 2%
 
 Puoi attivare e personalizzare le esperienze per tipi di pubblico esterni in [!DNL Adobe Target] tramite percorsi di account. Utilizza questa integrazione per ottenere una personalizzazione avanzata e personalizzata che aumenti il coinvolgimento e per mantenere la coerenza tra le piattaforme in [!DNL Target] e [!DNL Journey Optimizer B2B Edition]. Questa coerenza garantisce che i team allineino e personalizzino i canali web per i gruppi di acquisto in tutto il percorso di acquirenti B2B.
 
-Per attivare un pubblico esterno tramite Adobe Target, si tratta di un flusso di lavoro in due passaggi:
+È disponibile un flusso di lavoro in due passaggi per attivare un pubblico esterno tramite Adobe Target:
 
 1. [Aggiungi a pubblico cliente esterno](#add-to-customer-external-audience-from-a-journey) da un percorso.
 2. [Attiva il pubblico esterno](#activate-the-external-audience-to-target-as-a-destination) in [!DNL Target] come destinazione in Experience Platform.
 
 ## Aggiungi al pubblico esterno del cliente da un percorso
 
-Nel tuo percorso, [aggiungi un _Esegui un&#39;azione_ nodo](../journeys/action-nodes.md) per eseguire l&#39;azione _[!UICONTROL Aggiungi al pubblico esterno]_. Le azioni sono in genere ciò che desideri che accada come risultato di un qualche tipo di trigger, ad esempio un evento o un’azione precedente. Il percorso esegue l’azione quando un account qualificato con profili di persona raggiunge il nodo.
+Nel tuo percorso, [aggiungi un _Esegui un&#39;azione_ nodo](../journeys/action-nodes.md) per eseguire l&#39;azione _[!UICONTROL Aggiungi al pubblico esterno]_. Le azioni sono in genere il risultato di un trigger, ad esempio un evento o un’azione precedente. Il percorso esegue l’azione quando un account qualificato con profili di persona raggiunge il nodo.
 
 >[!NOTE]
 >
@@ -53,7 +43,7 @@ Nel tuo percorso, [aggiungi un _Esegui un&#39;azione_ nodo](../journeys/action-n
 
 1. Imposta il pubblico esterno dalle proprietà del nodo a destra.
 
-   * Se sono già stati creati uno o più tipi di pubblico esterni, puoi scegliere **[!UICONTROL Seleziona pubblico esistente]** e [seleziona il pubblico che desideri utilizzare](#choose-an-external-audience).
+   * Se sono già stati creati uno o più tipi di pubblico esterni, puoi scegliere **[!UICONTROL Seleziona pubblico esistente]** e [seleziona il pubblico che desideri utilizzare](#select-an-external-audience).
 
    * Se desideri [creare un pubblico](#create-an-external-audience) da utilizzare per il nodo, scegli **[!UICONTROL Crea nuovo]**.
 
@@ -124,4 +114,4 @@ Il processo di attivazione richiede l&#39;aggiunta di [!DNL Adobe Target] come p
 
    ![Experience Platform - destinazioni - attiva destinazione - revisione](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-Al momento dell&#39;attivazione, puoi visualizzare il pubblico in [tipi di pubblico di Adobe Target](https://experienceleague.adobe.com/it/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} e utilizzarlo nelle attività di Adobe Target.
+Al momento dell&#39;attivazione, puoi visualizzare il pubblico in [Tipi di pubblico di Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} e utilizzarlo nelle attività di Adobe Target.

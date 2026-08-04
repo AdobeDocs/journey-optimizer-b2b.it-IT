@@ -4,22 +4,16 @@ description: 'Progetta e-mail, pagine di destinazione e frammenti con componenti
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3074
 ht-degree: 6%
 
 ---
@@ -207,7 +201,7 @@ Ogni tipo di componente contenuto visualizza una barra degli strumenti quando la
 
 +++
 
-### Strumenti funzionali
+### Strumenti funzionali {#functional-tools}
 
 | Strumento | Nome | Utilizzo |
 | ---- | ---- | ----- |
@@ -221,7 +215,7 @@ Ogni tipo di componente contenuto visualizza una barra degli strumenti quando la
 
 1. Nello spazio di progettazione visivo, utilizza un modello esistente o aggiungi i componenti struttura necessari in un’area di lavoro vuota per definire il layout.
 
-1. Nella libreria **[!UICONTROL Componenti]**, afferra l&#39;_handle di trascinamento_ ![Handle di trascinamento](../../assets/do-not-localize/icon-drag-handle.svg) per il componente contenuto desiderato, quindi trascinalo sui componenti struttura.
+1. Nella libreria **[!UICONTROL Componenti]**, seleziona l&#39;_handle di trascinamento_ ![Handle di trascinamento](../../assets/do-not-localize/icon-drag-handle.svg) per il componente contenuto desiderato, quindi trascinalo sui componenti struttura.
 
    È possibile aggiungere più componenti in un singolo componente struttura e in ogni colonna di un componente struttura.
 
@@ -233,7 +227,7 @@ Ogni tipo di componente contenuto visualizza una barra degli strumenti quando la
 
    ![Definire le impostazioni e gli stili per il componente contenuto](./assets/content-components-settings-styles.png){width="600" zoomable="yes"}
 
-Mentre lavori con la progettazione, puoi anche [rimuovere](#remove-a-content-component) o [duplicare](#duplicate-a-content-component) un componente.
+Mentre si lavora con la progettazione, è inoltre possibile rimuovere o duplicare un componente utilizzando gli strumenti **Elimina** e **Duplica** nella sezione [Strumenti funzionali](#functional-tools).
 
 ## Impostazioni e stili dei componenti di contenuto
 
@@ -250,7 +244,7 @@ Se desideri escludere il componente dalla visualizzazione del desktop o del disp
 
 ### Contenitore
 
-Utilizza un contenitore per applicare uno stile specifico a un gruppo di componenti di contenuto. Aggiungere un componente [!UICONTROL Container], quindi aggiungere altri componenti di contenuto al suo interno. Questo componente è simile alla modalità di utilizzo di un elemento `div` in HTML. Puoi applicare uno stile distinto al contenitore, che è diverso dallo stile applicato ai componenti di contenuto in esso contenuti.
+Utilizza un contenitore per applicare uno stile specifico a un gruppo di componenti di contenuto. Aggiungere un componente [!UICONTROL Container], quindi aggiungere altri componenti di contenuto al suo interno. Questo componente è simile a come si utilizza un elemento `div` in HTML. Puoi applicare uno stile distinto al contenitore, che è diverso dallo stile applicato ai componenti di contenuto in esso contenuti.
 
 Ad esempio, aggiungi un componente _[!UICONTROL Contenitore]_ e quindi un componente _[!UICONTROL Pulsante]_ all’interno del contenitore. Puoi utilizzare uno stile di area specifico per il contenitore e assegnare al pulsante e al relativo sfondo lo stile desiderato.
 
@@ -318,7 +312,7 @@ Nella scheda _[!UICONTROL Impostazioni]_, utilizza le opzioni **[!UICONTROL Coll
 
 1. Per **[!UICONTROL Etichetta]**, immettere il testo che si desidera visualizzare all&#39;interno del pulsante.
 
-   Il ridimensionamento del pulsante viene regolato in base al testo e allo stile impostati.
+   Il ridimensionamento del pulsante viene regolato in base al testo e allo stile impostato.
 
 1. Per **[!UICONTROL Target**], scegli come viene reindirizzata la destinazione collegata dall&#39;e-mail o dalla pagina:
 
@@ -438,7 +432,7 @@ Questi stili vengono applicati all&#39;intero blocco di testo. È possibile appl
 
 ### Divisore
 
-Aggiungi un componente _Divider_ per incorporare una divisione lineare tra le sezioni del contenuto.
+Per incorporare una divisione lineare tra le sezioni del contenuto, aggiungere un componente _Divider_.
 
 +++Informazioni di base
 
@@ -456,11 +450,11 @@ Nel pannello di destra con la scheda _[!UICONTROL Stili]_ selezionata, espandi l
 
 * **[!UICONTROL Larghezza]** - Utilizza l&#39;interruttore per impostare la larghezza in pixel o in percentuale.
 
-   * Per una larghezza percentuale, utilizzare il dispositivo di scorrimento per impostare il valore percentuale. La percentuale determina la dimensione dell’elemento in base alla casella del contenuto del blocco contenitore, che esclude la spaziatura interna e i bordi. Ad esempio, con un valore pari a 50 la larghezza dell’elemento viene impostata sul 50% della larghezza del contenuto del blocco che la contiene.
+  * Per una larghezza percentuale, utilizzare il dispositivo di scorrimento per impostare il valore percentuale. La percentuale determina la dimensione dell’elemento in base alla casella del contenuto del blocco contenitore, che esclude la spaziatura interna e i bordi. Ad esempio, con un valore pari a 50 la larghezza dell’elemento viene impostata sul 50% della larghezza del contenuto del blocco che la contiene.
 
   ![Definire lo stile delle linee per un componente divisore](./assets/component-divider-line-options.png){width="250"}
 
-   * Per una larghezza basata su pixel, fai clic sulle icone freccia su e giù per aumentare o diminuire il numero di pixel. Il valore predefinito è un valore vuoto (Automatico) e la larghezza dell&#39;elemento viene ridimensionata in base al contenuto.
+  * Per una larghezza basata su pixel, fai clic sulle icone freccia su e giù per aumentare o diminuire il numero di pixel. Il valore predefinito è un valore vuoto (Automatico) e la larghezza dell&#39;elemento viene ridimensionata in base al contenuto.
 
 * **[!UICONTROL Stile]** - Scegliere un valore dall&#39;elenco dei valori CSS `line-style` standard, ad esempio _Solido_, _Punteggiato_ e _Tratteggiato_.
 
@@ -502,7 +496,7 @@ Utilizza il componente HTML per aggiungere parti del HTML esistente. Questo comp
 
 1. Selezionare il componente nell&#39;area di lavoro e fare clic sull&#39;icona _Mostra codice sorgente_ nella barra degli strumenti.
 
-   [Apri l’editor di codice per aggiungere il HTML](./assets/content-components-html-show-code.png){width="450"}
+   [Per aggiungere HTML, apri l’editor di codice](./assets/content-components-html-show-code.png){width="450"}
 
 1. Incolla il HTML nella casella di testo e fai clic su **[!UICONTROL Salva]**.
 
@@ -564,7 +558,7 @@ Utilizza il componente [!UICONTROL Immagine] per inserire una risorsa immagine n
 
 Scegliere il tipo di origine [risorsa](./assets-overview.md) e selezionare un file di immagine:
 
-* **[!UICONTROL Marketo Engage Assets]** - Scegliere questo tipo per sfogliare e selezionare una risorsa immagine dalla libreria Journey Optimizer B2B edition o dall&#39;istanza connessa di Market Engage.
+* **[!UICONTROL Marketo Engage Assets]** - Scegliere questo tipo per sfogliare e selezionare una risorsa immagine dalla libreria Journey Optimizer B2B edition o dall&#39;istanza Marketo Engage connessa.
 
   ![Sfoglia le risorse immagini disponibili](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
@@ -572,31 +566,31 @@ Scegliere il tipo di origine [risorsa](./assets-overview.md) e selezionare un fi
 
   Sono disponibili alcuni strumenti per individuare la risorsa di cui hai bisogno:
 
-   * Fai clic sull&#39;icona _Filtro_ in alto a sinistra per filtrare gli elementi visualizzati in base ai criteri.
+  * Fai clic sull&#39;icona _Filtro_ in alto a sinistra per filtrare gli elementi visualizzati in base ai criteri.
 
-   * Immetti il testo nel campo _Ricerca_ per filtrare gli elementi visualizzati in modo che corrispondano al nome della risorsa.
+  * Immetti il testo nel campo _Ricerca_ per filtrare gli elementi visualizzati in modo che corrispondano al nome della risorsa.
 
-     ![Utilizza i filtri e il campo di ricerca per trovare la risorsa necessaria](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
+    ![Utilizza i filtri e il campo di ricerca per trovare la risorsa necessaria](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
 
 * **[!UICONTROL Experience Manager Assets]** - Scegliere questo tipo per sfogliare e selezionare una risorsa immagine da un [archivio Experience Manager Assets configurato](../admin/configure-aem-repositories.md).
 
   Nella finestra di dialogo _[!UICONTROL Seleziona Assets]_, scegli un&#39;immagine utilizzando gli strumenti disponibili per individuare la risorsa necessaria e fai clic su **[!UICONTROL Seleziona]**.:
 
-   * Modifica l&#39;**[!UICONTROL Archivio]** in alto a destra.
+  * Modifica l&#39;**[!UICONTROL Archivio]** in alto a destra.
 
-   * Fai clic su **[!UICONTROL Gestisci risorse]** in alto a destra per aprire l&#39;archivio Assets in un&#39;altra scheda del browser e utilizzare gli strumenti di gestione AEM Assets.
+  * Fai clic su **[!UICONTROL Gestisci risorse]** in alto a destra per aprire l&#39;archivio Assets in un&#39;altra scheda del browser e utilizzare gli strumenti di gestione AEM Assets.
 
-   * Fai clic sul selettore _Tipo di visualizzazione_ in alto a destra per modificare la visualizzazione in **[!UICONTROL Vista a elenco]**, **[!UICONTROL Vista griglia]**, **[!UICONTROL Vista galleria]** o **[!UICONTROL Vista a cascata]**.
+  * Fai clic sul selettore _Tipo di visualizzazione_ in alto a destra per modificare la visualizzazione in **[!UICONTROL Vista a elenco]**, **[!UICONTROL Vista griglia]**, **[!UICONTROL Vista galleria]** o **[!UICONTROL Vista a cascata]**.
 
-   * Fai clic sull&#39;icona _Ordinamento_ per modificare l&#39;ordinamento tra crescente e decrescente.
+  * Fai clic sull&#39;icona _Ordinamento_ per modificare l&#39;ordinamento tra crescente e decrescente.
 
-     ![Utilizzare gli strumenti nella finestra di dialogo Seleziona Assets per trovare e selezionare una risorsa immagine](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
+    ![Utilizzare gli strumenti nella finestra di dialogo Seleziona Assets per trovare e selezionare una risorsa immagine](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
 
-   * Fare clic sulla freccia del menu **[!UICONTROL Ordina per]** per modificare i criteri di ordinamento in **[!UICONTROL Nome]**, **[!UICONTROL Dimensione]** o **[!UICONTROL Modificato]**.
+  * Fare clic sulla freccia del menu **[!UICONTROL Ordina per]** per modificare i criteri di ordinamento in **[!UICONTROL Nome]**, **[!UICONTROL Dimensione]** o **[!UICONTROL Modificato]**.
 
-   * Fai clic sull&#39;icona _Filtro_ in alto a sinistra per filtrare gli elementi visualizzati in base ai criteri.
+  * Fai clic sull&#39;icona _Filtro_ in alto a sinistra per filtrare gli elementi visualizzati in base ai criteri.
 
-   * Immetti il testo nel campo _Ricerca_ per filtrare gli elementi visualizzati in modo che corrispondano al nome della risorsa.
+  * Immetti il testo nel campo _Ricerca_ per filtrare gli elementi visualizzati in modo che corrispondano al nome della risorsa.
 
   ![Utilizza i filtri e il campo di ricerca per individuare la risorsa](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
 

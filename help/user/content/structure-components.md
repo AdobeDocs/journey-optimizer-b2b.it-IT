@@ -6,22 +6,16 @@ role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
 autotag-review: '2026-05-27T16:19:08.483Z'
 TQID: 'https://experienceleague.adobe.com/Y3QgxZVcu76zBWJp9Ky7dUWjSOGg5JoPcPzPFrNsDXo'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1603
-ht-degree: 7%
+source-wordcount: 1625
+ht-degree: 6%
 
 ---
 
@@ -40,14 +34,14 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_fragment"
 >title="Informazioni sui componenti di struttura"
->abstract="I componenti di struttura sono elementi di layout che possono essere utilizzati per progettare la struttura di un frammento."
+>abstract="I componenti di struttura sono elementi di layout che puoi utilizzare per progettare la struttura di un frammento."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
 >title="Informazioni sui componenti di struttura"
 >abstract="I componenti di struttura sono elementi di layout che possono essere utilizzati per progettare la struttura di un modello."
 
-Utilizza i _componenti struttura_ nell&#39;area di progettazione visiva per definire la struttura del contenuto. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento della selezione, puoi definire rapidamente la forma del layout del contenuto. Ogni componente struttura occupa lo spazio orizzontale e può essere impilato per creare il layout in verticale. Dividi ciascun componente in colonne per formare ogni blocco di contenuto necessario.
+Utilizza i _componenti struttura_ nell&#39;area di progettazione visiva per definire la struttura del contenuto. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento della selezione, puoi definire rapidamente la struttura del layout del contenuto. Ogni componente struttura occupa lo spazio orizzontale e può essere impilato per creare il layout in verticale. Per formare ogni blocco di contenuto necessario, divide ogni componente in colonne.
 
 ## Libreria struttura
 
@@ -55,14 +49,14 @@ Nella parte superiore della libreria _[!UICONTROL Components]_, la sezione **[!U
 
 | Icona | Componente. | Descrizione |
 | ----- | ----------- | ----------- |
-| ![1:1 icona colonna](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1 colonna] | Contenitore a colonna singola che occupa la larghezza dello spazio. |
-| ![1:2 icona colonna](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 colonna sinistra] | Contenitore a due colonne che utilizza un rapporto di 1:2 per riempire la larghezza dello spazio. La prima colonna (a sinistra) occupa un terzo della larghezza, mentre la seconda (a destra) occupa i due terzi rimanenti. |
-| ![1:3 icona colonna](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 colonna sinistra] | Contenitore a due colonne che utilizza un rapporto di 1:3 per riempire la larghezza dello spazio. La prima colonna (a sinistra) occupa un quarto della larghezza mentre la seconda (a destra) occupa i tre quarti rimanenti. |
-| ![2:1 icona colonna](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1 colonna a destra] | Contenitore a due colonne che utilizza un rapporto di 2:1 per riempire la larghezza dello spazio. La prima colonna (a sinistra) occupa i due terzi della larghezza, mentre la seconda colonna (a destra) occupa il terzo rimanente. |
-| ![2:2 icona colonna](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 colonna] | Contenitore a due colonne che utilizza un rapporto di 2:2 per riempire la larghezza dello spazio. Le colonne sinistra e destra hanno la stessa larghezza. |
-| Icona della colonna ![3:1](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 colonna a destra] | Contenitore a due colonne che utilizza un rapporto di 3:1 per riempire la larghezza dello spazio. La prima colonna (a sinistra) occupa tre quarti (75%) della larghezza e la seconda (a destra) occupa il rimanente quarto (25%). |
-| Icona della colonna ![3:3](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3 colonna] | Contenitore a tre colonne che utilizza un rapporto di 3:3 per riempire la larghezza dello spazio. Le tre colonne hanno la stessa larghezza. |
-| ![4:4 icona colonna](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4 colonna] | Contenitore a quattro colonne che utilizza un rapporto di 4:4 per riempire la larghezza dello spazio. Le quattro colonne hanno la stessa larghezza. |
+| ![icona colonna 1:1](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL colonna 1:1] | Contenitore a colonna singola che occupa la larghezza dello spazio. |
+| ![icona colonna 1:2](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL Colonna 1:2 a sinistra] | Contenitore a due colonne che utilizza un rapporto 1:2 per riempire la larghezza dello spazio. La prima colonna (a sinistra) occupa un terzo della larghezza, mentre la seconda (a destra) occupa i due terzi rimanenti. |
+| Icona della colonna ![1:3](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL Colonna 1:3 a sinistra] | Contenitore a due colonne che utilizza un rapporto 1:3 per riempire la larghezza dello spazio. La prima colonna (a sinistra) occupa un quarto della larghezza mentre la seconda (a destra) occupa i tre quarti rimanenti. |
+| ![icona colonna 2:1](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL Colonna 2:1 a destra] | Contenitore a due colonne che utilizza un rapporto 2:1 per riempire la larghezza dello spazio. La prima colonna (a sinistra) occupa i due terzi della larghezza, mentre la seconda colonna (a destra) occupa il terzo rimanente. |
+| Icona della colonna ![2:2](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL Colonna 2:2] | Contenitore a due colonne che utilizza un rapporto 2:2 per riempire la larghezza dello spazio. Le colonne sinistra e destra hanno la stessa larghezza. |
+| Icona della colonna ![3:1](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL Colonna 3:1 a destra] | Contenitore a due colonne che utilizza un rapporto 3:1 per riempire la larghezza dello spazio. La prima colonna (a sinistra) occupa tre quarti (75%) della larghezza e la seconda (a destra) occupa il rimanente quarto (25%). |
+| Icona della colonna ![3:3](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL colonna 3:3] | Contenitore a tre colonne che utilizza un rapporto 3:3 per riempire la larghezza dello spazio. Le tre colonne hanno la stessa larghezza. |
+| Icona della colonna ![4:4](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL colonna 4:4] | Contenitore a quattro colonne che utilizza un rapporto 4:4 per riempire la larghezza dello spazio. Le quattro colonne hanno la stessa larghezza. |
 | ![n:n icona colonna](../assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n colonna] | Una struttura di colonne personalizzabile che riempie lo spazio in base alle colonne definite. È possibile impostare il numero di colonne (compreso tra due e dieci) e la larghezza di ciascuna colonna singolarmente. [Ulteriori informazioni](#change-nn-columns) |
 
 ## Aggiungere componenti struttura
@@ -86,7 +80,7 @@ La barra degli strumenti viene visualizzata nell&#39;area di lavoro quando quest
 
 ### Impostazioni del componente
 
-Dopo aver aggiunto un componente, questo viene selezionato nello spazio di progettazione visiva e le relative proprietà vengono visualizzate nel pannello di destra. La scheda _[!UICONTROL Impostazioni]_ è visualizzata per impostazione predefinita. Puoi anche selezionare un componente struttura in qualsiasi momento per modificare le impostazioni.
+Dopo aver aggiunto un componente, questo viene selezionato nello spazio di progettazione visiva e le relative proprietà vengono visualizzate nel pannello di destra. Per impostazione predefinita, viene visualizzata la scheda _[!UICONTROL Impostazioni]_. Puoi anche selezionare un componente struttura in qualsiasi momento per modificare le impostazioni.
 
 #### Opzioni di visualizzazione
 
@@ -111,7 +105,7 @@ Per rimuovere la designazione di intestazione o piè di pagina, seleziona il com
 
 Per schermate o finestre di visualizzazione più piccole, le colonne nel componente struttura vengono visualizzate in pila a meno che non si modifichi l’impostazione predefinita. Con il componente struttura a più colonne selezionato, modifica l&#39;impostazione **[!UICONTROL Non impilare le colonne sul dispositivo mobile]** spostando il cursore di attivazione/disattivazione a destra.
 
-![Non impilare colonne sul dispositivo mobile &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"}
+![Non impilare colonne sul dispositivo mobile ](./assets/structure-component-settings-stack-columns.png){width="250"}
 
 ## Stili dei componenti
 
@@ -127,9 +121,9 @@ Selezionare la casella di controllo e fare clic sul quadrato del colore per sceg
 
 ![Selettore colore di sfondo](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-#### [!UICONTROL Immagine di sfondo]
+#### [!UICONTROL Immagine di sfondo] {#background-image}
 
-Sposta il selettore per attivare le impostazioni dell&#39;immagine di sfondo.
+Per abilitare le impostazioni dell&#39;immagine di sfondo, sposta il selettore di attivazione/disattivazione.
 
 ![Impostazioni immagine di sfondo](./assets/structure-components-background-image-settings.png){width="250"}
 
@@ -159,7 +153,7 @@ Utilizza l&#39;opzione **[!UICONTROL Posizionamento immagine]** per scegliere in
 
 ### Altri stili
 
-Puoi applicare altri stili dei componenti struttura per regolarne la visualizzazione nel messaggio e-mail o nella pagina di destinazione.
+Per regolarne la visualizzazione nel messaggio e-mail o nella pagina di destinazione, puoi applicare altri stili di componenti struttura.
 
 +++Bordo
 
@@ -209,7 +203,7 @@ Nell’area di lavoro, sposta l’icona di dimensionamento della colonna per reg
 
 ### Stili colonna
 
-Con la colonna selezionata nell’area di lavoro, puoi impostare gli stili da applicare a tale colonna.
+Per impostare gli stili da applicare a tale colonna, selezionare la colonna nell&#39;area di lavoro.
 
 +++Informazioni di base
 
@@ -217,7 +211,7 @@ Con la colonna selezionata nell’area di lavoro, puoi impostare gli stili da ap
 
   ![Selettore colore di sfondo](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-* **[!UICONTROL Immagine di sfondo]** - Sposta il selettore di attivazione/disattivazione per abilitare le impostazioni dell&#39;immagine di sfondo.
+* **[!UICONTROL Immagine di sfondo]** - Per abilitare le impostazioni dell&#39;immagine di sfondo, spostare il selettore di attivazione/disattivazione.
 
   ![Impostazioni immagine di sfondo](./assets/structure-components-background-image-settings.png){width="250"}
 

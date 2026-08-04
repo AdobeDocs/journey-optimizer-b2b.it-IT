@@ -4,21 +4,15 @@ description: Crea modelli di punteggio di coinvolgimento personalizzati con atti
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1298
 ht-degree: 0%
 
 ---
@@ -35,13 +29,13 @@ In qualità di amministratore, puoi definire più modelli di punteggio di coinvo
 
 ## Accedere ai modelli di ponderazione dei punteggi di coinvolgimento
 
-Apri l&#39;elenco di ponderazione del punteggio di coinvolgimento __ per visualizzare i modelli attivi, bozza e archiviati:
+Per visualizzare i modelli attivi, bozza e archiviati, apri l&#39;elenco di ponderazione del punteggio di coinvolgimento __:
 
 1. Nel menu di navigazione a sinistra, scegli **[!UICONTROL Amministrazione]** > **[!UICONTROL Configurazioni]**.
 
 1. Fare clic su **[!UICONTROL Ponderazione punteggio coinvolgimento]** nel pannello intermedio per visualizzare l&#39;elenco dei modelli di punteggio.
 
-   Da questa pagina è possibile [creare (duplicare)](#create-an-engagement-score-model), [attivare](#activate-a-score-model) e [modificare](#change-the-engagement-weighting-settings) i modelli di punteggio di coinvolgimento.
+   Da questa pagina è possibile [creare (duplicare)](#create-a-custom-engagement-scoring-model), [attivare](#activate-a-score-model) e [modificare](#change-the-engagement-weighting-settings) i modelli di punteggio di coinvolgimento.
 
    ![Accedere ai modelli di punteggio di coinvolgimento definiti](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
@@ -93,7 +87,7 @@ Per creare un modello di punteggio di coinvolgimento personalizzato, duplica il 
 
 ### Modificare le impostazioni di ponderazione del coinvolgimento
 
-Le impostazioni di spessore definiscono le bande che è possibile assegnare a ogni attività nel modello. Puoi modificare le fasce in modo che riflettano le strategie della tua organizzazione per valutare il coinvolgimento. Ad esempio, è possibile regolare la fascia di ponderazione _Normal_ a un valore di 65 se si desidera assegnare un valore più alto alle attività normali. In alternativa, è possibile aggiungere una fascia di ponderazione progettata per acquisire le attività comprese tra _Normal_ e _Importante_. In questo caso, puoi aggiungere una banda e etichettarla come _Significativa_ e assegnare un valore di fascia di peso pari a 75.
+Le impostazioni di spessore definiscono le bande che è possibile assegnare a ogni attività nel modello. Per riflettere le strategie della tua organizzazione per la valutazione del coinvolgimento, modifica le fasce. Ad esempio, regola la fascia di ponderazione _Normal_ su un valore di 65 se vuoi assegnare un valore più alto alle attività normali. In alternativa, è possibile aggiungere una fascia di ponderazione progettata per acquisire le attività comprese tra _Normal_ e _Importante_. In questo caso, aggiungi una fascia, etichettala come _Significativa_ e assegna un valore di fascia di peso pari a 75.
 
 1. Nella pagina dei dettagli del modello di punteggio, fai clic su **[!UICONTROL Impostazioni peso coinvolgimento]** in alto.
 
@@ -102,7 +96,7 @@ Le impostazioni di spessore definiscono le bande che è possibile assegnare a og
 1. Per ogni fascia di peso, regolare il nome o i valori in base alle proprie esigenze:
 
    * Modificare il nome nel campo _[!UICONTROL Fascia di ponderazione]_.
-   * Immetti un nuovo valore. Puoi anche fare clic su **&plus;** o **−** per aumentare o diminuire il valore.
+   * Immetti un nuovo valore. Puoi anche fare clic su **&amp;plus;** o **−** per aumentare o diminuire il valore.
 
    ![Impostazioni peso coinvolgimento](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
@@ -161,7 +155,7 @@ Le modifiche vengono salvate automaticamente.
 
 Quando attivate un modello di punteggio bozza, questo sostituisce il modello attualmente attivo. Il modello attualmente attivo viene archiviato automaticamente.
 
-1. Apri una bozza di modello di punteggio per visualizzare la pagina dei dettagli.
+1. Per visualizzare la pagina dei dettagli, apri una bozza di modello di punteggio.
 
 1. Fare clic su **[!UICONTROL Attiva]**.
 
