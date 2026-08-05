@@ -20,10 +20,10 @@ topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 autotag-review: 2026-03-30T21:49:24.359Z
 TQID: https://experienceleague.adobe.com/d3dPmwhMxG9ARxbIzw-lHl1vHbPB1xHazCLEVZbTJAY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 3107
-ht-degree: 2%
+source-wordcount: 3111
+ht-degree: 3%
 
 ---
 
@@ -40,11 +40,11 @@ Con i temi, i designer non tecnici hanno la possibilità di creare linee guida p
 
 Quando lavori con i temi, tieni presenti le seguenti linee guida e limitazioni:
 
-* Quando crei un modello e-mail o e-mail da un&#39;area di lavoro vuota (_progettazione da zero_), puoi scegliere _Modalità tema_ per iniziare a creare i contenuti utilizzando un tema per applicare uno stile specifico adatto al tuo marchio e design. Se si sceglie _Modalità manuale_, non sarà possibile applicare un tema a meno che non si reimposti la struttura per l&#39;e-mail o il modello e-mail.
+* Quando crei un modello e-mail o e-mail da un&#39;area di lavoro vuota (_progettazione da zero_), puoi scegliere _Modalità tema_ per creare contenuti utilizzando un tema adatto al tuo marchio. Per applicare un tema se si sceglie _Modalità manuale_, è necessario reimpostare la struttura per l&#39;e-mail o il modello e-mail.
 
 * [I frammenti](./fragments.md) non sono compatibili tra la _modalità tema_ e la _modalità manuale_ nel contenuto dell&#39;e-mail. Per utilizzare un frammento nel contenuto dell&#39;e-mail in cui viene applicato un tema, è necessario creare il frammento anche in _modalità tema_.
 
-* Le modifiche a un tema personalizzato non si sovrappongono automaticamente a tutti i messaggi e-mail o modelli e-mail che lo utilizzano già. Modifica il contenuto di ogni per aggiornare il tema.
+* Le modifiche a un tema personalizzato non si sovrappongono automaticamente a tutti i messaggi e-mail o modelli e-mail che lo utilizzano già. Per aggiornare il tema, modifica il contenuto di ogni.
 
 * Se elimini un tema, questo non influisce su eventuali modelli e-mail o e-mail a cui è già stato applicato.
 <!--
@@ -53,7 +53,7 @@ Quando lavori con i temi, tieni presenti le seguenti linee guida e limitazioni:
 
 ## Creare un tema del brand {#create-theme}
 
-Definisci il tema del tuo marchio da applicare ai contenuti delle e-mail e dei modelli e-mail nei contenuti delle e-mail future.
+Definisci il tema del brand da applicare al contenuto dei modelli e-mail e e-mail.
 
 1. Accedere agli strumenti del tema utilizzando uno dei seguenti metodi:
 
@@ -87,7 +87,7 @@ Definisci il tema del tuo marchio da applicare ai contenuti delle e-mail e dei m
    * [Colori](#colors)
    * [Impostazioni testo](#text-settings)
    * [Spaziatura e bordo](#spacing-and-border)
-   * [Pulsante](#button)
+   * [Pulsante](#buttons)
    * [Divisore](#divider)
    * [Griglia](#grid)
 
@@ -126,7 +126,7 @@ Selezionare la scheda **[!UICONTROL Colori]** e utilizzare le impostazioni per d
 
   Fai clic sulla freccia _Indietro_ per chiudere gli strumenti della tavolozza dei colori.
 
-* Fai clic su **[!UICONTROL Aggiungi variante]** per creare più varianti di colore, ad esempio in modalità _chiaro_ e _scuro_, in cui ogni variante dispone di una propria palette di colori e controlli sfumatura.
+* Fai clic su **[!UICONTROL Aggiungi variante]** per creare più varianti di colore, ad esempio _modalità chiaro_ e _scuro_, ciascuna con la propria palette e i propri controlli.
 
   >[!NOTE]
   >
@@ -253,7 +253,7 @@ Utilizza la barra a destra per spostarti tra le diverse schede e modificare le i
 * [Colori](#colors)
 * [Impostazioni testo](#text-settings)
 * [Spaziatura e bordo](#spacing-and-border)
-* [Pulsante](#button)
+* [Pulsante](#buttons)
 * [Divisore](#divider)
 * [Griglia](#grid)
 
@@ -265,7 +265,7 @@ Al termine delle modifiche al tema, fai clic su **[!UICONTROL Salva]**.
 
 >[!NOTE]
 >
->Le modifiche salvate non vengono applicate automaticamente a catena a tutti i messaggi e-mail o modelli e-mail che utilizzano attualmente il tema. Modifica il contenuto di ogni per aggiornare il tema e adattarlo agli stili aggiornati.
+>Le modifiche salvate non vengono applicate automaticamente a catena a tutti i messaggi e-mail o modelli e-mail che utilizzano attualmente il tema. Per aggiornare il tema e far corrispondere gli stili aggiornati, modifica il contenuto di ciascuno di essi.
 
 ## Gestire i temi personalizzati
 
@@ -287,7 +287,7 @@ Se hai un elenco esteso di temi personalizzati, utilizza il campo _Cerca_ e altr
    * [Colori](#colors)
    * [Impostazioni testo](#text-settings)
    * [Spaziatura e bordo](#spacing-and-border)
-   * [Pulsante](#button)
+   * [Pulsante](#buttons)
    * [Divisore](#divider)
    * [Griglia](#grid)
 
@@ -299,7 +299,7 @@ Se hai un elenco esteso di temi personalizzati, utilizza il campo _Cerca_ e altr
 
 >[!NOTE]
 >
->Le modifiche apportate al tema salvato non vengono applicate automaticamente a catena a tutti i modelli e-mail o e-mail che utilizzano attualmente il tema. Modifica il contenuto di ogni per aggiornare il tema e adattarlo agli stili aggiornati.
+>Le modifiche apportate al tema salvato non vengono applicate automaticamente a catena a tutti i modelli e-mail o e-mail che utilizzano attualmente il tema. Per aggiornare il tema e far corrispondere gli stili aggiornati, modifica il contenuto di ciascuno di essi.
 
 ### Eliminare o duplicare un tema
 
@@ -317,7 +317,7 @@ Quando si individua il tema, fare clic sul _menu Altro_ (**...**) in basso a des
 
 ## Utilizza un tema per l’authoring dei contenuti delle e-mail {#use-email-theme}
 
-Quando crei un nuovo modello e-mail o e-mail, puoi scegliere di utilizzare un tema del brand che semplifica il processo di authoring dei contenuti e garantisce che la progettazione sia allineata agli standard definiti. Per un nuovo frammento, puoi anche applicare un tema prima di salvare il frammento. Il frammento rimane in _Modalità tema_ da quel momento ed è compatibile da aggiungere alle e-mail e ai modelli e-mail che sono anche in _Modalità tema_.
+Quando crei un nuovo modello e-mail o e-mail, puoi scegliere di utilizzare un tema del brand che semplifica il processo di authoring dei contenuti e garantisce che la progettazione sia allineata agli standard definiti. Per un nuovo frammento, puoi anche applicare un tema prima di salvare il frammento. Il frammento rimane in _modalità tema_ da quel momento ed è compatibile per l&#39;aggiunta alle e-mail e ai modelli e-mail che sono anche in _modalità tema_.
 
 1. Selezionare una delle azioni seguenti:
 

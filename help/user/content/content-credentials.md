@@ -15,16 +15,16 @@ subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad794b50f6c6f3b59e853e99f7983136ee098e18
+source-git-commit: edb796d131c2b058215b73519b845125432d84f8
 workflow-type: tm+mt
-source-wordcount: 913
+source-wordcount: 916
 ht-degree: 0%
 
 ---
 
 # Content Credentials
 
-Le organizzazioni di marketing si preoccupano più che mai della trasparenza dei contenuti, della divulgazione dell’intelligenza artificiale e della prevenzione della manomissione delle risorse. Content Authenticity Initiative (CAI) di Adobe crea strumenti conformi allo standard tecnico [Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA). _Content Credentials_, metadati crittografati a prova di manomissione, possono aiutare i visualizzatori a comprendere la derivazione dei contenuti e garantire l&#39;integrità delle risorse del marchio. Queste informazioni includono:
+Le organizzazioni di marketing si preoccupano più che mai della trasparenza dei contenuti, della divulgazione dell’intelligenza artificiale e della prevenzione della manomissione delle risorse. Content Authenticity Initiative (CAI) di Adobe crea strumenti conformi allo standard tecnico [Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA). _Content Credentials_ è il set di metadati crittografati e in grado di evidenziare eventuali manomissioni che consente ai visualizzatori di comprendere la derivazione dei contenuti e garantire l&#39;integrità delle risorse del marchio. Queste informazioni includono:
 
 * Emittente o firmatario: informazioni sull’entità o sulla società che ha emesso la firma digitale per certificare o firmare la risorsa.
 * Data problema: la data in cui il Content Credential è stato applicato alla risorsa.
@@ -34,7 +34,7 @@ Le organizzazioni di marketing si preoccupano più che mai della trasparenza dei
 * Strumento di intelligenza artificiale utilizzato: se per modificare o creare la risorsa è stata utilizzata l’intelligenza artificiale generativa, è possibile includere il nome del modello utilizzato.
 * Altre informazioni pertinenti: possono essere inclusi anche dati aggiuntivi per offrire più contesto sulla cronologia di una risorsa.
 
-Per informazioni complete sulla cronologia delle risorse, puoi utilizzare lo strumento di ispezione [di Adobe Content Authenticity](https://contentauthenticity.adobe.com/inspect).
+Per informazioni complete sulla cronologia delle risorse, puoi utilizzare lo strumento di [ispezione di Adobe Content Authenticity](https://contentauthenticity.adobe.com/inspect).
 
 Content Credentials persiste con il file di immagine. Quando un&#39;immagine generata o modificata con IA generativa viene caricata o esportata da [!DNL Adobe Journey Optimizer B2B Edition], il relativo Content Credentials viene mantenuto.
 

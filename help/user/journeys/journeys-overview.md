@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1512
+source-wordcount: 1504
 ht-degree: 42%
 
 ---
@@ -33,7 +33,7 @@ Journey Optimizer B2B edition supporta due tipi di percorso:
 
   ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo sul percorso di account](#overview-video)
 
-* **percorsi di persone** - (Beta) Orchestrazione di marketing basato su lead tramite dati e tipi di pubblico di Experience Platform. Con i percorsi di persone, le operazioni di marketing non si basano su Marketo Engage o su soluzioni alternative per le catene di strumenti Adobe Campaign/B2C, in modo che possano funzionare con i casi di utilizzo B2B.
+* **percorsi di persone** - (Beta) Orchestrazione di marketing basato su lead tramite dati e tipi di pubblico di Experience Platform. Con i percorsi di persone, le operazioni di marketing non si basano su Marketo Engage o rappresentano una soluzione alternativa per le catene di strumenti Adobe Campaign/B2C, in modo che possano supportare casi di utilizzo B2B.
 
   Se utilizzato insieme a percorsi di account e gruppi di acquisto, un percorso di persone può fornire agli addetti al marketing la possibilità di applicare l’orchestrazione completa al percorso di acquisto.
 
@@ -41,17 +41,17 @@ Journey Optimizer B2B edition supporta due tipi di percorso:
 
   Esistono limitazioni che potrebbero bloccare alcuni casi d’uso o causare difficoltà nella creazione di percorsi di persone. Molti problemi sono il risultato dell’implementazione iniziale del programma beta, che sarà affrontata in futuro.
 
-   * Gli eventi non possono essere combinati con gli attributi di profilo per limitare le definizioni di pubblico.
-   * Il contesto dell’evento che qualifica un profilo per un percorso non può essere utilizzato per la personalizzazione o l’orchestrazione.
-   * Al momento i percorsi non possono avere sia un criterio di immissione evento che un criterio di immissione segmento profilo.
-   * I listener di eventi non possono ascoltare più eventi.
-   * Al momento i nodi di attesa non dispongono di una suite completa di opzioni per i criteri di uscita relativi al giorno della settimana o all’ora del giorno.
-   * L’editor e-mail fa erroneamente riferimento a funzionalità e attributi disponibili solo per i Percorsi di account
-   * Il supporto per i token di percorso personalizzati (_I miei token_) non è ancora disponibile.
-   * Aggiungi e rimuovi da nodi del percorso di persone non è attualmente disponibile da nessuno dei tipi di percorso.
-   * Impossibile utilizzare la cronologia eventi per l&#39;orchestrazione o la personalizzazione.
-   * Gli oggetti correlati (ad esempio account, gruppo di acquisto, opportunità e oggetti personalizzati) non possono essere utilizzati per l’orchestrazione o la personalizzazione.
-   * I canali web, SMS e della piattaforma di annunci non sono attualmente supportati.
+  * Gli eventi non possono essere combinati con gli attributi di profilo per limitare le definizioni di pubblico.
+  * Il contesto dell’evento che qualifica un profilo per un percorso non può essere utilizzato per la personalizzazione o l’orchestrazione.
+  * Al momento i percorsi non possono avere sia un criterio di immissione evento che un criterio di immissione segmento profilo.
+  * I listener di eventi non possono ascoltare più eventi.
+  * Al momento i nodi di attesa non dispongono di una suite completa di opzioni per i criteri di uscita relativi al giorno della settimana o all’ora del giorno.
+  * L’editor e-mail fa erroneamente riferimento a funzionalità e attributi disponibili solo per i Percorsi di account
+  * Il supporto per i token di percorso personalizzati (_I miei token_) non è ancora disponibile.
+  * Aggiungi e rimuovi da nodi del percorso di persone non è attualmente disponibile da nessuno dei tipi di percorso.
+  * Impossibile utilizzare la cronologia eventi per l&#39;orchestrazione o la personalizzazione.
+  * Gli oggetti correlati (account, gruppo di acquisto, opportunità e oggetti personalizzati) non possono essere utilizzati per l’orchestrazione o la personalizzazione.
+  * I canali web, SMS e della piattaforma di annunci non sono attualmente supportati.
 
   +++
 
@@ -200,7 +200,7 @@ Un’azione di duplicazione è simile a una funzione di clonazione, ma un percor
 
    Il percorso duplicato viene aperto nella mappa del percorso, dove è possibile impostare i dettagli e creare il contenuto del percorso in base alle esigenze.
 
-### Eliminare un percorso
+### Eliminare un percorso {#delete-journey}
 
 Utilizza un’azione di eliminazione per eliminare definitivamente un percorso. Non puoi eliminare un percorso live o pianificato.
 
@@ -216,7 +216,7 @@ Utilizza un’azione di eliminazione per eliminare definitivamente un percorso. 
 
 ## Rivedere l’avanzamento degli account
 
-Per un percorso di account pubblicato che si trova nello stato _Live_, _Chiuso alle nuove voci_, _Interrotto_ o _Completato_, puoi aprire la mappa del percorso per esaminare la progressione dell&#39;account per i nodi del percorso. Ogni nodo sulla mappa mostra il numero di account che hanno raggiunto quel nodo e, per i percorsi live, il numero di account che si trovano attualmente a quel nodo.
+Per un percorso di account pubblicato con stato _Live_, _Chiuso alle nuove voci_, _Interrotto_ o _Completato_, apri la mappa del percorso per verificare la progressione dell&#39;account per i nodi del percorso. Ogni nodo sulla mappa mostra il numero di account che hanno raggiunto quel nodo e, per i percorsi live, il numero di account che si trovano attualmente a quel nodo.
 
 ![Informazioni sull’avanzamento degli account attraverso i nodi del percorso](./assets/node-account-progression-observability.png){width="400"}
 

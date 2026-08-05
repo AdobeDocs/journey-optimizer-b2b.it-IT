@@ -23,7 +23,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 1544
 ht-degree: 3%
@@ -32,12 +32,12 @@ ht-degree: 3%
 
 # Esperienze web
 
-Il canale web in Adobe Journey Optimizer B2B edition ti consente di creare esperienze personalizzate direttamente sul sito web, aiutandoti a connettersi con i clienti in modo significativo. Questa funzione offre un set flessibile di strumenti che puoi utilizzare per migliorare il coinvolgimento con contenuti personalizzati e integrarli facilmente con altri canali, come e-mail e SMS.
+Il canale web in Adobe Journey Optimizer B2B edition consente di creare esperienze personalizzate direttamente sul sito web, aiutandoti a connettersi con i clienti in modo significativo. Questa funzione offre un set flessibile di strumenti che puoi utilizzare per migliorare il coinvolgimento con contenuti personalizzati e integrarli facilmente con altri canali, come e-mail e SMS.
 
 Le esperienze web consentono di:
 
 * Consegnare modifiche personalizzate ai contenuti mirati ai visitatori del sito web
-* Personalizza gli elementi del sito web come banner, testo, immagini e pulsanti utilizzando gli attributi dell’account
+* Personalizza elementi del sito web come banner, testo, immagini e pulsanti con attributi account
 * Eseguire il targeting di pagine specifiche o applicare modifiche su più pagine utilizzando le regole di corrispondenza URL
 * Tracciare il coinvolgimento e monitorare l’impatto delle attività di personalizzazione web
 
@@ -52,9 +52,9 @@ Prima di poter creare esperienze web, assicurati di soddisfare i seguenti requis
 * Il sito Web include [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementato per l&#39;identificazione dei visitatori e la distribuzione dei contenuti. Verificare che la versione di Adobe Experience Platform Web SDK sia 2.16 o successiva.
 
 * Hai le [autorizzazioni](../admin/user-management.md#b2b-product-permissions) necessarie per creare e gestire esperienze Web in un percorso:
-   * _[!UICONTROL Campagne]_ > _[!UICONTROL Gestisci campagne]_ - Necessario per aggiungere o aggiornare un nodo di azione di personalizzazione Web.
-   * _[!UICONTROL Campagne]_ > _[!UICONTROL Visualizza campagne]_ - Necessario per visualizzare i dettagli di un nodo di azione di personalizzazione Web.
-   * _[!UICONTROL Campagne]_ > _[!UICONTROL Approva e pubblica campagne]_ - Necessario per pubblicare un percorso con uno o più nodi di azione di personalizzazione Web.
+  * _[!UICONTROL Campagne]_ > _[!UICONTROL Gestisci campagne]_ - Necessario per aggiungere o aggiornare un nodo di azione di personalizzazione Web.
+  * _[!UICONTROL Campagne]_ > _[!UICONTROL Visualizza campagne]_ - Necessario per visualizzare i dettagli di un nodo di azione di personalizzazione Web.
+  * _[!UICONTROL Campagne]_ > _[!UICONTROL Approva e pubblica campagne]_ - Necessario per pubblicare un percorso con uno o più nodi di azione di personalizzazione Web.
 
 * Hai installato l&#39;estensione del browser Adobe Experience Cloud [Helper per editing video](#install-the-visual-editing-helper-extension) per il browser Web. Questa estensione è necessaria per aprire, creare e visualizzare in anteprima le pagine web in modo affidabile nello spazio di progettazione dei contenuti di Journey Optimizer B2B edition.
 
@@ -134,7 +134,7 @@ Puoi impostare le esperienze Web in un percorso quando [aggiungi un _[!UICONTROL
 
 1. Nel pannello a destra, imposta le proprietà dell’esperienza web in base alla modalità di definizione e gestione.
 
-   * **[!UICONTROL Editor visivo]** - Consente di passare dall&#39;editor visivo all&#39;editor non visivo [e viceversa](./web-experience-design.md#web-design-tools) per la struttura di modifica dell&#39;esperienza Web.
+   * **[!UICONTROL Editor visivo]** - Consente di passare dall&#39;editor visivo all&#39;editor non visivo [e viceversa](./web-experience-design.md#web-experience-editors) per la struttura di modifica dell&#39;esperienza Web.
    * **[!UICONTROL Reindirizzamento visitatori]** - Abilita questa opzione per [reindirizzare i visitatori a un altro URL esistente](#redirect-to-url) anziché creare una nuova variante nella scheda dei contenuti.
 
    ![Attiva/disattiva proprietà per l&#39;editor visivo e l&#39;URL di reindirizzamento](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}

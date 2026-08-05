@@ -17,7 +17,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 5351
 ht-degree: 64%
@@ -165,7 +165,7 @@ Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzion
 
 ### Architettura aggiornata
 
-Con l’architettura aggiornata, Journey Optimizer B2B edition e Marketo Engage non si trovano sullo stesso sistema e sullo stesso archivio dati. Journey Optimizer B2B edition riceve i dati da Adobe Experience Platform. Tuttavia, continua a fare affidamento su diritti di Marketo Engage e su alcune funzioni di configurazione per il provisioning e la configurazione del sistema.
+Con l’architettura aggiornata, Journey Optimizer B2B edition e Marketo Engage non si trovano sullo stesso sistema e archivio dati. Journey Optimizer B2B edition riceve i dati da Adobe Experience Platform. Tuttavia, continua a fare affidamento su diritti di Marketo Engage e su alcune funzioni di configurazione per il provisioning e la configurazione del sistema.
 
 >[!NOTE]
 >
@@ -176,7 +176,7 @@ Questa implementazione offre diversi vantaggi:
 * **Unifica e scala facilmente i dati**: la piattaforma aggiornata supporta modelli di dati complessi, inclusi oggetti personalizzati, gruppi acquisti ed eventi account.
 * **Collega più istanze di Adobe Marketo Engage**: gestisci e unifica i dati da più ambienti Adobe Marketo Engage in un’unica posizione.
 * **Proteggi i tuoi dati**: le funzioni avanzate di privacy e sicurezza consentono di proteggere le informazioni della clientela.
-* **Progettato per il futuro**: questo aggiornamento prepara la tua organizzazione per continui miglioramenti e innovazioni.
+* **Progettato per la scalabilità a lungo termine**: questo aggiornamento imposta la tua organizzazione per miglioramenti continui e innovazione.
 
 >[!NOTE]
 >
@@ -203,7 +203,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Funzione | Collaborazione sui contenuti delle e-mail | I team di marketing possono ora commentare e collaborare con gli altri utenti di Journey Optimizer B2B edition, nel contesto di una risorsa e-mail. Possono assegnare ai membri del gruppo un tag per ricevere una notifica e-mail con i dettagli del commento. La notifica è disponibile anche come notifica Pulse. [Ulteriori informazioni](../content/email-collaboration-tools.md) |
 | Funzione | Modalità scura per la progettazione di e-mail | Lo spazio di progettazione delle e-mail ora include la possibilità di passare alla _modalità scura_. In modalità scura, puoi visualizzare in anteprima il contenuto dell’e-mail e definire impostazioni personalizzate da mostrare specificamente ai destinatari che visualizzano le e-mail in modalità scura. [Ulteriori informazioni](../content/email-dark-mode.md) |
 | Miglioramento | Percorsi - Dividere un percorso per numero di persone nel ruolo | Utilizza un percorso diviso per nodo di account per eseguire il targeting di un account con il numero di persone in uno o più ruoli del gruppo acquisti. Nel percorso puoi valutare la preparazione del gruppo acquisti per avvisi commerciali e altri tipi di coinvolgimento in base alla profondità del ruolo. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#buying-group-filtering-accounts) |
-| Miglioramento | Percorsi - Filtri persona per eventi | Utilizza i filtri persone per cogliere eventi relativi alle persone. Questi filtri includono la possibilità di eseguire il targeting per un ruolo specifico per un gruppo acquisti corrispondente. [Ulteriori informazioni](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
+| Miglioramento | Percorsi - Filtri persona per eventi | Utilizza i filtri persone per cogliere eventi relativi alle persone. Questi filtri includono la possibilità di eseguire il targeting per un ruolo specifico per un gruppo acquisti corrispondente. [Ulteriori informazioni](../journeys/listen-for-event-nodes.md#filters-people-event) |
 
 >[!NOTE]
 >
@@ -252,7 +252,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | ---- | ---- | ----------- |
 | Funzione | Test delle e-mail con Litmus | Con un [account Litmus Enterprise](https://www.litmus.com/email-testing){target="_blank"}, ora puoi visualizzare in anteprima il rendering delle e-mail provenienti da Journey Optimizer B2B Edition nei client e-mail più diffusi. Questa integrazione ti consente di garantire che il contenuto delle e-mail si presenti in modo ottimale e funzioni come previsto in ogni casella in entrata dell’e-mail. [Ulteriori informazioni](../content/email-test-rendering.md) |
 | Miglioramento | E-mail duplicata | Quando aggiungi un’e-mail per un nodo di percorso, ora puoi duplicare un’e-mail esistente. Modifica l’impostazione o il contenuto dell’e-mail duplicata oppure lasciala intatta.  [Ulteriori informazioni](../content/add-email.md#add-an-email-to-your-journey) |
-| Miglioramento | Formato token Handlebar per e-mail | I token di personalizzazione per il contenuto delle e-mail ora utilizzano un formato aggiornato completamente compatibile con gli script Handlebar. Questo formato utilizza _camel case_ o trattini bassi, eliminando gli spazi. [Ulteriori informazioni](../content/email-authoring.md#content-authoring---personalization) |
+| Miglioramento | Formato token Handlebar per e-mail | I token di personalizzazione per il contenuto delle e-mail ora utilizzano un formato aggiornato completamente compatibile con gli script Handlebar. Questo formato utilizza _camel case_ o trattini bassi, eliminando gli spazi. [Ulteriori informazioni](../content/email-authoring.md#personalize-content) |
 | Miglioramento | Visualizzazione del conteggio totale per elenchi | Le pagine di elenco _[!UICONTROL Soluzioni di interesse]_ e _[!UICONTROL Percorsi account]_ sono state migliorate con la visualizzazione del conteggio totale accanto alla barra di ricerca. |
 
 ## Note sulla versione 2025.4 {#rel-2025-4}

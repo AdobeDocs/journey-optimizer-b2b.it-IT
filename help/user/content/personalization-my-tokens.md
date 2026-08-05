@@ -18,16 +18,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 605
+source-wordcount: 606
 ht-degree: 2%
 
 ---
 
 # Token personalizzati per la personalizzazione delle e-mail
 
-La personalizzazione del contenuto utilizza i token come segnaposto o variabili che vengono compilate al momento della generazione dell’artefatto di contenuto. I token di personalizzazione standard sono disponibili per e-mail, pagine di destinazione, frammenti e modelli. Puoi anche definire un set di token personalizzati con valori specifici per il percorso di conti. Questo set di token personalizzati si chiama _I miei token_ e uno qualsiasi di questi token personalizzati è destinato alla personalizzazione quando si creano [e-mail di percorso](./email-authoring.md#content-authoring---personalization).
+La personalizzazione del contenuto utilizza i token come segnaposto o variabili che vengono compilate al momento della generazione dell’artefatto di contenuto. I token di personalizzazione standard sono disponibili per e-mail, pagine di destinazione, frammenti e modelli. Puoi anche definire un set di token personalizzati con valori specifici per il percorso di conti. Questo set di token personalizzati si chiama _I miei token_ e uno qualsiasi di questi token personalizzati può essere utilizzato per la personalizzazione durante la [creazione di e-mail di percorso](./email-authoring.md#personalize-content).
 
 Oltre a _I miei token_, specifici del percorso di account, puoi utilizzare qualsiasi token standard (integrato) per la personalizzazione delle e-mail.
 
@@ -35,7 +35,7 @@ Oltre a _I miei token_, specifici del percorso di account, puoi utilizzare quals
 
 I _Token personali_ sono variabili personalizzate create o modificate per un percorso di account in stato Bozza. Questo set di token personalizzati supporta attualmente le definizioni di token di testo e numerici.
 
-Quando aggiungi un token personalizzato a un&#39;e-mail, questo viene visualizzato come `{{my.TokenName}}`. Ad esempio, potresti avere `{{my.EventDate}}` o `{{my.WebinarSpeaker}}` token creati per gestire il contenuto delle e-mail relative ai prossimi webinar.
+Quando aggiungi un token personalizzato a un&#39;e-mail, questo viene visualizzato come `{{my.TokenName}}`. Ad esempio, sono stati creati `{{my.EventDate}}` o `{{my.WebinarSpeaker}}` token per gestire il contenuto delle e-mail relative ai prossimi webinar.
 
 _Per accedere ai token personalizzati per un percorso di account :_
 
@@ -61,7 +61,7 @@ _Per accedere ai token personalizzati per un percorso di account :_
 
    ![Immettere un nome e un valore per il token di testo](./assets/my-tokens-create-text-token-dialog.png){width="400"}
 
-   Non è possibile utilizzare spazi o caratteri speciali nel nome del token. È possibile utilizzare _Camel Case_, ad esempio `EventType`, per utilizzare un nome composto da più parole facilmente identificabile.
+   Non è possibile utilizzare spazi o caratteri speciali nel nome del token. È possibile utilizzare Camel Case, ad esempio `EventType`, per utilizzare un nome composto da più parole facilmente identificabile.
 
    Se si definisce un token _Number_, il valore può contenere solo caratteri numerici. È possibile utilizzare un valore decimale.
 

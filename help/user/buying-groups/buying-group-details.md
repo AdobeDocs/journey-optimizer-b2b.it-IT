@@ -17,7 +17,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T21:46:01.279Z
 TQID: https://experienceleague.adobe.com/dxEYWXZyj5kiOAqjRj6TGUG5V43q8Wd-mPlLFbarq64
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 789
 ht-degree: 4%
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 # Dettagli del gruppo acquisti
 
-Quando si fa clic sul nome di un gruppo di acquisto in un punto qualsiasi di Journey Optimizer B2B edition, vengono visualizzati i relativi dettagli. Questa panoramica fornisce informazioni utili sul gruppo di acquisto, inclusi i riepiloghi generativi di IA. Sono inoltre disponibili [azioni](#buying-group-actions) che è possibile eseguire per i contatti associati all&#39;account.
+Quando si fa clic sul nome di un gruppo di acquisto in un punto qualsiasi di Journey Optimizer B2B edition, vengono visualizzati i relativi dettagli. Questa panoramica fornisce informazioni utili sul gruppo di acquisto, inclusi i riepiloghi generativi di IA. Sono inoltre disponibili [azioni](#members-tab) che è possibile eseguire per i contatti associati all&#39;account.
 
 ![Accedi ai dettagli del gruppo di acquisto](./assets/buying-group-details.png){width="800" zoomable="yes"}
 
@@ -67,7 +67,7 @@ La sezione Panoramica account include le seguenti informazioni sull&#39;account:
 
 ### Dati di intento
 
-In Journey Optimizer B2B edition, il modello di rilevamento intento (Intent Detection) prevede una soluzione o un prodotto di interesse con sufficiente affidabilità in base all’acquisto delle attività dei membri del gruppo. L’intento di acquistare i membri del gruppo può essere interpretato come la probabilità di avere un interesse in un prodotto.
+In Journey Optimizer B2B edition, il modello di rilevamento intento (Intent Detection) prevede una soluzione o un prodotto di interesse con sufficiente affidabilità in base all&#39;attività di acquisto dei membri del gruppo. L’intento di acquistare i membri del gruppo può essere interpretato come la probabilità di avere un interesse in un prodotto.
 
 {{intent-data-note}}
 
@@ -141,7 +141,7 @@ A un account possono essere associati uno o più gruppi di acquisto e i membri d
 
 ### Modifica ruolo
 
-Puoi cambiare il ruolo per uno o più membri selezionati (fino a 50 alla volta) del gruppo di acquisto.
+È possibile modificare il ruolo per uno o più membri selezionati (fino a 50 alla volta) del gruppo di acquisto.
 
 1. Selezionare le caselle di controllo relative ai membri che si desidera modificare i ruoli.
 

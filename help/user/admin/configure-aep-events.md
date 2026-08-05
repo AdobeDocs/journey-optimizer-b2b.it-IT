@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 0006aa457b010f30226ac9b0fd8d7c52fd9187e9
+source-git-commit: ecc3b7d5a63f67d7f29208278814d5abae969ea4
 workflow-type: tm+mt
 source-wordcount: 1632
 ht-degree: 10%
@@ -42,7 +42,7 @@ L’utilizzo di AEP Experience Events in percorsi è un processo in due fasi:
 
 1. In un percorso, un addetto al marketing utilizza gli eventi configurati in uno dei due modi seguenti:
 
-   * Aggiunge un nodo _Ascolta un evento_ e [seleziona un evento esperienza](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) per attivare la progressione del percorso in base all&#39;attività evento in tempo reale durante il percorso.
+   * Aggiunge un nodo _Ascolta un evento_ e [seleziona un evento esperienza](../journeys/listen-for-event-nodes.md#experience-events-account-people) per attivare la progressione del percorso in base all&#39;attività evento in tempo reale durante il percorso.
    * Aggiunge un nodo _Dividi percorsi per persone_ e configura un percorso per [filtrare su un evento](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) dalla cartella **[!UICONTROL Event history]**.
 
 >[!BEGINSHADEBOX]

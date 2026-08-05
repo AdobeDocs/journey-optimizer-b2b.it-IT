@@ -19,9 +19,9 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1358
+source-wordcount: 1339
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ Per visualizzare la descrizione di un elenco di account, fai clic sull&#39;icona
 
 Quando crei un elenco di conti, definisci un set di filtri per generare l’elenco. Ad esempio, puoi utilizzarlo per generare un elenco di account in cui il settore sanitario e i ricavi sono superiori a 100 milioni di dollari.
 
-1. Nella pagina _[!UICONTROL Elenchi account]_, fai clic su **[!UICONTROL Crea elenco account]** in alto a destra nella pagina.
+1. Nella pagina _[!UICONTROL Elenchi account]_, fai clic su **[!UICONTROL Crea elenco account]** in alto a destra della pagina.
 
    ![Fai clic su Crea elenco account](./assets/account-lists-create.png){width="700" zoomable="yes"}
 
@@ -87,25 +87,25 @@ Quando crei un elenco di conti, definisci un set di filtri per generare l’elen
 
 Per un elenco statico, puoi procedere alla pubblicazione dell’elenco degli account vuoto e aggiungere account tramite un percorso di account. Puoi anche aggiungere manualmente gli account applicando un set di filtri prima di pubblicarlo.
 
-Per un elenco di account dinamici, è necessario aggiungere il set di filtri che si desidera utilizzare per gestire l’elenco automaticamente prima di pubblicarlo.
+Per gestire automaticamente l’elenco per un elenco di account dinamici, aggiungi il set di filtri prima di pubblicarlo.
 
 >[!BEGINTABS]
 
 >[!TAB Elenco account statico]
 
-Dopo aver creato l’elenco degli account statici, puoi compilarlo applicando un set di filtri. Puoi anche applicare un set di filtri per aggiungere account a un elenco di account statici dopo la pubblicazione (_Live_).
+Dopo aver creato l’elenco degli account statici, puoi compilarlo applicando un set di filtri. Per aggiungere account a un elenco di account statico dopo la pubblicazione (_Live_), applica un set di filtri.
 
 >[!NOTE]
 >
->Se desideri che l’elenco degli account inizi come vuoto, non selezionare alcun filtro e pubblica semplicemente l’elenco degli account. È utile iniziare con un elenco vuoto quando si prevede di aggiungere membri tramite un&#39;azione di percorso dell&#39;account (vedere [Eseguire un&#39;azione - Aggiungi all&#39;account](#take-an-action-node---add-to-account)).
+>Se desideri che l’elenco degli account inizi come vuoto, non selezionare alcun filtro e pubblica l’elenco degli account. È utile iniziare con un elenco vuoto quando si prevede di aggiungere membri tramite un&#39;azione di percorso dell&#39;account (vedere [Eseguire un&#39;azione - Aggiungi all&#39;account](../journeys/action-nodes.md#account-action-constraints)).
 
-1. Selezionare **[!UICONTROL Aggiungi account]**.
+1. Fare clic su **[!UICONTROL Aggiungi account]**.
 
    ![Aggiungere un filtro account per compilare l&#39;elenco &#x200B;](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
 
    Puoi accedere a questa funzione nella pagina dell’elenco vuota o in alto a destra.
 
-1. Nella finestra di dialogo _[!UICONTROL Aggiungi account per filtro]_, utilizza il menu **[!UICONTROL Filtri account]** per aggiungere gli attributi e le attività che desideri utilizzare per creare il set di filtri:
+1. Nella finestra di dialogo _[!UICONTROL Aggiungi account per filtro]_, utilizza il menu **[!UICONTROL Filtri account]** per aggiungere gli attributi e le attività necessari per creare il set di filtri:
 
    I filtri sono nidificati in cartelle di categorie. Puoi espandere ogni cartella e scorrere gli elenchi dei filtri disponibili. In alternativa, utilizza lo strumento _Ricerca_ nella parte superiore per individuare il filtro necessario.
 
@@ -115,13 +115,13 @@ Dopo aver creato l’elenco degli account statici, puoi compilarlo applicando un
 
      ![Aggiungere filtri per popolare l&#39;elenco account &#x200B;](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
-   * Puoi ottimizzare le condizioni applicando la **[!UICONTROL logica di filtro]** nella parte superiore. Puoi scegliere di soddisfare tutte le condizioni dell’attributo o qualsiasi condizione.
+   * Puoi ottimizzare le condizioni applicando la **[!UICONTROL logica del filtro]** nella parte superiore. Puoi scegliere di soddisfare tutte le condizioni dell’attributo o qualsiasi condizione.
 
      ![Logica filtro elenco account](./assets/account-lists-filter-logic.png){width="450"}
 
 1. Al termine del set di filtri e della logica, fare clic su **[!UICONTROL Popola account]**.
 
-   Il processo di popolamento potrebbe richiedere un po’ di tempo, a seconda del numero di account da valutare e popolare (le dimensioni del database e i criteri di filtro selezionati). La compilazione degli account nell’elenco può richiedere fino a due ore.
+   Il processo di popolamento richiede tempo, a seconda del numero di account da valutare e popolare (le dimensioni del database e i criteri di filtro selezionati). La compilazione degli account nell’elenco può richiedere fino a due ore.
 
 Puoi procedere alla pubblicazione dell’elenco per renderlo disponibile per le azioni di aggiunta e rimozione in un percorso di account.
 
@@ -149,7 +149,7 @@ Dopo aver creato un elenco di account dinamici, puoi definire il set di filtri u
 
 1. Al termine del set di filtri e della logica, fare clic su **[!UICONTROL Fine]**.
 
-   Se si è soddisfatti del set di filtri, è possibile procedere alla [pubblicazione dell&#39;elenco](#publish-an-account-list) per renderlo disponibile per il [nodo di pubblico dell&#39;account](#account-audience-node) iniziale in un percorso di account.
+   Se si è soddisfatti del set di filtri, è possibile procedere alla [pubblicazione dell&#39;elenco](#publish-an-account-list) per renderlo disponibile per il [nodo di pubblico dell&#39;account](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node) iniziale in un percorso di account.
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ Puoi procedere alla pubblicazione di un elenco di account non appena il set di f
 
    ![Conferma pubblicazione per un elenco account statico](./assets/account-lists-static-publish-confirm.png){width="400"}
 
-Lo stato dell&#39;elenco account statico diventa _[!UICONTROL Live]_ ed è disponibile per [l&#39;utilizzo in un percorso di account](#account-list-usage-in-account-journeys).
+Lo stato dell&#39;elenco account statico diventa _[!UICONTROL Live]_ ed è disponibile per [l&#39;utilizzo in un percorso di account](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node).
 
 >[!TAB Elenco account dinamico]
 
@@ -189,7 +189,7 @@ Puoi procedere alla pubblicazione di un elenco di account dinamici non appena il
 
    ![Conferma pubblicazione per un elenco account dinamico](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
-Lo stato dell&#39;elenco degli account dinamici cambia in _[!UICONTROL Live]_ ed è disponibile per [l&#39;utilizzo in un percorso di account](#account-list-usage-in-account-journeys).
+Lo stato dell&#39;elenco degli account dinamici cambia in _[!UICONTROL Live]_ ed è disponibile per [l&#39;utilizzo in un percorso di account](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node).
 
 >[!ENDTABS]
 

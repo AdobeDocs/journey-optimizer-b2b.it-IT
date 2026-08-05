@@ -18,10 +18,10 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-03-30T19:50:18.033Z
 TQID: https://experienceleague.adobe.com/JvPzSX83WY7Edws8IMHseCSwqFR4Ro-jy-UO-WvRgDc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 585
-ht-degree: 92%
+source-wordcount: 600
+ht-degree: 74%
 
 ---
 
@@ -33,7 +33,7 @@ Ulteriori informazioni sui tipi di pubblico di account e su come definirli sono 
 
 ## Flusso di lavoro per pubblico di account
 
-Puoi considerare Journey Optimizer B2B Edition come una destinazione Experience Platform (AEP) che non viene visualizzata nel catalogo delle destinazioni. Attiva i tipi di pubblico di account in Journey Optimizer B2B Edition tramite i seguenti passaggi:
+Journey Optimizer B2B edition funziona come una destinazione Experience Platform (AEP) che non viene visualizzata nel catalogo delle destinazioni. Attiva i tipi di pubblico di account in Journey Optimizer B2B Edition tramite i seguenti passaggi:
 
 1. Crea schemi per i dati in AEP.
 1. Insersci i dati in AEP.
@@ -48,7 +48,7 @@ Journey Optimizer B2B Edition consente di creare un pubblico di account Adobe Ex
 
 ## Creare un pubblico di account
 
-Definisci il pubblico di account creando una segmentazione per account. Puoi creare la segmentazione dell’account direttamente nell’applicazione Journey Optimizer B2B Edition oppure utilizzando l’[interfaccia utente Generatore di segmenti](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. Di seguito sono riportati i passaggi che puoi utilizzare per creare una segmentazione dell’account in Journey Optimizer B2B Edition.
+Definisci il pubblico dell’account creando un segmento di account. Puoi creare il segmento dell&#39;account direttamente nell&#39;applicazione Journey Optimizer B2B edition oppure puoi utilizzare l&#39;[interfaccia utente Generatore di segmenti](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. Di seguito sono riportati i passaggi che è possibile utilizzare per creare un segmento di account in Journey Optimizer B2B edition.
 
 1. Nel menu di navigazione a sinistra, scegli **[!UICONTROL Account]** > **[!UICONTROL Tipi di pubblico]**.
 
@@ -56,7 +56,7 @@ Definisci il pubblico di account creando una segmentazione per account. Puoi cre
 
 1. Crea la definizione del segmento.
 
-   Gli attributi dell’account e i tipi di pubblico vengono visualizzati sulla barra di navigazione a sinistra. Nella scheda _[!UICONTROL Attributi]_ puoi aggiungere gli attributi personalizzati e quelli creati da Platform. Trascina ciascun attributo per creare la logica per il segmento.
+   Gli attributi dell’account e i tipi di pubblico vengono visualizzati sulla barra di navigazione a sinistra. Nella scheda _[!UICONTROL Attributi]_ puoi aggiungere gli attributi personalizzati e quelli creati da Platform. Per creare la logica per il segmento, trascina ogni attributo.
 
    >[!TIP]
    >
@@ -64,7 +64,7 @@ Definisci il pubblico di account creando una segmentazione per account. Puoi cre
    >
    >Nella scheda _[!UICONTROL Tipi di pubblico]_ è possibile aggiungere tipi di pubblico basati su persone creati in precedenza da cui puoi iniziare a creare un pubblico di account.
 
-   L’esempio seguente definisce il pubblico creato con `Country Code`, `Revenue Amount` e `Market segment`. La query in italiano sarebbe: “Forniscimi tutti gli account degli Stati Uniti presenti nel segmento Finanza e i cui ricavi superano 1 milione di euro.”
+   L&#39;esempio seguente definisce un pubblico creato con `Country Code`, `Revenue Amount` e `Market segment`. La query in inglese è, &quot;Voglio tutti i conti degli Stati Uniti nel segmento finanziario i cui ricavi superino 1 milione di dollari&quot;.
 
    ![esempio di generatore di segmenti di pubblico dell&#39;account](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
    <br/>
@@ -78,4 +78,4 @@ Definisci il pubblico di account creando una segmentazione per account. Puoi cre
 
 1. Fai clic su **[!UICONTROL Salva e chiudi]** in alto a destra.
 
-Per attivare il pubblico di account per Journey Optimizer B2B Edition, [aggiungilo a un percorso per account](../journeys/journeys-overview.md#add-the-account-audience-for-your-journey) e [pubblica il percorso](../journeys/journeys-overview.md).
+Per attivare il pubblico di account per Journey Optimizer B2B Edition, [aggiungilo a un percorso per account](../journeys/account-audience-nodes.md) e [pubblica il percorso](../journeys/journeys-overview.md).

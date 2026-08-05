@@ -17,9 +17,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:45:21.856Z
 TQID: https://experienceleague.adobe.com/sp2xFXNnYT5zOjsQC6R53SsGudsYmF8EYq4RIIzqYH0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 594
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ L&#39;handoff delle vendite comprende:
 * **Trasferimento dati**: il marketing identifica i dati di destinazione _ready_ e li rende accessibili alle vendite in formato CSV. 
 * **Accettazione vendite**: le vendite esaminano manualmente e incorporano _target pronti_ nella pipeline.
 
-Per accedere a questo dashboard, espandi **[!UICONTROL Account]** nel menu di navigazione a sinistra, quindi seleziona **[!UICONTROL Gruppi di acquisto]**. Selezionare la scheda **[!UICONTROL Panoramica]** se non è visualizzata per impostazione predefinita.
+Per accedere a questo dashboard, espandi **[!UICONTROL Account]** nel menu di navigazione a sinistra, quindi seleziona **[!UICONTROL Gruppi di acquisto]**. Selezionare la scheda **[!UICONTROL Panoramica]** se il sistema non la visualizza per impostazione predefinita.
 
 ![Panoramica sui gruppi di acquisto](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 <!--
@@ -51,7 +51,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ## Distribuzione del punteggio di completamento del gruppo acquisti
 
-Questa visualizzazione illustra la distribuzione dei gruppi di acquisto in base ai punteggi di completamento ed è suddivisa in quattro fasce di punteggio distinte. La figura centrale rappresenta il numero totale di gruppi di acquisto e fornisce un’istantanea rapida dello stato di avanzamento complessivo. I colori segmentati indicano la proporzione di gruppi di acquisto all’interno di ogni intervallo di punteggio, che consente di valutare le tendenze di completamento in modo immediato.
+Questa visualizzazione illustra la distribuzione dei gruppi di acquisto in base ai punteggi di completamento ed è suddivisa in quattro fasce di punteggio distinte. La figura centrale rappresenta il numero totale di gruppi di acquisto e fornisce un riepilogo dei progressi complessivi. I colori segmentati indicano la proporzione di gruppi di acquisto all’interno di ogni intervallo di punteggio, che consente di valutare le tendenze di completamento in modo immediato.
 
 Per visualizzare informazioni più dettagliate, fare clic sull&#39;icona del menu **...** in alto a destra.
 
@@ -84,7 +84,7 @@ Fai clic sull&#39;icona _Filtro_ ( ![Icona Filtro](../assets/do-not-localize/ico
 
 ![Filtra i dati visualizzati per attributi](./assets/buying-group-overview-filters.png){width="500"}
 
-Selezionare tutti i valori per ogni attributo che si desidera utilizzare per filtrare i dati e fare clic su **[!UICONTROL Applica]**.
+Selezionare tutti i valori per ogni attributo da utilizzare per filtrare i dati e fare clic su **[!UICONTROL Applica]**.
 
 ## Coinvolgi i dati
 
@@ -100,7 +100,7 @@ Vengono riportati i filtri globali applicati al dashboard. Fai clic sull&#39;ico
 
 Puoi fare clic su _Altro_ (**...**) menu in alto a destra e scegliere **[!UICONTROL Visualizza altro]** per [visualizzare dati estesi](#view-more).
 
-### [!UICONTROL Visualizza altro]
+### [!UICONTROL Visualizza altro] {#view-more}
 
 Scegli **[!UICONTROL Visualizza altro]** per visualizzare dati e approfondimenti estesi.
 
