@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: bce16a7b1230a14d8742688ffe3f0c9c2c70fa20
 workflow-type: tm+mt
-source-wordcount: 5351
-ht-degree: 64%
+source-wordcount: 5552
+ht-degree: 62%
 
 ---
 
@@ -32,13 +32,31 @@ Journey Optimizer B2B Edition è costruito nativamente su [!DNL Adobe Experience
 
 Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} per informazioni su diritti, guardrail delle prestazioni e limitazioni.
 
+## Note sulla versione 2026.8 {#rel-2026-8}
+
+**Data di distribuzione**: 14 agosto 2026
+
+| Tipo | Elemento | Descrizione |
+| ---- | ---- | ----------- |
+| Funzione | Elenchi di persone | Sono ora disponibili elenchi di persone statici e dinamici che consentono di eseguire il targeting dei profili in base a criteri definiti, ad esempio attributi demografici e cronologia degli eventi dell’esperienza. |
+| Funzione | _Percorsi suddivisi diversi_ nodi di percorso | (Precedentemente beta per percorsi di account) Gli addetti al marketing possono ora testare le varianti all’interno di un percorso di account o persone assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. |
+| Miglioramento | Rientro percorso - percorsi di persone | Il supporto per il reinserimento nel percorso è ora disponibile per i percorsi di persone. |
+| Miglioramento | Ascoltare i trigger di evento e i filtri - percorsi di account | Il supporto per più attivatori e filtri in un nodo _Ascolta evento_ è ora disponibile per i percorsi di account. |
+| Miglioramento | Nodi di percorsi suddivisi esterni - percorsi di persone | Il supporto per _percorsi di suddivisione esterni_ nodi è ora disponibile per i percorsi di persone. |
+| Miglioramento | Nodi azione esterna - percorsi di persone | Il supporto per i nodi _Azione esterna_ è ora disponibile per i percorsi di persone. |
+| Miglioramento | Set di dati delle relazioni di AEP | Ora vengono visualizzati nuovi set di dati relazionali nella sandbox di AEP, insieme ai set di dati esistenti. |
+
+>[!NOTE]
+>
+>Queste modifiche alla versione iniziano la distribuzione il 14 agosto 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
+
 ## Note sulla versione 2026.6 {#rel-2026-6}
 
 **Data di distribuzione**: 10 luglio 2026
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | _Dividi percorso_ nodi di percorso - Varianti | (Beta) Gli addetti al marketing possono ora testare le varianti all’interno di un percorso assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. [Ulteriori informazioni](../journeys/variant-split-paths-nodes.md) |
+| Funzione | _Percorsi di suddivisione varianti_ nodi di percorso - percorsi di account | (Beta) Gli addetti al marketing possono ora testare le varianti all’interno di un percorso assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. [Ulteriori informazioni](../journeys/variant-split-paths-nodes.md) |
 | Miglioramento | _Ascolta un evento_ nodi di percorso | Nei percorsi di persone, i nodi del listener di eventi possono ora essere configurati con più eventi da attivare. Il primo evento qualificante fa avanzare il record nel percorso. (Supporto pianificato nei percorsi di account per la prossima versione). [Ulteriori informazioni](../journeys/listen-for-event-nodes.md#person-journeys) |
 | Miglioramento | _Ascolta un evento_ nodi di percorso | La scheda _[!UICONTROL Filtri]_ per eventi persone/persone è stata modificata da un selettore di azione singola a un&#39;interfaccia del generatore di regole. Questo fornisce supporto per più configurazioni di attività utilizzando eventi di esperienza configurati. [Ulteriori informazioni](../journeys/listen-for-event-nodes.md#filters-people-event) |
 | Miglioramento | _Azione_ nodi di percorso | Sono ora disponibili azioni aggiuntive per il contesto persone del percorso account e da un percorso di persone: _Aggiungi al percorso di persone_ e _Rimuovi dal percorso di persone_. [Ulteriori informazioni](../journeys/action-nodes.md#people-actions) |
@@ -46,12 +64,6 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 >[!NOTE]
 >
 >Queste modifiche alla versione iniziano la distribuzione il 10 luglio 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
-
-<!-- 
-Add for 2026.8 release
-| Enhancement | External split path journey nodes - Person journeys | Support for external split path journey nodes is now available for person journeys. |
-| Enhancement | External action journey nodes - Person journeys | Support for external action journey nodes is now available for person journeys. |
--->
 
 ## Note sulla versione 2026.5 {#rel-2026-5}
 
@@ -165,7 +177,7 @@ Nell’interfaccia dell’assistente IA sono ora disponibili le seguenti funzion
 
 ### Architettura aggiornata
 
-Con l’architettura aggiornata, Journey Optimizer B2B edition e Marketo Engage non si trovano sullo stesso sistema e archivio dati. Journey Optimizer B2B edition riceve i dati da Adobe Experience Platform. Tuttavia, continua a fare affidamento su diritti di Marketo Engage e su alcune funzioni di configurazione per il provisioning e la configurazione del sistema.
+Con l’architettura aggiornata, Journey Optimizer B2B edition e Marketo Engage non si trovano più nello stesso sistema e nello stesso archivio dati. Journey Optimizer B2B edition riceve i dati da Adobe Experience Platform. Tuttavia, continua a fare affidamento su diritti di Marketo Engage e su alcune funzioni di configurazione per il provisioning e la configurazione del sistema.
 
 >[!NOTE]
 >
@@ -176,7 +188,7 @@ Questa implementazione offre diversi vantaggi:
 * **Unifica e scala facilmente i dati**: la piattaforma aggiornata supporta modelli di dati complessi, inclusi oggetti personalizzati, gruppi acquisti ed eventi account.
 * **Collega più istanze di Adobe Marketo Engage**: gestisci e unifica i dati da più ambienti Adobe Marketo Engage in un’unica posizione.
 * **Proteggi i tuoi dati**: le funzioni avanzate di privacy e sicurezza consentono di proteggere le informazioni della clientela.
-* **Progettato per la scalabilità a lungo termine**: questo aggiornamento imposta la tua organizzazione per miglioramenti continui e innovazione.
+* **Progettato per la scalabilità a lungo termine**: questo aggiornamento prepara la tua organizzazione a continui miglioramenti e innovazioni.
 
 >[!NOTE]
 >
