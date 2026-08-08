@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 1504
-ht-degree: 42%
+source-wordcount: 1312
+ht-degree: 46%
 
 ---
 
@@ -33,27 +33,9 @@ Journey Optimizer B2B edition supporta due tipi di percorso:
 
   ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo sul percorso di account](#overview-video)
 
-* **percorsi di persone** - (Beta) Orchestrazione di marketing basato su lead tramite dati e tipi di pubblico di Experience Platform. Con i percorsi di persone, le operazioni di marketing non si basano su Marketo Engage o rappresentano una soluzione alternativa per le catene di strumenti Adobe Campaign/B2C, in modo che possano supportare casi di utilizzo B2B.
+* **percorsi di persone** - Orchestrazione di marketing basato su lead tramite dati e tipi di pubblico di Experience Platform. Con i percorsi di persone, le operazioni di marketing non si basano su Marketo Engage o rappresentano una soluzione alternativa per le catene di strumenti Adobe Campaign/B2C, in modo che possano supportare casi di utilizzo B2B.
 
   Se utilizzato insieme a percorsi di account e gruppi di acquisto, un percorso di persone può fornire agli addetti al marketing la possibilità di applicare l’orchestrazione completa al percorso di acquisto.
-
-  +++Limitazioni attuali per i percorsi di persone
-
-  Esistono limitazioni che potrebbero bloccare alcuni casi d’uso o causare difficoltà nella creazione di percorsi di persone. Molti problemi sono il risultato dell’implementazione iniziale del programma beta, che sarà affrontata in futuro.
-
-  * Gli eventi non possono essere combinati con gli attributi di profilo per limitare le definizioni di pubblico.
-  * Il contesto dell’evento che qualifica un profilo per un percorso non può essere utilizzato per la personalizzazione o l’orchestrazione.
-  * Al momento i percorsi non possono avere sia un criterio di immissione evento che un criterio di immissione segmento profilo.
-  * I listener di eventi non possono ascoltare più eventi.
-  * Al momento i nodi di attesa non dispongono di una suite completa di opzioni per i criteri di uscita relativi al giorno della settimana o all’ora del giorno.
-  * L’editor e-mail fa erroneamente riferimento a funzionalità e attributi disponibili solo per i Percorsi di account
-  * Il supporto per i token di percorso personalizzati (_I miei token_) non è ancora disponibile.
-  * Aggiungi e rimuovi da nodi del percorso di persone non è attualmente disponibile da nessuno dei tipi di percorso.
-  * Impossibile utilizzare la cronologia eventi per l&#39;orchestrazione o la personalizzazione.
-  * Gli oggetti correlati (account, gruppo di acquisto, opportunità e oggetti personalizzati) non possono essere utilizzati per l’orchestrazione o la personalizzazione.
-  * I canali web, SMS e della piattaforma di annunci non sono attualmente supportati.
-
-  +++
 
 ## Introduzione a un percorso
 
@@ -75,9 +57,7 @@ Immetti il testo nello strumento _Ricerca_ nella parte superiore dell’elenco p
 
 ![Filtrare l’elenco dei percorsi account](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
->[!TAB percorsi di persone (Beta)]
-
-[!BADGE Beta]{type=Informative tooltip="Disponibile come funzione beta"}
+>[!TAB percorsi di persone]
 
 Nella barra di navigazione a sinistra, espandi **[!UICONTROL Gestione Percorsi]** e fai clic su **[!UICONTROL percorsi di persone]**.
 
@@ -194,7 +174,7 @@ Un’azione di duplicazione è simile a una funzione di clonazione, ma un percor
 
    * **[!UICONTROL Duplicazione parziale del contenuto]**: utilizza questo tipo per copiare tutto ciò che si trova nel percorso, esclusi i messaggi e-mail o SMS creati. I nodi che fanno riferimento a un messaggio e-mail o SMS di Marketo Engage rimangono completamente intatti.
 
-   * **[!UICONTROL Duplica senza dettagli]** - Utilizzare questo tipo per copiare solo la struttura e i percorsi dei nodi. Tutte le impostazioni del nodo e le condizioni del percorso non sono definite (impostazione predefinita), pertanto puoi riutilizzare il flusso di base con diverse impostazioni di pubblico, azioni e segmentazione del percorso. Tutti i nodi _Attendi_ utilizzano il valore predefinito di cinque giorni.
+   * **[!UICONTROL Duplica senza dettagli]** - Utilizzare questo tipo per copiare solo la struttura e i percorsi dei nodi. Tutte le impostazioni del nodo e le condizioni del percorso non sono definite (impostazione predefinita), pertanto puoi utilizzare nuovamente il flusso di base con tipi di pubblico, azioni e impostazioni di segmentazione del percorso diversi. Tutti i nodi _Attendi_ utilizzano il valore predefinito di cinque giorni.
 
 1. Fai clic su **[!UICONTROL Duplica]**.
 
