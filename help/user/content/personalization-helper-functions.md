@@ -26,7 +26,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 4902
+source-wordcount: 4937
 ht-degree: 6%
 
 ---
@@ -1158,7 +1158,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfDay {#truncate-day}
 
-Utilizzare la funzione `truncateToStartOfDay` per modificare una data/ora specificata impostandola all&#39;inizio del giorno con ora 00:00.
+Utilizzare la funzione `truncateToStartOfDay` per modificare una data/ora specificata impostandola sull&#39;inizio del giorno con l&#39;ora alle 00:00.
 
 +++Sintassi
 
