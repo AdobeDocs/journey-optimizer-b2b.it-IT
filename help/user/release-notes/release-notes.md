@@ -3,21 +3,14 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+source-git-commit: aa687e409812e70b80c366b7c9bb0274a7a179f7
 workflow-type: tm+mt
 source-wordcount: 5580
 ht-degree: 62%
@@ -40,7 +33,7 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | ---- | ---- | ----------- |
 | Funzione | Percorsi di persone | (In precedenza Beta, distribuzione anticipata per la disponibilità generale) Ora puoi creare percorsi per orchestrare attività di marketing basate sui lead utilizzando i dati e i tipi di pubblico di Experience Platform. [Ulteriori informazioni](../journeys/journeys-overview.md) |
 | Funzione | Elenchi di persone | Sono ora disponibili elenchi di persone statici e dinamici che consentono di eseguire il targeting dei profili in base a criteri definiti, ad esempio attributi demografici e cronologia degli eventi dell’esperienza. |
-| Funzione | _Percorsi suddivisi diversi_ nodi di percorso | (In precedenza Beta per percorsi di account) Gli addetti al marketing ora possono testare le varianti all’interno di un percorso di account o persone assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. |
+| Funzione | _Percorsi suddivisi varianti_ nodi percorso | (In precedenza Beta per percorsi di account) Gli addetti al marketing ora possono testare le varianti all’interno di un percorso di account o persone assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. |
 | Miglioramento | Rientro percorso - percorsi di persone | Il supporto per il reinserimento nel percorso è ora disponibile per i percorsi di persone. |
 | Miglioramento | Ascoltare i trigger di evento e i filtri - percorsi di account | Il supporto per più attivatori e filtri in un nodo _Ascolta evento_ è ora disponibile per i percorsi di account. |
 | Miglioramento | Nodi di percorsi suddivisi esterni - percorsi di persone | Il supporto per _percorsi di suddivisione esterni_ nodi è ora disponibile per i percorsi di persone. |
