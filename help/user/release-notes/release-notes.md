@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: aa687e409812e70b80c366b7c9bb0274a7a179f7
+source-git-commit: 969f071ea3f01251cc16fe68584089a7588ba20e
 workflow-type: tm+mt
-source-wordcount: 5580
+source-wordcount: 5599
 ht-degree: 62%
 
 ---
@@ -39,13 +39,14 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
 | Funzione | Percorsi di persone | (In precedenza Beta, distribuzione anticipata per la disponibilità generale) Ora puoi creare percorsi per orchestrare attività di marketing basate sui lead utilizzando i dati e i tipi di pubblico di Experience Platform. [Ulteriori informazioni](../journeys/journeys-overview.md) |
-| Funzione | Elenchi di persone | Sono ora disponibili elenchi di persone statici e dinamici che consentono di eseguire il targeting dei profili in base a criteri definiti, ad esempio attributi demografici e cronologia degli eventi dell’esperienza. |
-| Funzione | _Percorsi suddivisi varianti_ nodi percorso | (In precedenza Beta per percorsi di account) Gli addetti al marketing ora possono testare le varianti all’interno di un percorso di account o persone assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. |
+| Funzione | Elenchi di persone | Sono ora disponibili elenchi di persone statiche e dinamiche per eseguire il targeting dei profili in base a criteri definiti, come gli attributi demografici e la cronologia degli eventi dell’esperienza. |
+| Funzione | _Percorsi suddivisi varianti_ nodi percorso | (In precedenza Beta per percorsi di account) Gli addetti al marketing ora possono testare le varianti all’interno di un percorso di account o persone assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. [Ulteriori informazioni](../journeys/variant-split-paths-nodes.md) |
 | Miglioramento | Rientro percorso - percorsi di persone | Il supporto per il reinserimento nel percorso è ora disponibile per i percorsi di persone. |
 | Miglioramento | Ascoltare i trigger di evento e i filtri - percorsi di account | Il supporto per più attivatori e filtri in un nodo _Ascolta evento_ è ora disponibile per i percorsi di account. |
 | Miglioramento | Nodi di percorsi suddivisi esterni - percorsi di persone | Il supporto per _percorsi di suddivisione esterni_ nodi è ora disponibile per i percorsi di persone. |
 | Miglioramento | Nodi azione esterna - percorsi di persone | Il supporto per i nodi _Azione esterna_ è ora disponibile per i percorsi di persone. |
-| Miglioramento | Set di dati delle relazioni di AEP | Ora vengono visualizzati nuovi set di dati relazionali nella sandbox di AEP, insieme ai set di dati esistenti. |
+| Miglioramento | Set di dati relazionali di AEP | Ora vengono visualizzati nuovi set di dati relazionali nella sandbox di AEP, insieme ai set di dati esistenti. |
+| Miglioramento | Autorizzazioni prodotto - Canale WhatsApp | Gli amministratori di prodotto ora possono impostare le autorizzazioni `Manage B2B WhatsApp Settings` e `Manage B2B WhatsApp Presets` per _[!UICONTROL Configurazioni canale B2B]_. |
 
 >[!NOTE]
 >

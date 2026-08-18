@@ -16,10 +16,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:47:43.575Z
 TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 171518509dc161d236663cde399b3fcc02408f18
 workflow-type: tm+mt
-source-wordcount: 2267
-ht-degree: 81%
+source-wordcount: 2348
+ht-degree: 77%
 
 ---
 
@@ -177,11 +177,11 @@ Le seguenti autorizzazioni regolano l’accesso alle funzionalità di Journey Op
 | -------- | ----------- | ---------- |
 | Elenchi di account B2B | Configurare, gestire, visualizzare e pubblicare le autorizzazioni per gli elenchi di account B2B. Queste autorizzazioni includono azioni quali l’aggiunta, la rimozione, l’importazione e l’eliminazione di account dagli elenchi degli account. | <li>Gestire gli elenchi di account B2B |
 | Configurazioni amministratore B2B | Configurare, gestire e visualizzare le autorizzazioni per le configurazioni amministrative B2B. Queste autorizzazioni includono connessioni per la gestione delle risorse digitali, archivi di risorse ed eventi. | <li>Gestire le configurazioni dell’amministratore B2B |
-| Assets B2B | Configurare, gestire e visualizzare le autorizzazioni per le risorse B2B. Queste autorizzazioni includono e-mail, SMS, pagine di destinazione, frammenti, modelli e immagini. | <li>Gestire Assets B2B <li>Gestire modelli B2B <li>Gestire i frammenti B2B <li>Gestire le e-mail B2B |
+| Assets B2B | Configurare, gestire e visualizzare le autorizzazioni per le risorse B2B. Queste autorizzazioni includono e-mail, pagine di destinazione, moduli, frammenti, modelli e immagini. | <li>Gestire Assets B2B <li>Gestire modelli B2B <li>Gestire i frammenti B2B <li>Gestire le e-mail B2B <li>Visualizza modelli B2B <li>Visualizzare frammenti B2B <li>Pubblicare frammenti B2B <li>Visualizza Assets B2B <li>Visualizza e-mail B2B <li>Gestione esportazione messaggi B2B <li>Visualizza pagina di destinazione B2B <li>Gestisci pagina di destinazione B2B <li>Pubblica pagina di destinazione B2B <li>Visualizza Forms B2B <li>Gestire il Forms B2B <li>Pubblicare Forms B2B |
 | Gruppi di acquisto B2B | Configurare, gestire e visualizzare le autorizzazioni per i gruppi di acquisto B2B. Queste autorizzazioni includono gli interessi della soluzione, i modelli di ruoli e lo stato del gruppo di acquisto. | <li>Gestire i gruppi di acquisto B2B <li>Gestire gli interessi delle soluzioni B2B <li>Gestire i modelli di ruolo B2B <li>Gestire gli stadi B2B <li>Visualizza gruppi di acquisto B2B |
-| Configurazioni del canale B2B | Configurare, gestire e visualizzare le autorizzazioni per le configurazioni del canale B2B. Queste autorizzazioni includono le impostazioni relative ai limiti di comunicazione, alle credenziali API e alle impostazioni di sicurezza. | <li>Gestione configurazioni canali B2B |
+| Configurazioni del canale B2B | Configurare, gestire e visualizzare le autorizzazioni per le configurazioni del canale B2B. Queste autorizzazioni includono le impostazioni relative ai limiti di comunicazione, alle credenziali API e alle impostazioni di sicurezza. | <li>Gestione configurazioni canali B2B <li>Visualizza impostazioni e-mail B2B <li>Gestione impostazioni e-mail B2B <li>Gestire i predefiniti WhatsApp B2B <li>Gestione impostazioni pagina di destinazione B2B <li>Visualizza predefinito Forms B2B <li>Gestire il predefinito per Forms B2B <li>Pubblica predefinito Forms B2B <li>Creare esperienze web B2B <li>Gestione impostazioni WhatsApp B2B |
 | Dashboard B2B | Configurare e visualizzare le autorizzazioni per le dashboard B2B. Queste autorizzazioni includono coinvolgimento dell’account, fasi del gruppo di acquisto, account in crescita e copertura dei contatti. | <li>Visualizza dashboard di coinvolgimento B2B |
-| Percorsi B2B | Configurare, gestire, visualizzare e pubblicare le autorizzazioni per i percorsi B2B. Queste autorizzazioni includono azioni per account e persona, listener di eventi e percorsi di suddivisione. | <li>Gestire Percorsi di account B2B |
+| Percorsi B2B | Configurare, gestire, visualizzare e pubblicare le autorizzazioni per i percorsi B2B. Queste autorizzazioni includono azioni per account e persona, listener di eventi e percorsi di suddivisione. | <li>Gestire Percorsi di account B2B <li>Gestire Percorsi di persone B2B |
 | Regole Journey Optimizer | Accedere e configurare le regole di frequenza (limiti di comunicazione). Queste autorizzazioni devono essere limitate agli amministratori di prodotto. | <li>Visualizza regole di frequenza <li>Gestisci regole di frequenza |
 
 ### Ruoli incorporati B2B {#b2b-built-in-roles}
@@ -306,12 +306,12 @@ Per informazioni sulla gestione degli utenti, vedi [_Utenti Adobe Admin Console_
    * Nell&#39;elenco _[!UICONTROL Risorse]_ a sinistra, individuare l&#39;elemento **[!UICONTROL Gestione profili]** e fare clic sull&#39;icona _Aggiungi_ (**+**) per aggiungere l&#39;attributo.
 
    * Per l’attributo, aggiungi le seguenti autorizzazioni:
-      * [!UICONTROL Visualizza segmenti]
-      * [!UICONTROL Gestisci segmenti]
-      * [!UICONTROL Visualizza profili]
-      * [!UICONTROL Gestisci profili]
-      * [!UICONTROL Visualizza profilo B2B]
-      * [!UICONTROL Gestisci profilo B2B]
+     * [!UICONTROL Visualizza segmenti]
+     * [!UICONTROL Gestisci segmenti]
+     * [!UICONTROL Visualizza profili]
+     * [!UICONTROL Gestisci profili]
+     * [!UICONTROL Visualizza profilo B2B]
+     * [!UICONTROL Gestisci profilo B2B]
 
    ![Experience Platform - aggiungi profili per il nuovo ruolo](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
 
