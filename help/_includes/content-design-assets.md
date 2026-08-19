@@ -1,9 +1,9 @@
 ---
 title: Authoring dei contenuti - risorse
 description: Sezione riutilizzata sull’utilizzo delle risorse per l’authoring dei contenuti
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '197'
 ht-degree: 4%
 
 ---
@@ -24,4 +24,4 @@ Nell&#39;editor del contenuto visivo, seleziona l&#39;icona _Assets_ ( ![icona A
 
   ![Seleziona una risorsa dalla libreria di origine](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
 
-Per ulteriori informazioni sull&#39;utilizzo delle risorse del tipo di origine, vedere [Utilizzare le risorse per l&#39;authoring dei contenuti](../user/content/assets-overview.md#use-assets-for-content-authoring).
+Per ulteriori informazioni sull&#39;utilizzo delle risorse del tipo di origine, vedere [Utilizzare le risorse per l&#39;authoring dei contenuti](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring).

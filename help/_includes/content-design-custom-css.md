@@ -1,9 +1,9 @@
 ---
 title: Authoring dei contenuti - CSS personalizzato
 description: Sezione riutilizzata sull’utilizzo di CSS personalizzati per l’authoring dei contenuti
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 1. Immetti il codice CSS nell’editor.
 
-   Assicurati che il CSS personalizzato sia valido e segua la sintassi corretta. Se il CSS immesso non è valido, viene visualizzato un messaggio di errore e non è possibile salvarlo. Per ulteriori informazioni, consulta [Validità CSS](../user/content/design-custom-css.md#css-validity).
+   Assicurati che il CSS personalizzato sia valido e segua la sintassi corretta. Se il CSS immesso non è valido, viene visualizzato un messaggio di errore e non è possibile salvarlo. Per ulteriori informazioni, consulta [Validità CSS](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#css-validity).
 
 1. Fai clic su **[!UICONTROL Salva]** per salvare il file CSS personalizzato.
 
-   Il foglio di stile personalizzato viene applicato al contenuto esistente. Puoi verificare che il CSS personalizzato sia applicato in base alle tue esigenze. Per informazioni su come apportare modifiche e regolare l&#39;applicazione del foglio di stile, vedere [Risoluzione dei problemi](../user/content/design-custom-css.md#troubleshooting).
+   Il foglio di stile personalizzato viene applicato al contenuto esistente. Puoi verificare che il CSS personalizzato sia applicato in base alle tue esigenze. Per informazioni su come apportare modifiche e regolare l&#39;applicazione del foglio di stile, vedere [Risoluzione dei problemi](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#troubleshooting).
 
 >[!NOTE]
 >
