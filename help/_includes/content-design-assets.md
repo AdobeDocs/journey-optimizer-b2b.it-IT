@@ -24,4 +24,4 @@ Nell&#39;editor del contenuto visivo, seleziona l&#39;icona _Assets_ ( ![icona A
 
   ![Seleziona una risorsa dalla libreria di origine](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
 
-Per ulteriori informazioni sull&#39;utilizzo delle risorse del tipo di origine, vedere [Utilizzare le risorse per l&#39;authoring dei contenuti](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring).
+Per ulteriori informazioni sull&#39;utilizzo delle risorse del tipo di origine, vedere [Utilizzare le risorse per l&#39;authoring dei contenuti](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring).
