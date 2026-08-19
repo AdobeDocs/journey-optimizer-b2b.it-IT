@@ -2,7 +2,7 @@
 user-guide-title: Documentazione di Journey Optimizer B2B Prime
 user-guide-description: Scopri Adobe Journey Optimizer B2B Prime e come utilizzarlo per ?.
 hide: true
-source-git-commit: e009878c46054b6df033ced369423b32cdaa89cf
+source-git-commit: dd969d66eab5649ccb19fe6582dafe0b7304772c
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 54%
@@ -56,7 +56,7 @@ ht-degree: 54%
 + Contenuti {#content}
   + Risorse {#assets}
     + [Panoramica](./content/digital-asset-management.md)
-    + [Content Credentials](./content/content-credentials.md)
+    + [Metadati C2PA](./content/c2pa-metadata.md)
   + Modelli {#templates}
     + [Panoramica](./content/templates.md)
     + [Creare modelli](./content/templates-create.md)

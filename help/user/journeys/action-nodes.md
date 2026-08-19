@@ -17,16 +17,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
+source-git-commit: a37c860da398e8e3d00c0bc515f5d4b38a626518
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: 2319
 ht-degree: 3%
 
 ---
 
 # Intraprendere un’azione
 
-Per eseguire un&#39;azione, ad esempio l&#39;invio di un&#39;e-mail, la modifica di un punteggio, l&#39;assegnazione a un gruppo di acquisto e così via, è possibile aggiungere un nodo _[!UICONTROL Esegui un&#39;azione]_ nel percorso. Le azioni sono in genere ciò che desideri che accada come risultato di un qualche tipo di trigger, ad esempio un evento o un’azione precedente.
+Per eseguire un&#39;azione, ad esempio l&#39;invio di un&#39;e-mail, la modifica di un punteggio o l&#39;assegnazione a un gruppo di acquisto, puoi aggiungere un nodo _[!UICONTROL Esegui un&#39;azione]_ nel percorso. Le azioni sono in genere ciò che desideri che accada come risultato di un qualche tipo di trigger, ad esempio un evento o un’azione precedente.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
@@ -42,6 +42,7 @@ In un percorso di account, utilizza un’azione sugli account quando desideri ap
 | [!UICONTROL Attiva nella destinazione] | Seleziona una destinazione |
 | [!UICONTROL Aggiungi account a (altro) Percorso] | Seleziona percorso di account live |
 | [!UICONTROL Aggiungi all&#39;elenco account] | Seleziona elenco account statico live |
+| [!UICONTROL Disattiva dalla destinazione] | Seleziona pubblico virtuale esistente<br/>Seleziona destinazione |
 | [!UICONTROL Rimuovi account dal Percorso] | Seleziona percorso di account live |
 | [!UICONTROL Rimuovi dall&#39;elenco account] | Seleziona un elenco di account statici attivi |
 | [!UICONTROL Invia avviso vendite] | Seleziona interesse soluzione<br/>Invia e-mail a |
@@ -71,13 +72,19 @@ In un percorso di account, utilizza un’azione sugli account quando desideri ap
 
 >[!BEGINSHADEBOX]
 
-### Attiva in una destinazione LinkedIn
+### Attiva o disattiva da una destinazione {#activate-deactivate-destination}
 
 Utilizza l&#39;azione _Attiva nella destinazione_ per attivare gli account nelle destinazioni di Experience Platform direttamente dal percorso. Questa azione ti consente di inviare account qualificati (in base ai filtri dei gruppi di acquisto, ai punteggi di coinvolgimento e ad altri criteri) ai tipi di pubblico corrispondenti sulle destinazioni supportate.
 
-A partire dalla versione 2025.10, **_LinkedIn_** è il primo tipo di destinazione supportato. Utilizza l’azione per una destinazione LinkedIn per semplificare l’esecuzione della campagna eliminando gli handoff tra più sistemi e riducendo la latenza. Ad esempio, in qualità di esperto di marketing, puoi attivare automaticamente account con intenti elevati in LinkedIn per il retargeting quando mancano ruoli di acquisto chiave oppure puoi coinvolgere nuovamente account inattivi basati su filtri di inattività.
+È possibile associare questa azione all&#39;azione _Disattiva dalla destinazione_ più tardi nello stesso percorso per interrompere il targeting degli account dopo la conversione o la cessazione del targeting.
 
-Per ulteriori informazioni sull&#39;utilizzo di tipi di pubblico con corrispondenza account per una destinazione LinkedIn, vedere [Tipi di pubblico con corrispondenza account LinkedIn](../data/linkedin-account-matched-audiences.md).
+>[!NOTE]
+>
+>A partire dalla versione 2025.10, **_LinkedIn_** è il primo tipo di destinazione supportato. Utilizza l’azione per una destinazione LinkedIn per semplificare l’esecuzione della campagna eliminando gli handoff tra più sistemi e riducendo la latenza. Ad esempio, in qualità di esperto di marketing, puoi attivare automaticamente account con intenti elevati in LinkedIn per il retargeting quando mancano ruoli di acquisto chiave oppure puoi coinvolgere nuovamente account inattivi basati su filtri di inattività.
+>
+>Per ulteriori informazioni sull&#39;utilizzo di tipi di pubblico con corrispondenza account per una destinazione LinkedIn, vedere [Tipi di pubblico con corrispondenza account LinkedIn](../data/linkedin-account-matched-audiences.md).
+
+_Per aggiungere un&#39;attivazione al nodo di destinazione :_
 
 1. Con il nodo _Esegui un&#39;azione_ selezionato nell&#39;area di lavoro del percorso, impostare **[!UICONTROL Azione sugli account]** su **[!UICONTROL Attiva nella destinazione]**.
 
@@ -93,11 +100,23 @@ Per ulteriori informazioni sull&#39;utilizzo di tipi di pubblico con corrisponde
 
    ![nodo Percorso - azione sugli account - attivazione alla destinazione - impostazioni completate](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
+_Per aggiungere una disattivazione dal nodo di destinazione :_
+
+1. Con il nodo _Esegui un&#39;azione_ selezionato nell&#39;area di lavoro del percorso, impostare **[!UICONTROL Azione sugli account]** su **[!UICONTROL Disattiva dalla destinazione]**.
+
+   ![nodo Percorso - eseguire un&#39;azione sugli account - disattivare dal menu di destinazione](./assets/node-deactivate-destination-menu.png){width="500" zoomable="yes"}
+
+1. In **[!UICONTROL Pubblico virtuale]**, fai clic su **[!UICONTROL Seleziona pubblico virtuale esistente]** e scegli il pubblico virtuale di cui vuoi rimuovere gli account dalla destinazione.
+
+1. In **[!UICONTROL Disattiva dalla destinazione]**, fai clic su **[!UICONTROL Seleziona la destinazione]** e scegli la destinazione da cui rimuovere gli account.
+
+   Dopo aver configurato il nodo _Disattiva dalla destinazione_, vengono visualizzati il pubblico virtuale e la destinazione selezionati.
+
 >[!ENDSHADEBOX]
 
 ## Azioni persone {#people-actions}
 
-In un percorso di account o persone, utilizza un’azione sulle persone quando desideri applicare una modifica a tutte le persone nel percorso del nodo. Per un percorso di account, puoi utilizzare questo tipo di nodo all&#39;interno del percorso _split da persone_ o _split path da account_.
+In un percorso di account o persone, utilizza un’azione sulle persone quando desideri applicare una modifica a tutte le persone nel percorso del nodo. Per un percorso di account, è possibile utilizzare questo tipo di nodo all&#39;interno del percorso _split da persone_ o _split path da account_ nodi.
 
 ### Azioni e vincoli {#people-action-constraints}
 
@@ -287,7 +306,7 @@ Utilizzare questa azione per modificare il valore di un attributo del profilo [p
 
 >[!NOTE]
 >
->L&#39;azione _[!UICONTROL Modifica valore dati]_ nella versione corrente di Journey Optimizer B2B edition è sostituita dall&#39;azione _[!UICONTROL Aggiorna profilo persona]_.<br/>
+>L&#39;azione _[!UICONTROL Aggiorna profilo persona]_ sostituisce l&#39;azione _[!UICONTROL Modifica valore dati]_ nella versione corrente di Journey Optimizer B2B edition.<br/>
 >
 >Un amministratore può configurare gli attributi disponibili per il profilo individuale XDM aggiornando i campi nelle _[!UICONTROL configurazioni XDM]_ > [!UICONTROL classi standard]. Per ulteriori informazioni, vedere [Schemi standard](../admin/xdm-field-management.md#standard-schemas).
 
@@ -295,7 +314,7 @@ Utilizzare questa azione per modificare il valore di un attributo del profilo [p
 
 ### Azioni Marketo Engage
 
-Le azioni basate sulle persone di Marketo Engage sono progettate per coordinare l’orchestrazione marketing basata sull’account in Journey Optimizer B2B edition con le attività di marketing basate sui lead in Marketo Engage. Utilizza queste azioni per orchestrare l’iscrizione all’elenco e richiedere campagne.
+Le azioni basate sulle persone [!DNL Marketo Engage] sono progettate per coordinare l&#39;orchestrazione Account-Based Marketing in [!DNL Journey Optimizer B2B Edition] con le attività di marketing basate sui lead in Marketo Engage. Utilizza queste azioni per orchestrare l’iscrizione all’elenco e richiedere campagne.
 
 >[!NOTE]
 >
