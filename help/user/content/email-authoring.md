@@ -17,7 +17,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
 source-wordcount: 1380
 ht-degree: 4%
@@ -34,7 +34,7 @@ Fai clic su **[!UICONTROL Modifica contenuto e-mail]** nella scheda _[!UICONTROL
 
 Questa azione avvia gli strumenti di progettazione delle e-mail, in cui puoi scegliere come progettare le e-mail dalle seguenti opzioni:
 
-* [Progetta il tuo messaggio e-mail da zero](#design-your-email-from-scratch) utilizzando l&#39;interfaccia di progettazione visiva.
+* [Progetta il tuo messaggio e-mail da zero](#design-from-scratch) utilizzando l&#39;interfaccia di progettazione visiva.
 
 * [Importa contenuto HTML esistente](#import-existing-html-content) da un file o da una cartella .zip.
 
@@ -62,7 +62,7 @@ Utilizza lo spazio di progettazione del contenuto visivo per definire la struttu
 
 1. [Rivedi e aggiorna i collegamenti](#edit-linked-url-tracking).
 
-1. [Verifica e-mail](#check-and-test-the-email).
+1. [Verifica e-mail](#email-testing).
 
 <!--
  If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.

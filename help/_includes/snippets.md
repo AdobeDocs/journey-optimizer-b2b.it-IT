@@ -1,10 +1,10 @@
 ---
 title: Snippet
 description: Riutilizzo di note ed elementi visivi per annotare una funzione o una pagina applicata a una specifica edizione
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '2355'
-ht-degree: 3%
+source-wordcount: '2430'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 3%
 >[!NOTE]
 >
 >Le licenze per AEM Assets as a Cloud Service e Dynamic Media sono prerequisiti per l’integrazione. Verificare che [Dynamic Media con API aperta](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} sia abilitato. L&#39;integrazione è limitata agli archivi dal _livello di consegna_. Se si utilizza il _livello di creazione_ e si desidera convertirlo, contattare il supporto tecnico Adobe Experience Manager.<br/>
->A seconda del contratto e della configurazione, è possibile accedere ad Adobe Experience Manager Assets as a Cloud Service direttamente da Adobe Journey Optimizer B2B edition durante la progettazione di contenuti visivi.
+>A seconda del contratto e della configurazione, è possibile accedere a Adobe Experience Manager Assets as a Cloud Service direttamente da Adobe Journey Optimizer B2B edition durante la progettazione di contenuti visivi.
 
 ## Passaggio Authoring dei contenuti - componenti - strutture {#structures-step}
 
@@ -231,7 +231,7 @@ Sono disponibili alcuni strumenti per individuare la risorsa di cui hai bisogno:
 
 ## Contenuto - Selezione immagine - AEM Assets {#aem-assets-dam}
 
-Scegli questo tipo per sfogliare e selezionare una risorsa immagine da un [archivio Experience Manager Assets configurato](../user/admin/configure-aem-repositories.md).
+Scegli questo tipo per sfogliare e selezionare una risorsa immagine da un [archivio Experience Manager Assets configurato](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories).
 
 Nella finestra di dialogo _[!UICONTROL Seleziona Assets]_, scegli un&#39;immagine utilizzando gli strumenti disponibili per individuare la risorsa necessaria e fai clic su **[!UICONTROL Seleziona]**.:
 
