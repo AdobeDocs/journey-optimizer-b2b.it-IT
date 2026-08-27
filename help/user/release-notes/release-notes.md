@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 969f071ea3f01251cc16fe68584089a7588ba20e
+source-git-commit: ac5a40546e91c20de9e9beacacd5a0079e11dc6b
 workflow-type: tm+mt
-source-wordcount: 5599
-ht-degree: 62%
+source-wordcount: 5628
+ht-degree: 61%
 
 ---
 
@@ -41,6 +41,7 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | Funzione | Percorsi di persone | (In precedenza Beta, distribuzione anticipata per la disponibilità generale) Ora puoi creare percorsi per orchestrare attività di marketing basate sui lead utilizzando i dati e i tipi di pubblico di Experience Platform. [Ulteriori informazioni](../journeys/journeys-overview.md) |
 | Funzione | Elenchi di persone | Sono ora disponibili elenchi di persone statiche e dinamiche per eseguire il targeting dei profili in base a criteri definiti, come gli attributi demografici e la cronologia degli eventi dell’esperienza. |
 | Funzione | _Percorsi suddivisi varianti_ nodi percorso | (In precedenza Beta per percorsi di account) Gli addetti al marketing ora possono testare le varianti all’interno di un percorso di account o persone assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. [Ulteriori informazioni](../journeys/variant-split-paths-nodes.md) |
+| Funzione | Metadati C2PA | Le immagini generate o modificate con strumenti di intelligenza artificiale generativi ora sono firmate automaticamente con i metadati C2PA, aiutandoti a soddisfare i requisiti di trasparenza dei contenuti e divulgazione di intelligenza artificiale. [Ulteriori informazioni](../content/c2pa-metadata.md) |
 | Miglioramento | Rientro percorso - percorsi di persone | Il supporto per il reinserimento nel percorso è ora disponibile per i percorsi di persone. |
 | Miglioramento | Ascoltare i trigger di evento e i filtri - percorsi di account | Il supporto per più attivatori e filtri in un nodo _Ascolta evento_ è ora disponibile per i percorsi di account. |
 | Miglioramento | Nodi di percorsi suddivisi esterni - percorsi di persone | Il supporto per _percorsi di suddivisione esterni_ nodi è ora disponibile per i percorsi di persone. |
