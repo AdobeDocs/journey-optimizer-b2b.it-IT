@@ -4,19 +4,13 @@ description: Utilizza il pannello chat Assistente IA in Journey Optimizer B2B Pr
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 autotag-review: '2026-06-12T22:46:23.441Z'
 TQID: 'https://experienceleague.adobe.com/XyBLmqv63kNBcw-Jo4hKvUKIn2la7kac7-kTbNEU5aE'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: a30218bb-f80a-4410-8ac4-b039e99a15b4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: a30218bb-f80a-4410-8ac4-b039e99a15b4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
 workflow-type: tm+mt
-source-wordcount: 878
+source-wordcount: 955
 ht-degree: 1%
 
 ---
@@ -38,6 +32,16 @@ Nella parte inferiore del pannello si trova la finestra di messaggio in cui è p
 
 * Aggiungi un messaggio e premi **Invio** per inviare (**MAIUSC+INVIO** inserisce una nuova riga).
 * Allega un file utilizzando l&#39;icona _Allega_ (formati supportati: `.txt`, `.md`, `.csv`, `.json`, `.xlsx`, `.docx`, `.pdf`). Utilizza i caricamenti CSV e fogli di calcolo per avviare un’importazione di lead.
+
+>[!BEGINSHADEBOX]
+
+## Qualificatore di vendita
+
+Sales Qualifier è un’applicazione basata sull’intelligenza artificiale che puoi utilizzare con Journey Optimizer B2B Prime. Implementa Account Qualification Agent ed è progettato per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Sales Qualifier automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti su tutti i canali. Riduce il carico BDR manuale e accelera la velocità della pipeline per le aziende B2B aziendali.
+
+Per ulteriori informazioni, consulta la [documentazione di Sales Qualifier](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}.
+
+>[!ENDSHADEBOX]
 
 ## Chiedi all’assistente AI
 
@@ -66,7 +70,7 @@ Le voci di menu sono raggruppate in sezioni etichettate:
 | **Analizza** | Ricerche diagnostiche di sola lettura (ad esempio, indagini lead, query intento). |
 | **Convalida** | Flussi di lavoro di controllo qualità e audit. |
 | **Build** | Flussi di lavoro di creazione (programmi, percorsi, elenchi, punteggio). |
-| **Importa** | Importazione lead CSV. |
+| **Importazione** | Importazione lead CSV. |
 | **Altro** | Qualsiasi cosa che non rientri nelle categorie precedenti. |
 
 Il menu elenca anche **connettori** (ad esempio, _Sfoglia Marketo_ apre una finestra di dialogo del selettore) e **collegamenti di navigazione** che ti portano a una schermata dell&#39;area di lavoro.
@@ -81,7 +85,7 @@ I connettori aprono un modale invece di inserire testo. Le scelte rapide per la 
 >
 >Alcuni comandi sono visualizzati in grigio e contrassegnati come _In arrivo_. Questi sono gestiti da flag di funzione e non sono ancora attivi per il tuo account; selezionarne uno non fa nulla. Il set disponibile dipende dalle feature abilitate.
 
-## Abilità
+## Competenza
 
 Un&#39;abilità è un flusso di lavoro in pacchetti che l&#39;agente è in grado di eseguire, ovvero i blocchi predefiniti del menu `/` e le richieste in linguaggio naturale. Ogni abilità riunisce istruzioni dettagliate e gli strumenti specifici necessari per un lavoro (ad esempio, &quot;pubblicare un percorso&quot;, &quot;confrontare elenchi di due persone&quot;, &quot;creare un modello di punteggio&quot;).
 

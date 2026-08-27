@@ -2,9 +2,9 @@
 user-guide-title: Documentazione di Journey Optimizer B2B Prime
 user-guide-description: Scopri Adobe Journey Optimizer B2B Prime e come utilizzarlo per ?.
 hide: true
-source-git-commit: c1e8e03ccd6f2d132ca1bc1a27c0d9ea18dcdcac
+source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 54%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 54%
     + [Configurazione predefinito per modulo](./admin/configuration-presets-forms.md)
   + [Regole di business](./admin/business-rules.md)
   + [Tipi di programmi](./admin/program-types.md)
-+ [Qualificatore di vendita](./sales-qualifier/sales-qualifier.md)
+
 <!--
    + [Persona mapping](./admin/persona-mapping.md)
 
