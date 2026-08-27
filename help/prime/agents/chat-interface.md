@@ -45,7 +45,7 @@ Nella parte inferiore del pannello si trova la finestra di messaggio in cui è p
 
 Sales Qualifier è un’applicazione basata sull’intelligenza artificiale che puoi utilizzare con Journey Optimizer B2B Prime. Implementa Account Qualification Agent ed è progettato per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Sales Qualifier automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti su tutti i canali. Riduce il carico BDR manuale e accelera la velocità della pipeline per le aziende B2B aziendali.
 
-Per ulteriori informazioni, consulta la [documentazione di Sales Qualifier](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}.
+Per ulteriori informazioni, consulta la [documentazione di Sales Qualifier](https://experienceleague.adobe.com/it/docs/sales-qualifier/using/home){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

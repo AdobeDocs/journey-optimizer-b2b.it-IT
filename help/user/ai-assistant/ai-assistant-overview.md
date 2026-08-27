@@ -50,7 +50,7 @@ L&#39;interfaccia di chat in Adobe Journey Optimizer B2B edition si basa sulla s
 
 Sales Qualifier è un’applicazione basata sull’intelligenza artificiale che puoi utilizzare con Journey Optimizer B2B edition. Implementa Account Qualification Agent ed è progettato per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Sales Qualifier automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti su tutti i canali. Riduce il carico BDR manuale e accelera la velocità della pipeline per le aziende B2B aziendali.
 
-Per ulteriori informazioni, consulta la [documentazione di Sales Qualifier](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}.
+Per ulteriori informazioni, consulta la [documentazione di Sales Qualifier](https://experienceleague.adobe.com/it/docs/sales-qualifier/using/home){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -118,7 +118,7 @@ L’Assistente AI in Journey Optimizer B2B edition assegna priorità a privacy, 
 
 * Per interagire con l&#39;Assistente AI è necessario disporre di autorizzazioni esplicite.
 
-  * Un amministratore può impostare le autorizzazioni utilizzando [Interfaccia utente autorizzazioni](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+  * Un amministratore può impostare le autorizzazioni utilizzando [Interfaccia utente autorizzazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e [Admin Console](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
   * Le autorizzazioni sono granulari e l’amministratore della sandbox può configurare quali utenti possono porre diverse categorie di domande (domande basate sulla conoscenza del prodotto con l’Assistente AI o domande su informazioni operative).
 
