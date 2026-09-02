@@ -41,7 +41,7 @@ I collegamenti di tracciamento e-mail devono essere nuovi e univoci per l’ista
 
 >[!PREREQUISITES]
 >
->Prima di modificare o aggiungere un dominio nell&#39;interfaccia utente, è necessario disporre di un [CNAME mappato a un dominio Marketo Engage fornito da Adobe](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
+>Prima di modificare o aggiungere un dominio nell&#39;interfaccia utente, è necessario disporre di un [CNAME mappato a un dominio Marketo Engage fornito da Adobe](https://experienceleague.adobe.com/it/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
 >Quando si aggiunge un dominio, il sistema verifica la presenza di SSL preesistenti, creati manualmente in precedenza. Se si verifica questa convalida, crea il dominio senza selezionare la creazione SSL, quindi collegalo come procedura separata.
 
@@ -106,7 +106,7 @@ _Per aggiungere il dominio :_
 
    >[!NOTE]
    >
-   >**_SSL personalizzati_**: se hai bisogno di un SSL personalizzato, puoi inviare un [ticket di supporto](https://experienceleague.adobe.com/en/support){target="_blank"}. Non utilizzare la casella di controllo per la creazione SSL.
+   >**_SSL personalizzati_**: se hai bisogno di un SSL personalizzato, puoi inviare un [ticket di supporto](https://experienceleague.adobe.com/it/support){target="_blank"}. Non utilizzare la casella di controllo per la creazione SSL.
 
 <!-- 
 1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
