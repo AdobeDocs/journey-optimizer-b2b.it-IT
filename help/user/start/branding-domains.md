@@ -4,22 +4,16 @@ description: Configura i domini di branding in modo che ciascuno dei brand abbia
 feature: Setup, Channels
 role: Admin
 exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-subfeature_v2:
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 1013
-ht-degree: 80%
+source-wordcount: 913
+ht-degree: 75%
 
 ---
 
@@ -28,22 +22,20 @@ ht-degree: 80%
 Un dominio di branding in Marketo Engage è un sottodominio personalizzato (ad esempio `links.yourcompany.com`) utilizzato per riscrivere i collegamenti e tenere traccia dei clic sulle e-mail e assicurarsi che riflettano il tuo marchio anziché un dominio generico. Ogni dominio di branding funge da dominio di tracciamento dei clic per migliorare il recapito messaggi e l’attendibilità facendo corrispondere i collegamenti e-mail e pagina di destinazione al dominio.
 
 * Sostituisce i collegamenti generici con il tuo branding nei collegamenti ipertestuali delle e-mail.
-* Quando un lead dell’account fa clic su un collegamento, reindirizza attraverso questo dominio personalizzato per consentire il tracciamento delle prestazioni pur apparendo legittimo ai filtri e-mail.
+* Quando un lead fa clic su un collegamento, reindirizza attraverso questo dominio personalizzato per consentire il tracciamento delle prestazioni pur apparendo legittimo ai filtri e-mail.
 * Per supportare diverse business unit o marchi, puoi configurare altri domini di branding se disponi di più marchi.
 
 >[!BEGINSHADEBOX]
 
 **CNAME univoci per il tracciamento dei collegamenti**
 
-I collegamenti di tracciamento e-mail devono essere nuovi e univoci per l’istanza Marketo Engage allegata. Se disponi di CNAME esistenti per il tracciamento di collegamenti che puntano a un’istanza Marketo Engage (di produzione) preesistente, devi modificarli prima di poter essere riutilizzati.
-
-Puoi condividere il branding del dominio del percorso di ritorno tra l’istanza Marketo Engage di produzione e l’istanza associata, ma questa modifica è un cambiamento di back-end. Apri un ticket di supporto e fornisci il prefisso Marketo Engage (Munchkin ID) e il nuovo prefisso Journey Optimizer B2B edition (Munchkin ID) per richiedere il branding del dominio del percorso di ritorno condiviso.
+I collegamenti di tracciamento e-mail devono essere nuovi e univoci per l’istanza Marketo Engage allegata. Puoi condividere il branding del dominio del percorso di ritorno tra l’istanza Marketo Engage di produzione e l’istanza associata, ma si tratta di una modifica del sistema interno. Apri un ticket di supporto e fornisci il prefisso Marketo Engage (Munchkin ID) e il nuovo prefisso Journey Optimizer B2B edition (Munchkin ID) per richiedere il branding del dominio del percorso di ritorno condiviso.
 
 >[!ENDSHADEBOX]
 
 >[!PREREQUISITES]
 >
->Prima di modificare o aggiungere un dominio nell&#39;interfaccia utente, è necessario disporre di un [CNAME mappato a un dominio Marketo Engage fornito da Adobe](https://experienceleague.adobe.com/it/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
+>Prima di modificare o aggiungere un dominio nell&#39;interfaccia utente, è necessario disporre di un [CNAME mappato a un dominio Marketo Engage fornito da Adobe](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
 >Quando si aggiunge un dominio, il sistema verifica la presenza di SSL preesistenti, creati manualmente in precedenza. Se si verifica questa convalida, crea il dominio senza selezionare la creazione SSL, quindi collegalo come procedura separata.
 
@@ -73,17 +65,20 @@ Il primo passaggio nell’utilizzo dei domini di branding consiste nella modific
 
    ![Finestra di dialogo Modifica dominio marchio](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
 
-1. Se per l&#39;istanza di Marketo Engage sono state definite più aree di lavoro, fare clic su **[!UICONTROL Avanti]**.
+<!--
+1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
 
-   Seleziona ciascuna delle aree di lavoro in cui desideri applicare il dominio primario aggiornato.
+   Select each of the workspaces where you want to apply the updated primary domain.
 
-   ![Finestra di dialogo Modifica dominio di branding con selezione dell&#39;area di lavoro per il dominio primario](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"}
+   ![Edit Branding Domain dialog with workspace selection for primary domain](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"}
 
-1. Fai clic su **[!UICONTROL Salva]**.
+-->
+
+1. Fai clic su **[!UICONTROL Avanti]** e quindi su **[!UICONTROL Salva]**.
 
 ## Definisci un dominio aggiuntivo
 
-Dopo aver modificato il dominio predefinito, puoi aggiungere un altro dominio di branding per supportare più marchi nell’ambiente Journey Optimizer B2B edition, dove ciascuno di essi dispone di collegamenti di tracciamento del marchio. Quando si aggiunge un dominio, sono disponibili le seguenti opzioni:
+Per supportare più marchi nell’ambiente Journey Optimizer B2B edition, ciascuno dei quali dispone di collegamenti di tracciamento con marchio, puoi aggiungere un altro dominio di branding dopo aver modificato il dominio predefinito. Quando si aggiunge un dominio, sono disponibili le seguenti opzioni:
 
 >* _Rendi dominio primario_: rendi questo dominio primario per l&#39;area di lavoro. Quando selezioni questa opzione, tutte le e-mail non inviate esistenti vengono impostate sul dominio primario predefinito e tutte le e-mail appena create vengono impostate automaticamente su questo dominio primario. Se necessario, gli addetti al marketing possono scegliere un dominio di branding alternativo.
 >
@@ -105,19 +100,21 @@ _Per aggiungere il dominio :_
 
    >[!NOTE]
    >
-   >**_SSL personalizzati_**: se hai bisogno di un SSL personalizzato, puoi inviare un [ticket di supporto](https://experienceleague.adobe.com/it/support){target="_blank"}. Non utilizzare la casella di controllo per la creazione SSL.
+   >**_SSL personalizzati_**: se hai bisogno di un SSL personalizzato, puoi inviare un [ticket di supporto](https://experienceleague.adobe.com/en/support){target="_blank"}. Non utilizzare la casella di controllo per la creazione SSL.
 
-1. Se per l&#39;istanza di Marketo Engage sono state definite più aree di lavoro, fare clic su **[!UICONTROL Avanti]**.
+<!-- 
+1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
 
-   Se necessario, selezionate ciascuna delle aree di lavoro in cui desiderate applicare il nuovo dominio come dominio principale.
+   If needed, select each of the workspaces where you want to apply the new domain as the primary domain.
 
-   ![Finestra di dialogo Nuovo dominio di branding con selezione dell&#39;area di lavoro per applicare il dominio primario](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
+    ![New Branding Domain dialog with workspace selection for applying the primary domain](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
+-->
 
-1. Fai clic su **[!UICONTROL Salva]**.
+1. Fai clic su **[!UICONTROL Avanti]** e quindi su **[!UICONTROL Salva]**.
 
 ## Modificare gli SSL per i domini di branding esistenti
 
-Per abilitare SSL per i domini esistenti, segui la procedura riportata di seguito.
+Per abilitare SSL per i domini esistenti, effettua le seguenti operazioni:
 
 1. Dall&#39;area _[!UICONTROL Amministrazione]_, selezionare **[!UICONTROL Posta elettronica]**.
 

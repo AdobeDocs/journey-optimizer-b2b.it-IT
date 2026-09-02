@@ -3,21 +3,14 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
 source-wordcount: 5635
 ht-degree: 61%
@@ -154,7 +147,7 @@ Nell’interfaccia chat di Journey Optimizer B2B edition sono ora disponibili le
 | ----- | ------ | ----------- |
 | Journey Build Agent | Nuovo e aggiornato | Il Journey Build Agent analizza, progetta e collabora sui percorsi in tempo reale, consentendo ai marketer di avviare più rapidamente, migliorare il coinvolgimento e aumentare i tassi di conversione. [Ulteriori informazioni](../agents/journey-agent.md) |
 | Agente Audience | Nuovo | L’Agente Audience identifica e crea automaticamente i gruppi acquisti utilizzando dati strutturati e non strutturati. Aiuta i marketer a mirare le persone giuste in modo più rapido e preciso. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
-| Qualificatore di vendita | Nuovo | Sales Qualifier è un&#39;applicazione aggiuntiva basata sull&#39;intelligenza artificiale per Adobe Journey Optimizer B2B edition che contiene il Account Qualification Agent ed è progettata per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti nei vari canali. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/sales-qualifier/using/home){target="_blank"} |
+| Qualificatore di vendita | Nuovo | Sales Qualifier è un&#39;applicazione aggiuntiva basata sull&#39;intelligenza artificiale per Adobe Journey Optimizer B2B edition che contiene il Account Qualification Agent ed è progettata per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti nei vari canali. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Note sulla versione 2025.10 {#rel-2025-10}
 
@@ -254,7 +247,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Funzione | Accesso dal CRM alle pagine dei dettagli | Ora puoi configurare collegamenti diretti alle pagine dei dettagli di Journey Optimizer B2B Edition per account, contatti e lead nel tuo strumento di gestione delle relazioni con i clienti (CRM), come Salesforce o Microsoft Dynamics. [Ulteriori informazioni](../accounts/crm-linking.md) |
 | Funzione | Supporto per CSS personalizzati nella progettazione dei contenuti | Ora, nello spazio di progettazione, puoi aggiungere un CSS personalizzato durante l’authoring dei contenuti per e-mail e pagine di destinazione. [Ulteriori informazioni](../content/design-custom-css.md) |
 | Funzione | Configurazione della mappatura delle parole chiave di intento | Per attivare e gestire il modello di rilevamento intento, gli amministratori ora possono caricare un foglio di calcolo per definire una categoria di mappatura dei dati intento. [Ulteriori informazioni](../admin/intent-data.md) |
-| Miglioramento | Simulare il contenuto da riepilogo e-mail | È ora possibile accedere agli strumenti _Simula contenuto_ dal riepilogo dell’e-mail (dettagli e proprietà) quando viene aperto un messaggio dall’elenco E-mail. Questo si aggiunge alla possibilità di accedere a tali strumenti dallo spazio di progettazione delle e-mail. [Ulteriori informazioni](../content/email-simulate-content.md#display-the-email-preview) |
+| Miglioramento | Simulare il contenuto da riepilogo e-mail | È ora possibile accedere agli strumenti _Simula contenuto_ dal riepilogo dell’e-mail (dettagli e proprietà) quando viene aperto un messaggio dall’elenco E-mail. Questo si aggiunge alla possibilità di accedere a tali strumenti dallo spazio di progettazione delle e-mail. [Ulteriori informazioni](../content/email-simulate-content.md#display-preview) |
 | Miglioramento | Visualizzazione del conteggio totale nell’elenco dei modelli di ruoli | La pagina dell’elenco _[!UICONTROL Modelli ruoli]_ è stata migliorata con la visualizzazione del conteggio totale accanto alla barra di ricerca. |
 
 ## Note sulla versione 2025.5 {#rel-2025-5}
