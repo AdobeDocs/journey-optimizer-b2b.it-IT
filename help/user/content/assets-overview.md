@@ -4,22 +4,17 @@ description: Gestisci le risorse immagine da Journey Optimizer B2B edition e AEM
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
 autotag-review: 2026-03-30T22:17:01.501Z
 TQID: https://experienceleague.adobe.com/urL1pGKG420-cPjDUkCQaYBV3HC8BM6lp3ni6M1b0oc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 867
-ht-degree: 61%
+source-wordcount: 848
+ht-degree: 62%
 
 ---
 
@@ -35,7 +30,7 @@ Se è stato eseguito il provisioning con [!DNL Adobe Experience Manager as a Clo
 
 ### Risorse interne
 
-Per impostazione predefinita, l&#39;archivio risorse interno viene fornito con ogni sottoscrizione [!DNL Journey Optimizer B2B Edition]. Ciò significa che si dispone dell&#39;accesso a qualsiasi risorsa immagine memorizzata nel file system di risorse [!DNL Adobe Marketo Engage] connesso. Puoi utilizzare questo archivio come libreria locale di risorse, inclusa la possibilità di caricare e scaricare risorse. Puoi anche utilizzare queste risorse all’interno del contenuto del percorso.
+Per impostazione predefinita, l&#39;archivio risorse interno viene fornito con ogni sottoscrizione [!DNL Journey Optimizer B2B Edition]. Puoi utilizzare questo archivio come libreria locale di risorse, inclusa la possibilità di caricare e scaricare risorse. Puoi anche utilizzare queste risorse all’interno del contenuto del percorso.
 
 Puoi [modificare queste risorse utilizzando Adobe Express](./image-edit-adobe-express.md) e spostarle in cartelle per organizzarle per l&#39;utilizzo nelle e-mail, nei modelli e nei frammenti.
 
