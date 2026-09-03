@@ -4,22 +4,17 @@ description: 'Semplifica la generazione della domanda con i percorsi: crea, pubb
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 1312
-ht-degree: 46%
+source-wordcount: 1308
+ht-degree: 45%
 
 ---
 
@@ -94,11 +89,11 @@ Lo stato di un percorso può cambiare in base alle azioni applicate. In base all
 
 | Stato | Descrizione | Azioni disponibili |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Bozza**&#x200B;_ | Un percorso non pubblicato che può essere modificato. | <li>[Pubblica](./create-publish-journey.md#publish-a-journey)<li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
-| _&#x200B;**Live**&#x200B;_ | Lo stato del percorso cambia da _Bozza_ a _Live_ quando viene pubblicato un percorso. Se il percorso si trova in questo stato, non può più essere modificato. | <li>[Duplica](#duplicate-journey)<li>[Chiudi ai nuovi ingressi](#close-to-new-entries) <li>[Interrompi](#abort-journey) |
-| _&#x200B;**Chiuso alle nuove voci**&#x200B;_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <li>[Duplica](#duplicate-journey) <li>[Interrompi](#abort-journey) |
-| _&#x200B;**Annullato**&#x200B;_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
-| _&#x200B;**Completato**&#x200B;_ | Quando tutti i membri del pubblico dell&#39;account o della persona in un percorso completano il percorso, lo stato cambia da _Live_ o _Closed to new entries_ a _Finished_. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Bozza**_ | Un percorso non pubblicato che può essere modificato. | <li>[Pubblica](./create-publish-journey.md#publish-a-journey)<li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Live**_ | Lo stato del percorso cambia da _Bozza_ a _Live_ quando viene pubblicato un percorso. Se il percorso si trova in questo stato, non può più essere modificato. | <li>[Duplica](#duplicate-journey)<li>[Chiudi ai nuovi ingressi](#close-to-new-entries) <li>[Interrompi](#abort-journey) |
+| _**Chiuso alle nuove voci**_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <li>[Duplica](#duplicate-journey) <li>[Interrompi](#abort-journey) |
+| _**Annullato**_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Completato**_ | Quando tutti i membri del pubblico dell&#39;account o della persona in un percorso completano il percorso, lo stato cambia da _Live_ o _Closed to new entries_ a _Finished_. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
 
 ## Mappe percorso
 
@@ -172,7 +167,7 @@ Un’azione di duplicazione è simile a una funzione di clonazione, ma un percor
 
 1. Scegli il **[!UICONTROL Tipo]** di duplicazione:
 
-   * **[!UICONTROL Duplicazione parziale del contenuto]**: utilizza questo tipo per copiare tutto ciò che si trova nel percorso, esclusi i messaggi e-mail o SMS creati. I nodi che fanno riferimento a un messaggio e-mail o SMS di Marketo Engage rimangono completamente intatti.
+   * **[!UICONTROL Duplicazione parziale del contenuto]**: utilizza questo tipo per copiare tutto ciò che si trova nel percorso, esclusi i messaggi e-mail o SMS creati. I nodi che fanno riferimento a un messaggio SMS sono completamente intatti.
 
    * **[!UICONTROL Duplica senza dettagli]** - Utilizzare questo tipo per copiare solo la struttura e i percorsi dei nodi. Tutte le impostazioni del nodo e le condizioni del percorso non sono definite (impostazione predefinita), pertanto puoi utilizzare nuovamente il flusso di base con tipi di pubblico, azioni e impostazioni di segmentazione del percorso diversi. Tutti i nodi _Attendi_ utilizzano il valore predefinito di cinque giorni.
 
@@ -206,4 +201,4 @@ Quando selezioni il nodo, fai clic sul numero per visualizzare un elenco di acco
 
 ## Video introduttivo sul percorso di account {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443215/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
