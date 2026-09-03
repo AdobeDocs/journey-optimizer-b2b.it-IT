@@ -17,10 +17,10 @@ topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 3074
-ht-degree: 6%
+source-wordcount: 2658
+ht-degree: 8%
 
 ---
 
@@ -564,51 +564,23 @@ Utilizza il componente [!UICONTROL Immagine] per inserire una risorsa immagine n
 
 Scegliere il tipo di origine [risorsa](./assets-overview.md) e selezionare un file di immagine:
 
-* **[!UICONTROL Marketo Engage Assets]** - Scegliere questo tipo per sfogliare e selezionare una risorsa immagine dalla libreria Journey Optimizer B2B edition o dall&#39;istanza Marketo Engage connessa.
++++[!UICONTROL Seleziona risorsa]
 
-  ![Sfoglia le risorse immagini disponibili](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
+{{internal-dam}}
 
-  Dalla finestra di dialogo, puoi scegliere un’immagine dall’archivio selezionato. Fai clic su **[!UICONTROL Seleziona]** per aggiungere la risorsa.
++++
 
-  Sono disponibili alcuni strumenti per individuare la risorsa di cui hai bisogno:
++++[!UICONTROL Importare file multimediali]
 
-  * Fai clic sull&#39;icona _Filtro_ in alto a sinistra per filtrare gli elementi visualizzati in base ai criteri.
+{{image-upload}}
 
-  * Immetti il testo nel campo _Ricerca_ per filtrare gli elementi visualizzati in modo che corrispondano al nome della risorsa.
++++
 
-    ![Utilizza i filtri e il campo di ricerca per trovare la risorsa necessaria](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
++++[!UICONTROL Experience Manager Assets]
 
-* **[!UICONTROL Experience Manager Assets]** - Scegliere questo tipo per sfogliare e selezionare una risorsa immagine da un [archivio Experience Manager Assets configurato](../admin/configure-aem-repositories.md).
+{{aem-assets-dam}}
 
-  Nella finestra di dialogo _[!UICONTROL Seleziona Assets]_, scegli un&#39;immagine utilizzando gli strumenti disponibili per individuare la risorsa necessaria e fai clic su **[!UICONTROL Seleziona]**.:
-
-  * Modifica l&#39;**[!UICONTROL Archivio]** in alto a destra.
-
-  * Fai clic su **[!UICONTROL Gestisci risorse]** in alto a destra per aprire l&#39;archivio Assets in un&#39;altra scheda del browser e utilizzare gli strumenti di gestione AEM Assets.
-
-  * Fai clic sul selettore _Tipo di visualizzazione_ in alto a destra per modificare la visualizzazione in **[!UICONTROL Vista a elenco]**, **[!UICONTROL Vista griglia]**, **[!UICONTROL Vista galleria]** o **[!UICONTROL Vista a cascata]**.
-
-  * Fai clic sull&#39;icona _Ordinamento_ per modificare l&#39;ordinamento tra crescente e decrescente.
-
-    ![Utilizzare gli strumenti nella finestra di dialogo Seleziona Assets per trovare e selezionare una risorsa immagine](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
-
-  * Fare clic sulla freccia del menu **[!UICONTROL Ordina per]** per modificare i criteri di ordinamento in **[!UICONTROL Nome]**, **[!UICONTROL Dimensione]** o **[!UICONTROL Modificato]**.
-
-  * Fai clic sull&#39;icona _Filtro_ in alto a sinistra per filtrare gli elementi visualizzati in base ai criteri.
-
-  * Immetti il testo nel campo _Ricerca_ per filtrare gli elementi visualizzati in modo che corrispondano al nome della risorsa.
-
-  ![Utilizza i filtri e il campo di ricerca per individuare la risorsa](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
-
-* **[!UICONTROL Importa file multimediali]** - Scegliere questo tipo per selezionare un file dal sistema e importarlo nella libreria di risorse di Journey Optimizer B2B edition.
-
-  Nella finestra di dialogo _[!UICONTROL Carica immagine]_, trascina un file dal sistema alla casella del file. La dimensione massima del file è 100 MB.
-
-  ![Importa un file di immagine in](./assets/email-designer-image-upload.png){width="450"}
-
-  I nomi dei file delle immagini selezionate vengono visualizzati nella finestra di dialogo. I nomi dei file di risorse devono essere univoci (per tutte le cartelle) e, se esiste già un file con questo nome, viene visualizzato un messaggio. I nomi possono contenere un massimo di 100 caratteri e non possono contenere caratteri speciali (ad esempio `;`, `:`, `\` e `|`).
-
-  Fai clic su **[!UICONTROL Importa]**.
++++
 
 Nel pannello di destra potete aggiungere un titolo immagine e un testo alternativo per l&#39;immagine.
 
@@ -705,7 +677,7 @@ Utilizza il componente _Social_ per inserire nel contenuto collegamenti a pagine
 Con un tipo di social media selezionato, imposta le opzioni per quel tipo:
 
 * **[!UICONTROL URL]** - Immetti l&#39;URL del social media che desideri collegare all&#39;icona o al grafico del social media.
-* **[!UICONTROL Source]** - Se desideri utilizzare una tua immagine invece di quella predefinita, scegli una risorsa immagine. Puoi selezionare un’immagine dal repository di risorse Marketo Engage collegato, da un repository Experience Manager Assets (se configurato) o importare un file di immagine dal sistema. Per informazioni dettagliate sulla selezione e l&#39;importazione delle risorse immagine, consultare [Informazioni sul componente immagine](#add-the-image-asset).
+* **[!UICONTROL Source]** - Se desideri utilizzare un&#39;immagine personalizzata invece di quella predefinita, seleziona una risorsa immagine o importa un file di immagine dal sistema. Per informazioni dettagliate sulla selezione e l&#39;importazione delle risorse immagine, consultare [Informazioni sul componente immagine](#add-the-image-asset).
 * **[!UICONTROL Testo alt]** - Immettere il testo alt per l&#39;immagine visualizzata.
 
   ![Impostazioni per il tipo di social media selezionato](./assets/content-components-social-settings-for-type.png){width="250"}
@@ -758,8 +730,6 @@ Per definire una dimensione di visualizzazione coerente per tutti gli elementi g
 
 ### Modulo (solo pagine di destinazione) {#form}
 
-[!BADGE Beta]{type=Informative url="/help/user/content/forms.md" tooltip="Funzione Beta"}
-
 Utilizza il componente _Modulo_ per aggiungere un modulo pubblicato a una pagina di destinazione o a un modello di pagina di destinazione. Per ulteriori informazioni sulla creazione e la pubblicazione di moduli, vedere [Forms](./forms.md).
 
 1. Fai clic sullo strumento _Modulo_ nella barra degli strumenti del componente oppure utilizza le proprietà **[!UICONTROL Incorpora modulo]** a destra per selezionare il modulo pubblicato.
@@ -772,7 +742,7 @@ Utilizza il componente _Modulo_ per aggiungere un modulo pubblicato a una pagina
 
    * **[!UICONTROL Resta a pagina]** - Scegli questa opzione per mantenere il visitatore sulla stessa pagina al momento dell&#39;invio del modulo.
 
-   * **[!UICONTROL Pagina di destinazione]** - Scegli questa opzione per selezionare una pagina di destinazione Journey Optimizer B2B edition o Marketo Engage come follow-up.
+   * **[!UICONTROL Pagina di destinazione]** - Scegli questa opzione per selezionare una pagina di destinazione di Journey Optimizer B2B edition come follow-up.
 
    * **[!UICONTROL URL esterno]** - Scegliere questa opzione per specificare qualsiasi URL come pagina di follow-up. Dopo che il visitatore ha inviato il modulo, il browser carica l’URL designato.
 

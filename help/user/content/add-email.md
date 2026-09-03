@@ -1,6 +1,6 @@
 ---
 title: Aggiungere un messaggio e-mail al Percorso
-description: 'Aggiungi nodi di azione e-mail ai percorsi di account: crea nuove e-mail o utilizza e-mail esistenti di Marketo Engage per comunicazioni mirate in Journey Optimizer B2B edition.'
+description: Per un nodo di azione Invia e-mail in un percorso, crea nuove e-mail o duplicati di quelle esistenti da utilizzare per le comunicazioni mirate in Journey Optimizer B2B edition.
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
@@ -17,92 +17,66 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 1399
+source-wordcount: 1042
 ht-degree: 0%
 
 ---
 
 # Aggiungi un messaggio e-mail al percorso
 
-Utilizza Adobe Journey Optimizer B2B edition per inviare messaggi e-mail ai clienti tramite percorsi di account. Puoi scegliere di creare, personalizzare e visualizzare in anteprima i messaggi nello spazio di progettazione delle e-mail. In alternativa, puoi scegliere di inviare un’e-mail già definita nell’istanza di Marketo Engage connessa. Dopo che le e-mail sono attive in percorsi, monitora l&#39;invio, la consegna e il coinvolgimento nel [report sulle prestazioni delle e-mail](../dashboards/email-performance-dashboard.md).
+Utilizza Adobe Journey Optimizer B2B edition per inviare messaggi e-mail ai clienti tramite percorsi di account. Puoi scegliere di creare, personalizzare e visualizzare in anteprima i messaggi nello spazio di progettazione delle e-mail. Dopo che le e-mail sono attive in percorsi, monitora l&#39;invio, la consegna e il coinvolgimento nel [report sulle prestazioni delle e-mail](../dashboards/email-performance-dashboard.md).
 
 >[!NOTE]
 >
->Se invii un’e-mail per la prima volta, assicurati che il canale e-mail sia configurato dall’interno di Adobe Marketo Engage. Per ulteriori informazioni, consulta [Protocolli per il tracciamento e la consegna e-mail](../start/email-protocols.md).
+>Se invii un’e-mail per la prima volta, assicurati che il canale e-mail sia configurato. Per ulteriori informazioni, consulta [Protocolli per il tracciamento e la consegna e-mail](../start/email-protocols.md).
 >
 >Per informazioni dettagliate sulla valutazione delle preferenze di consenso e-mail al momento della consegna, consulta [Preferenze di consenso](./channels-consent-preferences.md).
 
-## Aggiungere un nodo di azione e-mail in un percorso
+## Aggiungere un nodo di azione Invia e-mail {#send-email-node}
 
 Puoi impostare le consegne e-mail in un percorso quando [aggiungi un _[!UICONTROL Esegui un&#39;azione]_ nodo](../journeys/action-nodes.md) ed esegui le seguenti operazioni:
 
-1. Per l&#39;azione _[!UICONTROL sulla destinazione]_, scegliere **[!UICONTROL Persone]**.
+1. _(Solo percorsi di account)_ Per l&#39;azione _[!UICONTROL Azione sulla destinazione]_, scegliere **[!UICONTROL Persone]**.
 
-1. Per _[!UICONTROL Azione sulle persone]_, scegli **[!UICONTROL Invia e-mail]**.
+1. Scegliere **[!UICONTROL Invia messaggio di posta elettronica]** per l&#39;azione.
 
-1. Per l&#39;_[!UICONTROL origine e-mail]_, scegliere la modalità di origine dell&#39;e-mail da inviare.
+1. Fai clic su **[!UICONTROL Crea e-mail]**.
 
-   ![Esegui un&#39;azione - invia un&#39;e-mail](assets/journey-node-send-email.png){width="700" zoomable="yes"}
+   ![Esegui un&#39;azione - invia un&#39;e-mail](assets/journey-node-send-email.png){width="500"}
 
-   * Scegli **[!UICONTROL Crea nuova e-mail]** per creare l&#39;e-mail in modo nativo in Journey Optimizer B2B edition.
+1. Nella finestra di dialogo _Crea nuova e-mail_, scegli di creare una nuova risorsa di contenuto e-mail o di duplicare una risorsa di contenuto e-mail esistente.
 
-     Questa opzione consente di gestire il contenuto delle e-mail in modo nativo in Journey Optimizer B2B edition. Fai clic su **[!UICONTROL Crea e-mail]** per aprire la finestra di dialogo _Crea nuova e-mail_. Puoi creare una nuova risorsa di contenuto e-mail o duplicare una risorsa di contenuto e-mail esistente.
+   * Scegli l&#39;opzione **[!UICONTROL Nuova e-mail]** quando vuoi creare un&#39;e-mail utilizzando un&#39;area di lavoro vuota o un modello e-mail.
 
-     +++Nuova e-mail
+     ![Crea nuova finestra di dialogo e-mail - nuova e-mail](assets/create-new-email.png){width="400"}
 
-     Se desideri creare un&#39;e-mail utilizzando un&#39;area di lavoro o un modello e-mail vuoto, utilizza l&#39;opzione _[!UICONTROL Nuova e-mail]_.
+     * Immetti un **[!UICONTROL Nome]** univoco per l&#39;e-mail e una **[!UICONTROL riga Oggetto]**.
 
-     1. Nella finestra di dialogo, scegli **[!UICONTROL Nuova e-mail]**.
+     * Fai clic su **[!UICONTROL Crea]**.
 
-     1. Immetti un **[!UICONTROL Nome]** univoco per l&#39;e-mail e una **[!UICONTROL riga Oggetto]**.
+   * Scegli l&#39;opzione **[!UICONTROL Duplica e-mail esistente]** quando vuoi creare un&#39;e-mail utilizzando un&#39;e-mail esistente dal percorso corrente o da un altro percorso.
 
-        ![Crea nuova finestra di dialogo e-mail - nuova e-mail](assets/create-new-email.png){width="400"}
+     Puoi apportare modifiche all’e-mail duplicata in base all’obiettivo per il nodo di percorso.
 
-     1. Fai clic su **[!UICONTROL Crea]**.
+     * Per **[!UICONTROL Messaggio e-mail esistente da duplicare]**, fai clic sull&#39;icona _Selezione_ ( ![Icona Selezione](../assets/do-not-localize/icon-email-select.svg) ) e seleziona l&#39;e-mail che desideri duplicare e utilizzare per il nodo del percorso.
 
-        Nella sezione _[!UICONTROL Proprietà e-mail]_ della pagina del contenuto e-mail, i campi _[!UICONTROL Da e-mail]_ e _[!UICONTROL Rispondi all&#39;indirizzo]_ sono già configurati. È possibile immettere valori per i campi _[!UICONTROL Da nome]_ e _[!UICONTROL Descrizione]_ (facoltativo).
+       Per filtrare l’elenco delle e-mail, inserisci una stringa di testo nel campo di ricerca in modo che corrisponda al nome dell’e-mail. Selezionare la casella di controllo per l&#39;e-mail che si desidera duplicare e fare clic su **[!UICONTROL Seleziona]**.
 
-     1. Fai clic su **[!UICONTROL Modifica e-mail]** per definire le [impostazioni](#define-the-email-settings) e progettare il [contenuto](./email-authoring.md).
+       ![Seleziona e-mail](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
 
-     +++
+     * Immetti un **[!UICONTROL Nome]** univoco per l&#39;e-mail e una **[!UICONTROL riga Oggetto]**.
 
-     +++E-mail esistente duplicata
+       ![Crea nuova finestra di dialogo e-mail - messaggio e-mail esistente duplicato](assets/create-new-email-duplicate.png){width="400"}
 
-     Se desideri creare un messaggio e-mail utilizzando un messaggio e-mail esistente del percorso corrente o di un altro percorso, utilizza l&#39;opzione _[!UICONTROL Duplica messaggio e-mail esistente]_. Puoi apportare modifiche all’e-mail duplicata in base all’obiettivo per il nodo di percorso.
+     * Fai clic su **[!UICONTROL Crea]**.
 
-     1. Nella finestra di dialogo _[!UICONTROL Crea nuova e-mail]_, scegli **[!UICONTROL Duplica e-mail esistente]**.
+1. Fai clic su **[!UICONTROL Modifica e-mail]** per definire le [impostazioni](#email-settings) e il [contenuto](./email-authoring.md) dell&#39;e-mail.
 
-     1. Per **[!UICONTROL Messaggio e-mail esistente da duplicare]**, fai clic sull&#39;icona _Selezione_ ( ![Icona Selezione](../assets/do-not-localize/icon-email-select.svg) ) e seleziona l&#39;e-mail che desideri duplicare e utilizzare per il nodo del percorso.
+   ![Invia nodo percorso e-mail - modifica e-mail](assets/journey-node-send-email-edit-email.png){width="500"}
 
-        Per filtrare l’elenco delle e-mail, inserisci una stringa di testo nel campo di ricerca in modo che corrisponda al nome dell’e-mail.
-
-        ![Seleziona e-mail](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
-
-        Selezionare la casella di controllo per l&#39;e-mail che si desidera duplicare e fare clic su **[!UICONTROL Seleziona]**.
-
-     1. Immetti un **[!UICONTROL Nome]** univoco per l&#39;e-mail e una **[!UICONTROL riga Oggetto]**.
-
-        ![Crea nuova finestra di dialogo e-mail - Duplica e-mail esistente](assets/create-new-email-duplicate.png){width="400"}
-
-     1. Fai clic su **[!UICONTROL Crea]**.
-
-        Nella sezione _[!UICONTROL Proprietà e-mail]_ della pagina del contenuto e-mail, i campi _[!UICONTROL Da e-mail]_ e _[!UICONTROL Rispondi all&#39;indirizzo]_ sono già configurati. È possibile immettere valori per i campi _[!UICONTROL Da nome]_ e _[!UICONTROL Descrizione]_ (facoltativo).
-
-     1. Se necessario, fare clic su **[!UICONTROL Modifica e-mail]** per modificare le [impostazioni](#define-the-email-settings) e il [contenuto](./email-authoring.md).
-
-     +++
-
-   * Scegli **[!UICONTROL Seleziona e-mail da Adobe Marketo Engage]** per utilizzare una delle e-mail precreate in Marketo Engage e inviarla come parte del percorso.
-
-     Se nell&#39;istanza di Marketo Engage connessa sono disponibili più aree di lavoro, selezionarle. Quindi, seleziona l’e-mail approvata che desideri inviare per il nodo di percorso.
-
-     ![Seleziona e-mail Marketo Engage](./assets/email-select-marketo.png){width="500" zoomable="yes"}
-
-     Con questa opzione, il nodo è impostato e il contenuto dell’e-mail non necessita di ulteriori definizioni nel percorso.
-
-## Definire le impostazioni e-mail
+## Definire le impostazioni e-mail {#email-settings}
 
 Con la scheda **[!UICONTROL Dettagli]** selezionata nel pannello _Riepilogo_ a destra, scorri verso il basso per visualizzare e definire le impostazioni e-mail.
 
@@ -115,24 +89,28 @@ Con la scheda **[!UICONTROL Dettagli]** selezionata nel pannello _Riepilogo_ a d
 | [!UICONTROL Indirizzo di risposta] | Indirizzo del mittente utilizzato nell’intestazione dell’e-mail. Il valore predefinito viene popolato dalle [impostazioni di consegna del canale e-mail](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL Da etichetta]). Inserisci l’indirizzo e-mail che desideri compilare se il destinatario utilizza la funzione di risposta (può essere diverso o uguale all’indirizzo del mittente). Fai clic sull&#39;icona _Personalizza_ ( ![Icona Personalizza](../assets/do-not-localize/icon-personalize.svg) ) per utilizzare un token di personalizzazione nel campo. |
 | [!UICONTROL Oggetto] | Testo visualizzato nel campo oggetto dell’e-mail. Il valore predefinito viene compilato dal testo immesso nella finestra di dialogo _[!UICONTROL Crea nuova e-mail]_. Se necessario, puoi modificare il testo. Fai clic sull&#39;icona _Personalizza_ ( ![Icona Personalizza](../assets/do-not-localize/icon-personalize.svg) ) per utilizzare un token di personalizzazione nel campo.<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
 | [!UICONTROL Dominio di branding] | Se nel sistema sono definiti più di un [dominio di branding](../admin/configure-channels-emails.md#branding-domains), selezionare il dominio di branding da utilizzare per inviare l&#39;e-mail. Utilizza un dominio di branding specifico per inviare e-mail che sembrano provenire dal tuo marchio anziché dall’azienda nel suo insieme. Crea fiducia nel brand, personalizza l’esperienza e-mail e aumenta i tassi di apertura e risposta. |
-| [!UICONTROL IP dedicato] | Se hai definito più di un indirizzo IP dedicato, seleziona un indirizzo IP dedicato da utilizzare per inviare l’e-mail. Quando utilizzi un IP dedicato specifico per i programmi, puoi monitorare e monitorare più da vicino il recapito dei messaggi e rispondere rapidamente a eventuali modifiche nelle metriche di consegna. Per ulteriori informazioni sull&#39;aggiunta di un IP dedicato per l&#39;istanza di Marketo Engage connessa, consultare la [documentazione di Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
 | [!UICONTROL E-mail operativa] | Seleziona la casella di controllo se desideri che l’e-mail sia operativa. Le e-mail operative sono escluse dagli elenchi di rinuncia/annullamento dell’iscrizione e dai limiti di comunicazione. Seleziona questa opzione solo se il destinatario non può considerare il messaggio e-mail come un messaggio commerciale non richiesto (SPAM). |
 | [!UICONTROL Includi visualizzazione come pagina Web] | Seleziona la casella di controllo per includere un collegamento a una pagina web generata dal contenuto del messaggio e-mail. I messaggi e-mail hanno funzionalità più limitate rispetto alle pagine web, quindi è utile per JavaScript, CSS esteso e moduli. Il testo utilizzato per generare il collegamento è configurato nelle [impostazioni di consegna del canale e-mail](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL Visualizza come pagina Web HTML] e [!UICONTROL Visualizza come testo della pagina Web]). |
 | [!UICONTROL Disabilita tracciamento aperto] | Seleziona la casella di controllo se non desideri tenere traccia dell’attività di apertura delle e-mail. Con la funzione disattivata, i conteggi delle attività aperte e-mail vengono incrementati solo quando una persona univoca apre l’e-mail. Puoi [gestire il tracciamento dei collegamenti dei contenuti e-mail](./email-authoring.md#edit-linked-url-tracking) quando progetti il contenuto del corpo dell&#39;e-mail. |
 | [!UICONTROL Preheader] | Selezionare la casella di controllo per includere una preintestazione. Un preheader è il breve testo di riepilogo che viene visualizzato dopo la riga dell’oggetto in alcuni client e-mail. In genere fornisce un breve riepilogo dell’e-mail ed è in genere una singola frase. Immettere il testo di riepilogo nel campo<!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->. |
-| [!UICONTROL Campi utilizzati come indirizzi CC] | Se disponibili, selezionare fino a 25 campi Lead o Società configurati in Marketo Engage utilizzando il tipo `Email`. |
 
-## Controllare gli avvisi
+<!-- 
+Removed, but may reappear elsewhere
+| [!UICONTROL Dedicated IP] | If you have more than one dedicated IP addresses defined, select a dedicated IP address to use for sending the email. When you use a specific dedicated IP for your programs, you can track and monitor deliverability more closely and respond quickly to any changes in your delivery metrics. For more information about adding a dedicated IP for the connected Marketo Engage instance, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}.|
+| [!UICONTROL Fields used as CC addresses] | If available, select up to 25 Lead or Company fields that are set up in Marketo Engage using the `Email` type.  |
+-->
 
-Durante la progettazione del contenuto dei messaggi e-mail, gli avvisi vengono visualizzati nell’interfaccia (in alto a destra della pagina) quando mancano le impostazioni chiave. Se non trovi questo pulsante, non sono stati rilevati problemi.
+## Controllare gli avvisi {#check-alerts}
+
+Mentre definisci le impostazioni e-mail e il contenuto, gli avvisi vengono visualizzati nell’interfaccia (in alto a destra della pagina) quando mancano le impostazioni chiave. Se non trovi questo pulsante, non sono stati rilevati problemi.
 
 ![Avvisi e-mail](./assets/email-alerts.png){width="600" zoomable="yes"}
 
-È possibile rilevare due tipi di avvisi:
+Esistono due tipi di avvisi:
 
 * **_Avvisi_** che fanno riferimento a consigli e best practice, ad esempio:
 
-  * `The opt-out link is not present in the email body`: è consigliabile aggiungere un collegamento che consenta di annullare l&#39;abbonamento nel corpo dell&#39;e-mail.
+  * `The opt-out link is not present in the email body`: è consigliabile aggiungere al corpo dell&#39;e-mail un collegamento per annullare l&#39;abbonamento.
 
     >[!NOTE]
     >

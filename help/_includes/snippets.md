@@ -1,9 +1,9 @@
 ---
 title: Snippet
 description: Riutilizzo di note ed elementi visivi per annotare una funzione o una pagina applicata a una specifica edizione
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2423'
 ht-degree: 2%
 
 ---
@@ -213,9 +213,9 @@ Nel pannello di destra con la scheda _[!UICONTROL Stili]_ selezionata, espandi l
 
   ![Selettore colore carattere](../assets/content-design-shared/content-components-styles-text-font-color.png){width="300"}
 
-## Contenuto - selezione immagine - Marketo DAM {#me-dam}
+## Contenuto - Selezione immagine - DAM interno {#internal-dam}
 
-Scegli questo tipo per sfogliare e selezionare una risorsa immagine dalla libreria B2B edition di Journey Optimizer o dall’istanza connessa di Market Engage.
+Scegli questo tipo per sfogliare e selezionare una risorsa immagine dalla libreria B2B edition di Journey Optimizer.
 
 ![Sfoglia le risorse immagini disponibili](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

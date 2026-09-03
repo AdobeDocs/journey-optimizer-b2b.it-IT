@@ -18,10 +18,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: 06b214f486571275d723e7a67fdf352263990b79
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 2541
-ht-degree: 3%
+source-wordcount: 2356
+ht-degree: 4%
 
 ---
 
@@ -105,7 +105,7 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo account**&#x200B;_
 
 Puoi definire un percorso per gli account associati ai gruppi di acquisto e filtrarlo utilizzando i criteri del gruppo di acquisto. Utilizza il filtro **[!UICONTROL Account con gruppo di acquisto corrispondente]** per definire il segmento del percorso utilizzando un gruppo di acquisto corrispondente. Questo filtro include anche l’opzione per identificare gli account in base al numero di ruoli assegnati all’interno di un gruppo di acquisto corrispondente.
 
-Ad esempio, puoi valutare lo stato di preparazione di un gruppo di acquisto in base al numero di persone che occupa in ruoli diversi, ad esempio tre decision maker e due influencer. In questo caso, imposta la condizione per eseguire il targeting dei conti con un minimo di tre (3) decision maker e due (2) influencer in un gruppo di acquisto abbinato:
+Ad esempio, valuta la preparazione del gruppo di acquisto in base alla profondità (numero di persone) di cui dispone in ruoli diversi, ad esempio tre decision-maker e due influencer. In questo caso, imposta la condizione per eseguire il targeting dei conti con un minimo di tre (3) decision maker e due (2) influencer in un gruppo di acquisto abbinato:
 
 1. Fai clic su **[!UICONTROL Aggiungi filtro]** e scegli il filtro **[!UICONTROL Numero di persone nell&#39;acquisto del ruolo del gruppo]**.
 
@@ -127,7 +127,7 @@ Ad esempio, puoi valutare lo stato di preparazione di un gruppo di acquisto in b
 
 1. Fai clic su **[!UICONTROL Fine]** quando sono state definite tutte le condizioni per il percorso.
 
-Per gli account identificati, puoi quindi aggiungere un nodo di azione nel percorso per aggiornare lo stato del gruppo di acquisto o della fase o per inviare un messaggio e-mail di avviso sulle vendite.
+Per aggiornare lo stato del gruppo di acquisto o della fase o per inviare un messaggio e-mail di avviso sulle vendite per gli account identificati, aggiungi un nodo di azione nel percorso.
 
 ## Dividi percorsi per persone
 
@@ -153,8 +153,6 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 | [!UICONTROL Cronologia eventi] | Divide le persone in base agli eventi di esperienza che si sono verificati prima dell’ingresso nel percorso. Espandere la cartella per visualizzare tutti i tipi di evento configurati in [Amministrazione > Configurazione evento XDM](../admin/configure-aep-events.md) e selezionarne uno da aggiungere come filtro. I vincoli includono i campi dell’evento selezionato, un intervallo di tempo di lookback misurato dal momento in cui la persona entra nel percorso e un numero minimo facoltativo di volte. |
 | [!UICONTROL Attributi persona] | Attributi dal [profilo persona](../admin/field-mapping.md#xdm-business-person-attributes), inclusi: <li>Città <li>Paese <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area geografica dello stato dedotta <li>Titolo del processo <li>Cognome <li>Numero di cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato |
 | [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>È stato rimosso</li><li>Ruolo</li> |
-| [!UICONTROL Filtri speciali] > [!UICONTROL Membro dell&#39;elenco] | (Obsoleto) L&#39;utente è o non è membro di uno o più elenchi [!DNL Marketo Engage]. |
-| [!UICONTROL Filtri speciali] > [!UICONTROL Membro del programma] | (Obsoleto) L&#39;utente è o non è membro di uno o più programmi [!DNL Marketo Engage]. |
 
 ### Condizioni del percorso account-persona
 
@@ -183,7 +181,7 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 
 1. Per definire una condizione applicabile a _[!UICONTROL Percorso 1]_, fare clic su **[!UICONTROL Applica condizione]**.
 
-1. Nell’editor delle condizioni, aggiungi uno o più filtri per definire il percorso di divisione.
+1. Per definire il percorso di divisione, aggiungi uno o più filtri nell’editor delle condizioni.
 
    * Trascina e rilascia uno dei filtri persone dalla navigazione a sinistra e completa la definizione della corrispondenza.
 
@@ -215,17 +213,17 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 
    Quando hai definito le condizioni per ogni percorso per suddividere il pubblico a livello di persone, puoi aggiungere azioni che desideri eseguire sulle persone.
 
-### Filtro cronologia eventi esperienza {#experience-event-history-filtering}
+### Filtro relativo alla cronologia di eventi esperienza {#experience-event-history-filtering}
 
-Per un percorso suddiviso per persone, puoi definire un percorso in base agli eventi di esperienza che si sono verificati prima che la persona entrasse nel percorso. Nell&#39;editor condizioni espandere la cartella **[!UICONTROL Cronologia eventi]** per visualizzare un elenco di tutti i tipi di eventi configurati dall&#39;amministratore. Seleziona un tipo di evento per aggiungerlo come condizione di filtro.
+Per un percorso suddiviso per persone, puoi definire un percorso in base agli eventi di esperienza che si sono verificati prima che la persona entrasse nel percorso. Per visualizzare un elenco di tutti i tipi di evento configurati dall&#39;amministratore, espandere la cartella **[!UICONTROL Event history]** nell&#39;editor delle condizioni. Seleziona un tipo di evento per aggiungerlo come condizione di filtro.
 
 L’intervallo di tempo di lookback per la cronologia degli eventi viene misurato indietro dal momento in cui la persona entra nel percorso. Una finestra di 30 giorni, ad esempio, valuta se l&#39;evento idoneo si è verificato nei 30 giorni precedenti l&#39;immissione del percorso.
 
-Puoi perfezionare ulteriormente il filtro utilizzando vincoli specifici per i campi dell’evento selezionato. I vincoli facoltativi **[!UICONTROL Numero minimo di volte]** e **[!UICONTROL Data attività]** vengono entrambi valutati nell&#39;intervallo di lookback definito. Poiché i dati della cronologia eventi vengono sincronizzati da Adobe Experience Platform, potrebbe verificarsi un breve ritardo prima che un evento recente diventi visibile a questo filtro.
+Puoi perfezionare ulteriormente il filtro utilizzando vincoli specifici per i campi dell’evento selezionato. I vincoli facoltativi **[!UICONTROL Numero minimo di volte]** e **[!UICONTROL Data attività]** vengono entrambi valutati nell&#39;intervallo di lookback definito. Poiché i dati della cronologia eventi vengono sincronizzati da Adobe Experience Platform, potrebbe trascorrere un breve ritardo prima che un evento recente diventi disponibile per questo filtro.
 
 >[!NOTE]
 >
->Gli eventi disponibili nella cartella [!UICONTROL Cronologia eventi] sono determinati dalle [Configurazioni eventi esperienza e campi](../admin/configure-aep-events.md).
+>Le [configurazioni dei campi e degli eventi esperienza](../admin/configure-aep-events.md) determinano gli eventi disponibili nella cartella [!UICONTROL Cronologia eventi].
 
 **Esempio:** Per indirizzare gli utenti che hanno fatto clic su un collegamento in un&#39;e-mail di marketing prima di entrare nel percorso, seleziona l&#39;evento di clic e-mail dalla cartella [!UICONTROL Event history], imposta l&#39;intervallo di lookback in modo che copra il periodo di tempo rilevante e applica eventuali vincoli a livello di campo (ad esempio un URL di collegamento specifico) in base alle esigenze.
 
@@ -233,7 +231,7 @@ Puoi perfezionare ulteriormente il filtro utilizzando vincoli specifici per i ca
 
 >[!BEGINSHADEBOX &quot;Filtro inattività&quot;]
 
-Per ciascuno dei filtri _[!UICONTROL Cronologia eventi]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa al filtro di inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Ad esempio, aggiungi il filtro _[!UICONTROL E-mail marketing diretto aperto]_ per creare un percorso per le persone che _&#x200B;**non hanno**&#x200B;_ aperto un&#39;e-mail. Abilita l’opzione di inattività e specifica l’e-mail.
+Per ciascuno dei filtri _[!UICONTROL Cronologia eventi]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa al filtro di inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Per creare un percorso per le persone che _&#x200B;**non hanno aperto**&#x200B;_ un&#39;e-mail, aggiungi il filtro _[!UICONTROL E-mail marketing diretto aperto]_. Abilita l’opzione di inattività e specifica l’e-mail.
 
 ![Dividi percorso per condizione di inattività persone](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -241,40 +239,24 @@ Per ciascuno dei filtri _[!UICONTROL Cronologia eventi]_, è possibile abilitare
 
 ### Filtro appartenenza
 
-Nella sezione _[!UICONTROL Filtri speciali]_ sono disponibili più filtri che è possibile utilizzare per valutare l&#39;appartenenza di una persona a un gruppo di acquisto o a un elenco di [!DNL Marketo Engage].
+Nella sezione _[!UICONTROL Filtri speciali]_ sono disponibili più filtri che è possibile utilizzare per valutare l&#39;appartenenza di una persona a un gruppo di acquisto.
 
-Ad esempio, se desideri creare un percorso per le persone che sono membri di un gruppo di acquisto e a cui è assegnato un ruolo particolare, aggiungi il filtro _[!UICONTROL Filtri speciali]_ > _[!UICONTROL Membro del gruppo di acquisto]_. Per il filtro, impostare l&#39;appartenenza come _true_, selezionare un _[!UICONTROL Interesse per la soluzione]_ associato a uno o più gruppi di acquisto e impostare il _[!UICONTROL Ruolo]_ che si desidera associare.
+Ad esempio, se desideri creare un percorso per le persone che sono membri di un gruppo di acquisto e a cui è assegnato un ruolo particolare, aggiungi il filtro _[!UICONTROL Filtri speciali]_ > _[!UICONTROL Membro del gruppo di acquisto]_. Per il filtro, impostare l&#39;appartenenza come _true_ e selezionare un _[!UICONTROL interesse per la soluzione]_ associato a uno o più gruppi di acquisto.
 
 ![Condizione Dividi percorso per persona per l&#39;acquisto dell&#39;iscrizione al gruppo](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
-È inoltre possibile includere ulteriori vincoli di appartenenza ai gruppi di acquisto:
+Fare clic su **[!UICONTROL Aggiungi vincolo]** per includere ulteriori vincoli di appartenenza al gruppo di acquisto:
 
 * _[!UICONTROL Fase gruppo acquisti]_
 * _[!UICONTROL Stato gruppo acquisti]_
 * _[!UICONTROL Punteggio di completezza]_
 * _[!UICONTROL Punteggio di coinvolgimento]_
 * _[!UICONTROL Rimosso]_
+* _[!UICONTROL Ruolo]_
 
 >[!TIP]
 >
 >Per escludere i membri rimossi da un gruppo di acquisto, utilizzare il vincolo _[!UICONTROL Rimosso]_ impostato su `false`. È inoltre possibile includere in modo esplicito i membri rimossi impostando questo vincolo su `true`.
-
->[!BEGINSHADEBOX &quot;Elenco Marketo Engage e appartenenza al programma&quot;]
-
-In [!DNL Marketo Engage], _Smart Campaigns_ controlla l&#39;appartenenza ai programmi per assicurarsi che i lead non ricevano e-mail duplicate e non siano membri di più flussi di e-mail contemporaneamente. In Journey Optimizer B2B, è possibile verificare l&#39;appartenenza all&#39;elenco [!DNL Marketo Engage] come condizione per il percorso di suddivisione da parte delle persone per eliminare la duplicazione nelle attività di percorso.
-
-Per utilizzare l&#39;appartenenza all&#39;elenco in una condizione di suddivisione, espandere **[!UICONTROL Filtri speciali]** e trascinare la condizione **[!UICONTROL Membro dell&#39;elenco]** o **[!UICONTROL Membro del programma]** nello spazio del filtro. Completare la definizione del filtro per valutare l&#39;appartenenza a uno o più elenchi [!DNL Marketo Engage].
-
-![Condizione Dividi percorso in base alle persone per l&#39;appartenenza all&#39;elenco [!DNL Marketo Engage]](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
-<br/>
-
->[!NOTE]
->
->**Funzionalità obsolete**</br></br>
->
->Nella versione corrente di Journey Optimizer B2B edition, il filtro basato sull’iscrizione a un elenco o a un programma in un’istanza di Marketo Engage non è supportato.
-
->[!ENDSHADEBOX]
 
 ## Filtro dati personalizzato {#custom-data-filtering}
 
@@ -288,7 +270,7 @@ Per una condizione **[!UICONTROL Dividi percorso per account]** o **[!UICONTROL 
 
 ## Unisci percorsi {#merge-paths}
 
-Aggiungi un nodo _Unisci percorsi_ per combinare diversi _percorsi suddivisi per account_ nel percorso.
+Per combinare diversi _percorsi suddivisi per account_ nel percorso, aggiungere un nodo _Percorsi unione_.
 
 1. In una mappa di percorso con un nodo diviso che ha tre o più percorsi, aggiungi una combinazione di azioni ed eventi a ciascun percorso.
 

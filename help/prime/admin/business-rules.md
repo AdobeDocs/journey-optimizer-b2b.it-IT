@@ -22,7 +22,7 @@ role_v2:
 source-git-commit: 945c02e4edb6f38dbc8a1ec6b6c97f7825ef4af9
 workflow-type: tm+mt
 source-wordcount: 2975
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -39,8 +39,8 @@ Puoi creare due tipi di set di regole:
 
 * I set di regole **Canale** applicano regole ai canali di comunicazione. Consentono di impostare:
 
-   * **Regole per il limite di frequenza** - Esempio: *Non inviare più di una comunicazione e-mail, SMS, push, direct mail o WhatsApp al giorno.*
-   * **Regole per le ore di pausa** - Esempio: *Non inviare messaggi e-mail al di fuori del timeslot delle 8.00 - 21.00.*
+  * **Regole per il limite di frequenza** - Esempio: *Non inviare più di una comunicazione e-mail, SMS, push, direct mail o WhatsApp al giorno.*
+  * **Regole per le ore di pausa** - Esempio: *Non inviare messaggi e-mail al di fuori del timeslot delle 8.00 - 21.00.*
 
 * I set di regole **Percorso** applicano a un percorso le regole dei limiti di concorrenza e di immissione. (Non ancora supportata per la versione Beta).
 
@@ -83,7 +83,7 @@ Per disattivare una regola, fai clic sull&#39;icona _Disattiva_ ( ![Icona Disatt
 >
 >La disattivazione di una regola o di un set di regole non influisce né reimposta i conteggi sui singoli profili.
 
-## Creare e attivare set di regole personalizzati {#create}
+## Creare e attivare set di regole personalizzate {#create}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_set_domain"
@@ -102,8 +102,8 @@ Per disattivare una regola, fai clic sull&#39;icona _Disattiva_ ( ![Icona Disatt
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_duration"
->title="Reimposta la frequenza di limite"
->abstract="Selezionare il periodo di calendario utilizzato per reimpostare il contatore dei limiti: Orario, Giornaliero, Settimanale o Mensile. Il contatore viene reimpostato automaticamente su 0 all&#39;inizio di ogni nuovo periodo."
+>title="Ripristina la limitazione della frequenza"
+>abstract="Seleziona il periodo di calendario utilizzato per ripristinare il contatore delle limitazioni: Orario, Giornaliero, Settimanale o Mensile. Il contatore viene ripristinato automaticamente su 0 all’inizio di ciascun nuovo periodo."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_set_rule_capping"
@@ -352,9 +352,9 @@ Puoi applicare le ore non interattive tramite set di regole e assegnarle a singo
 
    * Fai clic sull&#39;icona _Calendario_ e specifica il periodo di tempo in cui applicare le ore non interattive.
 
-      * **[!UICONTROL Settimanale]** - Scegli giorni specifici della settimana e una fascia oraria. Puoi anche applicare la regola **[!UICONTROL Tutto il giorno]**.
+     * **[!UICONTROL Settimanale]** - Scegli giorni specifici della settimana e una fascia oraria. Puoi anche applicare la regola **[!UICONTROL Tutto il giorno]**.
 
-      * **[!UICONTROL Data personalizzata]** - Scegli date specifiche nel calendario e una sequenza temporale. Puoi anche applicare la regola **[!UICONTROL Tutto il giorno]**.
+     * **[!UICONTROL Data personalizzata]** - Scegli date specifiche nel calendario e una sequenza temporale. Puoi anche applicare la regola **[!UICONTROL Tutto il giorno]**.
 
      ![Finestra di dialogo Calendario per definire date e ore non interattive](./assets/business-rules-quiet-hours-dates-times-calendar.png){width="450"}
 

@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 5635
+source-wordcount: 5633
 ht-degree: 61%
 
 ---
@@ -162,7 +162,7 @@ Nell’interfaccia chat di Journey Optimizer B2B edition sono ora disponibili le
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Attiva nella destinazione per percorsi | Utilizza la nuova azione per gli account aziendali _Attiva nella destinazione_ per eseguire l’attivazione direttamente per le aziende, anziché per i singoli individui. (Limitato alle società LinkedIn per questa versione). [Ulteriori informazioni](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| Funzione | Attiva nella destinazione per percorsi | Utilizza la nuova azione per gli account aziendali _Attiva nella destinazione_ per eseguire l’attivazione direttamente per le aziende, anziché per i singoli individui. (Limitato alle società LinkedIn per questa versione). [Ulteriori informazioni](../journeys/action-nodes.md#activate-deactivate-destination) |
 | Funzione | Temi del brand | Con i temi del brand, gli utenti non tecnici ora hanno la possibilità di creare contenuti riutilizzabili che si adattano a un brand e a un linguaggio di progettazione specifici aggiungendo stili personalizzati ai modelli standard. [Ulteriori informazioni](../content/brand-themes.md) |
 | Funzione | Modelli e-mail - Converti immagine in HTML | Ora puoi utilizzare i file di progettazione archiviati come file di immagine JPG o PNG e generare automaticamente modelli e-mail. [Ulteriori informazioni](../content/email-template-image-convert.md) |
 | Funzione | Mappatura utente tipo | Associa i membri dell’account agli utenti tipo stabiliti con la mappatura degli attributi. [Ulteriori informazioni](../admin/persona-mapping.md) |
@@ -254,7 +254,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Funzione | Accesso dal CRM alle pagine dei dettagli | Ora puoi configurare collegamenti diretti alle pagine dei dettagli di Journey Optimizer B2B Edition per account, contatti e lead nel tuo strumento di gestione delle relazioni con i clienti (CRM), come Salesforce o Microsoft Dynamics. [Ulteriori informazioni](../accounts/crm-linking.md) |
 | Funzione | Supporto per CSS personalizzati nella progettazione dei contenuti | Ora, nello spazio di progettazione, puoi aggiungere un CSS personalizzato durante l’authoring dei contenuti per e-mail e pagine di destinazione. [Ulteriori informazioni](../content/design-custom-css.md) |
 | Funzione | Configurazione della mappatura delle parole chiave di intento | Per attivare e gestire il modello di rilevamento intento, gli amministratori ora possono caricare un foglio di calcolo per definire una categoria di mappatura dei dati intento. [Ulteriori informazioni](../admin/intent-data.md) |
-| Miglioramento | Simulare il contenuto da riepilogo e-mail | È ora possibile accedere agli strumenti _Simula contenuto_ dal riepilogo dell’e-mail (dettagli e proprietà) quando viene aperto un messaggio dall’elenco E-mail. Questo si aggiunge alla possibilità di accedere a tali strumenti dallo spazio di progettazione delle e-mail. [Ulteriori informazioni](../content/email-simulate-content.md#display-the-email-preview) |
+| Miglioramento | Simulare il contenuto da riepilogo e-mail | È ora possibile accedere agli strumenti _Simula contenuto_ dal riepilogo dell’e-mail (dettagli e proprietà) quando viene aperto un messaggio dall’elenco E-mail. Questo si aggiunge alla possibilità di accedere a tali strumenti dallo spazio di progettazione delle e-mail. [Ulteriori informazioni](../content/email-simulate-content.md#display-preview) |
 | Miglioramento | Visualizzazione del conteggio totale nell’elenco dei modelli di ruoli | La pagina dell’elenco _[!UICONTROL Modelli ruoli]_ è stata migliorata con la visualizzazione del conteggio totale accanto alla barra di ricerca. |
 
 ## Note sulla versione 2025.5 {#rel-2025-5}
@@ -280,7 +280,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | ---- | ---- | ----------- |
 | Funzione | Elenchi account | Ora puoi creare un elenco account statico o dinamico per eseguire il targeting di account denominati in base a criteri definiti, ad esempio settore, posizione o dimensioni dell’azienda. <a href="../accounts/account-lists.md">Ulteriori informazioni</a> |
 | Funzione | Orchestrazione dei percorsi dell’elenco account | Utilizza i nodi delle azioni di percorso per aggiungere e rimuovere account per gli elenchi di account statici. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Ulteriori informazioni</a> |
-| Miglioramento | Filtrare l’iscrizione al percorso in Marketo Engage | Utilizza gli elenchi account di Adobe Journey Optimizer B2B Edition per il pubblico del percorso, quindi utilizza il filtro _Membro di un elenco account_ negli elenchi avanzati di Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Ulteriori informazioni</a> |
+| Miglioramento | Filtrare l’iscrizione al percorso in Marketo Engage | Utilizza gli elenchi account di Adobe Journey Optimizer B2B Edition per il pubblico del percorso, quindi utilizza il filtro _Membro di un elenco account_ negli elenchi avanzati di Marketo Engage. |
 | Funzione | Filtri di inattività | Orchestra i percorsi in base all’inattività nelle campagne e nei programmi di Marketo Engage, inclusi inattività delle e-mail, momenti interessanti, modifiche al valore dei dati e pagine web visitate. |
 | Miglioramento | Filtro pagina web visitata | Orchestra i percorsi in base all’attività per le pagine web visitate associate a campagne e programmi di Marketo Engage. |
 | Miglioramento | Elenco di e-mail | Visualizza un elenco globale di e-mail attive e bozze per eseguirne la ricerca, la revisione e l’aggiornamento nei percorsi di account associati. <a href="../content/emails-list.md">Ulteriori informazioni</a> |

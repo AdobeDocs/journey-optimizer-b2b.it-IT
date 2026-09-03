@@ -17,9 +17,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 1912
+source-wordcount: 1913
 ht-degree: 0%
 
 ---
@@ -77,9 +77,9 @@ Per ogni percorso, definisci un nome e un prompt in linguaggio naturale che desc
 
      **Esempio di richiesta di una suddivisione a tre percorsi:**
 
-      * _Percorso 1 - Leader HR :_Identifica le persone con ruoli di leadership HR che hanno più probabilità di interagire con la gestione dei talenti e con il contenuto dell&#39;esperienza dei dipendenti.
-      * _Path 2 - Technical Evaluators :_Identifica i soggetti tecnici che hanno maggiori probabilità di interagire con l&#39;architettura del prodotto, le integrazioni e il contenuto dell&#39;implementazione.
-      * _Path 3 - Business Decision-Makers :_Identifica le parti interessate più propense a interagire con ROI, risultati aziendali e contenuti di case study.
+     * _Percorso 1 - Leader HR :_Identifica le persone con ruoli di leadership HR che hanno più probabilità di interagire con la gestione dei talenti e con il contenuto dell&#39;esperienza dei dipendenti.
+     * _Path 2 - Technical Evaluators :_Identifica i soggetti tecnici che hanno maggiori probabilità di interagire con l&#39;architettura del prodotto, le integrazioni e il contenuto dell&#39;implementazione.
+     * _Path 3 - Business Decision-Makers :_Identifica le parti interessate più propense a interagire con ROI, risultati aziendali e contenuti di case study.
 
 1. Se necessario, riordina i percorsi per impostare l’ordine di priorità per la corrispondenza.
 
@@ -274,7 +274,7 @@ Utilizza la simulazione per verificare in che modo l’intelligenza artificiale 
 1. Nella finestra di dialogo, scegli il pubblico da utilizzare per la simulazione:
 
    * **[!UICONTROL Elenchi persone originali]** - Utilizza il pubblico dal nodo del pubblico. Specifica una dimensione di esempio quando il pubblico completo supera la soglia di simulazione.
-   * **[!UICONTROL Elenchi dinamici e statici]** - Utilizzare un elenco [!DNL Marketo Engage] statico o dinamico.
+   * **[!UICONTROL Elenchi dinamici e statici]** - Utilizzare un elenco persone statico o dinamico.
    * **[!UICONTROL Record di test]** - Utilizza i profili di test suggeriti dall&#39;intelligenza artificiale.
 
    ![Percorso migliore successivo - Simula - scegli il pubblico](./assets/node-next-best-path-simulate-dialog.png){width="300"}
