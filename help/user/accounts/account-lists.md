@@ -4,24 +4,16 @@ description: Creazione di elenchi di account statici e dinamici con filtri perso
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e935834c-48b7-43d8-b754-a815196a1b05
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e935834c-48b7-43d8-b754-a815196a1b05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1339
+source-wordcount: 1262
 ht-degree: 2%
 
 ---
@@ -31,15 +23,11 @@ ht-degree: 2%
 In Journey Optimizer B2B edition, un elenco di account è una raccolta di account denominati che gli addetti al marketing possono utilizzare per l’orchestrazione del percorso di destinazione. Un elenco di conti può eseguire il targeting dei conti denominati in base a criteri definiti, ad esempio settore, posizione o dimensioni dell’azienda. Esistono due tipi di elenchi di account:
 
 * **Statico** - Con un elenco di account statico, l&#39;elenco cambia solo quando si aggiungono gli account. È possibile aggiungere manualmente account applicando un set di filtri per compilare l&#39;elenco in base ai dati del conto corrente oppure aggiungere e rimuovere account tramite un percorso di account.
-* **Dinamico** - Con un elenco account dinamico, si definisce un set di filtri per la cura automatica dell&#39;elenco. Il sistema utilizza questo set di filtri per aggiungere e rimuovere account in base alle modifiche apportate alle informazioni sull&#39;account. Questa gestione degli elenchi è simile alla [segmentazione del pubblico in Real-time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
+* **Dinamico** - Con un elenco account dinamico, si definisce un set di filtri per la cura automatica dell&#39;elenco. Il sistema utilizza questo set di filtri per aggiungere e rimuovere account in base alle modifiche apportate alle informazioni sull&#39;account. Questa gestione degli elenchi è simile alla [segmentazione del pubblico in Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
 
-Quando un elenco account è nello stato _Live_ (pubblicato), è disponibile per [l&#39;utilizzo in percorsi di account e programmi Marketo Engage](./account-lists-journeys.md).
+Quando un elenco account è in stato _Live_ (pubblicato), è disponibile per [l&#39;utilizzo in percorsi di account](./account-lists-journeys.md).
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda la panoramica video](#overview-video)
-
->[!NOTE]
->
->Gli elenchi di account sfruttano i dati degli account di Marketo Engage per creare segmenti ed elenchi di account. Ciò significa che se un segmento di account da Adobe Experience Platform non è sincronizzato attivamente in Marketo Engage, gli account in tale segmento di Experience Platform potrebbero non essere disponibili negli elenchi di account di Journey Optimizer B2B edition. Successivamente, solo le persone provenienti da account nei segmenti di Experience Platform sincronizzati con Marketo Engage vengono incluse nei conteggi di appartenenza alle persone e negli eventi di attivazione.
 
 ## Accedere e sfogliare gli elenchi di account
 
@@ -101,7 +89,7 @@ Dopo aver creato l’elenco degli account statici, puoi compilarlo applicando un
 
 1. Fare clic su **[!UICONTROL Aggiungi account]**.
 
-   ![Aggiungere un filtro account per compilare l&#39;elenco &#x200B;](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
+   ![Aggiungere un filtro account per compilare l&#39;elenco ](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
 
    Puoi accedere a questa funzione nella pagina dell’elenco vuota o in alto a destra.
 
@@ -113,7 +101,7 @@ Dopo aver creato l’elenco degli account statici, puoi compilarlo applicando un
    * Completa la definizione della valutazione della corrispondenza.
    * Ripetere queste operazioni per ogni filtro che si desidera includere.
 
-     ![Aggiungere filtri per popolare l&#39;elenco account &#x200B;](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}
+     ![Aggiungere filtri per popolare l&#39;elenco account ](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
    * Puoi ottimizzare le condizioni applicando la **[!UICONTROL logica del filtro]** nella parte superiore. Puoi scegliere di soddisfare tutte le condizioni dell’attributo o qualsiasi condizione.
 
@@ -131,7 +119,7 @@ Dopo aver creato un elenco di account dinamici, puoi definire il set di filtri u
 
 1. Fare clic su **[!UICONTROL Seleziona filtri]**.
 
-   ![Selezionare i filtri utilizzati per compilare l&#39;elenco in modo dinamico &#x200B;](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
+   ![Selezionare i filtri utilizzati per compilare l&#39;elenco in modo dinamico ](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
 
 1. Nella finestra di dialogo _[!UICONTROL Aggiungi account per filtro]_, utilizza il menu **[!UICONTROL Filtri account]** per aggiungere gli attributi e i filtri speciali che desideri utilizzare per creare il set di filtri:
 
@@ -141,7 +129,7 @@ Dopo aver creato un elenco di account dinamici, puoi definire il set di filtri u
    * Completa la definizione della valutazione della corrispondenza.
    * Ripetere queste operazioni per ogni filtro che si desidera includere.
 
-     ![Aggiungere filtri per popolare l&#39;elenco account &#x200B;](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"}
+     ![Aggiungere filtri per popolare l&#39;elenco account ](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
    * Puoi ottimizzare le condizioni applicando la **[!UICONTROL logica di filtro]** nella parte superiore. Puoi scegliere di soddisfare tutte le condizioni dell’attributo o qualsiasi condizione.
 
@@ -195,4 +183,4 @@ Lo stato dell&#39;elenco degli account dinamici cambia in _[!UICONTROL Live]_ ed
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3448657/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)

@@ -4,22 +4,16 @@ description: Calcola i punteggi di coinvolgimento di gruppi di acquisto e person
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T21:43:47.624Z
 TQID: https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1229
 ht-degree: 29%
 
 ---
@@ -43,7 +37,7 @@ Esistono due tipi di punteggi di coinvolgimento:
 
 * **Punteggio di coinvolgimento della persona** - Il punteggio di coinvolgimento della persona si basa sulle attività di un singolo membro del gruppo di acquisto.
 
-  Il punteggio di coinvolgimento della persona per ogni membro del gruppo di acquisto viene visualizzato nella pagina dei dettagli del gruppo di acquisto [_[!UICONTROL Membri &#x200B;]_&#x200B;scheda](./buying-group-details.md#buying-group-members). Questi punteggi vengono visualizzati anche nelle pagine e nei dashboard che includono i membri più coinvolti e le informazioni sui contatti sovrapposte.
+  Il punteggio di coinvolgimento della persona per ogni membro del gruppo di acquisto viene visualizzato nella pagina dei dettagli del gruppo di acquisto [_[!UICONTROL Membri ]_scheda](./buying-group-details.md#buying-group-members). Questi punteggi vengono visualizzati anche nelle pagine e nei dashboard che includono i membri più coinvolti e le informazioni sui contatti sovrapposte.
 
   ![Membri del gruppo di acquisto più coinvolti](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -115,10 +109,6 @@ Per ogni attività è presente un limite di frequenza giornaliero di 20. Se un m
 | [!UICONTROL Clicked Link in Chat in Conversational Flow] | A member clicks a link in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 |
 -->
-
->[!NOTE]
->
->Le attività con punteggio di coinvolgimento vengono registrate nel registro attività di Marketo Engage per una persona. Puoi accedere a questo registro nell’istanza di Marketo Engage connessa. Per ulteriori informazioni, vedere [Individuare il registro attività per una persona](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} nella documentazione di Marketo Engage.
 
 ## Ponderazione basata su modello ruolo {#engagement-score-weighting}
 

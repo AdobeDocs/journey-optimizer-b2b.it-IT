@@ -4,19 +4,15 @@ description: Crea modelli di ruolo con assegnazione automatica condizionale per 
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1577
+source-wordcount: 1432
 ht-degree: 5%
 
 ---
@@ -157,23 +153,6 @@ Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, pe
 
    Le modifiche vengono salvate automaticamente nello stato _Bozza_. Se non sei pronto per pubblicare il modello di ruoli, fai clic sulla freccia sinistra (indietro) nella parte superiore della pagina e torna all&#39;elenco _[!UICONTROL Modelli di ruoli]_.
 
->[!BEGINSHADEBOX &quot;Appartenenza all&#39;elenco Marketo Engage&quot;]
-
-In Marketo Engage, _Campagne avanzate_ verifica l&#39;appartenenza ai programmi per assicurarsi che i lead non ricevano e-mail duplicate e non siano membri di più flussi di e-mail contemporaneamente. In Journey Optimizer B2B, puoi verificare la presenza dell’iscrizione all’elenco Marketo Engage come condizione per il modello dei ruoli, in modo da eliminare le duplicazioni nell’iscrizione al gruppo di acquisto e nelle attività di percorso.
-
-Per utilizzare l&#39;appartenenza a un elenco come condizione del ruolo, espandere **[!UICONTROL Filtri speciali]** e trascinare la condizione **[!UICONTROL Membro dell&#39;elenco]** nello spazio del filtro. Per valutare l’appartenenza a uno o più elenchi Marketo Engage, completa la definizione del filtro.
-
-![Condizione modello ruoli per appartenenza a elenco Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
-<br/>
-
->[!NOTE]
->
->**Funzionalità obsolete**
->
->Nella versione corrente di Journey Optimizer B2B edition, il filtro basato sull’iscrizione a un elenco o a un programma in un’istanza di Marketo Engage non è più supportato.
-
->[!ENDSHADEBOX]
-
 ### Modificare le impostazioni del punteggio di completezza {#change-the-completeness-score-settings}
 
 Per impostazione predefinita, la completezza di un ruolo viene definita come un membro assegnato al ruolo. Quando si utilizza la completezza del gruppo di acquisto per indicare la fattibilità delle vendite, utilizzare queste impostazioni per allineare il punteggio al numero di membri necessari per chiudere un&#39;opportunità.
@@ -188,7 +167,7 @@ Per informazioni dettagliate sul punteggio di completezza e sui calcoli, consult
 
 1. Nella finestra di dialogo, modifica il valore **[!UICONTROL Membri richiesti]** per ogni ruolo definito in base alle esigenze.
 
-   È possibile immettere il valore oppure fare clic su **&plus;** o **−** per aumentare o diminuire il valore.
+   È possibile immettere il valore oppure fare clic su **&amp;plus;** o **−** per aumentare o diminuire il valore.
 
    ![Finestra di dialogo Impostazioni punteggio completezza modello ruoli](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -240,4 +219,4 @@ Puoi eliminare un modello di ruoli se si trova nello stato _Bozza_.
 
 ## Video di panoramica {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453309/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

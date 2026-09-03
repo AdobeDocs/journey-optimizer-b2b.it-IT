@@ -3,21 +3,14 @@ title: Note sulla versione di Journey Optimizer B2B Edition
 description: Scopri le funzioni, i miglioramenti e le correzioni di bug più recenti in Adobe Journey Optimizer B2B Edition. Ricevi gli aggiornamenti di nuove funzionalità e miglioramenti al prodotto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
 source-wordcount: 5633
 ht-degree: 61%
@@ -154,7 +147,7 @@ Nell’interfaccia chat di Journey Optimizer B2B edition sono ora disponibili le
 | ----- | ------ | ----------- |
 | Journey Build Agent | Nuovo e aggiornato | Il Journey Build Agent analizza, progetta e collabora sui percorsi in tempo reale, consentendo ai marketer di avviare più rapidamente, migliorare il coinvolgimento e aumentare i tassi di conversione. [Ulteriori informazioni](../agents/journey-agent.md) |
 | Agente Audience | Nuovo | L’Agente Audience identifica e crea automaticamente i gruppi acquisti utilizzando dati strutturati e non strutturati. Aiuta i marketer a mirare le persone giuste in modo più rapido e preciso. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
-| Qualificatore di vendita | Nuovo | Sales Qualifier è un&#39;applicazione aggiuntiva basata sull&#39;intelligenza artificiale per Adobe Journey Optimizer B2B edition che contiene il Account Qualification Agent ed è progettata per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti nei vari canali. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/sales-qualifier/using/home){target="_blank"} |
+| Qualificatore di vendita | Nuovo | Sales Qualifier è un&#39;applicazione aggiuntiva basata sull&#39;intelligenza artificiale per Adobe Journey Optimizer B2B edition che contiene il Account Qualification Agent ed è progettata per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti nei vari canali. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Note sulla versione 2025.10 {#rel-2025-10}
 
@@ -328,7 +321,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Funzione | Modifica delle immagini di Adobe Express | Le azioni rapide di Adobe Express consentono di apportare semplici modifiche (ad esempio ritagliare e ridimensionare) alle immagini per conferire un aspetto più curato al contenuto. <a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">Ulteriori informazioni</a>  <p>Per un set più completo di strumenti di progettazione, questa integrazione consente di ottenere una licenza Adobe Express completa in Journey Optimizer B2B Edition. Con questa configurazione, l’interfaccia utente completa di Adobe Express diventa accessibile all’interno dell’area di lavoro locale delle risorse. <a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">Ulteriori informazioni</a> |
 | Funzione | Filtri intento per ruoli di gruppi acquisti | Nell’invio di parole chiave di intento, il modello di rilevamento intento prevede una soluzione o un prodotto di interesse con sufficiente affidabilità in base all’attività di un lead. <a href="../admin/intent-data.md">Ulteriori informazioni</a> <p>Questi dati di intento sono disponibili per definire le condizioni dei ruoli del gruppo acquisti <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Ulteriori informazioni</a> |
 | Miglioramento | Supporto di eventi Marketo Engage nei percorsi | Il nodo di percorso _Ascolta evento_ ora supporta due eventi Marketo Engage a livello di persone: _Visite alla pagina Web_ e _Compila modulo_. <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">Ulteriori informazioni</a> |
-| Miglioramento | Filtri del gruppo acquisti per elenchi avanzati di Marketo Engage | Visualizza e crea elenchi avanzati con filtri del gruppo acquisti in Marketo Engage. Questi filtri aggiunti consentono di eliminare e includere i membri del gruppo acquisti in campagne e programmi Marketo Engage da percorsi di account in Journey Optimizer B2B Edition. <a href="../buying-groups/marketo-engage-smart-list-buying-group-filters.md">Ulteriori informazioni</a> |
+| Miglioramento | Filtri del gruppo acquisti per elenchi avanzati di Marketo Engage | Visualizza e crea elenchi avanzati con filtri del gruppo acquisti in Marketo Engage. Questi filtri aggiunti consentono di eliminare e includere i membri del gruppo acquisti in campagne e programmi Marketo Engage da percorsi di account in Journey Optimizer B2B Edition. _Funzione obsoleta_ |
 | Miglioramento | Filtro di iscrizione all’elenco Marketo Engage per percorsi e ruoli | In Journey Optimizer B2B, verifica l’iscrizione all’elenco Marketo Engage come condizione per un nodo di _percorso suddiviso da persone_ per eliminare la duplicazione nelle attività di percorso. <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Ulteriori informazioni</a> <p> Per i modelli dei ruoli del gruppo acquisti, utilizza l’iscrizione all’elenco come condizione del ruolo. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Ulteriori informazioni</a> |
 | Miglioramento | Dashboard panoramica del coinvolgimento | Questa dashboard viene aggiornata per fornire una visione completa del coinvolgimento. Mostra metriche in tempo reale di interazioni tra account e singoli individui tramite grafici a cerchi istantanei e grafici a linee che rivelano le tendenze nel tempo. <a href="../dashboards/engagement-dashboard.md">Ulteriori informazioni</a> |
 
