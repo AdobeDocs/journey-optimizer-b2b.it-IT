@@ -19,9 +19,9 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1339
+source-wordcount: 1262
 ht-degree: 2%
 
 ---
@@ -33,13 +33,9 @@ In Journey Optimizer B2B edition, un elenco di account è una raccolta di accoun
 * **Statico** - Con un elenco di account statico, l&#39;elenco cambia solo quando si aggiungono gli account. È possibile aggiungere manualmente account applicando un set di filtri per compilare l&#39;elenco in base ai dati del conto corrente oppure aggiungere e rimuovere account tramite un percorso di account.
 * **Dinamico** - Con un elenco account dinamico, si definisce un set di filtri per la cura automatica dell&#39;elenco. Il sistema utilizza questo set di filtri per aggiungere e rimuovere account in base alle modifiche apportate alle informazioni sull&#39;account. Questa gestione degli elenchi è simile alla [segmentazione del pubblico in Real-time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
 
-Quando un elenco account è nello stato _Live_ (pubblicato), è disponibile per [l&#39;utilizzo in percorsi di account e programmi Marketo Engage](./account-lists-journeys.md).
+Quando un elenco account è in stato _Live_ (pubblicato), è disponibile per [l&#39;utilizzo in percorsi di account](./account-lists-journeys.md).
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda la panoramica video](#overview-video)
-
->[!NOTE]
->
->Gli elenchi di account sfruttano i dati degli account di Marketo Engage per creare segmenti ed elenchi di account. Ciò significa che se un segmento di account da Adobe Experience Platform non è sincronizzato attivamente in Marketo Engage, gli account in tale segmento di Experience Platform potrebbero non essere disponibili negli elenchi di account di Journey Optimizer B2B edition. Successivamente, solo le persone provenienti da account nei segmenti di Experience Platform sincronizzati con Marketo Engage vengono incluse nei conteggi di appartenenza alle persone e negli eventi di attivazione.
 
 ## Accedere e sfogliare gli elenchi di account
 

@@ -1,10 +1,10 @@
 ---
 title: Snippet
 description: Riutilizzo di note ed elementi visivi per annotare una funzione o una pagina applicata a una specifica edizione
-source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: '2423'
-ht-degree: 2%
+source-wordcount: '2318'
+ht-degree: 0%
 
 ---
 
@@ -264,16 +264,3 @@ Nella finestra di dialogo _[!UICONTROL Carica immagine]_, trascina un file dal s
 I nomi dei file delle immagini selezionate vengono visualizzati nella finestra di dialogo. I nomi dei file di risorse devono essere univoci (per tutte le cartelle) e, se esiste già un file con questo nome, viene visualizzato un messaggio. I nomi possono contenere un massimo di 100 caratteri e non possono contenere caratteri speciali (ad esempio `;`, `:`, `\` e `|`).
 
 Fai clic su **[!UICONTROL Importa]**.
-
-## Attività con punteggio di coinvolgimento - Marketo {#engagement-activities-me}
-
-| Nome attività | Descrizione | Frequenza massima giornaliera | Peso attività modello predefinito |
-| --- | --- | --- | --- |
-| [!UICONTROL Partecipa all&#39;evento] | Un membro ha partecipato a un evento | 20 | 60 |
-| [!UICONTROL E-mail selezionata] | Un membro fa clic su un collegamento in un’e-mail | 20 | 30 |
-| [!UICONTROL E-mail aperta] | Un membro apre un’e-mail | 20 | 30 |
-| [!UICONTROL Modulo compilato] | Un membro compila e invia un modulo in una pagina web | 20 | 40 |
-| [!UICONTROL Momento interessante] | Un membro ha un momento interessante | 20 | 60 |
-| [!UICONTROL Clic collegamento] | Un membro fa clic su un collegamento in una pagina web | 20 | 40 |
-| [!UICONTROL Visualizzazioni pagina] | Un membro visualizza una pagina web | 20 | 40 |
-| [!UICONTROL Registrati all&#39;evento] | Un membro registrato per un evento | 20 | 60 |

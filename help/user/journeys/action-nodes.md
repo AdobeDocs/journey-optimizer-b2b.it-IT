@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
 workflow-type: tm+mt
-source-wordcount: 2193
+source-wordcount: 2184
 ht-degree: 3%
 
 ---
@@ -125,7 +125,6 @@ In un percorso di account o persone, utilizza un’azione sulle persone quando d
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Aggiungi persona a (altro) percorso] | <li>Percorso account (azione sulle persone) <li>Percorso persone | <li>Seleziona percorso persone live |
 | | [!UICONTROL Aggiungi a pubblico cliente esterno] | <li>Percorso di account <li>Percorso persone | <li>Seleziona un pubblico di clienti esterno |
 | | [!UICONTROL Assegna al gruppo di acquisto] | <li>Percorso di account | <li>Seleziona l’interesse della soluzione <li>Seleziona ruolo |
-| | [!UICONTROL Modifica punteggio] | <li>Percorso di account | <li>Nome punteggio <li>Modifica del punteggio |
 | | [!UICONTROL Momento di interesse della persona] | <li>Percorso di account <li>Percorso persone | <li>Tipo <li>Descrizione |
 | | [!UICONTROL Personalizza esperienza Web] (Beta) | <li>Percorso di account | <li>Creare/modificare un’esperienza web |
 | | [!UICONTROL Rimuovi dal gruppo di acquisto] | <li>Percorso di account | <li>Seleziona l’interesse della soluzione |

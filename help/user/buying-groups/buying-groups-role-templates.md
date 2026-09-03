@@ -14,9 +14,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1577
+source-wordcount: 1432
 ht-degree: 5%
 
 ---
@@ -156,23 +156,6 @@ Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, pe
    ![Modello ruoli con più ruoli definiti](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
    Le modifiche vengono salvate automaticamente nello stato _Bozza_. Se non sei pronto per pubblicare il modello di ruoli, fai clic sulla freccia sinistra (indietro) nella parte superiore della pagina e torna all&#39;elenco _[!UICONTROL Modelli di ruoli]_.
-
->[!BEGINSHADEBOX &quot;Appartenenza all&#39;elenco Marketo Engage&quot;]
-
-In Marketo Engage, _Campagne avanzate_ verifica l&#39;appartenenza ai programmi per assicurarsi che i lead non ricevano e-mail duplicate e non siano membri di più flussi di e-mail contemporaneamente. In Journey Optimizer B2B, puoi verificare la presenza dell’iscrizione all’elenco Marketo Engage come condizione per il modello dei ruoli, in modo da eliminare le duplicazioni nell’iscrizione al gruppo di acquisto e nelle attività di percorso.
-
-Per utilizzare l&#39;appartenenza a un elenco come condizione del ruolo, espandere **[!UICONTROL Filtri speciali]** e trascinare la condizione **[!UICONTROL Membro dell&#39;elenco]** nello spazio del filtro. Per valutare l’appartenenza a uno o più elenchi Marketo Engage, completa la definizione del filtro.
-
-![Condizione modello ruoli per appartenenza a elenco Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
-<br/>
-
->[!NOTE]
->
->**Funzionalità obsolete**
->
->Nella versione corrente di Journey Optimizer B2B edition, il filtro basato sull’iscrizione a un elenco o a un programma in un’istanza di Marketo Engage non è più supportato.
-
->[!ENDSHADEBOX]
 
 ### Modificare le impostazioni del punteggio di completezza {#change-the-completeness-score-settings}
 

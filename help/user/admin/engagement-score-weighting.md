@@ -16,9 +16,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1257
 ht-degree: 0%
 
 ---
@@ -58,10 +58,6 @@ Per visualizzare i modelli attivi, bozza e archiviati, apri l&#39;elenco di pond
 Il sistema crea un modello di punteggio di coinvolgimento iniziale denominato _Modello di ponderazione attività 1_. Le attività di coinvolgimento si basano su eventi Experience Platform standard e personalizzati. Il valore predefinito per tutte le attività è 0.
 
 ![Modello di ponderazione del punteggio di coinvolgimento predefinito per gli eventi Experience Platform](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
-
-<!-- **Standard architecture (legacy)** - If your environment still uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it. -->
-
-<!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
 
 Quando attivi un modello personalizzato, lo stato del modello attivo diventa _Archiviato_. Se decidi di ripristinare il modello di punteggio di coinvolgimento predefinito, puoi duplicare il modello predefinito originale e quindi attivarlo o utilizzarlo come punto di partenza per un altro modello personalizzato.
 
@@ -138,14 +134,6 @@ Il modello predefinito per gli eventi di Experience Platform include le attivit�
 </td>
 </tbody>
 </table>
-
-+++
-
-+++Attività per architettura standard
-
-Il modello predefinito per l&#39;architettura standard include le attività tracciate [!DNL Marketo Engage] a cui è associato un peso predefinito. Quando si duplica questo modello, è possibile modificare la ponderazione in base alle proprie esigenze. Non è possibile modificare la frequenza massima giornaliera.
-
-{{engagement-activities-me}}
 
 +++
 
