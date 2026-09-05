@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: d8425054daea287d21419911158908035c1314f6
 workflow-type: tm+mt
-source-wordcount: 5633
+source-wordcount: 5637
 ht-degree: 61%
 
 ---
@@ -44,8 +44,8 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | Funzione | Metadati C2PA | Le immagini generate o modificate con strumenti di intelligenza artificiale generativi ora sono firmate automaticamente con i metadati C2PA, aiutandoti a soddisfare i requisiti di trasparenza dei contenuti e divulgazione di intelligenza artificiale. [Ulteriori informazioni](../content/c2pa-metadata.md) |
 | Miglioramento | Rientro percorso - percorsi di persone | Il supporto per il reinserimento nel percorso è ora disponibile per i percorsi di persone. |
 | Miglioramento | Ascoltare i trigger di evento e i filtri - percorsi di account | Il supporto per più attivatori e filtri in un nodo _Ascolta evento_ è ora disponibile per i percorsi di account. |
-| Miglioramento | Nodi di percorsi suddivisi esterni - percorsi di persone | Il supporto per _percorsi di suddivisione esterni_ nodi è ora disponibile per i percorsi di persone. |
-| Miglioramento | Nodi azione esterna - percorsi di persone | Il supporto per i nodi _Azione esterna_ è ora disponibile per i percorsi di persone. |
+| Miglioramento | Nodi di percorsi suddivisi esterni - percorsi di persone | Il supporto per _percorsi di suddivisione esterni_ nodi è ora disponibile per i percorsi di persone. [Ulteriori informazioni](../journeys/external-nodes.md#external-action) |
+| Miglioramento | Nodi azione esterna - percorsi di persone | Il supporto per i nodi _Azione esterna_ è ora disponibile per i percorsi di persone. [Ulteriori informazioni](../journeys/external-nodes.md#external-split-paths) |
 | Miglioramento | Set di dati relazionali di AEP | Ora vengono visualizzati nuovi set di dati relazionali nella sandbox di AEP, insieme ai set di dati esistenti. |
 | Miglioramento | Autorizzazioni prodotto - Canale WhatsApp | Gli amministratori di prodotto ora possono impostare le autorizzazioni `Manage B2B WhatsApp Settings` e `Manage B2B WhatsApp Presets` per _[!UICONTROL Configurazioni canale B2B]_. |
 
@@ -154,7 +154,7 @@ Nell’interfaccia chat di Journey Optimizer B2B edition sono ora disponibili le
 | ----- | ------ | ----------- |
 | Journey Build Agent | Nuovo e aggiornato | Il Journey Build Agent analizza, progetta e collabora sui percorsi in tempo reale, consentendo ai marketer di avviare più rapidamente, migliorare il coinvolgimento e aumentare i tassi di conversione. [Ulteriori informazioni](../agents/journey-agent.md) |
 | Agente Audience | Nuovo | L’Agente Audience identifica e crea automaticamente i gruppi acquisti utilizzando dati strutturati e non strutturati. Aiuta i marketer a mirare le persone giuste in modo più rapido e preciso. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
-| Qualificatore di vendita | Nuovo | Sales Qualifier è un&#39;applicazione aggiuntiva basata sull&#39;intelligenza artificiale per Adobe Journey Optimizer B2B edition che contiene il Account Qualification Agent ed è progettata per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti nei vari canali. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/sales-qualifier/using/home){target="_blank"} |
+| Qualificatore di vendita | Nuovo | Sales Qualifier è un’applicazione aggiuntiva basata sull’intelligenza artificiale per Adobe Journey Optimizer B2B edition che contiene Account Qualification Agent ed è progettata per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti nei vari canali. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Note sulla versione 2025.10 {#rel-2025-10}
 

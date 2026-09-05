@@ -1,9 +1,11 @@
 ---
 title: Nodi esterni
-description: Scopri come utilizzare i nodi Azione esterna e Percorso suddiviso esterno nei percorsi di account per connettersi con servizi esterni e instradare account e persone in base alla risposta del servizio.
-feature: Account Journeys, Integrations
+description: Scopri come utilizzare i nodi di percorso Azione esterna e Percorso suddiviso esterno per connettersi con servizi esterni e instradare account e persone in base alla risposta del servizio.
+feature: Account Journeys, Person Journeys, Integrations
 role: User
 exl-id: fc0d6baa-d2e9-4a28-9d78-c74b99282ec1
+autotag-review: '2026-08-05T21:23:02.338Z'
+TQID: 'https://experienceleague.adobe.com/SM3jr1AuPhUHuSHFUpf35omVUPOdubXbOrC8ZnJYdWE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
@@ -11,44 +13,42 @@ feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
 workflow-type: tm+mt
-source-wordcount: 866
+source-wordcount: 860
 ht-degree: 0%
 
 ---
 
 # Nodi esterni
 
-Utilizza nodi esterni per collegare il tuo percorso di account a un servizio esterno. Quando il pubblico di un account raggiunge uno di questi nodi, Journey Optimizer B2B edition invia in modo asincrono i dati degli attributi del pubblico al servizio esterno. Il servizio elabora i dati e risponde utilizzando un callback, restituendo informazioni sul pubblico e metadati utilizzati dal percorso per continuare.
+Utilizzare nodi esterni per collegare il percorso a un servizio esterno. Quando un pubblico raggiunge uno di questi nodi, [!DNL Journey Optimizer B2B Edition] invia in modo asincrono i dati degli attributi del pubblico al servizio esterno. Il servizio elabora i dati e risponde utilizzando un callback, restituendo informazioni sul pubblico e metadati utilizzati dal percorso per procedere.
 
 >[!NOTE]
 >
->I nodi di azione esterna sono disponibili solo nei percorsi di account. Non sono supportati nei percorsi di persone.
->
->Un amministratore deve [configurare e attivare l&#39;azione esterna](../admin/configure-external-actions.md) prima che gli addetti al marketing aggiungano e implementino questi nodi in un percorso.
+>Un amministratore deve [configurare e attivare l&#39;azione esterna](../admin/configure-external-actions.md) prima che gli addetti al marketing possano aggiungere e implementare questi nodi in un percorso.
 
 Esistono due tipi di nodo di azione esterna:
 
 * **[Azione esterna](#external-action)** - Chiama un servizio esterno e continua lungo un singolo percorso in uscita. Utilizzare questo nodo quando si desidera attivare un processo esterno senza logica di diramazione, ad esempio l&#39;aggiornamento di un record in un sistema esterno o l&#39;invio di un segnale a un servizio downstream.
-* **[Percorsi di suddivisione esterni](#external-split-paths)** - Chiama un servizio esterno e valuta la risposta per instradare gli account lungo uno dei diversi percorsi definiti. Usa questo nodo quando il servizio esterno restituisce un valore, ad esempio un punteggio, un livello o una classificazione, che determina il passaggio successivo nel percorso.
+* **[Percorsi di suddivisione esterni](#external-split-paths)** - Chiama un servizio esterno e valuta la risposta per instradare gli account o le persone lungo uno dei diversi percorsi definiti. Usa questo nodo quando il servizio esterno restituisce un valore, ad esempio un punteggio o un livello, che determina il passaggio successivo nel percorso.
 
 ## Nodo azione esterna {#external-action}
 
 Il nodo _Azione esterna_ chiama un servizio esterno e continua lungo un singolo percorso in uscita, indipendentemente dal contenuto della risposta. Utilizzalo per le integrazioni in cui non è necessario alcun ramo dopo la chiamata esterna.
 
-1. Passare alla mappa del percorso di account.
+1. Passa all’area di lavoro del percorso account o persona.
 
 1. Fai clic sull&#39;icona più ( **+** ) in un percorso e scegli **[!UICONTROL Azione esterna]**.
 
    ![Aggiungi un nodo azione esterna](./assets/node-external-action.png){width="400"}
 
-1. Nelle proprietà del nodo a destra, imposta il contesto **[!UICONTROL Azione su]** per l&#39;azione esterna:
+1. (Solo percorsi di account) Nelle proprietà del nodo a destra, imposta il contesto **[!UICONTROL Azione su]** per l&#39;azione esterna:
 
    * Scegliere **[!UICONTROL Account]** per applicare l&#39;azione esterna a tutte le persone che fanno parte degli account nel percorso del nodo.
    * Scegliere **[!UICONTROL Persone]** per applicare una modifica a tutte le persone nel percorso del nodo.
@@ -67,15 +67,15 @@ Il nodo _Azione esterna_ chiama un servizio esterno e continua lungo un singolo 
 
 ## Nodo percorsi suddivisi esterni {#external-split-paths}
 
-Il nodo Percorsi suddivisi esterni richiama un servizio esterno e utilizza la risposta per determinare quali account percorso seguire. Ogni percorso è definito da una condizione basata su una variabile (funzione di accesso) restituita dal servizio esterno. Il percorso valuta la risposta in base alle condizioni del percorso definito e indirizza ogni account lungo il primo percorso corrispondente. Le condizioni del percorso vengono valutate in ordine decrescente. Ogni account procede lungo il primo percorso la cui condizione corrisponde al valore restituito dal servizio esterno.
+Il nodo Percorsi suddivisi esterni richiama un servizio esterno e utilizza la risposta per determinare quali account percorso o persone seguire. Ogni percorso è definito da una condizione basata su una variabile (funzione di accesso) restituita dal servizio esterno. Il percorso valuta la risposta in base alle condizioni del percorso definito e indirizza ogni account o persona lungo il primo percorso corrispondente. Le condizioni del percorso vengono valutate in ordine decrescente. Ogni account o persona procede lungo il primo percorso la cui condizione corrisponde al valore restituito dal servizio esterno.
 
-1. Passare alla mappa del percorso di account.
+1. Passa all’area di lavoro del percorso account o persona.
 
 1. Fai clic sull&#39;icona più ( **+** ) in un percorso e scegli **[!UICONTROL Percorsi di suddivisione esterni]**.
 
    ![Aggiungi un nodo di percorso suddiviso esterno](./assets/node-external-split-path.png){width="400"}
 
-1. Nelle proprietà del nodo a destra, scegli un **[!UICONTROL Dividi percorsi per]** tipo:
+1. (Solo percorsi di account) Nelle proprietà del nodo a destra, scegli un **[!UICONTROL Dividi percorsi per]** tipo:
 
    * **[!UICONTROL Account]** - Per i percorsi suddivisi per account, è possibile aggiungere nodi account e persone all&#39;interno dei percorsi definiti.
    * **[!UICONTROL Persone]** - Per i percorsi suddivisi per persone, è possibile aggiungere solo nodi di azione persone all&#39;interno dei percorsi definiti. Una suddivisione basata sulle persone viene automaticamente chiusa con un nodo _[!UICONTROL Percorsi di unione]_ in modo che tutte le persone possano passare al passaggio successivo senza perdere il contesto dell&#39;account.

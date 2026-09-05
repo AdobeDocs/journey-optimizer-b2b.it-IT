@@ -16,9 +16,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
+source-git-commit: 6af5c69aac417f557472bdb80df9de7460e65f16
 workflow-type: tm+mt
-source-wordcount: 697
+source-wordcount: 692
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 0%
 
 ## Privacy
 
-Esistono varie normative che si applicano ai clienti [!DNL Journey Optimizer B2B Edition] che detengono dati per gli interessati residenti nelle rispettive regioni o nei rispettivi paesi sopra menzionati (UE, California, Thailandia, Brasile, Nuova Zelanda). Queste informazioni riportate in questa pagina non rappresentano un parere legale e non garantiscono la conformità dell&#39;utente alle leggi applicabili.
+Varie normative si applicano a [!DNL Journey Optimizer B2B Edition] utenti in possesso di dati per gli interessati in aree quali UE, California, Thailandia, Brasile e Nuova Zelanda. Le informazioni fornite in questa pagina non sono un parere legale e non garantiscono la conformità alle leggi applicabili.
 
 ### RGPD
 
 Il Regolamento generale sulla protezione dei dati (RGPD) è la normativa sulla privacy dell&#39;Unione europea che armonizza e modernizza [i requisiti in materia di protezione dei dati](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"} per i paesi dell&#39;UE.
 
-[!DNL Journey Optimizer B2B Edition] utilizza le funzioni esistenti di governance RGPD di Marketo Engage fornite dal servizio Privacy Service e Marketo Privacy Broker.
+[!DNL Journey Optimizer B2B Edition] utilizza la funzione esistente di governance RGPD di Experience Platform fornita da Privacy Service. Per informazioni sull&#39;invio e la gestione delle richieste di accesso ed eliminazione, vedere [_Gestione della privacy_](./privacy-management.md).
 
 ### CNIL
 
@@ -43,7 +43,7 @@ Il 14 aprile 2026 la Commission nationale de l&#39;informatique et des libertés
 
 CNIL ha previsto un periodo di tre mesi dalla data della raccomandazione alle aziende di informare i propri destinatari e-mail della presenza dei pixel di tracciamento, del loro scopo e del diritto dei destinatari di rinunciare. Durante questo periodo di transizione, gli utenti di Marketo Engage devono informare i destinatari in merito al tracciamento dei pixel e, se necessario, fornire una rinuncia. CNIL dovrebbe iniziare le attività di applicazione dopo il 14 luglio 2026.
 
-Poiché il CNIL e altri enti normativi chiariscono le linee guida sul tracciamento dei pixel e dei problemi correlati, Adobe continuerà a monitorare gli aggiornamenti e a informare l’utente in merito alle modifiche alle funzionalità tecniche.
+Mentre il CNIL e altre autorità di regolamentazione chiariscono le linee guida sui pixel di tracciamento e sui problemi correlati, Adobe monitora gli aggiornamenti e ti informa in merito alle modifiche alle funzionalità tecniche.
 
 [!DNL Journey Optimizer B2B Edition] offre controlli che consentono di gestire il tracciamento delle aperture a livello di e-mail. Gli utenti sono responsabili della determinazione dei propri obblighi di conformità ai sensi degli orientamenti CNIL applicabili e di altre leggi. Per informazioni sull&#39;utilizzo di queste funzionalità per la gestione del tracciamento dell&#39;apertura delle e-mail, vedere [_Gestione del tracciamento delle e-mail_](../content/email-tracking-manage.md).
 
@@ -53,9 +53,9 @@ Con Journey Optimizer B2B edition e l’accesso a Adobe Admin Console, gli ammin
 
 ## Crittografia dei dati
 
-**_Crittografia per i dati inattivi_** - Tutti i dati del profilo di account e persona trasferiti da Adobe Experience Platform a Journey Optimizer B2B edition sono crittografati per mantenere la conformità esistente da Experience Platform. Vengono crittografate anche tutte le entità originarie di Journey Optimizer B2B edition, ad esempio i percorsi e i gruppi di acquisto.
+**_Crittografia per i dati inattivi_**: tutti i dati del profilo utente e dell&#39;account trasferiti da Adobe Experience Platform a Journey Optimizer B2B edition vengono crittografati per mantenere la conformità esistente da Experience Platform. Vengono crittografate anche tutte le entità originarie di Journey Optimizer B2B edition, ad esempio i percorsi e i gruppi di acquisto.
 
-**_Crittografia per i dati in transito_** (su una rete pubblica) - Tutte le API e le entità di Journey Optimizer B2B edition sono crittografate in transito utilizzando TLS 1.2.
+**_Crittografia per i dati in transito_** (su una rete pubblica): tutte le API e le entità di Journey Optimizer B2B edition sono crittografate in transito utilizzando TLS 1.2.
 
 ## Consenso/rinuncia
 
@@ -67,7 +67,7 @@ Per informazioni dettagliate sugli attributi XDM valutati per ciascun canale e s
 
 ## Ripristino del sandbox
 
-Il ripristino della sandbox è **non attualmente supportato** per Adobe Journey Optimizer B2B edition. Il ripristino o l’eliminazione di una sandbox mappata a Journey Optimizer B2B edition può causare una perdita permanente di dati e richiedere il provisioning di una nuova istanza.
+Il ripristino della sandbox è **non attualmente supportato** per Adobe Journey Optimizer B2B edition. Il ripristino o l&#39;eliminazione di una sandbox mappata a [!DNL Journey Optimizer B2B Edition] potrebbe causare una perdita permanente di dati e richiedere il provisioning di una nuova istanza.
 
 ## Non ancora disponibile
 

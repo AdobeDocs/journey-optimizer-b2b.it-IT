@@ -1,6 +1,6 @@
 ---
 title: Configurazione azioni esterne
-description: Scopri come sviluppatori, amministratori e addetti al marketing collaborano per implementare, configurare e utilizzare azioni esterne che collegano Journey Optimizer B2B edition a servizi esterni nei percorsi di account.
+description: Scopri come sviluppatori, amministratori e addetti al marketing collaborano per implementare, configurare e utilizzare azioni esterne che collegano Journey Optimizer B2B edition a servizi esterni nei percorsi.
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
@@ -14,25 +14,21 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: effa8e2a45ecc5afbaa5a3f75437735bef89a400
+source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1278
 ht-degree: 1%
 
 ---
 
 # Configurazione azioni esterne
 
-Le azioni esterne consentono ai percorsi di account in Journey Optimizer B2B edition di connettersi con i sistemi esterni direttamente dall’area di lavoro del percorso. Quando un pubblico di account raggiunge un nodo di azione esterna, il sistema effettua una chiamata in uscita asincrona a un servizio esterno configurato, trasmettendo i dati degli attributi di pubblico per account, persone o entrambi. Il servizio esterno elabora i dati e risponde utilizzando un callback, restituendo dati sul pubblico e metadati che possono essere utilizzati per guidare l’esecuzione del percorso.
+Le azioni esterne consentono ai percorsi di account e persone in [!DNL Journey Optimizer B2B Edition] di connettersi con i sistemi esterni direttamente dall&#39;area di lavoro del percorso. Quando un pubblico raggiunge un nodo di azione esterna, il sistema effettua una chiamata in uscita asincrona a un servizio esterno configurato, trasmettendo i dati degli attributi del pubblico. Il servizio esterno elabora i dati e risponde utilizzando un callback, restituendo dati sul pubblico e metadati che possono essere utilizzati per guidare l’esecuzione del percorso.
 
 Questa funzione supporta due tipi di nodo di percorso:
 
-* **Azione esterna** - Chiama un servizio esterno e continua lungo un singolo percorso in uscita. Ideale per _integrazioni Fire-and-Dimenticate_, ad esempio per aggiornare un record CRM o attivare una notifica downstream.
-* **Percorsi di suddivisione esterni** - Chiama un servizio esterno e valuta la risposta per instradare gli account lungo uno dei diversi percorsi definiti.
-
->[!NOTE]
->
->I servizi per le azioni esterne sono supportati solo per i percorsi di account. Questi tipi di nodo non sono disponibili per i percorsi di persone.
+* **Azione esterna** - Chiama un servizio esterno e continua lungo un singolo percorso in uscita. Ideale per integrazioni asincrone, ad esempio per aggiornare un record CRM o attivare una notifica a valle.
+* **Percorsi di suddivisione esterni** - Chiama un servizio esterno e valuta la risposta per instradare gli account o le persone lungo uno dei diversi percorsi definiti.
 
 ## Panoramica sull’implementazione
 
@@ -42,7 +38,7 @@ La configurazione delle azioni esterne richiede il coordinamento in tre ruoli in
 | ---- | ---- | ---- |
 | 1 | Sviluppatore | [Implementare e pubblicare il servizio esterno](#implement-service) |
 | 2 | Amministratore | [Configura l&#39;azione in Journey Optimizer B2B edition](#configure-action) |
-| 3 | Addetto marketing | [Aggiungere un nodo esterno a un percorso di account](#add-journey-node) |
+| 3 | Addetto marketing | [Aggiungere un nodo esterno a un percorso](#add-journey-node) |
 
 ## Implementare il servizio esterno {#implement-service}
 
@@ -100,7 +96,7 @@ Un’azione deve essere configurata e attivata prima che gli addetti al marketin
 
 1. Fai clic su **[!UICONTROL Avanti]**.
 
-1. Imposta le proprietà **[!UICONTROL Configurations]** per definire il modo in cui l&#39;azione scambia i dati con il servizio esterno.
+1. Per definire il modo in cui l&#39;azione scambia i dati con il servizio esterno, impostare le proprietà **[!UICONTROL Configurations]**.
 
    >[!NOTE]
    >
@@ -108,8 +104,8 @@ Un’azione deve essere configurata e attivata prima che gli addetti al marketin
 
    * **[!UICONTROL Tipo di azione]** (_Statico_) - Tipo di nodo di percorso supportato:
 
-      * [!UICONTROL Azione esterna] (`enableSplitPath` = false)
-      * [!UICONTROL Percorso suddivisione azione esterna] (`enableSplitPath` = true)
+     * [!UICONTROL Azione esterna] (`enableSplitPath` = false)
+     * [!UICONTROL Percorso suddivisione azione esterna] (`enableSplitPath` = true)
 
      Non puoi modificare il tipo di azione dopo aver creato la configurazione dell’azione.
 
@@ -117,11 +113,11 @@ Un’azione deve essere configurata e attivata prima che gli addetti al marketin
 
    * **[!UICONTROL Contesto Percorso]** (_Statico_) - Ambito dei dati del pubblico inviati nella richiesta (`supportedEntityType`):
 
-      * [!UICONTROL Account] - Invia solo gli account
+     * [!UICONTROL Account] - Invia solo gli account
 
-      * [!UICONTROL Persone] - Invia solo persone
+     * [!UICONTROL Persone] - Invia solo persone
 
-      * [!UICONTROL Persone nell&#39;account] - Invia account e persone correlate all&#39;account
+     * [!UICONTROL Persone nell&#39;account] - Invia account e persone correlate all&#39;account
 
    * **[!UICONTROL Campi in uscita]** - Mappa ogni campo della tabella su un [campo XDM](../admin/xdm-field-management.md). Questi campi vengono inviati nel corpo della richiesta al servizio esterno. Proprietà definizione servizio: `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields`.
 
@@ -139,7 +135,7 @@ Un’azione deve essere configurata e attivata prima che gli addetti al marketin
 
 1. Fai clic sulla _freccia Indietro_ per tornare all&#39;elenco e mantenere l&#39;azione nello stato _Bozza_.
 
-   In alternativa, fare clic su **[!UICONTROL Attiva]** per modificare la configurazione dell&#39;azione allo stato _Attivo_. L’azione esterna configurata deve essere attiva per renderla disponibile per l’utilizzo nei percorsi di account.
+   In alternativa, fare clic su **[!UICONTROL Attiva]** per modificare la configurazione dell&#39;azione allo stato _Attivo_. L’azione esterna configurata deve essere attiva per renderla disponibile per l’utilizzo in percorsi.
 
 ### Risoluzione dei problemi {#troubleshooting}
 
@@ -149,7 +145,7 @@ Quando si immette l&#39;URL della specifica OpenAPI per il servizio esterno e si
 
 >[!NOTE]
 >
->Per molti dei seguenti errori è necessario rivolgersi allo sviluppatore che ha creato e pubblicato il servizio Web pubblico per risolvere il problema.
+>Molti dei seguenti errori richiedono la collaborazione con lo sviluppatore che ha creato e pubblicato il servizio web pubblico per risolverli.
 
 #### Dettagli errore di convalida
 
@@ -182,4 +178,4 @@ This error appears below the URL field (not in the alert banner) and means there
 
 ## Aggiungere un nodo esterno a un percorso {#add-journey-node}
 
-Dopo l&#39;attivazione di un&#39;azione, gli addetti al marketing possono aggiungere un nodo _[!UICONTROL Azione esterna]_ o _[!UICONTROL Percorso suddiviso esterno]_ a qualsiasi percorso di account. Per informazioni su come aggiungere e utilizzare questi nodi nell&#39;area di lavoro del percorso di account, vedere [Nodi esterni](../journeys/external-nodes.md).
+Dopo l&#39;attivazione di un&#39;azione, gli addetti al marketing possono aggiungere un nodo _[!UICONTROL Azione esterna]_ o _[!UICONTROL Percorso suddiviso esterno]_ a qualsiasi percorso di account o persone. Per informazioni su come aggiungere e utilizzare questi nodi nell&#39;area di lavoro del percorso, vedere [Nodi esterni](../journeys/external-nodes.md).
