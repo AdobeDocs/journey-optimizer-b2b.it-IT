@@ -1,0 +1,133 @@
+---
+title: Utilizzo dell’Assistente IA
+description: Poni le domande relative alla conoscenza dei prodotti di AI Assistant e ottieni informazioni operative su percorsi, tipi di pubblico e gruppi di acquisto in Journey Optimizer B2B edition.
+feature: AI Assistant
+role: User
+level: Beginner
+exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
+autotag-review: '2026-06-05T16:09:10.773Z'
+TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+workflow-type: tm+mt
+source-wordcount: 954
+ht-degree: 1%
+
+---
+
+# Utilizzare l’interfaccia di chat
+
+In Journey Optimizer B2B edition, AI Assistant fornisce un’interfaccia di chat che puoi utilizzare per comprendere i concetti del prodotto, navigare rapidamente e scoprire le funzioni del prodotto e ottenere informazioni operative per il tuo ambiente. È disponibile anche in diversi prodotti Adobe Experience Cloud.
+
+>[!IMPORTANT]
+>
+>Prima di poter utilizzare l’Assistente all’intelligenza artificiale è necessario un accordo per le linee guida utente per l’intelligenza artificiale generativa di Adobe Experience Cloud. Per ulteriori informazioni su questo contratto e sulle linee guida per l&#39;utilizzo, consulta le [Linee guida per l&#39;utente di Adobe Experience Cloud Generative AI](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
+
+Per accedere all’interfaccia di chat, fai clic sull’icona nell’intestazione.
+
+![Fare clic sull&#39;icona per accedere all&#39;Assistente AI](./assets/ai-assistant-icon-displayed.png){width="420"}
+
+Viene visualizzata l’interfaccia di AI Assistant, che fornisce immediatamente le informazioni necessarie per iniziare. Puoi utilizzare le opzioni fornite in _[!UICONTROL Idee per iniziare]_ a rispondere a domande e comandi, ad esempio:
+
+* Quali percorsi sono stati pubblicati?
+* Quali interessi sono stati creati per la soluzione?
+* Descrivimi i vantaggi principali di Journey Optimizer B2B edition.
+
+In Adobe Journey Optimizer B2B edition, l’Assistente IA supporta i seguenti casi d’uso:
+
+## Poni le domande relative alla conoscenza del prodotto
+
+Le domande relative alla conoscenza del prodotto riguardano i concetti e le informazioni sulle procedure di Journey Optimizer B2B edition. Alcuni esempi di domande sulla conoscenza del prodotto includono:
+
+* Come si impostano gli account del provider SMS?
+* Come posso inviare un’e-mail in un percorso?
+* Come posso personalizzare il contenuto delle e-mail?
+
+Per porre una domanda sul prodotto, immettilo nel campo nella parte inferiore del pannello e premi Invio. Ad esempio, quando devi imparare a utilizzare un gruppo di acquisto in un percorso. In questo caso, immetti _Come si utilizza un gruppo di acquisto in un percorso?_ Dopo l&#39;invio della domanda, l&#39;Assistente IA esegue una query sulla relativa knowledge base e genera una risposta in pochi secondi.
+
+![Immettere una domanda nella casella di testo](./assets/ai-assistant-ask-question.png){width="420"}
+
++++Visualizza una risposta di esempio
+
+![Immettere una domanda nella casella di testo](./assets/ai-assistant-product-answer.png){width="420"}
+
++++
+
+## Poni le tue domande sulle informazioni operative
+
+Le domande sulle informazioni operative riguardano gli oggetti di percorso nella sandbox dell’organizzazione. Puoi porre domande sugli artefatti operativi, ad esempio tipi di pubblico, percorsi, interessi per le soluzioni e modelli per gruppi di acquisto. Alcuni esempi di domande o prompt di approfondimenti operativi includono:
+
+* Quanti percorsi live ho in Adobe Journey Optimizer B2B edition?
+* Dammi un elenco di tutti i percorsi pianificati
+* Quanti percorsi sono stati creati negli ultimi 7 giorni?
+
+Assicurati di trovarti in una sandbox attiva affinché l’Assistente AI possa fornire una risposta sufficiente a una domanda sulle informazioni operative.
+
+>[!NOTE]
+>
+>Gli unici oggetti di Adobe Journey Optimizer B2B edition supportati dalle domande di informazioni operative dell&#39;Assistente all&#39;intelligenza artificiale sono elencati nella [tabella di dominio di approfondimenti operativi](./ai-assistant-overview.md#operational-insights). Può accedere ai dati solo per la sandbox in cui ti trovi attualmente.
+
+Per porre una domanda di approfondimenti operativi, inseriscila nel campo nella parte inferiore del pannello e premi Invio. Ad esempio, quando desideri conoscere i tipi di pubblico per la sandbox. In questo caso, immetti _Quanti tipi di pubblico ci sono?_.  L’Assistente AI fornisce un conteggio dei tipi di pubblico nella sandbox e una spiegazione di come ha calcolato la risposta. Nell’esempio di risposta seguente, l’Assistente AI fornisce un collegamento per accedere ai tipi di pubblico nell’interfaccia utente e illustra i passaggi necessari per identificare il numero di tipi di pubblico.
+
+![Risposta dell&#39;Assistente AI per quanti tipi di pubblico](./assets/ai-assistant-insights-answer.png){width="420"}
+
+Puoi seguire la tua richiesta iniziale chiedendo un elenco di artefatti, ad esempio _Elenca i primi 5 in base alle dimensioni_. L&#39;Assistente IA restituisce una tabella con i primi cinque elementi della query e gli ID corrispondenti. Fai clic sull&#39;icona _Scarica_ ( ![Icona Scarica](../assets/do-not-localize/icon-download.svg) ) per scaricare la tabella come file CSV.
+
+![Risposta dell&#39;Assistente AI per un elenco di percorsi attivi](./assets/ai-assistant-artifacts-query.png){width="420"}
+
+Per visualizzare l&#39;intera tabella in Assistente IA, fare clic sull&#39;icona _Ingrandisci_ ( ![Icona Ingrandisci](../assets/do-not-localize/icon-maximize.svg) ). Nella visualizzazione della tabella espansa, fare clic su **[!UICONTROL Scarica CSV]** per salvare le informazioni come file CSV.
+
+![Risposta dell&#39;Assistente AI per un elenco di percorsi attivi](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
+
+## Verificare le risposte
+
+L’interfaccia di chat include strumenti che puoi utilizzare per verificare e convalidare le risposte.
+
+### Sorgenti conoscenza prodotto
+
+Dopo aver ricevuto una risposta per una domanda di prodotto, selezionare **[!UICONTROL Mostra origine]** per visualizzare le citazioni dell&#39;origine della conoscenza del prodotto utilizzate per generare la risposta dell&#39;Assistente IA.
+
+L’Assistente AI fornisce collegamenti alla documentazione che conferma la risposta iniziale. Aggiunge inoltre note a piè di pagina alla risposta per indicare le parti specifiche della risposta che fanno riferimento alle origini della documentazione collegate.
+
+![Risultati dalla query dell&#39;Assistente di IA](./assets/ai-assistant-product-answer-sources.png){width="420"}
+
+### Origini di dati operativi
+
+Dopo aver ricevuto una risposta per una domanda di approfondimenti operativi, fare clic su **[!UICONTROL Mostra origine]** e quindi selezionare **[!UICONTROL Visualizza query di origine]**.
+
+È possibile verificare ogni risposta relativa alle domande di approfondimenti operativi utilizzando una query SQL fornita dall’Assistente AI. Quando viene eseguita una query con una domanda di approfondimenti operativi, l’Assistente AI fornisce una query SQL. Puoi utilizzarlo per verificare il processo necessario per calcolare la risposta. Questa query di origine è solo a scopo di verifica e non è supportata in Query Service.
+
+![Risultati dalla query dell&#39;Assistente di IA](./assets/ai-assistant-artifacts-query-source.png){width="550" zoomable="yes"}
+
+## Fornire feedback
+
+Utilizza le icone _Valutazione positiva_ ( ![Valutazione positiva](../assets/do-not-localize/icon-thumb-up.svg) ) o _Valutazione negativa_ ( ![Valutazione negativa](../assets/do-not-localize/icon-thumb-down.svg) ) per valutare l&#39;utilità e la qualità della risposta. Completa il breve modulo del sondaggio in base alla tua esperienza e fai clic su **[!UICONTROL Invia]**. Le informazioni fornite vengono utilizzate per apportare miglioramenti all&#39;Assistente IA.
+
+Se nella risposta si nota un elemento problematico, fare clic sull&#39;icona _Contrassegno_ ( ![Icona Contrassegno](../assets/do-not-localize/icon-flag.svg) ). Utilizza il modulo per descrivere il problema e fai clic su **[!UICONTROL Invia]** per segnalarlo.
+
+![Risposta dell&#39;Assistente AI - icone di feedback](./assets/ai-assistant-response-feedback-icons.png){width="420"}
+
++++Visualizza moduli
+
+>[!BEGINTABS]
+
+>[!TAB Anteprima]
+
+![Risposta dell&#39;Assistente di IA - Modulo di feedback positivo in miniatura](./assets/ai-assistant-response-feedback-positive-form.png){width="600" zoomable="yes"}
+
+>[!TAB Anteprima]
+
+![Risposta dell&#39;Assistente di IA - Modulo feedback negativo in miniatura](./assets/ai-assistant-response-feedback-negative-form.png){width="600" zoomable="yes"}
+
+>[!TAB Contrassegno]
+
+![Risposta dell&#39;Assistente AI - Contrassegna modulo di feedback del problema](./assets/ai-assistant-response-feedback-flagged-form.png){width="600" zoomable="yes"}
+
+>[!ENDTABS]
+
++++

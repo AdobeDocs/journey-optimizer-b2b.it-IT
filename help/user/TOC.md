@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentazione di Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando le funzioni di IA generativa incorporata e l’automazione leader del settore.
-source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '452'
 ht-degree: 86%
 
 ---
@@ -28,14 +28,22 @@ ht-degree: 86%
   + [Onboarding degli utenti](./start/get-started.md)
   + [Accesso e pagina Home](home-page.md)
 + Funzionalità AI {#ai-assistant}
-  + [Panoramica](./ai-assistant/ai-assistant-overview.md)
-  + [Abilitare l’accesso all’Assistente IA](./ai-assistant/enable-ai-assistant-access.md)
-  + [Guida alle domande](./ai-assistant/question-guidance.md)
-  + [Interfaccia chat](./ai-assistant/use-ai-assistant.md)
-  + [IA generativa per i contenuti](./ai-assistant/generative-ai-content.md)
+  + [Panoramica](./ai-coworker/ai-assistant-overview.md)
+  + [Abilitare l’accesso all’Assistente IA](./ai-coworker/enable-ai-assistant-access.md)
+  + [Guida alle domande](./ai-coworker/question-guidance.md)
+  + [Interfaccia chat](./ai-coworker/use-ai-assistant.md)
+  + [IA generativa per i contenuti](./ai-coworker/generative-ai-content.md)
+  + [Punteggi intento](./ai-coworker/intent-scores.md)
   + Agenti {#ai-agents}
     + [Audience Agent B2B](./agents/audience-agent-b2b.md)
     + [Journey Agent B2B](./agents/journey-agent.md)
++ Dashboard intelligenti {#dashboards}
+  + [Dashboard approfondimenti](./dashboards/intelligent-dashboard.md)
+  + [Dashboard di coinvolgimento](./dashboards/engagement-dashboard.md)
+  + [Dashboard di coinvolgimento web](./dashboards/web-engagement-dashboard.md)
+  + [Rapporto sulle prestazioni delle e-mail](./dashboards/email-performance-dashboard.md)
+  + [Dashboard dei gruppi di acquisto](./dashboards/buying-groups-dashboard.md)
+  + [dashboard percorsi](./dashboards/journeys-dashboard.md)
 + Gestione dei percorsi {#journeys}
   + [Percorsi di account e persone](./journeys/journeys-overview.md)
   + [Creare e pubblicare un percorso](./journeys/create-publish-journey.md)
@@ -153,13 +161,6 @@ ht-degree: 86%
     + [Sintassi di personalizzazione](./content/personalization-syntax.md)
     + [Elenco funzioni Helper](./content/personalization-helper-functions.md)
     + [Generatore di script (Beta)](./content/script-builder.md)
-+ Dashboard intelligenti {#dashboards}
-  + [Dashboard approfondimenti](./dashboards/intelligent-dashboard.md)
-  + [Dashboard di coinvolgimento](./dashboards/engagement-dashboard.md)
-  + [Dashboard di coinvolgimento web](./dashboards/web-engagement-dashboard.md)
-  + [Rapporto sulle prestazioni delle e-mail](./dashboards/email-performance-dashboard.md)
-  + [Dashboard dei gruppi di acquisto](./dashboards/buying-groups-dashboard.md)
-  + [dashboard percorsi](./dashboards/journeys-dashboard.md)
 + Amministrazione {#admin}
   + [Governance](./admin/governance.md)
   + [Gestione della privacy](./admin/privacy-management.md)

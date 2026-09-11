@@ -1,38 +1,29 @@
 ---
-title: Dati intento
+title: Configurazione dati intento
 description: Configura i dati di intento con la mappatura delle parole chiave per prevedere l’interesse dei clienti e i segnali di acquisto per il marketing basato su account in Journey Optimizer B2B edition.
 feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:18:01.223Z
 TQID: https://experienceleague.adobe.com/uQMmGedQfU8IPyoHRJzYHnYjIl7jxlG8hj8hhSBrwR4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 578
 ht-degree: 1%
 
 ---
 
-# Dati di intento
+# Configurazione dati intento
 
-In Journey Optimizer B2B edition, il modello di rilevamento intento (Intent Detection) prevede una soluzione o un prodotto di interesse con sufficiente affidabilità in base all&#39;attività di un lead. Sfrutta anche le attività di altri membri dell’account, insieme ai contenuti con tag. L’intento di una persona può essere interpretato come la probabilità di avere interesse in un prodotto.
+In [!DNL Adobe Journey Optimizer B2B Edition], il modello di rilevamento intento prevede una soluzione o un prodotto di interesse con sufficiente affidabilità in base all&#39;attività di un lead. Sfrutta anche le attività di altri membri dell’account, insieme ai contenuti con tag. L’intento di una persona può essere interpretato come la probabilità di avere interesse in un prodotto.
 
-* Livelli di intento: disponibili a livello di lead noto, account e gruppo di acquisto.
-* Tipi di segnale di intento: parole chiave, prodotto e soluzione
+Per ulteriori informazioni sul calcolo del punteggio intento, vedere [_Punteggi intento_](../ai-coworker/intent-scores.md).
 
 I dati intento vengono utilizzati in [_Intelligent Dashboard_](../dashboards/intelligent-dashboard.md), [_Account details_ page](../accounts/account-details.md), [_Buying group details_ page](../buying-groups/buying-group-details.md) e [_Person details_ page](../accounts/person-details.md).
-
-![Visualizzazione dati intento](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
 ## Preparare i dati di mappatura intento
 
