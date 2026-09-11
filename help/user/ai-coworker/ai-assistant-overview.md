@@ -4,25 +4,16 @@ description: Accelera i flussi di lavoro con l’Assistente IA, con conoscenze s
 feature: AI Assistant
 role: User, Admin
 level: Beginner
-nudge: true
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
 autotag-review: '2026-06-05T16:05:30.499Z'
 TQID: 'https://experienceleague.adobe.com/4bXkOzwadjZVzhedVO6oQEEV1biaWMZFHEuqey74qek'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2:
-  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7664c0a08f45698266c72dea229a340eeb596945
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7b5a3fdf94725b7cf3c7f4da8ff5d8cce115a3d7
 workflow-type: tm+mt
 source-wordcount: 1385
 ht-degree: 8%
@@ -57,7 +48,7 @@ Per ulteriori informazioni, consulta la [documentazione di Sales Qualifier](http
 
 ## Funzionalità di AI Assistant in Journey Optimizer B2B edition
 
-Per formulare una risposta alle domande inviate, l’Assistente AI esegue una query su un database e converte i dati dal database in una risposta leggibile. Questa risposta è una rappresentazione interna dei dati sottostanti, il _&#x200B;**Knowledge Graph**&#x200B;_, e fornisce una raccolta completa di concetti, dati e metadati per una determinata risposta. Il Knowledge Graph è costituito da sottografi a cui viene fatto riferimento ogni volta che vengono inviate query:
+Per formulare una risposta alle domande inviate, l’Assistente AI esegue una query su un database e converte i dati dal database in una risposta leggibile. Questa risposta è una rappresentazione interna dei dati sottostanti, il _**Knowledge Graph**_, e fornisce una raccolta completa di concetti, dati e metadati per una determinata risposta. Il Knowledge Graph è costituito da sottografi a cui viene fatto riferimento ogni volta che vengono inviate query:
 
 * Documentazione di Adobe Experience League.
 * Artefatti operativi, come schemi, campi, tipi di pubblico e percorsi.
@@ -119,7 +110,7 @@ L’Assistente AI in Journey Optimizer B2B edition assegna priorità a privacy, 
 
 * Per interagire con l&#39;Assistente AI è necessario disporre di autorizzazioni esplicite.
 
-  * Un amministratore può impostare le autorizzazioni utilizzando [Interfaccia utente autorizzazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e [Admin Console](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+  * Un amministratore può impostare le autorizzazioni utilizzando [Interfaccia utente autorizzazioni](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} e [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
   * Le autorizzazioni sono granulari e l’amministratore della sandbox può configurare quali utenti possono porre diverse categorie di domande (domande basate sulla conoscenza del prodotto con l’Assistente AI o domande su informazioni operative).
 
