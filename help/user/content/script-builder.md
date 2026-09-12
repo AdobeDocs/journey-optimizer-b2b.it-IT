@@ -19,10 +19,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0004f8fba0c3d4ae89063418e4d3ef8fea22b0c3
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
-source-wordcount: 1074
-ht-degree: 2%
+source-wordcount: 1077
+ht-degree: 3%
 
 ---
 
@@ -44,9 +44,9 @@ Per creare la personalizzazione delle e-mail condizionali, ad esempio passare da
 
 >[!IMPORTANT]
 >
->L&#39;accesso utente a Script Builder è controllato tramite le stesse autorizzazioni utilizzate per altre funzionalità di IA generativa in [!DNL Journey Optimizer B2B Edition]. Per informazioni sulla concessione delle autorizzazioni per le funzionalità, vedere [Abilitare l&#39;accesso all&#39;Assistente AI](../ai-assistant/enable-ai-assistant-access.md).
+>L&#39;accesso utente a Script Builder è controllato tramite le stesse autorizzazioni utilizzate per altre funzionalità di IA generativa in [!DNL Journey Optimizer B2B Edition]. Per informazioni sulla concessione delle autorizzazioni per le funzionalità, vedere [Abilitare l&#39;accesso all&#39;Assistente AI](../ai-coworker/enable-ai-assistant-access.md).
 
-Prima di utilizzare Script Builder, rivedere le [linee guida e limitazioni](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations) applicabili alle funzionalità di intelligenza artificiale generativa in [!DNL Journey Optimizer B2B Edition]. Per poter utilizzare le funzionalità di intelligenza artificiale è inoltre necessario accettare il [Contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
+Prima di utilizzare Script Builder, rivedere le [linee guida e limitazioni](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations) applicabili alle funzionalità di intelligenza artificiale generativa in [!DNL Journey Optimizer B2B Edition]. Per poter utilizzare le funzionalità di intelligenza artificiale è inoltre necessario accettare il [Contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
 Acquisisci familiarità con il [linguaggio di modelli Handlebars](https://handlebarsjs.com/guide/){target="_blank"}, la [sintassi di personalizzazione](./personalization-syntax.md) e le [funzioni helper](./personalization-helper-functions.md) supportate in [!DNL Journey Optimizer B2B Edition]. Script Builder genera Handlebars valide, ma comprendere la sintassi ti aiuta a rivedere e modificare l’output con affidabilità.
 

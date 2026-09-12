@@ -19,7 +19,7 @@ topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 2070
 ht-degree: 7%
@@ -169,7 +169,7 @@ Per creare e definire le linee guida per il brand, puoi inserire i dettagli o ca
 
 Quando il tuo marchio include un set completo di definizioni e soddisfa le tue esigenze, fai clic su **[!UICONTROL Pubblica]** per rendere le linee guida del tuo marchio disponibili per l&#39;allineamento e la generazione dei contenuti.
 
-I brand pubblicati sono accessibili dall&#39;opzione **[!UICONTROL Brand]** nell&#39;IA [brand alignment score](./content-evaluation.md#brand-alignment-score) e negli [strumenti di generazione dei contenuti](../ai-assistant/generative-ai-content.md).
+I brand pubblicati sono accessibili dall&#39;opzione **[!UICONTROL Brand]** nell&#39;IA [brand alignment score](./content-evaluation.md#brand-alignment-score) e negli [strumenti di generazione dei contenuti](../ai-coworker/generative-ai-content.md).
 
 ![Opzioni marchio per contenuto](./assets/brand-menu-content-ai-tools.png){width="300"}
 
@@ -211,13 +211,13 @@ Utilizza la scheda **[!UICONTROL Informazioni sul brand]** per stabilire l&#39;i
 
      ![Informazioni sul brand - Principi guida - Aggiungi valore core](./assets/brands-about-guiding-principles-add-core-values.png){width="500" zoomable="yes"}
 
-      * **[!UICONTROL Valore]** - Immetti il nome per il valore del marchio principale.
+     * **[!UICONTROL Valore]** - Immetti il nome per il valore del marchio principale.
 
-      * **[!UICONTROL Descrizione]** - Spiega cosa significa questo valore per il tuo marchio.
+     * **[!UICONTROL Descrizione]** - Spiega cosa significa questo valore per il tuo marchio.
 
-      * **[!UICONTROL Comportamenti]** - Descrive le azioni o gli atteggiamenti che riflettono questo valore nella pratica.
+     * **[!UICONTROL Comportamenti]** - Descrive le azioni o gli atteggiamenti che riflettono questo valore nella pratica.
 
-      * **[!UICONTROL Manifestazioni]** - Fornisci esempi di come questo valore è espresso nel branding reale.
+     * **[!UICONTROL Manifestazioni]** - Fornisci esempi di come questo valore è espresso nel branding reale.
 
    * Per modificare o eliminare un valore di base, fai clic sull&#39;icona _Modifica_ ( ![Icona Modifica](../assets/do-not-localize/icon-edit.svg) ) per aggiornare o eliminare un valore di marchio di base.
 

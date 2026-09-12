@@ -22,7 +22,7 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 2626
 ht-degree: 0%
@@ -45,7 +45,7 @@ Puoi generare esperienze di contenuto complete per le pagine di destinazione, in
 
 ## Linee guida e limitazioni
 
-Prima di iniziare a utilizzare questa funzionalità, controlla le [linee guida e limitazioni](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). Per poter utilizzare le funzionalità di intelligenza artificiale in [!DNL Journey Optimizer B2B Edition] è inoltre necessario accettare il [Contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+Prima di iniziare a utilizzare questa funzionalità, controlla le [linee guida e limitazioni](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations). Per poter utilizzare le funzionalità di intelligenza artificiale in [!DNL Journey Optimizer B2B Edition] è inoltre necessario accettare il [Contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 Per promuovere la trasparenza nell&#39;intelligenza artificiale generativa, Adobe applica [le credenziali del contenuto](https://helpx.adobe.com/it/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} alle risorse generate da Firefly al momento del download o dell&#39;esportazione.
 
@@ -67,7 +67,7 @@ Utilizza prompt ben definiti per il modello di intelligenza artificiale generati
 
 ![Campo richiesta](./assets/gen-ai-prompt.png){width="320"}
 
-Per ulteriori informazioni sulla creazione di prompt effettivi, vedere _[Best practice per i prompt](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
+Per ulteriori informazioni sulla creazione di prompt effettivi, vedere _[Best practice per i prompt](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_.
 
 >[!BEGINSHADEBOX]
 
@@ -115,7 +115,7 @@ Fare clic sulla freccia sinistra per tornare alle _[!UICONTROL Impostazioni]_ pr
 
 ### Contenuto di riferimento
 
-Carica le risorse di contenuto di riferimento per generare contenuti precisi per il brand. In caso contrario, il contenuto generato si basa su informazioni disponibili pubblicamente. Il contenuto di riferimento funge da origine per la generazione di contenuti e per i consigli sulle immagini. Per le linee guida e le best practice, consulta _[Contenuto di riferimento ottimizzato](../ai-assistant/generative-ai-content.md#reference-content)_.
+Carica le risorse di contenuto di riferimento per generare contenuti precisi per il brand. In caso contrario, il contenuto generato si basa su informazioni disponibili pubblicamente. Il contenuto di riferimento funge da origine per la generazione di contenuti e per i consigli sulle immagini. Per le linee guida e le best practice, consulta _[Contenuto di riferimento ottimizzato](../ai-coworker/generative-ai-content.md#reference-content)_.
 
 Dalle impostazioni del **[!UICONTROL contenuto di riferimento]**, fare clic su **[!UICONTROL Carica file]** per aggiungere qualsiasi risorsa contenente contenuto da utilizzare per il contesto aggiuntivo.
 
@@ -165,7 +165,7 @@ Per generare una pagina di destinazione completa perfezionando un modello esiste
 
    >[!TIP]
    >
-   >Se non hai ancora richiesto il contenuto generato, consulta le _[Best practice per la richiesta](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
+   >Se non hai ancora richiesto il contenuto generato, consulta le _[Best practice per la richiesta](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_.
 
 1. Per adattare il contenuto generato, completa le impostazioni di guida del contenuto:
 

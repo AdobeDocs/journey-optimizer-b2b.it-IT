@@ -15,7 +15,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:19:43.813Z
 TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 415
 ht-degree: 83%
@@ -48,7 +48,7 @@ Journey Optimizer B2B Edition ha due utenti tipo principali: un _&#x200B;**addet
 
 La sezione _[!UICONTROL Accesso recente]_ fornisce un elenco delle risorse utilizzate più di recente dall’addetto al marketing o dall’amministratore. Utilizza questo elenco per passare direttamente alla risorsa su cui hai lavorato di recente senza spostarti tra una serie di pagine delle risorse ed eseguendo delle ricerche.
 
-La pagina include inoltre l’accesso all’[Assistente IA](./ai-assistant/ai-assistant-overview.md), che consente agli utenti di ottenere informazioni rapide su domande o argomenti specifici necessari.<!-- and to obtain specific recommendations for their challenges or objectives-->
+La pagina include inoltre l’accesso all’[Assistente IA](./ai-coworker/ai-assistant-overview.md), che consente agli utenti di ottenere informazioni rapide su domande o argomenti specifici necessari.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!--
 
