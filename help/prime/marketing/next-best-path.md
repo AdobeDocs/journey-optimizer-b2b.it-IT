@@ -6,23 +6,29 @@ autotag-review: '2026-06-12T23:02:18.769Z'
 TQID: 'https://experienceleague.adobe.com/OCsqXogJ7C1u2iKrmI9O2ZCPi3FC9xKSU-uIa-Ngki8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Agentic AI
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+    internal-label: Decisioning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 1528
+source-wordcount: '1528'
 ht-degree: 1%
-
 ---
-
 # Nodo percorso migliore successivo
 
 In Journey Optimizer B2B Prime, il nodo *Next best path* porta le decisioni sui percorsi suddivisi basati su intelligenza artificiale direttamente nell&#39;area di lavoro del percorso. Invece di configurare le condizioni del filtro su un nodo [percorsi suddivisi](./split-merge-paths-nodes.md), descrivi l&#39;intento in linguaggio naturale e consenti al sistema di determinare il percorso più rilevante per ogni persona.
@@ -84,9 +90,9 @@ Per ogni percorso, definisci un nome e un prompt in linguaggio naturale che desc
 
      **Esempio di richiesta di una suddivisione a tre percorsi:**
 
-      * *Percorso 1 - Responsabili HR:* Identificare le persone con ruoli di leadership HR che hanno più probabilità di interagire con la gestione dei talenti e con il contenuto dell&#39;esperienza dei dipendenti.
-      * *Percorso 2 - Valutatori tecnici:* Identifica i soggetti tecnici che hanno più probabilità di interagire con l&#39;architettura del prodotto, le integrazioni e il contenuto dell&#39;implementazione.
-      * *Percorso 3 - Responsabili delle decisioni aziendali:* Identifica le parti interessate più propense a interagire con il ROI, i risultati aziendali e il contenuto del caso aziendale.
+     * *Percorso 1 - Responsabili HR:* Identificare le persone con ruoli di leadership HR che hanno più probabilità di interagire con la gestione dei talenti e con il contenuto dell&#39;esperienza dei dipendenti.
+     * *Percorso 2 - Valutatori tecnici:* Identifica i soggetti tecnici che hanno più probabilità di interagire con l&#39;architettura del prodotto, le integrazioni e il contenuto dell&#39;implementazione.
+     * *Percorso 3 - Responsabili delle decisioni aziendali:* Identifica le parti interessate più propense a interagire con il ROI, i risultati aziendali e il contenuto del caso aziendale.
 
 1. Se necessario, riordina i percorsi per impostare l’ordine di priorità per la corrispondenza.
 
