@@ -1,13 +1,11 @@
 ---
 user-guide-title: Documentazione di Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando le funzioni di IA generativa incorporata e l’automazione leader del settore.
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 86%
-
+source-wordcount: '448'
+ht-degree: 84%
 ---
-
 
 # Guida utente di Journey Optimizer B2B Edition {#user}
 
@@ -32,7 +30,6 @@ ht-degree: 86%
   + [Abilitare l’accesso all’Assistente IA](./ai-coworker/enable-ai-assistant-access.md)
   + [Guida alle domande](./ai-coworker/question-guidance.md)
   + [Interfaccia chat](./ai-coworker/use-ai-assistant.md)
-  + [IA generativa per i contenuti](./ai-coworker/generative-ai-content.md)
   + [Punteggi intento](./ai-coworker/intent-scores.md)
   + Agenti {#ai-agents}
     + [Audience Agent B2B](./agents/audience-agent-b2b.md)
@@ -67,7 +64,7 @@ ht-degree: 86%
     + [Aggiungere un’e-mail](./content/add-email.md)
     + [Ottimizzazione dell’ora di invio](./content/email-send-time-optimization.md)
     + [Authoring di e-mail](./content/email-authoring.md)
-    + [Assistente IA per l’authoring delle e-mail](./content/ai-assistant-emails.md)
+    + [Generare contenuti e-mail](./content/generate-content-emails.md)
     + [Flussi di lavoro GenStudio](./content/genstudio-email-workflow.md)
     + [Modalità scura per la progettazione di e-mail](./content/email-dark-mode.md)
     + [Modelli gestiti](./content/email-authoring-governance.md)
@@ -143,7 +140,7 @@ ht-degree: 86%
     + [Panoramica](./content/landing-pages.md)
     + [Creare e pubblicare](./content/landing-pages-create-publish.md)
     + [Progettazione pagina di destinazione](./content/landing-page-design.md)
-    + [Assistente AI per il contenuto della pagina di destinazione](./content/ai-assistant-landing-pages.md)
+    + [Genera contenuto pagina di destinazione](./content/generate-content-landing-pages.md)
   + Strumenti di progettazione dei contenuti {#content-design}
     + [Componenti della struttura](./content/structure-components.md)
     + [Componenti per contenuti](./content/content-components.md)
@@ -153,6 +150,7 @@ ht-degree: 86%
     + [Gestire e creare](./content/brands-manage-create.md)
     + [Modelli di intelligenza artificiale generativi](./content/generative-ai-models.md)
   + [Temi del brand](./content/brand-themes.md)
+  + [IA generativa per i contenuti](./content/generative-ai-content.md)
   + [Valutazione del contenuto](./content/content-evaluation.md)
   + [Contenuto condizionale](./content/conditional-content.md)
   + [Accessibilità dei contenuti](./content/accessible-content.md)

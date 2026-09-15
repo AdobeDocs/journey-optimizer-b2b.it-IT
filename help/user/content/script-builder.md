@@ -8,24 +8,29 @@ autotag-review: '2026-07-27T16:18:02.498Z'
 TQID: 'https://experienceleague.adobe.com/JWnXAAbCuZVLv4ZhWubpNsZ61xbYU7xtdOXkG9uoWis'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+    internal-label: Personalization
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1077
+source-wordcount: '1067'
 ht-degree: 3%
-
 ---
-
 # Generatore di script
 
 _Script Builder_ è un assistente basato sull&#39;intelligenza artificiale disponibile nello spazio di progettazione delle e-mail di [!DNL Adobe Journey Optimizer B2B Edition]. Consente agli addetti al marketing e agli sviluppatori di e-mail di creare script di personalizzazione più rapidamente e facilita la migrazione da [!DNL Marketo Engage] convertendo la logica di personalizzazione esistente in [!DNL Journey Optimizer B2B Edition] senza riscrivere il codice manualmente.
@@ -34,7 +39,7 @@ _Script Builder_ è un assistente basato sull&#39;intelligenza artificiale dispo
 >
 >Script Builder è attualmente disponibile per alcuni clienti come versione beta limitata per le e-mail solo in **_percorsi di account_**. Il supporto per percorsi di persone è pianificato per una versione futura. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
-Per creare la personalizzazione delle e-mail condizionali, ad esempio passare da un blocco di lingua all&#39;altro in base alle impostazioni internazionali, scambiare il contenuto in base all&#39;area geografica o all&#39;utente, oppure inserire valori di oggetti personalizzati o di profilo dinamico, è necessario creare _Handlebars_ espressioni. Se esegui la migrazione da [!DNL Marketo Engage], hai la sfida di riscrivere gli script _Velocity_ riga per riga. Script Builder risolve entrambi gli ostacoli da un’unica interfaccia di conversazione:
+Per creare la personalizzazione delle e-mail condizionali, ad esempio cambiare blocchi di linguaggio, scambiare contenuti o inserire valori dinamici, è necessario creare _Handlebars_ espressioni. Se esegui la migrazione da [!DNL Marketo Engage], hai la sfida di riscrivere gli script _Velocity_ riga per riga. Script Builder risolve entrambi gli ostacoli da un&#39;unica interfaccia di conversazione:
 
 * Genera un nuovo script di personalizzazione Handlebars da una descrizione in linguaggio semplice.
 * Incollare uno script Velocity [!DNL Marketo Engage] e convertirlo in uno script Handlebars equivalente con mappatura token automatica.
@@ -46,7 +51,7 @@ Per creare la personalizzazione delle e-mail condizionali, ad esempio passare da
 >
 >L&#39;accesso utente a Script Builder è controllato tramite le stesse autorizzazioni utilizzate per altre funzionalità di IA generativa in [!DNL Journey Optimizer B2B Edition]. Per informazioni sulla concessione delle autorizzazioni per le funzionalità, vedere [Abilitare l&#39;accesso all&#39;Assistente AI](../ai-coworker/enable-ai-assistant-access.md).
 
-Prima di utilizzare Script Builder, rivedere le [linee guida e limitazioni](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations) applicabili alle funzionalità di intelligenza artificiale generativa in [!DNL Journey Optimizer B2B Edition]. Per poter utilizzare le funzionalità di intelligenza artificiale è inoltre necessario accettare il [Contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
+Prima di utilizzare Script Builder, rivedere le [linee guida e limitazioni](./generative-ai-content.md#general-guidelines-and-limitations) applicabili alle funzionalità di intelligenza artificiale generativa in [!DNL Journey Optimizer B2B Edition]. Per poter utilizzare le funzionalità di intelligenza artificiale è inoltre necessario accettare il [Contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
 Acquisisci familiarità con il [linguaggio di modelli Handlebars](https://handlebarsjs.com/guide/){target="_blank"}, la [sintassi di personalizzazione](./personalization-syntax.md) e le [funzioni helper](./personalization-helper-functions.md) supportate in [!DNL Journey Optimizer B2B Edition]. Script Builder genera Handlebars valide, ma comprendere la sintassi ti aiuta a rivedere e modificare l’output con affidabilità.
 

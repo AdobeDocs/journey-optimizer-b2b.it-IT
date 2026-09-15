@@ -1,38 +1,44 @@
 ---
 title: IA generativa per i contenuti
 description: Scopri come creare e-mail e pagine di destinazione personalizzate con IA generativa in [!DNL Journey Optimizer B2B Edition], incluse le best practice per richiedere conferma.
-feature: AI Assistant, Generative AI, Content
+feature: Generative AI, Content
 level: Beginner
 topic: Artificial Intelligence
 role: User
 nudge: true
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
-autotag-review: '2026-06-05T16:07:36.688Z'
-TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
+autotag-review: '2026-08-06T18:42:03.734Z'
+TQID: 'https://experienceleague.adobe.com/oqAvHYWEVJQVQDOPWcZHuxlTmKJqAKtRp71pfbYcgys'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Content management
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7664c0a08f45698266c72dea229a340eeb596945
+    internal-label: Accessibility
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 2476
+source-wordcount: '2430'
 ht-degree: 7%
-
 ---
-
 # IA generativa per i contenuti {#generative-ai-content}
 
 >[!CONTEXTUALHELP]
@@ -49,9 +55,9 @@ ht-degree: 7%
 >id="ajo_b2b_ai-generation-start"
 >title="Condizioni per l’IA generativa di Adobe"
 >abstract="Per poter accedere a questa funzione è necessario accettare le Linee guida per l’utente dell’IA generativa di Adobe Experience Cloud. Verifica l’accuratezza degli output generati da questa funzione e assicurati che siano appropriati al tuo caso d’uso."
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Linee guida per l’utente sull’intelligenza artificiale generativa di Adobe"
+>additional-url="https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Linee guida per l’utente sull’intelligenza artificiale generativa di Adobe"
 
-L&#39;intelligenza artificiale generativa per il contenuto in [!DNL Adobe Journey Optimizer B2B Edition], basata su Microsoft Azure OpenAI e Adobe Firefly, fornisce suggerimenti proattivi per la variazione dei contenuti per testo e immagini. Ottimizza l’impatto dei contenuti sperimentando con diversi titoli e immagini principali.
+L&#39;intelligenza artificiale generativa per il contenuto in [!DNL Adobe Journey Optimizer B2B Edition], basata su Microsoft Azure OpenAI e Adobe Firefly, fornisce suggerimenti proattivi per la variazione dei contenuti per testo e immagini. Migliora l’impatto dei contenuti sperimentando con diversi titoli e immagini principali.
 
 Utilizzare le funzionalità di intelligenza artificiale generativa per la creazione di contenuti in [!DNL Journey Optimizer B2B Edition] per sfruttare le funzionalità di intelligenza artificiale generativa di Adobe. Crea testo e immagini personalizzati per e-mail, messaggi SMS, pagine di destinazione e altro ancora. Durante la creazione di una campagna o l’ottimizzazione delle risorse, queste funzioni consentono di allineare i contenuti alle linee guida del brand, risparmiando tempo.
 
@@ -63,18 +69,18 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 >
 >Per accedere a queste funzionalità in [!DNL Journey Optimizer B2B Edition], è necessario disporre dell&#39;autorizzazione _[!UICONTROL Assistente AI]_ > _[!UICONTROL Genera contenuto]_. Per ulteriori informazioni su come un amministratore di prodotto può concedere le autorizzazioni per le funzionalità, vedere [Modifica ruoli per le autorizzazioni per il prodotto](../admin/user-management.md#edit-roles-for-product-permissions).
 
-Gli strumenti di AI Assistant per la generazione di contenuti sono supportati con i seguenti tipi di risorse:
+Gli strumenti di generazione dei contenuti sono supportati con i seguenti tipi di risorse:
 
-* [E-mail](../content/ai-assistant-emails.md)
-* [!BADGE Beta] [Pagine di destinazione](../content/ai-assistant-landing-pages.md)
+* [E-mail](./generate-content-emails.md)
+* [!BADGE Beta] [Pagine di destinazione](./generate-content-landing-pages.md)
 
 ## Linee guida e limitazioni generali {#general-guidelines-and-limitations}
 
-L&#39;utilizzo delle funzionalità di intelligenza artificiale generativa è soggetto alle [linee guida per l&#39;utente di intelligenza artificiale generativa di Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Con l&#39;impegno di Adobe per la trasparenza nell&#39;utilizzo degli strumenti di intelligenza artificiale generativi per la creazione di contenuti multimediali, Adobe applica [credenziali contenuto](https://helpx.adobe.com/it/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} a qualsiasi contenuto o progetto che include una risorsa generata da [!DNL Firefly] al momento del download o dell&#39;esportazione.
+L&#39;utilizzo delle funzionalità di intelligenza artificiale generativa è soggetto alle [linee guida per l&#39;utente di intelligenza artificiale generativa di Adobe Experience Cloud](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}. Con l&#39;impegno di Adobe per la trasparenza nell&#39;utilizzo degli strumenti di intelligenza artificiale generativi per la creazione di contenuti multimediali, Adobe applica i [metadati C2PA](./c2pa-metadata.md) a qualsiasi contenuto o progetto che include una risorsa generata da [!DNL Firefly] al momento del download o dell&#39;esportazione.
 
 Rivedi le seguenti linee guida generali per l&#39;utilizzo di IA generativa per il contenuto in [!DNL Journey Optimizer B2B Edition]:
 
-* Utilizza prompt ben definiti per il modello di intelligenza artificiale generativo per interpretare con precisione. L’obiettivo di marketing o la richiesta che fornisci influisce fortemente sulla qualità del contenuto generato.
+* Utilizza prompt ben definiti per il modello di intelligenza artificiale generativo per interpretare con precisione. L’obiettivo di marketing o il prompt fornito influisce sulla qualità del contenuto generato.
 
 * Carica i file di riferimento dei contenuti per ottenere contenuti precisi per il brand. In caso contrario, il contenuto si basa su informazioni disponibili pubblicamente. Il contenuto caricato può essere nei seguenti formati di file: PDF, JPEG, PNG o ZIP (contenenti i formati di file supportati). La dimensione massima per un file caricato è di 50 MB. È possibile utilizzare file più grandi o un numero elevato di immagini, ma questo aumenta il tempo di elaborazione.
 
@@ -91,7 +97,7 @@ Rivedi le seguenti linee guida generali per l&#39;utilizzo di IA generativa per 
 
 Questa guida ti aiuta a strutturare le richieste, comunicare le intenzioni con chiarezza e garantire che l’intelligenza artificiale produca messaggi in linea con le linee guida del tuo marchio, le esigenze del pubblico e gli obiettivi della campagna.
 
-Scopri come scrivere prompt efficaci che consentano all’Assistente AI di generare contenuti di marketing di alta qualità e personalizzati per i tuoi obiettivi.
+Scopri come scrivere prompt efficaci che producano contenuti di marketing di alta qualità e personalizzati per i tuoi obiettivi.
 
 ### Utilizzare il framework CO-STAR {#costar-framework}
 
@@ -324,7 +330,7 @@ Indica chiaramente se la richiesta comporta la generazione di nuovo contenuto o 
 
 #### Creazione di nuovi contenuti
 
-Applica questa strategia quando avvii campagne di marketing, riveli nuove soluzioni o avvii comunicazioni aggiornate/aggiornate. In questo modo il messaggio inizia forte e si allinea agli obiettivi.
+Applica questa strategia quando avvii campagne di marketing, riveli nuove soluzioni o avvii comunicazioni aggiornate/aggiornate. In questo modo il messaggio sarà efficace e in linea con gli obiettivi.
 
 **Come richiedere** ➤ Quando crei un nuovo contenuto, concentrati sul tuo obiettivo di marketing senza fare riferimento a contenuto esistente.
 
@@ -342,7 +348,7 @@ Applica questa strategia quando avvii campagne di marketing, riveli nuove soluzi
 >
 >Per le modifiche standard come elaborate, riepilogate o semplificate, selezionare **_Perfeziona_** invece di scrivere prompt personalizzati.
 
-Invia una richiesta di modifica quando devi aggiornare, aggiornare o adattare le campagne di marketing correnti. Questo metodo supporta miglioramenti incrementali, garantendo che i messaggi rimangano pertinenti senza iniziare da zero.
+Invia una richiesta di modifica quando devi aggiornare, aggiornare o adattare le campagne di marketing correnti. Questo metodo supporta miglioramenti incrementali, garantendo che i messaggi rimangano pertinenti senza riavviare il processo.
 
 **Come richiedere** ➤ Quando modifichi il contenuto esistente, specifica chiaramente ciò che desideri modificare e come modificarlo.
 
@@ -356,7 +362,7 @@ Invia una richiesta di modifica quando devi aggiornare, aggiornare o adattare le
 
 ## Impostazioni avanzate testo {#text-settings}
 
-Oltre a utilizzare un prompt chiaro e ben formato, le impostazioni di testo negli strumenti di contenuto dell’Assistente AI includono impostazioni di testo che è possibile utilizzare per ottimizzare gli output generati.
+Oltre a utilizzare un prompt chiaro e ben formato, utilizza le impostazioni di testo per ottimizzare gli output generati.
 
 >[!TIP]
 >
@@ -405,21 +411,21 @@ Rivedi le opzioni dei toni disponibili, tra cui quando ciascuno funziona al megl
 >
 >Se hai già caricato una risorsa tramite il menu **[!UICONTROL Contenuto di riferimento]**, non è necessario farvi riferimento nella richiesta. Il sistema utilizza automaticamente tutti i documenti selezionati.
 
-I file di contenuto di riferimento forniscono informazioni fattuali che arricchiscono il contenuto generato con dettagli specifici e precisi. Quando carichi dei documenti, ad esempio brochure di prodotti o white paper, modifica la richiesta per specificare quali parti sono attive:
+I file di contenuto di riferimento forniscono informazioni fattuali che arricchiscono il contenuto generato con dettagli specifici e precisi. Per specificare quali parti sono attive, modificare la richiesta quando si caricano documenti, ad esempio brochure di prodotti o white paper:
 
 * **Anziché** _&quot;Utilizzare la brochure del prodotto&quot;_ **utilizzare** _&quot;Concentrarsi sulle funzionalità di sicurezza avanzate e sulle certificazioni di conformità, in particolare sulla conformità SOC 2 e sulla crittografia dei dati&quot;_
 
-* **Anziché** _&quot;Fare riferimento ai casi di studio&quot;_ **utilizzare** _&quot;Evidenziare i risultati del ROI dai clienti del settore sanitario, in particolare la riduzione dei costi del 40% presso il Centro medico regionale&quot;_
+* **Anziché** _&quot;Fare riferimento ai casi di studio&quot;_ **utilizzare** _&quot;Evidenziare i risultati del ROI dai clienti del settore sanitario, in particolare la riduzione dei costi del 40% presso il centro medico regionale&quot;_
 
-* **Invece di** _&quot;Includi dettagli tecnici&quot;_ **devi utilizzare** _&quot;Enfatizzare le funzionalità di integrazione API e i vantaggi per gli sviluppatori, concentrandoti sugli endpoint REST API e sul 99,9% di uptime SLA&quot;_
+* **Anziché** _&quot;Includere dettagli tecnici&quot;_ **utilizzare** _&quot;Enfatizzare le funzionalità di integrazione API e i vantaggi per gli sviluppatori, concentrandosi sugli endpoint REST API e sul 99,9% di uptime SLA&quot;_
 
 ### Ottimizzazione dei contenuti
 
 Dopo la generazione del contenuto, utilizzare la funzionalità **_[!UICONTROL Perfeziona]_** per eseguire iterazioni e migliorarla con le opzioni seguenti:
 
-* **[!UICONTROL Elaborare]** - L&#39;Assistente all&#39;intelligenza artificiale può aiutarti a espandere argomenti specifici, fornendo ulteriori dettagli per una migliore comprensione e coinvolgimento.
+* **[!UICONTROL Elaborare]** - Espandere argomenti specifici, fornendo ulteriori dettagli per una migliore comprensione e coinvolgimento.
 
-* **[!UICONTROL Riepiloga]** - Le informazioni lunghe possono sovraccaricare i visualizzatori di pagina. Utilizza l’Assistente AI per condensare i punti chiave in riepiloghi chiari e concisi che catturano l’attenzione e li incoraggiano a leggere ulteriormente.
+* **[!UICONTROL Riepiloga]** - Le informazioni lunghe possono sovraccaricare i lettori. Modifica per condensare i punti chiave in riepiloghi chiari e concisi che catturano l’attenzione e li incoraggiano a leggere ulteriormente.
 
 * **[!UICONTROL Riformula]** - Riscrivi il messaggio conservandone il significato. Questa opzione consente di generare una formulazione alternativa, migliorare il flusso o regolare la formulazione senza modificare il messaggio principale.
 

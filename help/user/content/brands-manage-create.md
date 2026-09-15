@@ -8,24 +8,28 @@ level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+    internal-label: Content strategy
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 2070
-ht-degree: 7%
-
+source-wordcount: '2039'
+ht-degree: 4%
 ---
-
 # Creare e gestire i brand {#brand-library}
 
 Definisci un marchio per fornire un set dettagliato di regole e standard che stabiliscano un&#39;identità visiva e verbale. Queste linee guida forniscono un riferimento per mantenere una rappresentazione coerente del brand in tutte le piattaforme di marketing e comunicazione. Sfruttando linee guida del brand ben definite, le organizzazioni possono garantire che tutte le attività di creazione dei contenuti siano allineate agli obiettivi strategici e all’identità del brand complessiva. Questa coerenza non solo migliora il riconoscimento e la fiducia del marchio, ma contribuisce anche a creare un’esperienza del cliente più coesa e incisiva in tutti i punti di contatto.
@@ -38,7 +42,7 @@ In Journey Optimizer B2B edition puoi definire e organizzare manualmente le defi
 >
 ><br>
 >
->È necessario un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di poter utilizzare le funzionalità basate sull&#39;intelligenza artificiale in Adobe Journey Optimizer B2B edition. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>È necessario un [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} prima di poter utilizzare le funzionalità basate sull&#39;intelligenza artificiale in Adobe Journey Optimizer B2B edition. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 >
 ><br>
 >
@@ -68,7 +72,7 @@ Per ogni scheda, puoi fare clic sull&#39;icona _Altro menu_ ( ![Altro menu icona
 
 ### Marchio predefinito
 
-Puoi designare un marchio predefinito da applicare automaticamente durante la generazione del contenuto e il calcolo dei punteggi di allineamento durante la creazione del contenuto. Solo un marchio pubblicato (_Live_) può essere il valore predefinito.
+Per applicare automaticamente un brand durante la generazione del contenuto e il calcolo dei punteggi di allineamento durante la creazione del contenuto, designa un brand predefinito. Solo un marchio pubblicato (_Live_) può essere il valore predefinito.
 
 Nella libreria Marchi, la scheda marchio predefinita viene visualizzata con un flag.
 
@@ -111,7 +115,7 @@ Per creare e definire le linee guida per il brand, puoi inserire i dettagli o ca
 
 ### Perfezionare e aggiornare le linee guida per il brand
 
-1. Sfoglia le diverse schede per adattarti e definire informazioni più dettagliate, se necessario.
+1. Per adattare e definire informazioni più dettagliate in base alle esigenze, sfoglia le diverse schede.
 
    * [!UICONTROL Panoramica]
 
@@ -163,7 +167,7 @@ Per creare e definire le linee guida per il brand, puoi inserire i dettagli o ca
 
 1. Dopo aver definito tutto, fai clic su **[!UICONTROL Salva]**.
 
-   Puoi continuare ad apportare modifiche al brand della bozza fino a quando non decidi che è pronto per la pubblicazione.
+   Puoi continuare ad apportare modifiche al brand della bozza. Continua finché non decidi che è pronto per la pubblicazione.
 
 ### Pubblicare il brand
 
@@ -241,9 +245,9 @@ Puoi continuare a perfezionare le [linee guida, esclusioni ed esempi sullo stile
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="Punteggio di allineamento dello stile di scrittura"
->abstract="La sezione Stile di scrittura definisce gli standard per lingua, formattazione e struttura al fine di garantire contenuti chiari e coerenti. Il punteggio di allineamento, valutato da alto a basso, mostra con quanta efficacia il contenuto segue queste linee guida ed evidenzia le aree da migliorare."
+>abstract="La sezione Stile scrittura definisce gli standard per lingua, formattazione e struttura. Il punteggio di allineamento indica se il contenuto segue queste linee guida ed evidenzia le aree da migliorare."
 
-Le definizioni di _[!UICONTROL Stile scrittura]_ descrivono gli standard per la scrittura dei contenuti e descrivono come utilizzare linguaggio, formattazione e struttura per mantenere chiarezza, coerenza e coerenza in tutti i materiali.
+Le definizioni di _[!UICONTROL Stile scrittura]_ descrivono gli standard per la scrittura dei contenuti e descrivono in dettaglio il modo in cui il linguaggio, la formattazione e la struttura devono essere utilizzati per mantenere la chiarezza, la coerenza e la coerenza in tutti i materiali.
 
 Selezionare la scheda **[!UICONTROL Stile scrittura]** e rivedere ogni categoria.
 
@@ -285,7 +289,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
 >title="Punteggio di allineamento del contenuto visivo"
->abstract="Il punteggio di allineamento del contenuto visivo, indica con quanta efficacia il contenuto corrisponde alle linee guida del brand configurate. Con una valutazione da alto a basso, consente di stimare l’allineamento all’instante. Esplora le diverse categorie per identificare le aree da migliorare e individuare gli elementi che potrebbero non rispecchiare il brand."
+>abstract="Il punteggio di allineamento del contenuto visivo, indica con quanta efficacia il contenuto corrisponde alle linee guida del brand configurate. Consente di valutare l’allineamento e identificare le aree da migliorare."
 
 Le definizioni di _[!UICONTROL contenuto visivo]_ delineano gli standard per immagini e design e descrivono le specifiche necessarie per mantenere un aspetto di marchio unificato e coerente.
 
@@ -326,7 +330,7 @@ Non puoi apportare modifiche a un brand pubblicato (Live), ma puoi creare una bo
 
    Questa azione crea una bozza di copia del brand.
 
-1. Sfoglia le diverse schede per aggiornare le informazioni sul brand in base alle esigenze.
+1. Sfoglia le diverse schede e aggiorna le informazioni sul brand in base alle esigenze.
 
    * Panoramica
 

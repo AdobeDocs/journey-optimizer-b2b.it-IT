@@ -5,25 +5,30 @@ role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: d8425054daea287d21419911158908035c1314f6
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 5637
+source-wordcount: '5637'
 ht-degree: 61%
-
 ---
-
 # Note sulla versione di Journey Optimizer B2B Edition
 
 Adobe Journey Optimizer B2B Edition fornisce continuamente nuove funzioni, miglioramenti a quelle esistenti e correzioni di bug.
@@ -137,7 +142,7 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
 | Funzione | Kit per marchi | (Beta) Definisci un marchio in Journey Optimizer B2B edition per fornire al team creativo la fonte di verità da utilizzare per la creazione di contenuti visivi o scritti. Quando queste linee guida vengono compilate e le risorse del brand condivise, qualsiasi membro del team o collaboratore può creare contenuti sul brand per il tuo prodotto. [Ulteriori informazioni](../content/brands-overview.md) |
-| Funzione | Marchi per la generazione di contenuti e-mail | Puoi definire le linee guida per il tuo marchio e utilizzare queste informazioni per generare contenuti e-mail. Con questa funzione, il contenuto delle e-mail è allineato con le linee guida, gli stili e il tono specifici del tuo marchio. [Ulteriori informazioni](../content/ai-assistant-emails.md) |
+| Funzione | Marchi per la generazione di contenuti e-mail | Puoi definire le linee guida per il tuo marchio e utilizzare queste informazioni per generare contenuti e-mail. Con questa funzione, il contenuto delle e-mail è allineato con le linee guida, gli stili e il tono specifici del tuo marchio. [Ulteriori informazioni](../content/generate-content-emails.md) |
 | Miglioramento | Nodo percorso _Attendi_ - Impostazioni avanzate | Per un nodo _Attendi_ in un percorso, gli addetti al marketing possono ora specificare i giorni e gli orari di uscita e selezionare i fusi orari. Questo miglioramento consente un migliore controllo dell’orchestrazione del percorso e della tempistica delle campagne. [Ulteriori informazioni](../journeys/wait-nodes.md#advanced-wait-settings) |
 | Miglioramento | Filtro Membro del gruppo di acquisto - Rimosso | Per un nodo _split path by people_, il filtro _[!UICONTROL Member of Buying Group]_ ora include il vincolo _Is Removed_. Selezionando questa opzione, il filtro può includere o escludere il membro del gruppo di acquisto rimosso. È supportato anche negli elenchi avanzati di Marketo Engage, dove è possibile utilizzare questo nuovo vincolo nel filtro _[!UICONTROL Membro del gruppo di acquisto]_. |
 | Miglioramento | Progettazione delle e-mail: punti elenco a più livelli | Gli strumenti per lo spazio di progettazione del contenuto dell’e-mail ora supportano i sub-punti elenco (livelli di punto elenco). |
@@ -154,7 +159,7 @@ Nell’interfaccia chat di Journey Optimizer B2B edition sono ora disponibili le
 | ----- | ------ | ----------- |
 | Journey Build Agent | Nuovo e aggiornato | Il Journey Build Agent analizza, progetta e collabora sui percorsi in tempo reale, consentendo ai marketer di avviare più rapidamente, migliorare il coinvolgimento e aumentare i tassi di conversione. [Ulteriori informazioni](../agents/journey-agent.md) |
 | Agente Audience | Nuovo | L’Agente Audience identifica e crea automaticamente i gruppi acquisti utilizzando dati strutturati e non strutturati. Aiuta i marketer a mirare le persone giuste in modo più rapido e preciso. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
-| Qualificatore di vendita | Nuovo | Sales Qualifier è un’applicazione aggiuntiva basata sull’intelligenza artificiale per Adobe Journey Optimizer B2B edition che contiene Account Qualification Agent ed è progettata per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti nei vari canali. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/sales-qualifier/using/home){target="_blank"} |
+| Qualificatore di vendita | Nuovo | Sales Qualifier è un&#39;applicazione aggiuntiva basata sull&#39;intelligenza artificiale per Adobe Journey Optimizer B2B edition che contiene il Account Qualification Agent ed è progettata per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti nei vari canali. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Note sulla versione 2025.10 {#rel-2025-10}
 
