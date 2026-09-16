@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentazione di Journey Optimizer B2B Edition
 user-guide-description: Scopri Adobe Journey Optimizer B2B Edition e come utilizzarlo per orchestrare account e percorsi di gruppo acquisti utilizzando le funzioni di IA generativa incorporata e l’automazione leader del settore.
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '445'
 ht-degree: 84%
 ---
 
@@ -68,7 +68,6 @@ ht-degree: 84%
     + [Flussi di lavoro GenStudio](./content/genstudio-email-workflow.md)
     + [Modalità scura per la progettazione di e-mail](./content/email-dark-mode.md)
     + [Modelli gestiti](./content/email-authoring-governance.md)
-    + [E-mail di avviso vendite](./content/sales-alert-email.md)
     + [Deduplicazione e-mail](./content/email-deduplication.md)
     + [Tracciamento e-mail](./content/email-tracking-manage.md)
   + Canale web (Beta) {#web-channel}

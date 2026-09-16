@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Content strategy
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 4%
@@ -173,7 +173,7 @@ Per creare e definire le linee guida per il brand, puoi inserire i dettagli o ca
 
 Quando il tuo marchio include un set completo di definizioni e soddisfa le tue esigenze, fai clic su **[!UICONTROL Pubblica]** per rendere le linee guida del tuo marchio disponibili per l&#39;allineamento e la generazione dei contenuti.
 
-I brand pubblicati sono accessibili dall&#39;opzione **[!UICONTROL Brand]** nell&#39;IA [brand alignment score](./content-evaluation.md#brand-alignment-score) e negli [strumenti di generazione dei contenuti](../ai-coworker/generative-ai-content.md).
+I brand pubblicati sono accessibili dall&#39;opzione **[!UICONTROL Brand]** nell&#39;IA [brand alignment score](./content-evaluation.md#brand-alignment-score) e negli [strumenti di generazione dei contenuti](./generative-ai-content.md).
 
 ![Opzioni marchio per contenuto](./assets/brand-menu-content-ai-tools.png){width="300"}
 
