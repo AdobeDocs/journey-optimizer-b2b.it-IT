@@ -1,28 +1,31 @@
 ---
 title: Ascolta un evento
-description: 'Configurare i nodi evento per i trigger account e persone: ascolta le modifiche del gruppo di acquisto, i clic e-mail, i riempimenti di moduli ed eventi Experience Platform in Journey Optimizer B2B edition.'
+description: 'Configurare i nodi evento per i trigger account e persone: ascolta l’acquisto di modifiche al gruppo, clic e-mail, riempimenti di moduli ed eventi Experience Platform in Journey Optimizer B2B Edition.'
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
+source-git-commit: 8295db0f508acc0b28feabdf95f1ccb71f2afc12
 workflow-type: tm+mt
-source-wordcount: 1897
+source-wordcount: '1783'
 ht-degree: 5%
-
 ---
-
 # Ascoltare un evento
 
 Per spostare il pubblico al passaggio successivo nel [percorso](./journeys-overview.md) quando si verifica un evento, aggiungi il nodo _Ascolta un evento_. A seconda del tipo di percorso, puoi utilizzare questo nodo per attivare il nodo successivo nel percorso in base agli eventi relativi alle persone o all’account.
@@ -45,80 +48,49 @@ Per spostare il pubblico al passaggio successivo nel [percorso](./journeys-overv
 
 1. Nelle proprietà del nodo a destra, utilizza il selettore _Tipo evento_ per scegliere tra **[!UICONTROL Account]** e **[!UICONTROL Persone]**.
 
-1. Seleziona un evento dall’elenco.
-
-   * Per il tipo di evento _Persone_, scegli l&#39;[evento persone](#people-events) che desideri utilizzare per il trigger.
-
-     ![nodo Percorso - ascolto eventi su persone](./assets/node-listen-events-people.png){width="500" zoomable="yes"}
+1. Definisci il trigger di evento per il tipo di evento selezionato:
 
    * Per il tipo di evento _Account_, scegliere l&#39;[evento account](#account-events) che si desidera utilizzare per il trigger.
 
      ![nodo Percorso - ascolto eventi sull&#39;account](./assets/node-listen-events-account.png){width="500" zoomable="yes"}
 
-1. Fai clic su **[!UICONTROL Modifica evento]** e definisci i dettagli dell&#39;evento.
+     Fai clic su **[!UICONTROL Modifica evento]** e definisci i criteri di corrispondenza per l&#39;[evento account](#account-events).
 
-   A seconda del tipo e dell’evento selezionati, definisci i criteri di corrispondenza dell’evento.
+   * Per il tipo di evento _Persone_, fare clic su **[!UICONTROL Aggiungi criteri evento]**.
 
-   * [Eventi persone](#people-events)
-   * [Eventi account](#account-events)
+     ![nodo Percorso - ascolto eventi su persone](./assets/node-listen-events-people.png){width="500" zoomable="yes"}
 
-   Puoi anche includere [filtri](#filters-people-event) per l&#39;evento.
+     Nella finestra di dialogo _Modifica evento_, trascina uno o più [eventi persone](#people-events) nello spazio del generatore e imposta la definizione per ciascuno di essi. Fare clic su **[!UICONTROL Aggiungi vincolo]** per ogni vincolo che si desidera utilizzare per perfezionare la corrispondenza dell&#39;evento.
+
+     Puoi aggiungere più eventi di persone da associare. Il primo evento idoneo fa avanzare il conto nel percorso.
+
+     ![Nodo percorso account - Ascolta eventi - Tipo evento persone - Modifica evento](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
+
+     (Facoltativo) Seleziona la scheda **[!UICONTROL Filtri]** per [aggiungere filtri per l&#39;evento](#filters-people-event).
 
 1. Fai clic su **[!UICONTROL Fine]**.
 
-   Le definizioni di evento e filtro vengono visualizzate nel nodo e nelle proprietà del nodo.
+   Le definizioni di evento e filtro vengono visualizzate nelle proprietà del nodo.
 
-   ![Nodo percorso account - Ascolta eventi - Evento e filtri](./assets/node-listen-events-account-complete.png){width="500"}
+   ![Nodo percorso account - Ascolta eventi - Eventi definiti](./assets/node-listen-events-account-complete.png){width="500"}
 
 ### Eventi persone per percorsi di account {#people-events}
 
-In un percorso di account, puoi ascoltare un evento basato sulle persone quando desideri spostare l’account in avanti nel percorso in base agli eventi attivati dall’attività delle persone. Puoi anche filtrare gli eventi in base alla cronologia degli eventi e agli attributi delle persone.
+In un percorso di account, puoi ascoltare un evento basato sulle persone quando desideri spostare l’account in avanti nel percorso in base agli eventi attivati dalle attività della persona (lead). Puoi anche filtrare gli eventi in base alla cronologia degli eventi e agli attributi della persona.
 
 >[!TIP]
 >
->Gli eventi di esperienza possono verificarsi _prima che_ persone entrino nel percorso (ad esempio un clic e-mail precedente o un&#39;interazione web). Per instradare le persone in base a questi eventi, utilizzare il filtro [!UICONTROL Cronologia eventi] in un nodo [Dividi percorsi per persone](./split-merge-paths-nodes.md#experience-event-history-filtering).
+>Gli eventi esperienza possono verificarsi _prima che_ persone entrino nel percorso (ad esempio un clic e-mail precedente o un&#39;interazione web). Per instradare le persone in base a questi eventi, utilizzare il filtro [!UICONTROL Cronologia eventi] in un nodo [Dividi percorsi per persone](./split-merge-paths-nodes.md#experience-event-history-filtering).
+
+Per informazioni dettagliate sull&#39;utilizzo degli eventi esperienza, vedi [Trigger eventi esperienza](#experience-event-triggers).
 
 #### Eventi B2B di Journey Optimizer {#events-account-people}
 
 | Evento | Vincoli |
 | ----- | ----------- |
-| [!UICONTROL Assegnato al gruppo di acquisto] | Interesse soluzione (obbligatorio)<br/><br/>Vincoli aggiuntivi (facoltativo): <li>Ruolo</li><li>Data dell’attività</li><br/>Timeout (facoltativo) |
+| [!UICONTROL Lead aggiunto al gruppo di acquisto] | Interesse soluzione (obbligatorio)<br/><br/>Vincoli aggiuntivi (facoltativo): <li>Ruolo</li><li>Data dell’attività</li> |
+| [!UICONTROL Lead rimosso dal gruppo di acquisto] | Interesse soluzione (obbligatorio)<br/>Data dell&#39;attività (facoltativo) |
 | [!UICONTROL Modifiche al profilo della persona] | Attributo (obbligatorio)<br/>Data di attività (facoltativo)<br/>Nuovo valore (facoltativo)<br/>Valore precedente (facoltativo)<br/>Motivo (facoltativo)<br/>Source (facoltativo) |
-| [!UICONTROL Rimosso dal gruppo di acquisto] | Interesse soluzione (obbligatorio)<br/>Data attività (facoltativo)<br/>Timeout (facoltativo) |
-
-1. Imposta il valore richiesto per la corrispondenza per l’evento.
-
-   Se necessario, impostare l&#39;operatore per la valutazione.
-
-1. Per ogni vincolo facoltativo che si desidera includere per la corrispondenza evento, fare clic su **[!UICONTROL Aggiungi vincolo]** e selezionare un vincolo nell&#39;elenco.
-
-   ![Finestra di dialogo per modificare un evento Journey Optimizer B2B people in un percorso di account](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
-
-1. (Facoltativo) Seleziona la scheda **[!UICONTROL Filtri]** per [aggiungere filtri per l&#39;evento](#filters-people-event).
-
-1. Fai clic su **[!UICONTROL Fine]**.
-
-#### Eventi esperienza {#experience-events-account-people}
-
->[!PREREQUISITES]
->
->Gli amministratori configurano [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale.
->
->Per rendere Experience Events disponibili per percorsi, un amministratore di prodotto deve prima [aggiungere i tipi di evento e i campi di interesse](../admin/configure-aep-events.md#add-an-event) in [!DNL Journey Optimizer B2B Edition].
-
-1. Fare clic su **[!UICONTROL Aggiungi vincolo]** e scegliere il campo che si desidera utilizzare per il vincolo.
-
-   I vincoli disponibili vengono definiti come campi gestiti per la configurazione dell’evento.
-
-1. Completare la condizione per il vincolo.
-
-   È possibile utilizzare l&#39;operatore predefinito **[!UICONTROL is]** per far corrispondere uno o più valori di campo. In alternativa, è possibile utilizzare l&#39;operatore **[!UICONTROL is not]** per la corrispondenza su tutti i valori con l&#39;esclusione di uno o più valori specificati.
-
-   ![Finestra di dialogo Modifica evento per un evento esperienza in un percorso di account](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
-
-1. (Facoltativo) Seleziona la scheda **[!UICONTROL Filtri]** per [aggiungere filtri per l&#39;evento](#filters-people-event).
-
-1. Fai clic su **[!UICONTROL Fine]**.
 
 ### Eventi account {#account-events}
 
@@ -133,7 +105,7 @@ In un percorso di account, è possibile ascoltare un evento basato sull&#39;acco
 | [!UICONTROL Modifica del punteggio di completezza] | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo): <li>Nuovo punteggio</li><li>Punteggio precedente</li><li>Data dell’attività</li><br/> Timeout (facoltativo) |
 | [!UICONTROL Modifica del punteggio di coinvolgimento] | Interesse soluzione<br/>Vincoli aggiuntivi (facoltativo): <li>Nuovo punteggio</li><li>Punteggio precedente</li><li>Data dell’attività</li><br/> Timeout (facoltativo) |
 
-1. Imposta il vincolo richiesto da associare all&#39;evento.
+1. Per far corrispondere l&#39;evento, impostare il vincolo richiesto.
 
 1. Per ogni vincolo facoltativo che si desidera includere per la corrispondenza evento, fare clic su **[!UICONTROL Aggiungi vincolo]** e selezionare il campo.
 
@@ -206,7 +178,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. Aggiungi un evento e imposta i vincoli a cui desideri corrispondere per il trigger.
 
-   Puoi utilizzare [Eventi esperienza](#experience-events-person) e [Modifiche al profilo della persona](#person-profile-changes) per definire il trigger dell&#39;evento.
+   Puoi utilizzare [Eventi esperienza](#experience-event-triggers) e [Modifiche al profilo della persona](#person-profile-changes) per definire il trigger dell&#39;evento.
 
    Trascina e rilascia il trigger di evento nello spazio del generatore e imposta la definizione. Fare clic su **[!UICONTROL Aggiungi vincolo]** per ogni vincolo che si desidera utilizzare per perfezionare la corrispondenza dell&#39;evento.
 
@@ -216,19 +188,39 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. Fai clic su **[!UICONTROL Fine]**.
 
-   Le definizioni di evento e filtro vengono visualizzate nel nodo e nelle proprietà del nodo.
+   Le definizioni di evento e filtro vengono visualizzate nelle proprietà del nodo.
 
    ![Nodo Percorso - Ascolta eventi - Evento e filtri](./assets/node-listen-events-person-complete.png){width="450"}
 
-### Eventi esperienza per percorsi di persone {#experience-events-person}
+### Variazioni in profilo persona {#person-profile-changes}
+
+Per i percorsi di persone, puoi utilizzare una modifica negli attributi del profilo di persona B2B per attivare il nodo _Ascolta per un evento_.
+
+1. Trascina **[!UICONTROL Modifica del profilo della persona]**s dall&#39;elenco _[!UICONTROL Triggers]_ nello spazio del generatore di corrispondenze eventi.
+
+1. Fare clic su **[!UICONTROL Aggiungi vincolo]** e selezionare la modifica dell&#39;attributo che si desidera utilizzare per l&#39;attivazione dell&#39;evento.
+
+   Imposta il valore del campo in base alla modifica che desideri applicare.
+
+   ![percorso di persone - Ascolta un evento di modifica del profilo di una persona](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
+
+1. (Facoltativo) Aggiungi un altro attributo _Person profile change_ che desideri utilizzare come attivatore di evento o un [Experience Event](#experience-event-triggers).
+
+   Quando aggiungi più eventi da associare, il primo evento qualificato fa avanzare il profilo della persona nel percorso.
+
+1. (Facoltativo) Seleziona la scheda **[!UICONTROL Filtri]** per [aggiungere filtri per l&#39;evento](#filters-people-event).
+
+1. Fai clic su **[!UICONTROL Fine]**.
+
+## Trigger di Experience Event {#experience-event-triggers}
+
+Gli eventi esperienza sono disponibili per percorsi di persone o quando utilizzi il tipo di evento _Persone_ nei percorsi di account. Utilizza la finestra di dialogo _[!UICONTROL Modifica evento]_ per aggiungere uno o più eventi esperienza per attivare il nodo _Ascolta un evento_.
 
 >[!PREREQUISITES]
 >
->Gli amministratori configurano [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale.
+>Gli amministratori configurano [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale.
 >
 >Per rendere Experience Events disponibili per percorsi, un amministratore di prodotto deve prima [aggiungere i tipi di evento e i campi di interesse](../admin/configure-aep-events.md#add-an-event) in [!DNL Journey Optimizer B2B Edition].
-
-È possibile utilizzare Eventi esperienza per attivare il nodo in percorsi di persone nella finestra di dialogo _[!UICONTROL Modifica evento]_.
 
 1. Espandi **[!UICONTROL Eventi Sapphire AEP]** nell&#39;elenco _[!UICONTROL Triggers]_ a sinistra.
 
@@ -242,31 +234,15 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
    ![Finestra di dialogo Modifica evento per un evento esperienza in un percorso di persone](./assets/node-listen-events-person-journey-edit-event-aep-event.png){width="700" zoomable="yes"}
 
-1. Imposta l’operatore e i valori da far corrispondere per il campo evento.
+1. Per far corrispondere il campo dell’evento, imposta l’operatore e i valori.
 
-1. (Facoltativo) Aggiungi un altro evento esperienza o una [modifica del profilo persona](#person-profile-changes).
+1. Aggiungi un altro evento (facoltativo).
 
-   Quando aggiungi più eventi da associare. Il primo evento qualificante fa avanzare il profilo della persona nel percorso.
+   Puoi utilizzare più eventi esperienza per attivare il nodo.
 
-1. (Facoltativo) Seleziona la scheda **[!UICONTROL Filtri]** per [aggiungere filtri per l&#39;evento](#filters-people-event).
+   Per un percorso di persone puoi anche aggiungere [modifiche al profilo di persona](#person-profile-changes). Per un percorso di account (tipo di evento persone), puoi anche aggiungere [eventi B2B di Journey Optimizer](#events-account-people).
 
-1. Fai clic su **[!UICONTROL Fine]**.
-
-### Variazioni in profilo persona {#person-profile-changes}
-
-È possibile utilizzare una modifica negli attributi del profilo di persona B2B per attivare il nodo nei percorsi di persone nella finestra di dialogo _[!UICONTROL Modifica evento]_.
-
-1. Trascina **[!UICONTROL Modifica del profilo della persona]**&#x200B;s dall&#39;elenco _[!UICONTROL Triggers]_ nello spazio del generatore di corrispondenze eventi.
-
-1. Fare clic su **[!UICONTROL Aggiungi vincolo]** e selezionare la modifica dell&#39;attributo che si desidera utilizzare per l&#39;attivazione dell&#39;evento.
-
-   Imposta il valore del campo in base alla modifica che desideri applicare.
-
-   ![percorso di persone - Ascolta un evento di modifica del profilo di una persona](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
-
-1. (Facoltativo) Aggiungi un altro attributo _Person profile change_ che desideri utilizzare come attivatore di evento o un [Experience Event](#experience-events-person).
-
-   Quando aggiungi più eventi da associare. Il primo evento qualificante fa avanzare il profilo della persona nel percorso.
+   Quando aggiungi più eventi da associare, il primo evento qualificato fa avanzare il profilo della persona nel percorso.
 
 1. (Facoltativo) Seleziona la scheda **[!UICONTROL Filtri]** per [aggiungere filtri per l&#39;evento](#filters-people-event).
 
@@ -306,12 +282,11 @@ Quando definisci un evento [persone in un percorso di account](#people-events) o
 
 1. Al termine delle definizioni dell&#39;evento e del filtro, fare clic su **[!UICONTROL Fine]**.
 
-
 ## Aggiungere un timeout a un nodo evento {#timeouts}
 
 Se necessario, definisci il tempo di attesa dell’evento da parte del percorso. Il percorso termina dopo un timeout a meno che non si definisca un percorso di timeout in cui è possibile aggiungere altri nodi.
 
-Abilita l&#39;opzione **[!UICONTROL Timeout]** nelle proprietà del nodo per specificare un timeout per il nodo _Ascolta per evento_.
+Abilita l&#39;opzione **[!UICONTROL Timeout]** nelle proprietà del nodo per specificare un timeout per il nodo _Ascolta un evento_.
 
 1. Con le opzioni abilitate, scegli il _Tipo_ e specifica i parametri per il timeout:
 
@@ -333,7 +308,7 @@ Abilita l&#39;opzione **[!UICONTROL Timeout]** nelle proprietà del nodo per spe
 
 1. Definisci il percorso di timeout.
 
-   L&#39;opzione **[!UICONTROL Imposta percorso di timeout]** è selezionata per impostazione predefinita. Puoi utilizzare questo percorso per definire cosa accade se il nodo Ascolta per evento scade. Puoi aggiungere azioni ed eventi alternativi che si applicano ai profili delle persone quando l’evento non si verifica.
+   Per impostazione predefinita, il sistema seleziona l&#39;opzione **[!UICONTROL Imposta percorso di timeout]**. È possibile utilizzare questo percorso per definire cosa accade se il nodo _Ascolta un evento_ scade. Puoi aggiungere azioni ed eventi alternativi che si applicano ai profili delle persone quando l’evento non si verifica.
 
    ![Nodo evento Percorso - imposta percorso timeout](./assets/node-event-timeout-set-path.png){width="600" zoomable="yes"}
 
@@ -342,5 +317,5 @@ Abilita l&#39;opzione **[!UICONTROL Timeout]** nelle proprietà del nodo per spe
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443242/?captions=ita&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->

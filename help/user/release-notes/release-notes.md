@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: 0fcf6c3c390ee932d2a6c019a4eed721976b32db
 workflow-type: tm+mt
-source-wordcount: '5637'
+source-wordcount: '5645'
 ht-degree: 61%
 ---
 # Note sulla versione di Journey Optimizer B2B Edition
@@ -48,7 +48,7 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | Funzione | _Percorsi suddivisi varianti_ nodi percorso | (In precedenza Beta per percorsi di account) Gli addetti al marketing ora possono testare le varianti all’interno di un percorso di account o persone assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. [Ulteriori informazioni](../journeys/variant-split-paths-nodes.md) |
 | Funzione | Metadati C2PA | Le immagini generate o modificate con strumenti di intelligenza artificiale generativi ora sono firmate automaticamente con i metadati C2PA, aiutandoti a soddisfare i requisiti di trasparenza dei contenuti e divulgazione di intelligenza artificiale. [Ulteriori informazioni](../content/c2pa-metadata.md) |
 | Miglioramento | Rientro percorso - percorsi di persone | Il supporto per il reinserimento nel percorso è ora disponibile per i percorsi di persone. |
-| Miglioramento | Ascoltare i trigger di evento e i filtri - percorsi di account | Il supporto per più attivatori e filtri in un nodo _Ascolta evento_ è ora disponibile per i percorsi di account. |
+| Miglioramento | Ascoltare i trigger di evento e i filtri - percorsi di account | Per i percorsi di account, è ora disponibile il supporto per più trigger e filtri in un nodo _Ascolta un evento_ con tipo di evento _Persone_. [Ulteriori informazioni](../journeys/listen-for-event-nodes.md) |
 | Miglioramento | Nodi di percorsi suddivisi esterni - percorsi di persone | Il supporto per _percorsi di suddivisione esterni_ nodi è ora disponibile per i percorsi di persone. [Ulteriori informazioni](../journeys/external-nodes.md#external-action) |
 | Miglioramento | Nodi azione esterna - percorsi di persone | Il supporto per i nodi _Azione esterna_ è ora disponibile per i percorsi di persone. [Ulteriori informazioni](../journeys/external-nodes.md#external-split-paths) |
 | Miglioramento | Set di dati relazionali di AEP | Ora vengono visualizzati nuovi set di dati relazionali nella sandbox di AEP, insieme ai set di dati esistenti. |
