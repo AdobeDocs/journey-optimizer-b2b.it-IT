@@ -218,7 +218,7 @@ Gli eventi esperienza sono disponibili per percorsi di persone o quando utilizzi
 
 >[!PREREQUISITES]
 >
->Gli amministratori configurano [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale.
+>Gli amministratori configurano [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, che consentono agli addetti al marketing di creare percorsi di account e persone che reagiscono agli eventi in tempo reale.
 >
 >Per rendere Experience Events disponibili per percorsi, un amministratore di prodotto deve prima [aggiungere i tipi di evento e i campi di interesse](../admin/configure-aep-events.md#add-an-event) in [!DNL Journey Optimizer B2B Edition].
 
