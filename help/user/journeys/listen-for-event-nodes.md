@@ -196,7 +196,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 Per i percorsi di persone, puoi utilizzare una modifica negli attributi del profilo di persona B2B per attivare il nodo _Ascolta per un evento_.
 
-1. Trascina **[!UICONTROL Modifica del profilo della persona]**s dall&#39;elenco _[!UICONTROL Triggers]_ nello spazio del generatore di corrispondenze eventi.
+1. Trascina **[!UICONTROL Modifica del profilo della persona]**&#x200B;s dall&#39;elenco _[!UICONTROL Triggers]_ nello spazio del generatore di corrispondenze eventi.
 
 1. Fare clic su **[!UICONTROL Aggiungi vincolo]** e selezionare la modifica dell&#39;attributo che si desidera utilizzare per l&#39;attivazione dell&#39;evento.
 
