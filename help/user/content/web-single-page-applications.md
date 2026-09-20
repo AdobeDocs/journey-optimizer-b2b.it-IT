@@ -1,36 +1,43 @@
 ---
 title: Applicazioni a pagina singola
-description: 'Creazione di esperienze web per applicazioni a pagina singola: configurazione del tracciamento delle visualizzazioni, gestione dei contenuti dinamici e gestione della navigazione lato client in Journey Optimizer B2B edition.'
+description: 'Creazione di esperienze web per applicazioni a pagina singola: configurazione del tracciamento delle visualizzazioni, gestione dei contenuti dinamici e gestione della navigazione lato client in Journey Optimizer B2B Edition.'
 feature: Channels, Personalization
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
+badge: label="Disponibilità limitata" type="Informative"
 exl-id: 7691006d-3d22-4db4-94d3-cfd420128b86
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
 autotag-review: 2026-03-30T22:02:23.111Z
 TQID: https://experienceleague.adobe.com/L5Mn4u-o4xACD2L1TW2lx7pB9gkC3O2uRmL8b0alDkA
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 846
-ht-degree: 2%
-
+source-wordcount: '838'
+ht-degree: 1%
 ---
-
 # Applicazioni a pagina singola
 
-Le applicazioni a pagina singola presentano problematiche specifiche per la personalizzazione web, in quanto aggiornano dinamicamente il contenuto della pagina senza ricaricamenti dell’intera pagina. Journey Optimizer B2B edition fornisce strumenti specializzati per gestire in modo efficace la personalizzazione delle applicazioni a pagina singola.
+Le applicazioni a pagina singola presentano problematiche specifiche per la personalizzazione web, in quanto aggiornano dinamicamente il contenuto della pagina senza ricaricamenti dell’intera pagina. Journey Optimizer B2B Edition fornisce strumenti specializzati per gestire in modo efficace la personalizzazione delle applicazioni a pagina singola.
 
 ## Informazioni sulle applicazioni a pagina singola
 
@@ -43,7 +50,7 @@ A differenza dei siti web tradizionali a più pagine in cui ogni navigazione att
 
 ## Configurare il supporto per applicazioni a pagina singola
 
-Per personalizzare le applicazioni a pagina singola in modo efficace, devi configurare il tracciamento delle visualizzazioni in modo che Journey Optimizer B2B edition possa identificare quando gli utenti passano da una visualizzazione virtuale all’altra.
+Per personalizzare le applicazioni a pagina singola in modo efficace, devi configurare il tracciamento delle visualizzazioni in modo che Journey Optimizer B2B Edition possa identificare quando gli utenti passano da una visualizzazione virtuale all’altra.
 
 ### Impostare le dichiarazioni di visualizzazione
 
@@ -121,7 +128,7 @@ Per i contenuti altamente dinamici, il Web SDK include osservatori delle mutazio
 
 ### Framework SPA
 
-Le esperienze web di Journey Optimizer B2B edition funzionano con i framework SPA più diffusi:
+Le esperienze web di Journey Optimizer B2B Edition funzionano con i framework SPA più diffusi:
 
 | Framework | Considerazioni |
 | --------- | -------------- |
@@ -179,27 +186,27 @@ Durante la revisione delle modifiche alla progettazione dell’applicazione a pa
 
 * **Modifiche non visualizzate** - Se le modifiche non sono visualizzate nell&#39;applicazione a pagina singola:
 
-   1. **Verifica il rilevamento della visualizzazione**. Verificare che `sendEvent` chiamate includano il nome della visualizzazione corretto.
+  1. **Verifica il rilevamento della visualizzazione**. Verificare che `sendEvent` chiamate includano il nome della visualizzazione corretto.
 
-   1. **Verifica esistenza elemento** - Assicurati che gli elementi di destinazione siano nel DOM quando vengono applicate le modifiche.
+  1. **Verifica esistenza elemento** - Assicurati che gli elementi di destinazione siano nel DOM quando vengono applicate le modifiche.
 
-   1. **Rivedi selettori** - Conferma che i selettori CSS corrispondano alla struttura DOM effettiva.
+  1. **Rivedi selettori** - Conferma che i selettori CSS corrispondano alla struttura DOM effettiva.
 
-   1. **Controlla la console** - Cerca errori JavaScript che potrebbero impedire le modifiche.
+  1. **Controlla la console** - Cerca errori JavaScript che potrebbero impedire le modifiche.
 
 * **Modifiche che compaiono brevemente e poi scompaiono** - Questo problema si verifica in genere quando l&#39;applicazione a pagina singola esegue nuovamente il rendering e sostituisce gli elementi modificati:
 
-   1. Utilizza selettori CSS più specifici che rimangono stabili tra i diversi rendering.
+  1. Utilizza selettori CSS più specifici che rimangono stabili tra i diversi rendering.
 
-   1. Consenti agli osservatori delle mutazioni di applicare nuovamente le modifiche quando gli elementi vengono ricreati.
+  1. Consenti agli osservatori delle mutazioni di applicare nuovamente le modifiche quando gli elementi vengono ricreati.
 
-   1. Collabora con il tuo team di sviluppo per aggiungere attributi stabili agli elementi target.
+  1. Collabora con il tuo team di sviluppo per aggiungere attributi stabili agli elementi target.
 
 * **Modifiche duplicate** - Se le modifiche vengono visualizzate più volte:
 
-   1. Verifica che gli eventi di tracciamento della visualizzazione vengano attivati una sola volta per ogni transizione di visualizzazione.
+  1. Verifica che gli eventi di tracciamento della visualizzazione vengano attivati una sola volta per ogni transizione di visualizzazione.
 
-   1. Verifica che le modifiche abbiano un ambito di visualizzazione specifico anziché essere applicate a livello globale.
+  1. Verifica che le modifiche abbiano un ambito di visualizzazione specifico anziché essere applicate a livello globale.
 
 ## Argomenti correlati
 
