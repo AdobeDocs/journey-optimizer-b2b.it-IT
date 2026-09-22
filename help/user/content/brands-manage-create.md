@@ -28,7 +28,7 @@ TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G
 source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
-ht-degree: 4%
+ht-degree: 6%
 ---
 # Creare e gestire i brand {#brand-library}
 
@@ -245,7 +245,7 @@ Puoi continuare a perfezionare le [linee guida, esclusioni ed esempi sullo stile
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="Punteggio di allineamento dello stile di scrittura"
->abstract="La sezione Stile scrittura definisce gli standard per lingua, formattazione e struttura. Il punteggio di allineamento indica se il contenuto segue queste linee guida ed evidenzia le aree da migliorare."
+>abstract="La sezione Stile di scrittura definisce gli standard per la lingua, la formattazione e la struttura. Il punteggio di allineamento mostra con quanta efficacia il contenuto segue queste linee guida ed evidenzia le aree da migliorare."
 
 Le definizioni di _[!UICONTROL Stile scrittura]_ descrivono gli standard per la scrittura dei contenuti e descrivono in dettaglio il modo in cui il linguaggio, la formattazione e la struttura devono essere utilizzati per mantenere la chiarezza, la coerenza e la coerenza in tutti i materiali.
 
