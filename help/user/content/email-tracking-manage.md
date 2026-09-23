@@ -113,7 +113,7 @@ Aggiungi un [_Dividi percorsi per persone_ nodo](../journeys/split-merge-paths-n
 
 ### Configurare le varianti e-mail di tracciamento e non di tracciamento {#configure-tracking-and-non-tracking-email-variants}
 
-Aggiungi un nodo azione [_[!UICONTROL Invia e-mail ]_](./add-email.md) a ogni percorso in modo che ogni persona riceva la variante e-mail che corrisponde alle proprie preferenze di tracciamento.
+Aggiungi un nodo azione [_[!UICONTROL Invia e-mail &#x200B;]_](./add-email.md) a ogni percorso in modo che ogni persona riceva la variante e-mail che corrisponde alle proprie preferenze di tracciamento.
 
 1. Nel percorso abilitato per il tracciamento, aggiungi un&#39;azione **[!UICONTROL Invia e-mail]** e seleziona o crea l&#39;e-mail come di consueto, lasciando **[!UICONTROL Disabilita tracciamento aperto]** cancellato nelle proprietà e-mail.
 
