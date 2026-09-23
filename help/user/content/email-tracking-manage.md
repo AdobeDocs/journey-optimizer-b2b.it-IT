@@ -9,36 +9,43 @@ autotag-review: '2026-07-08T00:02:50.497Z'
 TQID: 'https://experienceleague.adobe.com/LIutoajlpVQTeJP2y4i0Wv7H-WqGj-c-LVsOGfin384'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
+    internal-label: Intermediate
+source-git-commit: ec55e33d1db9aa7ecf488e2898564f89df702789
 workflow-type: tm+mt
-source-wordcount: 860
+source-wordcount: '896'
 ht-degree: 0%
-
 ---
-
 # Gestire il tracciamento delle aperture delle e-mail
 
 Puoi disabilitare il tracciamento aperto per una singola e-mail, oppure acquisire le preferenze di tracciamento di ciascuna persona in Adobe Experience Platform e utilizzare un percorso suddiviso per indirizzare le persone alle varianti e-mail di tracciamento e non tracciamento.
 
->[!BEGINSHADEBOX &quot;Linee guida CNIL sui pixel di tracciamento e-mail&quot;]
+>[!BEGINSHADEBOX &quot;Linee guida sui pixel di tracciamento e-mail&quot;]
 
-Il 14 aprile 2026 la *Commission Nationale de l&#39;Informatique et des Libertés* (CNIL) ha pubblicato una [raccomandazione sull&#39;uso dei pixel di tracciamento nelle e-mail](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). La guida chiarisce quando è necessario il consenso ed evidenzia l’importanza di pratiche di consenso appropriate per il tracciamento dei pixel dell’e-mail. Questo criterio potrebbe influire sulle pratiche di invio per qualsiasi entità che distribuisce e-mail agli abbonati con sede in Francia.
+Il 14 aprile 2026 la *Commission nationale de l&#39;informatique et des libertés* (CNIL), l&#39;autorità francese per la protezione dei dati, ha pubblicato una [raccomandazione sull&#39;uso dei pixel di tracciamento nelle e-mail](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). Poco dopo, l&#39;autorità italiana indipendente per la protezione dei dati (&quot;Garante&quot;) ha pubblicato [Provvedimento n. 284](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10241943) (la &quot;disposizione Garante&quot;) del 17 aprile 2026. Ogni guida, pur non essendo giuridicamente vincolante, chiarisce quando è necessario il consenso e sottolinea l’importanza di pratiche di consenso appropriate per il tracciamento dei pixel delle e-mail. Questa politica potrebbe influire sulle pratiche di invio per qualsiasi entità che consegna e-mail agli abbonati ai sensi della normativa UE sulla privacy applicabile.
 
 Un pixel di tracciamento e-mail è un’immagine trasparente 1x1 incorporata nel HTML di un’e-mail. Quando il client e-mail del destinatario carica l’immagine, il pixel invia un ping a un server che registra dati quali marca temporale, tipo di dispositivo, client e-mail e, a volte, un indirizzo IP per la posizione approssimativa. Tale registro viene quindi associato al record di un destinatario, consentendo agli addetti al marketing di sapere se un’e-mail è aperta.
 
-Le funzionalità del prodotto [!UICONTROL Journey Optimizer B2B edition] qui descritte sono blocchi predefiniti che, configurati e gestiti in modo appropriato, possono supportare un&#39;implementazione conforme. Ciascun cliente è responsabile della determinazione e del rispetto degli obblighi derivanti dalla legge applicabile.
+Le funzionalità del prodotto [!DNL Journey Optimizer B2B Edition] qui descritte sono elementi di base che, configurati e gestiti in modo appropriato, possono aiutare a supportare le attività di conformità dei clienti. I clienti sono gli unici responsabili della determinazione e del rispetto dei loro obblighi in base alle linee guida applicabili e ad altre leggi.
 
 >[!ENDSHADEBOX]
 
