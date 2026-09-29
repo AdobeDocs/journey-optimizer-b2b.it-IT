@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 0fcf6c3c390ee932d2a6c019a4eed721976b32db
+source-git-commit: 5ae2c8e9e395f027e166b445a37950e5870789cd
 workflow-type: tm+mt
-source-wordcount: '5645'
+source-wordcount: '5708'
 ht-degree: 61%
 ---
 # Note sulla versione di Journey Optimizer B2B Edition
@@ -37,6 +37,21 @@ Journey Optimizer B2B Edition è costruito nativamente su [!DNL Adobe Experience
 
 Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} per informazioni su diritti, guardrail delle prestazioni e limitazioni.
 
+## Note sulla versione 2026.9 {#rel-2026-9}
+
+**Data di distribuzione**: 25 settembre 2026
+
+| Tipo | Elemento | Descrizione |
+| ---- | ---- | ----------- |
+| Funzione | Elenchi di persone | Sono ora disponibili elenchi di persone statiche e dinamiche per eseguire il targeting dei profili in base a criteri definiti, come gli attributi demografici e la cronologia degli eventi dell’esperienza. |
+| Funzione | Dashboard integrità servizio | Monitora lo stato operativo delle azioni esterne raccogliendo metriche di successo/errore e fornendo dashboard che consentano agli amministratori di monitorare le prestazioni del servizio. |
+| Miglioramento | Rientro percorso - percorsi di persone | Il supporto per il reinserimento nel percorso è ora disponibile per i percorsi di persone. |
+
+>[!NOTE]
+>
+>Queste modifiche alla versione iniziano la distribuzione il 25 settembre 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
+
+
 ## Note sulla versione 2026.8 {#rel-2026-8}
 
 **Data di distribuzione**: 14 agosto 2026
@@ -44,10 +59,8 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
 | Funzione | Percorsi di persone | (In precedenza Beta, distribuzione anticipata per la disponibilità generale) Ora puoi creare percorsi per orchestrare attività di marketing basate sui lead utilizzando i dati e i tipi di pubblico di Experience Platform. [Ulteriori informazioni](../journeys/journeys-overview.md) |
-| Funzione | Elenchi di persone | Sono ora disponibili elenchi di persone statiche e dinamiche per eseguire il targeting dei profili in base a criteri definiti, come gli attributi demografici e la cronologia degli eventi dell’esperienza. |
 | Funzione | _Percorsi suddivisi varianti_ nodi percorso | (In precedenza Beta per percorsi di account) Gli addetti al marketing ora possono testare le varianti all’interno di un percorso di account o persone assegnando account o persone a percorsi di percorso diversi in base a percentuali definite. [Ulteriori informazioni](../journeys/variant-split-paths-nodes.md) |
 | Funzione | Metadati C2PA | Le immagini generate o modificate con strumenti di intelligenza artificiale generativi ora sono firmate automaticamente con i metadati C2PA, aiutandoti a soddisfare i requisiti di trasparenza dei contenuti e divulgazione di intelligenza artificiale. [Ulteriori informazioni](../content/c2pa-metadata.md) |
-| Miglioramento | Rientro percorso - percorsi di persone | Il supporto per il reinserimento nel percorso è ora disponibile per i percorsi di persone. |
 | Miglioramento | Ascoltare i trigger di evento e i filtri - percorsi di account | Per i percorsi di account, è ora disponibile il supporto per più trigger e filtri in un nodo _Ascolta un evento_ con tipo di evento _Persone_. [Ulteriori informazioni](../journeys/listen-for-event-nodes.md) |
 | Miglioramento | Nodi di percorsi suddivisi esterni - percorsi di persone | Il supporto per _percorsi di suddivisione esterni_ nodi è ora disponibile per i percorsi di persone. [Ulteriori informazioni](../journeys/external-nodes.md#external-action) |
 | Miglioramento | Nodi azione esterna - percorsi di persone | Il supporto per i nodi _Azione esterna_ è ora disponibile per i percorsi di persone. [Ulteriori informazioni](../journeys/external-nodes.md#external-split-paths) |
@@ -210,7 +223,7 @@ Le seguenti nuove funzioni e miglioramenti sono disponibili nella versione 2025.
 | Funzione | Attivazioni di più Marketo Engage | Configura le connessioni alle istanze Marketo Engage remote e utilizza tali connessioni per configurare le azioni Marketo Engage per i percorsi. Queste azioni, come l’aggiunta/rimozione di persone dagli elenchi o l’aggiunta di persone a una campagna di richieste, si applicano all’istanza di Marketo Engage designata. [Ulteriori informazioni](../admin/marketo-actions-connect.md) |
 | Funzione | Deduplica per sovraccarico e-mail | Ora puoi abilitare la deduplica delle e-mail per garantire che la stessa e-mail non venga inviata più volte allo stesso indirizzo in un percorso. Gli indirizzi duplicati vengono bloccati finché il primo record con tale indirizzo e-mail non completa il percorso.  [Ulteriori informazioni](../content/email-deduplication.md) |
 | Miglioramento | Ponderazione del punteggio di coinvolgimento - Eventi AEP | La ponderazione del punteggio di coinvolgimento può ora includere uno qualsiasi degli eventi Experience Platform standard o personalizzati e ponderati in base alle tue esigenze. [Ulteriori informazioni](../admin/engagement-score-weighting.md) |
-| Miglioramento | Limiti di comunicazione | Il sistema ora rispetta i limiti di comunicazione combinati di Marketo Engage e Journey Optimizer B2B edition. [Ulteriori informazioni](../admin/configure-channels-emails.md#communication-limits) |
+| Miglioramento | Limiti di comunicazione | Il sistema ora rispetta i limiti di comunicazione combinati di Marketo Engage e Journey Optimizer B2B Edition. [Ulteriori informazioni](../admin/configure-channels-emails.md#communication-limits) |
 
 ## Note sulla versione 2025.9 {#rel-2025-9}
 
