@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 5ae2c8e9e395f027e166b445a37950e5870789cd
+source-git-commit: eb4654dc36b165f5cb40e7999f3204bdc5bd2c85
 workflow-type: tm+mt
-source-wordcount: '5708'
-ht-degree: 61%
+source-wordcount: '5744'
+ht-degree: 60%
 ---
 # Note sulla versione di Journey Optimizer B2B Edition
 
@@ -45,6 +45,7 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | ---- | ---- | ----------- |
 | Funzione | Elenchi di persone | Sono ora disponibili elenchi di persone statiche e dinamiche per eseguire il targeting dei profili in base a criteri definiti, come gli attributi demografici e la cronologia degli eventi dell’esperienza. |
 | Funzione | Dashboard integrità servizio | Monitora lo stato operativo delle azioni esterne raccogliendo metriche di successo/errore e fornendo dashboard che consentano agli amministratori di monitorare le prestazioni del servizio. |
+| Miglioramento | Membro del filtro Pubblico profilo | Questo filtro è ora disponibile per le condizioni del percorso di suddivisione del percorso di persone, per le condizioni del percorso di suddivisione della persona del percorso di account e per gli elenchi di persone, al fine di includere o escludere profili in base alla loro appartenenza a un pubblico. |
 | Miglioramento | Rientro percorso - percorsi di persone | Il supporto per il reinserimento nel percorso è ora disponibile per i percorsi di persone. |
 
 >[!NOTE]
@@ -94,12 +95,12 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Pagine di destinazione | Le pagine di destinazione sono disponibili in Journey Optimizer B2B edition per supportare percorsi e programmi _(in precedenza funzionalità di un programma Beta)_. <ul><li>Gli amministratori possono configurare i sottodomini e i predefiniti della pagina di destinazione per abilitarne la pubblicazione. [Ulteriori informazioni](../admin/configure-channels-landing-pages.md)</li><li>Gli addetti al marketing possono creare, progettare e pubblicare pagine di destinazione per supportare i loro percorsi con contenuti web personalizzati. [Ulteriori informazioni](../content/landing-pages.md)</li></ul> |
-| Funzione | Moduli | Journey Optimizer B2B edition ora supporta componenti modulo riutilizzabili per abilitare l&#39;invio di dati dalle pagine di destinazione _(in precedenza funzionalità di un programma Beta)_. <ul><li>Gli amministratori possono configurare più predefiniti di modulo utilizzando diverse combinazioni di set di dati e connessioni in streaming. [Ulteriori informazioni](../admin/configure-channels-forms.md)</li><li>Gli addetti al marketing possono ora definire componenti di moduli riutilizzabili per acquisire informazioni dai visitatori delle pagine web. [Ulteriori informazioni](../content/forms.md)</li></ul> |
+| Funzione | Pagine di destinazione | Le pagine di destinazione sono disponibili in Journey Optimizer B2B Edition per supportare percorsi e programmi _(in precedenza funzionalità di un programma Beta)_. <ul><li>Gli amministratori possono configurare i sottodomini e i predefiniti della pagina di destinazione per abilitarne la pubblicazione. [Ulteriori informazioni](../admin/configure-channels-landing-pages.md)</li><li>Gli addetti al marketing possono creare, progettare e pubblicare pagine di destinazione per supportare i loro percorsi con contenuti web personalizzati. [Ulteriori informazioni](../content/landing-pages.md)</li></ul> |
+| Funzione | Moduli | Journey Optimizer B2B Edition ora supporta componenti modulo riutilizzabili per abilitare l&#39;invio di dati dalle pagine di destinazione _(in precedenza funzionalità di un programma Beta)_. <ul><li>Gli amministratori possono configurare più predefiniti di modulo utilizzando diverse combinazioni di set di dati e connessioni in streaming. [Ulteriori informazioni](../admin/configure-channels-forms.md)</li><li>Gli addetti al marketing possono ora definire componenti di moduli riutilizzabili per acquisire informazioni dai visitatori delle pagine web. [Ulteriori informazioni](../content/forms.md)</li></ul> |
 | Funzione | Membro del filtro relativo a elenchi di account | Utilizzare l&#39;appartenenza all&#39;elenco degli account come punto di orchestrazione nei percorsi di account. Gli addetti al marketing possono creare elenchi Bloccati di account, elenchi di priorità o qualsiasi altro tipo di sottoinsieme del pubblico e fornire esperienze univoche di account in percorsi in base alla loro appartenenza. |
 | Funzione | Filtro relativo alla cronologia di eventi esperienza | Questa funzione consente all’orchestrazione di percorso B2B di utilizzare il coinvolgimento storico per indirizzare le decisioni basate sul comportamento per i membri del pubblico. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Funzione | Nodi del percorso migliore successivo | Puoi ottimizzare il split path decisioning per i percorsi di persone, perfezionando il modo in cui i tipi di pubblico vengono instradati tra i percorsi prima dell’attivazione del percorso o in fase di runtime. [Ulteriori informazioni](../journeys/next-best-path-node.md) |
-| Funzione | Dashboard delle prestazioni delle e-mail | La dashboard Prestazioni e-mail offre agli addetti al marketing una visualizzazione unificata delle attività e-mail in tutti i percorsi in Adobe Journey Optimizer B2B edition. [Ulteriori informazioni](../dashboards/email-performance-dashboard.md) |
+| Funzione | Dashboard delle prestazioni delle e-mail | La dashboard Prestazioni e-mail offre agli addetti al marketing una visualizzazione unificata delle attività e-mail in tutti i percorsi in Adobe Journey Optimizer B2B Edition. [Ulteriori informazioni](../dashboards/email-performance-dashboard.md) |
 | Miglioramento | Competenze B2B in Audience Agent | Vengono aggiornate le competenze B2B di Audience Agent, inclusa la creazione di modelli di gruppi di acquisto basati sull’intelligenza artificiale. Utilizza la mappatura intento e utente tipo di prima parte per generare modelli di gruppi di acquisto, esaminare le mappature da ruolo a utente consigliate dall’intelligenza artificiale e perfezionare i modelli con linguaggio naturale prima di pubblicarli. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
 | Miglioramento | Dashboard panoramica percorsi - percorsi di persone | I percorsi di persone (Beta) ora includono una scheda _[!UICONTROL Panoramica]_ con le stesse analisi dei percorsi di account, inclusa la distribuzione del tasso di completamento dei percorsi, i percorsi per tipo di coinvolgimento e le azioni di drill-through ed esportazione. [Ulteriori informazioni](../dashboards/journeys-dashboard.md) |
 | Miglioramento | Supporto per set di dati relazionali di AEP | Ora vengono visualizzati nuovi set di dati relazionali nella sandbox di AEP, insieme ai set di dati esistenti. |
@@ -154,7 +155,7 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Kit per marchi | (Beta) Definisci un marchio in Journey Optimizer B2B edition per fornire al team creativo la fonte di verità da utilizzare per la creazione di contenuti visivi o scritti. Quando queste linee guida vengono compilate e le risorse del brand condivise, qualsiasi membro del team o collaboratore può creare contenuti sul brand per il tuo prodotto. [Ulteriori informazioni](../content/brands-overview.md) |
+| Funzione | Kit per marchi | (Beta) Definisci un marchio in Journey Optimizer B2B Edition per fornire al team creativo la fonte di verità da utilizzare per la creazione di contenuti visivi o scritti. Quando queste linee guida vengono compilate e le risorse del brand condivise, qualsiasi membro del team o collaboratore può creare contenuti sul brand per il tuo prodotto. [Ulteriori informazioni](../content/brands-overview.md) |
 | Funzione | Marchi per la generazione di contenuti e-mail | Puoi definire le linee guida per il tuo marchio e utilizzare queste informazioni per generare contenuti e-mail. Con questa funzione, il contenuto delle e-mail è allineato con le linee guida, gli stili e il tono specifici del tuo marchio. [Ulteriori informazioni](../content/generate-content-emails.md) |
 | Miglioramento | Nodo percorso _Attendi_ - Impostazioni avanzate | Per un nodo _Attendi_ in un percorso, gli addetti al marketing possono ora specificare i giorni e gli orari di uscita e selezionare i fusi orari. Questo miglioramento consente un migliore controllo dell’orchestrazione del percorso e della tempistica delle campagne. [Ulteriori informazioni](../journeys/wait-nodes.md#advanced-wait-settings) |
 | Miglioramento | Filtro Membro del gruppo di acquisto - Rimosso | Per un nodo _split path by people_, il filtro _[!UICONTROL Member of Buying Group]_ ora include il vincolo _Is Removed_. Selezionando questa opzione, il filtro può includere o escludere il membro del gruppo di acquisto rimosso. È supportato anche negli elenchi avanzati di Marketo Engage, dove è possibile utilizzare questo nuovo vincolo nel filtro _[!UICONTROL Membro del gruppo di acquisto]_. |
@@ -166,13 +167,13 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 
 ## Funzionalità di IA agentica {#rel-agents}
 
-Nell’interfaccia chat di Journey Optimizer B2B edition sono ora disponibili le seguenti funzionalità di IA per l’agente:
+Nell’interfaccia di chat sono ora disponibili le seguenti funzionalità di IA per l’agente:
 
 | Agente | Aggiornamento | Descrizione |
 | ----- | ------ | ----------- |
 | Journey Build Agent | Nuovo e aggiornato | Il Journey Build Agent analizza, progetta e collabora sui percorsi in tempo reale, consentendo ai marketer di avviare più rapidamente, migliorare il coinvolgimento e aumentare i tassi di conversione. [Ulteriori informazioni](../agents/journey-agent.md) |
 | Agente Audience | Nuovo | L’Agente Audience identifica e crea automaticamente i gruppi acquisti utilizzando dati strutturati e non strutturati. Aiuta i marketer a mirare le persone giuste in modo più rapido e preciso. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
-| Qualificatore di vendita | Nuovo | Sales Qualifier è un&#39;applicazione aggiuntiva basata sull&#39;intelligenza artificiale per Adobe Journey Optimizer B2B edition che contiene il Account Qualification Agent ed è progettata per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti nei vari canali. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/sales-qualifier/using/home){target="_blank"} |
+| Qualificatore di vendita | Nuovo | Sales Qualifier è un’applicazione aggiuntiva basata sull’intelligenza artificiale per Adobe Journey Optimizer B2B Edition che contiene Account Qualification Agent ed è progettata per semplificare i flussi di lavoro per i rappresentanti per lo sviluppo aziendale (BDR, Business Development Representative). Automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti nei vari canali. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Note sulla versione 2025.10 {#rel-2025-10}
 
@@ -198,11 +199,11 @@ Nell’interfaccia chat di Journey Optimizer B2B edition sono ora disponibili le
 
 ### Architettura aggiornata
 
-Con l’architettura aggiornata, Journey Optimizer B2B edition e Marketo Engage non si trovano più nello stesso sistema e nello stesso archivio dati. Journey Optimizer B2B edition riceve i dati da Adobe Experience Platform. Tuttavia, continua a fare affidamento su diritti di Marketo Engage e su alcune funzioni di configurazione per il provisioning e la configurazione del sistema.
+Con l’architettura aggiornata, Journey Optimizer B2B Edition e Marketo Engage non si trovano più nello stesso sistema e nello stesso archivio dati. Journey Optimizer B2B Edition riceve dati da Adobe Experience Platform. Tuttavia, continua a fare affidamento su diritti di Marketo Engage e su alcune funzioni di configurazione per il provisioning e la configurazione del sistema.
 
 >[!NOTE]
 >
->Le note sulla versione precedenti facevano riferimento a questa distribuzione come *architettura semplificata*. Tale modello è ora l’implementazione predefinita di Journey Optimizer B2B edition.
+>Le note sulla versione precedenti facevano riferimento a questa distribuzione come *architettura semplificata*. Tale modello è ora l’implementazione predefinita di Journey Optimizer B2B Edition.
 
 Questa implementazione offre diversi vantaggi:
 
@@ -233,7 +234,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Collaborazione sui contenuti delle e-mail | I team di marketing possono ora commentare e collaborare con gli altri utenti di Journey Optimizer B2B edition, nel contesto di una risorsa e-mail. Possono assegnare ai membri del gruppo un tag per ricevere una notifica e-mail con i dettagli del commento. La notifica è disponibile anche come notifica Pulse. [Ulteriori informazioni](../content/email-collaboration-tools.md) |
+| Funzione | Collaborazione sui contenuti delle e-mail | I team di marketing possono ora commentare e collaborare con gli altri utenti di Journey Optimizer B2B Edition, nel contesto di una risorsa e-mail. Possono assegnare ai membri del gruppo un tag per ricevere una notifica e-mail con i dettagli del commento. La notifica è disponibile anche come notifica Pulse. [Ulteriori informazioni](../content/email-collaboration-tools.md) |
 | Funzione | Modalità scura per la progettazione di e-mail | Lo spazio di progettazione delle e-mail ora include la possibilità di passare alla _modalità scura_. In modalità scura, puoi visualizzare in anteprima il contenuto dell’e-mail e definire impostazioni personalizzate da mostrare specificamente ai destinatari che visualizzano le e-mail in modalità scura. [Ulteriori informazioni](../content/email-dark-mode.md) |
 | Miglioramento | Percorsi - Dividere un percorso per numero di persone nel ruolo | Utilizza un percorso diviso per nodo di account per eseguire il targeting di un account con il numero di persone in uno o più ruoli del gruppo acquisti. Nel percorso puoi valutare la preparazione del gruppo acquisti per avvisi commerciali e altri tipi di coinvolgimento in base alla profondità del ruolo. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#buying-group-filtering-accounts) |
 | Miglioramento | Percorsi - Filtri persona per eventi | Utilizza i filtri persone per cogliere eventi relativi alle persone. Questi filtri includono la possibilità di eseguire il targeting per un ruolo specifico per un gruppo acquisti corrispondente. [Ulteriori informazioni](../journeys/listen-for-event-nodes.md#filters-people-event) |
