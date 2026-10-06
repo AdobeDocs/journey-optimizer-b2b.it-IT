@@ -64,7 +64,7 @@ Per ulteriori informazioni, consulta la [documentazione di Sales Qualifier](http
 
 ## Funzionalità di AI Assistant in Journey Optimizer B2B Edition
 
-Per formulare una risposta alle domande inviate, l’Assistente AI esegue una query su un database e converte i dati dal database in una risposta leggibile. Questa risposta è una rappresentazione interna dei dati sottostanti, il _**Knowledge Graph**_, e fornisce una raccolta completa di concetti, dati e metadati per una determinata risposta. Il Knowledge Graph è costituito da sottografi a cui viene fatto riferimento ogni volta che vengono inviate query:
+Per formulare una risposta alle domande inviate, l’Assistente AI esegue una query su un database e converte i dati dal database in una risposta leggibile. Questa risposta è una rappresentazione interna dei dati sottostanti, il _&#x200B;**Knowledge Graph**&#x200B;_, e fornisce una raccolta completa di concetti, dati e metadati per una determinata risposta. Il Knowledge Graph è costituito da sottografi a cui viene fatto riferimento ogni volta che vengono inviate query:
 
 * Documentazione di Adobe Experience League.
 * Artefatti operativi, come schemi, campi, tipi di pubblico e percorsi.
