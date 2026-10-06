@@ -1,27 +1,32 @@
 ---
 title: Autore da un modello gestito
-description: 'Creazione di e-mail da modelli governati con contenuto bloccato: identifica le aree modificabili e lavora entro i vincoli di governance in Journey Optimizer B2B edition.'
+description: 'Creazione di e-mail da modelli governati con contenuto bloccato: identifica le aree modificabili e lavora entro i vincoli di governance in Journey Optimizer B2B Edition.'
 feature: Email Authoring, Content
 role: User
 exl-id: 1af996a6-a010-4899-96e9-bad76f93865c
+autotag-review: 2026-03-30T22:35:16.900Z
+TQID: 'https://experienceleague.adobe.com/iwVl-dwU9oGG0rHQ9-J3EO5r3B778jQCe6XK742ArEo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:35:16.900Z
-TQID: https://experienceleague.adobe.com/iwVl-dwU9oGG0rHQ9-J3EO5r3B778jQCe6XK742ArEo
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 273
+source-wordcount: '273'
 ht-degree: 1%
-
 ---
-
 # Autore da un modello gestito
 
 I progettisti di contenuti possono abilitare [la governance (_il blocco del contenuto_)](./template-content-governance.md) durante la creazione di modelli di posta elettronica. Le funzioni di governance consentono di designare le parti della progettazione che non possono essere modificate quando vengono utilizzate in un percorso di conti. Quando [selezioni un modello salvato](./email-authoring.md#select-a-template) per creare un&#39;e-mail, lo spazio di progettazione visiva carica il modello in modo che tu possa utilizzarlo come base per l&#39;e-mail.

@@ -5,31 +5,39 @@ feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="Questa funzione è attualmente in versione beta limitata"
 exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+autotag-review: 2026-03-27T22:24:19.286Z
+TQID: 'https://experienceleague.adobe.com/RDQfNrEzuGj-swuRpEkHCgQZexhN-B7p0Ck8PyM1lX0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+    internal-label: Sales Experience
+subfeature_v2:
+  - id: d918a333-f043-4717-886b-aefeef1f8267
+    internal-label: Sales insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: addf009e-030a-4310-8534-776a3e62ed48
-autotag-review: 2026-03-27T22:24:19.286Z
-TQID: https://experienceleague.adobe.com/RDQfNrEzuGj-swuRpEkHCgQZexhN-B7p0Ck8PyM1lX0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Customer lifecycle
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: '1470'
 ht-degree: 2%
-
 ---
-
 # Accesso dal CRM alle pagine dei dettagli
 
-Adobe Journey Optimizer B2B edition consente ai membri del team vendite e account di accedere a pagine dettagliate per informazioni sull’account e sul gruppo di acquisto direttamente dallo strumento CRM (Customer Relationship Management), come Salesforce o Microsoft Dynamics. Grazie a questa integrazione, i rappresentanti commerciali possono accedere rapidamente agli account in tempo reale e a informazioni approfondite sul gruppo di acquisto, come la cronologia del coinvolgimento, i segnali di intento e i consigli generati dall’intelligenza artificiale. Questa funzionalità consente al team di vendita di raggiungere più rapidamente i clienti, definire le priorità in modo più intelligente e allinearsi meglio al reparto marketing.
+Adobe Journey Optimizer B2B Edition consente ai membri del team vendite e account di accedere a pagine dettagliate per informazioni sull’account e sul gruppo di acquisto direttamente dallo strumento di gestione delle relazioni con i clienti (CRM), come Salesforce o Microsoft Dynamics. Grazie a questa integrazione, i rappresentanti commerciali possono accedere rapidamente agli account in tempo reale e a informazioni approfondite sul gruppo di acquisto, come la cronologia del coinvolgimento, i segnali di intento e i consigli generati dall’intelligenza artificiale. Questa funzionalità consente al team di vendita di raggiungere più rapidamente i clienti, definire le priorità in modo più intelligente e allinearsi meglio al reparto marketing.
 
-Per consentire ai membri del team vendite e account di visualizzare [dettagli account](account-details.md) e [dettagli persona](person-details.md) pagine in Journey Optimizer B2B edition dal CRM, l&#39;amministratore di Salesforce o Dynamics può aggiungere un collegamento dalla visualizzazione account, contatto o lead.
+Per consentire ai membri del team vendite e account di visualizzare [dettagli account](account-details.md) e [dettagli persona](person-details.md) pagine in Journey Optimizer B2B Edition dal CRM, l&#39;amministratore Salesforce o Dynamics può aggiungere un collegamento dalla visualizzazione account, contatto o lead.
 
 Quando un membro del team vendite utilizza il collegamento dell&#39;istanza di gestione delle relazioni con i clienti, la sandbox deve essere _Prod_ e l&#39;organizzazione IMS è determinata in base alla seguente logica ordinata:
 
@@ -39,7 +47,7 @@ Quando un membro del team vendite utilizza il collegamento dell&#39;istanza di g
 
 ## Collegamenti Salesforce
 
-Un amministratore di Salesforce con l&#39;autorizzazione _Personalizza applicazione_ può configurare il collegamento nel layout Account, Contatto o Lead. I collegamenti configurati consentono agli utenti Vendite di accedere alla pagina dei dettagli dell’account o della persona corrispondente in Adobe Journey Optimizer B2B edition.
+Un amministratore di Salesforce con l&#39;autorizzazione _Personalizza applicazione_ può configurare il collegamento nel layout Account, Contatto o Lead. I collegamenti configurati consentono agli utenti Vendite di accedere alla pagina dei dettagli dell’account o della persona corrispondente in Adobe Journey Optimizer B2B Edition.
 
 In Salesforce, aggiungi il collegamento personalizzato come pulsante, collegamento ipertestuale o icona collegata e personalizzalo in base alle preferenze del tuo team.
 
@@ -47,7 +55,7 @@ In Salesforce, aggiungi il collegamento personalizzato come pulsante, collegamen
 
 Per informazioni dettagliate sull&#39;aggiunta di un collegamento personalizzato in Salesforce, fare riferimento a [Definire pulsanti e collegamenti personalizzati](https://help.salesforce.com/s/articleView?id=platform.defining_custom_links.htm&type=5) nella documentazione di Salesforce.
 
-Quando definisci l’URL di destinazione del collegamento, puoi utilizzare il layout dell’account, del contatto o del lead e collegarlo alla pagina dei dettagli corrispondente in Journey Optimizer B2B edition:
+Quando definisci l’URL di destinazione del collegamento, puoi utilizzare il layout dell’account, del contatto o del lead e collegarlo alla pagina dei dettagli corrispondente in Journey Optimizer B2B Edition:
 
 * **Account** - `https://experience.adobe.com/#/journey-optimizer-b2b/accounts/crm/account/[18-character ID of account]`
 
@@ -130,7 +138,7 @@ Utilizzare l&#39;oggetto `Account` per recuperare l&#39;ID di 18 caratteri dell&
 
 ## Collegamenti Microsoft Dynamics
 
-Uno sviluppatore Dynamics può estendere l’entità Account, Contatto o Lead per aggiungere un campo collegamento. I collegamenti configurati consentono agli utenti Vendite di accedere alla pagina dei dettagli dell’account o della persona corrispondente in Adobe Journey Optimizer B2B edition.
+Uno sviluppatore Dynamics può estendere l’entità Account, Contatto o Lead per aggiungere un campo collegamento. I collegamenti configurati consentono agli utenti Vendite di accedere alla pagina dei dettagli dell’account o della persona corrispondente in Adobe Journey Optimizer B2B Edition.
 
 Aggiungere il collegamento personalizzato come pulsante, collegamento ipertestuale o collegamento a un&#39;icona e personalizzarlo in base alle preferenze del team.
 
@@ -138,7 +146,7 @@ Aggiungere il collegamento personalizzato come pulsante, collegamento ipertestua
 
 Utilizzare le applicazioni avanzate per personalizzare le app basate su modelli di Microsoft, ad esempio i componenti Dynamics. Per informazioni dettagliate sull&#39;utilizzo di Power Apps per aggiungere un collegamento personalizzato in Dynamics, consulta la [documentazione di PowerApps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/create-edit-web-resources).
 
-Quando definisci l’URL di destinazione del collegamento, puoi utilizzare la visualizzazione account, contatto o lead e collegarlo alla pagina dei dettagli corrispondente in Journey Optimizer B2B edition:
+Quando definisci l’URL di destinazione del collegamento, puoi utilizzare la visualizzazione account, contatto o lead e collegarlo alla pagina dei dettagli corrispondente in Journey Optimizer B2B Edition:
 
 * **Account** - `https://experience.adobe.com/#/journey-optimizer-b2b/accounts/crm/account/[Account ID]`
 

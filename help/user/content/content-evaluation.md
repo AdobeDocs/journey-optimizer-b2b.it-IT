@@ -1,34 +1,40 @@
 ---
 title: Valutazione e valutazione dei contenuti
-description: 'Valuta il contenuto delle e-mail con il punteggio di allineamento del brand: convalida di colori, font, loghi e stile di scrittura in base alle linee guida del brand in Journey Optimizer B2B edition.'
+description: 'Valuta il contenuto delle e-mail con il punteggio di allineamento del brand: convalida colori, font, loghi e stile di scrittura in base alle linee guida del brand in Journey Optimizer B2B Edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '755'
 ht-degree: 15%
-
 ---
-
 # Valutazione e valutazione dei contenuti {#content-scoring}
 
 La valutazione e il punteggio dei contenuti consentono di creare, esaminare e gestire contenuti conformi alle linee guida [definite nel marchio selezionato](./brands-manage-create.md#brand-definitions) e agli standard di qualità generali. L’esecuzione di una valutazione garantisce coerenza in termini di tono, messaggistica e identità visiva in tutte le campagne e-mail, fungendo anche da controllo di qualità prima che il contenuto venga pubblicato.
 
 >[!AVAILABILITY]
 >
->È necessario un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di poter utilizzare le funzionalità basate sull&#39;intelligenza artificiale in Adobe Journey Optimizer B2B edition. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>È necessario un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di poter utilizzare le funzionalità basate sull&#39;intelligenza artificiale in Adobe Journey Optimizer B2B Edition. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 >
 >Consulta [Autorizzazioni relative al marchio](./brands-overview.md#brand-related-permissions) per informazioni su come gli amministratori di prodotto possono abilitare queste funzioni.
 

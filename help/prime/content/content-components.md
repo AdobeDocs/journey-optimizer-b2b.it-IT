@@ -8,21 +8,27 @@ autotag-review: '2026-06-19T21:52:30.119Z'
 TQID: 'https://experienceleague.adobe.com/HlZVkbD1SkW94xTSLv-rMoKYWG6E79wBGfIH3oGQTNI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2840
+source-wordcount: '2840'
 ht-degree: 7%
-
 ---
-
 # Componenti per contenuti {#content-components}
 
 >[!CONTEXTUALHELP]
@@ -457,11 +463,11 @@ Nel pannello di destra con la scheda _[!UICONTROL Stili]_ selezionata, espandi l
 
 * **[!UICONTROL Larghezza]** - Utilizza l&#39;interruttore per impostare la larghezza in pixel o in percentuale.
 
-   * Per una larghezza percentuale, utilizzare il dispositivo di scorrimento per impostare il valore percentuale. La percentuale determina la dimensione dell’elemento in base alla casella del contenuto del blocco contenitore, che esclude la spaziatura interna e i bordi. Ad esempio, con un valore pari a 50 la larghezza dell’elemento viene impostata sul 50% della larghezza del contenuto del blocco che la contiene.
+  * Per una larghezza percentuale, utilizzare il dispositivo di scorrimento per impostare il valore percentuale. La percentuale determina la dimensione dell’elemento in base alla casella del contenuto del blocco contenitore, che esclude la spaziatura interna e i bordi. Ad esempio, con un valore pari a 50 la larghezza dell’elemento viene impostata sul 50% della larghezza del contenuto del blocco che la contiene.
 
   ![Definire lo stile delle linee per un componente divisore](../../user/content/assets/component-divider-line-options.png){width="250"}
 
-   * Per una larghezza basata su pixel, fai clic sulle icone freccia su e giù per aumentare o diminuire il numero di pixel. Il valore predefinito è un valore vuoto (Automatico) e la larghezza dell&#39;elemento viene ridimensionata in base al contenuto.
+  * Per una larghezza basata su pixel, fai clic sulle icone freccia su e giù per aumentare o diminuire il numero di pixel. Il valore predefinito è un valore vuoto (Automatico) e la larghezza dell&#39;elemento viene ridimensionata in base al contenuto.
 
 * **[!UICONTROL Stile]** - Scegliere un valore dall&#39;elenco dei valori CSS `line-style` standard, ad esempio _Solido_, _Punteggiato_ e _Tratteggiato_.
 
@@ -573,9 +579,9 @@ Scegli un metodo per aggiungere la risorsa immagine:
 
   Sono disponibili alcuni strumenti per individuare la risorsa di cui hai bisogno:
 
-   * Fai clic sull&#39;icona _Filtro_ in alto a sinistra per filtrare gli elementi visualizzati in base ai criteri.
+  * Fai clic sull&#39;icona _Filtro_ in alto a sinistra per filtrare gli elementi visualizzati in base ai criteri.
 
-   * Immetti il testo nel campo _Ricerca_ per filtrare gli elementi visualizzati in modo che corrispondano al nome della risorsa.
+  * Immetti il testo nel campo _Ricerca_ per filtrare gli elementi visualizzati in modo che corrispondano al nome della risorsa.
 
 * **[!UICONTROL Importa file multimediali]** - Scegliere questo tipo per selezionare un file dal sistema e importarlo nella libreria di risorse [!DNL Journey Optimizer B2B Prime].
 

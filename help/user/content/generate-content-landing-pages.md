@@ -1,6 +1,6 @@
 ---
 title: Genera contenuto pagina di destinazione
-description: 'Genera contenuti per la pagina di destinazione: crea testo e immagini della pagina con le risorse di riferimento e il targeting del ruolo di gruppo di acquisto in Journey Optimizer B2B edition.'
+description: 'Genera contenuti per la pagina di destinazione: crea testo e immagini della pagina con le risorse di riferimento e il targeting del ruolo di gruppo di acquisto in Journey Optimizer B2B Edition.'
 feature: Generative AI, Landing Pages, Content
 topic: Artificial Intelligence
 role: User
@@ -25,6 +25,8 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
@@ -32,7 +34,7 @@ topic_v2:
     internal-label: Accessibility
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
     internal-label: Content production
-source-git-commit: d8451ab306de70decd11909676d6d9aaf667d466
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2599'
 ht-degree: 0%
@@ -55,7 +57,7 @@ Puoi generare esperienze di contenuto complete per le pagine di destinazione, in
 
 Prima di iniziare a utilizzare questa funzionalità, controlla le [linee guida e limitazioni](./generative-ai-content.md#general-guidelines-and-limitations). Per poter utilizzare le funzionalità di intelligenza artificiale in [!DNL Journey Optimizer B2B Edition] è inoltre necessario accettare il [Contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-Per promuovere la trasparenza nell&#39;intelligenza artificiale generativa, Adobe applica [le credenziali del contenuto](https://helpx.adobe.com/it/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} alle risorse generate da Firefly al momento del download o dell&#39;esportazione.
+Per promuovere la trasparenza nell&#39;intelligenza artificiale generativa, Adobe applica [le credenziali del contenuto](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} alle risorse generate da Firefly al momento del download o dell&#39;esportazione.
 
 Le limitazioni e le linee guida seguenti si applicano alle funzionalità di generazione dei contenuti utilizzate per le pagine di destinazione in [!DNL Journey Optimizer B2B Edition]:
 

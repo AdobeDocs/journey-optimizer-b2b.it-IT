@@ -1,35 +1,46 @@
 ---
 title: Progettare contenuti accessibili
-description: Scopri come progettare contenuti accessibili per le e-mail e le pagine di destinazione in Journey Optimizer B2B edition
+description: Scopri come progettare contenuti accessibili per le e-mail e le pagine di destinazione in Journey Optimizer B2B Edition
 feature: Email Authoring, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, progettazione, accessibilità
 exl-id: 744e94f4-195f-4277-877d-09275f40ce23
+autotag-review: '2026-03-30T22:11:25.228Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-autotag-review: '2026-03-30T22:11:25.228Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+    internal-label: Accessibility
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: '1751'
 ht-degree: 1%
-
 ---
-
 # Progettare contenuti accessibili {#accessible-content}
 
 L&#39;[atto europeo sull&#39;accessibilità](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} è una direttiva intesa a migliorare il mercato interno dei prodotti e dei servizi accessibili eliminando gli ostacoli causati da norme nazionali divergenti tra gli Stati membri.
@@ -40,7 +51,6 @@ Gli strumenti di progettazione di [!DNL Journey Optimizer B2B Edition] consenton
 
 Nelle sezioni seguenti vengono descritte le procedure consigliate per la progettazione di contenuto accessibile con [!DNL Journey Optimizer B2B Edition]. Queste informazioni si concentrano sulla progettazione di contenuti accessibili a tutti i destinatari, in modo che le persone con disabilità possano leggere, comprendere e interagire con i messaggi e-mail e le pagine di destinazione.
  
-
 ## Assicurare la leggibilità del testo {#text-readability}
 
 Utilizza la scheda **[!UICONTROL Stili]** del componente **[!UICONTROL Testo]** per garantire che il testo sia leggibile, ad esempio utilizzando un contrasto cromatico adeguato e font semplici. Per ulteriori informazioni sullo stile dei componenti di testo, vedere [_Componenti contenuto_](content-components.md#text)
@@ -304,27 +314,27 @@ Gli assistenti vocali leggono:
 Per le pagine di destinazione, il supporto per la navigazione da tastiera e lo stato attivo consente agli utenti che non possono utilizzare il mouse di accedere ai contenuti e interagire con essi. Inoltre, migliora l’usabilità complessiva offrendo a tutti gli utenti un modo chiaro e coerente di passare alle informazioni.
 
 * Navigazione tramite tastiera e messa a fuoco
-   * Assicurarsi che tutti gli elementi interattivi (ad esempio pulsanti, caselle di controllo e collegamenti) abbiano `tabindex="0"`, in modo che vengano inclusi nell&#39;ordine di tabulazione naturale.
-   * Consenti la navigazione utilizzando i tasti di tabulazione e freccia (↑ ↓ ← →), che dovrebbero evidenziare visibilmente l’elemento attivo.
+  * Assicurarsi che tutti gli elementi interattivi (ad esempio pulsanti, caselle di controllo e collegamenti) abbiano `tabindex="0"`, in modo che vengano inclusi nell&#39;ordine di tabulazione naturale.
+  * Consenti la navigazione utilizzando i tasti di tabulazione e freccia (↑ ↓ ← →), che dovrebbero evidenziare visibilmente l’elemento attivo.
 * Stile di messa a fuoco personalizzato
-   * Applica stili chiari e distinguibili per concentrarti sugli elementi utilizzabili:
-     +++Esempio (CSS)
+  * Applica stili chiari e distinguibili per concentrarti sugli elementi utilizzabili:
+    +++Esempio (CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     background-color: #20CEFF;   /* Optional background */ 
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    background-color: #20CEFF;   /* Optional background */ 
+    }
+    ```
 
-     +++
+    +++
 
-   * Assicurati che gli indicatori di focus soddisfino gli standard WCAG 2.2 per l’aspetto del focus, tra cui:
-      * Area minima: 2 linee di spessore pixel CSS.
-      * Rapporto di contrasto: ≥ 3:1 tra stato attivo e non attivo.
+  * Assicurati che gli indicatori di focus soddisfino gli standard WCAG 2.2 per l’aspetto del focus, tra cui:
+    * Area minima: 2 linee di spessore pixel CSS.
+    * Rapporto di contrasto: ≥ 3:1 tra stato focalizzato e non focalizzato.
 
 * Supporto per l&#39;attivazione della tastiera
-   * Assicurarsi che le caselle di controllo e i pulsanti rispondano ai tasti Invio e Spazio.
-   * Convalida l’interazione utilizzando solo la tastiera:
-      * Immettere o Spazio per attivare/disattivare le caselle di controllo.
-      * Invio o Spazio deve attivare i pulsanti.
+  * Assicurarsi che le caselle di controllo e i pulsanti rispondano ai tasti Invio e Spazio.
+  * Convalida l’interazione utilizzando solo la tastiera:
+    * Immettere o Spazio per attivare/disattivare le caselle di controllo.
+    * Invio o Spazio deve attivare i pulsanti.

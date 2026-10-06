@@ -4,26 +4,36 @@ description: Configura le impostazioni di consegna e-mail, i limiti di comunicaz
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
+autotag-review: 2026-03-27T22:54:31.660Z
+TQID: 'https://experienceleague.adobe.com/iJy1TfeslMT4FM3RqcMdIVov0MKQnckKjP09MvdHcvc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: a492a671-d5f6-46ee-b832-2efbca14ddd8
-autotag-review: 2026-03-27T22:54:31.660Z
-TQID: https://experienceleague.adobe.com/iJy1TfeslMT4FM3RqcMdIVov0MKQnckKjP09MvdHcvc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Activation and channels
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1787
+source-wordcount: '1787'
 ht-degree: 97%
-
 ---
-
 # Configurazioni del canale e-mail
 
 Adobe Journey Optimizer B2B edition sfrutta le funzioni di canale e il tracciamento degli eventi in Marketo Engage. Gli amministratori devono assicurarsi che le configurazioni di consegna e tracciamento siano attive per consentire la distribuzione dei canali agli addetti al marketing. Per informazioni sui protocolli necessari per la consegna e il tracciamento delle e-mail tramite Marketo Engage, vedere [Protocolli per il tracciamento e la consegna delle e-mail](../start/email-protocols.md).
@@ -64,11 +74,11 @@ Per esaminare i domini di branding, fare clic sulla scheda **[!UICONTROL Domini 
 
 ![Accedere alle impostazioni dei domini di branding](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Questa impostazione definisce il dominio principale per una o più aree di lavoro nell’istanza Marketo Engage connessa. Le nuove e-mail utilizzano questo dominio come predefinito, ma gli addetti al marketing possono [ignorarlo per ogni e-mail](../content/add-email.md#define-the-email-settings). Per ulteriori informazioni sulla definizione del dominio di branding predefinito, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Questa impostazione definisce il dominio principale per una o più aree di lavoro nell’istanza Marketo Engage connessa. Le nuove e-mail utilizzano questo dominio come predefinito, ma gli addetti al marketing possono [ignorarlo per ogni e-mail](../content/add-email.md#define-the-email-settings). Per ulteriori informazioni sulla definizione del dominio di branding predefinito, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->Se stai commercializzando più marchi e desideri che ciascuno di essi abbia i propri collegamenti di tracciamento del marchio, puoi aggiungere un ulteriore dominio di branding. Per ulteriori informazioni sull&#39;aggiunta di più domini di branding, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>Se stai commercializzando più marchi e desideri che ciascuno di essi abbia i propri collegamenti di tracciamento del marchio, puoi aggiungere un ulteriore dominio di branding. Per ulteriori informazioni sull&#39;aggiunta di più domini di branding, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Opzioni intestazione personalizzate] {#custom-header-options}
 
@@ -97,7 +107,7 @@ I limiti di comunicazione controllano il numero di e-mail che un contatto riceve
 
 Ad esempio, con un limite definito di cinque e-mail al giorno, il sistema garantisce che un contatto non riceva una sesta e-mail in un giorno eliminando la sesta e-mail. Con i limiti di comunicazione condivisi tra Journey Optimizer B2B edition e Marketo Engage, le regole dei limiti di comunicazione sono definite in un’unica posizione. La sesta e-mail viene soppressa, indipendentemente dall’azione di invio proveniente da Journey Optimizer B2B edition o Marketo Engage.
 
-Per impostazione predefinita, in tutte le istanze di produzione di Marketo Engage sono definiti limiti di comunicazione (per ulteriori informazioni, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}). È possibile utilizzare limiti di comunicazione separati per Journey Optimizer B2B edition e l’istanza Marketo Engage di produzione. Per utilizzare i limiti di comunicazione condivisi, definisci le regole in Journey Optimizer B2B edition ed estendi la condivisione di tali limiti ai codici Munchkin di Marketo.
+Per impostazione predefinita, in tutte le istanze di produzione di Marketo Engage sono definiti limiti di comunicazione (per ulteriori informazioni, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}). È possibile utilizzare limiti di comunicazione separati per Journey Optimizer B2B edition e l’istanza Marketo Engage di produzione. Per utilizzare i limiti di comunicazione condivisi, definisci le regole in Journey Optimizer B2B edition ed estendi la condivisione di tali limiti ai codici Munchkin di Marketo.
 
 >[!IMPORTANT]
 >
@@ -195,10 +205,10 @@ Marketo Engage utilizza due metodi per confermare l’attività bot:
 
 * **Corrispondenza con pattern di prossimità** - Quando due o più attività si verificano contemporaneamente (entro un secondo), vengono identificate come bot. Questo metodo considera i seguenti attributi per il confronto:
 
-   * ID lead (deve essere lo stesso)
-   * Risorsa e-mail (deve essere la stessa)
-   * Clic collegamento o apertura e-mail
-   * Differenza di tempo (deve essere inferiore a un secondo)
+  * ID lead (deve essere lo stesso)
+  * Risorsa e-mail (deve essere la stessa)
+  * Clic collegamento o apertura e-mail
+  * Differenza di tempo (deve essere inferiore a un secondo)
 
 Per le attività di clic e apertura dei collegamenti e-mail, i nuovi attributi vengono compilati con i seguenti valori:
 
@@ -216,4 +226,4 @@ Le impostazioni sono di sola lettura in Journey Optimizer B2B edition. Fai clic 
 >
 >Per accedere e modificare queste impostazioni in Adobe Marketo Engage, è necessario disporre delle autorizzazioni di amministratore di prodotto.
 
-Per ulteriori informazioni sulla configurazione delle opzioni di attività bot, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Per ulteriori informazioni sulla configurazione delle opzioni di attività bot, consulta la [documentazione di Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.

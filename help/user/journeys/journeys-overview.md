@@ -1,33 +1,39 @@
 ---
 title: Gestione dei percorsi
-description: 'Semplifica la generazione della domanda con i percorsi: crea, pubblica, gestisci il coinvolgimento dei gruppi di acquisto tramite e-mail, SMS ed eventi in Journey Optimizer B2B edition.'
+description: 'Semplifica la generazione della domanda con i percorsi: crea, pubblica, gestisci il coinvolgimento dei gruppi di acquisto tramite e-mail, SMS ed eventi in Journey Optimizer B2B Edition.'
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
+autotag-review: 2026-03-30T23:09:32.398Z
+TQID: 'https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-30T23:09:32.398Z
-TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1308
+source-wordcount: '1308'
 ht-degree: 45%
-
 ---
-
 # Gestione dei percorsi
 
-In Journey Optimizer B2B edition, i percorsi sono account automatizzati a più passaggi e piani di marketing basati su lead che orchestrano esperienze personalizzate tra canali in risposta a coinvolgimento, eventi di business o campagne pianificate. Definisci un coinvolgimento basato sulle vendite che includa e-mail, SMS e altro per coordinare il marketing in entrata con le attività di vendita in uscita per ogni membro del gruppo di acquisto.
+In Journey Optimizer B2B Edition, i percorsi sono account automatizzati a più passaggi e piani di marketing basati su lead che orchestrano esperienze personalizzate tra canali in risposta a coinvolgimento, eventi di business o campagne pianificate. Definisci un coinvolgimento basato sulle vendite che includa e-mail, SMS e altro per coordinare il marketing in entrata con le attività di vendita in uscita per ogni membro del gruppo di acquisto.
 
-Journey Optimizer B2B edition supporta due tipi di percorso:
+Journey Optimizer B2B Edition supporta due tipi di percorso:
 
 * **percorsi di account** - Semplifica la generazione della domanda e la qualificazione dei gruppi di acquisto e genera una domanda più qualificata per i programmi di acquisizione, upselling/cross-selling e fidelizzazione. Adatta i percorsi a ogni gruppo acquisti e membro del gruppo acquisti utilizzando il coinvolgimento automatizzato per e-mail, SMS, eventi e altro ancora.
 
@@ -94,11 +100,11 @@ Lo stato di un percorso può cambiare in base alle azioni applicate. In base all
 
 | Stato | Descrizione | Azioni disponibili |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Bozza**&#x200B;_ | Un percorso non pubblicato che può essere modificato. | <li>[Pubblica](./create-publish-journey.md#publish-a-journey)<li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
-| _&#x200B;**Live**&#x200B;_ | Lo stato del percorso cambia da _Bozza_ a _Live_ quando viene pubblicato un percorso. Se il percorso si trova in questo stato, non può più essere modificato. | <li>[Duplica](#duplicate-journey)<li>[Chiudi ai nuovi ingressi](#close-to-new-entries) <li>[Interrompi](#abort-journey) |
-| _&#x200B;**Chiuso alle nuove voci**&#x200B;_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <li>[Duplica](#duplicate-journey) <li>[Interrompi](#abort-journey) |
-| _&#x200B;**Annullato**&#x200B;_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
-| _&#x200B;**Completato**&#x200B;_ | Quando tutti i membri del pubblico dell&#39;account o della persona in un percorso completano il percorso, lo stato cambia da _Live_ o _Closed to new entries_ a _Finished_. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Bozza**_ | Un percorso non pubblicato che può essere modificato. | <li>[Pubblica](./create-publish-journey.md#publish-a-journey)<li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Live**_ | Lo stato del percorso cambia da _Bozza_ a _Live_ quando viene pubblicato un percorso. Se il percorso si trova in questo stato, non può più essere modificato. | <li>[Duplica](#duplicate-journey)<li>[Chiudi ai nuovi ingressi](#close-to-new-entries) <li>[Interrompi](#abort-journey) |
+| _**Chiuso alle nuove voci**_ | Lo stato del percorso cambia da _Live_ a _Chiuso alle nuove voci_ quando fai clic su [!UICONTROL Chiudi alle nuove voci] nel menu di navigazione superiore. | <li>[Duplica](#duplicate-journey) <li>[Interrompi](#abort-journey) |
+| _**Annullato**_ | Lo stato del percorso cambia da _Live_ o _Chiuso alle nuove voci_ quando interrompi un percorso. Un percorso interrotto non può essere riavviato. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
+| _**Completato**_ | Quando tutti i membri del pubblico dell&#39;account o della persona in un percorso completano il percorso, lo stato cambia da _Live_ o _Closed to new entries_ a _Finished_. | <li>[Duplica](#duplicate-journey) <li>[Elimina](#delete-journey) |
 
 ## Mappe percorso
 
@@ -116,7 +122,7 @@ Dalla mappa del percorso, puoi [Aggiungere i nodi](./create-publish-journey.md#a
 
 ## Azioni percorso
 
-La pagina dell’elenco percorsi include tutti i percorsi di account o persone nell’istanza Journey Optimizer B2B edition. Dalla pagina dell’elenco, puoi applicare una serie di azioni a un percorso.
+La pagina dell’elenco percorsi include tutti i percorsi di account o persone nell’istanza Journey Optimizer B2B Edition. Dalla pagina dell’elenco, puoi applicare una serie di azioni a un percorso.
 
 ### Interrompi percorso
 
@@ -206,4 +212,4 @@ Quando selezioni il nodo, fai clic sul numero per visualizzare un elenco di acco
 
 ## Video introduttivo sul percorso di account {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443215/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

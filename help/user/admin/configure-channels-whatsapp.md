@@ -1,33 +1,41 @@
 ---
 title: Configurazione canale WhatsApp
-description: Connetti il tuo account aziendale WhatsApp tramite l’API Cloud di Meta per abilitare la messaggistica WhatsApp nei percorsi di account Journey Optimizer B2B edition.
+description: Connetti il tuo account aziendale WhatsApp tramite l’API Cloud di Meta per abilitare la messaggistica WhatsApp nei percorsi di account Journey Optimizer B2B Edition.
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: a7692144-1dc6-426f-b00f-fe187797f61d
+    internal-label: Deliverability
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: eec5558d6065501576a91097182201726020213c
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1515
+source-wordcount: '1515'
 ht-degree: 11%
-
 ---
-
 # Configurazione canale WhatsApp
 
-Adobe Journey Optimizer B2B edition invia messaggi WhatsApp tramite API Cloud di Meta. Prima che gli addetti al marketing possano creare messaggi WhatsApp per percorsi di account, un amministratore di prodotto deve configurare un canale WhatsApp.
+Adobe Journey Optimizer B2B Edition invia messaggi WhatsApp tramite API Cloud di Meta. Prima che gli addetti al marketing possano creare messaggi WhatsApp per percorsi di account, un amministratore di prodotto deve configurare un canale WhatsApp.
 
-![Flusso di attività WhatsApp per Journey Optimizer B2B edition](./assets/whatsapp-flow-diagram.png)
+![Flusso di attività WhatsApp per Journey Optimizer B2B Edition](./assets/whatsapp-flow-diagram.png)
 
 ## Prerequisiti
 
@@ -40,13 +48,13 @@ Prima di configurare il canale WhatsApp, assicurati di disporre dei seguenti ele
 
 >[!IMPORTANT]
 >
->L&#39;utilizzo dei servizi di messaggistica WhatsApp è soggetto ai termini e alle condizioni di Meta. Accedendo alla messaggistica WhatsApp tramite Journey Optimizer B2B edition, l&#39;utente conferma di aver rivisto e accetta di rispettare [i criteri aziendali Meta WhatsApp](https://whatsappbusiness.com/policy/).
+>L&#39;utilizzo dei servizi di messaggistica WhatsApp è soggetto ai termini e alle condizioni di Meta. Accedendo alla messaggistica WhatsApp tramite Journey Optimizer B2B Edition, l&#39;utente conferma di aver rivisto e accetta di rispettare [i criteri aziendali WhatsApp di Meta](https://whatsappbusiness.com/policy/).
 
 ## Limitazioni {#limitations}
 
 Al canale WhatsApp vengono applicate le seguenti limitazioni:
 
-* Adobe Journey Optimizer B2B edition **non è compatibile con HIPAA e non è compatibile con HIPAA**. Inoltre, i fornitori di terze parti non sono coperti dalla BAA di Adobe. La clientela è responsabile della propria conformità e della convalida dei fornitori.
+* Adobe Journey Optimizer B2B Edition **non è compatibile con HIPAA e non è compatibile con HIPAA**. Inoltre, i fornitori di terze parti non sono coperti dalla BAA di Adobe. La clientela è responsabile della propria conformità e della convalida dei fornitori.
 
 * I messaggi di risposta automatizzati o predefiniti non sono ancora supportati.
 
@@ -56,7 +64,7 @@ Al canale WhatsApp vengono applicate le seguenti limitazioni:
 
 ## Completare la configurazione del canale
 
-Prima di inviare il messaggio WhatsApp, devi configurare l’ambiente B2B edition di Journey Optimizer e collegarlo all’account WhatsApp.
+Prima di inviare il messaggio WhatsApp, devi configurare l’ambiente Journey Optimizer B2B Edition e collegarlo all’account WhatsApp.
 
 Completa le seguenti attività:
 
@@ -84,7 +92,7 @@ Completa le seguenti attività:
    * **[!UICONTROL Token API]** - Immetti il token API. Per informazioni, consultare la [documentazione di Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL ID account aziendale]** - Inserisci il numero univoco relativo al tuo portfolio aziendale. Per informazioni, consultare la [documentazione di Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![Credenziali API impostazioni WhatsApp &#x200B;](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![Credenziali API impostazioni WhatsApp ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Fai clic su **[!UICONTROL Continua]**.
 
@@ -124,7 +132,7 @@ Se riscontri un errore HTTP 500 durante la configurazione delle credenziali API 
    * Token API - Deve essere un token di accesso Meta [valido con le autorizzazioni appropriate](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * ID account aziendale - Deve corrispondere esattamente all&#39;[ID account aziendale Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-1. Verifica le credenziali esternamente: per verificare se il problema riguarda le credenziali o la gestione delle credenziali di Journey Optimizer B2B edition, verifica le credenziali con l’API Meta.
+1. Verifica le credenziali esternamente: per verificare se il problema riguarda la gestione delle credenziali o delle credenziali Journey Optimizer B2B Edition, verifica le credenziali con l’API Meta.
 
 <!--
  1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures.
@@ -167,7 +175,7 @@ do we have advanced logs? How are they enabled?
 
 >[!ENDSHADEBOX]
 
-I webhook consentono a Journey Optimizer B2B edition di ricevere messaggi in entrata, risposte di consenso e notifiche di consegna dall’account aziendale WhatsApp. Configura i webhook per garantire la corretta gestione del consenso e il tracciamento dei messaggi.
+I webhook consentono a Journey Optimizer B2B Edition di ricevere messaggi in entrata, risposte di consenso e notifiche di consegna dall’account aziendale WhatsApp. Configura i webhook per garantire la corretta gestione del consenso e il tracciamento dei messaggi.
 
 >[!NOTE]
 >
@@ -262,7 +270,7 @@ Una configurazione del canale definisce le impostazioni di consegna utilizzate p
 
    ![Dettagli configurazione canale WhatsApp](./assets/config-whatsapp-channels-general-create.png){width="500" zoomable="yes"}
 
-1. (Attualmente non applicabile per Journey Optimizer B2B edition) Per il campo di esecuzione **[!UICONTROL WhatsApp]**, selezionare l&#39;attributo di profilo da utilizzare come numero di telefono prioritario quando sono disponibili più numeri di telefono per un destinatario.
+1. (Attualmente non applicabile per Journey Optimizer B2B Edition) Per il campo di esecuzione **[!UICONTROL WhatsApp]**, selezionare l&#39;attributo di profilo da utilizzare come numero di telefono prioritario quando sono disponibili più numeri di telefono per un destinatario.
 
 1. Fai clic su **[!UICONTROL Invia]** per salvare o su **[!UICONTROL Salva come bozza]** per completare e inviare la configurazione in un secondo momento.
 

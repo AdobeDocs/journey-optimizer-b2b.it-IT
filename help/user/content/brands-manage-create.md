@@ -1,11 +1,13 @@
 ---
 title: Creare marchi per la generazione e la coerenza dei contenuti
-description: 'Creazione e gestione di linee guida per i marchi con estrazione automatica dai documenti o immissione manuale: imposta i marchi predefiniti per contenuti coerenti in Journey Optimizer B2B edition.'
+description: 'Creazione e gestione di linee guida per i marchi con estrazione automatica dai documenti o immissione manuale: imposta i marchi predefiniti per contenuti coerenti in Journey Optimizer B2B Edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
+autotag-review: 2026-03-30T21:55:06.504Z
+TQID: 'https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -14,18 +16,20 @@ feature_v2:
     internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
     internal-label: Content management
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
     internal-label: Content strategy
-autotag-review: 2026-03-30T21:55:06.504Z
-TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 6%
@@ -34,7 +38,7 @@ ht-degree: 6%
 
 Definisci un marchio per fornire un set dettagliato di regole e standard che stabiliscano un&#39;identità visiva e verbale. Queste linee guida forniscono un riferimento per mantenere una rappresentazione coerente del brand in tutte le piattaforme di marketing e comunicazione. Sfruttando linee guida del brand ben definite, le organizzazioni possono garantire che tutte le attività di creazione dei contenuti siano allineate agli obiettivi strategici e all’identità del brand complessiva. Questa coerenza non solo migliora il riconoscimento e la fiducia del marchio, ma contribuisce anche a creare un’esperienza del cliente più coesa e incisiva in tutti i punti di contatto.
 
-In Journey Optimizer B2B edition puoi definire e organizzare manualmente le definizioni del brand e le risorse o caricare documenti di linee guida per il brand per l’estrazione automatica delle informazioni e delle risorse visive.
+In Journey Optimizer B2B Edition puoi definire e organizzare manualmente le definizioni del brand e le risorse o caricare documenti di linee guida per il brand per l’estrazione automatica delle informazioni e delle risorse visive.
 
 >[!AVAILABILITY]
 >
@@ -42,7 +46,7 @@ In Journey Optimizer B2B edition puoi definire e organizzare manualmente le defi
 >
 ><br>
 >
->È necessario un [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} prima di poter utilizzare le funzionalità basate sull&#39;intelligenza artificiale in Adobe Journey Optimizer B2B edition. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>È necessario un [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} prima di poter utilizzare le funzionalità basate sull&#39;intelligenza artificiale in Adobe Journey Optimizer B2B Edition. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 >
 ><br>
 >
@@ -50,7 +54,7 @@ In Journey Optimizer B2B edition puoi definire e organizzare manualmente le defi
 
 ## Accedere alla libreria del brand
 
-Per accedere ai kit dei brand in Adobe Journey Optimizer B2B edition, passa alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Marchi]**. Questa azione apre una pagina in cui i brand creati vengono visualizzati come schede.
+Per accedere ai kit dei brand in Adobe Journey Optimizer B2B Edition, passa alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Marchi]**. Questa azione apre una pagina in cui i brand creati vengono visualizzati come schede.
 
 ![Accedi alla libreria dei brand](./assets/brands-library.png){width="800" zoomable="yes"}
 

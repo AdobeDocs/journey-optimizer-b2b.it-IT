@@ -17,6 +17,10 @@ feature_v2:
     internal-label: Generative AI
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
     internal-label: Web channel
@@ -32,7 +36,7 @@ topic_v2:
     internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2317'
 ht-degree: 4%
@@ -49,7 +53,7 @@ Prima di poter progettare esperienze web, assicurati di soddisfare i seguenti re
 
 * Un amministratore di prodotto ha configurato uno o più canali web per definire gli URL (pagine) da includere per un’esperienza web. Per ulteriori informazioni, vedere [Configurazioni del canale Web](../admin/configure-channels-web.md).
 
-* Il sito Web include [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementato per l&#39;identificazione dei visitatori e la distribuzione dei contenuti. È richiesto Adobe Experience Platform Web SDK versione 2.16 o successiva.
+* Il sito Web include [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementato per l&#39;identificazione dei visitatori e la distribuzione dei contenuti. È richiesto Adobe Experience Platform Web SDK versione 2.16 o successiva.
 
 * Hai le [autorizzazioni](../admin/user-management.md#b2b-product-permissions) necessarie per creare e gestire esperienze Web in un percorso:
   * _[!UICONTROL Creare esperienze Web B2B]_
@@ -258,7 +262,7 @@ Le modifiche apportate al selettore CSS consentono di eseguire il targeting degl
    | `header nav a` | Collegamenti all’interno della navigazione, all’interno dell’intestazione |
    | `[data-offer="premium"]` | Elementi con un attributo di dati specifico |
 
-1. Scegli un tipo di azione **&#x200B;**&#x200B;e specifica le informazioni o il contenuto richiesti.
+1. Scegli un tipo di azione **** e specifica le informazioni o il contenuto richiesti.
 
    * **[!UICONTROL Imposta contenuto]** - Immettere il testo nel campo **[!UICONTROL Contenuto]** per l&#39;elemento identificato dal valore _[!UICONTROL Selettore elemento CSS]_.
 

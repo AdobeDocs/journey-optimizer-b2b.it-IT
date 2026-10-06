@@ -8,21 +8,27 @@ autotag-review: '2026-06-19T22:49:14.999Z'
 TQID: 'https://experienceleague.adobe.com/4yZyKIShtXQ1KgivMKaGMwH03sbmeqmURY3kttX6hyI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 598f728a271bf23752dec2b0056bcc3a14a88b32
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1634
+source-wordcount: '1657'
 ht-degree: 6%
-
 ---
-
 # Componenti della struttura {#structure-components}
 
 >[!CONTEXTUALHELP]
@@ -53,14 +59,14 @@ Nella parte superiore della libreria _[!UICONTROL Components]_, la sezione **[!U
 
 | Icona | Componente | Descrizione |
 | ----- | ----------- | ----------- |
-| ![1:1 icona colonna](../../user/assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1 colonna] | Contenitore a colonna singola che occupa la larghezza dello spazio. |
-| ![1:2 icona colonna](../../user/assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 colonna sinistra] | Contenitore a due colonne che utilizza un rapporto di 1:2 per riempire la larghezza dello spazio. La prima colonna (a sinistra) occupa un terzo della larghezza, mentre la seconda (a destra) occupa i due terzi rimanenti. |
-| ![1:3 icona colonna](../../user/assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 colonna sinistra] | Contenitore a due colonne che utilizza un rapporto di 1:3 per riempire la larghezza dello spazio. La prima colonna (a sinistra) occupa un quarto della larghezza mentre la seconda (a destra) occupa i tre quarti rimanenti. |
-| ![2:1 icona colonna](../../user/assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1 colonna a destra] | Contenitore a due colonne che utilizza un rapporto di 2:1 per riempire la larghezza dello spazio. La prima colonna (a sinistra) occupa i due terzi della larghezza, mentre la seconda colonna (a destra) occupa il terzo rimanente. |
-| ![2:2 icona colonna](../../user/assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 colonna] | Contenitore a due colonne che utilizza un rapporto di 2:2 per riempire la larghezza dello spazio. Le colonne sinistra e destra hanno la stessa larghezza. |
-| Icona della colonna ![3:1](../../user/assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 colonna a destra] | Contenitore a due colonne che utilizza un rapporto di 3:1 per riempire la larghezza dello spazio. La prima colonna (a sinistra) occupa tre quarti (75%) della larghezza e la seconda (a destra) occupa il rimanente quarto (25%). |
-| Icona della colonna ![3:3](../../user/assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3 colonna] | Contenitore a tre colonne che utilizza un rapporto di 3:3 per riempire la larghezza dello spazio. Le tre colonne hanno la stessa larghezza. |
-| ![4:4 icona colonna](../../user/assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4 colonna] | Contenitore a quattro colonne che utilizza un rapporto di 4:4 per riempire la larghezza dello spazio. Le quattro colonne hanno la stessa larghezza. |
+| ![icona colonna 1:1](../../user/assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL colonna 1:1] | Contenitore a colonna singola che occupa la larghezza dello spazio. |
+| ![icona colonna 1:2](../../user/assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL Colonna 1:2 a sinistra] | Contenitore a due colonne che utilizza un rapporto 1:2 per riempire la larghezza dello spazio. La prima colonna (a sinistra) occupa un terzo della larghezza, mentre la seconda (a destra) occupa i due terzi rimanenti. |
+| Icona della colonna ![1:3](../../user/assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL Colonna 1:3 a sinistra] | Contenitore a due colonne che utilizza un rapporto 1:3 per riempire la larghezza dello spazio. La prima colonna (a sinistra) occupa un quarto della larghezza mentre la seconda (a destra) occupa i tre quarti rimanenti. |
+| ![icona colonna 2:1](../../user/assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL Colonna 2:1 a destra] | Contenitore a due colonne che utilizza un rapporto 2:1 per riempire la larghezza dello spazio. La prima colonna (a sinistra) occupa i due terzi della larghezza, mentre la seconda colonna (a destra) occupa il terzo rimanente. |
+| Icona della colonna ![2:2](../../user/assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL Colonna 2:2] | Contenitore a due colonne che utilizza un rapporto 2:2 per riempire la larghezza dello spazio. Le colonne sinistra e destra hanno la stessa larghezza. |
+| Icona della colonna ![3:1](../../user/assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL Colonna 3:1 a destra] | Contenitore a due colonne che utilizza un rapporto 3:1 per riempire la larghezza dello spazio. La prima colonna (a sinistra) occupa tre quarti (75%) della larghezza e la seconda (a destra) occupa il rimanente quarto (25%). |
+| Icona della colonna ![3:3](../../user/assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL colonna 3:3] | Contenitore a tre colonne che utilizza un rapporto 3:3 per riempire la larghezza dello spazio. Le tre colonne hanno la stessa larghezza. |
+| Icona della colonna ![4:4](../../user/assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL colonna 4:4] | Contenitore a quattro colonne che utilizza un rapporto 4:4 per riempire la larghezza dello spazio. Le quattro colonne hanno la stessa larghezza. |
 | ![n:n icona colonna](../../user/assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n colonna] | Una struttura di colonne personalizzabile che riempie lo spazio in base alle colonne definite. È possibile impostare il numero di colonne (compreso tra due e dieci) e la larghezza di ciascuna colonna singolarmente. [Ulteriori informazioni](#change-nn-columns) |
 
 ## Aggiungere componenti struttura {#add-structure-components}

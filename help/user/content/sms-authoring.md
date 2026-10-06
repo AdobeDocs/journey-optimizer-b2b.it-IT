@@ -1,6 +1,6 @@
 ---
 title: Authoring di SMS
-description: 'Creazione di messaggi SMS per percorsi di account con personalizzazione, collegamenti e gestione del consenso: anteprima del contenuto e configurazione delle impostazioni di consegna in Journey Optimizer B2B edition.'
+description: 'Creazione di messaggi SMS per percorsi di account con personalizzazione, collegamenti e gestione del consenso: anteprima del contenuto e configurazione delle impostazioni di consegna in Journey Optimizer B2B Edition.'
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
@@ -8,30 +8,42 @@ autotag-review: '2026-05-27T16:18:50.732Z'
 TQID: 'https://experienceleague.adobe.com/MEoL8Fm-drFPWzFZofvS7hMRTTpmRyThVxBUHUsS6Qs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d66b6f77-1150-58cd-81d8-2a1924d54baa
+    internal-label: SMS Authoring
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+    internal-label: SMS channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+    internal-label: Cross channel delivery
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1251
+source-wordcount: '1251'
 ht-degree: 3%
-
 ---
-
 # Authoring di SMS
 
-Utilizza Adobe Journey Optimizer B2B edition per inviare SMS ai clienti sui loro dispositivi mobili. Puoi creare, personalizzare e visualizzare in anteprima i messaggi in formato testo dall’editor SMS.
+Utilizza Adobe Journey Optimizer B2B Edition per inviare SMS ai clienti sui loro dispositivi mobili. Puoi creare, personalizzare e visualizzare in anteprima i messaggi in formato testo dall’editor SMS.
 
 Prima di creare messaggi SMS per percorsi di account, verificare che il provider di servizi SMS [sia configurato](../admin/configure-channels-sms.md) dalle impostazioni _[!UICONTROL Amministratore]_.
 
@@ -113,7 +125,7 @@ Puoi creare un messaggio composto da un massimo di 1600 caratteri, ogni 160 cara
       >[!NOTE] 
       >
       >When you allow tracking but disable _[!UICONTROL Enable Lead Tracking]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
-      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
 -->
 
@@ -125,7 +137,7 @@ Puoi creare un messaggio composto da un massimo di 1600 caratteri, ogni 160 cara
 
    Per questi campi sono consentiti caratteri Alpha, numerici e speciali. I seguenti caratteri riservati sono **non consentiti**: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>` e `|`.
 
-1. Scegli il tipo di SMS **&#x200B;**:
+1. Scegli il tipo di SMS ****:
 
    * Utilizza `Marketing` per i messaggi di testo promozionali, che richiedono il consenso dell&#39;utente.
    * Utilizzare `Transactional` per i messaggi non commerciali, ad esempio la conferma di un ordine, le notifiche di reimpostazione della password o le informazioni di consegna.
@@ -183,8 +195,8 @@ Come requisito legale, è necessario dare ai destinatari la possibilità di annu
 
 Quando fornisci questa opzione, i destinatari di SMS possono rispondere con parole chiave di consenso e rinuncia. Sono supportate e rispettate tutte le parole chiave standard di consenso e rinuncia, nonché tutte le parole chiave personalizzate configurate con il provider di servizi SMS. Quando l’abbonamento viene annullato, i profili vengono rimossi automaticamente dal pubblico dei messaggi di marketing futuri.
 
-Journey Optimizer B2B edition consente di gestire la rinuncia nei messaggi SMS utilizzando la seguente logica:
+Journey Optimizer B2B Edition consente di gestire la rinuncia nei messaggi SMS utilizzando la seguente logica:
 
 * Per impostazione predefinita, se un lead ha rinunciato a ricevere comunicazioni dall’utente, il profilo corrispondente viene escluso dalle consegne SMS successive
 
-* Questo consenso lead, proveniente da origini diverse (ad esempio AEP o il provider di servizi SMS), viene sincronizzato con Journey Optimizer B2B edition. Attualmente, supporta solo un singolo stato di consenso per lead a livello di istanza (un lead &quot;John Doe&quot; è abbonato o annullato da tutti gli SMS promozionali nell’istanza). Al momento non supporta il doppio consenso a livello di marchio/elenco di iscrizioni individuale.
+* Questo consenso lead, proveniente da origini diverse (ad esempio AEP o il provider di servizi SMS), viene sincronizzato con Journey Optimizer B2B Edition. Attualmente, supporta solo un singolo stato di consenso per lead a livello di istanza (un lead &quot;John Doe&quot; è abbonato o annullato da tutti gli SMS promozionali nell’istanza). Al momento non supporta il doppio consenso a livello di marchio/elenco di iscrizioni individuale.

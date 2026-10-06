@@ -1,41 +1,54 @@
 ---
 title: Consenso alla messaggistica canale
-description: Scopri come Journey Optimizer B2B edition legge le preferenze di consenso del profilo XDM di AEP e applica il consenso e la rinuncia al momento della consegna dei messaggi per i canali e-mail, SMS e WhatsApp.
+description: Scopri come Journey Optimizer B2B Edition legge le preferenze di consenso del profilo XDM di AEP e applica il consenso e la rinuncia al momento della consegna dei messaggi per i canali e-mail, SMS e WhatsApp.
 feature: Setup, Channels
 role: Admin, User
 autotag-review: '2026-05-19T16:18:37.228Z'
 TQID: 'https://experienceleague.adobe.com/-c0dJnpfiIcj0B5gViyEQ7E1Ws0BwP864OLF003rOjw'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+    internal-label: SMS channel
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '415'
 ht-degree: 1%
-
 ---
-
 # Consenso alla messaggistica canale
 
-Adobe Journey Optimizer B2B edition legge le preferenze di consenso per persona memorizzate nei profili XDM di Adobe Experience Platform e le applica al momento della consegna dei messaggi, come parte dei [controlli di governance](../admin/governance.md) dell&#39;app. Le persone che hanno rinunciato a un canale sono escluse dalla consegna prima che il contenuto venga inviato dal canale o dal provider di messaggistica a valle.
+Adobe Journey Optimizer B2B Edition legge le preferenze di consenso per persona memorizzate nei profili Adobe Experience Platform XDM e le applica al momento della consegna dei messaggi, come parte dei [controlli di governance](../admin/governance.md) dell&#39;app. Le persone che hanno rinunciato a un canale sono escluse dalla consegna prima che il contenuto venga inviato dal canale o dal provider di messaggistica a valle.
 
-Le sezioni seguenti descrivono come Journey Optimizer B2B edition valuta il consenso al momento dell’invio dei messaggi per ogni canale supportato.
+Le sezioni seguenti descrivono come Journey Optimizer B2B Edition valuta il consenso al momento dell’invio dei messaggi per ogni canale supportato.
 
 ## E-mail {#email}
 
-Journey Optimizer B2B edition valuta il seguente attributo XDM per il consenso e-mail durante l&#39;invio di messaggi sul [canale e-mail](../admin/configure-channels-emails.md):
+Journey Optimizer B2B Edition valuta il seguente attributo XDM per il consenso e-mail durante l&#39;invio di messaggi sul [canale e-mail](../admin/configure-channels-emails.md):
 
 | attributo XDM | `y` | `n` | Nessun valore |
 | --- | --- | --- | --- |
@@ -50,7 +63,7 @@ Per esaminare l&#39;attività di annullamento dell&#39;iscrizione per le e-mail 
 
 ## SMS {#sms}
 
-Journey Optimizer B2B edition valuta i seguenti attributi XDM per il consenso SMS durante l&#39;invio di messaggi tramite il [canale SMS](../admin/configure-channels-sms.md):
+Journey Optimizer B2B Edition valuta i seguenti attributi XDM per il consenso SMS durante l&#39;invio di messaggi tramite il [canale SMS](../admin/configure-channels-sms.md):
 
 | attributo XDM | `y` | `n` | Nessun valore |
 | --- | --- | --- | --- |
@@ -67,7 +80,7 @@ Per il consenso SMS, considera quanto segue:
 
 ## WhatsApp {#whatsapp}
 
-Journey Optimizer B2B edition valuta i seguenti attributi XDM per il consenso WhatsApp quando si inviano messaggi tramite un [canale WhatsApp](../admin/configure-channels-whatsapp.md) configurato:
+Journey Optimizer B2B Edition valuta i seguenti attributi XDM per il consenso WhatsApp quando si inviano messaggi tramite un [canale WhatsApp](../admin/configure-channels-whatsapp.md) configurato:
 
 | attributo XDM | `y` | `n` | Nessun valore |
 | --- | --- | --- | --- |
@@ -82,7 +95,7 @@ Considera quanto segue per il consenso WhatsApp:
 
 ## Non supportato {#not-supported}
 
-Le seguenti funzioni relative al consenso non sono attualmente supportate in Journey Optimizer B2B edition:
+Le seguenti funzioni relative al consenso non sono attualmente supportate in Journey Optimizer B2B Edition:
 
 * Criteri di consenso di AEP
 * Attributi di marketing preferiti (`consents.marketing.preferred`)

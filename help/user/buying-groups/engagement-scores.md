@@ -1,29 +1,36 @@
 ---
 title: Punteggi di coinvolgimento per gruppi di acquisto
-description: Calcola i punteggi di coinvolgimento di gruppi di acquisto e persone utilizzando attività ponderate, calcoli basati su ruoli e finestre di punteggio di 30 giorni in Journey Optimizer B2B edition.
+description: Calcola i punteggi di coinvolgimento di gruppi di acquisto e persone utilizzando attività ponderate, calcoli basati su ruoli e finestre di punteggio di 30 giorni in Journey Optimizer B2B Edition.
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
+autotag-review: 2026-03-30T21:43:47.624Z
+TQID: 'https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+subfeature_v2:
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+    internal-label: Engagement
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-autotag-review: 2026-03-30T21:43:47.624Z
-TQID: https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+    internal-label: Customer engagement
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1229
+source-wordcount: '1229'
 ht-degree: 29%
-
 ---
-
 # Punteggi di coinvolgimento {#engagement-scores}
 
 >[!CONTEXTUALHELP]
@@ -31,7 +38,7 @@ ht-degree: 29%
 >title="Punteggio di coinvolgimento"
 >abstract="I punteggi di coinvolgimento determinano il livello di coinvolgimento dei membri del gruppo acquisti."
 
-Un punteggio di coinvolgimento è un numero che indica il livello di coinvolgimento dei membri di un gruppo di acquisto. Questi punteggi si basano sulle attività dei membri del gruppo di acquisto, sulle azioni ponderate e sui ruoli ponderati. I punteggi risultanti vengono normalizzati all’interno di un tenant (istanza) per consentire un confronto coerente e ottenere informazioni fruibili. Il calcolo del punteggio viene avviato non appena si crea il gruppo di acquisto. Il data hub system di Journey Optimizer B2B edition calcola i punteggi ogni giorno e li carica sul sistema MySQL MLM (Multi-Level Marketing) utilizzando il servizio di acquisizione.
+Un punteggio di coinvolgimento è un numero che indica il livello di coinvolgimento dei membri di un gruppo di acquisto. Questi punteggi si basano sulle attività dei membri del gruppo di acquisto, sulle azioni ponderate e sui ruoli ponderati. I punteggi risultanti vengono normalizzati all’interno di un tenant (istanza) per consentire un confronto coerente e ottenere informazioni fruibili. Il calcolo del punteggio viene avviato non appena si crea il gruppo di acquisto. Il sistema Data Hub di Journey Optimizer B2B Edition calcola i punteggi ogni giorno e li carica sul sistema MySQL MLM (Multi-Level Marketing) utilizzando il servizio di acquisizione.
 
 Esistono due tipi di punteggi di coinvolgimento:
 
@@ -43,7 +50,7 @@ Esistono due tipi di punteggi di coinvolgimento:
 
 * **Punteggio di coinvolgimento della persona** - Il punteggio di coinvolgimento della persona si basa sulle attività di un singolo membro del gruppo di acquisto.
 
-  Il punteggio di coinvolgimento della persona per ogni membro del gruppo di acquisto viene visualizzato nella pagina dei dettagli del gruppo di acquisto [_[!UICONTROL Membri &#x200B;]_&#x200B;scheda](./buying-group-details.md#buying-group-members). Questi punteggi vengono visualizzati anche nelle pagine e nei dashboard che includono i membri più coinvolti e le informazioni sui contatti sovrapposte.
+  Il punteggio di coinvolgimento della persona per ogni membro del gruppo di acquisto viene visualizzato nella pagina dei dettagli del gruppo di acquisto [_[!UICONTROL Membri ]_scheda](./buying-group-details.md#buying-group-members). Questi punteggi vengono visualizzati anche nelle pagine e nei dashboard che includono i membri più coinvolti e le informazioni sui contatti sovrapposte.
 
   ![Membri del gruppo di acquisto più coinvolti](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
