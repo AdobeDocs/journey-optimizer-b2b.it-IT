@@ -1,35 +1,47 @@
 ---
 title: Punteggi intento
-description: Scopri in che modo Journey Optimizer B2B edition calcola i punteggi di intento in base al coinvolgimento delle persone e alla rilevanza dei contenuti, e come i punteggi si aggregano per gli account.
+description: Scopri in che modo Journey Optimizer B2B Edition calcola i punteggi di intento in base al coinvolgimento delle persone e alla rilevanza dei contenuti, e come i punteggi si aggregano agli account.
 feature: Dashboards, Intent, Intelligent Insights
 role: User
 autotag-review: '2026-09-11T14:56:32.307Z'
 TQID: 'https://experienceleague.adobe.com/ajtUdNKafSoE1BC08imOpyflpDeAsXaQ3tdlbeYT6NU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
 subfeature_v2:
   - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
+    internal-label: Person insights
+  - id: e8c5d7c8-2857-453e-9943-8237af218e97
+    internal-label: Intent data
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
+    internal-label: Machine learning
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1445
+source-wordcount: '1445'
 ht-degree: 0%
-
 ---
-
 
 # Punteggi intento {#intent-scores}
 
-Un punteggio intento misura quanto una persona o un account sia interessato a una parola chiave, a un prodotto o a una categoria di prodotti. Adobe Journey Optimizer B2B edition calcola il punteggio utilizzando l’apprendimento automatico che misura la somiglianza nel significato, anziché con le regole manuali o con un sistema a punti fissi. Ogni punteggio è normalizzato da 0 a 1, con numeri più alti che indicano un intento più forte.
+Un punteggio intento misura quanto una persona o un account sia interessato a una parola chiave, a un prodotto o a una categoria di prodotti. Adobe Journey Optimizer B2B Edition calcola il punteggio utilizzando l’apprendimento automatico che misura la somiglianza nel significato, anziché con le regole manuali o con un sistema a punti fissi. Ogni punteggio è normalizzato da 0 a 1, con numeri più alti che indicano un intento più forte.
 
 La rilevanza dei contenuti viene aggiornata all’incirca ogni 12 ore e i punteggi intento vengono ricalcolati quotidianamente. I punteggi vengono aggregati da parola chiave a prodotto e da persona a account. I punteggi delle finalità vengono visualizzati in [Intelligent Dashboard](../dashboards/intelligent-dashboard.md), nei [dettagli account](../accounts/account-details.md), [_dettagli gruppo acquisti_ pagina](../buying-groups/buying-group-details.md) e [dettagli persona](../accounts/person-details.md) pagine.
 
@@ -55,7 +67,7 @@ Puoi rivedere e aggiornare i mapping della tassonomia in qualsiasi momento nella
 
 ### Rilevanza dei contenuti {#content-relevance}
 
-Journey Optimizer B2B edition traduce il contenuto e la tassonomia in una rappresentazione matematica del loro significato, quindi utilizza un modello di somiglianza per misurare quanto strettamente si allineano. I contenuti che corrispondono strettamente a una parola chiave o a un prodotto ricevono un punteggio di rilevanza elevato. I contenuti non correlati ricevono un punteggio basso.
+Journey Optimizer B2B Edition traduce il contenuto e la tassonomia in una rappresentazione matematica del loro significato, quindi utilizza un modello di somiglianza per misurare quanto strettamente si allineano. I contenuti che corrispondono strettamente a una parola chiave o a un prodotto ricevono un punteggio di rilevanza elevato. I contenuti non correlati ricevono un punteggio basso.
 
 Il modello di similarità è preformato sul linguaggio generale, quindi non è necessario alcun training specifico per il cliente per iniziare.
 
@@ -75,7 +87,7 @@ Ogni punto di contatto significativo che una persona ha viene acquisito mentre a
 
 ### Estrazione dei contenuti {#content-extraction}
 
-Prima che il contenuto possa essere valutato per rilevanza, Journey Optimizer B2B edition estrae e legge il relativo testo.
+Prima che il contenuto possa essere valutato per rilevanza, Journey Optimizer B2B Edition estrae e legge il relativo testo.
 
 * Per ogni nuovo contenuto, il sistema estrae il testo sottostante, sia che si trovi in una pagina web che in un messaggio e-mail.
 * Alcuni tipi di attività, come i riempimenti di moduli, presentano già un proprio contenuto descrittivo e saltano questo passaggio.

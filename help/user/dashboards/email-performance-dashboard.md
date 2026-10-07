@@ -1,33 +1,40 @@
 ---
 title: Rapporto sulle prestazioni e-mail
-description: Utilizza il rapporto sulle prestazioni delle e-mail in Journey Optimizer B2B edition per monitorare in un’unica vista unificata le metriche di invio, consegna, coinvolgimento e rinuncia in tutti i percorsi.
+description: Utilizza il rapporto sulle prestazioni delle e-mail in Journey Optimizer B2B Edition per monitorare in un’unica vista unificata le metriche di invio, consegna, coinvolgimento e rinuncia in tutti i percorsi.
 feature: Dashboards, Reporting
 role: User
 autotag-review: '2026-05-21T15:04:51.176Z'
 TQID: 'https://experienceleague.adobe.com/hA63o9-2-atw0kRNFeEu6H449WmZ59CjL3uiVS7nEcA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+    internal-label: Reporting
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 833
+source-wordcount: '833'
 ht-degree: 4%
-
 ---
-
 # Rapporto sulle prestazioni delle e-mail
 
-Il report **Prestazioni e-mail** offre agli addetti al marketing una visualizzazione unificata delle attività e-mail in tutti i percorsi in Adobe Journey Optimizer B2B edition. Aggrega le metriche di invio, consegna, coinvolgimento e rinuncia. Visualizzando sia i conteggi non elaborati che i tassi calcolati, puoi monitorare lo stato della campagna, confrontare le prestazioni delle e-mail e identificare immediatamente i problemi di recapito o coinvolgimento. Per le metriche a livello di percorso per i canali e-mail e SMS, consulta la [dashboard Percorsi di account](./journeys-dashboard.md).
+Il report **Prestazioni e-mail** offre agli addetti al marketing una visualizzazione unificata delle attività e-mail in tutti i percorsi di Adobe Journey Optimizer B2B Edition. Aggrega le metriche di invio, consegna, coinvolgimento e rinuncia. Visualizzando sia i conteggi non elaborati che i tassi calcolati, puoi monitorare lo stato della campagna, confrontare le prestazioni delle e-mail e identificare immediatamente i problemi di recapito o coinvolgimento. Per le metriche a livello di percorso per i canali e-mail e SMS, consulta la [dashboard Percorsi di account](./journeys-dashboard.md).
 
 ## Accedere al rapporto
 

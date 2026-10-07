@@ -4,35 +4,43 @@ description: Scopri come collegare un account LinkedIn e attivare un flusso di d
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
+autotag-review: 2026-03-30T22:49:08.608Z
+TQID: 'https://experienceleague.adobe.com/rFBH54jR-xCWenpoD13UzmONLdKn9WLdtNdTCtgQNbQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: 2026-03-30T22:49:08.608Z
-TQID: https://experienceleague.adobe.com/rFBH54jR-xCWenpoD13UzmONLdKn9WLdtNdTCtgQNbQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: '1015'
 ht-degree: 14%
-
 ---
-
 # Tipi di pubblico associati all&#39;account LinkedIn
 
 [!DNL Journey Optimizer B2B Edition] offre la possibilità di generare tipi di pubblico di LinkedIn Ad tramite i tipi di pubblico corrispondenti all&#39;account ed è progettato per aiutarti a riempire ruoli vuoti nei tuoi gruppi di acquisto. Definendo un set di filtri di gruppi acquisti, puoi mantenere un pubblico associato a LinkedIn per eseguire il targeting dei potenziali clienti che corrispondono ai parametri del gruppo acquisti. Puoi anche attivare un pubblico da un percorso di account da un nodo _Esegui un&#39;azione_.
 
 Questa funzione sfrutta le destinazioni di Experience Platform per gestire alcuni aspetti dell’integrazione. È previsto un limite di dieci flussi di dati.
 
-Prima di avviare un flusso di dati da Journey Optimizer B2B edition, è necessario disporre di almeno un&#39;istanza del connettore di destinazione [(Companies) LinkedIn MatchedIn Audience](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} con un account LinkedIn Campaign Manager configurato nell&#39;applicazione Experience Platform.
+Prima di avviare un flusso di dati da Journey Optimizer B2B Edition, è necessario disporre di almeno un&#39;istanza del connettore di destinazione LinkedIn [(Companies) LinkedIn MatchedIn](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} con un account LinkedIn Campaign Manager configurato nell&#39;applicazione Experience Platform.
 
 ## Configurare una nuova connessione di account LinkedIn {#linkedin-destination-setup}
 
@@ -69,7 +77,7 @@ Prima di avviare un flusso di dati da Journey Optimizer B2B edition, è necessar
 
 ## Aggiorna i dettagli dell&#39;account
 
-Il nome e la descrizione dell’account LinkedIn sono visibili per i gruppi di acquisto in Journey Optimizer B2B edition. È consigliabile aggiornare queste informazioni in modo che siano facilmente identificabili per gli addetti al marketing che lavorano con i gruppi di acquisto. Puoi modificare i dettagli dell’account nell’interfaccia utente di Experience Platform o Journey Optimizer B2B edition.
+Il nome e la descrizione dell’account LinkedIn sono visibili per i gruppi di acquisto in Journey Optimizer B2B Edition. È consigliabile aggiornare queste informazioni in modo che siano facilmente identificabili per gli addetti al marketing che lavorano con i gruppi di acquisto. Puoi modificare i dettagli dell’account nell’interfaccia utente di Experience Platform o Journey Optimizer B2B Edition.
 
 1. Vai a **[!UICONTROL Connessioni]** > **[!UICONTROL Destinazioni]** nella navigazione a sinistra e seleziona la scheda **[!UICONTROL Account]**.
 
@@ -87,7 +95,7 @@ Il nome e la descrizione dell’account LinkedIn sono visibili per i gruppi di a
 
 >[!NOTE]
 >
->Se disponi già di dieci flussi di dati, non puoi crearne un altro. Se raggiungi il massimo, eliminane uno in Experience Platform prima di crearne uno nuovo in Journey Optimizer B2B edition.
+>Se disponi già di dieci flussi di dati, non puoi crearne un altro. Se raggiungi il massimo, eliminane uno in Experience Platform prima di crearne uno nuovo in Journey Optimizer B2B Edition.
 
 1. In Journey Optimizer B2B edition, passa a **[!UICONTROL Account]** > **[!UICONTROL Gruppi acquisti]** nel menu di navigazione a sinistra.
 

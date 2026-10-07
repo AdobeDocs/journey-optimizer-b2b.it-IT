@@ -1,27 +1,32 @@
 ---
 title: Convertire un’immagine in un modello e-mail
-description: Trasforma i file immagine in modelli e-mail HTML con Journey Optimizer B2B edition. Carica i file PNG/JPEG e genera automaticamente contenuti e-mail riutilizzabili.
+description: Trasforma i file immagine in modelli e-mail HTML con Journey Optimizer B2B Edition. Carica i file PNG/JPEG e genera automaticamente contenuti e-mail riutilizzabili.
 feature: Email Authoring, Content
 exl-id: ffea0088-9fb3-4e54-8612-e37d9a34b003
+autotag-review: 2026-03-30T22:06:11.745Z
+TQID: 'https://experienceleague.adobe.com/3P6awHSiX5K4Gh3saXUsaCbwrTYUx9vQ5noh-pA4Kps'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:06:11.745Z
-TQID: https://experienceleague.adobe.com/3P6awHSiX5K4Gh3saXUsaCbwrTYUx9vQ5noh-pA4Kps
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
-
 # Convertire un’immagine in un modello e-mail
 
 La creazione e l’aggiornamento di modelli e-mail è un componente fondamentale nel supply chain dei contenuti di marketing, ma queste attività spesso richiedono tempo e risorse significativi a causa della codifica manuale HTML. Per sviluppare questi modelli, i team di marketing si sono tradizionalmente affidati ad agenzie o team IT. Il nuovo strumento immagine-HTML per i modelli e-mail semplifica questo processo consentendo agli addetti al marketing di convertire i file di progettazione in modelli di codice HTML. Il HTML convertito è pronto per ulteriori modifiche nello spazio di progettazione delle e-mail. Questo strumento supporta sia i tipi di file JPEG che PNG e dispone di un&#39;interfaccia di trascinamento.
@@ -32,7 +37,7 @@ Puoi convertire facilmente i file di progettazione salvati come immagini (PNG o 
 
 **Utilizzo di un tema del brand**
 
-Se nell&#39;organizzazione sono definiti [temi del brand](./brand-themes.md) in Journey Optimizer B2B edition, è possibile selezionare un tema del brand come input in modo che l&#39;output generato in HTML sia formattato in base ai parametri del tema del brand. Con questo input, al modello generato vengono applicati stili quali il colore di sfondo, il colore del pulsante, i font, l’interlinea, i margini e la spaziatura.  L’utilizzo di un tema del brand consente di eliminare ulteriori operazioni di progettazione per lo stile e la formattazione e produce un modello pronto all’uso con modifiche minime.
+Se nell&#39;organizzazione sono definiti [temi del brand](./brand-themes.md) in Journey Optimizer B2B Edition, è possibile selezionare un tema del brand come input in modo che l&#39;output generato HTML sia formattato in base ai parametri del tema del brand. Con questo input, al modello generato vengono applicati stili quali il colore di sfondo, il colore del pulsante, i font, l’interlinea, i margini e la spaziatura.  L’utilizzo di un tema del brand consente di eliminare ulteriori operazioni di progettazione per lo stile e la formattazione e produce un modello pronto all’uso con modifiche minime.
 
 >[!ENDSHADEBOX]
 

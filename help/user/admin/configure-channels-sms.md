@@ -1,40 +1,48 @@
 ---
 title: Configurazioni del canale SMS
-description: Connetti i provider SMS come Sinch, Twilio e Infobip con le credenziali API per abilitare la messaggistica di testo nei percorsi Journey Optimizer B2B edition.
+description: Connetti i provider SMS come Sinch, Twilio e Infobip con le credenziali API per abilitare la messaggistica di testo nei percorsi Journey Optimizer B2B Edition.
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
+autotag-review: 2026-03-27T22:56:54.661Z
+TQID: 'https://experienceleague.adobe.com/JTGUye7nh2sAbpPvqgRNYfkWZtRJCjsvSi3DuOioD-U'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a492a671-d5f6-46ee-b832-2efbca14ddd8
-autotag-review: 2026-03-27T22:56:54.661Z
-TQID: https://experienceleague.adobe.com/JTGUye7nh2sAbpPvqgRNYfkWZtRJCjsvSi3DuOioD-U
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Activation and channels
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 747
+source-wordcount: '747'
 ht-degree: 0%
-
 ---
-
 # Configurazioni del canale SMS
 
-Adobe Journey Optimizer B2B edition invia messaggi di testo tramite provider di servizi SMS (o provider di gateway SMS). Prima di creare il messaggio SMS, configura il provider di servizi dalle impostazioni _Amministratore_.
+Adobe Journey Optimizer B2B Edition invia messaggi di testo tramite provider di servizi SMS (o provider di gateway SMS). Prima di creare il messaggio SMS, configura il provider di servizi dalle impostazioni _Amministratore_.
 
 ## Provider del servizio gateway SMS
 
-Adobe Journey Optimizer B2B edition attualmente si integra con provider di terze parti che offrono servizi di messaggistica di testo in modo indipendente. I provider supportati per i messaggi di testo sono Sinch, Twilio e Infobip.
+Adobe Journey Optimizer B2B Edition attualmente si integra con provider di terze parti che offrono servizi di messaggistica di testo in modo indipendente. I provider supportati per i messaggi di testo sono Sinch, Twilio e Infobip.
 
-Prima di configurare un canale SMS in Adobe Journey Optimizer B2B edition, è necessario creare un account con uno di questi provider per ottenere il token API e l’ID servizio. Queste credenziali sono necessarie per configurare la connessione tra Adobe Journey Optimizer B2B edition e il provider applicabile.
+Prima di configurare un canale SMS in Adobe Journey Optimizer B2B Edition, è necessario creare un account con uno di questi provider per ottenere il token API e l’ID servizio. Queste credenziali sono necessarie per configurare la connessione tra Adobe Journey Optimizer B2B Edition e il provider applicabile.
 
 >[!IMPORTANT]
 >
->L’utilizzo dei servizi di messaggistica di testo è soggetto a termini e condizioni aggiuntivi da parte del provider applicabile. In qualità di soluzioni di terze parti, Sinch, Twilio e Infobip sono disponibili per gli utenti di Adobe Journey Optimizer B2B edition tramite un’integrazione. Adobe non controlla e non è responsabile per i prodotti di terze parti. Per eventuali problemi o richieste di assistenza relativi ai servizi di messaggistica di testo (SMS), contatta il provider.
+>L’utilizzo dei servizi di messaggistica di testo è soggetto a termini e condizioni aggiuntivi da parte del provider applicabile. In qualità di soluzioni di terze parti, Sinch, Twilio e Infobip sono disponibili per gli utenti di Adobe Journey Optimizer B2B Edition tramite un’integrazione. Adobe non controlla e non è responsabile per i prodotti di terze parti. Per eventuali problemi o richieste di assistenza relativi ai servizi di messaggistica di testo (SMS), contatta il provider.
 
 ## Verifica una configurazione API SMS esistente
 
@@ -60,7 +68,7 @@ Prima di configurare un canale SMS in Adobe Journey Optimizer B2B edition, è ne
 
 >[!TAB Sinch]
 
-_Per configurare Sinch come provider SMS con Adobe Journey Optimizer B2B edition :_
+_Per configurare Sinch come provider SMS con Adobe Journey Optimizer B2B Edition :_
 
 1. Nella barra di navigazione a sinistra, espandere la sezione **[!UICONTROL Amministratore]** e fare clic su **[!UICONTROL Configurazione]**.
 
@@ -82,7 +90,7 @@ _Per configurare Sinch come provider SMS con Adobe Journey Optimizer B2B edition
 
 >[!TAB Twilio]
 
-_Per configurare Twilio come provider SMS con Adobe Journey Optimizer B2B edition :_
+_Per configurare Twilio come provider SMS con Adobe Journey Optimizer B2B Edition :_
 
 1. Nella barra di navigazione a sinistra, espandere la sezione **[!UICONTROL Amministratore]** e fare clic su **[!UICONTROL Configurazione]**.
 
@@ -104,7 +112,7 @@ _Per configurare Twilio come provider SMS con Adobe Journey Optimizer B2B editio
 
 >[!TAB Informazioni]
 
-_Per configurare Infobip come provider SMS con Adobe Journey Optimizer B2B edition :_
+_Per configurare Infobip come provider SMS con Adobe Journey Optimizer B2B Edition :_
 
 1. Nella barra di navigazione a sinistra, espandere la sezione **[!UICONTROL Amministratore]** e fare clic su **[!UICONTROL Configurazione]**.
 

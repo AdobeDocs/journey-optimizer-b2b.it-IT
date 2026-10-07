@@ -1,29 +1,38 @@
 ---
 title: Modelli e-mail
-description: 'Creazione di modelli e-mail riutilizzabili da zero, importazione HTML o progettazioni esistenti: gestione di modelli per percorsi di account in Journey Optimizer B2B edition.'
+description: 'Creazione di modelli e-mail riutilizzabili da zero, importazione HTML o progettazioni esistenti: gestisci modelli per percorsi di account in Journey Optimizer B2B Edition.'
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
+autotag-review: 2026-03-30T22:17:40.055Z
+TQID: 'https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:17:40.055Z
-TQID: https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1522
+source-wordcount: '1522'
 ht-degree: 2%
-
 ---
-
 # Modelli e-mail
 
 Per accelerare e migliorare il processo di progettazione, è possibile creare modelli e-mail autonomi per riutilizzare il contenuto personalizzato tra i percorsi di account [!DNL Adobe Journey Optimizer B2B Edition]. Tramite i modelli, i membri del gruppo orientati al contenuto possono lavorare sul contenuto delle e-mail al di fuori dei percorsi. Gli esperti di marketing possono quindi riutilizzare e adattare questi modelli autonomi all’interno dei loro percorsi. Ad esempio, un membro del team gestisce solo i contenuti, senza accedere ai percorsi di account. Tuttavia, possono creare un modello e-mail che gli esperti di marketing possono selezionare come punto di partenza per le comunicazioni e-mail e personalizzarlo in base ai requisiti del percorso.
@@ -96,7 +105,7 @@ Utilizza l’editor di contenuto visivo per definire la struttura del contenuto 
 
 ### Importa HTML
 
-Adobe Journey Optimizer B2B edition consente di importare contenuti HTML esistenti per progettare modelli e-mail.
+Adobe Journey Optimizer B2B Edition consente di importare contenuti HTML esistenti per progettare i modelli e-mail.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -134,7 +143,7 @@ Nella pagina dei dettagli dei modelli e-mail, fai clic sulla scheda **[!UICONTRO
 
 ![Fare clic sulla scheda Utilizzato da per verificare l&#39;utilizzo del modello](./assets/template-details-used-by.png){width="400"}
 
-Le e-mail in Journey Optimizer B2B edition vengono incorporate e create all’interno di percorsi, pertanto il percorso principale dell’e-mail che utilizza il modello viene visualizzato in riferimenti.
+Le e-mail in Journey Optimizer B2B Edition vengono incorporate e create all’interno di percorsi, pertanto il percorso principale dell’e-mail che utilizza il modello viene visualizzato in riferimenti.
 
 * Fai clic sul collegamento per passare all’e-mail del percorso corrispondente in cui viene utilizzato il modello e-mail.
 

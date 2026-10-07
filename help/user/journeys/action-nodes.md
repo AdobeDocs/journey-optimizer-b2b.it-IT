@@ -1,9 +1,10 @@
 ---
 title: Esegui un'azione
-description: 'Configurare i nodi di azione per le azioni account e persone: invia e-mail, aggiorna i gruppi di acquisto, modifica i punteggi e integrali con Marketo Engage in Journey Optimizer B2B edition.'
+description: 'Configurare i nodi di azione per le azioni account e persone: invia e-mail, aggiorna i gruppi di acquisto, modifica i punteggi e integrali con Marketo Engage in Journey Optimizer B2B Edition.'
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -13,6 +14,8 @@ feature_v2:
 subfeature_v2:
   - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
     internal-label: Journey Actions
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,8 +25,7 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2176'
 ht-degree: 3%
@@ -55,7 +57,7 @@ In un percorso di account, utilizza un’azione sugli account quando desideri ap
 
 >[!NOTE]
 >
->L&#39;azione _[!UICONTROL Valore dati modifica account]_ è obsoleta per la versione 2025.10. _[!UICONTROL Aggiorna profilo account]_ sostituisce questa azione in Journey Optimizer B2B edition.<br/>
+>L&#39;azione _[!UICONTROL Valore dati modifica account]_ è obsoleta per la versione 2025.10. _[!UICONTROL Aggiorna profilo account]_ sostituisce questa azione in Journey Optimizer B2B Edition.<br/>
 >
 >Un amministratore può configurare gli attributi disponibili per l&#39;account aziendale XDM aggiornando i campi nelle _[!UICONTROL configurazioni XDM]_ > _[!UICONTROL classi standard]_. Per ulteriori informazioni, vedere [Schemi standard](../admin/xdm-field-management.md#standard-schemas).
 
@@ -200,7 +202,7 @@ _Per creare un pubblico esterno :_
 
    >[!NOTE]
    >
-   >Quando viene creato un nuovo pubblico di clienti esterno da Journey Optimizer B2B edition, questo viene preimpostato con un record fittizio (`test@email.com`). Questo record viene sovrascritto non appena il primo profilo reale viene aggiunto al pubblico esterno dal percorso.
+   >Quando si crea un nuovo pubblico cliente esterno da Journey Optimizer B2B Edition, viene eseguito il seeding con un record fittizio (`test@email.com`). Questo record viene sovrascritto non appena il primo profilo reale viene aggiunto al pubblico esterno dal percorso.
 
 _Per utilizzare un pubblico esistente :_
 
@@ -294,7 +296,7 @@ Utilizzare questa azione per modificare il valore di un attributo del profilo [p
 
 >[!NOTE]
 >
->L&#39;azione _[!UICONTROL Aggiorna profilo persona]_ sostituisce l&#39;azione _[!UICONTROL Modifica valore dati]_ nella versione corrente di Journey Optimizer B2B edition.<br/>
+>L&#39;azione _[!UICONTROL Aggiorna profilo persona]_ sostituisce l&#39;azione _[!UICONTROL Modifica valore dati]_ nella versione corrente di Journey Optimizer B2B Edition.<br/>
 >
 >Un amministratore può configurare gli attributi disponibili per il profilo individuale XDM aggiornando i campi nelle _[!UICONTROL configurazioni XDM]_ > _[!UICONTROL classi standard]_. Per ulteriori informazioni, vedere [Schemi standard](../admin/xdm-field-management.md#standard-schemas).
 
@@ -308,7 +310,7 @@ Le azioni basate sulle persone [!DNL Marketo Engage] sono progettate per coordin
 >
 >Le azioni Marketo Engage richiedono un’integrazione configurata con una o più istanze Marketo Engage esterne. Per informazioni dettagliate su questa configurazione, vedere [_Attivare le connessioni Marketo Engage per il supporto delle azioni_](../admin/marketo-actions-connect.md).
 
-Ad esempio, è possibile eliminare le campagne in Marketo Engage per gli utenti che fanno parte di gruppi di acquisto in Journey Optimizer B2B edition. In questo caso, puoi creare un elenco statico in Marketo Engage specifico per la soluzione in questione. Quindi, in un percorso suddiviso acquistando il gruppo, utilizza l&#39;azione _Aggiungi a elenco Marketo_ da un nodo di percorso. Questa azione aggiunge i membri del gruppo di acquisto a un particolare elenco statico in un’istanza di Marketo Engage connessa. Quindi, utilizza l’elenco statico incentrato sugli interessi della soluzione per un filtro elenco avanzato in Marketo Engage.
+Ad esempio, elimina le campagne in Marketo Engage per gli utenti che fanno parte di gruppi di acquisto in Journey Optimizer B2B Edition. In questo caso, puoi creare un elenco statico in Marketo Engage specifico per la soluzione in questione. Quindi, in un percorso suddiviso acquistando il gruppo, utilizza l&#39;azione _Aggiungi a elenco Marketo_ da un nodo di percorso. Questa azione aggiunge i membri del gruppo di acquisto a un particolare elenco statico in un’istanza di Marketo Engage connessa. Quindi, utilizza l’elenco statico incentrato sugli interessi della soluzione per un filtro elenco avanzato in Marketo Engage.
 
 +++[!UICONTROL Aggiungi alla campagna di richiesta Marketo]
 

@@ -1,6 +1,6 @@
 ---
 title: Moduli
-description: 'Creazione e gestione di moduli riutilizzabili per la raccolta dati aziendali: progettare campi, impostare pagine di ringraziamento, pubblicare e tenere traccia dell’utilizzo in Journey Optimizer B2B edition.'
+description: 'Creazione e gestione di moduli riutilizzabili per la raccolta dati aziendali: progettare campi, impostare pagine di ringraziamento, pubblicare e tenere traccia dell’utilizzo in Journey Optimizer B2B Edition.'
 feature: Forms, Content
 role: User
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
@@ -8,23 +8,29 @@ autotag-review: '2026-05-27T16:11:44.937Z'
 TQID: 'https://experienceleague.adobe.com/enF7MQi47bo8bWotzkhkPL6MQfGnis0rb6wJNyJcxVo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+    internal-label: Web forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a046883f6f4170f40c01734e1a3f473e9f5bef4c
+    internal-label: Data collection
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2504
+source-wordcount: '2504'
 ht-degree: 2%
-
 ---
-
 # Moduli
 
 Per acquisire informazioni dai visitatori delle pagine web, crea moduli e aggiungili alle pagine di destinazione. Un modulo è un insieme di campi che i visitatori della pagina completano e inviano per ottenere un qualche tipo di contenuto o offerta, ad esempio un white paper, un webinar on-demand o una versione di prova gratuita.
@@ -35,7 +41,7 @@ La quantità di informazioni che il modulo deve acquisire dipende dal valore del
 >
 >Prima che i team di marketing possano creare e utilizzare i moduli per acquisire informazioni, un amministratore deve definire uno o più predefiniti per moduli. Per ulteriori informazioni, vedere [_Configurazioni Forms_](../admin/configure-channels-forms.md).
 >
->La creazione di moduli in Journey Optimizer B2B edition richiede le [autorizzazioni](../admin/user-management.md#b2b-product-permissions) seguenti:
+>La creazione di moduli in Journey Optimizer B2B Edition richiede le [autorizzazioni](../admin/user-management.md#b2b-product-permissions) seguenti:
 >
 >* _[!UICONTROL Libreria Journey Optimizer]_ > _[!UICONTROL Leggi Forms B2C]_ - Necessario per accedere e visualizzare i moduli.
 >* _[!UICONTROL Libreria Journey Optimizer]_ > _[!UICONTROL Gestisci Forms B2C]_: necessario per creare, aggiornare ed eliminare i moduli.
@@ -43,7 +49,7 @@ La quantità di informazioni che il modulo deve acquisire dipende dal valore del
 
 ## Accedere e gestire i moduli {#view-forms}
 
-Per accedere ai moduli in Journey Optimizer B2B edition, vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Forms]**. Questa azione consente di aprire una pagina di elenco in cui vengono visualizzati tutti i moduli creati nell’istanza.
+Per accedere ai moduli in Journey Optimizer B2B Edition, vai alla navigazione a sinistra e fai clic su **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Forms]**. Questa azione consente di aprire una pagina di elenco in cui vengono visualizzati tutti i moduli creati nell’istanza.
 
 ![Accedere alla raccolta moduli](./assets/forms-list.png){width="800" zoomable="yes"}
 
@@ -77,7 +83,7 @@ Nella finestra di dialogo, seleziona le colonne da visualizzare e fai clic su **
 
 ## Creare moduli {#create-forms}
 
-Prima di iniziare a creare moduli riutilizzabili in Journey Optimizer B2B edition è necessario considerare diversi aspetti:
+Prima di iniziare a creare moduli riutilizzabili in Journey Optimizer B2B Edition, è necessario considerare diversi aspetti:
 
 * Determinare i moduli necessari.
 
@@ -105,7 +111,7 @@ Prima di iniziare a creare moduli riutilizzabili in Journey Optimizer B2B editio
 >abstract="Scegli un predefinito preimpostato contenente la connessione da utilizzare e un set di dati preimpostato per il modulo."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="Creare un predefinito di modulo"
 
-Puoi creare un modulo in Journey Optimizer B2B edition facendo clic su **[!UICONTROL Crea modulo]** in alto a destra nella pagina dell&#39;elenco _[!UICONTROL Forms]_.
+Puoi creare un modulo in Journey Optimizer B2B Edition facendo clic su **[!UICONTROL Crea modulo]** in alto a destra nella pagina dell&#39;elenco _[!UICONTROL Forms]_.
 
 1. Nella finestra di dialogo _[!UICONTROL Crea modulo]_, immetti un **[!UICONTROL Nome]** (obbligatorio) e una **[!UICONTROL Descrizione]** (facoltativo) utili.
 
@@ -149,7 +155,7 @@ Nel pannello _[!UICONTROL Riepilogo]_ a destra, scorri fino alla sezione **[!UIC
 
 * **[!UICONTROL Resta a pagina]** - Scegli questa opzione per mantenere il visitatore sulla stessa pagina al momento dell&#39;invio del modulo.
 
-* **[!UICONTROL Pagina di destinazione]** - Scegli questa opzione per selezionare una pagina di destinazione di Journey Optimizer B2B edition come follow-up.
+* **[!UICONTROL Pagina di destinazione]** - Scegli questa opzione per selezionare una pagina di destinazione di Journey Optimizer B2B Edition come follow-up.
 
 * **[!UICONTROL URL esterno]** - Scegliere questa opzione per specificare qualsiasi URL come pagina di follow-up. Dopo che il visitatore ha inviato il modulo, il browser carica l’URL designato.
 
@@ -181,7 +187,7 @@ Uscire dalla visualizzazione in qualsiasi momento facendo clic sulla freccia _In
 
 ## Visualizza riferimenti modulo utilizzato da
 
-Nel pannello _[!UICONTROL Riepilogo]_ a destra, fai clic sulla scheda **[!UICONTROL Usato da]** per visualizzare i dettagli sulla posizione in cui il modulo è attualmente utilizzato in Journey Optimizer B2B edition, tra le pagine di destinazione e i modelli di pagina di destinazione.
+Nel pannello _[!UICONTROL Riepilogo]_ a destra, fai clic sulla scheda **[!UICONTROL Usato da]** per visualizzare i dettagli della posizione in cui il modulo è attualmente utilizzato in Journey Optimizer B2B Edition, tra le pagine di destinazione e i modelli di pagina di destinazione.
 
 >[!IMPORTANT]
 >

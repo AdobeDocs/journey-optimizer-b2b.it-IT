@@ -1,28 +1,34 @@
 ---
 title: Strumenti di e-mail Collaboration
-description: Collabora alle e-mail in Journey Optimizer B2B edition. Aggiungi commenti, invita i revisori, risolvi i commenti e semplifica i flussi di lavoro di revisione per i team.
+description: Collabora alle e-mail in Journey Optimizer B2B Edition. Aggiungi commenti, invita i revisori, risolvi i commenti e semplifica i flussi di lavoro di revisione per i team.
 feature: Email Authoring, Content
 role: User
 exl-id: 2694200e-44c1-41a3-b460-3abe6a341a55
+autotag-review: 2026-03-30T22:09:19.178Z
+TQID: 'https://experienceleague.adobe.com/HS8-H9FXERNgpylLO0rqGULtnMLTeDzQePgWq1qnoWM'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: 2026-03-30T22:09:19.178Z
-TQID: https://experienceleague.adobe.com/HS8-H9FXERNgpylLO0rqGULtnMLTeDzQePgWq1qnoWM
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: '1213'
 ht-degree: 4%
-
 ---
-
 # Strumenti di collaborazione e-mail
 
 Lo [spazio di progettazione e-mail](./email-authoring.md) include strumenti di collaborazione per la creazione di commenti e la risoluzione, in modo che i team di marketing possano esaminare, discutere e finalizzare le risorse e-mail direttamente in [!DNL Journey Optimizer B2B Edition]. Invece di condividere le bozze tramite strumenti esterni (come chat, thread di e-mail o fogli di calcolo), è possibile aggiungere commenti, suggerire modifiche e risolvere i feedback ricevuti senza uscire dall’area di progettazione delle e-mail. Utilizza questi strumenti per semplificare il flusso di lavoro, ridurre gli errori e garantire che le parti interessate siano allineate prima di lanciare la tua campagna e-mail all’interno di un percorso di account:
@@ -47,7 +53,7 @@ Display visual indicators (badges) for elements with associated comments
 
 ## Abilitare gli strumenti di collaborazione e-mail per i revisori
 
-Gli amministratori di prodotto possono abilitare l&#39;accesso agli strumenti di collaborazione e-mail assegnando l&#39;autorizzazione **[!UICONTROL Gestione e-mail B2B]** tramite l&#39;interfaccia utente _Autorizzazioni_ in Adobe Experience Cloud.
+Gli amministratori dei prodotti possono abilitare l&#39;accesso agli strumenti di collaborazione e-mail assegnando l&#39;autorizzazione **[!UICONTROL Gestione e-mail B2B]** tramite l&#39;interfaccia utente _Autorizzazioni_ in Adobe Experience Cloud.
 
 +++ Abilita autorizzazioni e-mail
 

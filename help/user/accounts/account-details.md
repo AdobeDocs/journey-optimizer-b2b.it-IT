@@ -1,30 +1,38 @@
 ---
 title: Dettagli account
-description: Visualizza gli approfondimenti dell’account con riepiloghi generati dall’intelligenza artificiale, rilevamento intento, analisi della copertura dei contatti e comunicazioni e-mail in Journey Optimizer B2B edition.
+description: Visualizza gli approfondimenti dell’account con riepiloghi generati dall’intelligenza artificiale, rilevamento intento, analisi della copertura dei contatti e comunicazioni e-mail in Journey Optimizer B2B Edition.
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
+autotag-review: 2026-03-27T22:20:55.565Z
+TQID: 'https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+subfeature_v2:
+  - id: aa03b4f9-8230-4f55-8705-d4fda6d64f2b
+    internal-label: Account insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-27T22:20:55.565Z
-TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 640
+source-wordcount: '640'
 ht-degree: 7%
-
 ---
-
 # Dettagli dell’account
 
-Quando si fa clic sul nome di un account in un punto qualsiasi di Journey Optimizer B2B edition, viene visualizzata la pagina _Dettagli account_. Questa pagina fornisce informazioni sull’account, inclusi i riepiloghi generativi di IA. Sono inoltre disponibili [azioni](#send-email) che è possibile eseguire per i contatti associati all&#39;account.
+Quando si fa clic sul nome di un account in un punto qualsiasi di Journey Optimizer B2B Edition, viene visualizzata la pagina _Dettagli account_. Questa pagina fornisce informazioni sull’account, inclusi i riepiloghi generativi di IA. Sono inoltre disponibili [azioni](#send-email) che è possibile eseguire per i contatti associati all&#39;account.
 
 ![Accedi ai dettagli dell&#39;account](./assets/account-details.png){width="700" zoomable="yes"}
 
@@ -49,7 +57,7 @@ La sezione Panoramica account include le seguenti informazioni sull&#39;account:
 
 ### Dati di intento
 
-In Journey Optimizer B2B edition, il modello di rilevamento intento (Intent Detection) prevede una soluzione o un prodotto di interesse con sufficiente affidabilità in base all’attività di contatto dell’account. L’intento dei contatti del conto può essere interpretato come la probabilità di avere interesse in un prodotto.
+In Journey Optimizer B2B Edition, il modello di rilevamento intento (Intent Detection) prevede una soluzione o un prodotto di interesse con sufficiente affidabilità in base all’attività di contatto dell’account. L’intento dei contatti del conto può essere interpretato come la probabilità di avere interesse in un prodotto.
 
 {{intent-data-note}}
 

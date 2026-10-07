@@ -1,31 +1,42 @@
 ---
 title: Accesso utente e autorizzazioni
-description: 'Gestire l’accesso degli utenti con Adobe Admin Console: crea gruppi di utenti, assegna profili di prodotto e imposta autorizzazioni basate sui ruoli per Journey Optimizer B2B edition.'
+description: 'Gestire l’accesso degli utenti con Adobe Admin Console: crea gruppi di utenti, assegna profili di prodotto e imposta le autorizzazioni basate sui ruoli per Journey Optimizer B2B Edition.'
 feature: Setup, Permissions
 roles: Admin
 level: Beginner
 solution: Journey Optimizer B2B Edition
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
+autotag-review: 2026-03-27T22:47:43.575Z
+TQID: 'https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: bd42eee1-e206-4826-91ea-88dc726d858e
+    internal-label: Permissions
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T22:47:43.575Z
-TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: 171518509dc161d236663cde399b3fcc02408f18
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2348
+source-wordcount: '2348'
 ht-degree: 77%
-
 ---
-
 # Accesso utente e autorizzazioni
 
-Dopo aver completato il provisioning e aver associato le sandbox, procedi come segue per fornire al team e agli utenti l’accesso a Adobe Journey Optimizer B2B edition.
+Dopo aver completato il provisioning e aver associato le sandbox, procedi come segue per fornire l’accesso a Adobe Journey Optimizer B2B Edition al team e agli utenti.
 
 1. [Crea un profilo di prodotto Marketo Engage](#marketo-engage-profile) in Admin Console (solo nuova istanza Marketo Engage).
 1. [Aggiungi un gruppo di utenti](#add-user-group) in Admin Console.
@@ -98,7 +109,7 @@ Un gruppo di utenti è una raccolta di utenti a cui viene concesso un set condiv
 
 >[!TIP]
 >
->Quando aggiungi utenti Journey Optimizer B2B edition esistenti a Marketo Engage, puoi saltare la creazione di gruppi di utenti e aggiungere il profilo di prodotto Marketo Engage al gruppo di utenti esistente.
+>Quando aggiungi utenti Journey Optimizer B2B Edition esistenti a Marketo Engage, puoi saltare la creazione di gruppi di utenti e aggiungere il profilo di prodotto Marketo Engage al gruppo di utenti esistente.
 
 Per ulteriori informazioni sull&#39;utilizzo dei gruppi di utenti per gestire le autorizzazioni, vedere [Gestione dei gruppi di utenti](https://helpx.adobe.com/it/enterprise/using/user-groups.html){target="_blank"} nella documentazione di Admin Console.
 
@@ -163,7 +174,7 @@ Per informazioni sulla gestione degli utenti, vedi [_Utenti Adobe Admin Console_
 
 ## Modifica ruoli per le autorizzazioni prodotto {#edit-roles-for-product-permissions}
 
-Le autorizzazioni sono diritti unitari che ti consentono di definire le autorizzazioni assegnate a un profilo di prodotto. Ogni autorizzazione è raggruppata in una funzionalità, ad esempio percorsi o gruppi di acquisto, che rappresenta le funzionalità di Journey Optimizer B2B edition.
+Le autorizzazioni sono diritti unitari che ti consentono di definire le autorizzazioni assegnate a un profilo di prodotto. Ogni autorizzazione è raggruppata in una funzionalità, ad esempio percorsi o gruppi di acquisto, che rappresenta le funzionalità di Journey Optimizer B2B Edition.
 
 Nell&#39;area _Autorizzazioni_ di Adobe Experience Platform gli amministratori possono definire ruoli utente e criteri di accesso per gestire le autorizzazioni di accesso per funzionalità e oggetti all&#39;interno di un&#39;applicazione di prodotto. In questa app, puoi creare e gestire i ruoli, nonché assegnare le autorizzazioni per le risorse desiderate per tali ruoli. Le autorizzazioni ti consentono inoltre di gestire le sandbox e gli utenti associati a un ruolo specifico.
 
@@ -335,4 +346,4 @@ Per informazioni sulla gestione degli utenti, vedi [_Utenti Adobe Admin Console_
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-Il ruolo personalizzato è configurato e gli utenti del gruppo assegnato possono ora accedere alle funzionalità di Journey Optimizer B2B edition selezionate.
+Il ruolo personalizzato è configurato e gli utenti del gruppo assegnato possono ora accedere alle funzionalità di Journey Optimizer B2B Edition selezionate.

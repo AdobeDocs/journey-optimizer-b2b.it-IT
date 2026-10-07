@@ -1,6 +1,6 @@
 ---
 title: Progettazione del modulo
-description: Progetta i moduli con tipi di campo, convalida, stile e attributi dello schema XDM per la raccolta di dati aziendali in Journey Optimizer B2B edition.
+description: Progetta i moduli con tipi di campo, convalida, stile e attributi dello schema XDM per la raccolta di dati aziendali in Journey Optimizer B2B Edition.
 feature: Forms, Content Design Tools
 role: User
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
@@ -8,25 +8,35 @@ autotag-review: '2026-05-27T16:10:55.800Z'
 TQID: 'https://experienceleague.adobe.com/2-5PPPyFLrTpU89D-ByVskTVAF6ItgqJYFZrTbHsPTU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+    internal-label: Web forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Web experience
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: '2190'
 ht-degree: 1%
-
 ---
-
 # Progettazione del modulo
 
 Dopo aver [creato un modulo](./forms.md#create-forms), lo spazio di progettazione visiva apre una bozza con una definizione di modulo di base predefinita. Nel pannello _[!UICONTROL Riepilogo]_ a destra, fai clic su **[!UICONTROL Modifica modulo]** e utilizza lo spazio di progettazione visiva per definire lo stile del modulo e i componenti campo.
@@ -75,7 +85,7 @@ I campi modulo vengono utilizzati per acquisire i dati del profilo della persona
    | ---------- | ----- |
    | **[!UICONTROL Casella di controllo]** | Utilizza questo tipo in modo che i visitatori possano selezionare un valore _true_ (selezionato) o _false_ (non selezionato). |
    | **[!UICONTROL Gruppo di caselle di controllo]** | Utilizza questo tipo in modo che i visitatori possano selezionare un valore _true_ (selezionato) o _false_ (non selezionato) per più elementi. |
-   | **[!UICONTROL Valuta]** | Utilizzare questo tipo per consentire un campo float che rappresenta il tipo di valuta predefinito selezionato per l&#39;istanza di Journey Optimizer B2B edition. |
+   | **[!UICONTROL Valuta]** | Utilizza questo tipo per consentire un campo in virgola mobile che rappresenta il tipo di valuta predefinito selezionato per l’istanza di Journey Optimizer B2B Edition. |
    | **[!UICONTROL Data]** | Utilizzare questo tipo per limitare l&#39;immissione a un formato data e fornire un selettore calendario nel campo. |
    | **[!UICONTROL Doppio]** | Variabile doppia (virgola mobile a doppia precisione) memorizzata come numeri a virgola mobile IEEE a 64 bit (8 byte). |
    | **[!UICONTROL E-mail]** | Utilizzare questo tipo per limitare l&#39;immissione a un formato di indirizzo e-mail. |

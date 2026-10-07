@@ -2,13 +2,14 @@
 title: Mappatura personale
 description: Scopri come impostare la mappatura persona in Journey Optimizer B2B Prime. Mappa gli attributi della persona per definire gli utenti tipo e utilizza il filtro Persona derivata negli elenchi di persone e nei percorsi di persone.
 badge: label="GA" type="informative" tooltip="Questa funzione non è disponibile fino al GA"
-source-git-commit: d88ebb07186f488541138da23a276429b1f1994b
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 1%
-
 ---
-
 # Mappatura utente tipo
 
 <!-- not available until GA -->

@@ -4,25 +4,31 @@ description: Configura i domini di branding in modo che ciascuno dei brand abbia
 feature: Setup, Channels
 role: Admin
 exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 913
+source-wordcount: '913'
 ht-degree: 75%
-
 ---
-
 # Configurare i domini di branding
 
 Un dominio di branding in Marketo Engage è un sottodominio personalizzato (ad esempio `links.yourcompany.com`) utilizzato per riscrivere i collegamenti e tenere traccia dei clic sulle e-mail e assicurarsi che riflettano il tuo marchio anziché un dominio generico. Ogni dominio di branding funge da dominio di tracciamento dei clic per migliorare il recapito messaggi e l’attendibilità facendo corrispondere i collegamenti e-mail e pagina di destinazione al dominio.
@@ -84,7 +90,7 @@ Il primo passaggio nell’utilizzo dei domini di branding consiste nella modific
 
 ## Definisci un dominio aggiuntivo
 
-Per supportare più marchi nell’ambiente Journey Optimizer B2B edition, ciascuno dei quali dispone di collegamenti di tracciamento con marchio, puoi aggiungere un altro dominio di branding dopo aver modificato il dominio predefinito. Quando si aggiunge un dominio, sono disponibili le seguenti opzioni:
+Per supportare più marchi nell’ambiente Journey Optimizer B2B Edition, ciascuno dei quali dispone di collegamenti di tracciamento con marchio, puoi aggiungere un altro dominio di branding dopo aver modificato il dominio predefinito. Quando si aggiunge un dominio, sono disponibili le seguenti opzioni:
 
 >* _Rendi dominio primario_: rendi questo dominio primario per l&#39;area di lavoro. Quando selezioni questa opzione, tutte le e-mail non inviate esistenti vengono impostate sul dominio primario predefinito e tutte le e-mail appena create vengono impostate automaticamente su questo dominio primario. Se necessario, gli addetti al marketing possono scegliere un dominio di branding alternativo.
 >

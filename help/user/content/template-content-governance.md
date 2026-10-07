@@ -1,29 +1,38 @@
 ---
 title: Governance dei contenuti dei modelli
-description: 'Blocca i componenti dei modelli e-mail per la conformità al brand: imposta le modalità di governance, controlla la modifica dei contenuti e gestisci le autorizzazioni per gli autori di percorsi di account in Journey Optimizer B2B edition.'
+description: 'Blocca i componenti dei modelli e-mail per la conformità al brand: imposta le modalità di governance, controlla la modifica dei contenuti e gestisci le autorizzazioni per gli autori di percorsi di account in Journey Optimizer B2B Edition.'
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
+autotag-review: 2026-03-30T22:19:13.043Z
+TQID: 'https://experienceleague.adobe.com/8k34X0qVeMfWmSayzayqkDPmiAyC5V-gFIyVjMFhXO8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-autotag-review: 2026-03-30T22:19:13.043Z
-TQID: https://experienceleague.adobe.com/8k34X0qVeMfWmSayzayqkDPmiAyC5V-gFIyVjMFhXO8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content strategy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 765
+source-wordcount: '765'
 ht-degree: 0%
-
 ---
-
 # Governance dei contenuti dei modelli
 
 In molte organizzazioni di marketing esistono professionisti dei contenuti che progettano campagne e-mail. Una determinata progettazione può essere utilizzata come base per percorsi di account personalizzati in tutta l’organizzazione. Per garantire il rispetto delle progettazioni di contenuto approvate, puoi utilizzare le funzioni di governance dei contenuti per bloccare i componenti dei modelli. Attivando il blocco del contenuto nel modello e-mail, gli esperti di marketing possono modificare solo gli elementi consentiti per mantenerlo allineato alla strategia per i contenuti.
