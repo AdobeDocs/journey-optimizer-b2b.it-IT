@@ -745,7 +745,7 @@ NON usare il solo colore per trasmettere le informazioni. Associare sempre il co
 - Le immagini che non devono essere localizzate vanno in una sottocartella `do-not-localize/`.
 - I file sommario (`TOC.md`) definiscono la struttura di spostamento a sinistra. Aggiornale quando aggiungi o rimuovi pagine.
 - Utilizzare i collegamenti relativi alla directory principale (`/help/...`) per i riferimenti incrociati tra documenti in questo repository.
-- Per i collegamenti ai documenti esterni a questo archivio, utilizza `https://experienceleague.adobe.com/...` URL assoluti.
+- Per i collegamenti ai documenti esterni a questo archivio, utilizza `https://experienceleague.adobe.com/it...` URL assoluti.
 - Denominazione ramo: nessun prefisso del nome utente. Utilizzare il numero del ticket Jira e una barra del titolo (ad esempio, `PLAT-12345-Update-Guardrail-Limits`). Denomina sia la filiale che il titolo PR utilizzando lo stesso formato.
 - I componenti discreti (intestazioni, blocchi di codice delimitati, elenchi) devono essere circondati da righe vuote.
 - Un solo H1 (`#`) per documento. La prima linea dopo la parte anteriore deve essere la H1.
@@ -832,7 +832,7 @@ Utilizza lo strumento MCP corretto in base al tipo di risorsa:
 - **Riferimento tag di localizzazione**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/authoring/localization/localize
 - **Sintassi markdown Experience League**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/markdown-syntax
 - **Scheda di riferimento Markdown**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/cheatsheet
-- **Riferimento stile note sulla versione**: https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest
+- **Riferimento stile note sulla versione**: https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/latest
 
 **Clone locale:**
 - **Archivio guida all&#39;authoring:** seleziona la guida all&#39;authoring di Adobe Experience League o la relativa documentazione pubblica.
