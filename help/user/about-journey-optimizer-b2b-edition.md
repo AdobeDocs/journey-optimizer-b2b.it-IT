@@ -5,25 +5,28 @@ exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 autotag-review: 2026-04-29T23:21:13.339Z
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
 TQID: https://experienceleague.adobe.com/L58cK4MP-S-8U9fFiXU2qZn4HCieNzjoOaSRCLkyanI
-source-git-commit: 8d2fc3ebc7df1674ac9af441679228a9e19d8d5a
+source-git-commit: 94359f1d9ce673e93247a32f9234fdf10925f933
 workflow-type: tm+mt
-source-wordcount: 739
+source-wordcount: '747'
 ht-degree: 15%
-
 ---
-
 # Panoramica di Adobe Journey Optimizer B2B Edition
 
-Con Adobe Journey Optimizer B2B edition, puoi orchestrare percorsi di persone e account utilizzando l’intelligenza artificiale generativa integrata e l’automazione leader di settore per massimizzare la domanda di offerte specifiche utilizzando gruppi di acquisto qualificati per il marketing.
+Con Adobe Journey Optimizer B2B Edition, puoi orchestrare persone e percorsi di account utilizzando l’intelligenza artificiale generativa integrata e l’automazione leader di settore per massimizzare la domanda di offerte specifiche utilizzando gruppi di acquisto qualificati per il marketing.
 
 ## Percorsi di account con gruppi di acquisto
 
@@ -31,13 +34,13 @@ Quando si confrontano i percorsi di account con le funzionalità di percorso in 
 
 ## Architettura di alto livello
 
-Adobe Journey Optimizer B2B edition è basato su Adobe Experience Platform, incluso Real-Time CDP B2B. Journey Optimizer B2B edition e Marketo Engage vengono eseguiti su sistemi separati, ciascuno con un proprio archivio dati. Experience Platform è l’archivio dati principale e la fonte autorevole per account, persone e opportunità. Journey Optimizer B2B edition è il proprietario dei percorsi di account, dei gruppi di acquisto e dei ruoli dei gruppi di acquisto.
+Adobe Journey Optimizer B2B Edition è basato su Adobe Experience Platform, incluso Real-Time CDP B2B. Journey Optimizer B2B Edition e Marketo Engage vengono eseguiti su sistemi separati, ciascuno con il proprio archivio dati. Experience Platform è l’archivio dati principale e la fonte autorevole per account, persone e opportunità. Journey Optimizer B2B Edition è il proprietario dei percorsi di account, dei gruppi di acquisto e dei ruoli dei gruppi di acquisto.
 
-Un’istanza dedicata di Marketo Engage supporta ogni abbonamento a Journey Optimizer B2B edition. In questa istanza non vengono memorizzati i percorsi di account, i tipi di pubblico o i gruppi di acquisto. Al contrario, fornisce diritti e servizi di back-end, come la consegna di e-mail, la configurazione del mittente e i domini di branding.
+Un’istanza dedicata di Marketo Engage supporta ogni abbonamento a Journey Optimizer B2B Edition. In questa istanza non vengono memorizzati i percorsi di account, i tipi di pubblico o i gruppi di acquisto. Al contrario, fornisce diritti e servizi di back-end, come la consegna di e-mail, la configurazione del mittente e i domini di branding.
 
-Per supportare le azioni di percorso, puoi anche collegare una o più istanze Marketo Engage esistenti, inclusa l’istanza di produzione. Le azioni di percorso consentono agli addetti al marketing di coordinare i percorsi basati su account in Journey Optimizer B2B edition con campagne basate su lead in Marketo Engage, ad esempio aggiungendo persone a un elenco o a una campagna di richieste. [Ulteriori informazioni sulla connessione delle istanze di Marketo Engage](./admin/marketo-actions-connect.md).
+Per supportare le azioni di percorso, puoi anche collegare una o più istanze Marketo Engage esistenti, inclusa l’istanza di produzione. Le azioni di percorso consentono agli addetti al marketing di coordinare percorsi basati su account in Journey Optimizer B2B Edition con campagne basate su lead in Marketo Engage, ad esempio aggiungendo persone a un elenco o a una campagna di richieste. [Ulteriori informazioni sulla connessione delle istanze di Marketo Engage](./admin/marketo-actions-connect.md).
 
-![Architettura dei dati di alto livello che mostra Journey Optimizer B2B edition connesso a Adobe Experience Platform come fonte di verità per il pubblico di utenti e account, un&#39;istanza Marketo Engage dedicata che fornisce servizi di adesione e back-end e un&#39;istanza Marketo Engage di produzione facoltativa utilizzata per eseguire azioni di percorso.](./assets/high-level-data-architecture.png){zoomable="yes"}
+![Architettura dei dati di alto livello che mostra Journey Optimizer B2B Edition connesso a Adobe Experience Platform come fonte di verità per il pubblico di utenti e account, un&#39;istanza Marketo Engage dedicata che fornisce servizi di adesione e back-end e un&#39;istanza Marketo Engage di produzione facoltativa utilizzata per eseguire azioni di percorso.](./assets/high-level-data-architecture.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -45,20 +48,20 @@ Per supportare le azioni di percorso, puoi anche collegare una o più istanze Ma
 
 ### Modello di abbonamento
 
-Una sandbox di Experience Platform associata a un’istanza Marketo Engage dedicata definisce un abbonamento a Journey Optimizer B2B edition. Questa istanza dedicata è separata dall’istanza Marketo Engage di produzione ed esiste per supportare diritti e servizi back-end anziché archiviare i dati del percorso dell’account. [Ulteriori informazioni sulla configurazione](./setup-ultimate.md).
+Una sandbox di Experience Platform associata a un’istanza Marketo Engage dedicata definisce un abbonamento Journey Optimizer B2B Edition. Questa istanza dedicata è separata dall’istanza Marketo Engage di produzione ed esiste per supportare diritti e servizi back-end anziché archiviare i dati del percorso dell’account. [Ulteriori informazioni sulla configurazione](./setup-ultimate.md).
 
 Experience Platform fornisce una visualizzazione unificata dei dati provenienti dalle istanze Marketo Engage e dai sistemi di gestione delle relazioni con i clienti connessi. Utilizza questi dati unificati per generare ed eseguire i percorsi.
 
 ### Operazioni di percorso
 
-Journey Optimizer B2B edition crea, archivia ed esegue i percorsi di account. I percorsi di account non vengono visualizzati in Marketo Engage e sono utilizzabili solo in Journey Optimizer B2B edition.
+Journey Optimizer B2B Edition crea, archivia ed esegue i tuoi percorsi di account. I percorsi di account non vengono visualizzati in Marketo Engage e sono utilizzabili solo in Journey Optimizer B2B Edition.
 
 Un percorso inizia sempre con un pubblico che qualifica i lead o gli account e le loro persone per il percorso. Seleziona questo pubblico utilizzando il selettore di pubblico standard di Experience Platform. Gli addetti al marketing implementano il percorso suddividendo i percorsi in base ai criteri dell’account, delle persone o dei gruppi di acquisto. In ogni percorso, le azioni inviano comunicazioni o attendono che si verifichi un evento.
 
-Dopo aver creato un percorso di account, pubblicalo per renderlo attivo. I conti idonei inseriscono un percorso pubblicato entro 24 ore.
+Dopo aver creato un percorso di account, pubblicalo per renderlo attivo. I conti idonei inseriscono un percorso pubblicato entro 24 ore. [Ulteriori informazioni sulla disponibilità dei dati e sui tempi di sincronizzazione](./data/data-availability-timing.md).
 
 ### Flusso di dati
 
-Journey Optimizer B2B edition funziona come destinazione di Adobe Real-Time CDP B2B edition. Utilizza la segmentazione degli account di Real-Time CDP per creare e valutare i tipi di pubblico degli account e delle persone che qualificano account e persone per un percorso. Quando pubblichi un percorso, Journey Optimizer B2B edition attiva i tipi di pubblico idonei da Experience Platform.
+Journey Optimizer B2B Edition funziona come destinazione di Adobe Real-Time CDP B2B edition. Utilizza la segmentazione degli account di Real-Time CDP per creare e valutare i tipi di pubblico degli account e delle persone che qualificano account e persone per un percorso. Quando pubblichi un percorso, Journey Optimizer B2B Edition attiva i tipi di pubblico idonei da Experience Platform.
 
-I gruppi di acquisto, i ruoli dei gruppi di acquisto e i punteggi dei gruppi di acquisto vengono creati e memorizzati in Journey Optimizer B2B edition. [Ulteriori informazioni sull&#39;acquisto di gruppi](./buying-groups/buying-groups-overview.md).
+I gruppi di acquisto, i ruoli dei gruppi di acquisto e i punteggi dei gruppi di acquisto vengono creati e memorizzati in Journey Optimizer B2B Edition. [Ulteriori informazioni sull&#39;acquisto di gruppi](./buying-groups/buying-groups-overview.md).
