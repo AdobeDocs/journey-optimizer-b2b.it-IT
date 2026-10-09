@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: eb4654dc36b165f5cb40e7999f3204bdc5bd2c85
+source-git-commit: 61cb7f99bf1f1649bf1a8569a506c248146a522e
 workflow-type: tm+mt
-source-wordcount: '5744'
+source-wordcount: '5717'
 ht-degree: 60%
 ---
 # Note sulla versione di Journey Optimizer B2B Edition
@@ -43,15 +43,18 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Elenchi di persone | Sono ora disponibili elenchi di persone statiche e dinamiche per eseguire il targeting dei profili in base a criteri definiti, come gli attributi demografici e la cronologia degli eventi dell’esperienza. |
 | Funzione | Dashboard integrità servizio | Monitora lo stato operativo delle azioni esterne raccogliendo metriche di successo/errore e fornendo dashboard che consentano agli amministratori di monitorare le prestazioni del servizio. |
+| Miglioramento | Rientro percorso - percorsi di persone | Il supporto per il reinserimento nel percorso è ora disponibile per i percorsi di persone. [Ulteriori informazioni](../journeys/journey-re-entry.md) |
 | Miglioramento | Membro del filtro Pubblico profilo | Questo filtro è ora disponibile per le condizioni del percorso di suddivisione del percorso di persone, per le condizioni del percorso di suddivisione della persona del percorso di account e per gli elenchi di persone, al fine di includere o escludere profili in base alla loro appartenenza a un pubblico. |
-| Miglioramento | Rientro percorso - percorsi di persone | Il supporto per il reinserimento nel percorso è ora disponibile per i percorsi di persone. |
 
 >[!NOTE]
 >
 >Queste modifiche alla versione iniziano la distribuzione il 25 settembre 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
+<!--
+Delayed to Oct
+| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
+-->
 
 ## Note sulla versione 2026.8 {#rel-2026-8}
 
