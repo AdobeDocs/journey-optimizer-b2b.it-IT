@@ -10,7 +10,7 @@ ht-degree: 1%
 
 Stai assistendo un autore tecnico nell&#39;archivio della documentazione pubblica di Adobe Experience League (`journey-optimizer-b2b.en`). Ogni elemento di contenuto che crei, modifichi o rivedi DEVE rispettare tutte le regole riportate di seguito. In caso di dubbi sulla terminologia, consultare i wiki a cui si fa riferimento utilizzando lo strumento MCP di influenza (`mcp__adobe-wiki-confluence`).
 
----
+&#x200B;---
 
 ## &#x200B;1. Voce, tono e stile
 
@@ -71,7 +71,7 @@ Gli assistenti e gli strumenti di ricerca basati su intelligenza artificiale fan
 - Includi sinonimi o termini alternativi al primo utilizzo (ad esempio, &quot;ECID (Experience Cloud ID)&quot;) per migliorare il recupero per varie frasi di query.
 - Assicurati che i campi dei metadati (titolo, descrizione, tag delle funzioni) siano completi e precisi.
 
----
+&#x200B;---
 
 ## &#x200B;2. Sintassi di Adobe Markdown (Experience League)
 
@@ -106,7 +106,7 @@ Campi facoltativi aggiuntivi utilizzati in questo repository: `solution`, `type`
 - Inizia le descrizioni delle attività con &quot;Scopri come...&quot; o un verbo imperativo.
 - NON iniziare con il nome del prodotto. Inizia con un verbo per SEO (Search Engine Optimization).
 - NON copiare il primo paragrafo letteralmente (scopo diverso).
-- Se un campo di metadati inizia con un tag `[!DNL]` o ``, racchiudere l&#39;intero valore del campo tra virgolette o la convalida non riesce.
+- Se un campo di metadati inizia con un tag `[!DNL]` o &grave;&grave;, racchiudere l&#39;intero valore del campo tra virgolette o la convalida non riesce.
 
 ### Intestazioni
 
@@ -364,7 +364,7 @@ Assegna il grassetto a ogni singolo tasto in una scelta rapida da tastiera: **cm
 - Evitare nomi di file in conflitto con JavaScript/CSS: `metadata.md`, `search.md`.
 - Nomi file risorsa: preferiti in minuscolo; lettere maiuscole e caratteri di sottolineatura consentiti ma non consigliati.
 
----
+&#x200B;---
 
 ## &#x200B;3. Tag di localizzazione (CRITICO)
 
@@ -400,7 +400,7 @@ Utilizza per gli elementi dell’interfaccia: opzioni, campi, schede, pagine, me
 **Formattazione:**
 - Grassetto nei passaggi e nella navigazione: `Select **[!UICONTROL Destinations]** from the left navigation.`
 - Il corsivo è accettabile nel testo concettuale (senza passaggi) per maggiore chiarezza.
-- Nelle tabelle di HTML: utilizzare `<span class="uicontrol">term</span>` anziché ``.
+- Nelle tabelle di HTML: utilizzare `<span class="uicontrol">term</span>` anziché &grave;&grave;.
 - Nel testo del collegamento: rimuovi le parentesi quadre.
 
 **Maiuscole:** Corrispondenza esatta con l&#39;interfaccia.
@@ -429,9 +429,9 @@ Non necessario all’interno di blocchi di codice. Questi non sono localizzati p
 
 **Impossibile utilizzare in:** blocchi di codice, acronimi.
 
-**Regola metadati:** Se un campo metadati (titolo o descrizione) inizia con un tag `[!DNL]` o ``, racchiudere l&#39;intero valore del campo tra virgolette o la convalida non riuscirà.
+**Regola metadati:** Se un campo metadati (titolo o descrizione) inizia con un tag `[!DNL]` o &grave;&grave;, racchiudere l&#39;intero valore del campo tra virgolette o la convalida non riuscirà.
 
----
+&#x200B;---
 
 ## &#x200B;4. Struttura delle informazioni e tipi di contenuto
 
@@ -505,7 +505,7 @@ hide: yes
 
 Questo esclude la pagina sia dalla ricerca esterna che da quella interna. L&#39;impostazione di `hide: yes` imposta automaticamente `index: no`. Usare questo elemento in aggiunta a `{hide-from-toc}` quando si desidera nascondere una pagina sia dalla navigazione che dalla ricerca.
 
----
+&#x200B;---
 
 ## &#x200B;5. Terminologia e branding
 
@@ -602,7 +602,7 @@ Questi termini vengono visualizzati in Jira, wiki e discussioni interne, ma non 
 | Ritmo | termine pubblicitario non rivolto all&#39;utente |
 | Pipeline | termine dell’infrastruttura Adobe interna |
 
----
+&#x200B;---
 
 ## &#x200B;6. Linguaggio inclusivo e accessibilità
 
@@ -693,7 +693,7 @@ NON usare il solo colore per trasmettere le informazioni. Associare sempre il co
 - Includi didascalie significative in tutti i video.
 - Se possibile, collegarsi alle istruzioni scritte: &quot;Per istruzioni scritte, vedere [collegamento].&quot;
 
----
+&#x200B;---
 
 ## &#x200B;7. Controllo ortografia e punteggiatura
 
@@ -723,7 +723,7 @@ NON usare il solo colore per trasmettere le informazioni. Associare sempre il co
 - Due punti: utilizza per introdurre un elenco. Usa l&#39;iniziale maiuscola dopo due punti quando segue una frase intera (o la parola è un nome proprio).
 - Nessun punto e virgola. Utilizza invece un punto e una nuova frase.
 
----
+&#x200B;---
 
 ## &#x200B;8. SEO e reperibilità
 
@@ -735,7 +735,7 @@ NON usare il solo colore per trasmettere le informazioni. Associare sempre il co
 - Metadati di descrizione: utilizza il linguaggio naturale con parole chiave. NON comprimere parole chiave casuali. Google può abbassare di livello il contenuto per il riempimento delle parole chiave.
 - Mantieni i campi dei metadati (titolo, descrizione, tag delle funzioni) completi e precisi. Le superfici di individuazione utilizzano i metadati per filtrare e classificare i risultati prima di leggere il contenuto della pagina.
 
----
+&#x200B;---
 
 ## &#x200B;9. Convenzioni relative a file e repository
 
@@ -749,7 +749,7 @@ NON usare il solo colore per trasmettere le informazioni. Associare sempre il co
 - I componenti discreti (intestazioni, blocchi di codice delimitati, elenchi) devono essere circondati da righe vuote.
 - Un solo H1 (`#`) per documento. La prima linea dopo la parte anteriore deve essere la H1.
 
----
+&#x200B;---
 
 ## &#x200B;10. Controlla elenco di controllo
 
@@ -780,7 +780,7 @@ Durante la revisione o la modifica della documentazione, verifica ogni elemento 
 - [ ] No &quot;il&quot; prima dei nomi di prodotto (ad esempio, non &quot;il Adobe Experience Platform&quot;)
 
 **Tag di localizzazione**
-- [ ] `` su tutti i nomi di elementi dell&#39;interfaccia utente; grassetto nei passaggi
+- [ ] &grave;&grave; su tutti i nomi di elementi dell&#39;interfaccia utente; grassetto nei passaggi
 - [ ] `[!DNL]` su tutti i nomi di prodotti e terze parti
 - [ ] operatori booleani con tag: `[!DNL AND]`, `[!DNL OR]`
 - [ ] Nessun tag nei blocchi di codice
@@ -810,7 +810,7 @@ Durante la revisione o la modifica della documentazione, verifica ogni elemento 
 - [ ] I nomi dei file sono in minuscolo con trattini; dettagli descrittivi (non nudi `overview.md`)
 - [ ] immagini in `assets/`; immagini non localizzate in `do-not-localize/`
 
----
+&#x200B;---
 
 ## &#x200B;11. Riferimenti esterni
 
