@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 77%
+source-wordcount: '2381'
+ht-degree: 76%
 ---
 # Accesso utente e autorizzazioni
 
@@ -85,7 +85,7 @@ Per ulteriori informazioni sull&#39;utilizzo dei profili di prodotto per i dirit
 
 Quando si aggiunge un utente al profilo di prodotto Marketo Engage, questi vengono successivamente aggiunti al ruolo _Utente standard_ nell&#39;area di lavoro predefinita della sottoscrizione Marketo Engage. Questo ruolo concede loro tutte le autorizzazioni standard per Marketo Engage in tale area di lavoro. Attualmente, tutti gli utenti Journey Optimizer B2B edition devono essere utenti Marketo Engage. Un amministratore di Marketo Engage può limitare l&#39;accesso aggiornando le autorizzazioni per il ruolo _Utente standard_ o spostando l&#39;utente in un altro ruolo utente di Marketo Engage con autorizzazioni più restrittive.
 
-Per ulteriori informazioni sulla gestione di queste autorizzazioni in Marketo Engage, vedi [Gestione dei ruoli utente e delle autorizzazioni](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} nella documentazione di Marketo Engage.
+Per ulteriori informazioni sulla gestione di queste autorizzazioni in Marketo Engage, vedi [Gestione dei ruoli utente e delle autorizzazioni](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} nella documentazione di Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -178,7 +178,7 @@ Le autorizzazioni sono diritti unitari che ti consentono di definire le autorizz
 
 Nell&#39;area _Autorizzazioni_ di Adobe Experience Platform gli amministratori possono definire ruoli utente e criteri di accesso per gestire le autorizzazioni di accesso per funzionalità e oggetti all&#39;interno di un&#39;applicazione di prodotto. In questa app, puoi creare e gestire i ruoli, nonché assegnare le autorizzazioni per le risorse desiderate per tali ruoli. Le autorizzazioni ti consentono inoltre di gestire le sandbox e gli utenti associati a un ruolo specifico.
 
-Per ulteriori informazioni sulle autorizzazioni per i ruoli in Experience Platform, vedi [Gestione delle autorizzazioni per un ruolo](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} nella documentazione di Experience Platform.
+Per ulteriori informazioni sulle autorizzazioni per i ruoli in Experience Platform, vedi [Gestione delle autorizzazioni per un ruolo](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} nella documentazione di Experience Platform.
 
 ### Autorizzazioni per i prodotti B2B {#b2b-product-permissions}
 
@@ -192,8 +192,12 @@ Le seguenti autorizzazioni regolano l’accesso alle funzionalità di Journey Op
 | Gruppi di acquisto B2B | Configurare, gestire e visualizzare le autorizzazioni per i gruppi di acquisto B2B. Queste autorizzazioni includono gli interessi della soluzione, i modelli di ruoli e lo stato del gruppo di acquisto. | <li>Gestire i gruppi di acquisto B2B <li>Gestire gli interessi delle soluzioni B2B <li>Gestire i modelli di ruolo B2B <li>Gestire gli stadi B2B <li>Visualizza gruppi di acquisto B2B |
 | Configurazioni del canale B2B | Configurare, gestire e visualizzare le autorizzazioni per le configurazioni del canale B2B. Queste autorizzazioni includono le impostazioni relative ai limiti di comunicazione, alle credenziali API e alle impostazioni di sicurezza. | <li>Gestione configurazioni canali B2B <li>Visualizza impostazioni e-mail B2B <li>Gestione impostazioni e-mail B2B <li>Gestire i predefiniti WhatsApp B2B <li>Gestione impostazioni pagina di destinazione B2B <li>Visualizza predefinito Forms B2B <li>Gestire il predefinito per Forms B2B <li>Pubblica predefinito Forms B2B <li>Creare esperienze web B2B <li>Gestione impostazioni WhatsApp B2B |
 | Dashboard B2B | Configurare e visualizzare le autorizzazioni per le dashboard B2B. Queste autorizzazioni includono coinvolgimento dell’account, fasi del gruppo di acquisto, account in crescita e copertura dei contatti. | <li>Visualizza dashboard di coinvolgimento B2B |
-| Percorsi B2B | Configurare, gestire, visualizzare e pubblicare le autorizzazioni per i percorsi B2B. Queste autorizzazioni includono azioni per account e persona, listener di eventi e percorsi di suddivisione. | <li>Gestire Percorsi di account B2B <li>Gestire Percorsi di persone B2B |
+| Percorsi B2B | Configurare, gestire, visualizzare e pubblicare le autorizzazioni per i percorsi B2B. Queste autorizzazioni includono azioni per account e persona, listener di eventi e percorsi di suddivisione. | <li>Gestire Percorsi di account B2B <li>Gestire Percorsi di persone B2B <li>Visualizza Percorsi di persone B2B <li>Pubblicare Percorsi di persone B2B |
 | Regole Journey Optimizer | Accedere e configurare le regole di frequenza (limiti di comunicazione). Queste autorizzazioni devono essere limitate agli amministratori di prodotto. | <li>Visualizza regole di frequenza <li>Gestisci regole di frequenza |
+
+>[!NOTE]
+>
+>Tutte le autorizzazioni dei Percorsi di persone B2B attualmente concedono l’accesso in lettura, scrittura e pubblicazione ai percorsi di persone. Questa lacuna nota verrà risolta in una versione futura.
 
 ### Ruoli incorporati B2B {#b2b-built-in-roles}
 
