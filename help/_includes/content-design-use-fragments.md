@@ -3,14 +3,12 @@ title: 'Authoring dei contenuti: utilizzare i frammenti'
 description: Sezione riutilizzata sull’utilizzo dei frammenti per l’authoring dei contenuti
 source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
-
 ---
-
 # Authoring dei contenuti: utilizzare frammenti visivi
 
-Un frammento visivo è un componente di progettazione riutilizzabile a cui possono fare riferimento più risorse di contenuto in Adobe Journey Optimizer B2B edition. In genere si tratta di un blocco di contenuti che può essere precreato e inserito rapidamente per rendere l’authoring più rapido e coerente.
+Un frammento visivo è un componente di progettazione riutilizzabile a cui possono fare riferimento più risorse di contenuto in Adobe Journey Optimizer B2B Edition. In genere si tratta di un blocco di contenuti che può essere precreato e inserito rapidamente per rendere l’authoring più rapido e coerente.
 
 L’esempio seguente illustra i passaggi per aggiungere frammenti durante l’authoring dei contenuti.
 
