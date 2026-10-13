@@ -1,8 +1,8 @@
 ---
 applyTo: "**/*.md"
-source-git-commit: 0f90b37c1ed8e4da0840f64179a0e99e0fe786d7
+source-git-commit: d36cfd513df3d363a7bd74b5e09b774426e50b9b
 workflow-type: tm+mt
-source-wordcount: '5174'
+source-wordcount: '5166'
 ht-degree: 1%
 ---
 
@@ -411,12 +411,12 @@ Utilizza per gli elementi dell’interfaccia: opzioni, campi, schede, pagine, me
 - Blocchi di codice o acronimi
 - Descrizioni delle icone. Utilizza il nome visualizzato al passaggio del mouse o la descrizione comando dell’icona, se disponibile; non assegnare tag a descrizioni generiche come &quot;icona a forma di matita&quot;
 
-### `[!DONOTLOCALIZE]`: Escludere intere sezioni
+### `[!DNL]`: Escludere intere sezioni
 
 Racchiudi il contenuto che deve rimanere in inglese per tutte le lingue:
 
 ```markdown
->[!DONOTLOCALIZE]
+>[!DNL]
 >
 >Content that must not be translated.
 ```
@@ -529,9 +529,8 @@ NON anteporre &quot;the&quot; ai nomi dei prodotti, a meno che il nome ufficiale
 | Profilo cliente in tempo reale | Profilo cliente in tempo reale, Profilo unificato |
 | Adobe Journey Optimizer | AJO |
 | Adobe Journey Optimizer B2B Edition | AJO B2B |
-| Prime B2B Adobe Journey Optimizer | AJO B2B Prime |
 | Adobe Marketo Optimizer | AMO |
-| Adobe Marketo Engage | Marketo (può essere utilizzato come aggettivo) |
+| Adobe Marketo Engage | Marketo (non può essere usato come aggettivo) |
 | Adobe Customer Journey Analytics | CJA |
 | Customer Journey Analytics (secondario) | — |
 | Adobe Real-Time CDP Collaboration | RTCDP Collaboration, RTCDP Collab, Collab |
