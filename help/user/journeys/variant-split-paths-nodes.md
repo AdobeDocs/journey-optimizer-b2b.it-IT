@@ -1,6 +1,6 @@
 ---
 title: Percorsi suddivisi variante
-description: Scopri come utilizzare i nodi con percorsi di suddivisione varianti per distribuire account o persone in più percorsi di percorso utilizzando l’allocazione basata su percentuali in Journey Optimizer B2B edition.
+description: Scopri come utilizzare i nodi con percorsi di suddivisione varianti per distribuire account o persone in più percorsi di percorso utilizzando l’allocazione basata su percentuali in Journey Optimizer B2B Edition.
 feature: Account Journeys, Person Journeys
 solution: Journey Optimizer B2B Edition
 role: User
@@ -8,29 +8,29 @@ autotag-review: '2026-08-17T19:14:54.674Z'
 TQID: 'https://experienceleague.adobe.com/42lSbF7J-yEzFYbFFhs2sSQ4j4NfRtENlIz-R-HcPx8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: d130cb9de068b22be540a1fe9a6dc9fcaaad127e
+    internal-label: Experienced
+source-git-commit: c0d976241c5074deaca28d82e71b30718f6cd0c7
 workflow-type: tm+mt
-source-wordcount: 2008
+source-wordcount: '1981'
 ht-degree: 1%
-
 ---
-
 # Percorsi suddivisi per variante
 
 Utilizza un nodo _Percorsi suddivisi variante_ per distribuire account o persone in due o più percorsi di percorso in base alle allocazioni percentuali definite. Questo nodo è utile quando desideri testare diverse tattiche di messaggistica, tempistica o coinvolgimento tra segmenti del pubblico senza applicare regole condizionali.
-
->[!AVAILABILITY]
->
->Il nodo _Percorsi suddivisi variante_ per percorsi di account e persone è disponibile per alcuni clienti come funzionalità di disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
 ## Confronto per tipo di percorso {#journey-type-comparison}
 
