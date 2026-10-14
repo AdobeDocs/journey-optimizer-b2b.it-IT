@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 77%
+source-wordcount: '2381'
+ht-degree: 76%
 ---
 # Accesso utente e autorizzazioni
 
@@ -192,8 +192,12 @@ Le seguenti autorizzazioni regolano l’accesso alle funzionalità di Journey Op
 | Gruppi di acquisto B2B | Configurare, gestire e visualizzare le autorizzazioni per i gruppi di acquisto B2B. Queste autorizzazioni includono gli interessi della soluzione, i modelli di ruoli e lo stato del gruppo di acquisto. | <li>Gestire i gruppi di acquisto B2B <li>Gestire gli interessi delle soluzioni B2B <li>Gestire i modelli di ruolo B2B <li>Gestire gli stadi B2B <li>Visualizza gruppi di acquisto B2B |
 | Configurazioni del canale B2B | Configurare, gestire e visualizzare le autorizzazioni per le configurazioni del canale B2B. Queste autorizzazioni includono le impostazioni relative ai limiti di comunicazione, alle credenziali API e alle impostazioni di sicurezza. | <li>Gestione configurazioni canali B2B <li>Visualizza impostazioni e-mail B2B <li>Gestione impostazioni e-mail B2B <li>Gestire i predefiniti WhatsApp B2B <li>Gestione impostazioni pagina di destinazione B2B <li>Visualizza predefinito Forms B2B <li>Gestire il predefinito per Forms B2B <li>Pubblica predefinito Forms B2B <li>Creare esperienze web B2B <li>Gestione impostazioni WhatsApp B2B |
 | Dashboard B2B | Configurare e visualizzare le autorizzazioni per le dashboard B2B. Queste autorizzazioni includono coinvolgimento dell’account, fasi del gruppo di acquisto, account in crescita e copertura dei contatti. | <li>Visualizza dashboard di coinvolgimento B2B |
-| Percorsi B2B | Configurare, gestire, visualizzare e pubblicare le autorizzazioni per i percorsi B2B. Queste autorizzazioni includono azioni per account e persona, listener di eventi e percorsi di suddivisione. | <li>Gestire Percorsi di account B2B <li>Gestire Percorsi di persone B2B |
+| Percorsi B2B | Configurare, gestire, visualizzare e pubblicare le autorizzazioni per i percorsi B2B. Queste autorizzazioni includono azioni per account e persona, listener di eventi e percorsi di suddivisione. | <li>Gestire Percorsi di account B2B <li>Gestire Percorsi di persone B2B <li>Visualizza Percorsi di persone B2B <li>Pubblicare Percorsi di persone B2B |
 | Regole Journey Optimizer | Accedere e configurare le regole di frequenza (limiti di comunicazione). Queste autorizzazioni devono essere limitate agli amministratori di prodotto. | <li>Visualizza regole di frequenza <li>Gestisci regole di frequenza |
+
+>[!NOTE]
+>
+>Tutte le autorizzazioni dei Percorsi di persone B2B attualmente concedono l’accesso in lettura, scrittura e pubblicazione ai percorsi di persone. Questa lacuna nota verrà risolta in una versione futura.
 
 ### Ruoli incorporati B2B {#b2b-built-in-roles}
 
