@@ -24,14 +24,14 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 5%
+source-wordcount: '2144'
+ht-degree: 4%
 ---
 # Ascoltare un evento
 
-Per spostare il pubblico al passaggio successivo nel [percorso](./journeys-overview.md) quando si verifica un evento, aggiungi il nodo _Ascolta un evento_. A seconda del tipo di percorso, puoi utilizzare questo nodo per attivare il nodo successivo nel percorso in base agli eventi relativi alle persone o all’account.
+Per portare il pubblico al passaggio successivo nel [percorso](./journeys-overview.md) quando si verifica un evento, aggiungi il nodo _Ascolta un evento_. A seconda del tipo di percorso, puoi utilizzare questo nodo per attivare il nodo successivo nel percorso in base agli eventi relativi alle persone o all’account.
 
 <!--
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
@@ -65,7 +65,7 @@ Per spostare il pubblico al passaggio successivo nel [percorso](./journeys-overv
 
      Nella finestra di dialogo _Modifica evento_, trascina uno o più [eventi persone](#people-events) nello spazio del generatore e imposta la definizione per ciascuno di essi. Fare clic su **[!UICONTROL Aggiungi vincolo]** per ogni vincolo che si desidera utilizzare per perfezionare la corrispondenza dell&#39;evento.
 
-     Puoi aggiungere più eventi di persone da associare. Il primo evento idoneo fa avanzare il conto nel percorso.
+     Puoi aggiungere più eventi di persone da associare. Il primo evento qualificato anticipa il conto nel percorso.
 
      ![Nodo percorso account - Ascolta eventi - Tipo evento persone - Modifica evento](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
 
@@ -79,7 +79,7 @@ Per spostare il pubblico al passaggio successivo nel [percorso](./journeys-overv
 
 ### Eventi persone per percorsi di account {#people-events}
 
-In un percorso di account, puoi ascoltare un evento basato sulle persone quando desideri spostare l’account in avanti nel percorso in base agli eventi attivati dalle attività della persona (lead). Puoi anche filtrare gli eventi in base alla cronologia degli eventi e agli attributi della persona.
+In un percorso di account, puoi ascoltare un evento basato sulle persone quando desideri far avanzare l’account nel percorso in base agli eventi attivati dall’attività della persona (lead). Puoi anche filtrare gli eventi in base alla cronologia degli eventi e agli attributi della persona.
 
 >[!TIP]
 >
@@ -97,7 +97,7 @@ Per informazioni dettagliate sull&#39;utilizzo degli eventi esperienza, vedi [Tr
 
 ### Eventi account {#account-events}
 
-In un percorso di account, è possibile ascoltare un evento basato sull&#39;account quando si desidera spostare l&#39;account in avanti nel percorso in base agli eventi attivati dall&#39;attività dell&#39;account.
+In un percorso di account, puoi ascoltare un evento basato sull’account quando desideri anticipare l’account nel percorso in base agli eventi attivati dall’attività dell’account.
 
 | Evento | Vincoli |
 | ----- | ----------- |
@@ -185,7 +185,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
    Trascina e rilascia il trigger di evento nello spazio del generatore e imposta la definizione. Fare clic su **[!UICONTROL Aggiungi vincolo]** per ogni vincolo che si desidera utilizzare per perfezionare la corrispondenza dell&#39;evento.
 
-   Puoi aggiungere più eventi da associare. Il primo evento qualificante fa avanzare il profilo della persona nel percorso.
+   Puoi aggiungere più eventi da associare. Il primo evento idoneo avanza il profilo della persona nel percorso.
 
 1. (Facoltativo) Seleziona la scheda **[!UICONTROL Filtri]** per [aggiungere filtri per l&#39;evento](#filters-people-event).
 
@@ -260,7 +260,8 @@ Quando definisci un evento [persone in un percorso di account](#people-events) o
 | [!UICONTROL Cronologia eventi] | Eventi esperienza configurati da un amministratore. Vedi _[Seleziona eventi e campi esperienza](../admin/configure-aep-events.md)_. |
 | [!UICONTROL Attributi della persona] | Attributi dal profilo persona B2B, tra cui: <li>Città <li>Paese <li>Data di nascita <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area geografica dello stato dedotta<li>Posizione lavorativa <li>Cognome <li>Numero di cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato <li>Annulla l&#39;iscrizione <li>Motivo dell’annullamento dell’iscrizione |
 | [!UICONTROL Attributi persona] | (Solo percorsi di persone) Valore attributo |
-| [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>È stato rimosso</li><li>Ruolo</li> |
+| [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>È stato rimosso (impostazione predefinita: `false`)</li><li>Ruolo</li> (Vedi [Filtro appartenenza](#membership-filtering)) |
+| [!UICONTROL Filtri speciali] > [!UICONTROL Membro del pubblico del profilo] | La persona è o non è membro di uno o più tipi di pubblico del profilo [!DNL Adobe Experience Platform]. (Vedi [Filtro appartenenza](#membership-filtering)) |
 
 <!--
 | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more Marketo Engage lists. |
@@ -285,13 +286,58 @@ Quando definisci un evento [persone in un percorso di account](#people-events) o
 
 1. Al termine delle definizioni dell&#39;evento e del filtro, fare clic su **[!UICONTROL Fine]**.
 
+### Filtro appartenenza {#membership-filtering}
+
+Nella sezione _[!UICONTROL Filtri speciali]_, utilizza i seguenti filtri per far corrispondere un evento in base all&#39;appartenenza di una persona:
+
+* _[!UICONTROL Membro del gruppo di acquisto]_ - Valuta se la persona è membro di un gruppo di acquisto.
+* _[!UICONTROL Membro del pubblico profilo]_ - Valuta se la persona è membro di un pubblico profilo [!DNL Adobe Experience Platform].
+
+Per aggiungere un filtro appartenenza, trascinarlo dalla cartella _[!UICONTROL Filtri speciali]_ nell&#39;area di lavoro filtri e impostare l&#39;appartenenza su _true_ per includere i membri o su _false_ per escluderli. È possibile combinare entrambi i filtri nella stessa definizione di evento e utilizzare la **[!UICONTROL logica filtro]** per farli corrispondere a uno o a tutti.
+
+Questi filtri sono disponibili anche in [percorso suddiviso per condizioni persone](./split-merge-paths-nodes.md#membership-filtering).
+
+![Ascolta il nodo dell&#39;evento - filtri appartenenza](./assets/node-listen-event-people-membership-filters.png){width="700" zoomable="yes"}
+
+**Membro del gruppo di acquisto**
+
+Per associare un evento per l&#39;acquisto di membri del gruppo con un ruolo specifico, impostare l&#39;appartenenza su _true_ e selezionare un _[!UICONTROL interesse per la soluzione]_ associato a uno o più gruppi di acquisto.
+
+Quando si aggiunge il filtro, il sistema include il vincolo _[!UICONTROL Rimosso]_ per impostazione predefinita e lo imposta su `false`, in modo che il filtro corrisponda solo ai membri del gruppo di acquisto corrente.
+
+Fare clic su **[!UICONTROL Aggiungi vincolo]** per includere ulteriori vincoli di appartenenza al gruppo di acquisto:
+
+* _[!UICONTROL Fase gruppo acquisti]_
+* _[!UICONTROL Stato gruppo acquisti]_
+* _[!UICONTROL Punteggio di completezza]_
+* _[!UICONTROL Punteggio di coinvolgimento]_
+* _[!UICONTROL Ruolo]_
+
+>[!IMPORTANT]
+>
+>Il vincolo _[!UICONTROL Rimosso]_ determina se i membri del gruppo di acquisto rimossi vengono valutati:
+>
+>* `false` (impostazione predefinita) - Restituisce solo i membri del gruppo di acquisto corrente. I membri rimossi non sono inclusi.
+>* `true` - Restituisce solo i membri del gruppo di acquisto rimossi. I membri correnti non sono inclusi.
+>* Vincolo rimosso: restituisce i membri del gruppo di acquisto correnti e rimossi.
+>
+>Se rimuovi il vincolo, il filtro può corrispondere alle persone che non fanno più parte del gruppo di acquisto.
+
+**Membro del pubblico del profilo**
+
+Utilizza il vincolo _[!UICONTROL Pubblico profilo]_ per selezionare uno o più tipi di pubblico. Ad esempio, se selezioni il pubblico `integroPerson`, l&#39;evento corrisponderà solo alle persone che erano membri di quel pubblico quando si è verificata l&#39;ultima acquisizione batch.
+
+>[!NOTE]
+>
+>Il filtro non calcola l’iscrizione al pubblico in tempo reale. Qualifica le persone in base alla loro appartenenza al pubblico selezionato al momento dell’ultima acquisizione batch del pubblico. Solo i tipi di pubblico acquisiti in [!DNL Journey Optimizer B2B Edition] possono essere valutati.
+
 ## Aggiungere un timeout a un nodo evento {#timeouts}
 
 Se necessario, definisci il tempo di attesa dell’evento da parte del percorso. Il percorso termina dopo un timeout a meno che non si definisca un percorso di timeout in cui è possibile aggiungere altri nodi.
 
 Abilita l&#39;opzione **[!UICONTROL Timeout]** nelle proprietà del nodo per specificare un timeout per il nodo _Ascolta un evento_.
 
-1. Con le opzioni abilitate, scegli il _Tipo_ e specifica i parametri per il timeout:
+1. Con l&#39;opzione abilitata, scegli il _Tipo_ e specifica i parametri per il timeout:
 
    * **[!UICONTROL Durata]** - Utilizzare questo tipo per specificare un periodo di tempo per l&#39;attivazione dell&#39;evento. Se l’evento non si attiva entro tale periodo, la persona o l’account non procede nel percorso.
 
