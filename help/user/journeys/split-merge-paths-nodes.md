@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
 workflow-type: tm+mt
-source-wordcount: '2349'
+source-wordcount: '2569'
 ht-degree: 4%
 ---
 # Dividere e unire i percorsi {#split-paths}
@@ -50,7 +50,7 @@ Un nodo _Percorsi suddivisi_ definisce uno o più percorsi segmentati in base ai
 
 I percorsi suddivisi per account possono includere azioni ed eventi sia per gli account che per le persone. Questi percorsi possono essere ulteriormente suddivisi.
 
-_&#x200B;**Funzionamento di un percorso suddiviso per nodo account**&#x200B;_
+_**Funzionamento di un percorso suddiviso per nodo account**_
 
 * Ogni percorso aggiunto include un nodo finale con la possibilità di aggiungere nodi a ogni nodo edge.
 * È possibile nidificare il percorso suddiviso per nodi di account (è possibile dividerlo più volte per account).
@@ -142,7 +142,7 @@ _(percorsi di account e persone)_
 
 I percorsi Dividi per persone possono includere solo azioni persone. Questi percorsi non possono essere nuovamente suddivisi e uniti automaticamente.
 
-_&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
+_**Funzionamento di un percorso suddiviso per nodo persone**_
 
 * I nodi suddivisi per persone funzionano all&#39;interno di una combinazione di _nodo raggruppato_ split-merge. I percorsi suddivisi si uniscono automaticamente in modo che tutte le persone possano passare al passaggio successivo senza perdere il contesto dell’account.
 * I nodi Dividi per persone non possono essere nidificati (non è possibile aggiungere un percorso diviso per le persone in un percorso che si trova in questo nodo raggruppato).
@@ -159,7 +159,8 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 | [!UICONTROL Oggetti personalizzati] > Contiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funzione Beta"} La persona non dispone di record dello schema relazionale. Può anche essere valutato in base a qualsiasi criterio oggetto personalizzato selezionato, come configurato nello schema relazionale [XDM](../admin/xdm-field-management.md#relational-schemas). (Vedi [Filtro dati personalizzato](#custom-data-filtering)) |
 | [!UICONTROL Cronologia eventi] | Divide le persone in base agli eventi di esperienza che si sono verificati prima dell’ingresso nel percorso. Espandere la cartella per visualizzare tutti i tipi di evento configurati in [Amministrazione > Configurazione evento XDM](../admin/configure-aep-events.md) e selezionarne uno da aggiungere come filtro. I vincoli includono i campi dell’evento selezionato, un intervallo di tempo di lookback misurato dal momento in cui la persona entra nel percorso e un numero minimo facoltativo di volte. |
 | [!UICONTROL Attributi persona] | Attributi dal [profilo persona](../admin/field-mapping.md#xdm-business-person-attributes), inclusi: <li>Città <li>Paese <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area geografica dello stato dedotta <li>Titolo del processo <li>Cognome <li>Numero di cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato |
-| [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>È stato rimosso</li><li>Ruolo</li> |
+| [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>È stato rimosso (impostazione predefinita: `false`)</li><li>Ruolo</li> (Vedi [Filtro appartenenza](#membership-filtering)) |
+| [!UICONTROL Filtri speciali] > [!UICONTROL Membro del pubblico del profilo] | La persona è o non è membro di uno o più tipi di pubblico del profilo [!DNL Adobe Experience Platform]. (Vedi [Filtro appartenenza](#membership-filtering)) |
 
 ### Condizioni del percorso account-persona
 
@@ -224,33 +225,44 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 
 Per un percorso suddiviso per persone, puoi definire un percorso in base agli eventi di esperienza che si sono verificati prima che la persona entrasse nel percorso. Per visualizzare un elenco di tutti i tipi di evento configurati dall&#39;amministratore, espandere la cartella **[!UICONTROL Event history]** nell&#39;editor delle condizioni. Seleziona un tipo di evento per aggiungerlo come condizione di filtro.
 
-L’intervallo di tempo di lookback per la cronologia degli eventi viene misurato indietro dal momento in cui la persona entra nel percorso. Una finestra di 30 giorni, ad esempio, valuta se l&#39;evento idoneo si è verificato nei 30 giorni precedenti l&#39;immissione del percorso.
+La finestra temporale per la cronologia degli eventi viene misurata all’indietro dal momento in cui la persona entra nel percorso. Una finestra di 30 giorni, ad esempio, valuta se l&#39;evento idoneo si è verificato nei 30 giorni precedenti l&#39;immissione del percorso.
 
-Puoi perfezionare ulteriormente il filtro utilizzando vincoli specifici per i campi dell’evento selezionato. I vincoli facoltativi **[!UICONTROL Numero minimo di volte]** e **[!UICONTROL Data attività]** vengono entrambi valutati nell&#39;intervallo di lookback definito. Poiché i dati della cronologia eventi vengono sincronizzati da Adobe Experience Platform, potrebbe trascorrere un breve ritardo prima che un evento recente diventi disponibile per questo filtro.
+Puoi perfezionare ulteriormente il filtro utilizzando vincoli specifici per i campi dell’evento selezionato. I vincoli facoltativi **[!UICONTROL Numero minimo di volte]** e **[!UICONTROL Data attività]** vengono entrambi valutati nell&#39;intervallo di lookback definito. Poiché i dati della cronologia eventi sono sincronizzati da [!DNL Adobe Experience Platform], potrebbe verificarsi un breve ritardo prima che un evento recente diventi disponibile per questo filtro.
 
 >[!NOTE]
 >
 >Le [configurazioni dei campi e degli eventi esperienza](../admin/configure-aep-events.md) determinano gli eventi disponibili nella cartella [!UICONTROL Cronologia eventi].
 
-**Esempio:** Per indirizzare gli utenti che hanno fatto clic su un collegamento in un&#39;e-mail di marketing prima di entrare nel percorso, seleziona l&#39;evento di clic e-mail dalla cartella [!UICONTROL Event history], imposta l&#39;intervallo di lookback in modo che copra il periodo di tempo rilevante e applica eventuali vincoli a livello di campo (ad esempio un URL di collegamento specifico) in base alle esigenze.
+**Esempio:** Per indirizzare gli utenti che hanno fatto clic su un collegamento in un&#39;e-mail di marketing prima di entrare nel percorso, selezionare l&#39;evento di clic e-mail dalla cartella [!UICONTROL Event history], impostare l&#39;intervallo di lookback e applicare i vincoli a livello di campo in base alle esigenze.
 
 ![Condizione Dividi percorso per persone per cronologia eventi](./assets/node-split-people-condition-event-history.png){width="700" zoomable="yes"}
 
 >[!BEGINSHADEBOX &quot;Filtro inattività&quot;]
 
-Per ciascuno dei filtri _[!UICONTROL Cronologia eventi]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa al filtro di inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Per creare un percorso per le persone che _&#x200B;**non hanno aperto**&#x200B;_ un&#39;e-mail, aggiungi il filtro _[!UICONTROL E-mail marketing diretto aperto]_. Abilita l’opzione di inattività e specifica l’e-mail.
+Per ciascuno dei filtri _[!UICONTROL Cronologia eventi]_, è possibile abilitare l&#39;opzione **[!UICONTROL Passa al filtro di inattività]**. Questa opzione trasforma il filtro in una valutazione per l’assenza di quel tipo di attività. Per creare un percorso per le persone che _**non hanno aperto**_ un&#39;e-mail, aggiungi il filtro _[!UICONTROL E-mail marketing diretto aperto]_. Abilita l’opzione di inattività e specifica l’e-mail.
 
 ![Dividi percorso per condizione di inattività persone](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
-### Filtro appartenenza
+### Filtro appartenenza {#membership-filtering}
 
-Nella sezione _[!UICONTROL Filtri speciali]_ sono disponibili più filtri che è possibile utilizzare per valutare l&#39;appartenenza di una persona a un gruppo di acquisto.
+Nella sezione _[!UICONTROL Filtri speciali]_, utilizza i seguenti filtri per creare percorsi in base all&#39;appartenenza di una persona:
 
-Ad esempio, se desideri creare un percorso per le persone che sono membri di un gruppo di acquisto e a cui è assegnato un ruolo particolare, aggiungi il filtro _[!UICONTROL Filtri speciali]_ > _[!UICONTROL Membro del gruppo di acquisto]_. Per il filtro, impostare l&#39;appartenenza come _true_ e selezionare un _[!UICONTROL interesse per la soluzione]_ associato a uno o più gruppi di acquisto.
+* _[!UICONTROL Membro del gruppo di acquisto]_ - Valuta se la persona è membro di un gruppo di acquisto.
+* _[!UICONTROL Membro del pubblico profilo]_ - Valuta se la persona è membro di un pubblico profilo [!DNL Adobe Experience Platform].
 
-![Condizione Dividi percorso per persona per l&#39;acquisto dell&#39;iscrizione al gruppo](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
+Per aggiungere un filtro appartenenza, trascinarlo dalla cartella _[!UICONTROL Filtri speciali]_ nell&#39;area di lavoro condizioni e impostare l&#39;appartenenza su _true_ per includere i membri o su _false_ per escluderli. È possibile combinare entrambi i filtri nella stessa condizione di percorso e utilizzare la **[!UICONTROL logica filtro]** per farli corrispondere a uno o a tutti.
+
+Questi filtri sono disponibili anche quando si [aggiungono filtri per un evento](./listen-for-event-nodes.md#membership-filtering) in un nodo _Ascolta un evento_.
+
+![Condizione Dividi percorso per persone per l&#39;acquisto dell&#39;iscrizione al gruppo e al pubblico del profilo](./assets/node-split-people-condition-profile-audience-membership.png){width="700" zoomable="yes"}
+
+**Membro del gruppo di acquisto**
+
+Ad esempio, per creare un percorso per l&#39;acquisto di membri del gruppo con un ruolo specifico, impostare l&#39;appartenenza su _true_ e selezionare un _[!UICONTROL interesse per la soluzione]_ associato ai gruppi di acquisto.
+
+Quando si aggiunge il filtro, il sistema include il vincolo _[!UICONTROL Rimosso]_ per impostazione predefinita e lo imposta su `false`, pertanto il percorso include solo i membri correnti del gruppo di acquisto.
 
 Fare clic su **[!UICONTROL Aggiungi vincolo]** per includere ulteriori vincoli di appartenenza al gruppo di acquisto:
 
@@ -258,12 +270,25 @@ Fare clic su **[!UICONTROL Aggiungi vincolo]** per includere ulteriori vincoli d
 * _[!UICONTROL Stato gruppo acquisti]_
 * _[!UICONTROL Punteggio di completezza]_
 * _[!UICONTROL Punteggio di coinvolgimento]_
-* _[!UICONTROL Rimosso]_
 * _[!UICONTROL Ruolo]_
 
->[!TIP]
+>[!IMPORTANT]
 >
->Per escludere i membri rimossi da un gruppo di acquisto, utilizzare il vincolo _[!UICONTROL Rimosso]_ impostato su `false`. È inoltre possibile includere in modo esplicito i membri rimossi impostando questo vincolo su `true`.
+>Il vincolo _[!UICONTROL Rimosso]_ determina se i membri del gruppo di acquisto rimossi vengono valutati:
+>
+>* `false` (impostazione predefinita) - Restituisce solo i membri del gruppo di acquisto corrente. I membri rimossi non sono inclusi.
+>* `true` - Restituisce solo i membri del gruppo di acquisto rimossi. I membri correnti non sono inclusi.
+>* Vincolo rimosso: restituisce i membri del gruppo di acquisto correnti e rimossi.
+>
+>Se rimuovi il vincolo, il percorso può includere persone che non fanno più parte del gruppo di acquisto.
+
+**Membro del pubblico del profilo**
+
+Utilizza il vincolo _[!UICONTROL Pubblico profilo]_ per selezionare uno o più tipi di pubblico. Ad esempio, se selezioni il pubblico `integroPerson`, il percorso qualifica tutte le persone che erano membri di quel pubblico quando si è verificata l&#39;ultima acquisizione batch.
+
+>[!NOTE]
+>
+>Il filtro non calcola l’iscrizione al pubblico in tempo reale. Qualifica le persone in base alla loro appartenenza al pubblico selezionato al momento dell’ultima acquisizione batch del pubblico. Solo i tipi di pubblico acquisiti in [!DNL Journey Optimizer B2B Edition] possono essere valutati.
 
 ## Filtro dati personalizzato {#custom-data-filtering}
 
@@ -287,12 +312,12 @@ Per combinare diversi _percorsi suddivisi per account_ nel percorso, aggiungere 
 
 1. Nelle proprietà del nodo percorsi unione, seleziona i percorsi che desideri unire.
 
-   ![nodo Percorso - unisci percorsi](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
+   ![nodo Percorso - selezionare i percorsi da unire](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
-   A questo punto, i percorsi vengono uniti in modo che gli account dei percorsi selezionati si combinino in un unico percorso che può continuare a progredire attraverso il percorso.
+   I percorsi vengono uniti in modo che gli account dei percorsi selezionati si combinino in un unico percorso che può continuare a progredire attraverso il percorso.
 
 1. Se necessario, puoi annullare l’unione dei percorsi tornando alle proprietà del nodo percorsi unione e deselezionando la casella di controllo per tutti i percorsi che desideri rimuovere.
 
 ## Video di panoramica {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443264/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
