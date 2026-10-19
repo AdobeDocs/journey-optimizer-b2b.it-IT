@@ -10,10 +10,10 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
+source-git-commit: 87bce853d68d03eabceccf02ba80a8077dce206d
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 32%
+source-wordcount: '1057'
+ht-degree: 27%
 ---
 # Documentazione di Adobe Journey Optimizer B2B Edition
 
@@ -27,13 +27,17 @@ Esaminare questo esempio delle ultime aggiunte e dei miglioramenti apportati all
 
 >[!BEGINTABS]
 
->[!TAB Agenti AI]
+>[!TAB percorsi di persone]
 
-Con [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, l&#39;interfaccia dell&#39;Assistente di intelligenza artificiale può richiamare automaticamente agenti specializzati per ottenere le risposte e le informazioni corrette. Agent Orchestrator ricorda la cronologia delle conversazioni consentendoti di fare riferimento alle domande precedenti in modo naturale, senza dover ripetere il contesto, e combina gli insight provenienti da più agenti per fornire risposte chiare e unificate. Nel contesto [!DNL Journey Optimizer B2B Edition] sono disponibili tre agenti appositamente creati per attività e domini B2B specifici:
+Organizza attività di marketing basate su lead con percorsi di persone, che utilizzano i dati e il pubblico di [!DNL Adobe Experience Platform] per coinvolgere singole persone. I percorsi di persone ora supportano _Ascolta un evento_, azione esterna e nodi di percorsi suddivisi esterni e reinserimento del percorso. Utilizzali insieme a percorsi di account e gruppi di acquisto per orchestrare l’intero percorso di acquisto.
 
-* [Audience Agent B2B](./agents/audience-agent-b2b.md)
-* [Journey Agent B2B](./agents/journey-agent.md)
-* [Agente Account Qualification](https://experienceleague.adobe.com/it/docs/sales-qualifier/using/home){target="_blank"}
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/journeys/journeys-overview.md" tooltip="Informazioni sui percorsi di persone"}
+
+>[!TAB Percorsi suddivisi variante]
+
+Verifica le varianti all’interno di un percorso di account o persone assegnando account o persone a percorsi di percorso diversi in base alle percentuali definite. Nei percorsi di persone, l&#39;assegnazione è deterministica, quindi ogni persona segue sempre lo stesso percorso, che supporta gli esperimenti controllati.
+
+[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/journeys/variant-split-paths-nodes.md" tooltip="Scopri i percorsi di suddivisione delle varianti"}
 
 >[!TAB Canale WhatsApp]
 
@@ -55,21 +59,9 @@ Per i nodi di azione _Invia e-mail_ in percorsi di persone, ora puoi utilizzare 
 
 >[!TAB Percorso di rientro]
 
-Ora puoi inviare account/persone più volte tramite un flusso di lavoro di percorso dell’account. Il reinserimento prevede più scenari, ad esempio la rivalutazione dei criteri di qualificazione e dei flussi di lavoro di sviluppo riutilizzabili. Utilizzare le impostazioni di reinserimento per impostare criteri, limiti e tempi di attesa in modo che gli account possano essere riqualificati per il percorso in modo controllato.
+Ora puoi inviare più volte account o persone tramite un account o un percorso di persone. Il reinserimento prevede più scenari, ad esempio la rivalutazione dei criteri di qualificazione e dei flussi di lavoro di sviluppo riutilizzabili. Utilizzare le impostazioni di reinserimento per impostare criteri, limiti e tempi di attesa in modo che gli account o le persone possano riqualificarsi per il percorso in modo controllato.
 
 [!BADGE Ulteriori informazioni]{type=Informative url="/help/user/journeys/journey-re-entry.md" tooltip="Informazioni sul rientro nel percorso"}
-
->[!TAB Temi marchio]
-
-Con i temi, i designer non tecnici hanno la possibilità di creare linee guida per la progettazione di contenuti e-mail riutilizzabili, in linea con un marchio e uno stile specifici. I temi consentono agli addetti al marketing di sfruttare le e-mail visivamente accattivanti e coerenti con il brand in modo più rapido e con meno sforzo, e di fornire opzioni di personalizzazione avanzate per esigenze di progettazione univoche.
-
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/content/brand-themes.md" tooltip="Scopri i temi del brand"}
-
->[!TAB Mappatura persona]
-
-Gli addetti al marketing possono definire profili dettagliati che includono informazioni di base, responsabilità, punti critici e canali di comunicazione preferiti. Con queste definizioni, gli amministratori possono configurare gli utenti tipo in base agli attributi della persona in [!DNL Journey Optimizer B2B Edition] in modo che i modelli di ruolo possano utilizzare condizioni di ruolo semplificate e coerenti per acquisire tali utenti tipo.
-
-[!BADGE Ulteriori informazioni]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Scopri la mappatura personale"}
 
 >[!ENDTABS]
 
@@ -77,38 +69,41 @@ Gli addetti al marketing possono definire profili dettagliati che includono info
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Note sulla versione più recente
 
-Rimani aggiornato con le note sulla versione più recente, le nuove funzioni e i miglioramenti apportati in Adobe Journey Optimizer B2B edition.
+Rimani aggiornato con le ultime note sulla versione, le nuove funzioni e i miglioramenti in [!DNL Adobe Journey Optimizer B2B Edition].
 
 [Consulta le note sulla versione](./release-notes/release-notes.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione
 
-Consulta le linee guida per l’onboarding di Journey Optimizer B2B edition per amministratori e addetti al marketing.
+Rivedi le linee guida per l&#39;onboarding di [!DNL Journey Optimizer B2B Edition] per amministratori e addetti al marketing.
 
 [Amministratori](./setup-ultimate.md)
 [Utenti](./start/get-started.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Configurare i campi XDM
+Gestione dei dati
 
-Implementa le configurazioni di sistema per attivare gli schemi e i campi XDM da utilizzare in Adobe Journey Optimizer B2B edition.
+Attiva gli schemi e i campi XDM che desideri utilizzare in [!DNL Adobe Journey Optimizer B2B Edition] e scopri come funzionano i relativi dati in [!DNL Adobe Experience Platform].
 
 [Visualizza gestione campi XDM](./admin/xdm-field-management.md)
+[Set di dati esportati](./data/aep-exported-datasets.md)
+[Query set di dati](./data/aep-query-examples.md)
+[Disponibilità dei dati e tempi di sincronizzazione](./data/data-availability-timing.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canali di comunicazione
 
@@ -120,17 +115,17 @@ Configura e gestisci e-mail, SMS, WhatsApp e altri canali per interazioni person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Creare un percorso
 
-Progetta, gestisci, gestisci e ottimizza percorsi personalizzati.
+Progetta, gestisci, gestisci e ottimizza percorsi personalizzati di account e persone.
 
 [Esplorare i percorsi](./journeys/journeys-overview.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Comprendere i gruppi di acquisto
 
@@ -143,7 +138,7 @@ Linee guida dettagliate sulla creazione, gestione e ottimizzazione dei gruppi di
 
 <!--
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Design Content
 
@@ -165,14 +160,8 @@ Scopri i componenti di un gruppo acquisti e comprendi le nozioni di base per la 
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Introduzione"><br/>
-      <strong>Introduzione</strong><br/><a href="home-page.md">Accesso e pagina Home</a><br/><a href="./start/get-started.md">Guida all’onboarding</a> <br/><a href="./ai-coworker/ai-assistant-overview.md">Assistente IA</a>
+      <strong>Introduzione</strong><br/><a href="home-page.md">Accesso e home page</a><br/><a href="./start/get-started.md">Guida all'onboarding</a> <br/><a href="./ai-coworker/ai-assistant-overview.md">Funzionalità AI</a>
     </td>
-    <!--
-    <td>
-      <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>Configuration<br/>administration</strong><br/><a href="using/configuration/channel-surfaces.md">Channel surfaces</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configure journeys</a>  - <a href="using/administration/permissions-overview.md">Access control</a> - <a href="using/administration/sandboxes.md">Sandboxes management</a>
-    </td>
-    -->
     <td>
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Gruppi acquisti"><br/>
       <strong>Gruppi acquisti</strong><br/><a href="./buying-groups/buying-groups-overview.md">Panoramica dei gruppi acquisti</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Modelli di ruoli</a><br/><a href="./buying-groups/solution-interests.md">Soluzioni di interesse</a><br/><a href="./buying-groups/buying-groups-create.md">Creare gruppi acquisti</a>
@@ -202,8 +191,8 @@ Scopri i componenti di un gruppo acquisti e comprendi le nozioni di base per la 
 ## Risorse aggiuntive
 
 <table style="table-layout:fixed">
-<tr><td><strong>Adobe Journey Optimizer B2B edition</strong><br/>
-<a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Video e tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrizione del prodotto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
+<a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Video e tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descrizione del prodotto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/it/docs/experience-platform/landing/home" target="_blank">Documentazione</a> - <a href="https://business.adobe.com/it/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Risorse per sviluppatori</a>
