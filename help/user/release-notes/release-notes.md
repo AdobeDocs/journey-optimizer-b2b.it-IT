@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 783fa2ddf72a910b191b2eb93c6dcd71d2cddc8c
+source-git-commit: 585e34d466ff17723a4049a0050a79d23783f2ce
 workflow-type: tm+mt
-source-wordcount: '5781'
+source-wordcount: '5784'
 ht-degree: 60%
 ---
 # Note sulla versione di Journey Optimizer B2B Edition
@@ -43,7 +43,7 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Dashboard integrità servizio | Monitora lo stato operativo delle azioni esterne raccogliendo metriche di successo/errore e fornendo dashboard che consentano agli amministratori di monitorare le prestazioni del servizio. |
+| Miglioramento | Integrità dell’azione esterna | Gli amministratori ora possono monitorare le prestazioni delle azioni esterne in un dashboard che mostra il conteggio delle richieste, il conteggio degli errori e i tassi di errore. [Ulteriori informazioni](../admin/configure-external-actions.md#monitor-health) |
 | Miglioramento | Membro del filtro Pubblico profilo | Questo filtro è ora disponibile per le condizioni del percorso diviso del percorso di persone, per le condizioni del percorso diviso della persona del percorso di account e per i filtri del nodo _Ascolta un evento_ per includere o escludere profili in base alla loro appartenenza al pubblico. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | Miglioramento | Filtro Membro del gruppo di acquisto - Rimosso predefinito | Nelle condizioni _split path by people_ e _Listen for an event_ node filters (Ascolta i filtri di un nodo evento), il vincolo _[!UICONTROL Is Removed]_ è ora selezionato per impostazione predefinita e impostato su `false` quando si aggiunge il filtro _[!UICONTROL Member of Buying Group]_. Il filtro restituisce solo i membri del gruppo di acquisto corrente a meno che non si modifichi o rimuova il vincolo. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | Miglioramento | Rientro percorso - percorsi di persone | Il supporto per il reinserimento nel percorso è ora disponibile per i percorsi di persone. |
