@@ -386,7 +386,7 @@ Usare per i nomi di prodotto di marca che devono rimanere in inglese.
 - Acronimi (rimani automaticamente in inglese)
 - Termini già presenti nel database Do Not Translate
 
-**Nel testo del collegamento:** Rimuovere le parentesi per evitare problemi di rendering. Usa `[Adobe](https://www.adobe.com)` e non `[[!DNL Adobe]](https://www.adobe.com)`.
+**Nel testo del collegamento:** Rimuovere le parentesi per evitare problemi di rendering. Usa `[Adobe](https://www.adobe.com/it)` e non `[[!DNL Adobe]](https://www.adobe.com/it)`.
 
 ### `[!UICONTROL Label]`: Controlli interfaccia utente
 

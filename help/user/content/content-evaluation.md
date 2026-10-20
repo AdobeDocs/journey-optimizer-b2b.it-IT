@@ -34,7 +34,7 @@ La valutazione e il punteggio dei contenuti consentono di creare, esaminare e ge
 
 >[!AVAILABILITY]
 >
->È necessario un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di poter utilizzare le funzionalità basate sull&#39;intelligenza artificiale in Adobe Journey Optimizer B2B Edition. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>È necessario un [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di poter utilizzare le funzionalità basate sull&#39;intelligenza artificiale in Adobe Journey Optimizer B2B Edition. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 >
 >Consulta [Autorizzazioni relative al marchio](./brands-overview.md#brand-related-permissions) per informazioni su come gli amministratori di prodotto possono abilitare queste funzioni.
 
