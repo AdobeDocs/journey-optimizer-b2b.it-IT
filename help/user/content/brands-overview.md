@@ -68,7 +68,7 @@ La tua organizzazione può sfruttare al meglio un marchio nella creazione e nell
 >
 >Questa funzionalità è attualmente disponibile come versione beta pubblica.
 >
->È necessario un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di poter utilizzare le funzionalità basate sull&#39;intelligenza artificiale in Adobe Journey Optimizer B2B Edition. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>È necessario un [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di poter utilizzare le funzionalità basate sull&#39;intelligenza artificiale in Adobe Journey Optimizer B2B Edition. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 Un marchio definito fornisce la _fonte di verità_ che il team creativo può utilizzare quando crea contenuti visivi o scritti. Quando queste linee guida vengono compilate e le risorse del brand condivise, qualsiasi membro del team o collaboratore può creare contenuti sul brand per il tuo prodotto. Per abilitare la creazione di contenuti nel brand in Journey Optimizer B2B Edition, completa le seguenti attività:
 
