@@ -1,26 +1,28 @@
 ---
 title: Acquisto di modelli di mansione per gruppi
-description: Crea modelli di ruolo con assegnazione automatica condizionale per identificare i responsabili decisionali e le parti interessate per l’acquisto di gruppi in Journey Optimizer B2B edition.
+description: Crea modelli di ruolo con assegnazione automatica condizionale per identificare i responsabili decisionali e le parti interessate per l’acquisto di gruppi in Journey Optimizer B2B Edition.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: '1435'
 ht-degree: 5%
-
 ---
-
 # Modelli di ruoli del gruppo acquisti
 
 In un mercato B2B, più individui di solito prendono decisioni di acquisto. Tali persone partecipano al processo decisionale in base al loro ruolo all’interno dell’organizzazione. Crea modelli di ruolo per gruppo di acquisto contenenti un gruppo di definizioni di ruolo in base a ciascun tipo di offerta di prodotto o caso di utilizzo dell’account.
@@ -29,9 +31,9 @@ In un mercato B2B, più individui di solito prendono decisioni di acquisto. Tali
 
 >[!BEGINSHADEBOX]
 
-## Audience Agent B2B
+## Competenze del pubblico
 
-[Audience Agent B2B](../agents/audience-agent-b2b.md) può generare un modello di ruoli del gruppo di acquisto dal rilevamento intento di prime parti e dal mapping degli utenti tipo. Nel flusso guidato, puoi identificare gli utenti tipo collegati a un prodotto, esaminare le mappature tra ruoli e utenti tipo consigliate dall’intelligenza artificiale e perfezionare il modello con un linguaggio naturale prima di pubblicarlo.
+Utilizza [le abilità del pubblico per gli account B2B e le persone](../agents/audience-agent-b2b.md) per generare un modello di ruolo del gruppo di acquisto dal rilevamento dell&#39;intento di prime parti e dalla mappatura della persona. Nel flusso guidato, puoi identificare gli utenti tipo collegati a un prodotto, esaminare le mappature tra ruoli e utenti tipo consigliate dall’intelligenza artificiale e perfezionare il modello con un linguaggio naturale prima di pubblicarlo.
 
 **Richieste da provare:**
 
@@ -39,7 +41,7 @@ In un mercato B2B, più individui di solito prendono decisioni di acquisto. Tali
 * Aggiungi `<role>` mappato a `<persona>`
 * Rimuovi `<role>` / `<persona>`
 
-![Audience Agent B2B creazione di un modello di ruoli del gruppo di acquisto](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
+![Acquisto del modello di ruolo del gruppo generato con abilità del pubblico.](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 

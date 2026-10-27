@@ -1,6 +1,6 @@
 ---
-title: Journey Agent B2B
-description: Scopri come utilizzare il Journey Agent basato sull’intelligenza artificiale e le sue competenze per creare, gestire e osservare solidi percorsi B2B.
+title: Abilità di percorso per B2B
+description: Scopri come utilizzare le competenze di Percorso basate sull’intelligenza artificiale che puoi utilizzare per creare, gestire e osservare solidi percorsi B2B.
 feature: Account Journeys, Person Journeys, Agentic AI
 role: User
 exl-id: 5d2945ab-4f6c-4d9c-b0a1-1a93dc1849f3
@@ -36,31 +36,31 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1115'
 ht-degree: 0%
 ---
-# Journey Agent B2B
+# Competenze di percorso per il B2B
 
-Journey Agent B2B è un assistente basato sull’intelligenza artificiale in Adobe Journey Optimizer B2B Edition che consente di progettare, eseguire, ottimizzare e monitorare i percorsi B2B attraverso il linguaggio naturale. Riduce il tempo e la complessità necessari per la creazione e la gestione dei percorsi dei clienti, combinando automazione, consigli basati sui dati e osservabilità in tempo reale.
+Nella chat di [!DNL CX Enterprise Coworker], le abilità di percorso ti aiutano a progettare, eseguire, ottimizzare e monitorare [!DNL Adobe Journey Optimizer B2B Edition] percorsi attraverso il linguaggio naturale. L’utilizzo di queste competenze riduce il tempo e la complessità necessari per la creazione e la gestione di percorsi di account e persone, combinando automazione, consigli basati sui dati e osservabilità in tempo reale.
 
-![Prompt B2B di Journey Agent](./assets/journey-agent-prompt.png)
+[!DNL CX Coworker] fornisce un set di abilità di intelligenza artificiale che include un sottoinsieme per il ciclo di vita del percorso B2B. Le competenze attualmente disponibili sono:
 
-Journey Agent B2B fornisce una serie di competenze IA, ognuna incentrata su un aspetto diverso del ciclo di vita del percorso B2B. Le abilità attualmente disponibili sono:
+* **[abilità di creazione Percorsi](#journey-creation-skills)** - Crea, aggiorna e ottimizza percorsi dai prompt del linguaggio naturale
+* **[abilità di osservabilità Percorso](#journey-observability-skills)** - Poni domande su come gli account e le persone passano attraverso i percorsi attivi
 
-* **[Percorso abilità di compilazione](#journey-build-skill)** - Crea, aggiorna e ottimizza percorsi dai prompt del linguaggio naturale
-* **[Percorso di abilità di osservabilità](#journey-observability-skill)** - Poni domande su come gli account e le persone passano attraverso i percorsi attivi
+Fai clic sull&#39;icona _Chiedi a[!DNL Coworker]_ ( ![Chiedi a [!DNL Coworker]](../assets/do-not-localize/icon-ask-coworker.svg) ) nella parte superiore dell&#39;applicazione per aprire l&#39;interfaccia [!DNL Coworker].
 
-## Abilità di Percorsi Build
+## abilità di creazione percorso {#journey-creation-skills}
 
-L’abilità di creazione del Percorso traduce i tuoi obiettivi di marketing, la strategia di coinvolgimento e i KPI in percorsi di clienti B2B completi. Affronta tre sfide chiave che gli esperti di marketing B2B devono affrontare oggi:
+Le competenze per la creazione di percorsi traducono gli obiettivi di marketing, la strategia di coinvolgimento e i KPI in percorsi di clienti B2B completi. Affrontano tre sfide chiave per gli esperti di marketing B2B:
 
 * Gestire percorsi di clienti sempre più complessi (complessità in termini di pubblico, contenuti e messaggi, omnicanale)
 * Aumento dell&#39;efficienza in un contesto di budget più limitati
 * Come strutturare il percorso cliente ottimale
 
-In qualità di addetto al marketing, puoi utilizzare questa abilità per:
+In qualità di addetto al marketing, puoi utilizzare queste abilità per:
 
 * **Creazione** - Traduci i tuoi obiettivi di marketing, prodotti, strategia di coinvolgimento e KPI in un percorso clienti personalizzato con automazione e condizioni
 * **Consiglia** - Sfrutta il coinvolgimento di marketing passato e altri dati storici per ottimizzare la creazione di percorsi
@@ -69,13 +69,13 @@ In qualità di addetto al marketing, puoi utilizzare questa abilità per:
 
 ### Utilizzo di base
 
-Per utilizzare l’abilità Journey Agent Build, digita nella finestra del prompt cosa stai cercando di creare, utilizzando il linguaggio naturale:
+Per utilizzare le abilità di creazione del percorso, digitare nella finestra del prompt [!DNL Coworker] ciò che si desidera creare, utilizzando il linguaggio naturale:
 
 &quot;Creare un percorso B2B per invitare i decision maker a un roadshow negli account coinvolti che molto probabilmente aprirà una nuova pipeline.&quot;
 
-![Richiesta B2B dell&#39;agente di Percorso per l&#39;abilità di compilazione](./assets/journey-agent-tasks.png)
+![abilità di creazione Percorso per il prompt B2B in [!DNL CX Coworker]](./assets/coworker-chat-b2b-journey-prompt.png){width="800" zoomable="yes"}
 
-Maggiore è il numero di dettagli forniti, migliore è la risposta. Se disponi di materiali di marketing esistenti che descrivono l’evento, il prodotto, ecc., incollali nel prompt, in modo che l’agente possa comprendere meglio l’obiettivo.
+Maggiore è il numero di dettagli forniti, migliore è la risposta. Se sono presenti materiali di marketing che descrivono l&#39;evento, il prodotto e così via, incollarli nel prompt in modo che [!DNL Coworker] abbia una migliore comprensione dell&#39;obiettivo.
 
 &quot;Agisci come stratega del percorso B2B per creare un percorso di account cliente in più fasi che coinvolga decisori e responsabili marketing nella prima fase di esplorazione di `<Solution Name>`. L&#39;obiettivo è quello di convertire i visitatori anonimi in contatti noti, approfondire il coinvolgimento con contenuti rilevanti su `<domain>`.com e lead qualificati principali per `<Product Name>` attività di vendita. Utilizza canali quali e-mail e media a pagamento, sfruttando i segmenti di pubblico e i contenuti esistenti. Strutturare il percorso in fasi di consapevolezza, considerazione e valutazione per 4-6 settimane, con chiari trigger, azioni e obiettivi per ogni fase. Includi KPI come tassi di conversione, punteggi di coinvolgimento e richieste demo e restituisce l’output come un flusso di percorso strutturato.&quot;
 
@@ -86,11 +86,11 @@ Questo prompt dettagliato fornisce:
 * **Formato strutturato**: utilizzare punti elenco, passaggi numerati o modelli.
 * **Assegnazione ruolo**: specifica il ruolo dell&#39;IA - &#39;Agisci come analista di dati...&#39;
 
-Utilizza l’agente per iterare il perfezionamento: inizia con semplice, quindi perfeziona il prompt in base ai risultati. I cicli di feedback migliorano i risultati nel tempo.
+Inizia con un semplice prompt, quindi perfezionalo in base ai risultati. Utilizza i prompt di follow-up per eseguire l’iterazione.
 
 ### Creazione di percorsi B2B end-to-end
 
-L’abilità di creazione del Percorso può generare un flusso di percorso end-to-end (percorso account o persona) dai prompt di testo e dai metadati in linguaggio naturale, attraverso un’esperienza di conversazione anziché un’interfaccia utente tradizionale.
+Le abilità di creazione del percorso possono generare un flusso di percorso end-to-end (percorso account o persona) da prompt di testo e metadati in linguaggio naturale, attraverso un&#39;esperienza di conversazione piuttosto che un&#39;interfaccia utente tradizionale.
 
 Esempi di prompt di Percorso end-to-end:
 
@@ -107,25 +107,21 @@ Puoi agire come progettista di percorsi B2B per creare un percorso di account cl
 * Strutturare il percorso in `awareness`, `consideration` e `evaluation` fasi nell&#39;arco di 4-6 settimane, con trigger, azioni e obiettivi chiari per ciascuna fase.
 * Includere i KPI, ad esempio `conversion rates`, `engagement scores` e `demo requests`, e restituire l&#39;output come un flusso di percorso strutturato.
 
-## Osservabilità percorso abilità
+## abilità di osservabilità percorso {#journey-observability-skills}
 
-L’abilità Osservabilità del Percorso consente di porre domande in linguaggio naturale sul modo in cui gli account e le persone si spostano nei percorsi B2B, senza scavare tra mappe di percorso, registri o dashboard. Copre due aree principali: progressione del percorso e osservabilità della sincronizzazione dei dati.
+Le competenze di osservabilità del percorso consentono di porre domande in linguaggio naturale sul modo in cui gli account e le persone si spostano nei percorsi B2B, senza scavare tra mappe di percorso, registri o dashboard. Coprono due aree principali: progressione del percorso e osservabilità della sincronizzazione dei dati.
 
-È possibile accedervi in due posizioni all’interno di Journey Optimizer B2B Edition:
-
-* **Assistente sulla barra a destra nella mappa del percorso** - Poni domande specifiche per il percorso direttamente dalla mappa del percorso. Il nome del percorso viene inserito automaticamente nel contesto.
-
-* **Pagina dell&#39;Assistente a schermo intero** - Una visualizzazione conversazionale più ampia adatta a domande complesse o con più account ed esplorando più percorsi.
+![Richiesta di osservabilità Percorso e risposta in [!DNL CX Coworker]](./assets/journey-observability-prompt-response.png){width="800" zoomable="yes"}
 
 ### Percorsi insight a livello di account
 
 Traccia il flusso di un account specifico in un percorso ponendo domande come:
 
-* &quot;Datemi le informazioni di base sull&#39;account ACME Industries.&quot;
+* &quot;Datemi informazioni di base sugli account Bodea Cloud.&quot;
 * &quot;Dimmi in che modo l&#39;account Northstar Services ha adottato la strategia ABM Nurture del percorso.&quot;
 * &quot;Quando è iniziato questo percorso l’account Contoso LLC?&quot;
 
-### Ragionamento e conteggi del percorso a nodi separati
+### Ragionamento e conteggi del percorso diviso
 
 Scopri perché è stato acquisito un ramo e quante persone o account hanno seguito ciascun percorso:
 
@@ -133,13 +129,13 @@ Scopri perché è stato acquisito un ramo e quante persone o account hanno segui
 * &quot;Assegnami il conteggio delle persone per ogni percorso in split node-459c7c.&quot;
 * &quot;Mostrami le persone nel percorso di San Jose per Account8.&quot;
 
-L&#39;agente analizza la logica di suddivisione, gli attributi del conto e le attività per spiegare le decisioni di instradamento e restituire i conteggi per percorso o gli elenchi di persone.
+Le abilità di osservabilità di percorso analizzano la logica di suddivisione, gli attributi del conto e le attività per spiegare le decisioni di instradamento e restituire i conteggi per percorso o gli elenchi di persone.
 
 ### Risultati di percorso a livello di persone
 
 Analizza i singoli risultati all’interno di un account o in un intero percorso, utile soprattutto per l’analisi di gruppo e per tenere traccia del comportamento del responsabile delle decisioni rispetto a quello dell’influencer:
 
-* &quot;Assegnami il conteggio delle persone in ogni percorso per questo nodo suddiviso per Account123.&quot;
+* &quot;Consentimi di contare le persone in ogni percorso suddiviso per il prossimo percorso di Coinvolgimento Web di Bodea.&quot;
 * &quot;Elenca le persone nel percorso di salto nascosto.&quot;
 * &quot;Visualizza persone nel percorso di San Diego per questo account&quot;.
 
@@ -160,7 +156,7 @@ Per i percorsi che inviano messaggi push a canali esterni, come LinkedIn, puoi c
 
 ### Sincronizzazione dei dati e osservabilità della pipeline
 
-L’abilità di osservabilità può inoltre evidenziare informazioni sulla sincronizzazione dei dati per facilitare la risoluzione dei problemi relativi al motivo per cui un account o un lead non è stato incluso in un percorso:
+Le abilità di osservabilità del percorso possono inoltre rendere visibili le informazioni di integrità della sincronizzazione dei dati per facilitare la risoluzione dei problemi relativi al motivo per cui un account o un lead non è stato incluso in un percorso:
 
 * Metriche e stato del processo di esportazione del pubblico esterno
 * Programmi di segmentazione batch e tempi di completamento

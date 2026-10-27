@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 8d51e62165a40322efc45af87bbdfcd56e8eefb9
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1911'
 ht-degree: 0%
 ---
 # Nodo percorso migliore successivo
@@ -331,4 +331,4 @@ Per un percorso pubblicato, apri la mappa del percorso e seleziona il nodo del p
 * Punteggio di affidabilità per ogni assegnazione di percorso
 * Ragionamento a livello di percorso e di profilo, con dettagli espandibili per i singoli profili
 
-I risultati live sono disponibili anche nella console Percorso e tramite l&#39;[abilità Osservabilità Percorso](../agents/journey-agent.md#journey-observability-skill) nell&#39;hub AI.
+I risultati live sono disponibili anche per la console Percorso e tramite le [abilità di osservabilità del Percorso](../agents/journey-agent.md#journey-observability-skills) nella chat di [!DNL Coworker].

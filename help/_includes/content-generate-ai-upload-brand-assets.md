@@ -1,13 +1,11 @@
 ---
 title: Assistente di IA per la gestione dei contenuti - Caricare le risorse del marchio
 description: Sezione riutilizzata sull’utilizzo dell’opzione carica risorse marchio per la generazione di contenuti
-source-git-commit: 699a7aaaf7c0b9faebb00e677e9a3a03f1c186f4
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
-
 ---
-
 # Assistente di IA per la gestione dei contenuti - Caricare le risorse del marchio
 
 Carica i contenuti di riferimento per avere contenuti precisi e specifici per il brand. Senza queste risorse, il contenuto si basa su informazioni disponibili pubblicamente.

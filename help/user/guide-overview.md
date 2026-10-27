@@ -10,10 +10,10 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 87bce853d68d03eabceccf02ba80a8077dce206d
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 27%
+source-wordcount: '1123'
+ht-degree: 26%
 ---
 # Documentazione di Adobe Journey Optimizer B2B Edition
 
@@ -160,7 +160,7 @@ Scopri i componenti di un gruppo acquisti e comprendi le nozioni di base per la 
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Introduzione"><br/>
-      <strong>Introduzione</strong><br/><a href="home-page.md">Accesso e home page</a><br/><a href="./start/get-started.md">Guida all'onboarding</a> <br/><a href="./ai-coworker/ai-assistant-overview.md">Funzionalità AI</a>
+      <strong>Introduzione</strong><br/><a href="home-page.md">Accesso e home page</a><br/><a href="./start/get-started.md">Guida all'onboarding</a> <br/><a href="./ai-coworker/ai-overview.md">Funzionalità AI</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Gruppi acquisti"><br/>
@@ -188,6 +188,16 @@ Scopri i componenti di un gruppo acquisti e comprendi le nozioni di base per la 
 </tr>
 </table>
 
+>[!BEGINSHADEBOX]
+
+## [!DNL Marketo Qualifier]
+
+[!DNL Adobe Marketo Qualifier] è un&#39;applicazione basata su IA che è possibile utilizzare con [!DNL Journey Optimizer B2B Edition]. Implementa l’abilità di qualificazione dell’account ed è progettata per semplificare i flussi di lavoro per i rappresentanti per lo sviluppo aziendale (BDR, Business Development Representative). [!DNL Marketo Qualifier] automatizza i flussi di lavoro di qualificazione dei potenziali clienti, di estensione e di coinvolgimento degli acquirenti tra i canali. Riduce il carico BDR manuale e accelera la velocità della pipeline per le aziende B2B aziendali.
+
+Per ulteriori informazioni, consulta la [documentazione di Marketo Qualifier](https://experienceleague.adobe.com/it/docs/marketo-qualifier/using/home){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 ## Risorse aggiuntive
 
 <table style="table-layout:fixed">
@@ -203,4 +213,3 @@ Scopri i componenti di un gruppo acquisti e comprendi le nozioni di base per la 
 <a href="https://experienceleague.adobe.com/it/docs/marketo/using/home" target="_blank">Documentazione utente</a> - <a href="https://experienceleague.adobe.com/it/docs/marketo-developer/marketo/home" target="_blank">Documentazione per sviluppatori</a>
 </td>
 </tr></table>
-

@@ -1,6 +1,6 @@
 ---
 title: Accesso e pagina Home
-description: 'Accedi a Journey Optimizer B2B edition e naviga tra le pagine Home personalizzate: viste differenti per marketer e amministratori, con accesso rapido e Assistente IA.'
+description: 'Accedi a Journey Optimizer B2B Edition e naviga nelle home page personalizzate: visualizzazioni diverse per gli addetti al marketing e gli amministratori, con accesso rapido e chat [!DNL Coworker].'
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 83%
+source-wordcount: '414'
+ht-degree: 72%
 ---
 # Accesso e pagina Home
 
@@ -53,7 +53,7 @@ Journey Optimizer B2B Edition ha due utenti tipo principali: un _&#x200B;**addet
 
 La sezione _[!UICONTROL Accesso recente]_ fornisce un elenco delle risorse utilizzate più di recente dall’addetto al marketing o dall’amministratore. Utilizza questo elenco per passare direttamente alla risorsa su cui hai lavorato di recente senza spostarti tra una serie di pagine delle risorse ed eseguendo delle ricerche.
 
-La pagina include inoltre l’accesso all’[Assistente IA](./ai-coworker/ai-assistant-overview.md), che consente agli utenti di ottenere informazioni rapide su domande o argomenti specifici necessari.<!-- and to obtain specific recommendations for their challenges or objectives-->
+La pagina include inoltre l&#39;accesso alla [chat di Coworker](./ai-coworker/ai-overview.md), che consente agli utenti di ottenere informazioni rapide su domande o argomenti specifici necessari.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!--
 
