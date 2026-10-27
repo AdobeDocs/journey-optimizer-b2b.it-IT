@@ -69,7 +69,7 @@ Script Builder è disponibile dall&#39;[editor di personalizzazione](./personali
 
    >[!BEGINSHADEBOX]
 
-   La prima volta che accedi a Script Builder, controlla le [_[!UICONTROL Condizioni d&#39;uso di IA generativa ]_](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} e conferma il tuo contratto.
+   La prima volta che accedi a Script Builder, controlla le [_[!UICONTROL Condizioni d&#39;uso di IA generativa &#x200B;]_](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} e conferma il tuo contratto.
 
    ![Finestra di dialogo del contratto Generative AI Terms of Use in Script Builder](./assets/personalization-script-builder-gen-ai-terms.png){width="400"}
 
