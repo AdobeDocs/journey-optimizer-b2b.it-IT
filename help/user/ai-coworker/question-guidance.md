@@ -1,6 +1,6 @@
 ---
-title: Linee guida sulle domande per l’Assistente AI
-description: Per ottenere risposte ottimali in Journey Optimizer B2B edition, scrivi domande efficaci sull’Assistente AI con best practice, esempi e suggerimenti di formulazione.
+title: Indicazioni sulle domande per la chat [!DNL Coworker]
+description: Scrivi [!DNL Coworker] domande efficaci sulla chat con best practice, esempi e suggerimenti di frasi per ottenere risposte ottimali in Journey Optimizer B2B Edition.
 feature: AI Assistant
 role: User
 level: Beginner
@@ -9,53 +9,57 @@ autotag-review: '2026-06-05T16:08:18.792Z'
 TQID: 'https://experienceleague.adobe.com/14sGSyP1nI123o2II9rkVQh-ECcEr6BcyfnMnVlrjlU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 7b5a3fdf94725b7cf3c7f4da8ff5d8cce115a3d7
+    internal-label: Troubleshooting
+source-git-commit: c2d3ba94927361f7695e901ef9071bdd4ded8f7d
 workflow-type: tm+mt
-source-wordcount: 889
+source-wordcount: '830'
 ht-degree: 1%
-
 ---
+# Indicazioni sulle domande per la chat [!DNL Coworker]
 
-# Linee guida sulle domande per l’Assistente AI in Journey Optimizer B2B edition
-
-Rivedi le seguenti domande di esempio per l’esecuzione di query sull’Assistente IA in Journey Optimizer B2B edition. Queste informazioni includono anche suggerimenti su come formulare le domande per ottenere risposte ottimali dall’Assistente AI.
+Rivedere le seguenti domande di esempio per eseguire una query su [!DNL Coworker] per abilitare [!DNL Adobe Journey Optimizer B2B Edition] flussi di lavoro. Queste informazioni includono anche suggerimenti su come formulare le tue domande per ottenere risposte ottimali dalla chat di [!DNL Coworker].
 
 ## Domande basate su obiettivi
 
-Le domande di esempio seguenti sono raggruppate in base agli obiettivi che è possibile raggiungere quando si utilizza l’Assistente IA:
+Le domande di esempio seguenti sono raggruppate in base agli obiettivi che è possibile raggiungere quando si utilizza la chat di [!DNL Coworker]:
 
 | Obiettivo | Descrizione | Esempio |
 | --- | --- | --- |
-| Concetti di apprendimento e flussi di lavoro continui | In qualità di utente principiante, puoi utilizzare AI Assistant per apprendere i concetti di Real-Time CDP e Adobe Journey Optimizer B2B edition e per integrare te stesso in prodotti e funzionalità che non conosci. <br>In qualità di utente esperto, puoi utilizzare l&#39;Assistente AI per risolvere un caso limite che potrebbe bloccare il flusso di lavoro. | <li>Dimmi alcuni casi d’uso per Real-Time CDP. <li>Spiegami il concetto di Gruppo acquisti. |
-| Risoluzione dei problemi | Utilizza l’Assistente AI per scoprire come eseguire il debug degli errori di base che potrebbero verificarsi nel flusso di lavoro. | <li>Cosa significa questo errore &lt;ERROR_MESSAGE>? <li>Perché non riesco a eliminare il pubblico denominato &quot;...&quot;? |
-| Igiene delle sandbox | Utilizza l’Assistente AI per identificare eventuali oggetti duplicati o inutilizzati in modo da poter gestire la sandbox in modo efficiente. | <li>Puoi mostrarmi tipi di pubblico simili per l’account? <li>Esistono schemi a cui non è associato un set di dati? |
-| Analisi del valore | Utilizza l’Assistente AI per identificare gli oggetti dati più utilizzati e valutare eventuali indicatori di prestazioni o trovare gli oggetti dati più importanti. | <li>Quanti account ci sono nel nostro &quot;...&quot; definizione del segmento? <li>Quando i tipi di pubblico sono stati attivati nella destinazione Tipi di pubblico di Experience Cloud? |
-| Ricerca | Utilizza l’Assistente AI per trovare gli oggetti Experience Platform e Adobe Journey Optimizer B2B edition supportati, ad esempio il pubblico dell’account, i set di dati, le destinazioni, gli schemi, le origini, i percorsi di account, i modelli di gruppi di acquisto e gli interessi delle soluzioni | <li>Elenca i tipi di pubblico contenenti &quot;Luma&quot; nel nome utilizzati nei percorsi di account. <li>Quali attributi sono presenti nello schema XDM &quot;Luma: Azioni personalizzate&quot;? |
-| Analisi dell&#39;impatto | Utilizza l’Assistente AI per identificare gli oggetti dati utilizzati in alcuni flussi di lavoro in modo da poter valutare l’impatto di eventuali modifiche. | <li>Quali tipi di pubblico dell&#39;account utilizzano `workEmail.address` nello schema &quot;Persona B2B&quot;? <li>Quali set di dati sono ... `jobTitle` archiviati in? |
+| Concetti di apprendimento e flussi di lavoro continui | In qualità di utente principiante, è possibile utilizzare la chat di [!DNL Coworker] per apprendere i concetti di [!DNL Adobe Real-Time Customer Data Platform] e [!DNL Journey Optimizer B2B Edition] e integrarsi in prodotti e funzionalità che non si conoscono. <br>In qualità di utente esperto, puoi utilizzare la chat di [!DNL Coworker] per risolvere un caso limite che potrebbe bloccare il flusso di lavoro. | <li>Alcuni casi d&#39;uso per [!DNL Real-Time Customer Data Platform]. <li>Spiegami il concetto di Gruppo acquisti. |
+| Risoluzione dei problemi | Utilizza la chat di [!DNL Coworker] per scoprire come eseguire il debug degli errori di base che potresti riscontrare nel flusso di lavoro. | <li>Cosa significa questo errore &lt;ERROR_MESSAGE>? <li>Perché non riesco a eliminare il pubblico denominato &quot;...&quot;? |
+| Igiene delle sandbox | Utilizza la chat di [!DNL Coworker] per identificare eventuali oggetti duplicati o inutilizzati in modo da poter gestire in modo efficiente la sandbox. | <li>Puoi mostrarmi tipi di pubblico simili per l’account? <li>Esistono schemi a cui non è associato un set di dati? |
+| Analisi del valore | Utilizza la chat di [!DNL Coworker] per identificare gli oggetti dati più utilizzati e valutare eventuali indicatori di prestazioni o trovare gli oggetti dati più importanti. | <li>Quanti account ci sono nel nostro &quot;...&quot; definizione del segmento? <li>Quando i tipi di pubblico sono stati attivati nella destinazione Tipi di pubblico di Experience Cloud? |
+| Ricerca | Utilizza la chat di [!DNL Coworker] per trovare gli oggetti [!DNL Adobe Experience Platform] e [!DNL Journey Optimizer B2B Edition] supportati, ad esempio il pubblico dell&#39;account, i set di dati, le destinazioni, gli schemi, le origini, i percorsi di account, i modelli di gruppi di acquisto e gli interessi delle soluzioni | <li>Elenca i tipi di pubblico contenenti &quot;Luma&quot; nel nome utilizzati nei percorsi di account. <li>Quali attributi sono presenti nello schema XDM &quot;Luma: Azioni personalizzate&quot;? |
+| Analisi dell&#39;impatto | Utilizza la chat di [!DNL Coworker] per identificare gli oggetti dati utilizzati in alcuni flussi di lavoro in modo da poter valutare l&#39;impatto di eventuali modifiche. | <li>Quali tipi di pubblico dell&#39;account utilizzano `workEmail.address` nello schema &quot;Persona B2B&quot;? <li>Quali set di dati sono ... `jobTitle` archiviati in? |
 
 ## Formulazione delle domande
 
-Per ottenere una risposta il più accurata possibile, formula le tue domande all’Assistente AI con chiarezza e contesto. Consulta il seguente elenco di suggerimenti per indicazioni su come porre una domanda chiara con il contesto:
+Per ottenere una risposta il più accurata possibile, formulare le domande alla chat di [!DNL Coworker] con chiarezza e contesto. Consulta il seguente elenco di suggerimenti per indicazioni su come porre una domanda chiara con il contesto:
 
 * Dichiara il tuo compito e/o la tua domanda in modo conciso.
 * Evita un linguaggio ambiguo o una sintassi troppo complessa per facilitare la comprensione.
-* Fornisci un contesto rilevante relativo all’attività e/o alla domanda, in quanto il contesto può aiutare l’Assistente AI a generare risposte più rilevanti.
+* Fornisci un contesto rilevante relativo all&#39;attività e/o alla domanda, in quanto il contesto può aiutare la chat di [!DNL Coworker] a generare risposte più rilevanti.
 
-Le tabelle seguenti forniscono alcuni consigli che è possibile seguire quando si utilizza l’Assistente IA:
+Le tabelle seguenti forniscono alcuni consigli che è possibile seguire quando si utilizza la chat di [!DNL Coworker]:
 
 | Esegui | Esempio |
 | --- | --- |
 | <li>Specificare l&#39;oggetto o le informazioni da recuperare o analizzare. <li>Provare a inserire i nomi degli oggetti dati tra virgolette. <li>Se si conosce solo una parte del nome dell&#39;oggetto, è possibile specificarlo nella domanda. | <li>Quali set di dati utilizzano lo schema &quot;Account B2B&quot;? <li>Mostra i tipi di pubblico attivati il cui nome contiene &quot;Account&quot;. Classificarli in base al numero di membri. |
-| <li>Evita ambiguità e usa un linguaggio chiaro. <li>Utilizza una terminologia precisa per garantire una maggiore chiarezza nella query. <li>Quando fai domande su Adobe Experience Platform e Adobe Journey Optimizer B2B edition, prova a utilizzare la terminologia specifica di Experience Platform o Adobe Journey Optimizer B2B edition per migliorare la pertinenza delle risposte. | <li>Quanti membri ci sono in &quot;Il mio pubblico account&quot;? <li>Quanti percorsi di account utilizzano il pubblico dell’account &quot;Pubblico del mio account&quot;? |
+| <li>Evita ambiguità e usa un linguaggio chiaro. <li>Utilizza una terminologia precisa per garantire una maggiore chiarezza nella query. <li>Quando si pongono domande relative a [!DNL Experience Platform] e [!DNL Journey Optimizer B2B Edition], provare a utilizzare la terminologia specifica di [!DNL Experience Platform] o [!DNL Journey Optimizer B2B Edition] per migliorare la rilevanza delle risposte. | <li>Quanti membri ci sono in &quot;Il mio pubblico account&quot;? <li>Quanti percorsi di account utilizzano il pubblico dell’account &quot;Pubblico del mio account&quot;? |
 | <li>Fornisci contesto o specifica un criterio per filtrare i risultati. <li>Utilizza un criterio di filtro nelle domande per limitare il volume di dati nella risposta. | <li>Mostra i tipi di pubblico dell’account che non sono stati attivati e sono stati creati più di 6 mesi fa e che non sono mai stati modificati. <li>Mostra i percorsi di account pubblicati negli ultimi 7 giorni e utilizza un pubblico di account con più di 1000 membri |
 
 | Non | Esempio |
@@ -68,7 +72,7 @@ Le tabelle seguenti forniscono alcuni consigli che è possibile seguire quando s
 
 ## Esempi di domande non supportate
 
-L’elenco seguente include esempi di domande che l’Assistente IA in Journey Optimizer B2B edition non supporta attualmente:
+Il seguente elenco include esempi di domande che la chat di [!DNL Coworker] non supporta attualmente in [!DNL Journey Optimizer B2B Edition]:
 
 * Quali tipi di pubblico dell’account utilizzano il campo workEmail.address del gruppo di campi ... nelle loro condizioni? 
 * Mostra il numero di percorsi attivi utilizzando tipi di pubblico dell’account di dimensioni superiori a 10.000, 5000-10.000, 1000-5000 e inferiori a 1000, in un’immagine di distribuzione
@@ -80,4 +84,4 @@ L’elenco seguente include esempi di domande che l’Assistente IA in Journey O
 
 ## Passaggi successivi
 
-Per informazioni sull&#39;utilizzo delle funzionalità dell&#39;Assistente di intelligenza artificiale durante i flussi di lavoro, vedere [Utilizzare l&#39;Assistente di intelligenza artificiale in Journey Optimizer B2B edition](./use-ai-assistant.md).
+Per istruzioni sull&#39;utilizzo delle funzionalità di chat nell&#39;app [!DNL CX Coworker], vedere la [guida all&#39;interfaccia di CX Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}.

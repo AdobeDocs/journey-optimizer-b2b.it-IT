@@ -28,9 +28,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '477'
 ht-degree: 0%
 ---
 # Ottimizzazione dell’ora di invio delle e-mail
@@ -46,16 +46,16 @@ L’ottimizzazione dell’ora di invio è attualmente supportata per:
 * **Tipo di Percorso**: Percorsi di persone
 * **Canale**: e-mail
 * **Configurazione**: _Invia e-mail_ nodo azione
-* **Generazione rapporti**: Assistente IA tramite l&#39;abilità Osservabilità Percorso
+* **Generazione rapporti**: [!DNL Coworker] chat attraverso le abilità di osservabilità del percorso
 
-  Informazioni approfondite sulle prestazioni, come l’utilizzo, l’incremento del coinvolgimento e i confronti STO e non-STO, sono disponibili tramite query in linguaggio naturale nell’Assistente IA.
+  Gli approfondimenti sulle prestazioni, come l&#39;utilizzo, l&#39;incremento del coinvolgimento e i confronti STO e non-STO, sono disponibili tramite query in linguaggio naturale nella chat di [!DNL Coworker].
 
 >[!BEGINSHADEBOX]
 
 Ci sono molti **_miglioramenti futuri_** pianificati per STO:
 
 * Supporto per _Percorsi di account_
-* Configurazione STO globale nell&#39;area _[!UICONTROL Amministratore]_
+* Configurazione STO globale nell&#39;area _[!UICONTROL Amministrazione]_
 * Abilitazione STO a livello di percorso
 * Divisioni di test/controllo configurabili
 * Un dashboard dedicato per la generazione di rapporti STO
@@ -90,4 +90,4 @@ Puoi configurare l&#39;ottimizzazione dell&#39;ora di invio quando [aggiungi un 
 
 ## Informazioni su STO
 
-Gli approfondimenti STO vengono forniti tramite l&#39;_Assistente AI_ utilizzando l&#39;[_abilità di osservabilità_](../agents/journey-agent.md#journey-observability-skill) di Journey Agent. Puoi eseguire query sull’utilizzo, sulle metriche di coinvolgimento, sui risultati di test/controlli, sulle prestazioni dei nodi e sull’impatto complessivo del percorso.
+Gli approfondimenti STO vengono distribuiti tramite _[!DNL Coworker]chat_ utilizzando [_abilità di osservabilità di percorso_](../agents/journey-agent.md#journey-observability-skills). Puoi eseguire query sull’utilizzo, sulle metriche di coinvolgimento, sui risultati di test/controlli, sulle prestazioni dei nodi e sull’impatto complessivo del percorso.

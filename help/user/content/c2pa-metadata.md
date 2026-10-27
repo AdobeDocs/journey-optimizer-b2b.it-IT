@@ -1,6 +1,6 @@
 ---
 title: Metadati C2PA
-description: Scopri in che modo Adobe Journey Optimizer B2B edition applica automaticamente i metadati C2PA alle immagini generate o modificate con strumenti di intelligenza artificiale generativi e cosa significa per i contenuti.
+description: Scopri in che modo Adobe Journey Optimizer B2B Edition applica automaticamente i metadati C2PA alle immagini generate o modificate con strumenti di intelligenza artificiale generativi e cosa significa per i contenuti.
 feature: Assets, Content
 hide: true
 role: User
@@ -8,21 +8,25 @@ autotag-review: '2026-07-31T22:15:54.535Z'
 TQID: 'https://experienceleague.adobe.com/9XCqPWz62uDDLFAyxARfD2jErYx2aOiOB5fAOGLLTbo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 14e960aa56ce951f3606ffe35e0481c659021ad6
+    internal-label: User
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 952
+source-wordcount: '952'
 ht-degree: 0%
-
 ---
-
 # Metadati C2PA
 
 Le organizzazioni di marketing si preoccupano più che mai della trasparenza dei contenuti, della divulgazione dell’intelligenza artificiale e della prevenzione della manomissione delle risorse. Content Authenticity Initiative (CAI) di Adobe crea strumenti conformi allo standard tecnico [Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA). _I metadati C2PA_ sono informazioni crittografate e in grado di evidenziare eventuali manomissioni che consentono agli utenti di comprendere la derivazione dei contenuti e garantire l&#39;integrità delle risorse del marchio. Queste informazioni includono:
@@ -39,7 +43,7 @@ Per informazioni complete sulla cronologia delle risorse, puoi utilizzare lo str
 
 I metadati C2PA persistono con il file di immagine. Quando un&#39;immagine generata o modificata con IA generativa viene caricata o esportata da [!DNL Adobe Journey Optimizer B2B Edition], i relativi metadati C2PA vengono conservati.
 
-Per ulteriori dettagli sull&#39;allegato automatico dei metadati C2PA nelle applicazioni Adobe CX Enterprise, vedi [_Trasparenza dei contenuti di IA generativa_](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} nella guida AI in CX Enterprise.
+Per ulteriori dettagli sull&#39;allegato automatico dei metadati C2PA nelle applicazioni Adobe CX Enterprise, vedi [_Trasparenza del contenuto di IA generativa_](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} nella guida AI in CX Enterprise.
 
 >[!NOTE]
 >
@@ -77,7 +81,7 @@ Quando crei una nuova immagine da un prompt di testo, da un&#39;immagine di rife
 * Ritagliare un&#39;immagine del banner generata per adattarla a una pagina Web. I metadati C2PA vengono conservati attraverso la coltura.
 * Utilizza una foto caricata come sfondo e-mail e ritagliala per adattarla allo schermo. Se la foto d&#39;archivio non contiene informazioni generative sull&#39;intelligenza artificiale, i metadati C2PA non vengono creati.
 
-Quando apportate una regolazione a un file di immagine, ad esempio per ritagliarlo nelle dimensioni richieste, i metadati C2PA vengono mantenuti solo se l&#39;immagine di origine ne disponeva già. Il ritaglio ricrea i pixel dell&#39;immagine, che in genere rimuove i metadati C2PA, pertanto l&#39;Assistente IA legge l&#39;immagine sorgente prima del ritaglio, quindi la ricrea e la ricollega al risultato ritagliato. Il ritaglio stesso non aggiunge una nuova azione di IA generativa, ma mantiene quella esistente.
+Quando apportate una regolazione a un file di immagine, ad esempio per ritagliarlo nelle dimensioni richieste, i metadati C2PA vengono mantenuti solo se l&#39;immagine di origine ne disponeva già. Il ritaglio ricrea i pixel dell’immagine, che in genere rimuove i metadati C2PA, pertanto gli strumenti di intelligenza artificiale generativi leggono l’immagine sorgente prima del ritaglio, quindi la ricreano e la ricollegano al risultato ritagliato. Il ritaglio stesso non aggiunge una nuova azione di IA generativa, ma mantiene quella esistente.
 
 ### Aggiungere una sovrapposizione di testo
 
