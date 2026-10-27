@@ -84,4 +84,4 @@ Il seguente elenco include esempi di domande che la chat di [!DNL Coworker] non 
 
 ## Passaggi successivi
 
-Per istruzioni sull&#39;utilizzo delle funzionalità di chat nell&#39;app [!DNL CX Coworker], vedere la [guida all&#39;interfaccia di CX Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}.
+Per istruzioni sull&#39;utilizzo delle funzionalità di chat nell&#39;app [!DNL CX Coworker], vedere la [guida all&#39;interfaccia di CX Coworker](https://experienceleague.adobe.com/it/docs/coworker/content/chat/ui-guide){target="_blank"}.
