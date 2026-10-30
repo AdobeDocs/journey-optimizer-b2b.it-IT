@@ -24,18 +24,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
+source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2156'
 ht-degree: 4%
 ---
 # Ascoltare un evento
 
 Per portare il pubblico al passaggio successivo nel [percorso](./journeys-overview.md) quando si verifica un evento, aggiungi il nodo _Ascolta un evento_. A seconda del tipo di percorso, puoi utilizzare questo nodo per attivare il nodo successivo nel percorso in base agli eventi relativi alle persone o all’account.
 
-<!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
--->
+![Video](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [Guarda il video introduttivo](#overview-video)
 
 ## Percorsi account {#account-journeys}
 
@@ -363,8 +361,6 @@ Abilita l&#39;opzione **[!UICONTROL Timeout]** nelle proprietà del nodo per spe
 
    Se non si desidera definire il percorso, deselezionare la casella di controllo _[!UICONTROL Imposta percorso di timeout]_.
 
-<!--
- ## Overview video
+## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443242/?captions=ita&learn=on) 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3443242/?captions=ita&learn=on)
