@@ -26,20 +26,19 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 10%
+source-wordcount: '1639'
+ht-degree: 12%
 ---
 # Seleziona eventi e campi esperienza
 
-Gli amministratori possono selezionare [Eventi esperienza](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} specifici di Adobe Experience Platform (AEP) e i campi associati nello schema di unione degli eventi esperienza. Dopo la selezione, gli utenti possono configurare le regole di decisione per ascoltare tali eventi esperienza al fine di abilitare azioni di campagna dinamiche e mirate basate su dati di eventi in tempo quasi reale.
+Gli amministratori possono selezionare [Eventi esperienza](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} specifici di Adobe Experience Platform (AEP) e i campi associati nello schema di unione degli eventi esperienza. Dopo la selezione, gli utenti possono configurare le regole di decisione per ascoltare tali eventi esperienza al fine di abilitare azioni di campagna dinamiche e mirate basate su dati di eventi in tempo quasi reale.
 
-<!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
-
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda la panoramica video](#overview-video)
 >[!PREREQUISITES]
 >
->L’utilizzo dei campi e degli eventi esperienza in Journey Optimizer B2B Edition richiede schemi Experience Event abilitati per il profilo. Per ulteriori informazioni, consulta [Abilitare Real-Time Customer Profiles](https://experienceleague.adobe.com/it/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} nelle esercitazioni di Experience Platform.
+>L’utilizzo dei campi e degli eventi esperienza in Journey Optimizer B2B Edition richiede schemi Experience Event abilitati per il profilo. Per ulteriori informazioni, consulta [Abilitare Real-Time Customer Profiles](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} nelle esercitazioni di Experience Platform.
 
 L’utilizzo di AEP Experience Events in percorsi è un processo in due fasi:
 
@@ -185,7 +184,7 @@ Tipo evento: `directMarketing.emailSent`
 | ID istanza origine e-mail | `directMarketing.emailSent.mailingKey.sourceInstanceID` |
 | Chiave sorgente e-mail | `directMarketing.emailSent.mailingKey.sourceKey` |
 | Nome mailing | `directMarketing.emailSent.mailingName` |
-| ID PERCORSO | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID percorso | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -213,7 +212,7 @@ Tipo evento: `directMarketing.emailDelivered`
 | ID istanza sorgente mailing | `directMarketing.mailingKey.sourceInstanceID` |
 | Chiave sorgente mailing | `directMarketing.mailingKey.sourceKey` |
 | Nome mailing | `directMarketing.mailingName` |
-| ID PERCORSO | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID percorso | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -245,7 +244,7 @@ Tipo evento: `directMarketing.emailOpened`
 | Modello dispositivo | `device.model` |
 | Agente utente | `environment.browserDetails.userAgent` |
 | Sistema operativo | `environment.operatingSystem` |
-| ID PERCORSO | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID percorso | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -278,7 +277,7 @@ Tipo evento: `directMarketing.emailClicked`
 | Modello | `device.model` |
 | Agente utente | `environment.browserDetails.userAgent` |
 | Sistema operativo | `environment.operatingSystem` |
-| ID PERCORSO | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID percorso | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -309,7 +308,7 @@ Tipo evento: `directMarketing.emailBounced`
 | E-mail | `directMarketing.email` |
 | Codice e-mail non recapitate | `directMarketing.emailBouncedCode` |
 | Dettagli e-mail non recapitate | `directMarketing.emailBouncedDetails` |
-| ID PERCORSO | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID percorso | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -340,7 +339,7 @@ Tipo evento: `directMarketing.emailBouncedSoft`
 | E-mail | `directMarketing.email` |
 | Codice e-mail non recapitate | `directMarketing.emailBouncedCode` |
 | Dettagli e-mail non recapitate | `directMarketing.emailBouncedDetails` |
-| ID PERCORSO | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID percorso | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -368,7 +367,7 @@ Tipo evento: `directMarketing.emailUnsubscribed`
 | ID istanza sorgente mailing | `directMarketing.mailingKey.sourceInstanceID` |
 | Chiave sorgente mailing | `directMarketing.mailingKey.sourceKey` |
 | Nome mailing | `directMarketing.mailingName` |
-| ID PERCORSO | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID percorso | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -488,13 +487,11 @@ Tipo evento: `leadOperation.interestingMoment`
 | Descrizione momento | `leadOperation.interestingMoment.description` |
 | Sorgente momento | `leadOperation.interestingMoment.source` |
 | Tipo di momento | `leadOperation.interestingMoment.type` |
-| ID PERCORSO | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID percorso | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
 
-<!--
- ## Overview video
+## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
