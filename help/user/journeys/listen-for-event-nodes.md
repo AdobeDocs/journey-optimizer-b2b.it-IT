@@ -363,4 +363,4 @@ Abilita l&#39;opzione **[!UICONTROL Timeout]** nelle proprietà del nodo per spe
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443242/?captions=ita&learn=on)
