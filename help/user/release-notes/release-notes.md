@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c2d3ba94927361f7695e901ef9071bdd4ded8f7d
+source-git-commit: ef3e184c1782cacc0d5452274b858c0a3d365189
 workflow-type: tm+mt
-source-wordcount: '5774'
-ht-degree: 60%
+source-wordcount: '5888'
+ht-degree: 58%
 ---
 # Note sulla versione di Journey Optimizer B2B Edition
 
@@ -36,6 +36,20 @@ Adobe Journey Optimizer B2B Edition fornisce continuamente nuove funzioni, migli
 Journey Optimizer B2B Edition è costruito nativamente su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} per informazioni su diritti, guardrail delle prestazioni e limitazioni.
+
+## Note sulla versione 2026.10 {#rel-2026-10}
+
+**Data di distribuzione**: 6 novembre 2026
+
+| Tipo | Elemento | Descrizione |
+| ---- | ---- | ----------- |
+| Funzione | Elenchi di persone | Utilizza elenchi di persone statici e dinamici per eseguire il targeting dei profili in base a criteri definiti, ad esempio attributi demografici e cronologia degli eventi di esperienza. |
+| Funzione | Etichette nodo percorso | Aggiungi etichette ai nodi del percorso per identificarli nell’area di lavoro del percorso. |
+| Miglioramento | Filtro elenco membri della persona | Utilizza il filtro _[!UICONTROL Elenco utenti]_ per includere o escludere profili in base all&#39;appartenenza all&#39;elenco utenti. |
+| Miglioramento | Elenco persone azioni del percorso | Aggiungere o rimuovere persone da elenchi di persone statici tramite percorsi di persone e account. |
+
+>[!NOTE]
+>Queste modifiche alla versione iniziano il 6 novembre 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 ## Note sulla versione 2026.9 {#rel-2026-9}
 
@@ -50,12 +64,7 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 
 >[!NOTE]
 >
->Queste modifiche alla versione iniziano la distribuzione il 25 settembre 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
-
-<!--
-Delayed to Oct
-| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
--->
+>Queste modifiche alla versione iniziano il 25 settembre 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 ## Note sulla versione 2026.8 {#rel-2026-8}
 
@@ -74,7 +83,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Queste modifiche alla versione iniziano la distribuzione il 14 agosto 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
+>L’implementazione di queste modifiche alla versione inizia il 14 agosto 2026, con un rollout graduale di ciascuna funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 ## Note sulla versione 2026.6 {#rel-2026-6}
 
@@ -89,13 +98,11 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Queste modifiche alla versione iniziano la distribuzione il 10 luglio 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
+>Queste modifiche alla versione iniziano il 10 luglio 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 ## Note sulla versione 2026.5 {#rel-2026-5}
 
 **Data di distribuzione**: 22 maggio 2026
-
-<!-- Learn more links omitted for 2026.5 items until updated feature documentation is published. -->
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
@@ -111,12 +118,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Queste modifiche alla versione iniziano la distribuzione il 22 maggio 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
-
-<!--
- wait for later release
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
--->
+>Queste modifiche alla versione iniziano il 22 maggio 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 ## Note sulla versione 2026.3 {#rel-2026-3}
 
@@ -135,7 +137,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Queste modifiche alla versione iniziano la distribuzione il 27 marzo 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
+>Queste modifiche alla versione iniziano il 27 marzo 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 
 ## Note sulla versione 2026.2 {#rel-2026-2}
@@ -151,7 +153,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Queste modifiche alla versione iniziano la distribuzione il 20 febbraio 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
+>Queste modifiche alla versione iniziano il 20 febbraio 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 ## Note sulla versione 2026.1 {#rel-2026-1}
 
@@ -167,7 +169,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Queste modifiche alla versione iniziano la distribuzione il 3 febbraio 2026, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
+>Queste modifiche alla versione iniziano il 3 febbraio 2026, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 ## Funzionalità di IA agentica {#rel-agents}
 
@@ -177,7 +179,7 @@ Nell’interfaccia di chat sono ora disponibili le seguenti funzionalità di IA 
 | ----- | ------ | ----------- |
 | Journey Build Agent | Nuovo e aggiornato | Il Journey Build Agent analizza, progetta e collabora sui percorsi in tempo reale, consentendo ai marketer di avviare più rapidamente, migliorare il coinvolgimento e aumentare i tassi di conversione. [Ulteriori informazioni](../agents/journey-agent.md) |
 | Agente Audience | Nuovo | L’Agente Audience identifica e crea automaticamente i gruppi acquisti utilizzando dati strutturati e non strutturati. Aiuta i marketer a mirare le persone giuste in modo più rapido e preciso. [Ulteriori informazioni](../agents/audience-agent-b2b.md) |
-| [!DNL Marketo Qualifier] | Nuovo | [!DNL Adobe Marketo Qualifier] è un&#39;applicazione basata su IA che si integra con [!DNL Journey Optimizer B2B Edition]. Implementa Account Qualification Agent ed è progettato per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti nei vari canali. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/marketo-qualifier/using/home){target="_blank"} |
+| [!DNL Marketo Qualifier] | Nuovo | [!DNL Adobe Marketo Qualifier] è un&#39;applicazione basata su IA che si integra con [!DNL Journey Optimizer B2B Edition]. Implementa Account Qualification Agent ed è progettato per semplificare i flussi di lavoro per i rappresentanti di sviluppo aziendale (BDR, Business Development Representative). Automatizza i flussi di lavoro di qualificazione dei potenziali clienti, coinvolgimento degli acquirenti e coinvolgimento degli acquirenti nei vari canali. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"} |
 
 ## Note sulla versione 2025.10 {#rel-2025-10}
 
@@ -199,7 +201,7 @@ Nell’interfaccia di chat sono ora disponibili le seguenti funzionalità di IA 
 
 >[!NOTE]
 >
->Queste modifiche della versione saranno introdotte a partire dal 31 ottobre 2025, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
+>Queste modifiche alla versione iniziano il 31 ottobre 2025, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 ### Architettura aggiornata
 
@@ -213,7 +215,7 @@ Questa implementazione offre diversi vantaggi:
 
 * **Unifica e scala facilmente i dati**: la piattaforma aggiornata supporta modelli di dati complessi, inclusi oggetti personalizzati, gruppi acquisti ed eventi account.
 * **Collega più istanze di Adobe Marketo Engage**: gestisci e unifica i dati da più ambienti Adobe Marketo Engage in un’unica posizione.
-* **Proteggi i tuoi dati**: le funzioni avanzate di privacy e sicurezza consentono di proteggere le informazioni della clientela.
+* **Protezione dei dati**: le funzionalità avanzate di privacy e sicurezza consentono di proteggere le informazioni dei clienti.
 * **Progettato per la scalabilità a lungo termine**: questo aggiornamento prepara la tua organizzazione a continui miglioramenti e innovazioni.
 
 >[!NOTE]
@@ -245,7 +247,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 >[!NOTE]
 >
->Queste modifiche della versione saranno introdotte a partire dal 30 settembre 2025, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
+>Queste modifiche alla versione iniziano il 30 settembre 2025, con un rollout graduale di ciascuna funzione. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
 
 ## Note sulla versione 2025.8 {#rel-2025-8}
 
