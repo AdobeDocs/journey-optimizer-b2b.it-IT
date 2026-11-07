@@ -494,4 +494,4 @@ Tipo evento: `leadOperation.interestingMoment`
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448691/?captions=ita&learn=on)
