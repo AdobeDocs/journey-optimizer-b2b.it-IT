@@ -1,7 +1,7 @@
 ---
-title: Dettagli percorsi
-description: Monitora le prestazioni del percorso di account con tassi di completamento, metriche di coinvolgimento, analisi e-mail/SMS e approfondimenti sull’intelligenza artificiale in Journey Optimizer B2B Edition.
-feature: Dashboards, Account Journeys
+title: Dettagli percorso
+description: Monitora le prestazioni del percorso di account e persone in Adobe Journey Optimizer B2B Edition. Rivedi le metriche di completamento, coinvolgimento e canale per ogni percorso.
+feature: Dashboards, Account Journeys, Person Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
 autotag-review: 2026-03-30T23:21:08.953Z
@@ -19,51 +19,63 @@ feature_v2:
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
     internal-label: Account Journeys
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c053f91ea231cd8517e2329b7170aa08c33dc24
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '843'
 ht-degree: 0%
 ---
 # Dettagli del percorso
 
-Quando si fa clic sul nome di un percorso di account attivo, vengono visualizzati i dettagli del percorso. La scheda _[!UICONTROL Panoramica]_ fornisce informazioni utili sul percorso, inclusi i riepiloghi generativi di IA.
+In [!DNL Adobe Journey Optimizer B2B Edition], aprire un account o un percorso di persone pubblicato e selezionare la scheda **[!UICONTROL Panoramica]**. Esaminare lo stato di avanzamento, il coinvolgimento e le prestazioni del canale per il percorso selezionato.
 
-Questa dashboard offre una panoramica completa di un percorso di account selezionato, con informazioni dettagliate sull’avanzamento dell’account utilizzando grafici a cerchi e a linee che categorizzano e quantificano completamenti, attività in corso e interruzioni nel tempo. Aiuta i team di marketing a valutare l’efficacia dei canali e-mail e SMS attraverso metriche chiave di consegna e coinvolgimento. Per le metriche e-mail aggregate in tutti i percorsi, consulta il [Rapporto sulle prestazioni delle e-mail](../dashboards/email-performance-dashboard.md).
+I percorsi di account segnalano l&#39;avanzamento dei conti. I percorsi di persone segnalano l’avanzamento per le persone. I widget e le etichette delle metriche disponibili variano a seconda del tipo di percorso. Seleziona la scheda corrispondente per i dettagli del dashboard.
 
-Questa panoramica è disponibile per i percorsi di account pubblicati e il popolamento dei grafici e delle tabelle richiede circa quattro ore per i dati.
+Per le metriche e-mail aggregate tra percorsi, utilizza il [Rapporto sulle prestazioni delle e-mail](../dashboards/email-performance-dashboard.md).
 
-![Accedi ai dettagli del percorso attivo](./assets/journey-detail-overview.png){width="700" zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB percorsi di account]
+
+Il dashboard del percorso di account mostra l’avanzamento dell’account, il coinvolgimento, le prestazioni del canale e i riepiloghi generativi sull’intelligenza artificiale. Sono necessarie circa quattro ore prima che i dati inizino a popolare i grafici e le tabelle.
+
+![Scheda Panoramica del percorso di account che mostra l&#39;avanzamento, il coinvolgimento e le prestazioni del canale.](./assets/journey-detail-overview-account.png){width="700" zoomable="yes"}
 
 ## Completamento percorso
 
 Questa sezione presenta due metriche di completamento:
 
-* **[!UICONTROL Stato Percorso]** - Questo grafico a cerchi offre una suddivisione degli stati del percorso suddividendo gli account in _Completati_, _In corso_ e _Interrotti_. A ogni segmento vengono applicate etichette con le percentuali e i numeri di conto corrispondenti sul bordo esterno del grafico.
-* **[!UICONTROL Completamento Percorso nel tempo]** - Questo grafico a linee traccia il numero di account che hanno completato il percorso nel tempo. L’asse orizzontale mappa la timeline, mentre l’asse verticale quantifica i conti, fornendo una visualizzazione diretta delle tendenze di completamento.
+* **[!UICONTROL Stato degli account nel percorso]**: mostra il conteggio totale degli account e un raggruppamento per stato del percorso, inclusi _Completati_, _In corso_ e _Interrotti_. Ogni segmento visualizza uno stato, una percentuale e un conteggio dei conti.
+* **[!UICONTROL Account completati nel tempo]**: mostra il numero di account che hanno completato il percorso nel tempo. L&#39;asse orizzontale mostra le date e l&#39;asse verticale i conteggi dei conti.
+
+>[!NOTE]
+>
+>Nei percorsi di account, il grafico **[!UICONTROL Stato degli account nel percorso]** include gli account che hanno attraversato il percorso, anche se sono stati successivamente eliminati. **[!UICONTROL Il drill-through]** esclude gli account eliminati, pertanto può visualizzare un numero di record inferiore rispetto al grafico. Questa differenza è prevista. L’eliminazione dei conti non modifica i conteggi dello stato storico del percorso.
 
 ## Coinvolgimento percorso
 
 Questa sezione presenta due metriche di coinvolgimento:
 
 * **[!UICONTROL Coinvolgimento per account]** - Questo grafico a cerchi segmenta gli account di un percorso in _Categorie Coinvolte_ e _Non Coinvolte_. Nella figura centrale viene visualizzato il conteggio totale. Questa visualizzazione offre una rapida comprensione del coinvolgimento complessivo dell’account.
-* **Coinvolgimento da parte di persone** - Questa visualizzazione mostra il numero totale di persone qualificate come _coinvolte_ in un percorso.
+* **[!UICONTROL Coinvolgimento da parte di persone]**: mostra il numero di persone con attività di coinvolgimento nel percorso. Questo valore conta le persone, non le attività di coinvolgimento.
 
 ## Prestazioni del percorso
 
 Questa sezione presenta due metriche vitali:
 
 * **[!UICONTROL Tasso di completamento Percorsi]** - Percentuale di account che hanno completato correttamente il percorso.
-* **[!UICONTROL Durata Percorso]** - Tempo medio impiegato dagli account per completare il percorso.
+* **[!UICONTROL Tempo medio di completamento del percorso]**: tempo medio impiegato dai conti per completare il percorso, espresso in giorni.
 
-## Prestazioni di e-mail e SMS
+## Prestazioni del canale {#email-and-sms-performance}
 
-Le tabelle delle prestazioni forniscono informazioni dettagliate sull’efficacia dei canali E-mail e SMS. Ogni tabella presenta metriche, come tassi di consegna e tassi di click-through, che consentono di valutare l’impatto di ogni punto di contatto di comunicazione. Le tabelle seguenti mostrano le metriche e-mail e SMS solo per questo percorso. Per le stesse metriche e-mail in tutti i percorsi, utilizza il [Rapporto sulle prestazioni delle e-mail](../dashboards/email-performance-dashboard.md).
+Il dashboard include **[!UICONTROL tabelle Prestazioni e-mail]**, **[!UICONTROL Prestazioni SMS]** e **[!UICONTROL Prestazioni WhatsApp]** per il percorso di account selezionato. Utilizza le metriche di consegna e coinvolgimento disponibili per valutare ogni punto di contatto di comunicazione.
 
 **[!UICONTROL Prestazioni e-mail]** colonne tabella:
 
@@ -83,13 +95,13 @@ Le tabelle delle prestazioni forniscono informazioni dettagliate sull’efficaci
 To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. 
 -->
 
-## Interazione migliorata
+## Azioni aggiuntive
 
-Interagisci con i dati utilizzando l&#39;icona dell&#39;azione (**...**) in alto a destra in ogni grafico o tabella.
+Utilizzare il menu **...** per un grafico o una tabella per accedere alle azioni disponibili.
 
 ### Drill-through
 
-Per il grafico _[!UICONTROL Stato Percorso]_, scegliere **[!UICONTROL Espandi]** per un&#39;analisi approfondita dei singoli stati dell&#39;account.
+Per il grafico **[!UICONTROL Stato degli account nel percorso]**, scegliere **[!UICONTROL Analisi approfondita]** per un&#39;analisi approfondita dei singoli stati degli account.
 
 ![Drill-through per i dati del grafico](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
@@ -102,4 +114,46 @@ Scegliere **[!UICONTROL Visualizza altro]** per accedere ai dati estesi. Il pop-
 
 ![Visualizza dati estesi](./assets/journey-completion-over-time-view-more.png){width="600" zoomable="yes"}
 
-Per scaricare i dati, fai clic su **[!UICONTROL Scarica CSV]** in alto a destra nella tabella dei dati. Per tornare alla dashboard _Panoramica_, fare clic su **[!UICONTROL Chiudi]**.
+Per scaricare i dati, seleziona **[!UICONTROL Scarica CSV]**. Per tornare alla dashboard _[!UICONTROL Panoramica]_, selezionare **[!UICONTROL Chiudi]**.
+
+>[!TAB percorsi di persone]
+
+Il dashboard percorso di persone mostra le prestazioni di completamento, coinvolgimento e e-mail per le persone nel percorso selezionato.
+
+![Scheda Panoramica del percorso di persone che mostra l&#39;avanzamento, il coinvolgimento e le prestazioni dell&#39;e-mail.](./assets/journey-detail-overview-person.png){width="700" zoomable="yes"}
+
+## Completamento percorso {#person-journey-completion}
+
+Utilizza i seguenti grafici per esaminare lo stato delle persone nel percorso e le tendenze di completamento:
+
+* **[!UICONTROL Stato delle persone nel percorso]**: mostra il numero totale di persone e un raggruppamento per stato del percorso. Ogni segmento mostra uno stato, una percentuale e un conteggio di persone.
+* **[!UICONTROL Persone completate nel tempo]**: mostra il numero di persone che hanno completato il percorso nel tempo. La serie **[!UICONTROL Incremental completed]** mostra i completamenti per ogni intervallo di tempo. La serie **[!UICONTROL Cumulativo completato]** mostra il totale parziale di completamenti.
+
+>[!NOTE]
+>
+>Nei percorsi di persone, il grafico **[!UICONTROL Status delle persone nel percorso]** include le persone che hanno attraversato il percorso, anche se sono state successivamente eliminate. **[!UICONTROL Il drill-through]** esclude le persone eliminate, pertanto può visualizzare un numero di record inferiore rispetto al grafico. Questa differenza è prevista. L’eliminazione delle persone non modifica i conteggi dello stato storico del percorso.
+
+Per il grafico _[!UICONTROL Status delle persone nel percorso], fare clic su thw_ More_ ( **...** ) icon e selezionare **[!UICONTROL Drill through]** per esaminare gli stati delle singole persone.
+
+## Coinvolgimento percorso {#person-journey-engagement}
+
+Il widget **[!UICONTROL Coinvolgimento da persone]** mostra il numero di persone con attività di coinvolgimento nel percorso. Questo valore conta le persone, non le attività di coinvolgimento.
+
+## Prestazioni del percorso {#person-journey-performance}
+
+Utilizza le metriche seguenti per esaminare le prestazioni di completamento:
+
+* **[!UICONTROL Tasso di completamento Percorsi]**: percentuale di persone che hanno completato il percorso.
+* **[!UICONTROL Tempo medio di completamento del percorso]**: tempo medio impiegato dagli utenti per completare il percorso, espresso in giorni.
+
+## Prestazioni e-mail {#person-journey-email-performance}
+
+La tabella delle prestazioni **[!UICONTROL E-mail]** mostra i conteggi per ogni risorsa e-mail nel percorso di persone selezionato, anziché le tariffe:
+
+* **[!UICONTROL Nome risorsa]**: nome della risorsa e-mail
+* **[!UICONTROL Inviato]**: numero di e-mail inviate
+* **[!UICONTROL Recapitato]**: numero di e-mail consegnate
+* **[!UICONTROL Aperto]**: numero di e-mail aperte
+* **[!UICONTROL Clic]**: numero di e-mail su cui è stato fatto clic
+
+>[!ENDTABS]
