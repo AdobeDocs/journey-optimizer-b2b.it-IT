@@ -42,9 +42,9 @@ topic_v2:
     internal-label: Data integration
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 827c313f032d482ac2b0a5fa8f41d6506e67b9cb
+source-git-commit: 25cbdfb352740385181a68f96b0b2e6ebc3313e7
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '730'
 ht-degree: 0%
 ---
 # Disponibilità dei dati e tempistica di sincronizzazione {#data-availability}
@@ -85,6 +85,14 @@ I dati si spostano tra i due sistemi in entrambe le direzioni a un ritmo diverso
 
 * Da **[!DNL Experience Platform]a[!DNL Journey Optimizer B2B Edition]** - La sincronizzazione dei dati può richiedere fino a 30 minuti quasi in tempo reale.
 * Da **[!DNL Journey Optimizer B2B Edition]a[!DNL Experience Platform]** - I dati vengono sincronizzati in microbatch e possono richiedere fino a 4 ore.
+
+## Modifiche all’identità del profilo {#profile-identity-changes}
+
+Le modifiche apportate a `identityMap` di un profilo in [!DNL Adobe Experience Platform] possono interrompere l&#39;associazione con un record persona esistente in [!DNL Journey Optimizer B2B Edition]. Il record persona precedente è contrassegnato come eliminato e non procede più attraverso i percorsi o l’elaborazione del gruppo di acquisto.
+
+Il profilo deve qualificarsi nuovamente per un pubblico attivato su [!DNL Journey Optimizer B2B Edition] e deve essere acquisito nuovamente. Se il record acquisito ha un ID persona diverso, viene trattato come una nuova persona. Se la persona entra in un percorso, inizia dall&#39;inizio anziché riprendere l&#39;avanzamento del record precedente.
+
+I conteggi cronologici dello stato del percorso includono ancora il record persona eliminato. Tuttavia, **[!UICONTROL Il drill-through]** esclude i record eliminati, pertanto il relativo conteggio dei record può essere inferiore al conteggio dei grafici. Per informazioni dettagliate, consulta [rapporti sul completamento del percorso di persone](../journeys/journey-details.md#person-journey-completion).
 
 ## Eventi attività e azioni percorso {#activity-and-actions}
 
