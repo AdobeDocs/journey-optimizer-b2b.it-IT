@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 78d7701e30628aad4b732b2d0858953ba09e26f5
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 7%
@@ -84,7 +84,7 @@ Una bozza è un messaggio di test consegnato che consente a te e ai membri del g
 
 1. Fai clic su **[!UICONTROL Invia bozza]** in alto a destra.
 
-   ![Fai clic su Invia bozza](assets/email-simulate-content-preview-send-proof.png){width="500"}
+   ![Fai clic su Invia bozza](assets/email-simulate-content-preview-send-proof.png){width="600"}
 
 1. Nella pagina _Invia bozza_ immettere l&#39;indirizzo di posta elettronica del primo destinatario.
 
