@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
+source-git-commit: 734966636b6d2addf014905431fa755f6fe92ee6
 workflow-type: tm+mt
-source-wordcount: '2381'
-ht-degree: 76%
+source-wordcount: '2420'
+ht-degree: 75%
 ---
 # Accesso utente e autorizzazioni
 
@@ -193,6 +193,7 @@ Le seguenti autorizzazioni regolano l’accesso alle funzionalità di Journey Op
 | Configurazioni del canale B2B | Configurare, gestire e visualizzare le autorizzazioni per le configurazioni del canale B2B. Queste autorizzazioni includono le impostazioni relative ai limiti di comunicazione, alle credenziali API e alle impostazioni di sicurezza. | <li>Gestione configurazioni canali B2B <li>Visualizza impostazioni e-mail B2B <li>Gestione impostazioni e-mail B2B <li>Gestire i predefiniti WhatsApp B2B <li>Gestione impostazioni pagina di destinazione B2B <li>Visualizza predefinito Forms B2B <li>Gestire il predefinito per Forms B2B <li>Pubblica predefinito Forms B2B <li>Creare esperienze web B2B <li>Gestione impostazioni WhatsApp B2B |
 | Dashboard B2B | Configurare e visualizzare le autorizzazioni per le dashboard B2B. Queste autorizzazioni includono coinvolgimento dell’account, fasi del gruppo di acquisto, account in crescita e copertura dei contatti. | <li>Visualizza dashboard di coinvolgimento B2B |
 | Percorsi B2B | Configurare, gestire, visualizzare e pubblicare le autorizzazioni per i percorsi B2B. Queste autorizzazioni includono azioni per account e persona, listener di eventi e percorsi di suddivisione. | <li>Gestire Percorsi di account B2B <li>Gestire Percorsi di persone B2B <li>Visualizza Percorsi di persone B2B <li>Pubblicare Percorsi di persone B2B |
+| Elenchi di persone B2B | Gestire e visualizzare le autorizzazioni per gli elenchi di persone B2B. Queste autorizzazioni includono la creazione, la modifica e l&#39;eliminazione di elenchi di persone statici e dinamici e l&#39;aggiunta e la rimozione di persone da elenchi statici. | <li>Gestire gli elenchi di persone B2B <li>Visualizzare gli elenchi di persone B2B |
 | Regole Journey Optimizer | Accedere e configurare le regole di frequenza (limiti di comunicazione). Queste autorizzazioni devono essere limitate agli amministratori di prodotto. | <li>Visualizza regole di frequenza <li>Gestisci regole di frequenza |
 
 >[!NOTE]

@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '2569'
-ht-degree: 4%
+source-wordcount: '3118'
+ht-degree: 3%
 ---
 # Dividere e unire i percorsi {#split-paths}
 
@@ -65,10 +65,11 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo account**&#x200B;_
 | Condizioni del percorso | Descrizione |
 | --------------- | ----------- |
 | [!UICONTROL Attributi account] | Attributi dal profilo dell’account, tra cui: <li>Ricavi annuali <li>Città <li>Paese <li>Numero dipendenti <li>Settore <li>Nome <li>Codice SIC <li>Stato |
-| [!UICONTROL Oggetti personalizzati] > Contiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funzione Beta"} L&#39;account non dispone di record dello schema relazionale. Può anche essere valutato in base a qualsiasi criterio oggetto personalizzato selezionato, come configurato nello schema relazionale [XDM](../admin/xdm-field-management.md#relational-schemas). (Vedi [Filtro dati personalizzato](#custom-data-filtering).) |
+| [!UICONTROL Oggetti personalizzati] > Contiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funzione Beta"} L&#39;account non dispone di record dello schema relazionale. Può anche essere valutato in base a qualsiasi criterio oggetto personalizzato selezionato, come configurato nello schema relazionale [XDM](../admin/xdm-field-management.md#relational-schemas). (Vedi [_Filtro dati personalizzato_](#custom-data-filtering).) |
 | [!UICONTROL Filtri speciali] > [!UICONTROL L&#39;account corrisponde al gruppo di acquisto] | L’account corrisponde a uno o più gruppi di acquisto. Può essere valutato in base a uno o più dei seguenti vincoli per un gruppo di acquisto abbinato: <li>Interesse soluzione <li>Fase gruppo acquisti <li>Stato gruppo acquisti <li>Punteggio di coinvolgimento <li>Punteggio di completezza <li> Numero di persone nel ruolo del gruppo acquisti |
+| [!UICONTROL Filtri speciali] > [!UICONTROL Membro account elenco account] | L&#39;account è o non è membro di uno o più elenchi di account selezionati. (Vedi [_Dividi nodo percorsi - Membro account dell&#39;elenco account_](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list)) |
 
-### Aggiungere un percorso di suddivisione per nodo account
+### Aggiungere un percorso di suddivisione per nodo account {#add-a-split-path-by-account-node}
 
 1. Passa alla mappa del percorso.
 
@@ -136,6 +137,12 @@ Ad esempio, valuta la preparazione del gruppo di acquisto in base alla profondit
 
 Per aggiornare lo stato del gruppo di acquisto o della fase per gli account identificati, aggiungi un nodo di azione nel percorso.
 
+### Filtro elenco account {#account-list-filtering}
+
+Utilizza il filtro _[!UICONTROL Filtri speciali]_ > _[!UICONTROL Membro account dell&#39;elenco account]_ per definire un percorso per gli account in base alla loro appartenenza a un [elenco account](../accounts/account-lists.md). Imposta l&#39;appartenenza su _true_ per includere gli account negli elenchi o su _false_ per escluderli e seleziona uno o più elenchi di account. Ad esempio, per mantenere gli account su un elenco Bloccati di accesso a un&#39;istanza di accesso, aggiungi il filtro, imposta l&#39;appartenenza su _false_ e seleziona il tuo inserisco nell&#39;elenco Bloccati di accesso a un&#39;istanza di accesso a un&#39;istanza di accesso a un&#39;istanza di accesso a un&#39;istanza di accesso a un&#39;istanza di accesso a un&#39;istanza di accesso a un&#39;istanza di accesso a un&#39;istanza di accesso a un&#39;istanza di accesso a un&#39;istanza di accesso a un&#39;istanza di accesso a un&#39;istanza di accesso a un&#39;istanza di accesso a un&#39;istanza di accesso a un&#39;istanza di accesso a un&#39;istanza di accesso a un&#39;istanza di accesso a un&#39;istanza di accesso di accesso di rete.
+
+Per i passaggi, vedi [Dividi nodo percorsi - Membro account dell&#39;elenco account](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list).
+
 ## Dividi percorsi per persone
 
 _(percorsi di account e persone)_
@@ -159,8 +166,12 @@ _&#x200B;**Funzionamento di un percorso suddiviso per nodo persone**&#x200B;_
 | [!UICONTROL Oggetti personalizzati] > Contiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funzione Beta"} La persona non dispone di record dello schema relazionale. Può anche essere valutato in base a qualsiasi criterio oggetto personalizzato selezionato, come configurato nello schema relazionale [XDM](../admin/xdm-field-management.md#relational-schemas). (Vedi [Filtro dati personalizzato](#custom-data-filtering)) |
 | [!UICONTROL Cronologia eventi] | Divide le persone in base agli eventi di esperienza che si sono verificati prima dell’ingresso nel percorso. Espandere la cartella per visualizzare tutti i tipi di evento configurati in [Amministrazione > Configurazione evento XDM](../admin/configure-aep-events.md) e selezionarne uno da aggiungere come filtro. I vincoli includono i campi dell’evento selezionato, un intervallo di tempo di lookback misurato dal momento in cui la persona entra nel percorso e un numero minimo facoltativo di volte. |
 | [!UICONTROL Attributi persona] | Attributi dal [profilo persona](../admin/field-mapping.md#xdm-business-person-attributes), inclusi: <li>Città <li>Paese <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area geografica dello stato dedotta <li>Titolo del processo <li>Cognome <li>Numero di cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato |
-| [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>È stato rimosso (impostazione predefinita: `false`)</li><li>Ruolo</li> (Vedi [Filtro appartenenza](#membership-filtering)) |
-| [!UICONTROL Filtri speciali] > [!UICONTROL Membro del pubblico del profilo] | La persona è o non è membro di uno o più tipi di pubblico del profilo [!DNL Adobe Experience Platform]. (Vedi [Filtro appartenenza](#membership-filtering)) |
+| [!UICONTROL Filtri speciali] > [!UICONTROL Membro del gruppo di acquisto] | La persona è o non è un membro del gruppo di acquisto valutato in base a uno o più dei seguenti criteri: <li>Interesse soluzione</li><li>Stato gruppo acquisti</li><li>Punteggio di completezza</li><li>Punteggio di coinvolgimento</li><li>È stato rimosso (impostazione predefinita: `false`)</li><li>Ruolo</li> (Vedi [_Filtro appartenenza_](#membership-filtering)) |
+| [!UICONTROL Filtri speciali] > [!UICONTROL Membro del pubblico del profilo] | La persona è o non è membro di uno o più tipi di pubblico del profilo [!DNL Adobe Experience Platform]. (Vedi [_Filtro appartenenza_](#membership-filtering)) |
+| [!UICONTROL Filtri speciali] > [!UICONTROL Membro persona dell&#39;elenco dinamico account] | (Solo percorsi di persone) L’account della persona è o non è un membro di uno o più elenchi di account dinamici. (Vedi [_Elenco membri persona dell&#39;account_](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)) |
+| [!UICONTROL Filtri speciali] > [!UICONTROL Elenco statico membri persona dell&#39;account] | (Solo percorsi di persone) L’account della persona è o non è un membro di uno o più elenchi di account statici. (Vedi [_Elenco membri persona dell&#39;account_](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)) |
+| [!UICONTROL Filtri speciali] > [!UICONTROL Utente membro dell&#39;elenco dinamico Persone] | L’utente è o non è membro di uno o più elenchi di persone dinamici. (Vedi [_Filtro appartenenza_](#membership-filtering)) |
+| [!UICONTROL Filtri speciali] > [!UICONTROL Elenco statico membri persona] | La persona è o non è membro di uno o più elenchi di persone statiche. (Vedi [_Filtro appartenenza_](#membership-filtering)) |
 
 ### Condizioni del percorso account-persona
 
@@ -251,10 +262,14 @@ Nella sezione _[!UICONTROL Filtri speciali]_, utilizza i seguenti filtri per cre
 
 * _[!UICONTROL Membro del gruppo di acquisto]_ - Valuta se la persona è membro di un gruppo di acquisto.
 * _[!UICONTROL Membro del pubblico profilo]_ - Valuta se la persona è membro di un pubblico profilo [!DNL Adobe Experience Platform].
+* _[!UICONTROL Membro persona dell&#39;elenco dinamico account]_ - (solo percorsi di persone) Valuta se l&#39;account della persona è membro di un elenco di account dinamici. (Vedi [Utilizzare gli elenchi di account nei percorsi](../accounts/account-lists-journeys.md#split-paths-member-of-account-list))
+* _[!UICONTROL Elenco statico membri persona dell&#39;account]_ - (solo percorsi di persone) Valuta se l&#39;account della persona è membro di un elenco di account statico. (Vedi [Utilizzare gli elenchi di account nei percorsi](../accounts/account-lists-journeys.md#split-paths-member-of-account-list))
+* _[!UICONTROL Persona membro dell&#39;elenco dinamico persone]_ - Valuta se la persona è membro di un elenco dinamico persone.
+* _[!UICONTROL Elenco statico membri persona persone]_ - Valuta se la persona è membro di un elenco di persone statico.
 
-Per aggiungere un filtro appartenenza, trascinarlo dalla cartella _[!UICONTROL Filtri speciali]_ nell&#39;area di lavoro condizioni e impostare l&#39;appartenenza su _true_ per includere i membri o su _false_ per escluderli. È possibile combinare entrambi i filtri nella stessa condizione di percorso e utilizzare la **[!UICONTROL logica filtro]** per farli corrispondere a uno o a tutti.
+Per aggiungere un filtro appartenenza, trascinarlo dalla cartella _[!UICONTROL Filtri speciali]_ nell&#39;area di lavoro condizioni e completare la definizione di corrispondenza per includere o escludere membri. A seconda del filtro, seleziona _true_ o _false_ oppure scegli _is_ o _is not_. È possibile combinare questi filtri nella stessa condizione di percorso e utilizzare la **[!UICONTROL logica filtro]** per farli corrispondere a uno o a tutti.
 
-Questi filtri sono disponibili anche quando si [aggiungono filtri per un evento](./listen-for-event-nodes.md#membership-filtering) in un nodo _Ascolta un evento_.
+I filtri _[!UICONTROL Membro del gruppo di acquisto]_ e _[!UICONTROL Membro del pubblico profilo]_ sono disponibili anche quando [aggiungi filtri per un evento](./listen-for-event-nodes.md#membership-filtering) in un nodo _Ascolta un evento_.
 
 ![Condizione Dividi percorso per persone per l&#39;acquisto dell&#39;iscrizione al gruppo e al pubblico del profilo](./assets/node-split-people-condition-profile-audience-membership.png){width="700" zoomable="yes"}
 
@@ -289,6 +304,20 @@ Utilizza il vincolo _[!UICONTROL Pubblico profilo]_ per selezionare uno o più t
 >[!NOTE]
 >
 >Il filtro non calcola l’iscrizione al pubblico in tempo reale. Qualifica le persone in base alla loro appartenenza al pubblico selezionato al momento dell’ultima acquisizione batch del pubblico. Solo i tipi di pubblico acquisiti in [!DNL Journey Optimizer B2B Edition] possono essere valutati.
+
+**Membro degli elenchi account**
+
+_(solo percorsi di persone)_
+
+Utilizza i filtri _[!UICONTROL Membro persona dell&#39;elenco statico account]_ e _[!UICONTROL Membro persona dell&#39;elenco dinamico account]_ per indirizzare le persone in base al fatto che il loro account sia membro di un [elenco account](../accounts/account-lists.md). Imposta l&#39;operatore su _is_ per includere le persone il cui account è incluso negli elenchi o _is not_ per escluderli, quindi seleziona uno o più elenchi di account. Ad esempio, per mantenere le persone in account fuori da un percorso di sviluppo, aggiungi il filtro _[!UICONTROL Elenco statico membri persona dell&#39;account]_, imposta l&#39;operatore su _non è_ e seleziona il tuo inserisco nell&#39;elenco Bloccati di.
+
+Per i passaggi, vedi [Dividi nodo percorsi - Membro persona dell&#39;elenco account](../accounts/account-lists-journeys.md#split-paths-member-of-account-list).
+
+**Elenchi membri persone**
+
+Utilizza i filtri _[!UICONTROL Elenco statico membri persona persone]_ e _[!UICONTROL Elenco dinamico persone membro persona]_ per indirizzare le persone in base all&#39;appartenenza a un [elenco persone](../audiences/people-lists.md). Impostare l&#39;operatore su _is_ per includere i membri dell&#39;elenco oppure su _is not_ per escluderli e selezionare uno o più elenchi. Ad esempio, per mantenere dipendenti e partner fuori da un percorso di crescita, aggiungi il filtro _[!UICONTROL Elenco statico membri persona]_, imposta l&#39;operatore su _non è_ e seleziona l&#39;elenco di esclusione.
+
+Per i passaggi, vedere [Dividere i percorsi per appartenenza all&#39;elenco delle persone](../audiences/people-lists-journeys.md#split-paths-by-list-membership).
 
 ## Filtro dati personalizzato {#custom-data-filtering}
 

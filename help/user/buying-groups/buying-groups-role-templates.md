@@ -18,9 +18,9 @@ level_v2:
     internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1454'
 ht-degree: 5%
 ---
 # Modelli di ruoli del gruppo acquisti
@@ -102,8 +102,8 @@ Ogni ruolo definito per il modello utilizza un set di filtri, o _condizioni_, pe
 | ---- | --------- |
 | [!UICONTROL Attributi persona] | Attributi dal [profilo persona](../admin/field-mapping.md#xdm-business-person-attributes), inclusi: <li>Città <li>Paese <li>Indirizzo e-mail <li>E-mail non valida <li>E-mail sospesa <li>Nome <li>Area geografica dello stato dedotta <li>Titolo del processo <li>Cognome <li>Numero di cellulare <li>Punteggio di coinvolgimento della persona <li>Numero di telefono <li>Codice postale <li>Stato |
 | [!UICONTROL Oggetti personalizzati] > Contiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funzione Beta"} L&#39;account o la persona non dispone di record dello schema relazionale. Può anche essere valutato in base a qualsiasi criterio oggetto personalizzato selezionato, come configurato negli [schemi relazionali XDM](../admin/xdm-field-management.md#relational-schemas). |
-| Filtri speciali | <li>Membro dell’elenco (obsoleto) <li>Membro del programma (obsoleto) |
 | Dati di intento | <li>Intento categoria <li>Intento prodotto <li>Intento parola chiave <br/>(vedere [_Dati intento_](../admin/intent-data.md)) |
+| Filtri speciali | <li>[!UICONTROL Ha Relazione Con L&#39;Account] <li>[!UICONTROL Membro del gruppo di acquisto] <li>[!UICONTROL Membro dell&#39;elenco] (obsoleto) <li>[!UICONTROL Membro del pubblico del profilo] <li>[!UICONTROL Utente dell&#39;elenco dinamico Persone] <li>[!UICONTROL Elenco statico membri persona] |
 
 #### Definire le proprietà del ruolo
 

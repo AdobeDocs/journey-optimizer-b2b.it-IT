@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: ef3e184c1782cacc0d5452274b858c0a3d365189
+source-git-commit: 6e7322b04f002d63b127ac68f87fa58a88028921
 workflow-type: tm+mt
-source-wordcount: '5888'
+source-wordcount: '5901'
 ht-degree: 58%
 ---
 # Note sulla versione di Journey Optimizer B2B Edition
@@ -43,10 +43,10 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
-| Funzione | Elenchi di persone | Utilizza elenchi di persone statici e dinamici per eseguire il targeting dei profili in base a criteri definiti, ad esempio attributi demografici e cronologia degli eventi di esperienza. |
-| Funzione | Etichette nodo percorso | Aggiungi etichette ai nodi del percorso per identificarli nell’area di lavoro del percorso. |
-| Miglioramento | Filtro elenco membri della persona | Utilizza il filtro _[!UICONTROL Elenco utenti]_ per includere o escludere profili in base all&#39;appartenenza all&#39;elenco utenti. |
-| Miglioramento | Elenco persone azioni del percorso | Aggiungere o rimuovere persone da elenchi di persone statici tramite percorsi di persone e account. |
+| Funzione | Elenchi di persone | Utilizza elenchi di persone statici e dinamici per eseguire il targeting dei profili in base a criteri definiti, ad esempio attributi demografici e cronologia degli eventi di esperienza. [Ulteriori informazioni](../audiences/people-lists.md) |
+| Funzione | Etichette nodo percorso | Aggiungi etichette ai nodi del percorso per identificarli nell’area di lavoro del percorso. [Ulteriori informazioni](../journeys/create-publish-journey.md#label-a-node). |
+| Miglioramento | Filtri per elenco utenti | Utilizzare i filtri _[!UICONTROL Elenco membri della persona]_ per includere o escludere profili in base all&#39;appartenenza statica o dinamica all&#39;elenco persone. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| Miglioramento | Elenco persone azioni del percorso | Aggiungere o rimuovere persone da elenchi di persone statici tramite percorsi di persone e account. [Ulteriori informazioni](../journeys/action-nodes.md#people-actions) |
 
 >[!NOTE]
 >Queste modifiche alla versione iniziano il 6 novembre 2026, con un rollout graduale di ogni funzione e miglioramento. Le date di rilascio di funzioni e miglioramenti sono soggette a modifiche.
@@ -108,7 +108,7 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | ---- | ---- | ----------- |
 | Funzione | Pagine di destinazione | Le pagine di destinazione sono disponibili in Journey Optimizer B2B Edition per supportare percorsi e programmi _(in precedenza funzionalità di un programma Beta)_. <ul><li>Gli amministratori possono configurare i sottodomini e i predefiniti della pagina di destinazione per abilitarne la pubblicazione. [Ulteriori informazioni](../admin/configure-channels-landing-pages.md)</li><li>Gli addetti al marketing possono creare, progettare e pubblicare pagine di destinazione per supportare i loro percorsi con contenuti web personalizzati. [Ulteriori informazioni](../content/landing-pages.md)</li></ul> |
 | Funzione | Moduli | Journey Optimizer B2B Edition ora supporta componenti modulo riutilizzabili per abilitare l&#39;invio di dati dalle pagine di destinazione _(in precedenza funzionalità di un programma Beta)_. <ul><li>Gli amministratori possono configurare più predefiniti di modulo utilizzando diverse combinazioni di set di dati e connessioni in streaming. [Ulteriori informazioni](../admin/configure-channels-forms.md)</li><li>Gli addetti al marketing possono ora definire componenti di moduli riutilizzabili per acquisire informazioni dai visitatori delle pagine web. [Ulteriori informazioni](../content/forms.md)</li></ul> |
-| Funzione | Membro del filtro relativo a elenchi di account | Utilizzare l&#39;appartenenza all&#39;elenco degli account come punto di orchestrazione nei percorsi di account. Gli addetti al marketing possono creare elenchi Bloccati di account, elenchi di priorità o qualsiasi altro tipo di sottoinsieme del pubblico e fornire esperienze univoche di account in percorsi in base alla loro appartenenza. |
+| Funzione | Membro del filtro relativo a elenchi di account | Utilizzare l&#39;appartenenza all&#39;elenco degli account come punto di orchestrazione nei percorsi di account. Gli addetti al marketing possono creare elenchi Bloccati di account, elenchi di priorità o qualsiasi altro tipo di sottoinsieme del pubblico e fornire esperienze univoche di account in percorsi in base alla loro appartenenza. [Ulteriori informazioni](../accounts/account-lists-journeys.md#split-paths-member-of-account-list) |
 | Funzione | Filtro relativo alla cronologia di eventi esperienza | Questa funzione consente all’orchestrazione di percorso B2B di utilizzare il coinvolgimento storico per indirizzare le decisioni basate sul comportamento per i membri del pubblico. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Funzione | Nodi del percorso migliore successivo | Puoi ottimizzare il split path decisioning per i percorsi di persone, perfezionando il modo in cui i tipi di pubblico vengono instradati tra i percorsi prima dell’attivazione del percorso o in fase di runtime. [Ulteriori informazioni](../journeys/next-best-path-node.md) |
 | Funzione | Dashboard delle prestazioni delle e-mail | La dashboard Prestazioni e-mail offre agli addetti al marketing una visualizzazione unificata delle attività e-mail in tutti i percorsi in Adobe Journey Optimizer B2B Edition. [Ulteriori informazioni](../dashboards/email-performance-dashboard.md) |
