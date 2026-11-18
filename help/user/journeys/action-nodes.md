@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2358'
 ht-degree: 3%
 ---
 # Intraprendere un’azione
@@ -129,10 +129,13 @@ In un percorso di account o persone, utilizza un’azione sulle persone quando d
 | ------- | ------ | ------------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Aggiungi persona a (altro) percorso] | <li>Percorso account (azione sulle persone) <li>Percorso persone | <li>Seleziona percorso persone live |
 | | [!UICONTROL Aggiungi a pubblico cliente esterno] | <li>Percorso di account <li>Percorso persone | <li>Seleziona un pubblico di clienti esterno |
+| | [!UICONTROL Aggiungi all&#39;elenco persone] | <li>Percorso account (azione sulle persone) <li>Percorso persone | <li>Seleziona elenco persone statiche |
 | | [!UICONTROL Assegna al gruppo di acquisto] | <li>Percorso di account | <li>Seleziona l’interesse della soluzione <li>Seleziona ruolo |
 | | [!UICONTROL Momento di interesse della persona] | <li>Percorso di account <li>Percorso persone | <li>Tipo <li>Descrizione |
 | | [!UICONTROL Personalizza esperienza Web] (Beta) | <li>Percorso di account | <li>Creare/modificare un’esperienza web |
 | | [!UICONTROL Rimuovi dal gruppo di acquisto] | <li>Percorso di account | <li>Seleziona l’interesse della soluzione |
+| | [!UICONTROL Rimuovi dall&#39;elenco persone] | <li>Percorso account (azione sulle persone) <li>Percorso persone | <li>Seleziona elenco persone statiche |
+| | [!UICONTROL Rimuovi persona dal Percorso] | <li>Percorso persone | <li>Seleziona percorso persone |
 | | [!UICONTROL Invia e-mail] | <li>Percorso di account <li>Percorso persone | <li>Crea e-mail <li>Ottimizzazione del tempo di invio (facoltativo, solo percorso di persone) |
 | | [!UICONTROL Invia SMS] | <li>Percorso di account | <li>Crea SMS |
 | | [!UICONTROL Invia WhatsApp] | <li>Percorso di account | <li>Crea messaggio WhatsApp |
@@ -180,7 +183,7 @@ Utilizza questa azione per indirizzare le persone a un pubblico esterno che può
 Quando selezioni questa azione basata sulle persone, puoi creare un nuovo pubblico esterno o selezionarlo dall’elenco dei tipi di pubblico esterni esistenti.
 
 * Per i tipi di pubblico esistenti, è possibile scegliere tra tipi di pubblico clienti esterni creati solo in [!DNL Journey Optimizer B2B Edition].
-* Quando crei un pubblico e lo utilizzi per questa azione di percorso, accertati di connettere la destinazione. Per ulteriori informazioni, vedere [Creare una nuova connessione di destinazione](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Panoramica attivazione](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} nella documentazione di [!DNL Experience Platform].
+* Quando crei un pubblico e lo utilizzi per questa azione di percorso, accertati di connettere la destinazione. Per ulteriori informazioni, vedere [Creare una nuova connessione di destinazione](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} e [Panoramica attivazione](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} nella documentazione di [!DNL Experience Platform].
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda una panoramica video per l&#39;orchestrazione a pagamento](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -216,6 +219,16 @@ _Per utilizzare un pubblico esistente :_
 
 +++
 
++++[!UICONTROL Aggiungi all&#39;elenco persone]
+
+Utilizzare questa azione per aggiungere persone a un [elenco persone](../audiences/people-lists.md) statico. Quando una persona raggiunge il nodo dell’azione, il sistema li aggiunge come membro dell’elenco selezionato. Se la persona è già un membro, l’azione viene ignorata.
+
+Fai clic su **[!UICONTROL Seleziona]** per scegliere un elenco di persone statiche, oppure fai clic su **[!UICONTROL Crea]** per creare un nuovo elenco di persone statiche. Per ulteriori informazioni, vedere [Utilizzare gli elenchi di persone nei percorsi](../audiences/people-lists-journeys.md).
+
+![Esegui un&#39;azione - Aggiungi all&#39;elenco persone](./assets/node-action-add-to-people-list.png){width="300"}
+
++++
+
 +++[!UICONTROL Assegna al gruppo di acquisto]
 
 Utilizza questa azione per aggiungere profili di persone a un [gruppo di acquisto](../buying-groups/buying-groups-overview.md) in base all&#39;interesse e al ruolo selezionati per la soluzione.
@@ -245,6 +258,16 @@ Utilizza questa azione per [creare esperienze personalizzate](../content/web-exp
 Utilizza questa azione per rimuovere i profili di persone da un [gruppo di acquisto](../buying-groups/buying-groups-overview.md) in base all&#39;interesse di una soluzione selezionata.
 
 ![Azione - Rimuovi dal gruppo acquisti](./assets/node-action-remove-from-buying-group.png){width="300"}
+
++++
+
++++[!UICONTROL Rimuovi dall&#39;elenco persone]
+
+Utilizzare questa azione per rimuovere persone da un [elenco persone](../audiences/people-lists.md) statico. Quando una persona raggiunge il nodo dell’azione, il sistema lo rimuove dall’elenco selezionato. Se la persona non è un membro, l’azione viene ignorata.
+
+Fai clic su **[!UICONTROL Seleziona]** per scegliere l&#39;elenco di persone statiche. Per ulteriori informazioni, vedere [Utilizzare gli elenchi di persone nei percorsi](../audiences/people-lists-journeys.md).
+
+![Esegui un&#39;azione - Rimuovi dall&#39;elenco persone](./assets/node-action-remove-from-people-list.png){width="300"}
 
 +++
 
@@ -314,7 +337,7 @@ Ad esempio, elimina le campagne in Marketo Engage per gli utenti che fanno parte
 
 +++[!UICONTROL Aggiungi alla campagna di richiesta Marketo]
 
-Utilizzare questa azione per aggiungere profili persone a una [campagna di richieste](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in un&#39;istanza di Marketo Engage connessa.
+Utilizzare questa azione per aggiungere profili persone a una [campagna di richieste](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in un&#39;istanza di Marketo Engage connessa.
 
 Selezionare innanzitutto un&#39;istanza di Marketo Engage connessa. Quindi, seleziona il nome della campagna di richiesta.
 
@@ -324,7 +347,7 @@ Selezionare innanzitutto un&#39;istanza di Marketo Engage connessa. Quindi, sele
 
 +++[!UICONTROL Aggiungi a elenco Marketo]
 
-Utilizzare questa azione per aggiungere persone a un [elenco statico](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in un&#39;istanza di Marketo Engage connessa.
+Utilizzare questa azione per aggiungere persone a un [elenco statico](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in un&#39;istanza di Marketo Engage connessa.
 
 Selezionare innanzitutto un&#39;istanza di Marketo Engage connessa. Quindi, selezionare il nome dell&#39;elenco.
 
@@ -334,7 +357,7 @@ Selezionare innanzitutto un&#39;istanza di Marketo Engage connessa. Quindi, sele
 
 +++[!UICONTROL Rimuovi dall&#39;elenco di Marketo]
 
-Utilizzare questa azione per rimuovere persone da un [elenco statico](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage.
+Utilizzare questa azione per rimuovere persone da un [elenco statico](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage.
 
 Selezionare innanzitutto un&#39;istanza di Marketo Engage connessa. Quindi, selezionare il nome dell&#39;elenco.
 
@@ -344,4 +367,4 @@ Selezionare innanzitutto un&#39;istanza di Marketo Engage connessa. Quindi, sele
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443253/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)

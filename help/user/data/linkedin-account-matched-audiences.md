@@ -29,18 +29,18 @@ level_v2:
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
     internal-label: Cross channel delivery
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1016'
 ht-degree: 14%
 ---
 # Tipi di pubblico associati all&#39;account LinkedIn
 
-[!DNL Journey Optimizer B2B Edition] offre la possibilità di generare tipi di pubblico di LinkedIn Ad tramite i tipi di pubblico corrispondenti all&#39;account ed è progettato per aiutarti a riempire ruoli vuoti nei tuoi gruppi di acquisto. Definendo un set di filtri di gruppi acquisti, puoi mantenere un pubblico associato a LinkedIn per eseguire il targeting dei potenziali clienti che corrispondono ai parametri del gruppo acquisti. Puoi anche attivare un pubblico da un percorso di account da un nodo _Esegui un&#39;azione_.
+[!DNL Journey Optimizer B2B Edition] offre la possibilità di generare tipi di pubblico di LinkedIn Ad tramite i tipi di pubblico corrispondenti all&#39;account ed è progettato per aiutarti a riempire ruoli vuoti nei tuoi gruppi di acquisto. Definendo un set di filtri di gruppi acquisti, puoi mantenere un pubblico associato a LinkedIn per eseguire il targeting dei potenziali clienti che corrispondono ai parametri del gruppo acquisti. Puoi anche attivare un pubblico da un percorso di account da un [_Esegui un&#39;azione_ nodo](../journeys/action-nodes.md).
 
 Questa funzione sfrutta le destinazioni di Experience Platform per gestire alcuni aspetti dell’integrazione. È previsto un limite di dieci flussi di dati.
 
-Prima di avviare un flusso di dati da Journey Optimizer B2B Edition, è necessario disporre di almeno un&#39;istanza del connettore di destinazione LinkedIn [(Companies) LinkedIn MatchedIn](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} con un account LinkedIn Campaign Manager configurato nell&#39;applicazione Experience Platform.
+Prima di avviare un flusso di dati da Journey Optimizer B2B Edition, è necessario disporre di almeno un&#39;istanza del connettore di destinazione LinkedIn [(Companies) LinkedIn MatchedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} con un account LinkedIn Campaign Manager configurato nell&#39;applicazione Experience Platform.
 
 ## Configurare una nuova connessione di account LinkedIn {#linkedin-destination-setup}
 
@@ -91,7 +91,7 @@ Il nome e la descrizione dell’account LinkedIn sono visibili per i gruppi di a
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Attiva l&#39;account per i gruppi di acquisto
+## Attiva l&#39;account per i gruppi di acquisto (#activate-buying-group)
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ A partire dalla versione 2025.10, utilizza l&#39;azione _Attiva su destinazione_
 
 1. Seleziona la destinazione dalla finestra delle proprietà del nodo a destra.
 
-   * Se sono state create una o più destinazioni, è possibile fare clic su **[!UICONTROL Seleziona destinazione]** per scegliere una destinazione esistente.
+   * Se sono state create una o più destinazioni, fare clic su **[!UICONTROL Seleziona destinazione]** per scegliere una destinazione esistente.
 
    * Se non sono presenti destinazioni esistenti o si desidera creare una nuova destinazione, fare clic su **[!UICONTROL Imposta destinazione]**.
 
@@ -171,4 +171,4 @@ A partire dalla versione 2025.10, utilizza l&#39;azione _Attiva su destinazione_
 
 Puoi interagire con i membri dell’account tramite un canale multimediale a pagamento, ad esempio i tipi di pubblico di LinkedIn Ad, per acquisire, coltivare e qualificarli per le vendite. Utilizza un nodo _Esegui un&#39;azione_ in un percorso di account per automatizzare il coinvolgimento con i membri chiave di un account tramite un canale esterno che sia più adatto per i diversi membri dell&#39;account.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448680/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

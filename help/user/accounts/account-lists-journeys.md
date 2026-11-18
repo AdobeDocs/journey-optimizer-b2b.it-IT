@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '914'
 ht-degree: 0%
 ---
 # Utilizzare gli elenchi di account nei percorsi
@@ -89,3 +89,70 @@ Ad esempio, disponi di un percorso di percorso in cui invii un’e-mail e alcuni
 1. Per **[!UICONTROL Selezionare l&#39;elenco di account statici attivi]**, scegliere l&#39;elenco di account in cui si desidera rimuovere gli account.
 
    ![Seleziona Rimuovi dall&#39;elenco account](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
+
+## Dividi nodo percorsi - Membro account dell’elenco account {#split-paths-account-member-of-account-list}
+
+**_Solo percorsi di account_**
+
+Utilizza il filtro _[!UICONTROL Membro account dell&#39;elenco account]_ in un [_nodo percorsi suddivisi_](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-account-node) che si divide per account. L&#39;account è o non è membro di uno o più elenchi di account selezionati. Per includere gli account negli elenchi, impostare l&#39;appartenenza su `true` o impostarla su `false` per escluderli.
+
+Per escludere gli account in un inserisco nell&#39;elenco Bloccati di, aggiungere il filtro _[!UICONTROL Membro account dell&#39;elenco account]_, impostare l&#39;appartenenza su `false` e selezionare l&#39;elenco.
+
+1. Passa alla mappa del percorso.
+
+1. Fare clic sull&#39;icona più ( **+** ) in un percorso e scegliere **[!UICONTROL Dividi percorsi]**.
+
+1. Nelle proprietà del nodo a destra, scegli **[!UICONTROL Account]** per la suddivisione.
+
+1. Per definire una condizione per _[!UICONTROL Percorso 1]_, fare clic su **[!UICONTROL Applica condizione]**.
+
+1. Definisci il filtro dell’elenco dei conti.
+
+   * Nell&#39;editor condizioni, espandere la cartella _[!UICONTROL Filtri speciali]_ e trascinare il filtro **[!UICONTROL Membro account dell&#39;elenco account]** nell&#39;area di lavoro condizioni.
+
+   * Per includere gli account negli elenchi, impostare l&#39;appartenenza su `true` o impostarla su `false` per escluderli.
+
+   * Seleziona uno o più elenchi di account.
+
+   ![Editor condizioni percorso suddiviso con il filtro Membro account dell&#39;elenco account](./assets/account-lists-journeys-split-path-account-filter.png){width="700" zoomable="yes"}
+
+   Puoi combinare il filtro di appartenenza all’elenco degli account con altri filtri e scegliere di soddisfare tutte le condizioni o qualsiasi condizione. Affina le condizioni applicando la **[!UICONTROL logica filtro]** nella parte superiore.
+
+1. Fai clic su **[!UICONTROL Fine]**.
+
+Continuare a configurare il nodo del percorso diviso come descritto in [Aggiungere un percorso diviso per nodo account](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-account-node).
+
+## Dividi nodo percorsi - Membro persona dell’elenco account {#split-paths-member-of-account-list}
+
+**_Solo percorsi di persone_**
+
+Utilizza i filtri di appartenenza all&#39;elenco account in un nodo [_Percorsi suddivisi_](../journeys/split-merge-paths-nodes.md) di un percorso di persone per indirizzare le persone in base al fatto che il loro account sia membro di un elenco di account. Sono disponibili due filtri:
+
+| Filtro | Descrizione |
+| ------ | ----------- |
+| [!UICONTROL Membro persona dell&#39;elenco dinamico account] | L’account della persona è o non è membro di uno o più elenchi di account dinamici. |
+| [!UICONTROL Elenco statico membri persona dell&#39;account] | L’account della persona è o non è membro di uno o più elenchi di account statici. |
+
+Per escludere le persone negli account da un percorso di sviluppo, aggiungere il filtro _[!UICONTROL Membro persona dell&#39;elenco statico account]_, impostare l&#39;operatore su `is not` e selezionare l&#39;elenco.
+
+1. Passa alla mappa del percorso.
+
+1. Fare clic sull&#39;icona più ( **+** ) in un percorso e scegliere **[!UICONTROL Dividi percorsi]**.
+
+1. Per definire una condizione per _[!UICONTROL Percorso 1]_, fare clic su **[!UICONTROL Applica condizione]**.
+
+1. Definire il filtro dell’elenco dei conti
+
+   * Nell&#39;editor condizioni, espandere la cartella _[!UICONTROL Filtri speciali]_ e trascinare il filtro **[!UICONTROL Membro persona dell&#39;elenco dinamico account]** o **[!UICONTROL Membro persona dell&#39;elenco statico account]** nell&#39;area di lavoro condizioni.
+
+   * Per includere persone il cui account è incluso nell&#39;elenco, impostare l&#39;operatore su `is` o impostarlo su `is not` per escluderle.
+
+   * Seleziona uno o più elenchi di account.
+
+     ![Editor condizioni percorso suddiviso con filtri Membro persona dell&#39;elenco account](./assets/account-lists-journeys-split-path-person-member-account-filter.png){width="700" zoomable="yes"}
+
+   Puoi combinare i filtri di appartenenza all’elenco degli account con altri filtri di persone e scegliere di soddisfare tutte le condizioni o qualsiasi condizione. Affina le condizioni applicando la **[!UICONTROL logica filtro]** nella parte superiore.
+
+1. Fai clic su **[!UICONTROL Fine]**.
+
+Continuare a configurare il nodo del percorso diviso come descritto in [Aggiungere un percorso diviso dal nodo persone](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node).
