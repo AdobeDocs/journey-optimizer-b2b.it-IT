@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: dccf8dfaf5376b39a9cd1d3843a37a2d02a81270
+source-git-commit: 6e7322b04f002d63b127ac68f87fa58a88028921
 workflow-type: tm+mt
-source-wordcount: '5899'
+source-wordcount: '5901'
 ht-degree: 58%
 ---
 # Note sulla versione di Journey Optimizer B2B Edition
@@ -44,7 +44,7 @@ Rivedi la [descrizione del prodotto](https://helpx.adobe.com/it/legal/product-de
 | Tipo | Elemento | Descrizione |
 | ---- | ---- | ----------- |
 | Funzione | Elenchi di persone | Utilizza elenchi di persone statici e dinamici per eseguire il targeting dei profili in base a criteri definiti, ad esempio attributi demografici e cronologia degli eventi di esperienza. [Ulteriori informazioni](../audiences/people-lists.md) |
-| Funzione | Etichette nodo percorso | Aggiungi etichette ai nodi del percorso per identificarli nell’area di lavoro del percorso. |
+| Funzione | Etichette nodo percorso | Aggiungi etichette ai nodi del percorso per identificarli nell’area di lavoro del percorso. [Ulteriori informazioni](../journeys/create-publish-journey.md#label-a-node). |
 | Miglioramento | Filtri per elenco utenti | Utilizzare i filtri _[!UICONTROL Elenco membri della persona]_ per includere o escludere profili in base all&#39;appartenenza statica o dinamica all&#39;elenco persone. [Ulteriori informazioni](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | Miglioramento | Elenco persone azioni del percorso | Aggiungere o rimuovere persone da elenchi di persone statici tramite percorsi di persone e account. [Ulteriori informazioni](../journeys/action-nodes.md#people-actions) |
 

@@ -24,14 +24,14 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 9d5641659907d61be992ed218088a023a5211c56
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 6%
+source-wordcount: '1101'
+ht-degree: 5%
 ---
 # Creare e pubblicare un percorso
 
-Per iniziare a utilizzare un percorso, crealo e quindi costruisci i nodi e il flusso del percorso nella mappa del percorso.
+Per iniziare un nuovo percorso, create il percorso e quindi costruite i nodi e il flusso del percorso nella mappa del percorso.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Guarda il video introduttivo](#overview-video)
 
@@ -68,7 +68,7 @@ _Per aggiungere un nuovo percorso :_
 
 +++
 
-## Blocchi predefiniti per la progettazione di percorsi
+## Componenti per la progettazione di percorsi
 
 La mappa del percorso __ è la zona centrale nell&#39;area di lavoro del percorso. È in questa zona che puoi aggiungere nodi di percorso e configurarli. Fai clic su un nodo per aprire il relativo riquadro delle proprietà a destra dell’area di lavoro e impostarlo in base alla progettazione. Un percorso inizia sempre con un nodo di pubblico, in cui puoi definire l’input per il percorso:
 
@@ -87,7 +87,7 @@ Dopo aver creato un percorso di account e aver aggiunto il pubblico, progetta il
 
 ## Guardrail
 
-Per facilitare la creazione di un percorso senza che si verifichino errori, sono presenti le seguenti barre di protezione:
+Per aiutarti a creare un percorso senza errori, sono presenti le seguenti protezioni:
 
 * _Eliminazione di un nodo di percorso suddiviso_: l&#39;eliminazione di un nodo richiede l&#39;eliminazione di tutti i nodi successivi in ciascun percorso.
 * _Eliminazione di un nodo di unione_: un nodo di unione può essere eliminato solo quando vi è un percorso connesso. Per eliminare un nodo di unione, lasciare selezionato un solo percorso.
@@ -97,9 +97,43 @@ Per facilitare la creazione di un percorso senza che si verifichino errori, sono
 
 1. Passa alla mappa del percorso.
 
-1. Fai clic sull&#39;icona più ( **+** ) sul percorso e seleziona il tipo di nodo.
+1. Fai clic sull&#39;icona più ( **+** ) sul percorso e scegli il tipo di nodo.
+
+   ![Fai clic su + e scegli il tipo per aggiungere un nodo di percorso al percorso](./assets/node-add-menu.png){width="400" zoomable="no"}
+
+   I tipi di nodo disponibili dipendono dal tipo di percorso e dal contesto del percorso. Per ulteriori informazioni, vedere [_Nodi di Percorso_](./journey-nodes.md).
 
 1. Imposta le proprietà del nodo a destra.
+
+   Le proprietà dipendono dal tipo di nodo.
+
+## Etichettare un nodo {#label-a-node}
+
+In [!DNL Adobe Journey Optimizer B2B Edition] ogni nodo della mappa di percorso visualizza il nome predefinito, ad esempio _Attendi_ o _Invia e-mail_. Aggiungi le etichette di visualizzazione per distinguere i nodi dello stesso tipo e identificare lo scopo di ciascun passaggio. Ad esempio, utilizza _un intervallo di 48 ore_ o _E-mail di benvenuto_.
+
+Puoi aggiungere un’etichetta di visualizzazione a qualsiasi nodo in un percorso di account o in un percorso di persone.
+
+1. Nella mappa del percorso, seleziona il nodo da etichettare.
+
+1. Nelle proprietà del nodo, immettere il testo nel campo **[!UICONTROL Etichetta di visualizzazione]**.
+
+   L’etichetta può contenere fino a 255 caratteri.
+
+1. Fai clic all’esterno del campo per applicare l’etichetta.
+
+   ![Aggiungi un&#39;etichetta di visualizzazione per distinguere il nodo all&#39;interno del percorso](./assets/node-display-label.png){width="500" zoomable="no"}
+
+   L&#39;etichetta sostituisce il nome predefinito sul nodo nella mappa del percorso.
+
+Per ripristinare il nome predefinito, cancellare il campo **[!UICONTROL Etichetta di visualizzazione]** e fare clic all&#39;esterno del campo.
+
+Quando pubblichi il percorso, l’etichetta di visualizzazione per ciascun nodo viene salvata con il percorso pubblicato.
+
+>[!NOTE]
+>
+>Le etichette di visualizzazione non sono disponibili per i nodi nei percorsi creati prima che questa funzionalità fosse disponibile.
+
+Le etichette dei nodi sono disponibili nello schema `AJOB2B - 1.5.4 - journey node` e nel set di dati `AJOB2B-1_5_4-journey_node`. È possibile eseguire query sulle etichette in [!DNL Adobe Experience Platform] e utilizzarle per il reporting in [!DNL Adobe Customer Journey Analytics]. Per ulteriori informazioni sull&#39;esecuzione di query sui dati esportati, esaminare i [prerequisiti per la query del set di dati](../data/aep-query-examples.md#prerequisites).
 
 ## Eliminare un nodo
 
@@ -111,9 +145,7 @@ Per facilitare la creazione di un percorso senza che si verifichino errori, sono
 
 ## Aggiungere ed eliminare un percorso
 
-1. Passa alla mappa del percorso.
-
-1. Fai clic sull&#39;icona più ( **+** ) sul percorso e aggiungi il [nodo percorso diviso](./split-merge-paths-nodes.md#split-paths).
+1. Nella mappa del percorso, fai clic sull&#39;icona più ( **+** ) sul percorso e aggiungi il [nodo percorso diviso](./split-merge-paths-nodes.md#split-paths).
 
 1. Nelle proprietà del nodo a destra, seleziona **[!UICONTROL Account]**.
 
@@ -121,13 +153,13 @@ Per facilitare la creazione di un percorso senza che si verifichino errori, sono
 
    Per ogni percorso creato nel percorso, nelle proprietà viene visualizzata una nuova scheda percorso.
 
-1. Passa a uno dei percorsi nel percorso e aggiungi i nodi [action](./action-nodes.md) o [event](./listen-for-event-nodes.md) a questo percorso utilizzando l&#39;icona più.
+1. Passa a uno dei percorsi nel percorso e aggiungi i nodi [action](./action-nodes.md) o [event](./listen-for-event-nodes.md) a tale percorso utilizzando l&#39;icona più.
 
 1. Seleziona il nodo [split path](./split-merge-paths-nodes.md) per aprire le proprietà a destra.
 
-   Impossibile eliminare i percorsi con nodi.
+   I percorsi con nodi non possono essere eliminati.
 
-1. Per eliminare questi percorsi, è necessario eliminare prima tutti i nodi del percorso.
+1. Per eliminare un percorso, è necessario eliminare prima tutti i nodi del percorso.
 
 ## Pianificare un percorso
 
@@ -185,4 +217,4 @@ Quando pubblichi un percorso, può iniziare immediatamente o in una data futura 
 
 ## Video di panoramica
 
->[!VIDEO](https://video.tv.adobe.com/v/3443227/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
