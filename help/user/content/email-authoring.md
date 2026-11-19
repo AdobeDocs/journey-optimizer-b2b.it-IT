@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1373'
 ht-degree: 4%
 ---
 # Authoring dei messaggi e-mail
@@ -102,6 +102,10 @@ Puoi personalizzare il contenuto importato in base alle esigenze con gli strumen
 >[!NOTE]
 >
 > Ai modelli salvati possono essere applicate le impostazioni di governance (blocco del contenuto) a uno o più componenti. Lo spazio di progettazione visivo fornisce indicazioni sui componenti bloccati quando si [crea un messaggio e-mail da un modello gestito](./email-authoring-governance.md).
+
+## Aggiungi moduli
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Aggiungere struttura e contenuto {#structure-content}
 
