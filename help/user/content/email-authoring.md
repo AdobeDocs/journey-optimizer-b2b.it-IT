@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1373'
 ht-degree: 4%
 ---
 # Authoring dei messaggi e-mail
@@ -39,7 +39,7 @@ Dopo aver [aggiunto una risorsa e-mail a un nodo di azione del percorso](./add-e
 
 Fai clic su **[!UICONTROL Modifica contenuto e-mail]** nella scheda _[!UICONTROL Dettagli]_ nel pannello di destra.
 
-![Fare clic su Modifica contenuto e-mail &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Fare clic su Modifica contenuto e-mail ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Questa azione avvia gli strumenti di progettazione delle e-mail, in cui puoi scegliere come progettare le e-mail dalle seguenti opzioni:
 
@@ -103,6 +103,10 @@ Puoi personalizzare il contenuto importato in base alle esigenze con gli strumen
 >
 > Ai modelli salvati possono essere applicate le impostazioni di governance (blocco del contenuto) a uno o più componenti. Lo spazio di progettazione visivo fornisce indicazioni sui componenti bloccati quando si [crea un messaggio e-mail da un modello gestito](./email-authoring-governance.md).
 
+## Aggiungi moduli
+
+{{$include /help/_includes/content-design-modules.md}}
+
 ## Aggiungere struttura e contenuto {#structure-content}
 
 {{$include /help/_includes/content-design-components.md}}
@@ -115,7 +119,7 @@ Con almeno un componente di contenuto nell&#39;area di lavoro, seleziona il comp
 
 >[!NOTE]
 >
->Se il messaggio di posta elettronica è progettato utilizzando un modello [&#x200B; con contenuto bloccato](./template-content-governance.md), non è possibile aggiungere CSS personalizzati al contenuto. L&#39;etichetta del pulsante diventa **[!UICONTROL Visualizza CSS personalizzato]** ed eventuali CSS personalizzati già presenti nel contenuto sono di sola lettura.
+>Se il messaggio di posta elettronica è progettato utilizzando un modello [ con contenuto bloccato](./template-content-governance.md), non è possibile aggiungere CSS personalizzati al contenuto. L&#39;etichetta del pulsante diventa **[!UICONTROL Visualizza CSS personalizzato]** ed eventuali CSS personalizzati già presenti nel contenuto sono di sola lettura.
 
 ![Accedere agli stili del corpo](./assets/email-body-styles.png){width="800" zoomable="yes"}
 

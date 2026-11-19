@@ -31,14 +31,18 @@ topic_v2:
     internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 7%
 ---
 # Progettazione modello pagina di destinazione
 
-Dopo aver [creato un modello di pagina di destinazione](./landing-page-templates.md#create-a-landing-page-template), utilizza lo spazio di progettazione visiva per creare i componenti struttura e contenuto nel modello di pagina.
+Dopo aver [creato un modello di pagina di destinazione](./landing-page-templates.md#create-a-landing-page-template), utilizza lo spazio di progettazione visiva per definire il layout e il contenuto per il modello di pagina.
+
+## Aggiungi moduli
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Aggiungere struttura e contenuto {#structure-content-landing-page}
 
